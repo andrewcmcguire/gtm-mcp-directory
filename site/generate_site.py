@@ -88,12 +88,12 @@ HEADERS = """/*
 
 REPO_URL = "https://github.com/andrewcmcguire/gtm-mcp-directory"  # live
 ISSUE_URL = REPO_URL + "/issues/new?template=tool-submission.yml"  # live
-SITE_ROUTE = "andrewcmcguire.com/mcp-directory"
+SITE_ROUTE = "andrewcmcguire.com/gtm-directory"
 # NOT YET ROUTED. The site is live on its Cloudflare Pages subdomain; this is the URL the runbook
 # targets, and it is the base for the canonical tags, the sitemap and llms.txt. If the deploy takes
 # the subdomain fallback instead, change this one constant and rebuild: every internal link on the
 # site is relative and unaffected.
-SITE_BASE = "https://andrewcmcguire.com/mcp-directory"
+SITE_BASE = "https://andrewcmcguire.com/gtm-directory"
 PACKAGE_NAME = "gtm-mcp-directory"
 SERVER_ID = "gtm-directory"
 

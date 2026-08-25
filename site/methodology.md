@@ -132,7 +132,7 @@ The vocabulary is closed on purpose. A tool whose job genuinely is not in the li
 
 **The canonical URL and the base this site is published at**
 
-Every internal link on this site is relative, so the same files serve correctly from a Pages subdomain, from a path on andrewcmcguire.com, or from a file:// path with no network at all. The canonical tags, the sitemap and llms.txt need an absolute base, and that base is https://andrewcmcguire.com/mcp-directory. That is where the site is headed, not where it is serving from today: this build is live on its Cloudflare Pages subdomain and the path on andrewcmcguire.com is not routed yet. When that route lands, the one constant changes and the site is rebuilt. It is disclosed here rather than left to look like a live URL.
+Every internal link on this site is relative, so the same files serve correctly from a Pages subdomain, from a path on andrewcmcguire.com, or from a file:// path with no network at all. The canonical tags, the sitemap and llms.txt need an absolute base, and that base is https://andrewcmcguire.com/gtm-directory. That is where the site is headed, not where it is serving from today: this build is live on its Cloudflare Pages subdomain and the path on andrewcmcguire.com is not routed yet. When that route lands, the one constant changes and the site is rebuilt. It is disclosed here rather than left to look like a live URL.
 
 **The markdown twins and what they are for**
 

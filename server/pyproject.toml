@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://andrewcmcguire.com/mcp-directory"
+Homepage = "https://andrewcmcguire.com/gtm-directory"
 Repository = "https://github.com/andrewcmcguire/gtm-mcp-directory"
 
 [project.scripts]

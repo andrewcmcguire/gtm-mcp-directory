@@ -3,8 +3,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://andrewcmcguire.com/mcp-directory/sitemap.xml
+Sitemap: https://andrewcmcguire.com/gtm-directory/sitemap.xml
 # Machine readable map of the site, for agents:
-# https://andrewcmcguire.com/mcp-directory/llms.txt
+# https://andrewcmcguire.com/gtm-directory/llms.txt
 # The whole dataset as JSON:
-# https://andrewcmcguire.com/mcp-directory/data/directory.json
+# https://andrewcmcguire.com/gtm-directory/data/directory.json

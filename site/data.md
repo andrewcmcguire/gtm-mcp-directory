@@ -98,4 +98,4 @@ Facts about third party products are recorded from those vendors' own public sou
 
 - **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: a9ecb43666b5537e870f2377...
 
-The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/mcp-directory, which is the site's intended home and not yet routed. See the [methodology page](methodology.md).
+The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, which is the site's intended home and not yet routed. See the [methodology page](methodology.md).

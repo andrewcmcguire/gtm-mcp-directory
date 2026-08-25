@@ -5,6 +5,7 @@ AI agent actually call this, and can a solo operator get in without a
 procurement cycle.**
 
 Browse it: **https://gtm-mcp-directory.pages.dev**
+(its home is andrewcmcguire.com/gtm-directory once that route is live)
 Query it from your agent: the MCP server in [`server/`](server/).
 The whole dataset, no key, no signup: [`data/directory.json`](data/directory.json).
 
@@ -92,7 +93,7 @@ drift. [`/llms.txt`](https://gtm-mcp-directory.pages.dev/llms.txt) is the map,
 and [`/data.html`](https://gtm-mcp-directory.pages.dev/data.html) documents the
 JSON and the three most common ways to read it wrong.
 
-> The canonical URLs in the sitemap point at `andrewcmcguire.com/mcp-directory`,
+> The canonical URLs in the sitemap point at `andrewcmcguire.com/gtm-directory`,
 > which is where the site is headed. That route is not live yet. The site is
 > serving from the Pages subdomain above, and the site discloses this on its own
 > methodology page rather than letting a dead URL look live.
