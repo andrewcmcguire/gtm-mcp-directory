@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Submit a GTM tool: listing is free, placement is not for sale</title>
+<meta name="description" content="Anyone can submit a tool or a correction. Every submission is verified against public sources before it is listed, and the verification is the product. BENCH-TESTED cannot be bought at any price.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/submit.html">
+<link rel="alternate" type="text/markdown" href="submit.md">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submit a tool to The GTM MCP Directory",
+  "url": "https://andrewcmcguire.com/mcp-directory/submit.html",
+  "description": "Listing is free, verification is mandatory, and placement is not for sale. The ten step checklist every submission goes through."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submit",
+      "item": "https://andrewcmcguire.com/mcp-directory/submit.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="tools/index.html">Tools</a>
+<a href="categories/index.html">Categories</a>
+<a href="jobs/index.html">Jobs</a>
+<a href="lists/index.html">Lists</a>
+<a href="learn/index.html">Learn</a>
+<a href="mcp/index.html">MCP status</a>
+<a href="gates/index.html">Gate</a>
+<a href="methodology.html">Method</a>
+<a href="data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="index.html">Directory</a> / Submit</div>
+<section style="padding-top:18px">
+<div class="eyebrow">Submit a tool</div>
+<h2>Listing is free. Verification is mandatory. Placement is not for sale.</h2>
+<p class="sub">Anyone can submit a tool. Every submission is verified against public sources before
+it is listed, and the verification is the product. No vendor can pay to be listed, to be listed
+sooner, to rank higher, to be featured, to remove a none-found, or to soften a note. There is no
+sponsored tier and there will not be one.</p>
+<p class="sub">BENCH-TESTED cannot be bought at any price. It means Andrew personally ran the tool on
+a stated date. A vendor can offer access so a bench test becomes possible, that offer is recorded in
+the entry's notes, and the offer buys a test, never a verdict. The verdict ships whatever it says.</p>
+<div class="btnrow">
+<a class="btn solid" href="https://github.com/andrewcmcguire/gtm-mcp-directory/issues/new?template=tool-submission.yml" rel="noopener">Open the submission form</a>
+<a class="btn ghost" href="methodology.html">Read the methodology first</a>
+</div>
+<div class="note"><b>How the queue works</b>
+The submission queue is a GitHub issue form on the public gtm-mcp-directory repo, and it is open. A
+submission is free and it is not a listing: nothing lands in the data until the claims below are
+checked by hand against the vendor's own documentation.</div>
+
+<div class="field"><div class="k">What the form asks for</div><div class="v">
+<p>Vendor and product name, vendor URL, a suggested category from the 15 on file,
+one plain sentence on what it does, whether an MCP server exists and who built it, the MCP URL if
+one is claimed, the auth model, the API documentation URL, a public GitHub org if there is one,
+whether a solo operator can get API access, and one optional box for anything the tool does badly.
+That last one is the most interesting box on the form.</p>
+<p style="margin-top:10px">Contact name, role and email are collected and never published. They are
+used to ask follow up questions and nothing else.</p>
+</div></div>
+
+<div class="field"><div class="k">What happens after you submit</div><div class="v">
+<p>1. The vendor URL is fetched live and has to resolve, return 200, and describe the product.</p>
+<p>2. The product is checked against all 293 existing entries by normalised name,
+because 16 deliberate cross listings already exist.</p>
+<p>3. If an MCP is claimed, the URL is fetched. A 200 passes. A 401 passes, because an auth gated
+live endpoint is still a live endpoint. A 403 is inconclusive and gets re-checked by hand. A 404
+means the claim fails and the entry is recorded none-found, not official.</p>
+<p>4. Official means first party. A third party wrapper is recorded as community.</p>
+<p>5. The access gate is determined independently from published pricing or docs, with a source URL,
+not from what the submitter said. If the two disagree, ours ships and the disagreement goes in the
+notes.</p>
+<p>6. What it does is rewritten in plain language. Vendor copy never ships as the description.</p>
+<p>7. AI features are separated from automation with an AI label on it. Every existing entry does
+this and a new one does not get a pass.</p>
+<p>8. At least two independent sources, and the vendor's own site cannot be both of them.</p>
+<p>9. Tier is RESEARCHED and last_checked is the date the checklist was completed. Never
+BENCH-TESTED. A submitted entry cannot be bench tested by definition.</p>
+<p>10. The counter is re-run and the index table is regenerated from its output, never hand edited.</p>
+<p style="margin-top:10px">Target turnaround is 14 days.</p>
+</div></div>
+
+<div class="field"><div class="k">The acknowledgement you sign</div><div class="v">
+<p>"I understand listing is free, that Andrew verifies every claim independently, that nothing here
+can be paid for, and that a BENCH-TESTED tier can only be earned by Andrew running the tool
+himself."</p>
+</div></div>
+
+<div class="field"><div class="k">If your tool is already listed and something is wrong</div><div class="v">
+<p>Open an issue on the same repo naming the entry and the field. A correction is the most valuable
+thing anyone can send. The whole reason this is free and public is that other operators correct it
+faster than one person can re-check 293 entries.</p>
+<p style="margin-top:10px">If you would rather not be crawled, say so and you are removed from the
+crawl. The entry keeps its documentation URL and a note. It does not get delisted, because delisting
+for asking would be a punishment and this directory does not punish.</p>
+</div></div>
+
+</section>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="categories/index.html">By category</a></li>
+      <li><a href="mcp/index.html">By MCP status</a></li>
+      <li><a href="gates/index.html">By access gate</a></li>
+      <li><a href="jobs/index.html">By job</a></li>
+      <li><a href="github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="methodology.html">How an entry is made</a></li>
+      <li><a href="submit.html">Submit a tool, free</a></li>
+      <li><a href="learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="llms.txt">llms.txt</a></li>
+      <li><a href="data.html">The public data endpoint</a></li>
+      <li><a href="data/directory.json">directory.json</a></li>
+      <li><a href="search-index.json">search-index.json</a></li>
+      <li><a href="sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="submit.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

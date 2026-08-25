@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How do I audit my GTM stack for agent readiness? A four column spreadsheet</title>
+<meta name="description" content="A repeatable audit of your own stack: four columns, one row per tool, and the three numbers that tell you whether an agent can do anything useful in it.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/learn/how-do-i-audit-my-gtm-stack-for-agent-readiness.html">
+<link rel="alternate" type="text/markdown" href="how-do-i-audit-my-gtm-stack-for-agent-readiness.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I audit my GTM stack for agent readiness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "List every tool you pay for, then fill four columns: does it have an MCP server, who built it, how does it authenticate, and can you get API access on your current contract. Sort by the jobs you actually need. The gaps are your roadmap and usually two or three of them matter."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Learn",
+      "item": "https://andrewcmcguire.com/mcp-directory/learn/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How do I audit my GTM stack for agent readiness?",
+      "item": "https://andrewcmcguire.com/mcp-directory/learn/how-do-i-audit-my-gtm-stack-for-agent-readiness.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/index.html">Tools</a>
+<a href="../categories/index.html">Categories</a>
+<a href="../jobs/index.html">Jobs</a>
+<a href="../lists/index.html">Lists</a>
+<a href="../learn/index.html" aria-current="page">Learn</a>
+<a href="../mcp/index.html">MCP status</a>
+<a href="../gates/index.html">Gate</a>
+<a href="../methodology.html">Method</a>
+<a href="../data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs" style="padding-bottom:0"><a href="../index.html">Directory</a> /
+<a href="index.html">Learn</a> / How to actually do it</div>
+<div class="qhead">
+<div class="eyebrow">How to actually do it</div>
+<h1>How do I audit my GTM stack for agent readiness?</h1>
+</div>
+<div class="answerbox"><div class="lab">The short answer</div><p>List every tool you pay for, then fill four columns: does it have an MCP server, who built it, how does it authenticate, and can you get API access on your current contract. Sort by the jobs you actually need. The gaps are your roadmap and usually two or three of them matter.</p></div>
+<div class="prose">
+
+<h2>The four columns</h2>
+<ol>
+<li><b>Server.</b> Official, community, none found, or unknown. Look it up on the tool's page here,
+then confirm against the vendor's own developer documentation.</li>
+<li><b>Maintainer.</b> Official means first party and nothing else. A wrapper from an integration
+platform is community, whoever built it.</li>
+<li><b>Auth.</b> OAuth, API key, or both. This decides what your security review will say and how
+much of your account a leaked credential exposes.</li>
+<li><b>Your access.</b> Not the published gate, your actual contract. Plenty of enterprise gated
+tools are wide open to a customer who already has the agreement, which is why
+22
+entries here ship an official server behind a gate that is irrelevant if you are already inside
+it.</li>
+</ol>
+<h2>Then sort by job, not by category</h2>
+<p>A stack audit by category tells you what you bought. An audit by job tells you what an agent can
+do. Take the five or six jobs your team actually needs, and check coverage on each one against the
+55 job pages here. The <a href="../jobs/index.html">jobs index</a> carries the official
+server count and the solo reachable count for every one of them.</p>
+<h2>The three numbers to write at the top</h2>
+<ul>
+<li><b>Reachable share.</b> How many of your tools an agent can call at all. The directory wide
+figure is 56%, so anything above that is a good stack for this.</li>
+<li><b>The broken link.</b> The one job in your critical chain with no coverage. There is almost
+always exactly one, and it is worth more attention than the other nine.</li>
+<li><b>Write surface.</b> How many of your reachable tools can change something rather than only
+read. That number is your risk register.</li>
+</ul>
+<h2>Then do the boring part</h2>
+<p>Re-run it quarterly. This is the fastest moving column in the whole dataset: the same audit six
+months from now will have different answers, and the only way to see the movement is to have written
+the first one down with dates on it. That is exactly why every number on this site ships with the
+date it was measured.</p>
+<h2>Sources</h2>
+<ul class="srcs"><li><a href="../jobs/index.html">The GTM MCP Directory, by job</a> <span class="dom">this site</span></li><li><a href="../data.html">The GTM MCP Directory, the counted data</a> <span class="dom">this site</span></li><li><a href="../methodology.html">The GTM MCP Directory, methodology</a> <span class="dom">this site</span></li></ul>
+<p class="note">Every number on this page is generated from directory.json at build time and carries
+the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is
+estimated. The underlying data is <a href="../data.html">published in full</a>. Where the honest
+answer is a zero, the zero is printed.</p>
+<h2>Related questions</h2><ul class="srcs"><li><a href="what-does-agent-ready-mean.html">What does agent ready mean for a GTM tool?</a></li><li><a href="how-do-i-check-if-a-tool-has-an-mcp-server.html">How do I check whether a tool has an MCP server?</a></li><li><a href="which-gtm-categories-are-most-agent-ready.html">Which GTM tool categories are most usable by AI agents?</a></li><li><a href="what-is-a-gtm-tech-stack.html">What is a GTM tech stack?</a></li></ul>
+<h2>In the directory</h2><div class="btnrow"><a class="btn ghost" href="../jobs/index.html">Every job</a><a class="btn ghost" href="../data.html">The data endpoint</a></div>
+</div>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="../categories/index.html">By category</a></li>
+      <li><a href="../mcp/index.html">By MCP status</a></li>
+      <li><a href="../gates/index.html">By access gate</a></li>
+      <li><a href="../jobs/index.html">By job</a></li>
+      <li><a href="../github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology.html">How an entry is made</a></li>
+      <li><a href="../submit.html">Submit a tool, free</a></li>
+      <li><a href="../learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="../lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data.html">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="how-do-i-audit-my-gtm-stack-for-agent-readiness.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

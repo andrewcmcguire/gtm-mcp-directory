@@ -1,0 +1,204 @@
+name: Submit your tool
+description: Get a GTM tool listed in The GTM MCP Directory. Free, and it cannot be paid for.
+title: "[Submission] "
+labels: ["submitted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Listing is free and a submission is not a listing.**
+
+        Every claim below is verified by hand against your own public documentation
+        before anything lands in the data. If you claim an MCP server, the URL has to
+        resolve. Nothing here can be bought, and the `BENCH-TESTED` tier can only be
+        earned by Andrew running the tool himself.
+
+        Corrections to an existing entry are welcome through this same form. The
+        fastest way to get one accepted is a link to the page that contradicts what
+        we publish.
+
+  - type: input
+    id: vendor_name
+    attributes:
+      label: Company / vendor name
+      placeholder: Acme Inc
+    validations:
+      required: true
+
+  - type: input
+    id: product_name
+    attributes:
+      label: Product name, exactly as it should be listed
+      placeholder: Acme Signal
+    validations:
+      required: true
+
+  - type: input
+    id: vendor_url
+    attributes:
+      label: Vendor URL
+      description: Must resolve, and the product must actually be described on the page.
+      placeholder: https://acme.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      description: Pick the closest. We make the final call.
+      options:
+        - data-enrichment
+        - engagement-outbound
+        - conversation-intel
+        - ai-sdr-agents
+        - signals-intent-abm
+        - revops-infra
+        - mcp-infrastructure
+        - video-prospecting
+        - email-deliverability
+        - scheduling-routing
+        - enablement-coaching
+        - forecasting-revenue
+        - proposals-deals
+        - inbound-plg-chat
+        - community-dark-social
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_it_does
+    attributes:
+      label: What it does, in one plain sentence
+      description: >
+        A starting point only. We rewrite every description in the directory's own
+        voice, so marketing copy is wasted here. Say what the thing does.
+      placeholder: Watches for job-change signals on tracked contacts and pushes them into a CRM.
+    validations:
+      required: true
+
+  - type: textarea
+    id: jobs
+    attributes:
+      label: Which jobs does it do
+      description: >
+        Paste the job slugs that apply, one per line, from the 55 in the vocabulary:
+        https://gtm-mcp-directory.pages.dev/jobs/
+        If nothing fits, describe the job in plain words and it routes to a vocabulary
+        review rather than becoming a new tag on the spot.
+      placeholder: |
+        enrich-person-from-linkedin-url
+        detect-job-change-signal
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mcp_status
+    attributes:
+      label: Do you have an MCP server?
+      description: >
+        "Official" means first-party, built by you. An auto-generated Zapier,
+        viaSocket or Composio connector page is NOT an official MCP server and will
+        be recorded as none-found.
+      options:
+        - Official (first-party, built by us)
+        - Community (third-party, not ours)
+        - No
+        - Planned, not shipped
+    validations:
+      required: true
+
+  - type: input
+    id: mcp_url
+    attributes:
+      label: MCP URL
+      description: >
+        REQUIRED if you answered Official or Community. A claim without a working URL
+        is not accepted. 200 passes. 401 passes, as proof of an auth-gated live
+        endpoint. 404 or no-resolve means the claim fails and the entry is recorded
+        as none-found.
+      placeholder: https://github.com/acme/acme-mcp
+    validations:
+      required: false
+
+  - type: dropdown
+    id: auth_model
+    attributes:
+      label: MCP / API auth model
+      options:
+        - API key
+        - OAuth
+        - Session cookie
+        - Paid seat required
+        - Enterprise agreement required
+        - Not applicable
+    validations:
+      required: false
+
+  - type: input
+    id: docs_url
+    attributes:
+      label: API documentation URL
+      description: Required if a public API exists.
+      placeholder: https://docs.acme.com/api
+    validations:
+      required: false
+
+  - type: input
+    id: github_url
+    attributes:
+      label: Public GitHub org or repo
+      placeholder: https://github.com/acme
+    validations:
+      required: false
+
+  - type: dropdown
+    id: api_gate
+    attributes:
+      label: Can a solo operator get API access?
+      description: >
+        Answered by you, then independently verified. This is the field the directory
+        exists for, so it gets checked hardest.
+      options:
+        - Free to start
+        - Paid, self-serve (no sales call)
+        - Enterprise only (sales call required)
+    validations:
+      required: true
+
+  - type: textarea
+    id: weaknesses
+    attributes:
+      label: Anything the tool does badly, or does not do
+      description: >
+        Optional, and the most interesting box on this form. Naming a real limit
+        makes the rest of your submission easier to believe.
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact name and role
+      placeholder: Jane Doe, Head of Product
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **On your email address:** do not put it in this public issue. Replies come
+        back on this issue thread. If you need a private channel instead, say so here
+        and use the contact link on the site.
+
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: >
+            I understand listing is free, that Andrew verifies every claim
+            independently, that nothing here can be paid for, and that a BENCH-TESTED
+            tier can only be earned by Andrew running the tool himself.
+          required: true

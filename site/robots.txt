@@ -1,0 +1,10 @@
+# The GTM MCP Directory. Everything here is public and free to read, by anyone,
+# including machines. There is no backend, so nothing about you is logged.
+User-agent: *
+Allow: /
+
+Sitemap: https://andrewcmcguire.com/mcp-directory/sitemap.xml
+# Machine readable map of the site, for agents:
+# https://andrewcmcguire.com/mcp-directory/llms.txt
+# The whole dataset as JSON:
+# https://andrewcmcguire.com/mcp-directory/data/directory.json

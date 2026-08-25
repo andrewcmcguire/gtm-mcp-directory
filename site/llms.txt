@@ -1,0 +1,147 @@
+# The GTM MCP Directory
+
+> 293 go to market software entries, each recording whether an AI agent can call it through an MCP server, who maintains that server, and whether a solo operator can get API access without a contract. 144 entries have an official MCP server. Baked 2026-08-25 by build_directory.py (phase 1), reconciled against tools_recount.py. Every number on the site is generated from the data file below at build time.
+
+This file exists because the directory publishes what it measures. A directory of tools an agent can read that was not itself readable by an agent would be a joke at its own expense.
+
+## How to use this site as a machine
+
+- [directory.json](https://andrewcmcguire.com/mcp-directory/data/directory.json): the whole dataset, every entry, every field, every source URL. Start here. No key, no rate limit, no signup.
+- [build_report.json](https://andrewcmcguire.com/mcp-directory/data/build_report.json): the counting authority's report, field coverage, and every place this build is thin, named rather than padded.
+- [search-index.json](https://andrewcmcguire.com/mcp-directory/search-index.json): one compact record per unique product, 277 of them.
+- [The data page](https://andrewcmcguire.com/mcp-directory/data.html): what every field means and how to read it without getting it wrong.
+- **Markdown twins**: every HTML page on this site has a markdown twin at the same path with a `.md` extension. Same content, no navigation, no styling, no scripts. Links inside a twin point at other twins, so the whole site is crawlable in markdown. Example: `https://andrewcmcguire.com/mcp-directory/learn/what-is-an-mcp-server.md`.
+- [sitemap.xml](https://andrewcmcguire.com/mcp-directory/sitemap.xml): all 461 pages.
+
+## The vocabulary, so an answer quoted from here is not wrong
+
+- **Official MCP** means the vendor ships and maintains the server itself. A wrapper built by a third party integration platform is recorded as community, not official.
+- **None found** is a statement about a search on a stated date, not a claim that no server exists. Every entry carries its own last_checked date.
+- **Unknown** is a legal answer and is published as unknown rather than guessed.
+- **A job tag** means the vendor says the tool does this. It is not a test result.
+- **BENCH-TESTED** means somebody personally ran the tool on a stated date. 0 entries are bench tested. Every other entry is RESEARCHED: facts from public sources with URLs, no usage claims.
+- There are **no tool versus tool verdicts** anywhere on this site, and no rankings that can be purchased. The ordering rule is published and computed.
+
+## The counts, as of the build date
+
+- Entries: 293 across 15 categories. Unique products: 277. Cross listed: 16.
+- MCP status: 144 official, 21 community, 117 none found, 7 unknown, 4 not applicable.
+- API gate: 57 free to start, 101 paid self serve, 45 enterprise only, 1 enterprise leaning, 83 unknown, 6 not applicable.
+- Free to start or paid self serve: 158.
+- Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 117. This is the strictest useful filter on the site.
+- Jobs: 55 in 10 families, 827 tags across 271 entries. 22 entries are untagged and each records why.
+- Bench tested: 0.
+
+## Key pages
+
+- [The directory front page](https://andrewcmcguire.com/mcp-directory/index.html): the stat block, the capability search, and the MCP coverage of all 15 categories.
+- [Methodology](https://andrewcmcguire.com/mcp-directory/methodology.html): how an entry is made, the two honesty tiers, and every place this build is thin, named.
+- [Every tool A to Z](https://andrewcmcguire.com/mcp-directory/tools/index.html): 277 product pages.
+- [By category](https://andrewcmcguire.com/mcp-directory/categories/index.html): 15 categories with their coverage.
+- [By job](https://andrewcmcguire.com/mcp-directory/jobs/index.html): 55 jobs phrased the way an agent asks for them.
+- [By MCP status](https://andrewcmcguire.com/mcp-directory/mcp/index.html) and [by access gate](https://andrewcmcguire.com/mcp-directory/gates/index.html).
+- [Submit a tool or a correction](https://andrewcmcguire.com/mcp-directory/submit.html): free, and placement is not for sale.
+
+## The lists, which are the fastest answers to the most common questions
+
+- [The 144 GTM tools with an official MCP server](https://andrewcmcguire.com/mcp-directory/lists/official-mcp-servers.html): 144 entries. The full list of 144 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-08-25.
+- [The 21 GTM tools with a community MCP server](https://andrewcmcguire.com/mcp-directory/lists/community-mcp-servers.html): 21 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-08-25 across 293 directory entries.
+- [The 117 GTM tools with no MCP server found](https://andrewcmcguire.com/mcp-directory/lists/no-mcp-server.html): 117 entries. 117 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-08-25.
+- [The 57 GTM tools a solo operator can call for free](https://andrewcmcguire.com/mcp-directory/lists/free-api-tiers.html): 57 entries. 57 go to market tools where a solo operator can get API access without talking to anyone. 44 of them also have an MCP server. Counted 2026-08-25.
+- [The 117 GTM tools an agent can call and a solo operator can pay for](https://andrewcmcguire.com/mcp-directory/lists/solo-reachable.html): 117 entries. 117 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-25.
+- [The 46 GTM tools that need a contract before an agent can touch them](https://andrewcmcguire.com/mcp-directory/lists/enterprise-gated.html): 46 entries. 45 enterprise only entries plus 1 enterprise leaning. 22 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-08-25.
+- [GTM MCP servers that use OAuth](https://andrewcmcguire.com/mcp-directory/lists/auth-oauth.html): 46 entries. 46 of the 165 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+- [GTM MCP servers that use an API key](https://andrewcmcguire.com/mcp-directory/lists/auth-api-key.html): 44 entries. 44 of the 165 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+- [GTM MCP servers that accept OAuth or an API key](https://andrewcmcguire.com/mcp-directory/lists/auth-either.html): 45 entries. 45 of the 165 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+- [GTM MCP servers behind a third party connector platform](https://andrewcmcguire.com/mcp-directory/lists/auth-third-party.html): 4 entries. 4 of the 165 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+- [GTM MCP servers with no auth model recorded](https://andrewcmcguire.com/mcp-directory/lists/auth-unrecorded.html): 26 entries. 26 of the 165 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+- [GTM tools by MCP auth type](https://andrewcmcguire.com/mcp-directory/lists/auth-types.html): 165 entries. How the 165 GTM tools with an MCP server authenticate: OAuth, API key, both, or not recorded, with the verbatim auth field on every row.
+- [Data & Enrichment tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-data-enrichment.html): 33 entries. 33 of the 38 data & enrichment tools in The GTM MCP Directory have an MCP server: 31 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Engagement & Outbound tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-engagement-outbound.html): 17 entries. 17 of the 27 engagement & outbound tools in The GTM MCP Directory have an MCP server: 15 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Conversation Intel tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-conversation-intel.html): 20 entries. 20 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 17 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [AI SDR tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-ai-sdr-agents.html): 6 entries. 6 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 4 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Signals & Intent tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-signals-intent-abm.html): 18 entries. 18 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 17 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [RevOps infrastructure tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-revops-infra.html): 22 entries. 22 of the 23 revops infra tools in The GTM MCP Directory have an MCP server: 22 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [MCP Layer tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-mcp-infrastructure.html): 7 entries. 7 of the 13 mcp layer tools in The GTM MCP Directory have an MCP server: 7 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Video Prospecting tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-video-prospecting.html): 9 entries. 9 of the 14 video prospecting tools in The GTM MCP Directory have an MCP server: 3 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Email Deliverability tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-email-deliverability.html): 4 entries. 4 of the 13 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Scheduling & Routing tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-scheduling-routing.html): 8 entries. 8 of the 14 scheduling & routing tools in The GTM MCP Directory have an MCP server: 6 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Enablement & Coaching tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-enablement-coaching.html): 2 entries. 2 of the 14 enablement & coaching tools in The GTM MCP Directory have an MCP server: 1 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Forecasting & Revenue tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-forecasting-revenue.html): 3 entries. 3 of the 17 forecasting & revenue tools in The GTM MCP Directory have an MCP server: 3 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Proposals & Deals tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-proposals-deals.html): 7 entries. 7 of the 14 proposals & deals tools in The GTM MCP Directory have an MCP server: 7 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Inbound & PLG Chat tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-inbound-plg-chat.html): 5 entries. 5 of the 15 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 5 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+- [Community & Dark Social tools with an MCP server](https://andrewcmcguire.com/mcp-directory/lists/mcp-community-dark-social.html): 4 entries. 4 of the 16 community & dark social tools in The GTM MCP Directory have an MCP server: 2 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+
+## Learn: 53 questions answered from the data
+
+### Definitions
+
+- [What is an MCP server?](https://andrewcmcguire.com/mcp-directory/learn/what-is-an-mcp-server.html)
+- [What is the Model Context Protocol?](https://andrewcmcguire.com/mcp-directory/learn/what-is-the-model-context-protocol.html)
+- [What is a GTM engineer?](https://andrewcmcguire.com/mcp-directory/learn/what-is-a-gtm-engineer.html)
+- [What is an AI SDR?](https://andrewcmcguire.com/mcp-directory/learn/what-is-an-ai-sdr.html)
+- [What does agent ready mean for a GTM tool?](https://andrewcmcguire.com/mcp-directory/learn/what-does-agent-ready-mean.html)
+- [What is an AI agent in sales?](https://andrewcmcguire.com/mcp-directory/learn/what-is-an-ai-agent-in-sales.html)
+- [What is the difference between an official and a community MCP server?](https://andrewcmcguire.com/mcp-directory/learn/official-vs-community-mcp-server.html)
+- [What is the difference between a local and a remote MCP server?](https://andrewcmcguire.com/mcp-directory/learn/stdio-vs-remote-mcp-servers.html)
+- [What is an MCP client?](https://andrewcmcguire.com/mcp-directory/learn/what-is-an-mcp-client.html)
+- [What are MCP tools, resources and prompts?](https://andrewcmcguire.com/mcp-directory/learn/what-are-mcp-tools-resources-and-prompts.html)
+- [What is an API access gate and why does it matter for AI agents?](https://andrewcmcguire.com/mcp-directory/learn/what-is-an-api-access-gate.html)
+- [What is data enrichment in sales?](https://andrewcmcguire.com/mcp-directory/learn/what-is-data-enrichment.html)
+- [What is buyer intent data?](https://andrewcmcguire.com/mcp-directory/learn/what-is-buyer-intent-data.html)
+- [What are the security risks of connecting an AI agent to my GTM stack?](https://andrewcmcguire.com/mcp-directory/learn/what-are-the-security-risks-of-connecting-an-agent-to-my-gtm-stack.html)
+- [What is a GTM tech stack?](https://andrewcmcguire.com/mcp-directory/learn/what-is-a-gtm-tech-stack.html)
+
+### What the data says
+
+- [Which GTM tools have official MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/which-gtm-tools-have-official-mcp-servers.html)
+- [How many GTM tools have MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/how-many-gtm-tools-have-mcp-servers.html)
+- [Which GTM tool categories are most usable by AI agents?](https://andrewcmcguire.com/mcp-directory/learn/which-gtm-categories-are-most-agent-ready.html)
+- [Which GTM tools can a solo operator use with an AI agent?](https://andrewcmcguire.com/mcp-directory/learn/which-gtm-tools-can-a-solo-operator-use.html)
+- [Which data enrichment tools can an AI agent use for free?](https://andrewcmcguire.com/mcp-directory/learn/which-data-enrichment-tools-can-an-agent-use-for-free.html)
+- [Which CRM and RevOps tools have MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/which-crm-and-revops-tools-have-mcp-servers.html)
+- [Which sales engagement tools have MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/which-sales-engagement-tools-have-mcp-servers.html)
+- [Which AI SDR tools have MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/which-ai-sdr-tools-have-mcp-servers.html)
+- [Which conversation intelligence tools have MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/which-conversation-intel-tools-have-mcp-servers.html)
+- [Which intent and signal tools have MCP servers?](https://andrewcmcguire.com/mcp-directory/learn/which-signals-intent-abm-tools-have-mcp-servers.html)
+- [Which tools can find a work email address with an AI agent?](https://andrewcmcguire.com/mcp-directory/learn/which-tools-can-find-a-work-email.html)
+- [Which tools can verify an email address is deliverable?](https://andrewcmcguire.com/mcp-directory/learn/which-tools-can-verify-an-email-address.html)
+- [Which tools can enrich a company from its domain?](https://andrewcmcguire.com/mcp-directory/learn/which-tools-can-enrich-a-company-from-a-domain.html)
+- [Which tools can identify anonymous website visitors?](https://andrewcmcguire.com/mcp-directory/learn/which-tools-can-identify-anonymous-website-visitors.html)
+- [Which scheduling tools can an AI agent use to book a meeting?](https://andrewcmcguire.com/mcp-directory/learn/which-tools-can-book-a-meeting.html)
+- [Which tools can give an AI agent access to sales call transcripts?](https://andrewcmcguire.com/mcp-directory/learn/which-tools-can-fetch-a-call-transcript.html)
+- [Which GTM MCP servers use OAuth instead of an API key?](https://andrewcmcguire.com/mcp-directory/learn/which-gtm-mcp-servers-use-oauth.html)
+- [How many GTM tools are enterprise gated?](https://andrewcmcguire.com/mcp-directory/learn/how-many-gtm-tools-are-enterprise-gated.html)
+- [Which GTM tools have no MCP server?](https://andrewcmcguire.com/mcp-directory/learn/which-gtm-tools-have-no-mcp-server.html)
+- [What percentage of GTM tools can an AI agent actually reach?](https://andrewcmcguire.com/mcp-directory/learn/what-percentage-of-gtm-tools-can-an-agent-reach.html)
+- [Which GTM MCP servers are free to use?](https://andrewcmcguire.com/mcp-directory/learn/which-mcp-servers-are-free-to-use.html)
+- [Which GTM jobs can no tool do through an official MCP server?](https://andrewcmcguire.com/mcp-directory/learn/which-gtm-jobs-have-no-official-mcp-server.html)
+- [How many of these GTM tools have actually been tested?](https://andrewcmcguire.com/mcp-directory/learn/how-many-gtm-tools-are-bench-tested.html)
+
+### How to actually do it
+
+- [How do I connect Claude to my CRM?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-connect-claude-to-my-crm.html)
+- [How do I add an MCP server to my AI client?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-add-an-mcp-server-to-claude-desktop.html)
+- [How do I enrich a LinkedIn profile with an AI agent?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-enrich-a-linkedin-profile-with-an-ai-agent.html)
+- [How do I find someone's work email with an AI agent?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-find-a-work-email-with-an-ai-agent.html)
+- [How do I build a prospect list with an AI agent?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-build-a-prospect-list-with-an-ai-agent.html)
+- [How do I write personalised outreach with an AI agent?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-write-personalized-outreach-with-an-ai-agent.html)
+- [Can an AI agent send email on my behalf?](https://andrewcmcguire.com/mcp-directory/learn/can-an-ai-agent-send-email-on-my-behalf.html)
+- [How do I give an AI agent access to my sales calls?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-give-an-ai-agent-access-to-my-sales-calls.html)
+- [How do I let an AI agent book meetings for me?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-book-meetings-with-an-ai-agent.html)
+- [How do I check whether a tool has an MCP server?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-check-if-a-tool-has-an-mcp-server.html)
+- [Should I use a tool's MCP server or its REST API?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-choose-between-an-mcp-server-and-a-rest-api.html)
+- [How do I build an MCP server for a tool that does not have one?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-build-an-mcp-server-for-a-tool-that-has-none.html)
+- [How do I stop an AI agent writing bad data to my CRM?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-stop-an-agent-writing-bad-data-to-my-crm.html)
+- [How much does it cost to run an AI agent on a GTM stack?](https://andrewcmcguire.com/mcp-directory/learn/how-much-does-it-cost-to-run-a-gtm-agent.html)
+- [How do I audit my GTM stack for agent readiness?](https://andrewcmcguire.com/mcp-directory/learn/how-do-i-audit-my-gtm-stack-for-agent-readiness.html)
+
+## What this site will not tell you
+
+- Which tool is better. 0 tools have been run by anybody here, so a comparison would be an opinion.
+- Prices, credit costs, quota sizes or rate limits. The access gate is tracked; money is not.
+- Repo health. github_url, github_stars, github_last_commit and github_archived are null on every entry because the rail that would fill them has not been run. A star count without the date it was taken is a lie.
+
+Contact and corrections: https://github.com/andrewcmcguire/gtm-mcp-directory
+
+Built by Andrew McGuire. Agent Operator. The GTM MCP Directory is a product; Agent Operator is the umbrella. Brendan Short's The Signal (https://www.thesignal.club) defines and analyses the GTM engineer role; this is a utility for people doing the job.

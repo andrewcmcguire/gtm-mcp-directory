@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tavus: MCP server status, API access gate and what it does</title>
+<meta name="description" content="Developer platform for building real-time, two-way conversational AI video agents (&quot;Conversational Video... Official MCP, Free to start. Checked 2026-08-24.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/tools/tavus.html">
+<link rel="alternate" type="text/markdown" href="tavus.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Tavus",
+  "url": "https://tavus.io",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Video Prospecting",
+  "description": "Developer platform for building real-time, two-way conversational AI video agents (\"Conversational Video Interface\")  - positioned for GTM use cases like greeting website visitors and booking meetings, not primarily batch personalized-outbound video.",
+  "offers": {
+    "@type": "Offer",
+    "category": "Free to start"
+  },
+  "featureList": [
+    "Book a meeting",
+    "Answer an inbound chat or call"
+  ],
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/mcp-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://mcp.tavus.io/mcp"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Video Prospecting",
+      "item": "https://andrewcmcguire.com/mcp-directory/categories/video-prospecting.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tavus",
+      "item": "https://andrewcmcguire.com/mcp-directory/tools/tavus.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/index.html" aria-current="page">Tools</a>
+<a href="../categories/index.html">Categories</a>
+<a href="../jobs/index.html">Jobs</a>
+<a href="../lists/index.html">Lists</a>
+<a href="../learn/index.html">Learn</a>
+<a href="../mcp/index.html">MCP status</a>
+<a href="../gates/index.html">Gate</a>
+<a href="../methodology.html">Method</a>
+<a href="../data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../index.html">Directory</a> /
+<a href="../categories/video-prospecting.html">Video Prospecting</a> /
+Tavus</div>
+<div class="toolhead">
+<h1>Tavus</h1>
+<div class="badges">
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
+<a class="badge teal" href="../gates/free.html">Free to start</a>
+<a class="badge mute flat" href="../categories/video-prospecting.html">Video Prospecting</a>
+<span class="badge tier flat">RESEARCHED</span>
+<span class="badge mute flat">Checked 2026-08-24</span>
+</div>
+<div class="tierbox"><b>RESEARCHED</b>
+Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and
+cannot be bought at any price. Across the whole directory that count is 0.</div>
+<p class="note">Vendor: <a href="https://tavus.io" rel="noopener nofollow">tavus.io</a>
+&middot; entry id 08-tavus &middot; source
+08-video-prospecting.md line 128</p>
+</div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Developer platform for building real-time, two-way conversational AI video agents (&quot;Conversational Video Interface&quot;)  - positioned for GTM use cases like greeting website visitors and booking meetings, not primarily batch personalized-outbound video.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Vendor states AI voice/face replicas (&quot;Replica&quot;), persona-driven real-time conversational agents, and a no-code agent builder (&quot;PAL Maker&quot;). This is a genuine real-time conversational-AI product per vendor&#x27;s own architecture description (perception, understanding, voice, rendering components), not just a templated video swap  - but capability claims are vendor-stated and not independently benchmarked here.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Conversational AI-agent layer for GTM (an AI rep that greets/qualifies a site visitor and books a meeting live) rather than a classic async 1:many personalized-outbound-video tool.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">OAuth 2.0 browser-based flow; the exchange mints a per-user API key server-side, nothing stored in client config.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">4 found in the mcp_url field</div></div>
+</div>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-08-24 and has not been re-fetched since.</p>
+<p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.tavus.io/mcp (docs: https://docs.tavus.io/sections/agent-tools/mcp-server.md, https://docs.tavus.io/sections/agent-tools/mcp-tools-reference.md); community alternative at https://github.com/rakeshdavid/Tavus-MCP</p><ul><li><a href="https://mcp.tavus.io/mcp" rel="noopener nofollow">https://mcp.tavus.io/mcp</a></li><li><a href="https://docs.tavus.io/sections/agent-tools/mcp-server.md" rel="noopener nofollow">https://docs.tavus.io/sections/agent-tools/mcp-server.md</a></li><li><a href="https://docs.tavus.io/sections/agent-tools/mcp-tools-reference.md" rel="noopener nofollow">https://docs.tavus.io/sections/agent-tools/mcp-tools-reference.md</a></li><li><a href="https://github.com/rakeshdavid/Tavus-MCP" rel="noopener nofollow">https://github.com/rakeshdavid/Tavus-MCP</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
+<div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
+</div>
+<p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
+<p>free tier available. Free plan includes 25 minutes of conversational video/month; Starter/solo-developer tier is $59/mo (100 min + 3 custom replicas); Growth $397/mo (1,250 min); Enterprise custom. Overage billed per-minute.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/rakeshdavid/Tavus-MCP" rel="noopener nofollow">https://github.com/rakeshdavid/Tavus-MCP</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/book-a-meeting.html">Book a meeting</a></li><li><a href="../jobs/answer-inbound-chat.html">Answer an inbound chat or call</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.tavus.io/" rel="noopener nofollow">https://www.tavus.io/</a></li><li><a href="https://www.tavus.io/pricing" rel="noopener nofollow">https://www.tavus.io/pricing</a></li><li><a href="https://docs.tavus.io/llms.txt" rel="noopener nofollow">https://docs.tavus.io/llms.txt</a></li><li><a href="https://docs.tavus.io/sections/agent-tools/mcp-server.md" rel="noopener nofollow">https://docs.tavus.io/sections/agent-tools/mcp-server.md</a></li><li><a href="https://github.com/rakeshdavid/Tavus-MCP" rel="noopener nofollow">https://github.com/rakeshdavid/Tavus-MCP</a></li><li><a href="https://coldiq.com/blog/tavus-video-prospecting" rel="noopener nofollow">https://coldiq.com/blog/tavus-video-prospecting</a></li></ul><p class="note">6 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.tavus.io/, https://www.tavus.io/pricing, https://docs.tavus.io/llms.txt, https://docs.tavus.io/sections/agent-tools/mcp-server.md, https://github.com/rakeshdavid/Tavus-MCP, https://coldiq.com/blog/tavus-video-prospecting</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Third-party blogs (e.g. ColdIQ) frame Tavus as a &quot;video prospecting&quot; tool via its replica/clone capability, but Tavus&#x27;s own current marketing emphasizes real-time conversational agents over the &quot;record once, blast personalized clips&quot; model most other entries in this file use  - worth noting the mechanism differs from Vidyard/Sendspark/Potion even though the sales use case is real.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Entry id</div><div class="bv">08-tavus</div></div>
+<div><div class="bk">Source file</div><div class="bv">08-video-prospecting.md</div></div>
+<div><div class="bk">Source line</div><div class="bv">128</div></div>
+<div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-08-25</div></div>
+</div>
+<p class="note">Every field above is rendered from directory.json exactly as the build produced it.
+Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
+it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></div></div></div></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="../categories/index.html">By category</a></li>
+      <li><a href="../mcp/index.html">By MCP status</a></li>
+      <li><a href="../gates/index.html">By access gate</a></li>
+      <li><a href="../jobs/index.html">By job</a></li>
+      <li><a href="../github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology.html">How an entry is made</a></li>
+      <li><a href="../submit.html">Submit a tool, free</a></li>
+      <li><a href="../learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="../lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data.html">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="tavus.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

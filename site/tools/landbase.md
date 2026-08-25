@@ -1,0 +1,109 @@
+# Landbase: MCP server status, API access gate and what it does
+
+> A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using... No MCP found, Gate unknown. Checked 2026-08-24.
+
+*Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+---
+[Directory](../index.md) /
+[AI SDRs](../categories/ai-sdr-agents.md) /
+Landbase
+
+# Landbase
+
+[No MCP found](../mcp/none-found.md)
+[Gate unknown](../gates/unknown.md)
+[AI SDRs](../categories/ai-sdr-agents.md)
+RESEARCHED
+Checked 2026-08-24
+
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+
+Vendor: [https://www.landbase.com](https://www.landbase.com) · entry id 04-landbase · source 04-ai-sdr-agents.md line 296
+
+**What it does**
+A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than writing/sending/booking itself.
+
+**AI features, separated from automation with an AI label on it**
+Natural-language account targeting and continuous re-qualification (no manual audience rebuilding) are the confirmed agentic pieces; this is a data/targeting layer, not an outreach-execution agent, despite "AI agents" framing.
+
+**RevOps role**
+Account targeting/enrichment layer that feeds an outbound execution tool (like the other entries in this category) rather than replacing one.
+
+**MCP server**
+
+- **Status bucket**: No MCP found
+
+- **Auth**: n/a
+
+- **Parsed URLs**: 0 found in the mcp_url field
+
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+
+mcp_status, verbatim from the file:
+
+none-found
+
+The mcp_url field is empty on this entry. 21 of 293 entries are.
+
+**Access gate**
+
+- **Gate bucket**: Gate unknown
+
+- **Can a solo operator reach it**: Not established
+
+api_gate, verbatim from the file:
+
+unknown - no public pricing found; notable CLI install path for coding-agent integration (cli.landbase.com/latest/agent-install.txt) aimed at Claude Code/Codex, but that is a CLI, not an MCP server
+
+83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+
+**API documentation**
+
+No documentation URL recorded.
+
+263 of 293 entries are in the same position. Blank is legal and it is published as blank.
+
+**GitHub health**
+
+Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
+
+The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**Jobs it can do**
+
+- [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Build a target account list](../jobs/build-target-account-list.md)
+- [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
+- [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
+
+A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
+
+Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+
+**Sources**
+
+- [https://www.landbase.com](https://www.landbase.com)
+
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+
+https://www.landbase.com
+
+**Notes, verbatim from the file**
+Worth a second look for the "MCP infrastructure" category (7) rather than just this one - the Claude Code/Codex CLI installer is an interesting adjacent-to-MCP integration pattern even though it isn't MCP itself.
+
+**Provenance**
+
+- **Entry id**: 04-landbase
+
+- **Source file**: 04-ai-sdr-agents.md
+
+- **Source line**: 296
+
+- **Tier**: RESEARCHED
+
+- **last_checked**: 2026-08-24
+
+- **Data baked**: 2026-08-25
+
+Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

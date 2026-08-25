@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The GTM MCP Directory</title>
+<meta name="description" content="293 GTM tools counted, 144 with an official MCP server. Which tools an agent can actually call, and which ones a solo operator can reach without a procurement cycle.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/index.html">
+<link rel="alternate" type="text/markdown" href="index.md">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The GTM MCP Directory",
+  "alternateName": "GTM tools by MCP server status and API access gate",
+  "description": "293 go to market software entries across 15 categories, each recording whether an MCP server exists and who maintains it, whether a solo operator can get API access, what the tool does in plain language, the jobs it is tagged with, and the source URLs the facts came from. 144 entries have an official MCP server.",
+  "url": "https://andrewcmcguire.com/mcp-directory/index.html",
+  "sameAs": "https://github.com/andrewcmcguire/gtm-mcp-directory",
+  "keywords": [
+    "MCP",
+    "Model Context Protocol",
+    "go to market",
+    "GTM",
+    "AI agents",
+    "sales tools",
+    "RevOps",
+    "data enrichment",
+    "API access"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Andrew McGuire"
+  },
+  "dateModified": "2026-08-25",
+  "isAccessibleForFree": true,
+  "measurementTechnique": "Facts pulled by hand from public sources with URLs, reconciled at build time against tools_recount.py. RESEARCHED tier: nobody has run the tools. bench_tested is 0.",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "mcp_status",
+      "description": "official, community, none-found, unknown or n-a, with the date checked"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "api_gate",
+      "description": "free, paid, enterprise-leaning, enterprise-only, unknown or n-a"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "jobs",
+      "description": "tags from a closed vocabulary of 55 jobs in 10 families"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tier",
+      "description": "RESEARCHED or BENCH-TESTED, the two tier honesty law"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "name": "directory.json, the whole directory",
+      "contentUrl": "https://andrewcmcguire.com/mcp-directory/data/directory.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "name": "build_report.json, the counting authority's report",
+      "contentUrl": "https://andrewcmcguire.com/mcp-directory/data/build_report.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "name": "search-index.json, one compact record per unique product",
+      "contentUrl": "https://andrewcmcguire.com/mcp-directory/search-index.json"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The GTM MCP Directory",
+  "url": "https://andrewcmcguire.com/mcp-directory/",
+  "description": "293 GTM tools counted, 144 with an official MCP server. Which tools an AI agent can call, and which ones a solo operator can reach without a procurement cycle.",
+  "publisher": {
+    "@type": "Person",
+    "name": "Andrew McGuire"
+  },
+  "inLanguage": "en"
+}
+</script>
+<script src="assets/search-index.js"></script>
+<script defer src="assets/search.js"></script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="tools/index.html">Tools</a>
+<a href="categories/index.html">Categories</a>
+<a href="jobs/index.html">Jobs</a>
+<a href="lists/index.html">Lists</a>
+<a href="learn/index.html">Learn</a>
+<a href="mcp/index.html">MCP status</a>
+<a href="gates/index.html">Gate</a>
+<a href="methodology.html">Method</a>
+<a href="data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+
+<div class="hero">
+<div class="wrap wide">
+<div class="eyebrow">Agent Operator</div>
+<h1 class="display">The GTM MCP<br>Directory</h1>
+<p class="lede">Every GTM tool your agent can use, and which one does the job.</p>
+<div class="rule"></div>
+<p class="stamp"><b>293 tools</b> counted &middot;
+<b>144 official MCP servers</b> &middot;
+generated <b>2026-08-25</b> by build_directory.py (phase 1) &middot;
+reconciled against tools_recount.py</p>
+<div class="stats">
+<div class="stat is-gold"><div class="n">293</div><div class="k">tools counted</div></div>
+<div class="stat is-gold"><div class="n">144</div><div class="k">official MCP servers</div></div>
+<div class="stat is-teal"><div class="n">21</div><div class="k">community MCP</div></div>
+<div class="stat is-copper"><div class="n">117</div><div class="k">no MCP found</div></div>
+<div class="stat is-copper"><div class="n">45</div><div class="k">enterprise gated</div></div>
+<div class="stat is-teal"><div class="n">117</div><div class="k">solo reachable</div></div>
+<div class="stat is-mute"><div class="n">0</div><div class="k">bench tested</div></div>
+</div>
+<p class="note">Entry facts were pulled by hand: 261 on 2026-08-24, 32 on 2026-08-25. The generated date above is only
+the date this site was baked. Both dates ship because both rot.
+277 of the 293 entries are unique products;
+16 are the same product listed in a second category and counted once here.</p>
+<div class="btnrow">
+<a class="btn solid" href="#search">Search by capability</a>
+<a class="btn" href="#install">Install the MCP server</a>
+<a class="btn ghost" href="mcp/official.html">See the 144 official servers</a>
+</div>
+</div>
+</div>
+
+<section id="search">
+<div class="wrap wide">
+<div class="eyebrow">Capability search</div>
+<h2>Ask for the job, not the category.</h2>
+<p class="sub">An agent does not want a data enrichment tool. It wants a person's title from a
+LinkedIn URL. Type the thing you are trying to do. This runs in your browser over a baked index:
+no backend, no query logging, and it keeps working with the network cable pulled out.</p>
+<div class="searchbox">
+<label class="sr" for="q" hidden>Search the directory</label>
+<input id="q" type="search" autocomplete="off" spellcheck="false"
+ placeholder="enrich a company from its domain">
+</div>
+<div class="filters"><button class="chip" type="button" data-kind="mcp" data-val="official" aria-pressed="false">Official MCP</button><button class="chip" type="button" data-kind="mcp" data-val="community" aria-pressed="false">Community MCP</button><button class="chip" type="button" data-kind="mcp" data-val="unknown" aria-pressed="false">MCP unknown</button><button class="chip" type="button" data-kind="mcp" data-val="n-a" aria-pressed="false">MCP not applicable</button><button class="chip" type="button" data-kind="mcp" data-val="none-found" aria-pressed="false">No MCP found</button></div>
+<div class="filters"><button class="chip" type="button" data-kind="gate" data-val="free" aria-pressed="false">Free to start</button><button class="chip" type="button" data-kind="gate" data-val="paid" aria-pressed="false">Paid, self-serve</button><button class="chip" type="button" data-kind="gate" data-val="enterprise-leaning" aria-pressed="false">Enterprise leaning</button><button class="chip" type="button" data-kind="gate" data-val="enterprise-only" aria-pressed="false">Enterprise only</button><button class="chip" type="button" data-kind="gate" data-val="unknown" aria-pressed="false">Gate unknown</button><button class="chip" type="button" data-kind="gate" data-val="n-a" aria-pressed="false">Gate not applicable</button></div>
+<p class="sortnote">Ordering is fixed and published, never tuned and never purchasable.
+official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable. With a query typed, matches are banded by relevance first and the rule above
+breaks every tie. An exact name match pins to the top and nothing else is boosted.
+The filters above run over the 277 unique products, so their totals sit
+below the 293 entry totals used by the
+<a href="mcp/index.html">MCP status</a> and <a href="gates/index.html">gate</a> views. Both numbers
+are correct and the difference is the 16 cross listings.</p>
+<p class="note" id="idxstamp"></p>
+<p id="count"></p>
+<ul class="rows" id="results"></ul>
+</div>
+</section>
+
+<section class="tint">
+<div class="wrap wide">
+<div class="eyebrow">The inversion</div>
+<h2>The tools sold as agents are the least usable by agents.</h2>
+<p class="sub">RevOps Infra is 22 of 23 reachable by an agent.
+Enablement &amp; Coaching is 2 of 14. Gold is an official server, green is a community one.
+Every ratio below is read straight out of the category blocks in directory.json.</p>
+<ul class="cov">
+<li><div class="lab"><a href="categories/revops-infra.html">RevOps Infra</a><span class="r"><b>22</b> of 23 reachable</span></div><div class="bar"><i class="o" style="width:95.6522%"></i><i class="c" style="width:0.0000%"></i></div></li>
+<li><div class="lab"><a href="categories/data-enrichment.html">Data &amp; Enrichment</a><span class="r"><b>33</b> of 38 reachable</span></div><div class="bar"><i class="o" style="width:81.5789%"></i><i class="c" style="width:5.2632%"></i></div></li>
+<li><div class="lab"><a href="categories/conversation-intel.html">Conversation Intel</a><span class="r"><b>20</b> of 24 reachable</span></div><div class="bar"><i class="o" style="width:70.8333%"></i><i class="c" style="width:12.5000%"></i></div></li>
+<li><div class="lab"><a href="categories/signals-intent-abm.html">Signals &amp; Intent</a><span class="r"><b>18</b> of 28 reachable</span></div><div class="bar"><i class="o" style="width:60.7143%"></i><i class="c" style="width:3.5714%"></i></div></li>
+<li><div class="lab"><a href="categories/video-prospecting.html">Video Prospecting</a><span class="r"><b>9</b> of 14 reachable</span></div><div class="bar"><i class="o" style="width:21.4286%"></i><i class="c" style="width:42.8571%"></i></div></li>
+<li><div class="lab"><a href="categories/engagement-outbound.html">Engagement &amp; Outbound</a><span class="r"><b>17</b> of 27 reachable</span></div><div class="bar"><i class="o" style="width:55.5556%"></i><i class="c" style="width:7.4074%"></i></div></li>
+<li><div class="lab"><a href="categories/scheduling-routing.html">Scheduling &amp; Routing</a><span class="r"><b>8</b> of 14 reachable</span></div><div class="bar"><i class="o" style="width:42.8571%"></i><i class="c" style="width:14.2857%"></i></div></li>
+<li><div class="lab"><a href="categories/mcp-infrastructure.html">MCP Layer</a><span class="r"><b>7</b> of 13 reachable</span></div><div class="bar"><i class="o" style="width:53.8462%"></i><i class="c" style="width:0.0000%"></i></div></li>
+<li><div class="lab"><a href="categories/proposals-deals.html">Proposals &amp; Deals</a><span class="r"><b>7</b> of 14 reachable</span></div><div class="bar"><i class="o" style="width:50.0000%"></i><i class="c" style="width:0.0000%"></i></div></li>
+<li><div class="lab"><a href="categories/inbound-plg-chat.html">Inbound &amp; PLG Chat</a><span class="r"><b>5</b> of 15 reachable</span></div><div class="bar"><i class="o" style="width:33.3333%"></i><i class="c" style="width:0.0000%"></i></div></li>
+<li><div class="lab"><a href="categories/email-deliverability.html">Email Deliverability</a><span class="r"><b>4</b> of 13 reachable</span></div><div class="bar"><i class="o" style="width:30.7692%"></i><i class="c" style="width:0.0000%"></i></div></li>
+<li><div class="lab"><a href="categories/ai-sdr-agents.html">AI SDRs</a><span class="r"><b>6</b> of 23 reachable</span></div><div class="bar"><i class="o" style="width:17.3913%"></i><i class="c" style="width:8.6957%"></i></div></li>
+<li><div class="lab"><a href="categories/community-dark-social.html">Community &amp; Dark Social</a><span class="r"><b>4</b> of 16 reachable</span></div><div class="bar"><i class="o" style="width:12.5000%"></i><i class="c" style="width:12.5000%"></i></div></li>
+<li><div class="lab"><a href="categories/forecasting-revenue.html">Forecasting &amp; Revenue</a><span class="r"><b>3</b> of 17 reachable</span></div><div class="bar"><i class="o" style="width:17.6471%"></i><i class="c" style="width:0.0000%"></i></div></li>
+<li><div class="lab"><a href="categories/enablement-coaching.html">Enablement &amp; Coaching</a><span class="r"><b>2</b> of 14 reachable</span></div><div class="bar"><i class="o" style="width:7.1429%"></i><i class="c" style="width:7.1429%"></i></div></li>
+</ul>
+</div>
+</section>
+
+<section id="install">
+<div class="wrap wide">
+<div class="eyebrow">Install the MCP server</div>
+<h2>Point your agent at the directory.</h2>
+<p class="sub">The server loads the baked file once at import and answers from memory. It makes
+zero outbound network requests, so it cannot be slow, cannot rate limit you, cannot cost anything,
+and cannot leak your query to a vendor. Everything network shaped happens in the weekly build.</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;command&quot;: &quot;uvx&quot;,
+      &quot;args&quot;: [
+        &quot;gtm-mcp-directory&quot;
+      ]
+    }
+  }
+}</code></pre>
+<p class="note">The package is not on PyPI yet, so this block is the shape the install will take
+rather than a working one-liner today. The server source is real and public: it lives in the
+<a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">gtm-mcp-directory</a> repo and runs from a checkout right now.</p>
+<div class="grid2">
+<div class="card">
+<div class="kicker">What it answers</div>
+<h3>find_tools</h3>
+<p>Which tools can do X, and can your agent actually reach them. Filters on category, MCP status,
+access gate and tier, and states the ordering rule it used.</p>
+</div>
+<div class="card">
+<div class="kicker">What it answers</div>
+<h3>get_tool</h3>
+<p>Every field on one entry, sources in full, plus the cross reference when the same product is
+listed in a second category.</p>
+</div>
+<div class="card">
+<div class="kicker">What it answers</div>
+<h3>whats_mcpd</h3>
+<p>The stat block. 293 entries, 144 official,
+21 community, 117 none found, and
+0 bench tested, scoped to a category when you ask for one.</p>
+</div>
+<div class="card">
+<div class="kicker">What it answers</div>
+<h3>list_categories</h3>
+<p>The 15 category files with their counts, gates and source markdown, reconciled
+against tools_recount.py at build time.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="tint">
+<div class="wrap wide">
+<div class="grid2">
+<div>
+<div class="eyebrow">The weekly diff</div>
+<h2>Get the changelog by email.</h2>
+<p class="sub">Once a week: new entries, dead endpoints, gate changes, and every tool that moved
+between MCP statuses. Assembled from the machine output, never written from thin air.</p>
+<!-- TODO: wire this form to Kit (kit.com). Set action to the Kit hosted form endpoint,
+     method="post", and add the hidden Kit form id field. Until then the control is disabled
+     so the page never posts anywhere and never makes an external request. -->
+<form class="subform" action="" method="post" onsubmit="return false;">
+  <input type="email" name="email_address" placeholder="you@company.com" disabled>
+  <button class="btn solid" type="submit" disabled>Not wired yet</button>
+</form>
+<p class="note">PLACEHOLDER. The list runs on Kit and the form action is deliberately empty until
+that endpoint is set. No address is collected today and nothing is sent anywhere.</p>
+</div>
+<div>
+<div class="eyebrow">Submit a tool</div>
+<h2>Listing is free. Placement is not for sale.</h2>
+<p class="sub">Anyone can submit a tool. Every submission is verified against public sources
+before it is listed, and the verification is the product. No vendor can pay to be listed, to rank
+higher, to be featured, or to soften a note. BENCH-TESTED cannot be bought at any price.</p>
+<div class="btnrow">
+<a class="btn" href="https://github.com/andrewcmcguire/gtm-mcp-directory/issues/new?template=tool-submission.yml" rel="noopener">Open the submission form</a>
+<a class="btn ghost" href="submit.html">Read what happens next</a>
+</div>
+<p class="note">The submission queue is a GitHub issue form on the public
+gtm-mcp-directory repo. It is open now, and every submission is verified before it lists.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap wide">
+<div class="eyebrow">The questions</div>
+<h2>Answers, not opinions.</h2>
+<p class="sub">The questions people actually ask about GTM tools, MCP servers and agents, answered
+from this data with the numbers generated at build time and the date stamped on every one. No tool
+versus tool verdicts, because 0 tools here have been bench tested.</p>
+<div class="viewgrid">
+<a class="viewcard" href="learn/index.html">
+<div class="vt">Learn</div><div class="vn">Definitions, data and how to</div>
+<div class="vd">What an MCP server is, what a GTM engineer is, which tools an agent can use for
+free, how to connect an assistant to a CRM.</div></a>
+<a class="viewcard" href="lists/index.html">
+<div class="vt">The lists</div>
+<div class="vn">144 official servers, 57 free tiers</div>
+<div class="vd">The same entries cut the ways people ask for them: by MCP status, by gate, by auth
+type, by category.</div></a>
+<a class="viewcard" href="jobs/index.html">
+<div class="vt">By job</div><div class="vn">55 jobs, 10 families</div>
+<div class="vd">What an agent actually asks for, phrased from the agent's side, with the tools
+tagged against each one.</div></a>
+<a class="viewcard" href="data.html">
+<div class="vt">The data</div><div class="vn">directory.json, free, no key</div>
+<div class="vd">The whole directory as one JSON file, plus llms.txt and a markdown twin of every
+page on this site.</div></a>
+</div>
+</div>
+</section>
+
+<section class="tint">
+<div class="wrap wide">
+<div class="eyebrow">Honesty</div>
+<h2>0 bench tested, and that number is on the front page.</h2>
+<p class="sub">Every entry is RESEARCHED: facts from public sources with URLs, no usage claims,
+nobody has run the tool. BENCH-TESTED means Andrew personally ran it on a stated date. There are
+0 of those, the number is published rather than hidden, and it is the proof the
+tier means something. 83 entries carry an access gate of unknown,
+263 have no documentation URL recorded, and the
+32 thinly sourced entries are named on the
+methodology page rather than quietly padded.</p>
+<div class="btnrow">
+<a class="btn" href="methodology.html">How an entry is made</a>
+<a class="btn ghost" href="tools/index.html">Browse all 277 products</a>
+</div>
+</div>
+</section>
+<footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="categories/index.html">By category</a></li>
+      <li><a href="mcp/index.html">By MCP status</a></li>
+      <li><a href="gates/index.html">By access gate</a></li>
+      <li><a href="jobs/index.html">By job</a></li>
+      <li><a href="github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="methodology.html">How an entry is made</a></li>
+      <li><a href="submit.html">Submit a tool, free</a></li>
+      <li><a href="learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="llms.txt">llms.txt</a></li>
+      <li><a href="data.html">The public data endpoint</a></li>
+      <li><a href="data/directory.json">directory.json</a></li>
+      <li><a href="search-index.json">search-index.json</a></li>
+      <li><a href="sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="index.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

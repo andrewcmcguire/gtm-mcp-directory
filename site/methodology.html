@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology: how an entry is made and where this build is thin</title>
+<meta name="description" content="The five laws an entry survives, the two honesty tiers (0 bench tested of 293), the counting authority, and every thin spot named rather than padded.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/methodology.html">
+<link rel="alternate" type="text/markdown" href="methodology.md">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "How an entry in The GTM MCP Directory is made",
+  "description": "The five laws every entry survives, the two honesty tiers, the counting authority, and every place this build is thin, named rather than padded.",
+  "url": "https://andrewcmcguire.com/mcp-directory/methodology.html",
+  "author": {
+    "@type": "Person",
+    "name": "Andrew McGuire"
+  },
+  "dateModified": "2026-08-25",
+  "about": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/mcp-directory/data.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Methodology",
+      "item": "https://andrewcmcguire.com/mcp-directory/methodology.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="tools/index.html">Tools</a>
+<a href="categories/index.html">Categories</a>
+<a href="jobs/index.html">Jobs</a>
+<a href="lists/index.html">Lists</a>
+<a href="learn/index.html">Learn</a>
+<a href="mcp/index.html">MCP status</a>
+<a href="gates/index.html">Gate</a>
+<a href="methodology.html" aria-current="page">Method</a>
+<a href="data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="index.html">Directory</a> / Methodology</div>
+<section style="padding-top:18px">
+<div class="eyebrow">Methodology</div>
+<h2>The verification is the product.</h2>
+<p class="sub">The list is not the moat. Anyone can copy 293 rows. What is hard to
+copy is that every answer carries its honesty tier and the date it was measured, and that the
+awkward numbers are on the page instead of in a drawer.</p>
+
+<div class="field"><div class="k">The two tiers</div><div class="v">
+<p><b>RESEARCHED.</b> Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+All 293 entries in this build are RESEARCHED.</p>
+<p style="margin-top:10px"><b>BENCH-TESTED.</b>
+Andrew personally ran it on a stated date. Cannot be bought. There are 0 of them. That
+number is on the front page. It stays at 0 until Andrew actually runs something,
+and a vendor offering access buys a test, never a verdict.</p>
+</div></div>
+
+<div class="field"><div class="k">The five laws an entry has to survive</div><div class="v">
+<p>1. An MCP claim needs a URL. A claim without one is not accepted.</p>
+<p>2. Unknown is a legal answer. 83 entries carry an unknown access
+gate and they are published as unknown rather than guessed into a bucket.</p>
+<p>3. Vendor copy is a source for what the vendor says, not for what the tool can do. Every
+what_it_does on this site was rewritten in plain language.</p>
+<p>4. Enterprise gated with no public docs is itself the most useful fact in the directory, so it is
+surfaced rather than hidden. 45 entries are enterprise only.</p>
+<p>5. Official means first party. A Zapier, viaSocket or Composio wrapper is not an official MCP
+server no matter how well it works.</p>
+</div></div>
+
+<div class="field"><div class="k">What none-found does and does not mean</div><div class="v">
+<p>117 entries are none-found. That is a statement about the
+search, made on the date in the entry, and it is not a promise that no server exists. A vendor who
+shipped one the week after the check is recorded as none-found until the next pass, which is exactly
+why the weekly diff exists and why every entry ships its last_checked date.</p>
+</div></div>
+
+<div class="field"><div class="k">The counting authority</div><div class="v">
+<p>tools_recount.py is the counter, not this site and not the build script.
+The build reconciles against it file by file and fails rather than publish a drifted number. This
+build: 293 against
+293, 0 failures,
+0 parser warnings. The site generator re-checks the
+same numbers before it writes a single file.</p>
+<p style="margin-top:10px">Data baked 2026-08-25 by build_directory.py (phase 1).
+Network calls made during the build: 0. Content sha256
+a9ecb43666b5537e870f2377...</p>
+</div></div>
+
+<div class="field"><div class="k">The duplicates, and why two counts exist</div><div class="v">
+<p>293 entries, 277 unique products. The difference is
+16 products that are deliberately listed in two category files because a
+reader browsing either one should find them. The canonical home for each is declared in INDEX.md and
+not chosen by the parser. Category and status views count all 293 entries, because
+that is what the source files hold. Tool pages count 277, because that is
+how many products there are.</p>
+<ul class="tocols">
+<li><a href="tools/amplemarket.html">Amplemarket</a> <span class="dom">02-amplemarket + 04-amplemarket</span></li><li><a href="tools/chili-piper.html">Chili Piper</a> <span class="dom">10-chili-piper + 14-chili-piper</span></li><li><a href="tools/clari.html">Clari</a> <span class="dom">03-clari + 04-clari</span></li><li><a href="tools/common-room.html">Common Room</a> <span class="dom">05-common-room + 15-common-room</span></li><li><a href="tools/crustdata.html">Crustdata</a> <span class="dom">01-crustdata + 05-crustdata</span></li><li><a href="tools/default.html">Default</a> <span class="dom">06-default + 10-default</span></li><li><a href="tools/hubspot.html">HubSpot</a> <span class="dom">06-hubspot + 12-hubspot</span></li><li><a href="tools/klenty.html">Klenty</a> <span class="dom">02-klenty + 04-klenty</span></li><li><a href="tools/pipedrive.html">Pipedrive</a> <span class="dom">06-pipedrive + 12-pipedrive</span></li><li><a href="tools/qualified.html">Qualified</a> <span class="dom">14-qualified + 04-qualified</span></li><li><a href="tools/reply-io.html">Reply.io</a> <span class="dom">02-reply-io + 04-reply-io</span></li><li><a href="tools/salesforce-agentforce.html">Salesforce (core CRM/platform) + Agentforce</a> <span class="dom">06-salesforce-agentforce + 04-salesforce-agentforce</span></li><li><a href="tools/salesforge.html">Salesforge</a> <span class="dom">02-salesforge + 04-salesforge</span></li><li><a href="tools/theirstack.html">TheirStack</a> <span class="dom">05-theirstack + 01-theirstack</span></li><li><a href="tools/trumpet.html">Trumpet (sendtrumpet.com)</a> <span class="dom">13-trumpet + 08-trumpet</span></li><li><a href="tools/warmly.html">Warmly (Warmly.ai)</a> <span class="dom">05-warmly + 01-warmly</span></li>
+</ul>
+</div></div>
+
+<div class="field"><div class="k">Where this build is thin, named rather than padded</div><div class="v">
+<p><b>1 entry claims an MCP with no parseable URL.</b> SCHEMA law 1: an MCP claim requires a URL. These entries claim official or community but their mcp_url field contains no parseable URL.</p>
+<ul class="tocols"><li><a href="tools/arphie.html">Arphie</a> <span class="dom">13-arphie</span></li></ul>
+<p style="margin-top:16px"><b>32 entries carry fewer than two source
+URLs.</b> SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.</p>
+<ul class="tocols"><li><a href="tools/11x.html">11x (Alice)</a> <span class="dom">04-11x</span></li><li><a href="tools/aisdr.html">AiSDR</a> <span class="dom">04-aisdr</span></li><li><a href="tools/conversica.html">Conversica</a> <span class="dom">04-conversica</span></li><li><a href="tools/klenty.html">Klenty</a> <span class="dom">04-klenty</span></li><li><a href="tools/landbase.html">Landbase</a> <span class="dom">04-landbase</span></li><li><a href="tools/luru.html">Luru</a> <span class="dom">04-luru</span></li><li><a href="tools/reply-io.html">Reply.io (Jason AI)</a> <span class="dom">04-reply-io</span></li><li><a href="tools/rox.html">Rox</a> <span class="dom">04-rox</span></li><li><a href="tools/salesforce-agentforce.html">Salesforce Agentforce (SDR Agent)</a> <span class="dom">04-salesforce-agentforce</span></li><li><a href="tools/terret.html">Terret (BoostUp)</a> <span class="dom">04-terret</span></li><li><a href="tools/tofu.html">Tofu</a> <span class="dom">04-tofu</span></li><li><a href="tools/trellus-ai.html">Trellus AI</a> <span class="dom">04-trellus-ai</span></li><li><a href="tools/intently.html">Intently (getintently.com)</a> <span class="dom">05-intently</span></li><li><a href="tools/pipedrive.html">Pipedrive</a> <span class="dom">06-pipedrive</span></li><li><a href="tools/glama.html">Glama (MCP directory)</a> <span class="dom">07-glama</span></li><li><a href="tools/mcp-so.html">mcp.so</a> <span class="dom">07-mcp-so</span></li><li><a href="tools/model-context-protocol-official-servers-repo.html">Model Context Protocol  - official servers repo</a> <span class="dom">07-model-context-protocol-official-servers-repo</span></li><li><a href="tools/pulsemcp.html">PulseMCP</a> <span class="dom">07-pulsemcp</span></li><li><a href="tools/smithery.html">Smithery</a> <span class="dom">07-smithery</span></li><li><a href="tools/trevor-ai.html">Trevor AI</a> <span class="dom">10-trevor-ai</span></li><li><a href="tools/continu.html">Continu</a> <span class="dom">11-continu</span></li><li><a href="tools/hubspot.html">HubSpot (AI Forecasting)</a> <span class="dom">12-hubspot</span></li><li><a href="tools/salesforce-einstein-forecasting.html">Salesforce Einstein Forecasting</a> <span class="dom">12-salesforce-einstein-forecasting</span></li><li><a href="tools/pocus.html">Pocus</a> <span class="dom">14-pocus</span></li><li><a href="tools/tidio.html">Tidio</a> <span class="dom">14-tidio</span></li><li><a href="tools/ultimate-ai.html">Ultimate.ai (Ultimate)</a> <span class="dom">14-ultimate-ai</span></li><li><a href="tools/brand24.html">Brand24</a> <span class="dom">15-brand24</span></li><li><a href="tools/buzzsumo.html">BuzzSumo</a> <span class="dom">15-buzzsumo</span></li><li><a href="tools/commsor.html">Commsor</a> <span class="dom">15-commsor</span></li><li><a href="tools/exploding-topics.html">Exploding Topics (Exploding Topics Pro)</a> <span class="dom">15-exploding-topics</span></li><li><a href="tools/f5bot.html">F5Bot</a> <span class="dom">15-f5bot</span></li><li><a href="tools/talkwalker.html">Talkwalker (rebranded: Lumen by Talkwalker)</a> <span class="dom">15-talkwalker</span></li></ul>
+<p style="margin-top:16px"><b>83 entries have an unknown access
+gate</b> and <b>263 have no documentation URL.</b> Both are legal
+and both are published as blank. Every one of them is visible on its own tool page.</p>
+</div></div>
+
+<div class="field"><div class="k">What has not been measured at all</div><div class="v">
+<p>The following fields exist in the schema, are present on every entry, and are empty on every
+entry. Nothing about them is inferred anywhere on this site.</p>
+<ul>
+<li>docs_digest: empty on 293 of 293 entries</li><li>docs_last_crawled: empty on 293 of 293 entries</li><li>github_archived: empty on 293 of 293 entries</li><li>github_fetched_on: empty on 293 of 293 entries</li><li>github_last_commit: empty on 293 of 293 entries</li><li>github_stars: empty on 293 of 293 entries</li><li>github_url: empty on 293 of 293 entries</li><li>submission: empty on 293 of 293 entries</li>
+</ul>
+<p style="margin-top:10px">That is why the GitHub view shows seeds instead of star counts. An empty
+field is published as empty.</p>
+</div></div>
+
+<div class="field"><div class="k">The jobs field, which is now measured</div><div class="v">
+<p>jobs[] used to be on the list above. It is not any more. As of
+2026-08-25 the vocabulary is closed at 55 jobs in
+10 families, and 827 tags are assigned across
+271 of 293 entries. 22 entries
+carry no tag at all, each one for a recorded reason that is printed on its own tool page.</p>
+<p style="margin-top:10px"><b>What a tag means, exactly.</b> A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records. It was derived from
+the entry's own what_it_does, ai_features and revops_role text, which is itself RESEARCHED tier.
+Tagged by machine-pass, tier
+RESEARCHED, and bench_tested is still 0.
+28 entries were flagged for human review by that pass and are the
+first thing a second reader should look at.</p>
+<p style="margin-top:10px">The vocabulary is closed on purpose. A tool whose job genuinely is not in
+the list stays blank rather than being forced into the nearest tag, because a wrong job tag is the
+class of quiet lie the two tier honesty law exists to prevent. Vocabulary source
+data/jobs.yaml sha256
+e63c27779ba7bdea..., tags source
+data/tags.yaml sha256
+77a593d1de719f44...</p>
+<p style="margin-top:10px"><a href="jobs/index.html">Browse the 55 jobs</a></p>
+</div></div>
+
+<div class="field"><div class="k">The canonical URL and the base this site is published at</div><div class="v">
+<p>Every internal link on this site is relative, so the same files serve correctly from a Pages
+subdomain, from a path on andrewcmcguire.com, or from a file:// path with no network at all. The
+canonical tags, the sitemap and llms.txt need an absolute base, and that base is
+https://andrewcmcguire.com/mcp-directory. That is where the site is headed, not where it is serving from today: this build
+is live on its Cloudflare Pages subdomain and the path on andrewcmcguire.com is not routed yet. When
+that route lands, the one constant changes and the site is rebuilt. It is disclosed here rather than
+left to look like a live URL.</p>
+</div></div>
+
+<div class="field"><div class="k">The markdown twins and what they are for</div><div class="v">
+<p>Every HTML page on this site has a markdown twin at the same path with a .md extension, and the
+twin is generated from the rendered page rather than written by hand, so it cannot drift. It carries
+the same content with the chrome removed: no masthead, no footer, no theme toggle, no styling. Links
+inside a twin point at the other twins, so an agent that lands on one can crawl the whole site in
+markdown without ever parsing HTML. <a href="llms.txt">llms.txt</a> is the map, and
+<a href="data.html">the data page</a> serves the whole directory as JSON.</p>
+<p style="margin-top:10px">Schema.org JSON-LD ships inline on every page: Dataset on the front page
+and the data page, ItemList on every listing, FAQPage on every learn answer, BreadcrumbList
+everywhere. It is a data block rather than executable script, so the Content-Security-Policy that
+forbids inline script still holds and the site still makes zero external requests.</p>
+</div></div>
+
+<div class="field"><div class="k">The one thing this site changes about the source text</div><div class="v">
+<p>Em dashes in source prose are rendered as a spaced hyphen. That is a house typography rule and it
+is the only alteration made at render time. No word, number, URL, date or field value is changed,
+summarised, reordered or dropped anywhere on this site. Notes ship verbatim including the awkward
+ones, and the raw sources string is printed alongside the parsed links so you can check the parse.</p>
+</div></div>
+
+<div class="field"><div class="k">The ordering rule</div><div class="v">
+<p>official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.</p>
+<p style="margin-top:10px">It is computed, it is printed on every view that uses it, and there is no
+featured field anywhere in the schema, because a field that exists is a field somebody will
+eventually try to buy.</p>
+</div></div>
+
+<div class="field"><div class="k">No gate on this page</div><div class="v">
+<p>No email is required to read anything here. No comment keyword, no DM funnel, no download wall.
+It is free because it is more useful when other operators correct it.</p>
+</div></div>
+
+</section>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="categories/index.html">By category</a></li>
+      <li><a href="mcp/index.html">By MCP status</a></li>
+      <li><a href="gates/index.html">By access gate</a></li>
+      <li><a href="jobs/index.html">By job</a></li>
+      <li><a href="github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="methodology.html">How an entry is made</a></li>
+      <li><a href="submit.html">Submit a tool, free</a></li>
+      <li><a href="learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="llms.txt">llms.txt</a></li>
+      <li><a href="data.html">The public data endpoint</a></li>
+      <li><a href="data/directory.json">directory.json</a></li>
+      <li><a href="search-index.json">search-index.json</a></li>
+      <li><a href="sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="methodology.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

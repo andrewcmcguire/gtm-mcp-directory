@@ -1,0 +1,114 @@
+# Bright Data: MCP server status, API access gate and what it does
+
+> A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation,... Official MCP, Paid, self-serve. Checked 2026-08-24.
+
+*Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+---
+[Directory](../index.md) /
+[Data & Enrichment](../categories/data-enrichment.md) /
+Bright Data
+
+# Bright Data
+
+[Official MCP](../mcp/official.md)
+[Paid, self-serve](../gates/paid.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+Checked 2026-08-24
+
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+
+Vendor: [brightdata.com](https://brightdata.com) · entry id 01-bright-data · source 01-data-enrichment.md line 426
+
+**What it does**
+A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation, structured scraping APIs) that GTM engineers repurpose to pull LinkedIn, company-site, and directory data when off-the-shelf enrichment providers lack a record.
+
+**AI features, separated from automation with an AI label on it**
+The MCP server exposes scraping/browsing/search tools an LLM agent can call and chain; underlying page parsing uses pattern- and ML-based extraction, not a proprietary "enrichment AI" - Bright Data is fundamentally a scraping/proxy company wearing an agent-tooling wrapper.
+
+**RevOps role**
+Fallback/last-resort scraping layer in a waterfall enrichment stack, used when structured providers (ZoomInfo, PDL, Clearbit) return no match.
+
+**MCP server**
+
+- **Status bucket**: Official MCP
+
+- **Auth**: api key (Bright Data API token)
+
+- **Parsed URLs**: 1 found in the mcp_url field
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+
+mcp_status, verbatim from the file:
+
+official
+
+mcp_url, verbatim from the file:
+
+https://github.com/brightdata/brightdata-mcp
+
+- [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp)
+
+**Access gate**
+
+- **Gate bucket**: Paid, self-serve
+
+- **Can a solo operator reach it**: Yes, by paying, no sales call
+
+api_gate, verbatim from the file:
+
+paid
+
+**API documentation**
+
+No documentation URL recorded.
+
+263 of 293 entries are in the same position. Blank is legal and it is published as blank.
+
+**GitHub health**
+
+Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
+
+The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp)
+
+**Jobs it can do**
+
+- [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md)
+
+A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
+
+Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+
+**Sources**
+
+- [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp)
+- [https://mcpservers.org/servers/brightdata/brightdata-mcp](https://mcpservers.org/servers/brightdata/brightdata-mcp)
+- [https://brightdata.com/pricing/mcp-server](https://brightdata.com/pricing/mcp-server)
+
+3 source URLs. Raw sources field, verbatim:
+
+https://github.com/brightdata/brightdata-mcp, https://mcpservers.org/servers/brightdata/brightdata-mcp, https://brightdata.com/pricing/mcp-server
+
+**Notes, verbatim from the file**
+Broader-scope than a purpose-built contact-enrichment vendor - it's web-data infrastructure, not a firmographic/contact database. Self-serve signup with pay-as-you-go and subscription plans; not enterprise-only for basic access. The MCP server alone exposes 69 tools spanning search, scraping, and browser automation.
+
+**Provenance**
+
+- **Entry id**: 01-bright-data
+
+- **Source file**: 01-data-enrichment.md
+
+- **Source line**: 426
+
+- **Tier**: RESEARCHED
+
+- **last_checked**: 2026-08-24
+
+- **Data baked**: 2026-08-25
+
+Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

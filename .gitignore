@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Internal build-operation files. These are NOT part of the public product and
+# must never land in this repo. The exclusion is structural on purpose: if the
+# full working tree is ever copied over this one, these stay out by name.
+# ---------------------------------------------------------------------------
+SPEC.md
+DECISIONS.md
+data/TAGGING_REPORT.md
+site/DEPLOY.md
+STAGED_ROUTE.md
+HANDOFF*.md
+diffs/
+
+# The source markdown the directory is baked FROM lives outside this repo and
+# is hand-edited. Only the baked artifact (data/directory.json) is published.
+[0-9][0-9]-*.md
+tools_recount.py
+INDEX.md
+SCHEMA.md
+
+# Generator scratch output. site/ already holds the committed build; _dist is a
+# throwaway clean copy made at deploy time.
+site/_dist/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.eggs/
+
+# ---------------------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

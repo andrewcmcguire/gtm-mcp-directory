@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crossbeam: MCP server status, API access gate and what it does</title>
+<meta name="description" content="Compares your account list against your partners&#x27; account lists to surface overlaps, partner-shared contacts,... Official MCP, Enterprise only. Checked 2026-08-25.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/tools/crossbeam.html">
+<link rel="alternate" type="text/markdown" href="crossbeam.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Crossbeam",
+  "url": "https://crossbeam.com",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Signals & Intent",
+  "description": "Compares your account list against your partners' account lists to surface overlaps, partner-shared contacts, and warm introduction paths for co-selling.",
+  "offers": {
+    "@type": "Offer",
+    "category": "Enterprise only"
+  },
+  "featureList": [
+    "Discover warm intro paths"
+  ],
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/mcp-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://mcp.crossbeam.com/mcp"
+  },
+  "documentation": "https://developers.crossbeam.com/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Signals & Intent",
+      "item": "https://andrewcmcguire.com/mcp-directory/categories/signals-intent-abm.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crossbeam",
+      "item": "https://andrewcmcguire.com/mcp-directory/tools/crossbeam.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/index.html" aria-current="page">Tools</a>
+<a href="../categories/index.html">Categories</a>
+<a href="../jobs/index.html">Jobs</a>
+<a href="../lists/index.html">Lists</a>
+<a href="../learn/index.html">Learn</a>
+<a href="../mcp/index.html">MCP status</a>
+<a href="../gates/index.html">Gate</a>
+<a href="../methodology.html">Method</a>
+<a href="../data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../index.html">Directory</a> /
+<a href="../categories/signals-intent-abm.html">Signals &amp; Intent</a> /
+Crossbeam</div>
+<div class="toolhead">
+<h1>Crossbeam</h1>
+<div class="badges">
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
+<a class="badge copper" href="../gates/enterprise-only.html">Enterprise only</a>
+<a class="badge mute flat" href="../categories/signals-intent-abm.html">Signals &amp; Intent</a>
+<span class="badge tier flat">RESEARCHED</span>
+<span class="badge mute flat">Checked 2026-08-25</span>
+</div>
+<div class="tierbox"><b>RESEARCHED</b>
+Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and
+cannot be bought at any price. Across the whole directory that count is 0.</div>
+<p class="note">Vendor: <a href="https://crossbeam.com" rel="noopener nofollow">crossbeam.com</a>
+&middot; entry id 05-crossbeam &middot; source
+05-signals-intent-abm.md line 593</p>
+</div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Compares your account list against your partners&#x27; account lists to surface overlaps, partner-shared contacts, and warm introduction paths for co-selling.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">The MCP is a read-only data surface, so the AI is whatever client is attached to it. Crossbeam&#x27;s own product supplies partner recommendations and ecosystem scoring rather than generative AI.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Partner and ecosystem data layer feeding account prioritisation and co-sell routing; the &quot;who already has a relationship here&quot; question answered from partner data rather than from a purchased contact graph.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">OAuth with Crossbeam login credentials, with a permission consent screen at connect time.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+</div>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-08-25 and has not been re-fetched since.</p>
+<p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.crossbeam.com/mcp (docs: https://www.crossbeam.com/what-is-crossbeam/crossbeam-mcp)</p><ul><li><a href="https://mcp.crossbeam.com/mcp" rel="noopener nofollow">https://mcp.crossbeam.com/mcp</a></li><li><a href="https://www.crossbeam.com/what-is-crossbeam/crossbeam-mcp" rel="noopener nofollow">https://www.crossbeam.com/what-is-crossbeam/crossbeam-mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
+<div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
+</div>
+<p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
+<p>enterprise-only</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p><a href="https://developers.crossbeam.com/" rel="noopener nofollow">https://developers.crossbeam.com/</a></p><p class="note">No documentation text is reproduced anywhere on this site. Read the vendor page for the prose. The structured docs digest specced in SPEC section 3 has not been built or crawled: docs_digest is null on every entry in this build.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/discover-warm-intro-paths.html">Discover warm intro paths</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.crossbeam.com/what-is-crossbeam/crossbeam-mcp" rel="noopener nofollow">https://www.crossbeam.com/what-is-crossbeam/crossbeam-mcp</a></li><li><a href="https://help.crossbeam.com/en/articles/12601327-crossbeam-mcp-server-limited-availability" rel="noopener nofollow">https://help.crossbeam.com/en/articles/12601327-crossbeam-mcp-server-limited-availability</a></li><li><a href="https://developers.mcp.crossbeam.com/" rel="noopener nofollow">https://developers.mcp.crossbeam.com/</a></li><li><a href="https://developers.crossbeam.com/" rel="noopener nofollow">https://developers.crossbeam.com/</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.crossbeam.com/what-is-crossbeam/crossbeam-mcp, https://help.crossbeam.com/en/articles/12601327-crossbeam-mcp-server-limited-availability, https://developers.mcp.crossbeam.com/, https://developers.crossbeam.com/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Added 2026-08-25 in the coverage sweep. MCP is in Limited Availability and restricted to Supernode and Enterprise customers only; Free and Connector plans are explicitly excluded, which is why api_gate is enterprise-only despite Crossbeam having a free product tier. All exposed tools are read-only per vendor docs. NOT VERIFIED: what the Supernode tier costs, which matters because it is the gate on the MCP. Partner-ecosystem data is a lane this directory did not previously cover at all.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Entry id</div><div class="bv">05-crossbeam</div></div>
+<div><div class="bk">Source file</div><div class="bv">05-signals-intent-abm.md</div></div>
+<div><div class="bk">Source line</div><div class="bv">593</div></div>
+<div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-08-25</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-08-25</div></div>
+</div>
+<p class="note">Every field above is rendered from directory.json exactly as the build produced it.
+Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
+it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></div></div></div></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="../categories/index.html">By category</a></li>
+      <li><a href="../mcp/index.html">By MCP status</a></li>
+      <li><a href="../gates/index.html">By access gate</a></li>
+      <li><a href="../jobs/index.html">By job</a></li>
+      <li><a href="../github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology.html">How an entry is made</a></li>
+      <li><a href="../submit.html">Submit a tool, free</a></li>
+      <li><a href="../learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="../lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data.html">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="crossbeam.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

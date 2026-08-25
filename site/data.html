@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The data: directory.json, published in full</title>
+<meta name="description" content="The whole GTM MCP Directory as JSON: 293 entries, 144 official MCP servers, 827 job tags, every source URL. Free, no key, no signup. Baked 2026-08-25.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/data.html">
+<link rel="alternate" type="text/markdown" href="data.md">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The GTM MCP Directory",
+  "alternateName": "GTM tools by MCP server status and API access gate",
+  "description": "293 go to market software entries across 15 categories, each recording whether an MCP server exists and who maintains it, whether a solo operator can get API access, what the tool does in plain language, the jobs it is tagged with, and the source URLs the facts came from. 144 entries have an official MCP server.",
+  "url": "https://andrewcmcguire.com/mcp-directory/data.html",
+  "sameAs": "https://github.com/andrewcmcguire/gtm-mcp-directory",
+  "keywords": [
+    "MCP",
+    "Model Context Protocol",
+    "go to market",
+    "GTM",
+    "AI agents",
+    "sales tools",
+    "RevOps",
+    "data enrichment",
+    "API access"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Andrew McGuire"
+  },
+  "dateModified": "2026-08-25",
+  "isAccessibleForFree": true,
+  "measurementTechnique": "Facts pulled by hand from public sources with URLs, reconciled at build time against tools_recount.py. RESEARCHED tier: nobody has run the tools. bench_tested is 0.",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "mcp_status",
+      "description": "official, community, none-found, unknown or n-a, with the date checked"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "api_gate",
+      "description": "free, paid, enterprise-leaning, enterprise-only, unknown or n-a"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "jobs",
+      "description": "tags from a closed vocabulary of 55 jobs in 10 families"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tier",
+      "description": "RESEARCHED or BENCH-TESTED, the two tier honesty law"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "name": "directory.json, the whole directory",
+      "contentUrl": "https://andrewcmcguire.com/mcp-directory/data/directory.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "name": "build_report.json, the counting authority's report",
+      "contentUrl": "https://andrewcmcguire.com/mcp-directory/data/build_report.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "name": "search-index.json, one compact record per unique product",
+      "contentUrl": "https://andrewcmcguire.com/mcp-directory/search-index.json"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="tools/index.html">Tools</a>
+<a href="categories/index.html">Categories</a>
+<a href="jobs/index.html">Jobs</a>
+<a href="lists/index.html">Lists</a>
+<a href="learn/index.html">Learn</a>
+<a href="mcp/index.html">MCP status</a>
+<a href="gates/index.html">Gate</a>
+<a href="methodology.html">Method</a>
+<a href="data.html" aria-current="page">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="index.html">Directory</a> / The data</div>
+<section style="padding-top:18px">
+<div class="eyebrow">The data endpoint</div>
+<h2>The whole directory, as one JSON file.</h2>
+<p class="sub">No key, no signup, no rate limit, no tracking. The same file the site is generated
+from, the same file the MCP server reads, published as it is. If you are an agent, start here. If
+you are a person building something, this is the fastest path to it.</p>
+<div class="btnrow">
+<a class="btn solid" href="data/directory.json">directory.json</a>
+<a class="btn" href="data/build_report.json">build_report.json</a>
+<a class="btn ghost" href="search-index.json">search-index.json</a>
+<a class="btn ghost" href="llms.txt">llms.txt</a>
+</div>
+<div class="stats" style="margin-top:30px">
+<div class="stat is-gold"><div class="n">293</div><div class="k">entries</div></div>
+<div class="stat"><div class="n">277</div>
+<div class="k">unique products</div></div>
+<div class="stat is-gold"><div class="n">144</div>
+<div class="k">official MCP servers</div></div>
+<div class="stat is-teal"><div class="n">827</div>
+<div class="k">job tags</div></div>
+<div class="stat"><div class="n">1,061</div>
+<div class="k">source URLs</div></div>
+<div class="stat is-copper"><div class="n">0</div>
+<div class="k">bench tested</div></div>
+</div>
+
+<div class="field"><div class="k">The files</div><div class="v">
+<div class="scroller"><table class="datatable"><thead><tr><th>File</th><th>Bytes</th>
+<th>What it is</th></tr></thead><tbody>
+<tr><td><a href="data/directory.json">data/directory.json</a></td>
+<td class="n">1,165,729</td>
+<td>Every entry with every field, the 15 category blocks, the closed
+55 job vocabulary with its per job counts, the duplicate groups, and the counts block the
+whole site renders from.</td></tr>
+<tr><td><a href="data/build_report.json">data/build_report.json</a></td>
+<td class="n">45,904</td>
+<td>The counting authority's report: per file reconciliation, field coverage, every place this build
+is thin, and the 28 entries the tagging pass flagged for human
+review.</td></tr>
+<tr><td><a href="search-index.json">search-index.json</a></td><td class="n">281,781</td>
+<td>One compact record per unique product, which is what the on page search runs over.</td></tr>
+<tr><td><a href="llms.txt">llms.txt</a></td><td class="n">text</td>
+<td>The map, for agents and crawlers. Every section of the site with a one line description.</td></tr>
+</tbody></table></div>
+</div></div>
+
+<div class="field"><div class="k">Every field on an entry</div><div class="v">
+<div class="scroller"><table class="datatable"><thead><tr><th>Field</th><th>What it holds</th>
+</tr></thead><tbody><tr><td class="n">id</td><td>the entry id, stable across builds, prefixed with its category number</td></tr><tr><td class="n">name / vendor_url / vendor_domain</td><td>the product and where it lives</td></tr><tr><td class="n">what_it_does</td><td>one plain sentence, rewritten. Vendor copy never ships as the description</td></tr><tr><td class="n">ai_features</td><td>what the AI actually does, separated from automation with an AI label on it</td></tr><tr><td class="n">mcp_status / mcp_status_bucket</td><td>the verbatim field and the normalised bucket</td></tr><tr><td class="n">mcp_url / mcp_urls</td><td>verbatim, and every URL parsed out of it</td></tr><tr><td class="n">mcp_auth</td><td>verbatim. The sentence that decides your security review</td></tr><tr><td class="n">api_gate / api_gate_bucket</td><td>verbatim, and the normalised bucket</td></tr><tr><td class="n">jobs / jobs_tagged_by / jobs_tagged_on</td><td>tags from the closed 55 job vocabulary, and who tagged them when</td></tr><tr><td class="n">tier / last_checked</td><td>RESEARCHED or BENCH-TESTED, and the date the facts were pulled</td></tr><tr><td class="n">sources / source_urls / source_annotations</td><td>verbatim, and the URLs parsed out of it</td></tr><tr><td class="n">canonical / canonical_id / also_listed_in</td><td>the 16 deliberate cross listings and where each one belongs</td></tr><tr><td class="n">source_file / source_line</td><td>the exact line of the source markdown this entry came from</td></tr><tr><td class="n">github_* / docs_digest / submission</td><td>present on every entry, null on every entry. Nothing has been measured for them</td></tr></tbody></table></div>
+</div></div>
+
+<div class="field"><div class="k">How to read it without getting it wrong</div><div class="v">
+<p><b>Two counts exist and both are correct.</b> 293 entries,
+277 unique products. The difference is 16
+products deliberately listed in two categories. Filter on <code>canonical</code> for products, count
+everything for entries.</p>
+<p style="margin-top:10px"><b>Buckets are normalised, verbatim fields are not.</b> Every bucket has a
+matching raw field beside it. When they disagree, the raw field is the fact.</p>
+<p style="margin-top:10px"><b>Every date means something different.</b> <code>last_checked</code> is
+when a human pulled that entry's facts. <code>generated_on</code> is only when this file was baked.
+<code>jobs_tagged_on</code> is when the tags were written. Do not use one for another.</p>
+<p style="margin-top:10px"><b>A job tag is not a test.</b> A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p>
+<p style="margin-top:10px"><b>Null means unmeasured, not zero.</b> Every github_* field and
+docs_digest is null on all 293 entries because the
+rail that would fill them has not run.</p>
+</div></div>
+
+<div class="field"><div class="k">Terms</div><div class="v">
+<p>Use it. Attribution to The GTM MCP Directory with a link is the only ask, and it is an ask rather
+than a licence trap. The data is free because it is more useful when other operators correct it, and
+a correction is the most valuable thing anyone can send. There is no key to request, no quota, and
+nothing about you is logged by this site because there is no backend to log it.</p>
+<p style="margin-top:10px">Facts about third party products are recorded from those vendors' own
+public sources with URLs, and every entry names them. If you are a vendor and something here is
+wrong, <a href="submit.html">the correction path is the same one everybody else uses</a>.</p>
+</div></div>
+
+<div class="field"><div class="k">Provenance</div><div class="v">
+<div class="blockgrid">
+<div><div class="bk">Baked</div><div class="bv">2026-08-25</div></div>
+<div><div class="bk">By</div><div class="bv">build_directory.py (phase 1)</div></div>
+<div><div class="bk">Schema version</div><div class="bv">1.1</div></div>
+<div><div class="bk">Reconciled against</div>
+<div class="bv">tools_recount.py</div></div>
+<div><div class="bk">Network calls during the build</div>
+<div class="bv">0</div></div>
+<div><div class="bk">Content sha256</div><div class="bv">a9ecb43666b5537e870f2377...</div></div>
+</div>
+<p class="note">The canonical base URL used by the sitemap, the canonical tags and llms.txt is
+https://andrewcmcguire.com/mcp-directory, which is the site's intended home and not yet routed. See the
+<a href="methodology.html">methodology page</a>.</p>
+</div></div>
+
+</section></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="categories/index.html">By category</a></li>
+      <li><a href="mcp/index.html">By MCP status</a></li>
+      <li><a href="gates/index.html">By access gate</a></li>
+      <li><a href="jobs/index.html">By job</a></li>
+      <li><a href="github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="methodology.html">How an entry is made</a></li>
+      <li><a href="submit.html">Submit a tool, free</a></li>
+      <li><a href="learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="llms.txt">llms.txt</a></li>
+      <li><a href="data.html">The public data endpoint</a></li>
+      <li><a href="data/directory.json">directory.json</a></li>
+      <li><a href="search-index.json">search-index.json</a></li>
+      <li><a href="sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="data.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MCP security risks in a GTM stack: credentials, injection and blast radius</title>
+<meta name="description" content="Connecting an agent to your CRM, your enrichment vendors and your mailbox creates four specific risks. What they are, and what the auth data across GTM MCP servers says about them.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/learn/what-are-the-security-risks-of-connecting-an-agent-to-my-gtm-stack.html">
+<link rel="alternate" type="text/markdown" href="what-are-the-security-risks-of-connecting-an-agent-to-my-gtm-stack.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the security risks of connecting an AI agent to my GTM stack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Four risks matter: the credential you hand the server can usually do far more than the one task, tool results are untrusted text that can carry instructions the model may follow, a community server is code from a stranger running on your machine, and an agent that can send or write can do it at machine speed before anybody notices."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Learn",
+      "item": "https://andrewcmcguire.com/mcp-directory/learn/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "What are the security risks of connecting an AI agent to my GTM stack?",
+      "item": "https://andrewcmcguire.com/mcp-directory/learn/what-are-the-security-risks-of-connecting-an-agent-to-my-gtm-stack.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/index.html">Tools</a>
+<a href="../categories/index.html">Categories</a>
+<a href="../jobs/index.html">Jobs</a>
+<a href="../lists/index.html">Lists</a>
+<a href="../learn/index.html" aria-current="page">Learn</a>
+<a href="../mcp/index.html">MCP status</a>
+<a href="../gates/index.html">Gate</a>
+<a href="../methodology.html">Method</a>
+<a href="../data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs" style="padding-bottom:0"><a href="../index.html">Directory</a> /
+<a href="index.html">Learn</a> / Definitions</div>
+<div class="qhead">
+<div class="eyebrow">Definitions</div>
+<h1>What are the security risks of connecting an AI agent to my GTM stack?</h1>
+</div>
+<div class="answerbox"><div class="lab">The short answer</div><p>Four risks matter: the credential you hand the server can usually do far more than the one task, tool results are untrusted text that can carry instructions the model may follow, a community server is code from a stranger running on your machine, and an agent that can send or write can do it at machine speed before anybody notices.</p></div>
+<div class="prose">
+
+<h2>1. The credential is the blast radius</h2>
+<p>An MCP server does what your credential allows, not what the tool description says. A CRM key
+scoped to full access does not become read only because the agent was only asked to read. Scope the
+credential at the vendor, not in the prompt. Of the
+165 servers counted here,
+<a href="../lists/auth-oauth.html">the OAuth ones</a> are the better shape for this: the token is
+scoped and revocable from the vendor side without touching the agent's config.</p>
+<h2>2. Tool output is untrusted input</h2>
+<p>An agent reads what a tool returns. A scraped page, an inbound email, a CRM note or a form
+submission can contain text written by someone who wants your agent to do something. If that text
+reaches the model and the model can call tools, the instruction can be acted on. This is the single
+most GTM specific risk on this list, because the entire job involves ingesting text strangers wrote.
+Keep destructive tools behind human approval and do not let a research step and a send step share an
+unsupervised loop.</p>
+<h2>3. A community server is somebody's code on your machine</h2>
+<p>21 entries here have a community server, and a locally installed
+server runs with your user's permissions. Read who published it, whether the vendor acknowledges it,
+and what it wants access to. The repo health rail that would date stamp each one has not been run
+for this build, so this directory publishes no staleness claim at all rather than a stale one.</p>
+<h2>4. Speed is the amplifier</h2>
+<p>Every failure above already existed with scripts. What is new is that nobody wrote the sequence in
+advance. 45 entries here are tagged
+<a href="../jobs/run-email-sequence.html">run an email sequence</a> and 28 are tagged
+<a href="../jobs/write-crm-records.html">write crm records</a>. Those two capabilities in one unsupervised loop is how a bad enrichment
+result becomes two thousand wrong emails and a polluted CRM in the same afternoon.</p>
+<h2>The short checklist</h2>
+<ul>
+<li>Separate read credentials from write credentials, and prefer OAuth where the vendor offers it.</li>
+<li>Require approval on anything that sends, spends or writes.</li>
+<li>Log every tool call with its arguments. If you cannot answer what the agent did on Tuesday, you
+do not have an agent, you have an incident waiting for a date.</li>
+<li>Sandbox a new server before it touches production data, and read the verbatim auth field on its
+tool page first.</li>
+</ul>
+<h2>Sources</h2>
+<ul class="srcs"><li><a href="https://modelcontextprotocol.io/specification" rel="noopener nofollow">Model Context Protocol, the specification</a> <span class="dom">https://modelcontextprotocol.io/specification</span></li><li><a href="https://modelcontextprotocol.io" rel="noopener nofollow">Model Context Protocol, official documentation</a> <span class="dom">https://modelcontextprotocol.io</span></li><li><a href="../lists/auth-types.html">The GTM MCP Directory, servers by auth type</a> <span class="dom">this site</span></li></ul>
+<p class="note">Every number on this page is generated from directory.json at build time and carries
+the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is
+estimated. The underlying data is <a href="../data.html">published in full</a>. Where the honest
+answer is a zero, the zero is printed.</p>
+<h2>Related questions</h2><ul class="srcs"><li><a href="which-gtm-mcp-servers-use-oauth.html">Which GTM MCP servers use OAuth instead of an API key?</a></li><li><a href="stdio-vs-remote-mcp-servers.html">What is the difference between a local and a remote MCP server?</a></li><li><a href="how-do-i-stop-an-agent-writing-bad-data-to-my-crm.html">How do I stop an AI agent writing bad data to my CRM?</a></li><li><a href="can-an-ai-agent-send-email-on-my-behalf.html">Can an AI agent send email on my behalf?</a></li></ul>
+<h2>In the directory</h2><div class="btnrow"><a class="btn ghost" href="../lists/auth-types.html">Servers by auth type</a></div>
+</div>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="../categories/index.html">By category</a></li>
+      <li><a href="../mcp/index.html">By MCP status</a></li>
+      <li><a href="../gates/index.html">By access gate</a></li>
+      <li><a href="../jobs/index.html">By job</a></li>
+      <li><a href="../github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology.html">How an entry is made</a></li>
+      <li><a href="../submit.html">Submit a tool, free</a></li>
+      <li><a href="../learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="../lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data.html">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="what-are-the-security-risks-of-connecting-an-agent-to-my-gtm-stack.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

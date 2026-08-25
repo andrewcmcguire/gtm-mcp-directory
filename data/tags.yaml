@@ -1,0 +1,1194 @@
+# tags.yaml - the per-entry job tags for The GTM MCP Directory
+#
+# Phase 2, written 2026-08-25. This file is a SOURCE file, hand-edited, and it
+# is the only place job tags live. `data/directory.json` is generated output:
+# it carries jobs[] because build_directory.py merges this file into it at
+# build time, and any tag written directly into directory.json would be gone
+# on the next rebuild. Edit here.
+#
+# ---------------------------------------------------------------------------
+# WHAT A TAG MEANS
+# ---------------------------------------------------------------------------
+# A tag means THE VENDOR SAYS THE TOOL DOES THIS. It is RESEARCHED tier, the
+# same tier as the entry it was derived from, and it can never be more than
+# that. It is not a test result, not proof the capability is reachable through
+# the tool's MCP server, and not proof it is available on the gate the entry
+# records. The full statement of the rule is in the header of jobs.yaml.
+#
+# Tags were derived by reading each entry's what_it_does / ai_features /
+# revops_role / category fields and nothing else. No vendor site was fetched,
+# no network call was made, and nothing was inferred from a tool's reputation.
+#
+# ---------------------------------------------------------------------------
+# HOW TO EDIT
+# ---------------------------------------------------------------------------
+#   * Keys are product names. A key is resolved against every entry's
+#     normalized name, so ONE key covers all members of a cross-listed product
+#     (HubSpot in 06 and 12, Clari in 03 and 04, and the other 14 groups).
+#     That is deliberate: the 16 duplicates are one product each, and one
+#     product does one set of jobs.
+#   * Values are job ids from jobs.yaml. Nothing else is legal.
+#   * A job id that is not in jobs.yaml FAILS THE BUILD.
+#   * A key that matches no entry FAILS THE BUILD.
+#   * Two keys resolving to the same product FAIL THE BUILD.
+#   * A job listed twice on one product FAILS THE BUILD.
+#   * An entry with no key here gets `jobs: []`. Empty is legal and honest: it
+#     means nobody has tagged it, and every surface says so rather than
+#     implying the tool does nothing.
+#   * A new job needs a jobs.yaml change with a rationale, never an inline
+#     string here. Closed vocabulary, SPEC 2.4 rule 5.
+#
+# Conservatism rule actually applied: a tag was written only where the entry's
+# own text states or directly implies the tool performs that job. Where the
+# call was close, the tag was left off and the entry is listed in
+# needs_review at the bottom with the reason. 255 of the 277 unique products
+# carry at least one tag; 22 are untagged and every one of them is named below.
+
+version: 1
+tagged_on: 2026-08-25
+tagged_by: machine-pass
+tier: RESEARCHED
+tier_meaning: >-
+  A job tag means the vendor says the tool does this. Nobody has run any tool
+  in this directory. bench_tested is still 0.
+job_vocabulary: data/jobs.yaml
+key_resolution: >-
+  Keys are matched against each entry's normalized name (lowercased,
+  parentheticals dropped, punctuation collapsed), the same normalisation
+  tools_recount.py uses to detect cross-file duplicates. One key therefore
+  covers every entry for the same product.
+
+tags:
+
+  # --- 01 data & enrichment ------------------------------------------------
+
+  Anymail Finder:
+    - find-work-email
+    - verify-email-deliverable
+  Apollo.io:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - find-work-email
+    - draft-personalized-outreach
+    - run-email-sequence
+    - place-outbound-call
+    - research-account-for-call-prep
+  BetterContact:
+    - find-work-email
+    - find-phone-number
+  Bright Data:
+    - scrape-web-page-for-facts
+  Clay:
+    - build-target-account-list
+    - enrich-company-from-domain
+    - find-work-email
+    - scrape-web-page-for-facts
+    - write-crm-records
+    - run-automation-workflow
+  Clearbit:
+    - enrich-company-from-domain
+  Cognism:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-person-from-linkedin-url
+    - find-work-email
+    - find-phone-number
+  Coresignal:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - scrape-job-postings
+  Crustdata:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - detect-technographics
+    - detect-funding-or-news-event
+  CUFinder:
+    - enrich-person-from-linkedin-url
+    - enrich-company-from-domain
+    - find-work-email
+    - verify-email-deliverable
+  Datagma:
+    - search-people-by-criteria
+    - enrich-person-from-linkedin-url
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+  Diffbot:
+    - enrich-company-from-domain
+    - detect-funding-or-news-event
+    - scrape-web-page-for-facts
+  Dropcontact:
+    - enrich-person-from-linkedin-url
+    - enrich-company-from-domain
+    - find-work-email
+    - verify-email-deliverable
+  Enrow:
+    - find-work-email
+    - find-phone-number
+    - verify-email-deliverable
+  Exa:
+    - scrape-web-page-for-facts
+    - research-account-for-call-prep
+  Explorium:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - detect-technographics
+    - detect-funding-or-news-event
+  Fiber AI:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-person-from-linkedin-url
+    - find-work-email
+    - find-phone-number
+  Findymail:
+    - find-work-email
+    - find-phone-number
+    - verify-email-deliverable
+  FullEnrich:
+    - find-work-email
+    - find-phone-number
+  Hunter.io:
+    - find-work-email
+    - verify-email-deliverable
+  Lead411:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - fetch-buyer-intent-signals
+  LeadMagic:
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - verify-email-deliverable
+    - scrape-job-postings
+  Lusha:
+    - search-people-by-criteria
+    - enrich-person-from-linkedin-url
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - draft-personalized-outreach
+    - score-and-prioritize-leads
+  Ocean.io:
+    - search-companies-by-firmographics
+    - build-target-account-list
+  People Data Labs:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-person-from-linkedin-url
+    - enrich-company-from-domain
+    - reverse-lookup-person-from-email
+  Prospeo:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - verify-email-deliverable
+    - detect-technographics
+  RocketReach:
+    - enrich-person-from-linkedin-url
+    - find-work-email
+    - find-phone-number
+  Seamless.AI:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - build-target-account-list
+    - find-work-email
+    - find-phone-number
+    - research-account-for-call-prep
+    - run-email-sequence
+  Snov.io:
+    - enrich-company-from-domain
+    - find-work-email
+    - verify-email-deliverable
+    - run-email-sequence
+    - send-linkedin-message
+    - warm-up-inbox
+  Surfe:
+    - enrich-person-from-linkedin-url
+    - find-work-email
+    - find-phone-number
+    - detect-funding-or-news-event
+    - draft-personalized-outreach
+    - write-crm-records
+    - score-and-prioritize-leads
+  The Swarm:
+    - discover-warm-intro-paths
+    - track-job-changes
+    - detect-funding-or-news-event
+  TheirStack:
+    - scrape-job-postings
+    - detect-technographics
+    - fetch-buyer-intent-signals
+  UpLead:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - verify-email-deliverable
+    - detect-technographics
+  Vainu:
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - detect-funding-or-news-event
+    - score-and-prioritize-leads
+  Versium REACH:
+    - verify-email-deliverable
+  Warmly:
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+    - enrich-company-from-domain
+    - answer-inbound-chat
+    - run-email-sequence
+  Wiza:
+    - enrich-person-from-linkedin-url
+    - find-work-email
+    - find-phone-number
+    - verify-email-deliverable
+    - research-account-for-call-prep
+  ZoomInfo:
+    - search-people-by-criteria
+    - search-companies-by-firmographics
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+    - score-and-prioritize-leads
+
+  # --- 02 engagement & outbound --------------------------------------------
+
+  Amplemarket:
+    - search-people-by-criteria
+    - track-job-changes
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+  Apollo.io Sequences:
+    - run-email-sequence
+    - place-outbound-call
+    - read-outreach-performance
+  Autobound:
+    - track-job-changes
+    - detect-funding-or-news-event
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+  Expandi:
+    - send-linkedin-message
+    - run-email-sequence
+  Groove:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - write-crm-records
+  HeyReach:
+    - send-linkedin-message
+    - draft-personalized-outreach
+  Instantly:
+    - search-people-by-criteria
+    - draft-personalized-outreach
+    - run-email-sequence
+    - warm-up-inbox
+    - provision-sending-infrastructure
+  Kixie:
+    - place-outbound-call
+    - read-outreach-performance
+    - write-crm-records
+  Klenty:
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+    - run-email-sequence
+    - place-outbound-call
+    - score-rep-performance
+    - run-sales-roleplay-practice
+  La Growth Machine:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+  lemlist:
+    - search-people-by-criteria
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - warm-up-inbox
+  Mailshake:
+    - draft-personalized-outreach
+    - run-email-sequence
+  Mixmax:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - read-outreach-performance
+    - summarize-meeting
+    - book-a-meeting
+  Nooks:
+    - find-phone-number
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+    - place-outbound-call
+    - summarize-meeting
+    - score-rep-performance
+    - run-sales-roleplay-practice
+  Orum:
+    - place-outbound-call
+    - score-rep-performance
+  Outplay:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - run-autonomous-sdr-agent
+    - extract-deal-signals-from-calls
+  Outreach:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - read-outreach-performance
+    - extract-deal-signals-from-calls
+    - write-crm-records
+    - read-pipeline-forecast
+  Overloop:
+    - find-work-email
+    - verify-email-deliverable
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+  PhantomBuster:
+    - enrich-person-from-linkedin-url
+    - scrape-web-page-for-facts
+    - draft-personalized-outreach
+    - send-linkedin-message
+  QuickMail:
+    - run-email-sequence
+    - send-linkedin-message
+  Reply.io:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - run-autonomous-sdr-agent
+    - warm-up-inbox
+  Salesforge:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - run-autonomous-sdr-agent
+  Salesloft:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - place-outbound-call
+    - extract-deal-signals-from-calls
+    - write-crm-records
+    - read-pipeline-forecast
+    - score-and-prioritize-leads
+  Smartlead:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - verify-email-deliverable
+    - warm-up-inbox
+    - provision-sending-infrastructure
+  Super Send:
+    - run-email-sequence
+    - warm-up-inbox
+    - provision-sending-infrastructure
+    - check-inbox-placement
+  Waalaxy:
+    - search-people-by-criteria
+    - draft-personalized-outreach
+    - send-linkedin-message
+    - run-email-sequence
+  Woodpecker:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+
+  # --- 03 conversation intel -----------------------------------------------
+
+  Airspeed:
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - write-crm-records
+  Attention:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - write-crm-records
+    - score-rep-performance
+  Avoma:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - book-a-meeting
+  Chorus:
+    - fetch-call-transcript
+    - extract-deal-signals-from-calls
+    - score-rep-performance
+  Circleback:
+    - summarize-meeting
+  Clari:
+    - read-pipeline-forecast
+  Clari Copilot:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - draft-personalized-outreach
+    - write-crm-records
+  Fathom:
+    - fetch-call-transcript
+    - summarize-meeting
+    - write-crm-records
+  Fellow:
+    - fetch-call-transcript
+    - summarize-meeting
+  Fireflies.ai:
+    - fetch-call-transcript
+    - search-call-library
+    - summarize-meeting
+    - write-crm-records
+  Gong:
+    - fetch-call-transcript
+    - search-call-library
+    - extract-deal-signals-from-calls
+    - score-rep-performance
+    - read-pipeline-forecast
+  Grain:
+    - fetch-call-transcript
+    - search-call-library
+    - summarize-meeting
+    - read-crm-records
+    - write-crm-records
+    - score-rep-performance
+  Granola:
+    - fetch-call-transcript
+    - search-call-library
+    - summarize-meeting
+  Highspot:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - retrieve-sales-content
+    - score-rep-performance
+  Jiminny:
+    - fetch-call-transcript
+    - summarize-meeting
+    - write-crm-records
+    - score-rep-performance
+  MeetGeek:
+    - fetch-call-transcript
+    - summarize-meeting
+  Momentum:
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - write-crm-records
+  Otter.ai:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - read-crm-records
+    - write-crm-records
+    - draft-personalized-outreach
+  Rilla:
+    - fetch-call-transcript
+    - score-rep-performance
+  Salesroom:
+    - draft-personalized-outreach
+    - write-crm-records
+    - score-rep-performance
+  Seismic:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+    - retrieve-sales-content
+  Sybill:
+    - search-call-library
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+  tl;dv:
+    - fetch-call-transcript
+    - summarize-meeting
+    - score-rep-performance
+  Zoom Revenue Accelerator:
+    - fetch-call-transcript
+    - summarize-meeting
+    - extract-deal-signals-from-calls
+
+  # --- 04 ai sdr agents ----------------------------------------------------
+
+  11x:
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - book-a-meeting
+    - run-autonomous-sdr-agent
+  AiSDR:
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - book-a-meeting
+    - run-autonomous-sdr-agent
+  Artisan AI:
+    - search-people-by-criteria
+    - draft-personalized-outreach
+    - run-email-sequence
+    - book-a-meeting
+    - run-autonomous-sdr-agent
+  Conversica:
+    - answer-inbound-chat
+    - run-email-sequence
+    - book-a-meeting
+    - score-and-prioritize-leads
+  Copy.ai:
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+    - run-automation-workflow
+  HubSpot Breeze:
+    - fetch-buyer-intent-signals
+    - detect-funding-or-news-event
+    - draft-personalized-outreach
+    - run-email-sequence
+    - run-autonomous-sdr-agent
+  Landbase:
+    - build-target-account-list
+    - enrich-company-from-domain
+    - fetch-buyer-intent-signals
+    - score-and-prioritize-leads
+  Luru:
+    - search-people-by-criteria
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - book-a-meeting
+    - run-autonomous-sdr-agent
+  MadKudu:
+    - score-and-prioritize-leads
+  Regie.ai:
+    - search-people-by-criteria
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+    - run-email-sequence
+    - send-linkedin-message
+    - place-outbound-call
+    - run-autonomous-sdr-agent
+  Rox:
+    - score-and-prioritize-leads
+    - book-a-meeting
+    - run-autonomous-sdr-agent
+  Salesforce Agentforce:
+    - read-crm-records
+    - write-crm-records
+    - run-automation-workflow
+    - answer-inbound-chat
+    - run-autonomous-sdr-agent
+  Terret:
+    - research-account-for-call-prep
+    - extract-deal-signals-from-calls
+    - draft-personalized-outreach
+    - read-pipeline-forecast
+  Tofu:
+    - draft-personalized-outreach
+    - run-email-sequence
+    - run-automation-workflow
+  Trellus AI:
+    - place-outbound-call
+    - answer-inbound-chat
+    - book-a-meeting
+    - score-rep-performance
+  Unify:
+    - search-people-by-criteria
+    - build-target-account-list
+    - track-job-changes
+    - detect-funding-or-news-event
+    - detect-technographics
+    - fetch-buyer-intent-signals
+    - draft-personalized-outreach
+    - run-email-sequence
+
+  # --- 05 signals, intent & abm --------------------------------------------
+
+  6sense:
+    - build-target-account-list
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+    - score-and-prioritize-leads
+  Albacross:
+    - enrich-company-from-domain
+    - find-work-email
+    - find-phone-number
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+  Bombora:
+    - fetch-buyer-intent-signals
+  Centralize:
+    - discover-warm-intro-paths
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+  Champify:
+    - track-job-changes
+  Clearbit Reveal:
+    - enrich-company-from-domain
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+    - detect-technographics
+  Common Room:
+    - fetch-buyer-intent-signals
+    - monitor-social-mentions
+  Crossbeam:
+    - discover-warm-intro-paths
+  Demandbase:
+    - enrich-company-from-domain
+    - detect-technographics
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+    - score-and-prioritize-leads
+  Factors.ai:
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+    - research-account-for-call-prep
+    - score-and-prioritize-leads
+  G2 Buyer Intent:
+    - fetch-buyer-intent-signals
+  HG Insights:
+    - enrich-company-from-domain
+    - detect-technographics
+    - fetch-buyer-intent-signals
+  Intently:
+    - enrich-person-from-linkedin-url
+    - scrape-web-page-for-facts
+    - monitor-social-mentions
+  Keyplay:
+    - build-target-account-list
+    - detect-technographics
+    - score-and-prioritize-leads
+  Leadfeeder:
+    - enrich-company-from-domain
+    - find-work-email
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+  Live Data Technologies:
+    - track-job-changes
+  PredictLeads:
+    - enrich-company-from-domain
+    - scrape-job-postings
+    - detect-technographics
+    - detect-funding-or-news-event
+  RB2B:
+    - find-work-email
+    - identify-anonymous-website-visitor
+  Similarweb:
+    - enrich-company-from-domain
+    - research-account-for-call-prep
+  Snitcher:
+    - find-work-email
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+  Sumble:
+    - detect-technographics
+    - research-account-for-call-prep
+  Trigify:
+    - track-job-changes
+    - monitor-social-mentions
+    - fetch-buyer-intent-signals
+  UserGems:
+    - track-job-changes
+    - detect-funding-or-news-event
+    - fetch-buyer-intent-signals
+  Vector:
+    - track-job-changes
+    - identify-anonymous-website-visitor
+    - fetch-buyer-intent-signals
+
+  # --- 06 revops infra -----------------------------------------------------
+
+  Affinity:
+    - discover-warm-intro-paths
+    - fetch-call-transcript
+    - read-crm-records
+    - write-crm-records
+  Airbyte:
+    - sync-records-between-systems
+  Attio:
+    - read-crm-records
+    - write-crm-records
+  Cargo:
+    - enrich-company-from-domain
+    - score-and-prioritize-leads
+    - route-inbound-lead
+    - sync-records-between-systems
+    - run-automation-workflow
+  Close:
+    - place-outbound-call
+    - read-crm-records
+    - write-crm-records
+  Default:
+    - book-a-meeting
+    - route-inbound-lead
+    - score-and-prioritize-leads
+    - enrich-company-from-domain
+    - run-automation-workflow
+  Fivetran:
+    - sync-records-between-systems
+  HighLevel:
+    - book-a-meeting
+    - read-crm-records
+    - write-crm-records
+    - run-email-sequence
+    - run-automation-workflow
+  Hightouch:
+    - draft-personalized-outreach
+    - sync-records-between-systems
+  HubSpot:
+    - read-crm-records
+    - write-crm-records
+    - run-email-sequence
+    - run-automation-workflow
+    - draft-personalized-outreach
+    - answer-inbound-chat
+    - read-pipeline-forecast
+  Make:
+    - sync-records-between-systems
+    - run-automation-workflow
+    - proxy-tool-calls-to-saas
+  n8n:
+    - sync-records-between-systems
+    - run-automation-workflow
+    - proxy-tool-calls-to-saas
+  Octave:
+    - research-account-for-call-prep
+    - draft-personalized-outreach
+    - retrieve-sales-content
+    - score-and-prioritize-leads
+  Openprise:
+    - enrich-company-from-domain
+    - score-and-prioritize-leads
+    - route-inbound-lead
+    - sync-records-between-systems
+    - run-automation-workflow
+  Ortto:
+    - run-email-sequence
+    - read-outreach-performance
+    - answer-inbound-chat
+    - run-automation-workflow
+  Pipedrive:
+    - read-crm-records
+    - write-crm-records
+    - read-pipeline-forecast
+  Retool:
+    - query-data-warehouse
+    - run-automation-workflow
+  Snowflake:
+    - query-data-warehouse
+  Syncari:
+    - sync-records-between-systems
+  Zapier:
+    - sync-records-between-systems
+    - run-automation-workflow
+    - proxy-tool-calls-to-saas
+
+  # --- 07 mcp infrastructure -----------------------------------------------
+
+  Apideck:
+    - read-crm-records
+    - write-crm-records
+    - proxy-tool-calls-to-saas
+  Claude / Anthropic MCP Connector Directory:
+    - discover-mcp-servers
+  Composio:
+    - proxy-tool-calls-to-saas
+  Glama:
+    - discover-mcp-servers
+  mcp.run / TurboMCP:
+    - discover-mcp-servers
+    - proxy-tool-calls-to-saas
+  Metorial:
+    - proxy-tool-calls-to-saas
+  Pipedream MCP:
+    - proxy-tool-calls-to-saas
+  PulseMCP:
+    - discover-mcp-servers
+  Smithery:
+    - discover-mcp-servers
+  Zapier MCP:
+    - proxy-tool-calls-to-saas
+
+  # --- 08 video prospecting ------------------------------------------------
+
+  BombBomb:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  Bonjoro:
+    - create-and-send-prospecting-video
+  Covideo:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  Dubb:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  HeyGen:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  Hippo Video:
+    - create-and-send-prospecting-video
+  Loom:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  Potion:
+    - create-and-send-prospecting-video
+  Quickpage:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  Sendspark:
+    - create-and-send-prospecting-video
+  Tavus:
+    - answer-inbound-chat
+    - book-a-meeting
+  Trumpet:
+    - create-and-send-prospecting-video
+    - create-digital-sales-room
+    - read-outreach-performance
+  Vidyard:
+    - create-and-send-prospecting-video
+    - read-outreach-performance
+  Weezly:
+    - create-and-send-prospecting-video
+    - book-a-meeting
+
+  # --- 09 email deliverability ---------------------------------------------
+
+  Allegrow:
+    - verify-email-deliverable
+    - warm-up-inbox
+  Folderly:
+    - provision-sending-infrastructure
+    - check-inbox-placement
+  GlockApps:
+    - check-inbox-placement
+  Hypertide:
+    - provision-sending-infrastructure
+  InboxAlly:
+    - warm-up-inbox
+  Infraforge:
+    - provision-sending-infrastructure
+    - warm-up-inbox
+  Maildoso:
+    - provision-sending-infrastructure
+  Mailforge:
+    - provision-sending-infrastructure
+  MailGenius:
+    - check-inbox-placement
+  Mailreach:
+    - warm-up-inbox
+  Scaledmail:
+    - provision-sending-infrastructure
+  Warmup Inbox:
+    - warm-up-inbox
+  Warmy.io:
+    - warm-up-inbox
+
+  # --- 10 scheduling & routing ---------------------------------------------
+
+  Cal.com:
+    - book-a-meeting
+    - read-calendar-availability
+  Calendly:
+    - book-a-meeting
+    - read-calendar-availability
+  Chili Piper:
+    - answer-inbound-chat
+    - book-a-meeting
+    - read-calendar-availability
+    - route-inbound-lead
+    - score-and-prioritize-leads
+  Clara:
+    - book-a-meeting
+    - read-calendar-availability
+  Doodle:
+    - book-a-meeting
+    - read-calendar-availability
+  Kronologic:
+    - book-a-meeting
+    - read-calendar-availability
+    - route-inbound-lead
+  LeanData:
+    - book-a-meeting
+    - route-inbound-lead
+  Motion:
+    - read-calendar-availability
+    - summarize-meeting
+  Reclaim.ai:
+    - read-calendar-availability
+  RevenueHero:
+    - book-a-meeting
+    - read-calendar-availability
+    - route-inbound-lead
+    - score-and-prioritize-leads
+  SavvyCal:
+    - book-a-meeting
+    - read-calendar-availability
+  Trevor AI:
+    - read-calendar-availability
+
+  # --- 11 enablement & coaching --------------------------------------------
+
+  Allego:
+    - retrieve-sales-content
+  Bigtincan Readiness:
+    - retrieve-sales-content
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Dialworks:
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Hyperbound:
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Lavender:
+    - draft-personalized-outreach
+    - score-rep-performance
+  Luster:
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Mindtickle:
+    - retrieve-sales-content
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Quantified:
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Second Nature:
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Showpad:
+    - retrieve-sales-content
+    - run-sales-roleplay-practice
+    - score-rep-performance
+  Spekit:
+    - retrieve-sales-content
+
+  # --- 12 forecasting & revenue --------------------------------------------
+
+  Anaplan:
+    - read-pipeline-forecast
+    - model-revenue-plan
+  Aviso:
+    - read-pipeline-forecast
+    - extract-deal-signals-from-calls
+    - run-automation-workflow
+  BoostUp:
+    - read-pipeline-forecast
+    - extract-deal-signals-from-calls
+    - draft-personalized-outreach
+  Cube Software:
+    - model-revenue-plan
+  Ebsta:
+    - read-pipeline-forecast
+    - write-crm-records
+  Forecastio:
+    - read-pipeline-forecast
+    - model-revenue-plan
+  Gong Forecast:
+    - read-pipeline-forecast
+    - extract-deal-signals-from-calls
+  Kluster:
+    - read-pipeline-forecast
+  Mediafly:
+    - read-pipeline-forecast
+    - extract-deal-signals-from-calls
+    - retrieve-sales-content
+  Pigment:
+    - model-revenue-plan
+  Revenue.io:
+    - fetch-call-transcript
+    - extract-deal-signals-from-calls
+    - place-outbound-call
+    - read-pipeline-forecast
+  Salesforce Einstein Forecasting:
+    - read-pipeline-forecast
+  Vareto:
+    - model-revenue-plan
+  Varicent:
+    - read-pipeline-forecast
+    - model-revenue-plan
+    - score-rep-performance
+  Xactly:
+    - read-pipeline-forecast
+    - model-revenue-plan
+    - score-rep-performance
+
+  # --- 13 proposals & deals ------------------------------------------------
+
+  Aligned:
+    - create-digital-sales-room
+  Arphie:
+    - draft-rfp-response
+  Common Paper:
+    - send-document-for-signature
+    - read-contract-terms
+  DealHub:
+    - generate-proposal-or-quote
+  DocuSign:
+    - send-document-for-signature
+    - read-contract-terms
+  GetAccept:
+    - generate-proposal-or-quote
+    - send-document-for-signature
+    - create-digital-sales-room
+  Ironclad:
+    - read-contract-terms
+  Loopio:
+    - draft-rfp-response
+  PandaDoc:
+    - generate-proposal-or-quote
+    - send-document-for-signature
+  Proposify:
+    - generate-proposal-or-quote
+    - send-document-for-signature
+  Qwilr:
+    - generate-proposal-or-quote
+    - send-document-for-signature
+  Recapped.io:
+    - create-digital-sales-room
+  Responsive:
+    - draft-rfp-response
+
+  # --- 14 inbound, plg & chat ----------------------------------------------
+
+  Ada:
+    - answer-inbound-chat
+  Chatbase:
+    - answer-inbound-chat
+  Endgame:
+    - research-account-for-call-prep
+  Forethought:
+    - answer-inbound-chat
+  Intercom:
+    - answer-inbound-chat
+  Landbot:
+    - answer-inbound-chat
+  Pylon:
+    - answer-inbound-chat
+  Qualified:
+    - answer-inbound-chat
+    - book-a-meeting
+    - draft-personalized-outreach
+    - run-email-sequence
+    - score-and-prioritize-leads
+    - run-autonomous-sdr-agent
+  Tidio:
+    - answer-inbound-chat
+
+  # --- 15 community & dark social ------------------------------------------
+
+  Brand24:
+    - monitor-social-mentions
+  Brandwatch:
+    - monitor-social-mentions
+  BuzzSumo:
+    - monitor-social-mentions
+  Champion:
+    - score-and-prioritize-leads
+  F5Bot:
+    - monitor-social-mentions
+  Meltwater:
+    - monitor-social-mentions
+  Mention:
+    - monitor-social-mentions
+  Syften:
+    - monitor-social-mentions
+  Talkwalker:
+    - monitor-social-mentions
+
+# ---------------------------------------------------------------------------
+# NEEDS REVIEW
+# ---------------------------------------------------------------------------
+# Every entry here is either untagged or tagged thinly on purpose. Each line
+# says which and why. The rule that produced this list: when the entry's own
+# text did not clearly show the tool doing a job in the vocabulary, no tag was
+# written. An entry named here is not a defect in the entry; it is a defect in
+# the confidence of the tagging pass, and Drew or a later editorial pass
+# resolves it. Names resolve the same way keys do and the build fails on any
+# name here that matches no entry.
+#
+# reason codes:
+#   dead        product is shut down, absorbed or unverifiable in current form.
+#               Tagging it would put a tool that cannot be bought into a
+#               "which tools do X" answer.
+#   no-job-fits the tool does something real that the 55-job vocabulary does
+#               not name. Candidate input to a vocabulary change, not a tag.
+#   thin        tagged, but with fewer jobs than the entry probably deserves,
+#               because the extra claims were too vague to stand behind.
+#   unclear     the entry itself says the capability is unconfirmed.
+
+needs_review:
+  - name: Bevy
+    reason: no-job-fits. Community-event infrastructure (chapters, meetups, gamification). Real product, no job in the vocabulary describes running an events programme. Either a new job or an honest permanent blank.
+  - name: Census
+    reason: dead. Entry states the standalone product no longer operates and now lives inside Fivetran as Activations. Tags belong on Fivetran, which has sync-records-between-systems.
+  - name: Champion
+    reason: thin. Tagged score-and-prioritize-leads only. Its champion-to-deal-context matching for references and case studies is close to discover-warm-intro-paths but is matching inside existing accounts, not finding a path into a new one. Drew's call.
+  - name: Clockwise
+    reason: dead. Entry says THE PRODUCT IS SHUT DOWN. It did book-a-meeting and read-calendar-availability; tagging a dead endpoint as supply is exactly the failure INDEX.md finding 5 warns about.
+  - name: Commsor
+    reason: dead. Folded into The Swarm's Go-to-Network line. The Swarm carries discover-warm-intro-paths.
+  - name: Continu
+    reason: no-job-fits. Corporate LMS. retrieve-sales-content is about approved sales collateral, not training courses. A learning-content job may be worth adding once file 11 is looked at as a set.
+  - name: Correlated
+    reason: dead. Entry records the current form as unknown, with no live product surface to evaluate.
+  - name: Drift
+    reason: dead. Folded into Salesloft, and the entry states the conversational-AI engine is now a third party (1mind). Tagging answer-inbound-chat would point an agent at a product that no longer exists standalone.
+  - name: Exploding Topics
+    reason: no-job-fits. Trend and topic velocity detection. It is not mention monitoring and it is not an account signal, so monitor-social-mentions would be wrong. Candidate new job: detect-emerging-topic.
+  - name: GummySearch
+    reason: dead. Shut down per the entry's notes.
+  - name: Klavis AI
+    reason: unclear. The entry states the product is agent-training-data infrastructure and explicitly flags the mismatch with Composio/Pipedream. proxy-tool-calls-to-saas is plausible from the "600+ real tools" line and unsupported by everything else on the page.
+  - name: Koala
+    reason: dead. The entry is written in the past tense throughout. It did identify-anonymous-website-visitor and score-and-prioritize-leads.
+  - name: MadKudu
+    reason: thin. Tagged score-and-prioritize-leads only. The domain redirects to HG Insights and the entry says the standalone product no longer appears to exist, so the HG Sales Copilot claims (account research, outreach sequences) were not carried over.
+  - name: mcp.so
+    reason: unclear. The entry could not verify current content. discover-mcp-servers is the obvious tag and there is no fetched evidence for it.
+  - name: Model Context Protocol - official servers repo
+    reason: no-job-fits. The official reference-servers repo. It is the spec's canonical reference, not a registry an agent queries and not a SaaS proxy.
+  - name: Orbit
+    reason: dead. Community analytics platform, past tense in the entry.
+  - name: Pocus
+    reason: dead. Absorbed into a competitor; the entry says features could not be meaningfully evaluated post-acquisition.
+  - name: Relevance AI
+    reason: thin. Tagged nothing. It is a build-your-own-agent platform and the entry says the agentic depth depends entirely on what the operator configures. Its listed specialist agents (prospecting, scheduling, deal review, proposal building) would each be a tag, but tagging a builder with its example templates would inflate the supply count for six jobs at once.
+  - name: SparkToro
+    reason: no-job-fits. Audience attention mapping. Not account research, not mention monitoring. Candidate new job: map-audience-attention.
+  - name: Superblocks
+    reason: no-job-fits. Internal-app building and AI-app governance. run-automation-workflow is not what it does and there is no app-builder job.
+  - name: Toplyne
+    reason: dead. Entry records the current form as unknown.
+  - name: Trainual
+    reason: no-job-fits. SOP and process documentation, explicitly described as not sales-specific.
+  - name: Ultimate.ai
+    reason: dead. Presumed folded into Zendesk AI Agents; no standalone surface to evaluate.
+  - name: WorkRamp
+    reason: no-job-fits. Corporate LMS, same call as Continu.
+  - name: Attio
+    reason: thin. Tagged read-crm-records and write-crm-records. The entry mentions automatic data enrichment and meeting-intelligence tooling in the MCP surface but calls the AI surface unconfirmed, so enrich-company-from-domain and summarize-meeting were left off.
+  - name: Syncari
+    reason: thin. Tagged sync-records-between-systems. Its Master MCP Server exposes governed unified data to agents, which is close to query-data-warehouse, but Syncari is an MDM layer over other systems rather than a warehouse.
+  - name: Versium REACH
+    reason: thin. Tagged verify-email-deliverable only. Identity-graph append on partial contact records is real but the entry does not say what identifiers go in or what comes out, so no enrich or reverse-lookup tag could be justified.
+  - name: Airbyte
+    reason: thin. Tagged sync-records-between-systems. The hosted Context Store and the Agents product line let agents query connected data, which reads close to query-data-warehouse, but Airbyte lands data rather than serving analytical queries over it.

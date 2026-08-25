@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How do I check if a tool has an MCP server? The five places to look</title>
+<meta name="description" content="How to establish whether a vendor really ships an MCP server, who built it, and whether the claim survives contact with the URL. The exact checks this directory runs on every entry.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/learn/how-do-i-check-if-a-tool-has-an-mcp-server.html">
+<link rel="alternate" type="text/markdown" href="how-do-i-check-if-a-tool-has-an-mcp-server.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I check whether a tool has an MCP server?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check five places in this order: this directory, the vendor's own developer documentation, their GitHub organisation, the protocol's reference server repository, and the URL itself. A claim without a URL is not a server, and a URL that 404s is a claim that failed."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Learn",
+      "item": "https://andrewcmcguire.com/mcp-directory/learn/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How do I check whether a tool has an MCP server?",
+      "item": "https://andrewcmcguire.com/mcp-directory/learn/how-do-i-check-if-a-tool-has-an-mcp-server.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/index.html">Tools</a>
+<a href="../categories/index.html">Categories</a>
+<a href="../jobs/index.html">Jobs</a>
+<a href="../lists/index.html">Lists</a>
+<a href="../learn/index.html" aria-current="page">Learn</a>
+<a href="../mcp/index.html">MCP status</a>
+<a href="../gates/index.html">Gate</a>
+<a href="../methodology.html">Method</a>
+<a href="../data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs" style="padding-bottom:0"><a href="../index.html">Directory</a> /
+<a href="index.html">Learn</a> / How to actually do it</div>
+<div class="qhead">
+<div class="eyebrow">How to actually do it</div>
+<h1>How do I check whether a tool has an MCP server?</h1>
+</div>
+<div class="answerbox"><div class="lab">The short answer</div><p>Check five places in this order: this directory, the vendor&#x27;s own developer documentation, their GitHub organisation, the protocol&#x27;s reference server repository, and the URL itself. A claim without a URL is not a server, and a URL that 404s is a claim that failed.</p></div>
+<div class="prose">
+
+<h2>The five places, in order</h2>
+<ol>
+<li><b>This directory.</b> 293 entries, each with an MCP status, the vendor's own
+mcp_url and mcp_auth printed verbatim, and the date the check was made.</li>
+<li><b>The vendor's developer documentation.</b> Not the homepage. Marketing pages say AI powered;
+developer docs say what the endpoint is. 30 of
+293 entries here record a documentation URL, which tells you something in
+itself about the other 263.</li>
+<li><b>Their GitHub organisation.</b> 62 entries here already carry a
+github.com URL somewhere in their fields and 47 of those are in the
+mcp_url field itself, which usually means a local server you run yourself.</li>
+<li><b>The protocol's reference repository</b>, which is where a large number of community servers
+are catalogued.</li>
+<li><b>The URL.</b> Fetch it.</li>
+</ol>
+<h2>What a fetch actually tells you</h2>
+<p>This directory's own rule, applied to every submission: a 200 passes. A 401 passes, because an
+auth gated live endpoint is still a live endpoint. A 403 is inconclusive and gets rechecked by hand.
+A 404 means the claim fails and the entry is recorded as none found rather than official.</p>
+<h2>The distinction most people miss</h2>
+<p>Ask who built it before you ask whether it works. A wrapper published by an integration platform
+is a real, working server and it is not the vendor's. This directory records that as community, and
+21 entries are in that bucket against
+144 official.</p>
+<h2>When the honest answer is unknown</h2>
+<p>7 entries here carry a status of unknown, because the check could not
+settle it either way. Unknown is a legal answer. Publishing a guess as a fact is how a directory
+becomes worthless, and it is the reason every status on this site carries the date it was
+established.</p>
+<h2>Sources</h2>
+<ul class="srcs"><li><a href="https://github.com/modelcontextprotocol/servers" rel="noopener nofollow">modelcontextprotocol/servers, the reference server repository</a> <span class="dom">https://github.com/modelcontextprotocol/servers</span></li><li><a href="https://modelcontextprotocol.io" rel="noopener nofollow">Model Context Protocol, official documentation</a> <span class="dom">https://modelcontextprotocol.io</span></li><li><a href="../methodology.html">The GTM MCP Directory, methodology</a> <span class="dom">this site</span></li><li><a href="../submit.html">The GTM MCP Directory, submit a tool</a> <span class="dom">this site</span></li></ul>
+<p class="note">Every number on this page is generated from directory.json at build time and carries
+the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is
+estimated. The underlying data is <a href="../data.html">published in full</a>. Where the honest
+answer is a zero, the zero is printed.</p>
+<h2>Related questions</h2><ul class="srcs"><li><a href="official-vs-community-mcp-server.html">What is the difference between an official and a community MCP server?</a></li><li><a href="which-gtm-tools-have-no-mcp-server.html">Which GTM tools have no MCP server?</a></li><li><a href="how-many-gtm-tools-are-bench-tested.html">How many of these GTM tools have actually been tested?</a></li><li><a href="how-do-i-audit-my-gtm-stack-for-agent-readiness.html">How do I audit my GTM stack for agent readiness?</a></li></ul>
+<h2>In the directory</h2><div class="btnrow"><a class="btn ghost" href="../methodology.html">Methodology</a><a class="btn ghost" href="../submit.html">Submit a correction</a></div>
+</div>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="../categories/index.html">By category</a></li>
+      <li><a href="../mcp/index.html">By MCP status</a></li>
+      <li><a href="../gates/index.html">By access gate</a></li>
+      <li><a href="../jobs/index.html">By job</a></li>
+      <li><a href="../github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology.html">How an entry is made</a></li>
+      <li><a href="../submit.html">Submit a tool, free</a></li>
+      <li><a href="../learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="../lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data.html">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="how-do-i-check-if-a-tool-has-an-mcp-server.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>

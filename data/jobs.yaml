@@ -1,0 +1,838 @@
+# jobs.yaml - the JTBD controlled vocabulary for The GTM MCP Directory
+#
+# Phase 2, written 2026-08-25. SPEC 2.4 is the authority for the design rules;
+# this file is the vocabulary itself. Read alongside data/tags.yaml, which
+# carries the per-entry tags, and src/build_directory.py, which merges the two
+# into each entry's jobs[] at build time.
+#
+# ---------------------------------------------------------------------------
+# WHAT A TAG MEANS. READ THIS BEFORE TRUSTING ONE.
+# ---------------------------------------------------------------------------
+# A job tag on an entry means:
+#
+#     THE VENDOR SAYS THE TOOL DOES THIS.
+#
+# It does NOT mean:
+#
+#     Somebody ran the tool and it worked.
+#     Somebody called the API and got a result.
+#     The capability is available on the gate the entry records.
+#     The capability is reachable through the tool's MCP server.
+#
+# Tags are derived from each entry's what_it_does / ai_features / revops_role
+# fields, which are themselves RESEARCHED-tier: facts from public sources with
+# URLs, no usage claims, nobody has run the tool. A tag inherits that tier
+# exactly and cannot exceed it. SCHEMA law 3 applies without softening: vendor
+# copy is a source for what the vendor says, not for capability.
+#
+# `bench_tested` is still 0 across the whole directory and a job tag does not
+# change that number by one.
+#
+# ---------------------------------------------------------------------------
+# DESIGN RULES (SPEC 2.4), restated so they travel with the file
+# ---------------------------------------------------------------------------
+# 1. A job is a verb plus an object, lowercase, hyphenated, phrased from the
+#    agent's side. `enrich-person-from-linkedin-url`, not `person-enrichment`.
+# 2. Jobs are cross-category BY DESIGN. `read-crm-records` is carried by tools
+#    in 06 and 10 and 12 and 14. This is not a second category system and must
+#    never be forced into one.
+# 3. A tool carries a job only if its own entry text shows the tool does that
+#    thing. When unsure, leave it off and put the entry in tags.yaml's
+#    needs_review section. An absent tag is honest; a guessed tag is not.
+# 4. A job with almost no supply is a FEATURE, not a gap to paper over. The
+#    whole point is publishing "8 tools claim this, 1 is agent-callable".
+# 5. Closed vocabulary. A new job lands by editing this file with a one-line
+#    rationale, never as an inline string in tags.yaml. The build fails on any
+#    job id in tags.yaml that is not defined here.
+#
+# ---------------------------------------------------------------------------
+# FIELDS ON EACH JOB
+# ---------------------------------------------------------------------------
+#   id                  the slug. stable, closed, referenced by tags.yaml.
+#   family              the family id it belongs to. must exist below.
+#   phrasing            the agent-side verb+object phrase, plain words.
+#   label               the human phrasing for the page.
+#   one_liner           what carrying this job asserts, and its edge.
+#   primary_categories  where the supply mostly sits. NOT a restriction.
+#   aliases             natural-language phrasings an agent might send, used by
+#                       find_tools for fuzzy matching and by the page's
+#                       capability search. Aliases are matched, never stored.
+#
+# ---------------------------------------------------------------------------
+# DEVIATION FROM SPEC 2.4's STARTER LIST, DECLARED
+# ---------------------------------------------------------------------------
+# SPEC 2.4 sketched 50 jobs in 10 families before anybody had read the corpus.
+# Tagging all 293 entries forced six additions and zero deletions. The six, and
+# the supply that forced each:
+#
+#   discover-warm-intro-paths     named in the wave-2 brief; The Swarm,
+#                                 Crossbeam, Affinity, Centralize all sell it
+#                                 and nothing in the starter list covered it.
+#   research-account-for-call-prep  the single most common unmapped claim in the
+#                                 corpus: Sumble, Endgame, Octave, Similarweb,
+#                                 Exa, Wiza, Klenty, ZoomInfo Copilot.
+#   place-outbound-call           dialers are a real product class (Kixie,
+#                                 Nooks, Orum, Trellus, Revenue.io, Close) and
+#                                 `run-email-sequence` does not describe them.
+#   run-sales-roleplay-practice   eight tools in file 11 sell exactly this and
+#                                 `score-rep-performance` is a different job.
+#   draft-rfp-response            Arphie, Loopio and Responsive are a category
+#                                 of three, which is precisely the thin-supply
+#                                 finding rule 4 says to publish.
+#   answer-inbound-chat kept from the starter list but widened to cover voice,
+#                                 because Trellus and Tavus answer inbound by
+#                                 voice and the job is the same job.
+#
+# 55 jobs, 10 families: 7 / 3 / 9 / 7 / 7 / 6 / 6 / 5 / 3 / 2.
+#
+# The build counts the supply behind each job and publishes it exactly as
+# computed. As of 2026-08-25 the thinnest is reverse-lookup-person-from-email
+# with ONE tool in 293 entries. That is the finding, not a bug in the file.
+
+version: 1
+vocabulary_status: closed
+written_on: 2026-08-25
+tier: RESEARCHED
+tier_meaning: >-
+  A job tag means the vendor says the tool does this. It is not a usage claim,
+  not a test result, and not a promise the capability is reachable through the
+  tool's MCP server or on the gate the entry records.
+spec: directory/product/SPEC.md section 2.4
+tags_file: data/tags.yaml
+
+families:
+  - id: find-people-and-companies
+    label: Find people and companies
+    one_liner: Turn a criterion, a domain, a URL or an email into a record.
+  - id: get-contact-data
+    label: Get contact data
+    one_liner: Turn a person into a way to reach them, and check it is real.
+  - id: signals-and-research
+    label: Signals and research
+    one_liner: Find out something changed, or find out what is true right now.
+  - id: outreach-and-engagement
+    label: Outreach and engagement
+    one_liner: Write it, send it, dial it, and read back what happened.
+  - id: conversations-and-meetings
+    label: Conversations and meetings
+    one_liner: Get a meeting on the calendar and get the words out of it.
+  - id: systems-of-record
+    label: Systems of record and plumbing
+    one_liner: Read, write and move the data the rest of the stack argues about.
+  - id: deals-and-documents
+    label: Deal execution and documents
+    one_liner: Quote it, paper it, sign it, and share it with the buyer.
+  - id: planning-scoring-coaching
+    label: Planning, scoring and coaching
+    one_liner: Decide what the number is and who is going to hit it.
+  - id: sending-infrastructure
+    label: Sending infrastructure
+    one_liner: Own the mailboxes, the reputation and the placement.
+  - id: mcp-plumbing
+    label: MCP plumbing
+    one_liner: Find servers, or stand between an agent and somebody's SaaS.
+
+jobs:
+
+  # --- F1. Find people and companies ---------------------------------------
+
+  - id: search-people-by-criteria
+    family: find-people-and-companies
+    phrasing: search people by criteria
+    label: Search people by criteria
+    one_liner: Query a person database by title, seniority, function, geo or company filters and get a list back.
+    primary_categories: ["01", "05"]
+    aliases:
+      - find people matching a title and location
+      - search for contacts by job title
+      - list decision makers at these companies
+      - build a prospect list from filters
+      - who are the vps of sales at these accounts
+
+  - id: search-companies-by-firmographics
+    family: find-people-and-companies
+    phrasing: search companies by firmographics
+    label: Search companies by firmographics
+    one_liner: Query a company database by industry, headcount, revenue, geo or similar and get a list back.
+    primary_categories: ["01", "05"]
+    aliases:
+      - find companies with 50 to 200 employees
+      - search for accounts by industry and size
+      - list saas companies in germany
+      - firmographic company search
+
+  - id: enrich-person-from-linkedin-url
+    family: find-people-and-companies
+    phrasing: enrich person from linkedin url
+    label: Enrich a person from a LinkedIn URL
+    one_liner: Hand it a profile URL or a scraped profile and get a structured person record back.
+    primary_categories: ["01", "05"]
+    aliases:
+      - look up a linkedin profile
+      - get person data from a profile url
+      - i have a linkedin url and i need this person's job title
+      - scrape a linkedin profile
+      - enrich this profile
+
+  - id: enrich-company-from-domain
+    family: find-people-and-companies
+    phrasing: enrich company from domain
+    label: Enrich a company from a domain
+    one_liner: Hand it a domain or company name and get firmographics back.
+    primary_categories: ["01", "05"]
+    aliases:
+      - enrich this company
+      - get firmographics for a domain
+      - how big is this company
+      - fill in company fields from a website
+
+  - id: reverse-lookup-person-from-email
+    family: find-people-and-companies
+    phrasing: reverse lookup person from email
+    label: Reverse-look-up a person from an email
+    one_liner: Hand it an email address and get the person or their profile back. Rare as a first-party capability.
+    primary_categories: ["01"]
+    aliases:
+      - who owns this email address
+      - find the linkedin profile for this email
+      - email to person lookup
+      - reverse email lookup
+
+  - id: build-target-account-list
+    family: find-people-and-companies
+    phrasing: build a target account list
+    label: Build a target account list
+    one_liner: Produce a ranked or filtered account universe from an ICP definition or a set of best customers.
+    primary_categories: ["05", "04"]
+    aliases:
+      - build me a target account list
+      - find lookalikes of my best customers
+      - who should i be selling to
+      - define my icp universe
+
+  - id: discover-warm-intro-paths
+    family: find-people-and-companies
+    phrasing: discover warm intro paths
+    label: Discover warm intro paths
+    one_liner: Answer "who already knows somebody here" from team, partner or relationship-graph data rather than from a bought contact list.
+    primary_categories: ["01", "05", "06"]
+    aliases:
+      - who can introduce me to this account
+      - find a warm intro
+      - do we know anyone at this company
+      - map our relationships into this account
+      - partner overlap with this account
+
+  # --- F2. Get contact data ------------------------------------------------
+
+  - id: find-work-email
+    family: get-contact-data
+    phrasing: find email address
+    label: Find a work email address
+    one_liner: Hand it a person plus a company, domain or profile URL and get a work email back.
+    primary_categories: ["01"]
+    aliases:
+      - find this person's email
+      - find email address
+      - get a work email from a name and domain
+      - email finder
+      - what is their email
+
+  - id: find-phone-number
+    family: get-contact-data
+    phrasing: find phone number
+    label: Find a phone number
+    one_liner: Hand it a person and get a direct dial or mobile back. Consistently the scarcer half of contact data.
+    primary_categories: ["01"]
+    aliases:
+      - find this person's phone number
+      - get a mobile number
+      - direct dial lookup
+      - phone finder
+
+  - id: verify-email-deliverable
+    family: get-contact-data
+    phrasing: verify an email is deliverable
+    label: Verify an email is deliverable
+    one_liner: Check an address against the mail server or a verification pipeline before anything is sent to it.
+    primary_categories: ["01", "09"]
+    aliases:
+      - is this email valid
+      - verify an email address
+      - check deliverability before i send
+      - clean this email list
+      - smtp verification
+
+  # --- F3. Signals and research --------------------------------------------
+
+  - id: identify-anonymous-website-visitor
+    family: signals-and-research
+    phrasing: detect website visitor intent
+    label: Identify an anonymous website visitor
+    one_liner: Resolve site traffic to a company, or in a few cases a named person. Person-level resolution is much rarer than the marketing suggests.
+    primary_categories: ["05"]
+    aliases:
+      - who is visiting my website
+      - deanonymize website traffic
+      - detect website visitor intent
+      - identify companies on my pricing page
+      - visitor identification
+
+  - id: fetch-buyer-intent-signals
+    family: signals-and-research
+    phrasing: fetch buyer intent signals
+    label: Fetch buyer intent signals
+    one_liner: Return third-party or aggregated research/engagement signals saying an account may be in market.
+    primary_categories: ["05", "14"]
+    aliases:
+      - which accounts are in market
+      - get intent data for these companies
+      - buying signals for my target list
+      - is this account researching us
+
+  - id: track-job-changes
+    family: signals-and-research
+    phrasing: track job changes
+    label: Track job changes
+    one_liner: Watch known contacts and tell you when they move, get promoted or land somewhere new.
+    primary_categories: ["05", "01"]
+    aliases:
+      - tell me when my champions change jobs
+      - track job changes
+      - who from my customer list moved
+      - new role alerts for these contacts
+
+  - id: scrape-job-postings
+    family: signals-and-research
+    phrasing: scrape job postings
+    label: Scrape job postings
+    one_liner: Query live or historical job listings as a hiring, budget or tech-stack signal.
+    primary_categories: ["05", "01"]
+    aliases:
+      - scrape job postings
+      - what is this company hiring for
+      - find companies hiring for this role
+      - job board data as an intent signal
+
+  - id: detect-technographics
+    family: signals-and-research
+    phrasing: detect technographics
+    label: Detect a company's tech stack
+    one_liner: Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset.
+    primary_categories: ["05", "01"]
+    aliases:
+      - what tech stack does this company use
+      - find companies running this software
+      - technographics for a domain
+      - detect installed tools
+
+  - id: detect-funding-or-news-event
+    family: signals-and-research
+    phrasing: detect funding or news event
+    label: Detect a funding or news event
+    one_liner: "Return company-level events: funding rounds, M&A, leadership changes, expansion, press."
+    primary_categories: ["05", "01"]
+    aliases:
+      - which of my accounts just raised
+      - funding alerts
+      - company news triggers
+      - tell me when something happens at this account
+
+  - id: scrape-web-page-for-facts
+    family: signals-and-research
+    phrasing: scrape a web page for facts
+    label: Scrape a web page for facts
+    one_liner: Fetch and structure an arbitrary public page. The general-purpose fallback when no structured provider has the record.
+    primary_categories: ["01", "05"]
+    aliases:
+      - scrape this page
+      - read a website and extract facts
+      - crawl the open web for this answer
+      - browse and structure a page
+
+  - id: monitor-social-mentions
+    family: signals-and-research
+    phrasing: monitor social mentions
+    label: Monitor social and community mentions
+    one_liner: Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches.
+    primary_categories: ["15", "05"]
+    aliases:
+      - alert me when someone mentions us on reddit
+      - monitor social mentions
+      - track brand mentions
+      - who is talking about my competitor
+      - keyword alerts across social
+
+  - id: research-account-for-call-prep
+    family: signals-and-research
+    phrasing: research an account before a call
+    label: Research an account before a call
+    one_liner: Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull.
+    primary_categories: ["05", "01", "04"]
+    aliases:
+      - research this account before my call
+      - give me a brief on this company
+      - what should i know before this meeting
+      - summarize this prospect
+      - account research
+
+  # --- F4. Outreach and engagement -----------------------------------------
+
+  - id: run-email-sequence
+    family: outreach-and-engagement
+    phrasing: send sequenced outreach
+    label: Run an email sequence
+    one_liner: Enroll contacts in a multi-step cadence and send it. The execution step, not the writing step.
+    primary_categories: ["02", "04"]
+    aliases:
+      - send sequenced outreach
+      - put these people in a cadence
+      - run a cold email campaign
+      - enroll contacts in a sequence
+      - start an email sequence
+
+  - id: send-linkedin-message
+    family: outreach-and-engagement
+    phrasing: send a linkedin message
+    label: Send a LinkedIn message or connection request
+    one_liner: "Act on LinkedIn: connect, message, follow up. Carries standing platform-terms risk the directory flags on files 02 and 05."
+    primary_categories: ["02", "04"]
+    aliases:
+      - send a linkedin connection request
+      - message someone on linkedin
+      - run a linkedin outreach campaign
+      - automate linkedin dms
+
+  - id: draft-personalized-outreach
+    family: outreach-and-engagement
+    phrasing: draft personalized outreach
+    label: Draft personalized outreach
+    one_liner: "Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step."
+    primary_categories: ["02", "04", "11"]
+    aliases:
+      - write me a cold email for this prospect
+      - draft personalized outreach
+      - generate an opener
+      - personalize this message
+      - write a follow up
+
+  - id: place-outbound-call
+    family: outreach-and-engagement
+    phrasing: place an outbound call
+    label: Place an outbound call
+    one_liner: Dial, including parallel and power dialing, and connect a rep or an agent to a live answer.
+    primary_categories: ["02", "04"]
+    aliases:
+      - dial this list
+      - place an outbound call
+      - parallel dialer
+      - power dial these prospects
+      - call this prospect
+
+  - id: create-and-send-prospecting-video
+    family: outreach-and-engagement
+    phrasing: create and send a prospecting video
+    label: Create and send a prospecting video
+    one_liner: Record or generate a personalized video and deliver it into an email, sequence or CRM step.
+    primary_categories: ["08"]
+    aliases:
+      - send a personalized video
+      - make a prospecting video
+      - generate a video for each prospect
+      - video message a prospect
+
+  - id: read-outreach-performance
+    family: outreach-and-engagement
+    phrasing: read outreach performance
+    label: Read outreach performance
+    one_liner: Return sends, opens, replies, views, watch time and campaign-level results back to the caller.
+    primary_categories: ["02", "08"]
+    aliases:
+      - how did my campaign do
+      - get open and reply rates
+      - read outreach performance
+      - campaign analytics
+      - did they watch the video
+
+  - id: run-autonomous-sdr-agent
+    family: outreach-and-engagement
+    phrasing: run an autonomous sdr agent
+    label: Run an autonomous SDR agent
+    one_liner: A packaged agent that claims to prospect, write, send and follow up with limited human input. Almost always vendor-stated and never bench-tested here.
+    primary_categories: ["04"]
+    aliases:
+      - run an ai sdr
+      - autonomous outbound agent
+      - replace my sdr with an agent
+      - agent that prospects end to end
+
+  # --- F5. Conversations and meetings --------------------------------------
+
+  - id: fetch-call-transcript
+    family: conversations-and-meetings
+    phrasing: fetch a call transcript
+    label: Fetch a call transcript
+    one_liner: Return the recorded and transcribed text of a specific call or meeting.
+    primary_categories: ["03"]
+    aliases:
+      - get the transcript of this call
+      - fetch a call recording
+      - pull the transcript
+      - read what was said on the call
+
+  - id: search-call-library
+    family: conversations-and-meetings
+    phrasing: search the call library
+    label: Search across recorded calls
+    one_liner: Query across many recorded conversations at once rather than fetching one by id.
+    primary_categories: ["03"]
+    aliases:
+      - search all my calls for this topic
+      - which calls mention this competitor
+      - ask a question across my meeting history
+      - search the call library
+
+  - id: summarize-meeting
+    family: conversations-and-meetings
+    phrasing: summarize a meeting
+    label: Summarize a meeting
+    one_liner: Return notes, action items and next steps from a call or meeting.
+    primary_categories: ["03", "10"]
+    aliases:
+      - summarize this meeting
+      - what were the action items
+      - give me the notes from that call
+      - meeting recap
+
+  - id: extract-deal-signals-from-calls
+    family: conversations-and-meetings
+    phrasing: extract deal signals from calls
+    label: Extract deal signals from calls
+    one_liner: Return objections, competitor mentions, risk flags, sentiment or scoring derived from conversation content.
+    primary_categories: ["03", "12"]
+    aliases:
+      - what are the risks on this deal
+      - find objections in my calls
+      - competitor mentions on calls
+      - deal risk from conversation data
+
+  - id: book-a-meeting
+    family: conversations-and-meetings
+    phrasing: book a meeting
+    label: Book a meeting
+    one_liner: Actually put a meeting on a calendar, whether by link, invite or negotiated time.
+    primary_categories: ["10", "04", "14"]
+    aliases:
+      - book a meeting
+      - schedule a call with this prospect
+      - get a time on the calendar
+      - set up a demo
+
+  - id: read-calendar-availability
+    family: conversations-and-meetings
+    phrasing: read calendar availability
+    label: Read calendar availability
+    one_liner: Return open slots, availability rules or existing bookings without necessarily writing anything.
+    primary_categories: ["10"]
+    aliases:
+      - when am i free
+      - read calendar availability
+      - what bookings do i have this week
+      - find a slot that works
+
+  - id: answer-inbound-chat
+    family: conversations-and-meetings
+    phrasing: answer inbound chat
+    label: Answer an inbound chat or call
+    one_liner: Hold a live two-way conversation with an inbound visitor or caller, by text or voice, and qualify or resolve it.
+    primary_categories: ["14", "04", "08"]
+    aliases:
+      - answer inbound chat
+      - qualify website visitors in chat
+      - ai chatbot on my site
+      - handle an inbound call
+      - live conversational agent for visitors
+
+  # --- F6. Systems of record and plumbing ----------------------------------
+
+  - id: read-crm-records
+    family: systems-of-record
+    phrasing: read crm records
+    label: Read CRM records
+    one_liner: Query contacts, accounts, deals and activity out of a system of record.
+    primary_categories: ["06", "12", "14"]
+    aliases:
+      - read crm records
+      - get my open deals
+      - look up this contact in the crm
+      - query salesforce
+      - what is in hubspot for this account
+
+  - id: write-crm-records
+    family: systems-of-record
+    phrasing: write crm records
+    label: Write CRM records
+    one_liner: Create or update records, log activity, or push data back into a system of record.
+    primary_categories: ["06", "03"]
+    aliases:
+      - update this deal in the crm
+      - log the call to salesforce
+      - write crm records
+      - create a contact
+      - push this back to hubspot
+
+  - id: query-data-warehouse
+    family: systems-of-record
+    phrasing: query a data warehouse
+    label: Query a data warehouse
+    one_liner: Run analytical queries against the modeled GTM data, not against the CRM.
+    primary_categories: ["06"]
+    aliases:
+      - query the warehouse
+      - run sql against our gtm data
+      - ask a question of snowflake
+      - read the modeled revenue data
+
+  - id: sync-records-between-systems
+    family: systems-of-record
+    phrasing: sync records between systems
+    label: Sync records between systems
+    one_liner: Move data between the warehouse, the CRM and the rest of the stack. ETL, reverse ETL, MDM.
+    primary_categories: ["06"]
+    aliases:
+      - sync records between systems
+      - push warehouse data into the crm
+      - set up a data pipeline
+      - reverse etl
+      - keep two systems in sync
+
+  - id: run-automation-workflow
+    family: systems-of-record
+    phrasing: run an automation workflow
+    label: Run an automation workflow
+    one_liner: Trigger or execute a multi-step workflow across tools, deterministic or agent-driven.
+    primary_categories: ["06", "04"]
+    aliases:
+      - run an automation workflow
+      - trigger a zap
+      - build a gtm workflow
+      - orchestrate these tools
+      - automate this process
+
+  - id: route-inbound-lead
+    family: systems-of-record
+    phrasing: route an inbound lead
+    label: Route an inbound lead
+    one_liner: Decide which rep, queue or territory an inbound lead or signal belongs to and hand it over.
+    primary_categories: ["10", "14", "06"]
+    aliases:
+      - route this lead to the right rep
+      - assign leads by territory
+      - route an inbound lead
+      - round robin these form fills
+
+  # --- F7. Deal execution and documents ------------------------------------
+
+  - id: generate-proposal-or-quote
+    family: deals-and-documents
+    phrasing: generate a proposal or quote
+    label: Generate a proposal or quote
+    one_liner: "Produce the priced document: CPQ output, proposal, quote, interactive pricing page."
+    primary_categories: ["13"]
+    aliases:
+      - generate a quote
+      - build a proposal
+      - create a pricing document
+      - cpq
+
+  - id: send-document-for-signature
+    family: deals-and-documents
+    phrasing: send a document for signature
+    label: Send a document for signature
+    one_liner: Put a document into a signing flow and track its state to signed.
+    primary_categories: ["13"]
+    aliases:
+      - send this for signature
+      - e-sign a contract
+      - get the msa signed
+      - check whether they signed yet
+
+  - id: read-contract-terms
+    family: deals-and-documents
+    phrasing: read contract terms
+    label: Read contract terms
+    one_liner: Query executed agreements for their terms, dates, obligations or status.
+    primary_categories: ["13"]
+    aliases:
+      - what does this contract say
+      - when does this agreement renew
+      - read contract terms
+      - find the termination clause
+      - search our agreements
+
+  - id: create-digital-sales-room
+    family: deals-and-documents
+    phrasing: create a digital sales room
+    label: Create a digital sales room
+    one_liner: Stand up a buyer-facing shared space with collateral, a mutual action plan and engagement tracking.
+    primary_categories: ["13", "08"]
+    aliases:
+      - create a digital sales room
+      - build a buyer microsite
+      - share a deal room with the buyer
+      - mutual action plan page
+
+  - id: retrieve-sales-content
+    family: deals-and-documents
+    phrasing: retrieve sales content
+    label: Retrieve sales content
+    one_liner: Return the approved collateral, messaging or positioning a rep or an agent should use right now.
+    primary_categories: ["11", "03", "06"]
+    aliases:
+      - find the right deck for this deal
+      - retrieve sales content
+      - what is our approved messaging
+      - get the case study for this industry
+
+  - id: draft-rfp-response
+    family: deals-and-documents
+    phrasing: draft an rfp response
+    label: Draft an RFP or questionnaire response
+    one_liner: Auto-answer RFP, RFI, DDQ and security-questionnaire items from a governed content library.
+    primary_categories: ["13"]
+    aliases:
+      - answer this security questionnaire
+      - draft an rfp response
+      - fill in this ddq
+      - respond to an rfi
+
+  # --- F8. Planning, scoring and coaching ----------------------------------
+
+  - id: read-pipeline-forecast
+    family: planning-scoring-coaching
+    phrasing: read the pipeline forecast
+    label: Read the pipeline forecast
+    one_liner: Return the roll-up, the commit, the deal-likelihood scores and the risk flags.
+    primary_categories: ["12", "03"]
+    aliases:
+      - what is the forecast this quarter
+      - read the pipeline forecast
+      - which deals are at risk
+      - pipeline roll up
+      - are we going to hit the number
+
+  - id: model-revenue-plan
+    family: planning-scoring-coaching
+    phrasing: model a revenue plan
+    label: Model a revenue plan
+    one_liner: "Build or query the plan side: quota, capacity, territory, scenarios, comp."
+    primary_categories: ["12"]
+    aliases:
+      - model a revenue plan
+      - run a what-if scenario
+      - quota and capacity planning
+      - territory design
+      - what happens if we hire five more reps
+
+  - id: score-and-prioritize-leads
+    family: planning-scoring-coaching
+    phrasing: score and prioritize leads
+    label: Score and prioritize leads
+    one_liner: Rank accounts, leads or contacts by fit, intent or qualification and say what to work first.
+    primary_categories: ["05", "04", "14"]
+    aliases:
+      - score these leads
+      - which accounts should i work first
+      - prioritize my list
+      - qualify this lead
+      - icp fit score
+
+  - id: score-rep-performance
+    family: planning-scoring-coaching
+    phrasing: score rep performance
+    label: Score rep performance
+    one_liner: Grade a rep against a scorecard, methodology or behaviour set and produce coaching output.
+    primary_categories: ["11", "03", "12"]
+    aliases:
+      - score rep performance
+      - how is this rep doing
+      - coaching scorecard
+      - grade this call against our methodology
+
+  - id: run-sales-roleplay-practice
+    family: planning-scoring-coaching
+    phrasing: run a sales roleplay practice
+    label: Run a sales roleplay practice
+    one_liner: Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring.
+    primary_categories: ["11"]
+    aliases:
+      - run a roleplay with an ai buyer
+      - practice a cold call
+      - simulate a discovery call
+      - certify reps on the pitch
+
+  # --- F9. Sending infrastructure ------------------------------------------
+
+  - id: warm-up-inbox
+    family: sending-infrastructure
+    phrasing: warm up an inbox
+    label: Warm up an inbox
+    one_liner: Build or repair sender reputation by generating engagement against a mailbox over time.
+    primary_categories: ["09", "02"]
+    aliases:
+      - warm up my inbox
+      - build sender reputation
+      - fix my domain reputation
+      - email warmup
+
+  - id: provision-sending-infrastructure
+    family: sending-infrastructure
+    phrasing: provision sending infrastructure
+    label: Provision sending infrastructure
+    one_liner: Buy and configure domains, mailboxes, IPs and DNS authentication for outbound sending.
+    primary_categories: ["09"]
+    aliases:
+      - set up cold email domains
+      - provision mailboxes
+      - configure spf dkim dmarc
+      - buy sending infrastructure
+      - dedicated ip for outbound
+
+  - id: check-inbox-placement
+    family: sending-infrastructure
+    phrasing: check inbox placement
+    label: Check inbox placement
+    one_liner: "Measure where mail actually lands: inbox, promotions or spam, per provider."
+    primary_categories: ["09"]
+    aliases:
+      - am i landing in spam
+      - check inbox placement
+      - test deliverability before i send
+      - seed list placement test
+
+  # --- F10. MCP plumbing ---------------------------------------------------
+
+  - id: discover-mcp-servers
+    family: mcp-plumbing
+    phrasing: discover mcp servers
+    label: Discover MCP servers
+    one_liner: Search or browse a registry of MCP servers. The meta-job this whole directory also performs.
+    primary_categories: ["07"]
+    aliases:
+      - find an mcp server for this
+      - discover mcp servers
+      - browse the mcp registry
+      - is there an mcp for this tool
+
+  - id: proxy-tool-calls-to-saas
+    family: mcp-plumbing
+    phrasing: proxy tool calls to saas
+    label: Proxy tool calls to SaaS apps
+    one_liner: Stand between an agent and many SaaS APIs, handling auth and normalisation so the agent does not wire each vendor itself.
+    primary_categories: ["07", "06"]
+    aliases:
+      - one connector for all my saas tools
+      - proxy tool calls to saas
+      - handle oauth for my agent
+      - unified api for crms
+      - let my agent call any app

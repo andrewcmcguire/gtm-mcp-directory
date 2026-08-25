@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anymail Finder: MCP server status, API access gate and what it does</title>
+<meta name="description" content="Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail... Official MCP, Free to start. Checked 2026-08-25.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/mcp-directory/tools/anymail-finder.html">
+<link rel="alternate" type="text/markdown" href="anymail-finder.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Anymail Finder",
+  "url": "https://anymailfinder.com",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Data & Enrichment",
+  "description": "Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies.",
+  "offers": {
+    "@type": "Offer",
+    "category": "Free to start"
+  },
+  "featureList": [
+    "Find a work email address",
+    "Verify an email is deliverable"
+  ],
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/mcp-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://api.anymailfinder.com/mcp"
+  },
+  "documentation": "https://anymailfinder.com/email-finder-api/docs"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/mcp-directory/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Data & Enrichment",
+      "item": "https://andrewcmcguire.com/mcp-directory/categories/data-enrichment.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Anymail Finder",
+      "item": "https://andrewcmcguire.com/mcp-directory/tools/anymail-finder.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../index.html">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/index.html" aria-current="page">Tools</a>
+<a href="../categories/index.html">Categories</a>
+<a href="../jobs/index.html">Jobs</a>
+<a href="../lists/index.html">Lists</a>
+<a href="../learn/index.html">Learn</a>
+<a href="../mcp/index.html">MCP status</a>
+<a href="../gates/index.html">Gate</a>
+<a href="../methodology.html">Method</a>
+<a href="../data.html">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../index.html">Directory</a> /
+<a href="../categories/data-enrichment.html">Data &amp; Enrichment</a> /
+Anymail Finder</div>
+<div class="toolhead">
+<h1>Anymail Finder</h1>
+<div class="badges">
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
+<a class="badge teal" href="../gates/free.html">Free to start</a>
+<a class="badge mute flat" href="../categories/data-enrichment.html">Data &amp; Enrichment</a>
+<span class="badge tier flat">RESEARCHED</span>
+<span class="badge mute flat">Checked 2026-08-25</span>
+</div>
+<div class="tierbox"><b>RESEARCHED</b>
+Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and
+cannot be bought at any price. Across the whole directory that count is 0.</div>
+<p class="note">Vendor: <a href="https://anymailfinder.com" rel="noopener nofollow">anymailfinder.com</a>
+&middot; entry id 01-anymail-finder &middot; source
+01-data-enrichment.md line 639</p>
+</div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">None, and the vendor does not pretend otherwise. No AI claims appear on the homepage, the pricing page, or the API docs. It is a deterministic email finder and SMTP verifier. The only AI adjacency is that they shipped an MCP server so somebody else&#x27;s agent can call the deterministic tool, which is the honest version of AI integration and is worth naming as the counter-example to this category&#x27;s usual marketing.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">The cheap deterministic waterfall step: an email-find-and-verify primitive you call from Clay, a waterfall, or an agent, right before the sequencer. Not a database you browse, a function you call.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">Browser-based OAuth-style sign-in and approval for Claude, ChatGPT and Cursor, with an API key fallback for clients that cannot do browser sign-in.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+</div>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-08-25 and has not been re-fetched since.</p>
+<p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://api.anymailfinder.com/mcp (guide: https://anymailfinder.com/integrations/mcp)</p><ul><li><a href="https://api.anymailfinder.com/mcp" rel="noopener nofollow">https://api.anymailfinder.com/mcp</a></li><li><a href="https://anymailfinder.com/integrations/mcp" rel="noopener nofollow">https://anymailfinder.com/integrations/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
+<div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
+</div>
+<p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
+<p>free</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p><a href="https://anymailfinder.com/email-finder-api/docs" rel="noopener nofollow">https://anymailfinder.com/email-finder-api/docs</a></p><p class="note">No documentation text is reproduced anywhere on this site. Read the vendor page for the prose. The structured docs digest specced in SPEC section 3 has not been built or crawled: docs_digest is null on every entry in this build.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/find-work-email.html">Find a work email address</a></li><li><a href="../jobs/verify-email-deliverable.html">Verify an email is deliverable</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://anymailfinder.com/pricing" rel="noopener nofollow">https://anymailfinder.com/pricing</a></li><li><a href="https://anymailfinder.com/email-finder-api/docs" rel="noopener nofollow">https://anymailfinder.com/email-finder-api/docs</a></li><li><a href="https://anymailfinder.com/integrations/mcp" rel="noopener nofollow">https://anymailfinder.com/integrations/mcp</a></li><li><a href="https://api.anymailfinder.com/openapi.json" rel="noopener nofollow">https://api.anymailfinder.com/openapi.json</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://anymailfinder.com/pricing, https://anymailfinder.com/email-finder-api/docs, https://anymailfinder.com/integrations/mcp, https://api.anymailfinder.com/openapi.json</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Added 2026-08-25, closing a named warm lead from this file&#x27;s previous sweep notes. Fully self-serve, no sales gate, API on every tier. 100 free credits to trial; card verification required but not charged. Monthly: 400 credits $29, 1k $49, 2k $89, 5k $149, 10k $199, 25k $299, 50k $499, 100k $799. Yearly roughly 33% off, 4.8k $228 through 1.2M $6,420. Billing is pay-per-verified-result: 1 credit per valid email, 2 for decision-maker searches, 0.2 for a verification, nothing for unverified results or repeat searches within 30 days. MCP exposes five tools sharing the same credit pool as the app and API. The OpenAPI 3.0.0 spec was fetched and validated independently: 16 endpoints on /v5.1/, apiKey in the Authorization header. The &quot;86.4% coverage, 98.9% accuracy&quot; benchmark cites an unlinked independent study; treat as vendor marketing, not as a verified figure. UK entity AMF Internet Services Limited, company number 10586048.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Entry id</div><div class="bv">01-anymail-finder</div></div>
+<div><div class="bk">Source file</div><div class="bv">01-data-enrichment.md</div></div>
+<div><div class="bk">Source line</div><div class="bv">639</div></div>
+<div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-08-25</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-08-25</div></div>
+</div>
+<p class="note">Every field above is rendered from directory.json exactly as the build produced it.
+Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
+it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></div></div></div></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>293 directory entries across 15 category files.
+    277 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>144 official MCP servers,
+    21 community.
+    0 bench tested.</p>
+    <p>55 jobs in 10 families.
+    271 entries carry at least one job tag,
+    22 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="../categories/index.html">By category</a></li>
+      <li><a href="../mcp/index.html">By MCP status</a></li>
+      <li><a href="../gates/index.html">By access gate</a></li>
+      <li><a href="../jobs/index.html">By job</a></li>
+      <li><a href="../github/index.html">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology.html">How an entry is made</a></li>
+      <li><a href="../submit.html">Submit a tool, free</a></li>
+      <li><a href="../learn/index.html">Learn: the questions, answered</a></li>
+      <li><a href="../lists/index.html">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data.html">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="anymail-finder.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 293 vs recount
+293.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+</div>
+</div>
+</footer>
+</body>
+</html>
