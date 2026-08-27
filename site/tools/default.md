@@ -1,6 +1,6 @@
 # Default: MCP server status, API access gate and what it does
 
-> An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built... Official MCP, Gate unknown. Checked 2026-08-24.
+> An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Default
 # Default
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://www.default.com (homepage feature line only - "MCP access to data and to
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - no visible self-serve signup, free trial, or pricing page; access is exclusively via "Request a Demo" or existing-customer login (default.com/pricing 404s). Strongly suggestive of an enterprise-sales gate, but unconfirmed.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales)
 
 **API documentation**
 
@@ -96,7 +94,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **MCP status there**: Official MCP
 
-- **Gate there**: Gate unknown
+- **Gate there**: Enterprise only
 
 - **Source**: 10-scheduling-routing.md line 65
 
@@ -117,7 +115,7 @@ What that listing says it does: "Agentic GTM infrastructure" platform unifying C
 https://www.default.com, https://www.default.com/product, https://docs.default.com
 
 **Notes, verbatim from the file**
-Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling reference. The MCP claim is real but labeled "In beta" on the homepage with no dedicated docs/repo page found - treat as early/unstable. Marked official rather than none-found because the vendor's own page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law, even though it isn't a full docs page.
+Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling reference. The MCP claim is real but labeled "In beta" on the homepage with no dedicated docs/repo page found - treat as early/unstable. Marked official rather than none-found because the vendor's own page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law, even though it isn't a full docs page. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.default.com/): no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales.
 
 **Provenance**
 

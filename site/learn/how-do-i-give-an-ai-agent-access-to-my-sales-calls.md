@@ -40,16 +40,16 @@ A relationship-intelligence CRM for deal teams that auto-builds the contact grap
 Captures, transcribes, and analyzes sales and customer conversations, automatically syncing structured insights to the CRM.
 - [Avoma](../tools/avoma.md) Official MCP · Paid, self-serve
 AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams.
+- [Fellow](../tools/fellow.md) Official MCP · Paid, self-serve
+A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they...
 - [Grain](../tools/grain.md) Official MCP · Paid, self-serve
 AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM.
+- [Granola](../tools/granola.md) Official MCP · Paid, self-serve
+General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app.
 - [tl;dv](../tools/tl-dv.md) Official MCP · Paid, self-serve
 Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering on sales coaching (playbook monitoring, objection handling) at higher...
 - [Gong](../tools/gong.md) Official MCP · Enterprise only
 Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts.
-- [Highspot](../tools/highspot.md) Official MCP · Enterprise only
-Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its...
-- [Otter.ai](../tools/otter-ai.md) Official MCP · Enterprise only
-AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor mentions, and pricing discussion...
 
 7 more are on the linked page. The cut is the display limit, not a ranking.
 

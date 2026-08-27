@@ -1,6 +1,6 @@
 # Conversica: MCP server status, API access gate and what it does
 
-> AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Conversica
 # Conversica
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -48,15 +48,13 @@ The mcp_url field is empty on this entry. 21 of 293 entries are.
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - page references an "API Terms of Service" document, implying API access exists, but no self-serve signup or pricing found
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing page exists and every CTA routes to request-a-demo, so there is no self-serve path of any kind; an API is implied only by a footer link to API Terms of Service, with no developer portal published)
 
 **API documentation**
 
@@ -85,12 +83,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.conversica.com](https://www.conversica.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.conversica.com
 
 **Notes, verbatim from the file**
-Good "before and after" case study for how vendor language shifted 2023-2026 - Conversica's older positioning was "virtual assistant"/chatbot, current copy uses "AI Agents" throughout for what appears to be a similar underlying conversational-automation product.
+Good "before and after" case study for how vendor language shifted 2023-2026 - Conversica's older positioning was "virtual assistant"/chatbot, current copy uses "AI Agents" throughout for what appears to be a similar underlying conversational-automation product. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.conversica.com/): no pricing page exists and every CTA routes to request-a-demo, so there is no self-serve path of any kind; an API is implied only by a footer link to API Terms of Service, with no developer portal published.
 
 **Provenance**
 

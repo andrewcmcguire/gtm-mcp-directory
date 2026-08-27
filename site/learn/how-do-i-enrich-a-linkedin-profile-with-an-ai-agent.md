@@ -55,7 +55,7 @@ A profile URL is rarely the end state. The usual sequence is profile to person r
 | Enrich the person from the URL | [enrich a person from a linkedin url](../jobs/enrich-person-from-linkedin-url.md) | 12 | 8 | 3 |
 | Find the work email | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | Verify it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 11 | 6 |
-| Enrich their company | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 12 |
+| Enrich their company | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 14 |
 | Write it to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 17 | 7 |
 
 ## Three things to be careful about

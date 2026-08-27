@@ -64,23 +64,23 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Ortto](../tools/ortto.md) ortto.com A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
+- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
+
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) salesforce.com A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on top for configuring autonomous AI agents that read... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
-
-- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
-
-- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [HubSpot (AI Forecasting)](../tools/hubspot.md) hubspot.com HubSpot's forecasting tool inside Sales Hub/Service Hub, turning pipeline data into revenue predictions via weighted-pipeline calculations plus an "AI forecasting" layer shown in-product. See... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md) · Cross listed, canonical home is RevOps Infra
+
+- [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [Openprise](../tools/openprise.md) openprisetech.com A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Salesforce Agentforce (SDR Agent)](../tools/salesforce-agentforce.md) salesforce.com A prebuilt agent within Salesforce's Agentforce platform intended to handle inbound lead engagement and outbound prospecting conversations natively inside Sales Cloud, escalating to a human rep once a prospect... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is RevOps Infra
 
-- [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Tofu](../tools/tofu.md) tofuhq.com A campaign-automation platform ("Agentic GTM") that runs always-on, personalized outbound/nurture/re-engagement campaigns inside an existing CRM and sales-engagement stack, rather than acting as a standalone... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Tofu](../tools/tofu.md) tofuhq.com A campaign-automation platform ("Agentic GTM") that runs always-on, personalized outbound/nurture/re-engagement campaigns inside an existing CRM and sales-engagement stack, rather than acting as a standalone... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 ### Next to this job
 

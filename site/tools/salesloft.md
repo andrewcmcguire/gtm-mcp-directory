@@ -1,6 +1,6 @@
 # Salesloft: MCP server status, API access gate and what it does
 
-> Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email... Official MCP, Gate unknown. Checked 2026-08-24.
+> Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Salesloft
 # Salesloft
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -53,15 +53,13 @@ https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (developer docs say customers need API keys to reach the API with no tier condition stated, but the pricing page publishes no prices or plan names and routes everything to contact-us)
 
 **API documentation**
 
@@ -96,13 +94,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server)
 - [https://champions.salesloft.com/product-updates/august-2026-release-notes-605](https://champions.salesloft.com/product-updates/august-2026-release-notes-605)
 - [https://www.vendr.com/marketplace/salesloft](https://www.vendr.com/marketplace/salesloft)
+- [https://www.salesloft.com/pricing](https://www.salesloft.com/pricing)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://developers.salesloft.com/, https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://champions.salesloft.com/product-updates/august-2026-release-notes-605, https://www.vendr.com/marketplace/salesloft
+https://developers.salesloft.com/, https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://champions.salesloft.com/product-updates/august-2026-release-notes-605, https://www.vendr.com/marketplace/salesloft, https://www.salesloft.com/pricing
 
 **Notes, verbatim from the file**
-One of the most aggressive MCP rollouts researched in this category - initial launch April 2026, expanded July 2026 after the Clari-Salesloft merger, ChatGPT custom connector added August 2026. Vendr lists list pricing around $125-165/user/month, implying API/MCP access rides on a paid seat rather than being free-standing.
+One of the most aggressive MCP rollouts researched in this category - initial launch April 2026, expanded July 2026 after the Clari-Salesloft merger, ChatGPT custom connector added August 2026. Vendr lists list pricing around $125-165/user/month, implying API/MCP access rides on a paid seat rather than being free-standing. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.salesloft.com/pricing): developer docs say customers need API keys to reach the API with no tier condition stated, but the pricing page publishes no prices or plan names and routes everything to contact-us.
 
 **Provenance**
 

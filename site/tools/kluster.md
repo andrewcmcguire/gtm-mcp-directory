@@ -1,6 +1,6 @@
 # Kluster: MCP server status, API access gate and what it does
 
-> AI-native revenue forecasting and revenue-analytics platform for mid-market to enterprise SaaS companies  -... No MCP found, Enterprise only. Checked 2026-08-24.
+> AI-native revenue forecasting and revenue-analytics platform for mid-market to enterprise SaaS companies -... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

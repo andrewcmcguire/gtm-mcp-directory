@@ -55,11 +55,23 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Highspot](../tools/highspot.md) highspot.com Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its core content product. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Klenty](../tools/klenty.md) klenty.com Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS Dynamics). [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+
+- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Rilla](../tools/rilla.md) rilla.com AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile app rather than video-call bots. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Varicent](../tools/varicent.md) varicent.com Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory design, pipeline management, and revenue forecasting in one suite. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
@@ -71,27 +83,15 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Hyperbound](../tools/hyperbound.md) hyperbound.ai AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI buyer in minutes, covering cold calls, discovery, demos, and post-sale conversations, with call scoring... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
-
 - [Lavender](../tools/lavender.md) lavender.ai A Chrome extension and browser sidebar that sits inside Gmail, Outlook, and sales engagement tools and scores a rep's email draft 1-100 in real time while suggesting rewrites, with a team dashboard that turns... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Luster](../tools/luster.md) luster.ai "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call signal analysis to flag rep skill gaps before they show up in real deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
 - [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Rilla](../tools/rilla.md) rilla.com AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile app rather than video-call bots. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Salesroom](../tools/salesroom.md) salesroom.com Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Second Nature](../tools/second-nature.md) secondnature.ai AI roleplay platform for enterprise sales teams that generates AI buyer personas from a text description or uploaded content and runs 1:1, group, or chat-based practice conversations, then scores and gives... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

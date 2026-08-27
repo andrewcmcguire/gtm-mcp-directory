@@ -20,12 +20,12 @@ The check could not settle it either way. Unknown is a legal answer and it is pu
 
 - [Warmup Inbox](../tools/warmup-inbox.md) warmupinbox.com Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer's connected accounts to build sender reputation. [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Email Deliverability](../categories/email-deliverability.md)
 
+- [Covideo](../tools/covideo.md) covideo.com Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and CRM integrations; heavily used in automotive-dealership sales but marketed broadly for sales... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Video Prospecting](../categories/video-prospecting.md)
+
 - [DealHub (DealHub AI)](../tools/dealhub.md) dealhub.io CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time pricing logic, plus optional CLM and subscription-billing modules. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
+- [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [LeanData](../tools/leandata.md) leandata.com GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
-
-- [Covideo](../tools/covideo.md) covideo.com Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and CRM integrations; heavily used in automotive-dealership sales but marketed broadly for sales... [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
-
-- [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [mcp.so](../tools/mcp-so.md) mcp.so A community MCP server/client directory (per its public reputation as one of the earlier MCP catalog sites) - could not independently re-verify current content in this research pass. [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)

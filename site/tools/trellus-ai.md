@@ -56,7 +56,7 @@ api_gate, verbatim from the file:
 
 unknown - no pricing/API docs found on this pass
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://trellus.ai](https://trellus.ai)
+- [https://trellus.ai/pricing](https://trellus.ai/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://trellus.ai
+https://trellus.ai, https://trellus.ai/pricing
 
 **Notes, verbatim from the file**
-Worth citing specifically as a counterexample to the category's hype: Trellus's own marketing explicitly says it does not autonomously cold-call, which is a useful contrast against vendors that imply full autonomy for the same job.
+Worth citing specifically as a counterexample to the category's hype: Trellus's own marketing explicitly says it does not autonomously cold-call, which is a useful contrast against vendors that imply full autonomy for the same job. [api_gate 2026-08-25] Re-checked and left unknown, honestly: self-serve individual plans are published at $99.99/mo Power and $149.99/mo Parallel plus a custom-priced Business tier, but the pricing page makes no mention of API access, API keys or developer features. Checked against https://trellus.ai/pricing.
 
 **Provenance**
 

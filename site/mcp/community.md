@@ -18,6 +18,8 @@ A working server exists but somebody other than the vendor built it. It can be a
 
 - [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Loom](../tools/loom.md) loom.com Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and embed CTAs/booking links directly in the video. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md)
+
 - [People Data Labs](../tools/people-data-labs.md) peopledatalabs.com A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk... [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Bonjoro](../tools/bonjoro.md) bonjoro.com Personalized 1:1 and 1:many video-messaging platform triggered by CRM events (new signup, first purchase, deal-stage change), used across sales and customer-success teams. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
@@ -44,16 +46,14 @@ A working server exists but somebody other than the vendor built it. It can be a
 
 - [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
+- [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
+
 - [BombBomb](../tools/bombbomb.md) bombbomb.com Asynchronous video-messaging platform for sales, real estate, and CX teams to record and send personalized one-to-one videos via email/text/CRM with open and watch tracking. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [Brandwatch](../tools/brandwatch.md) brandwatch.com Enterprise consumer-intelligence and social-listening suite spanning social media management, influencer marketing, search/GenAI-mention monitoring, and analyst-backed media intelligence. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
-- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Loom](../tools/loom.md) loom.com Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and embed CTAs/booking links directly in the video. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
-
-- [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
-
-- [WorkRamp](../tools/workramp.md) workramp.com Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [WorkRamp](../tools/workramp.md) workramp.com Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)

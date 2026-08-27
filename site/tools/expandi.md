@@ -1,6 +1,6 @@
 # Expandi: MCP server status, API access gate and what it does
 
-> Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a... No MCP found, Gate unknown. Checked 2026-08-24.
+> Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Expandi
 # Expandi
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API)
 
 **API documentation**
 
@@ -91,7 +89,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://expandi.io/pricing/, https://www.salesforge.ai/directory/sales-tools/expandi
 
 **Notes, verbatim from the file**
-Multiple independent sources state Expandi has no public API, only webhook/Zapier/CRM connectors (HubSpot, Salesforce, Pipedrive). Base plan is $99/mo (or $79/mo annual) per LinkedIn account with no free tier. Subject to the same LinkedIn User Agreement automation restrictions as all tools in this section.
+Multiple independent sources state Expandi has no public API, only webhook/Zapier/CRM connectors (HubSpot, Salesforce, Pipedrive). Base plan is $99/mo (or $79/mo annual) per LinkedIn account with no free tier. Subject to the same LinkedIn User Agreement automation restrictions as all tools in this section. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://expandi.io/pricing/): one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API.
 
 **Provenance**
 

@@ -1,6 +1,6 @@
 # Groove: MCP server status, API access gate and what it does
 
-> Salesforce-native sales engagement and prospecting platform  - multichannel outbound automation and activity... MCP unknown, Gate unknown. Checked 2026-08-24.
+> Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity... MCP unknown, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Groove
 # Groove
 
 [MCP unknown](../mcp/unknown.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (now a Clari product and Clari publishes no prices or tiers; the pricing page is a get-a-quote form and neither it nor the Groove product page mentions API access)
 
 **API documentation**
 
@@ -88,13 +86,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://marketbetter.ai/blog/groove-clari-review-2026/](https://marketbetter.ai/blog/groove-clari-review-2026/)
 - [https://www.getmaxiq.com/blog/clari-salesloft-merger-guide](https://www.getmaxiq.com/blog/clari-salesloft-merger-guide)
 - [https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server)
+- [https://www.clari.com/pricing/](https://www.clari.com/pricing/)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.clari.com/products/groove/, https://marketbetter.ai/blog/groove-clari-review-2026/, https://www.getmaxiq.com/blog/clari-salesloft-merger-guide, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server
+https://www.clari.com/products/groove/, https://marketbetter.ai/blog/groove-clari-review-2026/, https://www.getmaxiq.com/blog/clari-salesloft-merger-guide, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://www.clari.com/pricing/
 
 **Notes, verbatim from the file**
-Clari (Groove's parent) launched an MCP server in 2026 described as covering "the full Clari + Salesloft platform," but no source explicitly confirmed Groove-specific actions/data are in scope, hence mcp_status: unknown rather than official. A "groove-mcp" GitHub repo exists but belongs to the unrelated Groove HQ support-ticketing product - do not cite it for this tool. Clari/Salesloft merged Dec 2025, creating direct product overlap between Groove and Salesloft worth flagging to anyone evaluating both.
+Clari (Groove's parent) launched an MCP server in 2026 described as covering "the full Clari + Salesloft platform," but no source explicitly confirmed Groove-specific actions/data are in scope, hence mcp_status: unknown rather than official. A "groove-mcp" GitHub repo exists but belongs to the unrelated Groove HQ support-ticketing product - do not cite it for this tool. Clari/Salesloft merged Dec 2025, creating direct product overlap between Groove and Salesloft worth flagging to anyone evaluating both. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.clari.com/pricing/): now a Clari product and Clari publishes no prices or tiers; the pricing page is a get-a-quote form and neither it nor the Groove product page mentions API access.
 
 **Provenance**
 

@@ -20,7 +20,7 @@ Hand it a domain or company name and get firmographics back.
 - **official MCP**: 26
 - **community MCP**: 2
 - **no MCP found**: 6
-- **solo reachable**: 21
+- **solo reachable**: 23
 
 28 of the 34 entries tagged with this job carry an MCP server of some kind, 26 of them official. 31 of the 34 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -46,6 +46,8 @@ Hand it a domain or company name and get firmographics back.
 Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Cargo](../tools/cargo.md) getcargo.ai A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, version, and automate go-to-market logic - lead sourcing, enrichment, scoring, routing, CRM sync - as code, run by AI agents. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -77,11 +79,17 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Dropcontact](../tools/dropcontact.md) dropcontact.com A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name plus company (name, domain, or LinkedIn URL) and returns a verified professional email plus cleaned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Lead411](../tools/lead411.md) lead411.com A B2B contact and company database with verified emails, direct dials, and growth/intent triggers, queryable by search or by an enrichment API. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Snov.io](../tools/snov-io.md) snov.io A B2B prospecting and outreach platform - finds and verifies emails/contacts, enriches company and contact records, manages prospect lists and a lightweight CRM, and runs email drip campaigns plus LinkedIn... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Vainu](../tools/vainu.md) vainu.com Sells a licensed database of roughly 5M Nordic registered companies with 700+ fields and around 9M decision-maker contacts, plus scraped and classified trigger events, delivered into a CRM, an API, or Excel. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
 
 - [Demandbase (Demandbase One)](../tools/demandbase.md) demandbase.com Identifies and scores in-market B2B accounts by combining IP/website deanonymization, a global firmographic/technographic database, and intent-signal ingestion, rolling this into "Buying Group" and... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -89,19 +97,13 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
-
-- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
-
-- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
 - [People Data Labs](../tools/people-data-labs.md) peopledatalabs.com A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk... [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [UpLead](../tools/uplead.md) uplead.com A B2B contact database and prospecting tool (vendor claims 160M+ contacts, 95% data accuracy) for building lead lists with verified emails, direct dials, and firmographic/technographic filters, with a browser... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Datagma](../tools/datagma.md) datagma.com An all-in-one B2B enrichment platform that finds work emails and verified mobile phone numbers, appends firmographic company data, and offers a Sales Navigator export/Chrome extension for pulling prospect data... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Albacross](../tools/albacross.md) albacross.com Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site behavioral/intent signals, and enriches identified companies with firmographic data and optional verified... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -110,8 +112,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Openprise](../tools/openprise.md) openprisetech.com A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
-
-- [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 ### Next to this job
 

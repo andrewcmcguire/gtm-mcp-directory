@@ -22,12 +22,12 @@ In sales the loop usually looks like this: read a trigger, research the account,
 
 ## Which doors are open
 
-Across 293 tools, 165 are callable through MCP and 117 are reachable by one person without a contract. By job, the loop above currently looks like this:
+Across 293 tools, 165 are callable through MCP and 123 are reachable by one person without a contract. By job, the loop above currently looks like this:
 
 | Step | Job | Tools tagged | Official MCP | Solo reachable |
 |---|---|---|---|---|
 | Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 7 |
-| Find the person | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 15 | 15 |
+| Find the person | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 15 | 17 |
 | Get a work email | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 22 |
 | Check it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 11 | 14 |
 | Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 23 | 23 |

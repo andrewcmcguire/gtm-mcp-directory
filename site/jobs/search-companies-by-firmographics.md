@@ -20,7 +20,7 @@ Query a company database by industry, headcount, revenue, geo or similar and get
 - **official MCP**: 12
 - **community MCP**: 2
 - **no MCP found**: 1
-- **solo reachable**: 11
+- **solo reachable**: 13
 
 14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. 14 of the 15 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -42,6 +42,8 @@ Query a company database by industry, headcount, revenue, geo or similar and get
 
 Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
+- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [ZoomInfo](../tools/zoominfo.md) zoominfo.com A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human researchers, used for prospecting, account research, and lead... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -52,6 +54,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md) · Cross listed, canonical home is Data & Enrichment
 
+- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Fiber AI](../tools/fiber-ai.md) fiber.ai B2B search and enrichment APIs for finding companies and people by structured filters or natural language, then revealing work emails and phone numbers with live LinkedIn data. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Lead411](../tools/lead411.md) lead411.com A B2B contact and company database with verified emails, direct dials, and growth/intent triggers, queryable by search or by an enrichment API. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -61,10 +65,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Vainu](../tools/vainu.md) vainu.com Sells a licensed database of roughly 5M Nordic registered companies with 700+ fields and around 9M decision-maker contacts, plus scraped and classified trigger events, delivered into a CRM, an API, or Excel. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [People Data Labs](../tools/people-data-labs.md) peopledatalabs.com A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk... [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

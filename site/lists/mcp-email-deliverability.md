@@ -37,10 +37,14 @@ No server found, or the check could not settle it. Same category, not reachable 
 |---|---|---|---|
 | [Warmup Inbox](../tools/warmup-inbox.md)
 warmupinbox.com | [MCP unknown](../mcp/unknown.md) | [Free to start](../gates/free.md) | 2026-08-24 |
+| [Scaledmail](../tools/scaledmail.md)
+scaledmail.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-08-24 |
 | [GlockApps](../tools/glockapps.md)
 glockapps.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Hypertide](../tools/hypertide.md)
 hypertide.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [InboxAlly](../tools/inboxally.md)
+inboxally.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [MailGenius](../tools/mailgenius.md)
 mailgenius.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Mailreach](../tools/mailreach.md)
@@ -49,10 +53,6 @@ mailreach.co | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gate
 warmy.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Folderly](../tools/folderly.md)
 folderly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [InboxAlly](../tools/inboxally.md)
-inboxally.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Scaledmail](../tools/scaledmail.md)
-scaledmail.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 
 ### What this category is asked for
 

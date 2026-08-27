@@ -1,6 +1,6 @@
-# Which GTM tools can a solo operator use with an agent? 113 products
+# Which GTM tools can a solo operator use with an agent? 118 products
 
-> 158 of 293 GTM tools are free to start or paid self serve, and 117 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-08-25.
+> 174 of 293 GTM tools are free to start or paid self serve, and 123 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,27 +14,27 @@
 
 **The short answer**
 
-158 of the 293 entries here are free to start or paid self serve, so one person can get API access without a contract. 117 of those also have an MCP server, which comes to 113 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
+174 of the 293 entries here are free to start or paid self serve, so one person can get API access without a contract. 123 of those also have an MCP server, which comes to 118 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
 
 Two columns have to be true at once. The tool has to be callable, and you have to be able to get in. This directory publishes both separately on purpose, because plenty of tools pass one test and fail the other.
 
 ## The arithmetic
 
-- 57 entries are free to start: sign up, get a key, no conversation.
+- 61 entries are free to start: sign up, get a key, no conversation.
 
-- 101 are paid self serve: a credit card is enough.
+- 113 are paid self serve: a credit card is enough.
 
-- Together, 158 of 293 entries, or 54%, pass the gate test.
+- Together, 174 of 293 entries, or 59%, pass the gate test.
 
-- Cross that with the MCP column and 117 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
+- Cross that with the MCP column and 123 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
 
-- 45 are enterprise only and 1 enterprise leaning. Those are closed doors for one person.
+- 77 are enterprise only and 4 enterprise leaning. Those are closed doors for one person.
 
-- 83 do not publish enough for the gate to be established at all, and are recorded as unknown rather than guessed.
+- 32 do not publish enough for the gate to be established at all, and are recorded as unknown rather than guessed.
 
 ## Callable and reachable, both
 
-113 unique products pass both tests. Here are the first fifteen in the published order.
+118 unique products pass both tests. Here are the first fifteen in the published order.
 
 - [Airbyte](../tools/airbyte.md) Official MCP · Free to start
 Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a...
@@ -47,7 +47,7 @@ A CRM built around a flexible, user-defined data model (not fixed contact/compan
 - [Autobound](../tools/autobound.md) Official MCP · Free to start
 Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed.
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
-Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable...
+Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
 Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules.
 - [Cargo](../tools/cargo.md) Official MCP · Free to start
@@ -55,21 +55,21 @@ A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, versi
 - [Census (now operates as "Fivetran Activations")](../tools/census.md) Official MCP · Free to start
 Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the...
 - [Common Paper](../tools/common-paper.md) Official MCP · Free to start
-Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature...
+Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature layer,...
 - [Composio](../tools/composio.md) Official MCP · Free to start
 A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion,...
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Diffbot](../tools/diffbot.md) Official MCP · Free to start
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Enrow](../tools/enrow.md) Official MCP · Free to start
 Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a...
 - [Exa](../tools/exa.md) Official MCP · Free to start
 A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
-- [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
-Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 
-98 more are on the linked page. The cut is the display limit, not a ranking.
+103 more are on the linked page. The cut is the display limit, not a ranking.
 
-[The full solo reachable list is here](../lists/solo-reachable.md), and the [57 free tiers are here](../lists/free-api-tiers.md).
+[The full solo reachable list is here](../lists/solo-reachable.md), and the [61 free tiers are here](../lists/free-api-tiers.md).
 
 ## What free does not mean
 

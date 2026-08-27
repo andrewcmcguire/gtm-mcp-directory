@@ -65,9 +65,9 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
-- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -75,11 +75,11 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Klenty](../tools/klenty.md) klenty.com Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS Dynamics). [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Terret (BoostUp)](../tools/terret.md) terret.ai A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns, generates sales playbooks, and pushes pre-call briefs/deal alerts/suggested... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Terret (BoostUp)](../tools/terret.md) terret.ai A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns, generates sales playbooks, and pushes pre-call briefs/deal alerts/suggested... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 ### Next to this job
 

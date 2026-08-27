@@ -95,7 +95,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **MCP status there**: No MCP found
 
-- **Gate there**: Gate unknown
+- **Gate there**: Paid, self-serve
 
 - **Source**: 04-ai-sdr-agents.md line 182
 

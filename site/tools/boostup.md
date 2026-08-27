@@ -1,6 +1,6 @@
 # BoostUp (rebranded: Terret): MCP server status, API access gate and what it does
 
-> AI revenue-intelligence and pipeline-forecasting platform that ingests CRM, email, call, and calendar data to... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI revenue-intelligence and pipeline-forecasting platform that ingests CRM, email, call, and calendar data to... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ BoostUp (rebranded: Terret)
 # BoostUp (rebranded: Terret)
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ none
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown/enterprise-leaning. No public API documentation was found; the pricing page is a demo-request form with no self-serve tier or published pricing, and integrations run through Zapier/native connectors rather than a documented public REST API.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no published pricing at all - /pricing is a book-a-demo form - and the site publishes no API or developer docs anywhere)
 
 **API documentation**
 
@@ -95,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.prnewswire.com/news-releases/boostup-rebrands-as-terret-launches-new-fleet-of-ai-revenue-agents-to-supercharge-gtm-teams-302550934.html, https://terret.ai, https://terret.ai/pricing, https://terret.ai/products/machine-forecasting, https://softwarefinder.com/sales-tools/boostup-ai
 
 **Notes, verbatim from the file**
-STATUS FLAG - BoostUp rebranded to Terret in September 2025; boostup.ai now 301-redirects to terret.ai, though the app backend still runs at app.boostup.ai. Anyone still searching "BoostUp" should know the current live brand is Terret.
+STATUS FLAG - BoostUp rebranded to Terret in September 2025; boostup.ai now 301-redirects to terret.ai, though the app backend still runs at app.boostup.ai. Anyone still searching "BoostUp" should know the current live brand is Terret. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://terret.ai/pricing): no published pricing at all - /pricing is a book-a-demo form - and the site publishes no API or developer docs anywhere.
 
 **Provenance**
 

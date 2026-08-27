@@ -60,7 +60,7 @@ api_gate, verbatim from the file:
 
 unknown for general REST API tier-gating - a developer API-key settings page exists (app.reclaim.ai/settings/developer) suggesting broad availability, but no page found states whether API access itself is free-tier-eligible. Confirmed paid-gated: webhooks are Business/Enterprise-only per reclaim.ai/pricing (not on Lite/Starter). MCP support itself is listed as included across multiple pricing tiers.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -101,7 +101,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://reclaim.ai, https://reclaim.ai/pricing, https://mcp.reclaim.ai, https://github.com/universalamateur/reclaim-mcp-server, https://erikmackinnon.com/tools/reclaim-mcp/, https://reclaim.ai/blog/dropbox-acquires-reclaim, https://www.geekwire.com/2024/dropbox-acquires-reclaim-a-calendar-app-that-uses-ai-scheduling-to-boost-productivity/
 
 **Notes, verbatim from the file**
-Acquired by Dropbox in August 2024 (~320,000 users / 43,000+ companies at acquisition; product continues operating independently under Dropbox per founders' statements). Following Clockwise's March 2026 shutdown (see below), Reclaim has been publicly positioned - including by Clockwise itself - as the recommended migration target, making it the practical category survivor.
+Acquired by Dropbox in August 2024 (~320,000 users / 43,000+ companies at acquisition; product continues operating independently under Dropbox per founders' statements). Following Clockwise's March 2026 shutdown (see below), Reclaim has been publicly positioned - including by Clockwise itself - as the recommended migration target, making it the practical category survivor. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the pricing page states Business ($15/user/mo monthly) and Enterprise get unlimited integrations plus webhooks support versus limited integrations on the free Lite tier, but no REST API or API key is documented anywhere - developer.reclaim.ai does not resolve and /developers, /docs and /api all 404. Webhooks at Business are self-serve; a documented API is not published. Checked against https://reclaim.ai/pricing.
 
 **Provenance**
 

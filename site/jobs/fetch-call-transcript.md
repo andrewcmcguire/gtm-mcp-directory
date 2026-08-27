@@ -20,7 +20,7 @@ Return the recorded and transcribed text of a specific call or meeting.
 - **official MCP**: 14
 - **community MCP**: 3
 - **no MCP found**: 3
-- **solo reachable**: 9
+- **solo reachable**: 11
 
 17 of the 20 entries tagged with this job carry an MCP server of some kind, 14 of them official. All 20 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -53,7 +53,11 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Avoma](../tools/avoma.md) avoma.com AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Fellow](../tools/fellow.md) fellow.ai A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they came from. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Grain](../tools/grain.md) grain.com AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Granola](../tools/granola.md) granola.ai General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [tl;dv](../tools/tl-dv.md) tldv.io Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering on sales coaching (playbook monitoring, objection handling) at higher tiers. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
@@ -65,23 +69,19 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Fellow](../tools/fellow.md) fellow.ai A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they came from. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Granola](../tools/granola.md) granola.ai General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) zoom.com Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account activity. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+- [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
-- [Rilla](../tools/rilla.md) rilla.com AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile app rather than video-call bots. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Rilla](../tools/rilla.md) rilla.com AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile app rather than video-call bots. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 ### Next to this job
 

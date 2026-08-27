@@ -1,6 +1,6 @@
 # Vareto: MCP server status, API access gate and what it does
 
-> FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling,... No MCP found, Gate unknown. Checked 2026-08-24.
+> FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling,... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Vareto
 # Vareto
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ none
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown. No developer/API documentation was found; pricing is custom/quote-based per third-party aggregators (Vendr: "no publicly listed standard plans or fees"), no self-serve tier confirmed.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (published floors are Foundation starting at $20K and Growth starting at $40K with a custom Enterprise tier, no self-serve checkout, and no API mentioned on any tier)
 
 **API documentation**
 
@@ -85,13 +83,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://vareto.io](https://vareto.io)
 - [https://www.vareto.com](https://www.vareto.com)
 - [https://www.vendr.com/marketplace/vareto](https://www.vendr.com/marketplace/vareto)
+- [https://www.vareto.com/how-to-buy/pricing](https://www.vareto.com/how-to-buy/pricing)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://vareto.io, https://www.vareto.com, https://www.vendr.com/marketplace/vareto
+https://vareto.io, https://www.vareto.com, https://www.vendr.com/marketplace/vareto, https://www.vareto.com/how-to-buy/pricing
 
 **Notes, verbatim from the file**
-DOMAIN FLAG - vareto.io is a dead Squarespace "Coming Soon" placeholder unrelated to the real company, which operates at vareto.com.
+DOMAIN FLAG - vareto.io is a dead Squarespace "Coming Soon" placeholder unrelated to the real company, which operates at vareto.com. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.vareto.com/how-to-buy/pricing): published floors are Foundation starting at $20K and Growth starting at $40K with a custom Enterprise tier, no self-serve checkout, and no API mentioned on any tier.
 
 **Provenance**
 

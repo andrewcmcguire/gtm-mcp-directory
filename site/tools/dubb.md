@@ -1,6 +1,6 @@
 # Dubb: MCP server status, API access gate and what it does
 
-> Video sales-messaging platform with a built-in lightweight CRM  - record/send personalized prospecting and... No MCP found, Gate unknown. Checked 2026-08-24.
+> Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Dubb
 # Dubb
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown. A self-serve API key is available via account profile and 3,000+ third-party integrations are advertised via Zapier/Make/API Nation, but no public statement on plan-tier gating for API access was found.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (custom integrations and API access start on Pro Plus at $90/mo billed yearly or $129/mo monthly; not on the free Starter or the $42/mo Pro tier)
 
 **API documentation**
 
@@ -88,13 +86,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://dubb.com/lp/video-prospecting](https://dubb.com/lp/video-prospecting)
 - [https://www.g2.com/products/dubb-sales-video-system-crm/reviews](https://www.g2.com/products/dubb-sales-video-system-crm/reviews)
 - [https://apps.make.com/dubb](https://apps.make.com/dubb)
+- [https://dubb.com/pricing](https://dubb.com/pricing)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://dubb.com/, https://dubb.com/features, https://dubb.com/lp/video-prospecting, https://www.g2.com/products/dubb-sales-video-system-crm/reviews, https://apps.make.com/dubb
+https://dubb.com/, https://dubb.com/features, https://dubb.com/lp/video-prospecting, https://www.g2.com/products/dubb-sales-video-system-crm/reviews, https://apps.make.com/dubb, https://dubb.com/pricing
 
 **Notes, verbatim from the file**
-None.
+None. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://dubb.com/pricing): custom integrations and API access start on Pro Plus at $90/mo billed yearly or $129/mo monthly; not on the free Starter or the $42/mo Pro tier.
 
 **Provenance**
 

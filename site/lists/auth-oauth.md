@@ -54,10 +54,14 @@ coresignal.com | [Official MCP](../mcp/official.md) | [https://coresignal.com/mc
 cubesoftware.com | [Official MCP](../mcp/official.md) | [https://www.cubesoftware.com/mcp](https://www.cubesoftware.com/mcp) +1 more | OAuth - no manual API key management. | [Paid, self-serve](../gates/paid.md) |
 | [DocuSign](../tools/docusign.md)
 docusign.com | [Official MCP](../mcp/official.md) | [https://developers.docusign.com/platform/mcp-server/](https://developers.docusign.com/platform/mcp-server/) +2 more | OAuth - Streamable HTTP transport; first connection opens a browser window to sign in and authorize, then reuses credentials. | [Paid, self-serve](../gates/paid.md) |
+| [Fellow](../tools/fellow.md)
+fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth, with OAuth 2.0 dynamic discovery supported. | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
 grain.com | [Official MCP](../mcp/official.md) | [https://developers.grain.com/mcp](https://developers.grain.com/mcp) +1 more | OAuth via the native Claude integration, or manual server-URL setup for other MCP clients. Deal and coaching-feedback tools specifically require a... | [Paid, self-serve](../gates/paid.md) |
+| [Granola](../tools/granola.md)
+granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth - no manual API key required. | [Paid, self-serve](../gates/paid.md) |
 | [HeyGen](../tools/heygen.md)
-heygen.com | [Official MCP](../mcp/official.md) | [https://mcp.heygen.com/mcp/v1/](https://mcp.heygen.com/mcp/v1/) +2 more | OAuth - vendor states "connect your HeyGen account, no API key required"; generation draws down the premium credits already in the user's HeyGen... | [Paid, self-serve](../gates/paid.md) |
+heygen.com | [Official MCP](../mcp/official.md) | [https://mcp.heygen.com/mcp/v1/](https://mcp.heygen.com/mcp/v1/) +2 more | OAuth - vendor states "connect your HeyGen account, no API key required"; generation draws down the premium credits already in the user's HeyGen plan... | [Paid, self-serve](../gates/paid.md) |
 | [La Growth Machine](../tools/la-growth-machine.md)
 lagrowthmachine.com | [Official MCP](../mcp/official.md) | [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system) +1 more | OAuth - no API key needed; first use opens a browser sign-in directly to the user's La Growth Machine account. | [Paid, self-serve](../gates/paid.md) |
 | [Mixmax](../tools/mixmax.md)
@@ -76,6 +80,8 @@ superblocks.com | [Official MCP](../mcp/official.md) | [https://superblocks.com/
 vainu.com | [Official MCP](../mcp/official.md) | [https://mcp.vainu.ai/mcp](https://mcp.vainu.ai/mcp) +2 more | OAuth 2.0 with PKCE, scoped to existing Vainu permissions, but NOT enabled by default. The vendor help centre says it "isn't automatically available... | [Paid, self-serve](../gates/paid.md) |
 | [Versium REACH](../tools/versium-reach.md)
 versium.com | [Official MCP](../mcp/official.md) | [https://app.versium.com/mcp/reach](https://app.versium.com/mcp/reach) +2 more | OAuth, and the client must support dynamic client registration. | [Paid, self-serve](../gates/paid.md) |
+| [Sybill](../tools/sybill.md)
+sybill.ai | [Official MCP](../mcp/official.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | Browser-based sign-in / OAuth on first connection from an MCP client such as Claude Desktop. | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [6sense](../tools/6sense.md)
 6sense.com | [Official MCP](../mcp/official.md) | [https://6sense.com/platform/mcp-server/](https://6sense.com/platform/mcp-server/) +1 more | OAuth using existing 6sense platform login (no separate API key setup per vendor docs) | [Enterprise only](../gates/enterprise-only.md) |
 | [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md)
@@ -88,22 +94,16 @@ commonroom.io | [Official MCP](../mcp/official.md) | [https://www.commonroom.io/
 crossbeam.com | [Official MCP](../mcp/official.md) | [https://mcp.crossbeam.com/mcp](https://mcp.crossbeam.com/mcp) +1 more | OAuth with Crossbeam login credentials, with a permission consent screen at connect time. | [Enterprise only](../gates/enterprise-only.md) |
 | [G2 Buyer Intent](../tools/g2-buyer-intent.md)
 g2.com | [Official MCP](../mcp/official.md) | [https://mcp.g2.com/mcp](https://mcp.g2.com/mcp) +2 more | OAuth 2.0 Authorization Code with PKCE. You register an OAuth app in the G2 Developer Dashboard at https://my.g2.com/developers to get a client_id... | [Enterprise only](../gates/enterprise-only.md) |
+| [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
+turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic Client Registration for the servers it fronts. | [Enterprise only](../gates/enterprise-only.md) |
+| [Outreach](../tools/outreach.md)
+outreach.io | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on to be enabled and admin-toggled - not available to every... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [Official MCP](../mcp/official.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every MCP call runs under the authenticated user's own permissions... | [Enterprise only](../gates/enterprise-only.md) |
-| [Fellow](../tools/fellow.md)
-fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth, with OAuth 2.0 dynamic discovery supported. | [Gate unknown](../gates/unknown.md) |
-| [Granola](../tools/granola.md)
-granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth - no manual API key required. | [Gate unknown](../gates/unknown.md) |
-| [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
-turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic Client Registration for the servers it fronts. | [Gate unknown](../gates/unknown.md) |
-| [Outreach](../tools/outreach.md)
-outreach.io | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on to be enabled and admin-toggled - not available to every... | [Gate unknown](../gates/unknown.md) |
+| [Salesloft](../tools/salesloft.md)
+salesloft.com | [Official MCP](../mcp/official.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | unknown exact flow - vendor press material describes it as natively listed in Claude's connector directory "with no custom setup required," implying... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pylon](../tools/pylon.md)
 usepylon.com | [Official MCP](../mcp/official.md) | [https://mcp.usepylon.com](https://mcp.usepylon.com) +1 more | OAuth 2.0 over stateless streamable HTTP; access is permission-scoped so a connected AI tool can only see/change what the authenticated user could... | [Gate unknown](../gates/unknown.md) |
-| [Salesloft](../tools/salesloft.md)
-salesloft.com | [Official MCP](../mcp/official.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | unknown exact flow - vendor press material describes it as natively listed in Claude's connector directory "with no custom setup required," implying... | [Gate unknown](../gates/unknown.md) |
-| [Sybill](../tools/sybill.md)
-sybill.ai | [Official MCP](../mcp/official.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | Browser-based sign-in / OAuth on first connection from an MCP client such as Claude Desktop. | [Gate unknown](../gates/unknown.md) |
 | [Trumpet](../tools/trumpet.md)
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://trumpet.app/api/mcp](https://trumpet.app/api/mcp) +2 more | OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0)"; setup flow is add-custom-connector → paste MCP server URL →... | [Gate unknown](../gates/unknown.md) |
 | [Bonjoro](../tools/bonjoro.md)

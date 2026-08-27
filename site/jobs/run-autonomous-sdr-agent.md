@@ -58,21 +58,21 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Regie.ai](../tools/regie-ai.md) regie.ai An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and runs multi-channel (email, LinkedIn, phone) sequences with automated follow-up. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
+- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
+- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
+- [Artisan AI (Ava)](../tools/artisan-ai.md) artisan.co An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as running outbound "end to end." [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
 - [Qualified](../tools/qualified.md) qualified.com Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR agent engages known target-account visitors in real time, qualifies them, and books meetings, then... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Qualified (Piper)](../tools/qualified.md) qualified.com A conversational AI agent ("Piper") that engages inbound website visitors in real time (text/voice/video chat), sends follow-up nurture emails, and books meetings for qualified visitors. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Inbound & PLG Chat
 
 - [Salesforce Agentforce (SDR Agent)](../tools/salesforce-agentforce.md) salesforce.com A prebuilt agent within Salesforce's Agentforce platform intended to handle inbound lead engagement and outbound prospecting conversations natively inside Sales Cloud, escalating to a human rep once a prospect... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is RevOps Infra
 
-- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
-
-- [Artisan AI (Ava)](../tools/artisan-ai.md) artisan.co An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as running outbound "end to end." [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
-
 - [Luru](../tools/luru.md) luru.app An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Rox](../tools/rox.md) rox.com An AI-powered revenue automation platform for enterprise sales teams, positioned as an autonomous SDR-style agent handling pipeline generation, lead qualification, meeting booking, deal management, and account... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

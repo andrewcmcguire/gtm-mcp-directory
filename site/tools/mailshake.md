@@ -1,6 +1,6 @@
 # Mailshake: MCP server status, API access gate and what it does
 
-> Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. No MCP found, Gate unknown. Checked 2026-08-24.
+> Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Mailshake
 # Mailshake
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (the API key is self-served from Extensions > API inside the product with no plan restriction stated, and the cheapest plan is Starter at $29/mo - there is no free plan)
 
 **API documentation**
 
@@ -85,13 +83,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [http://mailshake.com/pricing/](http://mailshake.com/pricing/)
 - [http://mailshake.com/](http://mailshake.com/)
+- [https://api-docs.mailshake.com/](https://api-docs.mailshake.com/)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-http://mailshake.com/pricing/, http://mailshake.com/
+http://mailshake.com/pricing/, http://mailshake.com/, https://api-docs.mailshake.com/
 
 **Notes, verbatim from the file**
-Site serves over plain HTTP with a redirect, a minor hygiene flag for a company selling email infrastructure. No API tier information was found on sourced pricing pages.
+Site serves over plain HTTP with a redirect, a minor hygiene flag for a company selling email infrastructure. No API tier information was found on sourced pricing pages. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://api-docs.mailshake.com/): the API key is self-served from Extensions > API inside the product with no plan restriction stated, and the cheapest plan is Starter at $29/mo - there is no free plan.
 
 **Provenance**
 

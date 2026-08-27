@@ -1,6 +1,6 @@
 # Revenue.io: MCP server status, API access gate and what it does
 
-> Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data... No MCP found, Gate unknown. Checked 2026-08-24.
+> Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Revenue.io
 # Revenue.io
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ none
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown. No API or MCP documentation was found; Revenue.io's Engage tier is confirmed at $175/user/month list price (2026) per a third-party tracker (Vendr), with a lower-cost Activate tier focused on inbound response/call performance. No self-serve API signup was located.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (the pricing page states a custom quote is built on the demo call rather than published as a list price; an API exists and the support site documents APIs and Programmatic Operations for Guided Selling, but no plan condition is published)
 
 **API documentation**
 
@@ -89,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.revenue.io/faqs](https://www.revenue.io/faqs)
 - [https://www.vendr.com/marketplace/revenue-io](https://www.vendr.com/marketplace/revenue-io)
 - [https://www.pulsemcp.com/servers?q=revenue.io](https://www.pulsemcp.com/servers?q=revenue.io)
+- [https://www.revenue.io/pricing](https://www.revenue.io/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.revenue.io/forecasting, https://www.revenue.io/faqs, https://www.vendr.com/marketplace/revenue-io, https://www.pulsemcp.com/servers?q=revenue.io
+https://www.revenue.io/forecasting, https://www.revenue.io/faqs, https://www.vendr.com/marketplace/revenue-io, https://www.pulsemcp.com/servers?q=revenue.io, https://www.revenue.io/pricing
 
 **Notes, verbatim from the file**
-None.
+None. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.revenue.io/pricing): the pricing page states a custom quote is built on the demo call rather than published as a list price; an API exists and the support site documents APIs and Programmatic Operations for Guided Selling, but no plan condition is published.
 
 **Provenance**
 

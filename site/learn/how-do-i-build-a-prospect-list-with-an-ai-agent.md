@@ -20,11 +20,11 @@ The chain is: define the account criteria, search a company database, enrich eac
 
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
-| Build the target account list | [build a target account list](../jobs/build-target-account-list.md) | 7 | 4 | 0 |
-| Search companies by firmographics | [search companies by firmographics](../jobs/search-companies-by-firmographics.md) | 15 | 12 | 3 |
-| Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 12 |
-| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 15 | 5 |
-| Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 15 | 3 |
+| Build the target account list | [build a target account list](../jobs/build-target-account-list.md) | 7 | 4 | 1 |
+| Search companies by firmographics | [search companies by firmographics](../jobs/search-companies-by-firmographics.md) | 15 | 12 | 4 |
+| Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 14 |
+| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 15 | 6 |
+| Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 15 | 4 |
 
 Counted 2026-08-25. Entry counts rather than product counts.
 
@@ -34,6 +34,8 @@ Counted 2026-08-25. Entry counts rather than product counts.
 
 ## The tools with the deepest coverage in the chain
 
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Prospeo](../tools/prospeo.md) Official MCP · Free to start
 A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic...
 - [ZoomInfo](../tools/zoominfo.md) Official MCP · Free to start
@@ -42,14 +44,12 @@ A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ 
 A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing,...
 - [Coresignal](../tools/coresignal.md) Official MCP · Paid, self-serve
 Sells structured B2B datasets and APIs (company, employee/people, job-posting records) scraped and normalized from public and professional-network...
-- [Crustdata](../tools/crustdata.md) Official MCP · Gate unknown
-A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
+- [Explorium](../tools/explorium.md) Official MCP · Paid, self-serve
+Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics,...
 - [Fiber AI](../tools/fiber-ai.md) Official MCP · Paid, self-serve
 B2B search and enrichment APIs for finding companies and people by structured filters or natural language, then revealing work emails and phone...
 - [Lead411](../tools/lead411.md) Official MCP · Paid, self-serve
 A B2B contact and company database with verified emails, direct dials, and growth/intent triggers, queryable by search or by an enrichment API.
-- [Ocean.io](../tools/ocean-io.md) Official MCP · Paid, self-serve
-A company-search and "lookalike" prospecting tool that finds businesses similar to a given target account based on industry, size, geography, and...
 
 5 more are on the linked page. The cut is the display limit, not a ranking.
 

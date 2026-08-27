@@ -56,12 +56,16 @@ An all-in-one B2B enrichment platform that finds work emails and verified mobile
 Monitors Reddit, Hacker News, and Lobsters for keyword mentions and sends email alerts within minutes of a match.
 - [Findymail](../tools/findymail.md) No MCP found · Free to start
 An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or LinkedIn profile URL, verifies...
+- [Landbase](../tools/landbase.md) No MCP found · Free to start
+A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous...
 - [Landbot](../tools/landbot.md) No MCP found · Free to start
 No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows with LLM-powered conversation.
 - [Pipedrive](../tools/pipedrive.md) Official MCP · Free to start
 A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams.
 - [Recapped.io](../tools/recapped-io.md) No MCP found · Free to start
 Digital sales room and customer-onboarding collaboration platform for tracking mutual action plans, content sharing, and buyer engagement through the...
+- [Scaledmail](../tools/scaledmail.md) No MCP found · Free to start
+Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so...
 - [Tidio](../tools/tidio.md) No MCP found · Free to start
 Customer-service platform combining live chat, a help desk, and an AI agent ("Lyro") that resolves routine support/sales questions automatically.
 - [AiSDR](../tools/aisdr.md) No MCP found · Paid, self-serve
@@ -74,10 +78,6 @@ Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts
 Researches top-performing content and social engagement by topic, tracks brand/competitor mentions, and surfaces influencers, built on a large...
 - [Chatbase](../tools/chatbase.md) No MCP found · Paid, self-serve
 No-code AI agent builder for deploying chat/voice/email support-and-sales bots across a website widget and channels like WhatsApp and Slack.
-- [Clara (Clara Labs)](../tools/clara.md) No MCP found · Paid, self-serve
-AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times, handles replies, and confirms meetings...
-- [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md) No MCP found · Paid, self-serve
-Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count,...
 
 100 more are on the linked page. The cut is the display limit, not a ranking.
 

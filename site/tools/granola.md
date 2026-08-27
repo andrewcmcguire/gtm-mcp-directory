@@ -1,6 +1,6 @@
 # Granola: MCP server status, API access gate and what it does
 
-> General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. Official MCP, Gate unknown. Checked 2026-08-24.
+> General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. Official MCP, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Granola
 # Granola
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-24
@@ -54,15 +54,13 @@ https://www.pulsemcp.com/servers/granola (official server at https://mcp.granola
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown/limited. No traditional public REST API or self-serve developer-pricing page was found; the MCP server is the primary documented programmatic access path. Several unofficial community MCP servers (e.g., https://github.com/chrisguillory/granola-mcp, https://github.com/Bencockin/granola-mcp) instead read the local Granola macOS app's data directly from disk - a workaround, not a sanctioned API.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (API access and MCP integration start on the Business plan at $14/user/mo; the $0 Basic plan has neither)
 
 **API documentation**
 
@@ -97,13 +95,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://mcpservers.org/servers/granola-mcp](https://mcpservers.org/servers/granola-mcp)
 - [https://github.com/chrisguillory/granola-mcp](https://github.com/chrisguillory/granola-mcp)
 - [https://github.com/Bencockin/granola-mcp](https://github.com/Bencockin/granola-mcp)
+- [https://www.granola.ai/pricing](https://www.granola.ai/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.pulsemcp.com/servers/granola, https://mcpservers.org/servers/granola-mcp, https://github.com/chrisguillory/granola-mcp, https://github.com/Bencockin/granola-mcp
+https://www.pulsemcp.com/servers/granola, https://mcpservers.org/servers/granola-mcp, https://github.com/chrisguillory/granola-mcp, https://github.com/Bencockin/granola-mcp, https://www.granola.ai/pricing
 
 **Notes, verbatim from the file**
-Included per the seed list, but flagged clearly: Granola is a horizontal notetaker with an official MCP server, not a sales-specific conversation-intelligence product - do not conflate it with Gong-class tools.
+Included per the seed list, but flagged clearly: Granola is a horizontal notetaker with an official MCP server, not a sales-specific conversation-intelligence product - do not conflate it with Gong-class tools. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://www.granola.ai/pricing): API access and MCP integration start on the Business plan at $14/user/mo; the $0 Basic plan has neither.
 
 **Provenance**
 

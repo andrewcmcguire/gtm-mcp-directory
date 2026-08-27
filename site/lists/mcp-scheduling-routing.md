@@ -27,13 +27,13 @@ chilipiper.com | [Official MCP](../mcp/official.md) | [https://www.chilipiper.co
 Two supported paths, both vendor-documented. Option A (vendor-recommended): a Chili Piper... | [Paid, self-serve](../gates/paid.md) |
 | [Default](../tools/default.md)
 default.com | [Official MCP](../mcp/official.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | OAuth or an API key
-unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Gate unknown](../gates/unknown.md) |
+unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Enterprise only](../gates/enterprise-only.md) |
 | [Reclaim.ai](../tools/reclaim-ai.md)
 reclaim.ai | [Official MCP](../mcp/official.md) | [https://mcp.reclaim.ai](https://mcp.reclaim.ai) | OAuth or an API key
 OAuth (official hosted server). A separate unofficial/community server also exists... | [Gate unknown](../gates/unknown.md) |
 | [RevenueHero](../tools/revenuehero.md)
 revenuehero.io | [Official MCP](../mcp/official.md) | [https://www.revenuehero.io/resources/tales-of-ops](https://www.revenuehero.io/resources/tales-of-ops) | API key
-Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero -... | [Gate unknown](../gates/unknown.md) |
+Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero - not... | [Gate unknown](../gates/unknown.md) |
 | [Motion](../tools/motion.md)
 usemotion.com | [Community MCP](../mcp/community.md) | [https://github.com/RF-D/motion-mcp](https://github.com/RF-D/motion-mcp) | API key
 API key (MOTION_API_KEY from Motion Settings -> API), per community repos. Rate limits... | [Paid, self-serve](../gates/paid.md) |

@@ -50,41 +50,41 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Avoma](../tools/avoma.md) avoma.com AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Sybill](../tools/sybill.md) sybill.ai AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and behavioral/sentiment reads on prospects. [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Gong](../tools/gong.md) gong.io Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Highspot](../tools/highspot.md) highspot.com Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its core content product. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Otter.ai](../tools/otter-ai.md) otter.ai AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor mentions, and pricing discussion live, then writes summaries and next steps back to the CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Sybill](../tools/sybill.md) sybill.ai AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and behavioral/sentiment reads on prospects. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) zoom.com Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account activity. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
+- [BoostUp (rebranded: Terret)](../tools/boostup.md) terret.ai AI revenue-intelligence and pipeline-forecasting platform that ingests CRM, email, call, and calendar data to produce forecasts and deal-risk scores, plus (post-rebrand) automated GTM workflow agents. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
 - [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Gong Forecast](../tools/gong-forecast.md) gong.io A licensed add-on module (separate from the base Gong Foundation license, with a lighter "Forecast Essentials" tier bundled into Gong's Deal Execution package) that turns Gong's conversation-intelligence... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
+- [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md) mediafly.com Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into "Mediafly Intelligence360," providing deal inspection, pipeline forecasting,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
 - [Momentum](../tools/momentum.md) momentum.io Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration"). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+- [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
-- [BoostUp (rebranded: Terret)](../tools/boostup.md) terret.ai AI revenue-intelligence and pipeline-forecasting platform that ingests CRM, email, call, and calendar data to produce forecasts and deal-risk scores, plus (post-rebrand) automated GTM workflow agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md) mediafly.com Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into "Mediafly Intelligence360," providing deal inspection, pipeline forecasting,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+- [Terret (BoostUp)](../tools/terret.md) terret.ai A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns, generates sales playbooks, and pushes pre-call briefs/deal alerts/suggested... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Terret (BoostUp)](../tools/terret.md) terret.ai A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns, generates sales playbooks, and pushes pre-call briefs/deal alerts/suggested... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 ### Next to this job
 

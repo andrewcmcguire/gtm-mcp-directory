@@ -18,8 +18,10 @@ The mcp_auth field on the entry is blank, or says unknown. Published as blank ra
 |---|---|---|---|---|
 | [Common Paper](../tools/common-paper.md)
 commonpaper.com | [Official MCP](../mcp/official.md) | [https://commonpaper.com/release-notes/common-paper-m...](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/) +1 more | unknown - not detailed in the release-notes excerpt reviewed. | [Free to start](../gates/free.md) |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Official MCP](../mcp/official.md) | [https://crustdata.com/](https://crustdata.com/) | unknown | [Free to start](../gates/free.md) |
 | [Hightouch](../tools/hightouch.md)
-hightouch.com | [Official MCP](../mcp/official.md) | [https://hightouch.com/docs/ai-integrations/mcp](https://hightouch.com/docs/ai-integrations/mcp) | Existing Hightouch workspace auth with role-based access control; however the MCP server itself "must be enabled by Hightouch - contact us to turn... | [Free to start](../gates/free.md) |
+hightouch.com | [Official MCP](../mcp/official.md) | [https://hightouch.com/docs/ai-integrations/mcp](https://hightouch.com/docs/ai-integrations/mcp) | Existing Hightouch workspace auth with role-based access control; however the MCP server itself "must be enabled by Hightouch - contact us to turn it... | [Free to start](../gates/free.md) |
 | [TheirStack](../tools/theirstack.md)
 theirstack.com | [Official MCP](../mcp/official.md) | [https://theirstack.com/en/job-posting-mcp](https://theirstack.com/en/job-posting-mcp) | unknown - page references a "How does authentication work?" FAQ but the answer wasn't visible in the fetched content; requires free signup/login to... | [Free to start](../gates/free.md) |
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
@@ -42,8 +44,14 @@ snitcher.com | [Official MCP](../mcp/official.md) | [https://www.snitcher.com/ch
 sumble.com | [Official MCP](../mcp/official.md) | [https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4](https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4) | unknown - not disclosed in the public docs excerpt available | [Paid, self-serve](../gates/paid.md) |
 | [Clari](../tools/clari.md)
 clari.com | [Official MCP](../mcp/official.md) | [https://www.clari.com/press/clari-salesloft-forecast...](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) | unknown / not disclosed publicly | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Ada](../tools/ada.md)
+ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
+| [Allego](../tools/allego.md)
+allego.com | [Official MCP](../mcp/official.md) | [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/) | unknown - vendor material states the MCP server connects to Salesforce Einstein, Microsoft Copilot, and enterprise self-hosted copilots with... | [Enterprise only](../gates/enterprise-only.md) |
 | [Clari (+ Salesloft agents)](../tools/clari.md)
 clari.com | [Official MCP](../mcp/official.md) | [https://www.clari.com/press/clari-salesloft-forecast...](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) | unknown - announcement confirms an official MCP server (works with Claude, ChatGPT, Microsoft Copilot, Gemini, and Salesforce Agentforce) but does... | [Enterprise only](../gates/enterprise-only.md) |
+| [Default](../tools/default.md)
+default.com | [Official MCP](../mcp/official.md) | [https://www.default.com](https://www.default.com) | unknown - not documented anywhere found (checked default.com, default.com/product, docs.default.com). | [Enterprise only](../gates/enterprise-only.md) |
 | [Demandbase (Demandbase One)](../tools/demandbase.md)
 demandbase.com | [Official MCP](../mcp/official.md) | [https://developer.demandbase.com/docs/mcp](https://developer.demandbase.com/docs/mcp) +1 more | unknown - the account-team-gated support article that likely covers this returned HTTP 403 and could not be read; docs confirm the MCP is read-only... | [Enterprise only](../gates/enterprise-only.md) |
 | [Gong](../tools/gong.md)
@@ -56,17 +64,9 @@ ironcladapp.com | [Official MCP](../mcp/official.md) | [https://support.ironclad
 otter.ai | [Official MCP](../mcp/official.md) | [https://help.otter.ai/hc/en-us/articles/352876075696...](https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server) +2 more | unknown - exact auth mechanism not confirmed in public sources; framed under "Otter for Enterprise" with a demo-request CTA. | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
 pigment.com | [Official MCP](../mcp/official.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | A workspace admin enables MCP under Settings > Integrations, generating a per-workspace endpoint; individual users then connect with their existing... | [Enterprise only](../gates/enterprise-only.md) |
-| [Ada](../tools/ada.md)
-ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | none documented - connects over HTTP with no credential requirement described in the docs. | [Gate unknown](../gates/unknown.md) |
-| [Allego](../tools/allego.md)
-allego.com | [Official MCP](../mcp/official.md) | [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/) | unknown - vendor material states the MCP server connects to Salesforce Einstein, Microsoft Copilot, and enterprise self-hosted copilots with... | [Gate unknown](../gates/unknown.md) |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://crustdata.com/](https://crustdata.com/) | unknown | [Gate unknown](../gates/unknown.md) |
-| [Default](../tools/default.md)
-default.com | [Official MCP](../mcp/official.md) | [https://www.default.com](https://www.default.com) | unknown - not documented anywhere found (checked default.com, default.com/product, docs.default.com). | [Gate unknown](../gates/unknown.md) |
 | [Unify](../tools/unify.md)
 unifygtm.com | [Community MCP](../mcp/community.md) | [https://github.com/footcarts/unify-mcp](https://github.com/footcarts/unify-mcp) | Auth0 browser sign-in (auth.unifygtm.com); MCP caches the session cookie (~30-day life) rather than a refresh token - no password or key ever passed... | [Paid, self-serve](../gates/paid.md) |
 | [Brandwatch](../tools/brandwatch.md)
-brandwatch.com | [Community MCP](../mcp/community.md) | [https://github.com/ambo-sk/mcp-brandwatch](https://github.com/ambo-sk/mcp-brandwatch) | unknown - the third-party server's description states it interfaces with "the Brandwatch Consumer Research, Data Upload and Analysis APIs," hosted... | [Enterprise only](../gates/enterprise-only.md) |
+brandwatch.com | [Community MCP](../mcp/community.md) | [https://github.com/ambo-sk/mcp-brandwatch](https://github.com/ambo-sk/mcp-brandwatch) | unknown - the third-party server's description states it interfaces with "the Brandwatch Consumer Research, Data Upload and Analysis APIs," hosted on... | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

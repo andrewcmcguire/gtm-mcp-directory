@@ -1,6 +1,6 @@
 # Email Deliverability: 13 tools, 4 with an official MCP server
 
-> Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps... 13 tools counted, 4 with an official MCP server and 1 free to start.
+> Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps... 13 tools counted, 4 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -20,11 +20,11 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 - **MCP unknown**: 1
 - **No MCP found**: 8
 
-- **Free to start**: 1
-- **Paid, self-serve**: 9
-- **Gate unknown**: 3
+- **Free to start**: 2
+- **Paid, self-serve**: 10
+- **Gate unknown**: 1
 
-Source file: 09-email-deliverability.md · content sha256 32f0461964693b18... · counts reconciled against tools_recount.py at build time.
+Source file: 09-email-deliverability.md · content sha256 cffe7fe0fb933b84... · counts reconciled against tools_recount.py at build time.
 
 - [The 4 with an MCP server](../lists/mcp-email-deliverability.md)
 
@@ -43,9 +43,13 @@ Source file: 09-email-deliverability.md · content sha256 32f0461964693b18... ·
 
 - [Warmup Inbox](../tools/warmup-inbox.md) warmupinbox.com Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer's connected accounts to build sender reputation. [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md)
 
+- [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
+
 - [GlockApps](../tools/glockapps.md) glockapps.com Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts across 60+ providers (Gmail, Yahoo, Outlook, Apple Mail, AOL, etc.) and reports exact... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+- [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims fully... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+
+- [InboxAlly](../tools/inboxally.md) inboxally.com Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns; those seed accounts perform browser-level engagement (open, read, reply, mark important, move out of... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [MailGenius](../tools/mailgenius.md) mailgenius.com Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans blacklists, previews inbox rendering across Gmail/Outlook, and scores spam likelihood. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -54,7 +58,3 @@ Source file: 09-email-deliverability.md · content sha256 32f0461964693b18... ·
 - [Warmy.io](../tools/warmy-io.md) warmy.io Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up topic/language selection, works across Gmail, Outlook, Zoho, and Amazon SES, with a real-time... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [InboxAlly](../tools/inboxally.md) inboxally.com Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns; those seed accounts perform browser-level engagement (open, read, reply, mark important, move out of... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

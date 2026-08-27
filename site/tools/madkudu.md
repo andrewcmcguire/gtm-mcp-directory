@@ -1,6 +1,6 @@
 # MadKudu: MCP server status, API access gate and what it does
 
-> Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and... No MCP found, Gate unknown. Checked 2026-08-24.
+> Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ MadKudu
 # MadKudu
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -48,15 +48,13 @@ The mcp_url field is empty on this entry. 21 of 293 entries are.
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (madkudu.com/pricing 301s to hginsights.com after the HG Insights acquisition and HG publishes no prices - platform and data-fabric pricing is by data consumption, seats and credits on quote, with no self-serve purchase path)
 
 **API documentation**
 
@@ -82,13 +80,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.madkudu.com](https://www.madkudu.com)
 - [https://hginsights.com](https://hginsights.com)
+- [https://hginsights.com/pricing](https://hginsights.com/pricing)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.madkudu.com, https://hginsights.com
+https://www.madkudu.com, https://hginsights.com, https://hginsights.com/pricing
 
 **Notes, verbatim from the file**
-SWEEP FLAG - www.madkudu.com now 301-redirects to hginsights.com, and the login link is labeled "HG Sales Copilot" at msi.madkudu.com. Strong signal of an acquisition/absorption; could not find a dedicated public announcement confirming deal terms or date in this pass. Treat MadKudu as effectively discontinued as a standalone product.
+SWEEP FLAG - www.madkudu.com now 301-redirects to hginsights.com, and the login link is labeled "HG Sales Copilot" at msi.madkudu.com. Strong signal of an acquisition/absorption; could not find a dedicated public announcement confirming deal terms or date in this pass. Treat MadKudu as effectively discontinued as a standalone product. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://hginsights.com/pricing): madkudu.com/pricing 301s to hginsights.com after the HG Insights acquisition and HG publishes no prices - platform and data-fabric pricing is by data consumption, seats and credits on quote, with no self-serve purchase path.
 
 **Provenance**
 

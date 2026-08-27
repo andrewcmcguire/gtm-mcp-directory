@@ -1,6 +1,6 @@
 # Showpad: MCP server status, API access gate and what it does
 
-> Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven... No MCP found, Gate unknown. Checked 2026-08-24.
+> Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Showpad
 # Showpad
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - Showpad maintains a public Developer Portal (developer.showpad.com), which signals real API access exists, but no pricing tier or self-serve gating information was found; site pricing routes to a demo request only.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase)
 
 **API documentation**
 
@@ -86,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.showpad.com](https://www.showpad.com)
 - [https://developer.showpad.com](https://developer.showpad.com)
+- [https://www.showpad.com/pricing/](https://www.showpad.com/pricing/)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.showpad.com, https://developer.showpad.com
+https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/
 
 **Notes, verbatim from the file**
-No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser.
+No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase.
 
 **Provenance**
 

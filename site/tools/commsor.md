@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -83,13 +83,14 @@ Reason recorded by the tagging pass: dead. Folded into The Swarm's Go-to-Network
 **Sources**
 
 - [https://commsor.com](https://commsor.com)
+- [https://www.commsor.com/pricing](https://www.commsor.com/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://commsor.com
+https://commsor.com, https://www.commsor.com/pricing
 
 **Notes, verbatim from the file**
-STATUS FLAG - commsor.com now displays a banner: "The Swarm is Acquiring Commsor," linking through to commsor.theswarm.com. The page still shows Commsor-branded product marketing (warm-path surfacing, automated B2B referrals) but is functionally an acquisition-transition page rather than an independent product homepage. Treat Commsor as absorbed into The Swarm (theswarm.com) rather than as a standalone tool going forward; a future directory pass should research The Swarm directly if warm-intro/network-signal tools get their own coverage.
+STATUS FLAG - commsor.com now displays a banner: "The Swarm is Acquiring Commsor," linking through to commsor.theswarm.com. The page still shows Commsor-branded product marketing (warm-path surfacing, automated B2B referrals) but is functionally an acquisition-transition page rather than an independent product homepage. Treat Commsor as absorbed into The Swarm (theswarm.com) rather than as a standalone tool going forward; a future directory pass should research The Swarm directly if warm-intro/network-signal tools get their own coverage. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the domain is alive but the company is being acquired - a site banner reads that The Swarm is acquiring Commsor - and the product is now a go-to-network warm-intro platform. The /pricing link in the nav returns 404 on both commsor.com and www.commsor.com, with no API mention anywhere. Checked against https://www.commsor.com/pricing.
 
 **Provenance**
 

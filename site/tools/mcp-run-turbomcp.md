@@ -1,6 +1,6 @@
 # mcp.run / TurboMCP: MCP server status, API access gate and what it does
 
-> An enterprise self-hosted MCP gateway and management platform  - a trusted, admin-curated registry plus... Official MCP, Gate unknown. Checked 2026-08-24.
+> An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ mcp.run / TurboMCP
 # mcp.run / TurboMCP
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://turbomcp.ai
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown (pricing not disclosed on the fetched page)
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points)
 
 **API documentation**
 
@@ -94,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.mcp.run (redirects to turbomcp.ai, confirmed 301), https://turbomcp.ai
 
 **Notes, verbatim from the file**
-mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed.
+mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points.
 
 **Provenance**
 

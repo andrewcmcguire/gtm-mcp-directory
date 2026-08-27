@@ -1,4 +1,4 @@
-# Model Context Protocol  - official servers repo: MCP server status, API access gate and what it does
+# Model Context Protocol - official servers repo: MCP server status, API access gate and what it does
 
 > The official reference-implementation repository for MCP, "managed by Anthropic, but built together with the... Official MCP, Free to start. Checked 2026-08-24.
 
@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · entry id 07-model-context-protocol-official-servers-repo · source 07-mcp-infrastructure.md line 176
+Vendor: [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · entry id 07-model-context-protocol-official-servers-repo · source 07-mcp-infrastructure.md line 178
 
 **What it does**
 The official reference-implementation repository for MCP, "managed by Anthropic, but built together with the community" - ships a small set of maintained example servers (Everything, Fetch, Filesystem, Git, Memory, Sequential Thinking, Time) intended as educational references, not production integrations.
@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: no-job-fits. The official reference-servers
 
 - [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://github.com/modelcontextprotocol/servers
 
@@ -101,7 +101,7 @@ Worth flagging plainly for anyone assuming this repo is a live GTM connector cat
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 176
+- **Source line**: 178
 
 - **Tier**: RESEARCHED
 

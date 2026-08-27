@@ -19,12 +19,12 @@ Tools that try to answer "how much will we actually close this quarter" - CRM-na
 | [Cube Software](../tools/cube-software.md)
 cubesoftware.com | [Official MCP](../mcp/official.md) | [https://www.cubesoftware.com/mcp](https://www.cubesoftware.com/mcp) +1 more | OAuth
 OAuth - no manual API key management. | [Paid, self-serve](../gates/paid.md) |
+| [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
+anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | OAuth or an API key
+unknown - described only as a "governed MCP connection" with permission/audit controls;... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
 pigment.com | [Official MCP](../mcp/official.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | Auth not recorded
 A workspace admin enables MCP under Settings > Integrations, generating a per-workspace... | [Enterprise only](../gates/enterprise-only.md) |
-| [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
-anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | OAuth or an API key
-unknown - described only as a "governed MCP connection" with permission/audit controls;... | [Gate unknown](../gates/unknown.md) |
 
 ### The other 14 in this category
 
@@ -38,28 +38,28 @@ pipedrive.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/
 forecastio.ai | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [HubSpot (AI Forecasting)](../tools/hubspot.md)
 hubspot.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Aviso](../tools/aviso.md)
+aviso.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [BoostUp (rebranded: Terret)](../tools/boostup.md)
+terret.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Ebsta](../tools/ebsta.md)
+ebsta.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Gong Forecast](../tools/gong-forecast.md)
 gong.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Kluster](../tools/kluster.md)
 kluster.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md)
+mediafly.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Revenue.io](../tools/revenue-io.md)
+revenue.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md)
 salesforce.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Vareto](../tools/vareto.md)
+vareto.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Varicent](../tools/varicent.md)
 varicent.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Xactly](../tools/xactly.md)
 xactlycorp.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Aviso](../tools/aviso.md)
-aviso.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [BoostUp (rebranded: Terret)](../tools/boostup.md)
-terret.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Ebsta](../tools/ebsta.md)
-ebsta.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md)
-mediafly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Revenue.io](../tools/revenue-io.md)
-revenue.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Vareto](../tools/vareto.md)
-vareto.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 
 ### What this category is asked for
 

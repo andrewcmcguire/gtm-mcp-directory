@@ -21,9 +21,10 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 - **No MCP found**: 12
 
 - **Paid, self-serve**: 1
-- **Gate unknown**: 13
+- **Enterprise only**: 6
+- **Gate unknown**: 7
 
-Source file: 11-enablement-coaching.md · content sha256 941cc061c5470718... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 aa532c36cdc7565e... · counts reconciled against tools_recount.py at build time.
 
 - [The 2 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -32,15 +33,21 @@ Source file: 11-enablement-coaching.md · content sha256 941cc061c5470718... · 
 - [Retrieve sales content](../jobs/retrieve-sales-content.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-- [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [WorkRamp](../tools/workramp.md) workramp.com Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [WorkRamp](../tools/workramp.md) workramp.com Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Trainual](../tools/trainual.md) trainual.com SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR than sales-specific enablement, with AI-assisted SOP drafting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md) bigtincan.com Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content management, on-demand training/coaching, and AI-driven practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Continu](../tools/continu.md) continu.com AI-powered enterprise learning platform for delivering, tracking, and measuring training content to employees, customers, and partners. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Continu](../tools/continu.md) continu.com AI-powered enterprise learning platform for delivering, tracking, and measuring training content to employees, customers, and partners. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Spekit](../tools/spekit.md) spekit.com In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md) bigtincan.com Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content management, on-demand training/coaching, and AI-driven practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dialworks](../tools/dialworks.md) dialworks.io Sales and support training platform running mock calls, simulated training scenarios, AI call assessment, and analytics/reporting for rep readiness. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -50,12 +57,6 @@ Source file: 11-enablement-coaching.md · content sha256 941cc061c5470718... · 
 
 - [Luster](../tools/luster.md) luster.ai "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call signal analysis to flag rep skill gaps before they show up in real deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
 - [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Second Nature](../tools/second-nature.md) secondnature.ai AI roleplay platform for enterprise sales teams that generates AI buyer personas from a text description or uploaded content and runs 1:1, group, or chat-based practice conversations, then scores and gives... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Spekit](../tools/spekit.md) spekit.com In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

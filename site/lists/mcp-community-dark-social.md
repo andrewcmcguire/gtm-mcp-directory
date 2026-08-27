@@ -41,6 +41,8 @@ f5bot.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free
 brand24.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [BuzzSumo](../tools/buzzsumo.md)
 buzzsumo.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Exploding Topics (Exploding Topics Pro)](../tools/exploding-topics.md)
+explodingtopics.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Mention](../tools/mention.md)
 mention.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Bevy](../tools/bevy.md)
@@ -53,8 +55,6 @@ talkwalker.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gat
 championhq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Commsor](../tools/commsor.md)
 commsor.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Exploding Topics (Exploding Topics Pro)](../tools/exploding-topics.md)
-explodingtopics.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Orbit](../tools/orbit.md)
 orbit.love | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [GummySearch](../tools/gummysearch.md)

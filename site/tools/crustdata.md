@@ -1,6 +1,6 @@
 # Crustdata: MCP server status, API access gate and what it does
 
-> A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web... Official MCP, Gate unknown. Checked 2026-08-24.
+> A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web... Official MCP, Free to start. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Crustdata
 # Crustdata
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://crustdata.com/ (MCP referenced directly on the vendor homepage: "drop th
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Free to start
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, without talking to anyone
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+free (free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top)
 
 **API documentation**
 
@@ -117,7 +115,7 @@ What that listing says it does: Aggregates real-time company and people data (25
 https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code
 
 **Notes, verbatim from the file**
-MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile).
+MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top.
 
 **Provenance**
 

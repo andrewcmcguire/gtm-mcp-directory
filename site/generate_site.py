@@ -40,8 +40,8 @@ DATA_DIR = SITE_DIR.parent / "data"
 
 # Directories generate_site.py owns and will wipe on every run. Anything else that lives
 # in site/ (this script, DEPLOY.md) is left alone.
-GENERATED_DIRS = ["assets", "tools", "categories", "gates", "mcp", "jobs", "github",
-                  "learn", "lists", "data", "_dist"]
+GENERATED_DIRS = ["assets", "tools", "categories", "gates", "mcp", "jobs", "jobs-board",
+                  "github", "learn", "lists", "data", "_dist"]
 GENERATED_FILES = [
     "index.html",
     "methodology.html",
@@ -600,6 +600,37 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
   .masthead .wrap{padding-top:12px;padding-bottom:12px}
   .navlinks{margin-left:0;width:100%}
 }
+
+/* ---------- the job board ---------- */
+.lawbox{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--tone-teal);
+  padding:16px 19px;margin-top:20px;border-radius:2px}
+.lawbox .lab{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--tone-teal);margin-bottom:7px}
+.lawbox p{font-family:var(--serif);font-size:18px;line-height:1.45;color:var(--fg);max-width:60ch}
+.lawbox p + p{margin-top:9px;font-family:var(--sans);font-size:14.5px;color:var(--mute)}
+.boardbar{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+#jq{flex:1 1 260px;min-width:0;font-family:var(--sans);font-size:16px;padding:12px 14px;
+  background:var(--surface-2);color:var(--fg);border:1px solid var(--rule);
+  border-left:3px solid var(--accent);border-radius:3px}
+#jq:focus{outline:2px solid var(--accent);outline-offset:1px}
+.filterset{margin-top:14px}
+.filterset .fk{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--mute-2);margin-bottom:6px}
+#jcount{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--accent);margin-top:18px}
+.jrow .nm{overflow-wrap:anywhere}
+.jrow .co{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--fg-soft);
+  text-transform:uppercase;overflow-wrap:anywhere}
+.jrow .desc{font-family:var(--mono);font-size:12px;letter-spacing:.02em;overflow-wrap:anywhere}
+.jempty{color:var(--mute);font-size:14.5px;padding:18px 0;max-width:70ch}
+.deadrow .nm{color:var(--mute);font-family:var(--serif);font-size:18px}
+.deadrow .url{font-family:var(--mono);font-size:11px;color:var(--mute-2);overflow-wrap:anywhere;
+  margin-top:5px;max-width:100%}
+@media (max-width:560px){
+  .boardbar{gap:8px}
+  .jrow .nm{font-size:18px}
+}
+
 @media (prefers-reduced-motion:no-preference){
   a,.btn,.chip{transition:color .12s ease,border-color .12s ease,background-color .12s ease}
 }
@@ -773,6 +804,70 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
 
 
 # ----------------------------------------------------------------------------------
+# job board javascript
+# ----------------------------------------------------------------------------------
+
+BOARD_JS = r"""/* The GTM Engineer job board - client side filtering.
+   Every row is already in the HTML. This only hides rows, so the board is complete
+   and readable with JavaScript switched off, and nothing is fetched at any point. */
+(function(){
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.jrow'));
+  if(!rows.length) return;
+  var q = document.getElementById('jq');
+  var cnt = document.getElementById('jcount');
+  var empty = document.getElementById('jempty');
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.jchip'));
+  var f = {fam:null, sen:null, rem:null, reg:null};
+
+  function pass(el){
+    if(f.fam && el.getAttribute('data-fam') !== f.fam) return false;
+    if(f.sen && el.getAttribute('data-sen') !== f.sen) return false;
+    if(f.rem && el.getAttribute('data-rem') !== f.rem) return false;
+    if(f.reg && (' ' + el.getAttribute('data-reg') + ' ').indexOf(' ' + f.reg + ' ') === -1) return false;
+    var t = (q && q.value ? q.value : '').trim().toLowerCase();
+    if(t){
+      var words = t.split(/\s+/), hay = el.getAttribute('data-q') || '';
+      for(var i=0;i<words.length;i++){ if(hay.indexOf(words[i]) === -1) return false; }
+    }
+    return true;
+  }
+
+  function run(){
+    var n = 0;
+    for(var i=0;i<rows.length;i++){
+      var ok = pass(rows[i]);
+      rows[i].style.display = ok ? '' : 'none';
+      if(ok) n++;
+    }
+    if(cnt) cnt.textContent = n + ' of ' + rows.length + ' shown';
+    if(empty) empty.style.display = n ? 'none' : 'block';
+  }
+
+  if(q) q.addEventListener('input', run);
+  chips.forEach(function(c){
+    c.addEventListener('click', function(){
+      var k = c.getAttribute('data-k'), v = c.getAttribute('data-v');
+      var on = c.getAttribute('aria-pressed') === 'true';
+      chips.forEach(function(o){
+        if(o.getAttribute('data-k') === k) o.setAttribute('aria-pressed','false');
+      });
+      f[k] = on ? null : v;
+      c.setAttribute('aria-pressed', on ? 'false' : 'true');
+      run();
+    });
+  });
+  var clear = document.getElementById('jclear');
+  if(clear) clear.addEventListener('click', function(){
+    f = {fam:null, sen:null, rem:null, reg:null};
+    chips.forEach(function(o){ o.setAttribute('aria-pressed','false'); });
+    if(q) q.value = '';
+    run();
+  });
+  run();
+})();"""
+
+
+# ----------------------------------------------------------------------------------
 # page chrome
 # ----------------------------------------------------------------------------------
 
@@ -859,6 +954,7 @@ def masthead(rel, current=""):
 {link('tools/index.html','Tools','tools')}
 {link('categories/index.html','Categories','categories')}
 {link('jobs/index.html','Jobs','jobs')}
+{link('jobs-board/index.html','Hiring','jobs-board')}
 {link('lists/index.html','Lists','lists')}
 {link('learn/index.html','Learn','learn')}
 {link('mcp/index.html','MCP status','mcp')}
@@ -897,6 +993,7 @@ def footer(rel, d, r):
       <li><a href="{rel}mcp/index.html">By MCP status</a></li>
       <li><a href="{rel}gates/index.html">By access gate</a></li>
       <li><a href="{rel}jobs/index.html">By job</a></li>
+      <li><a href="{rel}jobs-board/index.html">The GTM Engineer job board</a></li>
       <li><a href="{rel}github/index.html">By GitHub health</a></li>
     </ul>
   </div>
@@ -2018,6 +2115,304 @@ whose job is not in it stays blank rather than being forced into the nearest tag
     return n_pages, True
 
 
+# ----------------------------------------------------------------------------------
+# /jobs-board/ - the GTM Engineer job board
+# ----------------------------------------------------------------------------------
+
+def load_board():
+    """jobs_board.json, baked by gtm-radar/jobs/build_board.py. Absent means the section
+    is skipped rather than faked: a job board with no verification pass behind it is the
+    exact thing this section exists to argue against."""
+    p = DATA_DIR / "jobs_board.json"
+    if not p.exists():
+        return None
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
+BOARD_NO_DETAIL = (
+    "There is no page here for an individual listing, and that is deliberate. The only "
+    "honest copy of a job description is the employer's own, so this board does not "
+    "republish one. Every row links straight at the posting, with tracking parameters "
+    "stripped, and every row was fetched at that exact link on the verification date.")
+
+
+def board_chip(kind, bucket, current=None):
+    pressed = "true" if current == bucket["slug"] else "false"
+    return (f'<button class="chip jchip" type="button" data-k="{kind}" '
+            f'data-v="{raw_esc(bucket["slug"])}" aria-pressed="{pressed}">'
+            f'{esc(bucket["label"])} {bucket["count"]}</button>')
+
+
+def board_row(j):
+    regs = " ".join(x["slug"] for x in j["regions"])
+    hay = " ".join([j["company"], j["title"], j["location"], j["family_label"],
+                    j["seniority_label"], j["remote_label"], j["ats"]]).lower()
+    bits = [f'<span class="badge teal">Verified live {esc(j["verified_on"])}</span>',
+            f'<span class="badge mute flat">{esc(j["family_label"])}</span>']
+    if j["seniority"] != "unstated":
+        bits.append(f'<span class="badge mute flat">{esc(j["seniority_label"])}</span>')
+    bits.append(f'<span class="badge {"gold" if j["remote"] == "remote" else "mute"} flat">'
+                f'{esc(j["remote_label"])}</span>')
+    if j["salary"]:
+        bits.append(f'<span class="badge gold flat">{esc(j["salary"])}</span>')
+    if j["found_via_post"]:
+        bits.append('<span class="badge copper">Found via post, verify before applying</span>')
+    meta = [esc(j["location"] or "Location not stated")]
+    if j["posted_date"]:
+        meta.append(f'posted {esc(j["posted_date"])}')
+    meta.append(f'tracked here since {esc(j["first_tracked"])}')
+    meta.append(f'{esc(j["ats"] or "employer site")} posting')
+    return f"""<li class="row jrow" data-fam="{raw_esc(j['family'])}" data-sen="{raw_esc(j['seniority'])}"
+ data-rem="{raw_esc(j['remote'])}" data-reg="{raw_esc(regs)}" data-q="{esc(hay)}">
+<div class="top"><a class="nm" href="{raw_esc(j['url'])}" rel="nofollow noopener">{esc(j['title'])}</a>
+<span class="co">{esc(j['company'])}</span></div>
+<div class="desc">{' &middot; '.join(meta)}</div>
+<div class="badges">{''.join(bits)}</div>
+</li>"""
+
+
+def board_rows(jobs):
+    return '<ul class="rows">\n' + "\n".join(board_row(j) for j in jobs) + "\n</ul>"
+
+
+def build_jobs_board(d, r, board, out: Path):
+    """The board, the ledger of what was taken down, and a page per title family that
+    has enough live reqs to be worth one. Returns the page count."""
+    if not board:
+        return 0
+    rel = "../"
+    c = board["counts"]
+    date = board["verified_on"]
+    jobs = board["jobs"]
+    n_pages = 0
+
+    (out / "data").mkdir(parents=True, exist_ok=True)
+    (out / "data" / "jobs_board.json").write_bytes(
+        (DATA_DIR / "jobs_board.json").read_bytes())
+
+    law_line = (f"Every listing verified live on {date}. Dead links are removed weekly, "
+                f"not left to rot.")
+
+    def chipset(kind, key, label):
+        return (f'<div class="filterset"><div class="fk">{esc(label)}</div><div class="filters">'
+                + "".join(board_chip(kind, b) for b in board["facets"][key])
+                + "</div></div>")
+
+    stats = "".join([
+        f'<div class="stat is-teal"><div class="n">{c["live"]}</div>'
+        f'<div class="k">live reqs on the board</div></div>',
+        f'<div class="stat"><div class="n">{c["companies"]}</div>'
+        f'<div class="k">companies hiring</div></div>',
+        f'<div class="stat is-copper"><div class="n">{c["removed_this_pass"]}</div>'
+        f'<div class="k">removed by this pass</div></div>',
+        f'<div class="stat is-gold"><div class="n">{c["with_salary"]}</div>'
+        f'<div class="k">publish a salary</div></div>',
+    ])
+
+    fams = [b for b in board["facets"]["family"] if b["count"] >= 5 and b["slug"] != "other-gtm"]
+    famlinks = "".join(
+        f'<a class="btn ghost" href="family-{raw_esc(b["slug"])}.html">{esc(b["label"])} '
+        f'{b["count"]}</a>' for b in fams)
+
+    page = (head(f"The GTM Engineer job board: {c['live']} reqs verified live on {date}",
+                 f"{c['live']} GTM Engineer and adjacent reqs at {c['companies']} companies, "
+                 f"every one of them fetched live on {date}. "
+                 f"{c['removed_this_pass']} listings were removed by the same pass. "
+                 f"Filter by title family, region, remote and seniority.", rel,
+                 extra=f'<script src="{rel}assets/board.js" defer></script>\n',
+                 ld=[crumb_ld(rel, [("Directory", "index.html"),
+                                    ("The job board", "jobs-board/index.html")]),
+                     itemlist_ld("The GTM Engineer job board",
+                                 f"{c['live']} reqs verified live on {date}.",
+                                 "jobs-board/index.html",
+                                 [(f"{j['title']}, {j['company']}", "jobs-board/index.html")
+                                  for j in jobs])],
+                 canon="jobs-board/index.html")
+            + masthead(rel, "jobs-board")
+            + f"""<div class="wrap wide">
+<div class="crumbs" style="padding-bottom:0"><a href="{rel}index.html">Directory</a> / The job board</div>
+<section style="padding-top:18px">
+<div class="eyebrow">The GTM Engineer job board</div>
+<h2>{c['live']} reqs. All of them answered when we knocked.</h2>
+<div class="lawbox">
+<div class="lab">The law of this page</div>
+<p>{esc(law_line)}</p>
+<p>Every other job board fails at exactly this. A listing here was fetched at its own
+apply link on the verification date and answered with the posting still on it. A listing
+that failed is not softened, not greyed out and not left up: it is removed, and it is
+named on <a href="verification.html">the verification page</a> with the reason.</p>
+</div>
+<div class="stats" style="margin-top:26px">{stats}</div>
+<p class="note">Checked {c['checked']} tracked reqs on {date}. {c['live']} answered.
+{c['dead']} were dead. {c['unverified']} could not be settled either way and are excluded
+too, because unverified is not a synonym for live. Source data:
+<a href="{rel}data/jobs_board.json">jobs_board.json</a>.</p>
+
+<div class="boardbar">
+<input id="jq" type="search" placeholder="Filter by company, title or city" aria-label="Filter listings">
+<button class="btn ghost" id="jclear" type="button">Clear</button>
+</div>
+{chipset("fam", "family", "Title family")}
+{chipset("reg", "region", "Where")}
+{chipset("rem", "remote", "Remote")}
+{chipset("sen", "seniority", "Seniority")}
+<div id="jcount">{c['live']} of {c['live']} shown</div>
+<div class="jempty" id="jempty" style="display:none">Nothing on the board matches that.
+An empty result is a real answer here: it means no verified live req carries those words.
+It does not mean the board is hiding anything.</div>
+{board_rows(jobs)}
+
+<h3 style="margin-top:40px">Why there is no page per job</h3>
+<p class="sub">{esc(BOARD_NO_DETAIL)}</p>
+<div class="btnrow">
+<a class="btn" href="verification.html">How every listing is verified</a>
+{famlinks}
+</div>
+</section>
+</div>"""
+            + footer(rel, d, r))
+    write(out / "jobs-board" / "index.html", page)
+    n_pages += 1
+
+    # ------------------------------------------------------------------ verification
+    m = board["method"]
+    dead_rows = []
+    for x in board["removed"]:
+        tone = "copper" if x["status"] == "dead" else "mute"
+        dead_rows.append(f"""<li class="row deadrow">
+<div class="top"><span class="nm">{esc(x['title'])}</span>
+<span class="co">{esc(x['company'])}</span></div>
+<div class="desc">{esc(x['reason'])}</div>
+<div class="url">{esc(x['url'])}</div>
+<div class="badges"><span class="badge {tone}">{esc(x['status'])}</span>
+<span class="badge mute flat">checked {esc(x['checked_on'])}</span>
+<span class="badge mute flat">HTTP {esc(str(x['http_status']))}</span></div>
+</li>""")
+    derivs = "".join(f'<tr><td class="n">{esc(k)}</td><td>{esc(v)}</td></tr>'
+                     for k, v in sorted(board["derivations"].items()))
+    page = (head(f"How every listing on the job board is verified, and what was removed on {date}",
+                 f"The verification method behind The GTM Engineer job board, and the full "
+                 f"ledger of the {c['removed_this_pass']} listings the {date} pass removed, "
+                 f"each with the reason it failed.", rel,
+                 ld=crumb_ld(rel, [("Directory", "index.html"),
+                                   ("The job board", "jobs-board/index.html"),
+                                   ("Verification", "jobs-board/verification.html")]),
+                 canon="jobs-board/verification.html")
+            + masthead(rel, "jobs-board")
+            + f"""<div class="wrap wide">
+<div class="crumbs" style="padding-bottom:0"><a href="{rel}index.html">Directory</a> /
+<a href="index.html">The job board</a> / Verification</div>
+<section style="padding-top:18px">
+<div class="eyebrow">The verification pass, {esc(date)}</div>
+<h2>What was removed, and why.</h2>
+<p class="sub">A job board is a claim about the world at a moment, and the moment passes.
+This page is the receipt. {c['checked']} tracked reqs were checked on {esc(date)}.
+{c['live']} are published. {c['removed_this_pass']} are not, and every one of them is
+named below with the reason it failed.</p>
+
+<div class="prose" style="margin-top:30px">
+<h3>The method</h3>
+<ul class="bare">
+<li>{esc(m['what'])}</li>
+<li>{esc(m['fetch'])}</li>
+<li>{esc(m['cross_check'])}</li>
+<li>{esc(m['publishable'])}</li>
+<li>{esc(m['changed'])}</li>
+<li>{esc(m['cost'])}</li>
+</ul>
+
+<h3>The three answers, and what each one means</h3>
+<div class="scroller"><table class="datatable">
+<tr><th>Answer</th><th>What it means</th><th>Published?</th></tr>
+<tr><td class="n">live</td><td>The apply link answered and the posting was on it. Where the
+employer runs a public board feed, the req id was still in that feed too.</td><td>Yes</td></tr>
+<tr><td class="n">dead</td><td>404, a closed-posting message, a redirect to a careers index
+with no trace of the req, an empty ATS shell, or the employer's own feed has dropped
+it.</td><td>No</td></tr>
+<tr><td class="n">unverified</td><td>The check could not settle it. A JavaScript-only page
+that renders nothing to a plain fetch, or the page and the employer's feed disagreeing with
+each other. Unverified is not a softer word for live.</td><td>No</td></tr>
+</table></div>
+
+<h3>How the filters are derived</h3>
+<div class="scroller"><table class="datatable">
+<tr><th>Field</th><th>How it is derived</th></tr>
+{derivs}
+</table></div>
+
+<h3>What is not on this board</h3>
+<p>Job descriptions. Salary estimates. A count of applicants. A recruiter contact. Anything
+we would have had to guess. A salary appears only where the employer publishes it in the
+machine readable field of their own board feed, which is why {c['with_salary']} of
+{c['live']} rows carry one and the rest are blank rather than estimated.</p>
+</div>
+
+<h3 style="margin-top:40px">The removal ledger, {esc(date)}</h3>
+<p class="note">{c['removed_this_pass']} listings. These URLs are printed as text, not as
+links, because they no longer work. That is the point of printing them.</p>
+<ul class="rows">
+{''.join(dead_rows)}
+</ul>
+</section>
+</div>"""
+            + footer(rel, d, r))
+    write(out / "jobs-board" / "verification.html", page)
+    n_pages += 1
+
+    # ------------------------------------------------------------------ family pages
+    for b in fams:
+        mine = [j for j in jobs if j["family"] == b["slug"]]
+        cos = sorted({j["company"] for j in mine})
+        sal = [j["salary"] for j in mine if j["salary"]]
+        page = (head(f"{b['label']} jobs: {b['count']} reqs verified live on {date}",
+                     f"{b['count']} {b['label']} reqs at {len(cos)} companies, each one "
+                     f"fetched live on {date}. Part of The GTM Engineer job board.", rel,
+                     extra=f'<script src="{rel}assets/board.js" defer></script>\n',
+                     ld=[crumb_ld(rel, [("Directory", "index.html"),
+                                        ("The job board", "jobs-board/index.html"),
+                                        (b["label"], f"jobs-board/family-{b['slug']}.html")]),
+                         itemlist_ld(f"{b['label']} jobs",
+                                     f"{b['count']} reqs verified live on {date}.",
+                                     f"jobs-board/family-{b['slug']}.html",
+                                     [(f"{j['title']}, {j['company']}",
+                                       f"jobs-board/family-{b['slug']}.html") for j in mine])],
+                     canon=f"jobs-board/family-{b['slug']}.html")
+                + masthead(rel, "jobs-board")
+                + f"""<div class="wrap wide">
+<div class="crumbs" style="padding-bottom:0"><a href="{rel}index.html">Directory</a> /
+<a href="index.html">The job board</a> / {esc(b['label'])}</div>
+<section style="padding-top:18px">
+<div class="eyebrow">Title family: {esc(b['slug'])}</div>
+<h2>{esc(b['label'])}</h2>
+<p class="sub">{b['count']} reqs at {len(cos)} companies, every one of them fetched live on
+{esc(date)}. This is a filing decision made by matching the employer's own job title, not a
+judgement about what the work is. The full board carries {c['live']} reqs across
+{c['families']} families.</p>
+<div class="stats" style="margin-top:26px">
+<div class="stat is-teal"><div class="n">{b['count']}</div><div class="k">live reqs</div></div>
+<div class="stat"><div class="n">{len(cos)}</div><div class="k">companies</div></div>
+<div class="stat is-gold"><div class="n">{len(sal)}</div><div class="k">publish a salary</div></div>
+</div>
+<div class="boardbar">
+<input id="jq" type="search" placeholder="Filter these reqs" aria-label="Filter listings">
+<button class="btn ghost" id="jclear" type="button">Clear</button>
+</div>
+<div id="jcount">{b['count']} of {b['count']} shown</div>
+<div class="jempty" id="jempty" style="display:none">Nothing in this family matches that.</div>
+{board_rows(mine)}
+<div class="btnrow">
+<a class="btn" href="index.html">The whole board</a>
+<a class="btn ghost" href="verification.html">How this was verified</a>
+</div>
+</section>
+</div>"""
+                + footer(rel, d, r))
+        write(out / "jobs-board" / f"family-{b['slug']}.html", page)
+        n_pages += 1
+
+    return n_pages
+
+
 def slug_for_catnum(d, num_):
     for x in d["categories"]:
         if x["num"] == num_:
@@ -2238,7 +2633,7 @@ class of quiet lie the two tier honesty law exists to prevent. Vocabulary source
 subdomain, from a path on andrewcmcguire.com, or from a file:// path with no network at all. The
 canonical tags, the sitemap and llms.txt need an absolute base, and that base is
 {esc(SITE_BASE)}. That is where the site is headed, not where it is serving from today: this build
-is live on its Cloudflare Pages subdomain and the path on andrewcmcguire.com is not routed yet. When
+is live at andrewcmcguire.com/gtm-directory, routed 2026-08-27, with the Pages subdomain as its origin. When
 that route lands, the one constant changes and the site is rebuilt. It is disclosed here rather than
 left to look like a live URL.</p>
 </div></div>
@@ -5847,7 +6242,7 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 <div><div class="bk">Content sha256</div><div class="bv">{esc(d['content_sha256'][:24])}...</div></div>
 </div>
 <p class="note">The canonical base URL used by the sitemap, the canonical tags and llms.txt is
-{esc(SITE_BASE)}, which is the site's intended home and not yet routed. See the
+{esc(SITE_BASE)}, live at that address since 2026-08-27. See the
 <a href="methodology.html">methodology page</a>.</p>
 </div></div>
 
@@ -5861,7 +6256,7 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 # llms.txt, sitemap.xml, robots.txt
 # ----------------------------------------------------------------------------------
 
-def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages):
+def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None):
     c = d["counts"]
     cov = r["coverage"]
     b = SITE_BASE.rstrip("/")
@@ -5895,6 +6290,23 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages):
       f"`{b}/learn/what-is-an-mcp-server.md`.")
     A(f"- [sitemap.xml]({b}/sitemap.xml): all {n_pages} pages.")
     A("")
+    if board:
+        bc = board["counts"]
+        A("## The GTM Engineer job board")
+        A("")
+        A(f"- [{b}/jobs-board/index.html]({b}/jobs-board/index.html): {bc['live']} open reqs at "
+          f"{bc['companies']} companies. Every one of them was fetched at its own apply link on "
+          f"{board['verified_on']} and answered. A listing that fails is removed, not greyed out.")
+        A(f"- [{b}/jobs-board/verification.html]({b}/jobs-board/verification.html): the method, and "
+          f"the full ledger of the {bc['removed_this_pass']} listings the same pass removed, each "
+          f"with the reason.")
+        A(f"- [{b}/data/jobs_board.json]({b}/data/jobs_board.json): the board as JSON, including "
+          f"the removal ledger.")
+        A(f"- If you are quoting this board, quote the date with it. {bc['live']} of "
+          f"{bc['checked']} tracked reqs were live on {board['verified_on']}; the number changes "
+          f"every week and a count without its date is not a fact.")
+        A("- No job description is republished here. The employer's page is the only copy.")
+        A("")
     A("## The vocabulary, so an answer quoted from here is not wrong")
     A("")
     A("- **Official MCP** means the vendor ships and maintains the server itself. A wrapper built "
@@ -6292,6 +6704,7 @@ def main():
 
     d, r = load()
     reconcile(d, r)
+    board = load_board()
 
     for name in GENERATED_DIRS:
         p = out / name
@@ -6313,6 +6726,7 @@ def main():
     write(out / "assets" / "site.css", CSS)
     write(out / "assets" / "theme.js", THEME_JS)
     write(out / "assets" / "search.js", SEARCH_JS)
+    write(out / "assets" / "board.js", BOARD_JS)
     write(out / "_headers", HEADERS)
     n_index = build_search_index(d, out)
 
@@ -6324,6 +6738,7 @@ def main():
     build_bucket_view(d, r, entries, byid, out, "mcp")
     build_bucket_view(d, r, entries, byid, out, "gates")
     n_jobs, jobs_live = build_jobs(d, r, entries, byid, out)
+    n_board = build_jobs_board(d, r, board, out)
     build_github(d, r, entries, byid, out)
     build_methodology(d, r, entries, byid, out)
     build_submit(d, r, out)
@@ -6335,12 +6750,12 @@ def main():
     n_cat = 1 + len(d["categories"])
     n_mcp = 1 + sum(1 for b in MCP_ORDER if d["counts"]["mcp_status"].get(b))
     n_gate = 1 + sum(1 for b in GATE_ORDER if d["counts"]["api_gate"].get(b))
-    total = (1 + len(canon) + 1 + n_cat + n_mcp + n_gate + n_jobs + n_lists + n_learn
-             + 1 + 1 + 1 + 1 + 1)
+    total = (1 + len(canon) + 1 + n_cat + n_mcp + n_gate + n_jobs + n_board + n_lists
+             + n_learn + 1 + 1 + 1 + 1 + 1)
 
     # machine surfaces last: they describe the finished tree.
     n_sitemap = build_sitemap(d, out)
-    build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total)
+    build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board)
     n_md = build_markdown_twins(out)
 
     print(f"index               1")
@@ -6350,6 +6765,8 @@ def main():
     print(f"mcp status pages    {n_mcp}   (index + buckets)")
     print(f"gate pages          {n_gate}   (index + buckets)")
     print(f"job pages           {n_jobs}   ({'live' if jobs_live else 'stub, tagging not landed'})")
+    print(f"job board pages     {n_board}   "
+          f"({'board + verification + families' if n_board else 'no jobs_board.json, skipped'})")
     print(f"pseo list pages     {n_lists}  (index + {n_lists - 1} cuts)")
     print(f"learn pages         {n_learn}  (index + {n_learn - 1} questions)")
     print(f"github view         1")

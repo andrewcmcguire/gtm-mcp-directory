@@ -1,6 +1,6 @@
 # Mediafly (Intelligence360, formerly InsightSquared): MCP server status, API access gate and what it does
 
-> Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January... No MCP found, Gate unknown. Checked 2026-08-24.
+> Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Mediafly (Intelligence360, formerly InsightSquared)
 # Mediafly (Intelligence360, formerly InsightSquared)
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ none
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown/enterprise-leaning. No developer/API documentation was found; pricing is fully sales-gated ("schedule a revenue assessment"), no self-serve signup or published tiers. One third-party aggregator (Vendr) cites a $30/user/month "Essential" starting price, unconfirmed on Mediafly's own site.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (/pricing resolves to a contact-sales page with no tiers or prices, and no pricing or developer link appears anywhere in site nav or footer)
 
 **API documentation**
 
@@ -89,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.mediafly.com/press-releases/mediafly-finalizes-acquisition-of-insightsquared-offers-b2b-teams-the-most-complete-revenue-enablement-and-intelligence-platform-in-the-market/](https://www.mediafly.com/press-releases/mediafly-finalizes-acquisition-of-insightsquared-offers-b2b-teams-the-most-complete-revenue-enablement-and-intelligence-platform-in-the-market/)
 - [https://www.cuspera.com/products/mediafly-intelligence360-formerly-insightsquared-x-2680](https://www.cuspera.com/products/mediafly-intelligence360-formerly-insightsquared-x-2680)
 - [https://www.vendr.com/marketplace/mediafly-inc](https://www.vendr.com/marketplace/mediafly-inc)
+- [https://www.mediafly.com/pricing/](https://www.mediafly.com/pricing/)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.mediafly.com, https://www.mediafly.com/ai/, https://www.mediafly.com/press-releases/mediafly-finalizes-acquisition-of-insightsquared-offers-b2b-teams-the-most-complete-revenue-enablement-and-intelligence-platform-in-the-market/, https://www.cuspera.com/products/mediafly-intelligence360-formerly-insightsquared-x-2680, https://www.vendr.com/marketplace/mediafly-inc
+https://www.mediafly.com, https://www.mediafly.com/ai/, https://www.mediafly.com/press-releases/mediafly-finalizes-acquisition-of-insightsquared-offers-b2b-teams-the-most-complete-revenue-enablement-and-intelligence-platform-in-the-market/, https://www.cuspera.com/products/mediafly-intelligence360-formerly-insightsquared-x-2680, https://www.vendr.com/marketplace/mediafly-inc, https://www.mediafly.com/pricing/
 
 **Notes, verbatim from the file**
-The InsightSquared brand name is no longer used anywhere on the current site - do not cite "InsightSquared" as a live, independently-branded product; it is now Mediafly Intelligence360.
+The InsightSquared brand name is no longer used anywhere on the current site - do not cite "InsightSquared" as a live, independently-branded product; it is now Mediafly Intelligence360. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.mediafly.com/pricing/): /pricing resolves to a contact-sales page with no tiers or prices, and no pricing or developer link appears anywhere in site nav or footer.
 
 **Provenance**
 

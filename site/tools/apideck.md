@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [apideck.com](https://apideck.com) · entry id 07-apideck · source 07-mcp-infrastructure.md line 259
+Vendor: [apideck.com](https://apideck.com) · entry id 07-apideck · source 07-mcp-infrastructure.md line 262
 
 **What it does**
 A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file storage and issue tracking.
@@ -106,7 +106,7 @@ Added 2026-08-25 in the coverage sweep. CAVEAT ON THE ENDPOINT: two different ho
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 259
+- **Source line**: 262
 
 - **Tier**: RESEARCHED
 

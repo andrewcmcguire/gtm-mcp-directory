@@ -53,9 +53,9 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Unify](../tools/unify.md) unifygtm.com A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and run multi-channel sequences triggered by intent signals... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Keyplay](../tools/keyplay.md) keyplay.io Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model using 750+ pre-built "signals" (hiring velocity, tech stack,... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Keyplay](../tools/keyplay.md) keyplay.io Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model using 750+ pre-built "signals" (hiring velocity, tech stack,... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 ### Next to this job
 

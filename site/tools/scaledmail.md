@@ -1,6 +1,6 @@
 # Scaledmail: MCP server status, API access gate and what it does
 
-> Cold-email infrastructure provider  - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC)... No MCP found, Gate unknown. Checked 2026-08-24.
+> Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC)... No MCP found, Free to start. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Scaledmail
 # Scaledmail
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Free to start](../gates/free.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Free to start
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, without talking to anyone
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+free (public API docs with the key self-served from account settings and signup is a free account with no credit card; no plan gate on the API is stated, though paid usage starts at $3.50/mailbox/mo)
 
 **API documentation**
 
@@ -85,13 +83,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.scaledmail.com/](https://www.scaledmail.com/)
 - [https://www.scaledmail.com/blogs/effortless-email-outreach-with-scaledmail](https://www.scaledmail.com/blogs/effortless-email-outreach-with-scaledmail)
 - [https://www.infraforge.ai/blog/best-email-apis-for-cold-outreach](https://www.infraforge.ai/blog/best-email-apis-for-cold-outreach)
+- [https://api.scaledmail.com/](https://api.scaledmail.com/)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.scaledmail.com/, https://www.scaledmail.com/blogs/effortless-email-outreach-with-scaledmail, https://www.infraforge.ai/blog/best-email-apis-for-cold-outreach
+https://www.scaledmail.com/, https://www.scaledmail.com/blogs/effortless-email-outreach-with-scaledmail, https://www.infraforge.ai/blog/best-email-apis-for-cold-outreach, https://api.scaledmail.com/
 
 **Notes, verbatim from the file**
-Pricing starts at $99/mo per one sourced comparison. No API, developer portal, or MCP server was found for Scaledmail in any of the standard registries checked (GitHub, mcp.so, glama.ai, pulsemcp.com).
+Pricing starts at $99/mo per one sourced comparison. No API, developer portal, or MCP server was found for Scaledmail in any of the standard registries checked (GitHub, mcp.so, glama.ai, pulsemcp.com). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://api.scaledmail.com/): public API docs with the key self-served from account settings and signup is a free account with no credit card; no plan gate on the API is stated, though paid usage starts at $3.50/mailbox/mo.
 
 **Provenance**
 

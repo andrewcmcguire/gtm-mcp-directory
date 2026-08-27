@@ -1,6 +1,6 @@
 # Fellow: MCP server status, API access gate and what it does
 
-> A meeting assistant that records, transcribes and summarises calls, then turns them into action items and... Official MCP, Gate unknown. Checked 2026-08-25.
+> A meeting assistant that records, transcribes and summarises calls, then turns them into action items and... Official MCP, Paid, self-serve. Checked 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Fellow
 # Fellow
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-25
@@ -53,15 +53,13 @@ https://fellow.app/mcp (docs: https://developers.fellow.ai/reference/mcp-server)
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (API access is listed on Team at $7/user/mo annual and every tier above; the Free plan does not include it)
 
 **API documentation**
 
@@ -89,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://developers.fellow.ai/reference/mcp-server](https://developers.fellow.ai/reference/mcp-server)
 - [https://help.fellow.ai/en/articles/12622641-fellow-s-mcp-server](https://help.fellow.ai/en/articles/12622641-fellow-s-mcp-server)
 - [https://fellow.ai/blog/fellow-mcp-server/](https://fellow.ai/blog/fellow-mcp-server/)
+- [https://fellow.ai/pricing](https://fellow.ai/pricing)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://developers.fellow.ai/reference/mcp-server, https://help.fellow.ai/en/articles/12622641-fellow-s-mcp-server, https://fellow.ai/blog/fellow-mcp-server/
+https://developers.fellow.ai/reference/mcp-server, https://help.fellow.ai/en/articles/12622641-fellow-s-mcp-server, https://fellow.ai/blog/fellow-mcp-server/, https://fellow.ai/pricing
 
 **Notes, verbatim from the file**
-Added 2026-08-25 in the coverage sweep. ADMIN-GATED, which is a distinct gate from the usual pricing gate and worth naming: a workspace admin must enable "Allow users to create MCP connections" under Settings, Security before any individual user can connect at all. Access then inherits the connecting user's existing Fellow permissions. The vendor does not state which pricing plan is required, so api_gate is recorded as unknown rather than guessed.
+Added 2026-08-25 in the coverage sweep. ADMIN-GATED, which is a distinct gate from the usual pricing gate and worth naming: a workspace admin must enable "Allow users to create MCP connections" under Settings, Security before any individual user can connect at all. Access then inherits the connecting user's existing Fellow permissions. The vendor does not state which pricing plan is required, so api_gate is recorded as unknown rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://fellow.ai/pricing): API access is listed on Team at $7/user/mo annual and every tier above; the Free plan does not include it.
 
 **Provenance**
 

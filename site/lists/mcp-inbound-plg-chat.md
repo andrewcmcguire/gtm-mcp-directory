@@ -24,7 +24,7 @@ intercom.com | [Official MCP](../mcp/official.md) | [https://mcp.intercom.com/mc
 OAuth (browser-based, recommended) or a Bearer token using an Intercom API token;... | [Paid, self-serve](../gates/paid.md) |
 | [Ada](../tools/ada.md)
 ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
-none documented - connects over HTTP with no credential requirement described in the... | [Gate unknown](../gates/unknown.md) |
+none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Official MCP](../mcp/official.md) | [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server) +1 more | OAuth or an API key
 OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex... | [Gate unknown](../gates/unknown.md) |

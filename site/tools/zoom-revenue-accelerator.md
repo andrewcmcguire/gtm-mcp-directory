@@ -61,7 +61,7 @@ api_gate, verbatim from the file:
 
 unknown/enterprise-leaning. Zoom Revenue Accelerator ships as an add-on to Zoom's paid meeting plans; explicit self-serve pricing for a single-seat/solo API user was not found in this research.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -95,13 +95,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://github.com/zoom/zoom-plugin/blob/main/CONNECTORS.md](https://github.com/zoom/zoom-plugin/blob/main/CONNECTORS.md)
 - [https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0082725](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0082725)
 - [https://developers.zoom.us/docs/api/rest/reference/iq/methods/](https://developers.zoom.us/docs/api/rest/reference/iq/methods/)
+- [https://developers.zoom.us/docs/api/iq/](https://developers.zoom.us/docs/api/iq/)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/, https://github.com/zoom/zoom-plugin/blob/main/CONNECTORS.md, https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0082725, https://developers.zoom.us/docs/api/rest/reference/iq/methods/
+https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/, https://github.com/zoom/zoom-plugin/blob/main/CONNECTORS.md, https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0082725, https://developers.zoom.us/docs/api/rest/reference/iq/methods/, https://developers.zoom.us/docs/api/iq/
 
 **Notes, verbatim from the file**
-None.
+None. [api_gate 2026-08-25] Re-checked and left unknown, honestly: Zoom's own API docs state the caller must be a Revenue Accelerator-licensed user on a paid account, so a licence condition IS documented; but every Revenue Accelerator product and pricing path 404'd, so whether a solo operator can buy that licence self-serve is unconfirmed and the gate stays unknown rather than being guessed at. Checked against https://developers.zoom.us/docs/api/iq/.
 
 **Provenance**
 

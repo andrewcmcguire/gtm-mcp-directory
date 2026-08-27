@@ -1,6 +1,6 @@
 # Spekit: MCP server status, API access gate and what it does
 
-> In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content,... No MCP found, Gate unknown. Checked 2026-08-24.
+> In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content,... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Spekit
 # Spekit
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - third-party tier breakdowns (GetApp, Apty) place API access at the Enterprise tier only; Starter/Professional tiers were not confirmed to include it, and pricing overall is negotiated per-account with no public numbers.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (pricing is fully customisable by quote with no numbers published, and the integrations page names a Spekit MCP server with no self-serve path; no API docs exist at /api, docs. or developer. and help. returns 403)
 
 **API documentation**
 
@@ -86,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.vendr.com/marketplace/spekit](https://www.vendr.com/marketplace/spekit)
 - [https://apty.ai/blog/spekit-pricing/](https://apty.ai/blog/spekit-pricing/)
 - [https://www.g2.com/products/spekit/pricing](https://www.g2.com/products/spekit/pricing)
+- [https://www.spekit.com/pricing](https://www.spekit.com/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.getapp.com/sales-software/a/spekit/, https://www.vendr.com/marketplace/spekit, https://apty.ai/blog/spekit-pricing/, https://www.g2.com/products/spekit/pricing
+https://www.getapp.com/sales-software/a/spekit/, https://www.vendr.com/marketplace/spekit, https://apty.ai/blog/spekit-pricing/, https://www.g2.com/products/spekit/pricing, https://www.spekit.com/pricing
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. getguru.com's "What Is Spekit MCP?" page is speculative explainer content, not evidence of a real integration.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. getguru.com's "What Is Spekit MCP?" page is speculative explainer content, not evidence of a real integration. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.spekit.com/pricing): pricing is fully customisable by quote with no numbers published, and the integrations page names a Spekit MCP server with no self-serve path; no API docs exist at /api, docs. or developer. and help. returns 403.
 
 **Provenance**
 

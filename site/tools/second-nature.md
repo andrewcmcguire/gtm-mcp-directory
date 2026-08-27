@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - no public self-serve pricing; sold via custom quote/demo. Third-party pricing trackers estimate deals starting around $20K/year with per-seat costs roughly $30-40/month, but these are unofficial estimates, not vendor-confirmed figures.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -87,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://secondnature.ai/ai-driven-sales-ai-role-play-in-sales-training-and-coaching/](https://secondnature.ai/ai-driven-sales-ai-role-play-in-sales-training-and-coaching/)
 - [https://deelan.ai/resources/second-nature-pricing-2026](https://deelan.ai/resources/second-nature-pricing-2026)
 - [https://www.alpharun.com/blog/second-nature-ai-pricing](https://www.alpharun.com/blog/second-nature-ai-pricing)
+- [https://www.secondnature.ai/](https://www.secondnature.ai/)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://secondnature.ai/product/, https://secondnature.ai/ai-driven-sales-ai-role-play-in-sales-training-and-coaching/, https://deelan.ai/resources/second-nature-pricing-2026, https://www.alpharun.com/blog/second-nature-ai-pricing
+https://secondnature.ai/product/, https://secondnature.ai/ai-driven-sales-ai-role-play-in-sales-training-and-coaching/, https://deelan.ai/resources/second-nature-pricing-2026, https://www.alpharun.com/blog/second-nature-ai-pricing, https://www.secondnature.ai/
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Pricing figures in sources are third-party estimates (deelan.ai, alpharun.com), not vendor-published numbers.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Pricing figures in sources are third-party estimates (deelan.ai, alpharun.com), not vendor-published numbers. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the site publishes no pricing page at all (/pricing 404s, no pricing link in nav or footer) and no API, developer or docs link exists; the FAQ mentions system integrations generically but states no access condition, so the site does not say enough to classify. Checked against https://www.secondnature.ai/.
 
 **Provenance**
 

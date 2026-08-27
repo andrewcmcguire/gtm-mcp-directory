@@ -63,7 +63,7 @@ intercom.com | [Official MCP](../mcp/official.md) | [https://mcp.intercom.com/mc
 | [lemlist](../tools/lemlist.md)
 lemlist.com | [Official MCP](../mcp/official.md) | [https://developer.lemlist.com/mcp/setup](https://developer.lemlist.com/mcp/setup) +1 more | OAuth (browser-based PKCE flow, recommended) or API key via X-API-Key header | [Paid, self-serve](../gates/paid.md) |
 | [Make](../tools/make.md)
-make.com | [Official MCP](../mcp/official.md) | [https://developers.make.com/mcp-server](https://developers.make.com/mcp-server) | Two supported methods - OAuth via Make's cloud (endpoint mcp.make.com) or an MCP Token generated from the user's Make profile, sent as a Bearer... | [Paid, self-serve](../gates/paid.md) |
+make.com | [Official MCP](../mcp/official.md) | [https://developers.make.com/mcp-server](https://developers.make.com/mcp-server) | Two supported methods - OAuth via Make's cloud (endpoint mcp.make.com) or an MCP Token generated from the user's Make profile, sent as a Bearer token... | [Paid, self-serve](../gates/paid.md) |
 | [Metorial](../tools/metorial.md)
 metorial.com | [Official MCP](../mcp/official.md) | [https://metorial.com](https://metorial.com) | Fully custodial - Metorial stores and centrally manages OAuth tokens for every connected integration ("no tokens to manage" for the end user), with... | [Paid, self-serve](../gates/paid.md) |
 | [Octave](../tools/octave.md)
@@ -78,6 +78,10 @@ waalaxy.com | [Official MCP](../mcp/official.md) | [https://docs.waalaxy.com/mcp
 wiza.co | [Official MCP](../mcp/official.md) | [https://mcp.wiza.co/mcp](https://mcp.wiza.co/mcp) +2 more | OAuth 2.1 with PKCE for clients that support it, otherwise a static bearer token in the Authorization header using a Wiza API key. Streamable HTTP... | [Paid, self-serve](../gates/paid.md) |
 | [Woodpecker](../tools/woodpecker.md)
 woodpecker.co | [Official MCP](../mcp/official.md) | [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/) +1 more | hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker API key | [Paid, self-serve](../gates/paid.md) |
+| [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
+anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | unknown - described only as a "governed MCP connection" with permission/audit controls; the specific credential mechanism (API key vs. OAuth) is not... | [Enterprise only](../gates/enterprise-only.md) |
+| [Default](../tools/default.md)
+default.com | [Official MCP](../mcp/official.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade data access, but unconfirmed) | [Enterprise only](../gates/enterprise-only.md) |
 | [Seamless.AI](../tools/seamless-ai.md)
 seamless.ai | [Official MCP](../mcp/official.md) | [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs) +1 more | OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - i.e. gated per-account, contact admin/support to turn on | [Enterprise only](../gates/enterprise-only.md) |
 | [Seismic](../tools/seismic.md)
@@ -88,10 +92,6 @@ similarweb.com | [Official MCP](../mcp/official.md) | [https://mcp.similarweb.co
 syncari.com | [Official MCP](../mcp/official.md) | [https://syncari.com/mcp-server/](https://syncari.com/mcp-server/) | unknown - the MCP server page describes real-time, entity/field-level access control and audit logging but does not state whether connection auth is... | [Enterprise only](../gates/enterprise-only.md) |
 | [UserGems](../tools/usergems.md)
 usergems.com | [Official MCP](../mcp/official.md) | [https://www.usergems.com/product/mcp](https://www.usergems.com/product/mcp) | unknown - connects inside Claude/ChatGPT per the product page, but the exact auth mechanism (OAuth vs. API key) isn't disclosed publicly. | [Enterprise only](../gates/enterprise-only.md) |
-| [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
-anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | unknown - described only as a "governed MCP connection" with permission/audit controls; the specific credential mechanism (API key vs. OAuth) is not... | [Gate unknown](../gates/unknown.md) |
-| [Default](../tools/default.md)
-default.com | [Official MCP](../mcp/official.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade data access, but unconfirmed) | [Gate unknown](../gates/unknown.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Official MCP](../mcp/official.md) | [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server) +1 more | OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex connectors; Bearer-token service-account API keys (issued at... | [Gate unknown](../gates/unknown.md) |
 | [Reclaim.ai](../tools/reclaim-ai.md)
@@ -105,6 +105,6 @@ uplead.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/uple
 | [BombBomb](../tools/bombbomb.md)
 bombbomb.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bombbombcom](https://zapier.com/mcp/bombbombcom) | Rides Zapier's own OAuth/API-key connection to BombBomb; not a native BombBomb MCP auth flow. | [Enterprise only](../gates/enterprise-only.md) |
 | [Jiminny](../tools/jiminny.md)
-jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp) +1 more | Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer. | [Gate unknown](../gates/unknown.md) |
+jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp) +1 more | Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer. | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

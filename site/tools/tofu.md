@@ -1,6 +1,6 @@
 # Tofu: MCP server status, API access gate and what it does
 
-> A campaign-automation platform ("Agentic GTM") that runs always-on, personalized... No MCP found, Gate unknown. Checked 2026-08-24.
+> A campaign-automation platform ("Agentic GTM") that runs always-on, personalized... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Tofu
 # Tofu
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -48,15 +48,13 @@ The mcp_url field is empty on this entry. 21 of 293 entries are.
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - no public pricing or API docs found on this pass
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing page exists, the only CTAs are book-a-demo and see-product-demo, and the platform page names native connectors but no developer API)
 
 **API documentation**
 
@@ -83,13 +81,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://www.tofuhq.com](https://www.tofuhq.com)
+- [https://www.tofuhq.com/platform](https://www.tofuhq.com/platform)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://www.tofuhq.com
+https://www.tofuhq.com, https://www.tofuhq.com/platform
 
 **Notes, verbatim from the file**
-Caution: the bare domain tofu.ai is a parked/for-sale domain, not the vendor - the real site is tofuhq.com. Fits this category loosely; it reads closer to a content/campaign engine than an autonomous SDR agent, which is itself a useful data point about label inflation in this space.
+Caution: the bare domain tofu.ai is a parked/for-sale domain, not the vendor - the real site is tofuhq.com. Fits this category loosely; it reads closer to a content/campaign engine than an autonomous SDR agent, which is itself a useful data point about label inflation in this space. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.tofuhq.com/platform): no pricing page exists, the only CTAs are book-a-demo and see-product-demo, and the platform page names native connectors but no developer API.
 
 **Provenance**
 

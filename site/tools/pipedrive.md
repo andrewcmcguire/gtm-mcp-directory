@@ -98,7 +98,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **Canonical page**: [Pipedrive](../tools/pipedrive.md)
 
-What that listing says it does: Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for Pipedrive's full CRM entry (general MCP server, OAuth, free-on-all-plans MCP access) - this entry covers...
+What that listing says it does: Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for Pipedrive's full CRM entry (general MCP server, OAuth, free-on-all-plans MCP access) - this entry covers only...
 
 16 of the 293 entries are cross listed like this. They are why the entry count is 293 and the unique product count is 277. The canonical home is declared in INDEX.md, not chosen by the parser.
 
@@ -106,7 +106,7 @@ What that listing says it does: Pipedrive's built-in AI-driven forecasting layer
 
 - [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.pipedrive.com/en/features/mcp-server
 

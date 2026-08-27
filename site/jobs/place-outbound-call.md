@@ -60,33 +60,33 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md) apollo.io Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/task) cadences that enroll contacts pulled from Apollo's prospecting database and track send/reply state. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Klenty](../tools/klenty.md) klenty.com Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS Dynamics). [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Regie.ai](../tools/regie-ai.md) regie.ai An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and runs multi-channel (email, LinkedIn, phone) sequences with automated follow-up. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
-- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [Luru](../tools/luru.md) luru.app An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
-
-- [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

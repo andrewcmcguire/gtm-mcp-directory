@@ -56,7 +56,7 @@ api_gate, verbatim from the file:
 
 unknown - built for "the Global 2000," no self-serve signup found; strongly enterprise-oriented positioning
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -83,13 +83,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://www.rox.com](https://www.rox.com)
+- [https://www.rox.com/pricing](https://www.rox.com/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://www.rox.com
+https://www.rox.com, https://www.rox.com/pricing
 
 **Notes, verbatim from the file**
-Rox has built something called "Rox Tether," described on their site (dated July 29, 2026) as an "Agentic UI alternative to MCP Apps, A2UI or ChatGPT Apps" - i.e., Rox is positioning against MCP-style integration patterns rather than shipping an MCP server. Worth a dedicated look for category 7 (mcp-infrastructure) as a competitor/alternative protocol, not as an MCP itself.
+Rox has built something called "Rox Tether," described on their site (dated July 29, 2026) as an "Agentic UI alternative to MCP Apps, A2UI or ChatGPT Apps" - i.e., Rox is positioning against MCP-style integration patterns rather than shipping an MCP server. Worth a dedicated look for category 7 (mcp-infrastructure) as a competitor/alternative protocol, not as an MCP itself. [api_gate 2026-08-25] Re-checked and left unknown, honestly: self-serve tiers are published at $100/mo Individual and $255/mo Teams plus a quote-only Enterprise, but neither the pricing page nor docs.rox.com (release notes only) states anything about API access. Checked against https://www.rox.com/pricing.
 
 **Provenance**
 

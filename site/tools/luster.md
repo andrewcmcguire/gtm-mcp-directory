@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - no pricing or tier information published at all; site routes all interest to "Get Started"/"Get in Touch" contact forms.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.luster.ai/ai-coaching, https://www.luster.ai/proactive-practive-and-roleplay, https://www.exec.com/learn/luster-ai-vs-fullyramped
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. No public pricing at all - the least commercially transparent tool in this file's roleplay cluster.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. No public pricing at all - the least commercially transparent tool in this file's roleplay cluster. [api_gate 2026-08-25] Re-checked and left unknown, honestly: no pricing page exists (/pricing 404s on both www and apex) and the homepage nav and footer contain no pricing, API, developer or docs link - only Get in Touch and Contact Us - with no statement anywhere about API access. Checked against https://www.luster.ai/.
 
 **Provenance**
 

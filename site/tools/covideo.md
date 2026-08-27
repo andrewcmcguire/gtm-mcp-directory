@@ -1,6 +1,6 @@
 # Covideo: MCP server status, API access gate and what it does
 
-> Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and... MCP unknown, Gate unknown. Checked 2026-08-24.
+> Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and... MCP unknown, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Covideo
 # Covideo
 
 [MCP unknown](../mcp/unknown.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - the developer portal is login-gated and no public pricing/access tier for API use was found.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (Covideo publishes no pricing at all - /pricing is a get-a-quote form and every plan requires sales - and /api returns No Access while the integrations page never mentions an API)
 
 **API documentation**
 
@@ -87,14 +85,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.covideo.com/sales-enablement-tools/](https://www.covideo.com/sales-enablement-tools/)
 - [https://developer.covideo.com/](https://developer.covideo.com/)
 - [https://support.covideo.com/en/collections/2472505-integrations](https://support.covideo.com/en/collections/2472505-integrations)
+- [https://www.covideo.com/pricing/](https://www.covideo.com/pricing/)
 - 401 on fetch - portal exists but gated
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.covideo.com/, https://www.covideo.com/sales-enablement-tools/, https://developer.covideo.com/ (401 on fetch - portal exists but gated), https://support.covideo.com/en/collections/2472505-integrations
+https://www.covideo.com/, https://www.covideo.com/sales-enablement-tools/, https://developer.covideo.com/ (401 on fetch - portal exists but gated), https://support.covideo.com/en/collections/2472505-integrations, https://www.covideo.com/pricing/
 
 **Notes, verbatim from the file**
-Confirmed actively operating in 2026 (current-year copyright, live dealership testimonials, active support). Long-running vendor (20+ years in business, per vendor claim).
+Confirmed actively operating in 2026 (current-year copyright, live dealership testimonials, active support). Long-running vendor (20+ years in business, per vendor claim). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.covideo.com/pricing/): Covideo publishes no pricing at all - /pricing is a get-a-quote form and every plan requires sales - and /api returns No Access while the integrations page never mentions an API.
 
 **Provenance**
 

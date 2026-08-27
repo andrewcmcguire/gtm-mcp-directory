@@ -34,15 +34,24 @@ API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization �
 | [Circleback](../tools/circleback.md)
 circleback.ai | [Official MCP](../mcp/official.md) | [https://circleback.ai/api/mcp](https://circleback.ai/api/mcp) +2 more | OAuth
 OAuth with dynamic client registration, compliant with the authenticated remote MCP spec.... | [Paid, self-serve](../gates/paid.md) |
+| [Fellow](../tools/fellow.md)
+fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth
+OAuth, with OAuth 2.0 dynamic discovery supported. | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
 grain.com | [Official MCP](../mcp/official.md) | [https://developers.grain.com/mcp](https://developers.grain.com/mcp) +1 more | OAuth
 OAuth via the native Claude integration, or manual server-URL setup for other MCP... | [Paid, self-serve](../gates/paid.md) |
+| [Granola](../tools/granola.md)
+granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth
+OAuth - no manual API key required. | [Paid, self-serve](../gates/paid.md) |
 | [tl;dv](../tools/tl-dv.md)
 tldv.io | [Official MCP](../mcp/official.md) | [https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server) +1 more | API key
 API key generated at Settings → Personal Settings → API keys. | [Paid, self-serve](../gates/paid.md) |
 | [Clari](../tools/clari.md)
 clari.com | [Official MCP](../mcp/official.md) | [https://www.clari.com/press/clari-salesloft-forecast...](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) | Auth not recorded
 unknown / not disclosed publicly | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Sybill](../tools/sybill.md)
+sybill.ai | [Official MCP](../mcp/official.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | OAuth
+Browser-based sign-in / OAuth on first connection from an MCP client such as Claude... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Gong](../tools/gong.md)
 gong.io | [Official MCP](../mcp/official.md) | [https://help.gong.io/docs/about-gong-mcp](https://help.gong.io/docs/about-gong-mcp) +2 more | Auth not recorded
 Official MCP client+server ships as part of Gong's enterprise agent stack (used to... | [Enterprise only](../gates/enterprise-only.md) |
@@ -55,15 +64,6 @@ unknown - exact auth mechanism not confirmed in public sources; framed under "Ot
 | [Seismic](../tools/seismic.md)
 seismic.com | [Official MCP](../mcp/official.md) | [https://developer.seismic.com/seismicsoftware/docs/s...](https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server) | OAuth or an API key
 Streamable HTTP transport per Seismic's MCP documentation; the specific credential type... | [Enterprise only](../gates/enterprise-only.md) |
-| [Fellow](../tools/fellow.md)
-fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth
-OAuth, with OAuth 2.0 dynamic discovery supported. | [Gate unknown](../gates/unknown.md) |
-| [Granola](../tools/granola.md)
-granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth
-OAuth - no manual API key required. | [Gate unknown](../gates/unknown.md) |
-| [Sybill](../tools/sybill.md)
-sybill.ai | [Official MCP](../mcp/official.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | OAuth
-Browser-based sign-in / OAuth on first connection from an MCP client such as Claude... | [Gate unknown](../gates/unknown.md) |
 | [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md)
 zoom.com | [Official MCP](../mcp/official.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |
@@ -75,7 +75,7 @@ clari.com | [Community MCP](../mcp/community.md) | [https://www.scalekit.com/con
 Scalekit-hosted connector uses per-user delegated OAuth-style authorization in Scalekit's... | [Paid, self-serve](../gates/paid.md) |
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
-Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Gate unknown](../gates/unknown.md) |
+Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 
 ### The other 4 in this category
 
@@ -88,7 +88,7 @@ zoominfo.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates
 | [Momentum](../tools/momentum.md)
 momentum.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Rilla](../tools/rilla.md)
-rilla.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+rilla.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Salesroom](../tools/salesroom.md)
 salesroom.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 

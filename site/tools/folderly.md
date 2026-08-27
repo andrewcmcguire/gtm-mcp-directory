@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -87,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://folderly.com/email-deliverability-monitoring](https://folderly.com/email-deliverability-monitoring)
 - [https://folderly.com/products](https://folderly.com/products)
 - [https://maildoso.ai/blog/catalog/warmup/folderly](https://maildoso.ai/blog/catalog/warmup/folderly)
+- [https://folderly.com/pricing](https://folderly.com/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://folderly.com/, https://folderly.com/email-deliverability-monitoring, https://folderly.com/products, https://maildoso.ai/blog/catalog/warmup/folderly
+https://folderly.com/, https://folderly.com/email-deliverability-monitoring, https://folderly.com/products, https://maildoso.ai/blog/catalog/warmup/folderly, https://folderly.com/pricing
 
 **Notes, verbatim from the file**
-Search surfaced two unrelated inbox-placement MCP servers (github.com/live-direct-marketing/ldm-inbox-check-mcp and the "Unspam" MCP toolkit) that are NOT Folderly products - do not conflate. Folderly integrates via API/SMTP with major ESPs per its own site, but no self-serve pricing or developer-portal URL was found.
+Search surfaced two unrelated inbox-placement MCP servers (github.com/live-direct-marketing/ldm-inbox-check-mcp and the "Unspam" MCP toolkit) that are NOT Folderly products - do not conflate. Folderly integrates via API/SMTP with major ESPs per its own site, but no self-serve pricing or developer-portal URL was found. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published ($96/mo per mailbox, plus Inbox Insights free or $79/mo) and states nothing about a customer-facing API; the only API wording on the site is that Folderly integrates via API and SMTP with major email service providers, which describes Folderly consuming ESP APIs rather than offering one. folderly.com/api 404s and docs.folderly.com returned 522. Checked against https://folderly.com/pricing.
 
 **Provenance**
 

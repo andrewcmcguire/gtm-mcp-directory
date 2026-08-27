@@ -14,7 +14,7 @@
 
 **The short answer**
 
-22 of the 23 revops infra entries in this directory have an MCP server: 22 built and maintained by the vendor and 0 built by somebody else. 12 are free to start and 3 need a contract before anybody gets an API key.
+22 of the 23 revops infra entries in this directory have an MCP server: 22 built and maintained by the vendor and 0 built by somebody else. 12 are free to start and 4 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -60,12 +60,12 @@ A GTM context engine that stores a company's ICP, personas, positioning, competi
 A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
 - [Superblocks](../tools/superblocks.md) Official MCP · Paid, self-serve
 A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing...
+- [Default](../tools/default.md) Official MCP · Enterprise only
+An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) Official MCP · Enterprise only
 A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on...
 - [Syncari](../tools/syncari.md) Official MCP · Enterprise only
 An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to...
-- [Default](../tools/default.md) Official MCP · Gate unknown
-An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 
 ## The rest of the category
 
@@ -80,10 +80,9 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 |---|---|
 | [Free to start](../gates/free.md) | 12 |
 | [Paid, self-serve](../gates/paid.md) | 7 |
-| [Enterprise only](../gates/enterprise-only.md) | 3 |
-| [Gate unknown](../gates/unknown.md) | 1 |
+| [Enterprise only](../gates/enterprise-only.md) | 4 |
 
-Counted 2026-08-25. Source file 06-revops-infra.md, content sha256 5b4b22b49723abe5...
+Counted 2026-08-25. Source file 06-revops-infra.md, content sha256 3e4d8d4f1635263c...
 
 ## Sources
 

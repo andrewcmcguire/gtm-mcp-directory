@@ -1,6 +1,6 @@
 # Copy.ai (GTM AI Platform): MCP server status, API access gate and what it does
 
-> Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks ... Community MCP, Gate unknown. Checked 2026-08-24.
+> Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks... Community MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Copy.ai (GTM AI Platform)
 # Copy.ai (GTM AI Platform)
 
 [Community MCP](../mcp/community.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://github.com/anhuaxiang/copy-ai-mcp
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - 2,000+ integrations advertised; no public self-serve API pricing found on this pass
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (API Access and Bulk Workflow Runs appear only in the Enterprise custom-pricing tier; the self-serve $29/mo Chat plan and the $1,000 to $3,000/mo Growth, Expansion and Scale tiers do not list API access)
 
 **API documentation**
 
@@ -92,13 +90,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.copy.ai](https://www.copy.ai)
 - [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp)
+- [https://www.copy.ai/pricing](https://www.copy.ai/pricing)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.copy.ai, https://github.com/anhuaxiang/copy-ai-mcp
+https://www.copy.ai, https://github.com/anhuaxiang/copy-ai-mcp, https://www.copy.ai/pricing
 
 **Notes, verbatim from the file**
-The community MCP repo is very thin - 1 star, 3 commits, 0 forks/issues - treat as experimental, not production-ready. No official Copy.ai MCP found.
+The community MCP repo is very thin - 1 star, 3 commits, 0 forks/issues - treat as experimental, not production-ready. No official Copy.ai MCP found. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.copy.ai/pricing): API Access and Bulk Workflow Runs appear only in the Enterprise custom-pricing tier; the self-serve $29/mo Chat plan and the $1,000 to $3,000/mo Growth, Expansion and Scale tiers do not list API access.
 
 **Provenance**
 

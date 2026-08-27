@@ -60,7 +60,7 @@ api_gate, verbatim from the file:
 
 unknown (pricing page referenced but not disclosed in the fetched content)
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -85,13 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://glama.ai/mcp/servers](https://glama.ai/mcp/servers)
+- [https://glama.ai/api/mcp/openapi.json](https://glama.ai/api/mcp/openapi.json)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://glama.ai/mcp/servers
+https://glama.ai/mcp/servers, https://glama.ai/api/mcp/openapi.json
 
 **Notes, verbatim from the file**
-Glama's emphasis on local-first/self-hosted servers makes it a better fit for privacy-conscious infra teams than for someone looking for one-click hosted GTM connectors.
+Glama's emphasis on local-first/self-hosted servers makes it a better fit for privacy-conscious infra teams than for someone looking for one-click hosted GTM connectors. [api_gate 2026-08-25] Re-checked and left unknown, honestly: plans are cheap and self-serve (free for open-source MCP servers, then $9/mo Starter, $26/mo Pro, $80/mo Business) and a REST directory API exists whose OpenAPI spec requires bearerAuth on every endpoint, but no loadable Glama page states which plan issues that token; the API reference page is client-rendered and returns nothing to a plain fetch. Checked against https://glama.ai/api/mcp/openapi.json.
 
 **Provenance**
 

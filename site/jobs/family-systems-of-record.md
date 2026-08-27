@@ -73,39 +73,45 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Ortto](../tools/ortto.md) ortto.com A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
+- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
+
 - [Otter.ai](../tools/otter-ai.md) otter.ai AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor mentions, and pricing discussion live, then writes summaries and next steps back to the CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) salesforce.com A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on top for configuring autonomous AI agents that read... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Surfe](../tools/surfe.md) surfe.com A Chrome extension plus API that pulls contacts and companies off LinkedIn, runs them through a multi-vendor waterfall to find verified emails and mobile numbers, and pushes the records into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Syncari](../tools/syncari.md) syncari.com An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to both humans (dashboards/BI) and AI agents. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
-
-- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
-
-- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
 - [RevenueHero](../tools/revenuehero.md) revenuehero.io Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's calendar without a redirect. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
-
-- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [LeanData](../tools/leandata.md) leandata.com GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
-
-- [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md) pipedrive.com Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md) · Cross listed, canonical home is RevOps Infra
 
 - [HubSpot (AI Forecasting)](../tools/hubspot.md) hubspot.com HubSpot's forecasting tool inside Sales Hub/Service Hub, turning pipeline data into revenue predictions via weighted-pipeline calculations plus an "AI forecasting" layer shown in-product. See... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md) · Cross listed, canonical home is RevOps Infra
+
+- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
+- [Ebsta](../tools/ebsta.md) ebsta.com Revenue-intelligence add-on for Salesforce/HubSpot that syncs email and calendar activity into the CRM and layers on relationship scoring, conversation capture, and pipeline forecasting. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [Momentum](../tools/momentum.md) momentum.io Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration"). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
@@ -113,14 +119,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Salesforce Agentforce (SDR Agent)](../tools/salesforce-agentforce.md) salesforce.com A prebuilt agent within Salesforce's Agentforce platform intended to handle inbound lead engagement and outbound prospecting conversations natively inside Sales Cloud, escalating to a human rep once a prospect... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is RevOps Infra
 
-- [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Ebsta](../tools/ebsta.md) ebsta.com Revenue-intelligence add-on for Salesforce/HubSpot that syncs email and calendar activity into the CRM and layers on relationship scoring, conversation capture, and pipeline forecasting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Tofu](../tools/tofu.md) tofuhq.com A campaign-automation platform ("Agentic GTM") that runs always-on, personalized outbound/nurture/re-engagement campaigns inside an existing CRM and sales-engagement stack, rather than acting as a standalone... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Kronologic](../tools/kronologic.md) kronologic.com Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's behalf and negotiates meeting times over email, aimed mainly at customer-expansion motions (renewals,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
 - [Salesroom](../tools/salesroom.md) salesroom.com Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Tofu](../tools/tofu.md) tofuhq.com A campaign-automation platform ("Agentic GTM") that runs always-on, personalized outbound/nurture/re-engagement campaigns inside an existing CRM and sales-engagement stack, rather than acting as a standalone... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)

@@ -1,6 +1,6 @@
 # Rilla: MCP server status, API access gate and what it does
 
-> AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Rilla
 # Rilla
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown. Pricing is quote-only (third-party trackers cite $199-349/rep/month, $4,000+/user/year, annual contracts, roughly 5-seat minimums); no public developer docs, API terms, or MCP references were found.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing page exists, the only CTA is schedule-your-demo, and the site publishes no API or developer docs at all)
 
 **API documentation**
 
@@ -93,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.rilla.com/, https://sacra.com/c/rilla/, https://www.salesask.com/alternatives/rilla/rilla-pricing-guide-2026, https://www.merge.dev/case-studies/rilla
 
 **Notes, verbatim from the file**
-Included as the field-sales / in-person contrast case to the video-call-centric tools that dominate this category.
+Included as the field-sales / in-person contrast case to the video-call-centric tools that dominate this category. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.rilla.com/): no pricing page exists, the only CTA is schedule-your-demo, and the site publishes no API or developer docs at all.
 
 **Provenance**
 

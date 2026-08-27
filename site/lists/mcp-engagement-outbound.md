@@ -36,7 +36,7 @@ mixmax.com | [Official MCP](../mcp/official.md) | [https://mcp.mixmax.com/mcp](h
 OAuth 2.0 authorization code flow, scoped to the connecting user's account. Read-only. | [Paid, self-serve](../gates/paid.md) |
 | [PhantomBuster](../tools/phantombuster.md)
 phantombuster.com | [Official MCP](../mcp/official.md) | [https://hub.phantombuster.com/docs/mcp-server](https://hub.phantombuster.com/docs/mcp-server) +1 more | OAuth
-OAuth - first connection redirects to PhantomBuster sign-in/authorization, then... | [Paid, self-serve](../gates/paid.md) |
+OAuth - first connection redirects to PhantomBuster sign-in/authorization, then workspace... | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io](../tools/reply-io.md)
 reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | API key
 api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
@@ -57,10 +57,10 @@ apollo.io | [Official MCP](../mcp/official.md) | [https://github.com/apolloio/ap
 OAuth (Apollo.io sign-in/authorization flow; no API key required for this MCP) | [Enterprise only](../gates/enterprise-only.md) |
 | [Outreach](../tools/outreach.md)
 outreach.io | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
-OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Gate unknown](../gates/unknown.md) |
+OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesloft](../tools/salesloft.md)
 salesloft.com | [Official MCP](../mcp/official.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | OAuth
-unknown exact flow - vendor press material describes it as natively listed in Claude's... | [Gate unknown](../gates/unknown.md) |
+unknown exact flow - vendor press material describes it as natively listed in Claude's... | [Enterprise only](../gates/enterprise-only.md) |
 | [Overloop](../tools/overloop.md)
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | API key
 api key via OVERLOOP_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
@@ -75,23 +75,23 @@ No server found, or the check could not settle it. Same category, not reachable 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [Groove](../tools/groove.md)
-groove.co | [MCP unknown](../mcp/unknown.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+groove.co | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Expandi](../tools/expandi.md)
+expandi.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Kixie](../tools/kixie.md)
+kixie.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Klenty](../tools/klenty.md)
 klenty.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Mailshake](../tools/mailshake.md)
+mailshake.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [QuickMail](../tools/quickmail.md)
 quickmail.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Amplemarket](../tools/amplemarket.md)
-amplemarket.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Expandi](../tools/expandi.md)
-expandi.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Kixie](../tools/kixie.md)
-kixie.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Mailshake](../tools/mailshake.md)
-mailshake.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+amplemarket.com | [No MCP found](../mcp/none-found.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-08-24 |
 | [Nooks](../tools/nooks.md)
-nooks.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-25 |
+nooks.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-25 |
 | [Orum](../tools/orum.md)
-orum.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+orum.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Outplay](../tools/outplay.md)
 outplay.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 

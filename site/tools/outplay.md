@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -89,13 +89,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://outplay.ai/pricing/](https://outplay.ai/pricing/)
 - [https://outplay.ai/](https://outplay.ai/)
+- [https://www.outplay.ai/pricing](https://www.outplay.ai/pricing)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://outplay.ai/pricing/, https://outplay.ai/
+https://outplay.ai/pricing/, https://outplay.ai/, https://www.outplay.ai/pricing
 
 **Notes, verbatim from the file**
-A Free Forever ($0) tier exists alongside Starter/Growth/Enterprise, but which tier includes API access was not confirmed from sourced pages.
+A Free Forever ($0) tier exists alongside Starter/Growth/Enterprise, but which tier includes API access was not confirmed from sourced pages. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is fully published (Free Forever $0, Starter $39/mo, Growth $89/user/mo, Enterprise $139/user/mo) but nothing on Outplay's own site states whether an API exists or how to reach it - no API row on pricing, no API or developer link in nav, /api 404s and support.outplayhq.com fails TLS. Genuinely unpublished rather than unfetched. Checked against https://www.outplay.ai/pricing.
 
 **Provenance**
 

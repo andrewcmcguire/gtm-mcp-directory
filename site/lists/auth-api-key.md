@@ -33,7 +33,7 @@ hunter.io | [Official MCP](../mcp/official.md) | [https://hunter.io/api-document
 | [Lusha](../tools/lusha.md)
 lusha.com | [Official MCP](../mcp/official.md) | [https://github.com/lusha-oss/lusha-public-api-mcp](https://github.com/lusha-oss/lusha-public-api-mcp) +2 more | api key (LUSHA_API_KEY) | [Free to start](../gates/free.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
-github.com | [Official MCP](../mcp/official.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Per-server - individual servers take credentials (e.g. API tokens) via environment variables or CLI args where needed; the repo itself has no... | [Free to start](../gates/free.md) |
+github.com | [Official MCP](../mcp/official.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Per-server - individual servers take credentials (e.g. API tokens) via environment variables or CLI args where needed; the repo itself has no central... | [Free to start](../gates/free.md) |
 | [n8n](../tools/n8n.md)
 n8n.io | [Official MCP](../mcp/official.md) | [https://docs.n8n.io/integrations/builtin/core-nodes/...](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger) +1 more | MCP Server Trigger supports Bearer or Header auth to secure the exposed endpoint; supports SSE and streamable-HTTP transport with separate... | [Free to start](../gates/free.md) |
 | [PredictLeads](../tools/predictleads.md)
@@ -52,6 +52,8 @@ clay.com | [Official MCP](../mcp/official.md) | [https://www.clay.com/mcp](https
 crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | api key (free sandbox key available) | [Paid, self-serve](../gates/paid.md) |
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Official MCP](../mcp/official.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable HTTP transport, explicitly stated by the vendor. | [Paid, self-serve](../gates/paid.md) |
+| [Explorium](../tools/explorium.md)
+explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | api key | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Official MCP](../mcp/official.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | Personal access token (generated in Settings > AI Features), used via Claude custom connector or a local Python 3.11+ package. | [Paid, self-serve](../gates/paid.md) |
 | [HighLevel (GoHighLevel)](../tools/highlevel.md)
@@ -80,12 +82,12 @@ tldv.io | [Official MCP](../mcp/official.md) | [https://github.com/tldv-public/t
 hginsights.com | [Official MCP](../mcp/official.md) | [https://learn.microsoft.com/en-us/connectors/hginsig...](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/) | api key (`x-api-key` header; throttled to 100 calls/60 seconds per connection) | [Enterprise only](../gates/enterprise-only.md) |
 | [Surfe](../tools/surfe.md)
 surfe.com | [Official MCP](../mcp/official.md) | [https://mcp.eu.surfe.com/mcp](https://mcp.eu.surfe.com/mcp) +1 more | Surfe API key, with a browser sign-in flow that exchanges the key for a managed token so it is entered once, or the key passed directly per call.... | [Enterprise only](../gates/enterprise-only.md) |
-| [Explorium](../tools/explorium.md)
-explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | api key | [Gate unknown](../gates/unknown.md) |
 | [RevenueHero](../tools/revenuehero.md)
 revenuehero.io | [Official MCP](../mcp/official.md) | [https://www.revenuehero.io/resources/tales-of-ops](https://www.revenuehero.io/resources/tales-of-ops) | Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero - not a self-serve API-key flow. | [Gate unknown](../gates/unknown.md) |
 | [Fathom](../tools/fathom.md)
 fathom.video | [Community MCP](../mcp/community.md) | [https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp) +2 more | Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment variable). | [Free to start](../gates/free.md) |
+| [Loom](../tools/loom.md)
+loom.com | [Community MCP](../mcp/community.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session cookie (connect.sid) manually extracted from a logged-in... | [Free to start](../gates/free.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Community MCP](../mcp/community.md) | [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp) | api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
 | [Motion](../tools/motion.md)
@@ -101,8 +103,6 @@ syften.com | [Community MCP](../mcp/community.md) | [https://github.com/syntax-s
 | [Trigify (Trigify.io)](../tools/trigify.md)
 trigify.io | [Community MCP](../mcp/community.md) | [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli) | api key (from app.trigify.io/settings; via `trigify login --api-key`, env var TRIGIFY_API_KEY, or a per-command flag) | [Paid, self-serve](../gates/paid.md) |
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
-copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Gate unknown](../gates/unknown.md) |
-| [Loom](../tools/loom.md)
-loom.com | [Community MCP](../mcp/community.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session cookie (connect.sid) manually extracted from a logged-in... | [Gate unknown](../gates/unknown.md) |
+copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

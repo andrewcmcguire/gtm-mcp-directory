@@ -60,7 +60,7 @@ api_gate, verbatim from the file:
 
 unknown/enterprise-leaning - no public developer/API docs were found (help.revenuehero.io covers webhooks, JS events, and workflows only); the MCP server is obtainable only by contacting RevenueHero directly. The product itself is self-serve and tiered (Inbound Essentials ~$79/mo + $25-35/user; Enterprise ~$79/mo + $35-45/user; Lite $15/user; 14-day free trial, no perpetual free tier), but MCP access specifically is white-glove, not a plan checkbox.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -102,7 +102,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.revenuehero.io/resources/tales-of-ops, https://www.revenuehero.io/pricing, https://help.revenuehero.io/home/get-started, https://help.revenuehero.io/llms.txt, https://github.com/revenuehero/sdk
 
 **Notes, verbatim from the file**
-Do not confuse with RevenueCat (an unrelated in-app-subscriptions product) - a frequent search-namesake collision. A public SDK exists on GitHub (github.com/revenuehero/sdk, AGPL-3.0) but its purpose/API surface could not be confirmed from its README in this pass.
+Do not confuse with RevenueCat (an unrelated in-app-subscriptions product) - a frequent search-namesake collision. A public SDK exists on GitHub (github.com/revenuehero/sdk, AGPL-3.0) but its purpose/API surface could not be confirmed from its README in this pass. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published and self-serve-priced (Inbound Essentials $79/mo platform fee plus $25/user/mo annual; Enterprise $79/mo plus $35/user/mo annual) but no tier mentions API access - the only programmatic features named are Webhooks and custom code in booking pages on Enterprise - and both docs.revenuehero.io and developers.revenuehero.io 308-redirect to an app login. Checked against https://www.revenuehero.io/pricing.
 
 **Provenance**
 

@@ -1,6 +1,6 @@
 # Hippo Video: MCP server status, API access gate and what it does
 
-> Video engagement platform for sales teams to record, automate, and personalize video outreach at scale,... No MCP found, Gate unknown. Checked 2026-08-24.
+> Video engagement platform for sales teams to record, automate, and personalize video outreach at scale,... No MCP found, Enterprise leaning. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Hippo Video
 # Hippo Video
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise leaning](../gates/enterprise-leaning.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise leaning
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown. Hippo Video has a public developer API/SDK (Record, Video Library, Video Details, Import, Sign-up, Categories APIs, webhooks) requiring an API key, documented via help docs and a public Postman collection, but no source states which paid tier (if any) is required to use it.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-leaning (the Video SDK/API has a self-serve 14-day free trial but no published ongoing price - the page routes to talk-to-an-SDK-expert and discuss-pricing-on-call, and the main pricing table never lists API as a tier feature)
 
 **API documentation**
 
@@ -87,13 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://help.hippovideo.io/support/solutions/19000104654](https://help.hippovideo.io/support/solutions/19000104654)
 - [https://documenter.getpostman.com/view/5278433/Tz5naxpW](https://documenter.getpostman.com/view/5278433/Tz5naxpW)
 - [https://www.hippovideo.io/products/video-sdk/how-video-api-works.html](https://www.hippovideo.io/products/video-sdk/how-video-api-works.html)
+- [https://www.hippovideo.io/products/video-sdk.html](https://www.hippovideo.io/products/video-sdk.html)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.hippovideo.io/pricing.html, https://www.hippovideo.io/boost-sales-engagement.html, https://help.hippovideo.io/support/solutions/19000104654, https://documenter.getpostman.com/view/5278433/Tz5naxpW, https://www.hippovideo.io/products/video-sdk/how-video-api-works.html
+https://www.hippovideo.io/pricing.html, https://www.hippovideo.io/boost-sales-engagement.html, https://help.hippovideo.io/support/solutions/19000104654, https://documenter.getpostman.com/view/5278433/Tz5naxpW, https://www.hippovideo.io/products/video-sdk/how-video-api-works.html, https://www.hippovideo.io/products/video-sdk.html
 
 **Notes, verbatim from the file**
-Searches for "Hippo Video MCP" surface only an unrelated product, "Hippo CMMS" (maintenance-management SaaS) - do not confuse the two. Pricing sources disagree on exact figures (Pro ~$20-30/user/mo, Enterprise ~$80/user/mo, 10-seat minimum); treat as approximate.
+Searches for "Hippo Video MCP" surface only an unrelated product, "Hippo CMMS" (maintenance-management SaaS) - do not confuse the two. Pricing sources disagree on exact figures (Pro ~$20-30/user/mo, Enterprise ~$80/user/mo, 10-seat minimum); treat as approximate. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.hippovideo.io/products/video-sdk.html): the Video SDK/API has a self-serve 14-day free trial but no published ongoing price - the page routes to talk-to-an-SDK-expert and discuss-pricing-on-call, and the main pricing table never lists API as a tier feature.
 
 **Provenance**
 

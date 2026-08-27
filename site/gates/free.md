@@ -1,6 +1,6 @@
-# Free to start: 57 GTM tools, counted
+# Free to start: 61 GTM tools, counted
 
-> 57 of 293 GTM tools in this directory are free to start. A solo operator can get API access without talking to anyone.
+> 61 of 293 GTM tools in this directory are free to start. A solo operator can get API access without talking to anyone.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 A solo operator can get API access without talking to anyone.
 
-57 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+61 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Airbyte](../tools/airbyte.md) airbyte.com Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -37,6 +37,8 @@ A solo operator can get API access without talking to anyone.
 - [Common Paper](../tools/common-paper.md) commonpaper.com Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature layer, positioned as a faster, less lawyer-heavy alternative to a... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
 - [Composio](../tools/composio.md) composio.dev A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion, Stripe, and others) through Composio-managed OAuth. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -102,6 +104,8 @@ A solo operator can get API access without talking to anyone.
 
 - [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Loom](../tools/loom.md) loom.com Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and embed CTAs/booking links directly in the video. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md)
+
 - [People Data Labs](../tools/people-data-labs.md) peopledatalabs.com A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk... [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -122,10 +126,14 @@ A solo operator can get API access without talking to anyone.
 
 - [Findymail](../tools/findymail.md) findymail.com An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or LinkedIn profile URL, verifies deliverability, and can also retrieve a phone number from a LinkedIn... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
 - [Landbot](../tools/landbot.md) landbot.io No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows with LLM-powered conversation. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md) pipedrive.com Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md) · Cross listed, canonical home is RevOps Infra
 
 - [Recapped.io](../tools/recapped-io.md) recapped.io Digital sales room and customer-onboarding collaboration platform for tracking mutual action plans, content sharing, and buyer engagement through the deal and post-sale handoff. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Proposals & Deals](../categories/proposals-deals.md)
+
+- [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Tidio](../tools/tidio.md) tidio.com Customer-service platform combining live chat, a help desk, and an AI agent ("Lyro") that resolves routine support/sales questions automatically. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)

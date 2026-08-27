@@ -36,7 +36,7 @@ pipedream.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedream.com]
 OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated... | [Paid, self-serve](../gates/paid.md) |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
 turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | OAuth
-Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Gate unknown](../gates/unknown.md) |
+Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Enterprise only](../gates/enterprise-only.md) |
 
 ### The other 6 in this category
 

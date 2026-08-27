@@ -1,6 +1,6 @@
 # Orum: MCP server status, API access gate and what it does
 
-> AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Orum
 # Orum
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no prices published, nine-seat minimum, request-pricing only; the sole developer-facing feature named is a Webhooks add-on)
 
 **API documentation**
 
@@ -86,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.orum.com/](https://www.orum.com/)
 - [https://www.orum.com/product-updates/hello-world-orum-goes-global-with-ai-dialing](https://www.orum.com/product-updates/hello-world-orum-goes-global-with-ai-dialing)
 - [https://apitracker.io/a/orumhq](https://apitracker.io/a/orumhq)
+- [https://www.orum.com/pricing](https://www.orum.com/pricing)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.orum.com/, https://www.orum.com/product-updates/hello-world-orum-goes-global-with-ai-dialing, https://apitracker.io/a/orumhq
+https://www.orum.com/, https://www.orum.com/product-updates/hello-world-orum-goes-global-with-ai-dialing, https://apitracker.io/a/orumhq, https://www.orum.com/pricing
 
 **Notes, verbatim from the file**
-Do not confuse with orum.io, an unrelated fintech payments company (acquired by Stripe) that does have a documented API and MCP server - that belongs to a different company entirely. No MCP found for the sales dialer at orum.com on GitHub, mcp.so, glama.ai, or pulsemcp.com.
+Do not confuse with orum.io, an unrelated fintech payments company (acquired by Stripe) that does have a documented API and MCP server - that belongs to a different company entirely. No MCP found for the sales dialer at orum.com on GitHub, mcp.so, glama.ai, or pulsemcp.com. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.orum.com/pricing): no prices published, nine-seat minimum, request-pricing only; the sole developer-facing feature named is a Webhooks add-on.
 
 **Provenance**
 

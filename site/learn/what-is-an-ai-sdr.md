@@ -22,7 +22,7 @@ Treat two claims separately. Whether the software can run the workflow, which ve
 
 ## The number that says the most about the category
 
-There are 23 AI SDR entries here. **4 have an official MCP server** and 17 have none found. 13 do not publish enough for the access gate to be established at all.
+There are 23 AI SDR entries here. **4 have an official MCP server** and 17 have none found. 3 do not publish enough for the access gate to be established at all.
 
 That is the inversion this directory keeps running into. A category built on the promise of autonomous software is, as a group, the least callable by anybody else's autonomous software. If you want an agent you control to drive the workflow rather than buying one that drives itself, the parts you can actually assemble sit in enrichment, signals and RevOps infrastructure, where the official server counts are 31, 17 and 22 respectively.
 
@@ -42,10 +42,10 @@ An AI sales agent that researches prospects via "Live AI search," writes and sen
 Monitors accounts for buying signals (funding, leadership changes, site visits) via integrated data providers (ZoomInfo, Apollo, Surfe, Seamless),...
 - [Regie.ai](../tools/regie-ai.md) No MCP found · Paid, self-serve
 An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and runs multi-channel (email, LinkedIn,...
-- [Qualified](../tools/qualified.md) No MCP found · Enterprise only
-Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR agent engages known target-account...
-- [11x (Alice)](../tools/11x.md) No MCP found · Gate unknown
+- [11x (Alice)](../tools/11x.md) No MCP found · Enterprise only
 An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email,...
+- [Artisan AI (Ava)](../tools/artisan-ai.md) No MCP found · Enterprise only
+An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as...
 
 4 more are on the linked page. The cut is the display limit, not a ranking.
 

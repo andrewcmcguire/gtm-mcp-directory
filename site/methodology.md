@@ -23,11 +23,11 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 1. An MCP claim needs a URL. A claim without one is not accepted.
 
-2. Unknown is a legal answer. 83 entries carry an unknown access gate and they are published as unknown rather than guessed into a bucket.
+2. Unknown is a legal answer. 32 entries carry an unknown access gate and they are published as unknown rather than guessed into a bucket.
 
 3. Vendor copy is a source for what the vendor says, not for what the tool can do. Every what_it_does on this site was rewritten in plain language.
 
-4. Enterprise gated with no public docs is itself the most useful fact in the directory, so it is surfaced rather than hidden. 45 entries are enterprise only.
+4. Enterprise gated with no public docs is itself the most useful fact in the directory, so it is surfaced rather than hidden. 77 entries are enterprise only.
 
 5. Official means first party. A Zapier, viaSocket or Composio wrapper is not an official MCP server no matter how well it works.
 
@@ -39,7 +39,7 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 293 against 293, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-08-25 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 a9ecb43666b5537e870f2377...
+Data baked 2026-08-25 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 fdc670f8f911035ceeb71200...
 
 **The duplicates, and why two counts exist**
 
@@ -68,29 +68,16 @@ Data baked 2026-08-25 by build_directory.py (phase 1). Network calls made during
 
 - [Arphie](tools/arphie.md) 13-arphie
 
-**32 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
+**17 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
 
-- [11x (Alice)](tools/11x.md) 04-11x
 - [AiSDR](tools/aisdr.md) 04-aisdr
 - [Conversica](tools/conversica.md) 04-conversica
-- [Klenty](tools/klenty.md) 04-klenty
-- [Landbase](tools/landbase.md) 04-landbase
-- [Luru](tools/luru.md) 04-luru
-- [Reply.io (Jason AI)](tools/reply-io.md) 04-reply-io
-- [Rox](tools/rox.md) 04-rox
 - [Salesforce Agentforce (SDR Agent)](tools/salesforce-agentforce.md) 04-salesforce-agentforce
-- [Terret (BoostUp)](tools/terret.md) 04-terret
-- [Tofu](tools/tofu.md) 04-tofu
-- [Trellus AI](tools/trellus-ai.md) 04-trellus-ai
 - [Intently (getintently.com)](tools/intently.md) 05-intently
 - [Pipedrive](tools/pipedrive.md) 06-pipedrive
-- [Glama (MCP directory)](tools/glama.md) 07-glama
-- [mcp.so](tools/mcp-so.md) 07-mcp-so
 - [Model Context Protocol - official servers repo](tools/model-context-protocol-official-servers-repo.md) 07-model-context-protocol-official-servers-repo
 - [PulseMCP](tools/pulsemcp.md) 07-pulsemcp
 - [Smithery](tools/smithery.md) 07-smithery
-- [Trevor AI](tools/trevor-ai.md) 10-trevor-ai
-- [Continu](tools/continu.md) 11-continu
 - [HubSpot (AI Forecasting)](tools/hubspot.md) 12-hubspot
 - [Salesforce Einstein Forecasting](tools/salesforce-einstein-forecasting.md) 12-salesforce-einstein-forecasting
 - [Pocus](tools/pocus.md) 14-pocus
@@ -98,12 +85,10 @@ Data baked 2026-08-25 by build_directory.py (phase 1). Network calls made during
 - [Ultimate.ai (Ultimate)](tools/ultimate-ai.md) 14-ultimate-ai
 - [Brand24](tools/brand24.md) 15-brand24
 - [BuzzSumo](tools/buzzsumo.md) 15-buzzsumo
-- [Commsor](tools/commsor.md) 15-commsor
-- [Exploding Topics (Exploding Topics Pro)](tools/exploding-topics.md) 15-exploding-topics
 - [F5Bot](tools/f5bot.md) 15-f5bot
 - [Talkwalker (rebranded: Lumen by Talkwalker)](tools/talkwalker.md) 15-talkwalker
 
-**83 entries have an unknown access gate** and **263 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
+**32 entries have an unknown access gate** and **263 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
 
 **What has not been measured at all**
 

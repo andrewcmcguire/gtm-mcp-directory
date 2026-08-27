@@ -20,7 +20,7 @@ Actually put a meeting on a calendar, whether by link, invite or negotiated time
 - **official MCP**: 11
 - **community MCP**: 2
 - **no MCP found**: 12
-- **solo reachable**: 9
+- **solo reachable**: 10
 
 13 of the 26 entries tagged with this job carry an MCP server of some kind, 11 of them official. 23 of the 26 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -63,15 +63,15 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Mixmax](../tools/mixmax.md) mixmax.com Gmail-native sales engagement layer that runs email sequences, tracking, calendaring and meeting notes from inside the inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
+- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
 
 - [RevenueHero](../tools/revenuehero.md) revenuehero.io Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's calendar without a redirect. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
 - [SavvyCal](../tools/savvycal.md) savvycal.com Prospect-facing scheduling/booking-page tool (Calendly competitor) built around letting invitees overlay their own calendar on the organizer's availability, with Collective/Round-Robin/Group team-scheduling... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
-- [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [LeanData](../tools/leandata.md) leandata.com GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
@@ -79,15 +79,15 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Clara (Clara Labs)](../tools/clara.md) claralabs.com AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times, handles replies, and confirms meetings across Google Workspace, Outlook, Zoom, and Teams without a... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
+- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
+- [Artisan AI (Ava)](../tools/artisan-ai.md) artisan.co An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as running outbound "end to end." [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
+- [Conversica](../tools/conversica.md) conversica.com AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads from events, ads, and inbound inquiries, send personalized follow-ups, and book meetings; also runs... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
 - [Qualified](../tools/qualified.md) qualified.com Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR agent engages known target-account visitors in real time, qualifies them, and books meetings, then... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Qualified (Piper)](../tools/qualified.md) qualified.com A conversational AI agent ("Piper") that engages inbound website visitors in real time (text/voice/video chat), sends follow-up nurture emails, and books meetings for qualified visitors. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Inbound & PLG Chat
-
-- [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
-
-- [Artisan AI (Ava)](../tools/artisan-ai.md) artisan.co An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as running outbound "end to end." [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
-
-- [Conversica](../tools/conversica.md) conversica.com AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads from events, ads, and inbound inquiries, send personalized follow-ups, and book meetings; also runs... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Doodle](../tools/doodle.md) doodle.com General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1 booking pages - used more broadly than GTM specifically (events, recruiting, ops)... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 

@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [metorial.com](https://metorial.com) · entry id 07-metorial · source 07-mcp-infrastructure.md line 238
+Vendor: [metorial.com](https://metorial.com) · entry id 07-metorial · source 07-mcp-infrastructure.md line 241
 
 **What it does**
 A hosted MCP gateway that gives AI agents/"AI employees" centralized, governed access to a company's SaaS tools (Google Workspace, Microsoft 365, GitHub, Jira, Slack, Teams, Stripe, Salesforce, Zendesk, and custom internal systems) through one integration point.
@@ -98,7 +98,7 @@ Metorial is explicitly and fully custodial of OAuth tokens across every connecte
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 238
+- **Source line**: 241
 
 - **Tier**: RESEARCHED
 

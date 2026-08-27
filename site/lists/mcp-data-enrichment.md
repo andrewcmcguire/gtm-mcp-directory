@@ -19,6 +19,9 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 | [Anymail Finder](../tools/anymail-finder.md)
 anymailfinder.com | [Official MCP](../mcp/official.md) | [https://api.anymailfinder.com/mcp](https://api.anymailfinder.com/mcp) +1 more | OAuth or an API key
 Browser-based OAuth-style sign-in and approval for Claude, ChatGPT and Cursor, with an... | [Free to start](../gates/free.md) |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Official MCP](../mcp/official.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
+unknown | [Free to start](../gates/free.md) |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Official MCP](../mcp/official.md) | [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp) | API key
 api key (free Diffbot token required to use the MCP tools) | [Free to start](../gates/free.md) |
@@ -70,6 +73,9 @@ api key from the CUFinder dashboard under Account Settings then API Dashboard. S
 | [Dropcontact](../tools/dropcontact.md)
 dropcontact.com | [Official MCP](../mcp/official.md) | [https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact) | OAuth or an API key
 Hosted server at mcp.dropcontact.com/mcp/, supporting OAuth (recommended, browser-based)... | [Paid, self-serve](../gates/paid.md) |
+| [Explorium](../tools/explorium.md)
+explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | API key
+api key | [Paid, self-serve](../gates/paid.md) |
 | [Fiber AI](../tools/fiber-ai.md)
 fiber.ai | [Official MCP](../mcp/official.md) | [https://mcp.fiber.ai/mcp/v3](https://mcp.fiber.ai/mcp/v3) +2 more | OAuth or an API key
 OAuth via Clerk on the v3 endpoint; x-api-key header on the v2 and legacy endpoints. | [Paid, self-serve](../gates/paid.md) |
@@ -103,12 +109,6 @@ OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - 
 | [Surfe](../tools/surfe.md)
 surfe.com | [Official MCP](../mcp/official.md) | [https://mcp.eu.surfe.com/mcp](https://mcp.eu.surfe.com/mcp) +1 more | API key
 Surfe API key, with a browser sign-in flow that exchanges the key for a managed token so... | [Enterprise only](../gates/enterprise-only.md) |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
-unknown | [Gate unknown](../gates/unknown.md) |
-| [Explorium](../tools/explorium.md)
-explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | API key
-api key | [Gate unknown](../gates/unknown.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Community MCP](../mcp/community.md) | [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp) | API key
 api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |

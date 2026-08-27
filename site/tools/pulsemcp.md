@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [pulsemcp.com](https://pulsemcp.com) · entry id 07-pulsemcp · source 07-mcp-infrastructure.md line 136
+Vendor: [pulsemcp.com](https://pulsemcp.com) · entry id 07-pulsemcp · source 07-mcp-infrastructure.md line 137
 
 **What it does**
 A community-run browsable directory and news hub for the MCP ecosystem (servers, clients, use cases, and a newsletter called "The Agentic Loop") that links out to third-party servers rather than hosting them.
@@ -84,7 +84,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.pulsemcp.com](https://www.pulsemcp.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.pulsemcp.com
 
@@ -97,7 +97,7 @@ As of this check, PulseMCP stated new server submissions and listing changes wer
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 136
+- **Source line**: 137
 
 - **Tier**: RESEARCHED
 

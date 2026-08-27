@@ -30,9 +30,9 @@ Every capability list here answers one question: what does the vendor say this t
 
 ## The other places this build is thin, named
 
-- 32 entries carry fewer than two independent source URLs. They are named on the methodology page rather than quietly padded.
+- 17 entries carry fewer than two independent source URLs. They are named on the methodology page rather than quietly padded.
 
-- 83 entries have an unknown access gate.
+- 32 entries have an unknown access gate.
 
 - 263 have no documentation URL recorded.
 

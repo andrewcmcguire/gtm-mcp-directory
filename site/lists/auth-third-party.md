@@ -21,8 +21,8 @@ sendspark.com | [Community MCP](../mcp/community.md) | [https://composio.dev/too
 | [Vidyard](../tools/vidyard.md)
 vidyard.com | [Community MCP](../mcp/community.md) | [https://viasocket.com/mcp/vidyard](https://viasocket.com/mcp/vidyard) | Not documented in technical detail on the viaSocket listing ("built-in authentication"). Vidyard's own Video Agent REST API (separate from any MCP)... | [Paid, self-serve](../gates/paid.md) |
 | [Weezly](../tools/weezly.md)
-weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Zapier-mediated connection. | [Gate unknown](../gates/unknown.md) |
+weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Zapier-mediated connection. | [Paid, self-serve](../gates/paid.md) |
 | [WorkRamp](../tools/workramp.md)
-workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential. | [Gate unknown](../gates/unknown.md) |
+workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential. | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

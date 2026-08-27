@@ -14,7 +14,7 @@
 
 **The short answer**
 
-56% of the 293 go to market tools counted here have an MCP server of any kind. Applying the second filter, that you can actually get an account without a contract, 117 entries pass both tests, which is 40% of the directory.
+56% of the 293 go to market tools counted here have an MCP server of any kind. Applying the second filter, that you can actually get an account without a contract, 123 entries pass both tests, which is 42% of the directory.
 
 ## The funnel
 
@@ -23,8 +23,8 @@
 | Every tool counted | 293 | 100% |
 | Has a server of any kind | 165 | 56% |
 | Server is first party | 144 | 49% |
-| Server, and free or paid self serve | 117 | 40% |
-| Server, first party, and free to start | 42 | 14% |
+| Server, and free or paid self serve | 123 | 42% |
+| Server, first party, and free to start | 43 | 15% |
 | And somebody here has actually run it | 0 | 0% |
 
 Counted 2026-08-25 from directory.json. The last row is the honest floor of this whole exercise and it is published on the front page rather than buried here.

@@ -20,7 +20,7 @@ Return company-level events: funding rounds, M&A, leadership changes, expansion,
 - **official MCP**: 10
 - **community MCP**: 1
 - **no MCP found**: 1
-- **solo reachable**: 7
+- **solo reachable**: 9
 
 11 of the 12 entries tagged with this job carry an MCP server of some kind, 10 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -46,11 +46,15 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Autobound](../tools/autobound.md) autobound.ai Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
+- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [PredictLeads](../tools/predictleads.md) predictleads.com Aggregates five signal categories (job openings, technology detections, news events, business connections, firmographics) across 129M companies in 195 countries by scraping public web sources - company sites,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md) · Cross listed, canonical home is Data & Enrichment
+
+- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [The Swarm](../tools/the-swarm.md) theswarm.com A professional data and relationship-intelligence platform (500M+ profiles, 50M+ companies) whose differentiator is network mapping - warm-introduction paths, shared work history, education, and investor... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -59,10 +63,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Surfe](../tools/surfe.md) surfe.com A Chrome extension plus API that pulls contacts and companies off LinkedIn, runs them through a multi-vendor waterfall to find verified emails and mobile numbers, and pushes the records into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [UserGems](../tools/usergems.md) usergems.com Tracks job changes of known contacts (past customers/champions moving to new companies) plus 30+ other native signals (new hires, promotions, funding, website visits, M&A) sourced from LinkedIn-style data... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
-
-- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Unify](../tools/unify.md) unifygtm.com A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and run multi-channel sequences triggered by intent signals... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

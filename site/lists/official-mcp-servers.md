@@ -49,6 +49,9 @@ unknown - not detailed in the release-notes excerpt reviewed. | [Free to start](
 | [Composio](../tools/composio.md)
 composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://docs.composio.dev/mcp/overview](https://docs.composio.dev/mcp/overview) | OAuth or an API key
 Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the... | [Free to start](../gates/free.md) |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
+unknown | [Free to start](../gates/free.md) |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp) | API key
 api key (free Diffbot token required to use the MCP tools) | [Free to start](../gates/free.md) |
@@ -96,7 +99,7 @@ n8n.io | [RevOps Infra](../categories/revops-infra.md) | [https://docs.n8n.io/in
 MCP Server Trigger supports Bearer or Header auth to secure the exposed endpoint;... | [Free to start](../gates/free.md) |
 | [PandaDoc](../tools/pandadoc.md)
 pandadoc.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://developers.pandadoc.com/docs/how-to-use-the-...](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server) +1 more | OAuth
-OAuth - remote hosted server, add the server URL to an MCP client (Claude Desktop,... | [Free to start](../gates/free.md) |
+OAuth - remote hosted server, add the server URL to an MCP client (Claude Desktop, Claude... | [Free to start](../gates/free.md) |
 | [Pipedrive](../tools/pipedrive.md)
 pipedrive.com | [RevOps Infra](../categories/revops-infra.md) | [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server) | OAuth
 OAuth - "Connect in minutes through secure OAuth. No coding, no API development, no... | [Free to start](../gates/free.md) |
@@ -126,7 +129,7 @@ theirstack.com | [Signals & Intent](../categories/signals-intent-abm.md) | [http
 unknown - page references a "How does authentication work?" FAQ but the answer wasn't... | [Free to start](../gates/free.md) |
 | [Trumpet (sendtrumpet.com)](../tools/trumpet.md)
 sendtrumpet.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://www.sendtrumpet.com/blog-posts/introducing-t...](https://www.sendtrumpet.com/blog-posts/introducing-trumpet-mcp) | OAuth
-unknown - vendor states it is "installable in five minutes with no engineering... | [Free to start](../gates/free.md) |
+unknown - vendor states it is "installable in five minutes with no engineering required,"... | [Free to start](../gates/free.md) |
 | [Warmly](../tools/warmly.md)
 warmly.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth or an API key
 OAuth for the MCP connector; API key for the REST API | [Free to start](../gates/free.md) |
@@ -198,19 +201,28 @@ cufinder.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://m
 api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable... | [Paid, self-serve](../gates/paid.md) |
 | [DocuSign](../tools/docusign.md)
 docusign.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://developers.docusign.com/platform/mcp-server/](https://developers.docusign.com/platform/mcp-server/) +2 more | OAuth
-OAuth - Streamable HTTP transport; first connection opens a browser window to sign in... | [Paid, self-serve](../gates/paid.md) |
+OAuth - Streamable HTTP transport; first connection opens a browser window to sign in and... | [Paid, self-serve](../gates/paid.md) |
 | [Dropcontact](../tools/dropcontact.md)
 dropcontact.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact) | OAuth or an API key
 Hosted server at mcp.dropcontact.com/mcp/, supporting OAuth (recommended, browser-based)... | [Paid, self-serve](../gates/paid.md) |
+| [Explorium](../tools/explorium.md)
+explorium.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | API key
+api key | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | API key
 Personal access token (generated in Settings > AI Features), used via Claude custom... | [Paid, self-serve](../gates/paid.md) |
+| [Fellow](../tools/fellow.md)
+fellow.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth
+OAuth, with OAuth 2.0 dynamic discovery supported. | [Paid, self-serve](../gates/paid.md) |
 | [Fiber AI](../tools/fiber-ai.md)
 fiber.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.fiber.ai/mcp/v3](https://mcp.fiber.ai/mcp/v3) +2 more | OAuth or an API key
 OAuth via Clerk on the v3 endpoint; x-api-key header on the v2 and legacy endpoints. | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
 grain.com | [Conversation Intel](../categories/conversation-intel.md) | [https://developers.grain.com/mcp](https://developers.grain.com/mcp) +1 more | OAuth
 OAuth via the native Claude integration, or manual server-URL setup for other MCP... | [Paid, self-serve](../gates/paid.md) |
+| [Granola](../tools/granola.md)
+granola.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth
+OAuth - no manual API key required. | [Paid, self-serve](../gates/paid.md) |
 | [HeyGen](../tools/heygen.md)
 heygen.com | [Video Prospecting](../categories/video-prospecting.md) | [https://mcp.heygen.com/mcp/v1/](https://mcp.heygen.com/mcp/v1/) +2 more | OAuth
 OAuth - vendor states "connect your HeyGen account, no API key required"; generation... | [Paid, self-serve](../gates/paid.md) |
@@ -264,7 +276,7 @@ ortto.com | [RevOps Infra](../categories/revops-infra.md) | [https://mcp-api-us.
 A scoped JWT key created as an MCP data source inside the Ortto account, passed as a... | [Paid, self-serve](../gates/paid.md) |
 | [PhantomBuster](../tools/phantombuster.md)
 phantombuster.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://hub.phantombuster.com/docs/mcp-server](https://hub.phantombuster.com/docs/mcp-server) +1 more | OAuth
-OAuth - first connection redirects to PhantomBuster sign-in/authorization, then... | [Paid, self-serve](../gates/paid.md) |
+OAuth - first connection redirects to PhantomBuster sign-in/authorization, then workspace... | [Paid, self-serve](../gates/paid.md) |
 | [Pipedream MCP](../tools/pipedream-mcp.md)
 pipedream.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://mcp.pipedream.com](https://mcp.pipedream.com) | OAuth or an API key
 OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated... | [Paid, self-serve](../gates/paid.md) |
@@ -328,9 +340,21 @@ hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Wo
 | [Clari](../tools/clari.md)
 clari.com | [Conversation Intel](../categories/conversation-intel.md) | [https://www.clari.com/press/clari-salesloft-forecast...](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) | Auth not recorded
 unknown / not disclosed publicly | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Sybill](../tools/sybill.md)
+sybill.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | OAuth
+Browser-based sign-in / OAuth on first connection from an MCP client such as Claude... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [6sense](../tools/6sense.md)
 6sense.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://6sense.com/platform/mcp-server/](https://6sense.com/platform/mcp-server/) +1 more | OAuth
 OAuth using existing 6sense platform login (no separate API key setup per vendor docs) | [Enterprise only](../gates/enterprise-only.md) |
+| [Ada](../tools/ada.md)
+ada.cx | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
+none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
+| [Allego](../tools/allego.md)
+allego.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/) | Auth not recorded
+unknown - vendor material states the MCP server connects to Salesforce Einstein,... | [Enterprise only](../gates/enterprise-only.md) |
+| [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
+anaplan.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | OAuth or an API key
+unknown - described only as a "governed MCP connection" with permission/audit controls;... | [Enterprise only](../gates/enterprise-only.md) |
 | [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md)
 apollo.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) +1 more | OAuth
 OAuth (Apollo.io sign-in/authorization flow; no API key required for this MCP) | [Enterprise only](../gates/enterprise-only.md) |
@@ -346,6 +370,12 @@ oauth (OAuth 2.1, browser-based, tokens scoped to the user's own Common Room per
 | [Crossbeam](../tools/crossbeam.md)
 crossbeam.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://mcp.crossbeam.com/mcp](https://mcp.crossbeam.com/mcp) +1 more | OAuth
 OAuth with Crossbeam login credentials, with a permission consent screen at connect time. | [Enterprise only](../gates/enterprise-only.md) |
+| [Default](../tools/default.md)
+default.com | [RevOps Infra](../categories/revops-infra.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
+unknown - not documented anywhere found (checked default.com, default.com/product,... | [Enterprise only](../gates/enterprise-only.md) |
+| [Default](../tools/default.md)
+default.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | OAuth or an API key
+unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Enterprise only](../gates/enterprise-only.md) |
 | [Demandbase (Demandbase One)](../tools/demandbase.md)
 demandbase.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://developer.demandbase.com/docs/mcp](https://developer.demandbase.com/docs/mcp) +1 more | Auth not recorded
 unknown - the account-team-gated support article that likely covers this returned HTTP... | [Enterprise only](../gates/enterprise-only.md) |
@@ -364,15 +394,24 @@ unknown - product page describes agent-to-agent access via OpenAI, Anthropic, an
 | [Ironclad](../tools/ironclad.md)
 ironcladapp.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://support.ironcladapp.com/hc/en-us/articles/39...](https://support.ironcladapp.com/hc/en-us/articles/39887091143319-Ironclad-MCP-Server) +1 more | Auth not recorded
 unknown - a single, static MCP endpoint per the support article; specific credential... | [Enterprise only](../gates/enterprise-only.md) |
+| [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
+turbomcp.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [https://turbomcp.ai](https://turbomcp.ai) | OAuth
+Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Enterprise only](../gates/enterprise-only.md) |
 | [Otter.ai](../tools/otter-ai.md)
 otter.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://help.otter.ai/hc/en-us/articles/352876075696...](https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server) +2 more | Auth not recorded
 unknown - exact auth mechanism not confirmed in public sources; framed under "Otter for... | [Enterprise only](../gates/enterprise-only.md) |
+| [Outreach](../tools/outreach.md)
+outreach.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
+OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
 pigment.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | Auth not recorded
 A workspace admin enables MCP under Settings > Integrations, generating a per-workspace... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [RevOps Infra](../categories/revops-infra.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth
 OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every MCP call... | [Enterprise only](../gates/enterprise-only.md) |
+| [Salesloft](../tools/salesloft.md)
+salesloft.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | OAuth
+unknown exact flow - vendor press material describes it as natively listed in Claude's... | [Enterprise only](../gates/enterprise-only.md) |
 | [Seamless.AI](../tools/seamless-ai.md)
 seamless.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs) +1 more | OAuth or an API key
 OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - i.e.... | [Enterprise only](../gates/enterprise-only.md) |
@@ -391,42 +430,9 @@ unknown - the MCP server page describes real-time, entity/field-level access con
 | [UserGems](../tools/usergems.md)
 usergems.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://www.usergems.com/product/mcp](https://www.usergems.com/product/mcp) | OAuth or an API key
 unknown - connects inside Claude/ChatGPT per the product page, but the exact auth... | [Enterprise only](../gates/enterprise-only.md) |
-| [Ada](../tools/ada.md)
-ada.cx | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
-none documented - connects over HTTP with no credential requirement described in the... | [Gate unknown](../gates/unknown.md) |
-| [Allego](../tools/allego.md)
-allego.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/) | Auth not recorded
-unknown - vendor material states the MCP server connects to Salesforce Einstein,... | [Gate unknown](../gates/unknown.md) |
-| [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
-anaplan.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | OAuth or an API key
-unknown - described only as a "governed MCP connection" with permission/audit controls;... | [Gate unknown](../gates/unknown.md) |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
-unknown | [Gate unknown](../gates/unknown.md) |
-| [Default](../tools/default.md)
-default.com | [RevOps Infra](../categories/revops-infra.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
-unknown - not documented anywhere found (checked default.com, default.com/product,... | [Gate unknown](../gates/unknown.md) |
-| [Default](../tools/default.md)
-default.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | OAuth or an API key
-unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Gate unknown](../gates/unknown.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server) +1 more | OAuth or an API key
 OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex... | [Gate unknown](../gates/unknown.md) |
-| [Explorium](../tools/explorium.md)
-explorium.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | API key
-api key | [Gate unknown](../gates/unknown.md) |
-| [Fellow](../tools/fellow.md)
-fellow.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth
-OAuth, with OAuth 2.0 dynamic discovery supported. | [Gate unknown](../gates/unknown.md) |
-| [Granola](../tools/granola.md)
-granola.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth
-OAuth - no manual API key required. | [Gate unknown](../gates/unknown.md) |
-| [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
-turbomcp.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [https://turbomcp.ai](https://turbomcp.ai) | OAuth
-Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Gate unknown](../gates/unknown.md) |
-| [Outreach](../tools/outreach.md)
-outreach.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
-OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Gate unknown](../gates/unknown.md) |
 | [Pylon](../tools/pylon.md)
 usepylon.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.usepylon.com](https://mcp.usepylon.com) +1 more | OAuth
 OAuth 2.0 over stateless streamable HTTP; access is permission-scoped so a connected AI... | [Gate unknown](../gates/unknown.md) |
@@ -435,16 +441,10 @@ reclaim.ai | [Scheduling & Routing](../categories/scheduling-routing.md) | [http
 OAuth (official hosted server). A separate unofficial/community server also exists... | [Gate unknown](../gates/unknown.md) |
 | [RevenueHero](../tools/revenuehero.md)
 revenuehero.io | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.revenuehero.io/resources/tales-of-ops](https://www.revenuehero.io/resources/tales-of-ops) | API key
-Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero -... | [Gate unknown](../gates/unknown.md) |
-| [Salesloft](../tools/salesloft.md)
-salesloft.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | OAuth
-unknown exact flow - vendor press material describes it as natively listed in Claude's... | [Gate unknown](../gates/unknown.md) |
-| [Sybill](../tools/sybill.md)
-sybill.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | OAuth
-Browser-based sign-in / OAuth on first connection from an MCP client such as Claude... | [Gate unknown](../gates/unknown.md) |
+Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero - not... | [Gate unknown](../gates/unknown.md) |
 | [Trumpet](../tools/trumpet.md)
 sendtrumpet.com | [Video Prospecting](../categories/video-prospecting.md) | [https://trumpet.app/api/mcp](https://trumpet.app/api/mcp) +2 more | OAuth
-OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0)";... | [Gate unknown](../gates/unknown.md) |
+OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0)"; setup... | [Gate unknown](../gates/unknown.md) |
 | [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md)
 zoom.com | [Conversation Intel](../categories/conversation-intel.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |

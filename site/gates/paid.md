@@ -1,6 +1,6 @@
-# Paid, self-serve: 101 GTM tools, counted
+# Paid, self-serve: 113 GTM tools, counted
 
-> 101 of 293 GTM tools in this directory are paid, self-serve. A solo operator can get API access by paying, still without a sales call.
+> 113 of 293 GTM tools in this directory are paid, self-serve. A solo operator can get API access by paying, still without a sales call.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 A solo operator can get API access by paying, still without a sales call.
 
-101 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+113 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Affinity](../tools/affinity.md) affinity.co A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -56,11 +56,17 @@ A solo operator can get API access by paying, still without a sales call.
 
 - [Dropcontact](../tools/dropcontact.md) dropcontact.com A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name plus company (name, domain, or LinkedIn URL) and returns a verified professional email plus cleaned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Factors.ai](../tools/factors-ai.md) factors.ai De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party intent research signals) to identify in-market accounts and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+
+- [Fellow](../tools/fellow.md) fellow.ai A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they came from. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Fiber AI](../tools/fiber-ai.md) fiber.ai B2B search and enrichment APIs for finding companies and people by structured filters or natural language, then revealing work emails and phone numbers with live LinkedIn data. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Grain](../tools/grain.md) grain.com AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Granola](../tools/granola.md) granola.ai General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
@@ -162,6 +168,8 @@ A solo operator can get API access by paying, still without a sales call.
 
 - [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
+- [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
+
 - [AiSDR](../tools/aisdr.md) aisdr.com An AI sales agent that researches prospects via "Live AI search," writes and sends personalized email/LinkedIn outreach, qualifies replies, and books a meeting only once a prospect is judged ready. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Albacross](../tools/albacross.md) albacross.com Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site behavioral/intent signals, and enriches identified companies with firmographic data and optional verified... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -176,6 +184,12 @@ A solo operator can get API access by paying, still without a sales call.
 
 - [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md) clearbit.com Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count, revenue, tech stack, location) and surfaces buying-intent... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [Dubb](../tools/dubb.md) dubb.com Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via email, SMS, LinkedIn, iMessage, or QR code, with trackable video landing pages. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
+
+- [Expandi](../tools/expandi.md) expandi.io Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Exploding Topics (Exploding Topics Pro)](../tools/exploding-topics.md) explodingtopics.com Surfaces topics, products, and search queries showing accelerating growth in interest before they go mainstream, by tracking search/social/web signal velocity across a large keyword database. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Community & Dark Social](../categories/community-dark-social.md)
+
 - [Forecastio](../tools/forecastio.md) forecastio.ai AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying machine learning, time-series models, and weighted-pipeline methods to predict a forecast range (best... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [GetAccept](../tools/getaccept.md) getaccept.com Digital sales room and e-signature platform combining proposal delivery, contract tracking, and an e-signature API for embedding signing flows into other products. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
@@ -186,13 +200,19 @@ A solo operator can get API access by paying, still without a sales call.
 
 - [HubSpot Breeze (AI Prospecting Agent)](../tools/hubspot-breeze.md) hubspot.com Monitors accounts for buying signals (funding, leadership changes, site visits) via integrated data providers (ZoomInfo, Apollo, Surfe, Seamless), identifies decision-makers, and drafts personalized outreach... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
+- [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims fully... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
+
+- [InboxAlly](../tools/inboxally.md) inboxally.com Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns; those seed accounts perform browser-level engagement (open, read, reply, mark important, move out of... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Intently (getintently.com)](../tools/intently.md) getintently.com Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data, competitor followers, and post reactions/comments as engagement signals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Keyplay](../tools/keyplay.md) keyplay.io Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model using 750+ pre-built "signals" (hiring velocity, tech stack,... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Klenty](../tools/klenty.md) klenty.com Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS Dynamics). [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Koala](../tools/koala.md) getkoala.com Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered configurable AI-agent workflows (enrichment, research, alerting) on... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -201,6 +221,8 @@ A solo operator can get API access by paying, still without a sales call.
 - [MailGenius](../tools/mailgenius.md) mailgenius.com Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans blacklists, previews inbox rendering across Gmail/Outlook, and scores spam likelihood. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Mailreach](../tools/mailreach.md) mailreach.co Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat Score" reputation metric, and monitors blacklist/authentication status across Gmail, Outlook, and any... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
+
+- [Mailshake](../tools/mailshake.md) mailshake.com Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Mention](../tools/mention.md) mention.com Monitors web and social mentions across a claimed 1 billion+ sources in real time, layering sentiment/reach analytics and a unified social inbox on top of the monitoring feed. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
@@ -211,6 +233,8 @@ A solo operator can get API access by paying, still without a sales call.
 - [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
 - [Regie.ai](../tools/regie-ai.md) regie.ai An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and runs multi-channel (email, LinkedIn, phone) sequences with automated follow-up. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
+- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Trainual](../tools/trainual.md) trainual.com SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR than sales-specific enablement, with AI-assisted SOP drafting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 

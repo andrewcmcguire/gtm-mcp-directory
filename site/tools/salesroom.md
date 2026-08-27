@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown. No public developer docs, API pricing, or MCP references were found - only a HubSpot App Marketplace listing describing the integration.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -86,13 +86,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://ecosystem.hubspot.com/marketplace/listing/salesroom-by-salesroom-inc-1135699](https://ecosystem.hubspot.com/marketplace/listing/salesroom-by-salesroom-inc-1135699)
 - [https://www.salesroom.com/](https://www.salesroom.com/)
+- [https://www.salesroom.com/pricing](https://www.salesroom.com/pricing)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://ecosystem.hubspot.com/marketplace/listing/salesroom-by-salesroom-inc-1135699, https://www.salesroom.com/
+https://ecosystem.hubspot.com/marketplace/listing/salesroom-by-salesroom-inc-1135699, https://www.salesroom.com/, https://www.salesroom.com/pricing
 
 **Notes, verbatim from the file**
-Thinnest public footprint of any tool in this category - flagged for a bench-test follow-up rather than trusted on research alone.
+Thinnest public footprint of any tool in this category - flagged for a bench-test follow-up rather than trusted on research alone. [api_gate 2026-08-25] Re-checked and left unknown, honestly: salesroom.com would not serve to an automated fetch on any path or hostname - every attempt returned a TLS internal error - so nothing on the vendor's own site could be read. Checked against https://www.salesroom.com/pricing.
 
 **Provenance**
 

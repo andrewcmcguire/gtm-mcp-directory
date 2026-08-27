@@ -1,6 +1,6 @@
 # Continu: MCP server status, API access gate and what it does
 
-> AI-powered enterprise learning platform for delivering, tracking, and measuring training content to... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI-powered enterprise learning platform for delivering, tracking, and measuring training content to... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Continu
 # Continu
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - vendor site links to a pricing page but discloses no tiers or numbers publicly; no mention of an API or developer documentation found on the marketing site.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (full REST API and real-time event webhooks appear on the Enterprise plan (5,000+ monthly active users) and not on Growth or Professional, and no tier has a published price)
 
 **API documentation**
 
@@ -83,13 +81,14 @@ Reason recorded by the tagging pass: no-job-fits. Corporate LMS. retrieve-sales-
 **Sources**
 
 - [https://continu.com](https://continu.com)
+- [https://www.continu.com/pricing](https://www.continu.com/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://continu.com
+https://continu.com, https://www.continu.com/pricing
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Thinnest public developer footprint of any tool in this file - no API/docs page surfaced at all in this research pass; worth a direct account check before citing further.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Thinnest public developer footprint of any tool in this file - no API/docs page surfaced at all in this research pass; worth a direct account check before citing further. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.continu.com/pricing): full REST API and real-time event webhooks appear on the Enterprise plan (5,000+ monthly active users) and not on Growth or Professional, and no tier has a published price.
 
 **Provenance**
 

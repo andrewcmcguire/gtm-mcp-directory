@@ -1,6 +1,6 @@
 # Luru: MCP server status, API access gate and what it does
 
-> An AI SDR platform per its current site copy  - lead discovery/enrichment with intent signals, personalized... No MCP found, Gate unknown. Checked 2026-08-24.
+> An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized... No MCP found, Gate unknown. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -56,7 +56,7 @@ api_gate, verbatim from the file:
 
 unknown - no public pricing/API docs found on this pass
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -88,13 +88,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://luru.app](https://luru.app)
+- [https://luru.app/pricing](https://luru.app/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://luru.app
+https://luru.app, https://luru.app/pricing
 
 **Notes, verbatim from the file**
-Luru was historically known as a no-code CRM/revenue-workflow automation tool (Slack-native deal updates, pipeline hygiene) rather than an outbound AI SDR - current site copy reads as a repositioning toward "AI SDR" branding. Worth re-checking whether this is a full pivot or a rebrand of the same underlying workflow engine before citing further.
+Luru was historically known as a no-code CRM/revenue-workflow automation tool (Slack-native deal updates, pipeline hygiene) rather than an outbound AI SDR - current site copy reads as a repositioning toward "AI SDR" branding. Worth re-checking whether this is a full pivot or a rebrand of the same underlying workflow engine before citing further. [api_gate 2026-08-25] Re-checked and left unknown, honestly: a single Standard tier at $500 per agent per month is published, but the pricing page and homepage make no mention of an API, developer docs or API keys, and no /docs, /api or /developers path exists. Checked against https://luru.app/pricing.
 
 **Provenance**
 

@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - no public self-serve pricing found for either the Bigtincan platform generally or Brainshark/Readiness specifically; sales-led motion.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.bigtincan.com/pricing/, https://www.g2.com/products/bigtincan-readiness-formerly-brainshark/reviews, https://tomba.io/blog/bigtincan-brainshark-pricing-reviews-pros-and-cons
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Brainshark is not sold as a separate product anymore - it is the "Readiness" module of Bigtincan since the 2021 acquisition, so it is covered as one entry rather than two.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Brainshark is not sold as a separate product anymore - it is the "Readiness" module of Bigtincan since the 2021 acquisition, so it is covered as one entry rather than two. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is contact-sales only across both Essential and Elite editions, but neither the pricing page nor the integrations page mentions an API, SDK or developer access, and no developer site exists (developers. and support. do not resolve, /developers 404s), so the API condition is not stated. Checked against https://www.bigtincan.com/pricing/.
 
 **Provenance**
 

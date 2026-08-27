@@ -1,6 +1,6 @@
 # Anaplan (PlanIQ / Anaplan Forecaster): MCP server status, API access gate and what it does
 
-> Connected-planning platform whose AI forecasting engine  - originally branded PlanIQ, now superseded by... Official MCP, Gate unknown. Checked 2026-08-24.
+> Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Anaplan (PlanIQ / Anaplan Forecaster)
 # Anaplan (PlanIQ / Anaplan Forecaster)
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://www.anaplan.com/platform/intelligence/ - the "Anaplan AI Gateway" featur
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown/enterprise-leaning. No pricing or plan-gating information is disclosed on the pages reviewed; Anaplan is sold via enterprise contract in every other context researched for this directory, and nothing found here contradicts that pattern.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (/pricing resolves to a contact form promising an Anaplan expert will connect with you, with no pricing page and no developer or API portal link in nav or footer)
 
 **API documentation**
 
@@ -90,13 +88,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://help.anaplan.com/drive-intelligent-forecasting-with-planiq-7333fab4-7118-45d9-8504-4137bc114e04](https://help.anaplan.com/drive-intelligent-forecasting-with-planiq-7333fab4-7118-45d9-8504-4137bc114e04)
 - [https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html](https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html)
 - [https://www.pulsemcp.com/servers?q=anaplan](https://www.pulsemcp.com/servers?q=anaplan)
+- [https://www.anaplan.com/pricing/](https://www.anaplan.com/pricing/)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.anaplan.com/platform/anaplan-planiq/, https://www.anaplan.com/platform/intelligence/, https://help.anaplan.com/drive-intelligent-forecasting-with-planiq-7333fab4-7118-45d9-8504-4137bc114e04, https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html, https://www.pulsemcp.com/servers?q=anaplan
+https://www.anaplan.com/platform/anaplan-planiq/, https://www.anaplan.com/platform/intelligence/, https://help.anaplan.com/drive-intelligent-forecasting-with-planiq-7333fab4-7118-45d9-8504-4137bc114e04, https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html, https://www.pulsemcp.com/servers?q=anaplan, https://www.anaplan.com/pricing/
 
 **Notes, verbatim from the file**
-Marked official rather than none-found because Anaplan's own product page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law - the same judgment call made for the Default entry in 06-revops-infra.md - even though no dedicated MCP docs/repo page exists yet. Re-check as this matures; it currently reads as an early/generic capability statement rather than a documented integration.
+Marked official rather than none-found because Anaplan's own product page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law - the same judgment call made for the Default entry in 06-revops-infra.md - even though no dedicated MCP docs/repo page exists yet. Re-check as this matures; it currently reads as an early/generic capability statement rather than a documented integration. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.anaplan.com/pricing/): /pricing resolves to a contact form promising an Anaplan expert will connect with you, with no pricing page and no developer or API portal link in nav or footer.
 
 **Provenance**
 

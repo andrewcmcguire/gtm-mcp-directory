@@ -20,7 +20,7 @@ Return sends, opens, replies, views, watch time and campaign-level results back 
 - **official MCP**: 7
 - **community MCP**: 3
 - **no MCP found**: 3
-- **solo reachable**: 5
+- **solo reachable**: 6
 
 10 of the 14 entries tagged with this job carry an MCP server of some kind, 7 of them official. 13 of the 14 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -55,21 +55,21 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md) apollo.io Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/task) cadences that enroll contacts pulled from Apollo's prospecting database and track send/reply state. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Trumpet](../tools/trumpet.md) sendtrumpet.com Digital-sales-room / buyer-facing microsite platform ("Pods") for revenue teams, with a built-in webcam/screen-recording tool for sellers to send personalized welcome and post-demo recap videos embedded in the... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md) · Cross listed, canonical home is Proposals & Deals
+
+- [Loom](../tools/loom.md) loom.com Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and embed CTAs/booking links directly in the video. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [BombBomb](../tools/bombbomb.md) bombbomb.com Asynchronous video-messaging platform for sales, real estate, and CX teams to record and send personalized one-to-one videos via email/text/CRM with open and watch tracking. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Video Prospecting](../categories/video-prospecting.md)
 
-- [Loom](../tools/loom.md) loom.com Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and embed CTAs/booking links directly in the video. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Covideo](../tools/covideo.md) covideo.com Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and CRM integrations; heavily used in automotive-dealership sales but marketed broadly for sales... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Video Prospecting](../categories/video-prospecting.md)
 
-- [Covideo](../tools/covideo.md) covideo.com Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and CRM integrations; heavily used in automotive-dealership sales but marketed broadly for sales... [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Dubb](../tools/dubb.md) dubb.com Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via email, SMS, LinkedIn, iMessage, or QR code, with trackable video landing pages. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
-- [Dubb](../tools/dubb.md) dubb.com Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via email, SMS, LinkedIn, iMessage, or QR code, with trackable video landing pages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
-
-- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
 

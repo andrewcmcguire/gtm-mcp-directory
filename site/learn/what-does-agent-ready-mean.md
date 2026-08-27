@@ -26,7 +26,7 @@ This site does not use agent ready as a rating, because a rating nobody can repr
 
 - **How does it authenticate.** OAuth with a scoped, revocable token is a different security conversation from an API key in a config file. [The split across every server here is published.](../lists/auth-types.md)
 
-- **Can you get in.** 158 of 293 entries are free to start or paid self serve, and 45 need a contract. Cross that with the server column and 117 entries pass both tests. An official MCP server behind a procurement cycle is not agent ready for most of the people reading this.
+- **Can you get in.** 174 of 293 entries are free to start or paid self serve, and 77 need a contract. Cross that with the server column and 123 entries pass both tests. An official MCP server behind a procurement cycle is not agent ready for most of the people reading this.
 
 ## The trap in the phrase
 

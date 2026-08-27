@@ -42,7 +42,7 @@ Identifies companies visiting a website via IP-to-company matching, tracks page-
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals...
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
-- [Amplemarket](../tools/amplemarket.md) No MCP found · Gate unknown
+- [Amplemarket](../tools/amplemarket.md) No MCP found · Enterprise leaning
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
 - [Factors.ai](../tools/factors-ai.md) Official MCP · Paid, self-serve
 De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party...
@@ -55,7 +55,7 @@ Identifies anonymous website visitor companies via IP-to-company database matchi
 - [Trigify (Trigify.io)](../tools/trigify.md) Community MCP · Paid, self-serve
 Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who...
 
-6 more are on the linked page. The cut is the display limit, not a ranking.
+7 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## Sources
 

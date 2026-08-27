@@ -1,6 +1,6 @@
 # Cal.com: MCP server status, API access gate and what it does
 
-> Open-source scheduling infrastructure  - booking pages, event types, and a scheduling API/platform  - offered... Official MCP, Free to start. Checked 2026-08-24.
+> Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered... Official MCP, Free to start. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

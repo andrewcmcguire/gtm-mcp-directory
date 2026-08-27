@@ -1,6 +1,6 @@
 # Aviso: MCP server status, API access gate and what it does
 
-> AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Aviso
 # Aviso
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ none
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown. No developer/API documentation was found in site navigation, and third-party sources disagree on whether a public API exists at all. Pricing is entirely quote/demo-gated - no self-serve tier or published prices.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (quote-only - the pricing page asks you to fill out a form for a tailored proposal - and no API or developer docs link exists in nav or footer)
 
 **API documentation**
 
@@ -94,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://aviso.ai, https://www.atom.com/name/Aviso.ai, https://www.aviso.com, https://www.aviso.com/pricing
 
 **Notes, verbatim from the file**
-DOMAIN FLAG - aviso.ai does not belong to the company; it 302-redirects to a domain marketplace/broker listing page. The live product is at aviso.com. Same "wrong domain in circulation" pattern flagged for Clearbit/Leadfeeder elsewhere in this directory.
+DOMAIN FLAG - aviso.ai does not belong to the company; it 302-redirects to a domain marketplace/broker listing page. The live product is at aviso.com. Same "wrong domain in circulation" pattern flagged for Clearbit/Leadfeeder elsewhere in this directory. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.aviso.com/pricing/): quote-only - the pricing page asks you to fill out a form for a tailored proposal - and no API or developer docs link exists in nav or footer.
 
 **Provenance**
 

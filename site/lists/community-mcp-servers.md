@@ -19,6 +19,9 @@ A community server is a real server. It is also a server that can be abandoned w
 | [Fathom](../tools/fathom.md)
 fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp) +2 more | API key
 Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment... | [Free to start](../gates/free.md) |
+| [Loom](../tools/loom.md)
+loom.com | [Video Prospecting](../categories/video-prospecting.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | API key
+karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session... | [Free to start](../gates/free.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp) | API key
 api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
@@ -58,6 +61,9 @@ Handled through the Zapier/Pipedream platform's own connector auth (API key ente
 | [Vidyard](../tools/vidyard.md)
 vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [https://viasocket.com/mcp/vidyard](https://viasocket.com/mcp/vidyard) | Third party platform auth
 Not documented in technical detail on the viaSocket listing ("built-in authentication").... | [Paid, self-serve](../gates/paid.md) |
+| [Weezly](../tools/weezly.md)
+weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Third party platform auth
+Zapier-mediated connection. | [Paid, self-serve](../gates/paid.md) |
 | [BombBomb](../tools/bombbomb.md)
 bombbomb.com | [Video Prospecting](../categories/video-prospecting.md) | [https://zapier.com/mcp/bombbombcom](https://zapier.com/mcp/bombbombcom) | OAuth or an API key
 Rides Zapier's own OAuth/API-key connection to BombBomb; not a native BombBomb MCP auth... | [Enterprise only](../gates/enterprise-only.md) |
@@ -66,18 +72,12 @@ brandwatch.com | [Community & Dark Social](../categories/community-dark-social.m
 unknown - the third-party server's description states it interfaces with "the Brandwatch... | [Enterprise only](../gates/enterprise-only.md) |
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
-API key via COPY_AI_API_KEY environment variable | [Gate unknown](../gates/unknown.md) |
+API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
-Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Gate unknown](../gates/unknown.md) |
-| [Loom](../tools/loom.md)
-loom.com | [Video Prospecting](../categories/video-prospecting.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | API key
-karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session... | [Gate unknown](../gates/unknown.md) |
-| [Weezly](../tools/weezly.md)
-weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Third party platform auth
-Zapier-mediated connection. | [Gate unknown](../gates/unknown.md) |
+Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
-Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Gate unknown](../gates/unknown.md) |
+Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

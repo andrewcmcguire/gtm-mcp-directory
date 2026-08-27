@@ -61,7 +61,7 @@ api_gate, verbatim from the file:
 
 unknown. No public pricing page was found; the pricing route is a demo-booking form ("Schedule a personalized 30-minute demo"), consistent with a sales-led model, but no explicit enterprise-only statement was found either.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -89,13 +89,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://usepylon.com/mcp](https://usepylon.com/mcp)
 - [https://usepylon.com/pricing](https://usepylon.com/pricing)
 - [https://www.pulsemcp.com/servers/pylon](https://www.pulsemcp.com/servers/pylon)
+- [https://docs.usepylon.com/pylon-docs/developer/api](https://docs.usepylon.com/pylon-docs/developer/api)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://usepylon.com, https://usepylon.com/mcp, https://usepylon.com/pricing, https://www.pulsemcp.com/servers/pylon
+https://usepylon.com, https://usepylon.com/mcp, https://usepylon.com/pricing, https://www.pulsemcp.com/servers/pylon, https://docs.usepylon.com/pylon-docs/developer/api
 
 **Notes, verbatim from the file**
-None.
+None. [api_gate 2026-08-25] Re-checked and left unknown, honestly: usepylon.com/pricing is a demo-booking page with no tiers or prices and no pricing link exists in nav or footer; the public API reference states only that admin users can create API tokens, with no plan requirement. Checked against https://docs.usepylon.com/pylon-docs/developer/api.
 
 **Provenance**
 

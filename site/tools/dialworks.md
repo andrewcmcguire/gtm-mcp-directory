@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - vendor offers a 30-day free trial with $3,000 in credits and no credit card required (self-serve-friendly), but sources point custom/large-team pricing to a direct sales contact, so full API-tier gating could not be confirmed.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -86,13 +86,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://dialworks.io/pricing](https://dialworks.io/pricing)
 - [https://www.xpay.sh/saas-pricing/dialworks-io/](https://www.xpay.sh/saas-pricing/dialworks-io/)
 - [https://dialfyne.com/blog/ai-sales-roleplay-platform-comparison-2026](https://dialfyne.com/blog/ai-sales-roleplay-platform-comparison-2026)
+- [https://www.dialworks.io/pricing](https://www.dialworks.io/pricing)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://dialworks.io/pricing, https://www.xpay.sh/saas-pricing/dialworks-io/, https://dialfyne.com/blog/ai-sales-roleplay-platform-comparison-2026
+https://dialworks.io/pricing, https://www.xpay.sh/saas-pricing/dialworks-io/, https://dialfyne.com/blog/ai-sales-roleplay-platform-comparison-2026, https://www.dialworks.io/pricing
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. dialworks.io/pricing returned a TLS certificate error on direct fetch during this pass - pricing facts here are drawn from third-party trackers (xpay.sh) rather than the vendor page directly; re-verify by hand.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. dialworks.io/pricing returned a TLS certificate error on direct fetch during this pass - pricing facts here are drawn from third-party trackers (xpay.sh) rather than the vendor page directly; re-verify by hand. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the vendor site is unreachable - dialworks.io serves an expired TLS certificate, so neither the homepage nor /pricing could be loaded on www or apex. Worth re-checking on the next weekly verify run; an expired certificate is often the first visible sign of an abandoned product. Checked against https://www.dialworks.io/pricing.
 
 **Provenance**
 

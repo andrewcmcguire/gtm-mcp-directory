@@ -28,7 +28,7 @@ Split it into two permissions. Reading availability is safe and immediately usef
 ## The tools an agent can call
 
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
-Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable...
+Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
 Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules.
 - [Tavus](../tools/tavus.md) Official MCP · Free to start
@@ -41,7 +41,7 @@ Inbound lead-routing and instant meeting-booking platform ("Concierge") that qua
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Mixmax](../tools/mixmax.md) Official MCP · Paid, self-serve
 Gmail-native sales engagement layer that runs email sequences, tracking, calendaring and meeting notes from inside the inbox.
-- [Default](../tools/default.md) Official MCP · Gate unknown
+- [Default](../tools/default.md) Official MCP · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [RevenueHero](../tools/revenuehero.md) Official MCP · Gate unknown
 Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's...
@@ -60,7 +60,7 @@ Prospect-facing scheduling/booking-page tool (Calendly competitor) built around 
 
 ## Where scheduling coverage actually sits
 
-Scheduling & Routing has 6 official servers and 2 community across 14 entries, with 7 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
+Scheduling & Routing has 6 official servers and 2 community across 14 entries, with 6 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
 
 ## Sources
 

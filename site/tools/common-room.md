@@ -1,6 +1,6 @@
 # Common Room: MCP server status, API access gate and what it does
 
-> Aggregates buyer/community engagement signals  - Slack, Discord, GitHub activity (stars, PRs, issues),... Official MCP, Enterprise only. Checked 2026-08-24.
+> Aggregates buyer/community engagement signals - Slack, Discord, GitHub activity (stars, PRs, issues), product... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

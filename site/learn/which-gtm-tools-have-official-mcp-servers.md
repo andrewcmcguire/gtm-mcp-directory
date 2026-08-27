@@ -57,7 +57,7 @@ A CRM built around a flexible, user-defined data model (not fixed contact/compan
 - [Autobound](../tools/autobound.md) Official MCP · Free to start
 Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed.
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
-Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable...
+Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
 Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules.
 - [Cargo](../tools/cargo.md) Official MCP · Free to start
@@ -65,23 +65,23 @@ A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, versi
 - [Census (now operates as "Fivetran Activations")](../tools/census.md) Official MCP · Free to start
 Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the...
 - [Common Paper](../tools/common-paper.md) Official MCP · Free to start
-Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature...
+Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature layer,...
 - [Composio](../tools/composio.md) Official MCP · Free to start
 A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion,...
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Diffbot](../tools/diffbot.md) Official MCP · Free to start
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Enrow](../tools/enrow.md) Official MCP · Free to start
 Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a...
 - [Exa](../tools/exa.md) Official MCP · Free to start
 A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
-- [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
-Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 
 120 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The caveat that matters
 
-An official server is not the same as a server you can use. 22 of these sit behind an enterprise gate: a contract, a seat count or a procurement cycle before anybody gets a key. Check the gate column, not just the status.
+An official server is not the same as a server you can use. 31 of these sit behind an enterprise gate: a contract, a seat count or a procurement cycle before anybody gets a key. Check the gate column, not just the status.
 
 ## Sources
 

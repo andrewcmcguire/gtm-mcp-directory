@@ -1,6 +1,6 @@
 # MailGenius: MCP server status, API access gate and what it does
 
-> Free/paid email deliverability and spam-testing tool  - checks SPF/DKIM/DMARC authentication, scans... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

@@ -1,6 +1,6 @@
 # Clockwise: MCP server status, API access gate and what it does
 
-> Historical  - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended... No MCP found, Gate unknown. Checked 2026-08-24.
+> Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended... No MCP found, Gate unknown. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -60,7 +60,7 @@ api_gate, verbatim from the file:
 
 unknown/moot - product discontinued, no live API to gate
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -97,7 +97,7 @@ Reason recorded by the tagging pass: dead. Entry says THE PRODUCT IS SHUT DOWN. 
 https://www.getclockwise.com, https://aiforautomation.io/news/2026-03-20-clockwise-ai-scheduling-salesforce-acquires-shuts-down, https://thedailyclaws.com/blog/2026-03-20-news-clockwise-shutdown-salesforce/, https://www.usecarly.com/blog/is-clockwise-shutting-down/, https://finance.yahoo.com/sectors/technology/articles/salesforce-recuits-team-behind-calendar-app-clockwise-103000806.html, https://vantagepoint.io/blog/sf/clockwise-salesforce-agentic-ai-acquihire-crm-strategy, https://www.pulsemcp.com/servers/clockwise
 
 **Notes, verbatim from the file**
-CLOCKWISE IS SHUT DOWN. Salesforce acqui-hired the Clockwise team in late 2025 (folded into Agentforce/agentic-AI effort - people, not the standalone product). getclockwise.com now shows a static wind-down notice stating the product "will no longer be available starting on March 27, 2026" - a date already passed as of this file's last_checked. support.getclockwise.com and mcp.getclockwise.com no longer resolve (confirmed via direct fetch during this research pass). Clockwise officially recommended Reclaim.ai as the migration path for departing customers, with a price-match guarantee cited by third-party sources. Kept in this file as a discontinued/historical entry on purpose - this kind of quiet mid-category death is exactly what INDEX.md's "quiet deaths and rebrands" section exists to catch. Do not present this as a live, usable tool in any published content.
+CLOCKWISE IS SHUT DOWN. Salesforce acqui-hired the Clockwise team in late 2025 (folded into Agentforce/agentic-AI effort - people, not the standalone product). getclockwise.com now shows a static wind-down notice stating the product "will no longer be available starting on March 27, 2026" - a date already passed as of this file's last_checked. support.getclockwise.com and mcp.getclockwise.com no longer resolve (confirmed via direct fetch during this research pass). Clockwise officially recommended Reclaim.ai as the migration path for departing customers, with a price-match guarantee cited by third-party sources. Kept in this file as a discontinued/historical entry on purpose - this kind of quiet mid-category death is exactly what INDEX.md's "quiet deaths and rebrands" section exists to catch. Do not present this as a live, usable tool in any published content. [api_gate 2026-08-25] Re-checked and left unknown, honestly: DEAD PRODUCT, confirmed 2026-08-25. getclockwise.com still resolves but every path, including /pricing, now serves a shutdown notice: the Clockwise team is joining Salesforce and the product shut down on 27 March 2026. Clockwise-managed calendar events and Scheduling Links stopped working, user data is deleted rather than transferred, prorated refunds were issued, and the page points customers to Reclaim with a price-match migration offer. This confirms and escalates the DYING flag raised in the 2026-08 sweep (INDEX.md finding 5). The entry needs a human decision on tombstoning versus delisting before the next republish; api_gate is left unknown because there is no longer a product to gate. Checked against https://www.getclockwise.com/.
 
 **Provenance**
 

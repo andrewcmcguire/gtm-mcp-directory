@@ -1,6 +1,6 @@
 # Clara (Clara Labs): MCP server status, API access gate and what it does
 
-> AI scheduling assistant reached by CC'ing "Clara" on an email thread  - it reads the thread, proposes times,... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times,... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

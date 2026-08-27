@@ -21,11 +21,11 @@ Tools that sit on the receiving end of demand - website chat that qualifies and 
 
 - **Free to start**: 2
 - **Paid, self-serve**: 3
-- **Enterprise only**: 2
-- **Gate unknown**: 4
+- **Enterprise only**: 3
+- **Gate unknown**: 3
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 6b62f3128ce4efbb... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 3265772db0eda36d... · counts reconciled against tools_recount.py at build time.
 
 - [The 5 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 
@@ -38,9 +38,9 @@ Source file: 14-inbound-plg-chat.md · content sha256 6b62f3128ce4efbb... · cou
 
 - [Intercom (Fin)](../tools/intercom.md) intercom.com Customer service/helpdesk platform whose "Fin" AI agent resolves support and pre-sales chat conversations autonomously across a website widget, email, and other channels. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Ada](../tools/ada.md) ada.cx Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales conversations end-to-end. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [Ada](../tools/ada.md) ada.cx Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales conversations end-to-end. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 
 - [Pylon](../tools/pylon.md) usepylon.com "Agentic" B2B customer support platform (Slack, Teams, email, chat, SMS, WhatsApp, phone) where AI agents and humans jointly investigate, resolve, and act on support signals. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 

@@ -1,6 +1,6 @@
 # Allegrow: MCP server status, API access gate and what it does
 
-> B2B email verification and deliverability platform  - resolves catch-all/secure-email-gateway addresses that... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> B2B email verification and deliverability platform - resolves catch-all/secure-email-gateway addresses that... Official MCP, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

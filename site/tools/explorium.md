@@ -1,6 +1,6 @@
 # Explorium: MCP server status, API access gate and what it does
 
-> Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup... Official MCP, Gate unknown. Checked 2026-08-24.
+> Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup... Official MCP, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Explorium
 # Explorium
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-08-24
@@ -53,15 +53,13 @@ https://www.explorium.ai/mcp/ (also listed at https://glama.ai/mcp/servers/explo
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key)
 
 **API documentation**
 
@@ -92,13 +90,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/)
 - [https://glama.ai/mcp/servers/explorium-ai/mcp-explorium](https://glama.ai/mcp/servers/explorium-ai/mcp-explorium)
 - [https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/](https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/)
+- [https://developers.explorium.ai/reference/setup/getting_your_api_key](https://developers.explorium.ai/reference/setup/getting_your_api_key)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.explorium.ai/mcp/, https://glama.ai/mcp/servers/explorium-ai/mcp-explorium, https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/
+https://www.explorium.ai/mcp/, https://glama.ai/mcp/servers/explorium-ai/mcp-explorium, https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/, https://developers.explorium.ai/reference/setup/getting_your_api_key
 
 **Notes, verbatim from the file**
-Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not independently verified. Vendor content implies self-serve sign-up/trial for the MCP and API, but an explicit self-serve-vs-sales-gated pricing page could not be confirmed, so api_gate is left unknown rather than guessed.
+Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not independently verified. Vendor content implies self-serve sign-up/trial for the MCP and API, but an explicit self-serve-vs-sales-gated pricing page could not be confirmed, so api_gate is left unknown rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://developers.explorium.ai/reference/setup/getting_your_api_key): the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key.
 
 **Provenance**
 

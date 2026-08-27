@@ -61,7 +61,7 @@ api_gate, verbatim from the file:
 
 unknown/mixed. A self-serve "/signup" flow exists alongside "Get a demo" CTAs, and the docs note "rate limits ... may vary depending on your plan" without publishing any plan or pricing details - could not confirm whether MCP/API access is available below a paid or enterprise tier.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -94,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://endgame.io, https://docs.endgame.io, https://docs.endgame.io/features/mcp-server
 
 **Notes, verbatim from the file**
-DISAMBIGUATION - verified this is not an unrelated security- or gaming-branded "Endgame"; endgame.io's own case studies (Handle, Monte Carlo, BetterUp, Hex) and GTM-agent framing confirm it is a revenue-intelligence company. However, its current positioning (calls/deals/emails/documents -> context graph) reads as closer to conversation-intelligence/account-context than to a PLG product-usage-signal tool like Pocus/Correlated/Toplyne - the seed framing may reflect an earlier product stage; flagging for whoever updates this entry next.
+DISAMBIGUATION - verified this is not an unrelated security- or gaming-branded "Endgame"; endgame.io's own case studies (Handle, Monte Carlo, BetterUp, Hex) and GTM-agent framing confirm it is a revenue-intelligence company. However, its current positioning (calls/deals/emails/documents -> context graph) reads as closer to conversation-intelligence/account-context than to a PLG product-usage-signal tool like Pocus/Correlated/Toplyne - the seed framing may reflect an earlier product stage; flagging for whoever updates this entry next. [api_gate 2026-08-25] Re-checked and left unknown, honestly: no pricing page exists (endgame.io/pricing 404s) though a self-serve sign-up is offered; the docs describe an MCP server and API keys with the only stated limit being that only Endgame admins can create API keys, and no tier condition is published. Checked against https://docs.endgame.io/features/mcp-server.
 
 **Provenance**
 

@@ -1,18 +1,18 @@
-# GTM tools a solo operator can reach: 117 with a server and no procurement cycle
+# GTM tools a solo operator can reach: 123 with a server and no procurement cycle
 
-> 117 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-25.
+> 123 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 117 GTM tools an agent can call and a solo operator can pay for
+[The lists](index.md) / The 123 GTM tools an agent can call and a solo operator can pay for
 
-**List · 117 of 293**
+**List · 123 of 293**
 
-## The 117 GTM tools an agent can call and a solo operator can pay for
+## The 123 GTM tools an agent can call and a solo operator can pay for
 
-Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 158 entries pass the gate test on its own (57 free to start plus 101 paid self serve) and 165 pass the server test on its own. 117 pass both. Paying is allowed; a procurement cycle is not.
+Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 174 entries pass the gate test on its own (61 free to start plus 113 paid self serve) and 165 pass the server test on its own. 123 pass both. Paying is allowed; a procurement cycle is not.
 
 | Tool | Category | Gate | MCP status | Jobs it is tagged with |
 |---|---|---|---|---|
@@ -38,6 +38,8 @@ getcensus.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](
 commonpaper.com | [Proposals & Deals](../categories/proposals-deals.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Send a document for signature](../jobs/send-document-for-signature.md) [Read contract terms](../jobs/read-contract-terms.md) |
 | [Composio](../tools/composio.md)
 composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) |
 | [Enrow](../tools/enrow.md)
@@ -140,12 +142,18 @@ cufinder.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, sel
 docusign.com | [Proposals & Deals](../categories/proposals-deals.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Send a document for signature](../jobs/send-document-for-signature.md) [Read contract terms](../jobs/read-contract-terms.md) |
 | [Dropcontact](../tools/dropcontact.md)
 dropcontact.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) +1 |
+| [Explorium](../tools/explorium.md)
+explorium.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) +1 |
+| [Fellow](../tools/fellow.md)
+fellow.ai | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Fiber AI](../tools/fiber-ai.md)
 fiber.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +2 |
 | [Grain](../tools/grain.md)
 grain.com | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) +3 |
+| [Granola](../tools/granola.md)
+granola.ai | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [HeyGen](../tools/heygen.md)
 heygen.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [HeyReach](../tools/heyreach.md)
@@ -224,6 +232,8 @@ wiza.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-se
 woodpecker.co | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) |
 | [Fathom](../tools/fathom.md)
 fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
+| [Loom](../tools/loom.md)
+loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +2 |
 | [Bonjoro](../tools/bonjoro.md)
@@ -250,5 +260,7 @@ unifygtm.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](..
 uplead.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +4 |
 | [Vidyard](../tools/vidyard.md)
 vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
+| [Weezly](../tools/weezly.md)
+weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Book a meeting](../jobs/book-a-meeting.md) |
 
 Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

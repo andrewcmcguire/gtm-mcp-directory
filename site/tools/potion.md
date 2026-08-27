@@ -1,6 +1,6 @@
 # Potion: MCP server status, API access gate and what it does
 
-> AI video-personalization tool for outbound sales  - record one template video, and Potion overlays a... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI video-personalization tool for outbound sales - record one template video, and Potion overlays a... No MCP found, Gate unknown. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown. A personal API token exists (used to connect Zapier) but no public developer-API documentation or portal was found; API-related questions are routed to a support email rather than public docs.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -86,13 +86,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.capterra.com/p/232470/Potion/](https://www.capterra.com/p/232470/Potion/)
 - [https://coldiq.com/tools/potion](https://coldiq.com/tools/potion)
 - [https://help.sendpotion.com/how-to-set-up-potion-and-zapier](https://help.sendpotion.com/how-to-set-up-potion-and-zapier)
+- [https://www.sendpotion.com/pricing](https://www.sendpotion.com/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://sendpotion.com/ai-video-prospecting-software/, https://www.capterra.com/p/232470/Potion/, https://coldiq.com/tools/potion, https://help.sendpotion.com/how-to-set-up-potion-and-zapier
+https://sendpotion.com/ai-video-prospecting-software/, https://www.capterra.com/p/232470/Potion/, https://coldiq.com/tools/potion, https://help.sendpotion.com/how-to-set-up-potion-and-zapier, https://www.sendpotion.com/pricing
 
 **Notes, verbatim from the file**
-Third-party pricing figures conflict meaningfully ($99/mo vs $250/mo "starting price," different video-volume caps); vendor's own pricing page was not successfully fetched in this research pass, so treat all price figures as third-party-reported, not primary-sourced. Search noise: "Potion" collides with an unrelated Minecraft server community and a Notion-API-clone GitHub project - neither relates to sendpotion.com.
+Third-party pricing figures conflict meaningfully ($99/mo vs $250/mo "starting price," different video-volume caps); vendor's own pricing page was not successfully fetched in this research pass, so treat all price figures as third-party-reported, not primary-sourced. Search noise: "Potion" collides with an unrelated Minecraft server community and a Notion-API-clone GitHub project - neither relates to sendpotion.com. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Starter $99/mo, Professional $299/mo, Enterprise custom) but never mentions an API - the only programmatic feature listed is Zapier Webhooks on Professional - and sendpotion.com/api returns 404. Checked against https://www.sendpotion.com/pricing.
 
 **Provenance**
 

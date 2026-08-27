@@ -1,6 +1,6 @@
 # Exploding Topics (Exploding Topics Pro): MCP server status, API access gate and what it does
 
-> Surfaces topics, products, and search queries showing accelerating growth in interest before they go... No MCP found, Gate unknown. Checked 2026-08-24.
+> Surfaces topics, products, and search queries showing accelerating growth in interest before they go... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Exploding Topics (Exploding Topics Pro)
 # Exploding Topics (Exploding Topics Pro)
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ none
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown - no API access was mentioned anywhere on the pricing page reviewed; the product is sold purely as a research dashboard (Entrepreneur $39/mo, Investor $99/mo, Business $249/mo).
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (the API is an add-on to the Business plan which starts at $249/mo, with request tiers at $1,000/mo for 1,000 requests, $2,000/mo for 5,000 and $4,000/mo for 25,000, so the real solo-operator floor is about $1,249/mo; commercial or product-embedded use needs custom pricing)
 
 **API documentation**
 
@@ -83,13 +81,14 @@ Reason recorded by the tagging pass: no-job-fits. Trend and topic velocity detec
 **Sources**
 
 - [https://explodingtopics.com/pricing](https://explodingtopics.com/pricing)
+- [https://explodingtopics.com/feature/et-api](https://explodingtopics.com/feature/et-api)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://explodingtopics.com/pricing
+https://explodingtopics.com/pricing, https://explodingtopics.com/feature/et-api
 
 **Notes, verbatim from the file**
-Confirmed current ownership - the pricing page footer states "Exploding Topics is a Trademark of Semrush Inc," and pricing links route through semrush.com, confirming the product is now sold as "Exploding Topics Pro" within Semrush's portfolio rather than as an independent company. Checked GitHub and PulseMCP - no MCP server found.
+Confirmed current ownership - the pricing page footer states "Exploding Topics is a Trademark of Semrush Inc," and pricing links route through semrush.com, confirming the product is now sold as "Exploding Topics Pro" within Semrush's portfolio rather than as an independent company. Checked GitHub and PulseMCP - no MCP server found. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://explodingtopics.com/feature/et-api): the API is an add-on to the Business plan which starts at $249/mo, with request tiers at $1,000/mo for 1,000 requests, $2,000/mo for 5,000 and $4,000/mo for 25,000, so the real solo-operator floor is about $1,249/mo; commercial or product-embedded use needs custom pricing.
 
 **Provenance**
 

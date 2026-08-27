@@ -1,6 +1,6 @@
 # Ada: MCP server status, API access gate and what it does
 
-> Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales... Official MCP, Gate unknown. Checked 2026-08-24.
+> Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Ada
 # Ada
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://docs.ada.cx/_mcp/server
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown/enterprise-leaning. No self-serve pricing page was found; the site routes to "Speak to an expert," consistent with enterprise-only sales.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (/pricing is a demo-booking landing page with no tiers or prices; docs.ada.cx publishes a public API reference but states no plan or package requirement for access)
 
 **API documentation**
 
@@ -87,13 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.ada.cx](https://www.ada.cx)
 - [https://docs.ada.cx](https://docs.ada.cx)
 - [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server)
+- [https://www.ada.cx/pricing/](https://www.ada.cx/pricing/)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.ada.cx, https://docs.ada.cx, https://docs.ada.cx/_mcp/server
+https://www.ada.cx, https://docs.ada.cx, https://docs.ada.cx/_mcp/server, https://www.ada.cx/pricing/
 
 **Notes, verbatim from the file**
-IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search over the documentation") and only lets an AI client search Ada's own help docs; it is not an MCP for querying or acting on a customer's live Ada account data (conversations, contacts, etc.). Listed as official because the URL is real and vendor-hosted, but do not conflate this with a full product-data MCP like Intercom's or Pylon's.
+IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search over the documentation") and only lets an AI client search Ada's own help docs; it is not an MCP for querying or acting on a customer's live Ada account data (conversations, contacts, etc.). Listed as official because the URL is real and vendor-hosted, but do not conflate this with a full product-data MCP like Intercom's or Pylon's. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ada.cx/pricing/): /pricing is a demo-booking landing page with no tiers or prices; docs.ada.cx publishes a public API reference but states no plan or package requirement for access.
 
 **Provenance**
 

@@ -1,6 +1,6 @@
 # Nooks: MCP server status, API access gate and what it does
 
-> AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and... No MCP found, Gate unknown. Checked 2026-08-25.
+> AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and... No MCP found, Enterprise only. Checked 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Nooks
 # Nooks
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-25
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (pricing is quote-only; self-serve OAuth app creation exists but requires workspace admin plus a Nooks Sequencing or Coaching seat)
 
 **API documentation**
 
@@ -104,7 +102,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.nooks.ai/ai-dialer, https://www.nooks.ai/ai-sequencing, https://www.nooks.ai/pricing, https://developer.nooks.in/, https://github.com/NooksApp, https://pipeline.zoominfo.com/sales/nooks-ai-zoominfo-gtm-ai-integration
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com (pulsemcp returned zero results). A developer.nooks.in portal with OAuth2/API keys exists, but the pricing page only offers custom quotes with no disclosed API tier; the custom-quote sales motion suggests enterprise-leaning access, but that is inference, not a confirmed fact. RE-CHECKED 2026-08-25 on a specific pointer that Nooks had shipped something in the MCP/agent space. What was found is not a Nooks MCP server: it is Nooks positioning itself as an "Agent Workspace for Intelligent Outbound" (AI Dialing Assistant, AI Coaching Assistant, AI Prospector, AI Sequencing) and a native bidirectional integration with ZoomInfo's GTM.AI context layer, where mutual customers connect a ZoomInfo entitlement to Nooks through a native connector and Nooks engagement signals flow back through a Custom Data Connector inside ZoomInfo's GTM Studio. ZoomInfo's own write-up does not state whether Nooks consumes GTM.AI over MCP or over REST, and does not claim Nooks exposes an MCP server of its own. So Nooks is an MCP *consumer* story at best, not an MCP provider; mcp_status stays none-found. If Nooks ships a first-party server this is the entry to update.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com (pulsemcp returned zero results). A developer.nooks.in portal with OAuth2/API keys exists, but the pricing page only offers custom quotes with no disclosed API tier; the custom-quote sales motion suggests enterprise-leaning access, but that is inference, not a confirmed fact. RE-CHECKED 2026-08-25 on a specific pointer that Nooks had shipped something in the MCP/agent space. What was found is not a Nooks MCP server: it is Nooks positioning itself as an "Agent Workspace for Intelligent Outbound" (AI Dialing Assistant, AI Coaching Assistant, AI Prospector, AI Sequencing) and a native bidirectional integration with ZoomInfo's GTM.AI context layer, where mutual customers connect a ZoomInfo entitlement to Nooks through a native connector and Nooks engagement signals flow back through a Custom Data Connector inside ZoomInfo's GTM Studio. ZoomInfo's own write-up does not state whether Nooks consumes GTM.AI over MCP or over REST, and does not claim Nooks exposes an MCP server of its own. So Nooks is an MCP *consumer* story at best, not an MCP provider; mcp_status stays none-found. If Nooks ships a first-party server this is the entry to update. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.nooks.ai/pricing): pricing is quote-only; self-serve OAuth app creation exists but requires workspace admin plus a Nooks Sequencing or Coaching seat.
 
 **Provenance**
 

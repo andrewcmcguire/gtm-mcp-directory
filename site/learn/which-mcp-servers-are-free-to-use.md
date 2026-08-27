@@ -1,6 +1,6 @@
-# Which GTM MCP servers are free to use? 42 products, counted
+# Which GTM MCP servers are free to use? 44 products, counted
 
-> 42 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-08-25.
+> 44 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-42 unique products here have both an MCP server and a free to start gate, meaning you can sign up, get access and point an agent at them without paying anything or speaking to a salesperson. Free to start is a gate, not a price: everything on this list still meters something.
+44 unique products here have both an MCP server and a free to start gate, meaning you can sign up, get access and point an agent at them without paying anything or speaking to a salesperson. Free to start is a gate, not a price: everything on this list still meters something.
 
 The MCP server itself is almost never the thing you pay for. What you pay for is what it calls: credits, seats, sends, lookups. A free server in front of a metered API is normal and it is not a trick, but an agent in a loop consumes a free tier considerably faster than a human clicking does.
 
@@ -31,7 +31,7 @@ A CRM built around a flexible, user-defined data model (not fixed contact/compan
 - [Autobound](../tools/autobound.md) Official MCP · Free to start
 Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed.
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
-Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable...
+Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
 Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules.
 - [Cargo](../tools/cargo.md) Official MCP · Free to start
@@ -39,9 +39,11 @@ A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, versi
 - [Census (now operates as "Fivetran Activations")](../tools/census.md) Official MCP · Free to start
 Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the...
 - [Common Paper](../tools/common-paper.md) Official MCP · Free to start
-Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature...
+Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature layer,...
 - [Composio](../tools/composio.md) Official MCP · Free to start
 A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion,...
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Diffbot](../tools/diffbot.md) Official MCP · Free to start
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Enrow](../tools/enrow.md) Official MCP · Free to start
@@ -102,18 +104,20 @@ Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP client
 A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human...
 - [Fathom](../tools/fathom.md) Community MCP · Free to start
 Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
+- [Loom](../tools/loom.md) Community MCP · Free to start
+Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and...
 - [People Data Labs](../tools/people-data-labs.md) Community MCP · Free to start
 A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by...
 
 ## What this directory does and does not track about money
 
-- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 57 entries are free to start, 101 paid self serve, 45 enterprise only, 83 unknown.
+- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 61 entries are free to start, 113 paid self serve, 77 enterprise only, 32 unknown.
 
 - **Not tracked:** prices, credit costs, quota sizes, rate limits, overage behaviour, or what happens to your data on a free tier. None of those should be inferred from anything here.
 
 ## The starter kit shape
 
-If you want a chain rather than a single tool, the free and reachable jobs with the deepest coverage are [enrich a company from a domain](../jobs/enrich-company-from-domain.md) at 12 free entries, [find a work email address](../jobs/find-work-email.md) at 12, and [verify an email is deliverable](../jobs/verify-email-deliverable.md) at 6. That is enough to build a research and contact chain without a contract, and it is the cheapest honest way to find out whether any of this works for you.
+If you want a chain rather than a single tool, the free and reachable jobs with the deepest coverage are [enrich a company from a domain](../jobs/enrich-company-from-domain.md) at 14 free entries, [find a work email address](../jobs/find-work-email.md) at 12, and [verify an email is deliverable](../jobs/verify-email-deliverable.md) at 6. That is enough to build a research and contact chain without a contract, and it is the cheapest honest way to find out whether any of this works for you.
 
 ## Sources
 

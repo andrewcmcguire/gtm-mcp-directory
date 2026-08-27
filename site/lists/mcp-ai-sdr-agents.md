@@ -33,7 +33,7 @@ unifygtm.com | [Community MCP](../mcp/community.md) | [https://github.com/footca
 Auth0 browser sign-in (auth.unifygtm.com); MCP caches the session cookie (~30-day life)... | [Paid, self-serve](../gates/paid.md) |
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
-API key via COPY_AI_API_KEY environment variable | [Gate unknown](../gates/unknown.md) |
+API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
 ### The other 17 in this category
 
@@ -41,38 +41,38 @@ No server found, or the check could not settle it. Same category, not reachable 
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
+| [Landbase](../tools/landbase.md)
+landbase.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-08-24 |
 | [AiSDR](../tools/aisdr.md)
 aisdr.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [HubSpot Breeze (AI Prospecting Agent)](../tools/hubspot-breeze.md)
 hubspot.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Klenty](../tools/klenty.md)
+klenty.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Regie.ai](../tools/regie-ai.md)
 regie.ai | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Reply.io (Jason AI)](../tools/reply-io.md)
+reply.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [11x (Alice)](../tools/11x.md)
+11x.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Artisan AI (Ava)](../tools/artisan-ai.md)
+artisan.co | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Conversica](../tools/conversica.md)
+conversica.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [MadKudu](../tools/madkudu.md)
+madkudu.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Qualified (Piper)](../tools/qualified.md)
 qualified.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-25 |
 | [Salesforce Agentforce (SDR Agent)](../tools/salesforce-agentforce.md)
 salesforce.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [11x (Alice)](../tools/11x.md)
-11x.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Artisan AI (Ava)](../tools/artisan-ai.md)
-artisan.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Conversica](../tools/conversica.md)
-conversica.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Klenty](../tools/klenty.md)
-klenty.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Landbase](../tools/landbase.md)
-landbase.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+| [Terret (BoostUp)](../tools/terret.md)
+terret.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Tofu](../tools/tofu.md)
+tofuhq.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Luru](../tools/luru.md)
 luru.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [MadKudu](../tools/madkudu.md)
-madkudu.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Reply.io (Jason AI)](../tools/reply-io.md)
-reply.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Rox](../tools/rox.md)
 rox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Terret (BoostUp)](../tools/terret.md)
-terret.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Tofu](../tools/tofu.md)
-tofuhq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Trellus AI](../tools/trellus-ai.md)
 trellus.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 

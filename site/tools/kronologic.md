@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown for a general API/developer surface (no API/webhook/SDK docs found anywhere on the site), but Kronologic is notably the only tool in this file with a genuine self-serve Free tier ($0/mo: booking page + Google Calendar + 2 meeting types) - though the AI "negotiation" features that differentiate it are gated to paid Pro ($15/seat/mo) and Team ($49/seat/mo) tiers.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.kronologic.com/, https://www.kronologic.com/pricing/, https://www.kronologic.com/calendar-link-vs-kronologic
 
 **Notes, verbatim from the file**
-Vendor domain redirects from kronologic.ai to kronologic.com (canonical). No MCP or public API surface found in any registry (mcp.so, glama.ai, pulsemcp.com) or on the vendor's own site after repeated targeted checks - a genuine gap, not a search failure.
+Vendor domain redirects from kronologic.ai to kronologic.com (canonical). No MCP or public API surface found in any registry (mcp.so, glama.ai, pulsemcp.com) or on the vendor's own site after repeated targeted checks - a genuine gap, not a search failure. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Free $0, Pro $15/seat/mo, Team $49/seat/mo, Enterprise custom) but no tier mentions API, kronologic.com/api returns 404, docs.kronologic.com does not resolve, and no API or Developers link appears in nav or footer. Checked against https://www.kronologic.com/pricing.
 
 **Provenance**
 

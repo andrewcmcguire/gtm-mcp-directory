@@ -50,7 +50,7 @@ Video Prospecting has 6 community servers against 3 official, the only category 
 
 ## How to use this ranking
 
-Build the agent driven parts of a stack from the top of that table, and expect to write glue or click at the bottom of it. Then apply the second filter, which is the access gate: reachable and purchasable are different columns, and 45 entries need a contract before any of this is relevant.
+Build the agent driven parts of a stack from the top of that table, and expect to write glue or click at the bottom of it. Then apply the second filter, which is the access gate: reachable and purchasable are different columns, and 77 entries need a contract before any of this is relevant.
 
 ## Sources
 

@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown. No self-serve pricing or API docs were found; the current page routes only to "Talk to Sales" / "Tour Our Platform."
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -90,7 +90,7 @@ Reason recorded by the tagging pass: dead. Folded into Salesloft, and the entry 
 https://www.drift.com, https://www.salesloft.com/platform/drift
 
 **Notes, verbatim from the file**
-STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.com 302-redirects straight to salesloft.com/platform/drift, and that page itself states the conversational-AI engine has moved from Drift to a third party ("1mind") - i.e., the original Drift product appears to be sunset in favor of a partner integration, not merely rebranded. Worth re-verifying before citing Drift as a live, buyable product in its own right.
+STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.com 302-redirects straight to salesloft.com/platform/drift, and that page itself states the conversational-AI engine has moved from Drift to a third party ("1mind") - i.e., the original Drift product appears to be sunset in favor of a partner integration, not merely rebranded. Worth re-verifying before citing Drift as a live, buyable product in its own right. [api_gate 2026-08-25] Re-checked and left unknown, honestly: Drift is absorbed into Salesloft and the chat capability has been replaced - the Salesloft page states they have transitioned from Drift to 1mind. A Drift login still exists but no Drift pricing or API terms are published, so there is no current gate to record. Checked against https://www.salesloft.com/platform/drift.
 
 **Provenance**
 

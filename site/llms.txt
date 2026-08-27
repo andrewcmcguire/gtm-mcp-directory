@@ -11,7 +11,15 @@ This file exists because the directory publishes what it measures. A directory o
 - [search-index.json](https://andrewcmcguire.com/gtm-directory/search-index.json): one compact record per unique product, 277 of them.
 - [The data page](https://andrewcmcguire.com/gtm-directory/data.html): what every field means and how to read it without getting it wrong.
 - **Markdown twins**: every HTML page on this site has a markdown twin at the same path with a `.md` extension. Same content, no navigation, no styling, no scripts. Links inside a twin point at other twins, so the whole site is crawlable in markdown. Example: `https://andrewcmcguire.com/gtm-directory/learn/what-is-an-mcp-server.md`.
-- [sitemap.xml](https://andrewcmcguire.com/gtm-directory/sitemap.xml): all 461 pages.
+- [sitemap.xml](https://andrewcmcguire.com/gtm-directory/sitemap.xml): all 466 pages.
+
+## The GTM Engineer job board
+
+- [https://andrewcmcguire.com/gtm-directory/jobs-board/index.html](https://andrewcmcguire.com/gtm-directory/jobs-board/index.html): 66 open reqs at 37 companies. Every one of them was fetched at its own apply link on 2026-08-27 and answered. A listing that fails is removed, not greyed out.
+- [https://andrewcmcguire.com/gtm-directory/jobs-board/verification.html](https://andrewcmcguire.com/gtm-directory/jobs-board/verification.html): the method, and the full ledger of the 60 listings the same pass removed, each with the reason.
+- [https://andrewcmcguire.com/gtm-directory/data/jobs_board.json](https://andrewcmcguire.com/gtm-directory/data/jobs_board.json): the board as JSON, including the removal ledger.
+- If you are quoting this board, quote the date with it. 66 of 126 tracked reqs were live on 2026-08-27; the number changes every week and a count without its date is not a fact.
+- No job description is republished here. The employer's page is the only copy.
 
 ## The vocabulary, so an answer quoted from here is not wrong
 
@@ -26,9 +34,9 @@ This file exists because the directory publishes what it measures. A directory o
 
 - Entries: 293 across 15 categories. Unique products: 277. Cross listed: 16.
 - MCP status: 144 official, 21 community, 117 none found, 7 unknown, 4 not applicable.
-- API gate: 57 free to start, 101 paid self serve, 45 enterprise only, 1 enterprise leaning, 83 unknown, 6 not applicable.
-- Free to start or paid self serve: 158.
-- Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 117. This is the strictest useful filter on the site.
+- API gate: 61 free to start, 113 paid self serve, 77 enterprise only, 4 enterprise leaning, 32 unknown, 6 not applicable.
+- Free to start or paid self serve: 174.
+- Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 123. This is the strictest useful filter on the site.
 - Jobs: 55 in 10 families, 827 tags across 271 entries. 22 entries are untagged and each records why.
 - Bench tested: 0.
 
@@ -47,9 +55,9 @@ This file exists because the directory publishes what it measures. A directory o
 - [The 144 GTM tools with an official MCP server](https://andrewcmcguire.com/gtm-directory/lists/official-mcp-servers.html): 144 entries. The full list of 144 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-08-25.
 - [The 21 GTM tools with a community MCP server](https://andrewcmcguire.com/gtm-directory/lists/community-mcp-servers.html): 21 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-08-25 across 293 directory entries.
 - [The 117 GTM tools with no MCP server found](https://andrewcmcguire.com/gtm-directory/lists/no-mcp-server.html): 117 entries. 117 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-08-25.
-- [The 57 GTM tools a solo operator can call for free](https://andrewcmcguire.com/gtm-directory/lists/free-api-tiers.html): 57 entries. 57 go to market tools where a solo operator can get API access without talking to anyone. 44 of them also have an MCP server. Counted 2026-08-25.
-- [The 117 GTM tools an agent can call and a solo operator can pay for](https://andrewcmcguire.com/gtm-directory/lists/solo-reachable.html): 117 entries. 117 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-25.
-- [The 46 GTM tools that need a contract before an agent can touch them](https://andrewcmcguire.com/gtm-directory/lists/enterprise-gated.html): 46 entries. 45 enterprise only entries plus 1 enterprise leaning. 22 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-08-25.
+- [The 61 GTM tools a solo operator can call for free](https://andrewcmcguire.com/gtm-directory/lists/free-api-tiers.html): 61 entries. 61 go to market tools where a solo operator can get API access without talking to anyone. 46 of them also have an MCP server. Counted 2026-08-25.
+- [The 123 GTM tools an agent can call and a solo operator can pay for](https://andrewcmcguire.com/gtm-directory/lists/solo-reachable.html): 123 entries. 123 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-25.
+- [The 81 GTM tools that need a contract before an agent can touch them](https://andrewcmcguire.com/gtm-directory/lists/enterprise-gated.html): 81 entries. 77 enterprise only entries plus 4 enterprise leaning. 31 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-08-25.
 - [GTM MCP servers that use OAuth](https://andrewcmcguire.com/gtm-directory/lists/auth-oauth.html): 46 entries. 46 of the 165 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
 - [GTM MCP servers that use an API key](https://andrewcmcguire.com/gtm-directory/lists/auth-api-key.html): 44 entries. 44 of the 165 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
 - [GTM MCP servers that accept OAuth or an API key](https://andrewcmcguire.com/gtm-directory/lists/auth-either.html): 45 entries. 45 of the 165 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.

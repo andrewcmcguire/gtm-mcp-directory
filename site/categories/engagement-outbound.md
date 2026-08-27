@@ -22,11 +22,12 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **No MCP found**: 9
 
 - **Free to start**: 1
-- **Paid, self-serve**: 15
-- **Enterprise only**: 1
-- **Gate unknown**: 10
+- **Paid, self-serve**: 18
+- **Enterprise leaning**: 1
+- **Enterprise only**: 6
+- **Gate unknown**: 1
 
-Source file: 02-engagement-outbound.md · content sha256 40e2fc0e90526348... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 9e5fb6f8786bd8c8... · counts reconciled against tools_recount.py at build time.
 
 - [The 17 with an MCP server](../lists/mcp-engagement-outbound.md)
 
@@ -61,30 +62,30 @@ Source file: 02-engagement-outbound.md · content sha256 40e2fc0e90526348... · 
 
 - [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md) apollo.io Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/task) cadences that enroll contacts pulled from Apollo's prospecting database and track send/reply state. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [Outreach](../tools/outreach.md) outreach.io Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md)
+- [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Expandi](../tools/expandi.md) expandi.io Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Klenty](../tools/klenty.md) klenty.com Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS Dynamics). [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Mailshake](../tools/mailshake.md) mailshake.com Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+
 - [QuickMail](../tools/quickmail.md) quickmail.com Cold email and LinkedIn outreach automation tool sent from users' own mailboxes, with inbox rotation and reply management. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md)
 
-- [Expandi](../tools/expandi.md) expandi.io Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Kixie](../tools/kixie.md) kixie.com Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence calling, and CRM-embedded calling/texting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Mailshake](../tools/mailshake.md) mailshake.com Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

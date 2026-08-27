@@ -1,6 +1,6 @@
 # Landbase: MCP server status, API access gate and what it does
 
-> A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using... No MCP found, Gate unknown. Checked 2026-08-24.
+> A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using... No MCP found, Free to start. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Landbase
 # Landbase
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Free to start](../gates/free.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -48,15 +48,13 @@ The mcp_url field is empty on this entry. 21 of 293 entries are.
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Free to start
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, without talking to anyone
 
 api_gate, verbatim from the file:
 
-unknown - no public pricing found; notable CLI install path for coding-agent integration (cli.landbase.com/latest/agent-install.txt) aimed at Claude Code/Codex, but that is a CLI, not an MCP server
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+free (free signup grants an instant API key with 1,000 credits and no credit card, plus $49 of free credits; paid credit packs start at $499/mo for 15,000 credits)
 
 **API documentation**
 
@@ -84,13 +82,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://www.landbase.com](https://www.landbase.com)
+- [https://www.landbase.com/pricing](https://www.landbase.com/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://www.landbase.com
+https://www.landbase.com, https://www.landbase.com/pricing
 
 **Notes, verbatim from the file**
-Worth a second look for the "MCP infrastructure" category (7) rather than just this one - the Claude Code/Codex CLI installer is an interesting adjacent-to-MCP integration pattern even though it isn't MCP itself.
+Worth a second look for the "MCP infrastructure" category (7) rather than just this one - the Claude Code/Codex CLI installer is an interesting adjacent-to-MCP integration pattern even though it isn't MCP itself. [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://www.landbase.com/pricing): free signup grants an instant API key with 1,000 credits and no credit card, plus $49 of free credits; paid credit packs start at $499/mo for 15,000 credits.
 
 **Provenance**
 

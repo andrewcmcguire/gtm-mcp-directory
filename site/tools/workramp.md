@@ -1,6 +1,6 @@
 # WorkRamp: MCP server status, API access gate and what it does
 
-> Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and... Community MCP, Gate unknown. Checked 2026-08-24.
+> Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and... Community MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ WorkRamp
 # WorkRamp
 
 [Community MCP](../mcp/community.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-08-24
@@ -53,15 +53,13 @@ https://zapier.com/mcp/workramp ; https://viasocket.com/mcp/workramp
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - no public price list; quote-based sales model with third-party trackers estimating Professional-tier pricing around $20-30K/year and Enterprise around $40K+/year, with API usage cited as a pricing variable.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo)
 
 **API documentation**
 
@@ -89,13 +87,14 @@ Reason recorded by the tagging pass: no-job-fits. Corporate LMS, same call as Co
 - [https://viasocket.com/mcp/workramp](https://viasocket.com/mcp/workramp)
 - [https://www.vendr.com/marketplace/workramp](https://www.vendr.com/marketplace/workramp)
 - [https://getcor.ai/blog/reviews/workramp-pricing](https://getcor.ai/blog/reviews/workramp-pricing)
+- [https://developers.workramp.com/](https://developers.workramp.com/)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://zapier.com/mcp/workramp, https://viasocket.com/mcp/workramp, https://www.vendr.com/marketplace/workramp, https://getcor.ai/blog/reviews/workramp-pricing
+https://zapier.com/mcp/workramp, https://viasocket.com/mcp/workramp, https://www.vendr.com/marketplace/workramp, https://getcor.ai/blog/reviews/workramp-pricing, https://developers.workramp.com/
 
 **Notes, verbatim from the file**
-Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a WorkRamp-published server - hence community, not official. Exposes 11 triggers plus create-assignment/onboard-user/update-profile write actions per Zapier's documented action list.
+Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a WorkRamp-published server - hence community, not official. Exposes 11 triggers plus create-assignment/onboard-user/update-profile write actions per Zapier's documented action list. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://developers.workramp.com/): the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo.
 
 **Provenance**
 

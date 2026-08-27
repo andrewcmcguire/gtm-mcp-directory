@@ -1,6 +1,6 @@
 # InboxAlly: MCP server status, API access gate and what it does
 
-> Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns;... No MCP found, Gate unknown. Checked 2026-08-24.
+> Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns;... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ InboxAlly
 # InboxAlly
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (a fully documented REST API is available on every plan, but there is no free tier - the cheapest self-serve entry is Starter at $149/mo)
 
 **API documentation**
 
@@ -85,13 +83,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.inboxally.com/email-warmup-tool](https://www.inboxally.com/email-warmup-tool)
 - [https://docs.inboxally.com/warm-up-sending-strategy/the-dangers-of-using-an-automated-email-warmup-service/](https://docs.inboxally.com/warm-up-sending-strategy/the-dangers-of-using-an-automated-email-warmup-service/)
 - [https://www.inboxally.com/blog/gmass-email-warm-up](https://www.inboxally.com/blog/gmass-email-warm-up)
+- [https://www.inboxally.com/pricing](https://www.inboxally.com/pricing)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.inboxally.com/email-warmup-tool, https://docs.inboxally.com/warm-up-sending-strategy/the-dangers-of-using-an-automated-email-warmup-service/, https://www.inboxally.com/blog/gmass-email-warm-up
+https://www.inboxally.com/email-warmup-tool, https://docs.inboxally.com/warm-up-sending-strategy/the-dangers-of-using-an-automated-email-warmup-service/, https://www.inboxally.com/blog/gmass-email-warm-up, https://www.inboxally.com/pricing
 
 **Notes, verbatim from the file**
-InboxAlly's own knowledge base publishes "Why are automated email warmup services risky?" - explicitly naming ToS violation/account-suspension risk and citing Google's January 2023 ban on automated warmup for Gmail as the reason GMass shut its warmup feature down. This is the source behind this file's intro-level ToS flag; InboxAlly positions its own real-seed-account approach as the workaround. No MCP server or API developer portal was found for InboxAlly itself.
+InboxAlly's own knowledge base publishes "Why are automated email warmup services risky?" - explicitly naming ToS violation/account-suspension risk and citing Google's January 2023 ban on automated warmup for Gmail as the reason GMass shut its warmup feature down. This is the source behind this file's intro-level ToS flag; InboxAlly positions its own real-seed-account approach as the workaround. No MCP server or API developer portal was found for InboxAlly itself. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://www.inboxally.com/pricing): a fully documented REST API is available on every plan, but there is no free tier - the cheapest self-serve entry is Starter at $149/mo.
 
 **Provenance**
 

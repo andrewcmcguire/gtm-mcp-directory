@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - no self-serve pricing, signup, or API docs were found anywhere on the site; /pricing 404'd during this research and the homepage is demo-gated only ("Book a Demo," no visible signup or dollar figures).
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://championhq.com](https://championhq.com)
 - [https://championhq.com/product](https://championhq.com/product)
+- [https://championhq.com/pricing](https://championhq.com/pricing)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://championhq.com, https://championhq.com/product
+https://championhq.com, https://championhq.com/product, https://championhq.com/pricing
 
 **Notes, verbatim from the file**
-DISAMBIGUATION FLAG - do not confuse with Champify (champify.io), a different company covered in 05-signals-intent-abm.md that tracks job changes of past customers/champions moving to NEW companies. Champion (championhq.com) instead scores and activates champions WITHIN existing customer accounts for references, case studies, and expansion - a distinct product shape despite the near-identical name and adjacent positioning. Several plausible domains for a "Champion" tool were checked and ruled out during this research: champion.io (redirects to an unrelated personal site), trychampion.com (parked/domain-marketplace listing), and champion.app (parked for sale on GoDaddy) - championhq.com is the verified, live, correct domain.
+DISAMBIGUATION FLAG - do not confuse with Champify (champify.io), a different company covered in 05-signals-intent-abm.md that tracks job changes of past customers/champions moving to NEW companies. Champion (championhq.com) instead scores and activates champions WITHIN existing customer accounts for references, case studies, and expansion - a distinct product shape despite the near-identical name and adjacent positioning. Several plausible domains for a "Champion" tool were checked and ruled out during this research: champion.io (redirects to an unrelated personal site), trychampion.com (parked/domain-marketplace listing), and champion.app (parked for sale on GoDaddy) - championhq.com is the verified, live, correct domain. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the Pricing nav item is a dead hash link with no destination, championhq.com/pricing returns 404, and no API or developer docs are referenced anywhere on the site. Checked against https://championhq.com/pricing.
 
 **Provenance**
 

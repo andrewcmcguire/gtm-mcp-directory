@@ -1,6 +1,6 @@
 # Amplemarket: MCP server status, API access gate and what it does
 
-> An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences... No MCP found, Gate unknown. Checked 2026-08-24.
+> An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences... No MCP found, Enterprise leaning. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Amplemarket
 # Amplemarket
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise leaning](../gates/enterprise-leaning.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise leaning
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-leaning (any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual)
 
 **API documentation**
 
@@ -110,13 +108,14 @@ What that listing says it does: An all-in-one sales platform (lead gen + multich
 
 - [https://www.amplemarket.com/](https://www.amplemarket.com/)
 - [https://glama.ai/mcp/servers?query=amplemarket](https://glama.ai/mcp/servers?query=amplemarket)
+- [https://www.amplemarket.com/pricing](https://www.amplemarket.com/pricing)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket
+https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket, https://www.amplemarket.com/pricing
 
 **Notes, verbatim from the file**
-No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP.
+No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual.
 
 **Provenance**
 

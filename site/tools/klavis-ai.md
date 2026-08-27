@@ -1,6 +1,6 @@
 # Klavis AI: MCP server status, API access gate and what it does
 
-> Primarily an AI-agent training-data company  - it builds "live environments for training AI agents"... No MCP found, Gate unknown. Checked 2026-08-24.
+> Primarily an AI-agent training-data company - it builds "live environments for training AI agents"... No MCP found, Gate unknown. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [klavis.ai](https://klavis.ai) · entry id 07-klavis-ai · source 07-mcp-infrastructure.md line 217
+Vendor: [klavis.ai](https://klavis.ai) · entry id 07-klavis-ai · source 07-mcp-infrastructure.md line 219
 
 **What it does**
 Primarily an AI-agent training-data company - it builds "live environments for training AI agents" (long-horizon coding tasks and agentic tool-use scenarios), and separately mentions "production MCP servers" and "600+ real tools and SaaS apps" as part of that training-data infrastructure.
@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - pricing page referenced but not disclosed in the fetched content
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,14 +84,15 @@ Reason recorded by the tagging pass: unclear. The entry states the product is ag
 
 - [https://www.klavis.ai](https://www.klavis.ai)
 - [https://klavis.ai/pricing](https://klavis.ai/pricing)
+- [https://www.klavis.ai/docs/quickstart.md](https://www.klavis.ai/docs/quickstart.md)
 - (fetched; no pricing figures returned)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.klavis.ai, https://klavis.ai/pricing (fetched; no pricing figures returned)
+https://www.klavis.ai, https://klavis.ai/pricing (fetched; no pricing figures returned), https://www.klavis.ai/docs/quickstart.md
 
 **Notes, verbatim from the file**
-Included per the research brief's seed list, but the public-facing material found positions Klavis as an AI-agent training/eval company first, not a GTM-facing hosted-MCP aggregator - treat any "GTM connector" framing of Klavis with caution until a clearer product page is found.
+Included per the research brief's seed list, but the public-facing material found positions Klavis as an AI-agent training/eval company first, not a GTM-facing hosted-MCP aggregator - treat any "GTM connector" framing of Klavis with caution until a clearer product page is found. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the quickstart says to create an account and get the API key from klavis.ai/home/api-keys, so keys are self-serve with no sales call and an open-source self-hosted path exists - but klavis.ai/pricing is client-rendered and returned only nav and footer to a plain fetch, so whether a free tier or a paid plan backs those keys is unverified and the free-versus-paid split stays unknown. Checked against https://www.klavis.ai/docs/quickstart.md.
 
 **Provenance**
 
@@ -99,7 +100,7 @@ Included per the research brief's seed list, but the public-facing material foun
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 217
+- **Source line**: 219
 
 - **Tier**: RESEARCHED
 

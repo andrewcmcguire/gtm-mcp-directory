@@ -20,7 +20,7 @@ Query across many recorded conversations at once rather than fetching one by id.
 - **official MCP**: 5
 - **community MCP**: 0
 - **no MCP found**: 0
-- **solo reachable**: 2
+- **solo reachable**: 3
 
 5 of the 5 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 5 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-25 from directory.json.
 
@@ -45,11 +45,11 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Grain](../tools/grain.md) grain.com AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Granola](../tools/granola.md) granola.ai General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Sybill](../tools/sybill.md) sybill.ai AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and behavioral/sentiment reads on prospects. [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Gong](../tools/gong.md) gong.io Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Granola](../tools/granola.md) granola.ai General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Sybill](../tools/sybill.md) sybill.ai AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and behavioral/sentiment reads on prospects. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 ### Next to this job
 

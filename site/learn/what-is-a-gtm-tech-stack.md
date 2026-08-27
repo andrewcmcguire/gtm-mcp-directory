@@ -48,7 +48,7 @@ If you are assembling a stack an agent can drive, build it from the top of that 
 
 ## The second filter
 
-Reachable is not the same as available. 45 entries need a contract before anybody gets an API key. Cross those two columns before you plan anything: the list you actually get to build with is the 117 entries that have a server and are free to start or paid self serve.
+Reachable is not the same as available. 77 entries need a contract before anybody gets an API key. Cross those two columns before you plan anything: the list you actually get to build with is the 123 entries that have a server and are free to start or paid self serve.
 
 ## Sources
 

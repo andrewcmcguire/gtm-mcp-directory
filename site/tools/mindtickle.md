@@ -1,6 +1,6 @@
 # Mindtickle: MCP server status, API access gate and what it does
 
-> Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI... No MCP found, Gate unknown. Checked 2026-08-24.
+> Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Mindtickle
 # Mindtickle
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - no public self-serve pricing; API access requires emailing an admin request per Mindtickle's own developer docs, and third-party trackers describe the product as sold via custom quote only. Enterprise-leaning inferred but not confirmed as fully enterprise-only.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing published anywhere and the only acquisition path is book-a-demo; the integrations page confirms a real REST API exists across Content, User and Reporting with SCIM, SAML and OpenID support, but publishes no self-serve route to it)
 
 **API documentation**
 
@@ -89,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.vendr.com/marketplace/mindtickle](https://www.vendr.com/marketplace/mindtickle)
 - [https://www.apirefs.com/apps/mindtickle/integrations](https://www.apirefs.com/apps/mindtickle/integrations)
 - [https://aitoolsbakery.com/blog/mindtickle-pricing/](https://aitoolsbakery.com/blog/mindtickle-pricing/)
+- [https://www.mindtickle.com/integrations/](https://www.mindtickle.com/integrations/)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.mindtickle.com/platform/ai-sales-role-play/, https://apitracker.io/a/mindtickle, https://www.vendr.com/marketplace/mindtickle, https://www.apirefs.com/apps/mindtickle/integrations, https://aitoolsbakery.com/blog/mindtickle-pricing/
+https://www.mindtickle.com/platform/ai-sales-role-play/, https://apitracker.io/a/mindtickle, https://www.vendr.com/marketplace/mindtickle, https://www.apirefs.com/apps/mindtickle/integrations, https://aitoolsbakery.com/blog/mindtickle-pricing/, https://www.mindtickle.com/integrations/
 
 **Notes, verbatim from the file**
-Searched GitHub, mcp.so, glama.ai, and pulsemcp.com - no Mindtickle MCP server found (glama.ai search for "mindtickle" returned zero matches). getguru.com published a speculative "What Is MindTickle MCP?" explainer that explicitly states no confirmed MCP integration exists - do not cite that page as evidence of one.
+Searched GitHub, mcp.so, glama.ai, and pulsemcp.com - no Mindtickle MCP server found (glama.ai search for "mindtickle" returned zero matches). getguru.com published a speculative "What Is MindTickle MCP?" explainer that explicitly states no confirmed MCP integration exists - do not cite that page as evidence of one. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.mindtickle.com/integrations/): no pricing published anywhere and the only acquisition path is book-a-demo; the integrations page confirms a real REST API exists across Content, User and Reporting with SCIM, SAML and OpenID support, but publishes no self-serve route to it.
 
 **Provenance**
 

@@ -23,9 +23,10 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 
 - **Free to start**: 7
 - **Paid, self-serve**: 2
-- **Gate unknown**: 4
+- **Enterprise only**: 1
+- **Gate unknown**: 3
 
-Source file: 07-mcp-infrastructure.md · content sha256 d05be641445b3c91... · counts reconciled against tools_recount.py at build time.
+Source file: 07-mcp-infrastructure.md · content sha256 ae7ba695df5435c5... · counts reconciled against tools_recount.py at build time.
 
 - [The 7 with an MCP server](../lists/mcp-mcp-infrastructure.md)
 
@@ -46,7 +47,7 @@ Source file: 07-mcp-infrastructure.md · content sha256 d05be641445b3c91... · c
 
 - [Pipedream MCP](../tools/pipedream-mcp.md) pipedream.com Pipedream's existing workflow/integration platform re-exposed as hosted MCP servers, giving an MCP client access to 3,000+ connected apps and 10,000+ pre-built tools via Pipedream Connect. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md) turbomcp.ai An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled deployment of MCP servers across a team's own infrastructure (K8s, PaaS, VMs). [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md) turbomcp.ai An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled deployment of MCP servers across a team's own infrastructure (K8s, PaaS, VMs). [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [mcp.so](../tools/mcp-so.md) mcp.so A community MCP server/client directory (per its public reputation as one of the earlier MCP catalog sites) - could not independently re-verify current content in this research pass. [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md)
 

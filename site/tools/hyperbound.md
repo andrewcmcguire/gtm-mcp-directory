@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - priced per user across separate "Practice" and "Perform" licenses with volume/multi-year discounts; no public self-serve number found, and enterprise plans add SSO plus dedicated support, suggesting a sales-led motion.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.hyperbound.ai/product/ai-sales-roleplays, https://www.hyperbound.ai/pricing, https://www.hyperbound.ai/uses/ai-cold-call-practice, https://ycombinator.com/companies/hyperbound
 
 **Notes, verbatim from the file**
-Listed on the Zoom App Marketplace, Microsoft AppSource, and Salesforce AppExchange as an app/integration - those are marketplace listings, not MCP servers. No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com.
+Listed on the Zoom App Marketplace, Microsoft AppSource, and Salesforce AppExchange as an app/integration - those are marketplace listings, not MCP servers. No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. [api_gate 2026-08-25] Re-checked and left unknown, honestly: every fetch of the vendor's own site returned HTTP 403 (bot-blocked at the edge) on the homepage, /pricing and /pricing/, so no page could be read. Not a finding about the product, a finding about the fetch. Checked against https://www.hyperbound.ai/pricing.
 
 **Provenance**
 

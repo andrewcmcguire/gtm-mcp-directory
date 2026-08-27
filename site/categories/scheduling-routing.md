@@ -23,10 +23,10 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 
 - **Free to start**: 2
 - **Paid, self-serve**: 4
-- **Enterprise only**: 1
-- **Gate unknown**: 7
+- **Enterprise only**: 2
+- **Gate unknown**: 6
 
-Source file: 10-scheduling-routing.md · content sha256 c0fcd4082c0bb602... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 266753f62455e79f... · counts reconciled against tools_recount.py at build time.
 
 - [The 8 with an MCP server](../lists/mcp-scheduling-routing.md)
 
@@ -41,7 +41,7 @@ Source file: 10-scheduling-routing.md · content sha256 c0fcd4082c0bb602... · c
 
 - [Chili Piper](../tools/chili-piper.md) chilipiper.com Inbound lead-routing and instant meeting-booking platform ("Concierge") that qualifies web-form leads and books them directly onto the right rep's calendar in real time. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · Cross listed, canonical home is RevOps Infra
+- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · Cross listed, canonical home is RevOps Infra
 
 - [Reclaim.ai](../tools/reclaim-ai.md) reclaim.ai AI calendar app that auto-schedules tasks, habits, and focus time around a user's existing meetings, dynamically defending and rebalancing the calendar as things change. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 

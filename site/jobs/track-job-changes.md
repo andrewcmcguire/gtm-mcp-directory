@@ -60,9 +60,9 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Vector (vector.co)](../tools/vector.md) vector.co Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks their behavior (job changes, CRM activity, ad engagement)... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Champify](../tools/champify.md) champify.io Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost opportunities for re-engagement, integrated directly into Salesforce. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Champify](../tools/champify.md) champify.io Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost opportunities for re-engagement, integrated directly into Salesforce. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 ### Next to this job
 

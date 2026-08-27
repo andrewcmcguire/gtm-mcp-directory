@@ -55,11 +55,11 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
+- [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Email Deliverability](../categories/email-deliverability.md)
+
+- [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims fully... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
-
-- [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 ### Next to this job
 

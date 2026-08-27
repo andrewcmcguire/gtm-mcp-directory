@@ -1,6 +1,6 @@
 # Ultimate.ai (Ultimate): MCP server status, API access gate and what it does
 
-> unknown in current standalone form  - was an AI customer-service-automation platform (chatbot/agent resolving... No MCP found, Gate not applicable. Checked 2026-08-24.
+> unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving... No MCP found, Gate not applicable. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -86,7 +86,7 @@ Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agent
 - 2024
 - referenced via the newsroom listing
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.zendesk.com/newsroom/press-releases/ (press release "Zendesk to Acquire Ultimate," dated March 13, 2024, referenced via the newsroom listing)
 

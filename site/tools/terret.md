@@ -1,6 +1,6 @@
 # Terret (BoostUp): MCP server status, API access gate and what it does
 
-> A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to... No MCP found, Gate unknown. Checked 2026-08-24.
+> A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Terret (BoostUp)
 # Terret (BoostUp)
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -48,15 +48,13 @@ The mcp_url field is empty on this entry. 21 of 293 entries are.
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - no pricing found; a "48-hour proof of concept" is offered free via a booked demo
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing published anywhere - /pricing is a demo booking form offering a 48-hour proof of concept - and the site names no API, developer docs or access condition)
 
 **API documentation**
 
@@ -84,13 +82,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://www.terret.ai](https://www.terret.ai)
+- [https://www.terret.ai/pricing](https://www.terret.ai/pricing)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://www.terret.ai
+https://www.terret.ai, https://www.terret.ai/pricing
 
 **Notes, verbatim from the file**
-SWEEP FLAG - the product's login portal is at app.boostup.ai, strongly indicating Terret is a rebrand (or sub-brand) of BoostUp, an established revenue-intelligence/forecasting vendor. Included because the seed list named it explicitly, but its category fit here is weak - it's not an outbound prospecting agent.
+SWEEP FLAG - the product's login portal is at app.boostup.ai, strongly indicating Terret is a rebrand (or sub-brand) of BoostUp, an established revenue-intelligence/forecasting vendor. Included because the seed list named it explicitly, but its category fit here is weak - it's not an outbound prospecting agent. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.terret.ai/pricing): no pricing published anywhere - /pricing is a demo booking form offering a 48-hour proof of concept - and the site names no API, developer docs or access condition.
 
 **Provenance**
 

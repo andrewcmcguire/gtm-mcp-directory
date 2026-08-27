@@ -86,4 +86,4 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)

@@ -1,6 +1,6 @@
 # Outreach: MCP server status, API access gate and what it does
 
-> Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call,... Official MCP, Gate unknown. Checked 2026-08-24.
+> Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call,... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Outreach
 # Outreach
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -53,15 +53,13 @@ https://api.outreach.io/mcp/ ; overview at https://support.outreach.io/support/s
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team)
 
 **API documentation**
 
@@ -96,13 +94,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://support.outreach.io/support/solutions/articles/159000426361-where-are-the-outreach-development-portal-and-api-documentation-](https://support.outreach.io/support/solutions/articles/159000426361-where-are-the-outreach-development-portal-and-api-documentation-)
 - [https://developers.outreach.io/](https://developers.outreach.io/)
 - [https://www.outreach.ai/product](https://www.outreach.ai/product)
+- [https://www.outreach.ai/pricing](https://www.outreach.ai/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview, https://support.outreach.io/support/solutions/articles/159000426361-where-are-the-outreach-development-portal-and-api-documentation-, https://developers.outreach.io/, https://www.outreach.ai/product
+https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview, https://support.outreach.io/support/solutions/articles/159000426361-where-are-the-outreach-development-portal-and-api-documentation-, https://developers.outreach.io/, https://www.outreach.ai/product, https://www.outreach.ai/pricing
 
 **Notes, verbatim from the file**
-The official MCP server is gated behind the paid "Amplify" add-on plus admin enablement, not a free-for-all connector. Base API access requires requesting developer-portal access; no public self-serve pricing found, so api_gate is left unknown rather than assumed. Community/read-only alternatives also exist (github.com/ZLeventer/outreach-mcp-server, github.com/CDataSoftware/outreach.io-mcp-server-by-cdata).
+The official MCP server is gated behind the paid "Amplify" add-on plus admin enablement, not a free-for-all connector. Base API access requires requesting developer-portal access; no public self-serve pricing found, so api_gate is left unknown rather than assumed. Community/read-only alternatives also exist (github.com/ZLeventer/outreach-mcp-server, github.com/CDataSoftware/outreach.io-mcp-server-by-cdata). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.outreach.ai/pricing): all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team.
 
 **Provenance**
 

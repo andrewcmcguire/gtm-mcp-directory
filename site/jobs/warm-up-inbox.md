@@ -62,13 +62,13 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Warmup Inbox](../tools/warmup-inbox.md) warmupinbox.com Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer's connected accounts to build sender reputation. [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Email Deliverability](../categories/email-deliverability.md)
 
+- [InboxAlly](../tools/inboxally.md) inboxally.com Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns; those seed accounts perform browser-level engagement (open, read, reply, mark important, move out of... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
+
 - [Mailreach](../tools/mailreach.md) mailreach.co Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat Score" reputation metric, and monitors blacklist/authentication status across Gmail, Outlook, and any... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
+- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Warmy.io](../tools/warmy-io.md) warmy.io Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up topic/language selection, works across Gmail, Outlook, Zoho, and Amazon SES, with a real-time... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
-
-- [InboxAlly](../tools/inboxally.md) inboxally.com Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns; those seed accounts perform browser-level engagement (open, read, reply, mark important, move out of... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
-
-- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 ### Next to this job
 

@@ -24,7 +24,7 @@ List every tool you pay for, then fill four columns: does it have an MCP server,
 
 - **Auth.** OAuth, API key, or both. This decides what your security review will say and how much of your account a leaked credential exposes.
 
-- **Your access.** Not the published gate, your actual contract. Plenty of enterprise gated tools are wide open to a customer who already has the agreement, which is why 22 entries here ship an official server behind a gate that is irrelevant if you are already inside it.
+- **Your access.** Not the published gate, your actual contract. Plenty of enterprise gated tools are wide open to a customer who already has the agreement, which is why 31 entries here ship an official server behind a gate that is irrelevant if you are already inside it.
 
 ## Then sort by job, not by category
 

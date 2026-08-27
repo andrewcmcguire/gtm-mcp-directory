@@ -1,6 +1,6 @@
 # Data & Enrichment: 38 tools, 31 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 38 tools counted, 31 with an official MCP server and 16 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 38 tools counted, 31 with an official MCP server and 17 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -20,12 +20,11 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Community MCP**: 2
 - **No MCP found**: 5
 
-- **Free to start**: 16
-- **Paid, self-serve**: 16
+- **Free to start**: 17
+- **Paid, self-serve**: 17
 - **Enterprise only**: 4
-- **Gate unknown**: 2
 
-Source file: 01-data-enrichment.md · content sha256 6975d3883773eb07... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 a3898a897d9f425f... · counts reconciled against tools_recount.py at build time.
 
 - [The 33 with an MCP server](../lists/mcp-data-enrichment.md)
 
@@ -35,6 +34,8 @@ Source file: 01-data-enrichment.md · content sha256 6975d3883773eb07... · coun
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
 - [Anymail Finder](../tools/anymail-finder.md) anymailfinder.com Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
@@ -70,6 +71,8 @@ Source file: 01-data-enrichment.md · content sha256 6975d3883773eb07... · coun
 
 - [Dropcontact](../tools/dropcontact.md) dropcontact.com A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name plus company (name, domain, or LinkedIn URL) and returns a verified professional email plus cleaned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
 - [Fiber AI](../tools/fiber-ai.md) fiber.ai B2B search and enrichment APIs for finding companies and people by structured filters or natural language, then revealing work emails and phone numbers with live LinkedIn data. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Lead411](../tools/lead411.md) lead411.com A B2B contact and company database with verified emails, direct dials, and growth/intent triggers, queryable by search or by an enrichment API. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
@@ -91,10 +94,6 @@ Source file: 01-data-enrichment.md · content sha256 6975d3883773eb07... · coun
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Surfe](../tools/surfe.md) surfe.com A Chrome extension plus API that pulls contacts and companies off LinkedIn, runs them through a multi-vendor waterfall to find verified emails and mobile numbers, and pushes the records into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
-
-- [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
-
-- [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 
 - [People Data Labs](../tools/people-data-labs.md) peopledatalabs.com A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk... [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md)
 

@@ -14,7 +14,7 @@
 
 **The short answer**
 
-20 of the 24 conversation intel entries in this directory have an MCP server: 17 built and maintained by the vendor and 3 built by somebody else. 3 are free to start and 6 need a contract before anybody gets an API key.
+20 of the 24 conversation intel entries in this directory have an MCP server: 17 built and maintained by the vendor and 3 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
 
 Call recordings are the richest unstructured data a revenue team owns, and the only place most of what a buyer actually said is written down. Whether an agent can read them decides whether it can prepare for a call or only summarise a CRM field.
 
@@ -34,12 +34,18 @@ Captures, transcribes, and analyzes sales and customer conversations, automatica
 AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams.
 - [Circleback](../tools/circleback.md) Official MCP · Paid, self-serve
 AI meeting notetaker that produces structured notes, action items and insights from calls, and connects email threads to the same relationship record.
+- [Fellow](../tools/fellow.md) Official MCP · Paid, self-serve
+A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they...
 - [Grain](../tools/grain.md) Official MCP · Paid, self-serve
 AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM.
+- [Granola](../tools/granola.md) Official MCP · Paid, self-serve
+General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app.
 - [tl;dv](../tools/tl-dv.md) Official MCP · Paid, self-serve
 Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering on sales coaching (playbook monitoring, objection handling) at higher...
 - [Clari](../tools/clari.md) Official MCP · Enterprise leaning
 Revenue operations platform that aggregates CRM, activity, and conversation data into pipeline inspection, forecasting, and deal-execution workflows.
+- [Sybill](../tools/sybill.md) Official MCP · Enterprise leaning
+AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and behavioral/sentiment reads on...
 - [Gong](../tools/gong.md) Official MCP · Enterprise only
 Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts.
 - [Highspot](../tools/highspot.md) Official MCP · Enterprise only
@@ -48,19 +54,13 @@ Sales enablement platform (content management, training) that has added a genuin
 AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor mentions, and pricing discussion...
 - [Seismic](../tools/seismic.md) Official MCP · Enterprise only
 Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales...
-- [Fellow](../tools/fellow.md) Official MCP · Gate unknown
-A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they...
-- [Granola](../tools/granola.md) Official MCP · Gate unknown
-General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app.
-- [Sybill](../tools/sybill.md) Official MCP · Gate unknown
-AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and behavioral/sentiment reads on...
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) Official MCP · Gate unknown
 Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account...
 - [Fathom](../tools/fathom.md) Community MCP · Free to start
 Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 - [Clari Copilot](../tools/clari-copilot.md) Community MCP · Paid, self-serve
 Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after...
-- [Jiminny](../tools/jiminny.md) Community MCP · Gate unknown
+- [Jiminny](../tools/jiminny.md) Community MCP · Enterprise only
 Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM.
 
 ## The rest of the category
@@ -71,7 +71,7 @@ Records, transcribes, and scores sales calls, syncing action items and summaries
 Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM.
 - [Momentum](../tools/momentum.md) No MCP found · Enterprise only
 Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration").
-- [Rilla](../tools/rilla.md) No MCP found · Gate unknown
+- [Rilla](../tools/rilla.md) No MCP found · Enterprise only
 AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile...
 - [Salesroom](../tools/salesroom.md) No MCP found · Gate unknown
 Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the...
@@ -81,12 +81,12 @@ Real-time AI video-conferencing platform for sales calls that coaches reps live 
 | Gate | Entries |
 |---|---|
 | [Free to start](../gates/free.md) | 3 |
-| [Paid, self-serve](../gates/paid.md) | 7 |
-| [Enterprise leaning](../gates/enterprise-leaning.md) | 1 |
-| [Enterprise only](../gates/enterprise-only.md) | 6 |
-| [Gate unknown](../gates/unknown.md) | 7 |
+| [Paid, self-serve](../gates/paid.md) | 9 |
+| [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
+| [Enterprise only](../gates/enterprise-only.md) | 8 |
+| [Gate unknown](../gates/unknown.md) | 2 |
 
-Counted 2026-08-25. Source file 03-conversation-intel.md, content sha256 7f128b545ae4e73b...
+Counted 2026-08-25. Source file 03-conversation-intel.md, content sha256 694831e32cbad581...
 
 ## Sources
 

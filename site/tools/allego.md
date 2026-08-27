@@ -1,6 +1,6 @@
 # Allego: MCP server status, API access gate and what it does
 
-> Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and... Official MCP, Gate unknown. Checked 2026-08-24.
+> Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and... Official MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Allego
 # Allego
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-08-24
@@ -52,15 +52,13 @@ https://www.allego.com/platform/integrations/ (Allego 9 "MCP API Server," announ
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - no public self-serve pricing; third-party trackers estimate $25-60/user/month, but Allego's own site routes all pricing to a sales contact form, and no separate rate is disclosed for MCP/API access.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site)
 
 **API documentation**
 
@@ -87,13 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/](https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/)
 - [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/)
 - [https://checkthat.ai/brands/allego/pricing](https://checkthat.ai/brands/allego/pricing)
+- [https://www.allego.com/pricing/](https://www.allego.com/pricing/)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/, https://www.allego.com/platform/integrations/, https://checkthat.ai/brands/allego/pricing
+https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/, https://www.allego.com/platform/integrations/, https://checkthat.ai/brands/allego/pricing, https://www.allego.com/pricing/
 
 **Notes, verbatim from the file**
-mcp_status is "official" because Allego's own site names and describes the "Allego MCP API Server" as a shipped Allego 9 feature - but no dedicated technical-docs URL, GitHub repo, or reachable endpoint was found in this pass; the integrations page is the only citable source. Re-verify with a direct docs URL before using this one on camera.
+mcp_status is "official" because Allego's own site names and describes the "Allego MCP API Server" as a shipped Allego 9 feature - but no dedicated technical-docs URL, GitHub repo, or reachable endpoint was found in this pass; the integrations page is the only citable source. Re-verify with a direct docs URL before using this one on camera. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.allego.com/pricing/): no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site.
 
 **Provenance**
 

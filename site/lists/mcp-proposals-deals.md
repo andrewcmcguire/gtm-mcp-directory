@@ -21,16 +21,16 @@ commonpaper.com | [Official MCP](../mcp/official.md) | [https://commonpaper.com/
 unknown - not detailed in the release-notes excerpt reviewed. | [Free to start](../gates/free.md) |
 | [PandaDoc](../tools/pandadoc.md)
 pandadoc.com | [Official MCP](../mcp/official.md) | [https://developers.pandadoc.com/docs/how-to-use-the-...](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server) +1 more | OAuth
-OAuth - remote hosted server, add the server URL to an MCP client (Claude Desktop,... | [Free to start](../gates/free.md) |
+OAuth - remote hosted server, add the server URL to an MCP client (Claude Desktop, Claude... | [Free to start](../gates/free.md) |
 | [Trumpet (sendtrumpet.com)](../tools/trumpet.md)
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://www.sendtrumpet.com/blog-posts/introducing-t...](https://www.sendtrumpet.com/blog-posts/introducing-trumpet-mcp) | OAuth
-unknown - vendor states it is "installable in five minutes with no engineering... | [Free to start](../gates/free.md) |
+unknown - vendor states it is "installable in five minutes with no engineering required,"... | [Free to start](../gates/free.md) |
 | [Arphie](../tools/arphie.md)
 arphie.ai | [Official MCP](../mcp/official.md) | referenced via pricing/product pages describing an "Arphie... | Auth not recorded
 unknown | [Paid, self-serve](../gates/paid.md) |
 | [DocuSign](../tools/docusign.md)
 docusign.com | [Official MCP](../mcp/official.md) | [https://developers.docusign.com/platform/mcp-server/](https://developers.docusign.com/platform/mcp-server/) +2 more | OAuth
-OAuth - Streamable HTTP transport; first connection opens a browser window to sign in... | [Paid, self-serve](../gates/paid.md) |
+OAuth - Streamable HTTP transport; first connection opens a browser window to sign in and... | [Paid, self-serve](../gates/paid.md) |
 | [Responsive (formerly RFPIO)](../tools/responsive.md)
 responsive.io | [Official MCP](../mcp/official.md) | [https://www.responsive.io/capability/mcp-server](https://www.responsive.io/capability/mcp-server) +2 more | Auth not recorded
 unknown - not detailed in the sources reviewed. | [Paid, self-serve](../gates/paid.md) |

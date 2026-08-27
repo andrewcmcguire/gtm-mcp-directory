@@ -24,7 +24,10 @@ heygen.com | [Official MCP](../mcp/official.md) | [https://mcp.heygen.com/mcp/v1
 OAuth - vendor states "connect your HeyGen account, no API key required"; generation... | [Paid, self-serve](../gates/paid.md) |
 | [Trumpet](../tools/trumpet.md)
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://trumpet.app/api/mcp](https://trumpet.app/api/mcp) +2 more | OAuth
-OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0)";... | [Gate unknown](../gates/unknown.md) |
+OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0)"; setup... | [Gate unknown](../gates/unknown.md) |
+| [Loom](../tools/loom.md)
+loom.com | [Community MCP](../mcp/community.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | API key
+karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session... | [Free to start](../gates/free.md) |
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro) | OAuth
 Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side... | [Paid, self-serve](../gates/paid.md) |
@@ -34,15 +37,12 @@ API-key based - Composio's page states Sendspark requires the user's own API key
 | [Vidyard](../tools/vidyard.md)
 vidyard.com | [Community MCP](../mcp/community.md) | [https://viasocket.com/mcp/vidyard](https://viasocket.com/mcp/vidyard) | Third party platform auth
 Not documented in technical detail on the viaSocket listing ("built-in authentication").... | [Paid, self-serve](../gates/paid.md) |
+| [Weezly](../tools/weezly.md)
+weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Third party platform auth
+Zapier-mediated connection. | [Paid, self-serve](../gates/paid.md) |
 | [BombBomb](../tools/bombbomb.md)
 bombbomb.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bombbombcom](https://zapier.com/mcp/bombbombcom) | OAuth or an API key
 Rides Zapier's own OAuth/API-key connection to BombBomb; not a native BombBomb MCP auth... | [Enterprise only](../gates/enterprise-only.md) |
-| [Loom](../tools/loom.md)
-loom.com | [Community MCP](../mcp/community.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | API key
-karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session... | [Gate unknown](../gates/unknown.md) |
-| [Weezly](../tools/weezly.md)
-weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Third party platform auth
-Zapier-mediated connection. | [Gate unknown](../gates/unknown.md) |
 
 ### The other 5 in this category
 
@@ -51,11 +51,11 @@ No server found, or the check could not settle it. Same category, not reachable 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [Covideo](../tools/covideo.md)
-covideo.com | [MCP unknown](../mcp/unknown.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+covideo.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Dubb](../tools/dubb.md)
-dubb.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+dubb.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Hippo Video](../tools/hippo-video.md)
-hippovideo.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+hippovideo.io | [No MCP found](../mcp/none-found.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-08-24 |
 | [Potion](../tools/potion.md)
 sendpotion.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Quickpage](../tools/quickpage.md)

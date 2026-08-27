@@ -73,15 +73,15 @@ A scoped JWT key created as an MCP data source inside the Ortto account, passed 
 | [Superblocks](../tools/superblocks.md)
 superblocks.com | [Official MCP](../mcp/official.md) | [https://superblocks.com/blog/superblocks-mcp](https://superblocks.com/blog/superblocks-mcp) | OAuth
 unknown - the announcement doesn't specify the auth method; the feature is... | [Paid, self-serve](../gates/paid.md) |
+| [Default](../tools/default.md)
+default.com | [Official MCP](../mcp/official.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
+unknown - not documented anywhere found (checked default.com, default.com/product,... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [Official MCP](../mcp/official.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth
 OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every MCP call... | [Enterprise only](../gates/enterprise-only.md) |
 | [Syncari](../tools/syncari.md)
 syncari.com | [Official MCP](../mcp/official.md) | [https://syncari.com/mcp-server/](https://syncari.com/mcp-server/) | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
-| [Default](../tools/default.md)
-default.com | [Official MCP](../mcp/official.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
-unknown - not documented anywhere found (checked default.com, default.com/product,... | [Gate unknown](../gates/unknown.md) |
 
 ### The other 1 in this category
 

@@ -1,6 +1,6 @@
-# Which data enrichment tools can an AI agent use for free? 16 counted
+# Which data enrichment tools can an AI agent use for free? 17 counted
 
-> 16 of the 38 data enrichment tools in this directory are free to start, and 13 of those also have an MCP server. The list, with what each one does. Counted 2026-08-25.
+> 17 of the 38 data enrichment tools in this directory are free to start, and 14 of those also have an MCP server. The list, with what each one does. Counted 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-16 of the 38 data enrichment tools counted here are free to start, meaning a solo operator can get API access without paying and without talking to anyone. 13 of those also ship an MCP server, so an agent can call them without any glue code.
+17 of the 38 data enrichment tools counted here are free to start, meaning a solo operator can get API access without paying and without talking to anyone. 14 of those also ship an MCP server, so an agent can call them without any glue code.
 
 Free to start is a gate, not a price. It means the door opens without a sales call. Every one of these vendors meters something, and this directory does not track credits, quotas or rate limits, so read the vendor's own pricing page before pointing a loop at one.
 
@@ -22,6 +22,8 @@ Free to start is a gate, not a price. It means the door opens without a sales ca
 
 - [Anymail Finder](../tools/anymail-finder.md) Official MCP · Free to start
 Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when...
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Diffbot](../tools/diffbot.md) Official MCP · Free to start
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Enrow](../tools/enrow.md) Official MCP · Free to start

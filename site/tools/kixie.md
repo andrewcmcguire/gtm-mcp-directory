@@ -1,6 +1,6 @@
 # Kixie: MCP server status, API access gate and what it does
 
-> Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence... No MCP found, Gate unknown. Checked 2026-08-24.
+> Sales engagement / power-dialer platform (PowerCall) with multi-line parallel dialing, local-presence... No MCP found, Paid, self-serve. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Kixie
 # Kixie
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
@@ -50,15 +50,13 @@ n/a
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Paid, self-serve
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, by paying, no sales call
 
 api_gate, verbatim from the file:
 
-unknown
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+paid (Developer API is ticked on all three plans including the entry Professional tier and signup is self-serve with no card, but Kixie no longer publishes dollar prices and notes each account reaches different APIs by product level)
 
 **API documentation**
 
@@ -87,13 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.kixie.com/developer/custom-crm-integration/](https://www.kixie.com/developer/custom-crm-integration/)
 - [https://www.kixie.com/features/kixie-powercall/](https://www.kixie.com/features/kixie-powercall/)
 - [https://www.kixie.com/sales-blog/claude-dialer-integration-with-kixie-for-ai-powered-outreach/](https://www.kixie.com/sales-blog/claude-dialer-integration-with-kixie-for-ai-powered-outreach/)
+- [https://www.kixie.com/pricing/](https://www.kixie.com/pricing/)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.kixie.com/developer/custom-crm-integration/, https://www.kixie.com/features/kixie-powercall/, https://www.kixie.com/sales-blog/claude-dialer-integration-with-kixie-for-ai-powered-outreach/
+https://www.kixie.com/developer/custom-crm-integration/, https://www.kixie.com/features/kixie-powercall/, https://www.kixie.com/sales-blog/claude-dialer-integration-with-kixie-for-ai-powered-outreach/, https://www.kixie.com/pricing/
 
 **Notes, verbatim from the file**
-A Kixie blog post titled "Claude Dialer Integration With Kixie for AI-Powered Outreach" describes MCP only as a DIY architectural pattern a developer could build on top of Kixie's existing API-key REST endpoints - it is not a published MCP server. No real implementation found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Kixie has a documented API with apikey-based webhooks, but no pricing tier for it was found.
+A Kixie blog post titled "Claude Dialer Integration With Kixie for AI-Powered Outreach" describes MCP only as a DIY architectural pattern a developer could build on top of Kixie's existing API-key REST endpoints - it is not a published MCP server. No real implementation found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Kixie has a documented API with apikey-based webhooks, but no pricing tier for it was found. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://www.kixie.com/pricing/): Developer API is ticked on all three plans including the entry Professional tier and signup is self-serve with no card, but Kixie no longer publishes dollar prices and notes each account reaches different APIs by product level.
 
 **Provenance**
 

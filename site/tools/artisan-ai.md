@@ -1,6 +1,6 @@
 # Artisan AI (Ava): MCP server status, API access gate and what it does
 
-> An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles... No MCP found, Gate unknown. Checked 2026-08-24.
+> An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles... No MCP found, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Artisan AI (Ava)
 # Artisan AI (Ava)
 
 [No MCP found](../mcp/none-found.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-08-24
@@ -48,15 +48,13 @@ The mcp_url field is empty on this entry. 21 of 293 entries are.
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown - pricing page exists (artisan.co/pricing) but returned only a page summary ("credit-based, tiers for startups through enterprise") with no self-serve signup confirmed; no API access tier documented
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan's marketing content)
 
 **API documentation**
 
@@ -92,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.artisan.co, https://www.artisan.co/pricing
 
 **Notes, verbatim from the file**
-Famous for its 2024 "stop hiring humans" billboard campaign - a marketing stance worth noting since it signals how aggressively the vendor copy should be discounted. Good bench-test candidate precisely because the claims are so strong.
+Famous for its 2024 "stop hiring humans" billboard campaign - a marketing stance worth noting since it signals how aggressively the vendor copy should be discounted. Good bench-test candidate precisely because the claims are so strong. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.artisan.co/pricing): all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan's marketing content.
 
 **Provenance**
 

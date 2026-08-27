@@ -44,17 +44,17 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Cube Software](../tools/cube-software.md) cubesoftware.com Spreadsheet-native FP&A planning and reporting platform for finance teams; revenue-scenario modeling is one supported use case rather than a dedicated CRM-native sales-forecasting product. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
+- [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md) anaplan.com Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by "Anaplan Forecaster" (launched October 2025) - generates time-series demand/sales/revenue forecasts that... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
 - [Pigment](../tools/pigment.md) pigment.com AI-native enterprise business-planning (EPM) platform used across finance, sales, HR, and supply chain; GTM-relevant use cases include capacity, territory, and quota planning and revenue-growth-management... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
-- [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md) anaplan.com Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by "Anaplan Forecaster" (launched October 2025) - generates time-series demand/sales/revenue forecasts that... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
 - [Forecastio](../tools/forecastio.md) forecastio.ai AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying machine learning, time-series models, and weighted-pipeline methods to predict a forecast range (best... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
+- [Vareto](../tools/vareto.md) vareto.com FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling, cash-flow forecasting) that lists "Sales Revenue Forecasting" and "Capacity Planning" as one of... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [Varicent](../tools/varicent.md) varicent.com Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory design, pipeline management, and revenue forecasting in one suite. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 - [Xactly](../tools/xactly.md) xactlycorp.com Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue forecasting (Xactly Forecast), using compensation-plan and rep-behavior data as a forecasting input. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Vareto](../tools/vareto.md) vareto.com FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling, cash-flow forecasting) that lists "Sales Revenue Forecasting" and "Capacity Planning" as one of... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
 ### Next to this job
 

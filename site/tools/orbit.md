@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - cannot confirm; the product appears non-operational (see notes)
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -103,7 +103,7 @@ Reason recorded by the tagging pass: dead. Community analytics platform, past te
 https://orbit.love (HTTP 530 on every fetch attempted 2026-08-24), https://orbit.love/blog (530), https://orbit.love/pricing (530), https://orbit.love/product (530), https://github.com/orbit-love, https://github.com/orbit-love/orbit-model
 
 **Notes, verbatim from the file**
-STATUS FLAG - as of 2026-08-24, every page checked on orbit.love (homepage, /blog, /pricing, /product) returned HTTP 530 "Unknown Status," a Cloudflare origin-unreachable error, indicating the backend is not running. The GitHub organization (github.com/orbit-love, domain-verified owner of orbit.love) still exists with 45 repos and 57 followers, but its flagship open-source "orbit-model" framework repo has carried a README notice since 2022 stating "The project is no longer under active development." No independent news source confirming an official shutdown or acquisition announcement was located in this research - but the live product is unreachable by direct observation. Treat Orbit as effectively defunct pending confirmation; do not reference it as a currently-purchasable tool.
+STATUS FLAG - as of 2026-08-24, every page checked on orbit.love (homepage, /blog, /pricing, /product) returned HTTP 530 "Unknown Status," a Cloudflare origin-unreachable error, indicating the backend is not running. The GitHub organization (github.com/orbit-love, domain-verified owner of orbit.love) still exists with 45 repos and 57 followers, but its flagship open-source "orbit-model" framework repo has carried a README notice since 2022 stating "The project is no longer under active development." No independent news source confirming an official shutdown or acquisition announcement was located in this research - but the live product is unreachable by direct observation. Treat Orbit as effectively defunct pending confirmation; do not reference it as a currently-purchasable tool. [api_gate 2026-08-25] Re-checked and left unknown, honestly: DEAD DOMAIN, confirmed 2026-08-25. orbit.love and www.orbit.love both return HTTP 530 over http and https, so nothing about the product or its API can be verified from the vendor. The entry needs a human decision on tombstoning versus delisting before the next republish. Checked against https://orbit.love.
 
 **Provenance**
 

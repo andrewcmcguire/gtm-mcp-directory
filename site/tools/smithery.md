@@ -1,6 +1,6 @@
 # Smithery: MCP server status, API access gate and what it does
 
-> A registry and distribution marketplace for MCP servers  - "publish once, install anywhere"  - that indexes... MCP not applicable, Free to start. Checked 2026-08-24.
+> A registry and distribution marketplace for MCP servers - "publish once, install anywhere" - that indexes and... MCP not applicable, Free to start. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -84,7 +84,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://smithery.ai](https://smithery.ai)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://smithery.ai
 

@@ -18,10 +18,10 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 |---|---|---|---|---|
 | [Allego](../tools/allego.md)
 allego.com | [Official MCP](../mcp/official.md) | [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/) | Auth not recorded
-unknown - vendor material states the MCP server connects to Salesforce Einstein,... | [Gate unknown](../gates/unknown.md) |
+unknown - vendor material states the MCP server connects to Salesforce Einstein,... | [Enterprise only](../gates/enterprise-only.md) |
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
-Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Gate unknown](../gates/unknown.md) |
+Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
 ### The other 12 in this category
 
@@ -31,10 +31,16 @@ No server found, or the check could not settle it. Same category, not reachable 
 |---|---|---|---|
 | [Trainual](../tools/trainual.md)
 trainual.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+| [Continu](../tools/continu.md)
+continu.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Mindtickle](../tools/mindtickle.md)
+mindtickle.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Showpad](../tools/showpad.md)
+showpad.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+| [Spekit](../tools/spekit.md)
+spekit.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md)
 bigtincan.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Continu](../tools/continu.md)
-continu.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Dialworks](../tools/dialworks.md)
 dialworks.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Hyperbound](../tools/hyperbound.md)
@@ -43,16 +49,10 @@ hyperbound.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 lavender.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-25 |
 | [Luster](../tools/luster.md)
 luster.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Mindtickle](../tools/mindtickle.md)
-mindtickle.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Quantified](../tools/quantified.md)
 quantified.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Second Nature](../tools/second-nature.md)
 secondnature.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Showpad](../tools/showpad.md)
-showpad.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Spekit](../tools/spekit.md)
-spekit.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 
 ### What this category is asked for
 

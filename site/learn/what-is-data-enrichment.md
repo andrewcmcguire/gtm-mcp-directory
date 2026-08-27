@@ -22,7 +22,7 @@ Enrichment vendors differ mostly in where the data comes from and how fresh it i
 
 | What you have | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
-| A company domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 12 |
+| A company domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 14 |
 | A LinkedIn profile URL | [enrich a person from a linkedin url](../jobs/enrich-person-from-linkedin-url.md) | 12 | 8 | 3 |
 | A name and a company | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | An email address | [reverse-look-up a person from an email](../jobs/reverse-lookup-person-from-email.md) | 1 | 0 | 1 |
@@ -31,7 +31,7 @@ Counted 2026-08-25. Entry counts, not product counts: a tool listed in two categ
 
 ## Why this category is the exception
 
-Data & Enrichment is the most agent reachable category in this directory: 31 official servers and 2 community across 38 entries, with 16 free to start. That is not an accident. These vendors already sold an API as the product, so exposing it through a second protocol was a small step rather than a strategy change.
+Data & Enrichment is the most agent reachable category in this directory: 31 official servers and 2 community across 38 entries, with 17 free to start. That is not an accident. These vendors already sold an API as the product, so exposing it through a second protocol was a small step rather than a strategy change.
 
 Compare that with categories whose product is a user interface. When the interface is the product, the API is a cost, and the MCP server is a cost on top of a cost.
 

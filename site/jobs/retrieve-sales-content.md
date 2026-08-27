@@ -46,21 +46,21 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Octave](../tools/octave.md) octavehq.com A GTM context engine that stores a company's ICP, personas, positioning, competitors, proof points, and objections as one structured model, then serves that model to sequences, scripts, and AI agents at... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
+- [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+
 - [Highspot](../tools/highspot.md) highspot.com Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its core content product. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md) mediafly.com Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into "Mediafly Intelligence360," providing deal inspection, pipeline forecasting,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
+- [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+
+- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+
+- [Spekit](../tools/spekit.md) spekit.com In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md) bigtincan.com Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content management, on-demand training/coaching, and AI-driven practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md) mediafly.com Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into "Mediafly Intelligence360," providing deal inspection, pipeline forecasting,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
-
-- [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Spekit](../tools/spekit.md) spekit.com In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 ### Next to this job
 

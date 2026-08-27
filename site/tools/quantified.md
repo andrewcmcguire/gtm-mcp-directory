@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown - no self-serve pricing published; third-party market surveys place dedicated roleplay tools generally at $70-180/rep/month with Quantified positioned at the higher end, and describe deals as five-to-six-figure annual contracts - analyst estimates, not vendor-confirmed numbers.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -86,13 +86,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.quantified.ai/platform/ai-roleplay](https://www.quantified.ai/platform/ai-roleplay)
 - [https://www.quantified.ai/](https://www.quantified.ai/)
 - [https://softwarefinder.com/sales-tools/quantified-ai](https://softwarefinder.com/sales-tools/quantified-ai)
+- [https://www.quantified.ai/pricing](https://www.quantified.ai/pricing)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.quantified.ai/platform/ai-roleplay, https://www.quantified.ai/, https://softwarefinder.com/sales-tools/quantified-ai
+https://www.quantified.ai/platform/ai-roleplay, https://www.quantified.ai/, https://softwarefinder.com/sales-tools/quantified-ai, https://www.quantified.ai/pricing
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Positioned explicitly for Fortune 500 regulated industries rather than SMB/mid-market - the most enterprise-narrow tool in this file.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Positioned explicitly for Fortune 500 regulated industries rather than SMB/mid-market - the most enterprise-narrow tool in this file. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is explicitly quote-only, stated as depending on field-team size and package rather than being published as a rate card, but neither the pricing page nor the integrations page mentions an API, developer access or credentials at all, so the API condition itself is not stated. Checked against https://www.quantified.ai/pricing.
 
 **Provenance**
 

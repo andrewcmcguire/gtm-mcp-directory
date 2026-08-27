@@ -1,6 +1,6 @@
 # Which tools can an AI agent use to book a meeting? Counted
 
-> 11 of the 26 GTM tools tagged with this job ship an official MCP server, 9 are reachable without a contract. The full list, counted 2026-08-25.
+> 11 of the 26 GTM tools tagged with this job ship an official MCP server, 10 are reachable without a contract. The full list, counted 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-23 products in this directory are tagged with this job. 11 of the 26 tagged entries have an official MCP server and 2 have a community one, so an agent can call 13 of them directly. 9 are reachable by one person without a contract. Counted 2026-08-25.
+23 products in this directory are tagged with this job. 11 of the 26 tagged entries have an official MCP server and 2 have a community one, so an agent can call 13 of them directly. 10 are reachable by one person without a contract. Counted 2026-08-25.
 
 Booking is where an agent stops being a research tool and starts holding somebody else's time. It is also the job where the difference between reading a calendar and writing to one is worth being deliberate about: 12 entries are tagged with the read side, 26 with the write side.
 
@@ -28,13 +28,13 @@ Booking is where an agent stops being a research tool and starts holding somebod
 | Community MCP server | 2 | built by somebody else |
 | No server found | 12 | on the date each entry was checked |
 | Free to start | 3 | no payment, no sales call |
-| Solo reachable | 9 | free or paid self serve |
+| Solo reachable | 10 | free or paid self serve |
 | Bench tested | 0 | somebody here actually ran it |
 
 ## The ones with an official MCP server
 
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
-Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable...
+Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
 Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules.
 - [Tavus](../tools/tavus.md) Official MCP · Free to start
@@ -47,7 +47,7 @@ Inbound lead-routing and instant meeting-booking platform ("Concierge") that qua
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Mixmax](../tools/mixmax.md) Official MCP · Paid, self-serve
 Gmail-native sales engagement layer that runs email sequences, tracking, calendaring and meeting notes from inside the inbox.
-- [Default](../tools/default.md) Official MCP · Gate unknown
+- [Default](../tools/default.md) Official MCP · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [RevenueHero](../tools/revenuehero.md) Official MCP · Gate unknown
 Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's...
@@ -55,7 +55,7 @@ Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form
 ## The ones with a free tier
 
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
-Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable...
+Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
 Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules.
 - [Tavus](../tools/tavus.md) Official MCP · Free to start

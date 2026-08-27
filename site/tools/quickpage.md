@@ -1,6 +1,6 @@
 # Quickpage: MCP server status, API access gate and what it does
 
-> Mobile-first video-messaging tool for closing deals faster  - record from phone or webcam, send via... No MCP found, Gate unknown. Checked 2026-08-24.
+> Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS,... No MCP found, Gate unknown. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -58,7 +58,7 @@ api_gate, verbatim from the file:
 
 unknown. Vendor footer references "Integrations" but no public API/developer documentation was found.
 
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -87,13 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://quickpage.io/automotive-video-messaging](https://quickpage.io/automotive-video-messaging)
 - [https://quickpage.io/industries](https://quickpage.io/industries)
 - [https://www.spotsaas.com/product/quickpage](https://www.spotsaas.com/product/quickpage)
+- [https://www.quickpage.io/pricing](https://www.quickpage.io/pricing)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://quickpage.io/, https://quickpage.io/automotive-video-messaging, https://quickpage.io/industries, https://www.spotsaas.com/product/quickpage
+https://quickpage.io/, https://quickpage.io/automotive-video-messaging, https://quickpage.io/industries, https://www.spotsaas.com/product/quickpage, https://www.quickpage.io/pricing
 
 **Notes, verbatim from the file**
-Included as a genuine, currently-operating sales-video tool, but flagged explicitly as non-AI - it is the plain-automation baseline this category's "AI vs. templating" contrast is measured against.
+Included as a genuine, currently-operating sales-video tool, but flagged explicitly as non-AI - it is the plain-automation baseline this category's "AI vs. templating" contrast is measured against. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Individual $33/mo, Individual Pro $49/mo, Pro + Team $83/mo, Enterprise custom) and is silent on API in every plan description and in the comparison table; quickpage.io/api returns 404 and the help centre surfaces nothing on API. Checked against https://www.quickpage.io/pricing.
 
 **Provenance**
 

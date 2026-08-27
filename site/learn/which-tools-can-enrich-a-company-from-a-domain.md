@@ -1,6 +1,6 @@
 # Which tools enrich a company from a domain? The agent callable list
 
-> 26 of the 34 GTM tools tagged with this job ship an official MCP server, 21 are reachable without a contract. The full list, counted 2026-08-25.
+> 26 of the 34 GTM tools tagged with this job ship an official MCP server, 23 are reachable without a contract. The full list, counted 2026-08-25.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-31 products in this directory are tagged with this job. 26 of the 34 tagged entries have an official MCP server and 2 have a community one, so an agent can call 28 of them directly. 21 are reachable by one person without a contract. Counted 2026-08-25.
+31 products in this directory are tagged with this job. 26 of the 34 tagged entries have an official MCP server and 2 have a community one, so an agent can call 28 of them directly. 23 are reachable by one person without a contract. Counted 2026-08-25.
 
 Domain to company is the most common single call in a GTM agent's loop, because a domain is the one identifier that arrives from everywhere: a form fill, an email address, a news item, a website visit. It is also the most widely tagged job in this directory's enrichment family.
 
@@ -27,14 +27,16 @@ Domain to company is the most common single call in a GTM agent's loop, because 
 | Official MCP server | 26 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |
 | No server found | 6 | on the date each entry was checked |
-| Free to start | 12 | no payment, no sales call |
-| Solo reachable | 21 | free or paid self serve |
+| Free to start | 14 | no payment, no sales call |
+| Solo reachable | 23 | free or paid self serve |
 | Bench tested | 0 | somebody here actually ran it |
 
 ## The ones with an official MCP server
 
 - [Cargo](../tools/cargo.md) Official MCP · Free to start
 A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, version, and automate go-to-market logic - lead sourcing, enrichment,...
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Diffbot](../tools/diffbot.md) Official MCP · Free to start
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md) Official MCP · Free to start
@@ -55,8 +57,6 @@ A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ 
 A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing,...
 - [Clay](../tools/clay.md) Official MCP · Paid, self-serve
 A spreadsheet-style workflow/orchestration tool that runs lead and company records through "waterfall" lookups across 100-200+ third-party data...
-- [Coresignal](../tools/coresignal.md) Official MCP · Paid, self-serve
-Sells structured B2B datasets and APIs (company, employee/people, job-posting records) scraped and normalized from public and professional-network...
 
 11 more are on the linked page. The cut is the display limit, not a ranking.
 
@@ -64,6 +64,8 @@ Sells structured B2B datasets and APIs (company, employee/people, job-posting re
 
 - [Cargo](../tools/cargo.md) Official MCP · Free to start
 A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, version, and automate go-to-market logic - lead sourcing, enrichment,...
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Diffbot](../tools/diffbot.md) Official MCP · Free to start
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md) Official MCP · Free to start
@@ -80,10 +82,8 @@ A B2B contact database/lookup tool that finds verified work emails and mobile ph
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
 - [ZoomInfo](../tools/zoominfo.md) Official MCP · Free to start
 A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human...
-- [People Data Labs](../tools/people-data-labs.md) Community MCP · Free to start
-A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by...
 
-1 more are on the linked page. The cut is the display limit, not a ranking.
+3 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## What this list is not
 

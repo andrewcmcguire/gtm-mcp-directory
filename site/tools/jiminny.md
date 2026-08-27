@@ -1,6 +1,6 @@
 # Jiminny: MCP server status, API access gate and what it does
 
-> Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. Community MCP, Gate unknown. Checked 2026-08-24.
+> Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. Community MCP, Enterprise only. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Jiminny
 # Jiminny
 
 [Community MCP](../mcp/community.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise only](../gates/enterprise-only.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-24
@@ -53,15 +53,13 @@ https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp ; https://zapier.com/mcp/ji
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise only
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown. Jiminny documents a customer-facing API (per its own help-center article "What is the Jiminny API?"), but no public self-serve pricing or explicit plan-gate for API access was confirmed.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-only (no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us)
 
 **API documentation**
 
@@ -92,13 +90,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp)
 - [https://zapier.com/mcp/jiminny](https://zapier.com/mcp/jiminny)
 - [https://apitracker.io/a/jiminny](https://apitracker.io/a/jiminny)
+- [https://www.jiminny.com/](https://www.jiminny.com/)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny
+https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/
 
 **Notes, verbatim from the file**
-Added as an expansion beyond the seed list - a second mid-market Gong/Chorus competitor worth tracking.
+Added as an expansion beyond the seed list - a second mid-market Gong/Chorus competitor worth tracking. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.jiminny.com/): no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us.
 
 **Provenance**
 

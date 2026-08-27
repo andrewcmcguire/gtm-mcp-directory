@@ -1,6 +1,6 @@
 # API access gates: free, paid, or a procurement cycle before your agent starts
 
-> An access gate is what stands between you and an API key. Across 293 GTM tools: 57 free to start, 101 paid self serve, 45 enterprise only.
+> An access gate is what stands between you and an API key. Across 293 GTM tools: 61 free to start, 113 paid self serve, 77 enterprise only.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,21 +22,21 @@ This is the second column nobody else publishes, and in practice it decides more
 
 | Gate | Entries | What it means for one person with an agent |
 |---|---|---|
-| [Free to start](../gates/free.md) | 57 | Sign up, get a key, start calling. No conversation with anybody. |
-| [Paid, self serve](../gates/paid.md) | 101 | A credit card is enough. Still no sales call. |
-| [Enterprise leaning](../gates/enterprise-leaning.md) | 1 | Self serve on paper, gated in practice. |
-| [Enterprise only](../gates/enterprise-only.md) | 45 | Contract, seat minimum or procurement. A solo operator is out. |
-| [Unknown](../gates/unknown.md) | 83 | The gate could not be established from public sources and is published as unknown rather than guessed. |
+| [Free to start](../gates/free.md) | 61 | Sign up, get a key, start calling. No conversation with anybody. |
+| [Paid, self serve](../gates/paid.md) | 113 | A credit card is enough. Still no sales call. |
+| [Enterprise leaning](../gates/enterprise-leaning.md) | 4 | Self serve on paper, gated in practice. |
+| [Enterprise only](../gates/enterprise-only.md) | 77 | Contract, seat minimum or procurement. A solo operator is out. |
+| [Unknown](../gates/unknown.md) | 32 | The gate could not be established from public sources and is published as unknown rather than guessed. |
 
 6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-08-25 across 293 entries.
 
 ## Why unknown is such a large number
 
-83 entries carry an unknown gate, and that is itself the finding. A vendor who does not publish whether you can buy API access, at what tier, is telling you something about how they expect you to buy. Unknown is a legal answer in this directory and it ships as unknown rather than being rounded into whichever bucket looks tidier.
+32 entries carry an unknown gate, and that is itself the finding. A vendor who does not publish whether you can buy API access, at what tier, is telling you something about how they expect you to buy. Unknown is a legal answer in this directory and it ships as unknown rather than being rounded into whichever bucket looks tidier.
 
 ## The intersection that matters
 
-MCP status and access gate are separate columns for a reason. 22 entries ship an official MCP server behind an enterprise gate. The server is real, the protocol works, and most people reading this cannot call it. The [117 solo reachable entries](../lists/solo-reachable.md) are the list that matters if you are one person and a credit card.
+MCP status and access gate are separate columns for a reason. 31 entries ship an official MCP server behind an enterprise gate. The server is real, the protocol works, and most people reading this cannot call it. The [123 solo reachable entries](../lists/solo-reachable.md) are the list that matters if you are one person and a credit card.
 
 ## Sources
 

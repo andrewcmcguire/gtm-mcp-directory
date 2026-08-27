@@ -1,6 +1,6 @@
 # Loom: MCP server status, API access gate and what it does
 
-> Async video-messaging platform; in its sales use case, reps record personalized video messages with... Community MCP, Gate unknown. Checked 2026-08-24.
+> Async video-messaging platform; in its sales use case, reps record personalized video messages with... Community MCP, Free to start. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Loom
 # Loom
 
 [Community MCP](../mcp/community.md)
-[Gate unknown](../gates/unknown.md)
+[Free to start](../gates/free.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
@@ -54,15 +54,13 @@ https://github.com/karbassi/mcp-loom (largest community implementation, ~58 tool
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Free to start
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Yes, without talking to anyone
 
 api_gate, verbatim from the file:
 
-unknown. Loom offers a free public Record SDK, Embed SDK, and oEmbed for embedding recording/playback widgets, but no evidence of an official public REST API for programmatic data/analytics access - the reason community MCP servers reverse-engineer the internal GraphQL API instead. An open Loom feature-request ticket (LOOM-690, filed March 2026, "In Progress," 40 votes) explicitly asks Loom to build an official MCP server, confirming none exists yet.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+free (recordSDK and embedSDK are self-serve via a developer-portal account and Loom's own dev site says start building with recordSDK today for free; this is a record/embed SDK rather than a general REST API and no SDK pricing tiers are published)
 
 **API documentation**
 
@@ -98,13 +96,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.loom.com/sdk](https://www.loom.com/sdk)
 - [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom)
 - [https://jira.atlassian.com/browse/LOOM-690](https://jira.atlassian.com/browse/LOOM-690)
+- [https://dev.loom.com/](https://dev.loom.com/)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.loom.com/use-case/sales, https://www.loom.com/pricing, https://www.loom.com/sdk, https://github.com/karbassi/mcp-loom, https://jira.atlassian.com/browse/LOOM-690
+https://www.loom.com/use-case/sales, https://www.loom.com/pricing, https://www.loom.com/sdk, https://github.com/karbassi/mcp-loom, https://jira.atlassian.com/browse/LOOM-690, https://dev.loom.com/
 
 **Notes, verbatim from the file**
-Loom's dominant real-world use case remains general screen-recording/async communication, not outbound sales specifically - this entry evaluates only the sales-messaging angle per research scope. Watch for name collisions: several "Loom MCP" search results (e.g. a PulseMCP listing, maxsloef/loom-mcp) belong to an unrelated text/prompt-exploration tool that also happens to be called "loom."
+Loom's dominant real-world use case remains general screen-recording/async communication, not outbound sales specifically - this entry evaluates only the sales-messaging angle per research scope. Watch for name collisions: several "Loom MCP" search results (e.g. a PulseMCP listing, maxsloef/loom-mcp) belong to an unrelated text/prompt-exploration tool that also happens to be called "loom." [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://dev.loom.com/): recordSDK and embedSDK are self-serve via a developer-portal account and Loom's own dev site says start building with recordSDK today for free; this is a record/embed SDK rather than a general REST API and no SDK pricing tiers are published.
 
 **Provenance**
 

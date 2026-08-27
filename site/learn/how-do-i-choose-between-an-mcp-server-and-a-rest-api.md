@@ -43,7 +43,7 @@ Start with the server if there is one. The whole point of a protocol is that you
 
 ## The thing that decides it more often than either
 
-The access gate. 45 entries need a contract before you get any credential at all, and at that point the protocol question is academic. Check [the gate](../gates/index.md) before you design either integration.
+The access gate. 77 entries need a contract before you get any credential at all, and at that point the protocol question is academic. Check [the gate](../gates/index.md) before you design either integration.
 
 ## Sources
 

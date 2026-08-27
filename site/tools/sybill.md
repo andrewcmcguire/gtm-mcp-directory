@@ -1,6 +1,6 @@
 # Sybill: MCP server status, API access gate and what it does
 
-> AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call... Official MCP, Gate unknown. Checked 2026-08-24.
+> AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call... Official MCP, Enterprise leaning. Checked 2026-08-24.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@ Sybill
 # Sybill
 
 [Official MCP](../mcp/official.md)
-[Gate unknown](../gates/unknown.md)
+[Enterprise leaning](../gates/enterprise-leaning.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-24
@@ -53,15 +53,13 @@ https://api.sybill.ai/docs/mcp.html (server https://mcp.sybill.ai/mcp)
 
 **Access gate**
 
-- **Gate bucket**: Gate unknown
+- **Gate bucket**: Enterprise leaning
 
-- **Can a solo operator reach it**: Not established
+- **Can a solo operator reach it**: Not without a contract
 
 api_gate, verbatim from the file:
 
-unknown/mixed. A free plan exists, but the REST/MCP API is explicitly "in alpha" (Sybill's own docs warn endpoints, schemas, and behavior may change without notice), and full webhook/API access is called out specifically as an Enterprise benefit - unclear whether the alpha API key is available below Enterprise.
-
-83 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+enterprise-leaning (API and MCP access appear only on Business at $90/user/mo and Enterprise; Free and Pro carry neither, and the Business CTA is book-a-demo rather than a self-serve checkout)
 
 **API documentation**
 
@@ -97,7 +95,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://api.sybill.ai/docs/mcp.html, https://api.sybill.ai/docs/introduction.html, https://www.sybill.ai/pricing, https://help.sybill.ai/en/articles/15384825-sybill-ai-credits-guide-pricing-overview
 
 **Notes, verbatim from the file**
-None.
+None. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.sybill.ai/pricing): API and MCP access appear only on Business at $90/user/mo and Enterprise; Free and Pro carry neither, and the Business CTA is book-a-demo rather than a self-serve checkout.
 
 **Provenance**
 
