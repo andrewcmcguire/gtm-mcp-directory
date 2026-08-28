@@ -46,9 +46,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction
+https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins (redirect correction 2026-08-28: the address previously recorded here, relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction, 308s to this one and this one returns 200)
 
-- [https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction](https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction)
+- [https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins)
 
 **Access gate**
 
@@ -84,11 +84,11 @@ Reason recorded by the tagging pass: thin. Tagged nothing. It is a build-your-ow
 
 - [https://relevanceai.com](https://relevanceai.com)
 - [https://marketplace.relevanceai.com/](https://marketplace.relevanceai.com/)
-- [https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction](https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction)
+- [https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins)
 
 3 source URLs. Raw sources field, verbatim:
 
-https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction
+https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins
 
 **Notes, verbatim from the file**
 The seed list named this tool's SDR agent "Bosh" - that name could not be found anywhere on the current site or marketplace (agent templates found instead: "Outbound Prospector," "Sales Researcher," "Perfect 5 Leads," etc.). Either renamed, deprecated, or misremembered - flag as unconfirmed. This is one of the very few tools in this category with a confirmed, solo-operator-accessible official MCP - a strong bench-test candidate.
@@ -105,6 +105,6 @@ The seed list named this tool's SDR agent "Bosh" - that name could not be found 
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

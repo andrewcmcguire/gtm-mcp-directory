@@ -1,6 +1,6 @@
 # Detect a funding or news event: 12 GTM tools, 10 with an official MCP server
 
-> Return company-level events: funding rounds, M&A, leadership changes, expansion, press. 11 of the 12 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-08-25 from the directory data.
+> Return company-level events: funding rounds, M&A, leadership changes, expansion, press. 11 of the 12 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Return company-level events: funding rounds, M&A, leadership changes, expansion,
 - **no MCP found**: 1
 - **solo reachable**: 9
 
-11 of the 12 entries tagged with this job carry an MCP server of some kind, 10 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+11 of the 12 entries tagged with this job carry an MCP server of some kind, 10 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

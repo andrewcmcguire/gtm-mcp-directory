@@ -1,6 +1,6 @@
 # CRM and RevOps tools with MCP servers: 22 of 23, counted
 
-> 22 of the 23 revops infra tools in this directory have an MCP server: 22 official and 0 community. The list with server URLs and access gates. Counted 2026-08-25.
+> 22 of the 23 revops infra tools in this directory have an MCP server: 22 official and 0 community. The list with server URLs and access gates. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -82,7 +82,7 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 | [Paid, self-serve](../gates/paid.md) | 7 |
 | [Enterprise only](../gates/enterprise-only.md) | 4 |
 
-Counted 2026-08-25. Source file 06-revops-infra.md, content sha256 3e4d8d4f1635263c...
+Counted 2026-08-28. Source file 06-revops-infra.md, content sha256 db99ded503993f4c...
 
 ## Sources
 
@@ -90,7 +90,7 @@ Counted 2026-08-25. Source file 06-revops-infra.md, content sha256 3e4d8d4f16352
 - [RevOps Infra tools with MCP servers](../lists/mcp-revops-infra.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

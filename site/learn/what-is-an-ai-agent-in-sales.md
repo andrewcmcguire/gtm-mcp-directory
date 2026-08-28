@@ -34,7 +34,7 @@ Across 293 tools, 165 are callable through MCP and 123 are reachable by one pers
 | Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 22 | 21 |
 | Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 17 | 14 |
 
-Counted 2026-08-25. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
+Counted 2026-08-28. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
 
 ## The honest limit
 
@@ -46,7 +46,7 @@ Nobody has run these tools for this directory. 0 are bench tested. Every number 
 - [The GTM MCP Directory, by job](../jobs/index.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

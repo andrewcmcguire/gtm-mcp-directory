@@ -1,6 +1,6 @@
 # MCP Layer tools with MCP servers: 7 of 13, counted
 
-> 7 of the 13 mcp layer tools in The GTM MCP Directory have an MCP server: 7 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+> 7 of the 13 mcp layer tools in The GTM MCP Directory have an MCP server: 7 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -20,13 +20,13 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 apideck.com | [Official MCP](../mcp/official.md) | [https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp) +1 more | OAuth or an API key
 Managed OAuth via Apideck Vault on the hosted endpoint, or x-apideck-api-key plus... | [Free to start](../gates/free.md) |
 | [Composio](../tools/composio.md)
-composio.dev | [Official MCP](../mcp/official.md) | [https://docs.composio.dev/mcp/overview](https://docs.composio.dev/mcp/overview) | OAuth or an API key
+composio.dev | [Official MCP](../mcp/official.md) | [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp) | OAuth or an API key
 Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the... | [Free to start](../gates/free.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [Official MCP](../mcp/official.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | API key
 Per-server - individual servers take credentials (e.g. API tokens) via environment... | [Free to start](../gates/free.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
-zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com](https://mcp.zapier.com) | OAuth
+zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) +1 more | OAuth
 Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize... | [Free to start](../gates/free.md) |
 | [Metorial](../tools/metorial.md)
 metorial.com | [Official MCP](../mcp/official.md) | [https://metorial.com](https://metorial.com) | OAuth or an API key
@@ -66,4 +66,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Read CRM records](../jobs/read-crm-records.md)
 - [Write CRM records](../jobs/write-crm-records.md)
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-08-25",
+  "generated_on": "2026-08-28",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
   "entries_parsed": 293,
@@ -236,13 +236,13 @@
     "mcp_url_present": 272,
     "mcp_url_missing": 21,
     "mcp_url_with_parseable_url": 174,
-    "mcp_url_pointing_at_github": 47,
+    "mcp_url_pointing_at_github": 46,
     "mcp_auth_present": 288,
-    "github_candidates_any": 62,
+    "github_candidates_any": 61,
     "sources_zero_urls": 0,
     "sources_one_url": 17,
     "sources_two_or_more_urls": 276,
-    "sources_url_total": 1121,
+    "sources_url_total": 1125,
     "sources_with_annotations": 11,
     "entries_with_extra_fields": 0,
     "mcp_status": {
@@ -1640,6 +1640,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "fdc670f8f911035ceeb71200fcb9bc062363aecdcede0ab5324b5cc0a8676b20",
-  "source_sha256": "13f346e3245c3eb42506fd0070d72718221a535f088ab681aa7f940e69d10429"
+  "content_sha256": "84def5fb51daf19b5df44705b2cb40dc4bc28b517b40b763d275d56f589a0bdd",
+  "source_sha256": "b9fea57ac759f2f6d818bfc9a424d8806736eb286f1479320a926e9a52f27cd6"
 }

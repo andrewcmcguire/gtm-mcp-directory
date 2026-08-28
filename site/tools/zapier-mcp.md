@@ -36,7 +36,7 @@ The broadest reach-into-anything connector for a RevOps stack already standardiz
 
 - **Auth**: Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize apps the same way you would for a normal Zap, then expose selected actions to the MCP client.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
 
@@ -46,9 +46,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://mcp.zapier.com
+https://mcp.zapier.com/login?redirectTo=%2Fmcp (redirect correction 2026-08-28: the bare address previously recorded here, mcp.zapier.com, 307s to /mcp and then to this signed-in console URL, which returns 200. It is an auth wall, not documentation; the public documentation for the same server is https://zapier.com/mcp)
 
-- [https://mcp.zapier.com](https://mcp.zapier.com)
+- [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)
+- [https://zapier.com/mcp](https://zapier.com/mcp)
 
 **Access gate**
 
@@ -83,11 +84,11 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://zapier.com/mcp](https://zapier.com/mcp)
-- [https://mcp.zapier.com](https://mcp.zapier.com)
+- [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)
 
 2 source URLs. Raw sources field, verbatim:
 
-https://zapier.com/mcp, https://mcp.zapier.com
+https://zapier.com/mcp, https://mcp.zapier.com/login?redirectTo=%2Fmcp
 
 **Notes, verbatim from the file**
 Because MCP calls draw from the same task pool as regular Zaps, a chatty agent can burn a plan's task quota fast - worth watching before pointing a high-frequency agent at it.
@@ -104,6 +105,6 @@ Because MCP calls draw from the same task pool as regular Zaps, a chatty agent c
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

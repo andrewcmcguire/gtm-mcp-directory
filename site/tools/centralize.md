@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [usecentralize.com](https://usecentralize.com) · entry id 05-centralize · source 05-signals-intent-abm.md line 573
+Vendor: [usecentralize.com](https://usecentralize.com) · entry id 05-centralize · source 05-signals-intent-abm.md line 575
 
 **What it does**
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage gaps and warm paths into the account.
@@ -102,12 +102,12 @@ Added 2026-08-25 from a direct pointer that Centralize had just launched a self-
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 573
+- **Source line**: 575
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
-# GTM MCP servers with no auth model recorded: 26 tools, counted
+# GTM MCP servers with no auth model recorded: 25 tools, counted
 
-> 26 of the 165 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+> 25 of the 165 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers with no auth model recorded
 
-**List · 26 of 293**
+**List · 25 of 293**
 
 ## GTM MCP servers with no auth model recorded
 
@@ -28,8 +28,6 @@ theirstack.com | [Official MCP](../mcp/official.md) | [https://theirstack.com/en
 amplemarket.com | [Official MCP](../mcp/official.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) | Account sign-in (no API key needed) - "sign in with your Amplemarket account when prompted" | [Paid, self-serve](../gates/paid.md) |
 | [Arphie](../tools/arphie.md)
 arphie.ai | [Official MCP](../mcp/official.md) | referenced via pricing/product pages describing an "Arphie... | unknown | [Paid, self-serve](../gates/paid.md) |
-| [Attention](../tools/attention.md)
-attention.com | [Official MCP](../mcp/official.md) | [https://docs.attention.com/attention-mcp-server](https://docs.attention.com/attention-mcp-server) +1 more | unknown - not confirmed in the sources reviewed. | [Paid, self-serve](../gates/paid.md) |
 | [Maildoso](../tools/maildoso.md)
 maildoso.ai | [Official MCP](../mcp/official.md) | [https://maildoso.ai/](https://maildoso.ai/) | unknown - described only as "API and MCP access" bundled into every plan, without a documented auth mechanism in sourced pages. | [Paid, self-serve](../gates/paid.md) |
 | [Ortto](../tools/ortto.md)
@@ -41,7 +39,7 @@ salesforge.ai | [Official MCP](../mcp/official.md) | [https://help.salesforge.ai
 | [Snitcher](../tools/snitcher.md)
 snitcher.com | [Official MCP](../mcp/official.md) | [https://www.snitcher.com/changelog/point-claude-at-s...](https://www.snitcher.com/changelog/point-claude-at-snitcher/) | unknown - vendor changelog points to docs.snitcher.com for authentication specifics, not independently confirmed. | [Paid, self-serve](../gates/paid.md) |
 | [Sumble](../tools/sumble.md)
-sumble.com | [Official MCP](../mcp/official.md) | [https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4](https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4) | unknown - not disclosed in the public docs excerpt available | [Paid, self-serve](../gates/paid.md) |
+sumble.com | [Official MCP](../mcp/official.md) | [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp) +1 more | unknown - the MCP overview page documents one-click install from the Claude and ChatGPT app directories and a custom MCP connection for Cursor,... | [Paid, self-serve](../gates/paid.md) |
 | [Clari](../tools/clari.md)
 clari.com | [Official MCP](../mcp/official.md) | [https://www.clari.com/press/clari-salesloft-forecast...](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) | unknown / not disclosed publicly | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Ada](../tools/ada.md)
@@ -69,4 +67,4 @@ unifygtm.com | [Community MCP](../mcp/community.md) | [https://github.com/footca
 | [Brandwatch](../tools/brandwatch.md)
 brandwatch.com | [Community MCP](../mcp/community.md) | [https://github.com/ambo-sk/mcp-brandwatch](https://github.com/ambo-sk/mcp-brandwatch) | unknown - the third-party server's description states it interfaces with "the Brandwatch Consumer Research, Data Upload and Analysis APIs," hosted on... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

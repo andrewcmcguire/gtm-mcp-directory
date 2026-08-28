@@ -1,6 +1,6 @@
 # Which tools enrich a company from a domain? The agent callable list
 
-> 26 of the 34 GTM tools tagged with this job ship an official MCP server, 23 are reachable without a contract. The full list, counted 2026-08-25.
+> 26 of the 34 GTM tools tagged with this job ship an official MCP server, 23 are reachable without a contract. The full list, counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-31 products in this directory are tagged with this job. 26 of the 34 tagged entries have an official MCP server and 2 have a community one, so an agent can call 28 of them directly. 23 are reachable by one person without a contract. Counted 2026-08-25.
+31 products in this directory are tagged with this job. 26 of the 34 tagged entries have an official MCP server and 2 have a community one, so an agent can call 28 of them directly. 23 are reachable by one person without a contract. Counted 2026-08-28.
 
 Domain to company is the most common single call in a GTM agent's loop, because a domain is the one identifier that arrives from everywhere: a form fill, an email address, a news item, a website visit. It is also the most widely tagged job in this directory's enrichment family.
 
@@ -95,7 +95,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

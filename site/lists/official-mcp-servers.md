@@ -1,6 +1,6 @@
 # Official MCP servers list: 144 GTM tools, with links
 
-> The full list of 144 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-08-25.
+> The full list of 144 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -47,7 +47,7 @@ API key + secret via env vars (FIVETRAN_API_KEY, FIVETRAN_API_SECRET). | [Free t
 commonpaper.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://commonpaper.com/release-notes/common-paper-m...](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/) +1 more | Auth not recorded
 unknown - not detailed in the release-notes excerpt reviewed. | [Free to start](../gates/free.md) |
 | [Composio](../tools/composio.md)
-composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://docs.composio.dev/mcp/overview](https://docs.composio.dev/mcp/overview) | OAuth or an API key
+composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp) | OAuth or an API key
 Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the... | [Free to start](../gates/free.md) |
 | [Crustdata](../tools/crustdata.md)
 crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
@@ -110,7 +110,7 @@ api key (same API key/token used for REST API calls, per vendor blog) | [Free to
 prospeo.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/prospeo-v2/prospeo-mcp-server](https://github.com/prospeo-v2/prospeo-mcp-server) | OAuth or an API key
 OAuth 2.0 for the hosted server (auto-handled by Claude.ai/Desktop via the MCP... | [Free to start](../gates/free.md) |
 | [Relevance AI](../tools/relevance-ai.md)
-relevanceai.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://relevanceai.com/docs/integrations/mcp/progra...](https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction) | OAuth
+relevanceai.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://relevanceai.com/docs/get-started/core-concep...](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins) | OAuth
 OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project... | [Free to start](../gates/free.md) |
 | [Retool](../tools/retool.md)
 retool.com | [RevOps Infra](../categories/revops-infra.md) | [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server) | OAuth
@@ -140,7 +140,7 @@ MCP uses OAuth-based login (no manual key management); the separate REST API... 
 zapier.com | [RevOps Infra](../categories/revops-infra.md) | [https://zapier.com/mcp](https://zapier.com/mcp) +1 more | OAuth or an API key
 Reuses Zapier's existing 13+ year credential infrastructure - connect an AI client... | [Free to start](../gates/free.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
-zapier.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://mcp.zapier.com](https://mcp.zapier.com) | OAuth
+zapier.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) +1 more | OAuth
 Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize... | [Free to start](../gates/free.md) |
 | [ZoomInfo](../tools/zoominfo.md)
 zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp) +2 more | OAuth
@@ -164,10 +164,10 @@ OAuth (Apollo.io sign-in/authorization flow in the client) | [Paid, self-serve](
 arphie.ai | [Proposals & Deals](../categories/proposals-deals.md) | referenced via pricing/product pages describing an "Arphie... | Auth not recorded
 unknown | [Paid, self-serve](../gates/paid.md) |
 | [Attention](../tools/attention.md)
-attention.com | [Conversation Intel](../categories/conversation-intel.md) | [https://docs.attention.com/attention-mcp-server](https://docs.attention.com/attention-mcp-server) +1 more | Auth not recorded
-unknown - not confirmed in the sources reviewed. | [Paid, self-serve](../gates/paid.md) |
+attention.com | [Conversation Intel](../categories/conversation-intel.md) | [https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview) +1 more | OAuth or an API key
+oauth for end users, api key for programmatic access, per... | [Paid, self-serve](../gates/paid.md) |
 | [Avoma](../tools/avoma.md)
-avoma.com | [Conversation Intel](../categories/conversation-intel.md) | [https://help.avoma.com/avoma-mcp-server-user-guide](https://help.avoma.com/avoma-mcp-server-user-guide) | API key
+avoma.com | [Conversation Intel](../categories/conversation-intel.md) | [https://help.avoma.com/admins-add-avoma-mcp-connecto...](https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude) | API key
 API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer. | [Paid, self-serve](../gates/paid.md) |
 | [Bright Data](../tools/bright-data.md)
 brightdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | API key
@@ -185,7 +185,7 @@ OAuth with dynamic client registration, compliant with the authenticated remote 
 clay.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://www.clay.com/mcp](https://www.clay.com/mcp) +1 more | API key
 Session cookie - the same token used to log into app.clay.com in-browser, which grants... | [Paid, self-serve](../gates/paid.md) |
 | [Close (Close CRM)](../tools/close.md)
-close.com | [RevOps Infra](../categories/revops-infra.md) | [https://help.close.com/docs/mcp-server](https://help.close.com/docs/mcp-server) +1 more | OAuth or an API key
+close.com | [RevOps Infra](../categories/revops-infra.md) | [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server) +1 more | OAuth or an API key
 Dual - OAuth 2.0 with Dynamic Client Registration (recommended; used by Claude, ChatGPT,... | [Paid, self-serve](../gates/paid.md) |
 | [Coresignal](../tools/coresignal.md)
 coresignal.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://coresignal.com/mcp-server/](https://coresignal.com/mcp-server/) | OAuth
@@ -281,7 +281,7 @@ OAuth - first connection redirects to PhantomBuster sign-in/authorization, then 
 pipedream.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://mcp.pipedream.com](https://mcp.pipedream.com) | OAuth or an API key
 OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated... | [Paid, self-serve](../gates/paid.md) |
 | [RB2B](../tools/rb2b.md)
-rb2b.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://github.com/robbclarke/RB2B-APIs-MCP](https://github.com/robbclarke/RB2B-APIs-MCP) | API key
+rb2b.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | API key
 api key | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io](../tools/reply-io.md)
 reply.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | API key
@@ -308,8 +308,8 @@ OAuth - user reviews and approves the connection through their Snov.io account; 
 sparktoro.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://sparktoro.com/mcp](https://sparktoro.com/mcp) +1 more | OAuth
 OAuth (one-click sign-in with an existing SparkToro account); documented to work with... | [Paid, self-serve](../gates/paid.md) |
 | [Sumble](../tools/sumble.md)
-sumble.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4](https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4) | Auth not recorded
-unknown - not disclosed in the public docs excerpt available | [Paid, self-serve](../gates/paid.md) |
+sumble.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp) +1 more | Auth not recorded
+unknown - the MCP overview page documents one-click install from the Claude and ChatGPT... | [Paid, self-serve](../gates/paid.md) |
 | [Super Send](../tools/super-send.md)
 supersend.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server) | API key
 api key, Streamable HTTP transport | [Paid, self-serve](../gates/paid.md) |
@@ -374,7 +374,7 @@ OAuth with Crossbeam login credentials, with a permission consent screen at conn
 default.com | [RevOps Infra](../categories/revops-infra.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
 unknown - not documented anywhere found (checked default.com, default.com/product,... | [Enterprise only](../gates/enterprise-only.md) |
 | [Default](../tools/default.md)
-default.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | OAuth or an API key
+default.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.default.com/](https://www.default.com/) | OAuth or an API key
 unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Enterprise only](../gates/enterprise-only.md) |
 | [Demandbase (Demandbase One)](../tools/demandbase.md)
 demandbase.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://developer.demandbase.com/docs/mcp](https://developer.demandbase.com/docs/mcp) +1 more | Auth not recorded
@@ -449,4 +449,4 @@ OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0
 zoom.com | [Conversation Intel](../categories/conversation-intel.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

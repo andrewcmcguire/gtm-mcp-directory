@@ -46,9 +46,9 @@ community
 
 mcp_url, verbatim from the file:
 
-https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp ; https://zapier.com/mcp/jiminny - both third-party; no official Jiminny-branded MCP announcement was found.
+https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp ; https://zapier.com/mcp/jiminny - both third-party; no official Jiminny-branded MCP announcement was found.
 
-- [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp)
+- [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp)
 - [https://zapier.com/mcp/jiminny](https://zapier.com/mcp/jiminny)
 
 **Access gate**
@@ -87,14 +87,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api](https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api)
-- [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp)
+- [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp)
 - [https://zapier.com/mcp/jiminny](https://zapier.com/mcp/jiminny)
 - [https://apitracker.io/a/jiminny](https://apitracker.io/a/jiminny)
 - [https://www.jiminny.com/](https://www.jiminny.com/)
 
 5 source URLs. Raw sources field, verbatim:
 
-https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/
+https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/
 
 **Notes, verbatim from the file**
 Added as an expansion beyond the seed list - a second mid-market Gong/Chorus competitor worth tracking. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.jiminny.com/): no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us.
@@ -111,6 +111,6 @@ Added as an expansion beyond the seed list - a second mid-market Gong/Chorus com
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

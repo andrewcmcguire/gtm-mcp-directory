@@ -34,9 +34,9 @@ Account research / call-prep layer - LLM-driven account intelligence for reps pr
 
 - **Status bucket**: Official MCP
 
-- **Auth**: unknown - not disclosed in the public docs excerpt available
+- **Auth**: unknown - the MCP overview page documents one-click install from the Claude and ChatGPT app directories and a custom MCP connection for Cursor, Claude Code and Gemini CLI, but does not name the credential type on that page. Read 2026-08-28.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
 
@@ -46,9 +46,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4 ("Use the MCP server")
+https://docs.sumble.com/api/mcp (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. Product overview at https://sumble.com/mcp)
 
-- [https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4](https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4)
+- [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)
+- [https://sumble.com/mcp](https://sumble.com/mcp)
 
 **Access gate**
 
@@ -85,14 +86,16 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/](https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/)
 - [https://sumble.com/](https://sumble.com/)
-- [https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4](https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4)
+- [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)
+- [https://sumble.com/llms.txt](https://sumble.com/llms.txt)
+- [https://sumble.com/mcp](https://sumble.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/, https://sumble.com/, https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4
+https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/, https://sumble.com/, https://docs.sumble.com/api/mcp, https://sumble.com/llms.txt, https://sumble.com/mcp
 
 **Notes, verbatim from the file**
-Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2.6M companies. Self-serve 30-day free trial, no credit card required; specific paid pricing tiers not published.
+2026-08-28 link-rot correction, and the lead paid off. The mcp_url published until today, docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4, 404d when re-checked on 2026-08-27. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. https://sumble.com/llms.txt names the real current surface under a "For AI agents" heading, and both https://sumble.com/mcp and https://docs.sumble.com/api/mcp return 200. The server is alive and first-party, so mcp_status stays official rather than being downgraded. Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2.6M companies. Self-serve 30-day free trial, no credit card required; specific paid pricing tiers not published.
 
 **Provenance**
 
@@ -106,6 +109,6 @@ Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

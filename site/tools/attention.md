@@ -34,7 +34,7 @@ CRM-auto-write conversation-intelligence layer, marketed as an "AI agent platfor
 
 - **Status bucket**: Official MCP
 
-- **Auth**: unknown - not confirmed in the sources reviewed.
+- **Auth**: oauth for end users, api key for programmatic access, per https://docs.attention.com/mcp/authentication read 2026-08-28.
 
 - **Parsed URLs**: 2 found in the mcp_url field
 
@@ -46,9 +46,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.attention.com/attention-mcp-server (an unofficial community fork also exists: https://github.com/highgravitas/attention-mcp)
+https://docs.attention.com/mcp/overview (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. An unofficial community fork also exists: https://github.com/highgravitas/attention-mcp)
 
-- [https://docs.attention.com/attention-mcp-server](https://docs.attention.com/attention-mcp-server)
+- [https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview)
 - [https://github.com/highgravitas/attention-mcp](https://github.com/highgravitas/attention-mcp)
 
 **Access gate**
@@ -91,17 +91,19 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 **Sources**
 
-- [https://docs.attention.com/attention-mcp-server](https://docs.attention.com/attention-mcp-server)
+- [https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview)
+- [https://docs.attention.com/mcp/authentication](https://docs.attention.com/mcp/authentication)
+- [https://docs.attention.com/llms.txt](https://docs.attention.com/llms.txt)
 - [https://www.attention.com/](https://www.attention.com/)
 - [https://coldiq.com/tools/attention](https://coldiq.com/tools/attention)
 - [https://github.com/highgravitas/attention-mcp](https://github.com/highgravitas/attention-mcp)
 
-4 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://docs.attention.com/attention-mcp-server, https://www.attention.com/, https://coldiq.com/tools/attention, https://github.com/highgravitas/attention-mcp
+https://docs.attention.com/mcp/overview, https://docs.attention.com/mcp/authentication, https://docs.attention.com/llms.txt, https://www.attention.com/, https://coldiq.com/tools/attention, https://github.com/highgravitas/attention-mcp
 
 **Notes, verbatim from the file**
-None.
+2026-08-28 link-rot correction. The mcp_url published until today, docs.attention.com/attention-mcp-server, 404d when re-checked on 2026-08-27. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. The current first-party receipt was found in https://docs.attention.com/llms.txt, which indexes a full Attention MCP Server section, and both the overview and authentication pages return 200. mcp_status stays official on a live first-party URL, not on the old one.
 
 **Provenance**
 
@@ -115,6 +117,6 @@ None.
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

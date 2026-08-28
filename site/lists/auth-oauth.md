@@ -1,6 +1,6 @@
 # GTM MCP servers that use OAuth: 46 tools, counted
 
-> 46 of the 165 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+> 46 of the 165 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -31,7 +31,7 @@ pandadoc.com | [Official MCP](../mcp/official.md) | [https://developers.pandadoc
 | [Pipedrive](../tools/pipedrive.md)
 pipedrive.com | [Official MCP](../mcp/official.md) | [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server) | OAuth - "Connect in minutes through secure OAuth. No coding, no API development, no developer required." AI assistants can only see/edit what the... | [Free to start](../gates/free.md) |
 | [Relevance AI](../tools/relevance-ai.md)
-relevanceai.com | [Official MCP](../mcp/official.md) | [https://relevanceai.com/docs/integrations/mcp/progra...](https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction) | OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project roles get restricted read-only access automatically | [Free to start](../gates/free.md) |
+relevanceai.com | [Official MCP](../mcp/official.md) | [https://relevanceai.com/docs/get-started/core-concep...](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins) | OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project roles get restricted read-only access automatically | [Free to start](../gates/free.md) |
 | [Retool](../tools/retool.md)
 retool.com | [Official MCP](../mcp/official.md) | [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server) | OAuth 2.0. Endpoint pattern https:///mcp over HTTP. | [Free to start](../gates/free.md) |
 | [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md)
@@ -39,7 +39,7 @@ snowflake.com | [Official MCP](../mcp/official.md) | [https://docs.snowflake.com
 | [Trumpet (sendtrumpet.com)](../tools/trumpet.md)
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://www.sendtrumpet.com/blog-posts/introducing-t...](https://www.sendtrumpet.com/blog-posts/introducing-trumpet-mcp) | unknown - vendor states it is "installable in five minutes with no engineering required," implying a simple hosted-connector flow, but the specific... | [Free to start](../gates/free.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
-zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com](https://mcp.zapier.com) | Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize apps the same way you would for a normal Zap, then expose... | [Free to start](../gates/free.md) |
+zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) +1 more | Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize apps the same way you would for a normal Zap, then expose... | [Free to start](../gates/free.md) |
 | [ZoomInfo](../tools/zoominfo.md)
 zoominfo.com | [Official MCP](../mcp/official.md) | [https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp) +2 more | OAuth for user-level access, or client credentials for service accounts; no API keys stored by the client. A local mcp-remote bridge is used for... | [Free to start](../gates/free.md) |
 | [Allegrow](../tools/allegrow.md)
@@ -109,4 +109,4 @@ sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://trumpet.app/api/
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro) | Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side connection). | [Paid, self-serve](../gates/paid.md) |
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

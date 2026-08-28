@@ -46,9 +46,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://help.close.com/docs/mcp-server (endpoint: https://mcp.close.com/mcp)
+https://help.close.com/integrations/close-mcp-server (redirect correction 2026-08-28: the address previously recorded here, help.close.com/docs/mcp-server, 308s to this one and this one returns 200. Endpoint: https://mcp.close.com/mcp)
 
-- [https://help.close.com/docs/mcp-server](https://help.close.com/docs/mcp-server)
+- [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server)
 - [https://mcp.close.com/mcp](https://mcp.close.com/mcp)
 
 **Access gate**
@@ -85,12 +85,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 **Sources**
 
-- [https://help.close.com/docs/mcp-server](https://help.close.com/docs/mcp-server)
+- [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server)
 - [https://help.close.com/llms.txt](https://help.close.com/llms.txt)
 
 2 source URLs. Raw sources field, verbatim:
 
-https://help.close.com/docs/mcp-server, https://help.close.com/llms.txt
+https://help.close.com/integrations/close-mcp-server, https://help.close.com/llms.txt
 
 **Notes, verbatim from the file**
 Supports HTTP Streamable transport and integrates with Claude (web/desktop/code), ChatGPT, Cursor, VS Code, and n8n per its own docs. A separate community CLI tool (bcharleson/close-crm-cli) also exists and is unofficial.
@@ -107,6 +107,6 @@ Supports HTTP Streamable transport and integrates with Claude (web/desktop/code)
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
 # Draft personalized outreach: 51 GTM tools, 23 with an official MCP server
 
-> Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step. 28 of the 51 entries tagged with this job carry an MCP server of some kind, 23 of them official. Counted 2026-08-25 from the directory data.
+> Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step. 28 of the 51 entries tagged with this job carry an MCP server of some kind, 23 of them official. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Generate the copy: openers, emails, follow-ups, personalized on prospect context
 - **no MCP found**: 21
 - **solo reachable**: 23
 
-28 of the 51 entries tagged with this job carry an MCP server of some kind, 23 of them official. 45 of the 51 tagged entries are distinct products; the other 6 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+28 of the 51 entries tagged with this job carry an MCP server of some kind, 23 of them official. 45 of the 51 tagged entries are distinct products; the other 6 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

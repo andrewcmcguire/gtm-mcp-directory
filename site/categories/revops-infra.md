@@ -23,7 +23,7 @@ The systems of record, the pipes between them, and the low-code layer a GTM engi
 - **Paid, self-serve**: 7
 - **Enterprise only**: 4
 
-Source file: 06-revops-infra.md · content sha256 3e4d8d4f1635263c... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 db99ded503993f4c... · counts reconciled against tools_recount.py at build time.
 
 - [The 22 with an MCP server](../lists/mcp-revops-infra.md)
 

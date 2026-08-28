@@ -89,10 +89,10 @@ HEADERS = """/*
 REPO_URL = "https://github.com/andrewcmcguire/gtm-mcp-directory"  # live
 ISSUE_URL = REPO_URL + "/issues/new?template=tool-submission.yml"  # live
 SITE_ROUTE = "andrewcmcguire.com/gtm-directory"
-# NOT YET ROUTED. The site is live on its Cloudflare Pages subdomain; this is the URL the runbook
-# targets, and it is the base for the canonical tags, the sitemap and llms.txt. If the deploy takes
-# the subdomain fallback instead, change this one constant and rebuild: every internal link on the
-# site is relative and unaffected.
+# ROUTED AND LIVE since 2026-08-27. The site serves from andrewcmcguire.com/gtm-directory, with the
+# Cloudflare Pages subdomain as its origin. This is the base for the canonical tags, the sitemap and
+# llms.txt. If the route is ever unwound, change this one constant and rebuild: every internal link
+# on the site is relative and unaffected.
 SITE_BASE = "https://andrewcmcguire.com/gtm-directory"
 PACKAGE_NAME = "gtm-mcp-directory"
 SERVER_ID = "gtm-directory"
@@ -914,7 +914,7 @@ def head(title, desc, rel, extra="", ld=None, canon=None, robots="index,follow")
 
 def crumb_ld(rel, trail):
     """trail is [(label, href_relative_to_this_page_or_None), ...]. Emitted as a BreadcrumbList
-    with absolute URLs built from SITE_BASE, which points at the intended home until it is routed."""
+    with absolute URLs built from SITE_BASE, which is the live routed home of the site."""
     items = []
     for i, (label, href) in enumerate(trail, start=1):
         node = {"@type": "ListItem", "position": i, "name": detype(label)}
@@ -2632,10 +2632,10 @@ class of quiet lie the two tier honesty law exists to prevent. Vocabulary source
 <p>Every internal link on this site is relative, so the same files serve correctly from a Pages
 subdomain, from a path on andrewcmcguire.com, or from a file:// path with no network at all. The
 canonical tags, the sitemap and llms.txt need an absolute base, and that base is
-{esc(SITE_BASE)}. That is where the site is headed, not where it is serving from today: this build
-is live at andrewcmcguire.com/gtm-directory, routed 2026-08-27, with the Pages subdomain as its origin. When
-that route lands, the one constant changes and the site is rebuilt. It is disclosed here rather than
-left to look like a live URL.</p>
+{esc(SITE_BASE)}. That is also where the site actually serves from: the route was applied on
+2026-08-27 and this build is live at andrewcmcguire.com/gtm-directory, with the Cloudflare Pages
+subdomain as its origin. If that route is ever unwound, the one constant changes and the site is
+rebuilt. It is stated here so the canonical base is never a URL you have to take on trust.</p>
 </div></div>
 
 <div class="field"><div class="k">The markdown twins and what they are for</div><div class="v">

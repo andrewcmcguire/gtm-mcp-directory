@@ -1,6 +1,6 @@
 # What percentage of GTM tools can an AI agent reach? 56%, and less once you count the gate
 
-> 56% of 293 GTM tools have an MCP server. Once the access gate is applied the reachable number drops again. The arithmetic, counted 2026-08-25.
+> 56% of 293 GTM tools have an MCP server. Once the access gate is applied the reachable number drops again. The arithmetic, counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -27,7 +27,7 @@
 | Server, first party, and free to start | 43 | 15% |
 | And somebody here has actually run it | 0 | 0% |
 
-Counted 2026-08-25 from directory.json. The last row is the honest floor of this whole exercise and it is published on the front page rather than buried here.
+Counted 2026-08-28 from directory.json. The last row is the honest floor of this whole exercise and it is published on the front page rather than buried here.
 
 ## Why the last two rows matter most
 
@@ -35,14 +35,14 @@ Every percentage above the last two is a documentation reading. It says a vendor
 
 ## The direction of travel
 
-Do not read 56% as a permanent state. It is a reading taken on 2026-08-25 from 293 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25. The point of stamping every number with a date is that the next reading is comparable to this one.
+Do not read 56% as a permanent state. It is a reading taken on 2026-08-28 from 293 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25. The point of stamping every number with a date is that the next reading is comparable to this one.
 
 ## Sources
 
 - [The GTM MCP Directory, the counted data](../data.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -75,7 +75,7 @@ Nobody here has run any of these tools. 0 of 293 entries are bench tested, so tr
 - [The GTM MCP Directory, enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) this site
 - [The GTM MCP Directory, Data and Enrichment](../categories/data-enrichment.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

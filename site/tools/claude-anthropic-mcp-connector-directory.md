@@ -46,9 +46,9 @@ n/a (this is Anthropic's own directory, not a single vendor's MCP)
 
 mcp_url, verbatim from the file:
 
-https://www.claude.com/partners/mcp
+https://claude.com/connectors (redirect correction 2026-08-28: the address previously recorded here, www.claude.com/partners/mcp, 301s to claude.com/partners/mcp, which 301s again to this one; this one returns 200)
 
-- [https://www.claude.com/partners/mcp](https://www.claude.com/partners/mcp)
+- [https://claude.com/connectors](https://claude.com/connectors)
 
 **Access gate**
 
@@ -82,12 +82,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 **Sources**
 
-- [https://www.claude.com/partners/mcp](https://www.claude.com/partners/mcp)
+- [https://claude.com/connectors](https://claude.com/connectors)
 - [https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp)
 
 2 source URLs. Raw sources field, verbatim:
 
-https://www.claude.com/partners/mcp, https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp
+https://claude.com/connectors, https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp
 
 **Notes, verbatim from the file**
 Because each connector is built and operated by its own third-party developer (not Anthropic), the trust/auth posture varies connector-by-connector - Anthropic's role here is curation and the OAuth consent screen, not custody of your credentials.
@@ -104,6 +104,6 @@ Because each connector is built and operated by its own third-party developer (n
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

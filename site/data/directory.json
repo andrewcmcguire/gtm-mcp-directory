@@ -5,7 +5,7 @@
     "umbrella": "Agent Operator",
     "spec": "directory/product/SPEC.md"
   },
-  "generated_on": "2026-08-25",
+  "generated_on": "2026-08-28",
   "generated_by": "build_directory.py (phase 1)",
   "source": {
     "directory": "..",
@@ -277,7 +277,7 @@
         "03-tl-dv",
         "03-zoom-revenue-accelerator"
       ],
-      "source_sha256": "694831e32cbad5819440d62dc4984961afd0d4f3ef86141aec669debf92f4430"
+      "source_sha256": "107151b06c156c28b8b433a943f6665c9dca547c38a18a2d35a4647e29b636a8"
     },
     {
       "num": "04",
@@ -339,7 +339,7 @@
         "04-trellus-ai",
         "04-unify"
       ],
-      "source_sha256": "b973848947ac17d4fdabc28ab3cdfe9ec044fe07e441282fc21f3edcfdc5d57c"
+      "source_sha256": "cb1599cd99f27f9d4d6bd0ef40c30246c2b46a0947e86c14fc5a69e44beea86d"
     },
     {
       "num": "05",
@@ -406,7 +406,7 @@
         "05-vector",
         "05-warmly"
       ],
-      "source_sha256": "f8715c2f23feab7044e05c99857485e0981e50181d81d2cefe6fb5c204b67795"
+      "source_sha256": "68033ac4219bc4bbd380c57af06d711e7c4f4ccf4593559987c1c57ec14308e3"
     },
     {
       "num": "06",
@@ -468,7 +468,7 @@
         "06-syncari",
         "06-zapier"
       ],
-      "source_sha256": "3e4d8d4f1635263c86ca4ac17599b5b9f154b2fa0f7e11fdef3aa8d3a2ddf8d1"
+      "source_sha256": "db99ded503993f4c1f80117c7699c3fe8d064fc60b7c9e2028ab105e2b9f9dbf"
     },
     {
       "num": "07",
@@ -516,7 +516,7 @@
         "07-smithery",
         "07-zapier-mcp"
       ],
-      "source_sha256": "ae7ba695df5435c56548425e9cdac4905f5b9385eb173cfa02a576a808f378af"
+      "source_sha256": "0a5603a66e93cb3bc6d82f29054dd7c126dd26a9c532897d1d5299c8cebd3ef1"
     },
     {
       "num": "08",
@@ -667,7 +667,7 @@
         "10-savvycal",
         "10-trevor-ai"
       ],
-      "source_sha256": "266753f62455e79ff07e4d9fb1dbcb70825da8da7b9eb11e25c6570aef8c016c"
+      "source_sha256": "633f5f2b736e0fc009362790062592403953500b1471051c8e6b567239314d05"
     },
     {
       "num": "11",
@@ -9247,22 +9247,24 @@
       "what_it_does": "Captures, transcribes, and analyzes sales and customer conversations, automatically syncing structured insights to the CRM.",
       "ai_features": "AI-driven CRM auto-fill from calls, \"AI sales agents\" for follow-up automation, coaching workflows, sentiment/summary extraction, and searchable call snippets.",
       "mcp_status": "official",
-      "mcp_url": "https://docs.attention.com/attention-mcp-server (an unofficial community fork also exists: https://github.com/highgravitas/attention-mcp)",
-      "mcp_auth": "unknown - not confirmed in the sources reviewed.",
+      "mcp_url": "https://docs.attention.com/mcp/overview (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. An unofficial community fork also exists: https://github.com/highgravitas/attention-mcp)",
+      "mcp_auth": "oauth for end users, api key for programmatic access, per https://docs.attention.com/mcp/authentication read 2026-08-28.",
       "api_gate": "paid. No free plan; pricing runs roughly $100-$500/month per third-party trackers, with deeper API/security features reserved for a Contact-Sales Enterprise tier.",
       "revops_role": "CRM-auto-write conversation-intelligence layer, marketed as an \"AI agent platform\" for sales conversations rather than a passive recorder.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://docs.attention.com/attention-mcp-server, https://www.attention.com/, https://coldiq.com/tools/attention, https://github.com/highgravitas/attention-mcp",
-      "notes": "None.",
+      "sources": "https://docs.attention.com/mcp/overview, https://docs.attention.com/mcp/authentication, https://docs.attention.com/llms.txt, https://www.attention.com/, https://coldiq.com/tools/attention, https://github.com/highgravitas/attention-mcp",
+      "notes": "2026-08-28 link-rot correction. The mcp_url published until today, docs.attention.com/attention-mcp-server, 404d when re-checked on 2026-08-27. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. The current first-party receipt was found in https://docs.attention.com/llms.txt, which indexes a full Attention MCP Server section, and both the overview and authentication pages return 200. mcp_status stays official on a live first-party URL, not on the old one.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
-        "https://docs.attention.com/attention-mcp-server",
+        "https://docs.attention.com/mcp/overview",
         "https://github.com/highgravitas/attention-mcp"
       ],
       "source_urls": [
-        "https://docs.attention.com/attention-mcp-server",
+        "https://docs.attention.com/mcp/overview",
+        "https://docs.attention.com/mcp/authentication",
+        "https://docs.attention.com/llms.txt",
         "https://www.attention.com/",
         "https://coldiq.com/tools/attention",
         "https://github.com/highgravitas/attention-mcp"
@@ -9316,21 +9318,21 @@
       "what_it_does": "AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams.",
       "ai_features": "AI-generated summaries, conversation insights and key-topic extraction, deal-insight extraction feeding forecasts.",
       "mcp_status": "official",
-      "mcp_url": "https://help.avoma.com/avoma-mcp-server-user-guide (full API reference at dev.avoma.com); works with Claude Desktop only as of this research, though other MCP clients are \"being considered\" per the vendor.",
+      "mcp_url": "https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude (redirect correction 2026-08-28: the address previously recorded here, help.avoma.com/avoma-mcp-server-user-guide, 301s to this one through one intermediate hop, and this one returns 200. Full API reference at dev.avoma.com); works with Claude Desktop only as of this research, though other MCP clients are \"being considered\" per the vendor.",
       "mcp_auth": "API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer.",
       "api_gate": "paid. No permanent free tier - only a 14-day trial. API access requires the Organization plan ($29/user/mo annual and up); the entry Startup plan does not include it.",
       "revops_role": "Combined scheduling-plus-conversation-intelligence layer; a solo operator needs a paid Organization-tier seat to reach the API/MCP.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://help.avoma.com/avoma-mcp-server-user-guide, https://www.avoma.com/blog/avoma-mcp-server, https://help.avoma.com/api-documentation, https://www.avoma.com/pricing",
+      "sources": "https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude, https://www.avoma.com/blog/avoma-mcp-server, https://help.avoma.com/api-documentation, https://www.avoma.com/pricing",
       "notes": "None.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
-        "https://help.avoma.com/avoma-mcp-server-user-guide"
+        "https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude"
       ],
       "source_urls": [
-        "https://help.avoma.com/avoma-mcp-server-user-guide",
+        "https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude",
         "https://www.avoma.com/blog/avoma-mcp-server",
         "https://help.avoma.com/api-documentation",
         "https://www.avoma.com/pricing"
@@ -10112,23 +10114,23 @@
       "what_it_does": "Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM.",
       "ai_features": "AI-generated call summaries and action items, conversation scoring/coaching tools per product marketing - depth not independently verified in this research.",
       "mcp_status": "community",
-      "mcp_url": "https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp ; https://zapier.com/mcp/jiminny - both third-party; no official Jiminny-branded MCP announcement was found.",
+      "mcp_url": "https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp ; https://zapier.com/mcp/jiminny - both third-party; no official Jiminny-branded MCP announcement was found.",
       "mcp_auth": "Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer.",
       "api_gate": "enterprise-only (no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us)",
       "revops_role": "Mid-market call-recording and coaching layer with a documented but not fully transparent API surface.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/",
+      "sources": "https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/",
       "notes": "Added as an expansion beyond the seed list - a second mid-market Gong/Chorus competitor worth tracking. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.jiminny.com/): no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us.",
       "mcp_status_bucket": "community",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
-        "https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp",
+        "https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp",
         "https://zapier.com/mcp/jiminny"
       ],
       "source_urls": [
         "https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api",
-        "https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp",
+        "https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp",
         "https://zapier.com/mcp/jiminny",
         "https://apitracker.io/a/jiminny",
         "https://www.jiminny.com/"
@@ -11659,23 +11661,23 @@
       "what_it_does": "A platform for building and deploying specialist AI agents (research/enrichment, outbound prospecting, meeting scheduling, deal review, proposal building) that teams configure and progress toward autonomous (\"L3 Autopilot\") operation.",
       "ai_features": "Genuinely a build-your-own-agent platform rather than a single packaged persona - the agentic depth depends entirely on what the operator configures; the \"96.4% eval pass rate\" and \"L3 Autopilot\" framing are vendor-reported metrics, not independently verified.",
       "mcp_status": "official",
-      "mcp_url": "https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction",
+      "mcp_url": "https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins (redirect correction 2026-08-28: the address previously recorded here, relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction, 308s to this one and this one returns 200)",
       "mcp_auth": "OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project roles get restricted read-only access automatically",
       "api_gate": "free - the MCP server and Claude Code plugin are free to connect; usage (agent runs, tool executions) bills against the operator's Relevance AI plan",
       "revops_role": "Agent-building layer that can sit anywhere in the stack depending on configuration - closer to infrastructure than a packaged point solution.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction",
+      "sources": "https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins",
       "notes": "The seed list named this tool's SDR agent \"Bosh\" - that name could not be found anywhere on the current site or marketplace (agent templates found instead: \"Outbound Prospector,\" \"Sales Researcher,\" \"Perfect 5 Leads,\" etc.). Either renamed, deprecated, or misremembered - flag as unconfirmed. This is one of the very few tools in this category with a confirmed, solo-operator-accessible official MCP - a strong bench-test candidate.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
-        "https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction"
+        "https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins"
       ],
       "source_urls": [
         "https://relevanceai.com",
         "https://marketplace.relevanceai.com/",
-        "https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction"
+        "https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins"
       ],
       "source_annotations": [],
       "vendor_domain": "relevanceai.com",
@@ -12469,7 +12471,7 @@
       "canonical_id": "05-centralize",
       "also_listed_in": [],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 573,
+      "source_line": 575,
       "file_index": 24,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -12732,7 +12734,7 @@
       "canonical_id": "05-crossbeam",
       "also_listed_in": [],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 593,
+      "source_line": 595,
       "file_index": 25,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -12808,7 +12810,7 @@
         }
       ],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 507,
+      "source_line": 509,
       "file_index": 21,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -13005,7 +13007,7 @@
       "canonical_id": "05-g2-buyer-intent",
       "also_listed_in": [],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 613,
+      "source_line": 615,
       "file_index": 26,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -13127,7 +13129,7 @@
       "canonical_id": "05-intently",
       "also_listed_in": [],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 553,
+      "source_line": 555,
       "file_index": 23,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -13434,7 +13436,7 @@
       "canonical_id": "05-predictleads",
       "also_listed_in": [],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 485,
+      "source_line": 487,
       "file_index": 20,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -13454,18 +13456,18 @@
       "what_it_does": "Deanonymizes B2B website traffic by matching visitor IP/device identifiers and first/third-party data against a contact database to reveal the specific US-based person (name, LinkedIn, email) browsing the site, plus company-level ID globally.",
       "ai_features": "No AI/ML claims found - presented as identity-resolution/probabilistic data matching, not predictive scoring or LLM work. This is aggregation and matching, not AI.",
       "mcp_status": "official",
-      "mcp_url": "https://github.com/robbclarke/RB2B-APIs-MCP (npm: @rb2b/rb2b-apis-mcp)",
+      "mcp_url": "https://registry.npmjs.org/@rb2b/rb2b-apis-mcp (re-verified 200 on 2026-08-28, latest 1.1.7 published 2026-04-13. The only live first-party receipt; corrected that day off a dead receipt, see notes.)",
       "mcp_auth": "api key",
       "api_gate": "paid",
       "revops_role": "Top-of-funnel intent capture, turning anonymous website traffic into named, contactable leads for SDR follow-up and Slack alerting.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
       "sources": "https://www.rb2b.com/, https://www.rb2b.com/power-your-product, https://www.warmly.ai/p/blog/rb2b-pricing, https://salestools.club/apis/rb2b, https://registry.npmjs.org/@rb2b/rb2b-apis-mcp",
-      "notes": "Sources conflict on MCP status - a third-party directory (salestools.club) says \"Not available,\" but the npm package's maintainer email (robb@retention.com) matches RB2B's parent company Retention.com, a strong signal it's founder-maintained rather than a random fork; not confirmed via RB2B's own docs site. A separate OEM/API program runs $5,000/mo base + $0.10/resolution above 50,000/mo - enterprise-leaning for that tier specifically. Person-level ID is US-only.",
+      "notes": "2026-08-28 link-rot correction. The GitHub repo published as this entry's mcp_url until today, github.com/robbclarke/RB2B-APIs-MCP, 404d on 2026-08-27 and is gone. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. The npm package's own homepage and repository fields still point at that dead repo. The npm package it shipped from is still live and installable. mcp_status stays official on that basis, but it is the weakest official claim in this file and needs a re-verification pass: RB2B's own docs host (docs.rb2b.com) now 302s to an /inactive path that returns 401, so there is no vendor documentation surface left to confirm against. Sources conflict on MCP status - a third-party directory (salestools.club) says \"Not available,\" but the npm package's maintainer email (robb@retention.com) matches RB2B's parent company Retention.com, a strong signal it's founder-maintained rather than a random fork; not confirmed via RB2B's own docs site. A separate OEM/API program runs $5,000/mo base + $0.10/resolution above 50,000/mo - enterprise-leaning for that tier specifically. Person-level ID is US-only.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
-        "https://github.com/robbclarke/RB2B-APIs-MCP"
+        "https://registry.npmjs.org/@rb2b/rb2b-apis-mcp"
       ],
       "source_urls": [
         "https://www.rb2b.com/",
@@ -13489,9 +13491,7 @@
       "github_last_commit": null,
       "github_archived": null,
       "github_fetched_on": null,
-      "github_candidates": [
-        "https://github.com/robbclarke/RB2B-APIs-MCP"
-      ],
+      "github_candidates": [],
       "docs_digest": null,
       "docs_last_crawled": null,
       "submission": null,
@@ -13566,7 +13566,7 @@
       "canonical_id": "05-similarweb",
       "also_listed_in": [],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 633,
+      "source_line": 635,
       "file_index": 27,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -13648,23 +13648,26 @@
       "what_it_does": "Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and initiatives like cloud migrations or GenAI projects per company.",
       "ai_features": "Genuinely AI-driven - pairs a knowledge graph with an LLM to synthesize disparate signals into coherent account narratives, per vendor and TechCrunch coverage. Founded by Kaggle co-founders (Anthony Goldbloom, Ben Hamner), which lends some credibility, though the specifics remain vendor-described.",
       "mcp_status": "official",
-      "mcp_url": "https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4 (\"Use the MCP server\")",
-      "mcp_auth": "unknown - not disclosed in the public docs excerpt available",
+      "mcp_url": "https://docs.sumble.com/api/mcp (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. Product overview at https://sumble.com/mcp)",
+      "mcp_auth": "unknown - the MCP overview page documents one-click install from the Claude and ChatGPT app directories and a custom MCP connection for Cursor, Claude Code and Gemini CLI, but does not name the credential type on that page. Read 2026-08-28.",
       "api_gate": "paid",
       "revops_role": "Account research / call-prep layer - LLM-driven account intelligence for reps prepping outbound or discovery calls.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/, https://sumble.com/, https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4",
-      "notes": "Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2.6M companies. Self-serve 30-day free trial, no credit card required; specific paid pricing tiers not published.",
+      "sources": "https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/, https://sumble.com/, https://docs.sumble.com/api/mcp, https://sumble.com/llms.txt, https://sumble.com/mcp",
+      "notes": "2026-08-28 link-rot correction, and the lead paid off. The mcp_url published until today, docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4, 404d when re-checked on 2026-08-27. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. https://sumble.com/llms.txt names the real current surface under a \"For AI agents\" heading, and both https://sumble.com/mcp and https://docs.sumble.com/api/mcp return 200. The server is alive and first-party, so mcp_status stays official rather than being downgraded. Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2.6M companies. Self-serve 30-day free trial, no credit card required; specific paid pricing tiers not published.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
-        "https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4"
+        "https://docs.sumble.com/api/mcp",
+        "https://sumble.com/mcp"
       ],
       "source_urls": [
         "https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/",
         "https://sumble.com/",
-        "https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4"
+        "https://docs.sumble.com/api/mcp",
+        "https://sumble.com/llms.txt",
+        "https://sumble.com/mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "sumble.com",
@@ -13760,7 +13763,7 @@
         }
       ],
       "source_file": "05-signals-intent-abm.md",
-      "source_line": 531,
+      "source_line": 533,
       "file_index": 22,
       "category_num": "05",
       "category_slug": "signals-intent-abm",
@@ -14368,22 +14371,22 @@
       "what_it_does": "A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record.",
       "ai_features": "Close's pricing page reportedly references an \"AI Sales Agent\" but this was not independently verified against a primary product page in this pass - flagged as under-researched rather than asserted. The MCP server itself is connectivity (create leads, log calls, send SMS, manage tasks), not an AI feature.",
       "mcp_status": "official",
-      "mcp_url": "https://help.close.com/docs/mcp-server (endpoint: https://mcp.close.com/mcp)",
+      "mcp_url": "https://help.close.com/integrations/close-mcp-server (redirect correction 2026-08-28: the address previously recorded here, help.close.com/docs/mcp-server, 308s to this one and this one returns 200. Endpoint: https://mcp.close.com/mcp)",
       "mcp_auth": "Dual - OAuth 2.0 with Dynamic Client Registration (recommended; used by Claude, ChatGPT, Cursor) or API-key auth via custom headers (Close-API-Key, Close-Scope). Three scope tiers: mcp.read, mcp.write_safe, mcp.write_destructive.",
       "api_gate": "paid - no free tier; API access is included on every paid plan starting at Solo (~$19/user/mo standard). No enterprise-sales gate, but a subscription is required.",
       "revops_role": "SMB/startup sales CRM often chosen for native calling/SMS; its MCP server pitches \"run ops tasks via Claude\" as a differentiator for small sales teams without dedicated RevOps engineering.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://help.close.com/docs/mcp-server, https://help.close.com/llms.txt",
+      "sources": "https://help.close.com/integrations/close-mcp-server, https://help.close.com/llms.txt",
       "notes": "Supports HTTP Streamable transport and integrates with Claude (web/desktop/code), ChatGPT, Cursor, VS Code, and n8n per its own docs. A separate community CLI tool (bcharleson/close-crm-cli) also exists and is unofficial.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
-        "https://help.close.com/docs/mcp-server",
+        "https://help.close.com/integrations/close-mcp-server",
         "https://mcp.close.com/mcp"
       ],
       "source_urls": [
-        "https://help.close.com/docs/mcp-server",
+        "https://help.close.com/integrations/close-mcp-server",
         "https://help.close.com/llms.txt"
       ],
       "source_annotations": [],
@@ -15620,21 +15623,21 @@
       "what_it_does": "Anthropic's own curated, in-product directory of MCP connectors that Claude users can browse and one-click-connect to, filterable by use case (sales, marketing, data, etc.) and by capability (read / read-write / interactive).",
       "ai_features": "none in the directory itself - it is a discovery/connection UI inside Claude, not an AI feature; the AI is Claude, using whichever connector you authorize.",
       "mcp_status": "n/a (this is Anthropic's own directory, not a single vendor's MCP)",
-      "mcp_url": "https://www.claude.com/partners/mcp",
+      "mcp_url": "https://claude.com/connectors (redirect correction 2026-08-28: the address previously recorded here, www.claude.com/partners/mcp, 301s to claude.com/partners/mcp, which 301s again to this one; this one returns 200)",
       "mcp_auth": "Per-connector OAuth - Claude shows the requested scopes at connect time and lets the user limit or deny them; connectors are built and maintained by third-party developers against the MCP spec, with Anthropic publishing separate MCP Directory Terms and Policies for listed providers.",
       "api_gate": "free (custom/remote connectors: Free plan is limited to one custom connector; Pro, Max, Team, and Enterprise get unlimited custom connectors - no separate paid tier just to use the directory)",
       "revops_role": "The most mainstream on-ramp for a non-engineer GTM user to connect Claude directly to their stack; listed connectors during this check included CRM/sales tools (ActiveCampaign, Apollo.io, Affinity), analytics, and productivity apps, filterable by \"sales\" use case.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://www.claude.com/partners/mcp, https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp",
+      "sources": "https://claude.com/connectors, https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp",
       "notes": "Because each connector is built and operated by its own third-party developer (not Anthropic), the trust/auth posture varies connector-by-connector - Anthropic's role here is curation and the OAuth consent screen, not custody of your credentials.",
       "mcp_status_bucket": "n-a",
       "api_gate_bucket": "free",
       "mcp_urls": [
-        "https://www.claude.com/partners/mcp"
+        "https://claude.com/connectors"
       ],
       "source_urls": [
-        "https://www.claude.com/partners/mcp",
+        "https://claude.com/connectors",
         "https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp"
       ],
       "source_annotations": [],
@@ -15679,23 +15682,23 @@
       "what_it_does": "A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion, Stripe, and others) through Composio-managed OAuth.",
       "ai_features": "none in Composio itself - it is tool/auth plumbing that any LLM or agent framework (Claude, GPT, LangChain, CrewAI, or a raw MCP client) calls into. The \"AI\" is whichever agent is on the other end, not something Composio adds.",
       "mcp_status": "official",
-      "mcp_url": "https://docs.composio.dev/mcp/overview",
+      "mcp_url": "https://docs.composio.dev/docs/single-toolkit-mcp (redirect correction 2026-08-28: the address previously recorded here, docs.composio.dev/mcp/overview, 308s to this one and this one returns 200)",
       "mcp_auth": "Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the user's behalf, then gates the MCP endpoint itself with an x-api-key header (required by default for new orgs). MCP endpoint pattern is https://backend.composio.dev/v3/mcp/{server_id}?user_id={user_id}.",
       "api_gate": "free (100K tool calls/mo, 50K trigger events/mo, unlimited connections on the Free plan, no credit card)",
       "revops_role": "The connector layer a solo RevOps engineer reaches for instead of hand-building OAuth + API wrappers for a dozen GTM tools one at a time.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://composio.dev, https://composio.dev/pricing, https://docs.composio.dev/mcp/overview",
+      "sources": "https://composio.dev, https://composio.dev/pricing, https://docs.composio.dev/docs/single-toolkit-mcp",
       "notes": "Composio holds the OAuth tokens for every connected toolkit - it is a custodial broker, not a pass-through. Pro tier ($29/mo) adds pay-as-you-scale overage at $0.0003/tool call; Enterprise adds SSO/SCIM and a KMS proxy for teams that don't want Composio holding raw tokens.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
-        "https://docs.composio.dev/mcp/overview"
+        "https://docs.composio.dev/docs/single-toolkit-mcp"
       ],
       "source_urls": [
         "https://composio.dev",
         "https://composio.dev/pricing",
-        "https://docs.composio.dev/mcp/overview"
+        "https://docs.composio.dev/docs/single-toolkit-mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "composio.dev",
@@ -16268,22 +16271,23 @@
       "what_it_does": "Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app actions Zapier already exposes to its classic trigger-action Zaps.",
       "ai_features": "none in the MCP layer itself - it reuses Zapier's existing (non-AI) action library. Zapier's separate \"Zapier Agents\" product is where genuine LLM-driven autonomous behavior lives; MCP is a new door into the same rules-based action catalog.",
       "mcp_status": "official",
-      "mcp_url": "https://mcp.zapier.com",
+      "mcp_url": "https://mcp.zapier.com/login?redirectTo=%2Fmcp (redirect correction 2026-08-28: the bare address previously recorded here, mcp.zapier.com, 307s to /mcp and then to this signed-in console URL, which returns 200. It is an auth wall, not documentation; the public documentation for the same server is https://zapier.com/mcp)",
       "mcp_auth": "Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize apps the same way you would for a normal Zap, then expose selected actions to the MCP client.",
       "api_gate": "free (bundled into existing Zapier plans; each MCP tool call consumes 2 tasks from the account's standard task quota - no separate SKU)",
       "revops_role": "The broadest reach-into-anything connector for a RevOps stack already standardized on Zapier - claims 9,000+ connectable apps including Salesforce, HubSpot, Gmail, and Slack.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://zapier.com/mcp, https://mcp.zapier.com",
+      "sources": "https://zapier.com/mcp, https://mcp.zapier.com/login?redirectTo=%2Fmcp",
       "notes": "Because MCP calls draw from the same task pool as regular Zaps, a chatty agent can burn a plan's task quota fast - worth watching before pointing a high-frequency agent at it.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
-        "https://mcp.zapier.com"
+        "https://mcp.zapier.com/login?redirectTo=%2Fmcp",
+        "https://zapier.com/mcp"
       ],
       "source_urls": [
         "https://zapier.com/mcp",
-        "https://mcp.zapier.com"
+        "https://mcp.zapier.com/login?redirectTo=%2Fmcp"
       ],
       "source_annotations": [],
       "vendor_domain": "zapier.com",
@@ -18352,21 +18356,21 @@
       "what_it_does": "\"Agentic GTM infrastructure\" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top.",
       "ai_features": "Genuinely notable natural-language config layer - a \"Dot\" agent lets users define routing/territory/segment logic in plain language, compiled into deployed rules (\"Text-to-Meeting,\" beta) - and third-party AI agents (Claude, ChatGPT) can book/reschedule/cancel meetings via the MCP/API, which is real agent autonomy. Underlying routing mechanics (round robin, if/else branching, queues, fairness/load balancing) remain conventional rules-based automation - the AI sits in the config/interface layer, not the routing math itself.",
       "mcp_status": "official",
-      "mcp_url": "https://www.default.com/product/platform (vendor's own page states \"MCP access to data and tools for every agent, whether built inside Default or on top of it,\" labeled \"in beta\"; no separate dedicated MCP docs/repo page was found)",
+      "mcp_url": "https://www.default.com/ (redirect correction 2026-08-28: the address previously recorded here, www.default.com/product/platform, 308s to the site root and the root returns 200. The dedicated product page the MCP claim was read from no longer exists as its own URL, which weakens an already marketing-only claim; vendor's own page stated \"MCP access to data and tools for every agent, whether built inside Default or on top of it,\" labeled \"in beta\"; no separate dedicated MCP docs/repo page was found)",
       "mcp_auth": "unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade data access, but unconfirmed)",
       "api_gate": "enterprise-only (no published pricing at all - /pricing and /plans both 404 and the site offers only request-a-demo and login - and no API or developer docs link exists in nav or footer, so there is no self-serve path of any kind)",
       "revops_role": "Broader GTM data/orchestration layer where scheduling and lead routing are one module among enrichment, workflows, and agent orchestration - pitched as a Chili Piper/RevenueHero alternative with a wider remit.",
       "tier": "RESEARCHED",
       "last_checked": "2026-08-24",
-      "sources": "https://www.default.com/product/platform, https://www.default.com/product/lead-routing-software, https://www.default.com/product/sales-scheduling-software, https://www.default.com/pricing, https://default.com/",
+      "sources": "https://www.default.com/, https://www.default.com/product/lead-routing-software, https://www.default.com/product/sales-scheduling-software, https://www.default.com/pricing, https://default.com/",
       "notes": "No official GitHub org locatable (github.com/default resolves to an unrelated individual account, not the vendor). The MCP claim rests on marketing copy only (explicitly \"in beta\"), not yet backed by findable technical docs - flagged so a reader verifies before building on it. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://default.com/): no published pricing at all - /pricing and /plans both 404 and the site offers only request-a-demo and login - and no API or developer docs link exists in nav or footer, so there is no self-serve path of any kind.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
-        "https://www.default.com/product/platform"
+        "https://www.default.com/"
       ],
       "source_urls": [
-        "https://www.default.com/product/platform",
+        "https://www.default.com/",
         "https://www.default.com/product/lead-routing-software",
         "https://www.default.com/product/sales-scheduling-software",
         "https://www.default.com/pricing",
@@ -23546,6 +23550,6 @@
       "display_rank": 257
     }
   ],
-  "content_sha256": "fdc670f8f911035ceeb71200fcb9bc062363aecdcede0ab5324b5cc0a8676b20",
-  "source_sha256": "13f346e3245c3eb42506fd0070d72718221a535f088ab681aa7f940e69d10429"
+  "content_sha256": "84def5fb51daf19b5df44705b2cb40dc4bc28b517b40b763d275d56f589a0bdd",
+  "source_sha256": "b9fea57ac759f2f6d818bfc9a424d8806736eb286f1479320a926e9a52f27cd6"
 }

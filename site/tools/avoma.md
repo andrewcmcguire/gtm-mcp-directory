@@ -46,9 +46,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://help.avoma.com/avoma-mcp-server-user-guide (full API reference at dev.avoma.com); works with Claude Desktop only as of this research, though other MCP clients are "being considered" per the vendor.
+https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude (redirect correction 2026-08-28: the address previously recorded here, help.avoma.com/avoma-mcp-server-user-guide, 301s to this one through one intermediate hop, and this one returns 200. Full API reference at dev.avoma.com); works with Claude Desktop only as of this research, though other MCP clients are "being considered" per the vendor.
 
-- [https://help.avoma.com/avoma-mcp-server-user-guide](https://help.avoma.com/avoma-mcp-server-user-guide)
+- [https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude](https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude)
 
 **Access gate**
 
@@ -85,14 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 **Sources**
 
-- [https://help.avoma.com/avoma-mcp-server-user-guide](https://help.avoma.com/avoma-mcp-server-user-guide)
+- [https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude](https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude)
 - [https://www.avoma.com/blog/avoma-mcp-server](https://www.avoma.com/blog/avoma-mcp-server)
 - [https://help.avoma.com/api-documentation](https://help.avoma.com/api-documentation)
 - [https://www.avoma.com/pricing](https://www.avoma.com/pricing)
 
 4 source URLs. Raw sources field, verbatim:
 
-https://help.avoma.com/avoma-mcp-server-user-guide, https://www.avoma.com/blog/avoma-mcp-server, https://help.avoma.com/api-documentation, https://www.avoma.com/pricing
+https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude, https://www.avoma.com/blog/avoma-mcp-server, https://help.avoma.com/api-documentation, https://www.avoma.com/pricing
 
 **Notes, verbatim from the file**
 None.
@@ -109,6 +109,6 @@ None.
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

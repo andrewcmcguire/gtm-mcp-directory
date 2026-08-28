@@ -1,6 +1,6 @@
 # Community MCP servers: 21 GTM tools with a third party server
 
-> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-08-25 across 293 directory entries.
+> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-08-28 across 293 directory entries.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -74,10 +74,10 @@ unknown - the third-party server's description states it interfaces with "the Br
 copy.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
 API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 | [Jiminny](../tools/jiminny.md)
-jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
+jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

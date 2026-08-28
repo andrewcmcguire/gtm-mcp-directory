@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://getintently.com](https://getintently.com) · entry id 05-intently · source 05-signals-intent-abm.md line 553
+Vendor: [https://getintently.com](https://getintently.com) · entry id 05-intently · source 05-signals-intent-abm.md line 555
 
 **What it does**
 Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data, competitor followers, and post reactions/comments as engagement signals.
@@ -97,12 +97,12 @@ IDENTITY CONFIDENCE FLAG - "Intently" is a common name; intently.co (a service m
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 553
+- **Source line**: 555
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

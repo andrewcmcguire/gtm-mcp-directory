@@ -1,6 +1,6 @@
 # RevOps infrastructure tools with MCP servers: 22 of 23, counted
 
-> 22 of the 23 revops infra tools in The GTM MCP Directory have an MCP server: 22 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+> 22 of the 23 revops infra tools in The GTM MCP Directory have an MCP server: 22 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -56,7 +56,7 @@ Reuses Zapier's existing 13+ year credential infrastructure - connect an AI clie
 affinity.co | [Official MCP](../mcp/official.md) | [https://mcp.affinity.co/mcp](https://mcp.affinity.co/mcp) +1 more | OAuth or an API key
 OAuth where the client supports it, otherwise an API key. Local deployment is API key... | [Paid, self-serve](../gates/paid.md) |
 | [Close (Close CRM)](../tools/close.md)
-close.com | [Official MCP](../mcp/official.md) | [https://help.close.com/docs/mcp-server](https://help.close.com/docs/mcp-server) +1 more | OAuth or an API key
+close.com | [Official MCP](../mcp/official.md) | [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server) +1 more | OAuth or an API key
 Dual - OAuth 2.0 with Dynamic Client Registration (recommended; used by Claude, ChatGPT,... | [Paid, self-serve](../gates/paid.md) |
 | [HighLevel (GoHighLevel)](../tools/highlevel.md)
 gohighlevel.com | [Official MCP](../mcp/official.md) | [https://services.leadconnectorhq.com/mcp/](https://services.leadconnectorhq.com/mcp/) +1 more | API key
@@ -103,4 +103,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

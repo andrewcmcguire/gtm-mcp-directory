@@ -32,7 +32,7 @@ Community servers cluster. Video Prospecting alone accounts for 6 of the 21, aga
 
 ## What to check before depending on a community server
 
-- When the repo last moved. This directory does not publish that yet: the repo health rail has not been run, and a star count without the date it was taken is a lie, so nothing is shown rather than something stale. 62 entries already carry a github.com URL somewhere in their fields, which is the seed for that work.
+- When the repo last moved. This directory does not publish that yet: the repo health rail has not been run, and a star count without the date it was taken is a lie, so nothing is shown rather than something stale. 61 entries already carry a github.com URL somewhere in their fields, which is the seed for that work.
 
 - Whether the vendor acknowledges it anywhere in their own docs.
 
@@ -46,7 +46,7 @@ The 21 community servers in this directory are listed with their URLs and their 
 - [Model Context Protocol, official documentation](https://modelcontextprotocol.io) https://modelcontextprotocol.io
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

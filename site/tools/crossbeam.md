@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [crossbeam.com](https://crossbeam.com) · entry id 05-crossbeam · source 05-signals-intent-abm.md line 593
+Vendor: [crossbeam.com](https://crossbeam.com) · entry id 05-crossbeam · source 05-signals-intent-abm.md line 595
 
 **What it does**
 Compares your account list against your partners' account lists to surface overlaps, partner-shared contacts, and warm introduction paths for co-selling.
@@ -101,12 +101,12 @@ Added 2026-08-25 in the coverage sweep. MCP is in Limited Availability and restr
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 593
+- **Source line**: 595
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

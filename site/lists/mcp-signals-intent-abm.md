@@ -1,6 +1,6 @@
 # Signals & Intent tools with MCP servers: 18 of 28, counted
 
-> 18 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 17 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+> 18 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 17 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -35,14 +35,14 @@ api key (free sandbox key available) | [Paid, self-serve](../gates/paid.md) |
 factors.ai | [Official MCP](../mcp/official.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | API key
 Personal access token (generated in Settings > AI Features), used via Claude custom... | [Paid, self-serve](../gates/paid.md) |
 | [RB2B](../tools/rb2b.md)
-rb2b.com | [Official MCP](../mcp/official.md) | [https://github.com/robbclarke/RB2B-APIs-MCP](https://github.com/robbclarke/RB2B-APIs-MCP) | API key
+rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | API key
 api key | [Paid, self-serve](../gates/paid.md) |
 | [Snitcher](../tools/snitcher.md)
 snitcher.com | [Official MCP](../mcp/official.md) | [https://www.snitcher.com/changelog/point-claude-at-s...](https://www.snitcher.com/changelog/point-claude-at-snitcher/) | Auth not recorded
 unknown - vendor changelog points to docs.snitcher.com for authentication specifics, not... | [Paid, self-serve](../gates/paid.md) |
 | [Sumble](../tools/sumble.md)
-sumble.com | [Official MCP](../mcp/official.md) | [https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4](https://docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4) | Auth not recorded
-unknown - not disclosed in the public docs excerpt available | [Paid, self-serve](../gates/paid.md) |
+sumble.com | [Official MCP](../mcp/official.md) | [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp) +1 more | Auth not recorded
+unknown - the MCP overview page documents one-click install from the Claude and ChatGPT... | [Paid, self-serve](../gates/paid.md) |
 | [6sense](../tools/6sense.md)
 6sense.com | [Official MCP](../mcp/official.md) | [https://6sense.com/platform/mcp-server/](https://6sense.com/platform/mcp-server/) +1 more | OAuth
 OAuth using existing 6sense platform login (no separate API key setup per vendor docs) | [Enterprise only](../gates/enterprise-only.md) |
@@ -109,4 +109,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

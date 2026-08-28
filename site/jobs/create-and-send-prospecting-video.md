@@ -1,6 +1,6 @@
 # Create and send a prospecting video: 14 GTM tools, 3 with an official MCP server
 
-> Record or generate a personalized video and deliver it into an email, sequence or CRM step. 9 of the 14 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-08-25 from the directory data.
+> Record or generate a personalized video and deliver it into an email, sequence or CRM step. 9 of the 14 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Record or generate a personalized video and deliver it into an email, sequence o
 - **no MCP found**: 4
 - **solo reachable**: 7
 
-9 of the 14 entries tagged with this job carry an MCP server of some kind, 3 of them official. 13 of the 14 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+9 of the 14 entries tagged with this job carry an MCP server of some kind, 3 of them official. 13 of the 14 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

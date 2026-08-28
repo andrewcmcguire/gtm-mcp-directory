@@ -1,6 +1,6 @@
 # Send a document for signature: 6 GTM tools, 3 with an official MCP server
 
-> Put a document into a signing flow and track its state to signed. 3 of the 6 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-08-25 from the directory data.
+> Put a document into a signing flow and track its state to signed. 3 of the 6 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Put a document into a signing flow and track its state to signed.
 - **no MCP found**: 3
 - **solo reachable**: 3
 
-3 of the 6 entries tagged with this job carry an MCP server of some kind, 3 of them official. All 6 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+3 of the 6 entries tagged with this job carry an MCP server of some kind, 3 of them official. All 6 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

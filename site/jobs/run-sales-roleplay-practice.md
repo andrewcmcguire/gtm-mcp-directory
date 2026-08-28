@@ -1,6 +1,6 @@
 # Run a sales roleplay practice: 11 GTM tools, 0 with an official MCP server
 
-> Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring. 0 of the 11 entries tagged with this job carry an MCP server of some kind, 0 of them official. Not one is official, which means an agent cannot do this job through a vendor maintained server today. Counted 2026-08-25 from the directory data.
+> Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring. 0 of the 11 entries tagged with this job carry an MCP server of some kind, 0 of them official. Not one is official, which means an agent cannot do this job through a vendor maintained server today. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Hold a simulated buyer conversation with a rep and grade it. A distinct product 
 - **no MCP found**: 11
 - **solo reachable**: 0
 
-0 of the 11 entries tagged with this job carry an MCP server of some kind, 0 of them official. Not one is official, which means an agent cannot do this job through a vendor maintained server today. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+0 of the 11 entries tagged with this job carry an MCP server of some kind, 0 of them official. Not one is official, which means an agent cannot do this job through a vendor maintained server today. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

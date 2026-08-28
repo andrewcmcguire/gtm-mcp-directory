@@ -1,6 +1,6 @@
 # GTM tools a solo operator can reach: 123 with a server and no procurement cycle
 
-> 123 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-25.
+> 123 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -263,4 +263,4 @@ vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, s
 | [Weezly](../tools/weezly.md)
 weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Book a meeting](../jobs/book-a-meeting.md) |
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

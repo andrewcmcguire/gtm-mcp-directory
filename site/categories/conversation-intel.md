@@ -26,7 +26,7 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Enterprise only**: 8
 - **Gate unknown**: 2
 
-Source file: 03-conversation-intel.md · content sha256 694831e32cbad581... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 107151b06c156c28... · counts reconciled against tools_recount.py at build time.
 
 - [The 20 with an MCP server](../lists/mcp-conversation-intel.md)
 

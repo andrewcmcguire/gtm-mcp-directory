@@ -1,6 +1,6 @@
 # The data: directory.json, published in full
 
-> The whole GTM MCP Directory as JSON: 293 entries, 144 official MCP servers, 827 job tags, every source URL. Free, no key, no signup. Baked 2026-08-25.
+> The whole GTM MCP Directory as JSON: 293 entries, 144 official MCP servers, 827 job tags, every source URL. Free, no key, no signup. Baked 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -34,7 +34,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **job tags**
 
-1,121
+1,125
 
 **source URLs**
 
@@ -46,7 +46,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 | File | Bytes | What it is |
 |---|---|---|
-| [data/directory.json](data/directory.json) | 1,199,292 | Every entry with every field, the 15 category blocks, the closed 55 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
+| [data/directory.json](data/directory.json) | 1,203,359 | Every entry with every field, the 15 category blocks, the closed 55 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
 | [data/build_report.json](data/build_report.json) | 43,099 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 28 entries the tagging pass flagged for human review. |
 | [search-index.json](search-index.json) | 282,210 | One compact record per unique product, which is what the on page search runs over. |
 | [llms.txt](llms.txt) | text | The map, for agents and crawlers. Every section of the site with a one line description. |
@@ -90,12 +90,12 @@ Facts about third party products are recorded from those vendors' own public sou
 
 **Provenance**
 
-- **Baked**: 2026-08-25
+- **Baked**: 2026-08-28
 
 - **By**: build_directory.py (phase 1)
 
 - **Schema version**: 1.1
 
-- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: fdc670f8f911035ceeb71200...
+- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: 84def5fb51daf19b5df44705...
 
-The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, which is the site's intended home and not yet routed. See the [methodology page](methodology.md).
+The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the [methodology page](methodology.md).

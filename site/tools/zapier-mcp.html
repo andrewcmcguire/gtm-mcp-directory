@@ -34,7 +34,7 @@
   },
   "softwareHelp": {
     "@type": "CreativeWork",
-    "url": "https://mcp.zapier.com"
+    "url": "https://mcp.zapier.com/login?redirectTo=%2Fmcp"
   }
 }
 </script>
@@ -107,23 +107,23 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Zapier&#x27;s own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app actions Zapier already exposes to its classic trigger-action Zaps.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">none in the MCP layer itself - it reuses Zapier&#x27;s existing (non-AI) action library. Zapier&#x27;s separate &quot;Zapier Agents&quot; product is where genuine LLM-driven autonomous behavior lives; MCP is a new door into the same rules-based action catalog.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">The broadest reach-into-anything connector for a RevOps stack already standardized on Zapier - claims 9,000+ connectable apps including Salesforce, HubSpot, Gmail, and Slack.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">Uses Zapier&#x27;s existing decade-old app-connection/OAuth infrastructure - you authorize apps the same way you would for a normal Zap, then expose selected actions to the MCP client.</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
 </div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established on 2026-08-24 and has not been re-fetched since.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.zapier.com</p><ul><li><a href="https://mcp.zapier.com" rel="noopener nofollow">https://mcp.zapier.com</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.zapier.com/login?redirectTo=%2Fmcp (redirect correction 2026-08-28: the bare address previously recorded here, mcp.zapier.com, 307s to /mcp and then to this signed-in console URL, which returns 200. It is an auth wall, not documentation; the public documentation for the same server is https://zapier.com/mcp)</p><ul><li><a href="https://mcp.zapier.com/login?redirectTo=%2Fmcp" rel="noopener nofollow">https://mcp.zapier.com/login?redirectTo=%2Fmcp</a></li><li><a href="https://zapier.com/mcp" rel="noopener nofollow">https://zapier.com/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>free (bundled into existing Zapier plans; each MCP tool call consumes 2 tasks from the account&#x27;s standard task quota - no separate SKU)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/proxy-tool-calls-to-saas.html">Proxy tool calls to SaaS apps</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://zapier.com/mcp" rel="noopener nofollow">https://zapier.com/mcp</a></li><li><a href="https://mcp.zapier.com" rel="noopener nofollow">https://mcp.zapier.com</a></li></ul><p class="note">2 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://zapier.com/mcp, https://mcp.zapier.com</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Because MCP calls draw from the same task pool as regular Zaps, a chatty agent can burn a plan&#x27;s task quota fast - worth watching before pointing a high-frequency agent at it.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>free (bundled into existing Zapier plans; each MCP tool call consumes 2 tasks from the account&#x27;s standard task quota - no separate SKU)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/proxy-tool-calls-to-saas.html">Proxy tool calls to SaaS apps</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://zapier.com/mcp" rel="noopener nofollow">https://zapier.com/mcp</a></li><li><a href="https://mcp.zapier.com/login?redirectTo=%2Fmcp" rel="noopener nofollow">https://mcp.zapier.com/login?redirectTo=%2Fmcp</a></li></ul><p class="note">2 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://zapier.com/mcp, https://mcp.zapier.com/login?redirectTo=%2Fmcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Because MCP calls draw from the same task pool as regular Zaps, a chatty agent can burn a plan&#x27;s task quota fast - worth watching before pointing a high-frequency agent at it.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">07-zapier-mcp</div></div>
 <div><div class="bk">Source file</div><div class="bv">07-mcp-infrastructure.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">54</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-25</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -179,7 +179,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-25 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

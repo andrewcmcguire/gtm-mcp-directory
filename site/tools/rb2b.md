@@ -46,9 +46,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://github.com/robbclarke/RB2B-APIs-MCP (npm: @rb2b/rb2b-apis-mcp)
+https://registry.npmjs.org/@rb2b/rb2b-apis-mcp (re-verified 200 on 2026-08-28, latest 1.1.7 published 2026-04-13. The only live first-party receipt; corrected that day off a dead receipt, see notes.)
 
-- [https://github.com/robbclarke/RB2B-APIs-MCP](https://github.com/robbclarke/RB2B-APIs-MCP)
+- [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp)
 
 **Access gate**
 
@@ -72,10 +72,6 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
-A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
-
-- [https://github.com/robbclarke/RB2B-APIs-MCP](https://github.com/robbclarke/RB2B-APIs-MCP)
-
 **Jobs it can do**
 
 - [Find a work email address](../jobs/find-work-email.md)
@@ -98,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.rb2b.com/, https://www.rb2b.com/power-your-product, https://www.warmly.ai/p/blog/rb2b-pricing, https://salestools.club/apis/rb2b, https://registry.npmjs.org/@rb2b/rb2b-apis-mcp
 
 **Notes, verbatim from the file**
-Sources conflict on MCP status - a third-party directory (salestools.club) says "Not available," but the npm package's maintainer email (robb@retention.com) matches RB2B's parent company Retention.com, a strong signal it's founder-maintained rather than a random fork; not confirmed via RB2B's own docs site. A separate OEM/API program runs $5,000/mo base + $0.10/resolution above 50,000/mo - enterprise-leaning for that tier specifically. Person-level ID is US-only.
+2026-08-28 link-rot correction. The GitHub repo published as this entry's mcp_url until today, github.com/robbclarke/RB2B-APIs-MCP, 404d on 2026-08-27 and is gone. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. The npm package's own homepage and repository fields still point at that dead repo. The npm package it shipped from is still live and installable. mcp_status stays official on that basis, but it is the weakest official claim in this file and needs a re-verification pass: RB2B's own docs host (docs.rb2b.com) now 302s to an /inactive path that returns 401, so there is no vendor documentation surface left to confirm against. Sources conflict on MCP status - a third-party directory (salestools.club) says "Not available," but the npm package's maintainer email (robb@retention.com) matches RB2B's parent company Retention.com, a strong signal it's founder-maintained rather than a random fork; not confirmed via RB2B's own docs site. A separate OEM/API program runs $5,000/mo base + $0.10/resolution above 50,000/mo - enterprise-leaning for that tier specifically. Person-level ID is US-only.
 
 **Provenance**
 
@@ -112,6 +108,6 @@ Sources conflict on MCP status - a third-party directory (salestools.club) says 
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

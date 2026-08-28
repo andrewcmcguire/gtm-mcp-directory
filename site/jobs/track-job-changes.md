@@ -1,6 +1,6 @@
 # Track job changes: 10 GTM tools, 4 with an official MCP server
 
-> Watch known contacts and tell you when they move, get promoted or land somewhere new. 6 of the 10 entries tagged with this job carry an MCP server of some kind, 4 of them official. Counted 2026-08-25 from the directory data.
+> Watch known contacts and tell you when they move, get promoted or land somewhere new. 6 of the 10 entries tagged with this job carry an MCP server of some kind, 4 of them official. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Watch known contacts and tell you when they move, get promoted or land somewhere
 - **no MCP found**: 4
 - **solo reachable**: 5
 
-6 of the 10 entries tagged with this job carry an MCP server of some kind, 4 of them official. 9 of the 10 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+6 of the 10 entries tagged with this job carry an MCP server of some kind, 4 of them official. 9 of the 10 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

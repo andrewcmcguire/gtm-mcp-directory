@@ -1,6 +1,6 @@
 # Conversation Intel tools with MCP servers: 20 of 24, counted
 
-> 20 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 17 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+> 20 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 17 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -26,10 +26,10 @@ Two paths. The cloud server uses OAuth 2.0 with Google or Microsoft sign-in and 
 goairspeed.com | [Official MCP](../mcp/official.md) | [https://api.glyphic.ai/mcp](https://api.glyphic.ai/mcp) +1 more | API key
 Airspeed API key passed as an X-API-Key header. | [Paid, self-serve](../gates/paid.md) |
 | [Attention](../tools/attention.md)
-attention.com | [Official MCP](../mcp/official.md) | [https://docs.attention.com/attention-mcp-server](https://docs.attention.com/attention-mcp-server) +1 more | Auth not recorded
-unknown - not confirmed in the sources reviewed. | [Paid, self-serve](../gates/paid.md) |
+attention.com | [Official MCP](../mcp/official.md) | [https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview) +1 more | OAuth or an API key
+oauth for end users, api key for programmatic access, per... | [Paid, self-serve](../gates/paid.md) |
 | [Avoma](../tools/avoma.md)
-avoma.com | [Official MCP](../mcp/official.md) | [https://help.avoma.com/avoma-mcp-server-user-guide](https://help.avoma.com/avoma-mcp-server-user-guide) | API key
+avoma.com | [Official MCP](../mcp/official.md) | [https://help.avoma.com/admins-add-avoma-mcp-connecto...](https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude) | API key
 API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer. | [Paid, self-serve](../gates/paid.md) |
 | [Circleback](../tools/circleback.md)
 circleback.ai | [Official MCP](../mcp/official.md) | [https://circleback.ai/api/mcp](https://circleback.ai/api/mcp) +2 more | OAuth
@@ -74,7 +74,7 @@ Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment
 clari.com | [Community MCP](../mcp/community.md) | [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot) +1 more | OAuth or an API key
 Scalekit-hosted connector uses per-user delegated OAuth-style authorization in Scalekit's... | [Paid, self-serve](../gates/paid.md) |
 | [Jiminny](../tools/jiminny.md)
-jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/@fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
+jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 
 ### The other 4 in this category
@@ -103,4 +103,4 @@ The jobs most often tagged on the 24 tagged entries in this category.
 - [Score rep performance](../jobs/score-rep-performance.md)
 - [Search across recorded calls](../jobs/search-call-library.md)
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

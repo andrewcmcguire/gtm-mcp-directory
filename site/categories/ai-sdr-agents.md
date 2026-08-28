@@ -25,7 +25,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Enterprise only**: 10
 - **Gate unknown**: 3
 
-Source file: 04-ai-sdr-agents.md · content sha256 b973848947ac17d4... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 cb1599cd99f27f9d... · counts reconciled against tools_recount.py at build time.
 
 - [The 6 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 

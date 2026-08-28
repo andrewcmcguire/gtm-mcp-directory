@@ -1,6 +1,6 @@
 # GTM MCP servers that use an API key: 44 tools, counted
 
-> 44 of the 165 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-25.
+> 44 of the 165 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -43,7 +43,7 @@ theirstack.com | [Official MCP](../mcp/official.md) | [https://theirstack.com/en
 | [Airspeed (formerly Glyphic)](../tools/airspeed.md)
 goairspeed.com | [Official MCP](../mcp/official.md) | [https://api.glyphic.ai/mcp](https://api.glyphic.ai/mcp) +1 more | Airspeed API key passed as an X-API-Key header. | [Paid, self-serve](../gates/paid.md) |
 | [Avoma](../tools/avoma.md)
-avoma.com | [Official MCP](../mcp/official.md) | [https://help.avoma.com/avoma-mcp-server-user-guide](https://help.avoma.com/avoma-mcp-server-user-guide) | API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer. | [Paid, self-serve](../gates/paid.md) |
+avoma.com | [Official MCP](../mcp/official.md) | [https://help.avoma.com/admins-add-avoma-mcp-connecto...](https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude) | API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer. | [Paid, self-serve](../gates/paid.md) |
 | [Bright Data](../tools/bright-data.md)
 brightdata.com | [Official MCP](../mcp/official.md) | [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | api key (Bright Data API token) | [Paid, self-serve](../gates/paid.md) |
 | [Clay](../tools/clay.md)
@@ -69,7 +69,7 @@ mailforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/m
 | [Ocean.io](../tools/ocean-io.md)
 ocean.io | [Official MCP](../mcp/official.md) | [https://app.ocean.io/docs/getting-started/mcp](https://app.ocean.io/docs/getting-started/mcp) +1 more | api key (api-token passed as a URL parameter to the hosted MCP endpoint) | [Paid, self-serve](../gates/paid.md) |
 | [RB2B](../tools/rb2b.md)
-rb2b.com | [Official MCP](../mcp/official.md) | [https://github.com/robbclarke/RB2B-APIs-MCP](https://github.com/robbclarke/RB2B-APIs-MCP) | api key | [Paid, self-serve](../gates/paid.md) |
+rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | api key | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io](../tools/reply-io.md)
 reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
 | [Salesforge](../tools/salesforge.md)
@@ -105,4 +105,4 @@ trigify.io | [Community MCP](../mcp/community.md) | [https://github.com/bcharles
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

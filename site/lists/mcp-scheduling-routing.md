@@ -1,6 +1,6 @@
 # Scheduling & Routing tools with MCP servers: 8 of 14, counted
 
-> 8 of the 14 scheduling & routing tools in The GTM MCP Directory have an MCP server: 6 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+> 8 of the 14 scheduling & routing tools in The GTM MCP Directory have an MCP server: 6 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -26,7 +26,7 @@ OAuth 2.1 Authorization Code + PKCE (S256) with Dynamic Client Registration (RFC
 chilipiper.com | [Official MCP](../mcp/official.md) | [https://www.chilipiper.com/products/mcp](https://www.chilipiper.com/products/mcp) +3 more | OAuth or an API key
 Two supported paths, both vendor-documented. Option A (vendor-recommended): a Chili Piper... | [Paid, self-serve](../gates/paid.md) |
 | [Default](../tools/default.md)
-default.com | [Official MCP](../mcp/official.md) | [https://www.default.com/product/platform](https://www.default.com/product/platform) | OAuth or an API key
+default.com | [Official MCP](../mcp/official.md) | [https://www.default.com/](https://www.default.com/) | OAuth or an API key
 unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Enterprise only](../gates/enterprise-only.md) |
 | [Reclaim.ai](../tools/reclaim-ai.md)
 reclaim.ai | [Official MCP](../mcp/official.md) | [https://mcp.reclaim.ai](https://mcp.reclaim.ai) | OAuth or an API key
@@ -71,4 +71,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 - [Summarize a meeting](../jobs/summarize-meeting.md)
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

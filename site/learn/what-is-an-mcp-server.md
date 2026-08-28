@@ -1,6 +1,6 @@
 # What is an MCP server? A plain definition, plus how many GTM tools have one
 
-> An MCP server is a small program that exposes one system's capabilities to an AI agent in a standard shape. 144 of 293 GTM tools ship one officially. Counted 2026-08-25.
+> An MCP server is a small program that exposes one system's capabilities to an AI agent in a standard shape. 144 of 293 GTM tools ship one officially. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -43,7 +43,7 @@ The gap between those two numbers is the whole reason this directory exists. A c
 - [Anthropic, Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) https://www.anthropic.com/news/model-context-protocol
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-25. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

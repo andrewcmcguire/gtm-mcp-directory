@@ -1,6 +1,6 @@
 # Enrich a person from a LinkedIn URL: 12 GTM tools, 8 with an official MCP server
 
-> Hand it a profile URL or a scraped profile and get a structured person record back. 9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. Counted 2026-08-25 from the directory data.
+> Hand it a profile URL or a scraped profile and get a structured person record back. 9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. Counted 2026-08-28 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Hand it a profile URL or a scraped profile and get a structured person record ba
 - **no MCP found**: 3
 - **solo reachable**: 8
 
-9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. All 12 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-25 from directory.json.
+9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. All 12 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-28 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

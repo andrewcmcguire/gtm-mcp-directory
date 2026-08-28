@@ -46,9 +46,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.composio.dev/mcp/overview
+https://docs.composio.dev/docs/single-toolkit-mcp (redirect correction 2026-08-28: the address previously recorded here, docs.composio.dev/mcp/overview, 308s to this one and this one returns 200)
 
-- [https://docs.composio.dev/mcp/overview](https://docs.composio.dev/mcp/overview)
+- [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp)
 
 **Access gate**
 
@@ -84,11 +84,11 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://composio.dev](https://composio.dev)
 - [https://composio.dev/pricing](https://composio.dev/pricing)
-- [https://docs.composio.dev/mcp/overview](https://docs.composio.dev/mcp/overview)
+- [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp)
 
 3 source URLs. Raw sources field, verbatim:
 
-https://composio.dev, https://composio.dev/pricing, https://docs.composio.dev/mcp/overview
+https://composio.dev, https://composio.dev/pricing, https://docs.composio.dev/docs/single-toolkit-mcp
 
 **Notes, verbatim from the file**
 Composio holds the OAuth tokens for every connected toolkit - it is a custodial broker, not a pass-through. Pro tier ($29/mo) adds pay-as-you-scale overage at $0.0003/tool call; Enterprise adds SSO/SCIM and a KMS proxy for teams that don't want Composio holding raw tokens.
@@ -105,6 +105,6 @@ Composio holds the OAuth tokens for every connected toolkit - it is a custodial 
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

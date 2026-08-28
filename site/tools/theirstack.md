@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://theirstack.com](https://theirstack.com) · entry id 05-theirstack · source 05-signals-intent-abm.md line 531
+Vendor: [https://theirstack.com](https://theirstack.com) · entry id 05-theirstack · source 05-signals-intent-abm.md line 533
 
 **What it does**
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals (job-posting keywords implying a company has or needs a specific type of software).
@@ -121,12 +121,12 @@ Free trial plus credit-based pricing from $49/mo (API credits) up to $5,500/mo; 
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 531
+- **Source line**: 533
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-25
+- **Data baked**: 2026-08-28
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

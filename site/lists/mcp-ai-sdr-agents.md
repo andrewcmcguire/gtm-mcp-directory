@@ -1,6 +1,6 @@
 # AI SDR tools with MCP servers: 6 of 23, counted
 
-> 6 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 4 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-25.
+> 6 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 4 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Relevance AI](../tools/relevance-ai.md)
-relevanceai.com | [Official MCP](../mcp/official.md) | [https://relevanceai.com/docs/integrations/mcp/progra...](https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction) | OAuth
+relevanceai.com | [Official MCP](../mcp/official.md) | [https://relevanceai.com/docs/get-started/core-concep...](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins) | OAuth
 OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project... | [Free to start](../gates/free.md) |
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
 amplemarket.com | [Official MCP](../mcp/official.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) | Auth not recorded
@@ -87,4 +87,4 @@ The jobs most often tagged on the 22 tagged entries in this category.
 - [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md)
 - [Place an outbound call](../jobs/place-outbound-call.md)
 
-Counted 2026-08-25 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
