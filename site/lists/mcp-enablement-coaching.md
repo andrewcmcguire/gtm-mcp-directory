@@ -1,6 +1,6 @@
-# Enablement & Coaching tools with MCP servers: 2 of 14, counted
+# Enablement & Coaching tools with MCP servers: 3 of 14, counted
 
-> 2 of the 14 enablement & coaching tools in The GTM MCP Directory have an MCP server: 1 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
+> 3 of the 14 enablement & coaching tools in The GTM MCP Directory have an MCP server: 2 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,14 +8,17 @@
 [Directory](../index.md) /
 [The lists](index.md) / Enablement & Coaching tools with an MCP server
 
-**List · 2 of 293**
+**List · 3 of 293**
 
 ## Enablement & Coaching tools with an MCP server
 
-Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here. 2 of 14 entries in this category are reachable by an agent: 1 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Score rep performance. [See the full category page](../categories/enablement-coaching.md).
+Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here. 3 of 14 entries in this category are reachable by an agent: 2 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Score rep performance. [See the full category page](../categories/enablement-coaching.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
+| [Trainual](../tools/trainual.md)
+trainual.com | [Official MCP](../mcp/official.md) | [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server) +1 more | API key
+Bearer MCP token in the Authorization header; the help article states "Only those with an... | [Paid, self-serve](../gates/paid.md) |
 | [Showpad](../tools/showpad.md)
 showpad.com | [Official MCP](../mcp/official.md) | [https://developer.showpad.com/docs/integrations/plat...](https://developer.showpad.com/docs/integrations/platform-independent/mcp) +2 more | OAuth
 OAuth; the docs say each end user authenticates with their own Showpad credentials and... | [Enterprise only](../gates/enterprise-only.md) |
@@ -23,7 +26,7 @@ OAuth; the docs say each end user authenticates with their own Showpad credentia
 workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 12 in this category
+### The other 11 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -31,28 +34,26 @@ No server found, or the check could not settle it. Same category, not reachable 
 |---|---|---|---|
 | [Allego](../tools/allego.md)
 allego.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Mindtickle](../tools/mindtickle.md)
+mindtickle.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Spekit](../tools/spekit.md)
 spekit.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
-| [Trainual](../tools/trainual.md)
-trainual.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Continu](../tools/continu.md)
-continu.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Mindtickle](../tools/mindtickle.md)
-mindtickle.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+continu.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md)
-bigtincan.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+bigtincan.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Dialworks](../tools/dialworks.md)
 dialworks.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Hyperbound](../tools/hyperbound.md)
-hyperbound.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+hyperbound.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Lavender](../tools/lavender.md)
-lavender.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-25 |
+lavender.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Luster](../tools/luster.md)
-luster.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+luster.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Quantified](../tools/quantified.md)
-quantified.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+quantified.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Second Nature](../tools/second-nature.md)
-secondnature.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+secondnature.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 
 ### What this category is asked for
 

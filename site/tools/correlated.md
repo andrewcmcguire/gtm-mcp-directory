@@ -1,6 +1,6 @@
 # Correlated: MCP server status, API access gate and what it does
 
-> unknown in current form - per the seed list and general market classification, Correlated was a... No MCP found, Gate not applicable. Checked 2026-08-24.
+> unknown in current form - per the seed list and general market classification, Correlated was a... No MCP found, Gate not applicable. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Correlated
 [Gate not applicable](../gates/n-a.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ n/a today - historically would have sat in the same PLG-signal-to-sales niche as
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: dead. Entry records the current form as unk
 https://correlated.ai, http://archive.org/wayback/available?url=correlated.ai×tamp=20240101
 
 **Notes, verbatim from the file**
-STATUS FLAG - CONFIRMED DEAD. correlated.ai now 302-redirects to atom.com/name/Correlated.AI, a domain-marketplace/broker listing page - a strong signal the domain has lapsed and is being resold, not merely parked by the original owner. The Wayback Machine's own availability API confirms a live snapshot existed as of July 4, 2024, so the product was operating at least into mid-2024; no snapshot near the current date was found. Could not independently re-confirm what the product did beyond the seed list's own description - treat that description as unverified in this pass.
+STATUS FLAG - CONFIRMED DEAD. correlated.ai now 302-redirects to atom.com/name/Correlated.AI, a domain-marketplace/broker listing page - a strong signal the domain has lapsed and is being resold, not merely parked by the original owner. The Wayback Machine's own availability API confirms a live snapshot existed as of July 4, 2024, so the product was operating at least into mid-2024; no snapshot near the current date was found. Could not independently re-confirm what the product did beyond the seed list's own description - treat that description as unverified in this pass. 2026-09-02: re-checked. correlated.ai still 302-redirects to the atom.com domain-broker listing; no vendor page exists to state a shutdown, so none-found stands rather than n-a.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ STATUS FLAG - CONFIRMED DEAD. correlated.ai now 302-redirects to atom.com/name/C
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

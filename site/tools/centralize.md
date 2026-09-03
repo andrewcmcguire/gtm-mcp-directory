@@ -1,6 +1,6 @@
 # Centralize: MCP server status, API access gate and what it does
 
-> A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a... MCP unknown, Free to start. Checked 2026-08-25.
+> A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a... MCP unknown, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,11 +15,11 @@ Centralize
 [Free to start](../gates/free.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-25
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [usecentralize.com](https://usecentralize.com) · entry id 05-centralize · source 05-signals-intent-abm.md line 575
+Vendor: [usecentralize.com](https://usecentralize.com) · entry id 05-centralize · source 05-signals-intent-abm.md line 581
 
 **What it does**
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage gaps and warm paths into the account.
@@ -38,7 +38,7 @@ Buying-committee and relationship map over the accounts a rep already owns; it c
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-08-25.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -94,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.usecentralize.com/, https://www.usecentralize.com/pricing, https://www.businesswire.com/news/home/20260729724558/en/Centralize-Raises-19M-Led-by-NEA-to-Bring-Relationship-Intelligence-to-the-Core-of-Enterprise-Sales, https://www.ycombinator.com/launches/LUE-centralize-ai-powered-org-charts-for-enterprise-sales
 
 **Notes, verbatim from the file**
-Added 2026-08-25 from a direct pointer that Centralize had just launched a self-service product. Confirmed: Businesswire, dated 2026-07-29, reports $19M led by NEA with Salesforce Ventures, Y Combinator, 20SALES, Ritual Capital and Adverb Ventures participating, announced alongside a free tier that any seller can sign up for. Named integrations: Salesforce, Slack, Gmail, Outlook, Google Calendar, Notion, Gong. SOC 2 Type 2 per the release. THE INTERESTING FACT HERE, and it is a content beat: this is the first entry in the directory where a vendor SELLS "MCP access" as a line item on a public pricing page while publishing no server URL, no docs, and no registry listing. That is the inverse of the usual failure mode (a server that exists but is undiscoverable) and it is exactly the case the two-tier honesty rule exists to handle. Re-check on the next sweep; if a server URL appears, this flips to official. CROSS-REFERENCE: The Swarm (01-data-enrichment.md) covers the same warm-path job from the opposite direction, selling a 500M-profile third-party relationship graph rather than mapping the customer's own data.
+Added 2026-08-25 from a direct pointer that Centralize had just launched a self-service product. Confirmed: Businesswire, dated 2026-07-29, reports $19M led by NEA with Salesforce Ventures, Y Combinator, 20SALES, Ritual Capital and Adverb Ventures participating, announced alongside a free tier that any seller can sign up for. Named integrations: Salesforce, Slack, Gmail, Outlook, Google Calendar, Notion, Gong. SOC 2 Type 2 per the release. THE INTERESTING FACT HERE, and it is a content beat: this is the first entry in the directory where a vendor SELLS "MCP access" as a line item on a public pricing page while publishing no server URL, no docs, and no registry listing. That is the inverse of the usual failure mode (a server that exists but is undiscoverable) and it is exactly the case the two-tier honesty rule exists to handle. Re-check on the next sweep; if a server URL appears, this flips to official. CROSS-REFERENCE: The Swarm (01-data-enrichment.md) covers the same warm-path job from the opposite direction, selling a 500M-profile third-party relationship graph rather than mapping the customer's own data. 2026-09-02: re-checked. usecentralize.com/llms.txt is present and does not mention MCP; the pricing page still lists 'MCP access' under Pro ($49/user/month) with no link to docs or setup; web search returns nothing beyond the pricing page. Still a first-party claim with no URL that answers, so unknown stands.
 
 **Provenance**
 
@@ -102,11 +102,11 @@ Added 2026-08-25 from a direct pointer that Centralize had just launched a self-
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 575
+- **Source line**: 581
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-25
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

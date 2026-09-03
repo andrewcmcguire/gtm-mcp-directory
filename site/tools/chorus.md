@@ -38,9 +38,10 @@ Call-capture and coaching layer, differentiated from standalone conversation-int
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-- **Endpoint probe**: not probed yet
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server)Probed**: 2026-09-03, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established on 2026-09-02 and the MCP URL has not been probed live yet.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 

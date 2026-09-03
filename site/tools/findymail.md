@@ -1,6 +1,6 @@
 # Findymail: MCP server status, API access gate and what it does
 
-> An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or... No MCP found, Free to start. Checked 2026-08-24.
+> An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or... No MCP found, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Findymail
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Verification-heavy email/phone finder typically used as a secondary or tertiary 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.findymail.com/pricing/, https://www.findymail.com/api/, https://app.findymail.com/docs/, https://composio.dev/toolkits/findymail, https://university.clay.com/docs/findymail-integration-overview
 
 **Notes, verbatim from the file**
-A GitHub repo titled "Meerkats-Ai/findymail-mcp-server" surfaced in search results but returns HTTP 404 on direct fetch (no longer public), so per the hard law against inferring unverified MCPs this is recorded as none-found. Findymail is otherwise reachable only through generic no-code MCP-aggregator platforms (Composio, Zapier, Pipedream, Gumloop) that wrap thousands of apps uniformly - not a dedicated, independently-maintained Findymail MCP, so not counted. Findymail is a confirmed Clay "data provider" (using your own API key inside Clay requires Clay's Starter plan, $149/mo). Findymail's own API is self-serve: instant API key on signup, free trial 10 credits/no card, paid plans start $49-99/mo, Enterprise is custom/sales-gated only for high volume.
+A GitHub repo titled "Meerkats-Ai/findymail-mcp-server" surfaced in search results but returns HTTP 404 on direct fetch (no longer public), so per the hard law against inferring unverified MCPs this is recorded as none-found. Findymail is otherwise reachable only through generic no-code MCP-aggregator platforms (Composio, Zapier, Pipedream, Gumloop) that wrap thousands of apps uniformly - not a dedicated, independently-maintained Findymail MCP, so not counted. Findymail is a confirmed Clay "data provider" (using your own API key inside Clay requires Clay's Starter plan, $149/mo). Findymail's own API is self-serve: instant API key on signup, free trial 10 credits/no card, paid plans start $49-99/mo, Enterprise is custom/sales-gated only for high volume. 2026-09-02: re-checked findymail.com/llms.txt (404), app.findymail.com/docs (no MCP mention) and github.com/Meerkats-Ai/findymail-mcp-server (still 404); only aggregator wrappers (Pipedream, Zapier, Gumloop, Composio) surface, no MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ A GitHub repo titled "Meerkats-Ai/findymail-mcp-server" surfaced in search resul
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

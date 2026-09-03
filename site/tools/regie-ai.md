@@ -1,6 +1,6 @@
 # Regie.ai: MCP server status, API access gate and what it does
 
-> An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Regie.ai
 [Paid, self-serve](../gates/paid.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Sequencing/content layer that plugs into an existing CRM + dialer stack rather t
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.regie.ai, https://www.regie.ai/pricing
 
 **Notes, verbatim from the file**
-Genuine free tier with no credit card - rare in this category and worth flagging for a solo-operator audience.
+Genuine free tier with no credit card - rare in this category and worth flagging for a solo-operator audience. 2026-09-02: re-checked https://www.regie.ai/llms.txt (no MCP mention), the official MCP registry (no entry) and a web search (results were for the unrelated Ragie.ai); no MCP server found.
 
 **Provenance**
 
@@ -104,7 +104,7 @@ Genuine free tier with no credit card - rare in this category and worth flagging
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

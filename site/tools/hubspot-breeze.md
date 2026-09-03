@@ -1,6 +1,6 @@
 # HubSpot Breeze (AI Prospecting Agent): MCP server status, API access gate and what it does
 
-> Monitors accounts for buying signals (funding, leadership changes, site visits) via integrated data providers... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Monitors accounts for buying signals (funding, leadership changes, site visits) via integrated data providers... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ HubSpot Breeze (AI Prospecting Agent)
 [Paid, self-serve](../gates/paid.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Native prospecting layer for shops already on HubSpot Sales Hub - competes direc
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.hubspot.com/products/sales/ai-prospecting-agent, https://developers.hubspot.com/mcp
 
 **Notes, verbatim from the file**
-HubSpot has an official, platform-wide MCP server (OAuth 2.0/2.1, developers.hubspot.com/mcp) covering CRM objects (contacts, deals, engagements, etc.) - but nothing found confirming the Breeze Prospecting Agent specifically is exposed through it. Performance claims ("76% more qualified leads," "80% more meetings," "26% higher win rate") are vendor-reported and unsourced beyond the marketing page - mark as vendor-copy-only.
+HubSpot has an official, platform-wide MCP server (OAuth 2.0/2.1, developers.hubspot.com/mcp) covering CRM objects (contacts, deals, engagements, etc.) - but nothing found confirming the Breeze Prospecting Agent specifically is exposed through it. Performance claims ("76% more qualified leads," "80% more meetings," "26% higher win rate") are vendor-reported and unsourced beyond the marketing page - mark as vendor-copy-only. 2026-09-02: re-checked https://developers.hubspot.com/mcp: it lists CRM objects, engagements, org context and marketing content and says tools will grow over time, but names no Breeze or prospecting-agent tool. The official MCP registry holds only third-party HubSpot servers. none-found stands for the Prospecting Agent specifically.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ HubSpot has an official, platform-wide MCP server (OAuth 2.0/2.1, developers.hub
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

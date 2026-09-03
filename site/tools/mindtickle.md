@@ -1,6 +1,6 @@
 # Mindtickle: MCP server status, API access gate and what it does
 
-> Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI... No MCP found, Enterprise only. Checked 2026-08-24.
+> Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI... MCP unknown, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Mindtickle
 
 # Mindtickle
 
-[No MCP found](../mcp/none-found.md)
+[MCP unknown](../mcp/unknown.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,24 @@ Enablement/onboarding hub with a genuine AI roleplay module; typically the train
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP unknown
 
-- **Auth**: n/a
+- **Auth**: unknown
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+unknown
 
 mcp_url, verbatim from the file:
 
-n/a
+n/a (two first-party surfaces name MCP with no endpoint or docs: https://www.mindtickle.com/news/mindtickle-launches-ElevateOS/ and Outreach's MCP Connectors catalog at https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors)
+
+- [https://www.mindtickle.com/news/mindtickle-launches-ElevateOS/](https://www.mindtickle.com/news/mindtickle-launches-ElevateOS/)
+- [https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors](https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors)
 
 **Access gate**
 
@@ -88,13 +91,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.apirefs.com/apps/mindtickle/integrations](https://www.apirefs.com/apps/mindtickle/integrations)
 - [https://aitoolsbakery.com/blog/mindtickle-pricing/](https://aitoolsbakery.com/blog/mindtickle-pricing/)
 - [https://www.mindtickle.com/integrations/](https://www.mindtickle.com/integrations/)
+- [https://www.mindtickle.com/news/mindtickle-launches-ElevateOS/](https://www.mindtickle.com/news/mindtickle-launches-ElevateOS/)
+- [https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors](https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors)
 
-6 source URLs. Raw sources field, verbatim:
+8 source URLs. Raw sources field, verbatim:
 
-https://www.mindtickle.com/platform/ai-sales-role-play/, https://apitracker.io/a/mindtickle, https://www.vendr.com/marketplace/mindtickle, https://www.apirefs.com/apps/mindtickle/integrations, https://aitoolsbakery.com/blog/mindtickle-pricing/, https://www.mindtickle.com/integrations/
+https://www.mindtickle.com/platform/ai-sales-role-play/, https://apitracker.io/a/mindtickle, https://www.vendr.com/marketplace/mindtickle, https://www.apirefs.com/apps/mindtickle/integrations, https://aitoolsbakery.com/blog/mindtickle-pricing/, https://www.mindtickle.com/integrations/, https://www.mindtickle.com/news/mindtickle-launches-ElevateOS/, https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors
 
 **Notes, verbatim from the file**
-Searched GitHub, mcp.so, glama.ai, and pulsemcp.com - no Mindtickle MCP server found (glama.ai search for "mindtickle" returned zero matches). getguru.com published a speculative "What Is MindTickle MCP?" explainer that explicitly states no confirmed MCP integration exists - do not cite that page as evidence of one. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.mindtickle.com/integrations/): no pricing published anywhere and the only acquisition path is book-a-demo; the integrations page confirms a real REST API exists across Content, User and Reporting with SCIM, SAML and OpenID support, but publishes no self-serve route to it.
+Searched GitHub, mcp.so, glama.ai, and pulsemcp.com - no Mindtickle MCP server found (glama.ai search for "mindtickle" returned zero matches). getguru.com published a speculative "What Is MindTickle MCP?" explainer that explicitly states no confirmed MCP integration exists - do not cite that page as evidence of one. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.mindtickle.com/integrations/): no pricing published anywhere and the only acquisition path is book-a-demo; the integrations page confirms a real REST API exists across Content, User and Reporting with SCIM, SAML and OpenID support, but publishes no self-serve route to it. 2026-09-02: mcp_status none-found -> unknown. Mindtickle's ElevateOS launch page states "Built on MCP (Model Context Protocol) and A2A standards, ElevateOS unifies the revenue tech stack rather than replacing it", and Outreach's MCP Connectors help article lists Mindtickle in its launch catalog of connectors for which "vendors publish their MCP Servers to the Outreach Marketplace". Neither names an endpoint, docs page or auth method, https://www.mindtickle.com/llms.txt has no MCP mention and the official MCP registry has no mindtickle entry. A first-party claim plus a partner listing without a connectable URL is unknown, not official, under law 1.
 
 **Provenance**
 
@@ -106,7 +111,7 @@ Searched GitHub, mcp.so, glama.ai, and pulsemcp.com - no Mindtickle MCP server f
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Salesroom: MCP server status, API access gate and what it does
 
-> Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC,... No MCP found, Gate unknown. Checked 2026-08-24.
+> Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC,... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Salesroom
 [Gate unknown](../gates/unknown.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Live-meeting coaching plus CRM-auto-update layer, positioned as a real-time alte
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://ecosystem.hubspot.com/marketplace/listing/salesroom-by-salesroom-inc-1135699, https://www.salesroom.com/, https://www.salesroom.com/pricing
 
 **Notes, verbatim from the file**
-Thinnest public footprint of any tool in this category - flagged for a bench-test follow-up rather than trusted on research alone. [api_gate 2026-08-25] Re-checked and left unknown, honestly: salesroom.com would not serve to an automated fetch on any path or hostname - every attempt returned a TLS internal error - so nothing on the vendor's own site could be read. Checked against https://www.salesroom.com/pricing.
+Thinnest public footprint of any tool in this category - flagged for a bench-test follow-up rather than trusted on research alone. [api_gate 2026-08-25] Re-checked and left unknown, honestly: salesroom.com would not serve to an automated fetch on any path or hostname - every attempt returned a TLS internal error - so nothing on the vendor's own site could be read. Checked against https://www.salesroom.com/pricing. 2026-09-02: could not fetch https://www.salesroom.com/llms.txt or https://www.salesroom.com/ (TLS internal error, same as 2026-08-25); web search returns nothing for a Salesroom MCP. Kept none-found.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ Thinnest public footprint of any tool in this category - flagged for a bench-tes
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

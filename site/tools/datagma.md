@@ -1,6 +1,6 @@
 # Datagma: MCP server status, API access gate and what it does
 
-> An all-in-one B2B enrichment platform that finds work emails and verified mobile phone numbers, appends... No MCP found, Free to start. Checked 2026-08-24.
+> An all-in-one B2B enrichment platform that finds work emails and verified mobile phone numbers, appends... No MCP found, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Datagma
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ All-in-one enrichment layer (email/phone/company) used both standalone via API/C
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://composio.dev/toolkits/datagma, https://datagma.com/pricing/, https://university.clay.com/docs/datagma-integration-overview, https://datagma.com/api/
 
 **Notes, verbatim from the file**
-No dedicated official or independently-maintained community MCP server was found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Datagma only appears through Composio's generic multi-app "Tool Router," a no-code platform that wraps thousands of unrelated SaaS APIs uniformly - not counted as a genuine product-specific MCP. Datagma is a confirmed Clay enrichment provider. API access is unusually open: included on every tier including the Free plan (3 mobile lookups + 90 verified emails/month), with self-serve paid tiers at $39/$99/$249/mo (or ~20% less billed annually) and a custom Enterprise tier for larger volume.
+No dedicated official or independently-maintained community MCP server was found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Datagma only appears through Composio's generic multi-app "Tool Router," a no-code platform that wraps thousands of unrelated SaaS APIs uniformly - not counted as a genuine product-specific MCP. Datagma is a confirmed Clay enrichment provider. API access is unusually open: included on every tier including the Free plan (3 mobile lookups + 90 verified emails/month), with self-serve paid tiers at $39/$99/$249/mo (or ~20% less billed annually) and a custom Enterprise tier for larger volume. 2026-09-02: re-checked datagma.com/llms.txt (present, no MCP mention) and web search; only Composio and Runbear aggregator listings surface, no MCP server found.
 
 **Provenance**
 
@@ -104,7 +104,7 @@ No dedicated official or independently-maintained community MCP server was found
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

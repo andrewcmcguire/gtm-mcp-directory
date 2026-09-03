@@ -1,6 +1,6 @@
 # Aligned (alignedup.com): MCP server status, API access gate and what it does
 
-> Digital sales room platform for buyer collaboration, mutual action plans, and centralized deal content,... No MCP found, Gate not applicable. Checked 2026-08-24.
+> Digital sales room platform for buyer collaboration, mutual action plans, and centralized deal content,... No MCP found, Gate not applicable. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Aligned (alignedup.com)
 [Gate not applicable](../gates/n-a.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Digital sales room / buyer-collaboration layer with a real self-serve free tier 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -88,7 +88,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://alignedup.com/pricing/, https://softwarefinder.com/customer-service-software/aligned
 
 **Notes, verbatim from the file**
-Included as a deliberate contrast case: same product category and pricing shape as Trumpet, but zero developer/AI-agent access surface as of this research - a clean "same category, opposite access model" pairing for a published piece.
+Included as a deliberate contrast case: same product category and pricing shape as Trumpet, but zero developer/AI-agent access surface as of this research - a clean "same category, opposite access model" pairing for a published piece. 2026-09-02: re-checked alignedup.com/llms.txt (404) and web search; no MCP server found.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ Included as a deliberate contrast case: same product category and pricing shape 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

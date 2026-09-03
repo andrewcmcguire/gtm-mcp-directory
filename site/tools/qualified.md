@@ -1,6 +1,6 @@
 # Qualified: MCP server status, API access gate and what it does
 
-> Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR... No MCP found, Enterprise only. Checked 2026-08-25.
+> Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Qualified
 [Enterprise only](../gates/enterprise-only.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-25
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ ABM-aligned inbound chat/qualification layer, positioned as an AI SDR for known 
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-25.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -118,7 +118,7 @@ What that listing says it does: A conversational AI agent ("Piper") that engages
 https://qualified.com/, https://qualified.com/pricing, https://qualified.com/api, https://www.qualified.com/plus/articles/qualified-agentforce-better-together, https://www.qualified.com/plus/articles/6-key-ways-to-use-the-qualified-reporting-api
 
 **Notes, verbatim from the file**
-CANONICAL ENTRY for Qualified (per INDEX.md). The 04-ai-sdr-agents.md entry is a cross-reference pointer only; fact fixes land here first. Checked GitHub, mcp.so, glama.ai, and PulseMCP for a Qualified MCP server: the only near-match (a community "Lead Qualifier" server) is an unrelated third-party tool named for its generic function, not affiliated with Qualified.com, and is not counted as this vendor's MCP. An announced roadmap server is not a shipped server, so mcp_status stays none-found. Name-collision warning: docs.qualified.io (Qualified.io, a developer-assessment company) is a different company from qualified.com; several search engines conflate the two. The docs_url above is a JS-rendered app, so it does not fetch as static text, but it is the vendor's stated developer entry point.
+CANONICAL ENTRY for Qualified (per INDEX.md). The 04-ai-sdr-agents.md entry is a cross-reference pointer only; fact fixes land here first. Checked GitHub, mcp.so, glama.ai, and PulseMCP for a Qualified MCP server: the only near-match (a community "Lead Qualifier" server) is an unrelated third-party tool named for its generic function, not affiliated with Qualified.com, and is not counted as this vendor's MCP. An announced roadmap server is not a shipped server, so mcp_status stays none-found. Name-collision warning: docs.qualified.io (Qualified.io, a developer-assessment company) is a different company from qualified.com; several search engines conflate the two. The docs_url above is a JS-rendered app, so it does not fetch as static text, but it is the vendor's stated developer entry point. 2026-09-02: re-checked. https://www.qualified.com/llms.txt has no MCP mention, the official MCP registry has no qualified entry, a web search finds only the unrelated Piper TTS server, and the 2026-07-15 announcement still reads "An MCP client and server to share context across agents in real time, available Q3 2026" with no endpoint or docs. Q3 has not closed; still none-found. Re-check after 2026-10-01.
 
 **Provenance**
 
@@ -130,7 +130,7 @@ CANONICAL ENTRY for Qualified (per INDEX.md). The 04-ai-sdr-agents.md entry is a
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-25
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

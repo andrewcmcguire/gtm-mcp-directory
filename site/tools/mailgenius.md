@@ -1,6 +1,6 @@
 # MailGenius: MCP server status, API access gate and what it does
 
-> Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ MailGenius
 [Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Pre-send deliverability-testing layer, typically run before a cold-email campaig
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.mailgenius.com/, https://www.mailgenius.com/api-application/, https://mcp.pipedream.com/app/mailgenius, https://coldiq.com/tools/mailgenius
 
 **Notes, verbatim from the file**
-A "MailGenius MCP Server" listing exists at mcp.pipedream.com/app/mailgenius, but Pipedream is a generic workflow-automation platform that auto-generates MCP wrappers around thousands of apps' APIs - it is not a MailGenius-published or dedicated community server, so this is marked none-found per this directory's convention (consistent with how Zapier-MCP-only listings are treated elsewhere in this file and the wider directory).
+A "MailGenius MCP Server" listing exists at mcp.pipedream.com/app/mailgenius, but Pipedream is a generic workflow-automation platform that auto-generates MCP wrappers around thousands of apps' APIs - it is not a MailGenius-published or dedicated community server, so this is marked none-found per this directory's convention (consistent with how Zapier-MCP-only listings are treated elsewhere in this file and the wider directory). 2026-09-02: re-checked mailgenius.com/llms.txt (404) and web search; only Pipedream and Runbear aggregator listings surface, no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ A "MailGenius MCP Server" listing exists at mcp.pipedream.com/app/mailgenius, bu
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

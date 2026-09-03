@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://www.leadfeeder.com](https://www.leadfeeder.com) · entry id 05-leadfeeder · source 05-signals-intent-abm.md line 372
+Vendor: [https://www.leadfeeder.com](https://www.leadfeeder.com) · entry id 05-leadfeeder · source 05-signals-intent-abm.md line 378
 
 **What it does**
 Identifies companies visiting a website via IP-to-company matching, tracks page-level visit behavior, and surfaces intent signals plus verified contact data for those companies.
@@ -39,9 +39,9 @@ Website visitor identification + intent + contact enrichment, one of the more so
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.leadfeeder.com/features/mcp-server/](https://www.leadfeeder.com/features/mcp-server/)Probed**: 2026-08-25, HTTP 200
+- **Docs URL[https://www.leadfeeder.com/features/mcp-server/](https://www.leadfeeder.com/features/mcp-server/)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -112,7 +112,7 @@ Permanently free "Lite" tier exists (unlimited users, last 100 identified compan
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 372
+- **Source line**: 378
 
 - **Tier**: RESEARCHED
 

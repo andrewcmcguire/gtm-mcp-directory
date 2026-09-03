@@ -82,7 +82,7 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 | [Paid, self-serve](../gates/paid.md) | 7 |
 | [Enterprise only](../gates/enterprise-only.md) | 4 |
 
-Counted 2026-09-03. Source file 06-revops-infra.md, content sha256 7121303ec7ab7bdf...
+Counted 2026-09-03. Source file 06-revops-infra.md, content sha256 6ee3bd0074d80cba...
 
 ## Sources
 

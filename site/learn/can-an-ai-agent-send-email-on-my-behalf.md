@@ -1,6 +1,6 @@
 # Can an AI agent send email on my behalf? Yes, and the four things to do first
 
-> 45 tools here are tagged with running an email sequence and 24 have an official MCP server. What to set up before you let anything send.
+> 45 tools here are tagged with running an email sequence and 26 have an official MCP server. What to set up before you let anything send.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -49,7 +49,7 @@ Gmail-native sales engagement layer that runs email sequences, tracking, calenda
 - [Ortto](../tools/ortto.md) Official MCP · Paid, self-serve
 A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
 
-11 more are on the linked page. The cut is the display limit, not a ranking.
+12 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The bit nobody enjoys
 

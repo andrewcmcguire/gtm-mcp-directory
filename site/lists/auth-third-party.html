@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GTM MCP servers behind a third party connector platform: 4 tools, counted</title>
-<meta name="description" content="4 of the 167 GTM tools with an MCP server use a third party connector platform&#x27;s auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.">
+<title>GTM MCP servers behind a third party connector platform: 7 tools, counted</title>
+<meta name="description" content="7 of the 182 GTM tools with an MCP server use a third party connector platform&#x27;s auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/lists/auth-third-party.html">
@@ -42,32 +42,50 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "GTM MCP servers behind a third party connector platform",
-  "description": "4 of the 167 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.",
+  "description": "7 of the 182 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.",
   "url": "https://andrewcmcguire.com/gtm-directory/lists/auth-third-party.html",
-  "numberOfItems": 4,
+  "numberOfItems": 7,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
+      "name": "Landbot",
+      "url": "https://andrewcmcguire.com/gtm-directory/tools/landbot.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Chatbase",
+      "url": "https://andrewcmcguire.com/gtm-directory/tools/chatbase.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Klenty",
+      "url": "https://andrewcmcguire.com/gtm-directory/tools/klenty.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
       "name": "Sendspark",
       "url": "https://andrewcmcguire.com/gtm-directory/tools/sendspark.html"
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 5,
       "name": "Vidyard",
       "url": "https://andrewcmcguire.com/gtm-directory/tools/vidyard.html"
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 6,
       "name": "Weezly",
       "url": "https://andrewcmcguire.com/gtm-directory/tools/weezly.html"
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 7,
       "name": "WorkRamp",
       "url": "https://andrewcmcguire.com/gtm-directory/tools/workramp.html"
     }
@@ -98,10 +116,10 @@
 <div class="crumbs" style="padding-bottom:0"><a href="../index.html">Directory</a> /
 <a href="index.html">The lists</a> / GTM MCP servers behind a third party connector platform</div>
 <section style="padding-top:18px">
-<div class="eyebrow">List &middot; 4 of 293</div>
+<div class="eyebrow">List &middot; 7 of 293</div>
 <h2>GTM MCP servers behind a third party connector platform</h2>
 <p class="sub">Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives with the platform rather than with either end. The bucket is a keyword match over the mcp_auth field, run at build time, and the verbatim field ships in the row beside it so you can check the parse yourself. Where the two disagree, the verbatim field is the fact and the bucket is the convenience.</p>
-<div class="scroller"><table class="datatable"><thead><tr><th class="">Tool</th><th class="">MCP status</th><th class="">Server URL</th><th class="">mcp_auth, verbatim</th><th class="n">Gate</th></tr></thead><tbody><tr><td class=""><a href="../tools/sendspark.html">Sendspark</a><br><span class="dom">sendspark.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://composio.dev/toolkits/sendspark" rel="noopener nofollow">https://composio.dev/toolkits/sendspark</a></td><td class="">API-key based - Composio&#x27;s page states Sendspark requires the user&#x27;s own API key, which Composio then stores/manages.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/vidyard.html">Vidyard</a><br><span class="dom">vidyard.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://viasocket.com/mcp/vidyard" rel="noopener nofollow">https://viasocket.com/mcp/vidyard</a></td><td class="">Not documented in technical detail on the viaSocket listing (&quot;built-in authentication&quot;). Vidyard&#x27;s own Video Agent REST API (separate from any MCP)...</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/weezly.html">Weezly</a><br><span class="dom">weezly.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/weezly" rel="noopener nofollow">https://zapier.com/mcp/weezly</a></td><td class="">Zapier-mediated connection.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/workramp.html">WorkRamp</a><br><span class="dom">workramp.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/workramp" rel="noopener nofollow">https://zapier.com/mcp/workramp</a> <span class="dom">+1 more</span></td><td class="">Rides Zapier&#x27;s/viaSocket&#x27;s own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential.</td><td class="n"><a href="../gates/enterprise-only.html">Enterprise only</a></td></tr></tbody></table></div>
+<div class="scroller"><table class="datatable"><thead><tr><th class="">Tool</th><th class="">MCP status</th><th class="">Server URL</th><th class="">mcp_auth, verbatim</th><th class="n">Gate</th></tr></thead><tbody><tr><td class=""><a href="../tools/landbot.html">Landbot</a><br><span class="dom">landbot.io</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://composio.dev/toolkits/landbot" rel="noopener nofollow">https://composio.dev/toolkits/landbot</a> <span class="dom">+1 more</span></td><td class="">The operator&#x27;s own Landbot API key stored with Composio; the Zapier connector rides Zapier&#x27;s hosted auth at mcp.zapier.com.</td><td class="n"><a href="../gates/free.html">Free to start</a></td></tr><tr><td class=""><a href="../tools/chatbase.html">Chatbase</a><br><span class="dom">chatbase.co</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/chatbase" rel="noopener nofollow">https://zapier.com/mcp/chatbase</a></td><td class="">Rides Zapier&#x27;s hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP credential.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/klenty.html">Klenty</a><br><span class="dom">klenty.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/klenty" rel="noopener nofollow">https://zapier.com/mcp/klenty</a> <span class="dom">+1 more</span></td><td class="">Rides Zapier&#x27;s hosted-connector auth at mcp.zapier.com (and Runbear&#x27;s for the Slack connector), not a Klenty-issued MCP credential.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/sendspark.html">Sendspark</a><br><span class="dom">sendspark.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://composio.dev/toolkits/sendspark" rel="noopener nofollow">https://composio.dev/toolkits/sendspark</a></td><td class="">API-key based - Composio&#x27;s page states Sendspark requires the user&#x27;s own API key, which Composio then stores/manages.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/vidyard.html">Vidyard</a><br><span class="dom">vidyard.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://viasocket.com/mcp/vidyard" rel="noopener nofollow">https://viasocket.com/mcp/vidyard</a></td><td class="">Not documented in technical detail on the viaSocket listing (&quot;built-in authentication&quot;). Vidyard&#x27;s own Video Agent REST API (separate from any MCP)...</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/weezly.html">Weezly</a><br><span class="dom">weezly.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/weezly" rel="noopener nofollow">https://zapier.com/mcp/weezly</a></td><td class="">Zapier-mediated connection.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/workramp.html">WorkRamp</a><br><span class="dom">workramp.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/workramp" rel="noopener nofollow">https://zapier.com/mcp/workramp</a> <span class="dom">+1 more</span></td><td class="">Rides Zapier&#x27;s/viaSocket&#x27;s own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential.</td><td class="n"><a href="../gates/enterprise-only.html">Enterprise only</a></td></tr></tbody></table></div>
 <p class="note" style="margin-top:30px">Counted 2026-09-03 from directory.json and reconciled
 against tools_recount.py. Nothing on this page is hand maintained: it is a
 filter over the same 293 entries the rest of the site is built from. Ordered by the
@@ -114,8 +132,8 @@ published rule: official MCP first, then community, then unknown, then n/a, then
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

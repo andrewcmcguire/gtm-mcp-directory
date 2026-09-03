@@ -1,6 +1,6 @@
 # GlockApps: MCP server status, API access gate and what it does
 
-> Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts... MCP unknown, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ GlockApps
 
 # GlockApps
 
-[No MCP found](../mcp/none-found.md)
+[MCP unknown](../mcp/unknown.md)
 [Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,25 @@ Pre-send and ongoing deliverability-diagnosis layer, one of the longest-running 
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP unknown
 
-- **Auth**: n/a
+- **Auth**: OAuth 2.1 per the vendor's llms.txt ('OAuth 2.1: the API key stays on the GlockApps account and is never shared'); unverified, no reachable setup page
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+unknown
 
 mcp_url, verbatim from the file:
 
-n/a
+none that answers - the vendor's own https://glockapps.com/llms.txt links https://glockapps.com/mcp/ and https://glockapps.com/mcp-setup/, both HTTP 404 on fetch 2026-09-02
+
+- [https://glockapps.com/llms.txt](https://glockapps.com/llms.txt)
+- [https://glockapps.com/mcp/](https://glockapps.com/mcp/)
+- [https://glockapps.com/mcp-setup/](https://glockapps.com/mcp-setup/)
 
 **Access gate**
 
@@ -84,13 +88,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://glockapps.com/tutorials/test-inbox-placement-and-test-spam-score/](https://glockapps.com/tutorials/test-inbox-placement-and-test-spam-score/)
 - [https://frontdeskreview.com/software/email-deliverability/glockapps/](https://frontdeskreview.com/software/email-deliverability/glockapps/)
 - [https://glockapps.com/blog/know-your-inbox-placement/](https://glockapps.com/blog/know-your-inbox-placement/)
+- [https://glockapps.com/llms.txt](https://glockapps.com/llms.txt)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://glockapps.com/, https://glockapps.com/tutorials/test-inbox-placement-and-test-spam-score/, https://frontdeskreview.com/software/email-deliverability/glockapps/, https://glockapps.com/blog/know-your-inbox-placement/
+https://glockapps.com/, https://glockapps.com/tutorials/test-inbox-placement-and-test-spam-score/, https://frontdeskreview.com/software/email-deliverability/glockapps/, https://glockapps.com/blog/know-your-inbox-placement/, https://glockapps.com/llms.txt
 
 **Notes, verbatim from the file**
-No MCP server, GitHub repo, or registry listing found for GlockApps specifically. Integrates with Mailchimp, ActiveCampaign, HubSpot, SendGrid, and Mailgun per vendor site.
+No MCP server, GitHub repo, or registry listing found for GlockApps specifically. Integrates with Mailchimp, ActiveCampaign, HubSpot, SendGrid, and Mailgun per vendor site. 2026-09-02: CHANGED none-found -> unknown. GlockApps' own https://glockapps.com/llms.txt now carries the lines 'Remote MCP connector for Claude, ChatGPT and any MCP-compatible client', 'Start inbox placement tests and read results from inside an AI assistant' and 'OAuth 2.1: the API key stays on the GlockApps account and is never shared', pointing at glockapps.com/mcp/ and an 'MCP Setup Guide' at glockapps.com/mcp-setup/. Both linked pages returned HTTP 404 to fetch, the help-center search for mcp returns nothing, and the MCP registry has no glockapps entry, so this is a first-party claim without a URL that answers. Re-fetch /mcp/ with a browser next pass; if it answers, this flips to official.
 
 **Provenance**
 
@@ -102,7 +107,7 @@ No MCP server, GitHub repo, or registry listing found for GlockApps specifically
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

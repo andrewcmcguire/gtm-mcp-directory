@@ -27,7 +27,7 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **Enterprise only**: 2
 - **Gate unknown**: 3
 
-Source file: 08-video-prospecting.md · content sha256 f457e28869691c99... · counts reconciled against tools_recount.py at build time.
+Source file: 08-video-prospecting.md · content sha256 f399b396ce00616e... · counts reconciled against tools_recount.py at build time.
 
 - [The 9 with an MCP server](../lists/mcp-video-prospecting.md)
 

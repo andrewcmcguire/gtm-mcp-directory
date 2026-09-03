@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tidio: MCP server status, API access gate and what it does</title>
-<meta name="description" content="Customer-service platform combining live chat, a help desk, and an AI agent (&quot;Lyro&quot;) that resolves routine... No MCP found, Free to start. Checked 2026-08-24.">
+<meta name="description" content="Customer-service platform combining live chat, a help desk, and an AI agent (&quot;Lyro&quot;) that resolves routine... Official MCP, Free to start. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/tidio.html">
@@ -31,6 +31,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://github.com/TidioPoland/tidio-mcp-connector"
   }
 }
 </script>
@@ -87,11 +91,11 @@ Tidio</div>
 <div class="toolhead">
 <h1>Tidio</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
 <a class="badge teal" href="../gates/free.html">Free to start</a>
 <a class="badge mute flat" href="../categories/inbound-plg-chat.html">Inbound &amp; PLG Chat</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -101,25 +105,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 14-tidio &middot; source
 14-inbound-plg-chat.md line 237</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Customer-service platform combining live chat, a help desk, and an AI agent (&quot;Lyro&quot;) that resolves routine support/sales questions automatically.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Lyro AI Agent is marketed to resolve &quot;up to 90%&quot; of low-level questions with an &quot;80% resolution rate across 10,000 chats a month,&quot; answering in the brand&#x27;s voice with context awareness - vendor-stated figures, not independently verified.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Widely deployed (300,000+ businesses per vendor) SMB-friendly inbound chat/support layer.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
-
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">OAuth: the tidio_connect tool opens a browser to Tidio&#x27;s login page, then stores access and refresh tokens locally in ~/.tidio-mcp/credentials.json.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">docs page, not an endpoint</div></div><div><div class="bk">Docs URL</div><div class="bv mono"><a href="https://github.com/TidioPoland/tidio-mcp-connector" rel="noopener nofollow">https://github.com/TidioPoland/tidio-mcp-connector</a></div></div><div><div class="bk">Probed</div><div class="bv">2026-09-03, HTTP 200</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24.</p>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">none</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/TidioPoland/tidio-mcp-connector (https://tid.io/mcp 301-redirects here)</p><ul><li><a href="https://github.com/TidioPoland/tidio-mcp-connector" rel="noopener nofollow">https://github.com/TidioPoland/tidio-mcp-connector</a></li><li><a href="https://tid.io/mcp" rel="noopener nofollow">https://tid.io/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>free (limited). Self-serve, no-card-required free tier exists; a &quot;Premium Plan&quot; and enterprise options are directed to sales for pricing.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/answer-inbound-chat.html">Answer an inbound chat or call</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.tidio.com" rel="noopener nofollow">https://www.tidio.com</a></li></ul><p class="note">1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim: </p><p class="v mono">https://www.tidio.com</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Tidio&#x27;s own marketing copy lists &quot;REST APIs, webhooks, JS actions, or Model Context Protocol (MCP)&quot; as supported integration methods, but no dedicated MCP docs page, repo, or listing could be located on tidio.com, PulseMCP, mcp.so, or glama.ai during this research pass - per this directory&#x27;s law that an MCP claim requires a URL in hand, this is logged as none-found rather than official/community despite the vendor&#x27;s own claim. Re-check before the next pass.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>free (limited). Self-serve, no-card-required free tier exists; a &quot;Premium Plan&quot; and enterprise options are directed to sales for pricing.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/TidioPoland/tidio-mcp-connector" rel="noopener nofollow">https://github.com/TidioPoland/tidio-mcp-connector</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/answer-inbound-chat.html">Answer an inbound chat or call</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.tidio.com" rel="noopener nofollow">https://www.tidio.com</a></li><li><a href="https://github.com/TidioPoland/tidio-mcp-connector" rel="noopener nofollow">https://github.com/TidioPoland/tidio-mcp-connector</a></li><li><a href="https://tid.io/mcp" rel="noopener nofollow">https://tid.io/mcp</a></li><li><a href="https://www.tidio.com/ai-agent/build-and-integrate/" rel="noopener nofollow">https://www.tidio.com/ai-agent/build-and-integrate/</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.tidio.com, https://github.com/TidioPoland/tidio-mcp-connector, https://tid.io/mcp, https://www.tidio.com/ai-agent/build-and-integrate/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Tidio&#x27;s own marketing copy lists &quot;REST APIs, webhooks, JS actions, or Model Context Protocol (MCP)&quot; as supported integration methods, but no dedicated MCP docs page, repo, or listing could be located on tidio.com, PulseMCP, mcp.so, or glama.ai during this research pass - per this directory&#x27;s law that an MCP claim requires a URL in hand, this is logged as none-found rather than official/community despite the vendor&#x27;s own claim. Re-check before the next pass. 2026-09-02: mcp_status none-found -&gt; official, narrowly. Tidio&#x27;s short domain https://tid.io/mcp 301-redirects to github.com/TidioPoland/tidio-mcp-connector, a repo under the TidioPoland GitHub organisation (whose profile links tidio.com), and mcpservers.org lists it with an official badge. It is a small setup connector: three tools (tidio_connect, tidio_status, tidio_disconnect) plus embed-code generation so an AI assistant or Lovable can wire Tidio onto a site; it does not expose conversations, contacts or Lyro data. Separately, https://www.tidio.com/ai-agent/build-and-integrate/ describes Lyro consuming MCP servers (Shopify, Guru, Stripe), which makes Lyro an MCP client. The community server github.com/adrmrn/tidio-mcp wraps the Tidio REST API. The &quot;no dedicated MCP docs page, repo, or listing&quot; sentence above is superseded.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">14-tidio</div></div>
 <div><div class="bk">Source file</div><div class="bv">14-inbound-plg-chat.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">237</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-03</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
@@ -132,8 +136,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

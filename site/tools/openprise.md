@@ -1,6 +1,6 @@
 # Openprise: MCP server status, API access gate and what it does
 
-> A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing,... No MCP found, Enterprise only. Checked 2026-08-24.
+> A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing,... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Openprise
 [Enterprise only](../gates/enterprise-only.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Backend data-quality and orchestration layer for RevOps - the plumbing that clea
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -94,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://openprisetech.com, https://openprisetech.com/pricing, https://openprisetech.com/resources, https://openprisetech.com/platform
 
 **Notes, verbatim from the file**
-Checked homepage, /docs (404), /platform, and /resources specifically for "MCP" - no mention found anywhere. No public API documentation or developer portal was locatable.
+Checked homepage, /docs (404), /platform, and /resources specifically for "MCP" - no mention found anywhere. No public API documentation or developer portal was locatable. 2026-09-02: re-checked openprisetech.com/llms.txt (present, sitemap-style, no MCP mention) and web search; no MCP server found.
 
 **Provenance**
 
@@ -106,7 +106,7 @@ Checked homepage, /docs (404), /platform, and /resources specifically for "MCP" 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

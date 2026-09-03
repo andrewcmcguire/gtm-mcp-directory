@@ -1,6 +1,6 @@
 # Enterprise gated GTM tools: 81 an agent cannot reach without a contract
 
-> 77 enterprise only entries plus 4 enterprise leaning. 31 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-03.
+> 77 enterprise only entries plus 4 enterprise leaning. 35 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -30,6 +30,8 @@ ada.cx | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Official MCP
 anaplan.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by "Anaplan... |
 | [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md)
 apollo.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/task) cadences that enroll contacts pulled... |
+| [Artisan AI (Ava)](../tools/artisan-ai.md)
+artisan.co | [AI SDRs](../categories/ai-sdr-agents.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and... |
 | [Clari (+ Salesloft agents)](../tools/clari.md)
 clari.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Primarily a revenue-intelligence/forecasting platform (deal inspection, pipeline forecasting) with an AI Copilot for... |
 | [Common Room](../tools/common-room.md)
@@ -50,8 +52,14 @@ hginsights.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Offi
 highspot.com | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Sales enablement platform (content management, training) that has added a genuine call-recording and... |
 | [Ironclad](../tools/ironclad.md)
 ironcladapp.com | [Proposals & Deals](../categories/proposals-deals.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Contract lifecycle management (CLM) platform for drafting, negotiating, and managing contracts with workflow automation... |
+| [MadKudu](../tools/madkudu.md)
+madkudu.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears... |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
 turbomcp.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled... |
+| [Meltwater](../tools/meltwater.md)
+meltwater.com | [Community & Dark Social](../categories/community-dark-social.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and... |
+| [Nooks](../tools/nooks.md)
+nooks.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting... |
 | [Otter.ai](../tools/otter-ai.md)
 otter.ai | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor... |
 | [Outreach](../tools/outreach.md)
@@ -86,32 +94,38 @@ brandwatch.com | [Community & Dark Social](../categories/community-dark-social.m
 zoominfo.com | [Conversation Intel](../categories/conversation-intel.md) | [Community MCP](../mcp/community.md) | [Enterprise only](../gates/enterprise-only.md) | Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. |
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [Community MCP](../mcp/community.md) | [Enterprise only](../gates/enterprise-only.md) | Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks -... |
+| [DealHub (DealHub AI)](../tools/dealhub.md)
+dealhub.io | [Proposals & Deals](../categories/proposals-deals.md) | [Community MCP](../mcp/community.md) | [Enterprise only](../gates/enterprise-only.md) | CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time... |
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [Community MCP](../mcp/community.md) | [Enterprise only](../gates/enterprise-only.md) | Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. |
+| [Loopio](../tools/loopio.md)
+loopio.com | [Proposals & Deals](../categories/proposals-deals.md) | [Community MCP](../mcp/community.md) | [Enterprise only](../gates/enterprise-only.md) | RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative... |
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [Community MCP](../mcp/community.md) | [Enterprise only](../gates/enterprise-only.md) | Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer... |
 | [Allego](../tools/allego.md)
 allego.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement... |
 | [Covideo](../tools/covideo.md)
 covideo.com | [Video Prospecting](../categories/video-prospecting.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and CRM... |
-| [DealHub (DealHub AI)](../tools/dealhub.md)
-dealhub.io | [Proposals & Deals](../categories/proposals-deals.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time... |
 | [Default](../tools/default.md)
 default.com | [RevOps Infra](../categories/revops-infra.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for... |
 | [Default](../tools/default.md)
 default.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model,... |
+| [Forethought (now "Forethought AI Agents by Zendesk")](../tools/forethought.md)
+forethought.ai | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | Omnichannel AI agent ("Solve") that resolves customer support and pre-sales issues across chat, email, voice, and a... |
 | [Groove](../tools/groove.md)
 groove.co | [Engagement & Outbound](../categories/engagement-outbound.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture -... |
 | [LeanData](../tools/leandata.md)
 leandata.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group... |
+| [Mindtickle](../tools/mindtickle.md)
+mindtickle.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales... |
 | [Spekit](../tools/spekit.md)
 spekit.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process... |
+| [Xactly](../tools/xactly.md)
+xactlycorp.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue forecasting (Xactly... |
 | [Hippo Video](../tools/hippo-video.md)
 hippovideo.io | [Video Prospecting](../categories/video-prospecting.md) | [No MCP found](../mcp/none-found.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | Video engagement platform for sales teams to record, automate, and personalize video outreach at scale, merging... |
 | [11x (Alice)](../tools/11x.md)
 11x.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs... |
-| [Artisan AI (Ava)](../tools/artisan-ai.md)
-artisan.co | [AI SDRs](../categories/ai-sdr-agents.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and... |
 | [Aviso](../tools/aviso.md)
 aviso.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow... |
 | [Bevy](../tools/bevy.md)
@@ -132,26 +146,14 @@ continu.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [N
 conversica.com | [AI SDRs](../categories/ai-sdr-agents.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads from events,... |
 | [Ebsta](../tools/ebsta.md)
 ebsta.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Revenue-intelligence add-on for Salesforce/HubSpot that syncs email and calendar activity into the CRM and layers on... |
-| [Forethought (now "Forethought AI Agents by Zendesk")](../tools/forethought.md)
-forethought.ai | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Omnichannel AI agent ("Solve") that resolves customer support and pre-sales issues across chat, email, voice, and a... |
 | [Gong Forecast](../tools/gong-forecast.md)
 gong.io | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | A licensed add-on module (separate from the base Gong Foundation license, with a lighter "Forecast Essentials" tier... |
 | [Kluster](../tools/kluster.md)
 kluster.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | AI-native revenue forecasting and revenue-analytics platform for mid-market to enterprise SaaS companies - plugs into... |
-| [Loopio](../tools/loopio.md)
-loopio.com | [Proposals & Deals](../categories/proposals-deals.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative... |
-| [MadKudu](../tools/madkudu.md)
-madkudu.com | [AI SDRs](../categories/ai-sdr-agents.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears... |
 | [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md)
 mediafly.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is... |
-| [Meltwater](../tools/meltwater.md)
-meltwater.com | [Community & Dark Social](../categories/community-dark-social.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and... |
-| [Mindtickle](../tools/mindtickle.md)
-mindtickle.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales... |
 | [Momentum](../tools/momentum.md)
 momentum.io | [Conversation Intel](../categories/conversation-intel.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates... |
-| [Nooks](../tools/nooks.md)
-nooks.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting... |
 | [Openprise](../tools/openprise.md)
 openprisetech.com | [RevOps Infra](../categories/revops-infra.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication,... |
 | [Orum](../tools/orum.md)
@@ -176,7 +178,5 @@ tofuhq.com | [AI SDRs](../categories/ai-sdr-agents.md) | [No MCP found](../mcp/n
 vareto.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling, cash-flow... |
 | [Varicent](../tools/varicent.md)
 varicent.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory... |
-| [Xactly](../tools/xactly.md)
-xactlycorp.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue forecasting (Xactly... |
 
 Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

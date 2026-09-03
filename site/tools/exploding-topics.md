@@ -1,6 +1,6 @@
 # Exploding Topics (Exploding Topics Pro): MCP server status, API access gate and what it does
 
-> Surfaces topics, products, and search queries showing accelerating growth in interest before they go... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Surfaces topics, products, and search queries showing accelerating growth in interest before they go... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Exploding Topics (Exploding Topics Pro)
 [Paid, self-serve](../gates/paid.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Early trend/topic-discovery layer for content and product-marketing ideation - m
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: no-job-fits. Trend and topic velocity detec
 https://explodingtopics.com/pricing, https://explodingtopics.com/feature/et-api
 
 **Notes, verbatim from the file**
-Confirmed current ownership - the pricing page footer states "Exploding Topics is a Trademark of Semrush Inc," and pricing links route through semrush.com, confirming the product is now sold as "Exploding Topics Pro" within Semrush's portfolio rather than as an independent company. Checked GitHub and PulseMCP - no MCP server found. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://explodingtopics.com/feature/et-api): the API is an add-on to the Business plan which starts at $249/mo, with request tiers at $1,000/mo for 1,000 requests, $2,000/mo for 5,000 and $4,000/mo for 25,000, so the real solo-operator floor is about $1,249/mo; commercial or product-embedded use needs custom pricing.
+Confirmed current ownership - the pricing page footer states "Exploding Topics is a Trademark of Semrush Inc," and pricing links route through semrush.com, confirming the product is now sold as "Exploding Topics Pro" within Semrush's portfolio rather than as an independent company. Checked GitHub and PulseMCP - no MCP server found. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://explodingtopics.com/feature/et-api): the API is an add-on to the Business plan which starts at $249/mo, with request tiers at $1,000/mo for 1,000 requests, $2,000/mo for 5,000 and $4,000/mo for 25,000, so the real solo-operator floor is about $1,249/mo; commercial or product-embedded use needs custom pricing. 2026-09-02: re-checked explodingtopics.com (no llms.txt), the official MCP registry (no entry) and a web search. Parent Semrush publishes an official MCP (https://www.semrush.com/mcp/) over its Trends and Standard APIs, but neither that page nor developer.semrush.com names Exploding Topics data as exposed, so none-found stands for this product.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ Confirmed current ownership - the pricing page footer states "Exploding Topics i
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

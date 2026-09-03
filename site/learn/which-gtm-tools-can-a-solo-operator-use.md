@@ -1,6 +1,6 @@
-# Which GTM tools can a solo operator use with an agent? 118 products
+# Which GTM tools can a solo operator use with an agent? 126 products
 
-> 174 of 293 GTM tools are free to start or paid self serve, and 123 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-03.
+> 174 of 293 GTM tools are free to start or paid self serve, and 132 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-174 of the 293 entries here are free to start or paid self serve, so one person can get API access without a contract. 123 of those also have an MCP server, which comes to 118 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
+174 of the 293 entries here are free to start or paid self serve, so one person can get API access without a contract. 132 of those also have an MCP server, which comes to 126 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
 
 Two columns have to be true at once. The tool has to be callable, and you have to be able to get in. This directory publishes both separately on purpose, because plenty of tools pass one test and fail the other.
 
@@ -26,7 +26,7 @@ Two columns have to be true at once. The tool has to be callable, and you have t
 
 - Together, 174 of 293 entries, or 59%, pass the gate test.
 
-- Cross that with the MCP column and 123 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
+- Cross that with the MCP column and 132 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
 
 - 77 are enterprise only and 4 enterprise leaning. Those are closed doors for one person.
 
@@ -34,7 +34,7 @@ Two columns have to be true at once. The tool has to be callable, and you have t
 
 ## Callable and reachable, both
 
-118 unique products pass both tests. Here are the first fifteen in the published order.
+126 unique products pass both tests. Here are the first fifteen in the published order.
 
 - [Airbyte](../tools/airbyte.md) Official MCP · Free to start
 Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a...
@@ -67,7 +67,7 @@ Finds and verifies work email addresses and direct phone numbers from a name plu
 - [Exa](../tools/exa.md) Official MCP · Free to start
 A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
 
-103 more are on the linked page. The cut is the display limit, not a ranking.
+111 more are on the linked page. The cut is the display limit, not a ranking.
 
 [The full solo reachable list is here](../lists/solo-reachable.md), and the [61 free tiers are here](../lists/free-api-tiers.md).
 

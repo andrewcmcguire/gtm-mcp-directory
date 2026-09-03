@@ -1,6 +1,6 @@
 # Luster: MCP server status, API access gate and what it does
 
-> "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call... No MCP found, Gate unknown. Checked 2026-08-24.
+> "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Luster
 [Gate unknown](../gates/unknown.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Practice-plus-prediction layer meant to sit between roleplay drills and live-cal
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.luster.ai/ai-coaching, https://www.luster.ai/proactive-practive-and-roleplay, https://www.exec.com/learn/luster-ai-vs-fullyramped
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. No public pricing at all - the least commercially transparent tool in this file's roleplay cluster. [api_gate 2026-08-25] Re-checked and left unknown, honestly: no pricing page exists (/pricing 404s on both www and apex) and the homepage nav and footer contain no pricing, API, developer or docs link - only Get in Touch and Contact Us - with no statement anywhere about API access. Checked against https://www.luster.ai/.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. No public pricing at all - the least commercially transparent tool in this file's roleplay cluster. [api_gate 2026-08-25] Re-checked and left unknown, honestly: no pricing page exists (/pricing 404s on both www and apex) and the homepage nav and footer contain no pricing, API, developer or docs link - only Get in Touch and Contact Us - with no statement anywhere about API access. Checked against https://www.luster.ai/. 2026-09-02: re-checked luster.ai (no llms.txt), the official MCP registry (no entry) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -104,7 +104,7 @@ No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. No public pric
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [g2.com](https://g2.com) · entry id 05-g2-buyer-intent · source 05-signals-intent-abm.md line 615
+Vendor: [g2.com](https://g2.com) · entry id 05-g2-buyer-intent · source 05-signals-intent-abm.md line 621
 
 **What it does**
 Surfaces which companies are researching your product and your competitors on G2's review marketplace, plus the review and category data behind those signals.
@@ -39,9 +39,9 @@ Third-party review-site intent source, complementary to Bombora's co-op and 6sen
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: answered, asking for a key
-- **Endpoint URL[https://mcp.g2.com/mcp](https://mcp.g2.com/mcp)Probed**: 2026-08-25, HTTP 401
+- **Endpoint URL[https://mcp.g2.com/mcp](https://mcp.g2.com/mcp)Probed**: 2026-09-03, HTTP 401
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-08-25 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-03 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
 mcp_status, verbatim from the file:
 
@@ -107,7 +107,7 @@ Added 2026-08-25 in the coverage sweep, closing the most glaring gap in this fil
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 615
+- **Source line**: 621
 
 - **Tier**: RESEARCHED
 

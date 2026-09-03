@@ -1,6 +1,6 @@
 # Champion: MCP server status, API access gate and what it does
 
-> Identifies and scores which existing customers are most engaged or most at risk, builds rich profiles of... No MCP found, Gate unknown. Checked 2026-08-24.
+> Identifies and scores which existing customers are most engaged or most at risk, builds rich profiles of... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Champion
 [Gate unknown](../gates/unknown.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Champion/advocate-identification and revenue-attribution layer spanning CRM, pro
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://championhq.com, https://championhq.com/product, https://championhq.com/pricing
 
 **Notes, verbatim from the file**
-DISAMBIGUATION FLAG - do not confuse with Champify (champify.io), a different company covered in 05-signals-intent-abm.md that tracks job changes of past customers/champions moving to NEW companies. Champion (championhq.com) instead scores and activates champions WITHIN existing customer accounts for references, case studies, and expansion - a distinct product shape despite the near-identical name and adjacent positioning. Several plausible domains for a "Champion" tool were checked and ruled out during this research: champion.io (redirects to an unrelated personal site), trychampion.com (parked/domain-marketplace listing), and champion.app (parked for sale on GoDaddy) - championhq.com is the verified, live, correct domain. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the Pricing nav item is a dead hash link with no destination, championhq.com/pricing returns 404, and no API or developer docs are referenced anywhere on the site. Checked against https://championhq.com/pricing.
+DISAMBIGUATION FLAG - do not confuse with Champify (champify.io), a different company covered in 05-signals-intent-abm.md that tracks job changes of past customers/champions moving to NEW companies. Champion (championhq.com) instead scores and activates champions WITHIN existing customer accounts for references, case studies, and expansion - a distinct product shape despite the near-identical name and adjacent positioning. Several plausible domains for a "Champion" tool were checked and ruled out during this research: champion.io (redirects to an unrelated personal site), trychampion.com (parked/domain-marketplace listing), and champion.app (parked for sale on GoDaddy) - championhq.com is the verified, live, correct domain. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the Pricing nav item is a dead hash link with no destination, championhq.com/pricing returns 404, and no API or developer docs are referenced anywhere on the site. Checked against https://championhq.com/pricing. 2026-09-02: re-checked championhq.com (no llms.txt; /pricing still 404), the official MCP registry (no entry) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ DISAMBIGUATION FLAG - do not confuse with Champify (champify.io), a different co
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -35,24 +35,24 @@ No server found, or the check could not settle it. Same category, not reachable 
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
+| [GlockApps](../tools/glockapps.md)
+glockapps.com | [MCP unknown](../mcp/unknown.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Scaledmail](../tools/scaledmail.md)
-scaledmail.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-08-24 |
+scaledmail.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
 | [Warmup Inbox](../tools/warmup-inbox.md)
 warmupinbox.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
-| [GlockApps](../tools/glockapps.md)
-glockapps.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Hypertide](../tools/hypertide.md)
-hypertide.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+hypertide.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [InboxAlly](../tools/inboxally.md)
-inboxally.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+inboxally.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [MailGenius](../tools/mailgenius.md)
-mailgenius.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+mailgenius.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Mailreach](../tools/mailreach.md)
-mailreach.co | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+mailreach.co | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Warmy.io](../tools/warmy-io.md)
 warmy.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Folderly](../tools/folderly.md)
-folderly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+folderly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 
 ### What this category is asked for
 

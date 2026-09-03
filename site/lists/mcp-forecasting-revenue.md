@@ -32,34 +32,34 @@ No server found, or the check could not settle it. Same category, not reachable 
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
-| [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md)
-pipedrive.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-08-24 |
-| [Forecastio](../tools/forecastio.md)
-forecastio.ai | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [HubSpot (AI Forecasting)](../tools/hubspot.md)
-hubspot.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Aviso](../tools/aviso.md)
-aviso.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [BoostUp (rebranded: Terret)](../tools/boostup.md)
-terret.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Ebsta](../tools/ebsta.md)
-ebsta.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Gong Forecast](../tools/gong-forecast.md)
-gong.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Kluster](../tools/kluster.md)
-kluster.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md)
-mediafly.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Revenue.io](../tools/revenue-io.md)
-revenue.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md)
-salesforce.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Vareto](../tools/vareto.md)
-vareto.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Varicent](../tools/varicent.md)
-varicent.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Xactly](../tools/xactly.md)
-xactlycorp.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+xactlycorp.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md)
+pipedrive.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
+| [Forecastio](../tools/forecastio.md)
+forecastio.ai | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
+| [HubSpot (AI Forecasting)](../tools/hubspot.md)
+hubspot.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
+| [Aviso](../tools/aviso.md)
+aviso.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [BoostUp (rebranded: Terret)](../tools/boostup.md)
+terret.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Ebsta](../tools/ebsta.md)
+ebsta.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Gong Forecast](../tools/gong-forecast.md)
+gong.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Kluster](../tools/kluster.md)
+kluster.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md)
+mediafly.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Revenue.io](../tools/revenue-io.md)
+revenue.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md)
+salesforce.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Vareto](../tools/vareto.md)
+vareto.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Varicent](../tools/varicent.md)
+varicent.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 
 ### What this category is asked for
 

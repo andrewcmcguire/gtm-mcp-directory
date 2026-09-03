@@ -26,7 +26,7 @@ What the standard deliberately does not fix is what any of it means. MCP will no
 
 The specification is versioned by date and has been revised several times since first release, adding an authorization framework, a streamable HTTP transport alongside the original local transport, and richer tool output. Read the versioned spec rather than any blog post, including this one, for the current state of it.
 
-Adoption is visible in this directory's own data rather than in anyone's press release. 147 of 293 go to market vendors ship a first party server today, and the auth notes on those entries name Claude, ChatGPT and Cursor as the clients they document sign in flows for.
+Adoption is visible in this directory's own data rather than in anyone's press release. 156 of 293 go to market vendors ship a first party server today, and the auth notes on those entries name Claude, ChatGPT and Cursor as the clients they document sign in flows for.
 
 ## Why it matters for go to market work
 

@@ -1,6 +1,6 @@
 # Artisan AI (Ava): MCP server status, API access gate and what it does
 
-> An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles... No MCP found, Enterprise only. Checked 2026-08-24.
+> An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles... Official MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Artisan AI (Ava)
 
 # Artisan AI (Ava)
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,19 +32,26 @@ Full-funnel outbound replacement layer - positioned to replace an entire SDR hir
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: n/a
+- **Auth**: none required - a JSON-RPC initialize POST to the endpoint with no credentials answered HTTP 200 on 2026-09-02 (serverInfo name "artisan-content", title "Artisan Content MCP", version 1.0.0)
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: answered as an MCP server
+- **Endpoint URL[https://www.artisan.co/mcp](https://www.artisan.co/mcp)Probed**: 2026-09-03, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
 mcp_status, verbatim from the file:
 
-none-found
+official (content-only)
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+mcp_url, verbatim from the file:
+
+https://www.artisan.co/mcp
+
+- [https://www.artisan.co/mcp](https://www.artisan.co/mcp)
 
 **Access gate**
 
@@ -84,13 +91,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.artisan.co](https://www.artisan.co)
 - [https://www.artisan.co/pricing](https://www.artisan.co/pricing)
+- [https://www.artisan.co/llms.txt](https://www.artisan.co/llms.txt)
+- [https://www.artisan.co/mcp](https://www.artisan.co/mcp)
 
-2 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.artisan.co, https://www.artisan.co/pricing
+https://www.artisan.co, https://www.artisan.co/pricing, https://www.artisan.co/llms.txt, https://www.artisan.co/mcp
 
 **Notes, verbatim from the file**
-Famous for its 2024 "stop hiring humans" billboard campaign - a marketing stance worth noting since it signals how aggressively the vendor copy should be discounted. Good bench-test candidate precisely because the claims are so strong. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.artisan.co/pricing): all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan's marketing content.
+Famous for its 2024 "stop hiring humans" billboard campaign - a marketing stance worth noting since it signals how aggressively the vendor copy should be discounted. Good bench-test candidate precisely because the claims are so strong. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.artisan.co/pricing): all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan's marketing content. 2026-09-02: mcp_status none-found -> official (content-only). https://www.artisan.co/llms.txt lists a "Model Context Protocol server (Streamable HTTP, revision 2025-06-18) exposing Artisan's public pages and blog as read-only tools" at https://www.artisan.co/mcp, and that endpoint answered an initialize request today with the instructions "Read-only access to Artisan's public marketing pages and blog. Use list_pages / get_page for site content and search_blog / get_blog_post for articles." A first-party endpoint that answers clears law 1, but this is a marketing-content reader in the Ada mould, not an MCP over Ava or any customer data; do not present it as an AI SDR MCP.
 
 **Provenance**
 
@@ -102,7 +111,7 @@ Famous for its 2024 "stop hiring humans" billboard campaign - a marketing stance
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

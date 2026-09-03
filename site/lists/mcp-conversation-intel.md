@@ -87,11 +87,11 @@ No server found, or the check could not settle it. Same category, not reachable 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [Momentum](../tools/momentum.md)
-momentum.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+momentum.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Rilla](../tools/rilla.md)
-rilla.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+rilla.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Salesroom](../tools/salesroom.md)
-salesroom.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+salesroom.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 
 ### What this category is asked for
 

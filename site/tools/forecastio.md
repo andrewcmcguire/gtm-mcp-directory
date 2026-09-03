@@ -1,6 +1,6 @@
 # Forecastio: MCP server status, API access gate and what it does
 
-> AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Forecastio
 [Paid, self-serve](../gates/paid.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Standalone forecasting/pipeline-intelligence layer sitting on top of HubSpot or 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://forecastio.ai/pricing, https://forecastio.ai/blog/ai-sales-forecasting-explained, https://forecastio.ai/blog/sales-forecasting-software, https://www.pulsemcp.com/servers?q=forecastio
 
 **Notes, verbatim from the file**
-No dedicated Forecastio MCP server found. Some secondary sources reference reaching Forecastio "through Zapier MCP," but no specific Zapier-hosted Forecastio connector URL could be confirmed - logged as none-found rather than claiming an unconfirmed indirect path.
+No dedicated Forecastio MCP server found. Some secondary sources reference reaching Forecastio "through Zapier MCP," but no specific Zapier-hosted Forecastio connector URL could be confirmed - logged as none-found rather than claiming an unconfirmed indirect path. 2026-09-02: re-checked forecastio.ai (no llms.txt), the official MCP registry (no entry) and a web search (results were all weather-forecast servers); no MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ No dedicated Forecastio MCP server found. Some secondary sources reference reach
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

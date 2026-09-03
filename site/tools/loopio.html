@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Loopio: MCP server status, API access gate and what it does</title>
-<meta name="description" content="RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and... No MCP found, Enterprise only. Checked 2026-08-24.">
+<meta name="description" content="RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and... Community MCP, Enterprise only. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/loopio.html">
@@ -31,6 +31,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://github.com/fredericboyer/loopio-mcp"
   }
 }
 </script>
@@ -87,11 +91,11 @@ Loopio</div>
 <div class="toolhead">
 <h1>Loopio</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge teal" href="../mcp/community.html">Community MCP</a>
 <a class="badge copper" href="../gates/enterprise-only.html">Enterprise only</a>
 <a class="badge mute flat" href="../categories/proposals-deals.html">Proposals &amp; Deals</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -101,25 +105,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 13-loopio &middot; source
 13-proposals-deals.md line 128</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Markets &quot;AI RFP Software with a Competitive Edge&quot; - AI-assisted content retrieval and drafting from the response library is the core claimed capability; independent verification of the underlying model was not found.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">RFP/RFI response system of record for larger proposal teams, the incumbent Loopio competes against in this file (Responsive, Arphie) increasingly via AI-drafting speed and MCP access rather than content-library size alone.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
-
+<div><div class="bk">Status bucket</div><div class="bv">Community MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the Loopio Data API v2, per the repo README; runs locally over stdio</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">docs page, not an endpoint</div></div><div><div class="bk">Docs URL</div><div class="bv mono"><a href="https://github.com/fredericboyer/loopio-mcp" rel="noopener nofollow">https://github.com/fredericboyer/loopio-mcp</a></div></div><div><div class="bk">Probed</div><div class="bv">2026-09-03, HTTP 200</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24.</p>
+<p class="note" style="margin-top:14px">A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing.
+The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">n/a</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/fredericboyer/loopio-mcp (unofficial)</p><ul><li><a href="https://github.com/fredericboyer/loopio-mcp" rel="noopener nofollow">https://github.com/fredericboyer/loopio-mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>enterprise-only. Loopio does not publish pricing; third-party procurement data (Vendr, aggregating 80+ verified purchases) puts entry pricing around $20,000/yr for the Foundations tier (10 seats), with typical ACVs of $15,000-$150,000+ depending on team size - a fully sales-led, quote-only model with no self-serve path or public API-pricing page found.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/draft-rfp-response.html">Draft an RFP or questionnaire response</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://loopio.com/pricing/" rel="noopener nofollow">https://loopio.com/pricing/</a></li><li><a href="https://www.vendr.com/marketplace/loopio" rel="noopener nofollow">https://www.vendr.com/marketplace/loopio</a></li><li><a href="https://autorfp.ai/blog/loopio-pricing" rel="noopener nofollow">https://autorfp.ai/blog/loopio-pricing</a></li><li><a href="https://loopio.com/" rel="noopener nofollow">https://loopio.com/</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://loopio.com/pricing/, https://www.vendr.com/marketplace/loopio, https://autorfp.ai/blog/loopio-pricing, https://loopio.com/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">No MCP reference found in this research - a notable contrast to Responsive and Arphie, its two closest direct competitors in this file, both of which shipped official MCP servers.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>enterprise-only. Loopio does not publish pricing; third-party procurement data (Vendr, aggregating 80+ verified purchases) puts entry pricing around $20,000/yr for the Foundations tier (10 seats), with typical ACVs of $15,000-$150,000+ depending on team size - a fully sales-led, quote-only model with no self-serve path or public API-pricing page found.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/fredericboyer/loopio-mcp" rel="noopener nofollow">https://github.com/fredericboyer/loopio-mcp</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/draft-rfp-response.html">Draft an RFP or questionnaire response</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://loopio.com/pricing/" rel="noopener nofollow">https://loopio.com/pricing/</a></li><li><a href="https://www.vendr.com/marketplace/loopio" rel="noopener nofollow">https://www.vendr.com/marketplace/loopio</a></li><li><a href="https://autorfp.ai/blog/loopio-pricing" rel="noopener nofollow">https://autorfp.ai/blog/loopio-pricing</a></li><li><a href="https://loopio.com/" rel="noopener nofollow">https://loopio.com/</a></li><li><a href="https://github.com/fredericboyer/loopio-mcp" rel="noopener nofollow">https://github.com/fredericboyer/loopio-mcp</a></li><li><a href="https://lobehub.com/mcp/fredericboyer-loopio-mcp" rel="noopener nofollow">https://lobehub.com/mcp/fredericboyer-loopio-mcp</a></li><li><a href="https://loopio.com/platform/integrations/" rel="noopener nofollow">https://loopio.com/platform/integrations/</a></li></ul><p class="note">7 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://loopio.com/pricing/, https://www.vendr.com/marketplace/loopio, https://autorfp.ai/blog/loopio-pricing, https://loopio.com/, https://github.com/fredericboyer/loopio-mcp, https://lobehub.com/mcp/fredericboyer-loopio-mcp, https://loopio.com/platform/integrations/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">No MCP reference found in this research - a notable contrast to Responsive and Arphie, its two closest direct competitors in this file, both of which shipped official MCP servers. 2026-09-02: CHANGED none-found -&gt; community (unofficial). github.com/fredericboyer/loopio-mcp is a local stdio MCP server exposing the Loopio Data API v2 to Claude Desktop and Claude Code (search, read, write and delete library entries, manage RFP projects; read-only by default with writes opt-in). Its README states: &#x27;Unofficial. This is an independent, community-built project. It is not affiliated with, endorsed by, or supported by Loopio Inc.&#x27; A second unofficial build (matthewrbonner/loopio-mcp-ec2) is listed on LobeHub. Loopio&#x27;s own loopio.com/llms.txt (404), the platform/integrations page and the MCP registry carry nothing, so no official server.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">13-loopio</div></div>
 <div><div class="bk">Source file</div><div class="bv">13-proposals-deals.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">128</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-03</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
@@ -132,8 +136,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

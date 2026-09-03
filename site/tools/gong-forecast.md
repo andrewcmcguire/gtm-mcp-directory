@@ -1,6 +1,6 @@
 # Gong Forecast: MCP server status, API access gate and what it does
 
-> A licensed add-on module (separate from the base Gong Foundation license, with a lighter "Forecast... No MCP found, Enterprise only. Checked 2026-08-24.
+> A licensed add-on module (separate from the base Gong Foundation license, with a lighter "Forecast... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Gong Forecast
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Forecast-rollup and deal-risk layer sitting on top of Gong's core conversation-i
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://help.gong.io/docs/set-up-your-pipeline-view-and-begin-forecasting, https://www.gong.io/platform/revenue-forecasting-software, https://www.gong.io/sales-forecasting-software, https://www.pulsemcp.com/servers?q=gong
 
 **Notes, verbatim from the file**
-Checked for a Forecast-specific MCP distinct from Gong's general MCP server - none found. The community Gong MCP servers on PulseMCP (cedricziel/gong-mcp, JustinBeckwith/gongio-mcp, kenazk/gong-mcp) all wrap the general conversation-intelligence API (calls/transcripts); none expose Forecast-module data (deal-likelihood scores, rollups, risk indicators) as distinct tools.
+Checked for a Forecast-specific MCP distinct from Gong's general MCP server - none found. The community Gong MCP servers on PulseMCP (cedricziel/gong-mcp, JustinBeckwith/gongio-mcp, kenazk/gong-mcp) all wrap the general conversation-intelligence API (calls/transcripts); none expose Forecast-module data (deal-likelihood scores, rollups, risk indicators) as distinct tools. 2026-09-02: re-checked the official MCP registry for gong: io.github.JustinBeckwith/gongio-mcp and io.github.pipeworx-io/gong both wrap the general Gong API (calls, transcripts, users) with no forecast, deal-likelihood or pipeline tools. none-found (forecast-specific) stands.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ Checked for a Forecast-specific MCP distinct from Gong's general MCP server - no
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Terret (BoostUp): MCP server status, API access gate and what it does
 
-> A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to... No MCP found, Enterprise only. Checked 2026-08-24.
+> A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Terret (BoostUp)
 [Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Revenue-intelligence/forecasting layer (product suite includes Terret Nexus, Ter
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -89,7 +89,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.terret.ai, https://www.terret.ai/pricing
 
 **Notes, verbatim from the file**
-SWEEP FLAG - the product's login portal is at app.boostup.ai, strongly indicating Terret is a rebrand (or sub-brand) of BoostUp, an established revenue-intelligence/forecasting vendor. Included because the seed list named it explicitly, but its category fit here is weak - it's not an outbound prospecting agent. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.terret.ai/pricing): no pricing published anywhere - /pricing is a demo booking form offering a 48-hour proof of concept - and the site names no API, developer docs or access condition.
+SWEEP FLAG - the product's login portal is at app.boostup.ai, strongly indicating Terret is a rebrand (or sub-brand) of BoostUp, an established revenue-intelligence/forecasting vendor. Included because the seed list named it explicitly, but its category fit here is weak - it's not an outbound prospecting agent. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.terret.ai/pricing): no pricing published anywhere - /pricing is a demo booking form offering a 48-hour proof of concept - and the site names no API, developer docs or access condition. 2026-09-02: re-checked terret.ai (no llms.txt), the official MCP registry (no terret or boostup entry) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -101,7 +101,7 @@ SWEEP FLAG - the product's login portal is at app.boostup.ai, strongly indicatin
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

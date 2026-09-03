@@ -1,6 +1,6 @@
 # Bigtincan Readiness (formerly Brainshark): MCP server status, API access gate and what it does
 
-> Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness")... No MCP found, Gate unknown. Checked 2026-08-24.
+> Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness")... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Bigtincan Readiness (formerly Brainshark)
 [Gate unknown](../gates/unknown.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Combined content-management-plus-practice enablement suite; Brainshark's legacy 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.bigtincan.com/pricing/, https://www.g2.com/products/bigtincan-readiness-formerly-brainshark/reviews, https://tomba.io/blog/bigtincan-brainshark-pricing-reviews-pros-and-cons
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Brainshark is not sold as a separate product anymore - it is the "Readiness" module of Bigtincan since the 2021 acquisition, so it is covered as one entry rather than two. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is contact-sales only across both Essential and Elite editions, but neither the pricing page nor the integrations page mentions an API, SDK or developer access, and no developer site exists (developers. and support. do not resolve, /developers 404s), so the API condition is not stated. Checked against https://www.bigtincan.com/pricing/.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Brainshark is not sold as a separate product anymore - it is the "Readiness" module of Bigtincan since the 2021 acquisition, so it is covered as one entry rather than two. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is contact-sales only across both Essential and Elite editions, but neither the pricing page nor the integrations page mentions an API, SDK or developer access, and no developer site exists (developers. and support. do not resolve, /developers 404s), so the API condition is not stated. Checked against https://www.bigtincan.com/pricing/. 2026-09-02: re-checked bigtincan.com (no llms.txt), the official MCP registry (no entry) and a web search. apis.io lists a "Bigtincan Hub MCP Server (candidate)", which is that index's auto-generated placeholder, not a server. none-found stands.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Brainshark is 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

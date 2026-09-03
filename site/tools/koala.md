@@ -19,7 +19,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://getkoala.com](https://getkoala.com) · entry id 05-koala · source 05-signals-intent-abm.md line 304
+Vendor: [https://getkoala.com](https://getkoala.com) · entry id 05-koala · source 05-signals-intent-abm.md line 309
 
 **What it does**
 Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered configurable AI-agent workflows (enrichment, research, alerting) on high-intent accounts.
@@ -97,7 +97,7 @@ STATUS FLAG - Koala's homepage carries a banner stating it was acquired by Curso
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 304
+- **Source line**: 309
 
 - **Tier**: RESEARCHED
 

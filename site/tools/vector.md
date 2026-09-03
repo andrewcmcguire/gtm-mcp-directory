@@ -1,6 +1,6 @@
 # Vector (vector.co): MCP server status, API access gate and what it does
 
-> Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click... MCP unknown, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Vector (vector.co)
 
 # Vector (vector.co)
 
-[No MCP found](../mcp/none-found.md)
+[MCP unknown](../mcp/unknown.md)
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,23 +32,23 @@ Contact-level (not just account-level) intent capture feeding both sales alertin
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP unknown
 
-- **Auth**: unknown - not confirmed live
+- **Auth**: unknown - the vendor says the MCP 'lives in Claude' but publishes no auth or setup details
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+unknown
 
 mcp_url, verbatim from the file:
 
-https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers (vendor's own announcement - describes MCP as "rolling out soon," gated behind a waitlist, not a live repo/endpoint)
+https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does (vendor's own launch post, 2026-05-06, early-access signup only; no endpoint, docs or repo published)
 
-- [https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers](https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers)
+- [https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does](https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does)
 
 **Access gate**
 
@@ -90,13 +90,16 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers](https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers)
 - [https://www.ycombinator.com/companies/vector](https://www.ycombinator.com/companies/vector)
 - [https://www.prnewswire.com/news-releases/vector-raises-10m-series-a-to-build-the-ai-ad-platform-that-makes-marketers-better-not-obsolete-302770353.html](https://www.prnewswire.com/news-releases/vector-raises-10m-series-a-to-build-the-ai-ad-platform-that-makes-marketers-better-not-obsolete-302770353.html)
+- [https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does](https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does)
+- [https://www.vector.co/blog/how-vector-uses-vector-mcp](https://www.vector.co/blog/how-vector-uses-vector-mcp)
+- [https://www.vector.co/llms.txt](https://www.vector.co/llms.txt)
 
-6 source URLs. Raw sources field, verbatim:
+9 source URLs. Raw sources field, verbatim:
 
-https://www.vector.co/, https://www.vector.co/pricing, https://www.vector.co/blog/product-release-what-does-vector-do, https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers, https://www.ycombinator.com/companies/vector, https://www.prnewswire.com/news-releases/vector-raises-10m-series-a-to-build-the-ai-ad-platform-that-makes-marketers-better-not-obsolete-302770353.html
+https://www.vector.co/, https://www.vector.co/pricing, https://www.vector.co/blog/product-release-what-does-vector-do, https://www.vector.co/blog/what-is-an-mcp-and-why-were-building-it-for-marketers, https://www.ycombinator.com/companies/vector, https://www.prnewswire.com/news-releases/vector-raises-10m-series-a-to-build-the-ai-ad-platform-that-makes-marketers-better-not-obsolete-302770353.html, https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does, https://www.vector.co/blog/how-vector-uses-vector-mcp, https://www.vector.co/llms.txt
 
 **Notes, verbatim from the file**
-Disambiguated as the YC-backed, HubSpot Ventures/SignalFire-funded contact-based marketing "Vector" (Reveal + Target products), not any dev-tools product of the same name. Reveal plan is self-serve ($399-$999/mo, 14-day trial); Target (ad activation) requires an annual contract from $3,000/mo. Checked mcp.so and glama.ai directly - no listing found on either, consistent with waitlist-stage MCP.
+Disambiguated as the YC-backed, HubSpot Ventures/SignalFire-funded contact-based marketing "Vector" (Reveal + Target products), not any dev-tools product of the same name. Reveal plan is self-serve ($399-$999/mo, 14-day trial); Target (ad activation) requires an annual contract from $3,000/mo. Checked mcp.so and glama.ai directly - no listing found on either, consistent with waitlist-stage MCP. 2026-09-02: CHANGED none-found -> unknown. Vector's own blog now carries a launch series: 'We built an MCP for marketing. Here's what it actually does.' (2026-05-06), 'How Vector uses Vector MCP' (2026-05-14) and 'What can you actually ask your ads with Vector MCP?' (2026-05-26). The launch post describes V1 as read-only access to LinkedIn Ads performance plus de-anonymized site visitors and says the MCP 'lives in Claude', but the only call to action is 'Sign up for early access', and vector.co/mcp returns 404. No endpoint, setup docs, auth method or registry listing (registry search for vector.co is empty), so per law 1 this is a first-party claim without a URL that answers: unknown, not official.
 
 **Provenance**
 
@@ -108,7 +111,7 @@ Disambiguated as the YC-backed, HubSpot Ventures/SignalFire-funded contact-based
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

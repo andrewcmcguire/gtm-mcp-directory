@@ -1,6 +1,6 @@
 # Conversica: MCP server status, API access gate and what it does
 
-> AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads... No MCP found, Enterprise only. Checked 2026-08-24.
+> AI agents that conduct two-way conversations (email, SMS, chat, messaging apps) to research/qualify leads... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Conversica
 [Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ One of the longest-established players in this category (predates the current "A
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -83,12 +83,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://www.conversica.com](https://www.conversica.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.conversica.com
 
 **Notes, verbatim from the file**
-Good "before and after" case study for how vendor language shifted 2023-2026 - Conversica's older positioning was "virtual assistant"/chatbot, current copy uses "AI Agents" throughout for what appears to be a similar underlying conversational-automation product. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.conversica.com/): no pricing page exists and every CTA routes to request-a-demo, so there is no self-serve path of any kind; an API is implied only by a footer link to API Terms of Service, with no developer portal published.
+Good "before and after" case study for how vendor language shifted 2023-2026 - Conversica's older positioning was "virtual assistant"/chatbot, current copy uses "AI Agents" throughout for what appears to be a similar underlying conversational-automation product. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.conversica.com/): no pricing page exists and every CTA routes to request-a-demo, so there is no self-serve path of any kind; an API is implied only by a footer link to API Terms of Service, with no developer portal published. 2026-09-02: re-checked conversica.com (no llms.txt), the official MCP registry (no entry) and a web search; no MCP server found. The Glama listing "mcp-convertica" is an unrelated project.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ Good "before and after" case study for how vendor language shifted 2023-2026 - C
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

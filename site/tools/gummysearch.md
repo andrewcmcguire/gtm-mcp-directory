@@ -1,6 +1,6 @@
 # GummySearch: MCP server status, API access gate and what it does
 
-> Was a Reddit audience-research tool that surfaced subreddit demographics, pain points, and content ideas,... No MCP found, Gate not applicable. Checked 2026-08-24.
+> Was a Reddit audience-research tool that surfaced subreddit demographics, pain points, and content ideas,... MCP not applicable, Gate not applicable. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ GummySearch
 
 # GummySearch
 
-[No MCP found](../mcp/none-found.md)
+[MCP not applicable](../mcp/n-a.md)
 [Gate not applicable](../gates/n-a.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,17 +32,17 @@ Was a Reddit-specific audience/pain-point research layer for product marketing a
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP not applicable
 
 - **Auth**: n/a
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+An MCP server is not a meaningful question for this entry. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+n-a
 
 mcp_url, verbatim from the file:
 
@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: dead. Shut down per the entry's notes.
 https://gummysearch.com, https://gummysearch.com/pricing
 
 **Notes, verbatim from the file**
-STATUS FLAG - GummySearch's own homepage displays a banner reading "GummySearch is closed as of 11/30/2025." The pricing page (Free $0, Starter $29/mo, Pro $59/mo, Mega $199/mo) is preserved but now historical only. Kept in this directory as a RESEARCHED historical entry per the seed list, matching how Koala is handled in 05-signals-intent-abm.md - do not reference as a currently-purchasable tool.
+STATUS FLAG - GummySearch's own homepage displays a banner reading "GummySearch is closed as of 11/30/2025." The pricing page (Free $0, Starter $29/mo, Pro $59/mo, Mega $199/mo) is preserved but now historical only. Kept in this directory as a RESEARCHED historical entry per the seed list, matching how Koala is handled in 05-signals-intent-abm.md - do not reference as a currently-purchasable tool. 2026-09-02: mcp_status none-found -> n-a. https://gummysearch.com still displays "GummySearch is closed as of 11/30/2025." on its own homepage today; a closed service has no MCP to find. No other field changed.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ STATUS FLAG - GummySearch's own homepage displays a banner reading "GummySearch 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

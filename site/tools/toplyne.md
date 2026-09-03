@@ -1,6 +1,6 @@
 # Toplyne: MCP server status, API access gate and what it does
 
-> unknown in current form - per the seed list and general market classification, Toplyne provided... No MCP found, Gate not applicable. Checked 2026-08-24.
+> unknown in current form - per the seed list and general market classification, Toplyne provided... No MCP found, Gate not applicable. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Toplyne
 [Gate not applicable](../gates/n-a.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ n/a today - historically occupied the same PQL-scoring niche as Correlated.
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -89,7 +89,7 @@ Reason recorded by the tagging pass: dead. Entry records the current form as unk
 https://toplyne.io, http://archive.org/wayback/available?url=toplyne.io×tamp=20250101, http://archive.org/wayback/available?url=toplyne.io×tamp=20260801
 
 **Notes, verbatim from the file**
-STATUS FLAG - LIKELY DEAD, not fully confirmed. toplyne.io returns a direct HTTP 404 (not a DNS failure or parked-domain page) as of 2026-08-24. The Wayback Machine confirms a live, HTTP-200 snapshot as recently as November 24, 2024, but no snapshot close to August 2026 exists, and no acquisition announcement, press release, or successor URL could be located in this pass. A generic web search for "Toplyne" also collides with an unrelated Brazilian mining company of the same name on LinkedIn - do not conflate the two. Recommend a direct re-check (correct-entity LinkedIn page, Crunchbase) before the next directory pass.
+STATUS FLAG - LIKELY DEAD, not fully confirmed. toplyne.io returns a direct HTTP 404 (not a DNS failure or parked-domain page) as of 2026-08-24. The Wayback Machine confirms a live, HTTP-200 snapshot as recently as November 24, 2024, but no snapshot close to August 2026 exists, and no acquisition announcement, press release, or successor URL could be located in this pass. A generic web search for "Toplyne" also collides with an unrelated Brazilian mining company of the same name on LinkedIn - do not conflate the two. Recommend a direct re-check (correct-entity LinkedIn page, Crunchbase) before the next directory pass. 2026-09-02: re-checked. toplyne.io still returns a direct HTTP 404; no vendor page exists to state a shutdown, so none-found stands rather than n-a.
 
 **Provenance**
 
@@ -101,7 +101,7 @@ STATUS FLAG - LIKELY DEAD, not fully confirmed. toplyne.io returns a direct HTTP
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

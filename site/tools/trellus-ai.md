@@ -1,6 +1,6 @@
 # Trellus AI: MCP server status, API access gate and what it does
 
-> A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI... No MCP found, Gate unknown. Checked 2026-08-24.
+> A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Trellus AI
 [Gate unknown](../gates/unknown.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Calling/dialing augmentation layer that sits inside an existing sales-engagement
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://trellus.ai, https://trellus.ai/pricing
 
 **Notes, verbatim from the file**
-Worth citing specifically as a counterexample to the category's hype: Trellus's own marketing explicitly says it does not autonomously cold-call, which is a useful contrast against vendors that imply full autonomy for the same job. [api_gate 2026-08-25] Re-checked and left unknown, honestly: self-serve individual plans are published at $99.99/mo Power and $149.99/mo Parallel plus a custom-priced Business tier, but the pricing page makes no mention of API access, API keys or developer features. Checked against https://trellus.ai/pricing.
+Worth citing specifically as a counterexample to the category's hype: Trellus's own marketing explicitly says it does not autonomously cold-call, which is a useful contrast against vendors that imply full autonomy for the same job. [api_gate 2026-08-25] Re-checked and left unknown, honestly: self-serve individual plans are published at $99.99/mo Power and $149.99/mo Parallel plus a custom-priced Business tier, but the pricing page makes no mention of API access, API keys or developer features. Checked against https://trellus.ai/pricing. 2026-09-02: re-checked https://www.trellus.ai/llms.txt (no MCP mention), the official MCP registry (no entry) and a web search (results were all the unrelated TRELLIS 3D and Trello projects); no MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ Worth citing specifically as a counterexample to the category's hype: Trellus's 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Clearbit Reveal (rebranded: HubSpot Breeze Intelligence): MCP server status, API access gate and what it does
 
-> Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,11 +15,11 @@ Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://clearbit.com (redirects into hubspot.com)](https://clearbit.com (redirects into hubspot.com)) · entry id 05-clearbit-reveal · source 05-signals-intent-abm.md line 349
+Vendor: [https://clearbit.com (redirects into hubspot.com)](https://clearbit.com (redirects into hubspot.com)) · entry id 05-clearbit-reveal · source 05-signals-intent-abm.md line 354
 
 **What it does**
 Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count, revenue, tech stack, location) and surfaces buying-intent signals like pricing-page visits.
@@ -38,7 +38,7 @@ Visitor ID + firmographic enrichment + basic intent signal layer, now embedded i
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -89,13 +89,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.hubspot.com/products/clearbit](https://www.hubspot.com/products/clearbit)
 - [https://knowledge.hubspot.com/integrations/customize-breeze-agents-with-hubspot-mcp-client](https://knowledge.hubspot.com/integrations/customize-breeze-agents-with-hubspot-mcp-client)
 - [https://knowledge.hubspot.com/account-management/understand-hubspot-credits-and-billing](https://knowledge.hubspot.com/account-management/understand-hubspot-credits-and-billing)
+- [https://developers.hubspot.com/mcp](https://developers.hubspot.com/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://clearbit.com/, https://www.hubspot.com/products/clearbit, https://knowledge.hubspot.com/integrations/customize-breeze-agents-with-hubspot-mcp-client, https://knowledge.hubspot.com/account-management/understand-hubspot-credits-and-billing
+https://clearbit.com/, https://www.hubspot.com/products/clearbit, https://knowledge.hubspot.com/integrations/customize-breeze-agents-with-hubspot-mcp-client, https://knowledge.hubspot.com/account-management/understand-hubspot-credits-and-billing, https://developers.hubspot.com/mcp
 
 **Notes, verbatim from the file**
-Clearbit is no longer sold standalone ("working hard to integrate Clearbit services into the HubSpot platform" per vendor copy); the independent Clearbit self-serve API appears discontinued post-acquisition. Breeze Intelligence runs on unified "HubSpot Credits" (migrated from Breeze Credits June 2025) purchasable self-serve, but only inside an existing HubSpot account - no independent signup path exists anymore.
+Clearbit is no longer sold standalone ("working hard to integrate Clearbit services into the HubSpot platform" per vendor copy); the independent Clearbit self-serve API appears discontinued post-acquisition. Breeze Intelligence runs on unified "HubSpot Credits" (migrated from Breeze Credits June 2025) purchasable self-serve, but only inside an existing HubSpot account - no independent signup path exists anymore. 2026-09-02: re-checked hubspot.com/llms.txt (no MCP mention) and developers.hubspot.com/mcp (HubSpot's MCP server at mcp.hubspot.com, OAuth 2.0); those docs make no mention of Breeze Intelligence, Clearbit, Reveal or visitor identification. No MCP server found for this product.
 
 **Provenance**
 
@@ -103,11 +104,11 @@ Clearbit is no longer sold standalone ("working hard to integrate Clearbit servi
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 349
+- **Source line**: 354
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

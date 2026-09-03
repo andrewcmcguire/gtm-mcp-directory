@@ -1,6 +1,6 @@
 # Hippo Video: MCP server status, API access gate and what it does
 
-> Video engagement platform for sales teams to record, automate, and personalize video outreach at scale,... No MCP found, Enterprise leaning. Checked 2026-08-24.
+> Video engagement platform for sales teams to record, automate, and personalize video outreach at scale,... No MCP found, Enterprise leaning. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Hippo Video
 [Enterprise leaning](../gates/enterprise-leaning.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Video-messaging layer plugged into CRM/sequence tools (Outreach, Salesloft, HubS
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.hippovideo.io/pricing.html, https://www.hippovideo.io/boost-sales-engagement.html, https://help.hippovideo.io/support/solutions/19000104654, https://documenter.getpostman.com/view/5278433/Tz5naxpW, https://www.hippovideo.io/products/video-sdk/how-video-api-works.html, https://www.hippovideo.io/products/video-sdk.html
 
 **Notes, verbatim from the file**
-Searches for "Hippo Video MCP" surface only an unrelated product, "Hippo CMMS" (maintenance-management SaaS) - do not confuse the two. Pricing sources disagree on exact figures (Pro ~$20-30/user/mo, Enterprise ~$80/user/mo, 10-seat minimum); treat as approximate. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.hippovideo.io/products/video-sdk.html): the Video SDK/API has a self-serve 14-day free trial but no published ongoing price - the page routes to talk-to-an-SDK-expert and discuss-pricing-on-call, and the main pricing table never lists API as a tier feature.
+Searches for "Hippo Video MCP" surface only an unrelated product, "Hippo CMMS" (maintenance-management SaaS) - do not confuse the two. Pricing sources disagree on exact figures (Pro ~$20-30/user/mo, Enterprise ~$80/user/mo, 10-seat minimum); treat as approximate. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.hippovideo.io/products/video-sdk.html): the Video SDK/API has a self-serve 14-day free trial but no published ongoing price - the page routes to talk-to-an-SDK-expert and discuss-pricing-on-call, and the main pricing table never lists API as a tier feature. 2026-09-02: re-checked hippovideo.io/llms.txt (404) and web search (hits are Hippo CMMS and Green Hippo media servers, unrelated); no MCP server found.
 
 **Provenance**
 
@@ -104,7 +104,7 @@ Searches for "Hippo Video MCP" surface only an unrelated product, "Hippo CMMS" (
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

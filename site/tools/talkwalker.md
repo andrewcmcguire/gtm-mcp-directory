@@ -38,9 +38,10 @@ Enterprise media-intelligence peer to Brandwatch/Meltwater, notable mainly for i
 
 - **Parsed URLs**: 2 found in the mcp_url field
 
-- **Endpoint probe**: not probed yet
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://www.hootsuite.com/integrations/mcp](https://www.hootsuite.com/integrations/mcp)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and the MCP URL has not been probed live yet.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 

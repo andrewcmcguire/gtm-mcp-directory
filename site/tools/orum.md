@@ -1,6 +1,6 @@
 # Orum: MCP server status, API access gate and what it does
 
-> AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and... No MCP found, Enterprise only. Checked 2026-08-24.
+> AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Orum
 [Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Outbound calling/connect-rate layer, typically bolted onto Salesforce/HubSpot/Sa
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.orum.com/, https://www.orum.com/product-updates/hello-world-orum-goes-global-with-ai-dialing, https://apitracker.io/a/orumhq, https://www.orum.com/pricing
 
 **Notes, verbatim from the file**
-Do not confuse with orum.io, an unrelated fintech payments company (acquired by Stripe) that does have a documented API and MCP server - that belongs to a different company entirely. No MCP found for the sales dialer at orum.com on GitHub, mcp.so, glama.ai, or pulsemcp.com. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.orum.com/pricing): no prices published, nine-seat minimum, request-pricing only; the sole developer-facing feature named is a Webhooks add-on.
+Do not confuse with orum.io, an unrelated fintech payments company (acquired by Stripe) that does have a documented API and MCP server - that belongs to a different company entirely. No MCP found for the sales dialer at orum.com on GitHub, mcp.so, glama.ai, or pulsemcp.com. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.orum.com/pricing): no prices published, nine-seat minimum, request-pricing only; the sole developer-facing feature named is a Webhooks add-on. 2026-09-02: re-checked orum.com/llms.txt (404) and web search; the only MCP hit is docs.orum.io/guides/mcp-server, confirmed by reading it to be the fintech Orum (bank accounts, transfers), not the dialer. No MCP server found for orum.com.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ Do not confuse with orum.io, an unrelated fintech payments company (acquired by 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

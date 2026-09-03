@@ -1,6 +1,6 @@
 # Scaledmail: MCP server status, API access gate and what it does
 
-> Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC)... No MCP found, Free to start. Checked 2026-08-24.
+> Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC)... No MCP found, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Scaledmail
 [Free to start](../gates/free.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Cold-email infrastructure layer comparable to Maildoso/Mailforge/Hypertide - DNS
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.scaledmail.com/, https://www.scaledmail.com/blogs/effortless-email-outreach-with-scaledmail, https://www.infraforge.ai/blog/best-email-apis-for-cold-outreach, https://api.scaledmail.com/
 
 **Notes, verbatim from the file**
-Pricing starts at $99/mo per one sourced comparison. No API, developer portal, or MCP server was found for Scaledmail in any of the standard registries checked (GitHub, mcp.so, glama.ai, pulsemcp.com). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://api.scaledmail.com/): public API docs with the key self-served from account settings and signup is a free account with no credit card; no plan gate on the API is stated, though paid usage starts at $3.50/mailbox/mo.
+Pricing starts at $99/mo per one sourced comparison. No API, developer portal, or MCP server was found for Scaledmail in any of the standard registries checked (GitHub, mcp.so, glama.ai, pulsemcp.com). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://api.scaledmail.com/): public API docs with the key self-served from account settings and signup is a free account with no credit card; no plan gate on the API is stated, though paid usage starts at $3.50/mailbox/mo. 2026-09-02: re-checked scaledmail.com/llms.txt (404), scaledmail.com and api.scaledmail.com (neither mentions MCP) and web search; the 'API & MCP Automation' phrase in search snippets is Maildoso's own product copy on its review pages, not Scaledmail's. No MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ Pricing starts at $99/mo per one sourced comparison. No API, developer portal, o
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

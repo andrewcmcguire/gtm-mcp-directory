@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://www.trigify.io](https://www.trigify.io) · entry id 05-trigify · source 05-signals-intent-abm.md line 208
+Vendor: [https://www.trigify.io](https://www.trigify.io) · entry id 05-trigify · source 05-signals-intent-abm.md line 211
 
 **What it does**
 Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who engaged with that content into an "engagement graph" filtered by ICP criteria.
@@ -39,9 +39,9 @@ Social/engagement-signal-based prospecting, surfacing warm leads from real-time 
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli)Probed**: 2026-08-25, HTTP 200
+- **Docs URL[https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli)Probed**: 2026-09-03, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-08-25 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -110,7 +110,7 @@ Trigify's own site claims "Every Trigify signal, search and workflow is availabl
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 208
+- **Source line**: 211
 
 - **Tier**: RESEARCHED
 

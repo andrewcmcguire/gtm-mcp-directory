@@ -1,6 +1,6 @@
 # Kronologic: MCP server status, API access gate and what it does
 
-> Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's... No MCP found, Gate unknown. Checked 2026-08-24.
+> Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Kronologic
 [Gate unknown](../gates/unknown.md)
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Calendar-invite-first meeting-booking automation, most differentiated for custom
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.kronologic.com/, https://www.kronologic.com/pricing/, https://www.kronologic.com/calendar-link-vs-kronologic
 
 **Notes, verbatim from the file**
-Vendor domain redirects from kronologic.ai to kronologic.com (canonical). No MCP or public API surface found in any registry (mcp.so, glama.ai, pulsemcp.com) or on the vendor's own site after repeated targeted checks - a genuine gap, not a search failure. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Free $0, Pro $15/seat/mo, Team $49/seat/mo, Enterprise custom) but no tier mentions API, kronologic.com/api returns 404, docs.kronologic.com does not resolve, and no API or Developers link appears in nav or footer. Checked against https://www.kronologic.com/pricing.
+Vendor domain redirects from kronologic.ai to kronologic.com (canonical). No MCP or public API surface found in any registry (mcp.so, glama.ai, pulsemcp.com) or on the vendor's own site after repeated targeted checks - a genuine gap, not a search failure. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Free $0, Pro $15/seat/mo, Team $49/seat/mo, Enterprise custom) but no tier mentions API, kronologic.com/api returns 404, docs.kronologic.com does not resolve, and no API or Developers link appears in nav or footer. Checked against https://www.kronologic.com/pricing. 2026-09-02: re-checked kronologic.com/llms.txt (404) and web search (only Chronulus, unrelated); no MCP server found.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ Vendor domain redirects from kronologic.ai to kronologic.com (canonical). No MCP
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

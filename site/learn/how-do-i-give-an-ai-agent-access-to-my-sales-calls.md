@@ -59,7 +59,7 @@ Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering o
 |---|---|---|---|---|
 | Fetch the transcript | [fetch a call transcript](../jobs/fetch-call-transcript.md) | 20 | 15 | 3 |
 | Search across the library | [search across recorded calls](../jobs/search-call-library.md) | 5 | 5 | 1 |
-| Summarize the meeting | [summarize a meeting](../jobs/summarize-meeting.md) | 22 | 17 | 3 |
+| Summarize the meeting | [summarize a meeting](../jobs/summarize-meeting.md) | 22 | 18 | 3 |
 | Extract deal signals | [extract deal signals from calls](../jobs/extract-deal-signals-from-calls.md) | 21 | 11 | 0 |
 | Research the account before the next call | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
 

@@ -1,6 +1,6 @@
-# Detect a company's tech stack: 14 GTM tools, 10 with an official MCP server
+# Detect a company's tech stack: 14 GTM tools, 11 with an official MCP server
 
-> Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset. 12 of the 14 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-09-03 from the directory data.
+> Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset. 13 of the 14 entries tagged with this job carry an MCP server of some kind, 11 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Detect a company's tech stack
 Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset.
 
 - **entries tagged**: 14
-- **official MCP**: 10
+- **official MCP**: 11
 - **community MCP**: 2
-- **no MCP found**: 2
-- **solo reachable**: 10
+- **no MCP found**: 1
+- **solo reachable**: 11
 
-12 of the 14 entries tagged with this job carry an MCP server of some kind, 10 of them official. 12 of the 14 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+13 of the 14 entries tagged with this job carry an MCP server of some kind, 11 of them official. 12 of the 14 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -57,6 +57,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Keyplay](../tools/keyplay.md) keyplay.io Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model using 750+ pre-built "signals" (hiring velocity, tech stack,... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+
 - [Sumble](../tools/sumble.md) sumble.com Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Demandbase (Demandbase One)](../tools/demandbase.md) demandbase.com Identifies and scores in-market B2B accounts by combining IP/website deanonymization, a global firmographic/technographic database, and intent-signal ingestion, rolling this into "Buying Group" and... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -68,8 +70,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [UpLead](../tools/uplead.md) uplead.com A B2B contact database and prospecting tool (vendor claims 160M+ contacts, 95% data accuracy) for building lead lists with verified emails, direct dials, and firmographic/technographic filters, with a browser... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md) clearbit.com Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count, revenue, tech stack, location) and surfaces buying-intent... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
-
-- [Keyplay](../tools/keyplay.md) keyplay.io Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model using 750+ pre-built "signals" (hiring velocity, tech stack,... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 ### Next to this job
 

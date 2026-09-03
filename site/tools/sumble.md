@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://sumble.com](https://sumble.com) · entry id 05-sumble · source 05-signals-intent-abm.md line 463
+Vendor: [https://sumble.com](https://sumble.com) · entry id 05-sumble · source 05-signals-intent-abm.md line 469
 
 **What it does**
 Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and initiatives like cloud migrations or GenAI projects per company.
@@ -38,10 +38,10 @@ Account research / call-prep layer - LLM-driven account intelligence for reps pr
 
 - **Parsed URLs**: 2 found in the mcp_url field
 
-- **Endpoint probe**: did not answer
-- **Probed**: 2026-08-25, HTTP None
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -106,7 +106,7 @@ https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-brin
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 463
+- **Source line**: 469
 
 - **Tier**: RESEARCHED
 

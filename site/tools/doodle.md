@@ -1,6 +1,6 @@
 # Doodle: MCP server status, API access gate and what it does
 
-> General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up... No MCP found, Gate unknown. Checked 2026-08-24.
+> General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Doodle
 [Gate unknown](../gates/unknown.md)
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ The least GTM-native tool in this file - more useful for internal/cross-team gro
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -94,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://doodle.com, https://www.pulsemcp.com (searched "doodle" scheduling, zero relevant results), https://doodle.com/en/premium/
 
 **Notes, verbatim from the file**
-Swiss company; SOC 2/GDPR/CCPA/HIPAA compliance claimed on its homepage. Included as a discovery item rather than a core recommendation - see Sweep notes. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Free $0, Pro and Team per seat billed annually, Enterprise from $15,000/year) but no tier mentions API access, doodle.com/en/api returns 404, developers.doodle.com 302-redirects to the marketing homepage, and no API or Developers link exists in nav or footer. Checked against https://doodle.com/en/premium/.
+Swiss company; SOC 2/GDPR/CCPA/HIPAA compliance claimed on its homepage. Included as a discovery item rather than a core recommendation - see Sweep notes. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is published (Free $0, Pro and Team per seat billed annually, Enterprise from $15,000/year) but no tier mentions API access, doodle.com/en/api returns 404, developers.doodle.com 302-redirects to the marketing homepage, and no API or Developers link exists in nav or footer. Checked against https://doodle.com/en/premium/. 2026-09-02: re-checked doodle.com/llms.txt (404) and web search; only the Zapier MCP aggregator connector surfaces (Timergy, a Doodle-like poll tool with its own MCP, is a different product). No MCP server found.
 
 **Provenance**
 
@@ -106,7 +106,7 @@ Swiss company; SOC 2/GDPR/CCPA/HIPAA compliance claimed on its homepage. Include
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

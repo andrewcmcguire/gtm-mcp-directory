@@ -86,7 +86,7 @@ Real-time AI video-conferencing platform for sales calls that coaches reps live 
 | [Enterprise only](../gates/enterprise-only.md) | 8 |
 | [Gate unknown](../gates/unknown.md) | 2 |
 
-Counted 2026-09-03. Source file 03-conversation-intel.md, content sha256 58e3e83220844b8a...
+Counted 2026-09-03. Source file 03-conversation-intel.md, content sha256 1ff25b61d9f1f7df...
 
 ## Sources
 

@@ -39,9 +39,9 @@ Top-of-funnel account prioritization and predictive scoring engine feeding CRM/M
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
-- **Probed**: 2026-08-25, HTTP None
+- **Probed**: 2026-09-03, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 

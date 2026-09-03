@@ -1,6 +1,6 @@
 # GTM tools with free API tiers: 61 that need no sales call
 
-> 61 go to market tools where a solo operator can get API access without talking to anyone. 46 of them also have an MCP server. Counted 2026-09-03.
+> 61 go to market tools where a solo operator can get API access without talking to anyone. 48 of them also have an MCP server. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -92,6 +92,8 @@ tavus.io | [Video Prospecting](../categories/video-prospecting.md) | [Official M
 theirstack.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Scrape job postings](../jobs/scrape-job-postings.md) [Detect a company's tech stack](../jobs/detect-technographics.md) |
 | [TheirStack](../tools/theirstack.md)
 theirstack.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Scrape job postings](../jobs/scrape-job-postings.md) [Detect a company's tech stack](../jobs/detect-technographics.md) |
+| [Tidio](../tools/tidio.md)
+tidio.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Official MCP](../mcp/official.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [Trumpet (sendtrumpet.com)](../tools/trumpet.md)
 sendtrumpet.com | [Proposals & Deals](../categories/proposals-deals.md) | [Official MCP](../mcp/official.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) [Create a digital sales room](../jobs/create-digital-sales-room.md) |
 | [Warmly](../tools/warmly.md)
@@ -104,6 +106,8 @@ zapier.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../m
 zapier.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [ZoomInfo](../tools/zoominfo.md)
 zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
+| [Landbot](../tools/landbot.md)
+landbot.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Community MCP](../mcp/community.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
@@ -126,16 +130,12 @@ f5bot.com | [Community & Dark Social](../categories/community-dark-social.md) | 
 findymail.com | [Data & Enrichment](../categories/data-enrichment.md) | [No MCP found](../mcp/none-found.md) | [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Landbase](../tools/landbase.md)
 landbase.com | [AI SDRs](../categories/ai-sdr-agents.md) | [No MCP found](../mcp/none-found.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Build a target account list](../jobs/build-target-account-list.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +1 |
-| [Landbot](../tools/landbot.md)
-landbot.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [No MCP found](../mcp/none-found.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md)
 pipedrive.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) [Read the pipeline forecast](../jobs/read-pipeline-forecast.md) |
 | [Recapped.io](../tools/recapped-io.md)
 recapped.io | [Proposals & Deals](../categories/proposals-deals.md) | [No MCP found](../mcp/none-found.md) | [Create a digital sales room](../jobs/create-digital-sales-room.md) |
 | [Scaledmail](../tools/scaledmail.md)
 scaledmail.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Provision sending infrastructure](../jobs/provision-sending-infrastructure.md) |
-| [Tidio](../tools/tidio.md)
-tidio.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [No MCP found](../mcp/none-found.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [Warmup Inbox](../tools/warmup-inbox.md)
 warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Warm up an inbox](../jobs/warm-up-inbox.md) |
 

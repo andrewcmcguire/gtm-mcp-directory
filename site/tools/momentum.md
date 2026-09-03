@@ -1,6 +1,6 @@
 # Momentum: MCP server status, API access gate and what it does
 
-> Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field... No MCP found, Enterprise only. Checked 2026-08-24.
+> Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Momentum
 [Enterprise only](../gates/enterprise-only.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Slack/CRM-facing deal-risk alerting layer sitting on top of call and pipeline da
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.momentum.io/, https://docs.momentum.io/api-access, https://www.momentum.io/pricing, https://www.trustradius.com/products/dealmomentum/pricing
 
 **Notes, verbatim from the file**
-A search for "Momentum MCP" surfaces an unrelated healthcare-sector company also branded "Momentum" (FHIR/Apple Health MCP servers) - not to be confused with momentum.io.
+A search for "Momentum MCP" surfaces an unrelated healthcare-sector company also branded "Momentum" (FHIR/Apple Health MCP servers) - not to be confused with momentum.io. 2026-09-02: re-checked momentum.io/llms.txt (redirects to a Webflow-hosted llms.txt, no MCP mention), docs.momentum.io/api-access (no MCP mention) and web search (only the unrelated healthcare Momentum); no MCP server found.
 
 **Provenance**
 
@@ -104,7 +104,7 @@ A search for "Momentum MCP" surfaces an unrelated healthcare-sector company also
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

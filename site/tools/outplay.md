@@ -1,6 +1,6 @@
 # Outplay: MCP server status, API access gate and what it does
 
-> Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. No MCP found, Gate unknown. Checked 2026-08-24.
+> Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Outplay
 [Gate unknown](../gates/unknown.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Multichannel outbound sequencing with dialer and AI SDR add-on, competing direct
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -96,7 +96,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://outplay.ai/pricing/, https://outplay.ai/, https://www.outplay.ai/pricing
 
 **Notes, verbatim from the file**
-A Free Forever ($0) tier exists alongside Starter/Growth/Enterprise, but which tier includes API access was not confirmed from sourced pages. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is fully published (Free Forever $0, Starter $39/mo, Growth $89/user/mo, Enterprise $139/user/mo) but nothing on Outplay's own site states whether an API exists or how to reach it - no API row on pricing, no API or developer link in nav, /api 404s and support.outplayhq.com fails TLS. Genuinely unpublished rather than unfetched. Checked against https://www.outplay.ai/pricing.
+A Free Forever ($0) tier exists alongside Starter/Growth/Enterprise, but which tier includes API access was not confirmed from sourced pages. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is fully published (Free Forever $0, Starter $39/mo, Growth $89/user/mo, Enterprise $139/user/mo) but nothing on Outplay's own site states whether an API exists or how to reach it - no API row on pricing, no API or developer link in nav, /api 404s and support.outplayhq.com fails TLS. Genuinely unpublished rather than unfetched. Checked against https://www.outplay.ai/pricing. 2026-09-02: re-checked outplay.ai/llms.txt (served product docs, no MCP mention) and web search; only Zapier MCP surfaces, no MCP server found.
 
 **Provenance**
 
@@ -108,7 +108,7 @@ A Free Forever ($0) tier exists alongside Starter/Growth/Enterprise, but which t
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

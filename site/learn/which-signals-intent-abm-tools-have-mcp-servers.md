@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 18 of 28, counted
+# Signal and intent tools with MCP servers: 19 of 28, counted
 
-> 18 of the 28 signals & intent tools in this directory have an MCP server: 17 official and 1 community. The list with server URLs and access gates. Counted 2026-09-03.
+> 19 of the 28 signals & intent tools in this directory have an MCP server: 18 official and 1 community. The list with server URLs and access gates. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-18 of the 28 signals & intent entries in this directory have an MCP server: 17 built and maintained by the vendor and 1 built by somebody else. 5 are free to start and 10 need a contract before anybody gets an API key.
+19 of the 28 signals & intent entries in this directory have an MCP server: 18 built and maintained by the vendor and 1 built by somebody else. 5 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -34,6 +34,8 @@ De-anonymizes website visitors at the person and company level from site traffic
 A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Factors.ai](../tools/factors-ai.md) Official MCP · Paid, self-serve
 De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party...
+- [Keyplay](../tools/keyplay.md) Official MCP · Paid, self-serve
+Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model...
 - [RB2B](../tools/rb2b.md) Official MCP · Paid, self-serve
 Deanonymizes B2B website traffic by matching visitor IP/device identifiers and first/third-party data against a contact database to reveal the...
 - [Snitcher](../tools/snitcher.md) Official MCP · Paid, self-serve
@@ -61,10 +63,12 @@ Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions
 
 ## The rest of the category
 
-10 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+9 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
+- [Vector (vector.co)](../tools/vector.md) MCP unknown · Paid, self-serve
+Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks...
 - [Koala](../tools/koala.md) MCP not applicable · Paid, self-serve
 Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered...
 - [Albacross](../tools/albacross.md) No MCP found · Paid, self-serve
@@ -73,12 +77,8 @@ Identifies which companies visit a website via IP-to-company matching, tracks on
 Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count,...
 - [Intently (getintently.com)](../tools/intently.md) No MCP found · Paid, self-serve
 Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data, competitor followers, and post...
-- [Keyplay](../tools/keyplay.md) No MCP found · Paid, self-serve
-Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model...
 - [Live Data Technologies](../tools/live-data-technologies.md) No MCP found · Paid, self-serve
 Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously re-verifying identities against open-web and...
-- [Vector (vector.co)](../tools/vector.md) No MCP found · Paid, self-serve
-Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks...
 - [Bombora (Company Surge)](../tools/bombora.md) No MCP found · Enterprise only
 Detects which companies are actively researching specific B2B topics by aggregating content-consumption data (article reads, downloads) across a...
 - [Champify](../tools/champify.md) No MCP found · Enterprise only
@@ -92,7 +92,7 @@ Tracks job changes of a company's past customers and champions as they move to n
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 
-Counted 2026-09-03. Source file 05-signals-intent-abm.md, content sha256 58a9de1abd0db31f...
+Counted 2026-09-03. Source file 05-signals-intent-abm.md, content sha256 8fcde2ccf47af7ba...
 
 ## Sources
 

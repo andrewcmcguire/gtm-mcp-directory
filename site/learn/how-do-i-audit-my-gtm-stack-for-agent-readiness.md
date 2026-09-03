@@ -24,7 +24,7 @@ List every tool you pay for, then fill four columns: does it have an MCP server,
 
 - **Auth.** OAuth, API key, or both. This decides what your security review will say and how much of your account a leaked credential exposes.
 
-- **Your access.** Not the published gate, your actual contract. Plenty of enterprise gated tools are wide open to a customer who already has the agreement, which is why 31 entries here ship an official server behind a gate that is irrelevant if you are already inside it.
+- **Your access.** Not the published gate, your actual contract. Plenty of enterprise gated tools are wide open to a customer who already has the agreement, which is why 35 entries here ship an official server behind a gate that is irrelevant if you are already inside it.
 
 ## Then sort by job, not by category
 
@@ -32,7 +32,7 @@ A stack audit by category tells you what you bought. An audit by job tells you w
 
 ## The three numbers to write at the top
 
-- **Reachable share.** How many of your tools an agent can call at all. The directory wide figure is 57%, so anything above that is a good stack for this.
+- **Reachable share.** How many of your tools an agent can call at all. The directory wide figure is 62%, so anything above that is a good stack for this.
 
 - **The broken link.** The one job in your critical chain with no coverage. There is almost always exactly one, and it is worth more attention than the other nine.
 

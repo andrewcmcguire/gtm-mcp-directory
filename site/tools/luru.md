@@ -1,6 +1,6 @@
 # Luru: MCP server status, API access gate and what it does
 
-> An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized... No MCP found, Gate unknown. Checked 2026-08-24.
+> An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Luru
 [Gate unknown](../gates/unknown.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Outbound execution layer, positioned as "set it and forget it" full-funnel autom
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -95,7 +95,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://luru.app, https://luru.app/pricing
 
 **Notes, verbatim from the file**
-Luru was historically known as a no-code CRM/revenue-workflow automation tool (Slack-native deal updates, pipeline hygiene) rather than an outbound AI SDR - current site copy reads as a repositioning toward "AI SDR" branding. Worth re-checking whether this is a full pivot or a rebrand of the same underlying workflow engine before citing further. [api_gate 2026-08-25] Re-checked and left unknown, honestly: a single Standard tier at $500 per agent per month is published, but the pricing page and homepage make no mention of an API, developer docs or API keys, and no /docs, /api or /developers path exists. Checked against https://luru.app/pricing.
+Luru was historically known as a no-code CRM/revenue-workflow automation tool (Slack-native deal updates, pipeline hygiene) rather than an outbound AI SDR - current site copy reads as a repositioning toward "AI SDR" branding. Worth re-checking whether this is a full pivot or a rebrand of the same underlying workflow engine before citing further. [api_gate 2026-08-25] Re-checked and left unknown, honestly: a single Standard tier at $500 per agent per month is published, but the pricing page and homepage make no mention of an API, developer docs or API keys, and no /docs, /api or /developers path exists. Checked against https://luru.app/pricing. 2026-09-02: re-checked luru.app (no llms.txt), https://www.luru.app/integrations (no MCP or API mention), the official MCP registry (no entry) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -107,7 +107,7 @@ Luru was historically known as a no-code CRM/revenue-workflow automation tool (S
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

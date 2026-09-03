@@ -1,6 +1,6 @@
 # Draft an RFP or questionnaire response: 3 GTM tools, 2 with an official MCP server
 
-> Auto-answer RFP, RFI, DDQ and security-questionnaire items from a governed content library. 2 of the 3 entries tagged with this job carry an MCP server of some kind, 2 of them official. Counted 2026-09-03 from the directory data.
+> Auto-answer RFP, RFI, DDQ and security-questionnaire items from a governed content library. 3 of the 3 entries tagged with this job carry an MCP server of some kind, 2 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -18,11 +18,11 @@ Auto-answer RFP, RFI, DDQ and security-questionnaire items from a governed conte
 
 - **entries tagged**: 3
 - **official MCP**: 2
-- **community MCP**: 0
-- **no MCP found**: 1
+- **community MCP**: 1
+- **no MCP found**: 0
 - **solo reachable**: 2
 
-2 of the 3 entries tagged with this job carry an MCP server of some kind, 2 of them official. All 3 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+3 of the 3 entries tagged with this job carry an MCP server of some kind, 2 of them official. All 3 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -45,7 +45,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Responsive (formerly RFPIO)](../tools/responsive.md) responsive.io RFP, DDQ, and security-questionnaire response-management platform with an approved-content library ("Library") and AI-assisted drafting grounded in that governed content. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
 ### Next to this job
 

@@ -1,6 +1,6 @@
 # Meltwater: MCP server status, API access gate and what it does
 
-> Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and... No MCP found, Enterprise only. Checked 2026-08-24.
+> Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and... Official MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Meltwater
 
 # Meltwater
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,27 @@ Enterprise PR/media-intelligence layer - the kind of incumbent the lighter-weigh
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: n/a
+- **Auth**: Meltwater API token today, "with OAuth 2.0 planned for later this year" per the vendor docs; access requires a Meltwater MCP package in the customer's subscription.
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://developer.meltwater.com/guides/meltwater-mcp/overview/](https://developer.meltwater.com/guides/meltwater-mcp/overview/)Probed**: 2026-09-03, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-none-found
+official
 
 mcp_url, verbatim from the file:
 
-none
+https://developer.meltwater.com/guides/meltwater-mcp/overview/ (endpoint https://api.meltwater.com/v2/mcp)
+
+- [https://developer.meltwater.com/guides/meltwater-mcp/overview/](https://developer.meltwater.com/guides/meltwater-mcp/overview/)
+- [https://api.meltwater.com/v2/mcp](https://api.meltwater.com/v2/mcp)
 
 **Access gate**
 
@@ -88,13 +94,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.meltwater.com](https://www.meltwater.com)
 - [https://github.com/mcopelandmw/mira-api-demo](https://github.com/mcopelandmw/mira-api-demo)
 - [https://github.com/danmeltwater/inception-volume-monitor](https://github.com/danmeltwater/inception-volume-monitor)
+- [https://developer.meltwater.com/guides/meltwater-mcp/overview/](https://developer.meltwater.com/guides/meltwater-mcp/overview/)
+- [https://developer.meltwater.com/guides/mira-api/overview/](https://developer.meltwater.com/guides/mira-api/overview/)
 
-3 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.meltwater.com, https://github.com/mcopelandmw/mira-api-demo, https://github.com/danmeltwater/inception-volume-monitor
+https://www.meltwater.com, https://github.com/mcopelandmw/mira-api-demo, https://github.com/danmeltwater/inception-volume-monitor, https://developer.meltwater.com/guides/meltwater-mcp/overview/, https://developer.meltwater.com/guides/mira-api/overview/
 
 **Notes, verbatim from the file**
-Two GitHub repos surfaced referencing Meltwater + MCP - mcopelandmw/mira-api-demo ("Mira API MCP Server Demo Guide for Meltwater Sales Teams") and danmeltwater/inception-volume-monitor (a personal API ingestion-volume monitor) - but both read as individual/internal artifacts rather than a vendor-published or customer-usable MCP server, so mcp_status is logged as none-found rather than community. Worth re-checking if Meltwater formalizes a real MCP server around its "MIRA Studio" AI product.
+Two GitHub repos surfaced referencing Meltwater + MCP - mcopelandmw/mira-api-demo ("Mira API MCP Server Demo Guide for Meltwater Sales Teams") and danmeltwater/inception-volume-monitor (a personal API ingestion-volume monitor) - but both read as individual/internal artifacts rather than a vendor-published or customer-usable MCP server, so mcp_status is logged as none-found rather than community. Worth re-checking if Meltwater formalizes a real MCP server around its "MIRA Studio" AI product. 2026-09-02: mcp_status none-found -> official. Meltwater's developer portal now documents "Meltwater MCP" at https://api.meltwater.com/v2/mcp, authenticated with the Meltwater API token, exposing saved searches, tags, mentions, analytics and insights with tools discovered at runtime according to the products in the subscription, and states "Meltwater MCP is accessible to API customers if they have a Meltwater MCP package in their subscription." The portal also says the Mira API (the AI assistant layer) is exposed as a remote MCP server. https://www.meltwater.com/llms.txt is 404 and the official MCP registry has no entry, so this was found by web search. The two personal GitHub repos above are superseded as evidence.
 
 **Provenance**
 
@@ -106,7 +114,7 @@ Two GitHub repos surfaced referencing Meltwater + MCP - mcopelandmw/mira-api-dem
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

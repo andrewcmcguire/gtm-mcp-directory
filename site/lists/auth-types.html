@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GTM tools by MCP auth type: OAuth, API key or neither</title>
-<meta name="description" content="How the 167 GTM tools with an MCP server authenticate. OAuth, API key, both, or not recorded, with the verbatim auth field on every row. Counted 2026-09-03.">
+<meta name="description" content="How the 182 GTM tools with an MCP server authenticate. OAuth, API key, both, or not recorded, with the verbatim auth field on every row. Counted 2026-09-03.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/lists/auth-types.html">
@@ -111,30 +111,30 @@ will not. OAuth hands the server a scoped token the vendor can revoke. An API ke
 config file is as powerful as whatever the vendor scoped it to, lives in plain text on the machine
 running the agent, and is revoked by rotating it. Both are normal. Knowing which one you are about
 to wire in is not optional.</p>
-<p class="note">167 of 293 entries have a server of any kind
-(147 official, 20 community). The buckets
+<p class="note">182 of 293 entries have a server of any kind
+(156 official, 26 community). The buckets
 below are a keyword match over the mcp_auth field, disclosed as such, with the verbatim field
 printed on every row of every page.</p>
-<ul class="cov"><li><div class="lab"><a href="auth-oauth.html">OAuth</a><span class="r"><b>48</b> of 167 servers</span></div><div class="bar"><i class="o" style="width:28.7425%"></i></div></li><li><div class="lab"><a href="auth-api-key.html">API key</a><span class="r"><b>44</b> of 167 servers</span></div><div class="bar"><i class="o" style="width:26.3473%"></i></div></li><li><div class="lab"><a href="auth-either.html">OAuth or an API key</a><span class="r"><b>47</b> of 167 servers</span></div><div class="bar"><i class="o" style="width:28.1437%"></i></div></li><li><div class="lab"><a href="auth-third-party.html">Third party platform auth</a><span class="r"><b>4</b> of 167 servers</span></div><div class="bar"><i class="o" style="width:2.3952%"></i></div></li><li><div class="lab"><a href="auth-unrecorded.html">Auth not recorded</a><span class="r"><b>24</b> of 167 servers</span></div><div class="bar"><i class="o" style="width:14.3713%"></i></div></li></ul>
+<ul class="cov"><li><div class="lab"><a href="auth-oauth.html">OAuth</a><span class="r"><b>52</b> of 182 servers</span></div><div class="bar"><i class="o" style="width:28.5714%"></i></div></li><li><div class="lab"><a href="auth-api-key.html">API key</a><span class="r"><b>47</b> of 182 servers</span></div><div class="bar"><i class="o" style="width:25.8242%"></i></div></li><li><div class="lab"><a href="auth-either.html">OAuth or an API key</a><span class="r"><b>50</b> of 182 servers</span></div><div class="bar"><i class="o" style="width:27.4725%"></i></div></li><li><div class="lab"><a href="auth-third-party.html">Third party platform auth</a><span class="r"><b>7</b> of 182 servers</span></div><div class="bar"><i class="o" style="width:3.8462%"></i></div></li><li><div class="lab"><a href="auth-unrecorded.html">Auth not recorded</a><span class="r"><b>26</b> of 182 servers</span></div><div class="bar"><i class="o" style="width:14.2857%"></i></div></li></ul>
 <div class="viewgrid" style="margin-top:28px"><a class="viewcard" href="auth-oauth.html">
 <div class="vt">OAuth</div>
-<div class="vn">48 of 167 servers</div>
+<div class="vn">52 of 182 servers</div>
 <div class="vd">The server takes the user through a browser sign in and holds a scoped token. Nothing is pasted into a config file, and access can be...</div>
 </a><a class="viewcard" href="auth-api-key.html">
 <div class="vt">API key</div>
-<div class="vn">44 of 167 servers</div>
+<div class="vn">47 of 182 servers</div>
 <div class="vd">The server authenticates with a key or token the operator generates and pastes in. Simple to wire, and the key is as powerful as whatever...</div>
 </a><a class="viewcard" href="auth-either.html">
 <div class="vt">OAuth or an API key</div>
-<div class="vn">47 of 167 servers</div>
+<div class="vn">50 of 182 servers</div>
 <div class="vd">Both paths are documented. Usually OAuth for a hosted server and a key for the self hosted or legacy endpoint.</div>
 </a><a class="viewcard" href="auth-third-party.html">
 <div class="vt">Third party platform auth</div>
-<div class="vn">4 of 167 servers</div>
+<div class="vn">7 of 182 servers</div>
 <div class="vd">Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives with the platform rather than...</div>
 </a><a class="viewcard" href="auth-unrecorded.html">
 <div class="vt">Auth not recorded</div>
-<div class="vn">24 of 167 servers</div>
+<div class="vn">26 of 182 servers</div>
 <div class="vd">The mcp_auth field on the entry is blank, or says unknown. Published as blank rather than guessed.</div>
 </a></div>
 </section></div><footer class="foot">
@@ -145,8 +145,8 @@ printed on every row of every page.</p>
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

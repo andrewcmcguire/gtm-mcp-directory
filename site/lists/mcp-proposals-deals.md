@@ -1,6 +1,6 @@
-# Proposals & Deals tools with MCP servers: 7 of 14, counted
+# Proposals & Deals tools with MCP servers: 9 of 14, counted
 
-> 7 of the 14 proposals & deals tools in The GTM MCP Directory have an MCP server: 7 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
+> 9 of the 14 proposals & deals tools in The GTM MCP Directory have an MCP server: 7 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Proposals & Deals tools with an MCP server
 
-**List · 7 of 293**
+**List · 9 of 293**
 
 ## Proposals & Deals tools with an MCP server
 
-Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 7 of 14 entries in this category are reachable by an agent: 7 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
+Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 9 of 14 entries in this category are reachable by an agent: 7 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -37,27 +37,29 @@ unknown - not detailed in the sources reviewed. | [Paid, self-serve](../gates/pa
 | [Ironclad](../tools/ironclad.md)
 ironcladapp.com | [Official MCP](../mcp/official.md) | [https://support.ironcladapp.com/hc/en-us/articles/39...](https://support.ironcladapp.com/hc/en-us/articles/39887091143319-Ironclad-MCP-Server) +1 more | Auth not recorded
 unknown - a single, static MCP endpoint per the support article; specific credential... | [Enterprise only](../gates/enterprise-only.md) |
+| [DealHub (DealHub AI)](../tools/dealhub.md)
+dealhub.io | [Community MCP](../mcp/community.md) | [https://www.pulsemcp.com/servers/vishvick-dealhub-ad...](https://www.pulsemcp.com/servers/vishvick-dealhub-admin) | Auth not recorded
+unknown - stdio transport run locally against the customer's own DealHub instance per the... | [Enterprise only](../gates/enterprise-only.md) |
+| [Loopio](../tools/loopio.md)
+loopio.com | [Community MCP](../mcp/community.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth
+OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 7 in this category
+### The other 5 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
-| [DealHub (DealHub AI)](../tools/dealhub.md)
-dealhub.io | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Recapped.io](../tools/recapped-io.md)
-recapped.io | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-08-24 |
+recapped.io | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
 | [GetAccept](../tools/getaccept.md)
-getaccept.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+getaccept.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Proposify](../tools/proposify.md)
-proposify.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+proposify.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Qwilr](../tools/qwilr.md)
-qwilr.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Loopio](../tools/loopio.md)
-loopio.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+qwilr.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Aligned (alignedup.com)](../tools/aligned.md)
-alignedup.com | [No MCP found](../mcp/none-found.md) | [Gate not applicable](../gates/n-a.md) | 2026-08-24 |
+alignedup.com | [No MCP found](../mcp/none-found.md) | [Gate not applicable](../gates/n-a.md) | 2026-09-02 |
 
 ### What this category is asked for
 

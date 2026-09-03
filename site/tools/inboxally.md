@@ -1,6 +1,6 @@
 # InboxAlly: MCP server status, API access gate and what it does
 
-> Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns;... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns;... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ InboxAlly
 [Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Deliverability/reputation-repair layer marketed specifically as the safer altern
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.inboxally.com/email-warmup-tool, https://docs.inboxally.com/warm-up-sending-strategy/the-dangers-of-using-an-automated-email-warmup-service/, https://www.inboxally.com/blog/gmass-email-warm-up, https://www.inboxally.com/pricing
 
 **Notes, verbatim from the file**
-InboxAlly's own knowledge base publishes "Why are automated email warmup services risky?" - explicitly naming ToS violation/account-suspension risk and citing Google's January 2023 ban on automated warmup for Gmail as the reason GMass shut its warmup feature down. This is the source behind this file's intro-level ToS flag; InboxAlly positions its own real-seed-account approach as the workaround. No MCP server or API developer portal was found for InboxAlly itself. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://www.inboxally.com/pricing): a fully documented REST API is available on every plan, but there is no free tier - the cheapest self-serve entry is Starter at $149/mo.
+InboxAlly's own knowledge base publishes "Why are automated email warmup services risky?" - explicitly naming ToS violation/account-suspension risk and citing Google's January 2023 ban on automated warmup for Gmail as the reason GMass shut its warmup feature down. This is the source behind this file's intro-level ToS flag; InboxAlly positions its own real-seed-account approach as the workaround. No MCP server or API developer portal was found for InboxAlly itself. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://www.inboxally.com/pricing): a fully documented REST API is available on every plan, but there is no free tier - the cheapest self-serve entry is Starter at $149/mo. 2026-09-02: re-checked inboxally.com/llms.txt (served a product page, no MCP mention) and web search; no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ InboxAlly's own knowledge base publishes "Why are automated email warmup service
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

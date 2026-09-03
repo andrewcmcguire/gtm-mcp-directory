@@ -28,7 +28,7 @@ Check your own jurisdiction and your own privacy notice before wiring any of the
 | Distinct products | 10 | the rest are cross listings |
 | Official MCP server | 8 | vendor built and maintained |
 | Community MCP server | 0 | built by somebody else |
-| No server found | 3 | on the date each entry was checked |
+| No server found | 2 | on the date each entry was checked |
 | Free to start | 3 | no payment, no sales call |
 | Solo reachable | 6 | free or paid self serve |
 | Bench tested | 0 | somebody here actually ran it |

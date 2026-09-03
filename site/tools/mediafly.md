@@ -1,6 +1,6 @@
 # Mediafly (Intelligence360, formerly InsightSquared): MCP server status, API access gate and what it does
 
-> Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January... No MCP found, Enterprise only. Checked 2026-08-24.
+> Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Mediafly (Intelligence360, formerly InsightSquared)
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Combined content-enablement plus deal/forecast-intelligence stack, spanning both
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -94,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.mediafly.com, https://www.mediafly.com/ai/, https://www.mediafly.com/press-releases/mediafly-finalizes-acquisition-of-insightsquared-offers-b2b-teams-the-most-complete-revenue-enablement-and-intelligence-platform-in-the-market/, https://www.cuspera.com/products/mediafly-intelligence360-formerly-insightsquared-x-2680, https://www.vendr.com/marketplace/mediafly-inc, https://www.mediafly.com/pricing/
 
 **Notes, verbatim from the file**
-The InsightSquared brand name is no longer used anywhere on the current site - do not cite "InsightSquared" as a live, independently-branded product; it is now Mediafly Intelligence360. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.mediafly.com/pricing/): /pricing resolves to a contact-sales page with no tiers or prices, and no pricing or developer link appears anywhere in site nav or footer.
+The InsightSquared brand name is no longer used anywhere on the current site - do not cite "InsightSquared" as a live, independently-branded product; it is now Mediafly Intelligence360. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.mediafly.com/pricing/): /pricing resolves to a contact-sales page with no tiers or prices, and no pricing or developer link appears anywhere in site nav or footer. 2026-09-02: re-checked https://www.mediafly.com/ai/: the only MCP sentence is still "We're also building MCP-based multi-agent orchestration as the next layer, enabling AI agents across your revenue stack to work together - on our roadmap." The official MCP registry has no mediafly entry. Roadmap is not shipped; none-found stands.
 
 **Provenance**
 
@@ -106,7 +106,7 @@ The InsightSquared brand name is no longer used anywhere on the current site - d
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

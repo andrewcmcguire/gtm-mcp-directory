@@ -1,6 +1,6 @@
 # DealHub (DealHub AI): MCP server status, API access gate and what it does
 
-> CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with... MCP unknown, Enterprise only. Checked 2026-08-24.
+> CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with... Community MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ DealHub (DealHub AI)
 
 # DealHub (DealHub AI)
 
-[MCP unknown](../mcp/unknown.md)
+[Community MCP](../mcp/community.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,26 @@ CPQ/quote-generation engine sitting upstream of the proposal itself, feeding liv
 
 **MCP server**
 
-- **Status bucket**: MCP unknown
+- **Status bucket**: Community MCP
 
-- **Auth**: unknown
+- **Auth**: unknown - stdio transport run locally against the customer's own DealHub instance per the npm description; credential mechanism not read
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 1 found in the mcp_url field
 
-The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-08-24.
+- **Endpoint probe**: did not answer
+- **Probed**: 2026-09-03, HTTP None
+
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-03 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
-unknown
+community
 
 mcp_url, verbatim from the file:
 
-a third-party directory (salestools.club/apis/dealhub) lists "DealHub API Documentation & MCP Config," implying some MCP configuration exists, but no official DealHub-branded MCP docs page or GitHub repo could be independently located to confirm - logged as unknown rather than community/official pending direct verification.
+https://www.pulsemcp.com/servers/vishvick-dealhub-admin (unofficial; registry entry io.github.vishvick/dealhub-admin, npm package dealhub-admin-mcp v1.0.1)
+
+- [https://www.pulsemcp.com/servers/vishvick-dealhub-admin](https://www.pulsemcp.com/servers/vishvick-dealhub-admin)
 
 **Access gate**
 
@@ -84,13 +89,16 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://developers.dealhub.io/docs/introduction-to-dealhub-apis](https://developers.dealhub.io/docs/introduction-to-dealhub-apis)
 - [https://dealhub.io/blog/cpq/what-you-can-do-with-dealhub-api/](https://dealhub.io/blog/cpq/what-you-can-do-with-dealhub-api/)
 - [https://salestools.club/apis/dealhub](https://salestools.club/apis/dealhub)
+- [https://www.pulsemcp.com/servers/vishvick-dealhub-admin](https://www.pulsemcp.com/servers/vishvick-dealhub-admin)
+- [https://registry.modelcontextprotocol.io/v0/servers?search=dealhub](https://registry.modelcontextprotocol.io/v0/servers?search=dealhub)
+- [https://libraries.io/npm/dealhub-admin-mcp](https://libraries.io/npm/dealhub-admin-mcp)
 
-4 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://dealhub.io/pricing/, https://developers.dealhub.io/docs/introduction-to-dealhub-apis, https://dealhub.io/blog/cpq/what-you-can-do-with-dealhub-api/, https://salestools.club/apis/dealhub
+https://dealhub.io/pricing/, https://developers.dealhub.io/docs/introduction-to-dealhub-apis, https://dealhub.io/blog/cpq/what-you-can-do-with-dealhub-api/, https://salestools.club/apis/dealhub, https://www.pulsemcp.com/servers/vishvick-dealhub-admin, https://registry.modelcontextprotocol.io/v0/servers?search=dealhub, https://libraries.io/npm/dealhub-admin-mcp
 
 **Notes, verbatim from the file**
-The salestools.club "MCP Config" listing is the only lead found - flagged for direct verification against DealHub's own developer docs before citing it as a settled fact either way.
+The salestools.club "MCP Config" listing is the only lead found - flagged for direct verification against DealHub's own developer docs before citing it as a settled fact either way. 2026-09-02: CHANGED unknown -> community (unofficial). A stdio MCP server 'dealhub-admin-mcp' (npm v1.0.1, published 2026-04-01, description 'Model Context Protocol (MCP) server for DealHub administrators. Manage versions through Claude and AI agents.', 7 tools) is listed in the official MCP registry as io.github.vishvick/dealhub-admin and on PulseMCP, which classes it as community and names the GitHub user vishvick as maintainer. The npm license line reads 'Copyright (c) 2026 DealHub', which hints at an insider author, but the linked repo github.com/vishvick/dealhub-admin-mcp returns 404, developers.dealhub.io and dealhub.io/llms.txt make no mention of MCP, and no DealHub-branded docs exist, so it does not meet the bar for official. Admin-only scope (versions and users), not CPQ quoting.
 
 **Provenance**
 
@@ -102,7 +110,7 @@ The salestools.club "MCP Config" listing is the only lead found - flagged for di
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

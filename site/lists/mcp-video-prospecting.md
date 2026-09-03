@@ -51,15 +51,15 @@ No server found, or the check could not settle it. Same category, not reachable 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [Covideo](../tools/covideo.md)
-covideo.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+covideo.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Dubb](../tools/dubb.md)
-dubb.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+dubb.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Hippo Video](../tools/hippo-video.md)
-hippovideo.io | [No MCP found](../mcp/none-found.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-08-24 |
+hippovideo.io | [No MCP found](../mcp/none-found.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-09-02 |
 | [Potion](../tools/potion.md)
-sendpotion.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+sendpotion.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Quickpage](../tools/quickpage.md)
-quickpage.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+quickpage.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 
 ### What this category is asked for
 

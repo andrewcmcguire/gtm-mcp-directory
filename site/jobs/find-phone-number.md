@@ -1,6 +1,6 @@
-# Find a phone number: 19 GTM tools, 12 with an official MCP server
+# Find a phone number: 19 GTM tools, 13 with an official MCP server
 
-> Hand it a person and get a direct dial or mobile back. Consistently the scarcer half of contact data. 13 of the 19 entries tagged with this job carry an MCP server of some kind, 12 of them official. Counted 2026-09-03 from the directory data.
+> Hand it a person and get a direct dial or mobile back. Consistently the scarcer half of contact data. 14 of the 19 entries tagged with this job carry an MCP server of some kind, 13 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Find a phone number
 Hand it a person and get a direct dial or mobile back. Consistently the scarcer half of contact data.
 
 - **entries tagged**: 19
-- **official MCP**: 12
+- **official MCP**: 13
 - **community MCP**: 1
-- **no MCP found**: 6
+- **no MCP found**: 5
 - **solo reachable**: 11
 
-13 of the 19 entries tagged with this job carry an MCP server of some kind, 12 of them official. All 19 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+14 of the 19 entries tagged with this job carry an MCP server of some kind, 13 of them official. All 19 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -63,6 +63,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Wiza](../tools/wiza.md) wiza.co Pulls verified work emails and mobile numbers for people found on LinkedIn or Sales Navigator and exports them to CSV or a CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Surfe](../tools/surfe.md) surfe.com A Chrome extension plus API that pulls contacts and companies off LinkedIn, runs them through a multi-vendor waterfall to find verified emails and mobile numbers, and pushes the records into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -78,8 +80,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Albacross](../tools/albacross.md) albacross.com Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site behavioral/intent signals, and enriches identified companies with firmographic data and optional verified... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 ### Next to this job
 

@@ -33,13 +33,13 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 **What none-found does and does not mean**
 
-110 entries are none-found. That is a statement about the search, made on the date in the entry, and it is not a promise that no server exists. A vendor who shipped one the week after the check is recorded as none-found until the next pass, which is exactly why the weekly diff exists and why every entry ships its last_checked date.
+87 entries are none-found. That is a statement about the search, made on the date in the entry, and it is not a promise that no server exists. A vendor who shipped one the week after the check is recorded as none-found until the next pass, which is exactly why the weekly diff exists and why every entry ships its last_checked date.
 
 **The counting authority**
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 293 against 293, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 67b823b32e5bee1c6b279abc...
+Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 80aed8e1594f3b21bb117b08...
 
 **The duplicates, and why two counts exist**
 
@@ -68,7 +68,7 @@ Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during
 
 - [Arphie](tools/arphie.md) 13-arphie
 
-**16 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
+**14 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
 
 - [AiSDR](tools/aisdr.md) 04-aisdr
 - [Conversica](tools/conversica.md) 04-conversica
@@ -81,9 +81,7 @@ Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during
 - [HubSpot (AI Forecasting)](tools/hubspot.md) 12-hubspot
 - [Salesforce Einstein Forecasting](tools/salesforce-einstein-forecasting.md) 12-salesforce-einstein-forecasting
 - [Pocus](tools/pocus.md) 14-pocus
-- [Tidio](tools/tidio.md) 14-tidio
 - [Ultimate.ai (Ultimate)](tools/ultimate-ai.md) 14-ultimate-ai
-- [Brand24](tools/brand24.md) 15-brand24
 - [BuzzSumo](tools/buzzsumo.md) 15-buzzsumo
 - [F5Bot](tools/f5bot.md) 15-f5bot
 

@@ -1,6 +1,6 @@
 # Ebsta: MCP server status, API access gate and what it does
 
-> Revenue-intelligence add-on for Salesforce/HubSpot that syncs email and calendar activity into the CRM and... No MCP found, Enterprise only. Checked 2026-08-24.
+> Revenue-intelligence add-on for Salesforce/HubSpot that syncs email and calendar activity into the CRM and... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Ebsta
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ CRM-data-hygiene plus relationship/forecast layer sitting on top of Salesforce/H
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.ebsta.com, https://www.ebsta.com/pricing/, https://www.xpay.sh/agent-ready-index/ebsta/
 
 **Notes, verbatim from the file**
-A third-party "Agent-Ready SaaS Index" (xpay.sh) references an "MCP Server Card" score for Ebsta, but this could not be confirmed as evidence of a real MCP server on direct fetch - it reads as a category label in that site's own scoring framework, not a real Ebsta MCP. Logged as none-found per the schema's URL-required law. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ebsta.com/pricing/): the pricing page shows get-a-quote buttons and a compare-plans section but no prices and no API mention on any tier; docs.ebsta.com does not resolve.
+A third-party "Agent-Ready SaaS Index" (xpay.sh) references an "MCP Server Card" score for Ebsta, but this could not be confirmed as evidence of a real MCP server on direct fetch - it reads as a category label in that site's own scoring framework, not a real Ebsta MCP. Logged as none-found per the schema's URL-required law. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ebsta.com/pricing/): the pricing page shows get-a-quote buttons and a compare-plans section but no prices and no API mention on any tier; docs.ebsta.com does not resolve. 2026-09-02: re-checked https://www.ebsta.com/llms.txt (no MCP mention), the official MCP registry (no entry) and a web search. Ebsta's own news page on its August 2025 acquisition by Fullcast refers to Fullcast's "MCP layer", which is the acquirer's platform (already queued in the 2026-08 sweep notes), not an Ebsta server; xpay.sh still rates Ebsta "Not Agent-Ready Yet (18/100)". none-found stands.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ A third-party "Agent-Ready SaaS Index" (xpay.sh) references an "MCP Server Card"
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

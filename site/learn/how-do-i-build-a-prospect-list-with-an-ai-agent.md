@@ -20,17 +20,17 @@ The chain is: define the account criteria, search a company database, enrich eac
 
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
-| Build the target account list | [build a target account list](../jobs/build-target-account-list.md) | 7 | 4 | 1 |
+| Build the target account list | [build a target account list](../jobs/build-target-account-list.md) | 7 | 5 | 1 |
 | Search companies by firmographics | [search companies by firmographics](../jobs/search-companies-by-firmographics.md) | 15 | 12 | 4 |
 | Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 14 |
-| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 16 | 6 |
-| Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 13 | 4 |
+| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 17 | 6 |
+| Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 15 | 4 |
 
 Counted 2026-09-03. Entry counts rather than product counts.
 
 ## Where it is thin
 
-[build a target account list](../jobs/build-target-account-list.md) is tagged on only 7 entries, of which 4 have an official server. In practice this step is usually done by combining a firmographic search with a signal rather than by a tool sold as list building, which is a reasonable thing for an agent to orchestrate itself.
+[build a target account list](../jobs/build-target-account-list.md) is tagged on only 7 entries, of which 5 have an official server. In practice this step is usually done by combining a firmographic search with a signal rather than by a tool sold as list building, which is a reasonable thing for an agent to orchestrate itself.
 
 ## The tools with the deepest coverage in the chain
 

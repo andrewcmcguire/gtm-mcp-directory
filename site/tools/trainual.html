@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Trainual: MCP server status, API access gate and what it does</title>
-<meta name="description" content="SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR... No MCP found, Paid, self-serve. Checked 2026-08-24.">
+<meta name="description" content="SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR... Official MCP, Paid, self-serve. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/trainual.html">
@@ -29,6 +29,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://help.trainual.com/en/the-trainual-mcp-server"
   }
 }
 </script>
@@ -85,11 +89,11 @@ Trainual</div>
 <div class="toolhead">
 <h1>Trainual</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
 <a class="badge gold" href="../gates/paid.html">Paid, self-serve</a>
 <a class="badge mute flat" href="../categories/enablement-coaching.html">Enablement &amp; Coaching</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -99,25 +103,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 11-trainual &middot; source
 11-enablement-coaching.md line 235</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR than sales-specific enablement, with AI-assisted SOP drafting.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">AI SOP generator drafts a first-pass standard operating procedure from a manager&#x27;s plain-language description; AI-assisted documentation and AI knowledge search are included across paid tiers. This is generative content-drafting and retrieval AI over the org&#x27;s own SOP library - not conversational roleplay or buyer simulation, and not sales-specific.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">General SOP/onboarding documentation tool that sales orgs use for process content rather than a purpose-built sales-enablement or roleplay platform - included here as an adjacent, AI-relevant onboarding tool per the research brief.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
-
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">Bearer MCP token in the Authorization header; the help article states &quot;Only those with an Admin+ permission level can create MCP tokens&quot; and &quot;The Trainual MCP is available under Premium and Enterprise plans.&quot;</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">docs page, not an endpoint</div></div><div><div class="bk">Docs URL</div><div class="bv mono"><a href="https://help.trainual.com/en/the-trainual-mcp-server" rel="noopener nofollow">https://help.trainual.com/en/the-trainual-mcp-server</a></div></div><div><div class="bk">Probed</div><div class="bv">2026-09-03, HTTP 200</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24.</p>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">n/a</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://help.trainual.com/en/the-trainual-mcp-server (endpoint https://mcp.trainual.com, remote MCP server)</p><ul><li><a href="https://help.trainual.com/en/the-trainual-mcp-server" rel="noopener nofollow">https://help.trainual.com/en/the-trainual-mcp-server</a></li><li><a href="https://mcp.trainual.com" rel="noopener nofollow">https://mcp.trainual.com</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>paid - Trainual&#x27;s Grow (top/custom-priced) tier explicitly includes API access and custom integration support; some third-party breakdowns describe the mid Scale tier ($299/mo) as including API access too, so the exact tier boundary should be reconfirmed directly on trainual.com/pricing.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/trainual/tiptap-collaboration-mcp" rel="noopener nofollow">https://github.com/trainual/tiptap-collaboration-mcp</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">Reason recorded by the tagging pass: no-job-fits. SOP and process documentation, explicitly described as not sales-specific.</p><p class="note">22 of 293 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://trainual.com/pricing" rel="noopener nofollow">https://trainual.com/pricing</a></li><li><a href="https://operandio.com/trainual-pricing/" rel="noopener nofollow">https://operandio.com/trainual-pricing/</a></li><li><a href="https://github.com/trainual/tiptap-collaboration-mcp" rel="noopener nofollow">https://github.com/trainual/tiptap-collaboration-mcp</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://trainual.com/pricing, https://operandio.com/trainual-pricing/, https://github.com/trainual/tiptap-collaboration-mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">A public GitHub repo at github.com/trainual/tiptap-collaboration-mcp is real and maintained by Trainual&#x27;s own GitHub org, but per its README it is an MCP server for Tiptap&#x27;s collaboration/document service (Trainual&#x27;s underlying editor infrastructure) - it does not expose Trainual&#x27;s own product/training data. Do not cite it as a &quot;Trainual product MCP&quot;; mcp_status is none-found for Trainual-the-product on that basis.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>paid - Trainual&#x27;s Grow (top/custom-priced) tier explicitly includes API access and custom integration support; some third-party breakdowns describe the mid Scale tier ($299/mo) as including API access too, so the exact tier boundary should be reconfirmed directly on trainual.com/pricing.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/trainual/tiptap-collaboration-mcp" rel="noopener nofollow">https://github.com/trainual/tiptap-collaboration-mcp</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">Reason recorded by the tagging pass: no-job-fits. SOP and process documentation, explicitly described as not sales-specific.</p><p class="note">22 of 293 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://trainual.com/pricing" rel="noopener nofollow">https://trainual.com/pricing</a></li><li><a href="https://operandio.com/trainual-pricing/" rel="noopener nofollow">https://operandio.com/trainual-pricing/</a></li><li><a href="https://github.com/trainual/tiptap-collaboration-mcp" rel="noopener nofollow">https://github.com/trainual/tiptap-collaboration-mcp</a></li><li><a href="https://trainual.com/product-updates/connect-trainual-integrations" rel="noopener nofollow">https://trainual.com/product-updates/connect-trainual-integrations</a></li><li><a href="https://help.trainual.com/en/the-trainual-mcp-server" rel="noopener nofollow">https://help.trainual.com/en/the-trainual-mcp-server</a></li><li><a href="https://zapier.com/mcp/trainual" rel="noopener nofollow">https://zapier.com/mcp/trainual</a></li></ul><p class="note">6 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://trainual.com/pricing, https://operandio.com/trainual-pricing/, https://github.com/trainual/tiptap-collaboration-mcp, https://trainual.com/product-updates/connect-trainual-integrations, https://help.trainual.com/en/the-trainual-mcp-server, https://zapier.com/mcp/trainual</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">A public GitHub repo at github.com/trainual/tiptap-collaboration-mcp is real and maintained by Trainual&#x27;s own GitHub org, but per its README it is an MCP server for Tiptap&#x27;s collaboration/document service (Trainual&#x27;s underlying editor infrastructure) - it does not expose Trainual&#x27;s own product/training data. Do not cite it as a &quot;Trainual product MCP&quot;; mcp_status is none-found for Trainual-the-product on that basis. 2026-09-02: mcp_status none-found -&gt; official. Trainual&#x27;s own help center article https://help.trainual.com/en/the-trainual-mcp-server documents a remote MCP server at https://mcp.trainual.com, configured in Claude Desktop, Cursor or Windsurf with an Authorization: Bearer &lt;your-mcp-token&gt; header, tokens created by Admin+ users, gated to the Premium and Enterprise plans; the 2026-07-14 product update https://trainual.com/product-updates/connect-trainual-integrations announces it (&quot;Connect them to Trainual&#x27;s Model Context Protocol (MCP) server&quot;). Zapier and viaSocket also host third-party Trainual connectors (https://zapier.com/mcp/trainual: 5 triggers, 7 write actions), which are now secondary. trainual.com has no llms.txt and the official MCP registry has no trainual entry, which is why the 2026-08-24 pass found only the unrelated tiptap-collaboration-mcp repo; that caveat about the Tiptap repo still stands, but it no longer decides mcp_status. api_gate is left as recorded because it describes API access; the MCP plan gate is stated above.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">11-trainual</div></div>
 <div><div class="bk">Source file</div><div class="bv">11-enablement-coaching.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">235</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-03</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
@@ -130,8 +134,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

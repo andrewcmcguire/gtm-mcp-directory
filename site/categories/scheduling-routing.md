@@ -19,14 +19,15 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 - **Official MCP**: 5
 - **Community MCP**: 2
 - **MCP unknown**: 2
-- **No MCP found**: 5
+- **MCP not applicable**: 1
+- **No MCP found**: 4
 
 - **Free to start**: 2
 - **Paid, self-serve**: 4
 - **Enterprise only**: 2
 - **Gate unknown**: 6
 
-Source file: 10-scheduling-routing.md · content sha256 839947c4c6d62ef4... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 9a2c30e3df2810c6... · counts reconciled against tools_recount.py at build time.
 
 - [The 7 with an MCP server](../lists/mcp-scheduling-routing.md)
 
@@ -53,9 +54,9 @@ Source file: 10-scheduling-routing.md · content sha256 839947c4c6d62ef4... · c
 
 - [LeanData](../tools/leandata.md) leandata.com GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Clara (Clara Labs)](../tools/clara.md) claralabs.com AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times, handles replies, and confirms meetings across Google Workspace, Outlook, Zoom, and Teams without a... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+- [Clockwise](../tools/clockwise.md) getclockwise.com Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended Focus Time, and blocked task time factoring in each person's working hours/preferences. THE PRODUCT... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md)
 
-- [Clockwise](../tools/clockwise.md) getclockwise.com Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended Focus Time, and blocked task time factoring in each person's working hours/preferences. THE PRODUCT... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Clara (Clara Labs)](../tools/clara.md) claralabs.com AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times, handles replies, and confirms meetings across Google Workspace, Outlook, Zoom, and Teams without a... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Doodle](../tools/doodle.md) doodle.com General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1 booking pages - used more broadly than GTM specifically (events, recruiting, ops)... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

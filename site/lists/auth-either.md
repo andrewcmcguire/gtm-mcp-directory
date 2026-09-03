@@ -1,6 +1,6 @@
-# GTM MCP servers that accept OAuth or an API key: 47 tools, counted
+# GTM MCP servers that accept OAuth or an API key: 50 tools, counted
 
-> 47 of the 167 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
+> 50 of the 182 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that accept OAuth or an API key
 
-**List · 47 of 293**
+**List · 50 of 293**
 
 ## GTM MCP servers that accept OAuth or an API key
 
@@ -64,6 +64,8 @@ fiber.ai | [Official MCP](../mcp/official.md) | [https://mcp.fiber.ai/mcp/v3](ht
 heyreach.io | [Official MCP](../mcp/official.md) | [https://www.heyreach.io/mcp](https://www.heyreach.io/mcp) +1 more | workspace-scoped "MCP key" + connection URL (API-key-style, not OAuth) | [Paid, self-serve](../gates/paid.md) |
 | [Intercom (Fin)](../tools/intercom.md)
 intercom.com | [Official MCP](../mcp/official.md) | [https://mcp.intercom.com/mcp](https://mcp.intercom.com/mcp) +2 more | OAuth (browser-based, recommended) or a Bearer token using an Intercom API token; Streamable HTTP transport, 13 exposed tools covering conversations,... | [Paid, self-serve](../gates/paid.md) |
+| [Keyplay](../tools/keyplay.md)
+keyplay.io | [Official MCP](../mcp/official.md) | [https://docs.keyplay.io/en/articles/13643214-keyplay...](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp) +1 more | OAuth for Claude.ai and Claude Desktop, API key for Claude Code, per the vendor's docs | [Paid, self-serve](../gates/paid.md) |
 | [lemlist](../tools/lemlist.md)
 lemlist.com | [Official MCP](../mcp/official.md) | [https://developer.lemlist.com/mcp/setup](https://developer.lemlist.com/mcp/setup) +1 more | OAuth (browser-based PKCE flow, recommended) or API key via X-API-Key header | [Paid, self-serve](../gates/paid.md) |
 | [Make](../tools/make.md)
@@ -74,6 +76,8 @@ metorial.com | [Official MCP](../mcp/official.md) | [https://metorial.com](https
 octavehq.com | [Official MCP](../mcp/official.md) | [https://docs.octavehq.com/mcp/overview](https://docs.octavehq.com/mcp/overview) +3 more | Browser OAuth. Per the vendor's Claude Code setup doc you add the server with "claude mcp add octave-myWorkspace --transport http... | [Paid, self-serve](../gates/paid.md) |
 | [Pipedream MCP](../tools/pipedream-mcp.md)
 pipedream.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedream.com](https://mcp.pipedream.com) | OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated per end user; Pipedream states credentials are "never exposed... | [Paid, self-serve](../gates/paid.md) |
+| [Reply.io (Jason AI)](../tools/reply-io.md)
+reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) +1 more | Personal API key (vendor-recommended, sent as a Bearer token, scoped to the permissions the key allows) or OAuth (used by the Claude connector;... | [Paid, self-serve](../gates/paid.md) |
 | [The Swarm](../tools/the-swarm.md)
 theswarm.com | [Official MCP](../mcp/official.md) | [https://bee.theswarm.com/mcp](https://bee.theswarm.com/mcp) +1 more | OAuth via personal Swarm login (native Claude and ChatGPT app connectors) or team API key via x-api-key header for any MCP client supporting custom... | [Paid, self-serve](../gates/paid.md) |
 | [Waalaxy](../tools/waalaxy.md)
@@ -84,6 +88,8 @@ wiza.co | [Official MCP](../mcp/official.md) | [https://mcp.wiza.co/mcp](https:/
 woodpecker.co | [Official MCP](../mcp/official.md) | [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/) +1 more | hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker API key | [Paid, self-serve](../gates/paid.md) |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
 anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | unknown - described only as a "governed MCP connection" with permission/audit controls; the specific credential mechanism (API key vs. OAuth) is not... | [Enterprise only](../gates/enterprise-only.md) |
+| [Meltwater](../tools/meltwater.md)
+meltwater.com | [Official MCP](../mcp/official.md) | [https://developer.meltwater.com/guides/meltwater-mcp...](https://developer.meltwater.com/guides/meltwater-mcp/overview/) +1 more | Meltwater API token today, "with OAuth 2.0 planned for later this year" per the vendor docs; access requires a Meltwater MCP package in the... | [Enterprise only](../gates/enterprise-only.md) |
 | [Seamless.AI](../tools/seamless-ai.md)
 seamless.ai | [Official MCP](../mcp/official.md) | [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs) +1 more | OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - i.e. gated per-account, contact admin/support to turn on | [Enterprise only](../gates/enterprise-only.md) |
 | [Seismic](../tools/seismic.md)

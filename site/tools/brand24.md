@@ -1,6 +1,6 @@
 # Brand24: MCP server status, API access gate and what it does
 
-> Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts, and review sites, then... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts, and review sites, then... Official MCP, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Brand24
 
 # Brand24
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Paid, self-serve](../gates/paid.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,27 @@ Mid-market social-listening layer positioned below Brandwatch/Meltwater on price
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: n/a
+- **Auth**: OAuth; the help article states "MCP access is available to Brand24 subscribers. The data available in MCP reflects what's in your active projects."
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://help.brand24.com/en/articles/13011375-brand24-mcp](https://help.brand24.com/en/articles/13011375-brand24-mcp)Probed**: 2026-09-03, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-none-found
+official
 
 mcp_url, verbatim from the file:
 
-none
+https://help.brand24.com/en/articles/13011375-brand24-mcp (endpoint https://mcp.brand24.com/v1/mcp)
+
+- [https://help.brand24.com/en/articles/13011375-brand24-mcp](https://help.brand24.com/en/articles/13011375-brand24-mcp)
+- [https://mcp.brand24.com/v1/mcp](https://mcp.brand24.com/v1/mcp)
 
 **Access gate**
 
@@ -81,13 +87,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://brand24.com/pricing/](https://brand24.com/pricing/)
+- [https://help.brand24.com/en/articles/13011375-brand24-mcp](https://help.brand24.com/en/articles/13011375-brand24-mcp)
+- [https://updates.brand24.com/brand24-mcp-enhance-chatgpt-claude-or-any-other-ai-agent-with-insights-from-your-projects-329207](https://updates.brand24.com/brand24-mcp-enhance-chatgpt-claude-or-any-other-ai-agent-with-insights-from-your-projects-329207)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://brand24.com/pricing/
+https://brand24.com/pricing/, https://help.brand24.com/en/articles/13011375-brand24-mcp, https://updates.brand24.com/brand24-mcp-enhance-chatgpt-claude-or-any-other-ai-agent-with-insights-from-your-projects-329207
 
 **Notes, verbatim from the file**
-Checked GitHub and PulseMCP for "brand24" - no MCP server found under either official or community listings.
+Checked GitHub and PulseMCP for "brand24" - no MCP server found under either official or community listings. 2026-09-02: mcp_status none-found -> official. Brand24's own help center article "Brand24 MCP" (dated 2026-02-27) documents a remote server at https://mcp.brand24.com/v1/mcp with OAuth, for ChatGPT, Claude, Gemini or any MCP-compatible agent, returning project summaries, key events, discussion topics, influencer statistics and source insights; a changelog post and a ChatGPT app built on the same MCP corroborate it. https://brand24.com/llms.txt has no MCP mention and the official MCP registry has no brand24 entry, which is why the 2026-08-24 pass missed it. Requires a paid Brand24 subscription; api_gate unchanged.
 
 **Provenance**
 
@@ -99,7 +107,7 @@ Checked GitHub and PulseMCP for "brand24" - no MCP server found under either off
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

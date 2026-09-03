@@ -1,6 +1,6 @@
 # Trevor AI: MCP server status, API access gate and what it does
 
-> AI planning app that merges task management and calendar scheduling - connects task lists (Todoist, Google... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI planning app that merges task management and calendar scheduling - connects task lists (Todoist, Google... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Trevor AI
 [Gate unknown](../gates/unknown.md)
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Personal calendar/task-optimization layer for an individual rep, same niche as M
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://trevorai.com, https://trevorai.com/docs
 
 **Notes, verbatim from the file**
-Cheapest tool in this file by a wide margin (Pro is $5/mo annual, $6/mo monthly) and has a real perpetual free tier, but has no API/MCP surface at all - a personal-productivity tool rather than a team GTM system. [api_gate 2026-08-25] Re-checked and left unknown, honestly: consumer pricing is published on the homepage (Free personal tier; Pro $5/mo billed annually or $6/mo monthly) but neither the pricing block nor /docs mentions an API, API keys or developer access; the only developer-adjacent statement is that Trevor is an official Todoist integration, meaning it consumes another vendor's API rather than exposing one. Checked against https://trevorai.com/docs.
+Cheapest tool in this file by a wide margin (Pro is $5/mo annual, $6/mo monthly) and has a real perpetual free tier, but has no API/MCP surface at all - a personal-productivity tool rather than a team GTM system. [api_gate 2026-08-25] Re-checked and left unknown, honestly: consumer pricing is published on the homepage (Free personal tier; Pro $5/mo billed annually or $6/mo monthly) but neither the pricing block nor /docs mentions an API, API keys or developer access; the only developer-adjacent statement is that Trevor is an official Todoist integration, meaning it consumes another vendor's API rather than exposing one. Checked against https://trevorai.com/docs. 2026-09-02: re-checked trevorai.com/llms.txt (404) and web search; only viaSocket and Zapier aggregator wrappers surface, and Zapier's is for Trevor.io, a different product. No MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ Cheapest tool in this file by a wide margin (Pro is $5/mo annual, $6/mo monthly)
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -74,20 +74,20 @@
     {
       "@type": "ListItem",
       "position": 5,
+      "name": "GlockApps",
+      "url": "https://andrewcmcguire.com/gtm-directory/tools/glockapps.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
       "name": "Scaledmail",
       "url": "https://andrewcmcguire.com/gtm-directory/tools/scaledmail.html"
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "name": "Warmup Inbox",
       "url": "https://andrewcmcguire.com/gtm-directory/tools/warmup-inbox.html"
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "name": "GlockApps",
-      "url": "https://andrewcmcguire.com/gtm-directory/tools/glockapps.html"
     },
     {
       "@type": "ListItem",
@@ -157,11 +157,11 @@
 <p class="sub">Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps cold-outbound infrastructure out of spam. Standing risk worth flagging once here rather than per entry: automated warmup - seed inboxes auto-opening/replying/starring your mail to fake engagement - sits in real tension with mailbox-provider ToS. Google banned automated email warm-up services for Gmail accounts in a January 2023 policy change, and Google/Yahoo/Microsoft jointly enforce bulk-sender rules (sub-0.3% spam complaints, sub-2% bounce) as of May 2025; GMass shut its own warm-up feature down as a result. Several vendors below (InboxAlly explicitly) market themselves as the safer alternative to network-based/bot-driven warmup for exactly this reason.</p>
 <div class="stats" style="margin-top:26px">
 <div class="stat"><div class="n">13</div><div class="k">entries in this file</div></div>
-<div class="stat is-gold"><div class="n">4</div><div class="k">Official MCP</div></div><div class="stat is-copper"><div class="n">9</div><div class="k">No MCP found</div></div>
+<div class="stat is-gold"><div class="n">4</div><div class="k">Official MCP</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">MCP unknown</div></div><div class="stat is-copper"><div class="n">8</div><div class="k">No MCP found</div></div>
 </div>
 <div class="stats" style="margin-top:1px"><div class="stat is-teal"><div class="n">2</div><div class="k">Free to start</div></div><div class="stat is-gold"><div class="n">10</div><div class="k">Paid, self-serve</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">Gate unknown</div></div></div>
 <p class="note">Source file: 09-email-deliverability.md &middot; content sha256
-5a84716fe73f8f6d... &middot; counts reconciled against
+5a4c85e11fb5bcde... &middot; counts reconciled against
 tools_recount.py at build time.</p>
 <div class="btnrow">
 <a class="btn" href="../lists/mcp-email-deliverability.html">The 4 with an MCP server</a>
@@ -193,6 +193,12 @@ tools_recount.py at build time.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official.html">Official MCP</a><a class="badge gold" href="../gates/paid.html">Paid, self-serve</a></div>
 </li>
 <li class="row">
+<div class="top"><a class="nm" href="../tools/glockapps.html">GlockApps</a>
+<span class="dom">glockapps.com</span></div>
+<div class="desc">Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts across 60+ providers (Gmail, Yahoo, Outlook, Apple Mail, AOL, etc.) and reports exact...</div>
+<div class="badges"><a class="badge mute" href="../mcp/unknown.html">MCP unknown</a><a class="badge gold" href="../gates/paid.html">Paid, self-serve</a></div>
+</li>
+<li class="row">
 <div class="top"><a class="nm" href="../tools/scaledmail.html">Scaledmail</a>
 <span class="dom">scaledmail.com</span></div>
 <div class="desc">Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab.</div>
@@ -203,12 +209,6 @@ tools_recount.py at build time.</p>
 <span class="dom">warmupinbox.com</span></div>
 <div class="desc">Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer&#x27;s connected accounts to build sender reputation.</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found.html">No MCP found</a><a class="badge teal" href="../gates/free.html">Free to start</a></div>
-</li>
-<li class="row">
-<div class="top"><a class="nm" href="../tools/glockapps.html">GlockApps</a>
-<span class="dom">glockapps.com</span></div>
-<div class="desc">Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts across 60+ providers (Gmail, Yahoo, Outlook, Apple Mail, AOL, etc.) and reports exact...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found.html">No MCP found</a><a class="badge gold" href="../gates/paid.html">Paid, self-serve</a></div>
 </li>
 <li class="row">
 <div class="top"><a class="nm" href="../tools/hypertide.html">Hypertide</a>
@@ -256,8 +256,8 @@ tools_recount.py at build time.</p>
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

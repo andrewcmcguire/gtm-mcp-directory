@@ -1,6 +1,6 @@
 # Vareto: MCP server status, API access gate and what it does
 
-> FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling,... No MCP found, Enterprise only. Checked 2026-08-24.
+> FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling,... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Vareto
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ HONESTY FLAG - Vareto sits in the FP&A stack, not the RevOps/sales-forecasting s
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://vareto.io, https://www.vareto.com, https://www.vendr.com/marketplace/vareto, https://www.vareto.com/how-to-buy/pricing
 
 **Notes, verbatim from the file**
-DOMAIN FLAG - vareto.io is a dead Squarespace "Coming Soon" placeholder unrelated to the real company, which operates at vareto.com. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.vareto.com/how-to-buy/pricing): published floors are Foundation starting at $20K and Growth starting at $40K with a custom Enterprise tier, no self-serve checkout, and no API mentioned on any tier.
+DOMAIN FLAG - vareto.io is a dead Squarespace "Coming Soon" placeholder unrelated to the real company, which operates at vareto.com. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.vareto.com/how-to-buy/pricing): published floors are Foundation starting at $20K and Growth starting at $40K with a custom Enterprise tier, no self-serve checkout, and no API mentioned on any tier. 2026-09-02: re-checked vareto.com (no llms.txt), the official MCP registry (no entry) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ DOMAIN FLAG - vareto.io is a dead Squarespace "Coming Soon" placeholder unrelate
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

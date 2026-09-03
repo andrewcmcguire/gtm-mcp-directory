@@ -1,6 +1,6 @@
 # QuickMail: MCP server status, API access gate and what it does
 
-> Cold email and LinkedIn outreach automation tool sent from users' own mailboxes, with inbox rotation and... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Cold email and LinkedIn outreach automation tool sent from users' own mailboxes, with inbox rotation and... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ QuickMail
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Outbound email sequencing/deliverability layer, positioned as a lower-AI-hype, d
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -89,7 +89,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://quickmail.com/pricing, https://quickmail.com/
 
 **Notes, verbatim from the file**
-API access starts at the Growth plan ($99/mo), not included on Starter ($49/mo). Notably the only tool in this sweep with zero AI-branded marketing at all - an "automation, not AI" outlier in a category saturated with AI-agent claims.
+API access starts at the Growth plan ($99/mo), not included on Starter ($49/mo). Notably the only tool in this sweep with zero AI-branded marketing at all - an "automation, not AI" outlier in a category saturated with AI-agent claims. 2026-09-02: re-checked quickmail.com/llms.txt (404) and web search; only the Pipedream aggregator listing (mcp.pipedream.com/app/quickmail_io) surfaces, no MCP server found.
 
 **Provenance**
 
@@ -101,7 +101,7 @@ API access starts at the Growth plan ($99/mo), not included on Starter ($49/mo).
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Bombora (Company Surge): MCP server status, API access gate and what it does
 
-> Detects which companies are actively researching specific B2B topics by aggregating content-consumption data... No MCP found, Enterprise only. Checked 2026-08-24.
+> Detects which companies are actively researching specific B2B topics by aggregating content-consumption data... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Bombora (Company Surge)
 [Enterprise only](../gates/enterprise-only.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Upstream intent-data supplier - consumed as a feed inside other ABM/intent platf
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://bombora.com/products/company-surge/, https://pipeline.zoominfo.com/sales/bombora-pricing, https://www.docket.io/resources/research/bombora-pricing, https://www.g2.com/products/bombora-company-surge/pricing, https://marketbetter.ai/blog/bombora-pricing-breakdown-2026/
 
 **Notes, verbatim from the file**
-Searched "Bombora MCP server/github" plus mcp.so/glama.ai/pulsemcp.com - nothing found. Sales-led, custom-quote pricing; third-party writeups peg entry contracts around $25-30K/yr with API access as a $5-20K/yr add-on. Company-level only, no individual researcher identification, weekly refresh.
+Searched "Bombora MCP server/github" plus mcp.so/glama.ai/pulsemcp.com - nothing found. Sales-led, custom-quote pricing; third-party writeups peg entry contracts around $25-30K/yr with API access as a $5-20K/yr add-on. Company-level only, no individual researcher identification, weekly refresh. 2026-09-02: re-checked bombora.com/llms.txt (404) and web search; the only hit, 'bombora-wp-mcp' on apis.io, resolves to WordPress MCP tooling unrelated to Bombora the intent vendor. No MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ Searched "Bombora MCP server/github" plus mcp.so/glama.ai/pulsemcp.com - nothing
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

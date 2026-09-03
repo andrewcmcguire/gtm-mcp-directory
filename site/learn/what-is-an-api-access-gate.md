@@ -36,7 +36,7 @@ This is the second column nobody else publishes, and in practice it decides more
 
 ## The intersection that matters
 
-MCP status and access gate are separate columns for a reason. 31 entries ship an official MCP server behind an enterprise gate. The server is real, the protocol works, and most people reading this cannot call it. The [123 solo reachable entries](../lists/solo-reachable.md) are the list that matters if you are one person and a credit card.
+MCP status and access gate are separate columns for a reason. 35 entries ship an official MCP server behind an enterprise gate. The server is real, the protocol works, and most people reading this cannot call it. The [132 solo reachable entries](../lists/solo-reachable.md) are the list that matters if you are one person and a credit card.
 
 ## Sources
 

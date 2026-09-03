@@ -1,6 +1,6 @@
 # Dubb: MCP server status, API access gate and what it does
 
-> Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Dubb
 [Paid, self-serve](../gates/paid.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Direct Vidyard/Sendspark-class competitor for prospecting and follow-up video, b
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://dubb.com/, https://dubb.com/features, https://dubb.com/lp/video-prospecting, https://www.g2.com/products/dubb-sales-video-system-crm/reviews, https://apps.make.com/dubb, https://dubb.com/pricing
 
 **Notes, verbatim from the file**
-None. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://dubb.com/pricing): custom integrations and API access start on Pro Plus at $90/mo billed yearly or $129/mo monthly; not on the free Starter or the $42/mo Pro tier.
+None. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://dubb.com/pricing): custom integrations and API access start on Pro Plus at $90/mo billed yearly or $129/mo monthly; not on the free Starter or the $42/mo Pro tier. 2026-09-02: re-checked dubb.com/llms.txt (404) and web search (hits are Dub.co and dubbing tools, unrelated); no MCP server found.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ None. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own p
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

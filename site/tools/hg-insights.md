@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://hginsights.com](https://hginsights.com) · entry id 05-hg-insights · source 05-signals-intent-abm.md line 232
+Vendor: [https://hginsights.com](https://hginsights.com) · entry id 05-hg-insights · source 05-signals-intent-abm.md line 235
 
 **What it does**
 Aggregates B2B technographic data (software/tech a company runs, sourced from job postings, web crawling, public filings, partner feeds), firmographics, IT spend estimates, and third-party intent (via TrustRadius review/research activity) into a unified company profile.
@@ -39,9 +39,9 @@ Firmographic/technographic enrichment and account intelligence, feeding ICP fit-
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://learn.microsoft.com/en-us/connectors/hginsightsmcp/](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/)Probed**: 2026-08-25, HTTP 200
+- **Docs URL[https://learn.microsoft.com/en-us/connectors/hginsightsmcp/](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -106,7 +106,7 @@ The AI-agent/MCP product is described as "early access request" only, no self-se
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 232
+- **Source line**: 235
 
 - **Tier**: RESEARCHED
 

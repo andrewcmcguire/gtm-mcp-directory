@@ -1,6 +1,6 @@
 # Clara (Clara Labs): MCP server status, API access gate and what it does
 
-> AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times,... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times,... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Clara (Clara Labs)
 [Paid, self-serve](../gates/paid.md)
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Adjacent to core GTM stacks - most naturally an EA/executive-scheduling tool (ve
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://claralabs.com, https://claralabs.com/pricing, https://www.pulsemcp.com (searched "clara", zero relevant results)
 
 **Notes, verbatim from the file**
-No mention of API or MCP access anywhere on the public site or in MCP registries (mcp.so, glama.ai, pulsemcp.com all returned nothing relevant for "Clara" scheduling).
+No mention of API or MCP access anywhere on the public site or in MCP registries (mcp.so, glama.ai, pulsemcp.com all returned nothing relevant for "Clara" scheduling). 2026-09-02: re-checked claralabs.com/llms.txt (served a page with no MCP mention) and web search; no MCP server found.
 
 **Provenance**
 
@@ -104,7 +104,7 @@ No mention of API or MCP access anywhere on the public site or in MCP registries
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

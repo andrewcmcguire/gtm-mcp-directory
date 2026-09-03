@@ -1,6 +1,6 @@
 # Mailreach: MCP server status, API access gate and what it does
 
-> Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Mailreach
 [Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Deliverability-maintenance layer that runs continuously behind an outbound sendi
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.mailreach.co/email-warmup-api, https://docs.mailreach.co/api, https://www.trustradius.com/products/mailreach/pricing, https://emailwarmup.com/blog/email-deliverability-tools/mailreach-review/
 
 **Notes, verbatim from the file**
-One of the longer-established warmup vendors in this category (frequently cited as an "original") but no MCP server, GitHub repo, or registry listing (mcp.so/glama.ai/pulsemcp.com) was found for it.
+One of the longer-established warmup vendors in this category (frequently cited as an "original") but no MCP server, GitHub repo, or registry listing (mcp.so/glama.ai/pulsemcp.com) was found for it. 2026-09-02: re-checked mailreach.co/llms.txt (present, no MCP mention) and web search; no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ One of the longer-established warmup vendors in this category (frequently cited 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

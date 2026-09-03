@@ -89,7 +89,7 @@ No server found, or the check could not settle it. Same category, not reachable 
 | [Default](../tools/default.md)
 default.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Openprise](../tools/openprise.md)
-openprisetech.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+openprisetech.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 
 ### What this category is asked for
 

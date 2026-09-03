@@ -1,6 +1,6 @@
 # Mailshake: MCP server status, API access gate and what it does
 
-> Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Sales engagement platform for automated email outreach campaigns with CRM integration and lead management. No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Mailshake
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Outbound email sequencing layer with light AI copy-drafting assistance; more mod
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 http://mailshake.com/pricing/, http://mailshake.com/, https://api-docs.mailshake.com/
 
 **Notes, verbatim from the file**
-Site serves over plain HTTP with a redirect, a minor hygiene flag for a company selling email infrastructure. No API tier information was found on sourced pricing pages. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://api-docs.mailshake.com/): the API key is self-served from Extensions > API inside the product with no plan restriction stated, and the cheapest plan is Starter at $29/mo - there is no free plan.
+Site serves over plain HTTP with a redirect, a minor hygiene flag for a company selling email infrastructure. No API tier information was found on sourced pricing pages. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://api-docs.mailshake.com/): the API key is self-served from Extensions > API inside the product with no plan restriction stated, and the cheapest plan is Starter at $29/mo - there is no free plan. 2026-09-02: re-checked mailshake.com/llms.txt (404) and web search; only Zapier MCP and AnythingMCP aggregator connectors surface, no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ Site serves over plain HTTP with a redirect, a minor hygiene flag for a company 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

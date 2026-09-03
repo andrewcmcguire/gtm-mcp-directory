@@ -24,8 +24,8 @@ Finding and verifying are different jobs done by different systems. A finder inf
 |---|---|---|---|---|
 | Find the address | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | Verify it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 12 | 6 |
-| Warm the inbox first | [warm up an inbox](../jobs/warm-up-inbox.md) | 13 | 8 | 1 |
-| Then send | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 24 | 3 |
+| Warm the inbox first | [warm up an inbox](../jobs/warm-up-inbox.md) | 13 | 9 | 1 |
+| Then send | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 26 | 3 |
 
 ## The finders an agent can call
 

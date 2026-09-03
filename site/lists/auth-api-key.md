@@ -1,6 +1,6 @@
-# GTM MCP servers that use an API key: 44 tools, counted
+# GTM MCP servers that use an API key: 47 tools, counted
 
-> 44 of the 167 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
+> 47 of the 182 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use an API key
 
-**List · 44 of 293**
+**List · 47 of 293**
 
 ## GTM MCP servers that use an API key
 
@@ -80,8 +80,12 @@ smartlead.ai | [Official MCP](../mcp/official.md) | [https://helpcenter.smartlea
 supersend.io | [Official MCP](../mcp/official.md) | [https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server) | api key, Streamable HTTP transport | [Paid, self-serve](../gates/paid.md) |
 | [tl;dv](../tools/tl-dv.md)
 tldv.io | [Official MCP](../mcp/official.md) | [https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server) +1 more | API key generated at Settings → Personal Settings → API keys. | [Paid, self-serve](../gates/paid.md) |
+| [Trainual](../tools/trainual.md)
+trainual.com | [Official MCP](../mcp/official.md) | [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server) +1 more | Bearer MCP token in the Authorization header; the help article states "Only those with an Admin+ permission level can create MCP tokens" and "The... | [Paid, self-serve](../gates/paid.md) |
 | [HG Insights (Phoenix platform)](../tools/hg-insights.md)
 hginsights.com | [Official MCP](../mcp/official.md) | [https://learn.microsoft.com/en-us/connectors/hginsig...](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/) | api key (`x-api-key` header; throttled to 100 calls/60 seconds per connection) | [Enterprise only](../gates/enterprise-only.md) |
+| [MadKudu](../tools/madkudu.md)
+madkudu.com | [Official MCP](../mcp/official.md) | [https://developers.madkudu.com/madkudu-mcp/install-i...](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min) +2 more | MadKudu API key embedded in the endpoint path; the portal states "Please contact HG Insights or your account manager if you're interested in the... | [Enterprise only](../gates/enterprise-only.md) |
 | [Surfe](../tools/surfe.md)
 surfe.com | [Official MCP](../mcp/official.md) | [https://mcp.eu.surfe.com/mcp](https://mcp.eu.surfe.com/mcp) +1 more | Surfe API key, with a browser sign-in flow that exchanges the key for a managed token so it is entered once, or the key passed directly per call.... | [Enterprise only](../gates/enterprise-only.md) |
 | [RevenueHero](../tools/revenuehero.md)
@@ -90,6 +94,8 @@ revenuehero.io | [Official MCP](../mcp/official.md) | [https://www.revenuehero.i
 loom.com | [Community MCP](../mcp/community.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session cookie (connect.sid) manually extracted from a logged-in... | [Free to start](../gates/free.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Community MCP](../mcp/community.md) | [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp) | api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
+| [Mention](../tools/mention.md)
+mention.com | [Community MCP](../mcp/community.md) | [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server) | Mention API key via the MCP_MENTION_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
 | [Motion](../tools/motion.md)
 usemotion.com | [Community MCP](../mcp/community.md) | [https://github.com/RF-D/motion-mcp](https://github.com/RF-D/motion-mcp) | API key (MOTION_API_KEY from Motion Settings -> API), per community repos. Rate limits reported at 12 req/min for individual accounts, 120 req/min... | [Paid, self-serve](../gates/paid.md) |
 | [Overloop](../tools/overloop.md)

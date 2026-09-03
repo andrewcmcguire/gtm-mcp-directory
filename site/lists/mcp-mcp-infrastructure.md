@@ -48,7 +48,7 @@ No server found, or the check could not settle it. Same category, not reachable 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [mcp.so](../tools/mcp-so.md)
-mcp.so | [MCP unknown](../mcp/unknown.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+mcp.so | [MCP unknown](../mcp/unknown.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Claude / Anthropic MCP Connector Directory](../tools/claude-anthropic-mcp-connector-directory.md)
 claude.com | [MCP not applicable](../mcp/n-a.md) | [Free to start](../gates/free.md) | 2026-08-24 |
 | [PulseMCP](../tools/pulsemcp.md)

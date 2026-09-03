@@ -1,6 +1,6 @@
 # Albacross: MCP server status, API access gate and what it does
 
-> Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,11 +15,11 @@ Albacross
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://albacross.com](https://albacross.com) · entry id 05-albacross · source 05-signals-intent-abm.md line 396
+Vendor: [https://albacross.com](https://albacross.com) · entry id 05-albacross · source 05-signals-intent-abm.md line 402
 
 **What it does**
 Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site behavioral/intent signals, and enriches identified companies with firmographic data and optional verified contact email/phone credits.
@@ -38,7 +38,7 @@ Visitor ID + intent-based segmentation + lightweight contact enrichment feeding 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -97,7 +97,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://albacross.com/, https://albacross.com/pricing/, https://github.com/albacross
 
 **Notes, verbatim from the file**
-GitHub org (github.com/albacross) exists but contains only internal/task repos (microservice-typescript-task, gtm-tracking, gtm-reveal) - nothing MCP-related. Self-serve, 14-day free trial, no card required. Starter €59/mo (up to 100 companies/mo, 10 email + 5 phone credits), Professional €149/mo (up to 500 companies); 500+ requires "Book a Demo."
+GitHub org (github.com/albacross) exists but contains only internal/task repos (microservice-typescript-task, gtm-tracking, gtm-reveal) - nothing MCP-related. Self-serve, 14-day free trial, no card required. Starter €59/mo (up to 100 companies/mo, 10 email + 5 phone credits), Professional €149/mo (up to 500 companies); 500+ requires "Book a Demo." 2026-09-02: re-checked albacross.com/llms.txt (present, no MCP mention) and web search (the 'MCP' hits are ZoomInfo comparison pages describing ZoomInfo's own server); no MCP server found.
 
 **Provenance**
 
@@ -105,11 +105,11 @@ GitHub org (github.com/albacross) exists but contains only internal/task repos (
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 396
+- **Source line**: 402
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

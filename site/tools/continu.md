@@ -1,6 +1,6 @@
 # Continu: MCP server status, API access gate and what it does
 
-> AI-powered enterprise learning platform for delivering, tracking, and measuring training content to... No MCP found, Enterprise only. Checked 2026-08-24.
+> AI-powered enterprise learning platform for delivering, tracking, and measuring training content to... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Continu
 [Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ General-purpose corporate LMS that can serve as the enablement/onboarding backbo
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: no-job-fits. Corporate LMS. retrieve-sales-
 https://continu.com, https://www.continu.com/pricing
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Thinnest public developer footprint of any tool in this file - no API/docs page surfaced at all in this research pass; worth a direct account check before citing further. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.continu.com/pricing): full REST API and real-time event webhooks appear on the Enterprise plan (5,000+ monthly active users) and not on Growth or Professional, and no tier has a published price.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Thinnest public developer footprint of any tool in this file - no API/docs page surfaced at all in this research pass; worth a direct account check before citing further. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.continu.com/pricing): full REST API and real-time event webhooks appear on the Enterprise plan (5,000+ monthly active users) and not on Growth or Professional, and no tier has a published price. 2026-09-02: re-checked continu.com (no llms.txt), the official MCP registry (a continu search returns only unrelated Continue and Continuum servers) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Thinnest publi
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

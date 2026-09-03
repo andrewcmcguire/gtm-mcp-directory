@@ -1,6 +1,6 @@
 # Bevy: MCP server status, API access gate and what it does
 
-> Community-event platform for running in-person and virtual community programs at scale (chapter-based... No MCP found, Enterprise only. Checked 2026-08-24.
+> Community-event platform for running in-person and virtual community programs at scale (chapter-based... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Bevy
 [Enterprise only](../gates/enterprise-only.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Community-event infrastructure layer - less a signal-detection tool than most of
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: no-job-fits. Community-event infrastructure
 https://www.bevy.com, http://bevy.com/b/pricing
 
 **Notes, verbatim from the file**
-Checked github.com, PulseMCP, and bevy.com directly for API/MCP - none found for the community-events Bevy. One PulseMCP hit for "bevy" (aojiaoxiaolinlin/bevy-docs) is an unrelated name collision - it indexes the Bevy Rust game engine's documentation and has no connection to bevy.com.
+Checked github.com, PulseMCP, and bevy.com directly for API/MCP - none found for the community-events Bevy. One PulseMCP hit for "bevy" (aojiaoxiaolinlin/bevy-docs) is an unrelated name collision - it indexes the Bevy Rust game engine's documentation and has no connection to bevy.com. 2026-09-02: re-checked bevy.com (llms.txt loops in redirects), the official MCP registry (a bevy search is empty) and a web search; the only hits (bevy_brp_mcp, bevy_debugger_mcp) are for the Bevy Rust game engine. No MCP server found for bevy.com.
 
 **Provenance**
 
@@ -100,7 +100,7 @@ Checked github.com, PulseMCP, and bevy.com directly for API/MCP - none found for
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

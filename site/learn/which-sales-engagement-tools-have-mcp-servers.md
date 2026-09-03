@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 18 of 27, counted
+# Sales engagement and outbound tools with MCP servers: 19 of 27, counted
 
-> 18 of the 27 engagement & outbound tools in this directory have an MCP server: 17 official and 1 community. The list with server URLs and access gates. Counted 2026-09-03.
+> 19 of the 27 engagement & outbound tools in this directory have an MCP server: 18 official and 1 community. The list with server URLs and access gates. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-18 of the 27 engagement & outbound entries in this directory have an MCP server: 17 built and maintained by the vendor and 1 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+19 of the 27 engagement & outbound entries in this directory have an MCP server: 18 built and maintained by the vendor and 1 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -52,6 +52,8 @@ Cold email and LinkedIn outreach automation tool with inbox rotation, adaptive s
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
 - [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md) Official MCP · Enterprise only
 Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/task) cadences that enroll contacts pulled from Apollo's prospecting...
+- [Nooks](../tools/nooks.md) Official MCP · Enterprise only
+AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams.
 - [Outreach](../tools/outreach.md) Official MCP · Enterprise only
 Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM.
 - [Salesloft](../tools/salesloft.md) Official MCP · Enterprise only
@@ -61,7 +63,7 @@ Sales engagement and lead-gen platform for finding, verifying, and contacting B2
 
 ## The rest of the category
 
-9 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+8 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Expandi](../tools/expandi.md) MCP unknown · Paid, self-serve
 Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account.
@@ -75,8 +77,6 @@ Sales engagement platform for multichannel outbound (email, cold calling, SMS) w
 Sales engagement platform for automated email outreach campaigns with CRM integration and lead management.
 - [QuickMail](../tools/quickmail.md) No MCP found · Paid, self-serve
 Cold email and LinkedIn outreach automation tool sent from users' own mailboxes, with inbox rotation and reply management.
-- [Nooks](../tools/nooks.md) No MCP found · Enterprise only
-AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams.
 - [Orum](../tools/orum.md) No MCP found · Enterprise only
 AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers.
 - [Outplay](../tools/outplay.md) No MCP found · Gate unknown
@@ -92,7 +92,7 @@ Multi-channel sales engagement platform (email, phone, social, SMS) with an AI S
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
 | [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-03. Source file 02-engagement-outbound.md, content sha256 916a12898a5fc156...
+Counted 2026-09-03. Source file 02-engagement-outbound.md, content sha256 7f56d367e3cc829a...
 
 ## Sources
 

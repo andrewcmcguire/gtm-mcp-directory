@@ -1,6 +1,6 @@
-# Summarize a meeting: 22 GTM tools, 17 with an official MCP server
+# Summarize a meeting: 22 GTM tools, 18 with an official MCP server
 
-> Return notes, action items and next steps from a call or meeting. 20 of the 22 entries tagged with this job carry an MCP server of some kind, 17 of them official. Counted 2026-09-03 from the directory data.
+> Return notes, action items and next steps from a call or meeting. 21 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Summarize a meeting
 Return notes, action items and next steps from a call or meeting.
 
 - **entries tagged**: 22
-- **official MCP**: 17
+- **official MCP**: 18
 - **community MCP**: 3
-- **no MCP found**: 2
+- **no MCP found**: 1
 - **solo reachable**: 14
 
-20 of the 22 entries tagged with this job carry an MCP server of some kind, 17 of them official. All 22 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+21 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. All 22 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -71,6 +71,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Highspot](../tools/highspot.md) highspot.com Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its core content product. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Otter.ai](../tools/otter-ai.md) otter.ai AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor mentions, and pricing discussion live, then writes summaries and next steps back to the CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
@@ -84,8 +86,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Momentum](../tools/momentum.md) momentum.io Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration"). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 ### Next to this job
 

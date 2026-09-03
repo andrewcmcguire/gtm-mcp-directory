@@ -1,6 +1,6 @@
 # Quantified: MCP server status, API access gate and what it does
 
-> AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services)... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services)... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Quantified
 [Gate unknown](../gates/unknown.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Compliance-grade practice/certification layer for regulated sales orgs - narrowe
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.quantified.ai/platform/ai-roleplay, https://www.quantified.ai/, https://softwarefinder.com/sales-tools/quantified-ai, https://www.quantified.ai/pricing
 
 **Notes, verbatim from the file**
-No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Positioned explicitly for Fortune 500 regulated industries rather than SMB/mid-market - the most enterprise-narrow tool in this file. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is explicitly quote-only, stated as depending on field-team size and package rather than being published as a rate card, but neither the pricing page nor the integrations page mentions an API, developer access or credentials at all, so the API condition itself is not stated. Checked against https://www.quantified.ai/pricing.
+No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Positioned explicitly for Fortune 500 regulated industries rather than SMB/mid-market - the most enterprise-narrow tool in this file. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is explicitly quote-only, stated as depending on field-team size and package rather than being published as a rate card, but neither the pricing page nor the integrations page mentions an API, developer access or credentials at all, so the API condition itself is not stated. Checked against https://www.quantified.ai/pricing. 2026-09-02: re-checked https://www.quantified.ai/llms.txt (no MCP mention), the official MCP registry (no entry) and a web search (results were QuantConnect); no MCP server found.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. Positioned exp
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

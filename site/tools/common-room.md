@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://www.commonroom.io](https://www.commonroom.io) · entry id 05-common-room · source 05-signals-intent-abm.md line 279
+Vendor: [https://www.commonroom.io](https://www.commonroom.io) · entry id 05-common-room · source 05-signals-intent-abm.md line 284
 
 **What it does**
 Aggregates buyer/community engagement signals - Slack, Discord, GitHub activity (stars, PRs, issues), product usage, and third-party intent data (Bombora integration) - across a company's community/product channels into unified contact and organization profiles.
@@ -39,9 +39,9 @@ Community-led-growth and product-signal intelligence, especially for developer-t
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.commonroom.io/docs/using-common-room/mcp-server/](https://www.commonroom.io/docs/using-common-room/mcp-server/)Probed**: 2026-08-25, HTTP 200
+- **Docs URL[https://www.commonroom.io/docs/using-common-room/mcp-server/](https://www.commonroom.io/docs/using-common-room/mcp-server/)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -131,7 +131,7 @@ Official MCP exposes 4 tools (get_catalog, list_objects, create_object, update_o
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 279
+- **Source line**: 284
 
 - **Tier**: RESEARCHED
 

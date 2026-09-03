@@ -17,17 +17,17 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 - **entries in this file**: 14
 
 - **Official MCP**: 7
-- **MCP unknown**: 1
-- **No MCP found**: 6
+- **Community MCP**: 2
+- **No MCP found**: 5
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
 - **Enterprise only**: 3
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 4a5aa55ded6f08de... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 ecf6a9476e855c3a... · counts reconciled against tools_recount.py at build time.
 
-- [The 7 with an MCP server](../lists/mcp-proposals-deals.md)
+- [The 9 with an MCP server](../lists/mcp-proposals-deals.md)
 
 - [Send a document for signature](../jobs/send-document-for-signature.md)
 - [Generate a proposal or quote](../jobs/generate-proposal-or-quote.md)
@@ -48,7 +48,9 @@ Source file: 13-proposals-deals.md · content sha256 4a5aa55ded6f08de... · coun
 
 - [Ironclad](../tools/ironclad.md) ironcladapp.com Contract lifecycle management (CLM) platform for drafting, negotiating, and managing contracts with workflow automation across legal, sales, and procurement teams - sales-adjacent rather than a sales tool... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [DealHub (DealHub AI)](../tools/dealhub.md) dealhub.io CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time pricing logic, plus optional CLM and subscription-billing modules. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
+- [DealHub (DealHub AI)](../tools/dealhub.md) dealhub.io CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time pricing logic, plus optional CLM and subscription-billing modules. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Recapped.io](../tools/recapped-io.md) recapped.io Digital sales room and customer-onboarding collaboration platform for tracking mutual action plans, content sharing, and buyer engagement through the deal and post-sale handoff. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
 
@@ -57,7 +59,5 @@ Source file: 13-proposals-deals.md · content sha256 4a5aa55ded6f08de... · coun
 - [Proposify](../tools/proposify.md) proposify.com Proposal-creation and e-signature software with template libraries, approval workflows, and CRM/Salesforce integration for sales teams. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
-
-- [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Aligned (alignedup.com)](../tools/aligned.md) alignedup.com Digital sales room platform for buyer collaboration, mutual action plans, and centralized deal content, competing directly with Trumpet and Recapped.io in the same product category. [No MCP found](../mcp/none-found.md) · [Gate not applicable](../gates/n-a.md)

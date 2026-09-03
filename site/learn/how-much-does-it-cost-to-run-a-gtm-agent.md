@@ -34,7 +34,7 @@ Three places, and the model is usually the smallest of them.
 
 ## The cheapest honest way to find out
 
-Build the smallest end to end chain on free tiers, run a hundred records through it, and count. 44 products here are both free to start and have an MCP server, which is enough to build a research and contact chain without spending anything. [The free tier list is here.](../lists/free-api-tiers.md)
+Build the smallest end to end chain on free tiers, run a hundred records through it, and count. 46 products here are both free to start and have an MCP server, which is enough to build a research and contact chain without spending anything. [The free tier list is here.](../lists/free-api-tiers.md)
 
 ## The control that saves you
 

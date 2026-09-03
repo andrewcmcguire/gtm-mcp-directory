@@ -1,6 +1,6 @@
 # BetterContact: MCP server status, API access gate and what it does
 
-> A waterfall enrichment orchestrator that queries 20+ third-party email/phone data providers in sequence for a... No MCP found, Free to start. Checked 2026-08-24.
+> A waterfall enrichment orchestrator that queries 20+ third-party email/phone data providers in sequence for a... No MCP found, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ BetterContact
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ A meta-layer/orchestrator that sits above single-provider tools (Prospeo, Findym
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://composio.dev/toolkits/bettercontact, https://bettercontact.rocks/pricing/, https://bettercontact.rocks/, https://doc.bettercontact.rocks/quickstart, https://www.globenewswire.com/news-release/2025/11/26/3195350/0/en/AI-Powered-Waterfall-Enrichment-Platform-BetterContact-Announces-Partnership-with-Clay-for-Berlin-GTM-Community-Event.html
 
 **Notes, verbatim from the file**
-No genuine MCP server found despite checking bettercontact.rocks, kb.bettercontact.rocks, and doc.bettercontact.rocks directly - none mention MCP. A GitHub repo ("upivi982/bettercontact") surfaced in search but is an unaffiliated affiliate-marketing README (tracked referral links, no actual code) - not a real MCP server, not counted. BetterContact also appears only via Composio's generic multi-app connector, not counted per the same standard applied to Datagma. BetterContact announced a Clay partnership/co-hosted event (Nov 2025) and is positioned as Clay-compatible. Pricing is self-serve from a 50-credit free trial (no card) and a $15/mo Starter tier (200 credits) with API included; "use your own API keys" is a $199 add-on specifically on the Starter tier (included free at Enterprise, $799/mo+).
+No genuine MCP server found despite checking bettercontact.rocks, kb.bettercontact.rocks, and doc.bettercontact.rocks directly - none mention MCP. A GitHub repo ("upivi982/bettercontact") surfaced in search but is an unaffiliated affiliate-marketing README (tracked referral links, no actual code) - not a real MCP server, not counted. BetterContact also appears only via Composio's generic multi-app connector, not counted per the same standard applied to Datagma. BetterContact announced a Clay partnership/co-hosted event (Nov 2025) and is positioned as Clay-compatible. Pricing is self-serve from a 50-credit free trial (no card) and a $15/mo Starter tier (200 credits) with API included; "use your own API keys" is a $199 add-on specifically on the Starter tier (included free at Enterprise, $799/mo+). 2026-09-02: re-checked bettercontact.rocks/llms.txt (present, no MCP mention) and web search; only the Composio aggregator listing surfaces, no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ No genuine MCP server found despite checking bettercontact.rocks, kb.betterconta
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

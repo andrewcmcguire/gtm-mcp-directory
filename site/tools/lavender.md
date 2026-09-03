@@ -1,6 +1,6 @@
 # Lavender: MCP server status, API access gate and what it does
 
-> A Chrome extension and browser sidebar that sits inside Gmail, Outlook, and sales engagement tools and scores... No MCP found, Gate unknown. Checked 2026-08-25.
+> A Chrome extension and browser sidebar that sits inside Gmail, Outlook, and sales engagement tools and scores... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Lavender
 [Gate unknown](../gates/unknown.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-25
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Coaching and quality-control layer on top of whatever sending tool the team alre
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-25.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -97,7 +97,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.lavender.ai/, https://www.lavender.ai/coach, https://www.lavender.ai/paid-ai-email-coach, https://lavender.ai/ora, https://apitracker.io/a/trylavender, https://www.clay.com/integrations/action/rate-your-emails-lavender, https://www.pulsemcp.com/servers?q=lavender, https://glama.ai/mcp/servers?query=lavender
 
 **Notes, verbatim from the file**
-Added 2026-08-25 to close a known directory gap (Lavender was missing entirely). Pricing from the vendor's own page, annual billing: Basic free (5 emails/month analyzed, 5 personalized, Gmail and Outlook 365), Starter $27/mo, Individual Pro $45/mo (adds integrations), Team $89/seat/mo (adds the Coaching Dashboard, aggregated email analytics, and human-led coaching). Monthly billing is $29 / $49 / $99. Free for students, jobseekers, and bootstrapped founders. Ora is priced separately, free to build an agent then roughly $500/agent/month at launch per third-party trackers, not confirmed on the vendor site. MCP search was negative across PulseMCP (0 results), Glama (0 results), GitHub-scoped search, and general web search; Lavender's own site has no MCP mention. Listed integrations: Gmail, Outlook, Outreach, Salesloft, HubSpot, Apollo, Groove, Gong. CATEGORY CALL: filed here rather than in 02-engagement-outbound because the paid product is a scoring and critique layer around a human writing in a tool someone else owns, and its team tier is literally a coaching dashboard plus human-led coaching. Ora is the piece that would belong in 02 or 04 and deserves its own entry there if it grows. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is fully published and self-serve (Basic free forever $0, Starter $27/mo annual, Individual Pro $45, Team $89 per seat, plus Ora at $500 per agent per month) but no tier mentions API or developer access, higher tiers say only integrations, and no API docs are reachable (/api 404s, docs.lavender.ai returns 403). Checked against https://www.lavender.ai/coach.
+Added 2026-08-25 to close a known directory gap (Lavender was missing entirely). Pricing from the vendor's own page, annual billing: Basic free (5 emails/month analyzed, 5 personalized, Gmail and Outlook 365), Starter $27/mo, Individual Pro $45/mo (adds integrations), Team $89/seat/mo (adds the Coaching Dashboard, aggregated email analytics, and human-led coaching). Monthly billing is $29 / $49 / $99. Free for students, jobseekers, and bootstrapped founders. Ora is priced separately, free to build an agent then roughly $500/agent/month at launch per third-party trackers, not confirmed on the vendor site. MCP search was negative across PulseMCP (0 results), Glama (0 results), GitHub-scoped search, and general web search; Lavender's own site has no MCP mention. Listed integrations: Gmail, Outlook, Outreach, Salesloft, HubSpot, Apollo, Groove, Gong. CATEGORY CALL: filed here rather than in 02-engagement-outbound because the paid product is a scoring and critique layer around a human writing in a tool someone else owns, and its team tier is literally a coaching dashboard plus human-led coaching. Ora is the piece that would belong in 02 or 04 and deserves its own entry there if it grows. [api_gate 2026-08-25] Re-checked and left unknown, honestly: pricing is fully published and self-serve (Basic free forever $0, Starter $27/mo annual, Individual Pro $45, Team $89 per seat, plus Ora at $500 per agent per month) but no tier mentions API or developer access, higher tiers say only integrations, and no API docs are reachable (/api 404s, docs.lavender.ai returns 403). Checked against https://www.lavender.ai/coach. 2026-09-02: re-checked lavender.ai (no llms.txt), the official MCP registry (no entry) and a web search; no MCP server found.
 
 **Provenance**
 
@@ -109,7 +109,7 @@ Added 2026-08-25 to close a known directory gap (Lavender was missing entirely).
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-25
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Commsor: MCP server status, API access gate and what it does
 
-> Was a community-led-growth platform for converting professional-network relationships and referral/warm-intro... No MCP found, Gate unknown. Checked 2026-08-24.
+> Was a community-led-growth platform for converting professional-network relationships and referral/warm-intro... MCP not applicable, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Commsor
 
 # Commsor
 
-[No MCP found](../mcp/none-found.md)
+[MCP not applicable](../mcp/n-a.md)
 [Gate unknown](../gates/unknown.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,17 +32,17 @@ Was a direct Common Room competitor in the community-led-growth space; now folde
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP not applicable
 
 - **Auth**: n/a
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+An MCP server is not a meaningful question for this entry. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+n-a
 
 mcp_url, verbatim from the file:
 
@@ -90,7 +90,7 @@ Reason recorded by the tagging pass: dead. Folded into The Swarm's Go-to-Network
 https://commsor.com, https://www.commsor.com/pricing
 
 **Notes, verbatim from the file**
-STATUS FLAG - commsor.com now displays a banner: "The Swarm is Acquiring Commsor," linking through to commsor.theswarm.com. The page still shows Commsor-branded product marketing (warm-path surfacing, automated B2B referrals) but is functionally an acquisition-transition page rather than an independent product homepage. Treat Commsor as absorbed into The Swarm (theswarm.com) rather than as a standalone tool going forward; a future directory pass should research The Swarm directly if warm-intro/network-signal tools get their own coverage. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the domain is alive but the company is being acquired - a site banner reads that The Swarm is acquiring Commsor - and the product is now a go-to-network warm-intro platform. The /pricing link in the nav returns 404 on both commsor.com and www.commsor.com, with no API mention anywhere. Checked against https://www.commsor.com/pricing.
+STATUS FLAG - commsor.com now displays a banner: "The Swarm is Acquiring Commsor," linking through to commsor.theswarm.com. The page still shows Commsor-branded product marketing (warm-path surfacing, automated B2B referrals) but is functionally an acquisition-transition page rather than an independent product homepage. Treat Commsor as absorbed into The Swarm (theswarm.com) rather than as a standalone tool going forward; a future directory pass should research The Swarm directly if warm-intro/network-signal tools get their own coverage. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the domain is alive but the company is being acquired - a site banner reads that The Swarm is acquiring Commsor - and the product is now a go-to-network warm-intro platform. The /pricing link in the nav returns 404 on both commsor.com and www.commsor.com, with no API mention anywhere. Checked against https://www.commsor.com/pricing. 2026-09-02: mcp_status none-found -> n-a. https://www.commsor.com still carries the banner "The Swarm is Acquiring Commsor - Read the news" today and the product is being absorbed into The Swarm; there is no standalone Commsor product to have an MCP. The Swarm itself remains a candidate for a future pass.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ STATUS FLAG - commsor.com now displays a banner: "The Swarm is Acquiring Commsor
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

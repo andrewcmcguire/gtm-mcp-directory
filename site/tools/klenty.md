@@ -1,6 +1,6 @@
 # Klenty: MCP server status, API access gate and what it does
 
-> Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Klenty
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Multichannel outbound sequencing plus dialer/call-coaching layer, positioned tow
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **Category**: [AI SDRs](../categories/ai-sdr-agents.md)
 
-- **MCP status there**: No MCP found
+- **MCP status there**: Community MCP
 
 - **Gate there**: Paid, self-serve
 
@@ -113,7 +113,7 @@ What that listing says it does: A sales engagement platform whose AI layer ("Age
 https://www.klenty.com/pricing, https://www.klenty.com/
 
 **Notes, verbatim from the file**
-API access ("API Connections") is included starting at the Starter tier ($50/mo), not gated to higher tiers. Has one of the broadest AI feature lists researched in this category but also one of the vaguest.
+API access ("API Connections") is included starting at the Starter tier ($50/mo), not gated to higher tiers. Has one of the broadest AI feature lists researched in this category but also one of the vaguest. 2026-09-02: re-checked klenty.com/llms.txt (present, no MCP mention) and web search; only a Runbear aggregator listing surfaces, no MCP server found.
 
 **Provenance**
 
@@ -125,7 +125,7 @@ API access ("API Connections") is included starting at the Starter tier ($50/mo)
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

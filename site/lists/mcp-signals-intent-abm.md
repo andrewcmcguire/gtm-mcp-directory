@@ -1,6 +1,6 @@
-# Signals & Intent tools with MCP servers: 18 of 28, counted
+# Signals & Intent tools with MCP servers: 19 of 28, counted
 
-> 18 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 17 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
+> 19 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 18 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Signals & Intent tools with an MCP server
 
-**List · 18 of 293**
+**List · 19 of 293**
 
 ## Signals & Intent tools with an MCP server
 
-Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 18 of 28 entries in this category are reachable by an agent: 17 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
+Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 19 of 28 entries in this category are reachable by an agent: 18 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -34,6 +34,9 @@ api key (free sandbox key available) | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Official MCP](../mcp/official.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | API key
 Personal access token (generated in Settings > AI Features), used via Claude custom... | [Paid, self-serve](../gates/paid.md) |
+| [Keyplay](../tools/keyplay.md)
+keyplay.io | [Official MCP](../mcp/official.md) | [https://docs.keyplay.io/en/articles/13643214-keyplay...](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp) +1 more | OAuth or an API key
+OAuth for Claude.ai and Claude Desktop, API key for Claude Code, per the vendor's docs | [Paid, self-serve](../gates/paid.md) |
 | [RB2B](../tools/rb2b.md)
 rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | API key
 api key | [Paid, self-serve](../gates/paid.md) |
@@ -71,32 +74,30 @@ unknown - connects inside Claude/ChatGPT per the product page, but the exact aut
 trigify.io | [Community MCP](../mcp/community.md) | [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli) | API key
 api key (from app.trigify.io/settings; via `trigify login --api-key`, env var... | [Paid, self-serve](../gates/paid.md) |
 
-### The other 10 in this category
+### The other 9 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [Centralize](../tools/centralize.md)
-usecentralize.com | [MCP unknown](../mcp/unknown.md) | [Free to start](../gates/free.md) | 2026-08-25 |
+usecentralize.com | [MCP unknown](../mcp/unknown.md) | [Free to start](../gates/free.md) | 2026-09-02 |
+| [Vector (vector.co)](../tools/vector.md)
+vector.co | [MCP unknown](../mcp/unknown.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Koala](../tools/koala.md)
 getkoala.com | [MCP not applicable](../mcp/n-a.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Albacross](../tools/albacross.md)
-albacross.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+albacross.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md)
-clearbit.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+clearbit.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Intently (getintently.com)](../tools/intently.md)
-getintently.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Keyplay](../tools/keyplay.md)
-keyplay.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+getintently.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Live Data Technologies](../tools/live-data-technologies.md)
-livedatatechnologies.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Vector (vector.co)](../tools/vector.md)
-vector.co | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+livedatatechnologies.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Bombora (Company Surge)](../tools/bombora.md)
-bombora.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+bombora.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Champify](../tools/champify.md)
-champify.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
+champify.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 
 ### What this category is asked for
 

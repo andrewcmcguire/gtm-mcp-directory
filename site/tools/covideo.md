@@ -1,6 +1,6 @@
 # Covideo: MCP server status, API access gate and what it does
 
-> Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and... MCP unknown, Enterprise only. Checked 2026-08-24.
+> Records/sends/tracks personalized video messages via email, SMS, and social with Outlook/Gmail add-ins and... MCP unknown, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Covideo
 [Enterprise only](../gates/enterprise-only.md)
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Sales-enablement/dealer video messaging with tracking analytics (opens, watch %,
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-08-24.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.covideo.com/, https://www.covideo.com/sales-enablement-tools/, https://developer.covideo.com/ (401 on fetch - portal exists but gated), https://support.covideo.com/en/collections/2472505-integrations, https://www.covideo.com/pricing/
 
 **Notes, verbatim from the file**
-Confirmed actively operating in 2026 (current-year copyright, live dealership testimonials, active support). Long-running vendor (20+ years in business, per vendor claim). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.covideo.com/pricing/): Covideo publishes no pricing at all - /pricing is a get-a-quote form and every plan requires sales - and /api returns No Access while the integrations page never mentions an API.
+Confirmed actively operating in 2026 (current-year copyright, live dealership testimonials, active support). Long-running vendor (20+ years in business, per vendor claim). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.covideo.com/pricing/): Covideo publishes no pricing at all - /pricing is a get-a-quote form and every plan requires sales - and /api returns No Access while the integrations page never mentions an API. 2026-09-02: re-checked covideo.com/llms.txt (served a marketing page, no MCP mention) and web search (hits are Coveo and Invideo, unrelated); the developer portal remains gated, so nothing new could be read. Kept unknown.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ Confirmed actively operating in 2026 (current-year copyright, live dealership te
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

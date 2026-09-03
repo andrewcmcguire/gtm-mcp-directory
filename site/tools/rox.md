@@ -1,6 +1,6 @@
 # Rox: MCP server status, API access gate and what it does
 
-> An AI-powered revenue automation platform for enterprise sales teams, positioned as an autonomous SDR-style... No MCP found, Gate unknown. Checked 2026-08-24.
+> An AI-powered revenue automation platform for enterprise sales teams, positioned as an autonomous SDR-style... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Rox
 [Gate unknown](../gates/unknown.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Full-cycle revenue automation for large enterprise sales orgs - not sized or pri
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.rox.com, https://www.rox.com/pricing
 
 **Notes, verbatim from the file**
-Rox has built something called "Rox Tether," described on their site (dated July 29, 2026) as an "Agentic UI alternative to MCP Apps, A2UI or ChatGPT Apps" - i.e., Rox is positioning against MCP-style integration patterns rather than shipping an MCP server. Worth a dedicated look for category 7 (mcp-infrastructure) as a competitor/alternative protocol, not as an MCP itself. [api_gate 2026-08-25] Re-checked and left unknown, honestly: self-serve tiers are published at $100/mo Individual and $255/mo Teams plus a quote-only Enterprise, but neither the pricing page nor docs.rox.com (release notes only) states anything about API access. Checked against https://www.rox.com/pricing.
+Rox has built something called "Rox Tether," described on their site (dated July 29, 2026) as an "Agentic UI alternative to MCP Apps, A2UI or ChatGPT Apps" - i.e., Rox is positioning against MCP-style integration patterns rather than shipping an MCP server. Worth a dedicated look for category 7 (mcp-infrastructure) as a competitor/alternative protocol, not as an MCP itself. [api_gate 2026-08-25] Re-checked and left unknown, honestly: self-serve tiers are published at $100/mo Individual and $255/mo Teams plus a quote-only Enterprise, but neither the pricing page nor docs.rox.com (release notes only) states anything about API access. Checked against https://www.rox.com/pricing. 2026-09-02: re-checked https://www.rox.com/llms.txt (no MCP mention; it describes a Microsoft Copilot integration), the official MCP registry (no Rox entry) and a web search; no MCP server found. The Rox Tether positioning against MCP Apps is unchanged.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ Rox has built something called "Rox Tether," described on their site (dated July
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

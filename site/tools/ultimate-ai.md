@@ -1,6 +1,6 @@
 # Ultimate.ai (Ultimate): MCP server status, API access gate and what it does
 
-> unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving... No MCP found, Gate not applicable. Checked 2026-08-24.
+> unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving... No MCP found, Gate not applicable. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Ultimate.ai (Ultimate)
 [Gate not applicable](../gates/n-a.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ n/a today - historically an AI support-automation layer, now presumed folded int
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -86,12 +86,12 @@ Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agent
 - 2024
 - referenced via the newsroom listing
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.zendesk.com/newsroom/press-releases/ (press release "Zendesk to Acquire Ultimate," dated March 13, 2024, referenced via the newsroom listing)
 
 **Notes, verbatim from the file**
-STATUS FLAG - CONFIRMED ACQUIRED, integration outcome not independently confirmed beyond the announcement. Zendesk's own newsroom lists a March 13, 2024 press release titled "Zendesk to Acquire Ultimate." The historical getultimate.ai domain no longer resolves (DNS lookup failure) as of this research pass, consistent with the product being folded into Zendesk rather than sold separately, but the exact current state of the technology inside Zendesk's product line was not independently confirmed beyond the acquisition announcement itself.
+STATUS FLAG - CONFIRMED ACQUIRED, integration outcome not independently confirmed beyond the announcement. Zendesk's own newsroom lists a March 13, 2024 press release titled "Zendesk to Acquire Ultimate." The historical getultimate.ai domain no longer resolves (DNS lookup failure) as of this research pass, consistent with the product being folded into Zendesk rather than sold separately, but the exact current state of the technology inside Zendesk's product line was not independently confirmed beyond the acquisition announcement itself. 2026-09-02: re-checked. getultimate.ai still fails to resolve (curl returned no HTTP response); no vendor page exists to state the outcome, so none-found stands rather than n-a.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ STATUS FLAG - CONFIRMED ACQUIRED, integration outcome not independently confirme
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

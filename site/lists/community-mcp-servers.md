@@ -1,4 +1,4 @@
-# Community MCP servers: 20 GTM tools with a third party server
+# Community MCP servers: 26 GTM tools with a third party server
 
 > Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-03 across 293 directory entries.
 
@@ -6,16 +6,19 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 20 GTM tools with a community MCP server
+[The lists](index.md) / The 26 GTM tools with a community MCP server
 
-**List · 20 of 293**
+**List · 26 of 293**
 
-## The 20 GTM tools with a community MCP server
+## The 26 GTM tools with a community MCP server
 
 A community server is a real server. It is also a server that can be abandoned without the vendor noticing, which is the single most useful thing to know before you write one into a workflow. The repo health rail that would date stamp each one has not been run, so no staleness claim is made here.
 
 | Tool | Category | Server URL | Auth | Gate |
 |---|---|---|---|---|
+| [Landbot](../tools/landbot.md)
+landbot.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot) +1 more | Third party platform auth
+The operator's own Landbot API key stored with Composio; the Zapier connector rides... | [Free to start](../gates/free.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | API key
 karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session... | [Free to start](../gates/free.md) |
@@ -25,9 +28,18 @@ api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Video Prospecting](../categories/video-prospecting.md) | [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro) | OAuth
 Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side... | [Paid, self-serve](../gates/paid.md) |
+| [Chatbase](../tools/chatbase.md)
+chatbase.co | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://zapier.com/mcp/chatbase](https://zapier.com/mcp/chatbase) | Third party platform auth
+Rides Zapier's hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP... | [Paid, self-serve](../gates/paid.md) |
 | [Clari Copilot](../tools/clari-copilot.md)
 clari.com | [Conversation Intel](../categories/conversation-intel.md) | [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot) +1 more | OAuth or an API key
 Scalekit-hosted connector uses per-user delegated OAuth-style authorization in Scalekit's... | [Paid, self-serve](../gates/paid.md) |
+| [Klenty](../tools/klenty.md)
+klenty.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://zapier.com/mcp/klenty](https://zapier.com/mcp/klenty) +1 more | Third party platform auth
+Rides Zapier's hosted-connector auth at mcp.zapier.com (and Runbear's for the Slack... | [Paid, self-serve](../gates/paid.md) |
+| [Mention](../tools/mention.md)
+mention.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server) | API key
+Mention API key via the MCP_MENTION_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
 | [Motion](../tools/motion.md)
 usemotion.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://github.com/RF-D/motion-mcp](https://github.com/RF-D/motion-mcp) | API key
 API key (MOTION_API_KEY from Motion Settings -> API), per community repos. Rate limits... | [Paid, self-serve](../gates/paid.md) |
@@ -70,9 +82,15 @@ Community server: Chorus API key in the CHORUS_API_KEY environment variable (std
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
 API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
+| [DealHub (DealHub AI)](../tools/dealhub.md)
+dealhub.io | [Proposals & Deals](../categories/proposals-deals.md) | [https://www.pulsemcp.com/servers/vishvick-dealhub-ad...](https://www.pulsemcp.com/servers/vishvick-dealhub-admin) | Auth not recorded
+unknown - stdio transport run locally against the customer's own DealHub instance per the... | [Enterprise only](../gates/enterprise-only.md) |
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
+| [Loopio](../tools/loopio.md)
+loopio.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth
+OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the... | [Enterprise only](../gates/enterprise-only.md) |
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |

@@ -1,6 +1,6 @@
 # GetAccept: MCP server status, API access gate and what it does
 
-> Digital sales room and e-signature platform combining proposal delivery, contract tracking, and an... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Digital sales room and e-signature platform combining proposal delivery, contract tracking, and an... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ GetAccept
 [Paid, self-serve](../gates/paid.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Digital sales room / proposal-and-signature layer, positioned as a GetAccept-vs-
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.getaccept.com/api, https://www.getaccept.com/pricing, https://www.getapp.com/sales-software/a/getaccept/
 
 **Notes, verbatim from the file**
-No MCP reference found anywhere in this research.
+No MCP reference found anywhere in this research. 2026-09-02: re-checked getaccept.com/llms.txt (404), getaccept.com/api (no MCP mention), web search and the MCP registry (empty for getaccept); no MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ No MCP reference found anywhere in this research.
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Pocus: MCP server status, API access gate and what it does
 
-> Was a PLG/product-usage-signal platform - AI agents for account prioritization, an "intelligent inbox" for... No MCP found, Gate not applicable. Checked 2026-08-24.
+> Was a PLG/product-usage-signal platform - AI agents for account prioritization, an "intelligent inbox" for... MCP not applicable, Gate not applicable. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Pocus
 
 # Pocus
 
-[No MCP found](../mcp/none-found.md)
+[MCP not applicable](../mcp/n-a.md)
 [Gate not applicable](../gates/n-a.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,17 +32,17 @@ Formerly a PLG-signal-to-sales bridge for product-led companies (customer refere
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP not applicable
 
 - **Auth**: n/a
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+An MCP server is not a meaningful question for this entry. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+n-a
 
 mcp_url, verbatim from the file:
 
@@ -82,12 +82,12 @@ Reason recorded by the tagging pass: dead. Absorbed into a competitor; the entry
 
 - [https://pocus.com](https://pocus.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://pocus.com
 
 **Notes, verbatim from the file**
-STATUS FLAG - CONFIRMED ACQUIRED. Pocus.com's homepage carries a banner reading "Thrilled to announce today, Pocus is joining Apollo" - i.e., Pocus has been acquired by Apollo.io (the sales-intelligence platform), effective as of this research pass. Treat this as an absorbed product, not a live standalone purchase option; verify with Apollo directly for what, if anything, persists as a distinct feature.
+STATUS FLAG - CONFIRMED ACQUIRED. Pocus.com's homepage carries a banner reading "Thrilled to announce today, Pocus is joining Apollo" - i.e., Pocus has been acquired by Apollo.io (the sales-intelligence platform), effective as of this research pass. Treat this as an absorbed product, not a live standalone purchase option; verify with Apollo directly for what, if anything, persists as a distinct feature. 2026-09-02: mcp_status none-found -> n-a. https://www.pocus.com still carries "Thrilled to announce today, Pocus is joining Apollo - learn more." on its own homepage today; an absorbed product has no standalone MCP to find. Apollo's own MCP story belongs to its entry elsewhere in the directory.
 
 **Provenance**
 
@@ -99,7 +99,7 @@ STATUS FLAG - CONFIRMED ACQUIRED. Pocus.com's homepage carries a banner reading 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

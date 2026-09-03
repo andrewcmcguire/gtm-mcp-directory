@@ -1,6 +1,6 @@
 # Trainual: MCP server status, API access gate and what it does
 
-> SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR... Official MCP, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Trainual
 
 # Trainual
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Paid, self-serve](../gates/paid.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,27 @@ General SOP/onboarding documentation tool that sales orgs use for process conten
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: n/a
+- **Auth**: Bearer MCP token in the Authorization header; the help article states "Only those with an Admin+ permission level can create MCP tokens" and "The Trainual MCP is available under Premium and Enterprise plans."
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server)Probed**: 2026-09-03, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-none-found
+official
 
 mcp_url, verbatim from the file:
 
-n/a
+https://help.trainual.com/en/the-trainual-mcp-server (endpoint https://mcp.trainual.com, remote MCP server)
+
+- [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server)
+- [https://mcp.trainual.com](https://mcp.trainual.com)
 
 **Access gate**
 
@@ -87,13 +93,16 @@ Reason recorded by the tagging pass: no-job-fits. SOP and process documentation,
 - [https://trainual.com/pricing](https://trainual.com/pricing)
 - [https://operandio.com/trainual-pricing/](https://operandio.com/trainual-pricing/)
 - [https://github.com/trainual/tiptap-collaboration-mcp](https://github.com/trainual/tiptap-collaboration-mcp)
+- [https://trainual.com/product-updates/connect-trainual-integrations](https://trainual.com/product-updates/connect-trainual-integrations)
+- [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server)
+- [https://zapier.com/mcp/trainual](https://zapier.com/mcp/trainual)
 
-3 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://trainual.com/pricing, https://operandio.com/trainual-pricing/, https://github.com/trainual/tiptap-collaboration-mcp
+https://trainual.com/pricing, https://operandio.com/trainual-pricing/, https://github.com/trainual/tiptap-collaboration-mcp, https://trainual.com/product-updates/connect-trainual-integrations, https://help.trainual.com/en/the-trainual-mcp-server, https://zapier.com/mcp/trainual
 
 **Notes, verbatim from the file**
-A public GitHub repo at github.com/trainual/tiptap-collaboration-mcp is real and maintained by Trainual's own GitHub org, but per its README it is an MCP server for Tiptap's collaboration/document service (Trainual's underlying editor infrastructure) - it does not expose Trainual's own product/training data. Do not cite it as a "Trainual product MCP"; mcp_status is none-found for Trainual-the-product on that basis.
+A public GitHub repo at github.com/trainual/tiptap-collaboration-mcp is real and maintained by Trainual's own GitHub org, but per its README it is an MCP server for Tiptap's collaboration/document service (Trainual's underlying editor infrastructure) - it does not expose Trainual's own product/training data. Do not cite it as a "Trainual product MCP"; mcp_status is none-found for Trainual-the-product on that basis. 2026-09-02: mcp_status none-found -> official. Trainual's own help center article https://help.trainual.com/en/the-trainual-mcp-server documents a remote MCP server at https://mcp.trainual.com, configured in Claude Desktop, Cursor or Windsurf with an Authorization: Bearer <your-mcp-token> header, tokens created by Admin+ users, gated to the Premium and Enterprise plans; the 2026-07-14 product update https://trainual.com/product-updates/connect-trainual-integrations announces it ("Connect them to Trainual's Model Context Protocol (MCP) server"). Zapier and viaSocket also host third-party Trainual connectors (https://zapier.com/mcp/trainual: 5 triggers, 7 write actions), which are now secondary. trainual.com has no llms.txt and the official MCP registry has no trainual entry, which is why the 2026-08-24 pass found only the unrelated tiptap-collaboration-mcp repo; that caveat about the Tiptap repo still stands, but it no longer decides mcp_status. api_gate is left as recorded because it describes API access; the MCP plan gate is stated above.
 
 **Provenance**
 
@@ -105,7 +114,7 @@ A public GitHub repo at github.com/trainual/tiptap-collaboration-mcp is real and
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

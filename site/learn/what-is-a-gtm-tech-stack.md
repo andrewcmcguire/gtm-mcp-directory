@@ -25,30 +25,30 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 | [RevOps Infra](../categories/revops-infra.md) | 23 | 21 | 0 | 91% |
 | [Conversation Intel](../categories/conversation-intel.md) | 24 | 18 | 3 | 88% |
 | [Data & Enrichment](../categories/data-enrichment.md) | 38 | 31 | 2 | 87% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 27 | 17 | 1 | 67% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 28 | 17 | 1 | 64% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 27 | 18 | 1 | 70% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 28 | 18 | 1 | 68% |
 | [Video Prospecting](../categories/video-prospecting.md) | 14 | 3 | 6 | 64% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 14 | 7 | 2 | 64% |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 13 | 8 | 0 | 62% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 15 | 6 | 2 | 53% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 14 | 5 | 2 | 50% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 14 | 7 | 0 | 50% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 15 | 5 | 0 | 33% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 16 | 3 | 2 | 31% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 16 | 5 | 3 | 50% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 7 | 3 | 43% |
 | [Email Deliverability](../categories/email-deliverability.md) | 13 | 4 | 0 | 31% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 4 | 2 | 26% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 2 | 1 | 21% |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 3 | 0 | 18% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 1 | 1 | 14% |
 
 Counted 2026-09-03. Totals sum to 293 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
-The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 4 official servers out of 23.
+The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 7 official servers out of 23.
 
 If you are assembling a stack an agent can drive, build it from the top of that table down. The bottom is where you will still be writing glue, or clicking.
 
 ## The second filter
 
-Reachable is not the same as available. 77 entries need a contract before anybody gets an API key. Cross those two columns before you plan anything: the list you actually get to build with is the 123 entries that have a server and are free to start or paid self serve.
+Reachable is not the same as available. 77 entries need a contract before anybody gets an API key. Cross those two columns before you plan anything: the list you actually get to build with is the 132 entries that have a server and are free to start or paid self serve.
 
 ## Sources
 

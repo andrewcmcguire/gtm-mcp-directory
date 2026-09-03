@@ -1,6 +1,6 @@
-# GTM MCP servers that use OAuth: 48 tools, counted
+# GTM MCP servers that use OAuth: 52 tools, counted
 
-> 48 of the 167 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
+> 52 of the 182 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use OAuth
 
-**List · 48 of 293**
+**List · 52 of 293**
 
 ## GTM MCP servers that use OAuth
 
@@ -36,6 +36,8 @@ relevanceai.com | [Official MCP](../mcp/official.md) | [https://relevanceai.com/
 retool.com | [Official MCP](../mcp/official.md) | [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server) | OAuth 2.0. Endpoint pattern https:///mcp over HTTP. | [Free to start](../gates/free.md) |
 | [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md)
 snowflake.com | [Official MCP](../mcp/official.md) | [https://docs.snowflake.com/en/user-guide/snowflake-c...](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp) | Snowflake OAuth 2.0 by default, or External OAuth (Okta, Microsoft Entra ID); hardcoded PATs/tokens are explicitly discouraged. Exposes Cortex Agent,... | [Free to start](../gates/free.md) |
+| [Tidio](../tools/tidio.md)
+tidio.com | [Official MCP](../mcp/official.md) | [https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector) +1 more | OAuth: the tidio_connect tool opens a browser to Tidio's login page, then stores access and refresh tokens locally in ~/.tidio-mcp/credentials.json. | [Free to start](../gates/free.md) |
 | [Trumpet (sendtrumpet.com)](../tools/trumpet.md)
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://www.sendtrumpet.com/blog-posts/introducing-t...](https://www.sendtrumpet.com/blog-posts/introducing-trumpet-mcp) | unknown - vendor states it is "installable in five minutes with no engineering required," implying a simple hosted-connector flow, but the specific... | [Free to start](../gates/free.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
@@ -46,6 +48,8 @@ zoominfo.com | [Official MCP](../mcp/official.md) | [https://mcp.zoominfo.com/mc
 allegrow.co | [Official MCP](../mcp/official.md) | [https://www.allegrow.co/knowledge-base/claude-email-...](https://www.allegrow.co/knowledge-base/claude-email-mcp) | OAuth - connects through Claude's standard connector authorization flow; user logs into their Allegrow account and grants access explicitly (no... | [Paid, self-serve](../gates/paid.md) |
 | [Apollo.io](../tools/apollo-io.md)
 apollo.io | [Official MCP](../mcp/official.md) | [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) | OAuth (Apollo.io sign-in/authorization flow in the client) | [Paid, self-serve](../gates/paid.md) |
+| [Brand24](../tools/brand24.md)
+brand24.com | [Official MCP](../mcp/official.md) | [https://help.brand24.com/en/articles/13011375-brand2...](https://help.brand24.com/en/articles/13011375-brand24-mcp) +1 more | OAuth; the help article states "MCP access is available to Brand24 subscribers. The data available in MCP reflects what's in your active projects." | [Paid, self-serve](../gates/paid.md) |
 | [Circleback](../tools/circleback.md)
 circleback.ai | [Official MCP](../mcp/official.md) | [https://circleback.ai/api/mcp](https://circleback.ai/api/mcp) +2 more | OAuth with dynamic client registration, compliant with the authenticated remote MCP spec. Centrally hosted and managed by Circleback. | [Paid, self-serve](../gates/paid.md) |
 | [Coresignal](../tools/coresignal.md)
@@ -98,6 +102,8 @@ crossbeam.com | [Official MCP](../mcp/official.md) | [https://mcp.crossbeam.com/
 g2.com | [Official MCP](../mcp/official.md) | [https://mcp.g2.com/mcp](https://mcp.g2.com/mcp) +2 more | OAuth 2.0 Authorization Code with PKCE. You register an OAuth app in the G2 Developer Dashboard at https://my.g2.com/developers to get a client_id... | [Enterprise only](../gates/enterprise-only.md) |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
 turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic Client Registration for the servers it fronts. | [Enterprise only](../gates/enterprise-only.md) |
+| [Nooks](../tools/nooks.md)
+nooks.ai | [Official MCP](../mcp/official.md) | [https://mcp.nooks.in/mcp](https://mcp.nooks.in/mcp) +1 more | OAuth 2.0 authorization code with PKCE (S256), issuer https://oauth.nooks.in, per the server's own /.well-known/oauth-authorization-server metadata;... | [Enterprise only](../gates/enterprise-only.md) |
 | [Outreach](../tools/outreach.md)
 outreach.ai | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on to be enabled and admin-toggled - not available to every... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
@@ -112,5 +118,7 @@ usepylon.com | [Official MCP](../mcp/official.md) | [https://mcp.usepylon.com](h
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://trumpet.app/api/mcp](https://trumpet.app/api/mcp) +2 more | OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0)"; setup flow is add-custom-connector → paste MCP server URL →... | [Gate unknown](../gates/unknown.md) |
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro) | Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side connection). | [Paid, self-serve](../gates/paid.md) |
+| [Loopio](../tools/loopio.md)
+loopio.com | [Community MCP](../mcp/community.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the Loopio Data API v2, per the repo README; runs locally over... | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

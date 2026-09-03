@@ -36,7 +36,7 @@ Three details that matter. The name is yours and appears in the client. The comm
 
 ## The remote shape
 
-You give the client a URL, it connects over HTTP, and auth is usually a browser sign in that hands back a scoped token. Nothing is installed and the vendor ships updates without you. Of the 167 servers counted here, [the OAuth ones](../lists/auth-oauth.md) are almost all this shape.
+You give the client a URL, it connects over HTTP, and auth is usually a browser sign in that hands back a scoped token. Nothing is installed and the vendor ships updates without you. Of the 182 servers counted here, [the OAuth ones](../lists/auth-oauth.md) are almost all this shape.
 
 ## The four things that go wrong
 
@@ -50,7 +50,7 @@ You give the client a URL, it connects over HTTP, and auth is usually a browser 
 
 ## Where to find the right block
 
-Every tool page here prints the vendor's mcp_url and mcp_auth verbatim, exactly as recorded, plus a link to the vendor's own documentation where one is published. 181 entries carry a parseable URL and 30 carry a documentation URL. No install snippet is reproduced anywhere on this site, because a snippet copied from a directory is a snippet that goes stale without anybody noticing.
+Every tool page here prints the vendor's mcp_url and mcp_auth verbatim, exactly as recorded, plus a link to the vendor's own documentation where one is published. 200 entries carry a parseable URL and 30 carry a documentation URL. No install snippet is reproduced anywhere on this site, because a snippet copied from a directory is a snippet that goes stale without anybody noticing.
 
 ## Sources
 

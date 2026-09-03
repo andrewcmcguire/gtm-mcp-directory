@@ -23,8 +23,8 @@ The drafting is the easy half and it is not where quality comes from. What decid
 | Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
 | Find a real trigger | [detect a funding or news event](../jobs/detect-funding-or-news-event.md) | 12 | 10 | 4 |
 | Scrape the specific page | [scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) | 6 | 5 | 2 |
-| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 25 | 6 |
-| Send it | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 24 | 3 |
+| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 28 | 6 |
+| Send it | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 26 | 3 |
 | Read what happened | [read outreach performance](../jobs/read-outreach-performance.md) | 14 | 7 | 2 |
 
 ## Why the research step is the whole game
@@ -54,7 +54,7 @@ Cold email sending platform providing mailbox infrastructure, warmup, deliverabi
 - [La Growth Machine](../tools/la-growth-machine.md) Official MCP · Paid, self-serve
 Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with...
 
-13 more are on the linked page. The cut is the display limit, not a ranking.
+15 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The failure mode to design against
 

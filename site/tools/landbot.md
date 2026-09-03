@@ -1,6 +1,6 @@
 # Landbot: MCP server status, API access gate and what it does
 
-> No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows... No MCP found, Free to start. Checked 2026-08-24.
+> No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows... Community MCP, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Landbot
 
 # Landbot
 
-[No MCP found](../mcp/none-found.md)
+[Community MCP](../mcp/community.md)
 [Free to start](../gates/free.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,27 @@ Low-friction, self-serve entry point for building an AI-assisted inbound chat fl
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Community MCP
 
-- **Auth**: n/a
+- **Auth**: The operator's own Landbot API key stored with Composio; the Zapier connector rides Zapier's hosted auth at mcp.zapier.com.
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)Probed**: 2026-09-03, HTTP 200
+
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-none-found
+community
 
 mcp_url, verbatim from the file:
 
-none
+https://composio.dev/toolkits/landbot (Composio-hosted, 13 tools); https://zapier.com/mcp/landbot (Zapier-hosted, trigger only)
+
+- [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)
+- [https://zapier.com/mcp/landbot](https://zapier.com/mcp/landbot)
 
 **Access gate**
 
@@ -82,13 +88,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://landbot.io](https://landbot.io)
 - [https://landbot.io/pricing](https://landbot.io/pricing)
+- [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)
+- [https://zapier.com/mcp/landbot](https://zapier.com/mcp/landbot)
 
-2 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://landbot.io, https://landbot.io/pricing
+https://landbot.io, https://landbot.io/pricing, https://composio.dev/toolkits/landbot, https://zapier.com/mcp/landbot
 
 **Notes, verbatim from the file**
-Checked PulseMCP directly - zero results for "landbot," consistent with none-found.
+Checked PulseMCP directly - zero results for "landbot," consistent with none-found. 2026-09-02: mcp_status none-found -> community. Composio's Landbot toolkit answers today with 13 tools (List Bots, Delete Bot, List Agents, Update Agent, Set Agent Status, Replace Agent, List Customers, List Channels, List WhatsApp Templates, Send Message, Get Brand, Update Brand, Replace Brand) authenticated with your own Landbot API key, and https://zapier.com/mcp/landbot exposes a single Zapier Block Activated trigger. Landbot publishes no MCP of its own: landbot.io has no llms.txt and the official MCP registry has no entry. Third-party hosted connectors only, so community, unofficial.
 
 **Provenance**
 
@@ -100,7 +108,7 @@ Checked PulseMCP directly - zero results for "landbot," consistent with none-fou
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

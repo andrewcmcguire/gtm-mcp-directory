@@ -1,6 +1,6 @@
 # Hyperbound: MCP server status, API access gate and what it does
 
-> AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI... No MCP found, Gate unknown. Checked 2026-08-24.
+> AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Hyperbound
 [Gate unknown](../gates/unknown.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Practice and live-call scoring layer that integrates into an existing conversati
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.hyperbound.ai/product/ai-sales-roleplays, https://www.hyperbound.ai/pricing, https://www.hyperbound.ai/uses/ai-cold-call-practice, https://ycombinator.com/companies/hyperbound
 
 **Notes, verbatim from the file**
-Listed on the Zoom App Marketplace, Microsoft AppSource, and Salesforce AppExchange as an app/integration - those are marketplace listings, not MCP servers. No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. [api_gate 2026-08-25] Re-checked and left unknown, honestly: every fetch of the vendor's own site returned HTTP 403 (bot-blocked at the edge) on the homepage, /pricing and /pricing/, so no page could be read. Not a finding about the product, a finding about the fetch. Checked against https://www.hyperbound.ai/pricing.
+Listed on the Zoom App Marketplace, Microsoft AppSource, and Salesforce AppExchange as an app/integration - those are marketplace listings, not MCP servers. No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. [api_gate 2026-08-25] Re-checked and left unknown, honestly: every fetch of the vendor's own site returned HTTP 403 (bot-blocked at the edge) on the homepage, /pricing and /pricing/, so no page could be read. Not a finding about the product, a finding about the fetch. Checked against https://www.hyperbound.ai/pricing. 2026-09-02: re-checked. hyperbound.ai still returns HTTP 403 to fetches (could not fetch https://www.hyperbound.ai/llms.txt (403)); the official MCP registry has no entry and a web search returns only Hyperbrowser and Hyperliquid name collisions. No MCP server found.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ Listed on the Zoom App Marketplace, Microsoft AppSource, and Salesforce AppExcha
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Varicent: MCP server status, API access gate and what it does
 
-> Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting,... No MCP found, Enterprise only. Checked 2026-08-24.
+> Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting,... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Varicent
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Comp-plus-forecasting suite for large, complex organizations with dedicated sale
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.varicent.com/products/sales-planning-software, https://www.varicent.com/ai-for-sales, https://elt.varicent.com/assets/elt-docs/en/get-started/account-settings/api-keys.html, https://www.opensymmetry.com/api-varicent/, https://www.pulsemcp.com/servers?q=varicent
 
 **Notes, verbatim from the file**
-None.
+None. 2026-09-02: re-checked varicent.com (no llms.txt), the official MCP registry (no entry) and a vendor-domain web search; no MCP server found.
 
 **Provenance**
 
@@ -105,7 +105,7 @@ None.
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

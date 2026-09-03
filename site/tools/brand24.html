@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Brand24: MCP server status, API access gate and what it does</title>
-<meta name="description" content="Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts, and review sites, then... No MCP found, Paid, self-serve. Checked 2026-08-24.">
+<meta name="description" content="Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts, and review sites, then... Official MCP, Paid, self-serve. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/brand24.html">
@@ -31,6 +31,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://help.brand24.com/en/articles/13011375-brand24-mcp"
   }
 }
 </script>
@@ -87,11 +91,11 @@ Brand24</div>
 <div class="toolhead">
 <h1>Brand24</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
 <a class="badge gold" href="../gates/paid.html">Paid, self-serve</a>
 <a class="badge mute flat" href="../categories/community-dark-social.html">Community &amp; Dark Social</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -101,25 +105,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 15-brand24 &middot; source
 15-community-dark-social.md line 140</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts, and review sites, then scores sentiment and surfaces coverage spikes and influencer reach.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">&quot;AI Insights&quot; (recommendations), &quot;AI Topics&quot; (trend identification), &quot;Events Detection&quot; (spike recognition), and a newer &quot;AI Visibility module&quot; tracking brand representation inside AI platforms - all vendor-described; sentiment scoring itself is a long-standing, largely rules/ML-hybrid capability across this whole category, not a novel claim specific to Brand24.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Mid-market social-listening layer positioned below Brandwatch/Meltwater on price, feeding brand-mention and sentiment data into marketing/comms workflows.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
-
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">OAuth; the help article states &quot;MCP access is available to Brand24 subscribers. The data available in MCP reflects what&#x27;s in your active projects.&quot;</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">docs page, not an endpoint</div></div><div><div class="bk">Docs URL</div><div class="bv mono"><a href="https://help.brand24.com/en/articles/13011375-brand24-mcp" rel="noopener nofollow">https://help.brand24.com/en/articles/13011375-brand24-mcp</a></div></div><div><div class="bk">Probed</div><div class="bv">2026-09-03, HTTP 200</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24.</p>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">none</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://help.brand24.com/en/articles/13011375-brand24-mcp (endpoint https://mcp.brand24.com/v1/mcp)</p><ul><li><a href="https://help.brand24.com/en/articles/13011375-brand24-mcp" rel="noopener nofollow">https://help.brand24.com/en/articles/13011375-brand24-mcp</a></li><li><a href="https://mcp.brand24.com/v1/mcp" rel="noopener nofollow">https://mcp.brand24.com/v1/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>paid, and gated further - API access is a flat &quot;extra fee&quot; of $99 layered on top of any paid plan (Individual $199/mo up to Business $699/mo, Enterprise from $1,499/yr custom); there is no free API tier.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/monitor-social-mentions.html">Monitor social and community mentions</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://brand24.com/pricing/" rel="noopener nofollow">https://brand24.com/pricing/</a></li></ul><p class="note">1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim: </p><p class="v mono">https://brand24.com/pricing/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Checked GitHub and PulseMCP for &quot;brand24&quot; - no MCP server found under either official or community listings.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>paid, and gated further - API access is a flat &quot;extra fee&quot; of $99 layered on top of any paid plan (Individual $199/mo up to Business $699/mo, Enterprise from $1,499/yr custom); there is no free API tier.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/monitor-social-mentions.html">Monitor social and community mentions</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://brand24.com/pricing/" rel="noopener nofollow">https://brand24.com/pricing/</a></li><li><a href="https://help.brand24.com/en/articles/13011375-brand24-mcp" rel="noopener nofollow">https://help.brand24.com/en/articles/13011375-brand24-mcp</a></li><li><a href="https://updates.brand24.com/brand24-mcp-enhance-chatgpt-claude-or-any-other-ai-agent-with-insights-from-your-projects-329207" rel="noopener nofollow">https://updates.brand24.com/brand24-mcp-enhance-chatgpt-claude-or-any-other-ai-agent-with-insights-from-your-projects-329207</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://brand24.com/pricing/, https://help.brand24.com/en/articles/13011375-brand24-mcp, https://updates.brand24.com/brand24-mcp-enhance-chatgpt-claude-or-any-other-ai-agent-with-insights-from-your-projects-329207</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Checked GitHub and PulseMCP for &quot;brand24&quot; - no MCP server found under either official or community listings. 2026-09-02: mcp_status none-found -&gt; official. Brand24&#x27;s own help center article &quot;Brand24 MCP&quot; (dated 2026-02-27) documents a remote server at https://mcp.brand24.com/v1/mcp with OAuth, for ChatGPT, Claude, Gemini or any MCP-compatible agent, returning project summaries, key events, discussion topics, influencer statistics and source insights; a changelog post and a ChatGPT app built on the same MCP corroborate it. https://brand24.com/llms.txt has no MCP mention and the official MCP registry has no brand24 entry, which is why the 2026-08-24 pass missed it. Requires a paid Brand24 subscription; api_gate unchanged.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">15-brand24</div></div>
 <div><div class="bk">Source file</div><div class="bv">15-community-dark-social.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">140</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-03</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
@@ -132,8 +136,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

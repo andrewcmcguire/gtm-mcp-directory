@@ -1,6 +1,6 @@
-# GTM MCP servers behind a third party connector platform: 4 tools, counted
+# GTM MCP servers behind a third party connector platform: 7 tools, counted
 
-> 4 of the 167 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
+> 7 of the 182 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers behind a third party connector platform
 
-**List · 4 of 293**
+**List · 7 of 293**
 
 ## GTM MCP servers behind a third party connector platform
 
@@ -16,6 +16,12 @@ Auth is handled by a connector platform sitting between the agent and the vendor
 
 | Tool | MCP status | Server URL | mcp_auth, verbatim | Gate |
 |---|---|---|---|---|
+| [Landbot](../tools/landbot.md)
+landbot.io | [Community MCP](../mcp/community.md) | [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot) +1 more | The operator's own Landbot API key stored with Composio; the Zapier connector rides Zapier's hosted auth at mcp.zapier.com. | [Free to start](../gates/free.md) |
+| [Chatbase](../tools/chatbase.md)
+chatbase.co | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/chatbase](https://zapier.com/mcp/chatbase) | Rides Zapier's hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP credential. | [Paid, self-serve](../gates/paid.md) |
+| [Klenty](../tools/klenty.md)
+klenty.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/klenty](https://zapier.com/mcp/klenty) +1 more | Rides Zapier's hosted-connector auth at mcp.zapier.com (and Runbear's for the Slack connector), not a Klenty-issued MCP credential. | [Paid, self-serve](../gates/paid.md) |
 | [Sendspark](../tools/sendspark.md)
 sendspark.com | [Community MCP](../mcp/community.md) | [https://composio.dev/toolkits/sendspark](https://composio.dev/toolkits/sendspark) | API-key based - Composio's page states Sendspark requires the user's own API key, which Composio then stores/manages. | [Paid, self-serve](../gates/paid.md) |
 | [Vidyard](../tools/vidyard.md)

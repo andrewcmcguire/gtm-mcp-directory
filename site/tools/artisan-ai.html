@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Artisan AI (Ava): MCP server status, API access gate and what it does</title>
-<meta name="description" content="An AI agent (&quot;Ava&quot;) that finds and enriches B2B leads, writes and sends personalized outreach, handles... No MCP found, Enterprise only. Checked 2026-08-24.">
+<meta name="description" content="An AI agent (&quot;Ava&quot;) that finds and enriches B2B leads, writes and sends personalized outreach, handles... Official MCP, Enterprise only. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/artisan-ai.html">
@@ -35,6 +35,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://www.artisan.co/mcp"
   }
 }
 </script>
@@ -91,11 +95,11 @@ Artisan AI (Ava)</div>
 <div class="toolhead">
 <h1>Artisan AI (Ava)</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
 <a class="badge copper" href="../gates/enterprise-only.html">Enterprise only</a>
 <a class="badge mute flat" href="../categories/ai-sdr-agents.html">AI SDRs</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -105,25 +109,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 04-artisan-ai &middot; source
 04-ai-sdr-agents.md line 30</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">An AI agent (&quot;Ava&quot;) that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as running outbound &quot;end to end.&quot;</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Lead research/enrichment and message personalization are AI-driven per vendor copy; reply-handling and end-to-end autonomy claims (&quot;runs outbound end to end&quot;) could not be independently verified - treat as vendor-copy-only until bench-tested.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Full-funnel outbound replacement layer - positioned to replace an entire SDR hire, not just a sequencing tool.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
-
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">none required - a JSON-RPC initialize POST to the endpoint with no credentials answered HTTP 200 on 2026-09-02 (serverInfo name &quot;artisan-content&quot;, title &quot;Artisan Content MCP&quot;, version 1.0.0)</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">answered as an MCP server</div></div><div><div class="bk">Endpoint URL</div><div class="bv mono"><a href="https://www.artisan.co/mcp" rel="noopener nofollow">https://www.artisan.co/mcp</a></div></div><div><div class="bk">Probed</div><div class="bv">2026-09-03, HTTP 200</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24.</p>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">The mcp_url field is empty on this entry. 21 of 293 entries are.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official (content-only)</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://www.artisan.co/mcp</p><ul><li><a href="https://www.artisan.co/mcp" rel="noopener nofollow">https://www.artisan.co/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>enterprise-only (all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan&#x27;s marketing content)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/search-people-by-criteria.html">Search people by criteria</a></li><li><a href="../jobs/run-email-sequence.html">Run an email sequence</a></li><li><a href="../jobs/draft-personalized-outreach.html">Draft personalized outreach</a></li><li><a href="../jobs/run-autonomous-sdr-agent.html">Run an autonomous SDR agent</a></li><li><a href="../jobs/book-a-meeting.html">Book a meeting</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.artisan.co" rel="noopener nofollow">https://www.artisan.co</a></li><li><a href="https://www.artisan.co/pricing" rel="noopener nofollow">https://www.artisan.co/pricing</a></li></ul><p class="note">2 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.artisan.co, https://www.artisan.co/pricing</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Famous for its 2024 &quot;stop hiring humans&quot; billboard campaign - a marketing stance worth noting since it signals how aggressively the vendor copy should be discounted. Good bench-test candidate precisely because the claims are so strong. [api_gate 2026-08-25] Reclassified unknown -&gt; enterprise-only from the vendor&#x27;s own page (https://www.artisan.co/pricing): all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan&#x27;s marketing content.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>enterprise-only (all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan&#x27;s marketing content)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/search-people-by-criteria.html">Search people by criteria</a></li><li><a href="../jobs/run-email-sequence.html">Run an email sequence</a></li><li><a href="../jobs/draft-personalized-outreach.html">Draft personalized outreach</a></li><li><a href="../jobs/run-autonomous-sdr-agent.html">Run an autonomous SDR agent</a></li><li><a href="../jobs/book-a-meeting.html">Book a meeting</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.artisan.co" rel="noopener nofollow">https://www.artisan.co</a></li><li><a href="https://www.artisan.co/pricing" rel="noopener nofollow">https://www.artisan.co/pricing</a></li><li><a href="https://www.artisan.co/llms.txt" rel="noopener nofollow">https://www.artisan.co/llms.txt</a></li><li><a href="https://www.artisan.co/mcp" rel="noopener nofollow">https://www.artisan.co/mcp</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.artisan.co, https://www.artisan.co/pricing, https://www.artisan.co/llms.txt, https://www.artisan.co/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Famous for its 2024 &quot;stop hiring humans&quot; billboard campaign - a marketing stance worth noting since it signals how aggressively the vendor copy should be discounted. Good bench-test candidate precisely because the claims are so strong. [api_gate 2026-08-25] Reclassified unknown -&gt; enterprise-only from the vendor&#x27;s own page (https://www.artisan.co/pricing): all three tiers show no dollar amounts and route to talk-to-sales, no tier lists API access, and the only public developer artefact is a read-only MCP server over Artisan&#x27;s marketing content. 2026-09-02: mcp_status none-found -&gt; official (content-only). https://www.artisan.co/llms.txt lists a &quot;Model Context Protocol server (Streamable HTTP, revision 2025-06-18) exposing Artisan&#x27;s public pages and blog as read-only tools&quot; at https://www.artisan.co/mcp, and that endpoint answered an initialize request today with the instructions &quot;Read-only access to Artisan&#x27;s public marketing pages and blog. Use list_pages / get_page for site content and search_blog / get_blog_post for articles.&quot; A first-party endpoint that answers clears law 1, but this is a marketing-content reader in the Ada mould, not an MCP over Ava or any customer data; do not present it as an AI SDR MCP.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">04-artisan-ai</div></div>
 <div><div class="bk">Source file</div><div class="bv">04-ai-sdr-agents.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">30</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-03</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
@@ -136,8 +140,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

@@ -1,6 +1,6 @@
 # How do I build an MCP server for a GTM tool that has none? Scope it small
 
-> 110 GTM tools in this directory have no MCP server. What to build instead of a full API wrapper, and which gaps are worth filling first.
+> 87 GTM tools in this directory have no MCP server. What to build instead of a full API wrapper, and which gaps are worth filling first.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -34,7 +34,7 @@ The mistake is mirroring the API. An agent does not want `GET /v2/contacts` with
 
 ## Which gaps are worth filling
 
-110 entries here have no server found. The more interesting cut is by job: some jobs have no tool at all with a first party server, which means every agent builder who needs that capability is currently writing the same wrapper. [The list of jobs with zero official servers is published here.](../learn/which-gtm-jobs-have-no-official-mcp-server.md)
+87 entries here have no server found. The more interesting cut is by job: some jobs have no tool at all with a first party server, which means every agent builder who needs that capability is currently writing the same wrapper. [The list of jobs with zero official servers is published here.](../learn/which-gtm-jobs-have-no-official-mcp-server.md)
 
 ## Before you publish it
 

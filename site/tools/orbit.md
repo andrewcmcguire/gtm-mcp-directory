@@ -1,6 +1,6 @@
 # Orbit: MCP server status, API access gate and what it does
 
-> Was a community-analytics platform that aggregated activity across Discord, Slack, GitHub, and social... No MCP found, Gate unknown. Checked 2026-08-24.
+> Was a community-analytics platform that aggregated activity across Discord, Slack, GitHub, and social... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Orbit
 [Gate unknown](../gates/unknown.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Was the closest community-analytics peer to Common Room; included in this file s
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -103,7 +103,7 @@ Reason recorded by the tagging pass: dead. Community analytics platform, past te
 https://orbit.love (HTTP 530 on every fetch attempted 2026-08-24), https://orbit.love/blog (530), https://orbit.love/pricing (530), https://orbit.love/product (530), https://github.com/orbit-love, https://github.com/orbit-love/orbit-model
 
 **Notes, verbatim from the file**
-STATUS FLAG - as of 2026-08-24, every page checked on orbit.love (homepage, /blog, /pricing, /product) returned HTTP 530 "Unknown Status," a Cloudflare origin-unreachable error, indicating the backend is not running. The GitHub organization (github.com/orbit-love, domain-verified owner of orbit.love) still exists with 45 repos and 57 followers, but its flagship open-source "orbit-model" framework repo has carried a README notice since 2022 stating "The project is no longer under active development." No independent news source confirming an official shutdown or acquisition announcement was located in this research - but the live product is unreachable by direct observation. Treat Orbit as effectively defunct pending confirmation; do not reference it as a currently-purchasable tool. [api_gate 2026-08-25] Re-checked and left unknown, honestly: DEAD DOMAIN, confirmed 2026-08-25. orbit.love and www.orbit.love both return HTTP 530 over http and https, so nothing about the product or its API can be verified from the vendor. The entry needs a human decision on tombstoning versus delisting before the next republish. Checked against https://orbit.love.
+STATUS FLAG - as of 2026-08-24, every page checked on orbit.love (homepage, /blog, /pricing, /product) returned HTTP 530 "Unknown Status," a Cloudflare origin-unreachable error, indicating the backend is not running. The GitHub organization (github.com/orbit-love, domain-verified owner of orbit.love) still exists with 45 repos and 57 followers, but its flagship open-source "orbit-model" framework repo has carried a README notice since 2022 stating "The project is no longer under active development." No independent news source confirming an official shutdown or acquisition announcement was located in this research - but the live product is unreachable by direct observation. Treat Orbit as effectively defunct pending confirmation; do not reference it as a currently-purchasable tool. [api_gate 2026-08-25] Re-checked and left unknown, honestly: DEAD DOMAIN, confirmed 2026-08-25. orbit.love and www.orbit.love both return HTTP 530 over http and https, so nothing about the product or its API can be verified from the vendor. The entry needs a human decision on tombstoning versus delisting before the next republish. Checked against https://orbit.love. 2026-09-02: re-checked. https://orbit.love still returns HTTP 530 (could not fetch https://orbit.love (530)); the official MCP registry has no entry. No vendor statement exists to move this to n-a, so none-found stands and the tombstone decision is still open.
 
 **Provenance**
 
@@ -115,7 +115,7 @@ STATUS FLAG - as of 2026-08-24, every page checked on orbit.love (homepage, /blo
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Xactly: MCP server status, API access gate and what it does
 
-> Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue... No MCP found, Enterprise only. Checked 2026-08-24.
+> Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue... MCP unknown, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Xactly
 
 # Xactly
 
-[No MCP found](../mcp/none-found.md)
+[MCP unknown](../mcp/unknown.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,24 @@ Incentive-compensation-plus-forecasting platform, differentiated from pure CRM-b
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP unknown
 
-- **Auth**: n/a
+- **Auth**: unknown - not disclosed on the vendor pages found
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+unknown
 
 mcp_url, verbatim from the file:
 
-none
+none published. Xactly's own pages name an MCP server without any endpoint, docs or setup guide: https://www.xactlycorp.com/products/xactly-intelligence/agents and https://www.xactlycorp.com/company/press-room/Xactly-releases-fleet-of-agents
+
+- [https://www.xactlycorp.com/products/xactly-intelligence/agents](https://www.xactlycorp.com/products/xactly-intelligence/agents)
+- [https://www.xactlycorp.com/company/press-room/Xactly-releases-fleet-of-agents](https://www.xactlycorp.com/company/press-room/Xactly-releases-fleet-of-agents)
 
 **Access gate**
 
@@ -86,13 +89,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.xactlycorp.com/products/xactly-incent](https://www.xactlycorp.com/products/xactly-incent)
 - [https://www.xactlycorp.com/pricing](https://www.xactlycorp.com/pricing)
 - [https://www.pulsemcp.com/servers?q=xactly](https://www.pulsemcp.com/servers?q=xactly)
+- [https://www.xactlycorp.com/products/xactly-intelligence/agents](https://www.xactlycorp.com/products/xactly-intelligence/agents)
+- [https://www.xactlycorp.com/company/press-room/Xactly-releases-fleet-of-agents](https://www.xactlycorp.com/company/press-room/Xactly-releases-fleet-of-agents)
 
-4 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.xactlycorp.com/products/xactly-forecast, https://www.xactlycorp.com/products/xactly-incent, https://www.xactlycorp.com/pricing, https://www.pulsemcp.com/servers?q=xactly
+https://www.xactlycorp.com/products/xactly-forecast, https://www.xactlycorp.com/products/xactly-incent, https://www.xactlycorp.com/pricing, https://www.pulsemcp.com/servers?q=xactly, https://www.xactlycorp.com/products/xactly-intelligence/agents, https://www.xactlycorp.com/company/press-room/Xactly-releases-fleet-of-agents
 
 **Notes, verbatim from the file**
-Xactly's blog has a post titled "Why the Model Context Protocol (MCP) is the Next Enterprise Front Line" - this is thought-leadership commentary about MCP as a concept, not an announcement of a shipped Xactly MCP server; no product, repo, or docs were found to back an official/community MCP claim.
+Xactly's blog has a post titled "Why the Model Context Protocol (MCP) is the Next Enterprise Front Line" - this is thought-leadership commentary about MCP as a concept, not an announcement of a shipped Xactly MCP server; no product, repo, or docs were found to back an official/community MCP claim. 2026-09-02: mcp_status none-found -> unknown. Xactly's Fleet of Agents page states "Xactly's MCP server connects across your entire ecosystem, giving platforms secured, governed access to your live Xactly data", and the 2026-05-14 press release says "Xactly's MCP server enables cross ecosystem Agentic collaboration" and that it was "released last year". Neither page gives an endpoint, docs link, setup guide or auth method, xactlycorp.com has no llms.txt, and the official MCP registry has no xactly entry. A first-party claim without a connectable URL is unknown rather than official under law 1; the earlier thought-leadership-only reading is superseded.
 
 **Provenance**
 
@@ -104,7 +109,7 @@ Xactly's blog has a post titled "Why the Model Context Protocol (MCP) is the Nex
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

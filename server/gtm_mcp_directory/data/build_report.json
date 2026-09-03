@@ -102,18 +102,18 @@
     "build_total": 293,
     "recount_total": 293,
     "build_mcp_status": {
-      "community": 20,
-      "n-a": 5,
-      "none-found": 110,
-      "official": 147,
-      "unknown": 11
+      "community": 26,
+      "n-a": 9,
+      "none-found": 87,
+      "official": 156,
+      "unknown": 15
     },
     "recount_mcp_status": {
-      "community": 20,
-      "n-a": 5,
-      "none-found": 110,
-      "official": 147,
-      "unknown": 11
+      "community": 26,
+      "n-a": 9,
+      "none-found": 87,
+      "official": 156,
+      "unknown": 15
     },
     "build_api_gate": {
       "enterprise-leaning": 4,
@@ -199,8 +199,8 @@
         "missing": 0
       },
       "mcp_url": {
-        "present": 272,
-        "missing": 21
+        "present": 276,
+        "missing": 17
       },
       "mcp_auth": {
         "present": 288,
@@ -233,24 +233,24 @@
     },
     "docs_url_present": 30,
     "docs_url_missing": 263,
-    "mcp_url_present": 272,
-    "mcp_url_missing": 21,
-    "mcp_url_with_parseable_url": 181,
-    "mcp_url_pointing_at_github": 48,
+    "mcp_url_present": 276,
+    "mcp_url_missing": 17,
+    "mcp_url_with_parseable_url": 200,
+    "mcp_url_pointing_at_github": 51,
     "mcp_auth_present": 288,
-    "github_candidates_any": 63,
+    "github_candidates_any": 66,
     "sources_zero_urls": 0,
-    "sources_one_url": 16,
-    "sources_two_or_more_urls": 277,
-    "sources_url_total": 1149,
+    "sources_one_url": 14,
+    "sources_two_or_more_urls": 279,
+    "sources_url_total": 1194,
     "sources_with_annotations": 11,
     "entries_with_extra_fields": 0,
     "mcp_status": {
-      "community": 20,
-      "n-a": 5,
-      "none-found": 110,
-      "official": 147,
-      "unknown": 11
+      "community": 26,
+      "n-a": 9,
+      "none-found": 87,
+      "official": 156,
+      "unknown": 15
     },
     "api_gate": {
       "enterprise-leaning": 4,
@@ -265,22 +265,22 @@
       "RESEARCHED": 293
     },
     "last_checked": {
-      "2026-08-24": 239,
-      "2026-08-25": 32,
-      "2026-09-02": 22
+      "2026-08-24": 134,
+      "2026-08-25": 27,
+      "2026-09-02": 132
     },
     "bench_tested": 0,
     "endpoint_status": {
-      "live": 0,
-      "live-auth-gated": 33,
-      "docs-only": 114,
-      "unreachable": 14,
-      "not-probed": 6,
-      "not-applicable": 126
+      "live": 1,
+      "live-auth-gated": 34,
+      "docs-only": 131,
+      "unreachable": 15,
+      "not-probed": 1,
+      "not-applicable": 111
     },
-    "official_with_live_endpoint": 33,
-    "official_docs_only": 95,
-    "endpoint_probe_date": "2026-08-25",
+    "official_with_live_endpoint": 35,
+    "official_docs_only": 106,
+    "endpoint_probe_date": "2026-09-03",
     "jobs_tagged": 271,
     "jobs_untagged": 22,
     "jobs_assignments": 827,
@@ -298,7 +298,7 @@
       "docs_last_crawled": 293,
       "submission": 293
     },
-    "solo_reachable": 123
+    "solo_reachable": 132
   },
   "jobs": {
     "vocabulary_size": 55,
@@ -628,7 +628,7 @@
       "family": "find-people-and-companies",
       "entry_count": 24,
       "product_count": 22,
-      "official_mcp": 16,
+      "official_mcp": 17,
       "solo_reachable": 17,
       "bench_tested": 0
     },
@@ -673,8 +673,8 @@
       "family": "find-people-and-companies",
       "entry_count": 7,
       "product_count": 7,
-      "official_mcp": 4,
-      "solo_reachable": 3,
+      "official_mcp": 5,
+      "solo_reachable": 4,
       "bench_tested": 0
     },
     {
@@ -700,7 +700,7 @@
       "family": "get-contact-data",
       "entry_count": 19,
       "product_count": 19,
-      "official_mcp": 12,
+      "official_mcp": 13,
       "solo_reachable": 11,
       "bench_tested": 0
     },
@@ -727,7 +727,7 @@
       "family": "signals-and-research",
       "entry_count": 30,
       "product_count": 26,
-      "official_mcp": 19,
+      "official_mcp": 20,
       "solo_reachable": 13,
       "bench_tested": 0
     },
@@ -754,8 +754,8 @@
       "family": "signals-and-research",
       "entry_count": 14,
       "product_count": 12,
-      "official_mcp": 10,
-      "solo_reachable": 10,
+      "official_mcp": 11,
+      "solo_reachable": 11,
       "bench_tested": 0
     },
     {
@@ -781,8 +781,8 @@
       "family": "signals-and-research",
       "entry_count": 12,
       "product_count": 11,
-      "official_mcp": 3,
-      "solo_reachable": 2,
+      "official_mcp": 5,
+      "solo_reachable": 4,
       "bench_tested": 0
     },
     {
@@ -791,7 +791,7 @@
       "entry_count": 17,
       "product_count": 16,
       "official_mcp": 10,
-      "solo_reachable": 7,
+      "solo_reachable": 8,
       "bench_tested": 0
     },
     {
@@ -799,8 +799,8 @@
       "family": "outreach-and-engagement",
       "entry_count": 45,
       "product_count": 38,
-      "official_mcp": 24,
-      "solo_reachable": 21,
+      "official_mcp": 26,
+      "solo_reachable": 23,
       "bench_tested": 0
     },
     {
@@ -808,8 +808,8 @@
       "family": "outreach-and-engagement",
       "entry_count": 22,
       "product_count": 19,
-      "official_mcp": 13,
-      "solo_reachable": 12,
+      "official_mcp": 14,
+      "solo_reachable": 13,
       "bench_tested": 0
     },
     {
@@ -817,8 +817,8 @@
       "family": "outreach-and-engagement",
       "entry_count": 51,
       "product_count": 45,
-      "official_mcp": 25,
-      "solo_reachable": 23,
+      "official_mcp": 28,
+      "solo_reachable": 25,
       "bench_tested": 0
     },
     {
@@ -826,8 +826,8 @@
       "family": "outreach-and-engagement",
       "entry_count": 22,
       "product_count": 19,
-      "official_mcp": 10,
-      "solo_reachable": 6,
+      "official_mcp": 12,
+      "solo_reachable": 8,
       "bench_tested": 0
     },
     {
@@ -853,8 +853,8 @@
       "family": "outreach-and-engagement",
       "entry_count": 16,
       "product_count": 12,
-      "official_mcp": 4,
-      "solo_reachable": 3,
+      "official_mcp": 6,
+      "solo_reachable": 4,
       "bench_tested": 0
     },
     {
@@ -880,7 +880,7 @@
       "family": "conversations-and-meetings",
       "entry_count": 22,
       "product_count": 22,
-      "official_mcp": 17,
+      "official_mcp": 18,
       "solo_reachable": 14,
       "bench_tested": 0
     },
@@ -898,7 +898,7 @@
       "family": "conversations-and-meetings",
       "entry_count": 26,
       "product_count": 23,
-      "official_mcp": 9,
+      "official_mcp": 10,
       "solo_reachable": 10,
       "bench_tested": 0
     },
@@ -916,8 +916,8 @@
       "family": "conversations-and-meetings",
       "entry_count": 21,
       "product_count": 16,
-      "official_mcp": 11,
-      "solo_reachable": 8,
+      "official_mcp": 12,
+      "solo_reachable": 11,
       "bench_tested": 0
     },
     {
@@ -1051,8 +1051,8 @@
       "family": "planning-scoring-coaching",
       "entry_count": 24,
       "product_count": 21,
-      "official_mcp": 13,
-      "solo_reachable": 8,
+      "official_mcp": 15,
+      "solo_reachable": 9,
       "bench_tested": 0
     },
     {
@@ -1060,8 +1060,8 @@
       "family": "planning-scoring-coaching",
       "entry_count": 25,
       "product_count": 24,
-      "official_mcp": 6,
-      "solo_reachable": 3,
+      "official_mcp": 7,
+      "solo_reachable": 4,
       "bench_tested": 0
     },
     {
@@ -1069,8 +1069,8 @@
       "family": "planning-scoring-coaching",
       "entry_count": 11,
       "product_count": 10,
-      "official_mcp": 1,
-      "solo_reachable": 0,
+      "official_mcp": 2,
+      "solo_reachable": 1,
       "bench_tested": 0
     },
     {
@@ -1078,8 +1078,8 @@
       "family": "sending-infrastructure",
       "entry_count": 13,
       "product_count": 12,
-      "official_mcp": 8,
-      "solo_reachable": 8,
+      "official_mcp": 9,
+      "solo_reachable": 9,
       "bench_tested": 0
     },
     {
@@ -1133,7 +1133,7 @@
     },
     "thin_sourcing": {
       "rule": "SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs.",
-      "count": 16,
+      "count": 14,
       "entries": [
         {
           "id": "04-aisdr",
@@ -1191,18 +1191,8 @@
           "source_urls": 1
         },
         {
-          "id": "14-tidio",
-          "name": "Tidio",
-          "source_urls": 1
-        },
-        {
           "id": "14-ultimate-ai",
           "name": "Ultimate.ai (Ultimate)",
-          "source_urls": 1
-        },
-        {
-          "id": "15-brand24",
-          "name": "Brand24",
           "source_urls": 1
         },
         {
@@ -1647,6 +1637,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "67b823b32e5bee1c6b279abc133f6677d1b716a93cd46a90d82b2f38083c8afd",
-  "source_sha256": "4c9cb9310cb9e8c660ed491236b8d803fba65f84f3cff74248ed58962f72b240"
+  "content_sha256": "80aed8e1594f3b21bb117b088f8aaf7f98e915ef8a9747d695c9cd50e9c66eed",
+  "source_sha256": "b6902eb71816c9ca3b7d5ba8105d8bf2e486327980b8976a5a7c828b68216294"
 }

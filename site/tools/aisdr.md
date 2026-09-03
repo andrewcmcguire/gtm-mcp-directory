@@ -1,6 +1,6 @@
 # AiSDR: MCP server status, API access gate and what it does
 
-> An AI sales agent that researches prospects via "Live AI search," writes and sends personalized... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> An AI sales agent that researches prospects via "Live AI search," writes and sends personalized... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ AiSDR
 [Paid, self-serve](../gates/paid.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Outbound sequencing + qualification layer for teams without a human SDR at all -
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -85,12 +85,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://aisdr.com](https://aisdr.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://aisdr.com
 
 **Notes, verbatim from the file**
-One of the few entries in this pass with transparent public pricing - useful data point for a solo-operator budget comparison.
+One of the few entries in this pass with transparent public pricing - useful data point for a solo-operator budget comparison. 2026-09-02: re-checked aisdr.com (no llms.txt; https://aisdr.com/mcp/ 404s), the official MCP registry (no entry) and a web search; no MCP server found. A third-party review page's line that AiSDR is "listed in the Claude directory" could not be matched to any vendor page and is not counted.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ One of the few entries in this pass with transparent public pricing - useful dat
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

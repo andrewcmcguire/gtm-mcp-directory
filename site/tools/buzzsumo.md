@@ -1,6 +1,6 @@
 # BuzzSumo: MCP server status, API access gate and what it does
 
-> Researches top-performing content and social engagement by topic, tracks brand/competitor mentions, and... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Researches top-performing content and social engagement by topic, tracks brand/competitor mentions, and... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ BuzzSumo
 [Paid, self-serve](../gates/paid.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Content/engagement research and influencer-discovery layer - more content-market
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -82,12 +82,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://buzzsumo.com/pricing/](https://buzzsumo.com/pricing/)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://buzzsumo.com/pricing/
 
 **Notes, verbatim from the file**
-Checked GitHub and PulseMCP for "buzzsumo" - no MCP server found under either official or community listings. API pricing being separately quote-gated on top of an already-paid subscription is a meaningfully worse access story than most tools in this file.
+Checked GitHub and PulseMCP for "buzzsumo" - no MCP server found under either official or community listings. API pricing being separately quote-gated on top of an already-paid subscription is a meaningfully worse access story than most tools in this file. 2026-09-02: re-checked buzzsumo.com (no llms.txt), the official MCP registry (no entry) and a web search. viaSocket serves an "MCP Server for BuzzSumo" page at https://viasocket.com/mcp/buzzsumo but it lists no actions (only "Request a new Action"), and APITracker reports no BuzzSumo MCP servers; a connector shell with zero tools is not counted. none-found stands.
 
 **Provenance**
 
@@ -99,7 +99,7 @@ Checked GitHub and PulseMCP for "buzzsumo" - no MCP server found under either of
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

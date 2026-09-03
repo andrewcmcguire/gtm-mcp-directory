@@ -1,6 +1,6 @@
 # Intently (getintently.com): MCP server status, API access gate and what it does
 
-> Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data,... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data,... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,11 +15,11 @@ Intently (getintently.com)
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://getintently.com](https://getintently.com) · entry id 05-intently · source 05-signals-intent-abm.md line 555
+Vendor: [https://getintently.com](https://getintently.com) · entry id 05-intently · source 05-signals-intent-abm.md line 561
 
 **What it does**
 Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data, competitor followers, and post reactions/comments as engagement signals.
@@ -38,7 +38,7 @@ LinkedIn engagement-signal scraper feeding Clay/CRM enrichment workflows, a raw-
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -84,12 +84,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://getintently.com](https://getintently.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://getintently.com
 
 **Notes, verbatim from the file**
-IDENTITY CONFIDENCE FLAG - "Intently" is a common name; intently.co (a service marketplace) and other domains exist under similar names. getintently.com is the best public match for a GTM-signals tool fitting the seed list's description (LinkedIn scraping, Clay/HubSpot/Go High Level/Salesforce integrations), but could not be cross-verified against a second independent source. Pay-as-you-go credits ($100-$500 packs, no minimum), no MCP found.
+IDENTITY CONFIDENCE FLAG - "Intently" is a common name; intently.co (a service marketplace) and other domains exist under similar names. getintently.com is the best public match for a GTM-signals tool fitting the seed list's description (LinkedIn scraping, Clay/HubSpot/Go High Level/Salesforce integrations), but could not be cross-verified against a second independent source. Pay-as-you-go credits ($100-$500 packs, no minimum), no MCP found. 2026-09-02: re-checked getintently.com/llms.txt (404) and web search (hits are Instantly and a travel 'intent' MCP, unrelated; note getintently.io is a separate server-side analytics product); no MCP server found.
 
 **Provenance**
 
@@ -97,11 +97,11 @@ IDENTITY CONFIDENCE FLAG - "Intently" is a common name; intently.co (a service m
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 555
+- **Source line**: 561
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

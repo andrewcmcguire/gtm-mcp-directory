@@ -1,6 +1,6 @@
 # F5Bot: MCP server status, API access gate and what it does
 
-> Monitors Reddit, Hacker News, and Lobsters for keyword mentions and sends email alerts within minutes of a... No MCP found, Free to start. Checked 2026-08-24.
+> Monitors Reddit, Hacker News, and Lobsters for keyword mentions and sends email alerts within minutes of a... No MCP found, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ F5Bot
 [Free to start](../gates/free.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ The lowest-friction entry point in this whole file - a genuinely free Reddit/HN 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -82,12 +82,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://f5bot.com](https://f5bot.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://f5bot.com
 
 **Notes, verbatim from the file**
-Worth flagging as a finding in itself: F5Bot has historically been known purely as a bare-bones free tool, but as of this research it now runs three tiers (Free/Silver $9.99/Gold $49.99) plus an AI-powered natural-language filtering option - a meaningfully different, more built-out product than its old reputation suggests, while still keeping a real free tier. No MCP found on GitHub or PulseMCP.
+Worth flagging as a finding in itself: F5Bot has historically been known purely as a bare-bones free tool, but as of this research it now runs three tiers (Free/Silver $9.99/Gold $49.99) plus an AI-powered natural-language filtering option - a meaningfully different, more built-out product than its old reputation suggests, while still keeping a real free tier. No MCP found on GitHub or PulseMCP. 2026-09-02: re-checked https://f5bot.com (no MCP mention on the homepage, no llms.txt) and the official MCP registry (no entry); no MCP server found.
 
 **Provenance**
 
@@ -99,7 +99,7 @@ Worth flagging as a finding in itself: F5Bot has historically been known purely 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

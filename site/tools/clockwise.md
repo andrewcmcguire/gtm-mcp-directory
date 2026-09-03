@@ -1,6 +1,6 @@
 # Clockwise: MCP server status, API access gate and what it does
 
-> Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended... No MCP found, Gate unknown. Checked 2026-08-24.
+> Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended... MCP not applicable, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Clockwise
 
 # Clockwise
 
-[No MCP found](../mcp/none-found.md)
+[MCP not applicable](../mcp/n-a.md)
 [Gate unknown](../gates/unknown.md)
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,17 +32,17 @@ Formerly filled the same team-calendar-optimization niche as Reclaim/Motion for 
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP not applicable
 
 - **Auth**: n/a (was OAuth, per historical PulseMCP listing and Clockwise's own support docs)
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+An MCP server is not a meaningful question for this entry. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+n-a
 
 mcp_url, verbatim from the file:
 
@@ -97,7 +97,7 @@ Reason recorded by the tagging pass: dead. Entry says THE PRODUCT IS SHUT DOWN. 
 https://www.getclockwise.com, https://aiforautomation.io/news/2026-03-20-clockwise-ai-scheduling-salesforce-acquires-shuts-down, https://thedailyclaws.com/blog/2026-03-20-news-clockwise-shutdown-salesforce/, https://www.usecarly.com/blog/is-clockwise-shutting-down/, https://finance.yahoo.com/sectors/technology/articles/salesforce-recuits-team-behind-calendar-app-clockwise-103000806.html, https://vantagepoint.io/blog/sf/clockwise-salesforce-agentic-ai-acquihire-crm-strategy, https://www.pulsemcp.com/servers/clockwise
 
 **Notes, verbatim from the file**
-CLOCKWISE IS SHUT DOWN. Salesforce acqui-hired the Clockwise team in late 2025 (folded into Agentforce/agentic-AI effort - people, not the standalone product). getclockwise.com now shows a static wind-down notice stating the product "will no longer be available starting on March 27, 2026" - a date already passed as of this file's last_checked. support.getclockwise.com and mcp.getclockwise.com no longer resolve (confirmed via direct fetch during this research pass). Clockwise officially recommended Reclaim.ai as the migration path for departing customers, with a price-match guarantee cited by third-party sources. Kept in this file as a discontinued/historical entry on purpose - this kind of quiet mid-category death is exactly what INDEX.md's "quiet deaths and rebrands" section exists to catch. Do not present this as a live, usable tool in any published content. [api_gate 2026-08-25] Re-checked and left unknown, honestly: DEAD PRODUCT, confirmed 2026-08-25. getclockwise.com still resolves but every path, including /pricing, now serves a shutdown notice: the Clockwise team is joining Salesforce and the product shut down on 27 March 2026. Clockwise-managed calendar events and Scheduling Links stopped working, user data is deleted rather than transferred, prorated refunds were issued, and the page points customers to Reclaim with a price-match migration offer. This confirms and escalates the DYING flag raised in the 2026-08 sweep (INDEX.md finding 5). The entry needs a human decision on tombstoning versus delisting before the next republish; api_gate is left unknown because there is no longer a product to gate. Checked against https://www.getclockwise.com/.
+CLOCKWISE IS SHUT DOWN. Salesforce acqui-hired the Clockwise team in late 2025 (folded into Agentforce/agentic-AI effort - people, not the standalone product). getclockwise.com now shows a static wind-down notice stating the product "will no longer be available starting on March 27, 2026" - a date already passed as of this file's last_checked. support.getclockwise.com and mcp.getclockwise.com no longer resolve (confirmed via direct fetch during this research pass). Clockwise officially recommended Reclaim.ai as the migration path for departing customers, with a price-match guarantee cited by third-party sources. Kept in this file as a discontinued/historical entry on purpose - this kind of quiet mid-category death is exactly what INDEX.md's "quiet deaths and rebrands" section exists to catch. Do not present this as a live, usable tool in any published content. [api_gate 2026-08-25] Re-checked and left unknown, honestly: DEAD PRODUCT, confirmed 2026-08-25. getclockwise.com still resolves but every path, including /pricing, now serves a shutdown notice: the Clockwise team is joining Salesforce and the product shut down on 27 March 2026. Clockwise-managed calendar events and Scheduling Links stopped working, user data is deleted rather than transferred, prorated refunds were issued, and the page points customers to Reclaim with a price-match migration offer. This confirms and escalates the DYING flag raised in the 2026-08 sweep (INDEX.md finding 5). The entry needs a human decision on tombstoning versus delisting before the next republish; api_gate is left unknown because there is no longer a product to gate. Checked against https://www.getclockwise.com/. 2026-09-02: CHANGED none-found -> n-a. The vendor's own page https://www.getclockwise.com/ still serves the wind-down notice ('the Clockwise team is joining Salesforce', 'Clockwise will be going away. Our product will no longer be available starting on March 27, 2026'). The product and its former MCP endpoint are gone, so n-a (not applicable) is the honest bucket rather than none-found, which implies a live product with no server.
 
 **Provenance**
 
@@ -109,7 +109,7 @@ CLOCKWISE IS SHUT DOWN. Salesforce acqui-hired the Clockwise team in late 2025 (
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

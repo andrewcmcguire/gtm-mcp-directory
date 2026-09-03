@@ -22,9 +22,9 @@ The clearest way to see the role is by what lands on the desk. A rep asks for a 
 
 ## What the tooling data says about the job right now
 
-293 go to market tools were checked for this directory. Of them, 147 ship an official MCP server, so an agent a GTM engineer builds can call them without custom glue. 110 had none found, which means the glue still has to be written by hand. And 77 are enterprise gated: API access needs a contract, a seat count or a procurement cycle, so a solo operator or a small team is locked out regardless of how good the tool is.
+293 go to market tools were checked for this directory. Of them, 156 ship an official MCP server, so an agent a GTM engineer builds can call them without custom glue. 87 had none found, which means the glue still has to be written by hand. And 77 are enterprise gated: API access needs a contract, a seat count or a procurement cycle, so a solo operator or a small team is locked out regardless of how good the tool is.
 
-The unflattering cut is by category. AI SDRs, a category sold entirely on autonomy, has 4 official servers across 23 entries. RevOps Infra, the unglamorous plumbing layer, has 21 of 23. The tools sold as agents are the least usable by agents, and that is a fact about the market a GTM engineer runs into on their first afternoon.
+The unflattering cut is by category. AI SDRs, a category sold entirely on autonomy, has 7 official servers across 23 entries. RevOps Infra, the unglamorous plumbing layer, has 21 of 23. The tools sold as agents are the least usable by agents, and that is a fact about the market a GTM engineer runs into on their first afternoon.
 
 ## Related titles
 

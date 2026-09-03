@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Which GTM MCP servers use OAuth? The auth split across every server, counted</title>
-<meta name="description" content="Of the 167 GTM tools with an MCP server, 95 document an OAuth flow and 91 document an API key. Why the difference matters, and the full breakdown. Counted 2026-09-03.">
+<meta name="description" content="Of the 182 GTM tools with an MCP server, 102 document an OAuth flow and 97 document an API key. Why the difference matters, and the full breakdown. Counted 2026-09-03.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/learn/which-gtm-mcp-servers-use-oauth.html">
@@ -21,7 +21,7 @@
       "name": "Which GTM MCP servers use OAuth instead of an API key?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Of the 167 GTM tools with an MCP server in this directory, 95 document an OAuth or browser sign in flow and 91 document an API key or token. Some document both, usually OAuth for the hosted server and a key for the self hosted one."
+        "text": "Of the 182 GTM tools with an MCP server in this directory, 102 document an OAuth or browser sign in flow and 97 document an API key or token. Some document both, usually OAuth for the hosted server and a key for the self hosted one."
       }
     }
   ]
@@ -80,7 +80,7 @@
 <div class="eyebrow">What the data says</div>
 <h1>Which GTM MCP servers use OAuth instead of an API key?</h1>
 </div>
-<div class="answerbox"><div class="lab">The short answer</div><p>Of the 167 GTM tools with an MCP server in this directory, 95 document an OAuth or browser sign in flow and 91 document an API key or token. Some document both, usually OAuth for the hosted server and a key for the self hosted one.</p></div>
+<div class="answerbox"><div class="lab">The short answer</div><p>Of the 182 GTM tools with an MCP server in this directory, 102 document an OAuth or browser sign in flow and 97 document an API key or token. Some document both, usually OAuth for the hosted server and a key for the self hosted one.</p></div>
 <div class="prose">
 
 <p>This is a security question wearing a configuration question's clothes. OAuth hands the server a
@@ -92,9 +92,9 @@ the system on the other side can send mail as you or write to the system of reco
 <h2>The breakdown</h2>
 <div class="scroller"><table class="datatable"><thead><tr><th>Auth</th><th>Servers</th>
 <th>What it means</th></tr></thead><tbody>
-<tr><td><a href="../lists/auth-oauth.html">OAuth</a></td><td class="n">48</td><td>The server takes the user through a browser sign in and holds a scoped token. Nothing is pasted into a config...</td></tr><tr><td><a href="../lists/auth-api-key.html">API key</a></td><td class="n">44</td><td>The server authenticates with a key or token the operator generates and pastes in. Simple to wire, and the...</td></tr><tr><td><a href="../lists/auth-either.html">OAuth or an API key</a></td><td class="n">47</td><td>Both paths are documented. Usually OAuth for a hosted server and a key for the self hosted or legacy endpoint.</td></tr><tr><td><a href="../lists/auth-third-party.html">Third party platform auth</a></td><td class="n">4</td><td>Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives...</td></tr><tr><td><a href="../lists/auth-unrecorded.html">Auth not recorded</a></td><td class="n">24</td><td>The mcp_auth field on the entry is blank, or says unknown. Published as blank rather than guessed.</td></tr>
+<tr><td><a href="../lists/auth-oauth.html">OAuth</a></td><td class="n">52</td><td>The server takes the user through a browser sign in and holds a scoped token. Nothing is pasted into a config...</td></tr><tr><td><a href="../lists/auth-api-key.html">API key</a></td><td class="n">47</td><td>The server authenticates with a key or token the operator generates and pastes in. Simple to wire, and the...</td></tr><tr><td><a href="../lists/auth-either.html">OAuth or an API key</a></td><td class="n">50</td><td>Both paths are documented. Usually OAuth for a hosted server and a key for the self hosted or legacy endpoint.</td></tr><tr><td><a href="../lists/auth-third-party.html">Third party platform auth</a></td><td class="n">7</td><td>Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives...</td></tr><tr><td><a href="../lists/auth-unrecorded.html">Auth not recorded</a></td><td class="n">26</td><td>The mcp_auth field on the entry is blank, or says unknown. Published as blank rather than guessed.</td></tr>
 </tbody></table></div>
-<p class="note">Counted 2026-09-03 across the 167 entries with a server. The bucket is a keyword
+<p class="note">Counted 2026-09-03 across the 182 entries with a server. The bucket is a keyword
 match over the mcp_auth field, run at build time and disclosed as such; the verbatim field is
 printed beside every row on <a href="../lists/auth-types.html">the auth pages</a> so you can check
 the parse yourself. 288 of 293 entries record an auth
@@ -125,8 +125,8 @@ answer is a zero, the zero is printed.</p>
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>147 official MCP servers,
-    20 community.
+    <p>156 official MCP servers,
+    26 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,

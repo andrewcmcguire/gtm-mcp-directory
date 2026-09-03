@@ -1,6 +1,6 @@
 # Forethought (now "Forethought AI Agents by Zendesk"): MCP server status, API access gate and what it does
 
-> Omnichannel AI agent ("Solve") that resolves customer support and pre-sales issues across chat, email, voice,... No MCP found, Enterprise only. Checked 2026-08-24.
+> Omnichannel AI agent ("Solve") that resolves customer support and pre-sales issues across chat, email, voice,... MCP unknown, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Forethought (now "Forethought AI Agents by Zendesk")
 
 # Forethought (now "Forethought AI Agents by Zendesk")
 
-[No MCP found](../mcp/none-found.md)
+[MCP unknown](../mcp/unknown.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,23 @@ Enterprise inbound support-AI layer, now being integrated into Zendesk's broader
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP unknown
 
-- **Auth**: n/a
+- **Auth**: unknown
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
-none-found
+unknown
 
 mcp_url, verbatim from the file:
 
-none
+none published. Forethought's own headless page https://forethought.ai/channels/headless carries an "MCP" section ("SDK + API + MCP") with no endpoint, docs or setup guide.
+
+- [https://forethought.ai/channels/headless](https://forethought.ai/channels/headless)
 
 **Access gate**
 
@@ -83,13 +85,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.forethought.ai](https://www.forethought.ai)
 - [https://www.forethought.ai/pricing](https://www.forethought.ai/pricing)
 - [https://www.zendesk.com/newsroom/press-releases/zendesk-completes-acquisition-of-forethought/](https://www.zendesk.com/newsroom/press-releases/zendesk-completes-acquisition-of-forethought/)
+- [https://forethought.ai/channels/headless](https://forethought.ai/channels/headless)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.forethought.ai, https://www.forethought.ai/pricing, https://www.zendesk.com/newsroom/press-releases/zendesk-completes-acquisition-of-forethought/
+https://www.forethought.ai, https://www.forethought.ai/pricing, https://www.zendesk.com/newsroom/press-releases/zendesk-completes-acquisition-of-forethought/, https://forethought.ai/channels/headless
 
 **Notes, verbatim from the file**
-STATUS FLAG - ACQUIRED. Zendesk announced intent to acquire Forethought on March 11, 2026 and completed the acquisition March 26, 2026. forethought.ai now carries a banner reading "A new chapter begins: Forethought is now part of Zendesk," and Zendesk is rebranding the technology "Forethought AI Agents by Zendesk" for deployment across its own Resolution Platform. Checked PulseMCP for an MCP server - zero results.
+STATUS FLAG - ACQUIRED. Zendesk announced intent to acquire Forethought on March 11, 2026 and completed the acquisition March 26, 2026. forethought.ai now carries a banner reading "A new chapter begins: Forethought is now part of Zendesk," and Zendesk is rebranding the technology "Forethought AI Agents by Zendesk" for deployment across its own Resolution Platform. Checked PulseMCP for an MCP server - zero results. 2026-09-02: mcp_status none-found -> unknown. https://forethought.ai/channels/headless is titled "Headless CX AI Platform: SDK + API + MCP" and its MCP section reads only "Connect your systems, data, and business rules to agentic AI so every interaction is grounded in real context"; a search snippet of the same page describes the offer as "Agent SDK, API access, and MCP Client", which would make Forethought a consumer of MCP servers rather than a publisher. No endpoint, docs or auth are published, forethought.ai has no llms.txt and the official MCP registry has no entry. A first-party mention that does not even settle server versus client is unknown, not official. Zendesk's own MCP server (announced at Relate, May 2026) is a separate question for the Zendesk backlog item.
 
 **Provenance**
 
@@ -101,7 +104,7 @@ STATUS FLAG - ACQUIRED. Zendesk announced intent to acquire Forethought on March
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

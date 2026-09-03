@@ -1,6 +1,6 @@
 # Clearbit (now HubSpot Breeze Intelligence): MCP server status, API access gate and what it does
 
-> A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue,... No MCP found, Enterprise only. Checked 2026-08-24.
+> A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue,... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Clearbit (now HubSpot Breeze Intelligence)
 [Enterprise only](../gates/enterprise-only.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Contact/company record enrichment and lead scoring input inside HubSpot CRM; no 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -84,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://community.hubspot.com/t5/Clearbit/Breeze-Intelligence/m-p/1143555](https://community.hubspot.com/t5/Clearbit/Breeze-Intelligence/m-p/1143555)
 - [https://skrapp.io/blog/clearbit/](https://skrapp.io/blog/clearbit/)
 - [https://salesmotion.io/blog/clearbit-alternatives-hubspot-acquisition](https://salesmotion.io/blog/clearbit-alternatives-hubspot-acquisition)
+- [https://developers.hubspot.com/mcp](https://developers.hubspot.com/mcp)
 
-6 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://www.lead411.com/clearbit-pricing/, https://derrick-app.com/en/pricing-clearbit-2/, https://www.eesel.ai/blog/how-much-is-breeze-intelligence, https://community.hubspot.com/t5/Clearbit/Breeze-Intelligence/m-p/1143555, https://skrapp.io/blog/clearbit/, https://salesmotion.io/blog/clearbit-alternatives-hubspot-acquisition
+https://www.lead411.com/clearbit-pricing/, https://derrick-app.com/en/pricing-clearbit-2/, https://www.eesel.ai/blog/how-much-is-breeze-intelligence, https://community.hubspot.com/t5/Clearbit/Breeze-Intelligence/m-p/1143555, https://skrapp.io/blog/clearbit/, https://salesmotion.io/blog/clearbit-alternatives-hubspot-acquisition, https://developers.hubspot.com/mcp
 
 **Notes, verbatim from the file**
-HubSpot acquired Clearbit (completed ~Dec 2024) and folded it into "Breeze Intelligence." The standalone Clearbit Enrichment API has been deprecated/closed to new customers - there is no independent API signup anymore. Access requires a paid HubSpot subscription (min. reported cost ~$75/mo combining HubSpot Starter + credits) plus HubSpot Credits for enrichment (~$0.01/credit per multiple sources); large-scale external use requires an Enterprise HubSpot contract negotiated with sales. No phone-number enrichment. No MCP server found for either legacy Clearbit or Breeze Intelligence - only generic third-party HubSpot-CRM MCP servers (unrelated to enrichment) were found.
+HubSpot acquired Clearbit (completed ~Dec 2024) and folded it into "Breeze Intelligence." The standalone Clearbit Enrichment API has been deprecated/closed to new customers - there is no independent API signup anymore. Access requires a paid HubSpot subscription (min. reported cost ~$75/mo combining HubSpot Starter + credits) plus HubSpot Credits for enrichment (~$0.01/credit per multiple sources); large-scale external use requires an Enterprise HubSpot contract negotiated with sales. No phone-number enrichment. No MCP server found for either legacy Clearbit or Breeze Intelligence - only generic third-party HubSpot-CRM MCP servers (unrelated to enrichment) were found. 2026-09-02: re-checked hubspot.com/llms.txt (no MCP mention) and HubSpot's MCP docs at developers.hubspot.com/mcp (endpoint mcp.hubspot.com, OAuth 2.0); those docs describe CRM access and make no mention of Breeze Intelligence, Clearbit or enrichment, so no MCP server found for this product.
 
 **Provenance**
 
@@ -102,7 +103,7 @@ HubSpot acquired Clearbit (completed ~Dec 2024) and folded it into "Breeze Intel
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

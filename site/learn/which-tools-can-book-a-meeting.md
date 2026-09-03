@@ -1,6 +1,6 @@
 # Which tools can an AI agent use to book a meeting? Counted
 
-> 9 of the 26 GTM tools tagged with this job ship an official MCP server, 10 are reachable without a contract. The full list, counted 2026-09-03.
+> 10 of the 26 GTM tools tagged with this job ship an official MCP server, 10 are reachable without a contract. The full list, counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-23 products in this directory are tagged with this job. 9 of the 26 tagged entries have an official MCP server and 2 have a community one, so an agent can call 11 of them directly. 10 are reachable by one person without a contract. Counted 2026-09-03.
+23 products in this directory are tagged with this job. 10 of the 26 tagged entries have an official MCP server and 2 have a community one, so an agent can call 12 of them directly. 10 are reachable by one person without a contract. Counted 2026-09-03.
 
 Booking is where an agent stops being a research tool and starts holding somebody else's time. It is also the job where the difference between reading a calendar and writing to one is worth being deliberate about: 12 entries are tagged with the read side, 26 with the write side.
 
@@ -24,9 +24,9 @@ Booking is where an agent stops being a research tool and starts holding somebod
 |---|---|---|
 | Entries tagged book-a-meeting | 26 | of 293 directory entries |
 | Distinct products | 23 | the rest are cross listings |
-| Official MCP server | 9 | vendor built and maintained |
+| Official MCP server | 10 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |
-| No server found | 12 | on the date each entry was checked |
+| No server found | 11 | on the date each entry was checked |
 | Free to start | 3 | no payment, no sales call |
 | Solo reachable | 10 | free or paid self serve |
 | Bench tested | 0 | somebody here actually ran it |
@@ -47,6 +47,8 @@ Inbound lead-routing and instant meeting-booking platform ("Concierge") that qua
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Mixmax](../tools/mixmax.md) Official MCP · Paid, self-serve
 Gmail-native sales engagement layer that runs email sequences, tracking, calendaring and meeting notes from inside the inbox.
+- [Artisan AI (Ava)](../tools/artisan-ai.md) Official MCP · Enterprise only
+An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as...
 - [RevenueHero](../tools/revenuehero.md) Official MCP · Gate unknown
 Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's...
 

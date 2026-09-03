@@ -1,6 +1,6 @@
 # Loopio: MCP server status, API access gate and what it does
 
-> RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and... No MCP found, Enterprise only. Checked 2026-08-24.
+> RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and... Community MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Loopio
 
 # Loopio
 
-[No MCP found](../mcp/none-found.md)
+[Community MCP](../mcp/community.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,26 @@ RFP/RFI response system of record for larger proposal teams, the incumbent Loopi
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Community MCP
 
-- **Auth**: n/a
+- **Auth**: OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the Loopio Data API v2, per the repo README; runs locally over stdio
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)Probed**: 2026-09-03, HTTP 200
+
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-none-found
+community
 
 mcp_url, verbatim from the file:
 
-n/a
+https://github.com/fredericboyer/loopio-mcp (unofficial)
+
+- [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)
 
 **Access gate**
 
@@ -70,6 +75,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)
+
 **Jobs it can do**
 
 - [Draft an RFP or questionnaire response](../jobs/draft-rfp-response.md)
@@ -84,13 +93,16 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.vendr.com/marketplace/loopio](https://www.vendr.com/marketplace/loopio)
 - [https://autorfp.ai/blog/loopio-pricing](https://autorfp.ai/blog/loopio-pricing)
 - [https://loopio.com/](https://loopio.com/)
+- [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)
+- [https://lobehub.com/mcp/fredericboyer-loopio-mcp](https://lobehub.com/mcp/fredericboyer-loopio-mcp)
+- [https://loopio.com/platform/integrations/](https://loopio.com/platform/integrations/)
 
-4 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://loopio.com/pricing/, https://www.vendr.com/marketplace/loopio, https://autorfp.ai/blog/loopio-pricing, https://loopio.com/
+https://loopio.com/pricing/, https://www.vendr.com/marketplace/loopio, https://autorfp.ai/blog/loopio-pricing, https://loopio.com/, https://github.com/fredericboyer/loopio-mcp, https://lobehub.com/mcp/fredericboyer-loopio-mcp, https://loopio.com/platform/integrations/
 
 **Notes, verbatim from the file**
-No MCP reference found in this research - a notable contrast to Responsive and Arphie, its two closest direct competitors in this file, both of which shipped official MCP servers.
+No MCP reference found in this research - a notable contrast to Responsive and Arphie, its two closest direct competitors in this file, both of which shipped official MCP servers. 2026-09-02: CHANGED none-found -> community (unofficial). github.com/fredericboyer/loopio-mcp is a local stdio MCP server exposing the Loopio Data API v2 to Claude Desktop and Claude Code (search, read, write and delete library entries, manage RFP projects; read-only by default with writes opt-in). Its README states: 'Unofficial. This is an independent, community-built project. It is not affiliated with, endorsed by, or supported by Loopio Inc.' A second unofficial build (matthewrbonner/loopio-mcp-ec2) is listed on LobeHub. Loopio's own loopio.com/llms.txt (404), the platform/integrations page and the MCP registry carry nothing, so no official server.
 
 **Provenance**
 
@@ -102,7 +114,7 @@ No MCP reference found in this research - a notable contrast to Responsive and A
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

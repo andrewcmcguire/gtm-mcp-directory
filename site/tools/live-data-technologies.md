@@ -1,6 +1,6 @@
 # Live Data Technologies: MCP server status, API access gate and what it does
 
-> Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,11 +15,11 @@ Live Data Technologies
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [https://www.livedatatechnologies.com](https://www.livedatatechnologies.com) · entry id 05-live-data-technologies · source 05-signals-intent-abm.md line 440
+Vendor: [https://www.livedatatechnologies.com](https://www.livedatatechnologies.com) · entry id 05-live-data-technologies · source 05-signals-intent-abm.md line 446
 
 **What it does**
 Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously re-verifying identities against open-web and public professional data sources, surfaced via API or the Moneyball/Streams products.
@@ -38,7 +38,7 @@ Upstream job-change/champion-tracking data source - feeds workflows similar to U
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.livedatatechnologies.com/api, https://www.livedatatechnologies.com/pricing, https://www.livedatatechnologies.com/product-jobs, https://www.businesswire.com/news/home/20230109005011/en/Live-Data-Technologies-Raises-Its-Series-A-to-Provide-Multiple-Verticals-with-Real-Time-Job-Change-Data
 
 **Notes, verbatim from the file**
-Searched "Live Data Technologies MCP server/github" plus mcp.so/glama.ai/pulsemcp.com - nothing found. Consumer products are genuinely self-serve (Moneyball $99/mo, Streams $199/mo, 30-day free trial), but the bulk/Enterprise Data Platform requires contacting sales - a two-tier gate worth noting.
+Searched "Live Data Technologies MCP server/github" plus mcp.so/glama.ai/pulsemcp.com - nothing found. Consumer products are genuinely self-serve (Moneyball $99/mo, Streams $199/mo, 30-day free trial), but the bulk/Enterprise Data Platform requires contacting sales - a two-tier gate worth noting. 2026-09-02: re-checked livedatatechnologies.com/llms.txt (404) and web search (hits are Pathway's 'Live Data Framework', unrelated); no MCP server found.
 
 **Provenance**
 
@@ -98,11 +98,11 @@ Searched "Live Data Technologies MCP server/github" plus mcp.so/glama.ai/pulsemc
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 440
+- **Source line**: 446
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

@@ -1,6 +1,6 @@
 # Cognism: MCP server status, API access gate and what it does
 
-> A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant... No MCP found, Enterprise only. Checked 2026-08-24.
+> A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Cognism
 [Enterprise only](../gates/enterprise-only.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Contact/company data provider, typically used alongside outbound tooling for EME
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -94,7 +94,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.cognism.com/, https://www.cognism.com/about-us, https://viasocket.com/mcp/cognism-prospector, https://www.cleanlist.ai/blog/2026-03-19-cognism-pricing-guide, https://www.marketbetter.ai/blog/cognism-pricing-breakdown-2026/, https://coldiq.com/blog/cognism-pricing
 
 **Notes, verbatim from the file**
-The only "MCP" result found was a viaSocket connector - viaSocket is a generic no-code integration platform that auto-generates wrapper pages for thousands of apps, not a purpose-built Cognism MCP server, so this does not meet the bar for official/community per the hard laws. No free tier or self-serve trial exists; API access is sold separately as a Data-as-a-Service product, quoted case-by-case and typically layered on top of $20K-$50K+/year platform contracts, with no published pricing.
+The only "MCP" result found was a viaSocket connector - viaSocket is a generic no-code integration platform that auto-generates wrapper pages for thousands of apps, not a purpose-built Cognism MCP server, so this does not meet the bar for official/community per the hard laws. No free tier or self-serve trial exists; API access is sold separately as a Data-as-a-Service product, quoted case-by-case and typically layered on top of $20K-$50K+/year platform contracts, with no published pricing. 2026-09-02: re-checked cognism.com/llms.txt (404) and web search; only viaSocket and Zapier aggregator wrappers surface, no MCP server found.
 
 **Provenance**
 
@@ -106,7 +106,7 @@ The only "MCP" result found was a viaSocket connector - viaSocket is a generic n
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

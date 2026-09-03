@@ -1,6 +1,6 @@
 # Champify: MCP server status, API access gate and what it does
 
-> Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags... No MCP found, Enterprise only. Checked 2026-08-24.
+> Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Champify
 [Enterprise only](../gates/enterprise-only.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Champion-tracking / warm-outbound trigger tool, a near-direct competitor to User
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -91,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.champify.io/pricing, https://www.champify.io/, https://www.trustradius.com/products/champify/pricing, https://prospectingmanual.com/ai-automation/compare/usergems-vs-champify/, https://www.vendr.com/buyer-guides/champify
 
 **Notes, verbatim from the file**
-Searched GitHub, mcp.so, glama.ai, pulsemcp.com - no MCP found. Published tiers $2,000-$6,000/mo (annual contracts standard); no self-serve signup, pricing page only offers "Get Demo"/"Request Data Test." Vendr reports median actual spend of $15,750/yr (n=11), below list price.
+Searched GitHub, mcp.so, glama.ai, pulsemcp.com - no MCP found. Published tiers $2,000-$6,000/mo (annual contracts standard); no self-serve signup, pricing page only offers "Get Demo"/"Request Data Test." Vendr reports median actual spend of $15,750/yr (n=11), below list price. 2026-09-02: re-checked champify.io/llms.txt (404) and web search; no MCP server found.
 
 **Provenance**
 
@@ -103,7 +103,7 @@ Searched GitHub, mcp.so, glama.ai, pulsemcp.com - no MCP found. Published tiers 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

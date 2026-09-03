@@ -1,6 +1,6 @@
 # Qwilr: MCP server status, API access gate and what it does
 
-> Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Qwilr
 [Paid, self-serve](../gates/paid.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Interactive proposal/quote layer, positioned as a Proposify/PandaDoc competitor 
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://qwilr.com/pricing/, https://www.xpay.sh/saas-pricing/qwilr/, https://www.vendr.com/marketplace/qwilr
 
 **Notes, verbatim from the file**
-No native Qwilr MCP server found; reachable only indirectly through third-party automation platforms like Zapier or Pipedream, which is not the same as a vendor-built MCP server and does not qualify for mcp_status official or community per this directory's sourcing standard.
+No native Qwilr MCP server found; reachable only indirectly through third-party automation platforms like Zapier or Pipedream, which is not the same as a vendor-built MCP server and does not qualify for mcp_status official or community per this directory's sourcing standard. 2026-09-02: re-checked qwilr.com/llms.txt (404) and web search; only Zapier, Pipedream and Runbear aggregator listings surface, no MCP server found.
 
 **Provenance**
 
@@ -102,7 +102,7 @@ No native Qwilr MCP server found; reachable only indirectly through third-party 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

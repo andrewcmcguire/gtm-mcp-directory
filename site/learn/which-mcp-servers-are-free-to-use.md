@@ -1,6 +1,6 @@
-# Which GTM MCP servers are free to use? 44 products, counted
+# Which GTM MCP servers are free to use? 46 products, counted
 
-> 44 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-03.
+> 46 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-44 unique products here have both an MCP server and a free to start gate, meaning you can sign up, get access and point an agent at them without paying anything or speaking to a salesperson. Free to start is a gate, not a price: everything on this list still meters something.
+46 unique products here have both an MCP server and a free to start gate, meaning you can sign up, get access and point an agent at them without paying anything or speaking to a salesperson. Free to start is a gate, not a price: everything on this list still meters something.
 
 The MCP server itself is almost never the thing you pay for. What you pay for is what it calls: credits, seats, sends, lookups. A free server in front of a metered API is normal and it is not a trick, but an agent in a loop consumes a free tier considerably faster than a human clicking does.
 
@@ -94,6 +94,8 @@ Cloud data warehouse that acts as the central store where GTM data (CRM, product
 Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases...
 - [TheirStack](../tools/theirstack.md) Official MCP · Free to start
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals...
+- [Tidio](../tools/tidio.md) Official MCP · Free to start
+Customer-service platform combining live chat, a help desk, and an AI agent ("Lyro") that resolves routine support/sales questions automatically.
 - [Trumpet (sendtrumpet.com)](../tools/trumpet.md) Official MCP · Free to start
 Digital sales room / "Pod" builder for buyer-facing deal collateral, tracking granular buyer engagement (clicks, time-on-page, returning champions)...
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
@@ -104,6 +106,8 @@ A cloud automation platform connecting thousands of apps via trigger-action work
 Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app actions Zapier already exposes to its...
 - [ZoomInfo](../tools/zoominfo.md) Official MCP · Free to start
 A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human...
+- [Landbot](../tools/landbot.md) Community MCP · Free to start
+No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows with LLM-powered conversation.
 - [Loom](../tools/loom.md) Community MCP · Free to start
 Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and...
 - [People Data Labs](../tools/people-data-labs.md) Community MCP · Free to start

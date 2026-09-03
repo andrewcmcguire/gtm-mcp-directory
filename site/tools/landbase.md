@@ -1,6 +1,6 @@
 # Landbase: MCP server status, API access gate and what it does
 
-> A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using... No MCP found, Free to start. Checked 2026-08-24.
+> A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using... No MCP found, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Landbase
 [Free to start](../gates/free.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,13 +38,13 @@ Account targeting/enrichment layer that feeds an outbound execution tool (like t
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 21 of 293 entries are.
+The mcp_url field is empty on this entry. 17 of 293 entries are.
 
 **Access gate**
 
@@ -89,7 +89,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.landbase.com, https://www.landbase.com/pricing
 
 **Notes, verbatim from the file**
-Worth a second look for the "MCP infrastructure" category (7) rather than just this one - the Claude Code/Codex CLI installer is an interesting adjacent-to-MCP integration pattern even though it isn't MCP itself. [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://www.landbase.com/pricing): free signup grants an instant API key with 1,000 credits and no credit card, plus $49 of free credits; paid credit packs start at $499/mo for 15,000 credits.
+Worth a second look for the "MCP infrastructure" category (7) rather than just this one - the Claude Code/Codex CLI installer is an interesting adjacent-to-MCP integration pattern even though it isn't MCP itself. [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://www.landbase.com/pricing): free signup grants an instant API key with 1,000 credits and no credit card, plus $49 of free credits; paid credit packs start at $499/mo for 15,000 credits. 2026-09-02: re-checked. landbase.com has no llms.txt, https://www.landbase.com/docs/faq describes the landbase-cli, a Claude Code plugin with slash commands and API-key auth but no MCP server, the official MCP registry has no entry, and Landbase's own blog posts on Claude Code tooling describe CLI access rather than an MCP. none-found stands.
 
 **Provenance**
 
@@ -101,7 +101,7 @@ Worth a second look for the "MCP infrastructure" category (7) rather than just t
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

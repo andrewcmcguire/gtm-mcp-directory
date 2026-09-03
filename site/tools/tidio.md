@@ -1,6 +1,6 @@
 # Tidio: MCP server status, API access gate and what it does
 
-> Customer-service platform combining live chat, a help desk, and an AI agent ("Lyro") that resolves routine... No MCP found, Free to start. Checked 2026-08-24.
+> Customer-service platform combining live chat, a help desk, and an AI agent ("Lyro") that resolves routine... Official MCP, Free to start. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Tidio
 
 # Tidio
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Free to start](../gates/free.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,27 @@ Widely deployed (300,000+ businesses per vendor) SMB-friendly inbound chat/suppo
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: n/a
+- **Auth**: OAuth: the tidio_connect tool opens a browser to Tidio's login page, then stores access and refresh tokens locally in ~/.tidio-mcp/credentials.json.
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector)Probed**: 2026-09-03, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-none-found
+official
 
 mcp_url, verbatim from the file:
 
-none
+https://github.com/TidioPoland/tidio-mcp-connector (https://tid.io/mcp 301-redirects here)
+
+- [https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector)
+- [https://tid.io/mcp](https://tid.io/mcp)
 
 **Access gate**
 
@@ -70,6 +76,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector)
+
 **Jobs it can do**
 
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
@@ -81,13 +91,16 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://www.tidio.com](https://www.tidio.com)
+- [https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector)
+- [https://tid.io/mcp](https://tid.io/mcp)
+- [https://www.tidio.com/ai-agent/build-and-integrate/](https://www.tidio.com/ai-agent/build-and-integrate/)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.tidio.com
+https://www.tidio.com, https://github.com/TidioPoland/tidio-mcp-connector, https://tid.io/mcp, https://www.tidio.com/ai-agent/build-and-integrate/
 
 **Notes, verbatim from the file**
-Tidio's own marketing copy lists "REST APIs, webhooks, JS actions, or Model Context Protocol (MCP)" as supported integration methods, but no dedicated MCP docs page, repo, or listing could be located on tidio.com, PulseMCP, mcp.so, or glama.ai during this research pass - per this directory's law that an MCP claim requires a URL in hand, this is logged as none-found rather than official/community despite the vendor's own claim. Re-check before the next pass.
+Tidio's own marketing copy lists "REST APIs, webhooks, JS actions, or Model Context Protocol (MCP)" as supported integration methods, but no dedicated MCP docs page, repo, or listing could be located on tidio.com, PulseMCP, mcp.so, or glama.ai during this research pass - per this directory's law that an MCP claim requires a URL in hand, this is logged as none-found rather than official/community despite the vendor's own claim. Re-check before the next pass. 2026-09-02: mcp_status none-found -> official, narrowly. Tidio's short domain https://tid.io/mcp 301-redirects to github.com/TidioPoland/tidio-mcp-connector, a repo under the TidioPoland GitHub organisation (whose profile links tidio.com), and mcpservers.org lists it with an official badge. It is a small setup connector: three tools (tidio_connect, tidio_status, tidio_disconnect) plus embed-code generation so an AI assistant or Lovable can wire Tidio onto a site; it does not expose conversations, contacts or Lyro data. Separately, https://www.tidio.com/ai-agent/build-and-integrate/ describes Lyro consuming MCP servers (Shopify, Guru, Stripe), which makes Lyro an MCP client. The community server github.com/adrmrn/tidio-mcp wraps the Tidio REST API. The "no dedicated MCP docs page, repo, or listing" sentence above is superseded.
 
 **Provenance**
 
@@ -99,7 +112,7 @@ Tidio's own marketing copy lists "REST APIs, webhooks, JS actions, or Model Cont
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 

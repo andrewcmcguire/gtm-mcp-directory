@@ -1,6 +1,6 @@
 # Salesforce Einstein Forecasting: MCP server status, API access gate and what it does
 
-> Sales Cloud's AI forecasting feature, analyzing past opportunities, account history, and activities plus rep... No MCP found, Enterprise only. Checked 2026-08-24.
+> Sales Cloud's AI forecasting feature, analyzing past opportunities, account history, and activities plus rep... No MCP found, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Salesforce Einstein Forecasting
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Native forecasting layer inside Salesforce's core CRM, an alternative to bolting
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -82,12 +82,12 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/view-and-set-sales-forecasts](https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/view-and-set-sales-forecasts)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/view-and-set-sales-forecasts
 
 **Notes, verbatim from the file**
-Cross-reference only - do not duplicate the full Salesforce/Agentforce entry already researched in 06-revops-infra.md.
+Cross-reference only - do not duplicate the full Salesforce/Agentforce entry already researched in 06-revops-infra.md. 2026-09-02: re-checked with a web search; the only "Salesforce Einstein" MCP found is CData's third-party read-only JDBC connector for Einstein Analytics data, not the Forecasting feature, and salesforce.com and developer.salesforce.com returned 403 to fetches. none-found (forecast-specific) stands.
 
 **Provenance**
 
@@ -99,7 +99,7 @@ Cross-reference only - do not duplicate the full Salesforce/Agentforce entry alr
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
 - **Data baked**: 2026-09-03
 
