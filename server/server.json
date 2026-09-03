@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.andrewcmcguire/gtm-mcp-directory",
+  "description": "293 GTM tools scored on whether an AI agent can actually call them and what it costs to get in. Local, read-only, zero outbound requests.",
+  "repository": {
+    "url": "https://github.com/andrewcmcguire/gtm-mcp-directory",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://andrewcmcguire.com/gtm-directory/",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "gtm-mcp-directory",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

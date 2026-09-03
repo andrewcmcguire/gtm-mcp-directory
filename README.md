@@ -4,8 +4,8 @@
 AI agent actually call this, and can a solo operator get in without a
 procurement cycle.**
 
-Browse it: **https://gtm-mcp-directory.pages.dev**
-(its home is andrewcmcguire.com/gtm-directory once that route is live)
+Browse it: **https://andrewcmcguire.com/gtm-directory/**
+(mirror: https://gtm-mcp-directory.pages.dev)
 Query it from your agent: the MCP server in [`server/`](server/).
 The whole dataset, no key, no signup: [`data/directory.json`](data/directory.json).
 
@@ -80,7 +80,7 @@ variable and the integrity model: **[`server/README.md`](server/README.md)**.
 
 ## Browse the site
 
-**https://gtm-mcp-directory.pages.dev**
+**https://andrewcmcguire.com/gtm-directory/**
 
 461 static pages, no framework, no tracking, and zero external requests at
 runtime (enforced by a CSP, not just claimed). One page per tool with every
@@ -94,9 +94,8 @@ and [`/data.html`](https://gtm-mcp-directory.pages.dev/data.html) documents the
 JSON and the three most common ways to read it wrong.
 
 > The canonical URLs in the sitemap point at `andrewcmcguire.com/gtm-directory`,
-> which is where the site is headed. That route is not live yet. The site is
-> serving from the Pages subdomain above, and the site discloses this on its own
-> methodology page rather than letting a dead URL look live.
+> which has served the site since 2026-08-27 through a Worker route on the apex.
+> The Pages subdomain is the same deploy and stays up as a mirror.
 
 ---
 

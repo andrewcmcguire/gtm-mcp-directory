@@ -9,6 +9,7 @@ No write tools. No telemetry. No outbound requests. No featured field.
 
 from __future__ import annotations
 
+import os
 import sys
 from typing import Any, Optional
 
@@ -1133,8 +1134,26 @@ def integrity() -> dict[str, Any]:
     }
 
 
-def main() -> None:
-    mcp.run(transport="stdio", show_banner=False)
+def main(argv: list[str] | None = None) -> None:
+    """Run the server. stdio by default; HTTP behind an explicit flag.
+
+    stdio is spawned per session by the client and is what `uvx
+    gtm-mcp-directory` gets. `--transport http` exposes the same seven read-only
+    tools at /mcp for a host that wants a shared endpoint. Nothing about the
+    data, the tools or the network policy changes between the two: the server
+    still makes zero outbound requests either way.
+    """
+    import argparse
+
+    parser = argparse.ArgumentParser(prog="gtm-mcp-directory", add_help=True)
+    parser.add_argument("--transport", choices=("stdio", "http"), default=os.environ.get("GTM_DIRECTORY_TRANSPORT", "stdio"))
+    parser.add_argument("--host", default=os.environ.get("HOST", "127.0.0.1"))
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")))
+    args = parser.parse_args(argv)
+    if args.transport == "http":
+        mcp.run(transport="http", host=args.host, port=args.port, show_banner=False)
+    else:
+        mcp.run(transport="stdio", show_banner=False)
 
 
 if __name__ == "__main__":

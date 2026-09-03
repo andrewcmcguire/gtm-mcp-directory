@@ -9,6 +9,7 @@ description = "The GTM MCP Directory as an MCP server. Local, offline, zero outb
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
+license-files = ["LICENSE"]
 authors = [{ name = "Andrew McGuire" }]
 keywords = ["mcp", "gtm", "revops", "directory", "agent-operator"]
 classifiers = [
@@ -33,9 +34,11 @@ gtm-mcp-directory = "gtm_mcp_directory.server:main"
 [tool.hatch.build.targets.wheel]
 packages = ["gtm_mcp_directory"]
 
-# The wheel bakes a copy of the directory at release time. The server also
-# resolves the repo layout (product/data/directory.json) when run from a
-# checkout, so a local clone always reads the live build.
-[tool.hatch.build.targets.wheel.force-include]
-"../data/directory.json" = "gtm_mcp_directory/data/directory.json"
-"../data/build_report.json" = "gtm_mcp_directory/data/build_report.json"
+# The package carries a copy of the directory under gtm_mcp_directory/data/,
+# put there by `python sync_data.py` before every build. It lives INSIDE the
+# package so that an sdist unpacked anywhere still builds a working wheel; the
+# old force-include reached outside the project root and broke sdist builds.
+# When run from a repo checkout the server prefers ../../data/directory.json
+# (the live build) over the bundled copy, per loading.candidate_paths().
+[tool.hatch.build.targets.sdist]
+include = ["gtm_mcp_directory/**", "README.md", "LICENSE", "pyproject.toml", "sync_data.py", "qa_stdio.py"]

@@ -55,10 +55,12 @@ def candidate_paths() -> list[Path]:
         p = Path(env).expanduser()
         out.append(p / "directory.json" if p.is_dir() else p)
 
-    # Bundled inside the wheel (what `uvx gtm-mcp-directory` gets).
-    out.append(here / "data" / "directory.json")
-    # Repo layout: product/server/gtm_mcp_directory/ -> product/data/
+    # Repo layout first: product/server/gtm_mcp_directory/ -> product/data/.
+    # A checkout always reads the live build, never a stale bundled copy.
     out.append(here.parent.parent / "data" / "directory.json")
+    # Bundled inside the package (what `uvx gtm-mcp-directory` gets). Put there
+    # by sync_data.py before every build.
+    out.append(here / "data" / "directory.json")
     # Tolerated alternate: server/data/
     out.append(here.parent / "data" / "directory.json")
     return out

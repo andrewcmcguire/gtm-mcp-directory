@@ -1,0 +1,1645 @@
+{
+  "generated_on": "2026-08-28",
+  "product": "The GTM MCP Directory",
+  "phase": "1+2",
+  "entries_parsed": 293,
+  "files_parsed": 15,
+  "reconciliation": {
+    "authority": "tools_recount.py",
+    "authority_path": "../tools_recount.py",
+    "per_file": [
+      {
+        "file": "01-data-enrichment.md",
+        "build_entries": 38,
+        "recount_entries": 38,
+        "ok": true
+      },
+      {
+        "file": "02-engagement-outbound.md",
+        "build_entries": 27,
+        "recount_entries": 27,
+        "ok": true
+      },
+      {
+        "file": "03-conversation-intel.md",
+        "build_entries": 24,
+        "recount_entries": 24,
+        "ok": true
+      },
+      {
+        "file": "04-ai-sdr-agents.md",
+        "build_entries": 23,
+        "recount_entries": 23,
+        "ok": true
+      },
+      {
+        "file": "05-signals-intent-abm.md",
+        "build_entries": 28,
+        "recount_entries": 28,
+        "ok": true
+      },
+      {
+        "file": "06-revops-infra.md",
+        "build_entries": 23,
+        "recount_entries": 23,
+        "ok": true
+      },
+      {
+        "file": "07-mcp-infrastructure.md",
+        "build_entries": 13,
+        "recount_entries": 13,
+        "ok": true
+      },
+      {
+        "file": "08-video-prospecting.md",
+        "build_entries": 14,
+        "recount_entries": 14,
+        "ok": true
+      },
+      {
+        "file": "09-email-deliverability.md",
+        "build_entries": 13,
+        "recount_entries": 13,
+        "ok": true
+      },
+      {
+        "file": "10-scheduling-routing.md",
+        "build_entries": 14,
+        "recount_entries": 14,
+        "ok": true
+      },
+      {
+        "file": "11-enablement-coaching.md",
+        "build_entries": 14,
+        "recount_entries": 14,
+        "ok": true
+      },
+      {
+        "file": "12-forecasting-revenue.md",
+        "build_entries": 17,
+        "recount_entries": 17,
+        "ok": true
+      },
+      {
+        "file": "13-proposals-deals.md",
+        "build_entries": 14,
+        "recount_entries": 14,
+        "ok": true
+      },
+      {
+        "file": "14-inbound-plg-chat.md",
+        "build_entries": 15,
+        "recount_entries": 15,
+        "ok": true
+      },
+      {
+        "file": "15-community-dark-social.md",
+        "build_entries": 16,
+        "recount_entries": 16,
+        "ok": true
+      }
+    ],
+    "build_total": 293,
+    "recount_total": 293,
+    "build_mcp_status": {
+      "community": 21,
+      "n-a": 4,
+      "none-found": 117,
+      "official": 144,
+      "unknown": 7
+    },
+    "recount_mcp_status": {
+      "community": 21,
+      "n-a": 4,
+      "none-found": 117,
+      "official": 144,
+      "unknown": 7
+    },
+    "build_api_gate": {
+      "enterprise-leaning": 4,
+      "enterprise-only": 77,
+      "free": 61,
+      "n-a": 6,
+      "paid": 113,
+      "unknown": 32
+    },
+    "recount_api_gate": {
+      "enterprise-leaning": 4,
+      "enterprise-only": 77,
+      "free": 61,
+      "n-a": 6,
+      "paid": 113,
+      "unknown": 32
+    },
+    "duplicate_names_build": [
+      "amplemarket",
+      "chili piper",
+      "clari",
+      "common room",
+      "crustdata",
+      "default",
+      "hubspot",
+      "klenty",
+      "pipedrive",
+      "qualified",
+      "reply io",
+      "salesforce agentforce",
+      "salesforge",
+      "theirstack",
+      "trumpet",
+      "warmly"
+    ],
+    "duplicate_names_recount": [
+      "amplemarket",
+      "chili piper",
+      "clari",
+      "common room",
+      "crustdata",
+      "default",
+      "hubspot",
+      "klenty",
+      "pipedrive",
+      "qualified",
+      "reply io",
+      "salesforce agentforce",
+      "salesforge",
+      "theirstack",
+      "trumpet",
+      "warmly"
+    ],
+    "recount_warnings": [],
+    "failures": [],
+    "reconciled": true
+  },
+  "coverage": {
+    "total_entries": 293,
+    "schema_fields": {
+      "name": {
+        "present": 293,
+        "missing": 0
+      },
+      "vendor_url": {
+        "present": 293,
+        "missing": 0
+      },
+      "category": {
+        "present": 293,
+        "missing": 0
+      },
+      "what_it_does": {
+        "present": 293,
+        "missing": 0
+      },
+      "ai_features": {
+        "present": 293,
+        "missing": 0
+      },
+      "mcp_status": {
+        "present": 293,
+        "missing": 0
+      },
+      "mcp_url": {
+        "present": 272,
+        "missing": 21
+      },
+      "mcp_auth": {
+        "present": 288,
+        "missing": 5
+      },
+      "api_gate": {
+        "present": 293,
+        "missing": 0
+      },
+      "revops_role": {
+        "present": 293,
+        "missing": 0
+      },
+      "tier": {
+        "present": 293,
+        "missing": 0
+      },
+      "last_checked": {
+        "present": 293,
+        "missing": 0
+      },
+      "sources": {
+        "present": 293,
+        "missing": 0
+      },
+      "notes": {
+        "present": 293,
+        "missing": 0
+      }
+    },
+    "docs_url_present": 30,
+    "docs_url_missing": 263,
+    "mcp_url_present": 272,
+    "mcp_url_missing": 21,
+    "mcp_url_with_parseable_url": 174,
+    "mcp_url_pointing_at_github": 46,
+    "mcp_auth_present": 288,
+    "github_candidates_any": 61,
+    "sources_zero_urls": 0,
+    "sources_one_url": 17,
+    "sources_two_or_more_urls": 276,
+    "sources_url_total": 1125,
+    "sources_with_annotations": 11,
+    "entries_with_extra_fields": 0,
+    "mcp_status": {
+      "community": 21,
+      "n-a": 4,
+      "none-found": 117,
+      "official": 144,
+      "unknown": 7
+    },
+    "api_gate": {
+      "enterprise-leaning": 4,
+      "enterprise-only": 77,
+      "free": 61,
+      "n-a": 6,
+      "paid": 113,
+      "unknown": 32
+    },
+    "api_gate_unknown": 32,
+    "tier": {
+      "RESEARCHED": 293
+    },
+    "last_checked": {
+      "2026-08-24": 261,
+      "2026-08-25": 32
+    },
+    "bench_tested": 0,
+    "jobs_tagged": 271,
+    "jobs_untagged": 22,
+    "jobs_assignments": 827,
+    "jobs_tagged_by": {
+      "(untagged)": 22,
+      "machine-pass": 271
+    },
+    "unmeasured_spec_fields": {
+      "github_url": 293,
+      "github_stars": 293,
+      "github_last_commit": 293,
+      "github_archived": 293,
+      "github_fetched_on": 293,
+      "docs_digest": 293,
+      "docs_last_crawled": 293,
+      "submission": 293
+    },
+    "solo_reachable": 123
+  },
+  "jobs": {
+    "vocabulary_size": 55,
+    "tags_keys": 255,
+    "entries_total": 293,
+    "entries_tagged": 271,
+    "entries_untagged": 22,
+    "products_tagged": 255,
+    "products_untagged": 22,
+    "tag_assignments": 827,
+    "tags_per_entry": {
+      "0": 22,
+      "1": 71,
+      "2": 57,
+      "3": 50,
+      "4": 29,
+      "5": 32,
+      "6": 13,
+      "7": 14,
+      "8": 5
+    },
+    "mean_tags_per_tagged_entry": 3.05,
+    "max_tags_on_one_entry": 8,
+    "untagged_entry_ids": [
+      "04-relevance-ai",
+      "05-koala",
+      "06-census",
+      "06-superblocks",
+      "07-mcp-so",
+      "07-model-context-protocol-official-servers-repo",
+      "07-klavis-ai",
+      "10-clockwise",
+      "11-workramp",
+      "11-continu",
+      "11-trainual",
+      "14-drift",
+      "14-pocus",
+      "14-correlated",
+      "14-toplyne",
+      "14-ultimate-ai",
+      "15-orbit",
+      "15-sparktoro",
+      "15-gummysearch",
+      "15-exploding-topics",
+      "15-commsor",
+      "15-bevy"
+    ],
+    "needs_review_count": 28,
+    "needs_review": [
+      {
+        "name": "Bevy",
+        "entry_ids": [
+          "15-bevy"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. Community-event infrastructure (chapters, meetups, gamification). Real product, no job in the vocabulary describes running an events programme. Either a new job or an honest permanent blank."
+      },
+      {
+        "name": "Census",
+        "entry_ids": [
+          "06-census"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Entry states the standalone product no longer operates and now lives inside Fivetran as Activations. Tags belong on Fivetran, which has sync-records-between-systems."
+      },
+      {
+        "name": "Champion",
+        "entry_ids": [
+          "15-champion"
+        ],
+        "tagged": true,
+        "job_count": 1,
+        "reason": "thin. Tagged score-and-prioritize-leads only. Its champion-to-deal-context matching for references and case studies is close to discover-warm-intro-paths but is matching inside existing accounts, not finding a path into a new one. Drew's call."
+      },
+      {
+        "name": "Clockwise",
+        "entry_ids": [
+          "10-clockwise"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Entry says THE PRODUCT IS SHUT DOWN. It did book-a-meeting and read-calendar-availability; tagging a dead endpoint as supply is exactly the failure INDEX.md finding 5 warns about."
+      },
+      {
+        "name": "Commsor",
+        "entry_ids": [
+          "15-commsor"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Folded into The Swarm's Go-to-Network line. The Swarm carries discover-warm-intro-paths."
+      },
+      {
+        "name": "Continu",
+        "entry_ids": [
+          "11-continu"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. Corporate LMS. retrieve-sales-content is about approved sales collateral, not training courses. A learning-content job may be worth adding once file 11 is looked at as a set."
+      },
+      {
+        "name": "Correlated",
+        "entry_ids": [
+          "14-correlated"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Entry records the current form as unknown, with no live product surface to evaluate."
+      },
+      {
+        "name": "Drift",
+        "entry_ids": [
+          "14-drift"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Folded into Salesloft, and the entry states the conversational-AI engine is now a third party (1mind). Tagging answer-inbound-chat would point an agent at a product that no longer exists standalone."
+      },
+      {
+        "name": "Exploding Topics",
+        "entry_ids": [
+          "15-exploding-topics"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. Trend and topic velocity detection. It is not mention monitoring and it is not an account signal, so monitor-social-mentions would be wrong. Candidate new job: detect-emerging-topic."
+      },
+      {
+        "name": "GummySearch",
+        "entry_ids": [
+          "15-gummysearch"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Shut down per the entry's notes."
+      },
+      {
+        "name": "Klavis AI",
+        "entry_ids": [
+          "07-klavis-ai"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "unclear. The entry states the product is agent-training-data infrastructure and explicitly flags the mismatch with Composio/Pipedream. proxy-tool-calls-to-saas is plausible from the \"600+ real tools\" line and unsupported by everything else on the page."
+      },
+      {
+        "name": "Koala",
+        "entry_ids": [
+          "05-koala"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. The entry is written in the past tense throughout. It did identify-anonymous-website-visitor and score-and-prioritize-leads."
+      },
+      {
+        "name": "MadKudu",
+        "entry_ids": [
+          "04-madkudu"
+        ],
+        "tagged": true,
+        "job_count": 1,
+        "reason": "thin. Tagged score-and-prioritize-leads only. The domain redirects to HG Insights and the entry says the standalone product no longer appears to exist, so the HG Sales Copilot claims (account research, outreach sequences) were not carried over."
+      },
+      {
+        "name": "mcp.so",
+        "entry_ids": [
+          "07-mcp-so"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "unclear. The entry could not verify current content. discover-mcp-servers is the obvious tag and there is no fetched evidence for it."
+      },
+      {
+        "name": "Model Context Protocol - official servers repo",
+        "entry_ids": [
+          "07-model-context-protocol-official-servers-repo"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. The official reference-servers repo. It is the spec's canonical reference, not a registry an agent queries and not a SaaS proxy."
+      },
+      {
+        "name": "Orbit",
+        "entry_ids": [
+          "15-orbit"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Community analytics platform, past tense in the entry."
+      },
+      {
+        "name": "Pocus",
+        "entry_ids": [
+          "14-pocus"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Absorbed into a competitor; the entry says features could not be meaningfully evaluated post-acquisition."
+      },
+      {
+        "name": "Relevance AI",
+        "entry_ids": [
+          "04-relevance-ai"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "thin. Tagged nothing. It is a build-your-own-agent platform and the entry says the agentic depth depends entirely on what the operator configures. Its listed specialist agents (prospecting, scheduling, deal review, proposal building) would each be a tag, but tagging a builder with its example templates would inflate the supply count for six jobs at once."
+      },
+      {
+        "name": "SparkToro",
+        "entry_ids": [
+          "15-sparktoro"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. Audience attention mapping. Not account research, not mention monitoring. Candidate new job: map-audience-attention."
+      },
+      {
+        "name": "Superblocks",
+        "entry_ids": [
+          "06-superblocks"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. Internal-app building and AI-app governance. run-automation-workflow is not what it does and there is no app-builder job."
+      },
+      {
+        "name": "Toplyne",
+        "entry_ids": [
+          "14-toplyne"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Entry records the current form as unknown."
+      },
+      {
+        "name": "Trainual",
+        "entry_ids": [
+          "11-trainual"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. SOP and process documentation, explicitly described as not sales-specific."
+      },
+      {
+        "name": "Ultimate.ai",
+        "entry_ids": [
+          "14-ultimate-ai"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "dead. Presumed folded into Zendesk AI Agents; no standalone surface to evaluate."
+      },
+      {
+        "name": "WorkRamp",
+        "entry_ids": [
+          "11-workramp"
+        ],
+        "tagged": false,
+        "job_count": 0,
+        "reason": "no-job-fits. Corporate LMS, same call as Continu."
+      },
+      {
+        "name": "Attio",
+        "entry_ids": [
+          "06-attio"
+        ],
+        "tagged": true,
+        "job_count": 2,
+        "reason": "thin. Tagged read-crm-records and write-crm-records. The entry mentions automatic data enrichment and meeting-intelligence tooling in the MCP surface but calls the AI surface unconfirmed, so enrich-company-from-domain and summarize-meeting were left off."
+      },
+      {
+        "name": "Syncari",
+        "entry_ids": [
+          "06-syncari"
+        ],
+        "tagged": true,
+        "job_count": 1,
+        "reason": "thin. Tagged sync-records-between-systems. Its Master MCP Server exposes governed unified data to agents, which is close to query-data-warehouse, but Syncari is an MDM layer over other systems rather than a warehouse."
+      },
+      {
+        "name": "Versium REACH",
+        "entry_ids": [
+          "01-versium-reach"
+        ],
+        "tagged": true,
+        "job_count": 1,
+        "reason": "thin. Tagged verify-email-deliverable only. Identity-graph append on partial contact records is real but the entry does not say what identifiers go in or what comes out, so no enrich or reverse-lookup tag could be justified."
+      },
+      {
+        "name": "Airbyte",
+        "entry_ids": [
+          "06-airbyte"
+        ],
+        "tagged": true,
+        "job_count": 1,
+        "reason": "thin. Tagged sync-records-between-systems. The hosted Context Store and the Agents product line let agents query connected data, which reads close to query-data-warehouse, but Airbyte lands data rather than serving analytical queries over it."
+      }
+    ],
+    "notes": []
+  },
+  "jobs_meta": {
+    "version": "1",
+    "vocabulary_status": "closed",
+    "written_on": "2026-08-25",
+    "tier": "RESEARCHED",
+    "tier_meaning": "A job tag means the vendor says the tool does this. It is not a usage claim, not a test result, and not a promise the capability is reachable through the tool's MCP server or on the gate the entry records.",
+    "source_file": "data/jobs.yaml",
+    "source_sha256": "e63c27779ba7bdea1617e4ae1e6afaa47193ecbf695e5ceb744a0677da1db948"
+  },
+  "tags_meta": {
+    "version": "1",
+    "tagged_on": "2026-08-25",
+    "tagged_by": "machine-pass",
+    "tier": "RESEARCHED",
+    "tier_meaning": "A job tag means the vendor says the tool does this. Nobody has run any tool in this directory. bench_tested is still 0.",
+    "key_resolution": "Keys are matched against each entry's normalized name (lowercased, parentheticals dropped, punctuation collapsed), the same normalisation tools_recount.py uses to detect cross-file duplicates. One key therefore covers every entry for the same product.",
+    "source_file": "data/tags.yaml",
+    "source_sha256": "77a593d1de719f44e3816265c624b1cd7eefd1dee059b9f4ac8be0539b4d1b7f"
+  },
+  "jobs_supply": [
+    {
+      "id": "search-people-by-criteria",
+      "family": "find-people-and-companies",
+      "entry_count": 24,
+      "product_count": 22,
+      "official_mcp": 15,
+      "solo_reachable": 17,
+      "bench_tested": 0
+    },
+    {
+      "id": "search-companies-by-firmographics",
+      "family": "find-people-and-companies",
+      "entry_count": 15,
+      "product_count": 14,
+      "official_mcp": 12,
+      "solo_reachable": 13,
+      "bench_tested": 0
+    },
+    {
+      "id": "enrich-person-from-linkedin-url",
+      "family": "find-people-and-companies",
+      "entry_count": 12,
+      "product_count": 12,
+      "official_mcp": 8,
+      "solo_reachable": 8,
+      "bench_tested": 0
+    },
+    {
+      "id": "enrich-company-from-domain",
+      "family": "find-people-and-companies",
+      "entry_count": 34,
+      "product_count": 31,
+      "official_mcp": 26,
+      "solo_reachable": 23,
+      "bench_tested": 0
+    },
+    {
+      "id": "reverse-lookup-person-from-email",
+      "family": "find-people-and-companies",
+      "entry_count": 1,
+      "product_count": 1,
+      "official_mcp": 0,
+      "solo_reachable": 1,
+      "bench_tested": 0
+    },
+    {
+      "id": "build-target-account-list",
+      "family": "find-people-and-companies",
+      "entry_count": 7,
+      "product_count": 7,
+      "official_mcp": 4,
+      "solo_reachable": 3,
+      "bench_tested": 0
+    },
+    {
+      "id": "discover-warm-intro-paths",
+      "family": "find-people-and-companies",
+      "entry_count": 4,
+      "product_count": 4,
+      "official_mcp": 3,
+      "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "find-work-email",
+      "family": "get-contact-data",
+      "entry_count": 29,
+      "product_count": 29,
+      "official_mcp": 22,
+      "solo_reachable": 22,
+      "bench_tested": 0
+    },
+    {
+      "id": "find-phone-number",
+      "family": "get-contact-data",
+      "entry_count": 19,
+      "product_count": 19,
+      "official_mcp": 12,
+      "solo_reachable": 11,
+      "bench_tested": 0
+    },
+    {
+      "id": "verify-email-deliverable",
+      "family": "get-contact-data",
+      "entry_count": 15,
+      "product_count": 15,
+      "official_mcp": 11,
+      "solo_reachable": 14,
+      "bench_tested": 0
+    },
+    {
+      "id": "identify-anonymous-website-visitor",
+      "family": "signals-and-research",
+      "entry_count": 11,
+      "product_count": 10,
+      "official_mcp": 8,
+      "solo_reachable": 6,
+      "bench_tested": 0
+    },
+    {
+      "id": "fetch-buyer-intent-signals",
+      "family": "signals-and-research",
+      "entry_count": 30,
+      "product_count": 26,
+      "official_mcp": 18,
+      "solo_reachable": 13,
+      "bench_tested": 0
+    },
+    {
+      "id": "track-job-changes",
+      "family": "signals-and-research",
+      "entry_count": 10,
+      "product_count": 9,
+      "official_mcp": 4,
+      "solo_reachable": 5,
+      "bench_tested": 0
+    },
+    {
+      "id": "scrape-job-postings",
+      "family": "signals-and-research",
+      "entry_count": 5,
+      "product_count": 4,
+      "official_mcp": 5,
+      "solo_reachable": 5,
+      "bench_tested": 0
+    },
+    {
+      "id": "detect-technographics",
+      "family": "signals-and-research",
+      "entry_count": 14,
+      "product_count": 12,
+      "official_mcp": 10,
+      "solo_reachable": 10,
+      "bench_tested": 0
+    },
+    {
+      "id": "detect-funding-or-news-event",
+      "family": "signals-and-research",
+      "entry_count": 12,
+      "product_count": 11,
+      "official_mcp": 10,
+      "solo_reachable": 9,
+      "bench_tested": 0
+    },
+    {
+      "id": "scrape-web-page-for-facts",
+      "family": "signals-and-research",
+      "entry_count": 6,
+      "product_count": 6,
+      "official_mcp": 5,
+      "solo_reachable": 5,
+      "bench_tested": 0
+    },
+    {
+      "id": "monitor-social-mentions",
+      "family": "signals-and-research",
+      "entry_count": 12,
+      "product_count": 11,
+      "official_mcp": 2,
+      "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "research-account-for-call-prep",
+      "family": "signals-and-research",
+      "entry_count": 17,
+      "product_count": 16,
+      "official_mcp": 10,
+      "solo_reachable": 7,
+      "bench_tested": 0
+    },
+    {
+      "id": "run-email-sequence",
+      "family": "outreach-and-engagement",
+      "entry_count": 45,
+      "product_count": 38,
+      "official_mcp": 22,
+      "solo_reachable": 21,
+      "bench_tested": 0
+    },
+    {
+      "id": "send-linkedin-message",
+      "family": "outreach-and-engagement",
+      "entry_count": 22,
+      "product_count": 19,
+      "official_mcp": 12,
+      "solo_reachable": 12,
+      "bench_tested": 0
+    },
+    {
+      "id": "draft-personalized-outreach",
+      "family": "outreach-and-engagement",
+      "entry_count": 51,
+      "product_count": 45,
+      "official_mcp": 23,
+      "solo_reachable": 23,
+      "bench_tested": 0
+    },
+    {
+      "id": "place-outbound-call",
+      "family": "outreach-and-engagement",
+      "entry_count": 22,
+      "product_count": 19,
+      "official_mcp": 9,
+      "solo_reachable": 6,
+      "bench_tested": 0
+    },
+    {
+      "id": "create-and-send-prospecting-video",
+      "family": "outreach-and-engagement",
+      "entry_count": 14,
+      "product_count": 13,
+      "official_mcp": 3,
+      "solo_reachable": 7,
+      "bench_tested": 0
+    },
+    {
+      "id": "read-outreach-performance",
+      "family": "outreach-and-engagement",
+      "entry_count": 14,
+      "product_count": 13,
+      "official_mcp": 7,
+      "solo_reachable": 6,
+      "bench_tested": 0
+    },
+    {
+      "id": "run-autonomous-sdr-agent",
+      "family": "outreach-and-engagement",
+      "entry_count": 16,
+      "product_count": 12,
+      "official_mcp": 4,
+      "solo_reachable": 3,
+      "bench_tested": 0
+    },
+    {
+      "id": "fetch-call-transcript",
+      "family": "conversations-and-meetings",
+      "entry_count": 20,
+      "product_count": 20,
+      "official_mcp": 14,
+      "solo_reachable": 11,
+      "bench_tested": 0
+    },
+    {
+      "id": "search-call-library",
+      "family": "conversations-and-meetings",
+      "entry_count": 5,
+      "product_count": 5,
+      "official_mcp": 5,
+      "solo_reachable": 3,
+      "bench_tested": 0
+    },
+    {
+      "id": "summarize-meeting",
+      "family": "conversations-and-meetings",
+      "entry_count": 22,
+      "product_count": 22,
+      "official_mcp": 16,
+      "solo_reachable": 14,
+      "bench_tested": 0
+    },
+    {
+      "id": "extract-deal-signals-from-calls",
+      "family": "conversations-and-meetings",
+      "entry_count": 21,
+      "product_count": 21,
+      "official_mcp": 11,
+      "solo_reachable": 4,
+      "bench_tested": 0
+    },
+    {
+      "id": "book-a-meeting",
+      "family": "conversations-and-meetings",
+      "entry_count": 26,
+      "product_count": 23,
+      "official_mcp": 11,
+      "solo_reachable": 10,
+      "bench_tested": 0
+    },
+    {
+      "id": "read-calendar-availability",
+      "family": "conversations-and-meetings",
+      "entry_count": 12,
+      "product_count": 11,
+      "official_mcp": 6,
+      "solo_reachable": 6,
+      "bench_tested": 0
+    },
+    {
+      "id": "answer-inbound-chat",
+      "family": "conversations-and-meetings",
+      "entry_count": 21,
+      "product_count": 16,
+      "official_mcp": 11,
+      "solo_reachable": 8,
+      "bench_tested": 0
+    },
+    {
+      "id": "read-crm-records",
+      "family": "systems-of-record",
+      "entry_count": 13,
+      "product_count": 10,
+      "official_mcp": 10,
+      "solo_reachable": 8,
+      "bench_tested": 0
+    },
+    {
+      "id": "write-crm-records",
+      "family": "systems-of-record",
+      "entry_count": 28,
+      "product_count": 25,
+      "official_mcp": 17,
+      "solo_reachable": 14,
+      "bench_tested": 0
+    },
+    {
+      "id": "query-data-warehouse",
+      "family": "systems-of-record",
+      "entry_count": 2,
+      "product_count": 2,
+      "official_mcp": 2,
+      "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "sync-records-between-systems",
+      "family": "systems-of-record",
+      "entry_count": 9,
+      "product_count": 9,
+      "official_mcp": 8,
+      "solo_reachable": 7,
+      "bench_tested": 0
+    },
+    {
+      "id": "run-automation-workflow",
+      "family": "systems-of-record",
+      "entry_count": 18,
+      "product_count": 15,
+      "official_mcp": 12,
+      "solo_reachable": 9,
+      "bench_tested": 0
+    },
+    {
+      "id": "route-inbound-lead",
+      "family": "systems-of-record",
+      "entry_count": 9,
+      "product_count": 7,
+      "official_mcp": 6,
+      "solo_reachable": 3,
+      "bench_tested": 0
+    },
+    {
+      "id": "generate-proposal-or-quote",
+      "family": "deals-and-documents",
+      "entry_count": 5,
+      "product_count": 5,
+      "official_mcp": 1,
+      "solo_reachable": 1,
+      "bench_tested": 0
+    },
+    {
+      "id": "send-document-for-signature",
+      "family": "deals-and-documents",
+      "entry_count": 6,
+      "product_count": 6,
+      "official_mcp": 3,
+      "solo_reachable": 3,
+      "bench_tested": 0
+    },
+    {
+      "id": "read-contract-terms",
+      "family": "deals-and-documents",
+      "entry_count": 3,
+      "product_count": 3,
+      "official_mcp": 3,
+      "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "create-digital-sales-room",
+      "family": "deals-and-documents",
+      "entry_count": 5,
+      "product_count": 4,
+      "official_mcp": 2,
+      "solo_reachable": 1,
+      "bench_tested": 0
+    },
+    {
+      "id": "retrieve-sales-content",
+      "family": "deals-and-documents",
+      "entry_count": 9,
+      "product_count": 9,
+      "official_mcp": 4,
+      "solo_reachable": 1,
+      "bench_tested": 0
+    },
+    {
+      "id": "draft-rfp-response",
+      "family": "deals-and-documents",
+      "entry_count": 3,
+      "product_count": 3,
+      "official_mcp": 2,
+      "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "read-pipeline-forecast",
+      "family": "planning-scoring-coaching",
+      "entry_count": 22,
+      "product_count": 19,
+      "official_mcp": 8,
+      "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "model-revenue-plan",
+      "family": "planning-scoring-coaching",
+      "entry_count": 7,
+      "product_count": 7,
+      "official_mcp": 3,
+      "solo_reachable": 1,
+      "bench_tested": 0
+    },
+    {
+      "id": "score-and-prioritize-leads",
+      "family": "planning-scoring-coaching",
+      "entry_count": 24,
+      "product_count": 21,
+      "official_mcp": 15,
+      "solo_reachable": 8,
+      "bench_tested": 0
+    },
+    {
+      "id": "score-rep-performance",
+      "family": "planning-scoring-coaching",
+      "entry_count": 25,
+      "product_count": 24,
+      "official_mcp": 5,
+      "solo_reachable": 3,
+      "bench_tested": 0
+    },
+    {
+      "id": "run-sales-roleplay-practice",
+      "family": "planning-scoring-coaching",
+      "entry_count": 11,
+      "product_count": 10,
+      "official_mcp": 0,
+      "solo_reachable": 0,
+      "bench_tested": 0
+    },
+    {
+      "id": "warm-up-inbox",
+      "family": "sending-infrastructure",
+      "entry_count": 13,
+      "product_count": 12,
+      "official_mcp": 7,
+      "solo_reachable": 8,
+      "bench_tested": 0
+    },
+    {
+      "id": "provision-sending-infrastructure",
+      "family": "sending-infrastructure",
+      "entry_count": 9,
+      "product_count": 9,
+      "official_mcp": 5,
+      "solo_reachable": 6,
+      "bench_tested": 0
+    },
+    {
+      "id": "check-inbox-placement",
+      "family": "sending-infrastructure",
+      "entry_count": 4,
+      "product_count": 4,
+      "official_mcp": 1,
+      "solo_reachable": 1,
+      "bench_tested": 0
+    },
+    {
+      "id": "discover-mcp-servers",
+      "family": "mcp-plumbing",
+      "entry_count": 5,
+      "product_count": 5,
+      "official_mcp": 1,
+      "solo_reachable": 0,
+      "bench_tested": 0
+    },
+    {
+      "id": "proxy-tool-calls-to-saas",
+      "family": "mcp-plumbing",
+      "entry_count": 9,
+      "product_count": 9,
+      "official_mcp": 9,
+      "solo_reachable": 8,
+      "bench_tested": 0
+    }
+  ],
+  "data_quality": {
+    "schema_law_1_risk": {
+      "rule": "SCHEMA law 1: an MCP claim requires a URL. These entries claim official or community but their mcp_url field contains no parseable URL.",
+      "count": 1,
+      "entries": [
+        {
+          "id": "13-arphie",
+          "name": "Arphie",
+          "mcp_status": "official"
+        }
+      ]
+    },
+    "thin_sourcing": {
+      "rule": "SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs.",
+      "count": 17,
+      "entries": [
+        {
+          "id": "04-aisdr",
+          "name": "AiSDR",
+          "source_urls": 1
+        },
+        {
+          "id": "04-conversica",
+          "name": "Conversica",
+          "source_urls": 1
+        },
+        {
+          "id": "04-salesforce-agentforce",
+          "name": "Salesforce Agentforce (SDR Agent)",
+          "source_urls": 1
+        },
+        {
+          "id": "05-intently",
+          "name": "Intently (getintently.com)",
+          "source_urls": 1
+        },
+        {
+          "id": "06-pipedrive",
+          "name": "Pipedrive",
+          "source_urls": 1
+        },
+        {
+          "id": "07-model-context-protocol-official-servers-repo",
+          "name": "Model Context Protocol - official servers repo",
+          "source_urls": 1
+        },
+        {
+          "id": "07-pulsemcp",
+          "name": "PulseMCP",
+          "source_urls": 1
+        },
+        {
+          "id": "07-smithery",
+          "name": "Smithery",
+          "source_urls": 1
+        },
+        {
+          "id": "12-hubspot",
+          "name": "HubSpot (AI Forecasting)",
+          "source_urls": 1
+        },
+        {
+          "id": "12-salesforce-einstein-forecasting",
+          "name": "Salesforce Einstein Forecasting",
+          "source_urls": 1
+        },
+        {
+          "id": "14-pocus",
+          "name": "Pocus",
+          "source_urls": 1
+        },
+        {
+          "id": "14-tidio",
+          "name": "Tidio",
+          "source_urls": 1
+        },
+        {
+          "id": "14-ultimate-ai",
+          "name": "Ultimate.ai (Ultimate)",
+          "source_urls": 1
+        },
+        {
+          "id": "15-brand24",
+          "name": "Brand24",
+          "source_urls": 1
+        },
+        {
+          "id": "15-buzzsumo",
+          "name": "BuzzSumo",
+          "source_urls": 1
+        },
+        {
+          "id": "15-f5bot",
+          "name": "F5Bot",
+          "source_urls": 1
+        },
+        {
+          "id": "15-talkwalker",
+          "name": "Talkwalker (rebranded: Lumen by Talkwalker)",
+          "source_urls": 1
+        }
+      ]
+    },
+    "api_gate_unknown": {
+      "rule": "SCHEMA law 4: api_gate is the single most useful column for a solo operator. INDEX.md already calls this the directory's biggest remaining quality problem.",
+      "count": 32,
+      "entry_ids": [
+        "02-outplay",
+        "03-salesroom",
+        "03-zoom-revenue-accelerator",
+        "04-luru",
+        "04-rox",
+        "04-trellus-ai",
+        "07-glama",
+        "07-klavis-ai",
+        "07-mcp-so",
+        "08-potion",
+        "08-quickpage",
+        "08-trumpet",
+        "09-folderly",
+        "10-clockwise",
+        "10-doodle",
+        "10-kronologic",
+        "10-reclaim-ai",
+        "10-revenuehero",
+        "10-trevor-ai",
+        "11-bigtincan-readiness",
+        "11-dialworks",
+        "11-hyperbound",
+        "11-lavender",
+        "11-luster",
+        "11-quantified",
+        "11-second-nature",
+        "14-drift",
+        "14-endgame",
+        "14-pylon",
+        "15-champion",
+        "15-commsor",
+        "15-orbit"
+      ]
+    },
+    "docs_url_missing": {
+      "rule": "SPEC 3.4: docs_url is blank-legal, but it is the seed for the whole docs intel layer (phase 6b/6c).",
+      "count": 263,
+      "entry_ids": [
+        "01-apollo-io",
+        "01-bettercontact",
+        "01-bright-data",
+        "01-clay",
+        "01-clearbit",
+        "01-cognism",
+        "01-coresignal",
+        "01-crustdata",
+        "01-datagma",
+        "01-diffbot",
+        "01-dropcontact",
+        "01-exa",
+        "01-explorium",
+        "01-findymail",
+        "01-fullenrich",
+        "01-hunter-io",
+        "01-leadmagic",
+        "01-lusha",
+        "01-ocean-io",
+        "01-people-data-labs",
+        "01-prospeo",
+        "01-rocketreach",
+        "01-seamless-ai",
+        "01-snov-io",
+        "01-the-swarm",
+        "01-theirstack",
+        "01-uplead",
+        "01-warmly",
+        "02-amplemarket",
+        "02-apollo-io-sequences",
+        "02-expandi",
+        "02-groove",
+        "02-heyreach",
+        "02-instantly",
+        "02-kixie",
+        "02-klenty",
+        "02-la-growth-machine",
+        "02-lemlist",
+        "02-mailshake",
+        "02-orum",
+        "02-outplay",
+        "02-outreach",
+        "02-overloop",
+        "02-phantombuster",
+        "02-quickmail",
+        "02-reply-io",
+        "02-salesforge",
+        "02-salesloft",
+        "02-smartlead",
+        "02-super-send",
+        "02-waalaxy",
+        "02-woodpecker",
+        "03-attention",
+        "03-avoma",
+        "03-chorus",
+        "03-clari",
+        "03-clari-copilot",
+        "03-fathom",
+        "03-fireflies-ai",
+        "03-gong",
+        "03-grain",
+        "03-granola",
+        "03-highspot",
+        "03-jiminny",
+        "03-momentum",
+        "03-otter-ai",
+        "03-rilla",
+        "03-salesroom",
+        "03-seismic",
+        "03-sybill",
+        "03-tl-dv",
+        "03-zoom-revenue-accelerator",
+        "04-11x",
+        "04-aisdr",
+        "04-amplemarket",
+        "04-artisan-ai",
+        "04-clari",
+        "04-conversica",
+        "04-copy-ai",
+        "04-hubspot-breeze",
+        "04-klenty",
+        "04-landbase",
+        "04-luru",
+        "04-madkudu",
+        "04-qualified",
+        "04-regie-ai",
+        "04-relevance-ai",
+        "04-reply-io",
+        "04-rox",
+        "04-salesforce-agentforce",
+        "04-salesforge",
+        "04-terret",
+        "04-tofu",
+        "04-trellus-ai",
+        "04-unify",
+        "05-6sense",
+        "05-albacross",
+        "05-bombora",
+        "05-champify",
+        "05-clearbit-reveal",
+        "05-common-room",
+        "05-crustdata",
+        "05-demandbase",
+        "05-factors-ai",
+        "05-hg-insights",
+        "05-intently",
+        "05-keyplay",
+        "05-koala",
+        "05-leadfeeder",
+        "05-live-data-technologies",
+        "05-predictleads",
+        "05-rb2b",
+        "05-snitcher",
+        "05-sumble",
+        "05-theirstack",
+        "05-trigify",
+        "05-usergems",
+        "05-vector",
+        "05-warmly",
+        "06-airbyte",
+        "06-attio",
+        "06-cargo",
+        "06-census",
+        "06-close",
+        "06-default",
+        "06-fivetran",
+        "06-hightouch",
+        "06-hubspot",
+        "06-make",
+        "06-n8n",
+        "06-openprise",
+        "06-pipedrive",
+        "06-retool",
+        "06-salesforce-agentforce",
+        "06-snowflake",
+        "06-superblocks",
+        "06-syncari",
+        "06-zapier",
+        "07-claude-anthropic-mcp-connector-directory",
+        "07-composio",
+        "07-glama",
+        "07-klavis-ai",
+        "07-mcp-run-turbomcp",
+        "07-mcp-so",
+        "07-metorial",
+        "07-model-context-protocol-official-servers-repo",
+        "07-pipedream-mcp",
+        "07-pulsemcp",
+        "07-smithery",
+        "07-zapier-mcp",
+        "08-bombbomb",
+        "08-bonjoro",
+        "08-covideo",
+        "08-dubb",
+        "08-heygen",
+        "08-hippo-video",
+        "08-loom",
+        "08-potion",
+        "08-quickpage",
+        "08-sendspark",
+        "08-tavus",
+        "08-trumpet",
+        "08-vidyard",
+        "08-weezly",
+        "09-allegrow",
+        "09-folderly",
+        "09-glockapps",
+        "09-hypertide",
+        "09-inboxally",
+        "09-infraforge",
+        "09-maildoso",
+        "09-mailforge",
+        "09-mailgenius",
+        "09-mailreach",
+        "09-scaledmail",
+        "09-warmup-inbox",
+        "09-warmy-io",
+        "10-cal-com",
+        "10-calendly",
+        "10-clara",
+        "10-clockwise",
+        "10-default",
+        "10-doodle",
+        "10-kronologic",
+        "10-leandata",
+        "10-motion",
+        "10-reclaim-ai",
+        "10-revenuehero",
+        "10-savvycal",
+        "10-trevor-ai",
+        "11-allego",
+        "11-bigtincan-readiness",
+        "11-continu",
+        "11-dialworks",
+        "11-hyperbound",
+        "11-luster",
+        "11-mindtickle",
+        "11-quantified",
+        "11-second-nature",
+        "11-showpad",
+        "11-spekit",
+        "11-trainual",
+        "11-workramp",
+        "12-anaplan",
+        "12-aviso",
+        "12-boostup",
+        "12-cube-software",
+        "12-ebsta",
+        "12-forecastio",
+        "12-gong-forecast",
+        "12-hubspot",
+        "12-kluster",
+        "12-mediafly",
+        "12-pigment",
+        "12-pipedrive",
+        "12-revenue-io",
+        "12-salesforce-einstein-forecasting",
+        "12-vareto",
+        "12-varicent",
+        "12-xactly",
+        "13-aligned",
+        "13-arphie",
+        "13-common-paper",
+        "13-dealhub",
+        "13-docusign",
+        "13-getaccept",
+        "13-ironclad",
+        "13-loopio",
+        "13-pandadoc",
+        "13-proposify",
+        "13-qwilr",
+        "13-recapped-io",
+        "13-responsive",
+        "13-trumpet",
+        "14-ada",
+        "14-chatbase",
+        "14-correlated",
+        "14-drift",
+        "14-endgame",
+        "14-forethought",
+        "14-intercom",
+        "14-landbot",
+        "14-pocus",
+        "14-pylon",
+        "14-tidio",
+        "14-toplyne",
+        "14-ultimate-ai",
+        "15-bevy",
+        "15-brand24",
+        "15-brandwatch",
+        "15-buzzsumo",
+        "15-champion",
+        "15-common-room",
+        "15-commsor",
+        "15-exploding-topics",
+        "15-f5bot",
+        "15-gummysearch",
+        "15-meltwater",
+        "15-mention",
+        "15-orbit",
+        "15-sparktoro",
+        "15-syften",
+        "15-talkwalker"
+      ]
+    }
+  },
+  "duplicates_resolved": {
+    "groups": 16,
+    "declared_in_index": 16,
+    "defaulted": 0,
+    "detail": [
+      {
+        "normalized_name": "amplemarket",
+        "canonical": "02-amplemarket",
+        "cross_references": [
+          "04-amplemarket"
+        ]
+      },
+      {
+        "normalized_name": "chili piper",
+        "canonical": "10-chili-piper",
+        "cross_references": [
+          "14-chili-piper"
+        ]
+      },
+      {
+        "normalized_name": "clari",
+        "canonical": "03-clari",
+        "cross_references": [
+          "04-clari"
+        ]
+      },
+      {
+        "normalized_name": "common room",
+        "canonical": "05-common-room",
+        "cross_references": [
+          "15-common-room"
+        ]
+      },
+      {
+        "normalized_name": "crustdata",
+        "canonical": "01-crustdata",
+        "cross_references": [
+          "05-crustdata"
+        ]
+      },
+      {
+        "normalized_name": "default",
+        "canonical": "06-default",
+        "cross_references": [
+          "10-default"
+        ]
+      },
+      {
+        "normalized_name": "hubspot",
+        "canonical": "06-hubspot",
+        "cross_references": [
+          "12-hubspot"
+        ]
+      },
+      {
+        "normalized_name": "klenty",
+        "canonical": "02-klenty",
+        "cross_references": [
+          "04-klenty"
+        ]
+      },
+      {
+        "normalized_name": "pipedrive",
+        "canonical": "06-pipedrive",
+        "cross_references": [
+          "12-pipedrive"
+        ]
+      },
+      {
+        "normalized_name": "qualified",
+        "canonical": "14-qualified",
+        "cross_references": [
+          "04-qualified"
+        ]
+      },
+      {
+        "normalized_name": "reply io",
+        "canonical": "02-reply-io",
+        "cross_references": [
+          "04-reply-io"
+        ]
+      },
+      {
+        "normalized_name": "salesforce agentforce",
+        "canonical": "06-salesforce-agentforce",
+        "cross_references": [
+          "04-salesforce-agentforce"
+        ]
+      },
+      {
+        "normalized_name": "salesforge",
+        "canonical": "02-salesforge",
+        "cross_references": [
+          "04-salesforge"
+        ]
+      },
+      {
+        "normalized_name": "theirstack",
+        "canonical": "05-theirstack",
+        "cross_references": [
+          "01-theirstack"
+        ]
+      },
+      {
+        "normalized_name": "trumpet",
+        "canonical": "13-trumpet",
+        "cross_references": [
+          "08-trumpet"
+        ]
+      },
+      {
+        "normalized_name": "warmly",
+        "canonical": "05-warmly",
+        "cross_references": [
+          "01-warmly"
+        ]
+      }
+    ]
+  },
+  "parser_warnings": [],
+  "index_notes": [],
+  "file_fixes": [],
+  "content_sha256": "84def5fb51daf19b5df44705b2cb40dc4bc28b517b40b763d275d56f589a0bdd",
+  "source_sha256": "b9fea57ac759f2f6d818bfc9a424d8806736eb286f1479320a926e9a52f27cd6"
+}

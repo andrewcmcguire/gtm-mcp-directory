@@ -34,6 +34,35 @@ HERE = Path(__file__).resolve().parent
 FAILURES: list[str] = []
 CHECKS = 0
 
+
+def expected_counts() -> dict[str, int]:
+    """The load-bearing totals, read from the live data rather than typed here.
+
+    A constant in this file drifted from the data once (solo_reachable 117 vs
+    123) and the test failed on a true build. The build report and the baked
+    directory are the counting authority; this test only checks that the server
+    agrees with them.
+    """
+    data_dir = HERE.parent / "data"
+    directory = json.loads((data_dir / "directory.json").read_text(encoding="utf-8"))
+    entries = directory["entries"]
+    official = sum(1 for e in entries if e.get("mcp_status_bucket") == "official")
+    solo = sum(
+        1
+        for e in entries
+        if e.get("mcp_status_bucket") in ("official", "community")
+        and e.get("api_gate_bucket") in ("free", "paid")
+    )
+    bench = sum(1 for e in entries if e.get("tier") == "BENCH-TESTED")
+    gates: dict[str, int] = {}
+    for e in entries:
+        g = e.get("api_gate_bucket") or "unknown"
+        gates[g] = gates.get(g, 0) + 1
+    return {"entries": len(entries), "official": official, "solo_reachable": solo, "bench_tested": bench, "gates": gates}
+
+
+EXPECTED = expected_counts()
+
 REQUIRED_TOOLS = [
     "find_tools",
     "get_tool",
@@ -52,7 +81,7 @@ def check(label: str, condition: bool, detail: str = "") -> None:
         print("   PASS  %s" % label)
     else:
         print("   FAIL  %s %s" % (label, detail))
-        FAILURES.append(label + (" " + detail if detail else ""))
+        FAILURES.append(label + (" " + str(detail) if detail not in ("", None) else ""))
 
 
 def rule(title: str) -> None:
@@ -304,10 +333,10 @@ async def run() -> None:
         print("   headline:        %s" % trim(body["headline"], 320))
         print("   mcp_url note:    %s" % trim(body["mcp_url_parse_note"], 260))
         assert_envelope("whats_mcpd", body)
-        check("entry total is 293", body["entries"] == 293, body["entries"])
-        check("official is 144", body["official"] == 144, body["official"])
-        check("solo_reachable is 117", body["solo_reachable"] == 117, body["solo_reachable"])
-        check("bench_tested is 0 and is not hidden", body["bench_tested"] == 0)
+        check("entry total matches the data (%d)" % EXPECTED["entries"], body["entries"] == EXPECTED["entries"], body["entries"])
+        check("official matches the data (%d)" % EXPECTED["official"], body["official"] == EXPECTED["official"], body["official"])
+        check("solo_reachable matches the data (%d)" % EXPECTED["solo_reachable"], body["solo_reachable"] == EXPECTED["solo_reachable"], body["solo_reachable"])
+        check("bench_tested matches the data (%d) and is not hidden" % EXPECTED["bench_tested"], body["bench_tested"] == EXPECTED["bench_tested"], body["bench_tested"])
 
         body = payload(await client.call_tool("whats_mcpd", {"category": "ai-sdr-agents"}))
         print(
@@ -333,14 +362,14 @@ async def run() -> None:
             print("     - %-26s %-10s %s" % (trim(r["name"], 26), r["mcp_status"], trim(r["mcp_auth"], 50)))
         print("   summary:     %s" % trim(body["summary"], 300))
         assert_envelope("find_by_gate/free", body)
-        check("free gate count is 57", body["match_count"] == 57, body["match_count"])
+        check("free gate count matches the data (%d)" % EXPECTED["gates"].get("free", 0), body["match_count"] == EXPECTED["gates"].get("free", 0), body["match_count"])
 
         body = payload(
             await client.call_tool("find_by_gate", {"gate": "enterprise only", "limit": 3})
         )
         print("   alias 'enterprise only' -> %s, %d matches" % (body["gate"], body["match_count"]))
         check("gate aliases normalize", body["gate"] == "enterprise-only")
-        check("enterprise-only count is 45", body["match_count"] == 45, body["match_count"])
+        check("enterprise-only count matches the data (%d)" % EXPECTED["gates"].get("enterprise-only", 0), body["match_count"] == EXPECTED["gates"].get("enterprise-only", 0), body["match_count"])
 
         body = payload(await client.call_tool("find_by_gate", {"gate": "cheap"}))
         print("   bad gate 'cheap' -> %s" % body["status"])

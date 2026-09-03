@@ -1,5 +1,7 @@
 # The GTM MCP Directory, as an MCP server
 
+<!-- mcp-name: io.github.andrewcmcguire/gtm-mcp-directory -->
+
 Part of **Agent Operator**.
 
 293 go-to-market tools, scored on the one axis nobody else publishes: **can an
