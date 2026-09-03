@@ -1,6 +1,6 @@
 # Data & Enrichment tools with MCP servers: 33 of 38, counted
 
-> 33 of the 38 data & enrichment tools in The GTM MCP Directory have an MCP server: 31 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
+> 33 of the 38 data & enrichment tools in The GTM MCP Directory have an MCP server: 31 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -144,4 +144,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 22 of 23, counted
+# RevOps infrastructure tools with MCP servers: 21 of 23, counted
 
-> 22 of the 23 revops infra tools in The GTM MCP Directory have an MCP server: 22 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
+> 21 of the 23 revops infra tools in The GTM MCP Directory have an MCP server: 21 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 22 of 293**
+**List · 21 of 293**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 22 of 23 entries in this category are reachable by an agent: 22 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 21 of 23 entries in this category are reachable by an agent: 21 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -73,9 +73,6 @@ A scoped JWT key created as an MCP data source inside the Ortto account, passed 
 | [Superblocks](../tools/superblocks.md)
 superblocks.com | [Official MCP](../mcp/official.md) | [https://superblocks.com/blog/superblocks-mcp](https://superblocks.com/blog/superblocks-mcp) | OAuth
 unknown - the announcement doesn't specify the auth method; the feature is... | [Paid, self-serve](../gates/paid.md) |
-| [Default](../tools/default.md)
-default.com | [Official MCP](../mcp/official.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
-unknown - not documented anywhere found (checked default.com, default.com/product,... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [Official MCP](../mcp/official.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth
 OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every MCP call... | [Enterprise only](../gates/enterprise-only.md) |
@@ -83,12 +80,14 @@ OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every M
 syncari.com | [Official MCP](../mcp/official.md) | [https://syncari.com/mcp-server/](https://syncari.com/mcp-server/) | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 1 in this category
+### The other 2 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
+| [Default](../tools/default.md)
+default.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Openprise](../tools/openprise.md)
 openprisetech.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 
@@ -103,4 +102,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -26,7 +26,7 @@ What the standard deliberately does not fix is what any of it means. MCP will no
 
 The specification is versioned by date and has been revised several times since first release, adding an authorization framework, a streamable HTTP transport alongside the original local transport, and richer tool output. Read the versioned spec rather than any blog post, including this one, for the current state of it.
 
-Adoption is visible in this directory's own data rather than in anyone's press release. 144 of 293 go to market vendors ship a first party server today, and the auth notes on those entries name Claude, ChatGPT and Cursor as the clients they document sign in flows for.
+Adoption is visible in this directory's own data rather than in anyone's press release. 147 of 293 go to market vendors ship a first party server today, and the auth notes on those entries name Claude, ChatGPT and Cursor as the clients they document sign in flows for.
 
 ## Why it matters for go to market work
 
@@ -38,7 +38,7 @@ GTM runs on a stack of systems that do not talk to each other: a CRM, an enrichm
 - [Anthropic, Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) https://www.anthropic.com/news/model-context-protocol
 - [modelcontextprotocol/servers, the reference server repository](https://github.com/modelcontextprotocol/servers) https://github.com/modelcontextprotocol/servers
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -28,7 +28,7 @@ This is the second column nobody else publishes, and in practice it decides more
 | [Enterprise only](../gates/enterprise-only.md) | 77 | Contract, seat minimum or procurement. A solo operator is out. |
 | [Unknown](../gates/unknown.md) | 32 | The gate could not be established from public sources and is published as unknown rather than guessed. |
 
-6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-08-28 across 293 entries.
+6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-09-02 across 293 entries.
 
 ## Why unknown is such a large number
 
@@ -43,7 +43,7 @@ MCP status and access gate are separate columns for a reason. 31 entries ship an
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

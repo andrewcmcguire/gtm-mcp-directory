@@ -18,13 +18,14 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 
 - **Official MCP**: 1
 - **Community MCP**: 1
-- **No MCP found**: 12
+- **MCP unknown**: 2
+- **No MCP found**: 10
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
 - **Gate unknown**: 7
 
-Source file: 11-enablement-coaching.md · content sha256 aa532c36cdc7565e... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 414b602b574b92bb... · counts reconciled against tools_recount.py at build time.
 
 - [The 2 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -33,19 +34,19 @@ Source file: 11-enablement-coaching.md · content sha256 aa532c36cdc7565e... · 
 - [Retrieve sales content](../jobs/retrieve-sales-content.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-- [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [WorkRamp](../tools/workramp.md) workramp.com Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Spekit](../tools/spekit.md) spekit.com In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.). [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Trainual](../tools/trainual.md) trainual.com SOP and process-documentation platform for onboarding and training, positioned more broadly at operations/HR than sales-specific enablement, with AI-assisted SOP drafting. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Continu](../tools/continu.md) continu.com AI-powered enterprise learning platform for delivering, tracking, and measuring training content to employees, customers, and partners. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
-
-- [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
-
-- [Spekit](../tools/spekit.md) spekit.com In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md) bigtincan.com Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content management, on-demand training/coaching, and AI-driven practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

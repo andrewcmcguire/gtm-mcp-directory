@@ -1,6 +1,6 @@
-# Provision sending infrastructure: 9 GTM tools, 5 with an official MCP server
+# Provision sending infrastructure: 9 GTM tools, 6 with an official MCP server
 
-> Buy and configure domains, mailboxes, IPs and DNS authentication for outbound sending. 6 of the 9 entries tagged with this job carry an MCP server of some kind, 5 of them official. Counted 2026-08-28 from the directory data.
+> Buy and configure domains, mailboxes, IPs and DNS authentication for outbound sending. 6 of the 9 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-02 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Provision sending infrastructure
 Buy and configure domains, mailboxes, IPs and DNS authentication for outbound sending.
 
 - **entries tagged**: 9
-- **official MCP**: 5
-- **community MCP**: 1
+- **official MCP**: 6
+- **community MCP**: 0
 - **no MCP found**: 3
 - **solo reachable**: 6
 
-6 of the 9 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 9 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-28 from directory.json.
+6 of the 9 entries tagged with this job carry an MCP server of some kind, 6 of them official. All 9 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-02 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -51,9 +51,9 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Mailforge](../tools/mailforge.md) mailforge.ai Shared cold-email infrastructure platform (part of the Salesforge "Forge Stack") - automates workspace setup, domain purchase/checks, mailbox creation, DNS records, forwarding, and domain masking for... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Super Send](../tools/super-send.md) supersend.io Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based on live deliverability signals. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Super Send](../tools/super-send.md) supersend.io Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based on live deliverability signals. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Email Deliverability](../categories/email-deliverability.md)
 

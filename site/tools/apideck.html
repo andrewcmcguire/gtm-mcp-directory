@@ -106,7 +106,7 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 0.</div>
 <p class="note">Vendor: <a href="https://apideck.com" rel="noopener nofollow">apideck.com</a>
 &middot; entry id 07-apideck &middot; source
-07-mcp-infrastructure.md line 262</p>
+07-mcp-infrastructure.md line 266</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file storage and issue tracking.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">A dynamic mode that exposes only four meta-tools so the agent discovers and executes tools on demand instead of loading every schema up front, cutting the context cost to roughly 1,300 tokens. That is a genuine agent-design feature rather than an AI claim.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">One integration layer so an agent can read and write across every CRM in a portfolio without wiring each vendor separately; the multi-CRM abstraction a GTM agent needs when it cannot assume which CRM it will meet.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">Managed OAuth via Apideck Vault on the hosted endpoint, or x-apideck-api-key plus x-apideck-app-id plus x-apideck-consumer-id headers for direct use.</div></div>
@@ -123,10 +123,10 @@ The status was established on 2026-08-25 and has not been re-fetched since.</p>
 <p>free</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p><a href="https://developers.apideck.com/mcp" rel="noopener nofollow">https://developers.apideck.com/mcp</a></p><p class="note">No documentation text is reproduced anywhere on this site. Read the vendor page for the prose. The structured docs digest specced in SPEC section 3 has not been built or crawled: docs_digest is null on every entry in this build.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/apideck-libraries/mcp" rel="noopener nofollow">https://github.com/apideck-libraries/mcp</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/read-crm-records.html">Read CRM records</a></li><li><a href="../jobs/write-crm-records.html">Write CRM records</a></li><li><a href="../jobs/proxy-tool-calls-to-saas.html">Proxy tool calls to SaaS apps</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://developers.apideck.com/mcp" rel="noopener nofollow">https://developers.apideck.com/mcp</a></li><li><a href="https://www.apideck.com/mcp-server" rel="noopener nofollow">https://www.apideck.com/mcp-server</a></li><li><a href="https://github.com/apideck-libraries/mcp" rel="noopener nofollow">https://github.com/apideck-libraries/mcp</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://developers.apideck.com/mcp, https://www.apideck.com/mcp-server, https://github.com/apideck-libraries/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Added 2026-08-25 in the coverage sweep. CAVEAT ON THE ENDPOINT: two different hosted endpoints appear in the vendor&#x27;s own material, mcp.apideck.com in the developer docs and mcp.apideck.dev on the marketing page. Confirm which is current before wiring it up; the GitHub repo is cited as mcp_url because it is the one unambiguous vendor-owned artifact. Signup is self-serve and free to start, but the paid tier thresholds are not published, so &quot;free&quot; here means free-to-start, not free-at-volume. The four-meta-tool dynamic mode is the same design problem the Salesforce Hosted MCP entry (06) solves with Discover/Describe/Dispatch, and the two make a natural pair for a segment on how not to dump 3,000 tools on an agent.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">07-apideck</div></div>
 <div><div class="bk">Source file</div><div class="bv">07-mcp-infrastructure.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">262</div></div>
+<div><div class="bk">Source line</div><div class="bv">266</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-08-25</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -138,8 +138,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -182,7 +182,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

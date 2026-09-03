@@ -1,6 +1,6 @@
 # GTM tools a solo operator can reach: 123 with a server and no procurement cycle
 
-> 123 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-08-28.
+> 123 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@
 
 ## The 123 GTM tools an agent can call and a solo operator can pay for
 
-Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 174 entries pass the gate test on its own (61 free to start plus 113 paid self serve) and 165 pass the server test on its own. 123 pass both. Paying is allowed; a procurement cycle is not.
+Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 174 entries pass the gate test on its own (61 free to start plus 113 paid self serve) and 167 pass the server test on its own. 123 pass both. Paying is allowed; a procurement cycle is not.
 
 | Tool | Category | Gate | MCP status | Jobs it is tagged with |
 |---|---|---|---|---|
@@ -46,6 +46,8 @@ diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to s
 enrow.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Exa](../tools/exa.md)
 exa.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) |
+| [Fathom](../tools/fathom.md)
+fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) +1 |
 | [Fivetran](../tools/fivetran.md)
@@ -204,6 +206,8 @@ rocketreach.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, 
 salesforge.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +1 |
 | [Salesforge (Agent Frank)](../tools/salesforge.md)
 salesforge.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +1 |
+| [Smartlead](../tools/smartlead.md)
+smartlead.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Verify an email is deliverable](../jobs/verify-email-deliverable.md) [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +2 |
 | [Snitcher](../tools/snitcher.md)
 snitcher.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) |
 | [Snov.io](../tools/snov-io.md)
@@ -230,8 +234,6 @@ waalaxy.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [P
 wiza.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) +2 |
 | [Woodpecker](../tools/woodpecker.md)
 woodpecker.co | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) |
-| [Fathom](../tools/fathom.md)
-fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
@@ -248,8 +250,6 @@ overloop.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [
 savvycal.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Book a meeting](../jobs/book-a-meeting.md) [Read calendar availability](../jobs/read-calendar-availability.md) |
 | [Sendspark](../tools/sendspark.md)
 sendspark.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) |
-| [Smartlead](../tools/smartlead.md)
-smartlead.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Verify an email is deliverable](../jobs/verify-email-deliverable.md) [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +2 |
 | [Syften](../tools/syften.md)
 syften.com | [Community & Dark Social](../categories/community-dark-social.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Monitor social and community mentions](../jobs/monitor-social-mentions.md) |
 | [Trigify (Trigify.io)](../tools/trigify.md)
@@ -263,4 +263,4 @@ vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, s
 | [Weezly](../tools/weezly.md)
 weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Book a meeting](../jobs/book-a-meeting.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# Scheduling & Routing: 14 tools, 6 with an official MCP server
+# Scheduling & Routing: 14 tools, 5 with an official MCP server
 
-> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 14 tools counted, 6 with an official MCP server and 2 free to start.
+> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 14 tools counted, 5 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,9 +16,9 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 
 - **entries in this file**: 14
 
-- **Official MCP**: 6
+- **Official MCP**: 5
 - **Community MCP**: 2
-- **MCP unknown**: 1
+- **MCP unknown**: 2
 - **No MCP found**: 5
 
 - **Free to start**: 2
@@ -26,9 +26,9 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 - **Enterprise only**: 2
 - **Gate unknown**: 6
 
-Source file: 10-scheduling-routing.md · content sha256 633f5f2b736e0fc0... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 839947c4c6d62ef4... · counts reconciled against tools_recount.py at build time.
 
-- [The 8 with an MCP server](../lists/mcp-scheduling-routing.md)
+- [The 7 with an MCP server](../lists/mcp-scheduling-routing.md)
 
 - [Read calendar availability](../jobs/read-calendar-availability.md)
 - [Book a meeting](../jobs/book-a-meeting.md)
@@ -41,8 +41,6 @@ Source file: 10-scheduling-routing.md · content sha256 633f5f2b736e0fc0... · c
 
 - [Chili Piper](../tools/chili-piper.md) chilipiper.com Inbound lead-routing and instant meeting-booking platform ("Concierge") that qualifies web-form leads and books them directly onto the right rep's calendar in real time. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · Cross listed, canonical home is RevOps Infra
-
 - [Reclaim.ai](../tools/reclaim-ai.md) reclaim.ai AI calendar app that auto-schedules tasks, habits, and focus time around a user's existing meetings, dynamically defending and rebalancing the calendar as things change. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 
 - [RevenueHero](../tools/revenuehero.md) revenuehero.io Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's calendar without a redirect. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
@@ -50,6 +48,8 @@ Source file: 10-scheduling-routing.md · content sha256 633f5f2b736e0fc0... · c
 - [Motion](../tools/motion.md) usemotion.com AI-driven work-management app that auto-schedules a user's tasks, projects, and meetings onto their calendar around priorities and deadlines, bundled with note-taking and document tools. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
 - [SavvyCal](../tools/savvycal.md) savvycal.com Prospect-facing scheduling/booking-page tool (Calendly competitor) built around letting invitees overlay their own calendar on the organizer's availability, with Collective/Round-Robin/Group team-scheduling... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · Cross listed, canonical home is RevOps Infra
 
 - [LeanData](../tools/leandata.md) leandata.com GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on... [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 

@@ -1,6 +1,6 @@
 # Warmy.io: MCP server status, API access gate and what it does
 
-> Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up... No MCP found, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Warmy.io
 [Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Deliverability-maintenance layer comparable to Mailreach/Warmup Inbox, different
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
@@ -83,13 +83,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.warmy.io/product/api/](https://www.warmy.io/product/api/)
 - [https://www.warmy.io/product/warm-up-email/](https://www.warmy.io/product/warm-up-email/)
 - [https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/](https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/)
+- [https://warmysender.com/mcp](https://warmysender.com/mcp)
+- [https://warmysender.com/](https://warmysender.com/)
 
-3 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.warmy.io/product/api/, https://www.warmy.io/product/warm-up-email/, https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/
+https://www.warmy.io/product/api/, https://www.warmy.io/product/warm-up-email/, https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/, https://warmysender.com/mcp, https://warmysender.com/
 
 **Notes, verbatim from the file**
-A search result mentioned a separate, apparently unrelated tool called "mailX" (a free SPF/DKIM/DMARC/blacklist checker) as having "API and MCP access" - that is a different product from Warmy.io and was not pursued further here since it fell outside this file's named seed list; flagged only to avoid future conflation. No MCP server found for Warmy.io itself.
+A search result mentioned a separate, apparently unrelated tool called "mailX" (a free SPF/DKIM/DMARC/blacklist checker) as having "API and MCP access" - that is a different product from Warmy.io and was not pursued further here since it fell outside this file's named seed list; flagged only to avoid future conflation. No MCP server found for Warmy.io itself. 2026-09-02: re-checked, mcp_status stays none-found. A second conflation risk is now documented: the official MCP registry entry com.warmysender/mcp (https://warmysender.com/mcp, 77 tools, streamable HTTP, Bearer ws_ API key or OAuth) belongs to WarmySender, whose own homepage states "WarmySender and Warmy.io are completely separate and unaffiliated companies" that "share no code, data, or ownership". https://www.warmy.io/product/api/ still has no MCP mention. Do not cite WarmySender for Warmy.io.
 
 **Provenance**
 
@@ -101,8 +103,8 @@ A search result mentioned a separate, apparently unrelated tool called "mailX" (
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

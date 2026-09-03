@@ -1,6 +1,6 @@
 # Klavis AI: MCP server status, API access gate and what it does
 
-> Primarily an AI-agent training-data company - it builds "live environments for training AI agents"... No MCP found, Gate unknown. Checked 2026-08-24.
+> Primarily an AI-agent training-data company - it builds "live environments for training AI agents"... Official MCP, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Klavis AI
 
 # Klavis AI
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,25 @@ Unclear fit for a solo GTM operator based on what's public - reads as an AI-lab 
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: unknown - not disclosed in the fetched content
+- **Auth**: Klavis API key as an HTTP Bearer token on the management API that creates a per-user Strata server (https://www.klavis.ai/docs/api-reference/strata/create.md); the response returns a strataServerUrl to connect to plus per-integration OAuth and API-key setup URLs for the downstream apps. The hosted endpoint answered 401 to an unauthenticated request today.
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-none-found
+official
 
 mcp_url, verbatim from the file:
 
-none-found
+https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted Strata server; endpoint https://strata.klavis.ai/mcp/ per the official registry entry ai.klavis/strata; source at https://github.com/Klavis-AI/klavis, Apache-2.0)
+
+- [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md)
+- [https://strata.klavis.ai/mcp/](https://strata.klavis.ai/mcp/)
+- [https://github.com/Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)
 
 **Access gate**
 
@@ -72,6 +76,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)
+
 **Jobs it can do**
 
 No job tag on this entry.
@@ -85,14 +93,18 @@ Reason recorded by the tagging pass: unclear. The entry states the product is ag
 - [https://www.klavis.ai](https://www.klavis.ai)
 - [https://klavis.ai/pricing](https://klavis.ai/pricing)
 - [https://www.klavis.ai/docs/quickstart.md](https://www.klavis.ai/docs/quickstart.md)
+- [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md)
+- [https://www.klavis.ai/docs/api-reference/strata/create.md](https://www.klavis.ai/docs/api-reference/strata/create.md)
+- [https://github.com/Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)
+- [https://registry.modelcontextprotocol.io/v0/servers?search=klavis](https://registry.modelcontextprotocol.io/v0/servers?search=klavis)
 - (fetched; no pricing figures returned)
 
-3 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://www.klavis.ai, https://klavis.ai/pricing (fetched; no pricing figures returned), https://www.klavis.ai/docs/quickstart.md
+https://www.klavis.ai, https://klavis.ai/pricing (fetched; no pricing figures returned), https://www.klavis.ai/docs/quickstart.md, https://www.klavis.ai/docs/concepts/strata.md, https://www.klavis.ai/docs/api-reference/strata/create.md, https://github.com/Klavis-AI/klavis, https://registry.modelcontextprotocol.io/v0/servers?search=klavis
 
 **Notes, verbatim from the file**
-Included per the research brief's seed list, but the public-facing material found positions Klavis as an AI-agent training/eval company first, not a GTM-facing hosted-MCP aggregator - treat any "GTM connector" framing of Klavis with caution until a clearer product page is found. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the quickstart says to create an account and get the API key from klavis.ai/home/api-keys, so keys are self-serve with no sales call and an open-source self-hosted path exists - but klavis.ai/pricing is client-rendered and returned only nav and footer to a plain fetch, so whether a free tier or a paid plan backs those keys is unverified and the free-versus-paid split stays unknown. Checked against https://www.klavis.ai/docs/quickstart.md.
+Included per the research brief's seed list, but the public-facing material found positions Klavis as an AI-agent training/eval company first, not a GTM-facing hosted-MCP aggregator - treat any "GTM connector" framing of Klavis with caution until a clearer product page is found. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the quickstart says to create an account and get the API key from klavis.ai/home/api-keys, so keys are self-serve with no sales call and an open-source self-hosted path exists - but klavis.ai/pricing is client-rendered and returned only nav and footer to a plain fetch, so whether a free tier or a paid plan backs those keys is unverified and the free-versus-paid split stays unknown. Checked against https://www.klavis.ai/docs/quickstart.md. 2026-09-02: mcp_status none-found -> official. Klavis publishes a hosted MCP server, Strata, documented at https://www.klavis.ai/docs/concepts/strata.md ("One MCP server for AI agents to use tools progressively at any scale") with a create endpoint at https://www.klavis.ai/docs/api-reference/strata/create.md; the official MCP registry lists ai.klavis/strata with the remote https://strata.klavis.ai/mcp/ (401 today, alive and auth-gated); and the GitHub repo https://github.com/Klavis-AI/klavis describes "MCP integration platforms that let AI agents use tools reliably at any scale" with 100+ prebuilt integrations with OAuth support, cloud-hosted or self-hosted. That softens the caution above: Klavis is a usable MCP integration layer as well as a training-data vendor. Pricing is still unpublished to a plain fetch, so api_gate stays unknown.
 
 **Provenance**
 
@@ -104,8 +116,8 @@ Included per the research brief's seed list, but the public-facing material foun
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

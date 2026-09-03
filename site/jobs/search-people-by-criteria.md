@@ -1,6 +1,6 @@
-# Search people by criteria: 24 GTM tools, 15 with an official MCP server
+# Search people by criteria: 24 GTM tools, 16 with an official MCP server
 
-> Query a person database by title, seniority, function, geo or company filters and get a list back. 18 of the 24 entries tagged with this job carry an MCP server of some kind, 15 of them official. Counted 2026-08-28 from the directory data.
+> Query a person database by title, seniority, function, geo or company filters and get a list back. 19 of the 24 entries tagged with this job carry an MCP server of some kind, 16 of them official. Counted 2026-09-02 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Search people by criteria
 Query a person database by title, seniority, function, geo or company filters and get a list back.
 
 - **entries tagged**: 24
-- **official MCP**: 15
+- **official MCP**: 16
 - **community MCP**: 3
-- **no MCP found**: 6
+- **no MCP found**: 5
 - **solo reachable**: 17
 
-18 of the 24 entries tagged with this job carry an MCP server of some kind, 15 of them official. 22 of the 24 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
+19 of the 24 entries tagged with this job carry an MCP server of some kind, 16 of them official. 22 of the 24 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-02 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -73,6 +73,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Waalaxy](../tools/waalaxy.md) waalaxy.com Chrome-extension-based LinkedIn (+ email) prospecting tool that automates invitations, messages, and multi-step campaigns, with a built-in prospect finder. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
+- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [People Data Labs](../tools/people-data-labs.md) peopledatalabs.com A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk... [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -84,8 +86,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Datagma](../tools/datagma.md) datagma.com An all-in-one B2B enrichment platform that finds work emails and verified mobile phone numbers, appends firmographic company data, and offers a Sales Navigator export/Chrome extension for pulling prospect data... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Regie.ai](../tools/regie-ai.md) regie.ai An AI agent that sources prospects and buying signals, writes messages trained on the user's voice/pitch, and runs multi-channel (email, LinkedIn, phone) sequences with automated follow-up. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
-
-- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Artisan AI (Ava)](../tools/artisan-ai.md) artisan.co An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as running outbound "end to end." [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

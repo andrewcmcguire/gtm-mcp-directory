@@ -1,6 +1,6 @@
 # GTM MCP servers that use an API key: 44 tools, counted
 
-> 44 of the 165 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.
+> 44 of the 167 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -74,6 +74,8 @@ rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2
 reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
 | [Salesforge](../tools/salesforge.md)
 salesforge.ai | [Official MCP](../mcp/official.md) | [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp) | api key via HTTP header (X-Salesforge-Key) | [Paid, self-serve](../gates/paid.md) |
+| [Smartlead](../tools/smartlead.md)
+smartlead.ai | [Official MCP](../mcp/official.md) | [https://helpcenter.smartlead.ai/en/articles/300-smar...](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) +3 more | api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE transport only (the help article says streamable HTTP is not... | [Paid, self-serve](../gates/paid.md) |
 | [Super Send](../tools/super-send.md)
 supersend.io | [Official MCP](../mcp/official.md) | [https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server) | api key, Streamable HTTP transport | [Paid, self-serve](../gates/paid.md) |
 | [tl;dv](../tools/tl-dv.md)
@@ -84,8 +86,6 @@ hginsights.com | [Official MCP](../mcp/official.md) | [https://learn.microsoft.c
 surfe.com | [Official MCP](../mcp/official.md) | [https://mcp.eu.surfe.com/mcp](https://mcp.eu.surfe.com/mcp) +1 more | Surfe API key, with a browser sign-in flow that exchanges the key for a managed token so it is entered once, or the key passed directly per call.... | [Enterprise only](../gates/enterprise-only.md) |
 | [RevenueHero](../tools/revenuehero.md)
 revenuehero.io | [Official MCP](../mcp/official.md) | [https://www.revenuehero.io/resources/tales-of-ops](https://www.revenuehero.io/resources/tales-of-ops) | Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero - not a self-serve API-key flow. | [Gate unknown](../gates/unknown.md) |
-| [Fathom](../tools/fathom.md)
-fathom.video | [Community MCP](../mcp/community.md) | [https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp) +2 more | Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment variable). | [Free to start](../gates/free.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Community MCP](../mcp/community.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session cookie (connect.sid) manually extracted from a logged-in... | [Free to start](../gates/free.md) |
 | [People Data Labs](../tools/people-data-labs.md)
@@ -96,13 +96,13 @@ usemotion.com | [Community MCP](../mcp/community.md) | [https://github.com/RF-D/
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | api key via OVERLOOP_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
 | [SavvyCal](../tools/savvycal.md)
 savvycal.com | [Community MCP](../mcp/community.md) | [https://github.com/arturkoter/savvycal-mcp-server](https://github.com/arturkoter/savvycal-mcp-server) | API key (SAVVYCAL_API_KEY env var, a personal access token from SavvyCal's Developer Settings). MIT-licensed repo, not explicitly disclaiming... | [Paid, self-serve](../gates/paid.md) |
-| [Smartlead](../tools/smartlead.md)
-smartlead.ai | [Community MCP](../mcp/community.md) | [https://github.com/LeadMagic/smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server) +1 more | api key | [Paid, self-serve](../gates/paid.md) |
 | [Syften](../tools/syften.md)
 syften.com | [Community MCP](../mcp/community.md) | [https://github.com/syntax-syndicate/social-listening](https://github.com/syntax-syndicate/social-listening) | Community server presumably authenticates with a Syften API key (matching Syften's own API auth model); not independently confirmed for this specific... | [Paid, self-serve](../gates/paid.md) |
 | [Trigify (Trigify.io)](../tools/trigify.md)
 trigify.io | [Community MCP](../mcp/community.md) | [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli) | api key (from app.trigify.io/settings; via `trigify login --api-key`, env var TRIGIFY_API_KEY, or a per-command flag) | [Paid, self-serve](../gates/paid.md) |
+| [Chorus](../tools/chorus.md)
+zoominfo.com | [Community MCP](../mcp/community.md) | [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server) | Community server: Chorus API key in the CHORUS_API_KEY environment variable (stdio via npx @opensourceops/chorus-mcp), with CHORUS_TOOL_MODE... | [Enterprise only](../gates/enterprise-only.md) |
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

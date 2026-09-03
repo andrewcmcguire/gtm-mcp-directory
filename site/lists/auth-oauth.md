@@ -1,6 +1,6 @@
-# GTM MCP servers that use OAuth: 46 tools, counted
+# GTM MCP servers that use OAuth: 48 tools, counted
 
-> 46 of the 165 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.
+> 48 of the 167 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use OAuth
 
-**List · 46 of 293**
+**List · 48 of 293**
 
 ## GTM MCP servers that use OAuth
 
@@ -80,6 +80,8 @@ superblocks.com | [Official MCP](../mcp/official.md) | [https://superblocks.com/
 vainu.com | [Official MCP](../mcp/official.md) | [https://mcp.vainu.ai/mcp](https://mcp.vainu.ai/mcp) +2 more | OAuth 2.0 with PKCE, scoped to existing Vainu permissions, but NOT enabled by default. The vendor help centre says it "isn't automatically available... | [Paid, self-serve](../gates/paid.md) |
 | [Versium REACH](../tools/versium-reach.md)
 versium.com | [Official MCP](../mcp/official.md) | [https://app.versium.com/mcp/reach](https://app.versium.com/mcp/reach) +2 more | OAuth, and the client must support dynamic client registration. | [Paid, self-serve](../gates/paid.md) |
+| [Amplemarket](../tools/amplemarket.md)
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) +2 more | OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says no API keys are needed. Rate limit 100 requests per minute... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Sybill](../tools/sybill.md)
 sybill.ai | [Official MCP](../mcp/official.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | Browser-based sign-in / OAuth on first connection from an MCP client such as Claude Desktop. | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [6sense](../tools/6sense.md)
@@ -97,11 +99,13 @@ g2.com | [Official MCP](../mcp/official.md) | [https://mcp.g2.com/mcp](https://m
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
 turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic Client Registration for the servers it fronts. | [Enterprise only](../gates/enterprise-only.md) |
 | [Outreach](../tools/outreach.md)
-outreach.io | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on to be enabled and admin-toggled - not available to every... | [Enterprise only](../gates/enterprise-only.md) |
+outreach.ai | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on to be enabled and admin-toggled - not available to every... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [Official MCP](../mcp/official.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every MCP call runs under the authenticated user's own permissions... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesloft](../tools/salesloft.md)
 salesloft.com | [Official MCP](../mcp/official.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | unknown exact flow - vendor press material describes it as natively listed in Claude's connector directory "with no custom setup required," implying... | [Enterprise only](../gates/enterprise-only.md) |
+| [Showpad](../tools/showpad.md)
+showpad.com | [Official MCP](../mcp/official.md) | [https://developer.showpad.com/docs/integrations/plat...](https://developer.showpad.com/docs/integrations/platform-independent/mcp) +2 more | OAuth; the docs say each end user authenticates with their own Showpad credentials and can only search and retrieve content they are already... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pylon](../tools/pylon.md)
 usepylon.com | [Official MCP](../mcp/official.md) | [https://mcp.usepylon.com](https://mcp.usepylon.com) +1 more | OAuth 2.0 over stateless streamable HTTP; access is permission-scoped so a connected AI tool can only see/change what the authenticated user could... | [Gate unknown](../gates/unknown.md) |
 | [Trumpet](../tools/trumpet.md)
@@ -109,4 +113,4 @@ sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://trumpet.app/api/
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro) | Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side connection). | [Paid, self-serve](../gates/paid.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
 # How do I give an AI agent access to sales call transcripts? The routes
 
-> 20 tools here are tagged with fetching a call transcript and 14 have an official MCP server. The routes, and the consent question first.
+> 20 tools here are tagged with fetching a call transcript and 15 have an official MCP server. The routes, and the consent question first.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-Most call recording platforms expose transcripts through an API, and 14 of the 20 entries tagged with that job ship an official MCP server. The technical part is straightforward. The consent language you recorded under is the part to settle first.
+Most call recording platforms expose transcripts through an API, and 15 of the 20 entries tagged with that job ship an official MCP server. The technical part is straightforward. The consent language you recorded under is the part to settle first.
 
 ## Start with consent, not with the API
 
@@ -22,7 +22,7 @@ A transcript contains other people's words, captured under a notice that almost 
 
 ## The three routes
 
-- **The recorder's own MCP server.** Cleanest, and the most common: 14 of the tagged entries have one.
+- **The recorder's own MCP server.** Cleanest, and the most common: 15 of the tagged entries have one.
 
 - **The recorder's REST API with a thin wrapper.** Fine, and about an afternoon of work if the API is documented. 30 of 293 entries in this directory record a documentation URL.
 
@@ -30,6 +30,8 @@ A transcript contains other people's words, captured under a notice that almost 
 
 ## The tools an agent can call
 
+- [Fathom](../tools/fathom.md) Official MCP · Free to start
+Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 - [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
 Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 - [MeetGeek](../tools/meetgeek.md) Official MCP · Free to start
@@ -48,18 +50,16 @@ AI meeting notetaker that records and transcribes calls and builds a searchable,
 General-purpose AI notetaker that generates enhanced meeting notes and summaries from a local desktop app.
 - [tl;dv](../tools/tl-dv.md) Official MCP · Paid, self-serve
 Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering on sales coaching (playbook monitoring, objection handling) at higher...
-- [Gong](../tools/gong.md) Official MCP · Enterprise only
-Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts.
 
-7 more are on the linked page. The cut is the display limit, not a ranking.
+8 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## What to do with them once you can read them
 
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
-| Fetch the transcript | [fetch a call transcript](../jobs/fetch-call-transcript.md) | 20 | 14 | 3 |
+| Fetch the transcript | [fetch a call transcript](../jobs/fetch-call-transcript.md) | 20 | 15 | 3 |
 | Search across the library | [search across recorded calls](../jobs/search-call-library.md) | 5 | 5 | 1 |
-| Summarize the meeting | [summarize a meeting](../jobs/summarize-meeting.md) | 22 | 16 | 3 |
+| Summarize the meeting | [summarize a meeting](../jobs/summarize-meeting.md) | 22 | 17 | 3 |
 | Extract deal signals | [extract deal signals from calls](../jobs/extract-deal-signals-from-calls.md) | 21 | 11 | 0 |
 | Research the account before the next call | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
 
@@ -70,7 +70,7 @@ The read only chain above is the highest value, lowest risk agent work in the wh
 - [The GTM MCP Directory, Conversation Intel](../categories/conversation-intel.md) this site
 - [The GTM MCP Directory, fetch a call transcript](../jobs/fetch-call-transcript.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

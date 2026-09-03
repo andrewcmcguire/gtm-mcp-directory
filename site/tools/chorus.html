@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Chorus: MCP server status, API access gate and what it does</title>
-<meta name="description" content="Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into... No MCP found, Enterprise only. Checked 2026-08-24.">
+<meta name="description" content="Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into... Community MCP, Enterprise only. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/chorus.html">
@@ -33,6 +33,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://github.com/opensourceops/chorus-mcp-server"
   }
 }
 </script>
@@ -89,11 +93,11 @@ Chorus</div>
 <div class="toolhead">
 <h1>Chorus</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge teal" href="../mcp/community.html">Community MCP</a>
 <a class="badge copper" href="../gates/enterprise-only.html">Enterprise only</a>
 <a class="badge mute flat" href="../categories/conversation-intel.html">Conversation Intel</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -103,25 +107,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 03-chorus &middot; source
 03-conversation-intel.md line 68</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Talk-ratio and sentiment scoring, competitor-mention detection, deal-risk/momentum scoring (declining engagement, negative sentiment trends, stalled deals), and coaching scorecards tracking methodology adherence. Transcription itself is standard ASR. Vendor &quot;14 patents&quot; marketing language was not independently verified.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Call-capture and coaching layer, differentiated from standalone conversation-intelligence tools by direct access to ZoomInfo&#x27;s B2B contact/firmographic database.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a for MCP. The REST API uses a per-user API token generated in Chorus&#x27;s Personal Settings page.</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
+<div><div class="bk">Status bucket</div><div class="bv">Community MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">Community server: Chorus API key in the CHORUS_API_KEY environment variable (stdio via npx @opensourceops/chorus-mcp), with CHORUS_TOOL_MODE defaulting to readonly. The REST API uses a per-user API token generated in Chorus&#x27;s Personal Settings page.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24 and has not been re-fetched since.</p>
+<p class="note" style="margin-top:14px">A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing.
+The status was established on 2026-09-02 and has not been re-fetched since.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">n/a</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/opensourceops/chorus-mcp-server (unofficial; its README states it is not affiliated with or maintained by Chorus.ai or ZoomInfo)</p><ul><li><a href="https://github.com/opensourceops/chorus-mcp-server" rel="noopener nofollow">https://github.com/opensourceops/chorus-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>enterprise-only (inferred, not an explicit vendor statement). No public self-serve pricing exists - the product page routes only to &quot;Request Demo,&quot; and secondary sources note API access is not included on every ZoomInfo/Chorus plan.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/fetch-call-transcript.html">Fetch a call transcript</a></li><li><a href="../jobs/extract-deal-signals-from-calls.html">Extract deal signals from calls</a></li><li><a href="../jobs/score-rep-performance.html">Score rep performance</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.zoominfo.com/products/chorus" rel="noopener nofollow">https://www.zoominfo.com/products/chorus</a></li><li><a href="https://api-docs.chorus.ai/" rel="noopener nofollow">https://api-docs.chorus.ai/</a></li><li><a href="https://www.claap.io/blog/chorus-ai-api" rel="noopener nofollow">https://www.claap.io/blog/chorus-ai-api</a></li><li><a href="https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus" rel="noopener nofollow">https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://www.claap.io/blog/chorus-ai-api, https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">None.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>enterprise-only (inferred, not an explicit vendor statement). No public self-serve pricing exists - the product page routes only to &quot;Request Demo,&quot; and secondary sources note API access is not included on every ZoomInfo/Chorus plan.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/opensourceops/chorus-mcp-server" rel="noopener nofollow">https://github.com/opensourceops/chorus-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/fetch-call-transcript.html">Fetch a call transcript</a></li><li><a href="../jobs/extract-deal-signals-from-calls.html">Extract deal signals from calls</a></li><li><a href="../jobs/score-rep-performance.html">Score rep performance</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.zoominfo.com/products/chorus" rel="noopener nofollow">https://www.zoominfo.com/products/chorus</a></li><li><a href="https://api-docs.chorus.ai/" rel="noopener nofollow">https://api-docs.chorus.ai/</a></li><li><a href="https://www.claap.io/blog/chorus-ai-api" rel="noopener nofollow">https://www.claap.io/blog/chorus-ai-api</a></li><li><a href="https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus" rel="noopener nofollow">https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus</a></li><li><a href="https://github.com/opensourceops/chorus-mcp-server" rel="noopener nofollow">https://github.com/opensourceops/chorus-mcp-server</a></li></ul><p class="note">5 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://www.claap.io/blog/chorus-ai-api, https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus, https://github.com/opensourceops/chorus-mcp-server</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">2026-09-02: mcp_status none-found -&gt; community. https://github.com/opensourceops/chorus-mcp-server is a 39-tool Apache-2.0 MCP server for Chorus (conversations, transcripts, scorecards, playlists, emails, engagements, reports; 6 resources and 6 workflow prompts) whose README states it is an unofficial, community-maintained project not affiliated with or maintained by Chorus.ai or ZoomInfo. No first-party ZoomInfo or Chorus server was found on the vendor site or in the official MCP registry (zero hits for chorus).</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">03-chorus</div></div>
 <div><div class="bk">Source file</div><div class="bv">03-conversation-intel.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">68</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -133,8 +137,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -177,7 +181,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

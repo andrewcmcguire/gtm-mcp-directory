@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [hightouch.com](https://hightouch.com) · entry id 06-hightouch · source 06-revops-infra.md line 299
+Vendor: [hightouch.com](https://hightouch.com) · entry id 06-hightouch · source 06-revops-infra.md line 300
 
 **What it does**
 A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs, marketing automation) for audience activation and personalization.
@@ -101,12 +101,12 @@ The MCP capability itself is read-write and functionally broad (create audiences
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 299
+- **Source line**: 300
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

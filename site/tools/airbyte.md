@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [airbyte.com](https://airbyte.com) · entry id 06-airbyte · source 06-revops-infra.md line 322
+Vendor: [airbyte.com](https://airbyte.com) · entry id 06-airbyte · source 06-revops-infra.md line 323
 
 **What it does**
 Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store.
@@ -99,12 +99,12 @@ One of the more clearly "official and productized" MCP implementations in this f
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 322
+- **Source line**: 323
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

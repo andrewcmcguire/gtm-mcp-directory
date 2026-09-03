@@ -21,8 +21,8 @@ Split it into two permissions. Reading availability is safe and immediately usef
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
 | Read calendar availability | [read calendar availability](../jobs/read-calendar-availability.md) | 12 | 6 | 2 |
-| Book the meeting | [book a meeting](../jobs/book-a-meeting.md) | 26 | 11 | 3 |
-| Route the inbound lead to the right owner | [route an inbound lead](../jobs/route-inbound-lead.md) | 9 | 6 | 1 |
+| Book the meeting | [book a meeting](../jobs/book-a-meeting.md) | 26 | 9 | 3 |
+| Route the inbound lead to the right owner | [route an inbound lead](../jobs/route-inbound-lead.md) | 9 | 4 | 1 |
 | Answer the inbound chat | [answer an inbound chat or call](../jobs/answer-inbound-chat.md) | 21 | 11 | 6 |
 
 ## The tools an agent can call
@@ -41,14 +41,12 @@ Inbound lead-routing and instant meeting-booking platform ("Concierge") that qua
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Mixmax](../tools/mixmax.md) Official MCP · Paid, self-serve
 Gmail-native sales engagement layer that runs email sequences, tracking, calendaring and meeting notes from inside the inbox.
-- [Default](../tools/default.md) Official MCP · Enterprise only
-An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [RevenueHero](../tools/revenuehero.md) Official MCP · Gate unknown
 Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep's...
 - [SavvyCal](../tools/savvycal.md) Community MCP · Paid, self-serve
 Prospect-facing scheduling/booking-page tool (Calendly competitor) built around letting invitees overlay their own calendar on the organizer's...
-
-1 more are on the linked page. The cut is the display limit, not a ranking.
+- [Weezly](../tools/weezly.md) Community MCP · Paid, self-serve
+AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries...
 
 ## The three rules that keep this boring
 
@@ -60,14 +58,14 @@ Prospect-facing scheduling/booking-page tool (Calendly competitor) built around 
 
 ## Where scheduling coverage actually sits
 
-Scheduling & Routing has 6 official servers and 2 community across 14 entries, with 6 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
+Scheduling & Routing has 5 official servers and 2 community across 14 entries, with 6 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
 
 ## Sources
 
 - [The GTM MCP Directory, Scheduling and Routing](../categories/scheduling-routing.md) this site
 - [The GTM MCP Directory, book a meeting](../jobs/book-a-meeting.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

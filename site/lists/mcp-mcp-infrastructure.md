@@ -1,6 +1,6 @@
-# MCP Layer tools with MCP servers: 7 of 13, counted
+# MCP Layer tools with MCP servers: 8 of 13, counted
 
-> 7 of the 13 mcp layer tools in The GTM MCP Directory have an MCP server: 7 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
+> 8 of the 13 mcp layer tools in The GTM MCP Directory have an MCP server: 8 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / MCP Layer tools with an MCP server
 
-**List · 7 of 293**
+**List · 8 of 293**
 
 ## MCP Layer tools with an MCP server
 
-The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 7 of 13 entries in this category are reachable by an agent: 7 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
+The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 8 of 13 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -37,8 +37,11 @@ OAuth/API-key credentials for each underlying app are stored by Pipedream and is
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
 turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | OAuth
 Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Enterprise only](../gates/enterprise-only.md) |
+| [Klavis AI](../tools/klavis-ai.md)
+klavis.ai | [Official MCP](../mcp/official.md) | [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md) +2 more | OAuth or an API key
+Klavis API key as an HTTP Bearer token on the management API that creates a per-user... | [Gate unknown](../gates/unknown.md) |
 
-### The other 6 in this category
+### The other 5 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -54,8 +57,6 @@ pulsemcp.com | [MCP not applicable](../mcp/n-a.md) | [Free to start](../gates/fr
 smithery.ai | [MCP not applicable](../mcp/n-a.md) | [Free to start](../gates/free.md) | 2026-08-24 |
 | [Glama (MCP directory)](../tools/glama.md)
 glama.ai | [MCP not applicable](../mcp/n-a.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Klavis AI](../tools/klavis-ai.md)
-klavis.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 
 ### What this category is asked for
 
@@ -66,4 +67,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Read CRM records](../jobs/read-crm-records.md)
 - [Write CRM records](../jobs/write-crm-records.md)
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

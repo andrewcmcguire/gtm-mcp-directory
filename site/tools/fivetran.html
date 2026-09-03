@@ -103,7 +103,7 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 0.</div>
 <p class="note">Vendor: <a href="https://fivetran.com" rel="noopener nofollow">fivetran.com</a>
 &middot; entry id 06-fivetran &middot; source
-06-revops-infra.md line 344</p>
+06-revops-infra.md line 345</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that land CRM and GTM-tool data in a warehouse, plus (post-Census) its &quot;Activations&quot; reverse-ETL product for pushing data back out to those same tools.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Mostly plain data pipeline - the AI positioning is largely about being &quot;AI-ready&quot; infrastructure for downstream agents rather than AI inside the product itself. The one genuinely agentic piece is the official MCP server, which lets an AI assistant query/manage connections conversationally - that is real, not just marketing.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Core data-plumbing layer of a RevOps stack - lands CRM/marketing/sales-engagement data into the warehouse and, via Activations, pushes it back out so it can be modeled and reused across GTM tools.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">API key + API secret via env vars, generated from the Fivetran dashboard. Scoped permission tiers (read / read-write / read-write-delete) with a configurable disallowed-actions carve-out; confirms with the user before write/delete operations.</div></div>
@@ -120,10 +120,10 @@ The status was established on 2026-08-24 and has not been re-fetched since.</p>
 <p>free - the REST API is available on all Fivetran plans including the free trial; the Free plan is self-serve (500K MAR/mo for connections, 3,500 MAR for activations, 5,000 MMR for transformations, no payment info required).</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/fivetran/fivetran-mcp" rel="noopener nofollow">https://github.com/fivetran/fivetran-mcp</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/sync-records-between-systems.html">Sync records between systems</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.fivetran.com/" rel="noopener nofollow">https://www.fivetran.com/</a></li><li><a href="https://www.fivetran.com/pricing" rel="noopener nofollow">https://www.fivetran.com/pricing</a></li><li><a href="https://fivetran.com/docs/activations" rel="noopener nofollow">https://fivetran.com/docs/activations</a></li><li><a href="https://fivetran.com/docs/connectors/applications" rel="noopener nofollow">https://fivetran.com/docs/connectors/applications</a></li><li><a href="https://fivetran.com/docs/rest-api" rel="noopener nofollow">https://fivetran.com/docs/rest-api</a></li><li><a href="https://github.com/fivetran/fivetran-mcp" rel="noopener nofollow">https://github.com/fivetran/fivetran-mcp</a></li></ul><p class="note">6 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.fivetran.com/, https://www.fivetran.com/pricing, https://fivetran.com/docs/activations, https://fivetran.com/docs/connectors/applications, https://fivetran.com/docs/rest-api, https://github.com/fivetran/fivetran-mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Confirmed GTM-relevant connectors include Salesforce, HubSpot, Pipedrive, Copper, Close, Marketo, Pardot, Braze, Klaviyo, Outreach, Salesloft, Apollo, Reply.io, Zendesk, Intercom, Freshdesk, Help Scout, LinkedIn Ad Analytics, Google Ads, and Gong. See the Census entry above - that product now lives inside Fivetran as Activations.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">06-fivetran</div></div>
 <div><div class="bk">Source file</div><div class="bv">06-revops-infra.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">344</div></div>
+<div><div class="bk">Source line</div><div class="bv">345</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -135,8 +135,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -179,7 +179,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

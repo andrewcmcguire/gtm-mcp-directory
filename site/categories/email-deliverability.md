@@ -17,14 +17,13 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 - **entries in this file**: 13
 
 - **Official MCP**: 4
-- **MCP unknown**: 1
-- **No MCP found**: 8
+- **No MCP found**: 9
 
 - **Free to start**: 2
 - **Paid, self-serve**: 10
 - **Gate unknown**: 1
 
-Source file: 09-email-deliverability.md · content sha256 cffe7fe0fb933b84... · counts reconciled against tools_recount.py at build time.
+Source file: 09-email-deliverability.md · content sha256 5a84716fe73f8f6d... · counts reconciled against tools_recount.py at build time.
 
 - [The 4 with an MCP server](../lists/mcp-email-deliverability.md)
 
@@ -41,9 +40,9 @@ Source file: 09-email-deliverability.md · content sha256 cffe7fe0fb933b84... ·
 
 - [Mailforge](../tools/mailforge.md) mailforge.ai Shared cold-email infrastructure platform (part of the Salesforge "Forge Stack") - automates workspace setup, domain purchase/checks, mailbox creation, DNS records, forwarding, and domain masking for... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Warmup Inbox](../tools/warmup-inbox.md) warmupinbox.com Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer's connected accounts to build sender reputation. [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md)
-
 - [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
+
+- [Warmup Inbox](../tools/warmup-inbox.md) warmupinbox.com Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer's connected accounts to build sender reputation. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
 
 - [GlockApps](../tools/glockapps.md) glockapps.com Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts across 60+ providers (Gmail, Yahoo, Outlook, Apple Mail, AOL, etc.) and reports exact... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 

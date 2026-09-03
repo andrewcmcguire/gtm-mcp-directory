@@ -1,24 +1,21 @@
-# Community MCP servers: 21 GTM tools with a third party server
+# Community MCP servers: 20 GTM tools with a third party server
 
-> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-08-28 across 293 directory entries.
+> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-02 across 293 directory entries.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 21 GTM tools with a community MCP server
+[The lists](index.md) / The 20 GTM tools with a community MCP server
 
-**List · 21 of 293**
+**List · 20 of 293**
 
-## The 21 GTM tools with a community MCP server
+## The 20 GTM tools with a community MCP server
 
 A community server is a real server. It is also a server that can be abandoned without the vendor noticing, which is the single most useful thing to know before you write one into a workflow. The repo health rail that would date stamp each one has not been run, so no staleness claim is made here.
 
 | Tool | Category | Server URL | Auth | Gate |
 |---|---|---|---|---|
-| [Fathom](../tools/fathom.md)
-fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp) +2 more | API key
-Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment... | [Free to start](../gates/free.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom) +2 more | API key
 karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser session... | [Free to start](../gates/free.md) |
@@ -43,9 +40,6 @@ API key (SAVVYCAL_API_KEY env var, a personal access token from SavvyCal's Devel
 | [Sendspark](../tools/sendspark.md)
 sendspark.com | [Video Prospecting](../categories/video-prospecting.md) | [https://composio.dev/toolkits/sendspark](https://composio.dev/toolkits/sendspark) | Third party platform auth
 API-key based - Composio's page states Sendspark requires the user's own API key, which... | [Paid, self-serve](../gates/paid.md) |
-| [Smartlead](../tools/smartlead.md)
-smartlead.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://github.com/LeadMagic/smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server) +1 more | API key
-api key | [Paid, self-serve](../gates/paid.md) |
 | [Syften](../tools/syften.md)
 syften.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://github.com/syntax-syndicate/social-listening](https://github.com/syntax-syndicate/social-listening) | API key
 Community server presumably authenticates with a Syften API key (matching Syften's own... | [Paid, self-serve](../gates/paid.md) |
@@ -70,6 +64,9 @@ Rides Zapier's own OAuth/API-key connection to BombBomb; not a native BombBomb M
 | [Brandwatch](../tools/brandwatch.md)
 brandwatch.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://github.com/ambo-sk/mcp-brandwatch](https://github.com/ambo-sk/mcp-brandwatch) | Auth not recorded
 unknown - the third-party server's description states it interfaces with "the Brandwatch... | [Enterprise only](../gates/enterprise-only.md) |
+| [Chorus](../tools/chorus.md)
+zoominfo.com | [Conversation Intel](../categories/conversation-intel.md) | [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server) | API key
+Community server: Chorus API key in the CHORUS_API_KEY environment variable (stdio via... | [Enterprise only](../gates/enterprise-only.md) |
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
 API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
@@ -80,4 +77,4 @@ Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [syncari.com](https://syncari.com) · entry id 06-syncari · source 06-revops-infra.md line 255
+Vendor: [syncari.com](https://syncari.com) · entry id 06-syncari · source 06-revops-infra.md line 256
 
 **What it does**
 An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to both humans (dashboards/BI) and AI agents.
@@ -99,12 +99,12 @@ help.syncari.com does not resolve - no separate public help-center subdomain fou
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 255
+- **Source line**: 256
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

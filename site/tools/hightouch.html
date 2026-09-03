@@ -104,7 +104,7 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 0.</div>
 <p class="note">Vendor: <a href="https://hightouch.com" rel="noopener nofollow">hightouch.com</a>
 &middot; entry id 06-hightouch &middot; source
-06-revops-infra.md line 299</p>
+06-revops-infra.md line 300</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs, marketing automation) for audience activation and personalization.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">More AI-forward than most peers - &quot;AI Decisioning&quot; (reinforcement-learning-based 1:1 personalization, per their own docs - the specific &quot;reinforcement learning&quot; framing is vendor-stated and not independently verified beyond marketing language), &quot;Proactive Insights&quot; (agents surfacing signals across data/market/competitors), and AI content generation for Lifecycle Studio (email/SMS) and Ad Studio (ad creative).</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Sits between the warehouse and GTM execution tools - the activation layer that turns modeled/scored data into audiences, syncs, and now AI-generated campaign content.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">Existing Hightouch workspace auth with role-based access control; however the MCP server itself &quot;must be enabled by Hightouch - contact us to turn it on,&quot; so it is not self-serve activatable even though the auth mechanism itself is standard.</div></div>
@@ -121,10 +121,10 @@ The status was established on 2026-08-24 and has not been re-fetched since.</p>
 <p>free - the REST API is open to all Hightouch users (bearer-token API key), available even on the free Basic Reverse ETL tier (up to 2 active syncs, unlimited destinations/seats, no sales conversation required for the API itself).</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/draft-personalized-outreach.html">Draft personalized outreach</a></li><li><a href="../jobs/sync-records-between-systems.html">Sync records between systems</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.hightouch.com/" rel="noopener nofollow">https://www.hightouch.com/</a></li><li><a href="https://hightouch.com/pricing" rel="noopener nofollow">https://hightouch.com/pricing</a></li><li><a href="https://hightouch.com/docs/ai-integrations/mcp" rel="noopener nofollow">https://hightouch.com/docs/ai-integrations/mcp</a></li><li><a href="https://hightouch.com/docs/developer-tools/api-guide" rel="noopener nofollow">https://hightouch.com/docs/developer-tools/api-guide</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.hightouch.com/, https://hightouch.com/pricing, https://hightouch.com/docs/ai-integrations/mcp, https://hightouch.com/docs/developer-tools/api-guide</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">The MCP capability itself is read-write and functionally broad (create audiences, manage syncs, design journeys, generate email/ad content) - one of the more substantive MCP implementations researched for this file, but a solo operator can&#x27;t self-serve turn it on; it requires contacting Hightouch first.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">06-hightouch</div></div>
 <div><div class="bk">Source file</div><div class="bv">06-revops-infra.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">299</div></div>
+<div><div class="bk">Source line</div><div class="bv">300</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -136,8 +136,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -180,7 +180,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

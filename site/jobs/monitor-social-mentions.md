@@ -1,6 +1,6 @@
-# Monitor social and community mentions: 12 GTM tools, 2 with an official MCP server
+# Monitor social and community mentions: 12 GTM tools, 3 with an official MCP server
 
-> Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches. 5 of the 12 entries tagged with this job carry an MCP server of some kind, 2 of them official. Counted 2026-08-28 from the directory data.
+> Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches. 6 of the 12 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-09-02 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Monitor social and community mentions
 Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches.
 
 - **entries tagged**: 12
-- **official MCP**: 2
+- **official MCP**: 3
 - **community MCP**: 3
-- **no MCP found**: 7
+- **no MCP found**: 6
 - **solo reachable**: 2
 
-5 of the 12 entries tagged with this job carry an MCP server of some kind, 2 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-08-28 from directory.json.
+6 of the 12 entries tagged with this job carry an MCP server of some kind, 3 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-02 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -47,6 +47,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Common Room](../tools/common-room.md) commonroom.io See the full RESEARCHED entry in 05-signals-intent-abm.md (Common Room is filed there as its canonical home in this directory) - aggregates Slack, Discord, GitHub, product-usage, and third-party intent signals... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md) · Cross listed, canonical home is Signals & Intent
 
+- [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md) talkwalker.com Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
+
 - [Syften](../tools/syften.md) syften.com Monitors Reddit, Hacker News, X/Twitter, Bluesky, Mastodon, GitHub, YouTube, Slack communities, and general web/forum sources for keyword mentions, delivering alerts via email, Slack, RSS, webhook, or API. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 - [Trigify (Trigify.io)](../tools/trigify.md) trigify.io Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who engaged with that content into an "engagement graph" filtered... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -64,8 +66,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Mention](../tools/mention.md) mention.com Monitors web and social mentions across a claimed 1 billion+ sources in real time, layering sentiment/reach analytics and a unified social inbox on top of the monitoring feed. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 - [Meltwater](../tools/meltwater.md) meltwater.com Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and AI-generated content into prioritized alerts and workflows for PR, comms, and marketing teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
-
-- [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md) talkwalker.com Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 ### Next to this job
 

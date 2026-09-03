@@ -1,6 +1,6 @@
 # Which GTM tools can a solo operator use with an agent? 118 products
 
-> 174 of 293 GTM tools are free to start or paid self serve, and 123 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-08-28.
+> 174 of 293 GTM tools are free to start or paid self serve, and 123 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -81,7 +81,7 @@ This directory tracks one thing about money: whether the door opens without a sa
 - [The GTM MCP Directory, solo reachable](../lists/solo-reachable.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,6 +1,6 @@
 # Chorus: MCP server status, API access gate and what it does
 
-> Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into... No MCP found, Enterprise only. Checked 2026-08-24.
+> Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into... Community MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Chorus
 
 # Chorus
 
-[No MCP found](../mcp/none-found.md)
+[Community MCP](../mcp/community.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,23 @@ Call-capture and coaching layer, differentiated from standalone conversation-int
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Community MCP
 
-- **Auth**: n/a for MCP. The REST API uses a per-user API token generated in Chorus's Personal Settings page.
+- **Auth**: Community server: Chorus API key in the CHORUS_API_KEY environment variable (stdio via npx @opensourceops/chorus-mcp), with CHORUS_TOOL_MODE defaulting to readonly. The REST API uses a per-user API token generated in Chorus's Personal Settings page.
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-none-found
+community
 
 mcp_url, verbatim from the file:
 
-n/a
+https://github.com/opensourceops/chorus-mcp-server (unofficial; its README states it is not affiliated with or maintained by Chorus.ai or ZoomInfo)
+
+- [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server)
 
 **Access gate**
 
@@ -70,6 +72,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server)
+
 **Jobs it can do**
 
 - [Fetch a call transcript](../jobs/fetch-call-transcript.md)
@@ -86,13 +92,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://api-docs.chorus.ai/](https://api-docs.chorus.ai/)
 - [https://www.claap.io/blog/chorus-ai-api](https://www.claap.io/blog/chorus-ai-api)
 - [https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus](https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus)
+- [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://www.claap.io/blog/chorus-ai-api, https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus
+https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://www.claap.io/blog/chorus-ai-api, https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus, https://github.com/opensourceops/chorus-mcp-server
 
 **Notes, verbatim from the file**
-None.
+2026-09-02: mcp_status none-found -> community. https://github.com/opensourceops/chorus-mcp-server is a 39-tool Apache-2.0 MCP server for Chorus (conversations, transcripts, scorecards, playlists, emails, engagements, reports; 6 resources and 6 workflow prompts) whose README states it is an unofficial, community-maintained project not affiliated with or maintained by Chorus.ai or ZoomInfo. No first-party ZoomInfo or Chorus server was found on the vendor site or in the official MCP registry (zero hits for chorus).
 
 **Provenance**
 
@@ -104,8 +111,8 @@ None.
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

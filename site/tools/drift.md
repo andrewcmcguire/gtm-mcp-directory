@@ -1,6 +1,6 @@
 # Drift: MCP server status, API access gate and what it does
 
-> Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting... No MCP found, Gate unknown. Checked 2026-08-24.
+> Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting... No MCP found, Gate unknown. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Drift
 [Gate unknown](../gates/unknown.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Legacy inbound-chat brand, now folded into Salesloft's revenue-orchestration pla
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ Reason recorded by the tagging pass: dead. Folded into Salesloft, and the entry 
 https://www.drift.com, https://www.salesloft.com/platform/drift
 
 **Notes, verbatim from the file**
-STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.com 302-redirects straight to salesloft.com/platform/drift, and that page itself states the conversational-AI engine has moved from Drift to a third party ("1mind") - i.e., the original Drift product appears to be sunset in favor of a partner integration, not merely rebranded. Worth re-verifying before citing Drift as a live, buyable product in its own right. [api_gate 2026-08-25] Re-checked and left unknown, honestly: Drift is absorbed into Salesloft and the chat capability has been replaced - the Salesloft page states they have transitioned from Drift to 1mind. A Drift login still exists but no Drift pricing or API terms are published, so there is no current gate to record. Checked against https://www.salesloft.com/platform/drift.
+STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.com 302-redirects straight to salesloft.com/platform/drift, and that page itself states the conversational-AI engine has moved from Drift to a third party ("1mind") - i.e., the original Drift product appears to be sunset in favor of a partner integration, not merely rebranded. Worth re-verifying before citing Drift as a live, buyable product in its own right. [api_gate 2026-08-25] Re-checked and left unknown, honestly: Drift is absorbed into Salesloft and the chat capability has been replaced - the Salesloft page states they have transitioned from Drift to 1mind. A Drift login still exists but no Drift pricing or API terms are published, so there is no current gate to record. Checked against https://www.salesloft.com/platform/drift. 2026-09-02: re-verified. https://www.drift.com/ still redirects to https://www.salesloft.com/platform/drift, and that Salesloft page states "We've transitioned from Drift to 1mind", with 1mind feeding buyer signals into Salesloft's Predictive Revenue System; it does not use the words sunset or discontinued, and it has no MCP mention. Drift remains an absorbed brand with no standalone product surface; mcp_status none-found unchanged. 1mind is a separate candidate, not a Drift alias.
 
 **Provenance**
 
@@ -102,8 +102,8 @@ STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.co
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

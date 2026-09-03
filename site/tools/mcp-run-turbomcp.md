@@ -1,6 +1,6 @@
 # mcp.run / TurboMCP: MCP server status, API access gate and what it does
 
-> An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus... Official MCP, Enterprise only. Checked 2026-08-24.
+> An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus... Official MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ mcp.run / TurboMCP
 [Enterprise only](../gates/enterprise-only.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,7 +38,7 @@ Relevant to a RevOps/IT team that wants centralized control over which MCP serve
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.mcp.run (redirects to turbomcp.ai, confirmed 301), https://turbomcp.ai
 
 **Notes, verbatim from the file**
-mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points.
+mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points. 2026-09-02: re-verified. https://www.mcp.run/ still 301s to https://turbomcp.ai/, which loaded today as "the leading standards-compliant, self-hosted MCP gateway and management platform" (OIDC identity-provider integration, OAuth with dynamic client registration, RBAC approvals, centralized audit logs, kill switch) with no pricing, no docs link, and still no mention of its mcp.run history. The what_it_does and ai_features copy above already describes the TurboMCP product rather than the old hosted registry, so no rewrite was needed; mcp_status unchanged.
 
 **Provenance**
 
@@ -104,8 +104,8 @@ mcp.run - originally a lightweight community MCP server registry - now redirects
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

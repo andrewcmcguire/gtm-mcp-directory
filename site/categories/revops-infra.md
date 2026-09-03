@@ -1,6 +1,6 @@
-# RevOps Infra: 23 tools, 22 with an official MCP server
+# RevOps Infra: 23 tools, 21 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 23 tools counted, 22 with an official MCP server and 12 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 23 tools counted, 21 with an official MCP server and 12 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,16 +16,17 @@ The systems of record, the pipes between them, and the low-code layer a GTM engi
 
 - **entries in this file**: 23
 
-- **Official MCP**: 22
+- **Official MCP**: 21
+- **MCP unknown**: 1
 - **No MCP found**: 1
 
 - **Free to start**: 12
 - **Paid, self-serve**: 7
 - **Enterprise only**: 4
 
-Source file: 06-revops-infra.md · content sha256 db99ded503993f4c... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 7121303ec7ab7bdf... · counts reconciled against tools_recount.py at build time.
 
-- [The 22 with an MCP server](../lists/mcp-revops-infra.md)
+- [The 21 with an MCP server](../lists/mcp-revops-infra.md)
 
 - [Run an automation workflow](../jobs/run-automation-workflow.md)
 - [Sync records between systems](../jobs/sync-records-between-systems.md)
@@ -70,10 +71,10 @@ Source file: 06-revops-infra.md · content sha256 db99ded503993f4c... · counts 
 
 - [Superblocks](../tools/superblocks.md) superblocks.com A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing prototypes from Claude, Lovable, or Replit) while giving... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
-
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) salesforce.com A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on top for configuring autonomous AI agents that read... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Syncari](../tools/syncari.md) syncari.com An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to both humans (dashboards/BI) and AI agents. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Openprise](../tools/openprise.md) openprisetech.com A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)

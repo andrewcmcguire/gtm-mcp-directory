@@ -1,6 +1,6 @@
 # Can an AI agent send email on my behalf? Yes, and the four things to do first
 
-> 45 tools here are tagged with running an email sequence and 22 have an official MCP server. What to set up before you let anything send.
+> 45 tools here are tagged with running an email sequence and 24 have an official MCP server. What to set up before you let anything send.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -32,7 +32,7 @@ Technically yes. Sequencers, sending infrastructure and mailbox APIs all expose 
 An all-in-one CRM/marketing/sales/service platform with contacts, deals, marketing automation, and a public REST API/developer platform.
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
-- [Amplemarket](../tools/amplemarket.md) No MCP found · Enterprise leaning
+- [Amplemarket](../tools/amplemarket.md) Official MCP · Enterprise leaning
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
 - [Apollo.io](../tools/apollo-io.md) Official MCP · Paid, self-serve
 A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing,...
@@ -49,7 +49,7 @@ Gmail-native sales engagement layer that runs email sequences, tracking, calenda
 - [Ortto](../tools/ortto.md) Official MCP · Paid, self-serve
 A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
 
-10 more are on the linked page. The cut is the display limit, not a ranking.
+11 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The bit nobody enjoys
 
@@ -65,7 +65,7 @@ Let the agent draft, research and queue. Let a person press send. Then move the 
 - [The GTM MCP Directory, Email Deliverability](../categories/email-deliverability.md) this site
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

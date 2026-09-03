@@ -107,7 +107,7 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 0.</div>
 <p class="note">Vendor: <a href="https://affinity.co" rel="noopener nofollow">affinity.co</a>
 &middot; entry id 06-affinity &middot; source
-06-revops-infra.md line 455</p>
+06-revops-infra.md line 456</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Semantic search across companies and people, relationship-strength scoring, and meeting-transcript retrieval. The contact-graph construction itself is automation over mail and calendar metadata, not AI.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">System of record for relationship-driven pipelines, primarily private capital, with warm-path discovery layered on top of the CRM itself.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">OAuth where the client supports it, otherwise an API key. Local deployment is API key only. All MCP queries inherit the connecting user&#x27;s existing Affinity permissions.</div></div>
@@ -124,10 +124,10 @@ The status was established on 2026-08-25 and has not been re-fetched since.</p>
 <p>paid</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p><a href="https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP" rel="noopener nofollow">https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP</a></p><p class="note">No documentation text is reproduced anywhere on this site. Read the vendor page for the prose. The structured docs digest specced in SPEC section 3 has not been built or crawled: docs_digest is null on every entry in this build.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/discover-warm-intro-paths.html">Discover warm intro paths</a></li><li><a href="../jobs/fetch-call-transcript.html">Fetch a call transcript</a></li><li><a href="../jobs/read-crm-records.html">Read CRM records</a></li><li><a href="../jobs/write-crm-records.html">Write CRM records</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP" rel="noopener nofollow">https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP</a></li><li><a href="https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital" rel="noopener nofollow">https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital</a></li><li><a href="https://www.affinity.co/product/crm" rel="noopener nofollow">https://www.affinity.co/product/crm</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP, https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital, https://www.affinity.co/product/crm</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Added 2026-08-25 in the coverage sweep. API and MCP access are restricted to the Scale, Advanced and Enterprise tiers; lower tiers cannot use it at all. Launched in beta in 2026 with roughly 33 read and write tools. TRANSFERABILITY CAVEAT: Affinity is aimed at VC, PE and investment banking rather than classic B2B SaaS sales, so the relationship-strength model is tuned for a different motion than most of this directory. Included because the auto-built relationship graph is the same job Centralize (05) and The Swarm (01) do, approached from a third direction, and the three together are a coherent lane.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">06-affinity</div></div>
 <div><div class="bk">Source file</div><div class="bv">06-revops-infra.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">455</div></div>
+<div><div class="bk">Source line</div><div class="bv">456</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-08-25</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -139,8 +139,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -183,7 +183,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

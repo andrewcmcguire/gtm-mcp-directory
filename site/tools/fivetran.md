@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [fivetran.com](https://fivetran.com) · entry id 06-fivetran · source 06-revops-infra.md line 344
+Vendor: [fivetran.com](https://fivetran.com) · entry id 06-fivetran · source 06-revops-infra.md line 345
 
 **What it does**
 Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that land CRM and GTM-tool data in a warehouse, plus (post-Census) its "Activations" reverse-ETL product for pushing data back out to those same tools.
@@ -106,12 +106,12 @@ Confirmed GTM-relevant connectors include Salesforce, HubSpot, Pipedrive, Copper
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 344
+- **Source line**: 345
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

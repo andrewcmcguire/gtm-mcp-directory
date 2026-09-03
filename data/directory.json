@@ -5,7 +5,7 @@
     "umbrella": "Agent Operator",
     "spec": "directory/product/SPEC.md"
   },
-  "generated_on": "2026-08-28",
+  "generated_on": "2026-09-02",
   "generated_by": "build_directory.py (phase 1)",
   "source": {
     "directory": "..",
@@ -40,11 +40,11 @@
     "cross_listed_entries": 16,
     "categories": 15,
     "mcp_status": {
-      "official": 144,
-      "community": 21,
-      "none-found": 117,
-      "unknown": 7,
-      "n-a": 4,
+      "official": 147,
+      "community": 20,
+      "none-found": 110,
+      "unknown": 11,
+      "n-a": 5,
       "other": 0
     },
     "api_gate": {
@@ -158,10 +158,10 @@
       "one_line": "The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.",
       "total": 27,
       "mcp_status": {
-        "official": 15,
-        "community": 2,
-        "none-found": 9,
-        "unknown": 1,
+        "official": 17,
+        "community": 1,
+        "none-found": 7,
+        "unknown": 2,
         "n-a": 0,
         "other": 0
       },
@@ -214,7 +214,7 @@
         "02-waalaxy",
         "02-woodpecker"
       ],
-      "source_sha256": "9e5fb6f8786bd8c8c84b3f0b75d3c1becb52227ec225a4a55b8123e1ce3defee"
+      "source_sha256": "916a12898a5fc156c11c0ead0192cf39c411e47c0d74a1e900045a9424e88427"
     },
     {
       "num": "03",
@@ -224,9 +224,9 @@
       "one_line": "Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where \"AI\" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface.",
       "total": 24,
       "mcp_status": {
-        "official": 17,
+        "official": 18,
         "community": 3,
-        "none-found": 4,
+        "none-found": 3,
         "unknown": 0,
         "n-a": 0,
         "other": 0
@@ -277,7 +277,7 @@
         "03-tl-dv",
         "03-zoom-revenue-accelerator"
       ],
-      "source_sha256": "107151b06c156c28b8b433a943f6665c9dca547c38a18a2d35a4647e29b636a8"
+      "source_sha256": "58e3e83220844b8abb8b57c8fa446434c384501a0f664616923f8b0b338e97c3"
     },
     {
       "num": "04",
@@ -351,9 +351,9 @@
       "mcp_status": {
         "official": 17,
         "community": 1,
-        "none-found": 9,
+        "none-found": 8,
         "unknown": 1,
-        "n-a": 0,
+        "n-a": 1,
         "other": 0
       },
       "api_gate": {
@@ -406,7 +406,7 @@
         "05-vector",
         "05-warmly"
       ],
-      "source_sha256": "68033ac4219bc4bbd380c57af06d711e7c4f4ccf4593559987c1c57ec14308e3"
+      "source_sha256": "58a9de1abd0db31ff52fe9f9ed489cea5a1b7d44cfc8c223ffa9ae4cee4a638f"
     },
     {
       "num": "06",
@@ -416,10 +416,10 @@
       "one_line": "The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.",
       "total": 23,
       "mcp_status": {
-        "official": 22,
+        "official": 21,
         "community": 0,
         "none-found": 1,
-        "unknown": 0,
+        "unknown": 1,
         "n-a": 0,
         "other": 0
       },
@@ -468,7 +468,7 @@
         "06-syncari",
         "06-zapier"
       ],
-      "source_sha256": "db99ded503993f4c1f80117c7699c3fe8d064fc60b7c9e2028ab105e2b9f9dbf"
+      "source_sha256": "7121303ec7ab7bdf84feead25d8be8af410b3d2328417de7c5c1b043a4ed1195"
     },
     {
       "num": "07",
@@ -478,9 +478,9 @@
       "one_line": "The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent.",
       "total": 13,
       "mcp_status": {
-        "official": 7,
+        "official": 8,
         "community": 0,
-        "none-found": 1,
+        "none-found": 0,
         "unknown": 1,
         "n-a": 4,
         "other": 0
@@ -516,7 +516,7 @@
         "07-smithery",
         "07-zapier-mcp"
       ],
-      "source_sha256": "0a5603a66e93cb3bc6d82f29054dd7c126dd26a9c532897d1d5299c8cebd3ef1"
+      "source_sha256": "61a2ed79b452c597bf21c12cbb1f212922fb49f755d03f2db9c6accd31f7001b"
     },
     {
       "num": "08",
@@ -578,8 +578,8 @@
       "mcp_status": {
         "official": 4,
         "community": 0,
-        "none-found": 8,
-        "unknown": 1,
+        "none-found": 9,
+        "unknown": 0,
         "n-a": 0,
         "other": 0
       },
@@ -614,7 +614,7 @@
         "09-warmup-inbox",
         "09-warmy-io"
       ],
-      "source_sha256": "cffe7fe0fb933b84af4ac11fa5c85a9e6fc00946923d42a79956d4e21778681f"
+      "source_sha256": "5a84716fe73f8f6d55dab53d4d8672df5e0a09343f49cee398e56809e73925f6"
     },
     {
       "num": "10",
@@ -624,10 +624,10 @@
       "one_line": "The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar, instantly and to the right person, then keeping that rep's own calendar sane. Three sub-lanes live in this file - prospect-facing booking pages (Calendly, Cal.com, SavvyCal), inbound lead-routing/handoff engines (Chili Piper, Default, RevenueHero, Kronologic, LeanData), and personal calendar-intelligence tools for reps/AEs (Motion, Reclaim.ai, Clockwise, Trevor AI) - plus two adjacent discovery finds (Clara, Doodle). MCP maturity here splits the same way category-06 does: the open-source/API-first booking tools (Cal.com, Calendly) shipped clean official servers, while most routing engines and personal-calendar apps have none or only community ones.",
       "total": 14,
       "mcp_status": {
-        "official": 6,
+        "official": 5,
         "community": 2,
         "none-found": 5,
-        "unknown": 1,
+        "unknown": 2,
         "n-a": 0,
         "other": 0
       },
@@ -667,7 +667,7 @@
         "10-savvycal",
         "10-trevor-ai"
       ],
-      "source_sha256": "633f5f2b736e0fc009362790062592403953500b1471051c8e6b567239314d05"
+      "source_sha256": "839947c4c6d62ef4c5f909d109a24e3a71ed5f94fe505ace06421c3664d405fa"
     },
     {
       "num": "11",
@@ -679,8 +679,8 @@
       "mcp_status": {
         "official": 1,
         "community": 1,
-        "none-found": 12,
-        "unknown": 0,
+        "none-found": 10,
+        "unknown": 2,
         "n-a": 0,
         "other": 0
       },
@@ -716,7 +716,7 @@
         "11-trainual",
         "11-workramp"
       ],
-      "source_sha256": "aa532c36cdc7565e30107b8270b50f20be28ad6f1afb29b8afa1df89c09e09ca"
+      "source_sha256": "414b602b574b92bbbeb6f8a9ffe91f7f82a10390579d9b9de6a4a227f83cde32"
     },
     {
       "num": "12",
@@ -878,7 +878,7 @@
         "14-toplyne",
         "14-ultimate-ai"
       ],
-      "source_sha256": "3265772db0eda36d662baa0f4b4623cd03288db0e95995e57e69de984b07ed93"
+      "source_sha256": "e661773535827e5fbd262920299c3426537cffadae20208999306b9311052f97"
     },
     {
       "num": "15",
@@ -888,9 +888,9 @@
       "one_line": "Tools that surface what's happening in the channels a CRM and normal web analytics can't see - Slack and Discord communities, Reddit threads, X posts, newsletters, GitHub activity, and forum comments - the raw material of community-led growth and \"dark social\" signal-driven outbound. The tension: a handful of tools here (SparkToro, Syften, Common Room) build genuinely for solo operators and AI agents, with real free tiers or paid-but-reachable MCP servers, while the legacy media-monitoring incumbents (Brandwatch, Meltwater, Talkwalker) remain enterprise-sales-gated dashboards with no self-serve path at all - and this category has an unusually high mortality rate: two of the tools researched here (Orbit, GummySearch) turned out to be dead or shut down mid-research.",
       "total": 16,
       "mcp_status": {
-        "official": 2,
+        "official": 3,
         "community": 2,
-        "none-found": 12,
+        "none-found": 11,
         "unknown": 0,
         "n-a": 0,
         "other": 0
@@ -928,7 +928,7 @@
         "15-syften",
         "15-talkwalker"
       ],
-      "source_sha256": "9f3d4f9845f03f2ab5b06056a289deccd637e6e896ae5663231bd5212d7b3e1e"
+      "source_sha256": "f3e88778808f13bbdd5f08309b52c6b9d59945968c64b46e16c48ca5e0f02509"
     }
   ],
   "job_families": [
@@ -1120,9 +1120,9 @@
         "entry_count": 24,
         "product_count": 22,
         "mcp_status": {
-          "official": 15,
+          "official": 16,
           "community": 3,
-          "none-found": 6,
+          "none-found": 5,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -1310,10 +1310,10 @@
         "entry_count": 34,
         "product_count": 31,
         "mcp_status": {
-          "official": 26,
+          "official": 24,
           "community": 2,
           "none-found": 6,
-          "unknown": 0,
+          "unknown": 2,
           "n-a": 0,
           "other": 0
         },
@@ -1681,8 +1681,8 @@
         "entry_count": 15,
         "product_count": 15,
         "mcp_status": {
-          "official": 11,
-          "community": 3,
+          "official": 12,
+          "community": 2,
           "none-found": 1,
           "unknown": 0,
           "n-a": 0,
@@ -1798,9 +1798,9 @@
         "entry_count": 30,
         "product_count": 26,
         "mcp_status": {
-          "official": 18,
+          "official": 19,
           "community": 2,
-          "none-found": 10,
+          "none-found": 9,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -1876,9 +1876,9 @@
         "entry_count": 10,
         "product_count": 9,
         "mcp_status": {
-          "official": 4,
+          "official": 5,
           "community": 2,
-          "none-found": 4,
+          "none-found": 3,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -2155,9 +2155,9 @@
         "entry_count": 12,
         "product_count": 11,
         "mcp_status": {
-          "official": 2,
+          "official": 3,
           "community": 3,
-          "none-found": 7,
+          "none-found": 6,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -2281,10 +2281,10 @@
         "entry_count": 45,
         "product_count": 38,
         "mcp_status": {
-          "official": 22,
-          "community": 3,
-          "none-found": 19,
-          "unknown": 1,
+          "official": 24,
+          "community": 2,
+          "none-found": 17,
+          "unknown": 2,
           "n-a": 0,
           "other": 0
         },
@@ -2376,10 +2376,10 @@
         "entry_count": 22,
         "product_count": 19,
         "mcp_status": {
-          "official": 12,
+          "official": 13,
           "community": 1,
-          "none-found": 9,
-          "unknown": 0,
+          "none-found": 7,
+          "unknown": 1,
           "n-a": 0,
           "other": 0
         },
@@ -2446,9 +2446,9 @@
         "entry_count": 51,
         "product_count": 45,
         "mcp_status": {
-          "official": 23,
-          "community": 5,
-          "none-found": 21,
+          "official": 25,
+          "community": 4,
+          "none-found": 20,
           "unknown": 2,
           "n-a": 0,
           "other": 0
@@ -2550,9 +2550,9 @@
         "entry_count": 22,
         "product_count": 19,
         "mcp_status": {
-          "official": 9,
+          "official": 10,
           "community": 0,
-          "none-found": 13,
+          "none-found": 12,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -2801,9 +2801,9 @@
         "entry_count": 20,
         "product_count": 20,
         "mcp_status": {
-          "official": 14,
+          "official": 15,
           "community": 3,
-          "none-found": 3,
+          "none-found": 2,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -2915,8 +2915,8 @@
         "entry_count": 22,
         "product_count": 22,
         "mcp_status": {
-          "official": 16,
-          "community": 4,
+          "official": 17,
+          "community": 3,
           "none-found": 2,
           "unknown": 0,
           "n-a": 0,
@@ -2984,8 +2984,8 @@
         "product_count": 21,
         "mcp_status": {
           "official": 11,
-          "community": 1,
-          "none-found": 9,
+          "community": 2,
+          "none-found": 8,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -3052,10 +3052,10 @@
         "entry_count": 26,
         "product_count": 23,
         "mcp_status": {
-          "official": 11,
+          "official": 9,
           "community": 2,
           "none-found": 12,
-          "unknown": 1,
+          "unknown": 3,
           "n-a": 0,
           "other": 0
         },
@@ -3322,8 +3322,8 @@
         "entry_count": 28,
         "product_count": 25,
         "mcp_status": {
-          "official": 17,
-          "community": 3,
+          "official": 18,
+          "community": 2,
           "none-found": 7,
           "unknown": 1,
           "n-a": 0,
@@ -3499,10 +3499,10 @@
         "entry_count": 18,
         "product_count": 15,
         "mcp_status": {
-          "official": 12,
+          "official": 10,
           "community": 1,
           "none-found": 5,
-          "unknown": 0,
+          "unknown": 2,
           "n-a": 0,
           "other": 0
         },
@@ -3566,10 +3566,10 @@
         "entry_count": 9,
         "product_count": 7,
         "mcp_status": {
-          "official": 6,
+          "official": 4,
           "community": 0,
           "none-found": 2,
-          "unknown": 1,
+          "unknown": 3,
           "n-a": 0,
           "other": 0
         },
@@ -3818,8 +3818,8 @@
         "mcp_status": {
           "official": 4,
           "community": 0,
-          "none-found": 5,
-          "unknown": 0,
+          "none-found": 3,
+          "unknown": 2,
           "n-a": 0,
           "other": 0
         },
@@ -4042,10 +4042,10 @@
         "entry_count": 24,
         "product_count": 21,
         "mcp_status": {
-          "official": 15,
+          "official": 13,
           "community": 0,
           "none-found": 9,
-          "unknown": 0,
+          "unknown": 2,
           "n-a": 0,
           "other": 0
         },
@@ -4118,9 +4118,9 @@
         "entry_count": 25,
         "product_count": 24,
         "mcp_status": {
-          "official": 5,
-          "community": 1,
-          "none-found": 19,
+          "official": 6,
+          "community": 2,
+          "none-found": 17,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -4190,9 +4190,9 @@
         "entry_count": 11,
         "product_count": 10,
         "mcp_status": {
-          "official": 0,
+          "official": 1,
           "community": 0,
-          "none-found": 11,
+          "none-found": 10,
           "unknown": 0,
           "n-a": 0,
           "other": 0
@@ -4247,10 +4247,10 @@
         "entry_count": 13,
         "product_count": 12,
         "mcp_status": {
-          "official": 7,
-          "community": 1,
-          "none-found": 4,
-          "unknown": 1,
+          "official": 8,
+          "community": 0,
+          "none-found": 5,
+          "unknown": 0,
           "n-a": 0,
           "other": 0
         },
@@ -4307,8 +4307,8 @@
         "entry_count": 9,
         "product_count": 9,
         "mcp_status": {
-          "official": 5,
-          "community": 1,
+          "official": 6,
+          "community": 0,
           "none-found": 3,
           "unknown": 0,
           "n-a": 0,
@@ -4952,7 +4952,7 @@
       "heading": "Apollo.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 47
+      "display_rank": 48
     },
     {
       "id": "01-bettercontact",
@@ -5013,7 +5013,7 @@
       "heading": "BetterContact",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 176
+      "display_rank": 183
     },
     {
       "id": "01-bright-data",
@@ -5076,7 +5076,7 @@
       "heading": "Bright Data",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 51
+      "display_rank": 52
     },
     {
       "id": "01-clay",
@@ -5147,7 +5147,7 @@
       "heading": "Clay",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 55
+      "display_rank": 56
     },
     {
       "id": "01-clearbit",
@@ -5208,7 +5208,7 @@
       "heading": "Clearbit (now HubSpot Breeze Intelligence)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 232
+      "display_rank": 236
     },
     {
       "id": "01-cognism",
@@ -5273,7 +5273,7 @@
       "heading": "Cognism",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 233
+      "display_rank": 237
     },
     {
       "id": "01-coresignal",
@@ -5336,7 +5336,7 @@
       "heading": "Coresignal",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 57
+      "display_rank": 58
     },
     {
       "id": "01-crustdata",
@@ -5474,7 +5474,7 @@
       "heading": "CUFinder",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 60
+      "display_rank": 61
     },
     {
       "id": "01-datagma",
@@ -5537,7 +5537,7 @@
       "heading": "Datagma",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 177
+      "display_rank": 184
     },
     {
       "id": "01-diffbot",
@@ -5669,7 +5669,7 @@
       "heading": "Dropcontact",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 62
+      "display_rank": 63
     },
     {
       "id": "01-enrow",
@@ -5870,7 +5870,7 @@
       "heading": "Explorium",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 63
+      "display_rank": 64
     },
     {
       "id": "01-fiber-ai",
@@ -5940,7 +5940,7 @@
       "heading": "Fiber AI",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 66
+      "display_rank": 67
     },
     {
       "id": "01-findymail",
@@ -6002,7 +6002,7 @@
       "heading": "Findymail",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 179
+      "display_rank": 186
     },
     {
       "id": "01-fullenrich",
@@ -6066,7 +6066,7 @@
       "heading": "FullEnrich",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 17
+      "display_rank": 18
     },
     {
       "id": "01-hunter-io",
@@ -6131,7 +6131,7 @@
       "heading": "Hunter.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 20
+      "display_rank": 21
     },
     {
       "id": "01-lead411",
@@ -6200,7 +6200,7 @@
       "heading": "Lead411",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 76
+      "display_rank": 77
     },
     {
       "id": "01-leadmagic",
@@ -6272,7 +6272,7 @@
       "heading": "LeadMagic",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 22
+      "display_rank": 23
     },
     {
       "id": "01-lusha",
@@ -6346,7 +6346,7 @@
       "heading": "Lusha",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 23
+      "display_rank": 24
     },
     {
       "id": "01-ocean-io",
@@ -6413,7 +6413,7 @@
       "heading": "Ocean.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 83
+      "display_rank": 84
     },
     {
       "id": "01-people-data-labs",
@@ -6482,7 +6482,7 @@
       "heading": "People Data Labs",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 146
+      "display_rank": 148
     },
     {
       "id": "01-prospeo",
@@ -6559,7 +6559,7 @@
       "heading": "Prospeo",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 30
+      "display_rank": 31
     },
     {
       "id": "01-rocketreach",
@@ -6625,7 +6625,7 @@
       "heading": "RocketReach",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 91
+      "display_rank": 92
     },
     {
       "id": "01-seamless-ai",
@@ -6764,7 +6764,7 @@
       "heading": "Snov.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 95
+      "display_rank": 97
     },
     {
       "id": "01-surfe",
@@ -6833,7 +6833,7 @@
       "heading": "Surfe",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 135
+      "display_rank": 136
     },
     {
       "id": "01-the-swarm",
@@ -6895,7 +6895,7 @@
       "heading": "The Swarm",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 100
+      "display_rank": 102
     },
     {
       "id": "01-theirstack",
@@ -6968,7 +6968,7 @@
       "heading": "TheirStack",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 35
+      "display_rank": 36
     },
     {
       "id": "01-uplead",
@@ -7037,7 +7037,7 @@
       "heading": "UpLead",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 157
+      "display_rank": 158
     },
     {
       "id": "01-vainu",
@@ -7104,7 +7104,7 @@
       "heading": "Vainu",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 102
+      "display_rank": 104
     },
     {
       "id": "01-versium-reach",
@@ -7167,7 +7167,7 @@
       "heading": "Versium REACH",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 103
+      "display_rank": 105
     },
     {
       "id": "01-warmly",
@@ -7240,7 +7240,7 @@
       "heading": "Warmly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 38
+      "display_rank": 39
     },
     {
       "id": "01-wiza",
@@ -7308,7 +7308,7 @@
       "heading": "Wiza",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 105
+      "display_rank": 107
     },
     {
       "id": "01-zoominfo",
@@ -7388,7 +7388,7 @@
       "heading": "ZoomInfo",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 42
+      "display_rank": 43
     },
     {
       "id": "02-amplemarket",
@@ -7399,22 +7399,28 @@
       "category": "engagement-outbound",
       "what_it_does": "An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability.",
       "ai_features": "Vendor markets \"Duo Copilot\" as an AI sales agent - generative personalization/objection handling in outreach copy, AI-driven signal detection across job changes/reviews/social/website visits, AI voice cloning for personalized voice notes, and AI company research/copywriting. Vendor-stated only; independent verification of what is genuinely ML-driven vs. templated was not possible from public sources.",
-      "mcp_status": "none-found",
-      "mcp_url": "n/a",
-      "mcp_auth": "n/a",
+      "mcp_status": "official",
+      "mcp_url": "https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server (endpoint https://mcp.amplemarket.com/mcp; product page https://www.amplemarket.com/mcp)",
+      "mcp_auth": "OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says no API keys are needed. Rate limit 100 requests per minute per user.",
       "api_gate": "enterprise-leaning (any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual)",
       "revops_role": "Outbound execution layer (sequencing, deliverability, unified inbox) that would sit downstream of a data/enrichment source, feeding activity data into a CRM.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket, https://www.amplemarket.com/pricing",
-      "notes": "No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual.",
-      "mcp_status_bucket": "none-found",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket, https://www.amplemarket.com/pricing, https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server, https://www.amplemarket.com/mcp",
+      "notes": "No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual. 2026-09-02: mcp_status none-found -> official, reconciled with the Amplemarket (Duo Copilot) entry in 04-ai-sdr-agents.md, which already recorded it. The help-center subdomain is reachable now: https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server returned 200 and documents the endpoint https://mcp.amplemarket.com/mcp (OAuth 2.0 sign-in, no API keys; Claude, ChatGPT, Claude Code, Cursor and any remote-capable client; prospect search, enrichment, sequences, lead lists, workflows, analytics; enrichment via MCP costs 0.5 credits). The endpoint answered 401 with a Bearer challenge today, which is the expected behaviour of an OAuth-gated MCP server. https://www.amplemarket.com/mcp links to the same guide.",
+      "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-leaning",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server",
+        "https://mcp.amplemarket.com/mcp",
+        "https://www.amplemarket.com/mcp"
+      ],
       "source_urls": [
         "https://www.amplemarket.com/",
         "https://glama.ai/mcp/servers?query=amplemarket",
-        "https://www.amplemarket.com/pricing"
+        "https://www.amplemarket.com/pricing",
+        "https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server",
+        "https://www.amplemarket.com/mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "amplemarket.com",
@@ -7461,7 +7467,7 @@
       "heading": "Amplemarket",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 222
+      "display_rank": 109
     },
     {
       "id": "02-apollo-io-sequences",
@@ -7527,7 +7533,7 @@
       "heading": "Apollo.io Sequences",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 113
+      "display_rank": 115
     },
     {
       "id": "02-autobound",
@@ -7606,18 +7612,20 @@
       "category": "engagement-outbound",
       "what_it_does": "Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account.",
       "ai_features": "none-found - no distinct AI-labeled feature surfaced on the pricing page; personalization is template/variable-based, and media personalization runs through a third-party Senspark video/GIF integration rather than proprietary AI.",
-      "mcp_status": "none-found",
-      "mcp_url": "n/a",
+      "mcp_status": "unknown",
+      "mcp_url": "n/a (vendor names an \"Expandi MCP\" on https://expandi.io/pricing/ but publishes no endpoint or docs; expandi.io/mcp/ returned 404 on 2026-09-02)",
       "mcp_auth": "n/a",
       "api_gate": "paid (one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API)",
       "revops_role": "LinkedIn (+email) sequence-execution tool integrating into a stack only via webhooks/Zapier, since no public API was found.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://expandi.io/pricing/, https://www.salesforge.ai/directory/sales-tools/expandi",
-      "notes": "Multiple independent sources state Expandi has no public API, only webhook/Zapier/CRM connectors (HubSpot, Salesforce, Pipedrive). Base plan is $99/mo (or $79/mo annual) per LinkedIn account with no free tier. Subject to the same LinkedIn User Agreement automation restrictions as all tools in this section. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://expandi.io/pricing/): one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API.",
-      "mcp_status_bucket": "none-found",
+      "notes": "Multiple independent sources state Expandi has no public API, only webhook/Zapier/CRM connectors (HubSpot, Salesforce, Pipedrive). Base plan is $99/mo (or $79/mo annual) per LinkedIn account with no free tier. Subject to the same LinkedIn User Agreement automation restrictions as all tools in this section. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://expandi.io/pricing/): one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API. 2026-09-02: mcp_status none-found -> unknown. The vendor's own pricing page https://expandi.io/pricing/ now says \"Both offers include a 90 minute build session and early access to Expandi MCP\" inside a Back to Pipeline promo running to September 21. That is a first-party mention of a server with no docs, endpoint, or setup page (expandi.io/mcp/ 404, zero official-registry hits), so under law 1 it records as unknown, not official.",
+      "mcp_status_bucket": "unknown",
       "api_gate_bucket": "paid",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://expandi.io/pricing/"
+      ],
       "source_urls": [
         "https://expandi.io/pricing/",
         "https://www.salesforge.ai/directory/sales-tools/expandi"
@@ -7653,7 +7661,7 @@
       "heading": "Expandi",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 194
+      "display_rank": 168
     },
     {
       "id": "02-groove",
@@ -7670,9 +7678,9 @@
       "api_gate": "enterprise-only (now a Clari product and Clari publishes no prices or tiers; the pricing page is a get-a-quote form and neither it nor the Groove product page mentions API access)",
       "revops_role": "Outbound execution layer embedded in Salesforce, increasingly folded into Clari's forecasting stack - functionally overlapping with Salesloft inside the same parent company post-merger.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.clari.com/products/groove/, https://marketbetter.ai/blog/groove-clari-review-2026/, https://www.getmaxiq.com/blog/clari-salesloft-merger-guide, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://www.clari.com/pricing/",
-      "notes": "Clari (Groove's parent) launched an MCP server in 2026 described as covering \"the full Clari + Salesloft platform,\" but no source explicitly confirmed Groove-specific actions/data are in scope, hence mcp_status: unknown rather than official. A \"groove-mcp\" GitHub repo exists but belongs to the unrelated Groove HQ support-ticketing product - do not cite it for this tool. Clari/Salesloft merged Dec 2025, creating direct product overlap between Groove and Salesloft worth flagging to anyone evaluating both. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.clari.com/pricing/): now a Clari product and Clari publishes no prices or tiers; the pricing page is a get-a-quote form and neither it nor the Groove product page mentions API access.",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.clari.com/products/groove/, https://marketbetter.ai/blog/groove-clari-review-2026/, https://www.getmaxiq.com/blog/clari-salesloft-merger-guide, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://www.clari.com/pricing/, https://registry.modelcontextprotocol.io/v0/servers?search=groove",
+      "notes": "Clari (Groove's parent) launched an MCP server in 2026 described as covering \"the full Clari + Salesloft platform,\" but no source explicitly confirmed Groove-specific actions/data are in scope, hence mcp_status: unknown rather than official. A \"groove-mcp\" GitHub repo exists but belongs to the unrelated Groove HQ support-ticketing product - do not cite it for this tool. Clari/Salesloft merged Dec 2025, creating direct product overlap between Groove and Salesloft worth flagging to anyone evaluating both. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.clari.com/pricing/): now a Clari product and Clari publishes no prices or tiers; the pricing page is a get-a-quote form and neither it nor the Groove product page mentions API access. 2026-09-02: re-checked, mcp_status stays unknown. The official MCP registry's only groove hit is io.usefulapi/groove-hq (remote groove-hq.usefulapi.io/mcp), a wrapper for the GrooveHQ support inbox, not Clari Groove - do not cite it. https://www.clari.com/products/groove/ has no MCP mention, and the Clari/Salesloft MCP press release describes live Salesloft and Clari pipeline, call and deal data without naming Groove. Nothing Groove-specific exists, but the parent's server may well expose Groove activity data, which is why this stays unknown rather than none-found.",
       "mcp_status_bucket": "unknown",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [],
@@ -7681,7 +7689,8 @@
         "https://marketbetter.ai/blog/groove-clari-review-2026/",
         "https://www.getmaxiq.com/blog/clari-salesloft-merger-guide",
         "https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
-        "https://www.clari.com/pricing/"
+        "https://www.clari.com/pricing/",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=groove"
       ],
       "source_annotations": [],
       "vendor_domain": "groove.co",
@@ -7715,7 +7724,7 @@
       "heading": "Groove (by Clari)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 169
+      "display_rank": 174
     },
     {
       "id": "02-heyreach",
@@ -7778,7 +7787,7 @@
       "heading": "HeyReach",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 70
+      "display_rank": 71
     },
     {
       "id": "02-instantly",
@@ -7847,7 +7856,7 @@
       "heading": "Instantly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 73
+      "display_rank": 74
     },
     {
       "id": "02-kixie",
@@ -7908,7 +7917,7 @@
       "heading": "Kixie",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 205
+      "display_rank": 212
     },
     {
       "id": "02-klenty",
@@ -7979,7 +7988,7 @@
       "heading": "Klenty",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 206
+      "display_rank": 213
     },
     {
       "id": "02-la-growth-machine",
@@ -8046,7 +8055,7 @@
       "heading": "La Growth Machine",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 75
+      "display_rank": 76
     },
     {
       "id": "02-lemlist",
@@ -8113,7 +8122,7 @@
       "heading": "lemlist",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 77
+      "display_rank": 78
     },
     {
       "id": "02-mailshake",
@@ -8172,7 +8181,7 @@
       "heading": "Mailshake",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 212
+      "display_rank": 218
     },
     {
       "id": "02-mixmax",
@@ -8240,7 +8249,7 @@
       "heading": "Mixmax",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 82
+      "display_rank": 83
     },
     {
       "id": "02-nooks",
@@ -8309,7 +8318,7 @@
       "heading": "Nooks",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 246
+      "display_rank": 250
     },
     {
       "id": "02-orum",
@@ -8369,7 +8378,7 @@
       "heading": "Orum",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 248
+      "display_rank": 252
     },
     {
       "id": "02-outplay",
@@ -8439,7 +8448,7 @@
       "slug": "outreach",
       "normalized_name": "outreach",
       "name": "Outreach",
-      "vendor_url": "outreach.io (site is mid-transition to outreach.ai)",
+      "vendor_url": "outreach.ai (outreach.io 301s here as of 2026-09-02; the API and MCP endpoints remain on api.outreach.io and support docs on support.outreach.io)",
       "category": "engagement-outbound",
       "what_it_does": "Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM.",
       "ai_features": "Vendor markets \"AI Agents\" that act across the customer lifecycle, AI-assisted forecasting/pipeline projection, and real-time conversation intelligence (AI battle cards, objection handling, action-item detection during calls). None of the underlying model mechanics are disclosed publicly - these are vendor-stated capabilities, not independently verified.",
@@ -8449,9 +8458,9 @@
       "api_gate": "enterprise-only (all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team)",
       "revops_role": "Core outbound execution layer between prospecting/data tools and CRM - cadence orchestration, call/email logging, activity data feeding forecasting.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview, https://support.outreach.io/support/solutions/articles/159000426361-where-are-the-outreach-development-portal-and-api-documentation-, https://developers.outreach.io/, https://www.outreach.ai/product, https://www.outreach.ai/pricing",
-      "notes": "The official MCP server is gated behind the paid \"Amplify\" add-on plus admin enablement, not a free-for-all connector. Base API access requires requesting developer-portal access; no public self-serve pricing found, so api_gate is left unknown rather than assumed. Community/read-only alternatives also exist (github.com/ZLeventer/outreach-mcp-server, github.com/CDataSoftware/outreach.io-mcp-server-by-cdata). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.outreach.ai/pricing): all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team.",
+      "notes": "The official MCP server is gated behind the paid \"Amplify\" add-on plus admin enablement, not a free-for-all connector. Base API access requires requesting developer-portal access; no public self-serve pricing found, so api_gate is left unknown rather than assumed. Community/read-only alternatives also exist (github.com/ZLeventer/outreach-mcp-server, github.com/CDataSoftware/outreach.io-mcp-server-by-cdata). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.outreach.ai/pricing): all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team. 2026-09-02: vendor_url corrected from outreach.io to outreach.ai. https://www.outreach.ai/pricing loaded on that domain today with four tiers named Amplify Essentials, Amplify Core, Amplify Plus and Amplify Pro, each listing \"Outreach MCP (Server & Client)\" plus 250,000, 250,000, 500,000 and 1,000,000 API calls respectively. The MCP overview at https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview still resolves and still documents the endpoint https://api.outreach.io/mcp with OAuth 2.1 and Dynamic Client Registration, requiring the Amplify add-on with active credits and a licensed seat. mcp_status official unchanged.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
@@ -8466,7 +8475,7 @@
         "https://www.outreach.ai/pricing"
       ],
       "source_annotations": [],
-      "vendor_domain": "outreach.io",
+      "vendor_domain": "outreach.ai",
       "display_name": "Outreach",
       "docs_url": null,
       "jobs": [
@@ -8569,7 +8578,7 @@
       "heading": "Overloop",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 150
+      "display_rank": 152
     },
     {
       "id": "02-phantombuster",
@@ -8636,7 +8645,7 @@
       "heading": "PhantomBuster",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 86
+      "display_rank": 87
     },
     {
       "id": "02-quickmail",
@@ -8694,7 +8703,7 @@
       "heading": "QuickMail",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 215
+      "display_rank": 221
     },
     {
       "id": "02-reply-io",
@@ -8767,7 +8776,7 @@
       "heading": "Reply.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 89
+      "display_rank": 90
     },
     {
       "id": "02-salesforge",
@@ -8842,7 +8851,7 @@
       "heading": "Salesforge",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 92
+      "display_rank": 93
     },
     {
       "id": "02-salesloft",
@@ -8923,25 +8932,28 @@
       "category": "engagement-outbound",
       "what_it_does": "Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox.",
       "ai_features": "\"SmartAgents\"/\"SmartAI Bot\" claim to research leads and draft persona-specific copy via generative AI - genuinely LLM-based per vendor description. \"AI-powered\" warmup is mostly scripted open/read/reply simulation, borderline as \"AI.\" Sender rotation, DNS setup, and verification are plain automation.",
-      "mcp_status": "community",
-      "mcp_url": "https://github.com/LeadMagic/smartlead-mcp-server (also multiple other community implementations); listed at https://www.pulsemcp.com/servers/leadmagic-smartlead",
-      "mcp_auth": "api key",
+      "mcp_status": "official",
+      "mcp_url": "https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server (first-party; endpoint https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY. Community alternative: https://github.com/LeadMagic/smartlead-mcp-server, listed at https://www.pulsemcp.com/servers/leadmagic-smartlead)",
+      "mcp_auth": "api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE transport only (the help article says streamable HTTP is not supported), and the vendor FAQ says only Claude Desktop is supported for now",
       "api_gate": "paid",
       "revops_role": "Outbound email sequencing/deliverability layer with agent-style lead research and reply-triage add-ons.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.smartlead.ai/pricing, https://github.com/LeadMagic/smartlead-mcp-server, https://www.pulsemcp.com/servers/leadmagic-smartlead",
-      "notes": "API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the base Base plan ($39/mo). No official first-party MCP found - several overlapping community implementations exist with varying maintenance; verify before adopting.",
-      "mcp_status_bucket": "community",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.smartlead.ai/pricing, https://github.com/LeadMagic/smartlead-mcp-server, https://www.pulsemcp.com/servers/leadmagic-smartlead, https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server",
+      "notes": "API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the base Base plan ($39/mo). No official first-party MCP found - several overlapping community implementations exist with varying maintenance; verify before adopting. 2026-09-02: mcp_status community -> official. Smartlead's own help center now documents a first-party server at https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server: endpoint mcp.smartlead.ai/sse with the API key in the URL, SSE only, Claude Desktop only per the vendor FAQ, covering campaign data, diagnostics and lead retrieval. The earlier \"no official MCP\" sentence is superseded. The LeadMagic community server stays listed as the alternative for clients that need stdio or streamable HTTP.",
+      "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
+        "https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server",
+        "https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY",
         "https://github.com/LeadMagic/smartlead-mcp-server",
         "https://www.pulsemcp.com/servers/leadmagic-smartlead"
       ],
       "source_urls": [
         "https://www.smartlead.ai/pricing",
         "https://github.com/LeadMagic/smartlead-mcp-server",
-        "https://www.pulsemcp.com/servers/leadmagic-smartlead"
+        "https://www.pulsemcp.com/servers/leadmagic-smartlead",
+        "https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server"
       ],
       "source_annotations": [],
       "vendor_domain": "smartlead.ai",
@@ -8980,7 +8992,7 @@
       "heading": "Smartlead",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 153
+      "display_rank": 95
     },
     {
       "id": "02-super-send",
@@ -9042,7 +9054,7 @@
       "heading": "Super Send",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 98
+      "display_rank": 100
     },
     {
       "id": "02-waalaxy",
@@ -9109,7 +9121,7 @@
       "heading": "Waalaxy",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 104
+      "display_rank": 106
     },
     {
       "id": "02-woodpecker",
@@ -9171,7 +9183,7 @@
       "heading": "Woodpecker",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 106
+      "display_rank": 108
     },
     {
       "id": "03-airspeed",
@@ -9235,7 +9247,7 @@
       "heading": "Airspeed (formerly Glyphic)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 44
+      "display_rank": 45
     },
     {
       "id": "03-attention",
@@ -9306,7 +9318,7 @@
       "heading": "Attention",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 49
+      "display_rank": 50
     },
     {
       "id": "03-avoma",
@@ -9370,7 +9382,7 @@
       "heading": "Avoma",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 50
+      "display_rank": 51
     },
     {
       "id": "03-chorus",
@@ -9381,23 +9393,26 @@
       "category": "conversation-intel",
       "what_it_does": "Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM.",
       "ai_features": "Talk-ratio and sentiment scoring, competitor-mention detection, deal-risk/momentum scoring (declining engagement, negative sentiment trends, stalled deals), and coaching scorecards tracking methodology adherence. Transcription itself is standard ASR. Vendor \"14 patents\" marketing language was not independently verified.",
-      "mcp_status": "none-found",
-      "mcp_url": "n/a",
-      "mcp_auth": "n/a for MCP. The REST API uses a per-user API token generated in Chorus's Personal Settings page.",
+      "mcp_status": "community",
+      "mcp_url": "https://github.com/opensourceops/chorus-mcp-server (unofficial; its README states it is not affiliated with or maintained by Chorus.ai or ZoomInfo)",
+      "mcp_auth": "Community server: Chorus API key in the CHORUS_API_KEY environment variable (stdio via npx @opensourceops/chorus-mcp), with CHORUS_TOOL_MODE defaulting to readonly. The REST API uses a per-user API token generated in Chorus's Personal Settings page.",
       "api_gate": "enterprise-only (inferred, not an explicit vendor statement). No public self-serve pricing exists - the product page routes only to \"Request Demo,\" and secondary sources note API access is not included on every ZoomInfo/Chorus plan.",
       "revops_role": "Call-capture and coaching layer, differentiated from standalone conversation-intelligence tools by direct access to ZoomInfo's B2B contact/firmographic database.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://www.claap.io/blog/chorus-ai-api, https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus",
-      "notes": "None.",
-      "mcp_status_bucket": "none-found",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://www.claap.io/blog/chorus-ai-api, https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus, https://github.com/opensourceops/chorus-mcp-server",
+      "notes": "2026-09-02: mcp_status none-found -> community. https://github.com/opensourceops/chorus-mcp-server is a 39-tool Apache-2.0 MCP server for Chorus (conversations, transcripts, scorecards, playlists, emails, engagements, reports; 6 resources and 6 workflow prompts) whose README states it is an unofficial, community-maintained project not affiliated with or maintained by Chorus.ai or ZoomInfo. No first-party ZoomInfo or Chorus server was found on the vendor site or in the official MCP registry (zero hits for chorus).",
+      "mcp_status_bucket": "community",
       "api_gate_bucket": "enterprise-only",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://github.com/opensourceops/chorus-mcp-server"
+      ],
       "source_urls": [
         "https://www.zoominfo.com/products/chorus",
         "https://api-docs.chorus.ai/",
         "https://www.claap.io/blog/chorus-ai-api",
-        "https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus"
+        "https://pipeline.zoominfo.com/sales/introducing-zoominfo-chorus",
+        "https://github.com/opensourceops/chorus-mcp-server"
       ],
       "source_annotations": [],
       "vendor_domain": "zoominfo.com",
@@ -9415,7 +9430,10 @@
       "github_last_commit": null,
       "github_archived": null,
       "github_fetched_on": null,
-      "github_candidates": [],
+      "github_candidates": [
+        "https://github.com/opensourceops/chorus-mcp-server",
+        "https://github.com/opensourceops/chorus-mcp-server"
+      ],
       "docs_digest": null,
       "docs_last_crawled": null,
       "submission": null,
@@ -9431,7 +9449,7 @@
       "heading": "Chorus (ZoomInfo)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 231
+      "display_rank": 163
     },
     {
       "id": "03-circleback",
@@ -9495,7 +9513,7 @@
       "heading": "Circleback",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 54
+      "display_rank": 55
     },
     {
       "id": "03-clari",
@@ -9565,7 +9583,7 @@
       "heading": "Clari",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 107
+      "display_rank": 110
     },
     {
       "id": "03-clari-copilot",
@@ -9632,7 +9650,7 @@
       "heading": "Clari Copilot (ex-Wingman)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 148
+      "display_rank": 150
     },
     {
       "id": "03-fathom",
@@ -9643,18 +9661,20 @@
       "category": "conversation-intel",
       "what_it_does": "Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.",
       "ai_features": "AI-generated meeting summaries and highlights, action-item extraction; the free plan caps advanced AI summaries at the first 5 calls/month.",
-      "mcp_status": "community (no official MCP found; three unofficial/community wrappers exist - see mcp_url)",
-      "mcp_url": "https://github.com/trevorwelch/fathom-video-mcp ; https://github.com/lukas-bekr/fathom-mcp ; https://github.com/druellan/Fathom-Simple-MCP (all explicitly labeled unofficial/community by their authors)",
-      "mcp_auth": "Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment variable).",
+      "mcp_status": "official",
+      "mcp_url": "https://developers.fathom.ai/mcp-docs (first-party docs; server endpoint https://api.fathom.ai/mcp, registry entry ai.fathom.api/mcp. Community alternatives: https://github.com/trevorwelch/fathom-video-mcp ; https://github.com/lukas-bekr/fathom-mcp ; https://github.com/druellan/Fathom-Simple-MCP)",
+      "mcp_auth": "In-client authorization: the docs say to add the server URL \"then authenticate to access your meeting data\", via the Fathom connector in Claude (Connect, then complete the authorization prompts) or \"claude mcp add fathom -- npx mcp-remote@latest https://api.fathom.ai/mcp\" in Claude Code; the docs do not name the mechanism (OAuth vs key). Community servers use a Fathom API key (FATHOM_API_KEY environment variable).",
       "api_gate": "free. API access is included on all plan tiers including Free, with public developer docs and a downloadable OpenAPI spec - you can generate a key and start calling the API without upgrading. No published enterprise-only API tier.",
       "revops_role": "Low-friction meeting-capture layer, notable in this category for a genuinely open, no-paywall API.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://pipeline.zoominfo.com/sales/fathom-api-review, https://www.fathom.ai/pricing, https://github.com/trevorwelch/fathom-video-mcp, https://github.com/lukas-bekr/fathom-mcp",
-      "notes": "Another Fireflies-style contrast case: free API access, but no official MCP server yet - only community wrappers.",
-      "mcp_status_bucket": "community",
+      "last_checked": "2026-09-02",
+      "sources": "https://pipeline.zoominfo.com/sales/fathom-api-review, https://www.fathom.ai/pricing, https://github.com/trevorwelch/fathom-video-mcp, https://github.com/lukas-bekr/fathom-mcp, https://developers.fathom.ai/mcp-docs, https://developers.fathom.ai/mcp-docs/claude, https://registry.modelcontextprotocol.io/v0/servers?search=fathom",
+      "notes": "Another Fireflies-style contrast case: free API access, but no official MCP server yet - only community wrappers. 2026-09-02: mcp_status community -> official. Fathom's own developer docs at https://developers.fathom.ai/mcp-docs state \"Fathom now offers an official MCP (Model Context Protocol) server\" with the endpoint https://api.fathom.ai/mcp (answered 200 today), and the official MCP registry lists it as ai.fathom.api/mcp with that remote. The \"no official MCP server yet\" sentence above is superseded; the three community wrappers remain as alternatives.",
+      "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
+        "https://developers.fathom.ai/mcp-docs",
+        "https://api.fathom.ai/mcp",
         "https://github.com/trevorwelch/fathom-video-mcp",
         "https://github.com/lukas-bekr/fathom-mcp",
         "https://github.com/druellan/Fathom-Simple-MCP"
@@ -9663,7 +9683,10 @@
         "https://pipeline.zoominfo.com/sales/fathom-api-review",
         "https://www.fathom.ai/pricing",
         "https://github.com/trevorwelch/fathom-video-mcp",
-        "https://github.com/lukas-bekr/fathom-mcp"
+        "https://github.com/lukas-bekr/fathom-mcp",
+        "https://developers.fathom.ai/mcp-docs",
+        "https://developers.fathom.ai/mcp-docs/claude",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=fathom"
       ],
       "source_annotations": [],
       "vendor_domain": "fathom.video",
@@ -9703,7 +9726,7 @@
       "heading": "Fathom",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 144
+      "display_rank": 15
     },
     {
       "id": "03-fellow",
@@ -9766,7 +9789,7 @@
       "heading": "Fellow",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 65
+      "display_rank": 66
     },
     {
       "id": "03-fireflies-ai",
@@ -9831,7 +9854,7 @@
       "heading": "Fireflies.ai",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 15
+      "display_rank": 16
     },
     {
       "id": "03-gong",
@@ -9968,7 +9991,7 @@
       "heading": "Grain",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 67
+      "display_rank": 68
     },
     {
       "id": "03-granola",
@@ -10037,7 +10060,7 @@
       "heading": "Granola",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 68
+      "display_rank": 69
     },
     {
       "id": "03-highspot",
@@ -10168,7 +10191,7 @@
       "heading": "Jiminny",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 163
+      "display_rank": 165
     },
     {
       "id": "03-meetgeek",
@@ -10237,7 +10260,7 @@
       "heading": "MeetGeek",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 24
+      "display_rank": 25
     },
     {
       "id": "03-momentum",
@@ -10298,7 +10321,7 @@
       "heading": "Momentum",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 245
+      "display_rank": 249
     },
     {
       "id": "03-otter-ai",
@@ -10426,7 +10449,7 @@
       "heading": "Rilla",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 252
+      "display_rank": 256
     },
     {
       "id": "03-salesroom",
@@ -10614,7 +10637,7 @@
       "heading": "Sybill",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 108
+      "display_rank": 111
     },
     {
       "id": "03-tl-dv",
@@ -10681,7 +10704,7 @@
       "heading": "tl;dv",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 101
+      "display_rank": 103
     },
     {
       "id": "03-zoom-revenue-accelerator",
@@ -10749,7 +10772,7 @@
       "heading": "Zoom Revenue Accelerator",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 143
+      "display_rank": 146
     },
     {
       "id": "04-11x",
@@ -10812,7 +10835,7 @@
       "heading": "11x (Alice)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 224
+      "display_rank": 229
     },
     {
       "id": "04-aisdr",
@@ -10873,7 +10896,7 @@
       "heading": "AiSDR",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 186
+      "display_rank": 194
     },
     {
       "id": "04-amplemarket",
@@ -10947,7 +10970,7 @@
       "heading": "Amplemarket (Duo Copilot)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 46
+      "display_rank": 47
     },
     {
       "id": "04-artisan-ai",
@@ -11008,7 +11031,7 @@
       "heading": "Artisan AI (Ava)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 225
+      "display_rank": 230
     },
     {
       "id": "04-clari",
@@ -11076,7 +11099,7 @@
       "heading": "Clari (+ Salesloft agents)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 114
+      "display_rank": 116
     },
     {
       "id": "04-conversica",
@@ -11135,7 +11158,7 @@
       "heading": "Conversica",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 235
+      "display_rank": 239
     },
     {
       "id": "04-copy-ai",
@@ -11200,7 +11223,7 @@
       "heading": "Copy.ai (GTM AI Platform)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 162
+      "display_rank": 164
     },
     {
       "id": "04-hubspot-breeze",
@@ -11261,7 +11284,7 @@
       "heading": "HubSpot Breeze (AI Prospecting Agent)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 200
+      "display_rank": 207
     },
     {
       "id": "04-klenty",
@@ -11332,7 +11355,7 @@
       "heading": "Klenty",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 207
+      "display_rank": 214
     },
     {
       "id": "04-landbase",
@@ -11392,7 +11415,7 @@
       "heading": "Landbase",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 180
+      "display_rank": 187
     },
     {
       "id": "04-luru",
@@ -11514,7 +11537,7 @@
       "heading": "MadKudu",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 241
+      "display_rank": 245
     },
     {
       "id": "04-qualified",
@@ -11586,7 +11609,7 @@
       "heading": "Qualified (Piper)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 250
+      "display_rank": 254
     },
     {
       "id": "04-regie-ai",
@@ -11649,7 +11672,7 @@
       "heading": "Regie.ai",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 217
+      "display_rank": 223
     },
     {
       "id": "04-relevance-ai",
@@ -11707,7 +11730,7 @@
       "heading": "Relevance AI",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 31
+      "display_rank": 32
     },
     {
       "id": "04-reply-io",
@@ -11778,7 +11801,7 @@
       "heading": "Reply.io (Jason AI)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 218
+      "display_rank": 224
     },
     {
       "id": "04-rox",
@@ -11906,7 +11929,7 @@
       "heading": "Salesforce Agentforce (SDR Agent)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 253
+      "display_rank": 257
     },
     {
       "id": "04-salesforge",
@@ -11977,7 +12000,7 @@
       "heading": "Salesforge (Agent Frank)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 93
+      "display_rank": 94
     },
     {
       "id": "04-terret",
@@ -12037,7 +12060,7 @@
       "heading": "Terret (BoostUp)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 258
+      "display_rank": 259
     },
     {
       "id": "04-tofu",
@@ -12096,7 +12119,7 @@
       "heading": "Tofu",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 259
+      "display_rank": 260
     },
     {
       "id": "04-trellus-ai",
@@ -12226,7 +12249,7 @@
       "heading": "Unify",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 156
+      "display_rank": 157
     },
     {
       "id": "05-6sense",
@@ -12292,7 +12315,7 @@
       "heading": "6sense",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 109
+      "display_rank": 112
     },
     {
       "id": "05-albacross",
@@ -12356,7 +12379,7 @@
       "heading": "Albacross",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 187
+      "display_rank": 195
     },
     {
       "id": "05-bombora",
@@ -12416,7 +12439,7 @@
       "heading": "Bombora",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 228
+      "display_rank": 233
     },
     {
       "id": "05-centralize",
@@ -12479,7 +12502,7 @@
       "heading": "Centralize",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 165
+      "display_rank": 167
     },
     {
       "id": "05-champify",
@@ -12539,7 +12562,7 @@
       "heading": "Champify",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 230
+      "display_rank": 235
     },
     {
       "id": "05-clearbit-reveal",
@@ -12603,7 +12626,7 @@
       "heading": "Clearbit Reveal (now HubSpot Breeze Intelligence)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 192
+      "display_rank": 200
     },
     {
       "id": "05-common-room",
@@ -12680,7 +12703,7 @@
       "heading": "Common Room",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 115
+      "display_rank": 117
     },
     {
       "id": "05-crossbeam",
@@ -12742,7 +12765,7 @@
       "heading": "Crossbeam",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 117
+      "display_rank": 119
     },
     {
       "id": "05-crustdata",
@@ -12818,7 +12841,7 @@
       "heading": "Crustdata",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 58
+      "display_rank": 59
     },
     {
       "id": "05-demandbase",
@@ -12950,7 +12973,7 @@
       "heading": "Factors.ai",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 64
+      "display_rank": 65
     },
     {
       "id": "05-g2-buyer-intent",
@@ -13137,7 +13160,7 @@
       "heading": "Intently",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 203
+      "display_rank": 210
     },
     {
       "id": "05-keyplay",
@@ -13198,7 +13221,7 @@
       "heading": "Keyplay",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 204
+      "display_rank": 211
     },
     {
       "id": "05-koala",
@@ -13209,16 +13232,16 @@
       "category": "signals-intent-abm",
       "what_it_does": "Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered configurable AI-agent workflows (enrichment, research, alerting) on high-intent accounts.",
       "ai_features": "\"Agent Swarm\" ran configurable AI agents doing waterfall enrichment/research on leads with feedback loops - closer to genuine LLM-agent orchestration than most competitors in this category. \"Account Fit & Intent Scoring\" was more conventional rules/scoring on aggregated signal data, not disclosed as deep ML.",
-      "mcp_status": "none-found",
+      "mcp_status": "n-a",
       "mcp_url": "none",
       "mcp_auth": "n/a",
       "api_gate": "paid",
       "revops_role": "Was a website visitor-ID + intent scoring + AI-agent-driven lead research/enrichment layer feeding sales outreach.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://getkoala.com/, https://getkoala.com/pricing, https://getkoala.com/docs/integrations/github",
-      "notes": "STATUS FLAG - Koala's homepage carries a banner stating it was acquired by Cursor and would shut down Sept 30 (2025). As of today's date (Aug 2026) this product is almost certainly defunct; the pricing/features above describe the pre-shutdown product and should not be treated as currently purchasable. Verify current status before referencing this as a live tool.",
-      "mcp_status_bucket": "none-found",
+      "notes": "STATUS FLAG - Koala's homepage carries a banner stating it was acquired by Cursor and would shut down Sept 30 (2025). As of today's date (Aug 2026) this product is almost certainly defunct; the pricing/features above describe the pre-shutdown product and should not be treated as currently purchasable. Verify current status before referencing this as a live tool. 2026-09-02: mcp_status none-found -> n-a. Re-fetched https://getkoala.com/ today and the vendor's own banner still reads \"Koala has been acquired by Cursor and will be shutting down on Sept 30\" above otherwise unchanged marketing copy. A product the vendor says has shut down cannot have a live MCP server, so the honest value is not-applicable rather than none-found. The only koala hit in the official MCP registry (io.github.Koala-Studios/newton-browser) is an unrelated browser tool.",
+      "mcp_status_bucket": "n-a",
       "api_gate_bucket": "paid",
       "mcp_urls": [],
       "source_urls": [
@@ -13254,7 +13277,7 @@
       "heading": "Koala",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 208
+      "display_rank": 181
     },
     {
       "id": "05-leadfeeder",
@@ -13322,7 +13345,7 @@
       "heading": "Leadfeeder / Dealfront",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 21
+      "display_rank": 22
     },
     {
       "id": "05-live-data-technologies",
@@ -13381,7 +13404,7 @@
       "heading": "Live Data Technologies",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 209
+      "display_rank": 215
     },
     {
       "id": "05-predictleads",
@@ -13444,7 +13467,7 @@
       "heading": "PredictLeads",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 29
+      "display_rank": 30
     },
     {
       "id": "05-rb2b",
@@ -13507,7 +13530,7 @@
       "heading": "RB2B",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 88
+      "display_rank": 89
     },
     {
       "id": "05-similarweb",
@@ -13574,7 +13597,7 @@
       "heading": "Similarweb",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 134
+      "display_rank": 135
     },
     {
       "id": "05-snitcher",
@@ -13636,7 +13659,7 @@
       "heading": "Snitcher",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 94
+      "display_rank": 96
     },
     {
       "id": "05-sumble",
@@ -13700,7 +13723,7 @@
       "heading": "Sumble",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 97
+      "display_rank": 99
     },
     {
       "id": "05-theirstack",
@@ -13771,7 +13794,7 @@
       "heading": "TheirStack",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 36
+      "display_rank": 37
     },
     {
       "id": "05-trigify",
@@ -13838,7 +13861,7 @@
       "heading": "Trigify",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 155
+      "display_rank": 156
     },
     {
       "id": "05-usergems",
@@ -13902,7 +13925,7 @@
       "heading": "UserGems",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 137
+      "display_rank": 139
     },
     {
       "id": "05-vector",
@@ -13967,7 +13990,7 @@
       "heading": "Vector",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 220
+      "display_rank": 226
     },
     {
       "id": "05-warmly",
@@ -14042,7 +14065,7 @@
       "heading": "Warmly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 39
+      "display_rank": 40
     },
     {
       "id": "06-affinity",
@@ -14098,7 +14121,7 @@
       "canonical_id": "06-affinity",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 455,
+      "source_line": 456,
       "file_index": 20,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14106,7 +14129,7 @@
       "heading": "Affinity",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 43
+      "display_rank": 44
     },
     {
       "id": "06-airbyte",
@@ -14158,7 +14181,7 @@
       "canonical_id": "06-airbyte",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 322,
+      "source_line": 323,
       "file_index": 14,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14351,7 +14374,7 @@
       "canonical_id": "06-census",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 277,
+      "source_line": 278,
       "file_index": 12,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14421,7 +14444,7 @@
       "heading": "Close",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 56
+      "display_rank": 57
     },
     {
       "id": "06-default",
@@ -14432,24 +14455,25 @@
       "category": "revops-infra",
       "what_it_does": "An inbound go-to-market platform unifying revenue-stack data (a \"Tables\" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling.",
       "ai_features": "\"Dot\" is an AI assistant/agent that turns plain-language requests into working GTM systems, with agent-built workflows reviewed/approved by humans before deployment, and agents that can schedule meetings. The workflow builder also has discrete \"AI Routing\" and \"AI Prompt\" nodes for AI-driven decisions inside otherwise deterministic workflows - a hybrid pattern similar to Make's.",
-      "mcp_status": "official",
-      "mcp_url": "https://www.default.com (homepage feature line only - \"MCP access to data and tools for every agent, whether built inside Default or on top of it,\" explicitly marked \"In beta\"; no separate docs/repo page was located)",
-      "mcp_auth": "unknown - not documented anywhere found (checked default.com, default.com/product, docs.default.com).",
+      "mcp_status": "unknown",
+      "mcp_url": "n/a (marketing pages only: https://www.default.com/solutions/default-mcp names a Default MCP but publishes no endpoint, auth, or setup docs, and docs.default.com has no MCP article)",
+      "mcp_auth": "unknown - not documented anywhere found (checked default.com, default.com/product, docs.default.com, default.com/solutions/default-mcp).",
       "api_gate": "enterprise-only (no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales)",
       "revops_role": "Sits at inbound lead routing/qualification - where marketing-generated leads get scored, matched to reps/territories, and booked; pitched as an agentic replacement for legacy lead-routing tools.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.default.com, https://www.default.com/product, https://docs.default.com",
-      "notes": "Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling reference. The MCP claim is real but labeled \"In beta\" on the homepage with no dedicated docs/repo page found - treat as early/unstable. Marked official rather than none-found because the vendor's own page explicitly names MCP with a linkable URL, satisfying the schema's \"URL required\" law, even though it isn't a full docs page. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.default.com/): no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales.",
-      "mcp_status_bucket": "official",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.default.com, https://www.default.com/product, https://docs.default.com, https://www.default.com/solutions/default-mcp",
+      "notes": "Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling reference. The MCP claim is real but labeled \"In beta\" on the homepage with no dedicated docs/repo page found - treat as early/unstable. Marked official rather than none-found because the vendor's own page explicitly names MCP with a linkable URL, satisfying the schema's \"URL required\" law, even though it isn't a full docs page. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.default.com/): no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales. 2026-09-02: mcp_status official -> unknown. Default's homepage now carries a \"Default MCP\" nav item (\"Trigger workflows, run enrichment jobs, and pull audit logs from your terminal or your agents\") and a dedicated marketing page, https://www.default.com/solutions/default-mcp (\"The MCP for go-to-market ops\"), which is more than the beta feature line cited before. But that page publishes no endpoint, auth method, setup guide, or client list; https://docs.default.com/ has no MCP article in any section; and the official MCP registry's default hits are all unrelated products. A marketing page that names a server without a connectable URL is not a receipt under law 1, so the earlier reasoning is retracted and the status is unknown until Default publishes docs.",
+      "mcp_status_bucket": "unknown",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
-        "https://www.default.com"
+        "https://www.default.com/solutions/default-mcp"
       ],
       "source_urls": [
         "https://www.default.com",
         "https://www.default.com/product",
-        "https://docs.default.com"
+        "https://docs.default.com",
+        "https://www.default.com/solutions/default-mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "default.com",
@@ -14494,7 +14518,7 @@
       "heading": "Default",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 118
+      "display_rank": 172
     },
     {
       "id": "06-fivetran",
@@ -14552,7 +14576,7 @@
       "canonical_id": "06-fivetran",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 344,
+      "source_line": 345,
       "file_index": 15,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14560,7 +14584,7 @@
       "heading": "Fivetran (GTM connectors)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 16
+      "display_rank": 17
     },
     {
       "id": "06-highlevel",
@@ -14617,7 +14641,7 @@
       "canonical_id": "06-highlevel",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 475,
+      "source_line": 476,
       "file_index": 21,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14625,7 +14649,7 @@
       "heading": "HighLevel (GoHighLevel)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 71
+      "display_rank": 72
     },
     {
       "id": "06-hightouch",
@@ -14679,7 +14703,7 @@
       "canonical_id": "06-hightouch",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 299,
+      "source_line": 300,
       "file_index": 13,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14687,7 +14711,7 @@
       "heading": "Hightouch",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 18
+      "display_rank": 19
     },
     {
       "id": "06-hubspot",
@@ -14762,7 +14786,7 @@
       "heading": "HubSpot",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 19
+      "display_rank": 20
     },
     {
       "id": "06-make",
@@ -14824,7 +14848,7 @@
       "heading": "Make (formerly Integromat)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 80
+      "display_rank": 81
     },
     {
       "id": "06-n8n",
@@ -14887,7 +14911,7 @@
       "heading": "n8n",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 26
+      "display_rank": 27
     },
     {
       "id": "06-octave",
@@ -14956,7 +14980,7 @@
       "canonical_id": "06-octave",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 435,
+      "source_line": 436,
       "file_index": 19,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -14964,7 +14988,7 @@
       "heading": "Octave",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 84
+      "display_rank": 85
     },
     {
       "id": "06-openprise",
@@ -15019,7 +15043,7 @@
       "canonical_id": "06-openprise",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 232,
+      "source_line": 233,
       "file_index": 10,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -15027,7 +15051,7 @@
       "heading": "Openprise",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 247
+      "display_rank": 251
     },
     {
       "id": "06-ortto",
@@ -15083,7 +15107,7 @@
       "canonical_id": "06-ortto",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 495,
+      "source_line": 496,
       "file_index": 22,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -15091,7 +15115,7 @@
       "heading": "Ortto",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 85
+      "display_rank": 86
     },
     {
       "id": "06-pipedrive",
@@ -15160,7 +15184,7 @@
       "heading": "Pipedrive",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 28
+      "display_rank": 29
     },
     {
       "id": "06-retool",
@@ -15213,7 +15237,7 @@
       "canonical_id": "06-retool",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 391,
+      "source_line": 392,
       "file_index": 17,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -15221,7 +15245,7 @@
       "heading": "Retool",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 32
+      "display_rank": 33
     },
     {
       "id": "06-salesforce-agentforce",
@@ -15356,7 +15380,7 @@
       "canonical_id": "06-snowflake",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 369,
+      "source_line": 370,
       "file_index": 16,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -15364,7 +15388,7 @@
       "heading": "Snowflake (as GTM data layer)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 33
+      "display_rank": 34
     },
     {
       "id": "06-superblocks",
@@ -15414,7 +15438,7 @@
       "canonical_id": "06-superblocks",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 413,
+      "source_line": 414,
       "file_index": 18,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -15422,7 +15446,7 @@
       "heading": "Superblocks",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 99
+      "display_rank": 101
     },
     {
       "id": "06-syncari",
@@ -15474,7 +15498,7 @@
       "canonical_id": "06-syncari",
       "also_listed_in": [],
       "source_file": "06-revops-infra.md",
-      "source_line": 255,
+      "source_line": 256,
       "file_index": 11,
       "category_num": "06",
       "category_slug": "revops-infra",
@@ -15482,7 +15506,7 @@
       "heading": "Syncari",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 136
+      "display_rank": 137
     },
     {
       "id": "06-zapier",
@@ -15545,7 +15569,7 @@
       "heading": "Zapier",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 40
+      "display_rank": 41
     },
     {
       "id": "07-apideck",
@@ -15603,7 +15627,7 @@
       "canonical_id": "07-apideck",
       "also_listed_in": [],
       "source_file": "07-mcp-infrastructure.md",
-      "source_line": 262,
+      "source_line": 266,
       "file_index": 12,
       "category_num": "07",
       "category_slug": "mcp-infrastructure",
@@ -15670,7 +15694,7 @@
       "heading": "Anthropic's Connector Directory",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 172
+      "display_rank": 178
     },
     {
       "id": "07-composio",
@@ -15789,7 +15813,7 @@
       "heading": "Glama",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 175
+      "display_rank": 182
     },
     {
       "id": "07-klavis-ai",
@@ -15800,22 +15824,30 @@
       "category": "mcp-infrastructure",
       "what_it_does": "Primarily an AI-agent training-data company - it builds \"live environments for training AI agents\" (long-horizon coding tasks and agentic tool-use scenarios), and separately mentions \"production MCP servers\" and \"600+ real tools and SaaS apps\" as part of that training-data infrastructure.",
       "ai_features": "The product itself generates training/eval data for frontier model development (dockerized coding environments, programmatic verification, reward signals) - it is not positioned, in what was found, as a live GTM connector layer the way Composio/Pipedream/Metorial are.",
-      "mcp_status": "none-found",
-      "mcp_url": "none-found",
-      "mcp_auth": "unknown - not disclosed in the fetched content",
+      "mcp_status": "official",
+      "mcp_url": "https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted Strata server; endpoint https://strata.klavis.ai/mcp/ per the official registry entry ai.klavis/strata; source at https://github.com/Klavis-AI/klavis, Apache-2.0)",
+      "mcp_auth": "Klavis API key as an HTTP Bearer token on the management API that creates a per-user Strata server (https://www.klavis.ai/docs/api-reference/strata/create.md); the response returns a strataServerUrl to connect to plus per-integration OAuth and API-key setup URLs for the downstream apps. The hosted endpoint answered 401 to an unauthenticated request today.",
       "api_gate": "unknown - pricing page referenced but not disclosed in the fetched content",
       "revops_role": "Unclear fit for a solo GTM operator based on what's public - reads as an AI-lab infrastructure vendor (agent training data) rather than a connector service a RevOps team would wire into a live workflow. Flagging this mismatch explicitly rather than assuming it belongs alongside Composio/Pipedream.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.klavis.ai, https://klavis.ai/pricing (fetched; no pricing figures returned), https://www.klavis.ai/docs/quickstart.md",
-      "notes": "Included per the research brief's seed list, but the public-facing material found positions Klavis as an AI-agent training/eval company first, not a GTM-facing hosted-MCP aggregator - treat any \"GTM connector\" framing of Klavis with caution until a clearer product page is found. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the quickstart says to create an account and get the API key from klavis.ai/home/api-keys, so keys are self-serve with no sales call and an open-source self-hosted path exists - but klavis.ai/pricing is client-rendered and returned only nav and footer to a plain fetch, so whether a free tier or a paid plan backs those keys is unverified and the free-versus-paid split stays unknown. Checked against https://www.klavis.ai/docs/quickstart.md.",
-      "mcp_status_bucket": "none-found",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.klavis.ai, https://klavis.ai/pricing (fetched; no pricing figures returned), https://www.klavis.ai/docs/quickstart.md, https://www.klavis.ai/docs/concepts/strata.md, https://www.klavis.ai/docs/api-reference/strata/create.md, https://github.com/Klavis-AI/klavis, https://registry.modelcontextprotocol.io/v0/servers?search=klavis",
+      "notes": "Included per the research brief's seed list, but the public-facing material found positions Klavis as an AI-agent training/eval company first, not a GTM-facing hosted-MCP aggregator - treat any \"GTM connector\" framing of Klavis with caution until a clearer product page is found. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the quickstart says to create an account and get the API key from klavis.ai/home/api-keys, so keys are self-serve with no sales call and an open-source self-hosted path exists - but klavis.ai/pricing is client-rendered and returned only nav and footer to a plain fetch, so whether a free tier or a paid plan backs those keys is unverified and the free-versus-paid split stays unknown. Checked against https://www.klavis.ai/docs/quickstart.md. 2026-09-02: mcp_status none-found -> official. Klavis publishes a hosted MCP server, Strata, documented at https://www.klavis.ai/docs/concepts/strata.md (\"One MCP server for AI agents to use tools progressively at any scale\") with a create endpoint at https://www.klavis.ai/docs/api-reference/strata/create.md; the official MCP registry lists ai.klavis/strata with the remote https://strata.klavis.ai/mcp/ (401 today, alive and auth-gated); and the GitHub repo https://github.com/Klavis-AI/klavis describes \"MCP integration platforms that let AI agents use tools reliably at any scale\" with 100+ prebuilt integrations with OAuth support, cloud-hosted or self-hosted. That softens the caution above: Klavis is a usable MCP integration layer as well as a training-data vendor. Pricing is still unpublished to a plain fetch, so api_gate stays unknown.",
+      "mcp_status_bucket": "official",
       "api_gate_bucket": "unknown",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://www.klavis.ai/docs/concepts/strata.md",
+        "https://strata.klavis.ai/mcp/",
+        "https://github.com/Klavis-AI/klavis"
+      ],
       "source_urls": [
         "https://www.klavis.ai",
         "https://klavis.ai/pricing",
-        "https://www.klavis.ai/docs/quickstart.md"
+        "https://www.klavis.ai/docs/quickstart.md",
+        "https://www.klavis.ai/docs/concepts/strata.md",
+        "https://www.klavis.ai/docs/api-reference/strata/create.md",
+        "https://github.com/Klavis-AI/klavis",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=klavis"
       ],
       "source_annotations": [
         "(fetched; no pricing figures returned)"
@@ -15831,7 +15863,10 @@
       "github_last_commit": null,
       "github_archived": null,
       "github_fetched_on": null,
-      "github_candidates": [],
+      "github_candidates": [
+        "https://github.com/Klavis-AI/klavis",
+        "https://github.com/Klavis-AI/klavis"
+      ],
       "docs_digest": null,
       "docs_last_crawled": null,
       "submission": null,
@@ -15847,7 +15882,7 @@
       "heading": "Klavis",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 272
+      "display_rank": 141
     },
     {
       "id": "07-mcp-run-turbomcp",
@@ -15864,9 +15899,9 @@
       "api_gate": "enterprise-only (mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points)",
       "revops_role": "Relevant to a RevOps/IT team that wants centralized control over which MCP servers its agents can reach, rather than an individual operator's connector of choice.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://www.mcp.run (redirects to turbomcp.ai, confirmed 301), https://turbomcp.ai",
-      "notes": "mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points.",
+      "notes": "mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points. 2026-09-02: re-verified. https://www.mcp.run/ still 301s to https://turbomcp.ai/, which loaded today as \"the leading standards-compliant, self-hosted MCP gateway and management platform\" (OIDC identity-provider integration, OAuth with dynamic client registration, RBAC approvals, centralized audit logs, kill switch) with no pricing, no docs link, and still no mention of its mcp.run history. The what_it_does and ai_features copy above already describes the TurboMCP product rather than the old hosted registry, so no rewrite was needed; mcp_status unchanged.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
@@ -15966,7 +16001,7 @@
       "heading": "mcp.so",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 171
+      "display_rank": 177
     },
     {
       "id": "07-metorial",
@@ -16017,7 +16052,7 @@
       "canonical_id": "07-metorial",
       "also_listed_in": [],
       "source_file": "07-mcp-infrastructure.md",
-      "source_line": 241,
+      "source_line": 245,
       "file_index": 11,
       "category_num": "07",
       "category_slug": "mcp-infrastructure",
@@ -16025,7 +16060,7 @@
       "heading": "Metorial",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 81
+      "display_rank": 82
     },
     {
       "id": "07-model-context-protocol-official-servers-repo",
@@ -16084,7 +16119,7 @@
       "heading": "modelcontextprotocol/servers (official reference repo)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 25
+      "display_rank": 26
     },
     {
       "id": "07-pipedream-mcp",
@@ -16143,7 +16178,7 @@
       "heading": "Pipedream (MCP)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 87
+      "display_rank": 88
     },
     {
       "id": "07-pulsemcp",
@@ -16201,7 +16236,7 @@
       "heading": "PulseMCP",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 173
+      "display_rank": 179
     },
     {
       "id": "07-smithery",
@@ -16259,7 +16294,7 @@
       "heading": "Smithery",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 174
+      "display_rank": 180
     },
     {
       "id": "07-zapier-mcp",
@@ -16319,7 +16354,7 @@
       "heading": "Zapier MCP",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 41
+      "display_rank": 42
     },
     {
       "id": "08-bombbomb",
@@ -16383,7 +16418,7 @@
       "heading": "BombBomb",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 160
+      "display_rank": 161
     },
     {
       "id": "08-bonjoro",
@@ -16444,7 +16479,7 @@
       "heading": "Bonjoro",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 147
+      "display_rank": 149
     },
     {
       "id": "08-covideo",
@@ -16507,7 +16542,7 @@
       "heading": "Covideo",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 167
+      "display_rank": 170
     },
     {
       "id": "08-dubb",
@@ -16569,7 +16604,7 @@
       "heading": "Dubb",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 193
+      "display_rank": 201
     },
     {
       "id": "08-heygen",
@@ -16635,7 +16670,7 @@
       "heading": "HeyGen",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 69
+      "display_rank": 70
     },
     {
       "id": "08-hippo-video",
@@ -16696,7 +16731,7 @@
       "heading": "Hippo Video",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 223
+      "display_rank": 228
     },
     {
       "id": "08-loom",
@@ -16767,7 +16802,7 @@
       "heading": "Loom (sales use case)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 145
+      "display_rank": 147
     },
     {
       "id": "08-potion",
@@ -16950,7 +16985,7 @@
       "heading": "Sendspark",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 152
+      "display_rank": 154
     },
     {
       "id": "08-tavus",
@@ -17020,7 +17055,7 @@
       "heading": "Tavus",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 34
+      "display_rank": 35
     },
     {
       "id": "08-trumpet",
@@ -17096,7 +17131,7 @@
       "heading": "Trumpet",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 142
+      "display_rank": 145
     },
     {
       "id": "08-vidyard",
@@ -17160,7 +17195,7 @@
       "heading": "Vidyard",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 158
+      "display_rank": 159
     },
     {
       "id": "08-weezly",
@@ -17223,7 +17258,7 @@
       "heading": "Weezly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 159
+      "display_rank": 160
     },
     {
       "id": "09-allegrow",
@@ -17284,7 +17319,7 @@
       "heading": "Allegrow",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 45
+      "display_rank": 46
     },
     {
       "id": "09-folderly",
@@ -17345,7 +17380,7 @@
       "heading": "Folderly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 270
+      "display_rank": 271
     },
     {
       "id": "09-glockapps",
@@ -17404,7 +17439,7 @@
       "heading": "GlockApps",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 198
+      "display_rank": 205
     },
     {
       "id": "09-hypertide",
@@ -17463,7 +17498,7 @@
       "heading": "Hypertide",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 201
+      "display_rank": 208
     },
     {
       "id": "09-inboxally",
@@ -17522,7 +17557,7 @@
       "heading": "InboxAlly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 202
+      "display_rank": 209
     },
     {
       "id": "09-infraforge",
@@ -17584,7 +17619,7 @@
       "heading": "Infraforge",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 72
+      "display_rank": 73
     },
     {
       "id": "09-maildoso",
@@ -17644,7 +17679,7 @@
       "heading": "Maildoso",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 78
+      "display_rank": 79
     },
     {
       "id": "09-mailforge",
@@ -17705,7 +17740,7 @@
       "heading": "Mailforge",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 79
+      "display_rank": 80
     },
     {
       "id": "09-mailgenius",
@@ -17764,7 +17799,7 @@
       "heading": "MailGenius",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 210
+      "display_rank": 216
     },
     {
       "id": "09-mailreach",
@@ -17823,7 +17858,7 @@
       "heading": "Mailreach",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 211
+      "display_rank": 217
     },
     {
       "id": "09-scaledmail",
@@ -17882,7 +17917,7 @@
       "heading": "Scaledmail",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 184
+      "display_rank": 191
     },
     {
       "id": "09-warmup-inbox",
@@ -17893,24 +17928,23 @@
       "category": "email-deliverability",
       "what_it_does": "Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens, replies, stars) with a customer's connected accounts to build sender reputation.",
       "ai_features": "No AI-specific capability confirmed; the warmup mechanic and blacklist monitoring read as automation, not model-driven analysis - treat as plain automation absent further evidence.",
-      "mcp_status": "unknown",
-      "mcp_url": "https://www.warmupinbox.com/blog/product-updates/product-update-new-api/",
-      "mcp_auth": "unknown - the vendor's own API docs describe API-key authentication (api.warmupinbox.com/api-doc, OpenAPI 3.0 spec), but MCP-specific auth was not independently confirmed.",
+      "mcp_status": "none-found",
+      "mcp_url": "n/a",
+      "mcp_auth": "n/a for MCP. The REST API uses API-key authentication per the vendor's own docs (api.warmupinbox.com/api-doc, OpenAPI 3.0 spec).",
       "api_gate": "free - the vendor states the API is \"a free feature on every plan, with no extra charge.\"",
       "revops_role": "Deliverability-maintenance layer running behind an outbound sending tool, with programmatic control over creating/connecting inboxes and pulling placement metrics.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.warmupinbox.com/blog/product-updates/product-update-new-api/, https://api.warmupinbox.com/api-doc, https://documenter.getpostman.com/view/6493518/2s9YR3dFfb",
-      "notes": "The vendor's own product-update blog post states Warmup Inbox is \"SOC 2 compliant, with an API, MCP server, and CLI for automating warm-up across hundreds of domains\" - a first-party claim on the vendor's own domain. However, a direct fetch of that page timed out and no dedicated MCP docs page, repo, or registry listing was independently reachable to confirm the claim, so this is left as unknown rather than official per the schema's \"no URL, no claim\" law - worth a follow-up hand-check.",
-      "mcp_status_bucket": "unknown",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.warmupinbox.com/blog/product-updates/product-update-new-api/, https://api.warmupinbox.com/api-doc, https://documenter.getpostman.com/view/6493518/2s9YR3dFfb, https://www.warmupinbox.com/",
+      "notes": "The vendor's own product-update blog post states Warmup Inbox is \"SOC 2 compliant, with an API, MCP server, and CLI for automating warm-up across hundreds of domains\" - a first-party claim on the vendor's own domain. However, a direct fetch of that page timed out and no dedicated MCP docs page, repo, or registry listing was independently reachable to confirm the claim, so this is left as unknown rather than official per the schema's \"no URL, no claim\" law - worth a follow-up hand-check. 2026-09-02: mcp_status unknown -> none-found. The hand-check happened: https://www.warmupinbox.com/blog/product-updates/product-update-new-api/ loaded today and the string MCP does not appear anywhere in its HTML (raw grep, zero matches); the post now describes only the REST API. The homepage has no MCP mention either, and the official MCP registry returns zero hits for warmup inbox. The earlier first-party MCP sentence is no longer on the vendor's page, so the claim is unsupported and the status is none-found. The blog URL is kept in sources as the record of what was once claimed.",
+      "mcp_status_bucket": "none-found",
       "api_gate_bucket": "free",
-      "mcp_urls": [
-        "https://www.warmupinbox.com/blog/product-updates/product-update-new-api/"
-      ],
+      "mcp_urls": [],
       "source_urls": [
         "https://www.warmupinbox.com/blog/product-updates/product-update-new-api/",
         "https://api.warmupinbox.com/api-doc",
-        "https://documenter.getpostman.com/view/6493518/2s9YR3dFfb"
+        "https://documenter.getpostman.com/view/6493518/2s9YR3dFfb",
+        "https://www.warmupinbox.com/"
       ],
       "source_annotations": [],
       "vendor_domain": "warmupinbox.com",
@@ -17942,7 +17976,7 @@
       "heading": "Warmup Inbox",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 166
+      "display_rank": 193
     },
     {
       "id": "09-warmy-io",
@@ -17959,16 +17993,18 @@
       "api_gate": "paid - API is a distinct product tier (\"Warmy API\") rather than bundled into every plan by default, per the vendor's own product page.",
       "revops_role": "Deliverability-maintenance layer comparable to Mailreach/Warmup Inbox, differentiated on enterprise-sender topic/language customization and webhook-driven programmatic control.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.warmy.io/product/api/, https://www.warmy.io/product/warm-up-email/, https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/",
-      "notes": "A search result mentioned a separate, apparently unrelated tool called \"mailX\" (a free SPF/DKIM/DMARC/blacklist checker) as having \"API and MCP access\" - that is a different product from Warmy.io and was not pursued further here since it fell outside this file's named seed list; flagged only to avoid future conflation. No MCP server found for Warmy.io itself.",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.warmy.io/product/api/, https://www.warmy.io/product/warm-up-email/, https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/, https://warmysender.com/mcp, https://warmysender.com/",
+      "notes": "A search result mentioned a separate, apparently unrelated tool called \"mailX\" (a free SPF/DKIM/DMARC/blacklist checker) as having \"API and MCP access\" - that is a different product from Warmy.io and was not pursued further here since it fell outside this file's named seed list; flagged only to avoid future conflation. No MCP server found for Warmy.io itself. 2026-09-02: re-checked, mcp_status stays none-found. A second conflation risk is now documented: the official MCP registry entry com.warmysender/mcp (https://warmysender.com/mcp, 77 tools, streamable HTTP, Bearer ws_ API key or OAuth) belongs to WarmySender, whose own homepage states \"WarmySender and Warmy.io are completely separate and unaffiliated companies\" that \"share no code, data, or ownership\". https://www.warmy.io/product/api/ still has no MCP mention. Do not cite WarmySender for Warmy.io.",
       "mcp_status_bucket": "none-found",
       "api_gate_bucket": "paid",
       "mcp_urls": [],
       "source_urls": [
         "https://www.warmy.io/product/api/",
         "https://www.warmy.io/product/warm-up-email/",
-        "https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/"
+        "https://www.warmy.io/blog/best-email-warmup-deliverability-tools-alternatives/",
+        "https://warmysender.com/mcp",
+        "https://warmysender.com/"
       ],
       "source_annotations": [],
       "vendor_domain": "warmy.io",
@@ -18000,7 +18036,7 @@
       "heading": "Warmy.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 221
+      "display_rank": 227
     },
     {
       "id": "10-cal-com",
@@ -18220,7 +18256,7 @@
       "heading": "Chili Piper",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 52
+      "display_rank": 53
     },
     {
       "id": "10-clara",
@@ -18282,7 +18318,7 @@
       "heading": "Clara (Clara Labs)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 191
+      "display_rank": 199
     },
     {
       "id": "10-clockwise",
@@ -18344,7 +18380,7 @@
       "heading": "Clockwise (discontinued - see notes)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 265
+      "display_rank": 266
     },
     {
       "id": "10-default",
@@ -18355,16 +18391,16 @@
       "category": "scheduling-routing",
       "what_it_does": "\"Agentic GTM infrastructure\" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top.",
       "ai_features": "Genuinely notable natural-language config layer - a \"Dot\" agent lets users define routing/territory/segment logic in plain language, compiled into deployed rules (\"Text-to-Meeting,\" beta) - and third-party AI agents (Claude, ChatGPT) can book/reschedule/cancel meetings via the MCP/API, which is real agent autonomy. Underlying routing mechanics (round robin, if/else branching, queues, fairness/load balancing) remain conventional rules-based automation - the AI sits in the config/interface layer, not the routing math itself.",
-      "mcp_status": "official",
+      "mcp_status": "unknown",
       "mcp_url": "https://www.default.com/ (redirect correction 2026-08-28: the address previously recorded here, www.default.com/product/platform, 308s to the site root and the root returns 200. The dedicated product page the MCP claim was read from no longer exists as its own URL, which weakens an already marketing-only claim; vendor's own page stated \"MCP access to data and tools for every agent, whether built inside Default or on top of it,\" labeled \"in beta\"; no separate dedicated MCP docs/repo page was found)",
       "mcp_auth": "unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade data access, but unconfirmed)",
       "api_gate": "enterprise-only (no published pricing at all - /pricing and /plans both 404 and the site offers only request-a-demo and login - and no API or developer docs link exists in nav or footer, so there is no self-serve path of any kind)",
       "revops_role": "Broader GTM data/orchestration layer where scheduling and lead routing are one module among enrichment, workflows, and agent orchestration - pitched as a Chili Piper/RevenueHero alternative with a wider remit.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.default.com/, https://www.default.com/product/lead-routing-software, https://www.default.com/product/sales-scheduling-software, https://www.default.com/pricing, https://default.com/",
-      "notes": "No official GitHub org locatable (github.com/default resolves to an unrelated individual account, not the vendor). The MCP claim rests on marketing copy only (explicitly \"in beta\"), not yet backed by findable technical docs - flagged so a reader verifies before building on it. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://default.com/): no published pricing at all - /pricing and /plans both 404 and the site offers only request-a-demo and login - and no API or developer docs link exists in nav or footer, so there is no self-serve path of any kind.",
-      "mcp_status_bucket": "official",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.default.com/, https://www.default.com/product/lead-routing-software, https://www.default.com/product/sales-scheduling-software, https://www.default.com/pricing, https://default.com/, https://www.default.com/solutions/default-mcp",
+      "notes": "No official GitHub org locatable (github.com/default resolves to an unrelated individual account, not the vendor). The MCP claim rests on marketing copy only (explicitly \"in beta\"), not yet backed by findable technical docs - flagged so a reader verifies before building on it. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://default.com/): no published pricing at all - /pricing and /plans both 404 and the site offers only request-a-demo and login - and no API or developer docs link exists in nav or footer, so there is no self-serve path of any kind. 2026-09-02: mcp_status downgraded official -> unknown to match the canonical entry in 06-revops-infra.md, same basis: https://www.default.com/solutions/default-mcp names a Default MCP but publishes no endpoint, auth or setup docs, and docs.default.com has no MCP article (SCHEMA law 1, a claim needs a URL that answers).",
+      "mcp_status_bucket": "unknown",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
         "https://www.default.com/"
@@ -18374,7 +18410,8 @@
         "https://www.default.com/product/lead-routing-software",
         "https://www.default.com/product/sales-scheduling-software",
         "https://www.default.com/pricing",
-        "https://default.com/"
+        "https://default.com/",
+        "https://www.default.com/solutions/default-mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "default.com",
@@ -18419,7 +18456,7 @@
       "heading": "Default",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 119
+      "display_rank": 173
     },
     {
       "id": "10-doodle",
@@ -18481,7 +18518,7 @@
       "heading": "Doodle",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 268
+      "display_rank": 269
     },
     {
       "id": "10-kronologic",
@@ -18553,21 +18590,24 @@
       "what_it_does": "GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on (BookIt).",
       "ai_features": "Vendor markets \"AI-assisted routing,\" an \"AI SDR routing\" capability, and a \"LeanData AI\" platform component, plus positions itself as \"the backbone for AI-ready infrastructure\" for GTM agents - these are vendor-stated capabilities with no independent technical breakdown found distinguishing genuine ML-driven routing decisions from LeanData's historically rules/workflow-engine-based core product.",
       "mcp_status": "unknown",
-      "mcp_url": "n/a",
-      "mcp_auth": "n/a",
+      "mcp_url": "n/a (the only first-party surface is the Q2 2026 release post, https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/, which publishes no endpoint or docs)",
+      "mcp_auth": "vendor-stated only, from the release post: \"handled through Salesforce OAuth for admins and reps, and through a one-time code option for external partners or agents\"; no docs page confirms this.",
       "api_gate": "enterprise-only - pricing page confirms no free tier (\"Setup and onboarding are tailored and billed separately for all packages\"); three custom-quoted editions (Standard/Advanced/Premium) plus BookIt Scheduling and Buying Groups as separate paid add-ons; no transparent self-serve pricing found.",
       "revops_role": "Internal inbound-lead-routing/orchestration layer sitting in front of Salesforce, deciding who a lead or signal goes to and triggering the right next action (including handing off to BookIt for scheduling).",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://leandata.com, https://leandata.com/platform/pricing/, https://docs.leandata.com",
-      "notes": "LeanData's own homepage references a \"BookIt MCP (Model Context Protocol server)\" tied to a \"Q2 2026 release,\" but no dedicated MCP docs page, repo, or endpoint could be located - docs.leandata.com search returned nothing and leandata.com/platform/bookit/ 404'd. This is a real, sourced mention of an MCP claim without a verifiable URL, so per this directory's law (an MCP claim requires a URL) it is recorded as mcp_status: unknown rather than official - worth a manual re-check once LeanData's Q2 2026 release material is more discoverable.",
+      "last_checked": "2026-09-02",
+      "sources": "https://leandata.com, https://leandata.com/platform/pricing/, https://docs.leandata.com, https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/",
+      "notes": "LeanData's own homepage references a \"BookIt MCP (Model Context Protocol server)\" tied to a \"Q2 2026 release,\" but no dedicated MCP docs page, repo, or endpoint could be located - docs.leandata.com search returned nothing and leandata.com/platform/bookit/ 404'd. This is a real, sourced mention of an MCP claim without a verifiable URL, so per this directory's law (an MCP claim requires a URL) it is recorded as mcp_status: unknown rather than official - worth a manual re-check once LeanData's Q2 2026 release material is more discoverable. 2026-09-02: re-checked, mcp_status stays unknown. The release material is discoverable now: https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/ (May 21, 2026) says \"The BookIt MCP server exposes scheduling functionality through a standard interface that any MCP-compatible AI client can connect to\", with separate admin and rep capabilities and Salesforce OAuth plus a one-time code for external agents. It still publishes no endpoint, docs page, or setup guide, and the official MCP registry has no leandata or bookit entry, so a described-but-not-connectable server stays unknown under law 1.",
       "mcp_status_bucket": "unknown",
       "api_gate_bucket": "enterprise-only",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/"
+      ],
       "source_urls": [
         "https://leandata.com",
         "https://leandata.com/platform/pricing/",
-        "https://docs.leandata.com"
+        "https://docs.leandata.com",
+        "https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/"
       ],
       "source_annotations": [],
       "vendor_domain": "leandata.com",
@@ -18600,7 +18640,7 @@
       "heading": "LeanData",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 170
+      "display_rank": 175
     },
     {
       "id": "10-motion",
@@ -18668,7 +18708,7 @@
       "heading": "Motion",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 149
+      "display_rank": 151
     },
     {
       "id": "10-reclaim-ai",
@@ -18734,7 +18774,7 @@
       "heading": "Reclaim.ai",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 140
+      "display_rank": 143
     },
     {
       "id": "10-revenuehero",
@@ -18801,7 +18841,7 @@
       "heading": "RevenueHero",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 141
+      "display_rank": 144
     },
     {
       "id": "10-savvycal",
@@ -18865,7 +18905,7 @@
       "heading": "SavvyCal",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 151
+      "display_rank": 153
     },
     {
       "id": "10-trevor-ai",
@@ -18933,16 +18973,16 @@
       "category": "enablement-coaching",
       "what_it_does": "Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and \"Enablement AI\" content/recommendation features for sales teams.",
       "ai_features": "\"Enablement AI\" analyzes interaction data, content usage, and learning outcomes to recommend the most relevant content per rep/deal - a recommendation and content-governance layer, described by the vendor as \"secure, practical AI\" grounded in approved content, rather than open-ended generative roleplay. No dedicated dynamic-persona roleplay module (comparable to Bigtincan's RolePlayAI or Second Nature) was confirmed.",
-      "mcp_status": "official",
-      "mcp_url": "https://www.allego.com/platform/integrations/ (Allego 9 \"MCP API Server,\" announced with Allego 9's June 2026 GA; no separate technical-docs URL or endpoint was found)",
+      "mcp_status": "unknown",
+      "mcp_url": "n/a (the only first-party surfaces are marketing pages, https://www.allego.com/platform/integrations/ and the Allego 9 press release, which name an \"Allego MCP API Server\" but publish no docs, endpoint, or setup guide)",
       "mcp_auth": "unknown - vendor material states the MCP server connects to Salesforce Einstein, Microsoft Copilot, and enterprise self-hosted copilots with \"built-in access control enforcement,\" but does not disclose the credential/auth mechanism.",
       "api_gate": "enterprise-only (no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site)",
       "revops_role": "Content-and-deal-intelligence hub positioned to feed AI copilots (Salesforce Einstein, Microsoft Copilot) via its MCP server, rather than a standalone practice tool.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/, https://www.allego.com/platform/integrations/, https://checkthat.ai/brands/allego/pricing, https://www.allego.com/pricing/",
-      "notes": "mcp_status is \"official\" because Allego's own site names and describes the \"Allego MCP API Server\" as a shipped Allego 9 feature - but no dedicated technical-docs URL, GitHub repo, or reachable endpoint was found in this pass; the integrations page is the only citable source. Re-verify with a direct docs URL before using this one on camera. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.allego.com/pricing/): no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site.",
-      "mcp_status_bucket": "official",
+      "notes": "mcp_status is \"official\" because Allego's own site names and describes the \"Allego MCP API Server\" as a shipped Allego 9 feature - but no dedicated technical-docs URL, GitHub repo, or reachable endpoint was found in this pass; the integrations page is the only citable source. Re-verify with a direct docs URL before using this one on camera. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.allego.com/pricing/): no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site. 2026-09-02: mcp_status official -> unknown. Re-fetched https://www.allego.com/platform/integrations/ (\"The Allego MCP API Server connects your deal intelligence, content, and enablement directly into any MCP-compatible AI copilot\") and https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/ today: both name the server, neither links to documentation, an endpoint, or a setup guide, and the official MCP registry has no allego entry. A marketing sentence is not a receipt under law 1, so the earlier reasoning is retracted and the claim is held at unknown until Allego publishes a connectable URL.",
+      "mcp_status_bucket": "unknown",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
         "https://www.allego.com/platform/integrations/"
@@ -18983,7 +19023,7 @@
       "heading": "Allego",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 111
+      "display_rank": 169
     },
     {
       "id": "11-bigtincan-readiness",
@@ -19043,7 +19083,7 @@
       "heading": "Bigtincan Readiness (formerly Brainshark)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 263
+      "display_rank": 264
     },
     {
       "id": "11-continu",
@@ -19098,7 +19138,7 @@
       "heading": "Continu",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 234
+      "display_rank": 238
     },
     {
       "id": "11-dialworks",
@@ -19115,9 +19155,9 @@
       "api_gate": "unknown - vendor offers a 30-day free trial with $3,000 in credits and no credit card required (self-serve-friendly), but sources point custom/large-team pricing to a direct sales contact, so full API-tier gating could not be confirmed.",
       "revops_role": "Lower-friction, trial-accessible entrant in the practice/roleplay category, positioned by third-party comparison sites as the \"transparent pricing, rapid deployment\" option.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://dialworks.io/pricing, https://www.xpay.sh/saas-pricing/dialworks-io/, https://dialfyne.com/blog/ai-sales-roleplay-platform-comparison-2026, https://www.dialworks.io/pricing",
-      "notes": "No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. dialworks.io/pricing returned a TLS certificate error on direct fetch during this pass - pricing facts here are drawn from third-party trackers (xpay.sh) rather than the vendor page directly; re-verify by hand. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the vendor site is unreachable - dialworks.io serves an expired TLS certificate, so neither the homepage nor /pricing could be loaded on www or apex. Worth re-checking on the next weekly verify run; an expired certificate is often the first visible sign of an abandoned product. Checked against https://www.dialworks.io/pricing.",
+      "notes": "No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. dialworks.io/pricing returned a TLS certificate error on direct fetch during this pass - pricing facts here are drawn from third-party trackers (xpay.sh) rather than the vendor page directly; re-verify by hand. [api_gate 2026-08-25] Re-checked and left unknown, honestly: the vendor site is unreachable - dialworks.io serves an expired TLS certificate, so neither the homepage nor /pricing could be loaded on www or apex. Worth re-checking on the next weekly verify run; an expired certificate is often the first visible sign of an abandoned product. Checked against https://www.dialworks.io/pricing. 2026-09-02: re-checked. https://dialworks.io/ still serves an expired TLS certificate (a strict fetch fails with \"certificate has expired\"); with certificate checking disabled the origin answers 200 with a 95 KB HTML page from nginx, so the site is up but unmaintained at the certificate level, and that page contains no MCP mention. The official MCP registry has no dialworks entry. mcp_status none-found unchanged; the certificate is still the open question for the next verify run.",
       "mcp_status_bucket": "none-found",
       "api_gate_bucket": "unknown",
       "mcp_urls": [],
@@ -19158,7 +19198,7 @@
       "heading": "Dialworks",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 267
+      "display_rank": 268
     },
     {
       "id": "11-hyperbound",
@@ -19218,7 +19258,7 @@
       "heading": "Hyperbound",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 271
+      "display_rank": 272
     },
     {
       "id": "11-lavender",
@@ -19404,7 +19444,7 @@
       "heading": "Mindtickle",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 244
+      "display_rank": 248
     },
     {
       "id": "11-quantified",
@@ -19536,22 +19576,28 @@
       "category": "enablement-coaching",
       "what_it_does": "Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified \"Showpad Genie\" AI layer.",
       "ai_features": "Genie Assistant (in-platform Q&A), Roleplay AI (practice conversations for seller training), Authoring AI (content-creation assist), and a \"Field Seller Agent\" - vendor describes Genie as \"the platform's AI core that learns how your company wins,\" but no independent technical detail confirms whether Roleplay AI runs dynamic buyer personas (like Second Nature/Hyperbound) or more scripted practice flows.",
-      "mcp_status": "none-found",
-      "mcp_url": "n/a",
-      "mcp_auth": "n/a",
+      "mcp_status": "official",
+      "mcp_url": "https://developer.showpad.com/docs/integrations/platform-independent/mcp (first-party docs; remote endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1)",
+      "mcp_auth": "OAuth; the docs say each end user authenticates with their own Showpad credentials and can only search and retrieve content they are already authorized to view. Access is beta and routed through the Account Manager; the pricing page lists Remote MCP Server under the Expert tier.",
       "api_gate": "enterprise-only (the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase)",
       "revops_role": "Content-plus-coaching hub with a documented developer portal, positioned similarly to Allego/Bigtincan/Highspot as an enablement platform layering AI features onto a content-management core.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/",
-      "notes": "No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase.",
-      "mcp_status_bucket": "none-found",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/, https://developer.showpad.com/docs/integrations/platform-independent/mcp, https://developer.showpad.com/news/mcp-tools",
+      "notes": "No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase. 2026-09-02: mcp_status none-found -> official. developer.showpad.com loaded without the earlier 403, its homepage says \"connect AI assistants with Showpad MCP\", and its sitemap lists https://developer.showpad.com/docs/integrations/platform-independent/mcp, a first-party docs page for a remotely hosted Showpad MCP: endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1, OAuth per end user with Showpad permissions enforced, 8 text tools (search, fetch, showpad_showql_guide, showpad_showql_filter, showpad_ask_a_question, showpad_whoami, showpad_shared_spaces_list, showpad_shared_spaces_get, showpad_shared_spaces_get_engagement) plus 3 MCP Apps widgets, with Claude Code and ChatGPT named as clients. The docs call it beta and route access via \"Contact your Account Manager\"; a July 2026 news item (https://developer.showpad.com/news/mcp-tools) says the article now carries the full tool reference. The \"no MCP server found\" sentence above is superseded.",
+      "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-only",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://developer.showpad.com/docs/integrations/platform-independent/mcp",
+        "https://mcp.showpad.com/mcp/v1",
+        "https://yourcompany.showpad.biz/mcp/v1"
+      ],
       "source_urls": [
         "https://www.showpad.com",
         "https://developer.showpad.com",
-        "https://www.showpad.com/pricing/"
+        "https://www.showpad.com/pricing/",
+        "https://developer.showpad.com/docs/integrations/platform-independent/mcp",
+        "https://developer.showpad.com/news/mcp-tools"
       ],
       "source_annotations": [],
       "vendor_domain": "showpad.com",
@@ -19585,7 +19631,7 @@
       "heading": "Showpad",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 255
+      "display_rank": 134
     },
     {
       "id": "11-spekit",
@@ -19596,24 +19642,28 @@
       "category": "enablement-coaching",
       "what_it_does": "In-app digital adoption and sales-enablement platform that surfaces contextual \"Speks\" (bite-sized content, process guidance, messaging) directly inside the tools reps already use (CRM, email, etc.).",
       "ai_features": "Spekit AI / \"AI Sidekick\" recommends relevant content based on rep role, territory, deal, and past engagement, and answers rep questions in-line - a recommendation/retrieval layer over Spekit's own content library, not a conversational roleplay or buyer-simulation product. No dynamic AI-persona coaching found.",
-      "mcp_status": "none-found",
-      "mcp_url": "n/a",
+      "mcp_status": "unknown",
+      "mcp_url": "n/a (vendor product page https://www.spekit.com/platform/mcp describes the server but publishes no endpoint, docs, or setup guide)",
       "mcp_auth": "n/a",
       "api_gate": "enterprise-only (pricing is fully customisable by quote with no numbers published, and the integrations page names a Spekit MCP server with no self-serve path; no API docs exist at /api, docs. or developer. and help. returns 403)",
       "revops_role": "In-workflow enablement/adoption layer that pushes content and process guidance into the CRM and other daily tools, rather than a standalone LMS.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.getapp.com/sales-software/a/spekit/, https://www.vendr.com/marketplace/spekit, https://apty.ai/blog/spekit-pricing/, https://www.g2.com/products/spekit/pricing, https://www.spekit.com/pricing",
-      "notes": "No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. getguru.com's \"What Is Spekit MCP?\" page is speculative explainer content, not evidence of a real integration. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.spekit.com/pricing): pricing is fully customisable by quote with no numbers published, and the integrations page names a Spekit MCP server with no self-serve path; no API docs exist at /api, docs. or developer. and help. returns 403.",
-      "mcp_status_bucket": "none-found",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.getapp.com/sales-software/a/spekit/, https://www.vendr.com/marketplace/spekit, https://apty.ai/blog/spekit-pricing/, https://www.g2.com/products/spekit/pricing, https://www.spekit.com/pricing, https://www.spekit.com/integrations, https://www.spekit.com/platform/mcp",
+      "notes": "No MCP server found on GitHub, mcp.so, glama.ai, or pulsemcp.com. getguru.com's \"What Is Spekit MCP?\" page is speculative explainer content, not evidence of a real integration. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.spekit.com/pricing): pricing is fully customisable by quote with no numbers published, and the integrations page names a Spekit MCP server with no self-serve path; no API docs exist at /api, docs. or developer. and help. returns 403. 2026-09-02: mcp_status none-found -> unknown. Spekit's own site now has a dedicated page, https://www.spekit.com/platform/mcp, and https://www.spekit.com/integrations states \"Spekit's MCP server makes your governed GTM knowledge available to any LLM and connect to any MCP-enabled tool in your GTM stack\", tied to a June 2026 \"GTM Knowledge Engine 2.0 + MCP\" launch and naming Claude, ChatGPT, Copilot, Gemini and Glean. No endpoint, setup guide, docs, or auth method is published, the only CTA is Request a Demo, and the official MCP registry has no spekit entry: a first-party claim without a connectable URL, so unknown rather than official.",
+      "mcp_status_bucket": "unknown",
       "api_gate_bucket": "enterprise-only",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://www.spekit.com/platform/mcp"
+      ],
       "source_urls": [
         "https://www.getapp.com/sales-software/a/spekit/",
         "https://www.vendr.com/marketplace/spekit",
         "https://apty.ai/blog/spekit-pricing/",
         "https://www.g2.com/products/spekit/pricing",
-        "https://www.spekit.com/pricing"
+        "https://www.spekit.com/pricing",
+        "https://www.spekit.com/integrations",
+        "https://www.spekit.com/platform/mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "spekit.com",
@@ -19645,7 +19695,7 @@
       "heading": "Spekit",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 256
+      "display_rank": 176
     },
     {
       "id": "11-trainual",
@@ -19703,14 +19753,14 @@
       "heading": "Trainual",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 219
+      "display_rank": 225
     },
     {
       "id": "11-workramp",
       "slug": "workramp",
       "normalized_name": "workramp",
       "name": "WorkRamp",
-      "vendor_url": "workramp.com",
+      "vendor_url": "workramp.com (301s to confirm.com/scale-up/products/learn-up as of 2026-09-02; the product is now sold as Learn:Up by Confirm, \"formerly WorkRamp\")",
       "category": "enablement-coaching",
       "what_it_does": "Corporate learning and training platform (\"Business Academy\") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation.",
       "ai_features": "\"AI Assist\" generates and personalizes learning content and recommendations - content-generation/recommendation AI layered on a traditional LMS core, not conversational roleplay or buyer simulation.",
@@ -19720,9 +19770,9 @@
       "api_gate": "enterprise-only (the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo)",
       "revops_role": "Onboarding/enablement LMS layer, reachable by AI agents only through third-party automation platforms (Zapier, viaSocket) rather than a vendor-hosted MCP server.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://zapier.com/mcp/workramp, https://viasocket.com/mcp/workramp, https://www.vendr.com/marketplace/workramp, https://getcor.ai/blog/reviews/workramp-pricing, https://developers.workramp.com/",
-      "notes": "Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a WorkRamp-published server - hence community, not official. Exposes 11 triggers plus create-assignment/onboard-user/update-profile write actions per Zapier's documented action list. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://developers.workramp.com/): the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo.",
+      "last_checked": "2026-09-02",
+      "sources": "https://zapier.com/mcp/workramp, https://viasocket.com/mcp/workramp, https://www.vendr.com/marketplace/workramp, https://getcor.ai/blog/reviews/workramp-pricing, https://developers.workramp.com/, https://www.confirm.com/scale-up/products/learn-up",
+      "notes": "Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a WorkRamp-published server - hence community, not official. Exposes 11 triggers plus create-assignment/onboard-user/update-profile write actions per Zapier's documented action list. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://developers.workramp.com/): the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo. 2026-09-02: rebrand confirmed. https://www.workramp.com/ 301s to https://www.confirm.com/scale-up/products/learn-up, where the product is branded Learn:Up, \"Formerly WorkRamp\", an AI-driven LMS inside Confirm's suite; that page has no MCP mention. https://zapier.com/mcp/workramp still returned 200 today, so mcp_status community (third-party hosted connectors) is unchanged.",
       "mcp_status_bucket": "community",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
@@ -19734,7 +19784,8 @@
         "https://viasocket.com/mcp/workramp",
         "https://www.vendr.com/marketplace/workramp",
         "https://getcor.ai/blog/reviews/workramp-pricing",
-        "https://developers.workramp.com/"
+        "https://developers.workramp.com/",
+        "https://www.confirm.com/scale-up/products/learn-up"
       ],
       "source_annotations": [],
       "vendor_domain": "workramp.com",
@@ -19764,7 +19815,7 @@
       "heading": "WorkRamp",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 164
+      "display_rank": 166
     },
     {
       "id": "12-anaplan",
@@ -19828,7 +19879,7 @@
       "heading": "Anaplan",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 112
+      "display_rank": 114
     },
     {
       "id": "12-aviso",
@@ -19889,7 +19940,7 @@
       "heading": "Aviso",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 226
+      "display_rank": 231
     },
     {
       "id": "12-boostup",
@@ -19951,7 +20002,7 @@
       "heading": "BoostUp (rebranded: Terret)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 229
+      "display_rank": 234
     },
     {
       "id": "12-cube-software",
@@ -20013,7 +20064,7 @@
       "heading": "Cube Software",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 59
+      "display_rank": 60
     },
     {
       "id": "12-ebsta",
@@ -20072,7 +20123,7 @@
       "heading": "Ebsta",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 236
+      "display_rank": 240
     },
     {
       "id": "12-forecastio",
@@ -20132,7 +20183,7 @@
       "heading": "Forecastio",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 196
+      "display_rank": 203
     },
     {
       "id": "12-gong-forecast",
@@ -20192,7 +20243,7 @@
       "heading": "Gong Forecast",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 238
+      "display_rank": 242
     },
     {
       "id": "12-hubspot",
@@ -20263,7 +20314,7 @@
       "heading": "HubSpot (AI Forecasting)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 199
+      "display_rank": 206
     },
     {
       "id": "12-kluster",
@@ -20325,7 +20376,7 @@
       "heading": "Kluster",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 239
+      "display_rank": 243
     },
     {
       "id": "12-mediafly",
@@ -20388,7 +20439,7 @@
       "heading": "Mediafly (formerly InsightSquared)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 242
+      "display_rank": 246
     },
     {
       "id": "12-pigment",
@@ -20521,7 +20572,7 @@
       "heading": "Pipedrive (AI Sales Assistant / forecasting)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 182
+      "display_rank": 189
     },
     {
       "id": "12-revenue-io",
@@ -20584,7 +20635,7 @@
       "heading": "Revenue.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 251
+      "display_rank": 255
     },
     {
       "id": "12-salesforce-einstein-forecasting",
@@ -20640,7 +20691,7 @@
       "heading": "Salesforce Einstein Forecasting",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 254
+      "display_rank": 258
     },
     {
       "id": "12-vareto",
@@ -20699,7 +20750,7 @@
       "heading": "Vareto",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 260
+      "display_rank": 261
     },
     {
       "id": "12-varicent",
@@ -20761,7 +20812,7 @@
       "heading": "Varicent",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 261
+      "display_rank": 262
     },
     {
       "id": "12-xactly",
@@ -20822,7 +20873,7 @@
       "heading": "Xactly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 262
+      "display_rank": 263
     },
     {
       "id": "13-aligned",
@@ -20937,7 +20988,7 @@
       "heading": "Arphie",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 48
+      "display_rank": 49
     },
     {
       "id": "13-common-paper",
@@ -21058,7 +21109,7 @@
       "heading": "DealHub",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 168
+      "display_rank": 171
     },
     {
       "id": "13-docusign",
@@ -21123,7 +21174,7 @@
       "heading": "DocuSign",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 61
+      "display_rank": 62
     },
     {
       "id": "13-getaccept",
@@ -21183,7 +21234,7 @@
       "heading": "GetAccept",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 197
+      "display_rank": 204
     },
     {
       "id": "13-ironclad",
@@ -21307,7 +21358,7 @@
       "heading": "Loopio",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 240
+      "display_rank": 244
     },
     {
       "id": "13-pandadoc",
@@ -21371,7 +21422,7 @@
       "heading": "PandaDoc",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 27
+      "display_rank": 28
     },
     {
       "id": "13-proposify",
@@ -21430,7 +21481,7 @@
       "heading": "Proposify",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 214
+      "display_rank": 220
     },
     {
       "id": "13-qwilr",
@@ -21489,7 +21540,7 @@
       "heading": "Qwilr",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 216
+      "display_rank": 222
     },
     {
       "id": "13-recapped-io",
@@ -21548,7 +21599,7 @@
       "heading": "Recapped.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 183
+      "display_rank": 190
     },
     {
       "id": "13-responsive",
@@ -21611,7 +21662,7 @@
       "heading": "Responsive (formerly RFPIO)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 90
+      "display_rank": 91
     },
     {
       "id": "13-trumpet",
@@ -21682,7 +21733,7 @@
       "heading": "Trumpet",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 37
+      "display_rank": 38
     },
     {
       "id": "14-ada",
@@ -21743,7 +21794,7 @@
       "heading": "Ada",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 110
+      "display_rank": 113
     },
     {
       "id": "14-chatbase",
@@ -21801,7 +21852,7 @@
       "heading": "Chatbase",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 190
+      "display_rank": 198
     },
     {
       "id": "14-chili-piper",
@@ -21881,7 +21932,7 @@
       "heading": "Chili Piper",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 53
+      "display_rank": 54
     },
     {
       "id": "14-correlated",
@@ -21953,9 +22004,9 @@
       "api_gate": "unknown. No self-serve pricing or API docs were found; the current page routes only to \"Talk to Sales\" / \"Tour Our Platform.\"",
       "revops_role": "Legacy inbound-chat brand, now folded into Salesloft's revenue-orchestration platform rather than sold as a standalone product.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-02",
       "sources": "https://www.drift.com, https://www.salesloft.com/platform/drift",
-      "notes": "STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.com 302-redirects straight to salesloft.com/platform/drift, and that page itself states the conversational-AI engine has moved from Drift to a third party (\"1mind\") - i.e., the original Drift product appears to be sunset in favor of a partner integration, not merely rebranded. Worth re-verifying before citing Drift as a live, buyable product in its own right. [api_gate 2026-08-25] Re-checked and left unknown, honestly: Drift is absorbed into Salesloft and the chat capability has been replaced - the Salesloft page states they have transitioned from Drift to 1mind. A Drift login still exists but no Drift pricing or API terms are published, so there is no current gate to record. Checked against https://www.salesloft.com/platform/drift.",
+      "notes": "STATUS FLAG. Drift was acquired by Salesloft; as of this research pass, drift.com 302-redirects straight to salesloft.com/platform/drift, and that page itself states the conversational-AI engine has moved from Drift to a third party (\"1mind\") - i.e., the original Drift product appears to be sunset in favor of a partner integration, not merely rebranded. Worth re-verifying before citing Drift as a live, buyable product in its own right. [api_gate 2026-08-25] Re-checked and left unknown, honestly: Drift is absorbed into Salesloft and the chat capability has been replaced - the Salesloft page states they have transitioned from Drift to 1mind. A Drift login still exists but no Drift pricing or API terms are published, so there is no current gate to record. Checked against https://www.salesloft.com/platform/drift. 2026-09-02: re-verified. https://www.drift.com/ still redirects to https://www.salesloft.com/platform/drift, and that Salesloft page states \"We've transitioned from Drift to 1mind\", with 1mind feeding buyer signals into Salesloft's Predictive Revenue System; it does not use the words sunset or discontinued, and it has no MCP mention. Drift remains an absorbed brand with no standalone product surface; mcp_status none-found unchanged. 1mind is a separate candidate, not a Drift alias.",
       "mcp_status_bucket": "none-found",
       "api_gate_bucket": "unknown",
       "mcp_urls": [],
@@ -21991,7 +22042,7 @@
       "heading": "Drift",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 269
+      "display_rank": 270
     },
     {
       "id": "14-endgame",
@@ -22052,7 +22103,7 @@
       "heading": "Endgame",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 138
+      "display_rank": 140
     },
     {
       "id": "14-forethought",
@@ -22110,7 +22161,7 @@
       "heading": "Forethought",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 237
+      "display_rank": 241
     },
     {
       "id": "14-intercom",
@@ -22174,7 +22225,7 @@
       "heading": "Intercom (Fin)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 74
+      "display_rank": 75
     },
     {
       "id": "14-landbot",
@@ -22231,7 +22282,7 @@
       "heading": "Landbot",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 181
+      "display_rank": 188
     },
     {
       "id": "14-pocus",
@@ -22348,7 +22399,7 @@
       "heading": "Pylon",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 139
+      "display_rank": 142
     },
     {
       "id": "14-qualified",
@@ -22424,7 +22475,7 @@
       "heading": "Qualified",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 249
+      "display_rank": 253
     },
     {
       "id": "14-tidio",
@@ -22480,7 +22531,7 @@
       "heading": "Tidio",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 185
+      "display_rank": 192
     },
     {
       "id": "14-toplyne",
@@ -22650,7 +22701,7 @@
       "heading": "Bevy",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 227
+      "display_rank": 232
     },
     {
       "id": "15-brand24",
@@ -22706,7 +22757,7 @@
       "heading": "Brand24",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 188
+      "display_rank": 196
     },
     {
       "id": "15-brandwatch",
@@ -22768,7 +22819,7 @@
       "heading": "Brandwatch",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 161
+      "display_rank": 162
     },
     {
       "id": "15-buzzsumo",
@@ -22824,7 +22875,7 @@
       "heading": "Buzzsumo",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 189
+      "display_rank": 197
     },
     {
       "id": "15-champion",
@@ -22882,7 +22933,7 @@
       "heading": "Champion",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 264
+      "display_rank": 265
     },
     {
       "id": "15-common-room",
@@ -22956,7 +23007,7 @@
       "heading": "Common Room",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 116
+      "display_rank": 118
     },
     {
       "id": "15-commsor",
@@ -23011,7 +23062,7 @@
       "heading": "Commsor",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 266
+      "display_rank": 267
     },
     {
       "id": "15-exploding-topics",
@@ -23066,7 +23117,7 @@
       "heading": "Exploding Topics",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 195
+      "display_rank": 202
     },
     {
       "id": "15-f5bot",
@@ -23122,7 +23173,7 @@
       "heading": "F5Bot",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 178
+      "display_rank": 185
     },
     {
       "id": "15-gummysearch",
@@ -23238,7 +23289,7 @@
       "heading": "Meltwater",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 243
+      "display_rank": 247
     },
     {
       "id": "15-mention",
@@ -23295,7 +23346,7 @@
       "heading": "Mention",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 213
+      "display_rank": 219
     },
     {
       "id": "15-orbit",
@@ -23426,7 +23477,7 @@
       "heading": "SparkToro",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 96
+      "display_rank": 98
     },
     {
       "id": "15-syften",
@@ -23491,7 +23542,7 @@
       "heading": "Syften",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 154
+      "display_rank": 155
     },
     {
       "id": "15-talkwalker",
@@ -23502,20 +23553,24 @@
       "category": "community-dark-social",
       "what_it_does": "Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection.",
       "ai_features": "References \"AI channels\" as part of what it monitors (i.e., tracking mentions inside AI chat surfaces) but does not name or describe a specific proprietary AI model on its current marketing pages.",
-      "mcp_status": "none-found",
-      "mcp_url": "none",
-      "mcp_auth": "n/a",
+      "mcp_status": "official",
+      "mcp_url": "https://www.hootsuite.com/integrations/mcp (the Lumen server, endpoint https://mcp.hootsuite.com/lumen, published by parent company Hootsuite)",
+      "mcp_auth": "Sign in with a Hootsuite workspace when prompted; the Hootsuite MCP page says authorization is one-time.",
       "api_gate": "enterprise-only (inferred) - no public self-serve pricing; the site routes only to \"Request a custom demo.\"",
       "revops_role": "Enterprise media-intelligence peer to Brandwatch/Meltwater, notable mainly for its ownership consolidation into Hootsuite (see notes).",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.talkwalker.com",
-      "notes": "Talkwalker has rebranded as \"Lumen by Talkwalker\" as part of a stated consolidation with Hootsuite (\"bring Hootsuite and Talkwalker closer together\") - worth noting for anyone still searching under the old standalone \"Talkwalker\" name. Checked GitHub - no MCP server found.",
-      "mcp_status_bucket": "none-found",
+      "last_checked": "2026-09-02",
+      "sources": "https://www.talkwalker.com, https://www.hootsuite.com/integrations/mcp",
+      "notes": "Talkwalker has rebranded as \"Lumen by Talkwalker\" as part of a stated consolidation with Hootsuite (\"bring Hootsuite and Talkwalker closer together\") - worth noting for anyone still searching under the old standalone \"Talkwalker\" name. Checked GitHub - no MCP server found. 2026-09-02: mcp_status none-found -> official. talkwalker.com still states \"Talkwalker is now Lumen by Talkwalker\", and Hootsuite's MCP page https://www.hootsuite.com/integrations/mcp lists four servers including Lumen (\"Insights and listening\": track mentions and sentiment, find influencers, summarize competitive intel) at mcp.hootsuite.com/lumen, which answered 405 to a HEAD request today (alive; MCP endpoints reject non-POST). Caveats recorded honestly: the Hootsuite page names the server Lumen without the Talkwalker suffix, talkwalker.com itself has no MCP mention, app.talkwalker.com/app/mcp returned 404, and the official MCP registry has no talkwalker entry. The claim is first-party through the parent company, not through talkwalker.com.",
+      "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-only",
-      "mcp_urls": [],
+      "mcp_urls": [
+        "https://www.hootsuite.com/integrations/mcp",
+        "https://mcp.hootsuite.com/lumen"
+      ],
       "source_urls": [
-        "https://www.talkwalker.com"
+        "https://www.talkwalker.com",
+        "https://www.hootsuite.com/integrations/mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "talkwalker.com",
@@ -23547,9 +23602,9 @@
       "heading": "Talkwalker (Lumen by Talkwalker)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 257
+      "display_rank": 138
     }
   ],
-  "content_sha256": "84def5fb51daf19b5df44705b2cb40dc4bc28b517b40b763d275d56f589a0bdd",
-  "source_sha256": "b9fea57ac759f2f6d818bfc9a424d8806736eb286f1479320a926e9a52f27cd6"
+  "content_sha256": "45943543d879a85fe4386a9d6b54611103c3605f10993aa218e5446d86ffba5b",
+  "source_sha256": "4c9cb9310cb9e8c660ed491236b8d803fba65f84f3cff74248ed58962f72b240"
 }

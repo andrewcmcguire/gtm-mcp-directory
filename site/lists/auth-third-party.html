@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GTM MCP servers behind a third party connector platform: 4 tools, counted</title>
-<meta name="description" content="4 of the 165 GTM tools with an MCP server use a third party connector platform&#x27;s auth. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.">
+<meta name="description" content="4 of the 167 GTM tools with an MCP server use a third party connector platform&#x27;s auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/lists/auth-third-party.html">
@@ -42,7 +42,7 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "GTM MCP servers behind a third party connector platform",
-  "description": "4 of the 165 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.",
+  "description": "4 of the 167 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-02.",
   "url": "https://andrewcmcguire.com/gtm-directory/lists/auth-third-party.html",
   "numberOfItems": 4,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
@@ -102,7 +102,7 @@
 <h2>GTM MCP servers behind a third party connector platform</h2>
 <p class="sub">Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives with the platform rather than with either end. The bucket is a keyword match over the mcp_auth field, run at build time, and the verbatim field ships in the row beside it so you can check the parse yourself. Where the two disagree, the verbatim field is the fact and the bucket is the convenience.</p>
 <div class="scroller"><table class="datatable"><thead><tr><th class="">Tool</th><th class="">MCP status</th><th class="">Server URL</th><th class="">mcp_auth, verbatim</th><th class="n">Gate</th></tr></thead><tbody><tr><td class=""><a href="../tools/sendspark.html">Sendspark</a><br><span class="dom">sendspark.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://composio.dev/toolkits/sendspark" rel="noopener nofollow">https://composio.dev/toolkits/sendspark</a></td><td class="">API-key based - Composio&#x27;s page states Sendspark requires the user&#x27;s own API key, which Composio then stores/manages.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/vidyard.html">Vidyard</a><br><span class="dom">vidyard.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://viasocket.com/mcp/vidyard" rel="noopener nofollow">https://viasocket.com/mcp/vidyard</a></td><td class="">Not documented in technical detail on the viaSocket listing (&quot;built-in authentication&quot;). Vidyard&#x27;s own Video Agent REST API (separate from any MCP)...</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/weezly.html">Weezly</a><br><span class="dom">weezly.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/weezly" rel="noopener nofollow">https://zapier.com/mcp/weezly</a></td><td class="">Zapier-mediated connection.</td><td class="n"><a href="../gates/paid.html">Paid, self-serve</a></td></tr><tr><td class=""><a href="../tools/workramp.html">WorkRamp</a><br><span class="dom">workramp.com</span></td><td class=""><a href="../mcp/community.html">Community MCP</a></td><td class=""><a href="https://zapier.com/mcp/workramp" rel="noopener nofollow">https://zapier.com/mcp/workramp</a> <span class="dom">+1 more</span></td><td class="">Rides Zapier&#x27;s/viaSocket&#x27;s own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential.</td><td class="n"><a href="../gates/enterprise-only.html">Enterprise only</a></td></tr></tbody></table></div>
-<p class="note" style="margin-top:30px">Counted 2026-08-28 from directory.json and reconciled
+<p class="note" style="margin-top:30px">Counted 2026-09-02 from directory.json and reconciled
 against tools_recount.py. Nothing on this page is hand maintained: it is a
 filter over the same 293 entries the rest of the site is built from. Ordered by the
 published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.</p>
@@ -114,8 +114,8 @@ published rule: official MCP first, then community, then unknown, then n/a, then
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -158,7 +158,7 @@ published rule: official MCP first, then community, then unknown, then n/a, then
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

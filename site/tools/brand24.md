@@ -82,7 +82,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 
 - [https://brand24.com/pricing/](https://brand24.com/pricing/)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://brand24.com/pricing/
 
@@ -101,6 +101,6 @@ Checked GitHub and PulseMCP for "brand24" - no MCP server found under either off
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

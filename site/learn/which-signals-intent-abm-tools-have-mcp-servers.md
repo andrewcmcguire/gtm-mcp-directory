@@ -1,6 +1,6 @@
 # Signal and intent tools with MCP servers: 18 of 28, counted
 
-> 18 of the 28 signals & intent tools in this directory have an MCP server: 17 official and 1 community. The list with server URLs and access gates. Counted 2026-08-28.
+> 18 of the 28 signals & intent tools in this directory have an MCP server: 17 official and 1 community. The list with server URLs and access gates. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -65,6 +65,8 @@ Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
+- [Koala](../tools/koala.md) MCP not applicable · Paid, self-serve
+Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered...
 - [Albacross](../tools/albacross.md) No MCP found · Paid, self-serve
 Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site behavioral/intent signals, and enriches identified...
 - [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md) No MCP found · Paid, self-serve
@@ -73,8 +75,6 @@ Identifies companies visiting a website via IP-to-company matching, then enriche
 Scrapes LinkedIn in real time (without an official API or user accounts) to extract profile/company data, competitor followers, and post...
 - [Keyplay](../tools/keyplay.md) No MCP found · Paid, self-serve
 Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model...
-- [Koala](../tools/koala.md) No MCP found · Paid, self-serve
-Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered...
 - [Live Data Technologies](../tools/live-data-technologies.md) No MCP found · Paid, self-serve
 Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously re-verifying identities against open-web and...
 - [Vector (vector.co)](../tools/vector.md) No MCP found · Paid, self-serve
@@ -92,7 +92,7 @@ Tracks job changes of a company's past customers and champions as they move to n
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 
-Counted 2026-08-28. Source file 05-signals-intent-abm.md, content sha256 68033ac4219bc4bb...
+Counted 2026-09-02. Source file 05-signals-intent-abm.md, content sha256 58a9de1abd0db31f...
 
 ## Sources
 
@@ -100,7 +100,7 @@ Counted 2026-08-28. Source file 05-signals-intent-abm.md, content sha256 68033ac
 - [Signals & Intent tools with MCP servers](../lists/mcp-signals-intent-abm.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

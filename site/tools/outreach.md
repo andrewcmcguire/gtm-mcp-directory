@@ -1,6 +1,6 @@
 # Outreach: MCP server status, API access gate and what it does
 
-> Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call,... Official MCP, Enterprise only. Checked 2026-08-24.
+> Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call,... Official MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,11 +15,11 @@ Outreach
 [Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [outreach.io (site is mid-transition to outreach.ai)](https://outreach.io (site is mid-transition to outreach.ai)) · entry id 02-outreach · source 02-engagement-outbound.md line 7
+Vendor: [outreach.ai (outreach.io 301s here as of 2026-09-02; the API and MCP endpoints remain on api.outreach.io and support docs on support.outreach.io)](https://outreach.ai (outreach.io 301s here as of 2026-09-02; the API and MCP endpoints remain on api.outreach.io and support docs on support.outreach.io)) · entry id 02-outreach · source 02-engagement-outbound.md line 7
 
 **What it does**
 Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM.
@@ -38,7 +38,7 @@ Core outbound execution layer between prospecting/data tools and CRM - cadence o
 
 - **Parsed URLs**: 2 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
@@ -101,7 +101,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview, https://support.outreach.io/support/solutions/articles/159000426361-where-are-the-outreach-development-portal-and-api-documentation-, https://developers.outreach.io/, https://www.outreach.ai/product, https://www.outreach.ai/pricing
 
 **Notes, verbatim from the file**
-The official MCP server is gated behind the paid "Amplify" add-on plus admin enablement, not a free-for-all connector. Base API access requires requesting developer-portal access; no public self-serve pricing found, so api_gate is left unknown rather than assumed. Community/read-only alternatives also exist (github.com/ZLeventer/outreach-mcp-server, github.com/CDataSoftware/outreach.io-mcp-server-by-cdata). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.outreach.ai/pricing): all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team.
+The official MCP server is gated behind the paid "Amplify" add-on plus admin enablement, not a free-for-all connector. Base API access requires requesting developer-portal access; no public self-serve pricing found, so api_gate is left unknown rather than assumed. Community/read-only alternatives also exist (github.com/ZLeventer/outreach-mcp-server, github.com/CDataSoftware/outreach.io-mcp-server-by-cdata). [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.outreach.ai/pricing): all four Amplify tiers list API call allowances of 250,000 to 1,000,000 plus Outreach MCP, but no prices are published and every tier routes to custom pricing from the sales team. 2026-09-02: vendor_url corrected from outreach.io to outreach.ai. https://www.outreach.ai/pricing loaded on that domain today with four tiers named Amplify Essentials, Amplify Core, Amplify Plus and Amplify Pro, each listing "Outreach MCP (Server & Client)" plus 250,000, 250,000, 500,000 and 1,000,000 API calls respectively. The MCP overview at https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview still resolves and still documents the endpoint https://api.outreach.io/mcp with OAuth 2.1 and Dynamic Client Registration, requiring the Amplify add-on with active credits and a licensed seat. mcp_status official unchanged.
 
 **Provenance**
 
@@ -113,8 +113,8 @@ The official MCP server is gated behind the paid "Amplify" add-on plus admin ena
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

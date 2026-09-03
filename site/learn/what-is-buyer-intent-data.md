@@ -28,7 +28,7 @@ Intent is sold as one thing and is at least four. Knowing which one you are buyi
 
 ## What an agent can actually fetch
 
-30 entries are tagged [fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md). Of those, 18 have an official MCP server, 10 have none found, and 13 are reachable by a solo operator without a contract. The category they mostly live in, Signals & Intent, carries 10 enterprise only entries out of 28, the second highest enterprise gate share in this directory.
+30 entries are tagged [fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md). Of those, 19 have an official MCP server, 9 have none found, and 13 are reachable by a solo operator without a contract. The category they mostly live in, Signals & Intent, carries 10 enterprise only entries out of 28, the second highest enterprise gate share in this directory.
 
 That combination is the honest summary of intent data as a category: technically callable, often commercially closed.
 
@@ -42,7 +42,7 @@ Identifies companies visiting a website via IP-to-company matching, tracks page-
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals...
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
-- [Amplemarket](../tools/amplemarket.md) No MCP found · Enterprise leaning
+- [Amplemarket](../tools/amplemarket.md) Official MCP · Enterprise leaning
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
 - [Factors.ai](../tools/factors-ai.md) Official MCP · Paid, self-serve
 De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party...
@@ -62,7 +62,7 @@ Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions
 - [The GTM MCP Directory, Signals and Intent](../categories/signals-intent-abm.md) this site
 - [The GTM MCP Directory, fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

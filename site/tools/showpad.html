@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Showpad: MCP server status, API access gate and what it does</title>
-<meta name="description" content="Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven... No MCP found, Enterprise only. Checked 2026-08-24.">
+<meta name="description" content="Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven... Official MCP, Enterprise only. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/showpad.html">
@@ -33,6 +33,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://developer.showpad.com/docs/integrations/platform-independent/mcp"
   }
 }
 </script>
@@ -89,11 +93,11 @@ Showpad</div>
 <div class="toolhead">
 <h1>Showpad</h1>
 <div class="badges">
-<a class="badge copper" href="../mcp/none-found.html">No MCP found</a>
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
 <a class="badge copper" href="../gates/enterprise-only.html">Enterprise only</a>
 <a class="badge mute flat" href="../categories/enablement-coaching.html">Enablement &amp; Coaching</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -103,25 +107,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 11-showpad &middot; source
 11-enablement-coaching.md line 216</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified &quot;Showpad Genie&quot; AI layer.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Genie Assistant (in-platform Q&amp;A), Roleplay AI (practice conversations for seller training), Authoring AI (content-creation assist), and a &quot;Field Seller Agent&quot; - vendor describes Genie as &quot;the platform&#x27;s AI core that learns how your company wins,&quot; but no independent technical detail confirms whether Roleplay AI runs dynamic buyer personas (like Second Nature/Hyperbound) or more scripted practice flows.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Content-plus-coaching hub with a documented developer portal, positioned similarly to Allego/Bigtincan/Highspot as an enablement platform layering AI features onto a content-management core.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">No MCP found</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">OAuth; the docs say each end user authenticates with their own Showpad credentials and can only search and retrieve content they are already authorized to view. Access is beta and routed through the Account Manager; the pricing page lists Remote MCP Server under the Expert tier.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">3 found in the mcp_url field</div></div>
 </div>
-<p class="note" style="margin-top:14px">No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
-The status was established on 2026-08-24 and has not been re-fetched since.</p>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-09-02 and has not been re-fetched since.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">none-found</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">n/a</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://developer.showpad.com/docs/integrations/platform-independent/mcp (first-party docs; remote endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1)</p><ul><li><a href="https://developer.showpad.com/docs/integrations/platform-independent/mcp" rel="noopener nofollow">https://developer.showpad.com/docs/integrations/platform-independent/mcp</a></li><li><a href="https://mcp.showpad.com/mcp/v1" rel="noopener nofollow">https://mcp.showpad.com/mcp/v1</a></li><li><a href="https://yourcompany.showpad.biz/mcp/v1" rel="noopener nofollow">https://yourcompany.showpad.biz/mcp/v1</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>enterprise-only (the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/retrieve-sales-content.html">Retrieve sales content</a></li><li><a href="../jobs/score-rep-performance.html">Score rep performance</a></li><li><a href="../jobs/run-sales-roleplay-practice.html">Run a sales roleplay practice</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.showpad.com" rel="noopener nofollow">https://www.showpad.com</a></li><li><a href="https://developer.showpad.com" rel="noopener nofollow">https://developer.showpad.com</a></li><li><a href="https://www.showpad.com/pricing/" rel="noopener nofollow">https://www.showpad.com/pricing/</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -&gt; enterprise-only from the vendor&#x27;s own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>enterprise-only (the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/retrieve-sales-content.html">Retrieve sales content</a></li><li><a href="../jobs/score-rep-performance.html">Score rep performance</a></li><li><a href="../jobs/run-sales-roleplay-practice.html">Run a sales roleplay practice</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.showpad.com" rel="noopener nofollow">https://www.showpad.com</a></li><li><a href="https://developer.showpad.com" rel="noopener nofollow">https://developer.showpad.com</a></li><li><a href="https://www.showpad.com/pricing/" rel="noopener nofollow">https://www.showpad.com/pricing/</a></li><li><a href="https://developer.showpad.com/docs/integrations/platform-independent/mcp" rel="noopener nofollow">https://developer.showpad.com/docs/integrations/platform-independent/mcp</a></li><li><a href="https://developer.showpad.com/news/mcp-tools" rel="noopener nofollow">https://developer.showpad.com/news/mcp-tools</a></li></ul><p class="note">5 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/, https://developer.showpad.com/docs/integrations/platform-independent/mcp, https://developer.showpad.com/news/mcp-tools</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -&gt; enterprise-only from the vendor&#x27;s own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase. 2026-09-02: mcp_status none-found -&gt; official. developer.showpad.com loaded without the earlier 403, its homepage says &quot;connect AI assistants with Showpad MCP&quot;, and its sitemap lists https://developer.showpad.com/docs/integrations/platform-independent/mcp, a first-party docs page for a remotely hosted Showpad MCP: endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1, OAuth per end user with Showpad permissions enforced, 8 text tools (search, fetch, showpad_showql_guide, showpad_showql_filter, showpad_ask_a_question, showpad_whoami, showpad_shared_spaces_list, showpad_shared_spaces_get, showpad_shared_spaces_get_engagement) plus 3 MCP Apps widgets, with Claude Code and ChatGPT named as clients. The docs call it beta and route access via &quot;Contact your Account Manager&quot;; a July 2026 news item (https://developer.showpad.com/news/mcp-tools) says the article now carries the full tool reference. The &quot;no MCP server found&quot; sentence above is superseded.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">11-showpad</div></div>
 <div><div class="bk">Source file</div><div class="bv">11-enablement-coaching.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">216</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -133,8 +137,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -177,7 +181,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

@@ -1,6 +1,6 @@
 # Email Deliverability tools with MCP servers: 4 of 13, counted
 
-> 4 of the 13 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
+> 4 of the 13 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -35,10 +35,10 @@ No server found, or the check could not settle it. Same category, not reachable 
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
-| [Warmup Inbox](../tools/warmup-inbox.md)
-warmupinbox.com | [MCP unknown](../mcp/unknown.md) | [Free to start](../gates/free.md) | 2026-08-24 |
 | [Scaledmail](../tools/scaledmail.md)
 scaledmail.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-08-24 |
+| [Warmup Inbox](../tools/warmup-inbox.md)
+warmupinbox.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
 | [GlockApps](../tools/glockapps.md)
 glockapps.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Hypertide](../tools/hypertide.md)
@@ -50,7 +50,7 @@ mailgenius.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../ga
 | [Mailreach](../tools/mailreach.md)
 mailreach.co | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Warmy.io](../tools/warmy-io.md)
-warmy.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
+warmy.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Folderly](../tools/folderly.md)
 folderly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 
@@ -63,4 +63,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Check inbox placement](../jobs/check-inbox-placement.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

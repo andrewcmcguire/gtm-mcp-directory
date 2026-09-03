@@ -1,6 +1,6 @@
 # Which call recording tools can an AI agent fetch transcripts from? Counted
 
-> 14 of the 20 GTM tools tagged with this job ship an official MCP server, 11 are reachable without a contract. The full list, counted 2026-08-28.
+> 15 of the 20 GTM tools tagged with this job ship an official MCP server, 11 are reachable without a contract. The full list, counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-20 products in this directory are tagged with this job. 14 of the 20 tagged entries have an official MCP server and 3 have a community one, so an agent can call 17 of them directly. 11 are reachable by one person without a contract. Counted 2026-08-28.
+20 products in this directory are tagged with this job. 15 of the 20 tagged entries have an official MCP server and 3 have a community one, so an agent can call 18 of them directly. 11 are reachable by one person without a contract. Counted 2026-09-02.
 
 A transcript is the only place most of what a buyer actually said is written down, which makes this the highest value read in the whole stack for an agent preparing for a call or writing a follow up.
 
@@ -26,15 +26,17 @@ It is also the most sensitive. A transcript contains other people's words, recor
 |---|---|---|
 | Entries tagged fetch-call-transcript | 20 | of 293 directory entries |
 | Distinct products | 20 | the rest are cross listings |
-| Official MCP server | 14 | vendor built and maintained |
+| Official MCP server | 15 | vendor built and maintained |
 | Community MCP server | 3 | built by somebody else |
-| No server found | 3 | on the date each entry was checked |
+| No server found | 2 | on the date each entry was checked |
 | Free to start | 3 | no payment, no sales call |
 | Solo reachable | 11 | free or paid self serve |
 | Bench tested | 0 | somebody here actually ran it |
 
 ## The ones with an official MCP server
 
+- [Fathom](../tools/fathom.md) Official MCP · Free to start
+Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 - [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
 Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 - [MeetGeek](../tools/meetgeek.md) Official MCP · Free to start
@@ -57,19 +59,17 @@ Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering o
 Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts.
 - [Highspot](../tools/highspot.md) Official MCP · Enterprise only
 Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its...
-- [Otter.ai](../tools/otter-ai.md) Official MCP · Enterprise only
-AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections, competitor mentions, and pricing discussion...
 
-2 more are on the linked page. The cut is the display limit, not a ranking.
+3 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The ones with a free tier
 
+- [Fathom](../tools/fathom.md) Official MCP · Free to start
+Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 - [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
 Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 - [MeetGeek](../tools/meetgeek.md) Official MCP · Free to start
 Automatic meeting recorder and transcriber that produces summaries, highlights and conversation analytics across Zoom, Teams and Meet.
-- [Fathom](../tools/fathom.md) Community MCP · Free to start
-Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 
 ## What this list is not
 
@@ -81,7 +81,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

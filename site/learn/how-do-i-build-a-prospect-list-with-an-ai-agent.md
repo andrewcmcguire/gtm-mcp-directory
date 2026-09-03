@@ -22,11 +22,11 @@ The chain is: define the account criteria, search a company database, enrich eac
 |---|---|---|---|---|
 | Build the target account list | [build a target account list](../jobs/build-target-account-list.md) | 7 | 4 | 1 |
 | Search companies by firmographics | [search companies by firmographics](../jobs/search-companies-by-firmographics.md) | 15 | 12 | 4 |
-| Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 14 |
-| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 15 | 6 |
-| Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 15 | 4 |
+| Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 14 |
+| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 16 | 6 |
+| Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 13 | 4 |
 
-Counted 2026-08-28. Entry counts rather than product counts.
+Counted 2026-09-02. Entry counts rather than product counts.
 
 ## Where it is thin
 
@@ -66,7 +66,7 @@ Building the list and sending to it are different decisions. Keep the send behin
 - [The GTM MCP Directory, by job](../jobs/index.md) this site
 - [The GTM MCP Directory, Data and Enrichment](../categories/data-enrichment.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

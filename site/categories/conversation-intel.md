@@ -1,6 +1,6 @@
-# Conversation Intel: 24 tools, 17 with an official MCP server
+# Conversation Intel: 24 tools, 18 with an official MCP server
 
-> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 24 tools counted, 17 with an official MCP server and 3 free to start.
+> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 24 tools counted, 18 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,9 +16,9 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 
 - **entries in this file**: 24
 
-- **Official MCP**: 17
+- **Official MCP**: 18
 - **Community MCP**: 3
-- **No MCP found**: 4
+- **No MCP found**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 9
@@ -26,14 +26,16 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Enterprise only**: 8
 - **Gate unknown**: 2
 
-Source file: 03-conversation-intel.md · content sha256 107151b06c156c28... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 58e3e83220844b8a... · counts reconciled against tools_recount.py at build time.
 
-- [The 20 with an MCP server](../lists/mcp-conversation-intel.md)
+- [The 21 with an MCP server](../lists/mcp-conversation-intel.md)
 
 - [Summarize a meeting](../jobs/summarize-meeting.md)
 - [Fetch a call transcript](../jobs/fetch-call-transcript.md)
 - [Extract deal signals from calls](../jobs/extract-deal-signals-from-calls.md)
 - [Write CRM records](../jobs/write-crm-records.md)
+
+- [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Fireflies.ai](../tools/fireflies-ai.md) fireflies.ai Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and CRM writeback. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
@@ -69,13 +71,11 @@ Source file: 03-conversation-intel.md · content sha256 107151b06c156c28... · c
 
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) zoom.com Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account activity. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 
-- [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md)
-
 - [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Momentum](../tools/momentum.md) momentum.io Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration"). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 

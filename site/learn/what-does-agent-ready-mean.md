@@ -20,7 +20,7 @@ This site does not use agent ready as a rating, because a rating nobody can repr
 
 ## The four checks
 
-- **Is there a server at all.** 144 of 293 entries have an official one, 21 have a community one, 117 had none found on the date checked, and 7 could not be settled.
+- **Is there a server at all.** 147 of 293 entries have an official one, 20 have a community one, 110 had none found on the date checked, and 11 could not be settled.
 
 - **Who maintains it.** Official means first party. A wrapper built by a third party integration platform does not count here no matter how well it works, because the failure mode is different: a community server can be abandoned without the vendor ever noticing.
 
@@ -44,7 +44,7 @@ Agent ready is in active commercial use as product language by at least one larg
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

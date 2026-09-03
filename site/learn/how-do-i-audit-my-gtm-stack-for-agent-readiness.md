@@ -32,7 +32,7 @@ A stack audit by category tells you what you bought. An audit by job tells you w
 
 ## The three numbers to write at the top
 
-- **Reachable share.** How many of your tools an agent can call at all. The directory wide figure is 56%, so anything above that is a good stack for this.
+- **Reachable share.** How many of your tools an agent can call at all. The directory wide figure is 57%, so anything above that is a good stack for this.
 
 - **The broken link.** The one job in your critical chain with no coverage. There is almost always exactly one, and it is worth more attention than the other nine.
 
@@ -48,7 +48,7 @@ Re-run it quarterly. This is the fastest moving column in the whole dataset: the
 - [The GTM MCP Directory, the counted data](../data.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

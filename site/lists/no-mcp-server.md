@@ -1,16 +1,16 @@
-# GTM tools with no MCP server: 117 of 293 checked
+# GTM tools with no MCP server: 110 of 293 checked
 
-> 117 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-08-28.
+> 110 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 117 GTM tools with no MCP server found
+[The lists](index.md) / The 110 GTM tools with no MCP server found
 
-**List · 117 of 293**
+**List · 110 of 293**
 
-## The 117 GTM tools with no MCP server found
+## The 110 GTM tools with no MCP server found
 
 None found is a statement about a search on a date, not a promise that no server exists. Each row carries the date its entry was last checked. A vendor who shipped a server the week after that date is recorded here until the next pass, which is exactly why every entry ships its own last_checked stamp instead of one site wide date.
 
@@ -36,6 +36,8 @@ recapped.io | [Proposals & Deals](../categories/proposals-deals.md) | Digital sa
 scaledmail.com | [Email Deliverability](../categories/email-deliverability.md) | Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and... | [Free to start](../gates/free.md) | 2026-08-24 |
 | [Tidio](../tools/tidio.md)
 tidio.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Customer-service platform combining live chat, a help desk, and an AI agent ("Lyro") that resolves routine support/sales... | [Free to start](../gates/free.md) | 2026-08-24 |
+| [Warmup Inbox](../tools/warmup-inbox.md)
+warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | Email warmup and deliverability platform running a network of 30,000+ real inboxes that exchange natural-looking email (opens,... | [Free to start](../gates/free.md) | 2026-09-02 |
 | [AiSDR](../tools/aisdr.md)
 aisdr.com | [AI SDRs](../categories/ai-sdr-agents.md) | An AI sales agent that researches prospects via "Live AI search," writes and sends personalized email/LinkedIn outreach,... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Albacross](../tools/albacross.md)
@@ -52,8 +54,6 @@ claralabs.com | [Scheduling & Routing](../categories/scheduling-routing.md) | AI
 clearbit.com | [Signals & Intent](../categories/signals-intent-abm.md) | Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Dubb](../tools/dubb.md)
 dubb.com | [Video Prospecting](../categories/video-prospecting.md) | Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Expandi](../tools/expandi.md)
-expandi.io | [Engagement & Outbound](../categories/engagement-outbound.md) | Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Exploding Topics (Exploding Topics Pro)](../tools/exploding-topics.md)
 explodingtopics.com | [Community & Dark Social](../categories/community-dark-social.md) | Surfaces topics, products, and search queries showing accelerating growth in interest before they go mainstream, by tracking... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Forecastio](../tools/forecastio.md)
@@ -80,8 +80,6 @@ kixie.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Sale
 klenty.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot,... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Klenty](../tools/klenty.md)
 klenty.com | [AI SDRs](../categories/ai-sdr-agents.md) | A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Koala](../tools/koala.md)
-getkoala.com | [Signals & Intent](../categories/signals-intent-abm.md) | Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Live Data Technologies](../tools/live-data-technologies.md)
 livedatatechnologies.com | [Signals & Intent](../categories/signals-intent-abm.md) | Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously re-verifying identities... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [MailGenius](../tools/mailgenius.md)
@@ -107,9 +105,7 @@ trainual.com | [Enablement & Coaching](../categories/enablement-coaching.md) | S
 | [Vector (vector.co)](../tools/vector.md)
 vector.co | [Signals & Intent](../categories/signals-intent-abm.md) | Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Warmy.io](../tools/warmy-io.md)
-warmy.io | [Email Deliverability](../categories/email-deliverability.md) | Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up topic/language selection,... | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Amplemarket](../tools/amplemarket.md)
-amplemarket.com | [Engagement & Outbound](../categories/engagement-outbound.md) | An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and... | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-08-24 |
+warmy.io | [Email Deliverability](../categories/email-deliverability.md) | Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up topic/language selection,... | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Hippo Video](../tools/hippo-video.md)
 hippovideo.io | [Video Prospecting](../categories/video-prospecting.md) | Video engagement platform for sales teams to record, automate, and personalize video outreach at scale, merging prospect... | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-08-24 |
 | [11x (Alice)](../tools/11x.md)
@@ -126,8 +122,6 @@ bombora.com | [Signals & Intent](../categories/signals-intent-abm.md) | Detects 
 terret.ai | [Forecasting & Revenue](../categories/forecasting-revenue.md) | AI revenue-intelligence and pipeline-forecasting platform that ingests CRM, email, call, and calendar data to produce forecasts... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Champify](../tools/champify.md)
 champify.io | [Signals & Intent](../categories/signals-intent-abm.md) | Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Chorus](../tools/chorus.md)
-zoominfo.com | [Conversation Intel](../categories/conversation-intel.md) | Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md)
 hubspot.com | [Data & Enrichment](../categories/data-enrichment.md) | A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Cognism](../tools/cognism.md)
@@ -174,12 +168,6 @@ rilla.com | [Conversation Intel](../categories/conversation-intel.md) | AI speec
 salesforce.com | [AI SDRs](../categories/ai-sdr-agents.md) | A prebuilt agent within Salesforce's Agentforce platform intended to handle inbound lead engagement and outbound prospecting... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md)
 salesforce.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | Sales Cloud's AI forecasting feature, analyzing past opportunities, account history, and activities plus rep win-rates to... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Showpad](../tools/showpad.md)
-showpad.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Spekit](../tools/spekit.md)
-spekit.com | [Enablement & Coaching](../categories/enablement-coaching.md) | In-app digital adoption and sales-enablement platform that surfaces contextual "Speks" (bite-sized content, process guidance,... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
-| [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md)
-talkwalker.com | [Community & Dark Social](../categories/community-dark-social.md) | Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Terret (BoostUp)](../tools/terret.md)
 terret.ai | [AI SDRs](../categories/ai-sdr-agents.md) | A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns,... | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Tofu](../tools/tofu.md)
@@ -199,17 +187,15 @@ getclockwise.com | [Scheduling & Routing](../categories/scheduling-routing.md) |
 | [Commsor](../tools/commsor.md)
 commsor.com | [Community & Dark Social](../categories/community-dark-social.md) | Was a community-led-growth platform for converting professional-network relationships and referral/warm-intro paths into... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Dialworks](../tools/dialworks.md)
-dialworks.io | [Enablement & Coaching](../categories/enablement-coaching.md) | Sales and support training platform running mock calls, simulated training scenarios, AI call assessment, and analytics/reporting... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+dialworks.io | [Enablement & Coaching](../categories/enablement-coaching.md) | Sales and support training platform running mock calls, simulated training scenarios, AI call assessment, and analytics/reporting... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Doodle](../tools/doodle.md)
 doodle.com | [Scheduling & Routing](../categories/scheduling-routing.md) | General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Drift](../tools/drift.md)
-drift.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
+drift.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Folderly](../tools/folderly.md)
 folderly.com | [Email Deliverability](../categories/email-deliverability.md) | Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Hyperbound](../tools/hyperbound.md)
 hyperbound.ai | [Enablement & Coaching](../categories/enablement-coaching.md) | AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI buyer in minutes,... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
-| [Klavis AI](../tools/klavis-ai.md)
-klavis.ai | [MCP Layer](../categories/mcp-infrastructure.md) | Primarily an AI-agent training-data company - it builds "live environments for training AI agents" (long-horizon coding tasks and... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Kronologic](../tools/kronologic.md)
 kronologic.com | [Scheduling & Routing](../categories/scheduling-routing.md) | Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's behalf and negotiates... | [Gate unknown](../gates/unknown.md) | 2026-08-24 |
 | [Lavender](../tools/lavender.md)
@@ -251,4 +237,4 @@ toplyne.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | unknown i
 | [Ultimate.ai (Ultimate)](../tools/ultimate-ai.md)
 getultimate.ai | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving support tickets)... | [Gate not applicable](../gates/n-a.md) | 2026-08-24 |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

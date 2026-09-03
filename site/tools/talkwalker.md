@@ -1,6 +1,6 @@
 # Talkwalker (rebranded: Lumen by Talkwalker): MCP server status, API access gate and what it does
 
-> Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel... No MCP found, Enterprise only. Checked 2026-08-24.
+> Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel... Official MCP, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Talkwalker (rebranded: Lumen by Talkwalker)
 
 # Talkwalker (rebranded: Lumen by Talkwalker)
 
-[No MCP found](../mcp/none-found.md)
+[Official MCP](../mcp/official.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,24 @@ Enterprise media-intelligence peer to Brandwatch/Meltwater, notable mainly for i
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: Official MCP
 
-- **Auth**: n/a
+- **Auth**: Sign in with a Hootsuite workspace when prompted; the Hootsuite MCP page says authorization is one-time.
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-none-found
+official
 
 mcp_url, verbatim from the file:
 
-none
+https://www.hootsuite.com/integrations/mcp (the Lumen server, endpoint https://mcp.hootsuite.com/lumen, published by parent company Hootsuite)
+
+- [https://www.hootsuite.com/integrations/mcp](https://www.hootsuite.com/integrations/mcp)
+- [https://mcp.hootsuite.com/lumen](https://mcp.hootsuite.com/lumen)
 
 **Access gate**
 
@@ -81,13 +84,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 **Sources**
 
 - [https://www.talkwalker.com](https://www.talkwalker.com)
+- [https://www.hootsuite.com/integrations/mcp](https://www.hootsuite.com/integrations/mcp)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://www.talkwalker.com
+https://www.talkwalker.com, https://www.hootsuite.com/integrations/mcp
 
 **Notes, verbatim from the file**
-Talkwalker has rebranded as "Lumen by Talkwalker" as part of a stated consolidation with Hootsuite ("bring Hootsuite and Talkwalker closer together") - worth noting for anyone still searching under the old standalone "Talkwalker" name. Checked GitHub - no MCP server found.
+Talkwalker has rebranded as "Lumen by Talkwalker" as part of a stated consolidation with Hootsuite ("bring Hootsuite and Talkwalker closer together") - worth noting for anyone still searching under the old standalone "Talkwalker" name. Checked GitHub - no MCP server found. 2026-09-02: mcp_status none-found -> official. talkwalker.com still states "Talkwalker is now Lumen by Talkwalker", and Hootsuite's MCP page https://www.hootsuite.com/integrations/mcp lists four servers including Lumen ("Insights and listening": track mentions and sentiment, find influencers, summarize competitive intel) at mcp.hootsuite.com/lumen, which answered 405 to a HEAD request today (alive; MCP endpoints reject non-POST). Caveats recorded honestly: the Hootsuite page names the server Lumen without the Talkwalker suffix, talkwalker.com itself has no MCP mention, app.talkwalker.com/app/mcp returned 404, and the official MCP registry has no talkwalker entry. The claim is first-party through the parent company, not through talkwalker.com.
 
 **Provenance**
 
@@ -99,8 +103,8 @@ Talkwalker has rebranded as "Lumen by Talkwalker" as part of a stated consolidat
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

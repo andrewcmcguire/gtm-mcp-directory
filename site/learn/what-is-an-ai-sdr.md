@@ -1,6 +1,6 @@
 # What is an AI SDR? The definition, and the MCP gap in the category
 
-> An AI SDR is software that runs the top of the sales funnel end to end. 23 of them are in this directory and 4 ship an official MCP server. Counted 2026-08-28.
+> An AI SDR is software that runs the top of the sales funnel end to end. 23 of them are in this directory and 4 ship an official MCP server. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Treat two claims separately. Whether the software can run the workflow, which ve
 
 There are 23 AI SDR entries here. **4 have an official MCP server** and 17 have none found. 3 do not publish enough for the access gate to be established at all.
 
-That is the inversion this directory keeps running into. A category built on the promise of autonomous software is, as a group, the least callable by anybody else's autonomous software. If you want an agent you control to drive the workflow rather than buying one that drives itself, the parts you can actually assemble sit in enrichment, signals and RevOps infrastructure, where the official server counts are 31, 17 and 22 respectively.
+That is the inversion this directory keeps running into. A category built on the promise of autonomous software is, as a group, the least callable by anybody else's autonomous software. If you want an agent you control to drive the workflow rather than buying one that drives itself, the parts you can actually assemble sit in enrichment, signals and RevOps infrastructure, where the official server counts are 31, 17 and 21 respectively.
 
 ## The tools tagged with the autonomous SDR job
 
@@ -55,7 +55,7 @@ An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personal
 - [The GTM MCP Directory, how an entry is made](../methodology.md) this site
 - [Brendan J Short, The Signal](https://www.thesignal.club) https://www.thesignal.club
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

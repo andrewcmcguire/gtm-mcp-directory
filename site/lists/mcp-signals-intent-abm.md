@@ -1,6 +1,6 @@
 # Signals & Intent tools with MCP servers: 18 of 28, counted
 
-> 18 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 17 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
+> 18 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 17 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -79,6 +79,8 @@ No server found, or the check could not settle it. Same category, not reachable 
 |---|---|---|---|
 | [Centralize](../tools/centralize.md)
 usecentralize.com | [MCP unknown](../mcp/unknown.md) | [Free to start](../gates/free.md) | 2026-08-25 |
+| [Koala](../tools/koala.md)
+getkoala.com | [MCP not applicable](../mcp/n-a.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Albacross](../tools/albacross.md)
 albacross.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md)
@@ -87,8 +89,6 @@ clearbit.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gate
 getintently.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Keyplay](../tools/keyplay.md)
 keyplay.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
-| [Koala](../tools/koala.md)
-getkoala.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Live Data Technologies](../tools/live-data-technologies.md)
 livedatatechnologies.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-08-24 |
 | [Vector (vector.co)](../tools/vector.md)
@@ -109,4 +109,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

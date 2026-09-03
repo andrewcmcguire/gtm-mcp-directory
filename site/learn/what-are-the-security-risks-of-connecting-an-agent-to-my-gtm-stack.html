@@ -87,7 +87,7 @@
 <p>An MCP server does what your credential allows, not what the tool description says. A CRM key
 scoped to full access does not become read only because the agent was only asked to read. Scope the
 credential at the vendor, not in the prompt. Of the
-165 servers counted here,
+167 servers counted here,
 <a href="../lists/auth-oauth.html">the OAuth ones</a> are the better shape for this: the token is
 scoped and revocable from the vendor side without touching the agent's config.</p>
 <h2>2. Tool output is untrusted input</h2>
@@ -98,7 +98,7 @@ most GTM specific risk on this list, because the entire job involves ingesting t
 Keep destructive tools behind human approval and do not let a research step and a send step share an
 unsupervised loop.</p>
 <h2>3. A community server is somebody's code on your machine</h2>
-<p>21 entries here have a community server, and a locally installed
+<p>20 entries here have a community server, and a locally installed
 server runs with your user's permissions. Read who published it, whether the vendor acknowledges it,
 and what it wants access to. The repo health rail that would date stamp each one has not been run
 for this build, so this directory publishes no staleness claim at all rather than a stale one.</p>
@@ -120,7 +120,7 @@ tool page first.</li>
 <h2>Sources</h2>
 <ul class="srcs"><li><a href="https://modelcontextprotocol.io/specification" rel="noopener nofollow">Model Context Protocol, the specification</a> <span class="dom">https://modelcontextprotocol.io/specification</span></li><li><a href="https://modelcontextprotocol.io" rel="noopener nofollow">Model Context Protocol, official documentation</a> <span class="dom">https://modelcontextprotocol.io</span></li><li><a href="../lists/auth-types.html">The GTM MCP Directory, servers by auth type</a> <span class="dom">this site</span></li></ul>
 <p class="note">Every number on this page is generated from directory.json at build time and carries
-the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is
+the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is
 estimated. The underlying data is <a href="../data.html">published in full</a>. Where the honest
 answer is a zero, the zero is printed.</p>
 <h2>Related questions</h2><ul class="srcs"><li><a href="which-gtm-mcp-servers-use-oauth.html">Which GTM MCP servers use OAuth instead of an API key?</a></li><li><a href="stdio-vs-remote-mcp-servers.html">What is the difference between a local and a remote MCP server?</a></li><li><a href="how-do-i-stop-an-agent-writing-bad-data-to-my-crm.html">How do I stop an AI agent writing bad data to my CRM?</a></li><li><a href="can-an-ai-agent-send-email-on-my-behalf.html">Can an AI agent send email on my behalf?</a></li></ul>
@@ -134,8 +134,8 @@ answer is a zero, the zero is printed.</p>
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -178,7 +178,7 @@ answer is a zero, the zero is printed.</p>
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

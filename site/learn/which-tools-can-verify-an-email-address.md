@@ -1,6 +1,6 @@
 # Which email verification tools can an AI agent call? Counted
 
-> 11 of the 15 GTM tools tagged with this job ship an official MCP server, 14 are reachable without a contract. The full list, counted 2026-08-28.
+> 12 of the 15 GTM tools tagged with this job ship an official MCP server, 14 are reachable without a contract. The full list, counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-15 products in this directory are tagged with this job. 11 of the 15 tagged entries have an official MCP server and 3 have a community one, so an agent can call 14 of them directly. 14 are reachable by one person without a contract. Counted 2026-08-28.
+15 products in this directory are tagged with this job. 12 of the 15 tagged entries have an official MCP server and 2 have a community one, so an agent can call 14 of them directly. 14 are reachable by one person without a contract. Counted 2026-09-02.
 
 Verification is the step between finding an address and sending to it, and skipping it is how a sending domain gets burned. It is also the cheapest step in the chain to automate properly, because the answer is a boolean and the cost of being wrong is asymmetric.
 
@@ -24,8 +24,8 @@ Verification is the step between finding an address and sending to it, and skipp
 |---|---|---|
 | Entries tagged verify-email-deliverable | 15 | of 293 directory entries |
 | Distinct products | 15 | the rest are cross listings |
-| Official MCP server | 11 | vendor built and maintained |
-| Community MCP server | 3 | built by somebody else |
+| Official MCP server | 12 | vendor built and maintained |
+| Community MCP server | 2 | built by somebody else |
 | No server found | 1 | on the date each entry was checked |
 | Free to start | 6 | no payment, no sales call |
 | Solo reachable | 14 | free or paid self serve |
@@ -49,6 +49,8 @@ B2B email verification and deliverability platform - resolves catch-all/secure-e
 A credit-based B2B data lookup service where you feed in a company name, domain, LinkedIn URL, or person and get back an enriched company or contact...
 - [Dropcontact](../tools/dropcontact.md) Official MCP · Paid, self-serve
 A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name plus company (name, domain, or LinkedIn...
+- [Smartlead](../tools/smartlead.md) Official MCP · Paid, self-serve
+Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox.
 - [Snov.io](../tools/snov-io.md) Official MCP · Paid, self-serve
 A B2B prospecting and outreach platform - finds and verifies emails/contacts, enriches company and contact records, manages prospect lists and a...
 - [Versium REACH](../tools/versium-reach.md) Official MCP · Paid, self-serve
@@ -81,7 +83,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

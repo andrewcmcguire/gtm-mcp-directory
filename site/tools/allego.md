@@ -1,6 +1,6 @@
 # Allego: MCP server status, API access gate and what it does
 
-> Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and... Official MCP, Enterprise only. Checked 2026-08-24.
+> Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and... MCP unknown, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Allego
 
 # Allego
 
-[Official MCP](../mcp/official.md)
+[MCP unknown](../mcp/unknown.md)
 [Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,21 @@ Content-and-deal-intelligence hub positioned to feed AI copilots (Salesforce Ein
 
 **MCP server**
 
-- **Status bucket**: Official MCP
+- **Status bucket**: MCP unknown
 
 - **Auth**: unknown - vendor material states the MCP server connects to Salesforce Einstein, Microsoft Copilot, and enterprise self-hosted copilots with "built-in access control enforcement," but does not disclose the credential/auth mechanism.
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-official
+unknown
 
 mcp_url, verbatim from the file:
 
-https://www.allego.com/platform/integrations/ (Allego 9 "MCP API Server," announced with Allego 9's June 2026 GA; no separate technical-docs URL or endpoint was found)
+n/a (the only first-party surfaces are marketing pages, https://www.allego.com/platform/integrations/ and the Allego 9 press release, which name an "Allego MCP API Server" but publish no docs, endpoint, or setup guide)
 
 - [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/)
 
@@ -92,7 +92,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/, https://www.allego.com/platform/integrations/, https://checkthat.ai/brands/allego/pricing, https://www.allego.com/pricing/
 
 **Notes, verbatim from the file**
-mcp_status is "official" because Allego's own site names and describes the "Allego MCP API Server" as a shipped Allego 9 feature - but no dedicated technical-docs URL, GitHub repo, or reachable endpoint was found in this pass; the integrations page is the only citable source. Re-verify with a direct docs URL before using this one on camera. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.allego.com/pricing/): no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site.
+mcp_status is "official" because Allego's own site names and describes the "Allego MCP API Server" as a shipped Allego 9 feature - but no dedicated technical-docs URL, GitHub repo, or reachable endpoint was found in this pass; the integrations page is the only citable source. Re-verify with a direct docs URL before using this one on camera. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.allego.com/pricing/): no prices published - per-user-per-month billed annually on standard three-year agreements, get-pricing only - and the platform page names an Allego MCP API Server with no self-serve signup or developer portal anywhere on the site. 2026-09-02: mcp_status official -> unknown. Re-fetched https://www.allego.com/platform/integrations/ ("The Allego MCP API Server connects your deal intelligence, content, and enablement directly into any MCP-compatible AI copilot") and https://www.allego.com/news/allego-9-ai-revenue-enablement-platform/ today: both name the server, neither links to documentation, an endpoint, or a setup guide, and the official MCP registry has no allego entry. A marketing sentence is not a receipt under law 1, so the earlier reasoning is retracted and the claim is held at unknown until Allego publishes a connectable URL.
 
 **Provenance**
 
@@ -104,8 +104,8 @@ mcp_status is "official" because Allego's own site names and describes the "Alle
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

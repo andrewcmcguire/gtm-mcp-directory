@@ -22,23 +22,23 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 
 | Layer | Tools | Official MCP | Community | Reachable |
 |---|---|---|---|---|
-| [RevOps Infra](../categories/revops-infra.md) | 23 | 22 | 0 | 96% |
+| [RevOps Infra](../categories/revops-infra.md) | 23 | 21 | 0 | 91% |
+| [Conversation Intel](../categories/conversation-intel.md) | 24 | 18 | 3 | 88% |
 | [Data & Enrichment](../categories/data-enrichment.md) | 38 | 31 | 2 | 87% |
-| [Conversation Intel](../categories/conversation-intel.md) | 24 | 17 | 3 | 83% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 27 | 17 | 1 | 67% |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 28 | 17 | 1 | 64% |
 | [Video Prospecting](../categories/video-prospecting.md) | 14 | 3 | 6 | 64% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 27 | 15 | 2 | 63% |
-| [Scheduling & Routing](../categories/scheduling-routing.md) | 14 | 6 | 2 | 57% |
-| [MCP Layer](../categories/mcp-infrastructure.md) | 13 | 7 | 0 | 54% |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 13 | 8 | 0 | 62% |
+| [Scheduling & Routing](../categories/scheduling-routing.md) | 14 | 5 | 2 | 50% |
 | [Proposals & Deals](../categories/proposals-deals.md) | 14 | 7 | 0 | 50% |
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 15 | 5 | 0 | 33% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 16 | 3 | 2 | 31% |
 | [Email Deliverability](../categories/email-deliverability.md) | 13 | 4 | 0 | 31% |
 | [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 4 | 2 | 26% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 16 | 2 | 2 | 25% |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 3 | 0 | 18% |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 1 | 1 | 14% |
 
-Counted 2026-08-28. Totals sum to 293 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-02. Totals sum to 293 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
@@ -55,7 +55,7 @@ Reachable is not the same as available. 77 entries need a contract before anybod
 - [The GTM MCP Directory, by category](../categories/index.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

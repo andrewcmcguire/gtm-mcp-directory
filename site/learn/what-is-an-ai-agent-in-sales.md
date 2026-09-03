@@ -22,19 +22,19 @@ In sales the loop usually looks like this: read a trigger, research the account,
 
 ## Which doors are open
 
-Across 293 tools, 165 are callable through MCP and 123 are reachable by one person without a contract. By job, the loop above currently looks like this:
+Across 293 tools, 167 are callable through MCP and 123 are reachable by one person without a contract. By job, the loop above currently looks like this:
 
 | Step | Job | Tools tagged | Official MCP | Solo reachable |
 |---|---|---|---|---|
 | Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 7 |
-| Find the person | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 15 | 17 |
+| Find the person | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 16 | 17 |
 | Get a work email | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 22 |
-| Check it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 11 | 14 |
-| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 23 | 23 |
-| Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 22 | 21 |
-| Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 17 | 14 |
+| Check it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 12 | 14 |
+| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 25 | 23 |
+| Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 24 | 21 |
+| Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 18 | 14 |
 
-Counted 2026-08-28. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
+Counted 2026-09-02. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
 
 ## The honest limit
 
@@ -46,7 +46,7 @@ Nobody has run these tools for this directory. 0 are bench tested. Every number 
 - [The GTM MCP Directory, by job](../jobs/index.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

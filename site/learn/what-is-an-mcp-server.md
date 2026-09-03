@@ -1,6 +1,6 @@
 # What is an MCP server? A plain definition, plus how many GTM tools have one
 
-> An MCP server is a small program that exposes one system's capabilities to an AI agent in a standard shape. 144 of 293 GTM tools ship one officially. Counted 2026-08-28.
+> An MCP server is a small program that exposes one system's capabilities to an AI agent in a standard shape. 147 of 293 GTM tools ship one officially. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Two things an MCP server is not. It is not a hosted service you sign up for, nec
 
 ## How many GTM tools actually have one
 
-This directory checked 293 go to market tools and found **144 with an official server**, the vendor's own, plus 21 where somebody outside the vendor built one. That is 56% of the entries reachable by an agent through MCP at all. 117 had no server found on the date they were checked, and 7 could not be settled either way.
+This directory checked 293 go to market tools and found **147 with an official server**, the vendor's own, plus 20 where somebody outside the vendor built one. That is 57% of the entries reachable by an agent through MCP at all. 110 had no server found on the date they were checked, and 11 could not be settled either way.
 
 The gap between those two numbers is the whole reason this directory exists. A category can be sold entirely on the language of AI and still have almost nothing an agent can call.
 
@@ -32,7 +32,7 @@ The gap between those two numbers is the whole reason this directory exists. A c
 
 - **Who built it.** A vendor maintained server and a weekend wrapper both work on day one. Only one of them is somebody's job on day two hundred.
 
-- **How it authenticates.** 46 of the 165 servers in this directory use OAuth, which keeps a revocable scoped token on the vendor side. Others take an API key you paste into a config file. [The full auth breakdown is here](../lists/auth-types.md).
+- **How it authenticates.** 48 of the 167 servers in this directory use OAuth, which keeps a revocable scoped token on the vendor side. Others take an API key you paste into a config file. [The full auth breakdown is here](../lists/auth-types.md).
 
 - **What it can reach.** A server is a door into a system. The permissions on the credential you give it are the only thing deciding how far into that system an agent can walk.
 
@@ -43,7 +43,7 @@ The gap between those two numbers is the whole reason this directory exists. A c
 - [Anthropic, Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) https://www.anthropic.com/news/model-context-protocol
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 
@@ -54,5 +54,5 @@ Every number on this page is generated from directory.json at build time and car
 
 ## In the directory
 
-- [The 144 official servers](../lists/official-mcp-servers.md)
+- [The 147 official servers](../lists/official-mcp-servers.md)
 - [Every MCP status](../mcp/index.md)

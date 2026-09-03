@@ -15,13 +15,13 @@
 Find out something changed, or find out what is true right now. 9 jobs, 117 tagged entries, 74 distinct entries across the family.
 
 - [Identify an anonymous website visitor](identify-anonymous-website-visitor.md) - 11 tools · 8 official MCP. Resolve site traffic to a company, or in a few cases a named person. Person-level resolution is much rarer than the marketing...
-- [Fetch buyer intent signals](fetch-buyer-intent-signals.md) - 30 tools · 18 official MCP. Return third-party or aggregated research/engagement signals saying an account may be in market.
-- [Track job changes](track-job-changes.md) - 10 tools · 4 official MCP. Watch known contacts and tell you when they move, get promoted or land somewhere new.
+- [Fetch buyer intent signals](fetch-buyer-intent-signals.md) - 30 tools · 19 official MCP. Return third-party or aggregated research/engagement signals saying an account may be in market.
+- [Track job changes](track-job-changes.md) - 10 tools · 5 official MCP. Watch known contacts and tell you when they move, get promoted or land somewhere new.
 - [Scrape job postings](scrape-job-postings.md) - 5 tools · 5 official MCP. Query live or historical job listings as a hiring, budget or tech-stack signal.
 - [Detect a company's tech stack](detect-technographics.md) - 14 tools · 10 official MCP. Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset.
 - [Detect a funding or news event](detect-funding-or-news-event.md) - 12 tools · 10 official MCP. Return company-level events: funding rounds, M&A, leadership changes, expansion, press.
 - [Scrape a web page for facts](scrape-web-page-for-facts.md) - 6 tools · 5 official MCP. Fetch and structure an arbitrary public page. The general-purpose fallback when no structured provider has the record.
-- [Monitor social and community mentions](monitor-social-mentions.md) - 12 tools · 2 official MCP. Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches.
+- [Monitor social and community mentions](monitor-social-mentions.md) - 12 tools · 3 official MCP. Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches.
 - [Research an account before a call](research-account-for-call-prep.md) - 17 tools · 10 official MCP. Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull.
 
 ### Every entry tagged with a job in this family
@@ -90,6 +90,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Wiza](../tools/wiza.md) wiza.co Pulls verified work emails and mobile numbers for people found on LinkedIn or Sales Navigator and exports them to CSV or a CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [6sense](../tools/6sense.md) 6sense.com Detects B2B buying intent by combining IP-based website deanonymization, a proprietary third-party intent/content-consumption network ("Signalverse"), and first-party CRM/MAP/product data to flag in-market... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Common Room](../tools/common-room.md) commonroom.io Aggregates buyer/community engagement signals - Slack, Discord, GitHub activity (stars, PRs, issues), product usage, and third-party intent data (Bombora integration) - across a company's community/product... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -107,6 +109,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Surfe](../tools/surfe.md) surfe.com A Chrome extension plus API that pulls contacts and companies off LinkedIn, runs them through a multi-vendor waterfall to find verified emails and mobile numbers, and pushes the records into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md) talkwalker.com Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 - [UserGems](../tools/usergems.md) usergems.com Tracks job changes of known contacts (past customers/champions moving to new companies) plus 30+ other native signals (new hires, promotions, funding, website visits, M&A) sourced from LinkedIn-style data... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -158,8 +162,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Vector (vector.co)](../tools/vector.md) vector.co Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks their behavior (job changes, CRM activity, ad engagement)... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
 - [11x (Alice)](../tools/11x.md) 11x.ai An autonomous outbound worker ("Alice") that researches leads against an ICP, writes personalized copy, and runs multi-channel sequences (email, phone, social, SMS) through to meeting booking. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Bombora (Company Surge)](../tools/bombora.md) bombora.com Detects which companies are actively researching specific B2B topics by aggregating content-consumption data (article reads, downloads) across a co-op of 5,000+ B2B publisher sites, then measures spikes in a... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -169,8 +171,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Meltwater](../tools/meltwater.md) meltwater.com Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and AI-generated content into prioritized alerts and workflows for PR, comms, and marketing teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 - [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
-
-- [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md) talkwalker.com Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 - [Terret (BoostUp)](../tools/terret.md) terret.ai A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns, generates sales playbooks, and pushes pre-call briefs/deal alerts/suggested... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

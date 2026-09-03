@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [octavehq.com](https://octavehq.com) · entry id 06-octave · source 06-revops-infra.md line 435
+Vendor: [octavehq.com](https://octavehq.com) · entry id 06-octave · source 06-revops-infra.md line 436
 
 **What it does**
 A GTM context engine that stores a company's ICP, personas, positioning, competitors, proof points, and objections as one structured model, then serves that model to sequences, scripts, and AI agents at runtime through an API and an MCP server so every tool uses the same current messaging.
@@ -117,12 +117,12 @@ Added 2026-08-25 to close a known directory gap (Octave was missing entirely). M
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 435
+- **Source line**: 436
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

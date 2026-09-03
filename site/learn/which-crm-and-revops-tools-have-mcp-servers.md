@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 22 of 23, counted
+# CRM and RevOps tools with MCP servers: 21 of 23, counted
 
-> 22 of the 23 revops infra tools in this directory have an MCP server: 22 official and 0 community. The list with server URLs and access gates. Counted 2026-08-28.
+> 21 of the 23 revops infra tools in this directory have an MCP server: 21 official and 0 community. The list with server URLs and access gates. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-22 of the 23 revops infra entries in this directory have an MCP server: 22 built and maintained by the vendor and 0 built by somebody else. 12 are free to start and 4 need a contract before anybody gets an API key.
+21 of the 23 revops infra entries in this directory have an MCP server: 21 built and maintained by the vendor and 0 built by somebody else. 12 are free to start and 4 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -60,8 +60,6 @@ A GTM context engine that stores a company's ICP, personas, positioning, competi
 A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
 - [Superblocks](../tools/superblocks.md) Official MCP · Paid, self-serve
 A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing...
-- [Default](../tools/default.md) Official MCP · Enterprise only
-An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) Official MCP · Enterprise only
 A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on...
 - [Syncari](../tools/syncari.md) Official MCP · Enterprise only
@@ -69,8 +67,10 @@ An "agentic master data management" (MDM) platform that unifies data across CRM/
 
 ## The rest of the category
 
-1 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+2 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
+- [Default](../tools/default.md) MCP unknown · Enterprise only
+An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [Openprise](../tools/openprise.md) No MCP found · Enterprise only
 A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment,...
 
@@ -82,7 +82,7 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 | [Paid, self-serve](../gates/paid.md) | 7 |
 | [Enterprise only](../gates/enterprise-only.md) | 4 |
 
-Counted 2026-08-28. Source file 06-revops-infra.md, content sha256 db99ded503993f4c...
+Counted 2026-09-02. Source file 06-revops-infra.md, content sha256 7121303ec7ab7bdf...
 
 ## Sources
 
@@ -90,7 +90,7 @@ Counted 2026-08-28. Source file 06-revops-infra.md, content sha256 db99ded503993
 - [RevOps Infra tools with MCP servers](../lists/mcp-revops-infra.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

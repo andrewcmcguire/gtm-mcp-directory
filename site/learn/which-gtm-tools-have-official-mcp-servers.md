@@ -1,6 +1,6 @@
-# Which GTM tools have official MCP servers? 144 of 293, counted
+# Which GTM tools have official MCP servers? 147 of 293, counted
 
-> 144 of 293 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-08-28.
+> 147 of 293 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,35 +14,35 @@
 
 **The short answer**
 
-144 of the 293 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 21 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
+147 of the 293 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 20 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
 
 Official is a strict test here. The vendor has to ship and maintain the server itself. A wrapper built by Zapier, Composio, viaSocket or any other integration platform is recorded as community no matter how well it works, because when the underlying API changes, only one of those two has a team whose job it is to notice.
 
-## Where the 144 sit
+## Where the 147 sit
 
 | Category | Official | Community | Of total | The list |
 |---|---|---|---|---|
 | [Data & Enrichment](../categories/data-enrichment.md) | 31 | 2 | 38 | [open](../lists/mcp-data-enrichment.md) |
-| [RevOps Infra](../categories/revops-infra.md) | 22 | 0 | 23 | [open](../lists/mcp-revops-infra.md) |
-| [Conversation Intel](../categories/conversation-intel.md) | 17 | 3 | 24 | [open](../lists/mcp-conversation-intel.md) |
+| [RevOps Infra](../categories/revops-infra.md) | 21 | 0 | 23 | [open](../lists/mcp-revops-infra.md) |
+| [Conversation Intel](../categories/conversation-intel.md) | 18 | 3 | 24 | [open](../lists/mcp-conversation-intel.md) |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 17 | 1 | 27 | [open](../lists/mcp-engagement-outbound.md) |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 17 | 1 | 28 | [open](../lists/mcp-signals-intent-abm.md) |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 15 | 2 | 27 | [open](../lists/mcp-engagement-outbound.md) |
-| [MCP Layer](../categories/mcp-infrastructure.md) | 7 | 0 | 13 | [open](../lists/mcp-mcp-infrastructure.md) |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 8 | 0 | 13 | [open](../lists/mcp-mcp-infrastructure.md) |
 | [Proposals & Deals](../categories/proposals-deals.md) | 7 | 0 | 14 | [open](../lists/mcp-proposals-deals.md) |
-| [Scheduling & Routing](../categories/scheduling-routing.md) | 6 | 2 | 14 | [open](../lists/mcp-scheduling-routing.md) |
+| [Scheduling & Routing](../categories/scheduling-routing.md) | 5 | 2 | 14 | [open](../lists/mcp-scheduling-routing.md) |
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 5 | 0 | 15 | [open](../lists/mcp-inbound-plg-chat.md) |
 | [AI SDRs](../categories/ai-sdr-agents.md) | 4 | 2 | 23 | [open](../lists/mcp-ai-sdr-agents.md) |
 | [Email Deliverability](../categories/email-deliverability.md) | 4 | 0 | 13 | [open](../lists/mcp-email-deliverability.md) |
 | [Video Prospecting](../categories/video-prospecting.md) | 3 | 6 | 14 | [open](../lists/mcp-video-prospecting.md) |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 3 | 0 | 17 | [open](../lists/mcp-forecasting-revenue.md) |
-| [Community & Dark Social](../categories/community-dark-social.md) | 2 | 2 | 16 | [open](../lists/mcp-community-dark-social.md) |
+| [Community & Dark Social](../categories/community-dark-social.md) | 3 | 2 | 16 | [open](../lists/mcp-community-dark-social.md) |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 1 | 1 | 14 | [open](../lists/mcp-enablement-coaching.md) |
 
-Counted 2026-08-28 from directory.json, reconciled against tools_recount.py. Entry counts: 16 products appear in two categories and are counted in both here.
+Counted 2026-09-02 from directory.json, reconciled against tools_recount.py. Entry counts: 16 products appear in two categories and are counted in both here.
 
 ## The full list
 
-All 144 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 174 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
+All 147 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 181 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
 
 ## The first fifteen, in the published order
 
@@ -77,7 +77,7 @@ Finds and verifies work email addresses and direct phone numbers from a name plu
 - [Exa](../tools/exa.md) Official MCP · Free to start
 A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
 
-120 more are on the linked page. The cut is the display limit, not a ranking.
+123 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The caveat that matters
 
@@ -89,7 +89,7 @@ An official server is not the same as a server you can use. 31 of these sit behi
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

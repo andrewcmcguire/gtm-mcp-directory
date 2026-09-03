@@ -1,6 +1,6 @@
 # GTM tools with free API tiers: 61 that need no sales call
 
-> 61 go to market tools where a solo operator can get API access without talking to anyone. 46 of them also have an MCP server. Counted 2026-08-28.
+> 61 go to market tools where a solo operator can get API access without talking to anyone. 46 of them also have an MCP server. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -46,6 +46,8 @@ diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official 
 enrow.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Exa](../tools/exa.md)
 exa.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) |
+| [Fathom](../tools/fathom.md)
+fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) +1 |
 | [Fivetran](../tools/fivetran.md)
@@ -102,16 +104,12 @@ zapier.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../m
 zapier.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [ZoomInfo](../tools/zoominfo.md)
 zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
-| [Fathom](../tools/fathom.md)
-fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Community MCP](../mcp/community.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +2 |
 | [Centralize](../tools/centralize.md)
 usecentralize.com | [Signals & Intent](../categories/signals-intent-abm.md) | [MCP unknown](../mcp/unknown.md) | [Discover warm intro paths](../jobs/discover-warm-intro-paths.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) |
-| [Warmup Inbox](../tools/warmup-inbox.md)
-warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | [MCP unknown](../mcp/unknown.md) | [Warm up an inbox](../jobs/warm-up-inbox.md) |
 | [Claude / Anthropic MCP Connector Directory](../tools/claude-anthropic-mcp-connector-directory.md)
 claude.com | [MCP Layer](../categories/mcp-infrastructure.md) | [MCP not applicable](../mcp/n-a.md) | [Discover MCP servers](../jobs/discover-mcp-servers.md) |
 | [PulseMCP](../tools/pulsemcp.md)
@@ -138,5 +136,7 @@ recapped.io | [Proposals & Deals](../categories/proposals-deals.md) | [No MCP fo
 scaledmail.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Provision sending infrastructure](../jobs/provision-sending-infrastructure.md) |
 | [Tidio](../tools/tidio.md)
 tidio.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [No MCP found](../mcp/none-found.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
+| [Warmup Inbox](../tools/warmup-inbox.md)
+warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Warm up an inbox](../jobs/warm-up-inbox.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
 # Smartlead: MCP server status, API access gate and what it does
 
-> Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability... Community MCP, Paid, self-serve. Checked 2026-08-24.
+> Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability... Official MCP, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Smartlead
 
 # Smartlead
 
-[Community MCP](../mcp/community.md)
+[Official MCP](../mcp/official.md)
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,22 +32,24 @@ Outbound email sequencing/deliverability layer with agent-style lead research an
 
 **MCP server**
 
-- **Status bucket**: Community MCP
+- **Status bucket**: Official MCP
 
-- **Auth**: api key
+- **Auth**: api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE transport only (the help article says streamable HTTP is not supported), and the vendor FAQ says only Claude Desktop is supported for now
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established on 2026-08-24 and has not been re-fetched since.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-community
+official
 
 mcp_url, verbatim from the file:
 
-https://github.com/LeadMagic/smartlead-mcp-server (also multiple other community implementations); listed at https://www.pulsemcp.com/servers/leadmagic-smartlead
+https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server (first-party; endpoint https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY. Community alternative: https://github.com/LeadMagic/smartlead-mcp-server, listed at https://www.pulsemcp.com/servers/leadmagic-smartlead)
 
+- [https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server)
+- [https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY](https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY)
 - [https://github.com/LeadMagic/smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server)
 - [https://www.pulsemcp.com/servers/leadmagic-smartlead](https://www.pulsemcp.com/servers/leadmagic-smartlead)
 
@@ -94,13 +96,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.smartlead.ai/pricing](https://www.smartlead.ai/pricing)
 - [https://github.com/LeadMagic/smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server)
 - [https://www.pulsemcp.com/servers/leadmagic-smartlead](https://www.pulsemcp.com/servers/leadmagic-smartlead)
+- [https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.smartlead.ai/pricing, https://github.com/LeadMagic/smartlead-mcp-server, https://www.pulsemcp.com/servers/leadmagic-smartlead
+https://www.smartlead.ai/pricing, https://github.com/LeadMagic/smartlead-mcp-server, https://www.pulsemcp.com/servers/leadmagic-smartlead, https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server
 
 **Notes, verbatim from the file**
-API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the base Base plan ($39/mo). No official first-party MCP found - several overlapping community implementations exist with varying maintenance; verify before adopting.
+API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the base Base plan ($39/mo). No official first-party MCP found - several overlapping community implementations exist with varying maintenance; verify before adopting. 2026-09-02: mcp_status community -> official. Smartlead's own help center now documents a first-party server at https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server: endpoint mcp.smartlead.ai/sse with the API key in the URL, SSE only, Claude Desktop only per the vendor FAQ, covering campaign data, diagnostics and lead retrieval. The earlier "no official MCP" sentence is superseded. The LeadMagic community server stays listed as the alternative for clients that need stdio or streamable HTTP.
 
 **Provenance**
 
@@ -112,8 +115,8 @@ API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the ba
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
-# Community & Dark Social: 16 tools, 2 with an official MCP server
+# Community & Dark Social: 16 tools, 3 with an official MCP server
 
-> Tools that surface what's happening in the channels a CRM and normal web analytics can't see -... 16 tools counted, 2 with an official MCP server and 1 free to start.
+> Tools that surface what's happening in the channels a CRM and normal web analytics can't see -... 16 tools counted, 3 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,9 +16,9 @@ Tools that surface what's happening in the channels a CRM and normal web analyti
 
 - **entries in this file**: 16
 
-- **Official MCP**: 2
+- **Official MCP**: 3
 - **Community MCP**: 2
-- **No MCP found**: 12
+- **No MCP found**: 11
 
 - **Free to start**: 1
 - **Paid, self-serve**: 6
@@ -26,9 +26,9 @@ Tools that surface what's happening in the channels a CRM and normal web analyti
 - **Gate unknown**: 3
 - **Gate not applicable**: 1
 
-Source file: 15-community-dark-social.md · content sha256 9f3d4f9845f03f2a... · counts reconciled against tools_recount.py at build time.
+Source file: 15-community-dark-social.md · content sha256 f3e88778808f13bb... · counts reconciled against tools_recount.py at build time.
 
-- [The 4 with an MCP server](../lists/mcp-community-dark-social.md)
+- [The 5 with an MCP server](../lists/mcp-community-dark-social.md)
 
 - [Monitor social and community mentions](../jobs/monitor-social-mentions.md)
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
@@ -37,6 +37,8 @@ Source file: 15-community-dark-social.md · content sha256 9f3d4f9845f03f2a... �
 - [SparkToro](../tools/sparktoro.md) sparktoro.com Audience-research tool that shows what a defined audience (by keyword, website, social account, or podcast) reads, watches, listens to, and follows, by combining social-graph, search, and web-crawl data. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Common Room](../tools/common-room.md) commonroom.io See the full RESEARCHED entry in 05-signals-intent-abm.md (Common Room is filed there as its canonical home in this directory) - aggregates Slack, Discord, GitHub, product-usage, and third-party intent signals... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · Cross listed, canonical home is Signals & Intent
+
+- [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md) talkwalker.com Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Syften](../tools/syften.md) syften.com Monitors Reddit, Hacker News, X/Twitter, Bluesky, Mastodon, GitHub, YouTube, Slack communities, and general web/forum sources for keyword mentions, delivering alerts via email, Slack, RSS, webhook, or API. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -55,8 +57,6 @@ Source file: 15-community-dark-social.md · content sha256 9f3d4f9845f03f2a... �
 - [Bevy](../tools/bevy.md) bevy.com Community-event platform for running in-person and virtual community programs at scale (chapter-based meetups, forums, gamification), used by enterprise brands to formalize community-led-growth events. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Meltwater](../tools/meltwater.md) meltwater.com Media-intelligence and social-listening platform that consolidates news coverage, social conversations, and AI-generated content into prioritized alerts and workflows for PR, comms, and marketing teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
-
-- [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md) talkwalker.com Enterprise social-listening and media-monitoring platform tracking social, digital, and AI-channel conversations for brand benchmarking and trend/consumer-insight detection. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Champion](../tools/champion.md) championhq.com Identifies and scores which existing customers are most engaged or most at risk, builds rich profiles of their expertise/preferences, and matches them to sales/CS deal contexts for reference requests, case... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

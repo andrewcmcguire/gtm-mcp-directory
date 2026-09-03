@@ -1,6 +1,6 @@
 # Which GTM MCP servers are free to use? 44 products, counted
 
-> 44 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-08-28.
+> 44 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -50,6 +50,8 @@ A web-extraction and "Knowledge Graph" company that crawls the public web and st
 Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a...
 - [Exa](../tools/exa.md) Official MCP · Free to start
 A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
+- [Fathom](../tools/fathom.md) Official MCP · Free to start
+Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 - [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
 Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 - [Fivetran](../tools/fivetran.md) Official MCP · Free to start
@@ -102,8 +104,6 @@ A cloud automation platform connecting thousands of apps via trigger-action work
 Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app actions Zapier already exposes to its...
 - [ZoomInfo](../tools/zoominfo.md) Official MCP · Free to start
 A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human...
-- [Fathom](../tools/fathom.md) Community MCP · Free to start
-Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
 - [Loom](../tools/loom.md) Community MCP · Free to start
 Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and...
 - [People Data Labs](../tools/people-data-labs.md) Community MCP · Free to start
@@ -124,7 +124,7 @@ If you want a chain rather than a single tool, the free and reachable jobs with 
 - [The GTM MCP Directory, free API tiers](../lists/free-api-tiers.md) this site
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -19,7 +19,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)](https://getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)) · entry id 06-census · source 06-revops-infra.md line 277
+Vendor: [getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)](https://getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)) · entry id 06-census · source 06-revops-infra.md line 278
 
 **What it does**
 Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the product now lives inside Fivetran as "Activations," same function.
@@ -105,12 +105,12 @@ This is worth flagging plainly - anyone still citing "Census" as an independent 
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 277
+- **Source line**: 278
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

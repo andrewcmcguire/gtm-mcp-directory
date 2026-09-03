@@ -18,7 +18,7 @@ Four risks matter: the credential you hand the server can usually do far more th
 
 ## 1. The credential is the blast radius
 
-An MCP server does what your credential allows, not what the tool description says. A CRM key scoped to full access does not become read only because the agent was only asked to read. Scope the credential at the vendor, not in the prompt. Of the 165 servers counted here, [the OAuth ones](../lists/auth-oauth.md) are the better shape for this: the token is scoped and revocable from the vendor side without touching the agent's config.
+An MCP server does what your credential allows, not what the tool description says. A CRM key scoped to full access does not become read only because the agent was only asked to read. Scope the credential at the vendor, not in the prompt. Of the 167 servers counted here, [the OAuth ones](../lists/auth-oauth.md) are the better shape for this: the token is scoped and revocable from the vendor side without touching the agent's config.
 
 ## 2. Tool output is untrusted input
 
@@ -26,7 +26,7 @@ An agent reads what a tool returns. A scraped page, an inbound email, a CRM note
 
 ## 3. A community server is somebody's code on your machine
 
-21 entries here have a community server, and a locally installed server runs with your user's permissions. Read who published it, whether the vendor acknowledges it, and what it wants access to. The repo health rail that would date stamp each one has not been run for this build, so this directory publishes no staleness claim at all rather than a stale one.
+20 entries here have a community server, and a locally installed server runs with your user's permissions. Read who published it, whether the vendor acknowledges it, and what it wants access to. The repo health rail that would date stamp each one has not been run for this build, so this directory publishes no staleness claim at all rather than a stale one.
 
 ## 4. Speed is the amplifier
 
@@ -48,7 +48,7 @@ Every failure above already existed with scripts. What is new is that nobody wro
 - [Model Context Protocol, official documentation](https://modelcontextprotocol.io) https://modelcontextprotocol.io
 - [The GTM MCP Directory, servers by auth type](../lists/auth-types.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

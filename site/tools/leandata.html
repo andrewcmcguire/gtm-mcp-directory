@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LeanData: MCP server status, API access gate and what it does</title>
-<meta name="description" content="GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and... MCP unknown, Enterprise only. Checked 2026-08-24.">
+<meta name="description" content="GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and... MCP unknown, Enterprise only. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/leandata.html">
@@ -32,6 +32,10 @@
     "@type": "Dataset",
     "name": "The GTM MCP Directory",
     "url": "https://andrewcmcguire.com/gtm-directory/data.html"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/"
   }
 }
 </script>
@@ -92,7 +96,7 @@ LeanData</div>
 <a class="badge copper" href="../gates/enterprise-only.html">Enterprise only</a>
 <a class="badge mute flat" href="../categories/scheduling-routing.html">Scheduling &amp; Routing</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -103,24 +107,24 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 10-scheduling-routing.md line 198</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on (BookIt).</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Vendor markets &quot;AI-assisted routing,&quot; an &quot;AI SDR routing&quot; capability, and a &quot;LeanData AI&quot; platform component, plus positions itself as &quot;the backbone for AI-ready infrastructure&quot; for GTM agents - these are vendor-stated capabilities with no independent technical breakdown found distinguishing genuine ML-driven routing decisions from LeanData&#x27;s historically rules/workflow-engine-based core product.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Internal inbound-lead-routing/orchestration layer sitting in front of Salesforce, deciding who a lead or signal goes to and triggering the right next action (including handing off to BookIt for scheduling).</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">MCP unknown</div></div>
-<div><div class="bk">Auth</div><div class="bv">n/a</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">0 found in the mcp_url field</div></div>
+<div><div class="bk">Auth</div><div class="bv">vendor-stated only, from the release post: &quot;handled through Salesforce OAuth for admins and reps, and through a one-time code option for external partners or agents&quot;; no docs page confirms this.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
 </div>
 <p class="note" style="margin-top:14px">The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed.
-The status was established on 2026-08-24 and has not been re-fetched since.</p>
+The status was established on 2026-09-02 and has not been re-fetched since.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">unknown</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">n/a</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">unknown</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">n/a (the only first-party surface is the Q2 2026 release post, https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/, which publishes no endpoint or docs)</p><ul><li><a href="https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/" rel="noopener nofollow">https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>enterprise-only - pricing page confirms no free tier (&quot;Setup and onboarding are tailored and billed separately for all packages&quot;); three custom-quoted editions (Standard/Advanced/Premium) plus BookIt Scheduling and Buying Groups as separate paid add-ons; no transparent self-serve pricing found.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/book-a-meeting.html">Book a meeting</a></li><li><a href="../jobs/route-inbound-lead.html">Route an inbound lead</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://leandata.com" rel="noopener nofollow">https://leandata.com</a></li><li><a href="https://leandata.com/platform/pricing/" rel="noopener nofollow">https://leandata.com/platform/pricing/</a></li><li><a href="https://docs.leandata.com" rel="noopener nofollow">https://docs.leandata.com</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://leandata.com, https://leandata.com/platform/pricing/, https://docs.leandata.com</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">LeanData&#x27;s own homepage references a &quot;BookIt MCP (Model Context Protocol server)&quot; tied to a &quot;Q2 2026 release,&quot; but no dedicated MCP docs page, repo, or endpoint could be located - docs.leandata.com search returned nothing and leandata.com/platform/bookit/ 404&#x27;d. This is a real, sourced mention of an MCP claim without a verifiable URL, so per this directory&#x27;s law (an MCP claim requires a URL) it is recorded as mcp_status: unknown rather than official - worth a manual re-check once LeanData&#x27;s Q2 2026 release material is more discoverable.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>enterprise-only - pricing page confirms no free tier (&quot;Setup and onboarding are tailored and billed separately for all packages&quot;); three custom-quoted editions (Standard/Advanced/Premium) plus BookIt Scheduling and Buying Groups as separate paid add-ons; no transparent self-serve pricing found.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/book-a-meeting.html">Book a meeting</a></li><li><a href="../jobs/route-inbound-lead.html">Route an inbound lead</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://leandata.com" rel="noopener nofollow">https://leandata.com</a></li><li><a href="https://leandata.com/platform/pricing/" rel="noopener nofollow">https://leandata.com/platform/pricing/</a></li><li><a href="https://docs.leandata.com" rel="noopener nofollow">https://docs.leandata.com</a></li><li><a href="https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/" rel="noopener nofollow">https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://leandata.com, https://leandata.com/platform/pricing/, https://docs.leandata.com, https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">LeanData&#x27;s own homepage references a &quot;BookIt MCP (Model Context Protocol server)&quot; tied to a &quot;Q2 2026 release,&quot; but no dedicated MCP docs page, repo, or endpoint could be located - docs.leandata.com search returned nothing and leandata.com/platform/bookit/ 404&#x27;d. This is a real, sourced mention of an MCP claim without a verifiable URL, so per this directory&#x27;s law (an MCP claim requires a URL) it is recorded as mcp_status: unknown rather than official - worth a manual re-check once LeanData&#x27;s Q2 2026 release material is more discoverable. 2026-09-02: re-checked, mcp_status stays unknown. The release material is discoverable now: https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/ (May 21, 2026) says &quot;The BookIt MCP server exposes scheduling functionality through a standard interface that any MCP-compatible AI client can connect to&quot;, with separate admin and rep capabilities and Salesforce OAuth plus a one-time code for external agents. It still publishes no endpoint, docs page, or setup guide, and the official MCP registry has no leandata or bookit entry, so a described-but-not-connectable server stays unknown under law 1.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">10-leandata</div></div>
 <div><div class="bk">Source file</div><div class="bv">10-scheduling-routing.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">198</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -132,8 +136,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -176,7 +180,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

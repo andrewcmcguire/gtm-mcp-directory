@@ -1,6 +1,6 @@
 # How do I connect Claude to my CRM? The MCP route, step by step
 
-> Connect an AI assistant to your CRM through an MCP server. Which CRM and RevOps tools have one (22 official of 23), what to check first, and the order to do it in.
+> Connect an AI assistant to your CRM through an MCP server. Which CRM and RevOps tools have one (21 official of 23), what to check first, and the order to do it in.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -18,7 +18,7 @@ If your CRM ships an MCP server, you add it to your client's server configuratio
 
 ## 1. Find out whether a server exists
 
-RevOps Infra is the best covered layer in this directory: 22 official servers and 0 community across 23 entries, with only 1 where none was found. Check your specific system on [the RevOps tools with MCP servers list](../lists/mcp-revops-infra.md), and read the auth field on its page before anything else.
+RevOps Infra is the best covered layer in this directory: 21 official servers and 0 community across 23 entries, with only 1 where none was found. Check your specific system on [the RevOps tools with MCP servers list](../lists/mcp-revops-infra.md), and read the auth field on its page before anything else.
 
 ## 2. Decide what the credential is allowed to do
 
@@ -51,9 +51,9 @@ A CRM connection on its own is a search box. The value shows up when the assista
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
 | Read CRM records | [read crm records](../jobs/read-crm-records.md) | 13 | 10 | 5 |
-| Write CRM records | [write crm records](../jobs/write-crm-records.md) | 28 | 17 | 7 |
+| Write CRM records | [write crm records](../jobs/write-crm-records.md) | 28 | 18 | 7 |
 | Sync records between systems | [sync records between systems](../jobs/sync-records-between-systems.md) | 9 | 8 | 6 |
-| Enrich a company from a domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 14 |
+| Enrich a company from a domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 14 |
 | Research an account before a call | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
 
 ## If your CRM has no server
@@ -66,7 +66,7 @@ A CRM connection on its own is a search box. The value shows up when the assista
 - [Model Context Protocol, connect an MCP server to a client](https://modelcontextprotocol.io/quickstart/user) https://modelcontextprotocol.io/quickstart/user
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

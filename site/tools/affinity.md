@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [affinity.co](https://affinity.co) · entry id 06-affinity · source 06-revops-infra.md line 455
+Vendor: [affinity.co](https://affinity.co) · entry id 06-affinity · source 06-revops-infra.md line 456
 
 **What it does**
 A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity.
@@ -103,12 +103,12 @@ Added 2026-08-25 in the coverage sweep. API and MCP access are restricted to the
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 455
+- **Source line**: 456
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

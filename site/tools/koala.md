@@ -1,6 +1,6 @@
 # Koala: MCP server status, API access gate and what it does
 
-> Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+... MCP not applicable, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Koala
 
 # Koala
 
-[No MCP found](../mcp/none-found.md)
+[MCP not applicable](../mcp/n-a.md)
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,17 +32,17 @@ Was a website visitor-ID + intent scoring + AI-agent-driven lead research/enrich
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP not applicable
 
 - **Auth**: n/a
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+An MCP server is not a meaningful question for this entry. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-none-found
+n-a
 
 mcp_url, verbatim from the file:
 
@@ -89,7 +89,7 @@ Reason recorded by the tagging pass: dead. The entry is written in the past tens
 https://getkoala.com/, https://getkoala.com/pricing, https://getkoala.com/docs/integrations/github
 
 **Notes, verbatim from the file**
-STATUS FLAG - Koala's homepage carries a banner stating it was acquired by Cursor and would shut down Sept 30 (2025). As of today's date (Aug 2026) this product is almost certainly defunct; the pricing/features above describe the pre-shutdown product and should not be treated as currently purchasable. Verify current status before referencing this as a live tool.
+STATUS FLAG - Koala's homepage carries a banner stating it was acquired by Cursor and would shut down Sept 30 (2025). As of today's date (Aug 2026) this product is almost certainly defunct; the pricing/features above describe the pre-shutdown product and should not be treated as currently purchasable. Verify current status before referencing this as a live tool. 2026-09-02: mcp_status none-found -> n-a. Re-fetched https://getkoala.com/ today and the vendor's own banner still reads "Koala has been acquired by Cursor and will be shutting down on Sept 30" above otherwise unchanged marketing copy. A product the vendor says has shut down cannot have a live MCP server, so the honest value is not-applicable rather than none-found. The only koala hit in the official MCP registry (io.github.Koala-Studios/newton-browser) is an unrelated browser tool.
 
 **Provenance**
 
@@ -101,8 +101,8 @@ STATUS FLAG - Koala's homepage carries a banner stating it was acquired by Curso
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

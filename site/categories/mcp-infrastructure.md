@@ -1,6 +1,6 @@
-# MCP Layer: 13 tools, 7 with an official MCP server
+# MCP Layer: 13 tools, 8 with an official MCP server
 
-> The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on:... 13 tools counted, 7 with an official MCP server and 7 free to start.
+> The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on:... 13 tools counted, 8 with an official MCP server and 7 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,19 +16,18 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 
 - **entries in this file**: 13
 
-- **Official MCP**: 7
+- **Official MCP**: 8
 - **MCP unknown**: 1
 - **MCP not applicable**: 4
-- **No MCP found**: 1
 
 - **Free to start**: 7
 - **Paid, self-serve**: 2
 - **Enterprise only**: 1
 - **Gate unknown**: 3
 
-Source file: 07-mcp-infrastructure.md · content sha256 0a5603a66e93cb3b... · counts reconciled against tools_recount.py at build time.
+Source file: 07-mcp-infrastructure.md · content sha256 61a2ed79b452c597... · counts reconciled against tools_recount.py at build time.
 
-- [The 7 with an MCP server](../lists/mcp-mcp-infrastructure.md)
+- [The 8 with an MCP server](../lists/mcp-mcp-infrastructure.md)
 
 - [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md)
 - [Discover MCP servers](../jobs/discover-mcp-servers.md)
@@ -49,6 +48,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 0a5603a66e93cb3b... · c
 
 - [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md) turbomcp.ai An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled deployment of MCP servers across a team's own infrastructure (K8s, PaaS, VMs). [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Klavis AI](../tools/klavis-ai.md) klavis.ai Primarily an AI-agent training-data company - it builds "live environments for training AI agents" (long-horizon coding tasks and agentic tool-use scenarios), and separately mentions "production MCP servers"... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+
 - [mcp.so](../tools/mcp-so.md) mcp.so A community MCP server/client directory (per its public reputation as one of the earlier MCP catalog sites) - could not independently re-verify current content in this research pass. [MCP unknown](../mcp/unknown.md) · [Gate unknown](../gates/unknown.md)
 
 - [Claude / Anthropic MCP Connector Directory](../tools/claude-anthropic-mcp-connector-directory.md) claude.com Anthropic's own curated, in-product directory of MCP connectors that Claude users can browse and one-click-connect to, filterable by use case (sales, marketing, data, etc.) and by capability (read / read-write... [MCP not applicable](../mcp/n-a.md) · [Free to start](../gates/free.md)
@@ -58,5 +59,3 @@ Source file: 07-mcp-infrastructure.md · content sha256 0a5603a66e93cb3b... · c
 - [Smithery](../tools/smithery.md) smithery.ai A registry and distribution marketplace for MCP servers - "publish once, install anywhere" - that indexes and distributes third-party servers rather than hosting them itself, plus an integrated... [MCP not applicable](../mcp/n-a.md) · [Free to start](../gates/free.md)
 
 - [Glama (MCP directory)](../tools/glama.md) glama.ai A large searchable registry/catalog of open-source MCP servers (77,000+ listed as of this check), filterable by language, hosting type (remote/local/hybrid), capability, and category; also offers separate... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md)
-
-- [Klavis AI](../tools/klavis-ai.md) klavis.ai Primarily an AI-agent training-data company - it builds "live environments for training AI agents" (long-horizon coding tasks and agentic tool-use scenarios), and separately mentions "production MCP servers"... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

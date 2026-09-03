@@ -1,6 +1,6 @@
 # Default: MCP server status, API access gate and what it does
 
-> An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built... Official MCP, Enterprise only. Checked 2026-08-24.
+> An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built... MCP unknown, Enterprise only. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Default
 
 # Default
 
-[Official MCP](../mcp/official.md)
+[MCP unknown](../mcp/unknown.md)
 [Enterprise only](../gates/enterprise-only.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,23 +32,23 @@ Sits at inbound lead routing/qualification - where marketing-generated leads get
 
 **MCP server**
 
-- **Status bucket**: Official MCP
+- **Status bucket**: MCP unknown
 
-- **Auth**: unknown - not documented anywhere found (checked default.com, default.com/product, docs.default.com).
+- **Auth**: unknown - not documented anywhere found (checked default.com, default.com/product, docs.default.com, default.com/solutions/default-mcp).
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-official
+unknown
 
 mcp_url, verbatim from the file:
 
-https://www.default.com (homepage feature line only - "MCP access to data and tools for every agent, whether built inside Default or on top of it," explicitly marked "In beta"; no separate docs/repo page was located)
+n/a (marketing pages only: https://www.default.com/solutions/default-mcp names a Default MCP but publishes no endpoint, auth, or setup docs, and docs.default.com has no MCP article)
 
-- [https://www.default.com](https://www.default.com)
+- [https://www.default.com/solutions/default-mcp](https://www.default.com/solutions/default-mcp)
 
 **Access gate**
 
@@ -92,7 +92,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **Category**: [Scheduling & Routing](../categories/scheduling-routing.md)
 
-- **MCP status there**: Official MCP
+- **MCP status there**: MCP unknown
 
 - **Gate there**: Enterprise only
 
@@ -109,13 +109,14 @@ What that listing says it does: "Agentic GTM infrastructure" platform unifying C
 - [https://www.default.com](https://www.default.com)
 - [https://www.default.com/product](https://www.default.com/product)
 - [https://docs.default.com](https://docs.default.com)
+- [https://www.default.com/solutions/default-mcp](https://www.default.com/solutions/default-mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.default.com, https://www.default.com/product, https://docs.default.com
+https://www.default.com, https://www.default.com/product, https://docs.default.com, https://www.default.com/solutions/default-mcp
 
 **Notes, verbatim from the file**
-Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling reference. The MCP claim is real but labeled "In beta" on the homepage with no dedicated docs/repo page found - treat as early/unstable. Marked official rather than none-found because the vendor's own page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law, even though it isn't a full docs page. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.default.com/): no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales.
+Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling reference. The MCP claim is real but labeled "In beta" on the homepage with no dedicated docs/repo page found - treat as early/unstable. Marked official rather than none-found because the vendor's own page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law, even though it isn't a full docs page. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.default.com/): no pricing is published and the only CTA is book-a-demo; the site describes Native Access in beta as MCP access to data and tools for every agent, so programmatic access exists but is reachable only through sales. 2026-09-02: mcp_status official -> unknown. Default's homepage now carries a "Default MCP" nav item ("Trigger workflows, run enrichment jobs, and pull audit logs from your terminal or your agents") and a dedicated marketing page, https://www.default.com/solutions/default-mcp ("The MCP for go-to-market ops"), which is more than the beta feature line cited before. But that page publishes no endpoint, auth method, setup guide, or client list; https://docs.default.com/ has no MCP article in any section; and the official MCP registry's default hits are all unrelated products. A marketing page that names a server without a connectable URL is not a receipt under law 1, so the earlier reasoning is retracted and the status is unknown until Default publishes docs.
 
 **Provenance**
 
@@ -127,8 +128,8 @@ Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling r
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

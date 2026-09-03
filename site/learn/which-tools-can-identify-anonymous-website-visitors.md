@@ -1,6 +1,6 @@
 # Which website visitor identification tools can an AI agent call? Counted
 
-> 8 of the 11 GTM tools tagged with this job ship an official MCP server, 6 are reachable without a contract. The full list, counted 2026-08-28.
+> 8 of the 11 GTM tools tagged with this job ship an official MCP server, 6 are reachable without a contract. The full list, counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-10 products in this directory are tagged with this job. 8 of the 11 tagged entries have an official MCP server and 0 have a community one, so an agent can call 8 of them directly. 6 are reachable by one person without a contract. Counted 2026-08-28.
+10 products in this directory are tagged with this job. 8 of the 11 tagged entries have an official MCP server and 0 have a community one, so an agent can call 8 of them directly. 6 are reachable by one person without a contract. Counted 2026-09-02.
 
 De-anonymising traffic is the highest intent signal most teams can get, and the most legally sensitive thing on this list. Company level identification and person level identification are different products with different obligations, and this directory records what the vendor says it does rather than adjudicating either.
 
@@ -67,7 +67,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,6 +1,6 @@
-# Conversation Intel tools with MCP servers: 20 of 24, counted
+# Conversation Intel tools with MCP servers: 21 of 24, counted
 
-> 20 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 17 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-08-28.
+> 21 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 18 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,14 +8,17 @@
 [Directory](../index.md) /
 [The lists](index.md) / Conversation Intel tools with an MCP server
 
-**List · 20 of 293**
+**List · 21 of 293**
 
 ## Conversation Intel tools with an MCP server
 
-Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 20 of 24 entries in this category are reachable by an agent: 17 through a server the vendor maintains and 3 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
+Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 21 of 24 entries in this category are reachable by an agent: 18 through a server the vendor maintains and 3 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
+| [Fathom](../tools/fathom.md)
+fathom.video | [Official MCP](../mcp/official.md) | [https://developers.fathom.ai/mcp-docs](https://developers.fathom.ai/mcp-docs) +4 more | OAuth or an API key
+In-client authorization: the docs say to add the server URL "then authenticate to access... | [Free to start](../gates/free.md) |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Official MCP](../mcp/official.md) | [https://guide.fireflies.ai/articles/8272956938-learn...](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol) +1 more | OAuth or an API key
 OAuth (Google/Microsoft, recommended) or manual API key for Claude Desktop and other MCP... | [Free to start](../gates/free.md) |
@@ -67,24 +70,22 @@ Streamable HTTP transport per Seismic's MCP documentation; the specific credenti
 | [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md)
 zoom.com | [Official MCP](../mcp/official.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |
-| [Fathom](../tools/fathom.md)
-fathom.video | [Community MCP](../mcp/community.md) | [https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp) +2 more | API key
-Community servers authenticate with a Fathom API key (FATHOM_API_KEY environment... | [Free to start](../gates/free.md) |
 | [Clari Copilot](../tools/clari-copilot.md)
 clari.com | [Community MCP](../mcp/community.md) | [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot) +1 more | OAuth or an API key
 Scalekit-hosted connector uses per-user delegated OAuth-style authorization in Scalekit's... | [Paid, self-serve](../gates/paid.md) |
+| [Chorus](../tools/chorus.md)
+zoominfo.com | [Community MCP](../mcp/community.md) | [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server) | API key
+Community server: Chorus API key in the CHORUS_API_KEY environment variable (stdio via... | [Enterprise only](../gates/enterprise-only.md) |
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 4 in this category
+### The other 3 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
-| [Chorus](../tools/chorus.md)
-zoominfo.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Momentum](../tools/momentum.md)
 momentum.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-08-24 |
 | [Rilla](../tools/rilla.md)
@@ -103,4 +104,4 @@ The jobs most often tagged on the 24 tagged entries in this category.
 - [Score rep performance](../jobs/score-rep-performance.md)
 - [Search across recorded calls](../jobs/search-call-library.md)
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

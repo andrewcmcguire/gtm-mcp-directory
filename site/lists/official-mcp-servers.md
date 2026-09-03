@@ -1,18 +1,18 @@
-# Official MCP servers list: 144 GTM tools, with links
+# Official MCP servers list: 147 GTM tools, with links
 
-> The full list of 144 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-08-28.
+> The full list of 147 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 144 GTM tools with an official MCP server
+[The lists](index.md) / The 147 GTM tools with an official MCP server
 
-**List · 144 of 293**
+**List · 147 of 293**
 
-## The 144 GTM tools with an official MCP server
+## The 147 GTM tools with an official MCP server
 
-Official means first party. The vendor ships and maintains the server itself, and a wrapper built by Zapier, viaSocket, Composio or any other third party does not count no matter how well it works. 143 of these 144 entries carry a parseable URL in the mcp_url field; the rest claim a server in prose without one, which is recorded as a risk on the [methodology page](../methodology.md) rather than cleaned up quietly.
+Official means first party. The vendor ships and maintains the server itself, and a wrapper built by Zapier, viaSocket, Composio or any other third party does not count no matter how well it works. 146 of these 147 entries carry a parseable URL in the mcp_url field; the rest claim a server in prose without one, which is recorded as a risk on the [methodology page](../methodology.md) rather than cleaned up quietly.
 
 | Tool | Category | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -61,6 +61,9 @@ api key. ENROW_API_KEY env var for stdio, or an Authorization Bearer / x-enrow-a
 | [Exa](../tools/exa.md)
 exa.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) +1 more | API key
 api key (issued via dashboard.exa.ai) | [Free to start](../gates/free.md) |
+| [Fathom](../tools/fathom.md)
+fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [https://developers.fathom.ai/mcp-docs](https://developers.fathom.ai/mcp-docs) +4 more | OAuth or an API key
+In-client authorization: the docs say to add the server URL "then authenticate to access... | [Free to start](../gates/free.md) |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://guide.fireflies.ai/articles/8272956938-learn...](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol) +1 more | OAuth or an API key
 OAuth (Google/Microsoft, recommended) or manual API key for Claude Desktop and other MCP... | [Free to start](../gates/free.md) |
@@ -298,6 +301,9 @@ api key via HTTP header (X-Salesforge-Key) | [Paid, self-serve](../gates/paid.md
 | [Salesforge (Agent Frank)](../tools/salesforge.md)
 salesforge.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://help.salesforge.ai/en/articles/10333582-sale...](https://help.salesforge.ai/en/articles/10333582-salesforge-mcp-server-connect-with-ai-assistants) | Auth not recorded
 unknown specifics (help article confirms an official MCP server "to connect with AI... | [Paid, self-serve](../gates/paid.md) |
+| [Smartlead](../tools/smartlead.md)
+smartlead.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://helpcenter.smartlead.ai/en/articles/300-smar...](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) +3 more | API key
+api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE... | [Paid, self-serve](../gates/paid.md) |
 | [Snitcher](../tools/snitcher.md)
 snitcher.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://www.snitcher.com/changelog/point-claude-at-s...](https://www.snitcher.com/changelog/point-claude-at-snitcher/) | Auth not recorded
 unknown - vendor changelog points to docs.snitcher.com for authentication specifics, not... | [Paid, self-serve](../gates/paid.md) |
@@ -337,6 +343,9 @@ OAuth 2.1 with PKCE for clients that support it, otherwise a static bearer token
 | [Woodpecker](../tools/woodpecker.md)
 woodpecker.co | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/) +1 more | OAuth or an API key
 hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker... | [Paid, self-serve](../gates/paid.md) |
+| [Amplemarket](../tools/amplemarket.md)
+amplemarket.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) +2 more | OAuth
+OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Clari](../tools/clari.md)
 clari.com | [Conversation Intel](../categories/conversation-intel.md) | [https://www.clari.com/press/clari-salesloft-forecast...](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) | Auth not recorded
 unknown / not disclosed publicly | [Enterprise leaning](../gates/enterprise-leaning.md) |
@@ -349,9 +358,6 @@ OAuth using existing 6sense platform login (no separate API key setup per vendor
 | [Ada](../tools/ada.md)
 ada.cx | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
 none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
-| [Allego](../tools/allego.md)
-allego.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://www.allego.com/platform/integrations/](https://www.allego.com/platform/integrations/) | Auth not recorded
-unknown - vendor material states the MCP server connects to Salesforce Einstein,... | [Enterprise only](../gates/enterprise-only.md) |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
 anaplan.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | OAuth or an API key
 unknown - described only as a "governed MCP connection" with permission/audit controls;... | [Enterprise only](../gates/enterprise-only.md) |
@@ -370,12 +376,6 @@ oauth (OAuth 2.1, browser-based, tokens scoped to the user's own Common Room per
 | [Crossbeam](../tools/crossbeam.md)
 crossbeam.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://mcp.crossbeam.com/mcp](https://mcp.crossbeam.com/mcp) +1 more | OAuth
 OAuth with Crossbeam login credentials, with a permission consent screen at connect time. | [Enterprise only](../gates/enterprise-only.md) |
-| [Default](../tools/default.md)
-default.com | [RevOps Infra](../categories/revops-infra.md) | [https://www.default.com](https://www.default.com) | Auth not recorded
-unknown - not documented anywhere found (checked default.com, default.com/product,... | [Enterprise only](../gates/enterprise-only.md) |
-| [Default](../tools/default.md)
-default.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.default.com/](https://www.default.com/) | OAuth or an API key
-unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade... | [Enterprise only](../gates/enterprise-only.md) |
 | [Demandbase (Demandbase One)](../tools/demandbase.md)
 demandbase.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://developer.demandbase.com/docs/mcp](https://developer.demandbase.com/docs/mcp) +1 more | Auth not recorded
 unknown - the account-team-gated support article that likely covers this returned HTTP... | [Enterprise only](../gates/enterprise-only.md) |
@@ -401,7 +401,7 @@ Integrates with a team's own OIDC-compatible identity provider; handles OAuth an
 otter.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://help.otter.ai/hc/en-us/articles/352876075696...](https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server) +2 more | Auth not recorded
 unknown - exact auth mechanism not confirmed in public sources; framed under "Otter for... | [Enterprise only](../gates/enterprise-only.md) |
 | [Outreach](../tools/outreach.md)
-outreach.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
+outreach.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
 OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
 pigment.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | Auth not recorded
@@ -418,6 +418,9 @@ OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - 
 | [Seismic](../tools/seismic.md)
 seismic.com | [Conversation Intel](../categories/conversation-intel.md) | [https://developer.seismic.com/seismicsoftware/docs/s...](https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server) | OAuth or an API key
 Streamable HTTP transport per Seismic's MCP documentation; the specific credential type... | [Enterprise only](../gates/enterprise-only.md) |
+| [Showpad](../tools/showpad.md)
+showpad.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://developer.showpad.com/docs/integrations/plat...](https://developer.showpad.com/docs/integrations/platform-independent/mcp) +2 more | OAuth
+OAuth; the docs say each end user authenticates with their own Showpad credentials and... | [Enterprise only](../gates/enterprise-only.md) |
 | [Similarweb](../tools/similarweb.md)
 similarweb.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://mcp.similarweb.com](https://mcp.similarweb.com) +3 more | OAuth or an API key
 CONFLICTING VENDOR STATEMENTS, flagged rather than resolved. Both Similarweb developer... | [Enterprise only](../gates/enterprise-only.md) |
@@ -427,12 +430,18 @@ Surfe API key, with a browser sign-in flow that exchanges the key for a managed 
 | [Syncari](../tools/syncari.md)
 syncari.com | [RevOps Infra](../categories/revops-infra.md) | [https://syncari.com/mcp-server/](https://syncari.com/mcp-server/) | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
+| [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md)
+talkwalker.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://www.hootsuite.com/integrations/mcp](https://www.hootsuite.com/integrations/mcp) +1 more | Auth not recorded
+Sign in with a Hootsuite workspace when prompted; the Hootsuite MCP page says... | [Enterprise only](../gates/enterprise-only.md) |
 | [UserGems](../tools/usergems.md)
 usergems.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://www.usergems.com/product/mcp](https://www.usergems.com/product/mcp) | OAuth or an API key
 unknown - connects inside Claude/ChatGPT per the product page, but the exact auth... | [Enterprise only](../gates/enterprise-only.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server) +1 more | OAuth or an API key
 OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex... | [Gate unknown](../gates/unknown.md) |
+| [Klavis AI](../tools/klavis-ai.md)
+klavis.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md) +2 more | OAuth or an API key
+Klavis API key as an HTTP Bearer token on the management API that creates a per-user... | [Gate unknown](../gates/unknown.md) |
 | [Pylon](../tools/pylon.md)
 usepylon.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.usepylon.com](https://mcp.usepylon.com) +1 more | OAuth
 OAuth 2.0 over stateless streamable HTTP; access is permission-scoped so a connected AI... | [Gate unknown](../gates/unknown.md) |
@@ -449,4 +458,4 @@ OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0
 zoom.com | [Conversation Intel](../categories/conversation-intel.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

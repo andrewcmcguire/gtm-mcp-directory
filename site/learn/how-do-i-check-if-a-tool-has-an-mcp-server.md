@@ -22,7 +22,7 @@ Check five places in this order: this directory, the vendor's own developer docu
 
 - **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 30 of 293 entries here record a documentation URL, which tells you something in itself about the other 263.
 
-- **Their GitHub organisation.** 61 entries here already carry a github.com URL somewhere in their fields and 46 of those are in the mcp_url field itself, which usually means a local server you run yourself.
+- **Their GitHub organisation.** 63 entries here already carry a github.com URL somewhere in their fields and 48 of those are in the mcp_url field itself, which usually means a local server you run yourself.
 
 - **The protocol's reference repository**, which is where a large number of community servers are catalogued.
 
@@ -34,11 +34,11 @@ This directory's own rule, applied to every submission: a 200 passes. A 401 pass
 
 ## The distinction most people miss
 
-Ask who built it before you ask whether it works. A wrapper published by an integration platform is a real, working server and it is not the vendor's. This directory records that as community, and 21 entries are in that bucket against 144 official.
+Ask who built it before you ask whether it works. A wrapper published by an integration platform is a real, working server and it is not the vendor's. This directory records that as community, and 20 entries are in that bucket against 147 official.
 
 ## When the honest answer is unknown
 
-7 entries here carry a status of unknown, because the check could not settle it either way. Unknown is a legal answer. Publishing a guess as a fact is how a directory becomes worthless, and it is the reason every status on this site carries the date it was established.
+11 entries here carry a status of unknown, because the check could not settle it either way. Unknown is a legal answer. Publishing a guess as a fact is how a directory becomes worthless, and it is the reason every status on this site carries the date it was established.
 
 ## Sources
 
@@ -47,7 +47,7 @@ Ask who built it before you ask whether it works. A wrapper published by an inte
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, submit a tool](../submit.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

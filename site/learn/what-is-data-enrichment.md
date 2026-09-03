@@ -22,12 +22,12 @@ Enrichment vendors differ mostly in where the data comes from and how fresh it i
 
 | What you have | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
-| A company domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 26 | 14 |
+| A company domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 14 |
 | A LinkedIn profile URL | [enrich a person from a linkedin url](../jobs/enrich-person-from-linkedin-url.md) | 12 | 8 | 3 |
 | A name and a company | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | An email address | [reverse-look-up a person from an email](../jobs/reverse-lookup-person-from-email.md) | 1 | 0 | 1 |
 
-Counted 2026-08-28. Entry counts, not product counts: a tool listed in two categories is counted in both.
+Counted 2026-09-02. Entry counts, not product counts: a tool listed in two categories is counted in both.
 
 ## Why this category is the exception
 
@@ -44,7 +44,7 @@ Credits. Enrichment is metered, and an agent in a loop is very good at spending 
 - [The GTM MCP Directory, Data and Enrichment](../categories/data-enrichment.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-08-28. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -33,13 +33,13 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 **What none-found does and does not mean**
 
-117 entries are none-found. That is a statement about the search, made on the date in the entry, and it is not a promise that no server exists. A vendor who shipped one the week after the check is recorded as none-found until the next pass, which is exactly why the weekly diff exists and why every entry ships its last_checked date.
+110 entries are none-found. That is a statement about the search, made on the date in the entry, and it is not a promise that no server exists. A vendor who shipped one the week after the check is recorded as none-found until the next pass, which is exactly why the weekly diff exists and why every entry ships its last_checked date.
 
 **The counting authority**
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 293 against 293, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-08-28 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 84def5fb51daf19b5df44705...
+Data baked 2026-09-02 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 45943543d879a85fe4386a9d...
 
 **The duplicates, and why two counts exist**
 
@@ -68,7 +68,7 @@ Data baked 2026-08-28 by build_directory.py (phase 1). Network calls made during
 
 - [Arphie](tools/arphie.md) 13-arphie
 
-**17 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
+**16 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
 
 - [AiSDR](tools/aisdr.md) 04-aisdr
 - [Conversica](tools/conversica.md) 04-conversica
@@ -86,7 +86,6 @@ Data baked 2026-08-28 by build_directory.py (phase 1). Network calls made during
 - [Brand24](tools/brand24.md) 15-brand24
 - [BuzzSumo](tools/buzzsumo.md) 15-buzzsumo
 - [F5Bot](tools/f5bot.md) 15-f5bot
-- [Talkwalker (rebranded: Lumen by Talkwalker)](tools/talkwalker.md) 15-talkwalker
 
 **32 entries have an unknown access gate** and **263 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
 

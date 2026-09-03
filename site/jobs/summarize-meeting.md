@@ -1,6 +1,6 @@
-# Summarize a meeting: 22 GTM tools, 16 with an official MCP server
+# Summarize a meeting: 22 GTM tools, 17 with an official MCP server
 
-> Return notes, action items and next steps from a call or meeting. 20 of the 22 entries tagged with this job carry an MCP server of some kind, 16 of them official. Counted 2026-08-28 from the directory data.
+> Return notes, action items and next steps from a call or meeting. 20 of the 22 entries tagged with this job carry an MCP server of some kind, 17 of them official. Counted 2026-09-02 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,12 +17,12 @@ Summarize a meeting
 Return notes, action items and next steps from a call or meeting.
 
 - **entries tagged**: 22
-- **official MCP**: 16
-- **community MCP**: 4
+- **official MCP**: 17
+- **community MCP**: 3
 - **no MCP found**: 2
 - **solo reachable**: 14
 
-20 of the 22 entries tagged with this job carry an MCP server of some kind, 16 of them official. All 22 tagged entries are distinct products. 0 have been bench tested. Counted 2026-08-28 from directory.json.
+20 of the 22 entries tagged with this job carry an MCP server of some kind, 17 of them official. All 22 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-02 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -42,6 +42,8 @@ Return notes, action items and next steps from a call or meeting.
 ### The 22 entries tagged summarize-meeting
 
 Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+
+- [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Fireflies.ai](../tools/fireflies-ai.md) fireflies.ai Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and CRM writeback. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
@@ -74,8 +76,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) zoom.com Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account activity. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 

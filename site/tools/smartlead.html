@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Smartlead: MCP server status, API access gate and what it does</title>
-<meta name="description" content="Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability... Community MCP, Paid, self-serve. Checked 2026-08-24.">
+<meta name="description" content="Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability... Official MCP, Paid, self-serve. Checked 2026-09-02.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/smartlead.html">
@@ -38,7 +38,7 @@
   },
   "softwareHelp": {
     "@type": "CreativeWork",
-    "url": "https://github.com/LeadMagic/smartlead-mcp-server"
+    "url": "https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server"
   }
 }
 </script>
@@ -95,11 +95,11 @@ Smartlead</div>
 <div class="toolhead">
 <h1>Smartlead</h1>
 <div class="badges">
-<a class="badge teal" href="../mcp/community.html">Community MCP</a>
+<a class="badge gold" href="../mcp/official.html">Official MCP</a>
 <a class="badge gold" href="../gates/paid.html">Paid, self-serve</a>
 <a class="badge mute flat" href="../categories/engagement-outbound.html">Engagement &amp; Outbound</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-02</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -109,25 +109,25 @@ cannot be bought at any price. Across the whole directory that count is 0.</div>
 &middot; entry id 02-smartlead &middot; source
 02-engagement-outbound.md line 141</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">&quot;SmartAgents&quot;/&quot;SmartAI Bot&quot; claim to research leads and draft persona-specific copy via generative AI - genuinely LLM-based per vendor description. &quot;AI-powered&quot; warmup is mostly scripted open/read/reply simulation, borderline as &quot;AI.&quot; Sender rotation, DNS setup, and verification are plain automation.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Outbound email sequencing/deliverability layer with agent-style lead research and reply-triage add-ons.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
-<div><div class="bk">Status bucket</div><div class="bv">Community MCP</div></div>
-<div><div class="bk">Auth</div><div class="bv">api key</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE transport only (the help article says streamable HTTP is not supported), and the vendor FAQ says only Claude Desktop is supported for now</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">4 found in the mcp_url field</div></div>
 </div>
-<p class="note" style="margin-top:14px">A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing.
-The status was established on 2026-08-24 and has not been re-fetched since.</p>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-09-02 and has not been re-fetched since.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/LeadMagic/smartlead-mcp-server (also multiple other community implementations); listed at https://www.pulsemcp.com/servers/leadmagic-smartlead</p><ul><li><a href="https://github.com/LeadMagic/smartlead-mcp-server" rel="noopener nofollow">https://github.com/LeadMagic/smartlead-mcp-server</a></li><li><a href="https://www.pulsemcp.com/servers/leadmagic-smartlead" rel="noopener nofollow">https://www.pulsemcp.com/servers/leadmagic-smartlead</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server (first-party; endpoint https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY. Community alternative: https://github.com/LeadMagic/smartlead-mcp-server, listed at https://www.pulsemcp.com/servers/leadmagic-smartlead)</p><ul><li><a href="https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server" rel="noopener nofollow">https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server</a></li><li><a href="https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY" rel="noopener nofollow">https://mcp.smartlead.ai/sse?user_api_key=YOUR_API_KEY</a></li><li><a href="https://github.com/LeadMagic/smartlead-mcp-server" rel="noopener nofollow">https://github.com/LeadMagic/smartlead-mcp-server</a></li><li><a href="https://www.pulsemcp.com/servers/leadmagic-smartlead" rel="noopener nofollow">https://www.pulsemcp.com/servers/leadmagic-smartlead</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>paid</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/LeadMagic/smartlead-mcp-server" rel="noopener nofollow">https://github.com/LeadMagic/smartlead-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/verify-email-deliverable.html">Verify an email is deliverable</a></li><li><a href="../jobs/run-email-sequence.html">Run an email sequence</a></li><li><a href="../jobs/draft-personalized-outreach.html">Draft personalized outreach</a></li><li><a href="../jobs/warm-up-inbox.html">Warm up an inbox</a></li><li><a href="../jobs/provision-sending-infrastructure.html">Provision sending infrastructure</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.smartlead.ai/pricing" rel="noopener nofollow">https://www.smartlead.ai/pricing</a></li><li><a href="https://github.com/LeadMagic/smartlead-mcp-server" rel="noopener nofollow">https://github.com/LeadMagic/smartlead-mcp-server</a></li><li><a href="https://www.pulsemcp.com/servers/leadmagic-smartlead" rel="noopener nofollow">https://www.pulsemcp.com/servers/leadmagic-smartlead</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.smartlead.ai/pricing, https://github.com/LeadMagic/smartlead-mcp-server, https://www.pulsemcp.com/servers/leadmagic-smartlead</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the base Base plan ($39/mo). No official first-party MCP found - several overlapping community implementations exist with varying maintenance; verify before adopting.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>paid</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">263 of 293 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/LeadMagic/smartlead-mcp-server" rel="noopener nofollow">https://github.com/LeadMagic/smartlead-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/verify-email-deliverable.html">Verify an email is deliverable</a></li><li><a href="../jobs/run-email-sequence.html">Run an email sequence</a></li><li><a href="../jobs/draft-personalized-outreach.html">Draft personalized outreach</a></li><li><a href="../jobs/warm-up-inbox.html">Warm up an inbox</a></li><li><a href="../jobs/provision-sending-infrastructure.html">Provision sending infrastructure</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.smartlead.ai/pricing" rel="noopener nofollow">https://www.smartlead.ai/pricing</a></li><li><a href="https://github.com/LeadMagic/smartlead-mcp-server" rel="noopener nofollow">https://github.com/LeadMagic/smartlead-mcp-server</a></li><li><a href="https://www.pulsemcp.com/servers/leadmagic-smartlead" rel="noopener nofollow">https://www.pulsemcp.com/servers/leadmagic-smartlead</a></li><li><a href="https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server" rel="noopener nofollow">https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.smartlead.ai/pricing, https://github.com/LeadMagic/smartlead-mcp-server, https://www.pulsemcp.com/servers/leadmagic-smartlead, https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">API/webhooks/CRM integration require the Pro plan ($94/mo) or higher, not the base Base plan ($39/mo). No official first-party MCP found - several overlapping community implementations exist with varying maintenance; verify before adopting. 2026-09-02: mcp_status community -&gt; official. Smartlead&#x27;s own help center now documents a first-party server at https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server: endpoint mcp.smartlead.ai/sse with the API key in the URL, SSE only, Claude Desktop only per the vendor FAQ, covering campaign data, diagnostics and lead retrieval. The earlier &quot;no official MCP&quot; sentence is superseded. The LeadMagic community server stays listed as the alternative for clients that need stdio or streamable HTTP.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">02-smartlead</div></div>
 <div><div class="bk">Source file</div><div class="bv">02-engagement-outbound.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">141</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-08-28</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-02</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-02</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -139,8 +139,8 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
     <p>293 directory entries across 15 category files.
     277 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>144 official MCP servers,
-    21 community.
+    <p>147 official MCP servers,
+    20 community.
     0 bench tested.</p>
     <p>55 jobs in 10 families.
     271 entries carry at least one job tag,
@@ -183,7 +183,7 @@ it is disclosed on the <a href="../methodology.html">methodology page</a>.</p></
   </div>
 </div>
 <div class="legal">
-Generated 2026-08-28 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-02 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 293 vs recount
 293.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

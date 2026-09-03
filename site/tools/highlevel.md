@@ -19,7 +19,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
-Vendor: [gohighlevel.com](https://gohighlevel.com) · entry id 06-highlevel · source 06-revops-infra.md line 475
+Vendor: [gohighlevel.com](https://gohighlevel.com) · entry id 06-highlevel · source 06-revops-infra.md line 476
 
 **What it does**
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts from one place.
@@ -104,12 +104,12 @@ Added 2026-08-25 in the coverage sweep. 36 native tools at time of check, across
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 475
+- **Source line**: 476
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

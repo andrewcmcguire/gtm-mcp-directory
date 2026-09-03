@@ -1,6 +1,6 @@
 # Expandi: MCP server status, API access gate and what it does
 
-> Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a... No MCP found, Paid, self-serve. Checked 2026-08-24.
+> Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a... MCP unknown, Paid, self-serve. Checked 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,11 +11,11 @@ Expandi
 
 # Expandi
 
-[No MCP found](../mcp/none-found.md)
+[MCP unknown](../mcp/unknown.md)
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -32,21 +32,23 @@ LinkedIn (+email) sequence-execution tool integrating into a stack only via webh
 
 **MCP server**
 
-- **Status bucket**: No MCP found
+- **Status bucket**: MCP unknown
 
 - **Auth**: n/a
 
-- **Parsed URLs**: 0 found in the mcp_url field
+- **Parsed URLs**: 1 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02 and has not been re-fetched since.
 
 mcp_status, verbatim from the file:
 
-none-found
+unknown
 
 mcp_url, verbatim from the file:
 
-n/a
+n/a (vendor names an "Expandi MCP" on https://expandi.io/pricing/ but publishes no endpoint or docs; expandi.io/mcp/ returned 404 on 2026-09-02)
+
+- [https://expandi.io/pricing/](https://expandi.io/pricing/)
 
 **Access gate**
 
@@ -89,7 +91,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 https://expandi.io/pricing/, https://www.salesforge.ai/directory/sales-tools/expandi
 
 **Notes, verbatim from the file**
-Multiple independent sources state Expandi has no public API, only webhook/Zapier/CRM connectors (HubSpot, Salesforce, Pipedrive). Base plan is $99/mo (or $79/mo annual) per LinkedIn account with no free tier. Subject to the same LinkedIn User Agreement automation restrictions as all tools in this section. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://expandi.io/pricing/): one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API.
+Multiple independent sources state Expandi has no public API, only webhook/Zapier/CRM connectors (HubSpot, Salesforce, Pipedrive). Base plan is $99/mo (or $79/mo annual) per LinkedIn account with no free tier. Subject to the same LinkedIn User Agreement automation restrictions as all tools in this section. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://expandi.io/pricing/): one self-serve plan only, Business at $99/mo or $79/mo annual, and the help centre documents webhooks plus a reversed-webhook API endpoint with no plan restriction stated; the pricing page itself never mentions API. 2026-09-02: mcp_status none-found -> unknown. The vendor's own pricing page https://expandi.io/pricing/ now says "Both offers include a 90 minute build session and early access to Expandi MCP" inside a Back to Pipeline promo running to September 21. That is a first-party mention of a server with no docs, endpoint, or setup page (expandi.io/mcp/ 404, zero official-registry hits), so under law 1 it records as unknown, not official.
 
 **Provenance**
 
@@ -101,8 +103,8 @@ Multiple independent sources state Expandi has no public API, only webhook/Zapie
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

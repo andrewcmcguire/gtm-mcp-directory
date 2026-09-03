@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: no-job-fits. The official reference-servers
 
 - [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 17 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 16 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://github.com/modelcontextprotocol/servers
 
@@ -107,6 +107,6 @@ Worth flagging plainly for anyone assuming this repo is a live GTM connector cat
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-08-28
+- **Data baked**: 2026-09-02
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

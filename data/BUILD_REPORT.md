@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-08-28 by `build_directory.py`. Zero network calls.
+Generated 2026-09-02 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -25,8 +25,8 @@ Generated 2026-08-28 by `build_directory.py`. Zero network calls.
 | 15-community-dark-social.md | 16 | 16 | OK |
 | **Total** | **293** | **293** | **OK** |
 
-mcp_status, build: `{"community": 21, "n-a": 4, "none-found": 117, "official": 144, "unknown": 7}`
-mcp_status, recount: `{"community": 21, "n-a": 4, "none-found": 117, "official": 144, "unknown": 7}`
+mcp_status, build: `{"community": 20, "n-a": 5, "none-found": 110, "official": 147, "unknown": 11}`
+mcp_status, recount: `{"community": 20, "n-a": 5, "none-found": 110, "official": 147, "unknown": 11}`
 
 api_gate, build: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61, "n-a": 6, "paid": 113, "unknown": 32}`
 api_gate, recount: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61, "n-a": 6, "paid": 113, "unknown": 32}`
@@ -51,20 +51,20 @@ api_gate, recount: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61,
 | notes | 293 | 0 |
 | docs_url | 30 | 263 |
 
-- mcp_url non-empty: **272 of 293** (174 parse to at least one URL, 46 point at github.com)
+- mcp_url non-empty: **272 of 293** (181 parse to at least one URL, 48 point at github.com)
 - mcp_auth non-empty: **288 of 293**
 - docs_url present: **30 of 293**
 - api_gate `unknown`: **32 of 293**
-- entries with at least one github.com URL anywhere (phase 6 seed): **61**
-- sources: 1125 URLs total; 276 entries with 2+, 17 with exactly 1, 0 with none
+- entries with at least one github.com URL anywhere (phase 6 seed): **63**
+- sources: 1149 URLs total; 277 entries with 2+, 16 with exactly 1, 0 with none
 - sources carrying a non-URL annotation (preserved, not dropped): **11**
 - solo-reachable (official or community MCP AND gate free or paid): **123**
 - BENCH-TESTED: **0**. This stays 0 until Andrew runs something.
 
-mcp_status: `{"community": 21, "n-a": 4, "none-found": 117, "official": 144, "unknown": 7}`
+mcp_status: `{"community": 20, "n-a": 5, "none-found": 110, "official": 147, "unknown": 11}`
 api_gate: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61, "n-a": 6, "paid": 113, "unknown": 32}`
 tier: `{"RESEARCHED": 293}`
-last_checked: `{"2026-08-24": 261, "2026-08-25": 32}`
+last_checked: `{"2026-08-24": 239, "2026-08-25": 32, "2026-09-02": 22}`
 
 ### SPEC 2.3 fields present in the shape, unmeasured everywhere
 
@@ -98,45 +98,45 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 
 | Job | Family | Entries | Products | Official MCP | Solo-reachable |
 |---|---|---|---|---|---|
-| search-people-by-criteria | find-people-and-companies | 24 | 22 | 15 | 17 |
+| search-people-by-criteria | find-people-and-companies | 24 | 22 | 16 | 17 |
 | search-companies-by-firmographics | find-people-and-companies | 15 | 14 | 12 | 13 |
 | enrich-person-from-linkedin-url | find-people-and-companies | 12 | 12 | 8 | 8 |
-| enrich-company-from-domain | find-people-and-companies | 34 | 31 | 26 | 23 |
+| enrich-company-from-domain | find-people-and-companies | 34 | 31 | 24 | 23 |
 | reverse-lookup-person-from-email | find-people-and-companies | 1 | 1 | 0 | 1 |
 | build-target-account-list | find-people-and-companies | 7 | 7 | 4 | 3 |
 | discover-warm-intro-paths | find-people-and-companies | 4 | 4 | 3 | 2 |
 | find-work-email | get-contact-data | 29 | 29 | 22 | 22 |
 | find-phone-number | get-contact-data | 19 | 19 | 12 | 11 |
-| verify-email-deliverable | get-contact-data | 15 | 15 | 11 | 14 |
+| verify-email-deliverable | get-contact-data | 15 | 15 | 12 | 14 |
 | identify-anonymous-website-visitor | signals-and-research | 11 | 10 | 8 | 6 |
-| fetch-buyer-intent-signals | signals-and-research | 30 | 26 | 18 | 13 |
-| track-job-changes | signals-and-research | 10 | 9 | 4 | 5 |
+| fetch-buyer-intent-signals | signals-and-research | 30 | 26 | 19 | 13 |
+| track-job-changes | signals-and-research | 10 | 9 | 5 | 5 |
 | scrape-job-postings | signals-and-research | 5 | 4 | 5 | 5 |
 | detect-technographics | signals-and-research | 14 | 12 | 10 | 10 |
 | detect-funding-or-news-event | signals-and-research | 12 | 11 | 10 | 9 |
 | scrape-web-page-for-facts | signals-and-research | 6 | 6 | 5 | 5 |
-| monitor-social-mentions | signals-and-research | 12 | 11 | 2 | 2 |
+| monitor-social-mentions | signals-and-research | 12 | 11 | 3 | 2 |
 | research-account-for-call-prep | signals-and-research | 17 | 16 | 10 | 7 |
-| run-email-sequence | outreach-and-engagement | 45 | 38 | 22 | 21 |
-| send-linkedin-message | outreach-and-engagement | 22 | 19 | 12 | 12 |
-| draft-personalized-outreach | outreach-and-engagement | 51 | 45 | 23 | 23 |
-| place-outbound-call | outreach-and-engagement | 22 | 19 | 9 | 6 |
+| run-email-sequence | outreach-and-engagement | 45 | 38 | 24 | 21 |
+| send-linkedin-message | outreach-and-engagement | 22 | 19 | 13 | 12 |
+| draft-personalized-outreach | outreach-and-engagement | 51 | 45 | 25 | 23 |
+| place-outbound-call | outreach-and-engagement | 22 | 19 | 10 | 6 |
 | create-and-send-prospecting-video | outreach-and-engagement | 14 | 13 | 3 | 7 |
 | read-outreach-performance | outreach-and-engagement | 14 | 13 | 7 | 6 |
 | run-autonomous-sdr-agent | outreach-and-engagement | 16 | 12 | 4 | 3 |
-| fetch-call-transcript | conversations-and-meetings | 20 | 20 | 14 | 11 |
+| fetch-call-transcript | conversations-and-meetings | 20 | 20 | 15 | 11 |
 | search-call-library | conversations-and-meetings | 5 | 5 | 5 | 3 |
-| summarize-meeting | conversations-and-meetings | 22 | 22 | 16 | 14 |
+| summarize-meeting | conversations-and-meetings | 22 | 22 | 17 | 14 |
 | extract-deal-signals-from-calls | conversations-and-meetings | 21 | 21 | 11 | 4 |
-| book-a-meeting | conversations-and-meetings | 26 | 23 | 11 | 10 |
+| book-a-meeting | conversations-and-meetings | 26 | 23 | 9 | 10 |
 | read-calendar-availability | conversations-and-meetings | 12 | 11 | 6 | 6 |
 | answer-inbound-chat | conversations-and-meetings | 21 | 16 | 11 | 8 |
 | read-crm-records | systems-of-record | 13 | 10 | 10 | 8 |
-| write-crm-records | systems-of-record | 28 | 25 | 17 | 14 |
+| write-crm-records | systems-of-record | 28 | 25 | 18 | 14 |
 | query-data-warehouse | systems-of-record | 2 | 2 | 2 | 2 |
 | sync-records-between-systems | systems-of-record | 9 | 9 | 8 | 7 |
-| run-automation-workflow | systems-of-record | 18 | 15 | 12 | 9 |
-| route-inbound-lead | systems-of-record | 9 | 7 | 6 | 3 |
+| run-automation-workflow | systems-of-record | 18 | 15 | 10 | 9 |
+| route-inbound-lead | systems-of-record | 9 | 7 | 4 | 3 |
 | generate-proposal-or-quote | deals-and-documents | 5 | 5 | 1 | 1 |
 | send-document-for-signature | deals-and-documents | 6 | 6 | 3 | 3 |
 | read-contract-terms | deals-and-documents | 3 | 3 | 3 | 2 |
@@ -145,11 +145,11 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 | draft-rfp-response | deals-and-documents | 3 | 3 | 2 | 2 |
 | read-pipeline-forecast | planning-scoring-coaching | 22 | 19 | 8 | 2 |
 | model-revenue-plan | planning-scoring-coaching | 7 | 7 | 3 | 1 |
-| score-and-prioritize-leads | planning-scoring-coaching | 24 | 21 | 15 | 8 |
-| score-rep-performance | planning-scoring-coaching | 25 | 24 | 5 | 3 |
-| run-sales-roleplay-practice | planning-scoring-coaching | 11 | 10 | 0 | 0 |
-| warm-up-inbox | sending-infrastructure | 13 | 12 | 7 | 8 |
-| provision-sending-infrastructure | sending-infrastructure | 9 | 9 | 5 | 6 |
+| score-and-prioritize-leads | planning-scoring-coaching | 24 | 21 | 13 | 8 |
+| score-rep-performance | planning-scoring-coaching | 25 | 24 | 6 | 3 |
+| run-sales-roleplay-practice | planning-scoring-coaching | 11 | 10 | 1 | 0 |
+| warm-up-inbox | sending-infrastructure | 13 | 12 | 8 | 8 |
+| provision-sending-infrastructure | sending-infrastructure | 9 | 9 | 6 | 6 |
 | check-inbox-placement | sending-infrastructure | 4 | 4 | 1 | 1 |
 | discover-mcp-servers | mcp-plumbing | 5 | 5 | 1 | 0 |
 | proxy-tool-calls-to-saas | mcp-plumbing | 9 | 9 | 9 | 8 |
@@ -217,7 +217,7 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 Editorial, not build failures. The markdown is the source of truth; the build reports these and ships.
 
 - SCHEMA law 1 risk (official or community with no parseable mcp_url): **1** 13-arphie
-- Thin sourcing (fewer than 2 source URLs): **17**
+- Thin sourcing (fewer than 2 source URLs): **16**
 - api_gate unknown: **32**
 - docs_url missing: **263**
 
@@ -231,8 +231,8 @@ None.
 
 ## Integrity
 
-- content sha256: `84def5fb51daf19b5df44705b2cb40dc4bc28b517b40b763d275d56f589a0bdd`
-- source sha256: `b9fea57ac759f2f6d818bfc9a424d8806736eb286f1479320a926e9a52f27cd6`
+- content sha256: `45943543d879a85fe4386a9d6b54611103c3605f10993aa218e5446d86ffba5b`
+- source sha256: `4c9cb9310cb9e8c660ed491236b8d803fba65f84f3cff74248ed58962f72b240`
 - jobs.yaml sha256: `e63c27779ba7bdea1617e4ae1e6afaa47193ecbf695e5ceb744a0677da1db948`
 - tags.yaml sha256: `77a593d1de719f44e3816265c624b1cd7eefd1dee059b9f4ac8be0539b4d1b7f`
 - network calls made: 0 (the socket module is disarmed at import)

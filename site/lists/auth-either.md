@@ -1,6 +1,6 @@
-# GTM MCP servers that accept OAuth or an API key: 46 tools, counted
+# GTM MCP servers that accept OAuth or an API key: 47 tools, counted
 
-> 46 of the 165 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-08-28.
+> 47 of the 167 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-02.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,7 +8,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that accept OAuth or an API key
 
-**List · 46 of 293**
+**List · 47 of 293**
 
 ## GTM MCP servers that accept OAuth or an API key
 
@@ -28,6 +28,8 @@ cal.com | [Official MCP](../mcp/official.md) | [https://github.com/calcom/cal-mc
 calendly.com | [Official MCP](../mcp/official.md) | [https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server) +3 more | OAuth 2.1 Authorization Code + PKCE (S256) with Dynamic Client Registration (RFC 7591). Personal access tokens are not supported. Fully hosted by... | [Free to start](../gates/free.md) |
 | [Composio](../tools/composio.md)
 composio.dev | [Official MCP](../mcp/official.md) | [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp) | Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the user's behalf, then gates the MCP endpoint itself with an... | [Free to start](../gates/free.md) |
+| [Fathom](../tools/fathom.md)
+fathom.video | [Official MCP](../mcp/official.md) | [https://developers.fathom.ai/mcp-docs](https://developers.fathom.ai/mcp-docs) +4 more | In-client authorization: the docs say to add the server URL "then authenticate to access your meeting data", via the Fathom connector in Claude... | [Free to start](../gates/free.md) |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Official MCP](../mcp/official.md) | [https://guide.fireflies.ai/articles/8272956938-learn...](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol) +1 more | OAuth (Google/Microsoft, recommended) or manual API key for Claude Desktop and other MCP clients. | [Free to start](../gates/free.md) |
 | [LeadMagic](../tools/leadmagic.md)
@@ -82,8 +84,6 @@ wiza.co | [Official MCP](../mcp/official.md) | [https://mcp.wiza.co/mcp](https:/
 woodpecker.co | [Official MCP](../mcp/official.md) | [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/) +1 more | hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker API key | [Paid, self-serve](../gates/paid.md) |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
 anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | unknown - described only as a "governed MCP connection" with permission/audit controls; the specific credential mechanism (API key vs. OAuth) is not... | [Enterprise only](../gates/enterprise-only.md) |
-| [Default](../tools/default.md)
-default.com | [Official MCP](../mcp/official.md) | [https://www.default.com/](https://www.default.com/) | unknown - not specified on the public page (plausibly API key or OAuth given CRM-grade data access, but unconfirmed) | [Enterprise only](../gates/enterprise-only.md) |
 | [Seamless.AI](../tools/seamless-ai.md)
 seamless.ai | [Official MCP](../mcp/official.md) | [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs) +1 more | OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - i.e. gated per-account, contact admin/support to turn on | [Enterprise only](../gates/enterprise-only.md) |
 | [Seismic](../tools/seismic.md)
@@ -96,6 +96,8 @@ syncari.com | [Official MCP](../mcp/official.md) | [https://syncari.com/mcp-serv
 usergems.com | [Official MCP](../mcp/official.md) | [https://www.usergems.com/product/mcp](https://www.usergems.com/product/mcp) | unknown - connects inside Claude/ChatGPT per the product page, but the exact auth mechanism (OAuth vs. API key) isn't disclosed publicly. | [Enterprise only](../gates/enterprise-only.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Official MCP](../mcp/official.md) | [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server) +1 more | OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex connectors; Bearer-token service-account API keys (issued at... | [Gate unknown](../gates/unknown.md) |
+| [Klavis AI](../tools/klavis-ai.md)
+klavis.ai | [Official MCP](../mcp/official.md) | [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md) +2 more | Klavis API key as an HTTP Bearer token on the management API that creates a per-user Strata server... | [Gate unknown](../gates/unknown.md) |
 | [Reclaim.ai](../tools/reclaim-ai.md)
 reclaim.ai | [Official MCP](../mcp/official.md) | [https://mcp.reclaim.ai](https://mcp.reclaim.ai) | OAuth (official hosted server). A separate unofficial/community server also exists (github.com/universalamateur/reclaim-mcp-server, explicitly marked... | [Gate unknown](../gates/unknown.md) |
 | [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md)
@@ -109,4 +111,4 @@ bombbomb.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bo
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer. | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-08-28 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
