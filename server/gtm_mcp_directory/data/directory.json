@@ -48,8 +48,8 @@
       "other": 0
     },
     "api_gate": {
-      "free": 61,
-      "paid": 113,
+      "free": 62,
+      "paid": 112,
       "enterprise-only": 77,
       "enterprise-leaning": 4,
       "unknown": 32,
@@ -164,7 +164,7 @@
         "01-wiza",
         "01-zoominfo"
       ],
-      "source_sha256": "df90426748aee5ec2d80cf1d788cd91213d0d91f669c5fd8bc83fab7423ebbb6"
+      "source_sha256": "4eb6dcf3dcb29a9f29817c0ae5297151398055512a142f57a8aeac910828c32f"
     },
     {
       "num": "02",
@@ -373,8 +373,8 @@
         "other": 0
       },
       "api_gate": {
-        "free": 5,
-        "paid": 13,
+        "free": 6,
+        "paid": 12,
         "enterprise-only": 10,
         "enterprise-leaning": 0,
         "unknown": 0,
@@ -422,7 +422,7 @@
         "05-vector",
         "05-warmly"
       ],
-      "source_sha256": "8fcde2ccf47af7ba3cdddb223b96c21fc3079286da7ab5d01ab0e065d58ab01e"
+      "source_sha256": "c231f00b603ad67e143211567dcd58245f75544e0bd26c662f15b63d579be081"
     },
     {
       "num": "06",
@@ -1145,8 +1145,8 @@
           "other": 0
         },
         "api_gate": {
-          "free": 6,
-          "paid": 13,
+          "free": 7,
+          "paid": 12,
           "enterprise-only": 3,
           "enterprise-leaning": 1,
           "unknown": 1,
@@ -1216,8 +1216,8 @@
           "other": 0
         },
         "api_gate": {
-          "free": 4,
-          "paid": 9,
+          "free": 5,
+          "paid": 8,
           "enterprise-only": 2,
           "enterprise-leaning": 0,
           "unknown": 0,
@@ -1335,8 +1335,8 @@
           "other": 0
         },
         "api_gate": {
-          "free": 14,
-          "paid": 13,
+          "free": 15,
+          "paid": 12,
           "enterprise-only": 7,
           "enterprise-leaning": 0,
           "unknown": 0,
@@ -1580,8 +1580,8 @@
           "other": 0
         },
         "api_gate": {
-          "free": 9,
-          "paid": 12,
+          "free": 10,
+          "paid": 11,
           "enterprise-only": 1,
           "enterprise-leaning": 0,
           "unknown": 0,
@@ -2090,8 +2090,8 @@
           "other": 0
         },
         "api_gate": {
-          "free": 5,
-          "paid": 7,
+          "free": 6,
+          "paid": 6,
           "enterprise-only": 2,
           "enterprise-leaning": 0,
           "unknown": 0,
@@ -2150,8 +2150,8 @@
           "other": 0
         },
         "api_gate": {
-          "free": 4,
-          "paid": 6,
+          "free": 5,
+          "paid": 5,
           "enterprise-only": 2,
           "enterprise-leaning": 0,
           "unknown": 0,
@@ -5063,7 +5063,7 @@
       "heading": "Apollo.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 49
+      "display_rank": 50
     },
     {
       "id": "01-bettercontact",
@@ -5200,7 +5200,7 @@
       "heading": "Bright Data",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 54
+      "display_rank": 55
     },
     {
       "id": "01-clay",
@@ -5278,7 +5278,7 @@
       "heading": "Clay",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 58
+      "display_rank": 59
     },
     {
       "id": "01-clearbit",
@@ -5485,7 +5485,7 @@
       "heading": "Coresignal",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 60
+      "display_rank": 61
     },
     {
       "id": "01-crustdata",
@@ -5499,12 +5499,12 @@
       "mcp_status": "official",
       "mcp_url": "https://crustdata.com/ (MCP referenced directly on the vendor homepage: \"drop the whole graph into your agent with the MCP, in one line\"; a dedicated MCP docs sub-page was not locatable under docs.crustdata.com)",
       "mcp_auth": "unknown",
-      "api_gate": "free (free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top)",
+      "api_gate": "free (free sandbox key advertised on the vendor homepage, self-serve signup; paid usage is credit-based on purchased credits)",
       "revops_role": "Real-time firmographic/trigger-signal layer for outbound (funding events, headcount changes, tech-stack shifts), used alongside or as an alternative to Clay/PDL.",
       "tier": "RESEARCHED",
       "last_checked": "2026-09-03",
       "sources": "https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code, https://docs.crustdata.com/person-docs/search/introduction",
-      "notes": "MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at \"0.03 credits per result returned\" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there.",
+      "notes": "MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at \"0.03 credits per result returned\" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there. [api_gate 2026-09-03] Re-checked against the live vendor pricing surfaces and held at free; the cross-listed 05-signals-intent-abm.md entry was reconciled paid -> free to match. Two corrections to the 2026-08-25 line above: the vendor homepage today says \"Free sandbox key, full API, MCP server and skill templates\" but does NOT say \"no credit card\", so that phrase is withdrawn as unsourced; and https://crustdata.com/pricing today shows no price list at all, only credit-based real-time API access with monthly/annual plans, flat-file data, and a contact-sales custom/enterprise tier. https://docs.crustdata.com/general/pricing confirms credits are \"valid for 6 months from the purchase date\", /person/search and /company/search at 0.03 credits per result, autocomplete and /company/identify free, \"Web live endpoints are available on self-serve plans\", and Company and Person live endpoints still plan-gated. Free-to-start with paid usage on top; no sales call to get a key, so not enterprise-only and not paid-only.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -5776,7 +5776,7 @@
       "heading": "Diffbot",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 12
+      "display_rank": 13
     },
     {
       "id": "01-dropcontact",
@@ -5924,7 +5924,7 @@
       "heading": "Enrow",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 13
+      "display_rank": 14
     },
     {
       "id": "01-exa",
@@ -5995,7 +5995,7 @@
       "heading": "Exa",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 14
+      "display_rank": 15
     },
     {
       "id": "01-explorium",
@@ -6283,7 +6283,7 @@
       "heading": "FullEnrich",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 18
+      "display_rank": 19
     },
     {
       "id": "01-hunter-io",
@@ -6355,7 +6355,7 @@
       "heading": "Hunter.io",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 21
+      "display_rank": 22
     },
     {
       "id": "01-lead411",
@@ -6506,7 +6506,7 @@
       "heading": "LeadMagic",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 23
+      "display_rank": 24
     },
     {
       "id": "01-lusha",
@@ -6587,7 +6587,7 @@
       "heading": "Lusha",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 24
+      "display_rank": 25
     },
     {
       "id": "01-ocean-io",
@@ -6819,7 +6819,7 @@
       "heading": "Prospeo",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 31
+      "display_rank": 32
     },
     {
       "id": "01-rocketreach",
@@ -7262,7 +7262,7 @@
       "heading": "TheirStack",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 36
+      "display_rank": 37
     },
     {
       "id": "01-uplead",
@@ -7556,7 +7556,7 @@
       "heading": "Warmly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 40
+      "display_rank": 41
     },
     {
       "id": "01-wiza",
@@ -7719,7 +7719,7 @@
       "heading": "ZoomInfo",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 44
+      "display_rank": 45
     },
     {
       "id": "02-amplemarket",
@@ -9729,7 +9729,7 @@
       "heading": "Airspeed (formerly Glyphic)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 46
+      "display_rank": 47
     },
     {
       "id": "03-attention",
@@ -9805,7 +9805,7 @@
       "heading": "Attention",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 51
+      "display_rank": 52
     },
     {
       "id": "03-avoma",
@@ -9874,7 +9874,7 @@
       "heading": "Avoma",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 52
+      "display_rank": 53
     },
     {
       "id": "03-chorus",
@@ -10015,7 +10015,7 @@
       "heading": "Circleback",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 57
+      "display_rank": 58
     },
     {
       "id": "03-clari",
@@ -10243,7 +10243,7 @@
       "heading": "Fathom",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 15
+      "display_rank": 16
     },
     {
       "id": "03-fellow",
@@ -10381,7 +10381,7 @@
       "heading": "Fireflies.ai",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 16
+      "display_rank": 17
     },
     {
       "id": "03-gong",
@@ -10817,7 +10817,7 @@
       "heading": "MeetGeek",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 25
+      "display_rank": 26
     },
     {
       "id": "03-momentum",
@@ -11582,7 +11582,7 @@
       "heading": "Amplemarket (Duo Copilot)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 48
+      "display_rank": 49
     },
     {
       "id": "04-artisan-ai",
@@ -12417,7 +12417,7 @@
       "heading": "Relevance AI",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 32
+      "display_rank": 33
     },
     {
       "id": "04-reply-io",
@@ -13553,14 +13553,14 @@
       "mcp_status": "official",
       "mcp_url": "https://docs.crustdata.com/for-agents/mcp.md (also a Claude Code plugin: https://docs.crustdata.com/for-agents/claude-plugin.md)",
       "mcp_auth": "api key (free sandbox key available)",
-      "api_gate": "paid",
+      "api_gate": "free (free sandbox key advertised on the vendor homepage, self-serve signup; usage beyond that is credit-based on purchased credits)",
       "revops_role": "Real-time company/people data layer for enrichment, agent tooling, and account monitoring, positioned as an agent-native alternative to legacy data providers.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-09-03",
       "sources": "https://crustdata.com/, https://crustdata.com/pricing, https://crustdata.com/apis/company-enrichment, https://docs.crustdata.com/for-agents/mcp.md, https://www.ycombinator.com/companies/crustdata",
-      "notes": "One of the clearest \"new self-serve tier\" contrasts to 6sense/Demandbase/Bombora in this category - YC-backed (launched 2025), free sandbox key, flat-file data starting at $49/mo, credit-based API pricing beyond that. No enterprise-only gate found.",
+      "notes": "One of the clearest \"new self-serve tier\" contrasts to 6sense/Demandbase/Bombora in this category - YC-backed (launched 2025), free sandbox key, credit-based API pricing beyond that. No enterprise-only gate found. [api_gate 2026-09-03] Reconciled paid -> free so this cross-listed entry agrees with its canonical entry in 01-data-enrichment.md, checked against the live vendor pricing surfaces: https://crustdata.com/ states \"Free sandbox key, full API, MCP server and skill templates\"; https://crustdata.com/pricing lists no prices at all, only three access routes (credit-based real-time API with monthly/annual plans, flat-file data, and a contact-sales custom/enterprise tier), so the earlier \"flat-file data starting at $49/mo\" figure is dropped as no longer verifiable on the vendor's own page; https://docs.crustdata.com/general/pricing states credits are \"valid for 6 months from the purchase date\", /person/search and /company/search cost 0.03 credits per result, /person/search/autocomplete, /company/search/autocomplete and /company/identify are free, \"Web live endpoints are available on self-serve plans\", and Company and Person live endpoints remain plan-gated. No sales call is required to get a key, so the gate is free-to-start with paid usage on top, not paid.",
       "mcp_status_bucket": "official",
-      "api_gate_bucket": "paid",
+      "api_gate_bucket": "free",
       "mcp_urls": [
         "https://docs.crustdata.com/for-agents/mcp.md",
         "https://docs.crustdata.com/for-agents/claude-plugin.md"
@@ -13621,7 +13621,7 @@
       "heading": "Crustdata",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 61
+      "display_rank": 12
     },
     {
       "id": "05-demandbase",
@@ -14170,7 +14170,7 @@
       "heading": "Leadfeeder / Dealfront",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 22
+      "display_rank": 23
     },
     {
       "id": "05-live-data-technologies",
@@ -14302,7 +14302,7 @@
       "heading": "PredictLeads",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 30
+      "display_rank": 31
     },
     {
       "id": "05-rb2b",
@@ -14654,7 +14654,7 @@
       "heading": "TheirStack",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 37
+      "display_rank": 38
     },
     {
       "id": "05-trigify",
@@ -14948,7 +14948,7 @@
       "heading": "Warmly",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 41
+      "display_rank": 42
     },
     {
       "id": "06-affinity",
@@ -15017,7 +15017,7 @@
       "heading": "Affinity",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 45
+      "display_rank": 46
     },
     {
       "id": "06-airbyte",
@@ -15357,7 +15357,7 @@
       "heading": "Close",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 59
+      "display_rank": 60
     },
     {
       "id": "06-default",
@@ -15507,7 +15507,7 @@
       "heading": "Fivetran (GTM connectors)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 17
+      "display_rank": 18
     },
     {
       "id": "06-highlevel",
@@ -15644,7 +15644,7 @@
       "heading": "Hightouch",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 19
+      "display_rank": 20
     },
     {
       "id": "06-hubspot",
@@ -15724,7 +15724,7 @@
       "heading": "HubSpot",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 20
+      "display_rank": 21
     },
     {
       "id": "06-make",
@@ -15859,7 +15859,7 @@
       "heading": "n8n",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 27
+      "display_rank": 28
     },
     {
       "id": "06-octave",
@@ -16152,7 +16152,7 @@
       "heading": "Pipedrive",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 29
+      "display_rank": 30
     },
     {
       "id": "06-retool",
@@ -16218,7 +16218,7 @@
       "heading": "Retool",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 33
+      "display_rank": 34
     },
     {
       "id": "06-salesforce-agentforce",
@@ -16371,7 +16371,7 @@
       "heading": "Snowflake (as GTM data layer)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 34
+      "display_rank": 35
     },
     {
       "id": "06-superblocks",
@@ -16567,7 +16567,7 @@
       "heading": "Zapier",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 42
+      "display_rank": 43
     },
     {
       "id": "07-apideck",
@@ -17162,7 +17162,7 @@
       "heading": "modelcontextprotocol/servers (official reference repo)",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 26
+      "display_rank": 27
     },
     {
       "id": "07-pipedream-mcp",
@@ -17417,7 +17417,7 @@
       "heading": "Zapier MCP",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 43
+      "display_rank": 44
     },
     {
       "id": "08-bombbomb",
@@ -18173,7 +18173,7 @@
       "heading": "Tavus",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 35
+      "display_rank": 36
     },
     {
       "id": "08-trumpet",
@@ -18457,7 +18457,7 @@
       "heading": "Allegrow",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 47
+      "display_rank": 48
     },
     {
       "id": "09-folderly",
@@ -19474,7 +19474,7 @@
       "heading": "Chili Piper",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 55
+      "display_rank": 56
     },
     {
       "id": "10-clara",
@@ -22442,7 +22442,7 @@
       "heading": "Arphie",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 50
+      "display_rank": 51
     },
     {
       "id": "13-common-paper",
@@ -22924,7 +22924,7 @@
       "heading": "PandaDoc",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 28
+      "display_rank": 29
     },
     {
       "id": "13-proposify",
@@ -23260,7 +23260,7 @@
       "heading": "Trumpet",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 39
+      "display_rank": 40
     },
     {
       "id": "14-ada",
@@ -23477,7 +23477,7 @@
       "heading": "Chili Piper",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 56
+      "display_rank": 57
     },
     {
       "id": "14-correlated",
@@ -24143,7 +24143,7 @@
       "heading": "Tidio",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 38
+      "display_rank": 39
     },
     {
       "id": "14-toplyne",
@@ -24394,7 +24394,7 @@
       "heading": "Brand24",
       "missing_schema_fields": [],
       "extra_fields": {},
-      "display_rank": 53
+      "display_rank": 54
     },
     {
       "id": "15-brandwatch",
@@ -25323,6 +25323,6 @@
       "display_rank": 147
     }
   ],
-  "content_sha256": "a245a27aa517863220ee6a0e89910b28221b7ecb10e62691583d0e80e7468ad0",
-  "source_sha256": "3753727bea86e6edabcb64057405f9a530de7c103e9748d8a7e55f978b416c51"
+  "content_sha256": "6446546443fa463278bebffc3e3ce2049f3d54853cdd5fef9b0f4d2c0498a0d0",
+  "source_sha256": "2c15e7af14ca4342df429c27e7468b4061483e11983d825bcc9548cbbde863f7"
 }

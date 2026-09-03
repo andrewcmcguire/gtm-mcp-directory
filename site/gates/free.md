@@ -1,6 +1,6 @@
-# Free to start: 61 GTM tools, counted
+# Free to start: 62 GTM tools, counted
 
-> 61 of 293 GTM tools in this directory are free to start. A solo operator can get API access without talking to anyone.
+> 62 of 293 GTM tools in this directory are free to start. A solo operator can get API access without talking to anyone.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 A solo operator can get API access without talking to anyone.
 
-61 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+62 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Airbyte](../tools/airbyte.md) airbyte.com Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -39,6 +39,8 @@ A solo operator can get API access without talking to anyone.
 - [Composio](../tools/composio.md) composio.dev A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion, Stripe, and others) through Composio-managed OAuth. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md) · Cross listed, canonical home is Data & Enrichment
 
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

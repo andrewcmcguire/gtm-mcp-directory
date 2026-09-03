@@ -1,16 +1,16 @@
-# GTM tools with free API tiers: 61 that need no sales call
+# GTM tools with free API tiers: 62 that need no sales call
 
-> 61 go to market tools where a solo operator can get API access without talking to anyone. 48 of them also have an MCP server. Counted 2026-09-03.
+> 62 go to market tools where a solo operator can get API access without talking to anyone. 49 of them also have an MCP server. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 61 GTM tools a solo operator can call for free
+[The lists](index.md) / The 62 GTM tools a solo operator can call for free
 
-**List · 61 of 293**
+**List · 62 of 293**
 
-## The 61 GTM tools a solo operator can call for free
+## The 62 GTM tools a solo operator can call for free
 
 Free to start means a solo operator can get API access without talking to anyone. It does not mean unlimited, it does not mean free forever, and this directory does not track prices or quota sizes, so nothing here should be read as a pricing claim. It tracks one thing: whether the door opens without a sales call.
 
@@ -40,6 +40,8 @@ commonpaper.com | [Proposals & Deals](../categories/proposals-deals.md) | [Offic
 composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [Crustdata](../tools/crustdata.md)
 crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) |
 | [Enrow](../tools/enrow.md)

@@ -27,7 +27,7 @@ Domain to company is the most common single call in a GTM agent's loop, because 
 | Official MCP server | 24 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |
 | No server found | 6 | on the date each entry was checked |
-| Free to start | 14 | no payment, no sales call |
+| Free to start | 15 | no payment, no sales call |
 | Solo reachable | 23 | free or paid self serve |
 | Bench tested | 0 | somebody here actually ran it |
 

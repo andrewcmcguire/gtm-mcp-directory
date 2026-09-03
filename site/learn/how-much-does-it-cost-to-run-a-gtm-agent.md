@@ -1,6 +1,6 @@
 # What does it cost to run a GTM agent? What this directory can and cannot tell you
 
-> This directory tracks access gates, not prices. What it can tell you: 61 tools are free to start and 77 need a contract. What it cannot, and where the cost actually lands.
+> This directory tracks access gates, not prices. What it can tell you: 62 tools are free to start and 77 need a contract. What it cannot, and where the cost actually lands.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-This directory does not track prices, credits or quotas, so it cannot give you a number and will not pretend to. What it can tell you is which doors open without a sales call: 61 entries are free to start, 113 are paid self serve, and 77 need a contract.
+This directory does not track prices, credits or quotas, so it cannot give you a number and will not pretend to. What it can tell you is which doors open without a sales call: 62 entries are free to start, 112 are paid self serve, and 77 need a contract.
 
 ## What is actually being tracked here
 

@@ -115,13 +115,13 @@ A raw person/company data API that returns profile records (name, job history, e
 
 ## What this directory does and does not track about money
 
-- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 61 entries are free to start, 113 paid self serve, 77 enterprise only, 32 unknown.
+- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 62 entries are free to start, 112 paid self serve, 77 enterprise only, 32 unknown.
 
 - **Not tracked:** prices, credit costs, quota sizes, rate limits, overage behaviour, or what happens to your data on a free tier. None of those should be inferred from anything here.
 
 ## The starter kit shape
 
-If you want a chain rather than a single tool, the free and reachable jobs with the deepest coverage are [enrich a company from a domain](../jobs/enrich-company-from-domain.md) at 14 free entries, [find a work email address](../jobs/find-work-email.md) at 12, and [verify an email is deliverable](../jobs/verify-email-deliverable.md) at 6. That is enough to build a research and contact chain without a contract, and it is the cheapest honest way to find out whether any of this works for you.
+If you want a chain rather than a single tool, the free and reachable jobs with the deepest coverage are [enrich a company from a domain](../jobs/enrich-company-from-domain.md) at 15 free entries, [find a work email address](../jobs/find-work-email.md) at 12, and [verify an email is deliverable](../jobs/verify-email-deliverable.md) at 6. That is enough to build a research and contact chain without a contract, and it is the cheapest honest way to find out whether any of this works for you.
 
 ## Sources
 

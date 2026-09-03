@@ -1,6 +1,6 @@
 # API access gates: free, paid, or a procurement cycle before your agent starts
 
-> An access gate is what stands between you and an API key. Across 293 GTM tools: 61 free to start, 113 paid self serve, 77 enterprise only.
+> An access gate is what stands between you and an API key. Across 293 GTM tools: 62 free to start, 112 paid self serve, 77 enterprise only.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,8 +22,8 @@ This is the second column nobody else publishes, and in practice it decides more
 
 | Gate | Entries | What it means for one person with an agent |
 |---|---|---|
-| [Free to start](../gates/free.md) | 61 | Sign up, get a key, start calling. No conversation with anybody. |
-| [Paid, self serve](../gates/paid.md) | 113 | A credit card is enough. Still no sales call. |
+| [Free to start](../gates/free.md) | 62 | Sign up, get a key, start calling. No conversation with anybody. |
+| [Paid, self serve](../gates/paid.md) | 112 | A credit card is enough. Still no sales call. |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 4 | Self serve on paper, gated in practice. |
 | [Enterprise only](../gates/enterprise-only.md) | 77 | Contract, seat minimum or procurement. A solo operator is out. |
 | [Unknown](../gates/unknown.md) | 32 | The gate could not be established from public sources and is published as unknown rather than guessed. |

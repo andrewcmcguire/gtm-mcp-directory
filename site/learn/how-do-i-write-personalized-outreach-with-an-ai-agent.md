@@ -21,7 +21,7 @@ The drafting is the easy half and it is not where quality comes from. What decid
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
 | Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
-| Find a real trigger | [detect a funding or news event](../jobs/detect-funding-or-news-event.md) | 12 | 10 | 4 |
+| Find a real trigger | [detect a funding or news event](../jobs/detect-funding-or-news-event.md) | 12 | 10 | 5 |
 | Scrape the specific page | [scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) | 6 | 5 | 2 |
 | Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 28 | 6 |
 | Send it | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 26 | 3 |

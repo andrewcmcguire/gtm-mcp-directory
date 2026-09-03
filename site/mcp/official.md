@@ -40,6 +40,8 @@ The vendor ships and maintains the server itself. A wrapper built by Zapier, Com
 
 - [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md) · Cross listed, canonical home is Data & Enrichment
+
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Enrow](../tools/enrow.md) enrow.io Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a verified result. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -137,8 +139,6 @@ The vendor ships and maintains the server itself. A wrapper built by Zapier, Com
 - [Close (Close CRM)](../tools/close.md) close.com A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Coresignal](../tools/coresignal.md) coresignal.com Sells structured B2B datasets and APIs (company, employee/people, job-posting records) scraped and normalized from public and professional-network sources, delivered as bulk datasets or pay-per-call enrichment... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md) · Cross listed, canonical home is Data & Enrichment
 
 - [Cube Software](../tools/cube-software.md) cubesoftware.com Spreadsheet-native FP&A planning and reporting platform for finance teams; revenue-scenario modeling is one supported use case rather than a dedicated CRM-native sales-forecasting product. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 

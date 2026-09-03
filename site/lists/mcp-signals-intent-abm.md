@@ -16,6 +16,9 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | API key
+api key (free sandbox key available) | [Free to start](../gates/free.md) |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
 leadfeeder.com | [Official MCP](../mcp/official.md) | [https://www.leadfeeder.com/features/mcp-server/](https://www.leadfeeder.com/features/mcp-server/) +1 more | OAuth
 OAuth - user signs in with their own Leadfeeder account; vendor states "No keys pasted... | [Free to start](../gates/free.md) |
@@ -28,9 +31,6 @@ unknown - page references a "How does authentication work?" FAQ but the answer w
 | [Warmly (Warmly.ai)](../tools/warmly.md)
 warmly.ai | [Official MCP](../mcp/official.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth or an API key
 MCP uses OAuth-based login (no manual key management); the separate REST API... | [Free to start](../gates/free.md) |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | API key
-api key (free sandbox key available) | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Official MCP](../mcp/official.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | API key
 Personal access token (generated in Settings > AI Features), used via Claude custom... | [Paid, self-serve](../gates/paid.md) |

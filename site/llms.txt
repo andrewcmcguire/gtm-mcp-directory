@@ -34,7 +34,7 @@ This file exists because the directory publishes what it measures. A directory o
 
 - Entries: 293 across 15 categories. Unique products: 277. Cross listed: 16.
 - MCP status: 156 official, 26 community, 87 none found, 15 unknown, 9 not applicable.
-- API gate: 61 free to start, 113 paid self serve, 77 enterprise only, 4 enterprise leaning, 32 unknown, 6 not applicable.
+- API gate: 62 free to start, 112 paid self serve, 77 enterprise only, 4 enterprise leaning, 32 unknown, 6 not applicable.
 - Free to start or paid self serve: 174.
 - Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 132. This is the strictest useful filter on the site.
 - Jobs: 56 in 10 families, 849 tags across 271 entries. 22 entries are untagged and each records why.
@@ -55,7 +55,7 @@ This file exists because the directory publishes what it measures. A directory o
 - [The 156 GTM tools with an official MCP server](https://andrewcmcguire.com/gtm-directory/lists/official-mcp-servers.html): 156 entries. The full list of 156 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-03.
 - [The 26 GTM tools with a community MCP server](https://andrewcmcguire.com/gtm-directory/lists/community-mcp-servers.html): 26 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-03 across 293 directory entries.
 - [The 87 GTM tools with no MCP server found](https://andrewcmcguire.com/gtm-directory/lists/no-mcp-server.html): 87 entries. 87 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-03.
-- [The 61 GTM tools a solo operator can call for free](https://andrewcmcguire.com/gtm-directory/lists/free-api-tiers.html): 61 entries. 61 go to market tools where a solo operator can get API access without talking to anyone. 48 of them also have an MCP server. Counted 2026-09-03.
+- [The 62 GTM tools a solo operator can call for free](https://andrewcmcguire.com/gtm-directory/lists/free-api-tiers.html): 62 entries. 62 go to market tools where a solo operator can get API access without talking to anyone. 49 of them also have an MCP server. Counted 2026-09-03.
 - [The 132 GTM tools an agent can call and a solo operator can pay for](https://andrewcmcguire.com/gtm-directory/lists/solo-reachable.html): 132 entries. 132 of 293 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-03.
 - [The 81 GTM tools that need a contract before an agent can touch them](https://andrewcmcguire.com/gtm-directory/lists/enterprise-gated.html): 81 entries. 77 enterprise only entries plus 4 enterprise leaning. 35 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-03.
 - [GTM MCP servers that use OAuth](https://andrewcmcguire.com/gtm-directory/lists/auth-oauth.html): 52 entries. 52 of the 182 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.

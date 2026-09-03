@@ -20,6 +20,8 @@ The server authenticates with a key or token the operator generates and pastes i
 autobound.ai | [Official MCP](../mcp/official.md) | [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp) +1 more | api key via an AUTOBOUND_API_KEY environment variable in the MCP client config. | [Free to start](../gates/free.md) |
 | [Census (now operates as "Fivetran Activations")](../tools/census.md)
 getcensus.com | [Official MCP](../mcp/official.md) | [https://github.com/fivetran/fivetran-mcp](https://github.com/fivetran/fivetran-mcp) | API key + secret via env vars (FIVETRAN_API_KEY, FIVETRAN_API_SECRET). | [Free to start](../gates/free.md) |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | api key (free sandbox key available) | [Free to start](../gates/free.md) |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Official MCP](../mcp/official.md) | [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp) | api key (free Diffbot token required to use the MCP tools) | [Free to start](../gates/free.md) |
 | [Enrow](../tools/enrow.md)
@@ -48,8 +50,6 @@ avoma.com | [Official MCP](../mcp/official.md) | [https://help.avoma.com/admins-
 brightdata.com | [Official MCP](../mcp/official.md) | [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | api key (Bright Data API token) | [Paid, self-serve](../gates/paid.md) |
 | [Clay](../tools/clay.md)
 clay.com | [Official MCP](../mcp/official.md) | [https://www.clay.com/mcp](https://www.clay.com/mcp) +1 more | Session cookie - the same token used to log into app.clay.com in-browser, which grants full account access (tables, records, enrichments, CRM... | [Paid, self-serve](../gates/paid.md) |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | api key (free sandbox key available) | [Paid, self-serve](../gates/paid.md) |
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Official MCP](../mcp/official.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable HTTP transport, explicitly stated by the vendor. | [Paid, self-serve](../gates/paid.md) |
 | [Explorium](../tools/explorium.md)

@@ -21,9 +21,9 @@ The chain is: define the account criteria, search a company database, enrich eac
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
 | Build the target account list | [build a target account list](../jobs/build-target-account-list.md) | 7 | 5 | 1 |
-| Search companies by firmographics | [search companies by firmographics](../jobs/search-companies-by-firmographics.md) | 15 | 12 | 4 |
-| Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 14 |
-| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 17 | 6 |
+| Search companies by firmographics | [search companies by firmographics](../jobs/search-companies-by-firmographics.md) | 15 | 12 | 5 |
+| Enrich each company from its domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 15 |
+| Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 17 | 7 |
 | Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 15 | 4 |
 
 Counted 2026-09-03. Entry counts rather than product counts.

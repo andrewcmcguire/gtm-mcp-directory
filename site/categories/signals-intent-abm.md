@@ -1,6 +1,6 @@
 # Signals & Intent: 28 tools, 18 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 28 tools counted, 18 with an official MCP server and 5 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 28 tools counted, 18 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,11 +22,11 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **MCP not applicable**: 1
 - **No MCP found**: 6
 
-- **Free to start**: 5
-- **Paid, self-serve**: 13
+- **Free to start**: 6
+- **Paid, self-serve**: 12
 - **Enterprise only**: 10
 
-Source file: 05-signals-intent-abm.md · content sha256 8fcde2ccf47af7ba... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 c231f00b603ad67e... · counts reconciled against tools_recount.py at build time.
 
 - [The 19 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
@@ -35,6 +35,8 @@ Source file: 05-signals-intent-abm.md · content sha256 8fcde2ccf47af7ba... · c
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 - [Detect a company's tech stack](../jobs/detect-technographics.md)
 
+- [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · Cross listed, canonical home is Data & Enrichment
+
 - [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md) leadfeeder.com Identifies companies visiting a website via IP-to-company matching, tracks page-level visit behavior, and surfaces intent signals plus verified contact data for those companies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [PredictLeads](../tools/predictleads.md) predictleads.com Aggregates five signal categories (job openings, technology detections, news events, business connections, firmographics) across 129M companies in 195 countries by scraping public web sources - company sites,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
@@ -42,8 +44,6 @@ Source file: 05-signals-intent-abm.md · content sha256 8fcde2ccf47af7ba... · c
 - [TheirStack](../tools/theirstack.md) theirstack.com Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals (job-posting keywords implying a company has or needs a... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Warmly (Warmly.ai)](../tools/warmly.md) warmly.ai De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party (social/job-change), and third-party (Bombora intent, keyword... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
-
-- [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Data & Enrichment
 
 - [Factors.ai](../tools/factors-ai.md) factors.ai De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party intent research signals) to identify in-market accounts and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 

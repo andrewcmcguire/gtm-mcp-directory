@@ -52,6 +52,9 @@ Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) 
 | [Crustdata](../tools/crustdata.md)
 crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
 unknown | [Free to start](../gates/free.md) |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | API key
+api key (free sandbox key available) | [Free to start](../gates/free.md) |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp) | API key
 api key (free Diffbot token required to use the MCP tools) | [Free to start](../gates/free.md) |
@@ -199,9 +202,6 @@ Dual - OAuth 2.0 with Dynamic Client Registration (recommended; used by Claude, 
 | [Coresignal](../tools/coresignal.md)
 coresignal.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://coresignal.com/mcp-server/](https://coresignal.com/mcp-server/) | OAuth
 OAuth 2.1 - per docs, the data key is fetched live with every request and never stored,... | [Paid, self-serve](../gates/paid.md) |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | API key
-api key (free sandbox key available) | [Paid, self-serve](../gates/paid.md) |
 | [Cube Software](../tools/cube-software.md)
 cubesoftware.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.cubesoftware.com/mcp](https://www.cubesoftware.com/mcp) +1 more | OAuth
 OAuth - no manual API key management. | [Paid, self-serve](../gates/paid.md) |

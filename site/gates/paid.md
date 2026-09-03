@@ -1,6 +1,6 @@
-# Paid, self-serve: 113 GTM tools, counted
+# Paid, self-serve: 112 GTM tools, counted
 
-> 113 of 293 GTM tools in this directory are paid, self-serve. A solo operator can get API access by paying, still without a sales call.
+> 112 of 293 GTM tools in this directory are paid, self-serve. A solo operator can get API access by paying, still without a sales call.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 A solo operator can get API access by paying, still without a sales call.
 
-113 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+112 of 293 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Affinity](../tools/affinity.md) affinity.co A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -47,8 +47,6 @@ A solo operator can get API access by paying, still without a sales call.
 - [Close (Close CRM)](../tools/close.md) close.com A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Coresignal](../tools/coresignal.md) coresignal.com Sells structured B2B datasets and APIs (company, employee/people, job-posting records) scraped and normalized from public and professional-network sources, delivered as bulk datasets or pay-per-call enrichment... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Crustdata](../tools/crustdata.md) crustdata.com Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md) · Cross listed, canonical home is Data & Enrichment
 
 - [Cube Software](../tools/cube-software.md) cubesoftware.com Spreadsheet-native FP&A planning and reporting platform for finance teams; revenue-scenario modeling is one supported use case rather than a dedicated CRM-native sales-forecasting product. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 

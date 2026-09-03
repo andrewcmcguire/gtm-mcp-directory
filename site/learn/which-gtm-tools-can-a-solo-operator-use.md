@@ -20,9 +20,9 @@ Two columns have to be true at once. The tool has to be callable, and you have t
 
 ## The arithmetic
 
-- 61 entries are free to start: sign up, get a key, no conversation.
+- 62 entries are free to start: sign up, get a key, no conversation.
 
-- 113 are paid self serve: a credit card is enough.
+- 112 are paid self serve: a credit card is enough.
 
 - Together, 174 of 293 entries, or 59%, pass the gate test.
 
@@ -69,7 +69,7 @@ A search API that returns web pages and structured results ranked by semantic/me
 
 111 more are on the linked page. The cut is the display limit, not a ranking.
 
-[The full solo reachable list is here](../lists/solo-reachable.md), and the [61 free tiers are here](../lists/free-api-tiers.md).
+[The full solo reachable list is here](../lists/solo-reachable.md), and the [62 free tiers are here](../lists/free-api-tiers.md).
 
 ## What free does not mean
 

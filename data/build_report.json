@@ -118,17 +118,17 @@
     "build_api_gate": {
       "enterprise-leaning": 4,
       "enterprise-only": 77,
-      "free": 61,
+      "free": 62,
       "n-a": 6,
-      "paid": 113,
+      "paid": 112,
       "unknown": 32
     },
     "recount_api_gate": {
       "enterprise-leaning": 4,
       "enterprise-only": 77,
-      "free": 61,
+      "free": 62,
       "n-a": 6,
-      "paid": 113,
+      "paid": 112,
       "unknown": 32
     },
     "duplicate_names_build": [
@@ -255,9 +255,9 @@
     "api_gate": {
       "enterprise-leaning": 4,
       "enterprise-only": 77,
-      "free": 61,
+      "free": 62,
       "n-a": 6,
-      "paid": 113,
+      "paid": 112,
       "unknown": 32
     },
     "api_gate_unknown": 32,
@@ -265,10 +265,10 @@
       "RESEARCHED": 293
     },
     "last_checked": {
-      "2026-08-24": 120,
+      "2026-08-24": 119,
       "2026-08-25": 23,
       "2026-09-02": 131,
-      "2026-09-03": 19
+      "2026-09-03": 20
     },
     "bench_tested": 0,
     "endpoint_status": {
@@ -1839,6 +1839,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "a245a27aa517863220ee6a0e89910b28221b7ecb10e62691583d0e80e7468ad0",
-  "source_sha256": "3753727bea86e6edabcb64057405f9a530de7c103e9748d8a7e55f978b416c51"
+  "content_sha256": "6446546443fa463278bebffc3e3ce2049f3d54853cdd5fef9b0f4d2c0498a0d0",
+  "source_sha256": "2c15e7af14ca4342df429c27e7468b4061483e11983d825bcc9548cbbde863f7"
 }

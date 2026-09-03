@@ -12,7 +12,7 @@
 
 ## The 132 GTM tools an agent can call and a solo operator can pay for
 
-Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 174 entries pass the gate test on its own (61 free to start plus 113 paid self serve) and 182 pass the server test on its own. 132 pass both. Paying is allowed; a procurement cycle is not.
+Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 174 entries pass the gate test on its own (62 free to start plus 112 paid self serve) and 182 pass the server test on its own. 132 pass both. Paying is allowed; a procurement cycle is not.
 
 | Tool | Category | Gate | MCP status | Jobs it is tagged with |
 |---|---|---|---|---|
@@ -40,6 +40,8 @@ commonpaper.com | [Proposals & Deals](../categories/proposals-deals.md) | [Free 
 composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [Crustdata](../tools/crustdata.md)
 crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
+| [Crustdata](../tools/crustdata.md)
+crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) |
 | [Enrow](../tools/enrow.md)
@@ -138,8 +140,6 @@ clay.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-s
 close.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Place an outbound call](../jobs/place-outbound-call.md) [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Coresignal](../tools/coresignal.md)
 coresignal.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
-| [Crustdata](../tools/crustdata.md)
-crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Cube Software](../tools/cube-software.md)
 cubesoftware.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Model a revenue plan](../jobs/model-revenue-plan.md) |
 | [CUFinder](../tools/cufinder.md)

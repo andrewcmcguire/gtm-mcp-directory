@@ -61,7 +61,7 @@ https://crustdata.com/ (MCP referenced directly on the vendor homepage: "drop th
 
 api_gate, verbatim from the file:
 
-free (free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top)
+free (free sandbox key advertised on the vendor homepage, self-serve signup; paid usage is credit-based on purchased credits)
 
 **API documentation**
 
@@ -98,7 +98,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **MCP status there**: Official MCP
 
-- **Gate there**: Paid, self-serve
+- **Gate there**: Free to start
 
 - **Source**: 05-signals-intent-abm.md line 515
 
@@ -120,7 +120,7 @@ What that listing says it does: Aggregates real-time company and people data (25
 https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code, https://docs.crustdata.com/person-docs/search/introduction
 
 **Notes, verbatim from the file**
-MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there.
+MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there. [api_gate 2026-09-03] Re-checked against the live vendor pricing surfaces and held at free; the cross-listed 05-signals-intent-abm.md entry was reconciled paid -> free to match. Two corrections to the 2026-08-25 line above: the vendor homepage today says "Free sandbox key, full API, MCP server and skill templates" but does NOT say "no credit card", so that phrase is withdrawn as unsourced; and https://crustdata.com/pricing today shows no price list at all, only credit-based real-time API access with monthly/annual plans, flat-file data, and a contact-sales custom/enterprise tier. https://docs.crustdata.com/general/pricing confirms credits are "valid for 6 months from the purchase date", /person/search and /company/search at 0.03 credits per result, autocomplete and /company/identify free, "Web live endpoints are available on self-serve plans", and Company and Person live endpoints still plan-gated. Free-to-start with paid usage on top; no sales call to get a key, so not enterprise-only and not paid-only.
 
 **Provenance**
 

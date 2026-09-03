@@ -24,7 +24,7 @@
 | Has a server of any kind | 182 | 62% |
 | Server is first party | 156 | 53% |
 | Server, and free or paid self serve | 132 | 45% |
-| Server, first party, and free to start | 45 | 15% |
+| Server, first party, and free to start | 46 | 16% |
 | And somebody here has actually run it | 0 | 0% |
 
 Counted 2026-09-03 from directory.json. The last row is the honest floor of this whole exercise and it is published on the front page rather than buried here.

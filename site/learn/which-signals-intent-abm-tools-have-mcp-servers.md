@@ -14,7 +14,7 @@
 
 **The short answer**
 
-19 of the 28 signals & intent entries in this directory have an MCP server: 18 built and maintained by the vendor and 1 built by somebody else. 5 are free to start and 10 need a contract before anybody gets an API key.
+19 of the 28 signals & intent entries in this directory have an MCP server: 18 built and maintained by the vendor and 1 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -22,6 +22,8 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 
 ## The ones an agent can call
 
+- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
+A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md) Official MCP · Free to start
 Identifies companies visiting a website via IP-to-company matching, tracks page-level visit behavior, and surfaces intent signals plus verified...
 - [PredictLeads](../tools/predictleads.md) Official MCP · Free to start
@@ -30,8 +32,6 @@ Aggregates five signal categories (job openings, technology detections, news eve
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals...
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
-- [Crustdata](../tools/crustdata.md) Official MCP · Free to start
-A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
 - [Factors.ai](../tools/factors-ai.md) Official MCP · Paid, self-serve
 De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party...
 - [Keyplay](../tools/keyplay.md) Official MCP · Paid, self-serve
@@ -88,11 +88,11 @@ Tracks job changes of a company's past customers and champions as they move to n
 
 | Gate | Entries |
 |---|---|
-| [Free to start](../gates/free.md) | 5 |
-| [Paid, self-serve](../gates/paid.md) | 13 |
+| [Free to start](../gates/free.md) | 6 |
+| [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 
-Counted 2026-09-03. Source file 05-signals-intent-abm.md, content sha256 8fcde2ccf47af7ba...
+Counted 2026-09-03. Source file 05-signals-intent-abm.md, content sha256 c231f00b603ad67e...
 
 ## Sources
 
