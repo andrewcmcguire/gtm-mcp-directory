@@ -1,6 +1,6 @@
 # Search people by criteria: 24 GTM tools, 16 with an official MCP server
 
-> Query a person database by title, seniority, function, geo or company filters and get a list back. 19 of the 24 entries tagged with this job carry an MCP server of some kind, 16 of them official. Counted 2026-09-02 from the directory data.
+> Query a person database by title, seniority, function, geo or company filters and get a list back. 19 of the 24 entries tagged with this job carry an MCP server of some kind, 16 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Query a person database by title, seniority, function, geo or company filters an
 - **no MCP found**: 5
 - **solo reachable**: 17
 
-19 of the 24 entries tagged with this job carry an MCP server of some kind, 16 of them official. 22 of the 24 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-02 from directory.json.
+19 of the 24 entries tagged with this job carry an MCP server of some kind, 16 of them official. 22 of the 24 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

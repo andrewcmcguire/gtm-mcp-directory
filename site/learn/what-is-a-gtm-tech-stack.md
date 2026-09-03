@@ -38,7 +38,7 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 3 | 0 | 18% |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 1 | 1 | 14% |
 
-Counted 2026-09-02. Totals sum to 293 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-03. Totals sum to 293 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
@@ -55,7 +55,7 @@ Reachable is not the same as available. 77 entries need a contract before anybod
 - [The GTM MCP Directory, by category](../categories/index.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

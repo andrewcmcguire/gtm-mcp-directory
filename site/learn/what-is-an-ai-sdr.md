@@ -1,6 +1,6 @@
 # What is an AI SDR? The definition, and the MCP gap in the category
 
-> An AI SDR is software that runs the top of the sales funnel end to end. 23 of them are in this directory and 4 ship an official MCP server. Counted 2026-09-02.
+> An AI SDR is software that runs the top of the sales funnel end to end. 23 of them are in this directory and 4 ship an official MCP server. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -55,7 +55,7 @@ An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personal
 - [The GTM MCP Directory, how an entry is made](../methodology.md) this site
 - [Brendan J Short, The Signal](https://www.thesignal.club) https://www.thesignal.club
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

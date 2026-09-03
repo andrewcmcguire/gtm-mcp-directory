@@ -1,6 +1,6 @@
 # Enrich a company from a domain: 34 GTM tools, 24 with an official MCP server
 
-> Hand it a domain or company name and get firmographics back. 26 of the 34 entries tagged with this job carry an MCP server of some kind, 24 of them official. Counted 2026-09-02 from the directory data.
+> Hand it a domain or company name and get firmographics back. 26 of the 34 entries tagged with this job carry an MCP server of some kind, 24 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Hand it a domain or company name and get firmographics back.
 - **no MCP found**: 6
 - **solo reachable**: 23
 
-26 of the 34 entries tagged with this job carry an MCP server of some kind, 24 of them official. 31 of the 34 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-02 from directory.json.
+26 of the 34 entries tagged with this job carry an MCP server of some kind, 24 of them official. 31 of the 34 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

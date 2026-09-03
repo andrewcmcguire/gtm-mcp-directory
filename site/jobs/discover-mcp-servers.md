@@ -1,6 +1,6 @@
 # Discover MCP servers: 5 GTM tools, 1 with an official MCP server
 
-> Search or browse a registry of MCP servers. The meta-job this whole directory also performs. 1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. Counted 2026-09-02 from the directory data.
+> Search or browse a registry of MCP servers. The meta-job this whole directory also performs. 1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Search or browse a registry of MCP servers. The meta-job this whole directory al
 - **no MCP found**: 0
 - **solo reachable**: 0
 
-1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. All 5 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-02 from directory.json.
+1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. All 5 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

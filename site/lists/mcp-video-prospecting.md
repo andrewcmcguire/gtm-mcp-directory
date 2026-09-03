@@ -1,6 +1,6 @@
 # Video Prospecting tools with MCP servers: 9 of 14, counted
 
-> 9 of the 14 video prospecting tools in The GTM MCP Directory have an MCP server: 3 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
+> 9 of the 14 video prospecting tools in The GTM MCP Directory have an MCP server: 3 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -71,4 +71,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 - [Create a digital sales room](../jobs/create-digital-sales-room.md)
 
-Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

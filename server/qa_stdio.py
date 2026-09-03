@@ -54,11 +54,16 @@ def expected_counts() -> dict[str, int]:
         and e.get("api_gate_bucket") in ("free", "paid")
     )
     bench = sum(1 for e in entries if e.get("tier") == "BENCH-TESTED")
+    official_live = sum(
+        1 for e in entries
+        if e.get("mcp_status_bucket") == "official"
+        and e.get("endpoint_status") in ("live", "live-auth-gated")
+    )
     gates: dict[str, int] = {}
     for e in entries:
         g = e.get("api_gate_bucket") or "unknown"
         gates[g] = gates.get(g, 0) + 1
-    return {"entries": len(entries), "official": official, "solo_reachable": solo, "bench_tested": bench, "gates": gates}
+    return {"entries": len(entries), "official": official, "solo_reachable": solo, "bench_tested": bench, "gates": gates, "official_live": official_live}
 
 
 EXPECTED = expected_counts()
@@ -337,6 +342,8 @@ async def run() -> None:
         check("official matches the data (%d)" % EXPECTED["official"], body["official"] == EXPECTED["official"], body["official"])
         check("solo_reachable matches the data (%d)" % EXPECTED["solo_reachable"], body["solo_reachable"] == EXPECTED["solo_reachable"], body["solo_reachable"])
         check("bench_tested matches the data (%d) and is not hidden" % EXPECTED["bench_tested"], body["bench_tested"] == EXPECTED["bench_tested"], body["bench_tested"])
+        check("whats_mcpd carries the endpoint split", "official_with_live_endpoint" in body and "official_docs_only" in body)
+        check("endpoint split matches the data (%d live)" % EXPECTED["official_live"], body["official_with_live_endpoint"] == EXPECTED["official_live"], body["official_with_live_endpoint"])
 
         body = payload(await client.call_tool("whats_mcpd", {"category": "ai-sdr-agents"}))
         print(

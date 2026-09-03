@@ -38,7 +38,7 @@ A discovery and one-click-install layer for MCP servers; useful for finding tool
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-An MCP server is not a meaningful question for this entry. The status was established on 2026-08-24 and has not been re-fetched since.
+An MCP server is not a meaningful question for this entry. The status was established on 2026-08-24.
 
 mcp_status, verbatim from the file:
 
@@ -103,6 +103,6 @@ Smithery lists 17,000+ MCP servers by its own count. Because Smithery's agent.pw
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

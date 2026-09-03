@@ -38,7 +38,10 @@ Conversational AI-agent layer for GTM (an AI rep that greets/qualifies a site vi
 
 - **Parsed URLs**: 4 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+- **Endpoint probe**: answered, asking for a key
+- **Endpoint URL[https://mcp.tavus.io/mcp](https://mcp.tavus.io/mcp)Probed**: 2026-08-25, HTTP 401
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
 mcp_status, verbatim from the file:
 
@@ -116,6 +119,6 @@ Third-party blogs (e.g. ColdIQ) frame Tavus as a "video prospecting" tool via it
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

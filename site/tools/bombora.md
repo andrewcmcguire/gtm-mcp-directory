@@ -38,7 +38,7 @@ Upstream intent-data supplier - consumed as a feed inside other ABM/intent platf
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24 and has not been re-fetched since.
+No server was found at the time of the check. That is a statement about the search, not a promise that none exists. The status was established on 2026-08-24.
 
 mcp_status, verbatim from the file:
 
@@ -105,6 +105,6 @@ Searched "Bombora MCP server/github" plus mcp.so/glama.ai/pulsemcp.com - nothing
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

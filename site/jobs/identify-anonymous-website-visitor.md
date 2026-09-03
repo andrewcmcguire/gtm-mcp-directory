@@ -1,6 +1,6 @@
 # Identify an anonymous website visitor: 11 GTM tools, 8 with an official MCP server
 
-> Resolve site traffic to a company, or in a few cases a named person. Person-level resolution is much rarer than the marketing suggests. 8 of the 11 entries tagged with this job carry an MCP server of some kind, 8 of them official. Counted 2026-09-02 from the directory data.
+> Resolve site traffic to a company, or in a few cases a named person. Person-level resolution is much rarer than the marketing suggests. 8 of the 11 entries tagged with this job carry an MCP server of some kind, 8 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Resolve site traffic to a company, or in a few cases a named person. Person-leve
 - **no MCP found**: 3
 - **solo reachable**: 6
 
-8 of the 11 entries tagged with this job carry an MCP server of some kind, 8 of them official. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-02 from directory.json.
+8 of the 11 entries tagged with this job carry an MCP server of some kind, 8 of them official. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

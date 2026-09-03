@@ -1,6 +1,6 @@
 # How many GTM tools are enterprise gated? 77 of 293, counted
 
-> 77 of 293 GTM tools need a contract before anybody gets API access, and 29 of those ship an official MCP server most people cannot call. Counted 2026-09-02.
+> 77 of 293 GTM tools need a contract before anybody gets API access, and 29 of those ship an official MCP server most people cannot call. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -37,7 +37,7 @@ Enterprise gated with no public documentation is the single most useful fact a d
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 2 | 14 | 14% |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 1 | 13 | 8% |
 
-Counted 2026-09-02. 32 further entries do not publish enough for the gate to be established at all and are recorded as unknown rather than guessed into a bucket.
+Counted 2026-09-03. 32 further entries do not publish enough for the gate to be established at all and are recorded as unknown rather than guessed into a bucket.
 
 ## The cruel intersection
 
@@ -80,7 +80,7 @@ If you are inside a company that already has the contract, the server is a genui
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

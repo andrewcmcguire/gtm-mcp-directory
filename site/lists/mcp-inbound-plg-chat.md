@@ -1,6 +1,6 @@
 # Inbound & PLG Chat tools with MCP servers: 5 of 15, counted
 
-> 5 of the 15 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 5 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-02.
+> 5 of the 15 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 5 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -70,4 +70,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-Counted 2026-09-02 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

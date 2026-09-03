@@ -38,7 +38,10 @@ Top-of-funnel intent capture, turning anonymous website traffic into named, cont
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+- **Endpoint probe**: did not answer
+- **Probed**: 2026-08-25, HTTP None
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -108,6 +111,6 @@ https://www.rb2b.com/, https://www.rb2b.com/power-your-product, https://www.warm
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

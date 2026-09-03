@@ -38,7 +38,10 @@ Low-friction meeting-capture layer, notable in this category for a genuinely ope
 
 - **Parsed URLs**: 5 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp)Probed**: 2026-08-25, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-08-25 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -121,6 +124,6 @@ Another Fireflies-style contrast case: free API access, but no official MCP serv
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -249,6 +249,7 @@ def find_tools(
     has_github: Optional[bool] = None,
     has_github_candidate: Optional[bool] = None,
     canonical_only: Optional[bool] = None,
+    live_endpoint_only: Optional[bool] = None,
     limit: int = 20,
 ) -> dict[str, Any]:
     """Find GTM tools by capability, and say whether an agent can actually reach them.
@@ -263,7 +264,11 @@ def find_tools(
     (official/community/none-found/unknown/n-a), gate
     (free/paid/enterprise-leaning/enterprise-only/unknown/n-a), tier
     (RESEARCHED/BENCH-TESTED), has_github, has_github_candidate,
-    canonical_only (drop the 16 cross-listed second entries).
+    canonical_only (drop the 16 cross-listed second entries),
+    live_endpoint_only (keep only entries whose recorded MCP URL answered as
+    a server on the last probe: endpoint_status live or live-auth-gated. This
+    is liveness, not a test of the tools; a docs-only entry may still have a
+    perfectly good server at a URL the directory does not record).
     """
     limit = max(1, min(int(limit or 20), 100))
     query = (job_or_query or "").strip()
@@ -292,6 +297,17 @@ def find_tools(
         has_github_candidate,
         canonical_only,
     )
+    if live_endpoint_only:
+        before = len(pool)
+        pool = [e for e in pool if e.get("endpoint_status") in ("live", "live-auth-gated")]
+        applied["live_endpoint_only"] = True
+        filter_notes.append(
+            "live_endpoint_only kept %d of %d entries whose recorded MCP URL "
+            "answered an initialize as a server on the last probe. Entries "
+            "marked docs-only or not-probed were dropped; that is a statement "
+            "about the URL the directory records, not about the vendor."
+            % (len(pool), before)
+        )
 
     by_relevance = False
     text_fallback = False
@@ -733,6 +749,26 @@ def whats_mcpd(
             "n_a": gates.get("n-a", 0),
         },
         "solo_reachable": _solo_reachable(pool),
+        "official_with_live_endpoint": sum(
+            1 for e in pool
+            if e.get("mcp_status_bucket") == "official"
+            and e.get("endpoint_status") in ("live", "live-auth-gated")
+        ),
+        "official_docs_only": sum(
+            1 for e in pool
+            if e.get("mcp_status_bucket") == "official" and e.get("endpoint_status") == "docs-only"
+        ),
+        "endpoint_probe_date": next(
+            (e.get("endpoint_last_probed") for e in pool if e.get("endpoint_last_probed")), None
+        ),
+        "endpoint_meaning": (
+            "official_with_live_endpoint counts official entries whose recorded "
+            "mcp_url answered an MCP initialize as a server (401/402/407, 406, or "
+            "200 with jsonrpc) on endpoint_probe_date. official_docs_only counts "
+            "those whose recorded URL is a documentation page. The second is not "
+            "a downgrade; it is the gap between where to read and where to "
+            "connect. bench_tested is untouched by either."
+        ),
         "solo_reachable_meaning": (
             "An official or community MCP server AND an access gate of free or "
             "paid, meaning one person can get in without a sales call."

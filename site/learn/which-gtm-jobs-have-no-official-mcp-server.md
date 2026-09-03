@@ -1,6 +1,6 @@
 # Which GTM jobs have no official MCP server at all? The gaps, counted
 
-> Of 55 jobs in the vocabulary, 1 have no tool at all with a first party MCP server. The gaps in the map, and the thinly covered jobs next to them. Counted 2026-09-02.
+> Of 55 jobs in the vocabulary, 1 have no tool at all with a first party MCP server. The gaps in the map, and the thinly covered jobs next to them. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Of the 55 jobs in this directory's closed vocabulary, 1 have no tool with an off
 |---|---|---|---|
 | [reverse-look-up a person from an email](../jobs/reverse-lookup-person-from-email.md) | 1 | 1 | 1 |
 
-Counted 2026-09-02 from the per job blocks in directory.json.
+Counted 2026-09-03 from the per job blocks in directory.json.
 
 ## The thinnest jobs in the vocabulary
 
@@ -56,7 +56,7 @@ Because a gap is the most actionable thing in a directory. If you were going to 
 - [The GTM MCP Directory, the counted data](../data.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

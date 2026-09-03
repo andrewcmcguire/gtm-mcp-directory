@@ -1442,6 +1442,57 @@ def urllist(urls, annotations=None):
     return "<ul>" + "".join(li) + "</ul>"
 
 
+ENDPOINT_LABEL = {
+    "live": "answered as an MCP server",
+    "live-auth-gated": "answered, asking for a key",
+    "docs-only": "docs page, not an endpoint",
+    "unreachable": "did not answer",
+    "not-probed": "not probed yet",
+    "not-applicable": "n/a",
+}
+
+
+def endpoint_cells(e):
+    """The endpoint-versus-docs split on a tool page. Machine-measured, dated."""
+    es = e.get("endpoint_status") or "not-probed"
+    if es == "not-applicable":
+        return ""
+    cells = [f'<div><div class="bk">Endpoint probe</div><div class="bv">{esc(ENDPOINT_LABEL.get(es, es))}</div></div>']
+    if e.get("mcp_endpoint"):
+        cells.append(f'<div><div class="bk">Endpoint URL</div><div class="bv mono"><a href="{raw_esc(e["mcp_endpoint"])}" rel="noopener nofollow">{raw_esc(e["mcp_endpoint"])}</a></div></div>')
+    if e.get("mcp_docs_url"):
+        cells.append(f'<div><div class="bk">Docs URL</div><div class="bv mono"><a href="{raw_esc(e["mcp_docs_url"])}" rel="noopener nofollow">{raw_esc(e["mcp_docs_url"])}</a></div></div>')
+    if e.get("endpoint_last_probed"):
+        cells.append(f'<div><div class="bk">Probed</div><div class="bv">{esc(e["endpoint_last_probed"])}, HTTP {esc(str(e.get("endpoint_http_status")))}</div></div>')
+    return "".join(cells)
+
+
+def endpoint_sentence(e):
+    es = e.get("endpoint_status") or "not-probed"
+    checked = esc(e["last_checked"])
+    probed = esc(e.get("endpoint_last_probed") or "")
+    if es in ("live", "live-auth-gated"):
+        return (f"The status was established by hand on {checked}. On {probed} the recorded URL answered "
+                f"an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.")
+    if es == "docs-only":
+        return (f"The status was established by hand on {checked}. On {probed} the recorded URL served a "
+                f"documentation page, not an MCP endpoint. That is where to read about the server, not "
+                f"where to connect to it. An agent needs the second.")
+    if es == "unreachable":
+        return f"The status was established by hand on {checked}. On {probed} no recorded MCP URL answered."
+    if es == "not-applicable":
+        return f"The status was established on {checked}."
+    return f"The status was established on {checked} and the MCP URL has not been probed live yet."
+
+
+def endpoint_summary_sentence(cov):
+    date = cov.get("endpoint_probe_date")
+    if not date:
+        return "Endpoint liveness has not been probed on this build."
+    return (f"Probed live on {date}: {num(cov.get('official_with_live_endpoint', 0))} of the official entries "
+            f"record a URL that answered as an MCP server, and {num(cov.get('official_docs_only', 0))} record a "
+            f"documentation page rather than an endpoint. Each tool page says which.")
+
 def build_tool_page(e, d, r, byid, out: Path):
     rel = "../"
     c = d["counts"]
@@ -1487,9 +1538,10 @@ cannot be bought at any price. Across the whole directory that count is {c['benc
 <div><div class="bk">Status bucket</div><div class="bv">{esc(MCP_LABEL.get(mb, mb))}</div></div>
 <div><div class="bk">Auth</div><div class="bv">{esc(e['mcp_auth']) or '<span class="empty">not recorded</span>'}</div></div>
 <div><div class="bk">Parsed URLs</div><div class="bv">{len(e['mcp_urls'])} found in the mcp_url field</div></div>
+{endpoint_cells(e)}
 </div>
 <p class="note" style="margin-top:14px">{esc(MCP_BLURB.get(mb, ''))}
-The status was established on {esc(e['last_checked'])} and has not been re-fetched since.</p>
+{endpoint_sentence(e)}</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
 <p class="v mono">{esc(e['mcp_status'])}</p>"""
     if e["mcp_url"]:
@@ -3034,7 +3086,7 @@ published rule: {esc(d['sort_rule'])}</p>
         f"matter how well it works. {with_url} of these {len(official)} entries carry a parseable "
         f"URL in the mcp_url field; the rest claim a server in prose without one, which is recorded "
         f"as a risk on the <a href=\"{rel}methodology.html\">methodology page</a> rather than "
-        f"cleaned up quietly.",
+        f"cleaned up quietly. {endpoint_summary_sentence(cov)}",
         official,
         table_block(official, byid, rel, [
             ("Tool", name_cell, ""),

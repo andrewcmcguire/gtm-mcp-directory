@@ -38,7 +38,10 @@ Point enrichment/verification step (single lookups or bulk CSV) feeding a sequen
 
 - **Parsed URLs**: 2 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-08-24 and has not been re-fetched since.
+- **Endpoint probe**: docs page, not an endpoint
+- **Docs URL[https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp)Probed**: 2026-08-25, HTTP 200
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-08-25 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -118,6 +121,6 @@ Fully self-serve, credit-based, no seats/contracts: Basic $59.99/mo (2,500 credi
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

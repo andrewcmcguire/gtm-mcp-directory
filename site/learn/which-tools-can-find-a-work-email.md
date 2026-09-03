@@ -1,6 +1,6 @@
 # Which tools can find a work email? The ones an agent can call, counted
 
-> 22 of the 29 GTM tools tagged with this job ship an official MCP server, 22 are reachable without a contract. The full list, counted 2026-09-02.
+> 22 of the 29 GTM tools tagged with this job ship an official MCP server, 22 are reachable without a contract. The full list, counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-29 products in this directory are tagged with this job. 22 of the 29 tagged entries have an official MCP server and 2 have a community one, so an agent can call 24 of them directly. 22 are reachable by one person without a contract. Counted 2026-09-02.
+29 products in this directory are tagged with this job. 22 of the 29 tagged entries have an official MCP server and 2 have a community one, so an agent can call 24 of them directly. 22 are reachable by one person without a contract. Counted 2026-09-03.
 
 Email finding is the most commoditised job in the whole vocabulary and the one where coverage claims are least checkable. Every vendor quotes a hit rate, none of them quote it on your list, and this directory tests none of them.
 
@@ -97,7 +97,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-02. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

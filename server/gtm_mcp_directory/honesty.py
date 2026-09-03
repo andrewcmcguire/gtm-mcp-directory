@@ -49,10 +49,33 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
     checked = entry.get("last_checked") or "the build date"
 
     if status in ("official", "community"):
-        if entry.get("mcp_urls"):
+        es = entry.get("endpoint_status")
+        probed = entry.get("endpoint_last_probed")
+        if es in ("live", "live-auth-gated") and probed:
             out.append(
-                "The MCP endpoint has not been fetched live since %s. Liveness "
-                "has never been measured." % checked
+                "The recorded MCP URL answered as a server on %s (%s, HTTP %s): "
+                "something is listening at mcp_endpoint. That is liveness, not a "
+                "test of what the tools do; bench_tested is unaffected."
+                % (probed, es, entry.get("endpoint_http_status"))
+            )
+        elif es == "docs-only" and probed:
+            out.append(
+                "On %s the recorded MCP URL served a documentation page, not an "
+                "MCP endpoint (mcp_docs_url). The server may well exist; the "
+                "entry records where to read about it, not where to connect. "
+                "An agent needs an endpoint URL before it can call this tool."
+                % probed
+            )
+        elif es == "unreachable" and probed:
+            out.append(
+                "On %s no recorded MCP URL for this entry answered at all "
+                "(dead, blocked, or error). Re-verify before relying on it."
+                % probed
+            )
+        elif entry.get("mcp_urls"):
+            out.append(
+                "The MCP endpoint has not been probed live yet (endpoint_status: "
+                "not-probed). The status was established by hand on %s." % checked
             )
         else:
             out.append(
@@ -138,7 +161,7 @@ def entry_honesty(entry: dict[str, Any]) -> dict[str, Any]:
         "measured_on": {
             "github": entry.get("github_fetched_on"),
             "docs": entry.get("docs_last_crawled"),
-            "mcp_url_liveness": None,
+            "mcp_url_liveness": entry.get("endpoint_last_probed"),
         },
         "source_urls": entry.get("source_urls") or [],
         "caveats": entry_caveats(entry),
@@ -180,6 +203,19 @@ class HonestyBuilder:
                 self.tagged_by[key] = self.tagged_by.get(key, 0) + 1
         self.with_docs_digest = sum(1 for e in directory.entries if e.get("docs_digest"))
         self.with_github = sum(1 for e in directory.entries if e.get("github_url"))
+        self.official_total = sum(1 for e in directory.entries if e.get("mcp_status_bucket") == "official")
+        self.official_live = sum(
+            1 for e in directory.entries
+            if e.get("mcp_status_bucket") == "official"
+            and e.get("endpoint_status") in ("live", "live-auth-gated")
+        )
+        self.official_docs_only = sum(
+            1 for e in directory.entries
+            if e.get("mcp_status_bucket") == "official" and e.get("endpoint_status") == "docs-only"
+        )
+        self.endpoint_probe_date = next(
+            (e.get("endpoint_last_probed") for e in directory.entries if e.get("endpoint_last_probed")), None
+        )
 
     # -- pieces -----------------------------------------------------------
     def server_meta(self) -> dict[str, Any]:
@@ -265,6 +301,20 @@ class HonestyBuilder:
                     "Provenance per entry is in jobs_tagged_by."
                     % (machine, self.tagged)
                 )
+        if self.endpoint_probe_date:
+            caveats.append(
+                "Endpoint liveness was measured on %s: %d of %d official entries "
+                "record a URL that answered as an MCP server (live or asking for "
+                "a key), and %d record a documentation page rather than an "
+                "endpoint. docs-only is not a downgrade of mcp_status; it means "
+                "the entry says where to read, not where to connect."
+                % (self.endpoint_probe_date, self.official_live, self.official_total, self.official_docs_only)
+            )
+        else:
+            caveats.append(
+                "Endpoint liveness has not been measured on this build: "
+                "endpoint_status is not-probed everywhere."
+            )
         if self.with_github == 0:
             caveats.append(
                 "GitHub health has never been measured: github_url, stars, last "

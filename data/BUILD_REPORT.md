@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-02 by `build_directory.py`. Zero network calls.
+Generated 2026-09-03 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -65,6 +65,14 @@ mcp_status: `{"community": 20, "n-a": 5, "none-found": 110, "official": 147, "un
 api_gate: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61, "n-a": 6, "paid": 113, "unknown": 32}`
 tier: `{"RESEARCHED": 293}`
 last_checked: `{"2026-08-24": 239, "2026-08-25": 32, "2026-09-02": 22}`
+
+### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
+
+- probe run used: `2026-08-25`
+- endpoint_status: `{"live": 0, "live-auth-gated": 33, "docs-only": 114, "unreachable": 14, "not-probed": 6, "not-applicable": 126}`
+- official entries whose recorded URL answered as an MCP server (live or auth-gated): **33**
+- official entries whose recorded URL is a docs page, not an endpoint: **95**
+- docs-only is not wrong under SCHEMA law 1; it records where to read, not where to connect. Agents need the second.
 
 ### SPEC 2.3 fields present in the shape, unmeasured everywhere
 
@@ -231,7 +239,7 @@ None.
 
 ## Integrity
 
-- content sha256: `45943543d879a85fe4386a9d6b54611103c3605f10993aa218e5446d86ffba5b`
+- content sha256: `67b823b32e5bee1c6b279abc133f6677d1b716a93cd46a90d82b2f38083c8afd`
 - source sha256: `4c9cb9310cb9e8c660ed491236b8d803fba65f84f3cff74248ed58962f72b240`
 - jobs.yaml sha256: `e63c27779ba7bdea1617e4ae1e6afaa47193ecbf695e5ceb744a0677da1db948`
 - tags.yaml sha256: `77a593d1de719f44e3816265c624b1cd7eefd1dee059b9f4ac8be0539b4d1b7f`

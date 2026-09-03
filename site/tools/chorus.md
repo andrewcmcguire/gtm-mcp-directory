@@ -38,7 +38,9 @@ Call-capture and coaching layer, differentiated from standalone conversation-int
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established on 2026-09-02 and has not been re-fetched since.
+- **Endpoint probe**: not probed yet
+
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established on 2026-09-02 and the MCP URL has not been probed live yet.
 
 mcp_status, verbatim from the file:
 
@@ -113,6 +115,6 @@ https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://w
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

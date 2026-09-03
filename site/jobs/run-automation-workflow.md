@@ -1,6 +1,6 @@
 # Run an automation workflow: 18 GTM tools, 10 with an official MCP server
 
-> Trigger or execute a multi-step workflow across tools, deterministic or agent-driven. 11 of the 18 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-09-02 from the directory data.
+> Trigger or execute a multi-step workflow across tools, deterministic or agent-driven. 11 of the 18 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-09-03 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -22,7 +22,7 @@ Trigger or execute a multi-step workflow across tools, deterministic or agent-dr
 - **no MCP found**: 5
 - **solo reachable**: 9
 
-11 of the 18 entries tagged with this job carry an MCP server of some kind, 10 of them official. 15 of the 18 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-02 from directory.json.
+11 of the 18 entries tagged with this job carry an MCP server of some kind, 10 of them official. 15 of the 18 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

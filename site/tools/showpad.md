@@ -38,7 +38,9 @@ Content-plus-coaching hub with a documented developer portal, positioned similar
 
 - **Parsed URLs**: 3 found in the mcp_url field
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and has not been re-fetched since.
+- **Endpoint probe**: not probed yet
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-02 and the MCP URL has not been probed live yet.
 
 mcp_status, verbatim from the file:
 
@@ -111,6 +113,6 @@ No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or 
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

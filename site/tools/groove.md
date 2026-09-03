@@ -38,7 +38,7 @@ Outbound execution layer embedded in Salesforce, increasingly folded into Clari'
 
 - **Parsed URLs**: 0 found in the mcp_url field
 
-The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02 and has not been re-fetched since.
+The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. The status was established on 2026-09-02.
 
 mcp_status, verbatim from the file:
 
@@ -108,6 +108,6 @@ Clari (Groove's parent) launched an MCP server in 2026 described as covering "th
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-02
+- **Data baked**: 2026-09-03
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
