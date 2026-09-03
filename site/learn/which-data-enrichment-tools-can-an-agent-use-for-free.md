@@ -70,7 +70,7 @@ Data & Enrichment is the most agent reachable category in the whole directory: 3
 
 - **What the free tier is for.** Free tiers are usually sized for evaluation, and an agent is much better at consuming them than a human clicking is.
 
-Nobody here has run any of these. 0 tools in this directory are bench tested, so treat the list as a starting point for your own test rather than as a result.
+Nobody here has run any of these. 1 tools in this directory are bench tested, so treat the list as a starting point for your own test rather than as a result.
 
 ## Sources
 

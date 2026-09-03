@@ -243,7 +243,7 @@
     "sources_one_url": 14,
     "sources_two_or_more_urls": 279,
     "sources_url_total": 1219,
-    "sources_with_annotations": 11,
+    "sources_with_annotations": 12,
     "entries_with_extra_fields": 0,
     "mcp_status": {
       "community": 26,
@@ -262,15 +262,16 @@
     },
     "api_gate_unknown": 32,
     "tier": {
-      "RESEARCHED": 293
+      "BENCH-TESTED": 1,
+      "RESEARCHED": 292
     },
     "last_checked": {
-      "2026-08-24": 119,
+      "2026-08-24": 118,
       "2026-08-25": 23,
       "2026-09-02": 131,
-      "2026-09-03": 20
+      "2026-09-03": 21
     },
-    "bench_tested": 0,
+    "bench_tested": 1,
     "endpoint_status": {
       "live": 1,
       "live-auth-gated": 34,
@@ -810,10 +811,10 @@
     "tagged_on": "2026-08-25",
     "tagged_by": "machine-pass",
     "tier": "RESEARCHED",
-    "tier_meaning": "A job tag means the vendor says the tool does this. Nobody has run any tool in this directory. bench_tested is still 0.",
+    "tier_meaning": "A job tag means the vendor says the tool does this. No tag on any entry has been verified by running the tool. As of 2026-09-03 exactly one entry in this directory has been bench-tested at all (01-exa, see directory/BENCH_2026-09-03.md); every other entry is untested and every tag on every entry, including that one, remains a vendor claim. The live number is counts.bench_tested in directory.json.",
     "key_resolution": "Keys are matched against each entry's normalized name (lowercased, parentheticals dropped, punctuation collapsed), the same normalisation tools_recount.py uses to detect cross-file duplicates. One key therefore covers every entry for the same product.",
     "source_file": "data/tags.yaml",
-    "source_sha256": "655a642d9a3306f942ac1ca2f690cab3f8f024bea7b5ae5c6550bf99033f95ba"
+    "source_sha256": "7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da"
   },
   "jobs_supply": [
     {
@@ -976,7 +977,7 @@
       "product_count": 6,
       "official_mcp": 5,
       "solo_reachable": 5,
-      "bench_tested": 0
+      "bench_tested": 1
     },
     {
       "id": "monitor-social-mentions",
@@ -994,7 +995,7 @@
       "product_count": 16,
       "official_mcp": 10,
       "solo_reachable": 8,
-      "bench_tested": 0
+      "bench_tested": 1
     },
     {
       "id": "run-email-sequence",
@@ -1839,6 +1840,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "6446546443fa463278bebffc3e3ce2049f3d54853cdd5fef9b0f4d2c0498a0d0",
-  "source_sha256": "2c15e7af14ca4342df429c27e7468b4061483e11983d825bcc9548cbbde863f7"
+  "content_sha256": "84e4e93b3c09e2f9230d71a6305cb656ef4a30c7ab8a4a306a557f22dcb5541f",
+  "source_sha256": "7cb9ac376dc5b5600f4782dcb145eac0bfac0f8b37e4a1d47772eb1817ed2f7e"
 }

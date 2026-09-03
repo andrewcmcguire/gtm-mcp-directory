@@ -24,7 +24,7 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 17
 - **Enterprise only**: 4
 
-Source file: 01-data-enrichment.md · content sha256 4eb6dcf3dcb29a9f... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 be1d10f969502184... · counts reconciled against tools_recount.py at build time.
 
 - [The 33 with an MCP server](../lists/mcp-data-enrichment.md)
 

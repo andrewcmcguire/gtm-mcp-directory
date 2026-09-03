@@ -73,7 +73,7 @@ Automatic meeting recorder and transcriber that produces summaries, highlights a
 
 ## What this list is not
 
-It is not a ranking and it is not a recommendation. A job tag means the vendor says the tool does this. Nobody here has run any of them: 0 tools in this directory are bench tested. Two tools on the same list can be wildly different in coverage, price and quality, and this directory does not claim to know which.
+It is not a ranking and it is not a recommendation. A job tag means the vendor says the tool does this. Nobody here has run any of them: 1 tools in this directory are bench tested. Two tools on the same list can be wildly different in coverage, price and quality, and this directory does not claim to know which.
 
 ## Sources
 

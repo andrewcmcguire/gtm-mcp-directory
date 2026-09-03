@@ -57,14 +57,14 @@ api_gate, recount: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 62,
 - api_gate `unknown`: **32 of 293**
 - entries with at least one github.com URL anywhere (phase 6 seed): **66**
 - sources: 1219 URLs total; 279 entries with 2+, 14 with exactly 1, 0 with none
-- sources carrying a non-URL annotation (preserved, not dropped): **11**
+- sources carrying a non-URL annotation (preserved, not dropped): **12**
 - solo-reachable (official or community MCP AND gate free or paid): **132**
-- BENCH-TESTED: **0**. This stays 0 until Andrew runs something.
+- BENCH-TESTED: **1**. This stays 0 until Andrew runs something.
 
 mcp_status: `{"community": 26, "n-a": 9, "none-found": 87, "official": 156, "unknown": 15}`
 api_gate: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 62, "n-a": 6, "paid": 112, "unknown": 32}`
-tier: `{"RESEARCHED": 293}`
-last_checked: `{"2026-08-24": 119, "2026-08-25": 23, "2026-09-02": 131, "2026-09-03": 20}`
+tier: `{"BENCH-TESTED": 1, "RESEARCHED": 292}`
+last_checked: `{"2026-08-24": 118, "2026-08-25": 23, "2026-09-02": 131, "2026-09-03": 21}`
 
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
@@ -89,7 +89,7 @@ last_checked: `{"2026-08-24": 119, "2026-08-25": 23, "2026-09-02": 131, "2026-09
 
 Source files: `data/jobs.yaml` (the closed vocabulary) and `data/tags.yaml` (the tags). `directory.json` is generated output and is never the place a tag lives.
 
-**What a tag means: the vendor says the tool does this.** Tags are derived from each entry's own what_it_does / ai_features / revops_role text, which is RESEARCHED tier. A tag is not a test result and bench_tested is still 0.
+**What a tag means: the vendor says the tool does this.** Tags are derived from each entry's own what_it_does / ai_features / revops_role text, which is RESEARCHED tier. A tag is not a test result and bench_tested is still 1.
 
 - vocabulary: **56 jobs** in **10 families**, status `closed`
 - tags.yaml keys (products): **255**, tagged on 2026-08-25 by `machine-pass`
@@ -261,9 +261,9 @@ None.
 
 ## Integrity
 
-- content sha256: `6446546443fa463278bebffc3e3ce2049f3d54853cdd5fef9b0f4d2c0498a0d0`
-- source sha256: `2c15e7af14ca4342df429c27e7468b4061483e11983d825bcc9548cbbde863f7`
+- content sha256: `84e4e93b3c09e2f9230d71a6305cb656ef4a30c7ab8a4a306a557f22dcb5541f`
+- source sha256: `7cb9ac376dc5b5600f4782dcb145eac0bfac0f8b37e4a1d47772eb1817ed2f7e`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
-- tags.yaml sha256: `655a642d9a3306f942ac1ca2f690cab3f8f024bea7b5ae5c6550bf99033f95ba`
+- tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
 - network calls made: 0 (the socket module is disarmed at import)
 

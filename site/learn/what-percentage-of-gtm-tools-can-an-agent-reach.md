@@ -25,13 +25,13 @@
 | Server is first party | 156 | 53% |
 | Server, and free or paid self serve | 132 | 45% |
 | Server, first party, and free to start | 46 | 16% |
-| And somebody here has actually run it | 0 | 0% |
+| And somebody here has actually run it | 1 | 0% |
 
 Counted 2026-09-03 from directory.json. The last row is the honest floor of this whole exercise and it is published on the front page rather than buried here.
 
 ## Why the last two rows matter most
 
-Every percentage above the last two is a documentation reading. It says a vendor published something and a check found it on a date. The bottom row says somebody ran the thing. This directory's bench tested count is 0, it stays there until Andrew personally runs a tool on a stated date, and no vendor can buy a change to it.
+Every percentage above the last two is a documentation reading. It says a vendor published something and a check found it on a date. The bottom row says somebody ran the thing. This directory's bench tested count is 1, it stays there until Andrew personally runs a tool on a stated date, and no vendor can buy a change to it.
 
 ## The direction of travel
 

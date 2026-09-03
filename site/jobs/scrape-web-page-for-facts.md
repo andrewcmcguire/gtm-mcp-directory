@@ -22,7 +22,7 @@ Fetch and structure an arbitrary public page. The general-purpose fallback when 
 - **no MCP found**: 1
 - **solo reachable**: 5
 
-5 of the 6 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 6 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+5 of the 6 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 6 tagged entries are distinct products. 1 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

@@ -38,7 +38,7 @@ Counted 2026-09-03. Official MCP counts entries, and an entry can be cross liste
 
 ## The honest limit
 
-Nobody has run these tools for this directory. 0 are bench tested. Every number above says a vendor documents a capability and a server was found, not that the chain works end to end when you wire it together at two in the morning.
+Nobody has run these tools for this directory. 1 are bench tested. Every number above says a vendor documents a capability and a server was found, not that the chain works end to end when you wire it together at two in the morning.
 
 ## Sources
 

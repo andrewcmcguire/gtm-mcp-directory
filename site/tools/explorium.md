@@ -17,7 +17,7 @@ Explorium
 RESEARCHED
 Checked 2026-09-03
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [explorium.ai](https://explorium.ai) · entry id 01-explorium · source 01-data-enrichment.md line 464
 

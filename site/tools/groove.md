@@ -17,7 +17,7 @@ Groove
 RESEARCHED
 Checked 2026-09-02
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [groove.co (product page now at clari.com/products/groove/)](https://groove.co (product page now at clari.com/products/groove/)) · entry id 02-groove · source 02-engagement-outbound.md line 103
 

@@ -17,7 +17,7 @@ G2 Buyer Intent
 RESEARCHED
 Checked 2026-08-25
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [g2.com](https://g2.com) · entry id 05-g2-buyer-intent · source 05-signals-intent-abm.md line 621
 

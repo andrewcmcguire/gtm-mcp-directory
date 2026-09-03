@@ -17,7 +17,7 @@ Claude / Anthropic MCP Connector Directory
 RESEARCHED
 Checked 2026-08-24
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [claude.com/partners/mcp](https://claude.com/partners/mcp) · entry id 07-claude-anthropic-mcp-connector-directory · source 07-mcp-infrastructure.md line 198
 

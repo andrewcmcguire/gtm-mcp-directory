@@ -64,7 +64,7 @@ Two guardrails. Make the agent cite the source of every claimed fact in its draf
 
 ## What this directory will not tell you
 
-Which tool writes better copy. There is no tool versus tool verdict anywhere on this site, and 0 of 293 entries have been run by anybody here.
+Which tool writes better copy. There is no tool versus tool verdict anywhere on this site, and 1 of 293 entries have been run by anybody here.
 
 ## Sources
 

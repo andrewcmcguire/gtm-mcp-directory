@@ -22,7 +22,7 @@ Produce a synthesized read on a company or person from many sources, for prep or
 - **no MCP found**: 4
 - **solo reachable**: 8
 
-12 of the 17 entries tagged with this job carry an MCP server of some kind, 10 of them official. 16 of the 17 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+12 of the 17 entries tagged with this job carry an MCP server of some kind, 10 of them official. 16 of the 17 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 1 have been bench tested. Counted 2026-09-03 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

@@ -17,7 +17,7 @@ Unify
 RESEARCHED
 Checked 2026-08-24
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [https://www.unifygtm.com](https://www.unifygtm.com) · entry id 04-unify · source 04-ai-sdr-agents.md line 106
 

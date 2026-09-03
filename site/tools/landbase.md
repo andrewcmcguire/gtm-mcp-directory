@@ -17,7 +17,7 @@ Landbase
 RESEARCHED
 Checked 2026-09-02
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [https://www.landbase.com](https://www.landbase.com) · entry id 04-landbase · source 04-ai-sdr-agents.md line 296
 

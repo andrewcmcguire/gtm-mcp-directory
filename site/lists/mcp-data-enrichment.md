@@ -30,7 +30,7 @@ enrow.io | [Official MCP](../mcp/official.md) | [https://github.com/EnrowAPI/enr
 api key. ENROW_API_KEY env var for stdio, or an Authorization Bearer / x-enrow-api-key... | [Free to start](../gates/free.md) |
 | [Exa](../tools/exa.md)
 exa.ai | [Official MCP](../mcp/official.md) | [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) +1 more | API key
-api key (issued via dashboard.exa.ai) | [Free to start](../gates/free.md) |
+api key (issued via dashboard.exa.ai) for the self-hosted server and for quota. CORRECTED... | [Free to start](../gates/free.md) |
 | [FullEnrich](../tools/fullenrich.md)
 fullenrich.com | [Official MCP](../mcp/official.md) | [https://mcp.fullenrich.com/mcp](https://mcp.fullenrich.com/mcp) +1 more | OAuth
 oauth (browser sign-in to FullEnrich account; no manual API key needed) | [Free to start](../gates/free.md) |

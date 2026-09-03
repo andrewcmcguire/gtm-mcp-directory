@@ -17,7 +17,7 @@ HubSpot Breeze (AI Prospecting Agent)
 RESEARCHED
 Checked 2026-09-02
 
-> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
 Vendor: [https://www.hubspot.com/products/sales/ai-prospecting-agent](https://www.hubspot.com/products/sales/ai-prospecting-agent) · entry id 04-hubspot-breeze · source 04-ai-sdr-agents.md line 239
 

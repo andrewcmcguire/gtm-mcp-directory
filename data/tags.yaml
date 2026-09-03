@@ -76,8 +76,11 @@ tagged_on: 2026-08-25
 tagged_by: machine-pass
 tier: RESEARCHED
 tier_meaning: >-
-  A job tag means the vendor says the tool does this. Nobody has run any tool
-  in this directory. bench_tested is still 0.
+  A job tag means the vendor says the tool does this. No tag on any entry has
+  been verified by running the tool. As of 2026-09-03 exactly one entry in this
+  directory has been bench-tested at all (01-exa, see directory/BENCH_2026-09-03.md);
+  every other entry is untested and every tag on every entry, including that one,
+  remains a vendor claim. The live number is counts.bench_tested in directory.json.
 job_vocabulary: data/jobs.yaml
 key_resolution: >-
   Keys are matched against each entry's normalized name (lowercased,

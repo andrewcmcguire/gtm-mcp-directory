@@ -38,7 +38,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **source URLs**
 
-0
+1
 
 **bench tested**
 
@@ -46,9 +46,9 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 | File | Bytes | What it is |
 |---|---|---|
-| [data/directory.json](data/directory.json) | 1,347,368 | Every entry with every field, the 15 category blocks, the closed 56 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
-| [data/build_report.json](data/build_report.json) | 55,130 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 49 entries the tagging pass flagged for human review. |
-| [search-index.json](search-index.json) | 282,154 | One compact record per unique product, which is what the on page search runs over. |
+| [data/directory.json](data/directory.json) | 1,350,925 | Every entry with every field, the 15 category blocks, the closed 56 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
+| [data/build_report.json](data/build_report.json) | 55,435 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 49 entries the tagging pass flagged for human review. |
+| [search-index.json](search-index.json) | 282,156 | One compact record per unique product, which is what the on page search runs over. |
 | [llms.txt](llms.txt) | text | The map, for agents and crawlers. Every section of the site with a one line description. |
 
 **Every field on an entry**
@@ -96,6 +96,6 @@ Facts about third party products are recorded from those vendors' own public sou
 
 - **Schema version**: 1.1
 
-- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: 6446546443fa463278bebffc...
+- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: 84e4e93b3c09e2f9230d71a6...
 
 The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the [methodology page](methodology.md).

@@ -27,7 +27,7 @@ This file exists because the directory publishes what it measures. A directory o
 - **None found** is a statement about a search on a stated date, not a claim that no server exists. Every entry carries its own last_checked date.
 - **Unknown** is a legal answer and is published as unknown rather than guessed.
 - **A job tag** means the vendor says the tool does this. It is not a test result.
-- **BENCH-TESTED** means somebody personally ran the tool on a stated date. 0 entries are bench tested. Every other entry is RESEARCHED: facts from public sources with URLs, no usage claims.
+- **BENCH-TESTED** means somebody personally ran the tool on a stated date. 1 entries are bench tested. Every other entry is RESEARCHED: facts from public sources with URLs, no usage claims.
 - There are **no tool versus tool verdicts** anywhere on this site, and no rankings that can be purchased. The ordering rule is published and computed.
 
 ## The counts, as of the build date
@@ -38,7 +38,7 @@ This file exists because the directory publishes what it measures. A directory o
 - Free to start or paid self serve: 174.
 - Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 132. This is the strictest useful filter on the site.
 - Jobs: 56 in 10 families, 849 tags across 271 entries. 22 entries are untagged and each records why.
-- Bench tested: 0.
+- Bench tested: 1.
 
 ## Key pages
 
@@ -146,7 +146,7 @@ This file exists because the directory publishes what it measures. A directory o
 
 ## What this site will not tell you
 
-- Which tool is better. 0 tools have been run by anybody here, so a comparison would be an opinion.
+- Which tool is better. 1 tools have been run by anybody here, so a comparison would be an opinion.
 - Prices, credit costs, quota sizes or rate limits. The access gate is tracked; money is not.
 - Repo health. github_url, github_stars, github_last_commit and github_archived are null on every entry because the rail that would fill them has not been run. A star count without the date it was taken is a lie.
 

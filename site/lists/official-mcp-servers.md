@@ -63,7 +63,7 @@ enrow.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://gith
 api key. ENROW_API_KEY env var for stdio, or an Authorization Bearer / x-enrow-api-key... | [Free to start](../gates/free.md) |
 | [Exa](../tools/exa.md)
 exa.ai | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) +1 more | API key
-api key (issued via dashboard.exa.ai) | [Free to start](../gates/free.md) |
+api key (issued via dashboard.exa.ai) for the self-hosted server and for quota. CORRECTED... | [Free to start](../gates/free.md) |
 | [Fathom](../tools/fathom.md)
 fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [https://developers.fathom.ai/mcp-docs](https://developers.fathom.ai/mcp-docs) +4 more | OAuth or an API key
 In-client authorization: the docs say to add the server URL "then authenticate to access... | [Free to start](../gates/free.md) |

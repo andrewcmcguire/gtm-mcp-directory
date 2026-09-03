@@ -1,6 +1,6 @@
 # Methodology: how an entry is made and where this build is thin
 
-> The five laws an entry survives, the two honesty tiers (0 bench tested of 293), the counting authority, and every thin spot named rather than padded.
+> The five laws an entry survives, the two honesty tiers (1 bench tested of 293), the counting authority, and every thin spot named rather than padded.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -15,9 +15,9 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 **The two tiers**
 
-**RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 293 entries in this build are RESEARCHED.
+**RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 292 entries in this build are RESEARCHED.
 
-**BENCH-TESTED.** Andrew personally ran it on a stated date. Cannot be bought. There are 0 of them. That number is on the front page. It stays at 0 until Andrew actually runs something, and a vendor offering access buys a test, never a verdict.
+**BENCH-TESTED.** Andrew personally ran it on a stated date. Cannot be bought. There are 1 of them. That number is on the front page. It stays at 1 until Andrew actually runs something, and a vendor offering access buys a test, never a verdict.
 
 **The five laws an entry has to survive**
 
@@ -39,7 +39,7 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 293 against 293, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 6446546443fa463278bebffc...
+Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 84e4e93b3c09e2f9230d71a6...
 
 **The duplicates, and why two counts exist**
 
@@ -106,9 +106,9 @@ That is why the GitHub view shows seeds instead of star counts. An empty field i
 
 jobs[] used to be on the list above. It is not any more. As of 2026-08-25 the vocabulary is closed at 56 jobs in 10 families, and 849 tags are assigned across 271 of 293 entries. 22 entries carry no tag at all, each one for a recorded reason that is printed on its own tool page.
 
-**What a tag means, exactly.** A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records. It was derived from the entry's own what_it_does, ai_features and revops_role text, which is itself RESEARCHED tier. Tagged by machine-pass, tier RESEARCHED, and bench_tested is still 0. 49 entries were flagged for human review by that pass and are the first thing a second reader should look at.
+**What a tag means, exactly.** A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records. It was derived from the entry's own what_it_does, ai_features and revops_role text, which is itself RESEARCHED tier. Tagged by machine-pass, tier RESEARCHED, and bench_tested is still 1. 49 entries were flagged for human review by that pass and are the first thing a second reader should look at.
 
-The vocabulary is closed on purpose. A tool whose job genuinely is not in the list stays blank rather than being forced into the nearest tag, because a wrong job tag is the class of quiet lie the two tier honesty law exists to prevent. Vocabulary source data/jobs.yaml sha256 bb07dcb51e730f83..., tags source data/tags.yaml sha256 655a642d9a3306f9...
+The vocabulary is closed on purpose. A tool whose job genuinely is not in the list stays blank rather than being forced into the nearest tag, because a wrong job tag is the class of quiet lie the two tier honesty law exists to prevent. Vocabulary source data/jobs.yaml sha256 bb07dcb51e730f83..., tags source data/tags.yaml sha256 7039a400c1c46643...
 
 [Browse the 56 jobs](jobs/index.md)
 

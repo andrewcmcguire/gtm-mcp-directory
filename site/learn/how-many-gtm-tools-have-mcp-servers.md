@@ -30,7 +30,7 @@ Counted 2026-09-03. Total: 293 entries across 15 category files, of which 277 ar
 
 ## What none found does not mean
 
-87 entries are none found. That is a statement about a search made on a date, and every entry carries the date its facts were pulled: 119 on 2026-08-24, 23 on 2026-08-25, 131 on 2026-09-02, 20 on 2026-09-03. A vendor who shipped a server the week after their entry was checked is recorded as none found until the next pass. It is not a claim that no server exists.
+87 entries are none found. That is a statement about a search made on a date, and every entry carries the date its facts were pulled: 118 on 2026-08-24, 23 on 2026-08-25, 131 on 2026-09-02, 21 on 2026-09-03. A vendor who shipped a server the week after their entry was checked is recorded as none found until the next pass. It is not a claim that no server exists.
 
 ## Why the number is not higher
 

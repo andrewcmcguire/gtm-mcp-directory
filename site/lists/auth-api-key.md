@@ -27,7 +27,7 @@ diffbot.com | [Official MCP](../mcp/official.md) | [https://github.com/diffbot/d
 | [Enrow](../tools/enrow.md)
 enrow.io | [Official MCP](../mcp/official.md) | [https://github.com/EnrowAPI/enrow-mcp](https://github.com/EnrowAPI/enrow-mcp) +1 more | api key. ENROW_API_KEY env var for stdio, or an Authorization Bearer / x-enrow-api-key header for remote HTTP. | [Free to start](../gates/free.md) |
 | [Exa](../tools/exa.md)
-exa.ai | [Official MCP](../mcp/official.md) | [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) +1 more | api key (issued via dashboard.exa.ai) | [Free to start](../gates/free.md) |
+exa.ai | [Official MCP](../mcp/official.md) | [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) +1 more | api key (issued via dashboard.exa.ai) for the self-hosted server and for quota. CORRECTED 2026-09-03 by bench test: the hosted endpoint... | [Free to start](../gates/free.md) |
 | [Fivetran](../tools/fivetran.md)
 fivetran.com | [Official MCP](../mcp/official.md) | [https://github.com/fivetran/fivetran-mcp](https://github.com/fivetran/fivetran-mcp) | API key + API secret via env vars, generated from the Fivetran dashboard. Scoped permission tiers (read / read-write / read-write-delete) with a... | [Free to start](../gates/free.md) |
 | [Hunter.io](../tools/hunter-io.md)
