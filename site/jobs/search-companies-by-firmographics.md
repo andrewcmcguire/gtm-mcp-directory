@@ -80,3 +80,4 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Reverse-look-up a person from an email](reverse-lookup-person-from-email.md)
 - [Build a target account list](build-target-account-list.md)
 - [Discover warm intro paths](discover-warm-intro-paths.md)
+- [Find a person's LinkedIn URL from a name and company](find-linkedin-url-from-name-and-company.md)

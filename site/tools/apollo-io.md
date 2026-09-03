@@ -1,6 +1,6 @@
 # Apollo.io: MCP server status, API access gate and what it does
 
-> A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect... Official MCP, Paid, self-serve. Checked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Apollo.io
 [Paid, self-serve](../gates/paid.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-03
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,10 +38,10 @@ Combined data + outbound engagement layer, often the SDR's primary daily tool fo
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-- **Endpoint probe**: docs page, not an endpoint
+- **Endpoint probe**: repo or package: install and run locally
 - **Docs URL[https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
 mcp_status, verbatim from the file:
 
@@ -84,6 +84,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a work email address](../jobs/find-work-email.md)
 - [Research an account before a call](../jobs/research-account-for-call-prep.md)
 - [Run an email sequence](../jobs/run-email-sequence.md)
@@ -92,7 +93,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -101,13 +102,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.landbase.com/blog/apollo-pricing](https://www.landbase.com/blog/apollo-pricing)
 - [https://hackingdemand.com/blog/apollo-io-pricing-2026](https://hackingdemand.com/blog/apollo-io-pricing-2026)
 - [https://www.warmly.ai/p/blog/apollo-pricing](https://www.warmly.ai/p/blog/apollo-pricing)
+- [https://docs.apollo.io/reference/people-enrichment](https://docs.apollo.io/reference/people-enrichment)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://github.com/apolloio/apollo-mcp-plugin, https://docs.apollo.io/docs, https://www.landbase.com/blog/apollo-pricing, https://hackingdemand.com/blog/apollo-io-pricing-2026, https://www.warmly.ai/p/blog/apollo-pricing
+https://github.com/apolloio/apollo-mcp-plugin, https://docs.apollo.io/docs, https://www.landbase.com/blog/apollo-pricing, https://hackingdemand.com/blog/apollo-io-pricing-2026, https://www.warmly.ai/p/blog/apollo-pricing, https://docs.apollo.io/reference/people-enrichment
 
 **Notes, verbatim from the file**
-Free tier exists with a real (if limited) database and ~900 credits/year, rising to ~10,000 credits/month for accounts with a verified corporate email domain. Basic public API access is available to all paid customers; fuller API capability is gated to the Organization plan (~$119/user/month annual). Several unofficial community MCP servers also exist on GitHub (lkm1developer, edwardchoh, Inferensys, adamanz, others) alongside Apollo's own official plugin.
+Free tier exists with a real (if limited) database and ~900 credits/year, rising to ~10,000 credits/month for accounts with a verified corporate email domain. Basic public API access is available to all paid customers; fuller API capability is gated to the Organization plan (~$119/user/month annual). Several unofficial community MCP servers also exist on GitHub (lkm1developer, edwardchoh, Inferensys, adamanz, others) alongside Apollo's own official plugin. 2026-09-03: vendor docs state the People Enrichment endpoint (POST /people/match) accepts first_name and last_name (or name) with organization_name or domain and returns linkedin_url, "The URL for the person's LinkedIn profile" (https://docs.apollo.io/reference/people-enrichment); MCP tool apollo_people_match is described as "Match and enrich a single person from available identifiers" (https://github.com/apolloio/apollo-mcp-plugin); the docs state credits are charged only if credit-consuming data is found, 1 credit for demographics or email plus 8 credits if a mobile phone is returned.
 
 **Provenance**
 
@@ -119,7 +121,7 @@ Free tier exists with a real (if limited) database and ~900 credits/year, rising
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-03
 
 - **Data baked**: 2026-09-03
 

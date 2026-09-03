@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The data: directory.json, published in full</title>
-<meta name="description" content="The whole GTM MCP Directory as JSON: 293 entries, 156 official MCP servers, 827 job tags, every source URL. Free, no key, no signup. Baked 2026-09-03.">
+<meta name="description" content="The whole GTM MCP Directory as JSON: 293 entries, 156 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-03.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/data.html">
@@ -53,7 +53,7 @@
     {
       "@type": "PropertyValue",
       "name": "jobs",
-      "description": "tags from a closed vocabulary of 55 jobs in 10 families"
+      "description": "tags from a closed vocabulary of 56 jobs in 10 families"
     },
     {
       "@type": "PropertyValue",
@@ -123,9 +123,9 @@ you are a person building something, this is the fastest path to it.</p>
 <div class="k">unique products</div></div>
 <div class="stat is-gold"><div class="n">156</div>
 <div class="k">official MCP servers</div></div>
-<div class="stat is-teal"><div class="n">827</div>
+<div class="stat is-teal"><div class="n">849</div>
 <div class="k">job tags</div></div>
-<div class="stat"><div class="n">1,194</div>
+<div class="stat"><div class="n">1,219</div>
 <div class="k">source URLs</div></div>
 <div class="stat is-copper"><div class="n">0</div>
 <div class="k">bench tested</div></div>
@@ -135,14 +135,14 @@ you are a person building something, this is the fastest path to it.</p>
 <div class="scroller"><table class="datatable"><thead><tr><th>File</th><th>Bytes</th>
 <th>What it is</th></tr></thead><tbody>
 <tr><td><a href="data/directory.json">data/directory.json</a></td>
-<td class="n">1,328,266</td>
+<td class="n">1,345,154</td>
 <td>Every entry with every field, the 15 category blocks, the closed
-55 job vocabulary with its per job counts, the duplicate groups, and the counts block the
+56 job vocabulary with its per job counts, the duplicate groups, and the counts block the
 whole site renders from.</td></tr>
 <tr><td><a href="data/build_report.json">data/build_report.json</a></td>
-<td class="n">43,059</td>
+<td class="n">55,130</td>
 <td>The counting authority's report: per file reconciliation, field coverage, every place this build
-is thin, and the 28 entries the tagging pass flagged for human
+is thin, and the 49 entries the tagging pass flagged for human
 review.</td></tr>
 <tr><td><a href="search-index.json">search-index.json</a></td><td class="n">282,154</td>
 <td>One compact record per unique product, which is what the on page search runs over.</td></tr>
@@ -153,7 +153,7 @@ review.</td></tr>
 
 <div class="field"><div class="k">Every field on an entry</div><div class="v">
 <div class="scroller"><table class="datatable"><thead><tr><th>Field</th><th>What it holds</th>
-</tr></thead><tbody><tr><td class="n">id</td><td>the entry id, stable across builds, prefixed with its category number</td></tr><tr><td class="n">name / vendor_url / vendor_domain</td><td>the product and where it lives</td></tr><tr><td class="n">what_it_does</td><td>one plain sentence, rewritten. Vendor copy never ships as the description</td></tr><tr><td class="n">ai_features</td><td>what the AI actually does, separated from automation with an AI label on it</td></tr><tr><td class="n">mcp_status / mcp_status_bucket</td><td>the verbatim field and the normalised bucket</td></tr><tr><td class="n">mcp_url / mcp_urls</td><td>verbatim, and every URL parsed out of it</td></tr><tr><td class="n">mcp_auth</td><td>verbatim. The sentence that decides your security review</td></tr><tr><td class="n">api_gate / api_gate_bucket</td><td>verbatim, and the normalised bucket</td></tr><tr><td class="n">jobs / jobs_tagged_by / jobs_tagged_on</td><td>tags from the closed 55 job vocabulary, and who tagged them when</td></tr><tr><td class="n">tier / last_checked</td><td>RESEARCHED or BENCH-TESTED, and the date the facts were pulled</td></tr><tr><td class="n">sources / source_urls / source_annotations</td><td>verbatim, and the URLs parsed out of it</td></tr><tr><td class="n">canonical / canonical_id / also_listed_in</td><td>the 16 deliberate cross listings and where each one belongs</td></tr><tr><td class="n">source_file / source_line</td><td>the exact line of the source markdown this entry came from</td></tr><tr><td class="n">github_* / docs_digest / submission</td><td>present on every entry, null on every entry. Nothing has been measured for them</td></tr></tbody></table></div>
+</tr></thead><tbody><tr><td class="n">id</td><td>the entry id, stable across builds, prefixed with its category number</td></tr><tr><td class="n">name / vendor_url / vendor_domain</td><td>the product and where it lives</td></tr><tr><td class="n">what_it_does</td><td>one plain sentence, rewritten. Vendor copy never ships as the description</td></tr><tr><td class="n">ai_features</td><td>what the AI actually does, separated from automation with an AI label on it</td></tr><tr><td class="n">mcp_status / mcp_status_bucket</td><td>the verbatim field and the normalised bucket</td></tr><tr><td class="n">mcp_url / mcp_urls</td><td>verbatim, and every URL parsed out of it</td></tr><tr><td class="n">mcp_auth</td><td>verbatim. The sentence that decides your security review</td></tr><tr><td class="n">api_gate / api_gate_bucket</td><td>verbatim, and the normalised bucket</td></tr><tr><td class="n">jobs / jobs_tagged_by / jobs_tagged_on</td><td>tags from the closed 56 job vocabulary, and who tagged them when</td></tr><tr><td class="n">tier / last_checked</td><td>RESEARCHED or BENCH-TESTED, and the date the facts were pulled</td></tr><tr><td class="n">sources / source_urls / source_annotations</td><td>verbatim, and the URLs parsed out of it</td></tr><tr><td class="n">canonical / canonical_id / also_listed_in</td><td>the 16 deliberate cross listings and where each one belongs</td></tr><tr><td class="n">source_file / source_line</td><td>the exact line of the source markdown this entry came from</td></tr><tr><td class="n">github_* / docs_digest / submission</td><td>present on every entry, null on every entry. Nothing has been measured for them</td></tr></tbody></table></div>
 </div></div>
 
 <div class="field"><div class="k">How to read it without getting it wrong</div><div class="v">
@@ -191,7 +191,7 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 <div class="bv">tools_recount.py</div></div>
 <div><div class="bk">Network calls during the build</div>
 <div class="bv">0</div></div>
-<div><div class="bk">Content sha256</div><div class="bv">80aed8e1594f3b21bb117b08...</div></div>
+<div><div class="bk">Content sha256</div><div class="bv">a245a27aa517863220ee6a0e...</div></div>
 </div>
 <p class="note">The canonical base URL used by the sitemap, the canonical tags and llms.txt is
 https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the
@@ -209,7 +209,7 @@ https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27.
     <p>156 official MCP servers,
     26 community.
     0 bench tested.</p>
-    <p>55 jobs in 10 families.
+    <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     22 carry none and say why.</p>
   </div>

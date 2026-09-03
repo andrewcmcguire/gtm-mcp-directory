@@ -1,6 +1,6 @@
 # Prospeo: MCP server status, API access gate and what it does
 
-> A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given... Official MCP, Free to start. Checked 2026-08-24.
+> A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given... Official MCP, Free to start. Checked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Prospeo
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-03
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -38,10 +38,10 @@ Email/phone finder and person+company search layer, most often plugged into Clay
 
 - **Parsed URLs**: 1 found in the mcp_url field
 
-- **Endpoint probe**: docs page, not an endpoint
+- **Endpoint probe**: repo or package: install and run locally
 - **Docs URL[https://github.com/prospeo-v2/prospeo-mcp-server](https://github.com/prospeo-v2/prospeo-mcp-server)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
 mcp_status, verbatim from the file:
 
@@ -87,6 +87,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a work email address](../jobs/find-work-email.md)
 - [Find a phone number](../jobs/find-phone-number.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
@@ -94,7 +95,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -106,13 +107,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://www.xpay.sh/saas-pricing/prospeo-io/](https://www.xpay.sh/saas-pricing/prospeo-io/)
 - [https://www.clay.com/integrations/data-provider/prospeo](https://www.clay.com/integrations/data-provider/prospeo)
 - [https://university.clay.com/docs/prospeo-integration-overview](https://university.clay.com/docs/prospeo-integration-overview)
+- [https://prospeo.io/api-docs/enrich-person](https://prospeo.io/api-docs/enrich-person)
+- [https://prospeo.io/api-docs/mcp](https://prospeo.io/api-docs/mcp)
 
-8 source URLs. Raw sources field, verbatim:
+10 source URLs. Raw sources field, verbatim:
 
-https://github.com/prospeo-v2/prospeo-mcp-server, https://github.com/prospeo-v2, https://github.com/orchidautomation/prospeo-mcp, https://github.com/Meerkats-Ai/prospeo-mcp-server, https://fullenrich.com/content/prospeo-pricing, https://www.xpay.sh/saas-pricing/prospeo-io/, https://www.clay.com/integrations/data-provider/prospeo, https://university.clay.com/docs/prospeo-integration-overview
+https://github.com/prospeo-v2/prospeo-mcp-server, https://github.com/prospeo-v2, https://github.com/orchidautomation/prospeo-mcp, https://github.com/Meerkats-Ai/prospeo-mcp-server, https://fullenrich.com/content/prospeo-pricing, https://www.xpay.sh/saas-pricing/prospeo-io/, https://www.clay.com/integrations/data-provider/prospeo, https://university.clay.com/docs/prospeo-integration-overview, https://prospeo.io/api-docs/enrich-person, https://prospeo.io/api-docs/mcp
 
 **Notes, verbatim from the file**
-Confirmed as a Clay "data provider" (native waterfall integration), a separate integration surface from the MCP. Besides the official prospeo-v2 MCP repo, at least two unofficial community MCP wrappers exist (orchidautomation/prospeo-mcp, Meerkats-Ai/prospeo-mcp-server), both hitting the same public API. Pricing sources conflict slightly: most describe a self-serve free plan (100 credits/mo) plus paid plans from $39-49/mo, but one third-party source claimed the public pricing page pushes visitors to a sales-contact form - flagged as a discrepancy, not resolved.
+Confirmed as a Clay "data provider" (native waterfall integration), a separate integration surface from the MCP. Besides the official prospeo-v2 MCP repo, at least two unofficial community MCP wrappers exist (orchidautomation/prospeo-mcp, Meerkats-Ai/prospeo-mcp-server), both hitting the same public API. Pricing sources conflict slightly: most describe a self-serve free plan (100 credits/mo) plus paid plans from $39-49/mo, but one third-party source claimed the public pricing page pushes visitors to a sales-contact form - flagged as a discrepancy, not resolved. 2026-09-03: vendor docs state the Enrich Person API (POST /enrich-person) accepts first name + last name + a company identifier (name/website/LinkedIn URL) and returns linkedin_url, described as "The person's public LinkedIn URL" (https://prospeo.io/api-docs/enrich-person); MCP tool enrich_person is listed in the MCP docs, described there as returning professional email and/or mobile (https://prospeo.io/api-docs/mcp); the enrich page states 1 credit per email found and no charge if no match is found.
 
 **Provenance**
 
@@ -124,7 +127,7 @@ Confirmed as a Clay "data provider" (native waterfall integration), a separate i
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-03
 
 - **Data baked**: 2026-09-03
 

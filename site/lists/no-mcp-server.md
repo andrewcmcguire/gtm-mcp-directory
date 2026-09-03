@@ -17,7 +17,7 @@ None found is a statement about a search on a date, not a promise that no server
 | Tool | Category | What it does | Gate | Checked |
 |---|---|---|---|---|
 | [BetterContact](../tools/bettercontact.md)
-bettercontact.rocks | [Data & Enrichment](../categories/data-enrichment.md) | A waterfall enrichment orchestrator that queries 20+ third-party email/phone data providers in sequence for a given contact,... | [Free to start](../gates/free.md) | 2026-09-02 |
+bettercontact.rocks | [Data & Enrichment](../categories/data-enrichment.md) | A waterfall enrichment orchestrator that queries 20+ third-party email/phone data providers in sequence for a given contact,... | [Free to start](../gates/free.md) | 2026-09-03 |
 | [Datagma](../tools/datagma.md)
 datagma.com | [Data & Enrichment](../categories/data-enrichment.md) | An all-in-one B2B enrichment platform that finds work emails and verified mobile phone numbers, appends firmographic company... | [Free to start](../gates/free.md) | 2026-09-02 |
 | [F5Bot](../tools/f5bot.md)

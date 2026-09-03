@@ -38,10 +38,10 @@ Lower-overhead async video touch for individual AEs/SDRs/CSMs - follow-ups and l
 
 - **Parsed URLs**: 3 found in the mcp_url field
 
-- **Endpoint probe**: docs page, not an endpoint
+- **Endpoint probe**: repo or package: install and run locally
 - **Docs URL[https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom)Probed**: 2026-09-03, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
 mcp_status, verbatim from the file:
 
@@ -90,7 +90,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

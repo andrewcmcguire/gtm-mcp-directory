@@ -57,7 +57,7 @@
       "other": 0
     },
     "bench_tested": 0,
-    "jobs": 55,
+    "jobs": 56,
     "job_families": 10,
     "entries_tagged": 271,
     "entries_untagged": 22
@@ -69,14 +69,15 @@
     "by_status": {
       "live": 1,
       "live-auth-gated": 34,
-      "docs-only": 131,
+      "repo-local": 34,
+      "docs-only": 97,
       "unreachable": 15,
       "not-probed": 1,
       "not-applicable": 111
     },
     "official_with_live_endpoint": 35,
-    "official_docs_only": 106,
-    "meaning": "endpoint_status is measured by mcp_verify.py, which POSTs an MCP initialize to endpoint-shaped mcp_url values and GETs doc-shaped ones. live and live-auth-gated mean something answered as an MCP server on endpoint_last_probed. docs-only means the recorded URL is a page about the server, not the server. It is not a defect and it is not a downgrade of mcp_status; it is the difference between where to read and where to connect, and an agent needs the second one."
+    "official_docs_only": 86,
+    "meaning": "endpoint_status is measured by mcp_verify.py, which POSTs an MCP initialize to endpoint-shaped mcp_url values and GETs doc-shaped ones. live and live-auth-gated mean something answered as an MCP server on endpoint_last_probed. repo-local means the recorded URL is a repository or package for a server you install and run locally over stdio: callable after an install, not a remote endpoint. docs-only means the recorded URL is a page about the server, not the server. Neither is a defect and neither is a downgrade of mcp_status; it is the difference between where to read and where to connect, and an agent needs the second one."
   },
   "honesty": {
     "tier_meanings": {
@@ -115,12 +116,12 @@
       "top_jobs": [
         "find-work-email",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-phone-number",
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "verify-email-deliverable",
-        "enrich-person-from-linkedin-url",
-        "detect-funding-or-news-event"
+        "enrich-person-from-linkedin-url"
       ],
       "jobs_tagged": 38,
       "entry_ids": [
@@ -163,7 +164,7 @@
         "01-wiza",
         "01-zoominfo"
       ],
-      "source_sha256": "c7c6c8304556cda5091210b89538f699d1a589b4c25cb66533e9dddf23847ecc"
+      "source_sha256": "df90426748aee5ec2d80cf1d788cd91213d0d91f669c5fd8bc83fab7423ebbb6"
     },
     {
       "num": "02",
@@ -229,7 +230,7 @@
         "02-waalaxy",
         "02-woodpecker"
       ],
-      "source_sha256": "7f56d367e3cc829a3be8e3481e8c0956b23ff29e1fa61c997141ed152833420f"
+      "source_sha256": "d39de698365e1b83714b81a362fad8b30e0d7e8b07a4d37c576f9d11a1bb874a"
     },
     {
       "num": "03",
@@ -951,7 +952,7 @@
       "id": "find-people-and-companies",
       "label": "Find people and companies",
       "one_liner": "Turn a criterion, a domain, a URL or an email into a record.",
-      "job_count": 7,
+      "job_count": 8,
       "job_ids": [
         "search-people-by-criteria",
         "search-companies-by-firmographics",
@@ -959,9 +960,10 @@
         "enrich-company-from-domain",
         "reverse-lookup-person-from-email",
         "build-target-account-list",
-        "discover-warm-intro-paths"
+        "discover-warm-intro-paths",
+        "find-linkedin-url-from-name-and-company"
       ],
-      "entry_count": 97
+      "entry_count": 119
     },
     {
       "id": "get-contact-data",
@@ -1095,13 +1097,13 @@
   ],
   "jobs_vocabulary": {
     "meta": {
-      "version": "1",
+      "version": "2",
       "vocabulary_status": "closed",
       "written_on": "2026-08-25",
       "tier": "RESEARCHED",
       "tier_meaning": "A job tag means the vendor says the tool does this. It is not a usage claim, not a test result, and not a promise the capability is reachable through the tool's MCP server or on the gate the entry records.",
       "source_file": "data/jobs.yaml",
-      "source_sha256": "e63c27779ba7bdea1617e4ae1e6afaa47193ecbf695e5ceb744a0677da1db948"
+      "source_sha256": "bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922"
     },
     "tags_meta": {
       "version": "1",
@@ -1111,7 +1113,7 @@
       "tier_meaning": "A job tag means the vendor says the tool does this. Nobody has run any tool in this directory. bench_tested is still 0.",
       "key_resolution": "Keys are matched against each entry's normalized name (lowercased, parentheticals dropped, punctuation collapsed), the same normalisation tools_recount.py uses to detect cross-file duplicates. One key therefore covers every entry for the same product.",
       "source_file": "data/tags.yaml",
-      "source_sha256": "77a593d1de719f44e3816265c624b1cd7eefd1dee059b9f4ac8be0539b4d1b7f"
+      "source_sha256": "655a642d9a3306f942ac1ca2f690cab3f8f024bea7b5ae5c6550bf99033f95ba"
     },
     "jobs": [
       {
@@ -1537,6 +1539,88 @@
         ]
       },
       {
+        "id": "find-linkedin-url-from-name-and-company",
+        "family": "find-people-and-companies",
+        "phrasing": "find linkedin url from name and company",
+        "label": "Find a person's LinkedIn URL from a name and company",
+        "one_liner": "Hand it a person's name plus a company name or domain and get the LinkedIn profile URL back. The inverse of enrich-person-from-linkedin-url, which needs the URL as input. Added 2026-09-03 by the owner; see the header.",
+        "primary_categories": [
+          "01"
+        ],
+        "aliases": [
+          "linkedin urls",
+          "get linkedin urls",
+          "find linkedin profile",
+          "find linkedin url",
+          "find a linkedin profile url",
+          "find a person's linkedin url",
+          "find someone's linkedin",
+          "linkedin profile url from name",
+          "linkedin url from name and company",
+          "linkedin profile from name and company",
+          "person name and company to linkedin",
+          "name and company to linkedin url",
+          "lookup linkedin url by name",
+          "linkedin lookup from name and company",
+          "which linkedin profile belongs to this person",
+          "i have a name and a company and need the linkedin profile",
+          "get the linkedin profile url for a person name",
+          "linkedin profile finder",
+          "linkedin url finder"
+        ],
+        "order": 7,
+        "entry_count": 22,
+        "product_count": 21,
+        "mcp_status": {
+          "official": 18,
+          "community": 2,
+          "none-found": 2,
+          "unknown": 0,
+          "n-a": 0,
+          "other": 0
+        },
+        "api_gate": {
+          "free": 9,
+          "paid": 12,
+          "enterprise-only": 1,
+          "enterprise-leaning": 0,
+          "unknown": 0,
+          "n-a": 0,
+          "other": 0
+        },
+        "solo_reachable": 19,
+        "bench_tested": 0,
+        "categories": {
+          "01": 19,
+          "02": 2,
+          "05": 1
+        },
+        "entry_ids": [
+          "01-apollo-io",
+          "01-bettercontact",
+          "01-clay",
+          "01-coresignal",
+          "01-crustdata",
+          "01-cufinder",
+          "01-datagma",
+          "01-dropcontact",
+          "01-explorium",
+          "01-fullenrich",
+          "01-hunter-io",
+          "01-lusha",
+          "01-people-data-labs",
+          "01-prospeo",
+          "01-rocketreach",
+          "01-surfe",
+          "01-uplead",
+          "01-wiza",
+          "01-zoominfo",
+          "02-lemlist",
+          "02-phantombuster",
+          "05-crustdata"
+        ]
+      },
+      {
         "id": "find-work-email",
         "family": "get-contact-data",
         "phrasing": "find email address",
@@ -1552,7 +1636,7 @@
           "email finder",
           "what is their email"
         ],
-        "order": 7,
+        "order": 8,
         "entry_count": 29,
         "product_count": 29,
         "mcp_status": {
@@ -1626,7 +1710,7 @@
           "direct dial lookup",
           "phone finder"
         ],
-        "order": 8,
+        "order": 9,
         "entry_count": 19,
         "product_count": 19,
         "mcp_status": {
@@ -1692,7 +1776,7 @@
           "clean this email list",
           "smtp verification"
         ],
-        "order": 9,
+        "order": 10,
         "entry_count": 15,
         "product_count": 15,
         "mcp_status": {
@@ -1753,7 +1837,7 @@
           "identify companies on my pricing page",
           "visitor identification"
         ],
-        "order": 10,
+        "order": 11,
         "entry_count": 11,
         "product_count": 10,
         "mcp_status": {
@@ -1809,7 +1893,7 @@
           "buying signals for my target list",
           "is this account researching us"
         ],
-        "order": 11,
+        "order": 12,
         "entry_count": 30,
         "product_count": 26,
         "mcp_status": {
@@ -1887,7 +1971,7 @@
           "who from my customer list moved",
           "new role alerts for these contacts"
         ],
-        "order": 12,
+        "order": 13,
         "entry_count": 10,
         "product_count": 9,
         "mcp_status": {
@@ -1944,7 +2028,7 @@
           "find companies hiring for this role",
           "job board data as an intent signal"
         ],
-        "order": 13,
+        "order": 14,
         "entry_count": 5,
         "product_count": 4,
         "mcp_status": {
@@ -1994,7 +2078,7 @@
           "technographics for a domain",
           "detect installed tools"
         ],
-        "order": 14,
+        "order": 15,
         "entry_count": 14,
         "product_count": 12,
         "mcp_status": {
@@ -2054,7 +2138,7 @@
           "company news triggers",
           "tell me when something happens at this account"
         ],
-        "order": 15,
+        "order": 16,
         "entry_count": 12,
         "product_count": 11,
         "mcp_status": {
@@ -2113,7 +2197,7 @@
           "crawl the open web for this answer",
           "browse and structure a page"
         ],
-        "order": 16,
+        "order": 17,
         "entry_count": 6,
         "product_count": 6,
         "mcp_status": {
@@ -2166,7 +2250,7 @@
           "who is talking about my competitor",
           "keyword alerts across social"
         ],
-        "order": 17,
+        "order": 18,
         "entry_count": 12,
         "product_count": 11,
         "mcp_status": {
@@ -2225,7 +2309,7 @@
           "summarize this prospect",
           "account research"
         ],
-        "order": 18,
+        "order": 19,
         "entry_count": 17,
         "product_count": 16,
         "mcp_status": {
@@ -2292,7 +2376,7 @@
           "enroll contacts in a sequence",
           "start an email sequence"
         ],
-        "order": 19,
+        "order": 20,
         "entry_count": 45,
         "product_count": 38,
         "mcp_status": {
@@ -2387,7 +2471,7 @@
           "run a linkedin outreach campaign",
           "automate linkedin dms"
         ],
-        "order": 20,
+        "order": 21,
         "entry_count": 22,
         "product_count": 19,
         "mcp_status": {
@@ -2457,7 +2541,7 @@
           "personalize this message",
           "write a follow up"
         ],
-        "order": 21,
+        "order": 22,
         "entry_count": 51,
         "product_count": 45,
         "mcp_status": {
@@ -2561,7 +2645,7 @@
           "power dial these prospects",
           "call this prospect"
         ],
-        "order": 22,
+        "order": 23,
         "entry_count": 22,
         "product_count": 19,
         "mcp_status": {
@@ -2630,7 +2714,7 @@
           "generate a video for each prospect",
           "video message a prospect"
         ],
-        "order": 23,
+        "order": 24,
         "entry_count": 14,
         "product_count": 13,
         "mcp_status": {
@@ -2690,7 +2774,7 @@
           "campaign analytics",
           "did they watch the video"
         ],
-        "order": 24,
+        "order": 25,
         "entry_count": 14,
         "product_count": 13,
         "mcp_status": {
@@ -2750,7 +2834,7 @@
           "replace my sdr with an agent",
           "agent that prospects end to end"
         ],
-        "order": 25,
+        "order": 26,
         "entry_count": 16,
         "product_count": 12,
         "mcp_status": {
@@ -2812,7 +2896,7 @@
           "pull the transcript",
           "read what was said on the call"
         ],
-        "order": 26,
+        "order": 27,
         "entry_count": 20,
         "product_count": 20,
         "mcp_status": {
@@ -2877,7 +2961,7 @@
           "ask a question across my meeting history",
           "search the call library"
         ],
-        "order": 27,
+        "order": 28,
         "entry_count": 5,
         "product_count": 5,
         "mcp_status": {
@@ -2926,7 +3010,7 @@
           "give me the notes from that call",
           "meeting recap"
         ],
-        "order": 28,
+        "order": 29,
         "entry_count": 22,
         "product_count": 22,
         "mcp_status": {
@@ -2994,7 +3078,7 @@
           "competitor mentions on calls",
           "deal risk from conversation data"
         ],
-        "order": 29,
+        "order": 30,
         "entry_count": 21,
         "product_count": 21,
         "mcp_status": {
@@ -3063,7 +3147,7 @@
           "get a time on the calendar",
           "set up a demo"
         ],
-        "order": 30,
+        "order": 31,
         "entry_count": 26,
         "product_count": 23,
         "mcp_status": {
@@ -3138,7 +3222,7 @@
           "what bookings do i have this week",
           "find a slot that works"
         ],
-        "order": 31,
+        "order": 32,
         "entry_count": 12,
         "product_count": 11,
         "mcp_status": {
@@ -3197,7 +3281,7 @@
           "handle an inbound call",
           "live conversational agent for visitors"
         ],
-        "order": 32,
+        "order": 33,
         "entry_count": 21,
         "product_count": 16,
         "mcp_status": {
@@ -3271,7 +3355,7 @@
           "query salesforce",
           "what is in hubspot for this account"
         ],
-        "order": 33,
+        "order": 34,
         "entry_count": 13,
         "product_count": 10,
         "mcp_status": {
@@ -3333,7 +3417,7 @@
           "create a contact",
           "push this back to hubspot"
         ],
-        "order": 34,
+        "order": 35,
         "entry_count": 28,
         "product_count": 25,
         "mcp_status": {
@@ -3410,7 +3494,7 @@
           "ask a question of snowflake",
           "read the modeled revenue data"
         ],
-        "order": 35,
+        "order": 36,
         "entry_count": 2,
         "product_count": 2,
         "mcp_status": {
@@ -3456,7 +3540,7 @@
           "reverse etl",
           "keep two systems in sync"
         ],
-        "order": 36,
+        "order": 37,
         "entry_count": 9,
         "product_count": 9,
         "mcp_status": {
@@ -3510,7 +3594,7 @@
           "orchestrate these tools",
           "automate this process"
         ],
-        "order": 37,
+        "order": 38,
         "entry_count": 18,
         "product_count": 15,
         "mcp_status": {
@@ -3577,7 +3661,7 @@
           "route an inbound lead",
           "round robin these form fills"
         ],
-        "order": 38,
+        "order": 39,
         "entry_count": 9,
         "product_count": 7,
         "mcp_status": {
@@ -3631,7 +3715,7 @@
           "create a pricing document",
           "cpq"
         ],
-        "order": 39,
+        "order": 40,
         "entry_count": 5,
         "product_count": 5,
         "mcp_status": {
@@ -3679,7 +3763,7 @@
           "get the msa signed",
           "check whether they signed yet"
         ],
-        "order": 40,
+        "order": 41,
         "entry_count": 6,
         "product_count": 6,
         "mcp_status": {
@@ -3729,7 +3813,7 @@
           "find the termination clause",
           "search our agreements"
         ],
-        "order": 41,
+        "order": 42,
         "entry_count": 3,
         "product_count": 3,
         "mcp_status": {
@@ -3776,7 +3860,7 @@
           "share a deal room with the buyer",
           "mutual action plan page"
         ],
-        "order": 42,
+        "order": 43,
         "entry_count": 5,
         "product_count": 4,
         "mcp_status": {
@@ -3827,7 +3911,7 @@
           "what is our approved messaging",
           "get the case study for this industry"
         ],
-        "order": 43,
+        "order": 44,
         "entry_count": 9,
         "product_count": 9,
         "mcp_status": {
@@ -3882,7 +3966,7 @@
           "fill in this ddq",
           "respond to an rfi"
         ],
-        "order": 44,
+        "order": 45,
         "entry_count": 3,
         "product_count": 3,
         "mcp_status": {
@@ -3930,7 +4014,7 @@
           "pipeline roll up",
           "are we going to hit the number"
         ],
-        "order": 45,
+        "order": 46,
         "entry_count": 22,
         "product_count": 19,
         "mcp_status": {
@@ -4000,7 +4084,7 @@
           "territory design",
           "what happens if we hire five more reps"
         ],
-        "order": 46,
+        "order": 47,
         "entry_count": 7,
         "product_count": 7,
         "mcp_status": {
@@ -4053,7 +4137,7 @@
           "qualify this lead",
           "icp fit score"
         ],
-        "order": 47,
+        "order": 48,
         "entry_count": 24,
         "product_count": 21,
         "mcp_status": {
@@ -4129,7 +4213,7 @@
           "coaching scorecard",
           "grade this call against our methodology"
         ],
-        "order": 48,
+        "order": 49,
         "entry_count": 25,
         "product_count": 24,
         "mcp_status": {
@@ -4201,7 +4285,7 @@
           "simulate a discovery call",
           "certify reps on the pitch"
         ],
-        "order": 49,
+        "order": 50,
         "entry_count": 11,
         "product_count": 10,
         "mcp_status": {
@@ -4258,7 +4342,7 @@
           "fix my domain reputation",
           "email warmup"
         ],
-        "order": 50,
+        "order": 51,
         "entry_count": 13,
         "product_count": 12,
         "mcp_status": {
@@ -4318,7 +4402,7 @@
           "buy sending infrastructure",
           "dedicated ip for outbound"
         ],
-        "order": 51,
+        "order": 52,
         "entry_count": 9,
         "product_count": 9,
         "mcp_status": {
@@ -4371,7 +4455,7 @@
           "test deliverability before i send",
           "seed list placement test"
         ],
-        "order": 52,
+        "order": 53,
         "entry_count": 4,
         "product_count": 4,
         "mcp_status": {
@@ -4419,7 +4503,7 @@
           "browse the mcp registry",
           "is there an mcp for this tool"
         ],
-        "order": 53,
+        "order": 54,
         "entry_count": 5,
         "product_count": 5,
         "mcp_status": {
@@ -4469,7 +4553,7 @@
           "unified api for crms",
           "let my agent call any app"
         ],
-        "order": 54,
+        "order": 55,
         "entry_count": 9,
         "product_count": 9,
         "mcp_status": {
@@ -4917,9 +5001,9 @@
       "api_gate": "paid",
       "revops_role": "Combined data + outbound engagement layer, often the SDR's primary daily tool for prospecting and sequencing, syncing results into the CRM",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://github.com/apolloio/apollo-mcp-plugin, https://docs.apollo.io/docs, https://www.landbase.com/blog/apollo-pricing, https://hackingdemand.com/blog/apollo-io-pricing-2026, https://www.warmly.ai/p/blog/apollo-pricing",
-      "notes": "Free tier exists with a real (if limited) database and ~900 credits/year, rising to ~10,000 credits/month for accounts with a verified corporate email domain. Basic public API access is available to all paid customers; fuller API capability is gated to the Organization plan (~$119/user/month annual). Several unofficial community MCP servers also exist on GitHub (lkm1developer, edwardchoh, Inferensys, adamanz, others) alongside Apollo's own official plugin.",
+      "last_checked": "2026-09-03",
+      "sources": "https://github.com/apolloio/apollo-mcp-plugin, https://docs.apollo.io/docs, https://www.landbase.com/blog/apollo-pricing, https://hackingdemand.com/blog/apollo-io-pricing-2026, https://www.warmly.ai/p/blog/apollo-pricing, https://docs.apollo.io/reference/people-enrichment",
+      "notes": "Free tier exists with a real (if limited) database and ~900 credits/year, rising to ~10,000 credits/month for accounts with a verified corporate email domain. Basic public API access is available to all paid customers; fuller API capability is gated to the Organization plan (~$119/user/month annual). Several unofficial community MCP servers also exist on GitHub (lkm1developer, edwardchoh, Inferensys, adamanz, others) alongside Apollo's own official plugin. 2026-09-03: vendor docs state the People Enrichment endpoint (POST /people/match) accepts first_name and last_name (or name) with organization_name or domain and returns linkedin_url, \"The URL for the person's LinkedIn profile\" (https://docs.apollo.io/reference/people-enrichment); MCP tool apollo_people_match is described as \"Match and enrich a single person from available identifiers\" (https://github.com/apolloio/apollo-mcp-plugin); the docs state credits are charged only if credit-consuming data is found, 1 credit for demographics or email plus 8 credits if a mobile phone is returned.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -4930,7 +5014,8 @@
         "https://docs.apollo.io/docs",
         "https://www.landbase.com/blog/apollo-pricing",
         "https://hackingdemand.com/blog/apollo-io-pricing-2026",
-        "https://www.warmly.ai/p/blog/apollo-pricing"
+        "https://www.warmly.ai/p/blog/apollo-pricing",
+        "https://docs.apollo.io/reference/people-enrichment"
       ],
       "source_annotations": [],
       "vendor_domain": "apollo.io",
@@ -4940,6 +5025,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "research-account-for-call-prep",
         "run-email-sequence",
@@ -4962,7 +5048,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/apolloio/apollo-mcp-plugin",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -4994,9 +5080,9 @@
       "api_gate": "free",
       "revops_role": "A meta-layer/orchestrator that sits above single-provider tools (Prospeo, Findymail, Dropcontact) in a RevOps stack, chaining them together to raise overall match rate rather than replacing them; commonly plugged into Clay, Make, or Zapier workflows.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-09-02",
-      "sources": "https://composio.dev/toolkits/bettercontact, https://bettercontact.rocks/pricing/, https://bettercontact.rocks/, https://doc.bettercontact.rocks/quickstart, https://www.globenewswire.com/news-release/2025/11/26/3195350/0/en/AI-Powered-Waterfall-Enrichment-Platform-BetterContact-Announces-Partnership-with-Clay-for-Berlin-GTM-Community-Event.html",
-      "notes": "No genuine MCP server found despite checking bettercontact.rocks, kb.bettercontact.rocks, and doc.bettercontact.rocks directly - none mention MCP. A GitHub repo (\"upivi982/bettercontact\") surfaced in search but is an unaffiliated affiliate-marketing README (tracked referral links, no actual code) - not a real MCP server, not counted. BetterContact also appears only via Composio's generic multi-app connector, not counted per the same standard applied to Datagma. BetterContact announced a Clay partnership/co-hosted event (Nov 2025) and is positioned as Clay-compatible. Pricing is self-serve from a 50-credit free trial (no card) and a $15/mo Starter tier (200 credits) with API included; \"use your own API keys\" is a $199 add-on specifically on the Starter tier (included free at Enterprise, $799/mo+). 2026-09-02: re-checked bettercontact.rocks/llms.txt (present, no MCP mention) and web search; only the Composio aggregator listing surfaces, no MCP server found.",
+      "last_checked": "2026-09-03",
+      "sources": "https://composio.dev/toolkits/bettercontact, https://bettercontact.rocks/pricing/, https://bettercontact.rocks/, https://doc.bettercontact.rocks/quickstart, https://www.globenewswire.com/news-release/2025/11/26/3195350/0/en/AI-Powered-Waterfall-Enrichment-Platform-BetterContact-Announces-Partnership-with-Clay-for-Berlin-GTM-Community-Event.html, https://doc.bettercontact.rocks/api-reference/endpoint/create, https://doc.bettercontact.rocks/api-reference/endpoint/get",
+      "notes": "No genuine MCP server found despite checking bettercontact.rocks, kb.bettercontact.rocks, and doc.bettercontact.rocks directly - none mention MCP. A GitHub repo (\"upivi982/bettercontact\") surfaced in search but is an unaffiliated affiliate-marketing README (tracked referral links, no actual code) - not a real MCP server, not counted. BetterContact also appears only via Composio's generic multi-app connector, not counted per the same standard applied to Datagma. BetterContact announced a Clay partnership/co-hosted event (Nov 2025) and is positioned as Clay-compatible. Pricing is self-serve from a 50-credit free trial (no card) and a $15/mo Starter tier (200 credits) with API included; \"use your own API keys\" is a $199 add-on specifically on the Starter tier (included free at Enterprise, $799/mo+). 2026-09-02: re-checked bettercontact.rocks/llms.txt (present, no MCP mention) and web search; only the Composio aggregator listing surfaces, no MCP server found. 2026-09-03: vendor docs state the enrichment endpoint (POST /async) takes first_name, last_name and company or company_domain per lead (https://doc.bettercontact.rocks/api-reference/endpoint/create) and the results response carries contact_linkedin_profile_url with a linkedin.com/in/ example (https://doc.bettercontact.rocks/api-reference/endpoint/get); the docs also say enrich_profile requires linkedin_url; no unit price is stated there.",
       "mcp_status_bucket": "none-found",
       "api_gate_bucket": "free",
       "mcp_urls": [],
@@ -5005,13 +5091,16 @@
         "https://bettercontact.rocks/pricing/",
         "https://bettercontact.rocks/",
         "https://doc.bettercontact.rocks/quickstart",
-        "https://www.globenewswire.com/news-release/2025/11/26/3195350/0/en/AI-Powered-Waterfall-Enrichment-Platform-BetterContact-Announces-Partnership-with-Clay-for-Berlin-GTM-Community-Event.html"
+        "https://www.globenewswire.com/news-release/2025/11/26/3195350/0/en/AI-Powered-Waterfall-Enrichment-Platform-BetterContact-Announces-Partnership-with-Clay-for-Berlin-GTM-Community-Event.html",
+        "https://doc.bettercontact.rocks/api-reference/endpoint/create",
+        "https://doc.bettercontact.rocks/api-reference/endpoint/get"
       ],
       "source_annotations": [],
       "vendor_domain": "bettercontact.rocks",
       "display_name": "BetterContact",
       "docs_url": null,
       "jobs": [
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number"
       ],
@@ -5096,7 +5185,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/brightdata/brightdata-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -5128,9 +5217,9 @@
       "api_gate": "paid",
       "revops_role": "Sits between raw data vendors and the CRM/outbound stack as the enrichment-orchestration layer a RevOps team builds once and reps or automations call into",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.clay.com/mcp, https://university.clay.com/docs/mcp-settings, https://github.com/shanefirek/clay-mcp-public, https://www.landbase.com/blog/clay-pricing, https://www.warmly.ai/p/blog/clay-pricing, https://michaelsaruggia.com/blog/clay-pricing-change-2026",
-      "notes": "Self-serve plans exist (Free, Launch ~$185/mo, Growth ~$495/mo as of the March 2026 repricing) with a dual Data Credits / Actions system, so a solo operator can get in without sales - but real usage costs scale fast via credit top-ups (50% premium) and this pricing structure changed substantially in March 2026. A separate 73-tool community MCP (github.com/shanefirek/clay-mcp-public) also exists. Caution: \"Clay\" the personal-CRM app (clay.earth, github.com/mesh/clay-mcp) is an unrelated product with its own MCP - do not confuse it with Clay.com in this directory.",
+      "last_checked": "2026-09-03",
+      "sources": "https://www.clay.com/mcp, https://university.clay.com/docs/mcp-settings, https://github.com/shanefirek/clay-mcp-public, https://www.landbase.com/blog/clay-pricing, https://www.warmly.ai/p/blog/clay-pricing, https://michaelsaruggia.com/blog/clay-pricing-change-2026, https://www.clay.com/integrations/action/find-a-persons-linkedin-via-name-and-company-smarte",
+      "notes": "Self-serve plans exist (Free, Launch ~$185/mo, Growth ~$495/mo as of the March 2026 repricing) with a dual Data Credits / Actions system, so a solo operator can get in without sales - but real usage costs scale fast via credit top-ups (50% premium) and this pricing structure changed substantially in March 2026. A separate 73-tool community MCP (github.com/shanefirek/clay-mcp-public) also exists. Caution: \"Clay\" the personal-CRM app (clay.earth, github.com/mesh/clay-mcp) is an unrelated product with its own MCP - do not confuse it with Clay.com in this directory. 2026-09-03: Clay's integration catalog lists the action \"Find a Person's LinkedIn via Name and Company with SMARTe\", described as \"This action enables users to find a person's LinkedIn profile using their name and company\", returning Contact Social URL and billed by Clay Credits or Bring Your Own Account with no unit cost stated (https://www.clay.com/integrations/action/find-a-persons-linkedin-via-name-and-company-smarte); the Clay MCP docs list People Search, Company Search and Functions and name no LinkedIn-finder tool (https://university.clay.com/docs/mcp-settings).",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -5143,7 +5232,8 @@
         "https://github.com/shanefirek/clay-mcp-public",
         "https://www.landbase.com/blog/clay-pricing",
         "https://www.warmly.ai/p/blog/clay-pricing",
-        "https://michaelsaruggia.com/blog/clay-pricing-change-2026"
+        "https://michaelsaruggia.com/blog/clay-pricing-change-2026",
+        "https://www.clay.com/integrations/action/find-a-persons-linkedin-via-name-and-company-smarte"
       ],
       "source_annotations": [],
       "vendor_domain": "clay.com",
@@ -5152,6 +5242,7 @@
       "jobs": [
         "enrich-company-from-domain",
         "build-target-account-list",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "scrape-web-page-for-facts",
         "write-crm-records",
@@ -5341,9 +5432,9 @@
       "api_gate": "paid",
       "revops_role": "Bulk data-layer feed for enrichment pipelines/warehouses - used to seed or backfill CRM/Clay-style tables rather than for one-off lookups.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://coresignal.com/mcp-server/, https://docs.coresignal.com/pricing, https://coresignal.com/pricing/",
-      "notes": "Self-serve API subscriptions start at $49/month (credit-based), with a 7-day free trial (2,000 credits); full bulk datasets start at $1,000; larger volumes require custom enterprise pricing. Credit costs vary by tier (Base/Clean = 1 credit/record, Multi-Source = 2 credits/record).",
+      "last_checked": "2026-09-03",
+      "sources": "https://coresignal.com/mcp-server/, https://docs.coresignal.com/pricing, https://coresignal.com/pricing/, https://docs.coresignal.com/employee-api/base-employee-api/endpoints/search-filters.md",
+      "notes": "Self-serve API subscriptions start at $49/month (credit-based), with a 7-day free trial (2,000 credits); full bulk datasets start at $1,000; larger volumes require custom enterprise pricing. Credit costs vary by tier (Base/Clean = 1 credit/record, Multi-Source = 2 credits/record). 2026-09-03: vendor docs state the Base Employee API search filter endpoint (/cdapi/v2/employee_base/search/filter) filters by full_name and experience_company_name, and its example records carry a professional-network profile url field; the vendor's docs say professional network, not LinkedIn (https://docs.coresignal.com/employee-api/base-employee-api/endpoints/search-filters.md); no MCP tool name and no unit price are stated there.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -5352,7 +5443,8 @@
       "source_urls": [
         "https://coresignal.com/mcp-server/",
         "https://docs.coresignal.com/pricing",
-        "https://coresignal.com/pricing/"
+        "https://coresignal.com/pricing/",
+        "https://docs.coresignal.com/employee-api/base-employee-api/endpoints/search-filters.md"
       ],
       "source_annotations": [],
       "vendor_domain": "coresignal.com",
@@ -5362,6 +5454,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "scrape-job-postings"
       ],
       "jobs_tagged_by": "machine-pass",
@@ -5409,9 +5502,9 @@
       "api_gate": "free (free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top)",
       "revops_role": "Real-time firmographic/trigger-signal layer for outbound (funding events, headcount changes, tech-stack shifts), used alongside or as an alternative to Clay/PDL.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code",
-      "notes": "MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top.",
+      "last_checked": "2026-09-03",
+      "sources": "https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code, https://docs.crustdata.com/person-docs/search/introduction",
+      "notes": "MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at \"0.03 credits per result returned\" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -5420,7 +5513,8 @@
       "source_urls": [
         "https://crustdata.com/",
         "https://docs.crustdata.com/general/pricing",
-        "https://crustdata.com/blog/b2b-prospecting-workflow-claude-code"
+        "https://crustdata.com/blog/b2b-prospecting-workflow-claude-code",
+        "https://docs.crustdata.com/person-docs/search/introduction"
       ],
       "source_annotations": [],
       "vendor_domain": "crustdata.com",
@@ -5430,6 +5524,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "detect-technographics",
         "detect-funding-or-news-event"
       ],
@@ -5487,9 +5582,9 @@
       "api_gate": "paid",
       "revops_role": "Cheap self-serve per-credit enrichment and lookup API for filling gaps in CRM records and building lists without a sales cycle.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-25",
-      "sources": "https://cufinder.io/pricing, https://apidoc.cufinder.io/apis, https://apidoc.cufinder.io/mcp/introduction, https://mcpservers.org/servers/mcpdoc-cufinder-io-introduction",
-      "notes": "Added 2026-08-25 in the coverage sweep. Fully self-serve with no sales call for standard tiers. Free plan 15 credits with no card. Lite $49/mo (1,000 credits), Standard $129/mo (3,000), Pro $299/mo (10,000, marked most popular), Premium $449/mo (20,000), roughly 30% off annual, plus a custom enterprise tier that does require sales. All tiers include unlimited teammates at no per-seat cost, which is a real differentiator against Lead411's per-seat model in the same file. Credits are consumed only on successful returns. Roughly 40 endpoints: 22 company APIs, 6 contact APIs, 5 general normalisers, 1 jobs API. CAVEAT: the MCP docs say the remote server is \"available on paid plans starting from Growth\" but no tier called Growth exists on the current pricing page (Lite/Standard/Pro/Premium). That is stale doc naming; the safe read is that MCP needs a paid plan and probably starts at Lite $49/mo. A third-party source claims a 50-credit free tier while the vendor page says 15; trust 15. LEGACY NAME TRACE: Software Advice still profiles it under the old \"Company URL Finder\" listing, which is where the name came from, and the old docs host mcpdoc.cufinder.io now 301-redirects to apidoc.cufinder.io. Database size claims of 1B+ profiles and 85M companies are vendor copy, unverified. NOT VERIFIED: the REST API auth header format could not be confirmed from the docs.",
+      "last_checked": "2026-09-03",
+      "sources": "https://cufinder.io/pricing, https://apidoc.cufinder.io/apis, https://apidoc.cufinder.io/mcp/introduction, https://mcpservers.org/servers/mcpdoc-cufinder-io-introduction, https://apidoc.cufinder.io/apis/person-enrichment.md",
+      "notes": "Added 2026-08-25 in the coverage sweep. Fully self-serve with no sales call for standard tiers. Free plan 15 credits with no card. Lite $49/mo (1,000 credits), Standard $129/mo (3,000), Pro $299/mo (10,000, marked most popular), Premium $449/mo (20,000), roughly 30% off annual, plus a custom enterprise tier that does require sales. All tiers include unlimited teammates at no per-seat cost, which is a real differentiator against Lead411's per-seat model in the same file. Credits are consumed only on successful returns. Roughly 40 endpoints: 22 company APIs, 6 contact APIs, 5 general normalisers, 1 jobs API. CAVEAT: the MCP docs say the remote server is \"available on paid plans starting from Growth\" but no tier called Growth exists on the current pricing page (Lite/Standard/Pro/Premium). That is stale doc naming; the safe read is that MCP needs a paid plan and probably starts at Lite $49/mo. A third-party source claims a 50-credit free tier while the vendor page says 15; trust 15. LEGACY NAME TRACE: Software Advice still profiles it under the old \"Company URL Finder\" listing, which is where the name came from, and the old docs host mcpdoc.cufinder.io now 301-redirects to apidoc.cufinder.io. Database size claims of 1B+ profiles and 85M companies are vendor copy, unverified. NOT VERIFIED: the REST API auth header format could not be confirmed from the docs. 2026-09-03: vendor docs state the Person Enrichment API takes full_name and company (\"The person's company, domain, name, or LinkedIn URL\") and returns social.linkedin_url, at \"Credit usage is 10 credits per request\" (https://apidoc.cufinder.io/apis/person-enrichment.md); the MCP introduction names no tools and states a free tier of 50 credits/month (https://apidoc.cufinder.io/mcp/introduction).",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -5500,7 +5595,8 @@
         "https://cufinder.io/pricing",
         "https://apidoc.cufinder.io/apis",
         "https://apidoc.cufinder.io/mcp/introduction",
-        "https://mcpservers.org/servers/mcpdoc-cufinder-io-introduction"
+        "https://mcpservers.org/servers/mcpdoc-cufinder-io-introduction",
+        "https://apidoc.cufinder.io/apis/person-enrichment.md"
       ],
       "source_annotations": [],
       "vendor_domain": "cufinder.io",
@@ -5509,6 +5605,7 @@
       "jobs": [
         "enrich-person-from-linkedin-url",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "verify-email-deliverable"
       ],
@@ -5577,6 +5674,7 @@
         "search-people-by-criteria",
         "enrich-person-from-linkedin-url",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number"
       ],
@@ -5663,7 +5761,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/diffbot/diffbot-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -5695,9 +5793,9 @@
       "api_gate": "paid",
       "revops_role": "GDPR-conscious contact enrichment/verification layer for CRM hygiene and list-building; also a widely-used Clay waterfall step (Clay-managed account billed at 2 credits/enriched cell, with a 24h auto-update toggle).",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.dropcontact.com/mcp-dropcontact, https://developer.dropcontact.com, https://www.dropcontact.com/pricing, https://www.clay.com/integrations/data-provider/dropcontact, https://university.clay.com/docs/dropcontact-integration-overview, https://www.dropcontact.com/help/clay-integration, https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key",
-      "notes": "Dropcontact is a clear \"official, vendor-built\" MCP - it has its own product page and a centrally hosted MCP endpoint at mcp.dropcontact.com, distinct from (and in addition to) its long-standing Clay data-provider integration. API & MCP access is bundled starting at the Starter tier (EUR 79/mo, ~500 credits/mo) and up; there is no persistent free API tier, only a \"50 free emails\" signup incentive. Pricing model is pay-on-success (1 credit = 1 email found or verified; credit refunded if nothing found). Lower tiers reportedly throttle API requests to ~100/min, which can bottleneck heavy Clay/n8n automation.",
+      "last_checked": "2026-09-03",
+      "sources": "https://www.dropcontact.com/mcp-dropcontact, https://developer.dropcontact.com, https://www.dropcontact.com/pricing, https://www.clay.com/integrations/data-provider/dropcontact, https://university.clay.com/docs/dropcontact-integration-overview, https://www.dropcontact.com/help/clay-integration, https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key, https://developer.dropcontact.com/",
+      "notes": "Dropcontact is a clear \"official, vendor-built\" MCP - it has its own product page and a centrally hosted MCP endpoint at mcp.dropcontact.com, distinct from (and in addition to) its long-standing Clay data-provider integration. API & MCP access is bundled starting at the Starter tier (EUR 79/mo, ~500 credits/mo) and up; there is no persistent free API tier, only a \"50 free emails\" signup incentive. Pricing model is pay-on-success (1 credit = 1 email found or verified; credit refunded if nothing found). Lower tiers reportedly throttle API requests to ~100/min, which can bottleneck heavy Clay/n8n automation. 2026-09-03: vendor docs state the enrich endpoint (POST /v1/enrich/all) accepts \"first_name + last_name + company (or full_name + company)\" and its response includes a linkedin field with a linkedin.com/in/ example (https://developer.dropcontact.com/); no MCP tool name is stated there; the docs state a credit is charged only if a verified email is returned.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -5710,7 +5808,8 @@
         "https://www.clay.com/integrations/data-provider/dropcontact",
         "https://university.clay.com/docs/dropcontact-integration-overview",
         "https://www.dropcontact.com/help/clay-integration",
-        "https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key"
+        "https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key",
+        "https://developer.dropcontact.com/"
       ],
       "source_annotations": [],
       "vendor_domain": "dropcontact.com",
@@ -5719,6 +5818,7 @@
       "jobs": [
         "enrich-person-from-linkedin-url",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "verify-email-deliverable"
       ],
@@ -5809,7 +5909,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/EnrowAPI/enrow-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -5880,7 +5980,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/exa-labs/exa-mcp-server",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -5912,9 +6012,9 @@
       "api_gate": "paid (the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key)",
       "revops_role": "Multi-source aggregation layer for agent-driven enrichment - an alternative to hand-building a waterfall across several point providers.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.explorium.ai/mcp/, https://glama.ai/mcp/servers/explorium-ai/mcp-explorium, https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/, https://developers.explorium.ai/reference/setup/getting_your_api_key",
-      "notes": "Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not independently verified. Vendor content implies self-serve sign-up/trial for the MCP and API, but an explicit self-serve-vs-sales-gated pricing page could not be confirmed, so api_gate is left unknown rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://developers.explorium.ai/reference/setup/getting_your_api_key): the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key.",
+      "last_checked": "2026-09-03",
+      "sources": "https://www.explorium.ai/mcp/, https://glama.ai/mcp/servers/explorium-ai/mcp-explorium, https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/, https://developers.explorium.ai/reference/setup/getting_your_api_key, https://developers.explorium.ai/reference/prospects/match_prospects.md, https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md, https://developers.explorium.ai/reference/agentsource-mcp",
+      "notes": "Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not independently verified. Vendor content implies self-serve sign-up/trial for the MCP and API, but an explicit self-serve-vs-sales-gated pricing page could not be confirmed, so api_gate is left unknown rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://developers.explorium.ai/reference/setup/getting_your_api_key): the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key. 2026-09-03: vendor docs state Match Prospects (POST /v1/prospects/match) accepts full_name and company_name and returns prospect_id (https://developers.explorium.ai/reference/prospects/match_prospects.md), and the professional profile enrichment (POST /v1/prospects/profiles/enrich) returns linkedin, described as the URN of the individual's LinkedIn profile, and linkedin_url_array, described as a list of LinkedIn profile URLs associated with the prospect (https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md); MCP tools match-prospects and enrich-prospects are listed (https://developers.explorium.ai/reference/agentsource-mcp); no unit price is stated there.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -5925,7 +6025,10 @@
         "https://www.explorium.ai/mcp/",
         "https://glama.ai/mcp/servers/explorium-ai/mcp-explorium",
         "https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/",
-        "https://developers.explorium.ai/reference/setup/getting_your_api_key"
+        "https://developers.explorium.ai/reference/setup/getting_your_api_key",
+        "https://developers.explorium.ai/reference/prospects/match_prospects.md",
+        "https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md",
+        "https://developers.explorium.ai/reference/agentsource-mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "explorium.ai",
@@ -5935,6 +6038,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "detect-technographics",
         "detect-funding-or-news-event"
       ],
@@ -6125,9 +6229,9 @@
       "api_gate": "free",
       "revops_role": "Waterfall contact enrichment step in outbound/prospecting workflows, typically sitting between a list-building tool (e.g., Sales Navigator export) and a sequencer/CRM.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://fullenrich.com/pricing, https://help.fullenrich.com/en/articles/14190120-mcp-server, https://help.fullenrich.com/en/articles/14595910-connect-fullenrich-mcp-to-claude, https://mcp.pipedream.com/app/fullenrich, https://coldiq.com/blog/fullenrich-pricing",
-      "notes": "Free trial gives 50 credits, no credit card required, with API/MCP access included even on the free tier. Paid plan (Pro) is $55-69/mo (sources vary slightly) for ~1,000 credits/month; Enterprise is custom. Credits are charged only on verified finds (1 credit work email, 3 personal email, 10 mobile phone). The MCP server is confirmed official, built and hosted by FullEnrich itself, using OAuth rather than a static API key.",
+      "last_checked": "2026-09-03",
+      "sources": "https://fullenrich.com/pricing, https://help.fullenrich.com/en/articles/14190120-mcp-server, https://help.fullenrich.com/en/articles/14595910-connect-fullenrich-mcp-to-claude, https://mcp.pipedream.com/app/fullenrich, https://coldiq.com/blog/fullenrich-pricing, https://docs.fullenrich.com/api/v2/people/lookup/post.md",
+      "notes": "Free trial gives 50 credits, no credit card required, with API/MCP access included even on the free tier. Paid plan (Pro) is $55-69/mo (sources vary slightly) for ~1,000 credits/month; Enterprise is custom. Credits are charged only on verified finds (1 credit work email, 3 personal email, 10 mobile phone). The MCP server is confirmed official, built and hosted by FullEnrich itself, using OAuth rather than a static API key. 2026-09-03: vendor docs state the Look Up People endpoint (POST /people/lookup) looks up \"a single person using their identifiers (professional network URL/ID, or full name combined with a company identifier)\", taking person_name with company_domain or a company professional-network URL/ID, and returns social_profiles.professional_network.url with a linkedin.com/in/ example (https://docs.fullenrich.com/api/v2/people/lookup/post.md); the MCP setup page names no tools; the endpoint page says Search API pricing applies and states no unit price.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -6139,13 +6243,15 @@
         "https://help.fullenrich.com/en/articles/14190120-mcp-server",
         "https://help.fullenrich.com/en/articles/14595910-connect-fullenrich-mcp-to-claude",
         "https://mcp.pipedream.com/app/fullenrich",
-        "https://coldiq.com/blog/fullenrich-pricing"
+        "https://coldiq.com/blog/fullenrich-pricing",
+        "https://docs.fullenrich.com/api/v2/people/lookup/post.md"
       ],
       "source_annotations": [],
       "vendor_domain": "fullenrich.com",
       "display_name": "FullEnrich",
       "docs_url": null,
       "jobs": [
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number"
       ],
@@ -6194,9 +6300,9 @@
       "api_gate": "free",
       "revops_role": "Email-finding/verification utility typically plugged in downstream of a contact-discovery tool (or run directly against a domain list) to fill in or validate email addresses before outreach; also used for domain-wide email-pattern discovery.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://github.com/hunter-io/hunter-mcp, https://hunter.io/pricing, https://hunter.io/api, https://fullenrich.com/content/hunter-io-pricing, https://www.g2.com/products/hunter/pricing",
-      "notes": "The Free tier ($0/mo, 25 searches + 50 verifications/month) includes API access per Hunter's own feature-comparison table, making it one of the few tools here with genuinely self-serve, no-cost API access (rate/volume-limited). Paid tiers: Starter (~$34-49/mo), Growth (~$104-149/mo), Scale (~$209-299/mo depending on annual/monthly billing), Enterprise custom. A separate higher-volume \"Data Platform\" API product uses credit packages starting around $6,500.",
+      "last_checked": "2026-09-03",
+      "sources": "https://github.com/hunter-io/hunter-mcp, https://hunter.io/pricing, https://hunter.io/api, https://fullenrich.com/content/hunter-io-pricing, https://www.g2.com/products/hunter/pricing, https://hunter.io/api-documentation/v2",
+      "notes": "The Free tier ($0/mo, 25 searches + 50 verifications/month) includes API access per Hunter's own feature-comparison table, making it one of the few tools here with genuinely self-serve, no-cost API access (rate/volume-limited). Paid tiers: Starter (~$34-49/mo), Growth (~$104-149/mo), Scale (~$209-299/mo depending on annual/monthly billing), Enterprise custom. A separate higher-volume \"Data Platform\" API product uses credit packages starting around $6,500. 2026-09-03: vendor docs state the Email Finder endpoint \"finds the most likely email address from a domain name, a first name and a last name\" and its response includes linkedin_url (https://hunter.io/api-documentation/v2); no MCP tool name is stated on that page; the docs state no credit is charged if no email is found, and the pricing page states the Free plan includes 50 credits per month (https://hunter.io/pricing).",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -6207,13 +6313,15 @@
         "https://hunter.io/pricing",
         "https://hunter.io/api",
         "https://fullenrich.com/content/hunter-io-pricing",
-        "https://www.g2.com/products/hunter/pricing"
+        "https://www.g2.com/products/hunter/pricing",
+        "https://hunter.io/api-documentation/v2"
       ],
       "source_annotations": [],
       "vendor_domain": "hunter.io",
       "display_name": "Hunter.io",
       "docs_url": null,
       "jobs": [
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "verify-email-deliverable"
       ],
@@ -6383,7 +6491,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/LeadMagic/leadmagic-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -6415,9 +6523,9 @@
       "api_gate": "free",
       "revops_role": "Contact-level enrichment/lookup source, commonly used as one provider inside a Clay-style waterfall, or directly via the browser extension for individual/manual prospecting",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://github.com/lusha-oss/lusha-public-api-mcp, https://docs.lusha.com/mcp-docs, https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api, https://www.vendr.com/marketplace/lusha, https://www.saleshandy.com/blog/lusha-pricing/",
-      "notes": "Per Lusha's own docs, every user gets an API key by default on every plan including Free, with rate limits scaling by tier (Free/Starter: 40 req/min, 100/day; Premium: 300/min, 18,000/day). This contradicts some third-party pricing blogs claiming Free/Starter have no API access - the official docs were treated as authoritative. Self-serve seat purchasing tops out at 5 seats; beyond that, a Scale plan requires a sales quote.",
+      "last_checked": "2026-09-03",
+      "sources": "https://github.com/lusha-oss/lusha-public-api-mcp, https://docs.lusha.com/mcp-docs, https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api, https://www.vendr.com/marketplace/lusha, https://www.saleshandy.com/blog/lusha-pricing/, https://docs.lusha.com/apis/openapi/person-api",
+      "notes": "Per Lusha's own docs, every user gets an API key by default on every plan including Free, with rate limits scaling by tier (Free/Starter: 40 req/min, 100/day; Premium: 300/min, 18,000/day). This contradicts some third-party pricing blogs claiming Free/Starter have no API access - the official docs were treated as authoritative. Self-serve seat purchasing tops out at 5 seats; beyond that, a Scale plan requires a sales quote. 2026-09-03: vendor docs state the Search Contacts endpoint (POST /v3/contacts/search) looks up contacts by \"firstName + lastName + companyName or companyDomain\" and returns a non-PII preview that includes linkedinUrl (https://docs.lusha.com/apis/openapi/person-api); MCP tool contacts_search is described as \"Enrich contact data using email, LinkedIn URL, or name + company\" (https://docs.lusha.com/mcp-docs); the docs state it is charged per successful result via the api_search action, with no unit price stated.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -6430,7 +6538,8 @@
         "https://docs.lusha.com/mcp-docs",
         "https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api",
         "https://www.vendr.com/marketplace/lusha",
-        "https://www.saleshandy.com/blog/lusha-pricing/"
+        "https://www.saleshandy.com/blog/lusha-pricing/",
+        "https://docs.lusha.com/apis/openapi/person-api"
       ],
       "source_annotations": [],
       "vendor_domain": "lusha.com",
@@ -6440,6 +6549,7 @@
         "search-people-by-criteria",
         "enrich-person-from-linkedin-url",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number",
         "draft-personalized-outreach",
@@ -6462,7 +6572,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/lusha-oss/lusha-public-api-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -6590,7 +6700,8 @@
         "search-companies-by-firmographics",
         "enrich-person-from-linkedin-url",
         "enrich-company-from-domain",
-        "reverse-lookup-person-from-email"
+        "reverse-lookup-person-from-email",
+        "find-linkedin-url-from-name-and-company"
       ],
       "jobs_tagged_by": "machine-pass",
       "jobs_tagged_on": "2026-08-25",
@@ -6608,7 +6719,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/phxdev1/peopledatalabs-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -6640,9 +6751,9 @@
       "api_gate": "free",
       "revops_role": "Email/phone finder and person+company search layer, most often plugged into Clay waterfalls (Clay-managed account billed at 2 credits/enriched cell) or used directly as a fallback provider alongside other finders.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://github.com/prospeo-v2/prospeo-mcp-server, https://github.com/prospeo-v2, https://github.com/orchidautomation/prospeo-mcp, https://github.com/Meerkats-Ai/prospeo-mcp-server, https://fullenrich.com/content/prospeo-pricing, https://www.xpay.sh/saas-pricing/prospeo-io/, https://www.clay.com/integrations/data-provider/prospeo, https://university.clay.com/docs/prospeo-integration-overview",
-      "notes": "Confirmed as a Clay \"data provider\" (native waterfall integration), a separate integration surface from the MCP. Besides the official prospeo-v2 MCP repo, at least two unofficial community MCP wrappers exist (orchidautomation/prospeo-mcp, Meerkats-Ai/prospeo-mcp-server), both hitting the same public API. Pricing sources conflict slightly: most describe a self-serve free plan (100 credits/mo) plus paid plans from $39-49/mo, but one third-party source claimed the public pricing page pushes visitors to a sales-contact form - flagged as a discrepancy, not resolved.",
+      "last_checked": "2026-09-03",
+      "sources": "https://github.com/prospeo-v2/prospeo-mcp-server, https://github.com/prospeo-v2, https://github.com/orchidautomation/prospeo-mcp, https://github.com/Meerkats-Ai/prospeo-mcp-server, https://fullenrich.com/content/prospeo-pricing, https://www.xpay.sh/saas-pricing/prospeo-io/, https://www.clay.com/integrations/data-provider/prospeo, https://university.clay.com/docs/prospeo-integration-overview, https://prospeo.io/api-docs/enrich-person, https://prospeo.io/api-docs/mcp",
+      "notes": "Confirmed as a Clay \"data provider\" (native waterfall integration), a separate integration surface from the MCP. Besides the official prospeo-v2 MCP repo, at least two unofficial community MCP wrappers exist (orchidautomation/prospeo-mcp, Meerkats-Ai/prospeo-mcp-server), both hitting the same public API. Pricing sources conflict slightly: most describe a self-serve free plan (100 credits/mo) plus paid plans from $39-49/mo, but one third-party source claimed the public pricing page pushes visitors to a sales-contact form - flagged as a discrepancy, not resolved. 2026-09-03: vendor docs state the Enrich Person API (POST /enrich-person) accepts first name + last name + a company identifier (name/website/LinkedIn URL) and returns linkedin_url, described as \"The person's public LinkedIn URL\" (https://prospeo.io/api-docs/enrich-person); MCP tool enrich_person is listed in the MCP docs, described there as returning professional email and/or mobile (https://prospeo.io/api-docs/mcp); the enrich page states 1 credit per email found and no charge if no match is found.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -6656,7 +6767,9 @@
         "https://fullenrich.com/content/prospeo-pricing",
         "https://www.xpay.sh/saas-pricing/prospeo-io/",
         "https://www.clay.com/integrations/data-provider/prospeo",
-        "https://university.clay.com/docs/prospeo-integration-overview"
+        "https://university.clay.com/docs/prospeo-integration-overview",
+        "https://prospeo.io/api-docs/enrich-person",
+        "https://prospeo.io/api-docs/mcp"
       ],
       "source_annotations": [],
       "vendor_domain": "prospeo.io",
@@ -6666,6 +6779,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number",
         "verify-email-deliverable",
@@ -6690,7 +6804,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/prospeo-v2/prospeo-mcp-server",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -6722,9 +6836,9 @@
       "api_gate": "paid",
       "revops_role": "Contact-level waterfall enrichment / email+phone finder, typically one step in a Clay-style or CRM-integrated outbound stack.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://rocketreach.co/resources/products/mcp/, https://docs.rocketreach.co/reference/quick-start, https://github.com/Meerkats-Ai/rocketreach-mcp-server, https://salesintel.io/blog/rocketreach-pricing-plans/",
-      "notes": "MCP billing explicitly shares the REST API's account-level rate limit/credits - no separate MCP fee. Full API access is reported (via third-party pricing writeups, not RocketReach's own live price page) to require the Ultimate plan (~$2,099/yr); lower tiers may have limited/no API access. An unofficial community MCP (Meerkats-Ai/rocketreach-mcp-server) also exists alongside the official connector.",
+      "last_checked": "2026-09-03",
+      "sources": "https://rocketreach.co/resources/products/mcp/, https://docs.rocketreach.co/reference/quick-start, https://github.com/Meerkats-Ai/rocketreach-mcp-server, https://salesintel.io/blog/rocketreach-pricing-plans/, https://docs.rocketreach.co/reference/people-lookup-api.md",
+      "notes": "MCP billing explicitly shares the REST API's account-level rate limit/credits - no separate MCP fee. Full API access is reported (via third-party pricing writeups, not RocketReach's own live price page) to require the Ultimate plan (~$2,099/yr); lower tiers may have limited/no API access. An unofficial community MCP (Meerkats-Ai/rocketreach-mcp-server) also exists alongside the official connector. 2026-09-03: vendor docs state the People Lookup API (GET /person/lookup) takes name (\"Must specify along with current_employer\") plus current_employer and returns linkedin_url and linkedin_url_active (https://docs.rocketreach.co/reference/people-lookup-api.md); the quick-start names an MCP tool person_lookup (https://docs.rocketreach.co/reference/quick-start); the docs state the endpoint consumes export credits, with no unit price stated.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -6735,7 +6849,8 @@
         "https://rocketreach.co/resources/products/mcp/",
         "https://docs.rocketreach.co/reference/quick-start",
         "https://github.com/Meerkats-Ai/rocketreach-mcp-server",
-        "https://salesintel.io/blog/rocketreach-pricing-plans/"
+        "https://salesintel.io/blog/rocketreach-pricing-plans/",
+        "https://docs.rocketreach.co/reference/people-lookup-api.md"
       ],
       "source_annotations": [],
       "vendor_domain": "rocketreach.co",
@@ -6743,6 +6858,7 @@
       "docs_url": null,
       "jobs": [
         "enrich-person-from-linkedin-url",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number"
       ],
@@ -6942,9 +7058,9 @@
       "api_gate": "enterprise-only",
       "revops_role": "LinkedIn-to-CRM capture and waterfall enrichment for SDR teams, with an API and MCP layer for programmatic enrichment and CRM hygiene.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-25",
-      "sources": "https://www.surfe.com/pricing/, https://www.surfe.com/api/, https://developers.surfe.com/mcp, https://www.surfe.com/leadjet-becomes-surfe/, https://intercom.help/surfe/en/articles/11681517-api-credits-quotas",
-      "notes": "Added 2026-08-25 in the coverage sweep. REBRAND: this was Leadjet, renamed to Surfe in October 2022 alongside a EUR 4M seed led by 360 Capital; Product Hunt still hosts it under the legacy /products/leadjet slug. Dating trap for researchers: the vendor's own rebrand post now carries a republished date of 2026-05-26, which is a content refresh, not the rebrand date. Paris-based, actively shipping, public roadmap at roadmap.surfe.com and release notes at releases.surfe.com. UNRESOLVED CONTRADICTION on api_gate: self-serve tiers are Free $0 (20 email finds, 5 mobile), Essential $49/mo or $39/mo annual, Pro $89/mo or $79/mo annual, Enterprise custom, and ONLY the Enterprise row lists \"API (search and waterfall enrichment)\", with the API product page publishing no API pricing and offering \"Talk to partnerships\". But the developer docs describe an apparently self-serve path with per-endpoint daily quotas from 200 results/day up to 50,000 profiles/day. Recorded as enterprise-only because that is what the vendor's own pricing table says; the docs may simply be ahead of the pricing page. Credits are consumed only on successful returns. Eight MCP tools across People, Companies and Account. NAMING TRAP: \"Surfe MCP\" searches are heavily polluted by SurferSEO, the Surfer waveform viewer, and various crypto \"surf\" servers, none of which are this vendor.",
+      "last_checked": "2026-09-03",
+      "sources": "https://www.surfe.com/pricing/, https://www.surfe.com/api/, https://developers.surfe.com/mcp, https://www.surfe.com/leadjet-becomes-surfe/, https://intercom.help/surfe/en/articles/11681517-api-credits-quotas, https://developers.surfe.com/public-015-create-people-bulk-enrichment",
+      "notes": "Added 2026-08-25 in the coverage sweep. REBRAND: this was Leadjet, renamed to Surfe in October 2022 alongside a EUR 4M seed led by 360 Capital; Product Hunt still hosts it under the legacy /products/leadjet slug. Dating trap for researchers: the vendor's own rebrand post now carries a republished date of 2026-05-26, which is a content refresh, not the rebrand date. Paris-based, actively shipping, public roadmap at roadmap.surfe.com and release notes at releases.surfe.com. UNRESOLVED CONTRADICTION on api_gate: self-serve tiers are Free $0 (20 email finds, 5 mobile), Essential $49/mo or $39/mo annual, Pro $89/mo or $79/mo annual, Enterprise custom, and ONLY the Enterprise row lists \"API (search and waterfall enrichment)\", with the API product page publishing no API pricing and offering \"Talk to partnerships\". But the developer docs describe an apparently self-serve path with per-endpoint daily quotas from 200 results/day up to 50,000 profiles/day. Recorded as enterprise-only because that is what the vendor's own pricing table says; the docs may simply be ahead of the pricing page. Credits are consumed only on successful returns. Eight MCP tools across People, Companies and Account. NAMING TRAP: \"Surfe MCP\" searches are heavily polluted by SurferSEO, the Surfer waveform viewer, and various crypto \"surf\" servers, none of which are this vendor. 2026-09-03: vendor docs state the Enrich People endpoint (POST /v2/people/enrich) accepts firstName, lastName and companyName or companyDomain per person and \"Set include.linkedInUrl to return additional profile data\" (https://developers.surfe.com/public-015-create-people-bulk-enrichment); the MCP docs list people search and enrichment tools without naming them (https://developers.surfe.com/mcp); the docs state 1 email credit per email found and 1 mobile credit per mobile found, with no price stated for the LinkedIn URL.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "enterprise-only",
       "mcp_urls": [
@@ -6956,7 +7072,8 @@
         "https://www.surfe.com/api/",
         "https://developers.surfe.com/mcp",
         "https://www.surfe.com/leadjet-becomes-surfe/",
-        "https://intercom.help/surfe/en/articles/11681517-api-credits-quotas"
+        "https://intercom.help/surfe/en/articles/11681517-api-credits-quotas",
+        "https://developers.surfe.com/public-015-create-people-bulk-enrichment"
       ],
       "source_annotations": [],
       "vendor_domain": "surfe.com",
@@ -6964,6 +7081,7 @@
       "docs_url": "https://developers.surfe.com/",
       "jobs": [
         "enrich-person-from-linkedin-url",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number",
         "detect-funding-or-news-event",
@@ -7161,9 +7279,9 @@
       "api_gate": "paid",
       "revops_role": "Prospecting/list-build and enrichment source; lower self-serve tiers cover manual search, CSV export, and a limited real-time Enrichment API, while full API/integration-building access requires the top custom-priced tier.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://www.uplead.com/pricing/, https://zapier.com/mcp/uplead, https://mcp.pipedream.com/app/uplead, https://www.landbase.com/blog/uplead-pricing, https://www.cleanlist.ai/blog/2026-07-15-uplead-pricing-guide",
-      "notes": "No dedicated UpLead-built MCP server was found on github.com, mcp.so, glama.ai, or pulsemcp.com - the only \"MCP\" listings are generic Zapier/Pipedream action-wrapper connectors, so this is marked community/third-party, not an official protocol-native server. Pricing: Essentials ($99/mo billed monthly, ~$74/mo annual) and Plus ($199/mo, ~$149/mo annual) are self-serve and include a limited real-time \"Enrichment API\" (Plus adds a \"Prospector Pro API\" for search). Full/unrestricted API access is reserved for the Professional tier - annual-only, custom-priced, \"Book a Demo\" only, no self-serve checkout - functionally enterprise-gated for complete API use.",
+      "last_checked": "2026-09-03",
+      "sources": "https://www.uplead.com/pricing/, https://zapier.com/mcp/uplead, https://mcp.pipedream.com/app/uplead, https://www.landbase.com/blog/uplead-pricing, https://www.cleanlist.ai/blog/2026-07-15-uplead-pricing-guide, https://docs.uplead.com/",
+      "notes": "No dedicated UpLead-built MCP server was found on github.com, mcp.so, glama.ai, or pulsemcp.com - the only \"MCP\" listings are generic Zapier/Pipedream action-wrapper connectors, so this is marked community/third-party, not an official protocol-native server. Pricing: Essentials ($99/mo billed monthly, ~$74/mo annual) and Plus ($199/mo, ~$149/mo annual) are self-serve and include a limited real-time \"Enrichment API\" (Plus adds a \"Prospector Pro API\" for search). Full/unrestricted API access is reserved for the Professional tier - annual-only, custom-priced, \"Book a Demo\" only, no self-serve checkout - functionally enterprise-gated for complete API use. 2026-09-03: vendor docs state the Person API (https://api.uplead.com/v2/person-search) takes first_name, last_name and domain and returns linkedin_url (https://docs.uplead.com/); the only MCP surfaces are the Zapier and Pipedream community wrappers, which name no such tool; the docs state \"One credit will be deducted for each contact or company record that you receive\", charged only when the email status is Valid or Accept All.",
       "mcp_status_bucket": "community",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -7175,7 +7293,8 @@
         "https://zapier.com/mcp/uplead",
         "https://mcp.pipedream.com/app/uplead",
         "https://www.landbase.com/blog/uplead-pricing",
-        "https://www.cleanlist.ai/blog/2026-07-15-uplead-pricing-guide"
+        "https://www.cleanlist.ai/blog/2026-07-15-uplead-pricing-guide",
+        "https://docs.uplead.com/"
       ],
       "source_annotations": [],
       "vendor_domain": "uplead.com",
@@ -7185,6 +7304,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number",
         "verify-email-deliverable",
@@ -7453,9 +7573,9 @@
       "api_gate": "paid",
       "revops_role": "Top-of-funnel contact acquisition sitting between Sales Navigator and the CRM or sequencer, with an optional LLM research column for ICP qualification.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-25",
-      "sources": "https://wiza.co/pricing, https://docs.wiza.co/, https://mcp.wiza.co/usage.html, https://feedback.wiza.co/changelog/wiza-mcp, https://wiza.co/ai-research",
-      "notes": "Added 2026-08-25, closing a named warm lead from this file's previous sweep notes. Self-serve tiers are Free $0 (20 valid emails, 5 phones), Starter $49/mo, Email $99/mo, Email + Phone $199/mo, with annual at $990/yr and $1,990/yr. UNRESOLVED CONTRADICTION worth flagging to readers: \"API access\" appears on the pricing page only under the custom-priced, 3+ seat, annual Team plan, which means a sales call, while the MCP changelog says the server \"is available today for all Wiza users\" and needs only \"a Wiza API key\". Neither docs page states a plan requirement. Settling this needs an account, so api_gate is recorded as paid on the pricing page's authority. Documented MCP tools: enrich_contact, enrich_company, get_credits, search_companies, search_prospects.",
+      "last_checked": "2026-09-03",
+      "sources": "https://wiza.co/pricing, https://docs.wiza.co/, https://mcp.wiza.co/usage.html, https://feedback.wiza.co/changelog/wiza-mcp, https://wiza.co/ai-research, https://docs.wiza.co/api-reference/individual-reveals/start-individual-reveal, https://docs.wiza.co/overview/data-dictionary.md",
+      "notes": "Added 2026-08-25, closing a named warm lead from this file's previous sweep notes. Self-serve tiers are Free $0 (20 valid emails, 5 phones), Starter $49/mo, Email $99/mo, Email + Phone $199/mo, with annual at $990/yr and $1,990/yr. UNRESOLVED CONTRADICTION worth flagging to readers: \"API access\" appears on the pricing page only under the custom-priced, 3+ seat, annual Team plan, which means a sales call, while the MCP changelog says the server \"is available today for all Wiza users\" and needs only \"a Wiza API key\". Neither docs page states a plan requirement. Settling this needs an account, so api_gate is recorded as paid on the pricing page's authority. Documented MCP tools: enrich_contact, enrich_company, get_credits, search_companies, search_prospects. 2026-09-03: vendor docs state an individual reveal (POST /api/individual_reveals) takes full_name plus company or domain (\"You can provide a name, company, and domain, or an email, or a LinkedIn profile URL\") and the result carries the Profile Details fields of the data dictionary, which include Profile URL (https://docs.wiza.co/api-reference/individual-reveals/start-individual-reveal, https://docs.wiza.co/overview/data-dictionary.md); MCP tool enrich_contact is described as enriching \"using a LinkedIn URL, email, or name plus company/domain\" (https://mcp.wiza.co/usage.html); no per-lookup price is stated on those pages.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -7468,7 +7588,9 @@
         "https://docs.wiza.co/",
         "https://mcp.wiza.co/usage.html",
         "https://feedback.wiza.co/changelog/wiza-mcp",
-        "https://wiza.co/ai-research"
+        "https://wiza.co/ai-research",
+        "https://docs.wiza.co/api-reference/individual-reveals/start-individual-reveal",
+        "https://docs.wiza.co/overview/data-dictionary.md"
       ],
       "source_annotations": [],
       "vendor_domain": "wiza.co",
@@ -7476,6 +7598,7 @@
       "docs_url": "https://docs.wiza.co/",
       "jobs": [
         "enrich-person-from-linkedin-url",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number",
         "verify-email-deliverable",
@@ -7526,9 +7649,9 @@
       "api_gate": "free (CHANGED 2026-08-25, see notes - the MCP/API path is now self-serve via GTM.AI; the classic seat-based ZoomInfo platform remains enterprise-only)",
       "revops_role": "Upstream contact/company data source feeding CRM, enrichment, and outbound tooling; typically the \"system of record\" for firmographic/contact data in larger RevOps stacks",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-25",
-      "sources": "https://gtm.ai/, https://gtm.ai/pricing, https://gtm.ai/docs/mcp, https://gtm.ai/docs/mcp/clients, https://gtm.ai/.well-known/mcp/server-card.json, https://gtm.ai/llms.txt, https://www.businesswire.com/news/home/20260601055723/en/ZoomInfo-Launches-GTM.AI-the-Headless-GTM-Context-Layer-to-Ground-Every-AI-Agent-in-Verified-GTM-Data, https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-launches-gtmai-cli-bringing-verified-gtm-data-command/, https://github.com/Zoominfo/zoominfo-mcp-plugin, https://pipeline.zoominfo.com/operations/zoominfo-mcp-server, https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide",
-      "notes": "MATERIAL CHANGE FOUND 2026-08-25, and it contradicts this directory's own headline finding that legacy incumbents are enterprise-gated. ZoomInfo launched GTM.AI (gtm.ai), a \"headless GTM context layer,\" announced 2026-06-01, plus a GTM.AI CLI. The published pricing page states \"one tier, no contract, no seat fees,\" 1,000 data credits plus 1,000 AI credits free to start with no credit card, then pay-as-you-go from a $20 minimum top-up at $0.10 per data credit (launch promo; $0.35 regular) and $0.05 per AI credit, charged once per record per year. Search, lookup, find-similar and GTM-context tools are documented as free to call; credits are consumed only on enrichment and AI research. The server card declares 22 tools (account_research, browse_audiences, browse_engagements, contact_research, conversation_intelligence, enrich_companies, enrich_company_signals, enrich_contacts, enrich_intent, enrich_news, enrich_scoops, find_recommended_contacts, find_similar_companies, find_similar_contacts, get_audience, gtm_context, lookup, search_companies, search_contacts, search_intent, search_scoops, update_gtm_context) at server version 3.0 over HTTP. gtm.ai also publishes /.well-known/agent-skills/index.json and /.well-known/api-catalog, which is the most agent-native discovery surface found anywhere in this directory. PRIOR STATE, kept on the record: as of 2026-08-24 this entry read api_gate enterprise-only, on the basis that no self-serve path existed and API access shipped inside annual contracts reportedly starting around $50K/year. That classic seat-based platform motion still exists; what changed is that a credit-metered self-serve door opened next to it. NOT VERIFIED THIS PASS: whether the free GTM.AI tier's data coverage matches a paid ZoomInfo seat, and whether \"ZoomInfo Lite\" (named in secondary sources as the permanent free tier) is the same thing as the GTM.AI free tier or a separate product. Both need a hands-on check before this is used on camera.",
+      "last_checked": "2026-09-03",
+      "sources": "https://gtm.ai/, https://gtm.ai/pricing, https://gtm.ai/docs/mcp, https://gtm.ai/docs/mcp/clients, https://gtm.ai/.well-known/mcp/server-card.json, https://gtm.ai/llms.txt, https://www.businesswire.com/news/home/20260601055723/en/ZoomInfo-Launches-GTM.AI-the-Headless-GTM-Context-Layer-to-Ground-Every-AI-Agent-in-Verified-GTM-Data, https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-launches-gtmai-cli-bringing-verified-gtm-data-command/, https://github.com/Zoominfo/zoominfo-mcp-plugin, https://pipeline.zoominfo.com/operations/zoominfo-mcp-server, https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide, https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md",
+      "notes": "MATERIAL CHANGE FOUND 2026-08-25, and it contradicts this directory's own headline finding that legacy incumbents are enterprise-gated. ZoomInfo launched GTM.AI (gtm.ai), a \"headless GTM context layer,\" announced 2026-06-01, plus a GTM.AI CLI. The published pricing page states \"one tier, no contract, no seat fees,\" 1,000 data credits plus 1,000 AI credits free to start with no credit card, then pay-as-you-go from a $20 minimum top-up at $0.10 per data credit (launch promo; $0.35 regular) and $0.05 per AI credit, charged once per record per year. Search, lookup, find-similar and GTM-context tools are documented as free to call; credits are consumed only on enrichment and AI research. The server card declares 22 tools (account_research, browse_audiences, browse_engagements, contact_research, conversation_intelligence, enrich_companies, enrich_company_signals, enrich_contacts, enrich_intent, enrich_news, enrich_scoops, find_recommended_contacts, find_similar_companies, find_similar_contacts, get_audience, gtm_context, lookup, search_companies, search_contacts, search_intent, search_scoops, update_gtm_context) at server version 3.0 over HTTP. gtm.ai also publishes /.well-known/agent-skills/index.json and /.well-known/api-catalog, which is the most agent-native discovery surface found anywhere in this directory. PRIOR STATE, kept on the record: as of 2026-08-24 this entry read api_gate enterprise-only, on the basis that no self-serve path existed and API access shipped inside annual contracts reportedly starting around $50K/year. That classic seat-based platform motion still exists; what changed is that a credit-metered self-serve door opened next to it. NOT VERIFIED THIS PASS: whether the free GTM.AI tier's data coverage matches a paid ZoomInfo seat, and whether \"ZoomInfo Lite\" (named in secondary sources as the permanent free tier) is the same thing as the GTM.AI free tier or a separate product. Both need a hands-on check before this is used on camera. 2026-09-03: vendor docs state the GTM.AI MCP tool Enrich Contacts accepts \"a name paired with company context, an email address, or a ZoomInfo contact ID\" and returns a LinkedIn URL among its fields, subject to package entitlements (https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md); the docs state one bulk data credit per new contact, with re-enrichment within 12 months free.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -7547,7 +7670,8 @@
         "https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-launches-gtmai-cli-bringing-verified-gtm-data-command/",
         "https://github.com/Zoominfo/zoominfo-mcp-plugin",
         "https://pipeline.zoominfo.com/operations/zoominfo-mcp-server",
-        "https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide"
+        "https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide",
+        "https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md"
       ],
       "source_annotations": [],
       "vendor_domain": "zoominfo.com",
@@ -7557,6 +7681,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "find-work-email",
         "find-phone-number",
         "research-account-for-call-prep",
@@ -7734,7 +7859,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/apolloio/apollo-mcp-plugin",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -8296,7 +8421,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/LaGrowthMachine/gtm-system",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -8328,9 +8453,9 @@
       "api_gate": "paid",
       "revops_role": "Multichannel outbound sequencing and lead-enrichment layer, increasingly agent-augmented for personalization and trigger-based outreach.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://developer.lemlist.com/mcp/setup, https://www.lemlist.com/pricing, http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview",
-      "notes": "One of the more clearly first-party, well-documented MCP implementations in this category - dual OAuth/API-key auth, 40+ documented actions. \"Advanced API access\" is explicitly called out as an Enterprise-tier (\"Outreach Scale,\" 5+ seats, annual billing) feature; standard-tier API availability is not clearly documented, so treat access as paid/enterprise-leaning.",
+      "last_checked": "2026-09-03",
+      "sources": "https://developer.lemlist.com/mcp/setup, https://www.lemlist.com/pricing, http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview, https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md",
+      "notes": "One of the more clearly first-party, well-documented MCP implementations in this category - dual OAuth/API-key auth, 40+ documented actions. \"Advanced API access\" is explicitly called out as an Enterprise-tier (\"Outreach Scale,\" 5+ seats, annual billing) feature; standard-tier API availability is not clearly documented, so treat access as paid/enterprise-leaning. 2026-09-03: vendor docs state the Enrich Data endpoint (POST /enrich) accepts firstName, lastName and companyName or companyDomain with a linkedinEnrichment flag (\"Run LinkedIn enrichment\") and its sample response returns linkedinUrl (https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md); no MCP tool name and no unit price are stated there.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -8340,7 +8465,8 @@
       "source_urls": [
         "https://developer.lemlist.com/mcp/setup",
         "https://www.lemlist.com/pricing",
-        "http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview"
+        "http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview",
+        "https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md"
       ],
       "source_annotations": [],
       "vendor_domain": "lemlist.com",
@@ -8348,6 +8474,7 @@
       "docs_url": null,
       "jobs": [
         "search-people-by-criteria",
+        "find-linkedin-url-from-name-and-company",
         "fetch-buyer-intent-signals",
         "run-email-sequence",
         "send-linkedin-message",
@@ -8865,7 +8992,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/sortlist/overloop-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -8897,9 +9024,9 @@
       "api_gate": "paid",
       "revops_role": "Data-extraction/scraping and light-automation backbone many other engagement tools (and Clay) sit on top of; general-purpose rather than LinkedIn-native.",
       "tier": "RESEARCHED",
-      "last_checked": "2026-08-24",
-      "sources": "https://hub.phantombuster.com/docs/mcp-server, https://lagrowthmachine.com/phantombuster-pricing/, https://github.com/globodai-group/mcp-phantombuster",
-      "notes": "Documented REST API available starting on the entry paid plan (~$56/mo Starter, 20 execution hours/mo); no enterprise-only gate found. Because it operates via scraping/headless browser automation, it sits squarely inside activity LinkedIn's User Agreement prohibits.",
+      "last_checked": "2026-09-03",
+      "sources": "https://hub.phantombuster.com/docs/mcp-server, https://lagrowthmachine.com/phantombuster-pricing/, https://github.com/globodai-group/mcp-phantombuster, https://phantombuster.com/automations/linkedin/4015/linkedin-profile-url-finder, https://support.phantombuster.com/hc/en-us/articles/26971028103826-How-to-Use-the-LinkedIn-Profile-URL-Finder",
+      "notes": "Documented REST API available starting on the entry paid plan (~$56/mo Starter, 20 execution hours/mo); no enterprise-only gate found. Because it operates via scraping/headless browser automation, it sits squarely inside activity LinkedIn's User Agreement prohibits. 2026-09-03: PhantomBuster's catalog lists a Phantom titled \"LinkedIn Profile URL Finder\" (https://phantombuster.com/automations/linkedin/4015/linkedin-profile-url-finder) with a support article \"How to Use the LinkedIn Profile URL Finder\" (https://support.phantombuster.com/hc/en-us/articles/26971028103826-How-to-Use-the-LinkedIn-Profile-URL-Finder); both pages are client-rendered and did not render for the fetcher, and the search index's rendering of them says the Phantom takes first and last name (or a full name) plus a company name or professional email and returns LinkedIn profile URLs at one URL finder credit per lookup; the MCP docs do not name it as a tool.",
       "mcp_status_bucket": "official",
       "api_gate_bucket": "paid",
       "mcp_urls": [
@@ -8909,7 +9036,9 @@
       "source_urls": [
         "https://hub.phantombuster.com/docs/mcp-server",
         "https://lagrowthmachine.com/phantombuster-pricing/",
-        "https://github.com/globodai-group/mcp-phantombuster"
+        "https://github.com/globodai-group/mcp-phantombuster",
+        "https://phantombuster.com/automations/linkedin/4015/linkedin-profile-url-finder",
+        "https://support.phantombuster.com/hc/en-us/articles/26971028103826-How-to-Use-the-LinkedIn-Profile-URL-Finder"
       ],
       "source_annotations": [],
       "vendor_domain": "phantombuster.com",
@@ -8917,6 +9046,7 @@
       "docs_url": null,
       "jobs": [
         "enrich-person-from-linkedin-url",
+        "find-linkedin-url-from-name-and-company",
         "scrape-web-page-for-facts",
         "send-linkedin-message",
         "draft-personalized-outreach"
@@ -9149,7 +9279,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/SalesforgeAI/forge-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -9801,7 +9931,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/opensourceops/chorus-mcp-server",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -10598,7 +10728,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -11151,7 +11281,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/tldv-public/tldv-mcp-server",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -11714,7 +11844,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/anhuaxiang/copy-ai-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -12837,7 +12967,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/footcarts/unify-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -13450,6 +13580,7 @@
         "search-people-by-criteria",
         "search-companies-by-firmographics",
         "enrich-company-from-domain",
+        "find-linkedin-url-from-name-and-company",
         "detect-technographics",
         "detect-funding-or-news-event"
       ],
@@ -14224,7 +14355,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://registry.npmjs.org/@rb2b/rb2b-apis-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -14580,7 +14711,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/bcharleson/trigify-cli",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -15144,7 +15275,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/fivetran/fivetran-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -15361,7 +15492,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/fivetran/fivetran-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -16151,7 +16282,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/salesforcecli/mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -16492,7 +16623,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/apideck-libraries/mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -17016,7 +17147,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/modelcontextprotocol/servers",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -17754,7 +17885,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/karbassi/mcp-loom",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -19168,7 +19299,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/calcom/cal-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -19815,7 +19946,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/RF-D/motion-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -20027,7 +20158,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/arturkoter/savvycal-mcp-server",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -22709,7 +22840,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/fredericboyer/loopio-mcp",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -23997,7 +24128,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/TidioPoland/tidio-mcp-connector",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -24315,7 +24446,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/ambo-sk/mcp-brandwatch",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -24898,7 +25029,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/MaelitoP/mention-mcp-server",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -25109,7 +25240,7 @@
       "submission": null,
       "mcp_endpoint": null,
       "mcp_docs_url": "https://github.com/syntax-syndicate/social-listening",
-      "endpoint_status": "docs-only",
+      "endpoint_status": "repo-local",
       "endpoint_http_status": 200,
       "endpoint_last_probed": "2026-09-03",
       "canonical": true,
@@ -25192,6 +25323,6 @@
       "display_rank": 147
     }
   ],
-  "content_sha256": "80aed8e1594f3b21bb117b088f8aaf7f98e915ef8a9747d695c9cd50e9c66eed",
-  "source_sha256": "b6902eb71816c9ca3b7d5ba8105d8bf2e486327980b8976a5a7c828b68216294"
+  "content_sha256": "a245a27aa517863220ee6a0e89910b28221b7ecb10e62691583d0e80e7468ad0",
+  "source_sha256": "3753727bea86e6edabcb64057405f9a530de7c103e9748d8a7e55f978b416c51"
 }

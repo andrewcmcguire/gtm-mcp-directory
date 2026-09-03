@@ -35,7 +35,7 @@ Every percentage above the last two is a documentation reading. It says a vendor
 
 ## The direction of travel
 
-Do not read 62% as a permanent state. It is a reading taken on 2026-09-03 from 293 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25, 2026-09-02. The point of stamping every number with a date is that the next reading is comparable to this one.
+Do not read 62% as a permanent state. It is a reading taken on 2026-09-03 from 293 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25, 2026-09-02, 2026-09-03. The point of stamping every number with a date is that the next reading is comparable to this one.
 
 ## Sources
 

@@ -58,6 +58,13 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
                 "test of what the tools do; bench_tested is unaffected."
                 % (probed, es, entry.get("endpoint_http_status"))
             )
+        elif es == "repo-local" and probed:
+            out.append(
+                "The recorded MCP URL is a repository or package (mcp_docs_url): "
+                "a server you install and run locally over stdio, checked "
+                "reachable on %s. Callable after an install; not a remote "
+                "endpoint. Nobody has run its tools." % probed
+            )
         elif es == "docs-only" and probed:
             out.append(
                 "On %s the recorded MCP URL served a documentation page, not an "

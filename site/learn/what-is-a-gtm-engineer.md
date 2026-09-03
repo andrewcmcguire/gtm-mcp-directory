@@ -48,4 +48,4 @@ Every number on this page is generated from directory.json at build time and car
 ## In the directory
 
 - [Every category and its coverage](../categories/index.md)
-- [The 55 jobs an agent asks for](../jobs/index.md)
+- [The 56 jobs an agent asks for](../jobs/index.md)

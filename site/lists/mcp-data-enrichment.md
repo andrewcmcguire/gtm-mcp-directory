@@ -123,7 +123,7 @@ No server found, or the check could not settle it. Same category, not reachable 
 | Tool | MCP status | Gate | Checked |
 |---|---|---|---|
 | [BetterContact](../tools/bettercontact.md)
-bettercontact.rocks | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
+bettercontact.rocks | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-03 |
 | [Datagma](../tools/datagma.md)
 datagma.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/free.md) | 2026-09-02 |
 | [Findymail](../tools/findymail.md)
@@ -139,9 +139,9 @@ The jobs most often tagged on the 38 tagged entries in this category.
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a phone number](../jobs/find-phone-number.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
-- [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
 Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

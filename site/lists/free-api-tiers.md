@@ -39,7 +39,7 @@ commonpaper.com | [Proposals & Deals](../categories/proposals-deals.md) | [Offic
 | [Composio](../tools/composio.md)
 composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [Crustdata](../tools/crustdata.md)
-crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
+crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) |
 | [Enrow](../tools/enrow.md)
@@ -53,19 +53,19 @@ fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [Offi
 | [Fivetran](../tools/fivetran.md)
 fivetran.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [FullEnrich](../tools/fullenrich.md)
-fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
+fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
 | [Hightouch](../tools/hightouch.md)
 hightouch.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [HubSpot](../tools/hubspot.md)
 hubspot.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +4 |
 | [Hunter.io](../tools/hunter-io.md)
-hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
+hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
 leadfeeder.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) +1 |
 | [LeadMagic](../tools/leadmagic.md)
 leadmagic.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) +2 |
 | [Lusha](../tools/lusha.md)
-lusha.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +4 |
+lusha.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
 | [MeetGeek](../tools/meetgeek.md)
 meetgeek.ai | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
@@ -79,7 +79,7 @@ pipedrive.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](.
 | [PredictLeads](../tools/predictleads.md)
 predictleads.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Scrape job postings](../jobs/scrape-job-postings.md) [Detect a company's tech stack](../jobs/detect-technographics.md) +1 |
 | [Prospeo](../tools/prospeo.md)
-prospeo.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +4 |
+prospeo.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
 | [Relevance AI](../tools/relevance-ai.md)
 relevanceai.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Retool](../tools/retool.md)
@@ -105,13 +105,13 @@ zapier.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../m
 | [Zapier MCP](../tools/zapier-mcp.md)
 zapier.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [ZoomInfo](../tools/zoominfo.md)
-zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
+zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +6 |
 | [Landbot](../tools/landbot.md)
 landbot.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Community MCP](../mcp/community.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
-peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +2 |
+peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +3 |
 | [Centralize](../tools/centralize.md)
 usecentralize.com | [Signals & Intent](../categories/signals-intent-abm.md) | [MCP unknown](../mcp/unknown.md) | [Discover warm intro paths](../jobs/discover-warm-intro-paths.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) |
 | [Claude / Anthropic MCP Connector Directory](../tools/claude-anthropic-mcp-connector-directory.md)
@@ -121,9 +121,9 @@ pulsemcp.com | [MCP Layer](../categories/mcp-infrastructure.md) | [MCP not appli
 | [Smithery](../tools/smithery.md)
 smithery.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [MCP not applicable](../mcp/n-a.md) | [Discover MCP servers](../jobs/discover-mcp-servers.md) |
 | [BetterContact](../tools/bettercontact.md)
-bettercontact.rocks | [Data & Enrichment](../categories/data-enrichment.md) | [No MCP found](../mcp/none-found.md) | [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
+bettercontact.rocks | [Data & Enrichment](../categories/data-enrichment.md) | [No MCP found](../mcp/none-found.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
 | [Datagma](../tools/datagma.md)
-datagma.com | [Data & Enrichment](../categories/data-enrichment.md) | [No MCP found](../mcp/none-found.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
+datagma.com | [Data & Enrichment](../categories/data-enrichment.md) | [No MCP found](../mcp/none-found.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [F5Bot](../tools/f5bot.md)
 f5bot.com | [Community & Dark Social](../categories/community-dark-social.md) | [No MCP found](../mcp/none-found.md) | [Monitor social and community mentions](../jobs/monitor-social-mentions.md) |
 | [Findymail](../tools/findymail.md)

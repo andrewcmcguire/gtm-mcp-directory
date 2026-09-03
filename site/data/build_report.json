@@ -242,7 +242,7 @@
     "sources_zero_urls": 0,
     "sources_one_url": 14,
     "sources_two_or_more_urls": 279,
-    "sources_url_total": 1194,
+    "sources_url_total": 1219,
     "sources_with_annotations": 11,
     "entries_with_extra_fields": 0,
     "mcp_status": {
@@ -265,25 +265,27 @@
       "RESEARCHED": 293
     },
     "last_checked": {
-      "2026-08-24": 134,
-      "2026-08-25": 27,
-      "2026-09-02": 132
+      "2026-08-24": 120,
+      "2026-08-25": 23,
+      "2026-09-02": 131,
+      "2026-09-03": 19
     },
     "bench_tested": 0,
     "endpoint_status": {
       "live": 1,
       "live-auth-gated": 34,
-      "docs-only": 131,
+      "repo-local": 34,
+      "docs-only": 97,
       "unreachable": 15,
       "not-probed": 1,
       "not-applicable": 111
     },
     "official_with_live_endpoint": 35,
-    "official_docs_only": 106,
+    "official_docs_only": 86,
     "endpoint_probe_date": "2026-09-03",
     "jobs_tagged": 271,
     "jobs_untagged": 22,
-    "jobs_assignments": 827,
+    "jobs_assignments": 849,
     "jobs_tagged_by": {
       "(untagged)": 22,
       "machine-pass": 271
@@ -301,27 +303,28 @@
     "solo_reachable": 132
   },
   "jobs": {
-    "vocabulary_size": 55,
+    "vocabulary_size": 56,
     "tags_keys": 255,
     "entries_total": 293,
     "entries_tagged": 271,
     "entries_untagged": 22,
     "products_tagged": 255,
     "products_untagged": 22,
-    "tag_assignments": 827,
+    "tag_assignments": 849,
     "tags_per_entry": {
       "0": 22,
       "1": 71,
-      "2": 57,
-      "3": 50,
-      "4": 29,
-      "5": 32,
-      "6": 13,
-      "7": 14,
-      "8": 5
+      "2": 54,
+      "3": 52,
+      "4": 26,
+      "5": 30,
+      "6": 18,
+      "7": 10,
+      "8": 8,
+      "9": 2
     },
-    "mean_tags_per_tagged_entry": 3.05,
-    "max_tags_on_one_entry": 8,
+    "mean_tags_per_tagged_entry": 3.13,
+    "max_tags_on_one_entry": 9,
     "untagged_entry_ids": [
       "04-relevance-ai",
       "05-koala",
@@ -346,7 +349,7 @@
       "15-commsor",
       "15-bevy"
     ],
-    "needs_review_count": 28,
+    "needs_review_count": 49,
     "needs_review": [
       {
         "name": "Bevy",
@@ -599,18 +602,208 @@
         "tagged": true,
         "job_count": 1,
         "reason": "thin. Tagged sync-records-between-systems. The hosted Context Store and the Agents product line let agents query connected data, which reads close to query-data-warehouse, but Airbyte lands data rather than serving analytical queries over it."
+      },
+      {
+        "name": "People Data Labs",
+        "entry_ids": [
+          "01-people-data-labs"
+        ],
+        "tagged": true,
+        "job_count": 6,
+        "reason": "close-call, tagged. find-linkedin-url-from-name-and-company was added 2026-09-03 by human-pass on the entry's own what_it_does line, which says it returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL. A LinkedIn URL is a social handle and name is a stated input; the entry does not say name plus company in so many words. Strike the tag if that reading is too generous."
+      },
+      {
+        "name": "Datagma",
+        "entry_ids": [
+          "01-datagma"
+        ],
+        "tagged": true,
+        "job_count": 6,
+        "reason": "close-call, tagged. find-linkedin-url-from-name-and-company was added 2026-09-03 by human-pass on the entry's revops_role, which lists find profile among its Clay waterfall actions (enrich person, enrich company, find email, find mobile, find profile, find employees) in a tool described as pulling prospect data directly from LinkedIn. The entry says profile, not LinkedIn URL; the tag reads that as the LinkedIn profile. Strike it if that reading is too generous."
+      },
+      {
+        "name": "Prospeo",
+        "entry_ids": [
+          "01-prospeo"
+        ],
+        "tagged": true,
+        "job_count": 8,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Enrich Person API accepts first name + last name + a company identifier and returns linkedin_url, \"The person's public LinkedIn URL\" (https://prospeo.io/api-docs/enrich-person). The MCP docs describe enrich_person as returning email and/or mobile, so the MCP surface may not expose the URL."
+      },
+      {
+        "name": "Lusha",
+        "entry_ids": [
+          "01-lusha"
+        ],
+        "tagged": true,
+        "job_count": 8,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Search Contacts looks up contacts by \"firstName + lastName + companyName or companyDomain\" and returns a preview that includes linkedinUrl (https://docs.lusha.com/apis/openapi/person-api); MCP tool contacts_search."
+      },
+      {
+        "name": "RocketReach",
+        "entry_ids": [
+          "01-rocketreach"
+        ],
+        "tagged": true,
+        "job_count": 4,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: People Lookup takes name (\"Must specify along with current_employer\") plus current_employer and returns linkedin_url (https://docs.rocketreach.co/reference/people-lookup-api.md); MCP tool person_lookup."
+      },
+      {
+        "name": "Apollo.io",
+        "entry_ids": [
+          "01-apollo-io"
+        ],
+        "tagged": true,
+        "job_count": 9,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: People Enrichment accepts first_name and last_name with organization_name or domain and returns linkedin_url, \"The URL for the person's LinkedIn profile\" (https://docs.apollo.io/reference/people-enrichment); MCP tool apollo_people_match."
+      },
+      {
+        "name": "Wiza",
+        "entry_ids": [
+          "01-wiza"
+        ],
+        "tagged": true,
+        "job_count": 6,
+        "reason": "close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: an individual reveal takes \"a name, company, and domain\" and returns the Profile Details fields, which include Profile URL (https://docs.wiza.co/overview/data-dictionary.md). The vendor field is named Profile URL, not LinkedIn URL; MCP tool enrich_contact says \"profile data\". Strike the tag if that reading is too generous."
+      },
+      {
+        "name": "FullEnrich",
+        "entry_ids": [
+          "01-fullenrich"
+        ],
+        "tagged": true,
+        "job_count": 3,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Look Up People takes \"full name combined with a company identifier\" and returns social_profiles.professional_network.url with a linkedin.com/in/ example (https://docs.fullenrich.com/api/v2/people/lookup/post.md). The vendor says professional network, not LinkedIn, in the field name."
+      },
+      {
+        "name": "Hunter.io",
+        "entry_ids": [
+          "01-hunter-io"
+        ],
+        "tagged": true,
+        "job_count": 3,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Email Finder takes a domain name, a first name and a last name and its response includes linkedin_url (https://hunter.io/api-documentation/v2). The LinkedIn URL rides along with an email lookup; it is not a standalone finder."
+      },
+      {
+        "name": "UpLead",
+        "entry_ids": [
+          "01-uplead"
+        ],
+        "tagged": true,
+        "job_count": 8,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Person API takes first_name, last_name and domain and returns linkedin_url, one credit per record received (https://docs.uplead.com/)."
+      },
+      {
+        "name": "ZoomInfo",
+        "entry_ids": [
+          "01-zoominfo"
+        ],
+        "tagged": true,
+        "job_count": 9,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: MCP tool Enrich Contacts accepts \"a name paired with company context\" and returns a LinkedIn URL among its fields, one bulk data credit per new contact (https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md)."
+      },
+      {
+        "name": "Clay",
+        "entry_ids": [
+          "01-clay"
+        ],
+        "tagged": true,
+        "job_count": 7,
+        "reason": "close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Clay's catalog action \"Find a Person's LinkedIn via Name and Company with SMARTe\" is described as \"This action enables users to find a person's LinkedIn profile using their name and company\" (https://www.clay.com/integrations/action/find-a-persons-linkedin-via-name-and-company-smarte). The data comes from a third-party provider inside Clay, and the Clay MCP names no such tool. Strike the tag if that reading is too generous."
+      },
+      {
+        "name": "Coresignal",
+        "entry_ids": [
+          "01-coresignal"
+        ],
+        "tagged": true,
+        "job_count": 5,
+        "reason": "close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Base Employee search filter takes full_name and experience_company_name and its example records carry a professional-network profile url (https://docs.coresignal.com/employee-api/base-employee-api/endpoints/search-filters.md). The vendor never writes LinkedIn; the tag reads professional network as LinkedIn. Strike it if that reading is too generous."
+      },
+      {
+        "name": "Crustdata",
+        "entry_ids": [
+          "01-crustdata",
+          "05-crustdata"
+        ],
+        "tagged": true,
+        "job_count": 6,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Person Search accepts basic_profile.name and experience.employment_details.company_name filters and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, \"0.03 credits per result returned\" (https://docs.crustdata.com/person-docs/search/introduction)."
+      },
+      {
+        "name": "Dropcontact",
+        "entry_ids": [
+          "01-dropcontact"
+        ],
+        "tagged": true,
+        "job_count": 5,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the enrich endpoint accepts \"first_name + last_name + company (or full_name + company)\" and its response includes a linkedin field with a linkedin.com/in/ example (https://developer.dropcontact.com/)."
+      },
+      {
+        "name": "BetterContact",
+        "entry_ids": [
+          "01-bettercontact"
+        ],
+        "tagged": true,
+        "job_count": 3,
+        "reason": "close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the enrichment endpoint takes first_name, last_name and company or company_domain and the results carry contact_linkedin_profile_url (https://doc.bettercontact.rocks/api-reference/endpoint/get). The docs do not say the URL is found when it was not supplied; the field is simply in the documented output. Strike the tag if that reading is too generous."
+      },
+      {
+        "name": "PhantomBuster",
+        "entry_ids": [
+          "02-phantombuster"
+        ],
+        "tagged": true,
+        "job_count": 5,
+        "reason": "close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the vendor catalog page is titled \"LinkedIn Profile URL Finder\" (https://phantombuster.com/automations/linkedin/4015/linkedin-profile-url-finder). The page body did not render for the fetcher; the input and credit statements come from the search index's rendering of the vendor pages, not a fetched sentence. Strike the tag if that is too thin."
+      },
+      {
+        "name": "lemlist",
+        "entry_ids": [
+          "02-lemlist"
+        ],
+        "tagged": true,
+        "job_count": 8,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Enrich Data accepts firstName, lastName and companyName or companyDomain with a linkedinEnrichment flag and its sample response returns linkedinUrl (https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md)."
+      },
+      {
+        "name": "Surfe",
+        "entry_ids": [
+          "01-surfe"
+        ],
+        "tagged": true,
+        "job_count": 8,
+        "reason": "close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Enrich People accepts firstName, lastName and companyName or companyDomain and \"Set include.linkedInUrl to return additional profile data\" (https://developers.surfe.com/public-015-create-people-bulk-enrichment). The docs name an include flag, not a response field. Strike the tag if that reading is too generous."
+      },
+      {
+        "name": "CUFinder",
+        "entry_ids": [
+          "01-cufinder"
+        ],
+        "tagged": true,
+        "job_count": 5,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Person Enrichment takes full_name and company and returns social.linkedin_url, \"Credit usage is 10 credits per request\" (https://apidoc.cufinder.io/apis/person-enrichment.md)."
+      },
+      {
+        "name": "Explorium",
+        "entry_ids": [
+          "01-explorium"
+        ],
+        "tagged": true,
+        "job_count": 6,
+        "reason": "tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Match Prospects accepts full_name and company_name and returns prospect_id, and the profile enrichment returns linkedin_url_array, a list of LinkedIn profile URLs (https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md). Two calls, not one; MCP tools match-prospects and enrich-prospects."
       }
     ],
     "notes": []
   },
   "jobs_meta": {
-    "version": "1",
+    "version": "2",
     "vocabulary_status": "closed",
     "written_on": "2026-08-25",
     "tier": "RESEARCHED",
     "tier_meaning": "A job tag means the vendor says the tool does this. It is not a usage claim, not a test result, and not a promise the capability is reachable through the tool's MCP server or on the gate the entry records.",
     "source_file": "data/jobs.yaml",
-    "source_sha256": "e63c27779ba7bdea1617e4ae1e6afaa47193ecbf695e5ceb744a0677da1db948"
+    "source_sha256": "bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922"
   },
   "tags_meta": {
     "version": "1",
@@ -620,7 +813,7 @@
     "tier_meaning": "A job tag means the vendor says the tool does this. Nobody has run any tool in this directory. bench_tested is still 0.",
     "key_resolution": "Keys are matched against each entry's normalized name (lowercased, parentheticals dropped, punctuation collapsed), the same normalisation tools_recount.py uses to detect cross-file duplicates. One key therefore covers every entry for the same product.",
     "source_file": "data/tags.yaml",
-    "source_sha256": "77a593d1de719f44e3816265c624b1cd7eefd1dee059b9f4ac8be0539b4d1b7f"
+    "source_sha256": "655a642d9a3306f942ac1ca2f690cab3f8f024bea7b5ae5c6550bf99033f95ba"
   },
   "jobs_supply": [
     {
@@ -684,6 +877,15 @@
       "product_count": 4,
       "official_mcp": 3,
       "solo_reachable": 2,
+      "bench_tested": 0
+    },
+    {
+      "id": "find-linkedin-url-from-name-and-company",
+      "family": "find-people-and-companies",
+      "entry_count": 22,
+      "product_count": 21,
+      "official_mcp": 18,
+      "solo_reachable": 19,
       "bench_tested": 0
     },
     {
@@ -1637,6 +1839,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "80aed8e1594f3b21bb117b088f8aaf7f98e915ef8a9747d695c9cd50e9c66eed",
-  "source_sha256": "b6902eb71816c9ca3b7d5ba8105d8bf2e486327980b8976a5a7c828b68216294"
+  "content_sha256": "a245a27aa517863220ee6a0e89910b28221b7ecb10e62691583d0e80e7468ad0",
+  "source_sha256": "3753727bea86e6edabcb64057405f9a530de7c103e9748d8a7e55f978b416c51"
 }

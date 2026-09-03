@@ -43,6 +43,33 @@
 # call was close, the tag was left off and the entry is listed in
 # needs_review at the bottom with the reason. 255 of the 277 unique products
 # carry at least one tag; 22 are untagged and every one of them is named below.
+#
+# HUMAN PASS 2026-09-03 (owner). One job was added to jobs.yaml,
+# find-linkedin-url-from-name-and-company, and applied only to entries whose
+# own text supports it. Each such tag carries two whole-line comments directly
+# above it recording tagged_by: human-pass and tagged_on: 2026-09-03, because
+# the file-level tagged_by / tagged_on below describe the 2026-08-25 machine
+# pass and the build accepts one file-level value. Candidates read for that
+# job and NOT tagged, because their entry text does not say it: Prospeo,
+# Lusha, RocketReach, Apollo.io, CUFinder, LeadMagic, Hunter.io, Exa,
+# Bright Data, Coresignal, Crustdata, Wiza, FullEnrich, Clay, ZoomInfo,
+# Cognism, Seamless.AI, UpLead, Snov.io, Dropcontact, Anymail Finder,
+# Findymail, BetterContact, PhantomBuster, Surfe, Ocean.io, Explorium,
+# TheirStack, lemlist, La Growth Machine, HeyReach. Not in the directory:
+# Vayne, Kaspr, Enrichley, Icypeas, Proxycurl, Nubela, Evaboot,
+# Reverse Contact, Swordfish, ContactOut, SignalHire, GetProspect, LeadIQ,
+# Skrapp, AeroLeads, Nimbler, Forager, Unipile, Captain Data.
+# Later on 2026-09-03 a builder pass fetched vendor docs for the candidates
+# named above,
+# appended a dated, sourced sentence to the notes of the entries whose docs
+# state the capability, and tagged those 19 under the same whole-line
+# comments: Prospeo, Lusha, RocketReach, Apollo.io, Wiza, FullEnrich,
+# Hunter.io, UpLead, ZoomInfo, Clay, Coresignal, Crustdata, Dropcontact,
+# BetterContact, PhantomBuster, lemlist, Surfe, CUFinder, Explorium. Each
+# has a needs_review item quoting the sentence relied on. Still not tagged
+# after that pass, because no vendor page fetched states it: Snov.io,
+# Seamless.AI, Cognism, Exa, Bright Data, LeadMagic, Anymail Finder,
+# Findymail, HeyReach, La Growth Machine, Ocean.io.
 
 version: 1
 tagged_on: 2026-08-25
@@ -74,9 +101,15 @@ tags:
     - run-email-sequence
     - place-outbound-call
     - research-account-for-call-prep
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   BetterContact:
     - find-work-email
     - find-phone-number
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Bright Data:
     - scrape-web-page-for-facts
   Clay:
@@ -86,6 +119,9 @@ tags:
     - scrape-web-page-for-facts
     - write-crm-records
     - run-automation-workflow
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Clearbit:
     - enrich-company-from-domain
   Cognism:
@@ -99,23 +135,35 @@ tags:
     - search-companies-by-firmographics
     - enrich-company-from-domain
     - scrape-job-postings
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Crustdata:
     - search-people-by-criteria
     - search-companies-by-firmographics
     - enrich-company-from-domain
     - detect-technographics
     - detect-funding-or-news-event
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   CUFinder:
     - enrich-person-from-linkedin-url
     - enrich-company-from-domain
     - find-work-email
     - verify-email-deliverable
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Datagma:
     - search-people-by-criteria
     - enrich-person-from-linkedin-url
     - enrich-company-from-domain
     - find-work-email
     - find-phone-number
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Diffbot:
     - enrich-company-from-domain
     - detect-funding-or-news-event
@@ -125,6 +173,9 @@ tags:
     - enrich-company-from-domain
     - find-work-email
     - verify-email-deliverable
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Enrow:
     - find-work-email
     - find-phone-number
@@ -138,6 +189,9 @@ tags:
     - enrich-company-from-domain
     - detect-technographics
     - detect-funding-or-news-event
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Fiber AI:
     - search-people-by-criteria
     - search-companies-by-firmographics
@@ -151,9 +205,15 @@ tags:
   FullEnrich:
     - find-work-email
     - find-phone-number
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Hunter.io:
     - find-work-email
     - verify-email-deliverable
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Lead411:
     - search-people-by-criteria
     - search-companies-by-firmographics
@@ -175,6 +235,9 @@ tags:
     - find-phone-number
     - draft-personalized-outreach
     - score-and-prioritize-leads
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Ocean.io:
     - search-companies-by-firmographics
     - build-target-account-list
@@ -184,6 +247,9 @@ tags:
     - enrich-person-from-linkedin-url
     - enrich-company-from-domain
     - reverse-lookup-person-from-email
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Prospeo:
     - search-people-by-criteria
     - search-companies-by-firmographics
@@ -192,10 +258,16 @@ tags:
     - find-phone-number
     - verify-email-deliverable
     - detect-technographics
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   RocketReach:
     - enrich-person-from-linkedin-url
     - find-work-email
     - find-phone-number
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Seamless.AI:
     - search-people-by-criteria
     - search-companies-by-firmographics
@@ -219,6 +291,9 @@ tags:
     - draft-personalized-outreach
     - write-crm-records
     - score-and-prioritize-leads
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   The Swarm:
     - discover-warm-intro-paths
     - track-job-changes
@@ -235,6 +310,9 @@ tags:
     - find-phone-number
     - verify-email-deliverable
     - detect-technographics
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Vainu:
     - search-companies-by-firmographics
     - enrich-company-from-domain
@@ -254,6 +332,9 @@ tags:
     - find-phone-number
     - verify-email-deliverable
     - research-account-for-call-prep
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   ZoomInfo:
     - search-people-by-criteria
     - search-companies-by-firmographics
@@ -263,6 +344,9 @@ tags:
     - research-account-for-call-prep
     - draft-personalized-outreach
     - score-and-prioritize-leads
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
 
   # --- 02 engagement & outbound --------------------------------------------
 
@@ -323,6 +407,9 @@ tags:
     - send-linkedin-message
     - place-outbound-call
     - warm-up-inbox
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   Mailshake:
     - draft-personalized-outreach
     - run-email-sequence
@@ -370,6 +457,9 @@ tags:
     - scrape-web-page-for-facts
     - draft-personalized-outreach
     - send-linkedin-message
+    # tagged_by: human-pass
+    # tagged_on: 2026-09-03
+    - find-linkedin-url-from-name-and-company
   QuickMail:
     - run-email-sequence
     - send-linkedin-message
@@ -1129,7 +1219,7 @@ tags:
 #   dead        product is shut down, absorbed or unverifiable in current form.
 #               Tagging it would put a tool that cannot be bought into a
 #               "which tools do X" answer.
-#   no-job-fits the tool does something real that the 55-job vocabulary does
+#   no-job-fits the tool does something real that the 56-job vocabulary does
 #               not name. Candidate input to a vocabulary change, not a tag.
 #   thin        tagged, but with fewer jobs than the entry probably deserves,
 #               because the extra claims were too vague to stand behind.
@@ -1192,3 +1282,45 @@ needs_review:
     reason: thin. Tagged verify-email-deliverable only. Identity-graph append on partial contact records is real but the entry does not say what identifiers go in or what comes out, so no enrich or reverse-lookup tag could be justified.
   - name: Airbyte
     reason: thin. Tagged sync-records-between-systems. The hosted Context Store and the Agents product line let agents query connected data, which reads close to query-data-warehouse, but Airbyte lands data rather than serving analytical queries over it.
+  - name: People Data Labs
+    reason: close-call, tagged. find-linkedin-url-from-name-and-company was added 2026-09-03 by human-pass on the entry's own what_it_does line, which says it returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL. A LinkedIn URL is a social handle and name is a stated input; the entry does not say name plus company in so many words. Strike the tag if that reading is too generous.
+  - name: Datagma
+    reason: close-call, tagged. find-linkedin-url-from-name-and-company was added 2026-09-03 by human-pass on the entry's revops_role, which lists find profile among its Clay waterfall actions (enrich person, enrich company, find email, find mobile, find profile, find employees) in a tool described as pulling prospect data directly from LinkedIn. The entry says profile, not LinkedIn URL; the tag reads that as the LinkedIn profile. Strike it if that reading is too generous.
+  - name: Prospeo
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Enrich Person API accepts first name + last name + a company identifier and returns linkedin_url, "The person's public LinkedIn URL" (https://prospeo.io/api-docs/enrich-person). The MCP docs describe enrich_person as returning email and/or mobile, so the MCP surface may not expose the URL.
+  - name: Lusha
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Search Contacts looks up contacts by "firstName + lastName + companyName or companyDomain" and returns a preview that includes linkedinUrl (https://docs.lusha.com/apis/openapi/person-api); MCP tool contacts_search.
+  - name: RocketReach
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: People Lookup takes name ("Must specify along with current_employer") plus current_employer and returns linkedin_url (https://docs.rocketreach.co/reference/people-lookup-api.md); MCP tool person_lookup.
+  - name: Apollo.io
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: People Enrichment accepts first_name and last_name with organization_name or domain and returns linkedin_url, "The URL for the person's LinkedIn profile" (https://docs.apollo.io/reference/people-enrichment); MCP tool apollo_people_match.
+  - name: Wiza
+    reason: close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: an individual reveal takes "a name, company, and domain" and returns the Profile Details fields, which include Profile URL (https://docs.wiza.co/overview/data-dictionary.md). The vendor field is named Profile URL, not LinkedIn URL; MCP tool enrich_contact says "profile data". Strike the tag if that reading is too generous.
+  - name: FullEnrich
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Look Up People takes "full name combined with a company identifier" and returns social_profiles.professional_network.url with a linkedin.com/in/ example (https://docs.fullenrich.com/api/v2/people/lookup/post.md). The vendor says professional network, not LinkedIn, in the field name.
+  - name: Hunter.io
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Email Finder takes a domain name, a first name and a last name and its response includes linkedin_url (https://hunter.io/api-documentation/v2). The LinkedIn URL rides along with an email lookup; it is not a standalone finder.
+  - name: UpLead
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Person API takes first_name, last_name and domain and returns linkedin_url, one credit per record received (https://docs.uplead.com/).
+  - name: ZoomInfo
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: MCP tool Enrich Contacts accepts "a name paired with company context" and returns a LinkedIn URL among its fields, one bulk data credit per new contact (https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md).
+  - name: Clay
+    reason: close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Clay's catalog action "Find a Person's LinkedIn via Name and Company with SMARTe" is described as "This action enables users to find a person's LinkedIn profile using their name and company" (https://www.clay.com/integrations/action/find-a-persons-linkedin-via-name-and-company-smarte). The data comes from a third-party provider inside Clay, and the Clay MCP names no such tool. Strike the tag if that reading is too generous.
+  - name: Coresignal
+    reason: close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Base Employee search filter takes full_name and experience_company_name and its example records carry a professional-network profile url (https://docs.coresignal.com/employee-api/base-employee-api/endpoints/search-filters.md). The vendor never writes LinkedIn; the tag reads professional network as LinkedIn. Strike it if that reading is too generous.
+  - name: Crustdata
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Person Search accepts basic_profile.name and experience.employment_details.company_name filters and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction).
+  - name: Dropcontact
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the enrich endpoint accepts "first_name + last_name + company (or full_name + company)" and its response includes a linkedin field with a linkedin.com/in/ example (https://developer.dropcontact.com/).
+  - name: BetterContact
+    reason: close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the enrichment endpoint takes first_name, last_name and company or company_domain and the results carry contact_linkedin_profile_url (https://doc.bettercontact.rocks/api-reference/endpoint/get). The docs do not say the URL is found when it was not supplied; the field is simply in the documented output. Strike the tag if that reading is too generous.
+  - name: PhantomBuster
+    reason: close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the vendor catalog page is titled "LinkedIn Profile URL Finder" (https://phantombuster.com/automations/linkedin/4015/linkedin-profile-url-finder). The page body did not render for the fetcher; the input and credit statements come from the search index's rendering of the vendor pages, not a fetched sentence. Strike the tag if that is too thin.
+  - name: lemlist
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Enrich Data accepts firstName, lastName and companyName or companyDomain with a linkedinEnrichment flag and its sample response returns linkedinUrl (https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md).
+  - name: Surfe
+    reason: close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Enrich People accepts firstName, lastName and companyName or companyDomain and "Set include.linkedInUrl to return additional profile data" (https://developers.surfe.com/public-015-create-people-bulk-enrichment). The docs name an include flag, not a response field. Strike the tag if that reading is too generous.
+  - name: CUFinder
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Person Enrichment takes full_name and company and returns social.linkedin_url, "Credit usage is 10 credits per request" (https://apidoc.cufinder.io/apis/person-enrichment.md).
+  - name: Explorium
+    reason: tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Match Prospects accepts full_name and company_name and returns prospect_id, and the profile enrichment returns linkedin_url_array, a list of LinkedIn profile URLs (https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md). Two calls, not one; MCP tools match-prospects and enrich-prospects.

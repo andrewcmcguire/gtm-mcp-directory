@@ -73,12 +73,13 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a work email address](../jobs/find-work-email.md)
 - [Find a phone number](../jobs/find-phone-number.md)
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

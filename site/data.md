@@ -1,6 +1,6 @@
 # The data: directory.json, published in full
 
-> The whole GTM MCP Directory as JSON: 293 entries, 156 official MCP servers, 827 job tags, every source URL. Free, no key, no signup. Baked 2026-09-03.
+> The whole GTM MCP Directory as JSON: 293 entries, 156 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -30,11 +30,11 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **official MCP servers**
 
-827
+849
 
 **job tags**
 
-1,194
+1,219
 
 **source URLs**
 
@@ -46,8 +46,8 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 | File | Bytes | What it is |
 |---|---|---|
-| [data/directory.json](data/directory.json) | 1,328,266 | Every entry with every field, the 15 category blocks, the closed 55 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
-| [data/build_report.json](data/build_report.json) | 43,059 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 28 entries the tagging pass flagged for human review. |
+| [data/directory.json](data/directory.json) | 1,345,154 | Every entry with every field, the 15 category blocks, the closed 56 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
+| [data/build_report.json](data/build_report.json) | 55,130 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 49 entries the tagging pass flagged for human review. |
 | [search-index.json](search-index.json) | 282,154 | One compact record per unique product, which is what the on page search runs over. |
 | [llms.txt](llms.txt) | text | The map, for agents and crawlers. Every section of the site with a one line description. |
 
@@ -63,7 +63,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 | mcp_url / mcp_urls | verbatim, and every URL parsed out of it |
 | mcp_auth | verbatim. The sentence that decides your security review |
 | api_gate / api_gate_bucket | verbatim, and the normalised bucket |
-| jobs / jobs_tagged_by / jobs_tagged_on | tags from the closed 55 job vocabulary, and who tagged them when |
+| jobs / jobs_tagged_by / jobs_tagged_on | tags from the closed 56 job vocabulary, and who tagged them when |
 | tier / last_checked | RESEARCHED or BENCH-TESTED, and the date the facts were pulled |
 | sources / source_urls / source_annotations | verbatim, and the URLs parsed out of it |
 | canonical / canonical_id / also_listed_in | the 16 deliberate cross listings and where each one belongs |
@@ -96,6 +96,6 @@ Facts about third party products are recorded from those vendors' own public sou
 
 - **Schema version**: 1.1
 
-- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: 80aed8e1594f3b21bb117b08...
+- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: a245a27aa517863220ee6a0e...
 
 The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the [methodology page](methodology.md).

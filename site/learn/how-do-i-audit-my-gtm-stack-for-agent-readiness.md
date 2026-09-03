@@ -28,7 +28,7 @@ List every tool you pay for, then fill four columns: does it have an MCP server,
 
 ## Then sort by job, not by category
 
-A stack audit by category tells you what you bought. An audit by job tells you what an agent can do. Take the five or six jobs your team actually needs, and check coverage on each one against the 55 job pages here. The [jobs index](../jobs/index.md) carries the official server count and the solo reachable count for every one of them.
+A stack audit by category tells you what you bought. An audit by job tells you what an agent can do. Take the five or six jobs your team actually needs, and check coverage on each one against the 56 job pages here. The [jobs index](../jobs/index.md) carries the official server count and the solo reachable count for every one of them.
 
 ## The three numbers to write at the top
 

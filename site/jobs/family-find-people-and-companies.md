@@ -1,6 +1,6 @@
 # Find people and companies - GTM jobs an agent can ask for
 
-> Turn a criterion, a domain, a URL or an email into a record. 7 jobs and 97 tagged entries in The GTM MCP Directory.
+> Turn a criterion, a domain, a URL or an email into a record. 8 jobs and 119 tagged entries in The GTM MCP Directory.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -12,7 +12,7 @@
 
 ## Find people and companies
 
-Turn a criterion, a domain, a URL or an email into a record. 7 jobs, 97 tagged entries, 58 distinct entries across the family.
+Turn a criterion, a domain, a URL or an email into a record. 8 jobs, 119 tagged entries, 61 distinct entries across the family.
 
 - [Search people by criteria](search-people-by-criteria.md) - 24 tools · 17 official MCP. Query a person database by title, seniority, function, geo or company filters and get a list back.
 - [Search companies by firmographics](search-companies-by-firmographics.md) - 15 tools · 12 official MCP. Query a company database by industry, headcount, revenue, geo or similar and get a list back.
@@ -21,6 +21,7 @@ Turn a criterion, a domain, a URL or an email into a record. 7 jobs, 97 tagged e
 - [Reverse-look-up a person from an email](reverse-lookup-person-from-email.md) - 1 tools · 0 official MCP. Hand it an email address and get the person or their profile back. Rare as a first-party capability.
 - [Build a target account list](build-target-account-list.md) - 7 tools · 5 official MCP. Produce a ranked or filtered account universe from an ICP definition or a set of best customers.
 - [Discover warm intro paths](discover-warm-intro-paths.md) - 4 tools · 3 official MCP. Answer "who already knows somebody here" from team, partner or relationship-graph data rather than from a bought contact list.
+- [Find a person's LinkedIn URL from a name and company](find-linkedin-url-from-name-and-company.md) - 22 tools · 18 official MCP. Hand it a person's name plus a company name or domain and get the LinkedIn profile URL back. The inverse of...
 
 ### Every entry tagged with a job in this family
 
@@ -31,6 +32,10 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [FullEnrich](../tools/fullenrich.md) fullenrich.com A B2B contact-enrichment aggregator that runs a single lookup or bulk list through 15+ third-party data vendors in a "waterfall" and returns the first verified work/personal email or mobile number found,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Hunter.io](../tools/hunter-io.md) hunter.io An email-finding and verification tool - given a name, domain, or company, it locates likely professional email addresses (via domain pattern-matching and web-crawled data) and verifies deliverability; also... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md) leadfeeder.com Identifies companies visiting a website via IP-to-company matching, tracks page-level visit behavior, and surfaces intent signals plus verified contact data for those companies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -121,6 +126,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Default](../tools/default.md) default.com "Agentic GTM infrastructure" platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · Cross listed, canonical home is RevOps Infra
+
+- [BetterContact](../tools/bettercontact.md) bettercontact.rocks A waterfall enrichment orchestrator that queries 20+ third-party email/phone data providers in sequence for a given contact, stopping once a verified match is found, rather than sourcing its own proprietary... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Datagma](../tools/datagma.md) datagma.com An all-in-one B2B enrichment platform that finds work emails and verified mobile phone numbers, appends firmographic company data, and offers a Sales Navigator export/Chrome extension for pulling prospect data... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

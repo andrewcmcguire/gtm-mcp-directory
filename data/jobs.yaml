@@ -83,15 +83,35 @@
 #                                 because Trellus and Tavus answer inbound by
 #                                 voice and the job is the same job.
 #
-# 55 jobs, 10 families: 7 / 3 / 9 / 7 / 7 / 6 / 6 / 5 / 3 / 2.
+#
+# ADDED AFTER CLOSE, declared the same way
+# ---------------------------------------------------------------------------
+#   find-linkedin-url-from-name-and-company
+#                                 added 2026-09-03 by the owner. The question
+#                                 "what should I use to get LinkedIn URLs from
+#                                 a person name and company" resolved to no job
+#                                 and fell back to text search. Nothing in the
+#                                 55 covered it: enrich-person-from-linkedin-url
+#                                 takes the URL as INPUT, and
+#                                 reverse-lookup-person-from-email starts from
+#                                 an email. The vocabulary stays closed; this is
+#                                 the one-line rationale rule 5 asks for.
+#
+# 56 jobs, 10 families: 8 / 3 / 9 / 7 / 7 / 6 / 6 / 5 / 3 / 2.
+#
+# CHANGELOG
+#   2026-08-25  version 1. 55 jobs, 10 families. Closed.
+#   2026-09-03  version 2. Added find-linkedin-url-from-name-and-company to
+#               find-people-and-companies (owner). 56 jobs. Still closed.
 #
 # The build counts the supply behind each job and publishes it exactly as
 # computed. As of 2026-08-25 the thinnest is reverse-lookup-person-from-email
 # with ONE tool in 293 entries. That is the finding, not a bug in the file.
 
-version: 1
+version: 2
 vocabulary_status: closed
 written_on: 2026-08-25
+updated_on: 2026-09-03
 tier: RESEARCHED
 tier_meaning: >-
   A job tag means the vendor says the tool does this. It is not a usage claim,
@@ -222,6 +242,33 @@ jobs:
       - do we know anyone at this company
       - map our relationships into this account
       - partner overlap with this account
+
+  - id: find-linkedin-url-from-name-and-company
+    family: find-people-and-companies
+    phrasing: find linkedin url from name and company
+    label: Find a person's LinkedIn URL from a name and company
+    one_liner: Hand it a person's name plus a company name or domain and get the LinkedIn profile URL back. The inverse of enrich-person-from-linkedin-url, which needs the URL as input. Added 2026-09-03 by the owner; see the header.
+    primary_categories: ["01"]
+    aliases:
+      - linkedin urls
+      - get linkedin urls
+      - find linkedin profile
+      - find linkedin url
+      - find a linkedin profile url
+      - find a person's linkedin url
+      - find someone's linkedin
+      - linkedin profile url from name
+      - linkedin url from name and company
+      - linkedin profile from name and company
+      - person name and company to linkedin
+      - name and company to linkedin url
+      - lookup linkedin url by name
+      - linkedin lookup from name and company
+      - which linkedin profile belongs to this person
+      - i have a name and a company and need the linkedin profile
+      - get the linkedin profile url for a person name
+      - linkedin profile finder
+      - linkedin url finder
 
   # --- F2. Get contact data ------------------------------------------------
 

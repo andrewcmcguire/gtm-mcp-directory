@@ -51,3 +51,4 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Enrich a company from a domain](enrich-company-from-domain.md)
 - [Build a target account list](build-target-account-list.md)
 - [Discover warm intro paths](discover-warm-intro-paths.md)
+- [Find a person's LinkedIn URL from a name and company](find-linkedin-url-from-name-and-company.md)

@@ -1,6 +1,6 @@
 # Crustdata: MCP server status, API access gate and what it does
 
-> A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web... Official MCP, Free to start. Checked 2026-08-24.
+> A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web... Official MCP, Free to start. Checked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Crustdata
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-03
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -41,7 +41,7 @@ Real-time firmographic/trigger-signal layer for outbound (funding events, headco
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://crustdata.com/](https://crustdata.com/)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -80,12 +80,13 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Detect a company's tech stack](../jobs/detect-technographics.md)
 - [Detect a funding or news event](../jobs/detect-funding-or-news-event.md)
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -112,13 +113,14 @@ What that listing says it does: Aggregates real-time company and people data (25
 - [https://crustdata.com/](https://crustdata.com/)
 - [https://docs.crustdata.com/general/pricing](https://docs.crustdata.com/general/pricing)
 - [https://crustdata.com/blog/b2b-prospecting-workflow-claude-code](https://crustdata.com/blog/b2b-prospecting-workflow-claude-code)
+- [https://docs.crustdata.com/person-docs/search/introduction](https://docs.crustdata.com/person-docs/search/introduction)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code
+https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code, https://docs.crustdata.com/person-docs/search/introduction
 
 **Notes, verbatim from the file**
-MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top.
+MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there.
 
 **Provenance**
 
@@ -130,7 +132,7 @@ MCP existence is confirmed on the vendor's own homepage, but the exact MCP-speci
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-03
 
 - **Data baked**: 2026-09-03
 

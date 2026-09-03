@@ -24,14 +24,14 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 17
 - **Enterprise only**: 4
 
-Source file: 01-data-enrichment.md · content sha256 c7c6c8304556cda5... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 df90426748aee5ec... · counts reconciled against tools_recount.py at build time.
 
 - [The 33 with an MCP server](../lists/mcp-data-enrichment.md)
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a phone number](../jobs/find-phone-number.md)
-- [Search people by criteria](../jobs/search-people-by-criteria.md)
 
 - [Anymail Finder](../tools/anymail-finder.md) anymailfinder.com Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 

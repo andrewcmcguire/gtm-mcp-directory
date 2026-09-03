@@ -1,6 +1,6 @@
 # ZoomInfo: MCP server status, API access gate and what it does
 
-> A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web... Official MCP, Free to start. Checked 2026-08-25.
+> A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web... Official MCP, Free to start. Checked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ ZoomInfo
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-25
+Checked 2026-09-03
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -41,7 +41,7 @@ Upstream contact/company data source feeding CRM, enrichment, and outbound tooli
 - **Endpoint probe**: answered, asking for a key
 - **Endpoint URL[https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp)Probed**: 2026-09-03, HTTP 401
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-03 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
 mcp_status, verbatim from the file:
 
@@ -86,6 +86,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a work email address](../jobs/find-work-email.md)
 - [Find a phone number](../jobs/find-phone-number.md)
 - [Research an account before a call](../jobs/research-account-for-call-prep.md)
@@ -94,7 +95,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -109,13 +110,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://github.com/Zoominfo/zoominfo-mcp-plugin](https://github.com/Zoominfo/zoominfo-mcp-plugin)
 - [https://pipeline.zoominfo.com/operations/zoominfo-mcp-server](https://pipeline.zoominfo.com/operations/zoominfo-mcp-server)
 - [https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide](https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide)
+- [https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md](https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md)
 
-11 source URLs. Raw sources field, verbatim:
+12 source URLs. Raw sources field, verbatim:
 
-https://gtm.ai/, https://gtm.ai/pricing, https://gtm.ai/docs/mcp, https://gtm.ai/docs/mcp/clients, https://gtm.ai/.well-known/mcp/server-card.json, https://gtm.ai/llms.txt, https://www.businesswire.com/news/home/20260601055723/en/ZoomInfo-Launches-GTM.AI-the-Headless-GTM-Context-Layer-to-Ground-Every-AI-Agent-in-Verified-GTM-Data, https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-launches-gtmai-cli-bringing-verified-gtm-data-command/, https://github.com/Zoominfo/zoominfo-mcp-plugin, https://pipeline.zoominfo.com/operations/zoominfo-mcp-server, https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide
+https://gtm.ai/, https://gtm.ai/pricing, https://gtm.ai/docs/mcp, https://gtm.ai/docs/mcp/clients, https://gtm.ai/.well-known/mcp/server-card.json, https://gtm.ai/llms.txt, https://www.businesswire.com/news/home/20260601055723/en/ZoomInfo-Launches-GTM.AI-the-Headless-GTM-Context-Layer-to-Ground-Every-AI-Agent-in-Verified-GTM-Data, https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-launches-gtmai-cli-bringing-verified-gtm-data-command/, https://github.com/Zoominfo/zoominfo-mcp-plugin, https://pipeline.zoominfo.com/operations/zoominfo-mcp-server, https://www.cleanlist.ai/blog/2026-03-19-zoominfo-pricing-guide, https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md
 
 **Notes, verbatim from the file**
-MATERIAL CHANGE FOUND 2026-08-25, and it contradicts this directory's own headline finding that legacy incumbents are enterprise-gated. ZoomInfo launched GTM.AI (gtm.ai), a "headless GTM context layer," announced 2026-06-01, plus a GTM.AI CLI. The published pricing page states "one tier, no contract, no seat fees," 1,000 data credits plus 1,000 AI credits free to start with no credit card, then pay-as-you-go from a $20 minimum top-up at $0.10 per data credit (launch promo; $0.35 regular) and $0.05 per AI credit, charged once per record per year. Search, lookup, find-similar and GTM-context tools are documented as free to call; credits are consumed only on enrichment and AI research. The server card declares 22 tools (account_research, browse_audiences, browse_engagements, contact_research, conversation_intelligence, enrich_companies, enrich_company_signals, enrich_contacts, enrich_intent, enrich_news, enrich_scoops, find_recommended_contacts, find_similar_companies, find_similar_contacts, get_audience, gtm_context, lookup, search_companies, search_contacts, search_intent, search_scoops, update_gtm_context) at server version 3.0 over HTTP. gtm.ai also publishes /.well-known/agent-skills/index.json and /.well-known/api-catalog, which is the most agent-native discovery surface found anywhere in this directory. PRIOR STATE, kept on the record: as of 2026-08-24 this entry read api_gate enterprise-only, on the basis that no self-serve path existed and API access shipped inside annual contracts reportedly starting around $50K/year. That classic seat-based platform motion still exists; what changed is that a credit-metered self-serve door opened next to it. NOT VERIFIED THIS PASS: whether the free GTM.AI tier's data coverage matches a paid ZoomInfo seat, and whether "ZoomInfo Lite" (named in secondary sources as the permanent free tier) is the same thing as the GTM.AI free tier or a separate product. Both need a hands-on check before this is used on camera.
+MATERIAL CHANGE FOUND 2026-08-25, and it contradicts this directory's own headline finding that legacy incumbents are enterprise-gated. ZoomInfo launched GTM.AI (gtm.ai), a "headless GTM context layer," announced 2026-06-01, plus a GTM.AI CLI. The published pricing page states "one tier, no contract, no seat fees," 1,000 data credits plus 1,000 AI credits free to start with no credit card, then pay-as-you-go from a $20 minimum top-up at $0.10 per data credit (launch promo; $0.35 regular) and $0.05 per AI credit, charged once per record per year. Search, lookup, find-similar and GTM-context tools are documented as free to call; credits are consumed only on enrichment and AI research. The server card declares 22 tools (account_research, browse_audiences, browse_engagements, contact_research, conversation_intelligence, enrich_companies, enrich_company_signals, enrich_contacts, enrich_intent, enrich_news, enrich_scoops, find_recommended_contacts, find_similar_companies, find_similar_contacts, get_audience, gtm_context, lookup, search_companies, search_contacts, search_intent, search_scoops, update_gtm_context) at server version 3.0 over HTTP. gtm.ai also publishes /.well-known/agent-skills/index.json and /.well-known/api-catalog, which is the most agent-native discovery surface found anywhere in this directory. PRIOR STATE, kept on the record: as of 2026-08-24 this entry read api_gate enterprise-only, on the basis that no self-serve path existed and API access shipped inside annual contracts reportedly starting around $50K/year. That classic seat-based platform motion still exists; what changed is that a credit-metered self-serve door opened next to it. NOT VERIFIED THIS PASS: whether the free GTM.AI tier's data coverage matches a paid ZoomInfo seat, and whether "ZoomInfo Lite" (named in secondary sources as the permanent free tier) is the same thing as the GTM.AI free tier or a separate product. Both need a hands-on check before this is used on camera. 2026-09-03: vendor docs state the GTM.AI MCP tool Enrich Contacts accepts "a name paired with company context, an email address, or a ZoomInfo contact ID" and returns a LinkedIn URL among its fields, subject to package entitlements (https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md); the docs state one bulk data credit per new contact, with re-enrichment within 12 months free.
 
 **Provenance**
 
@@ -127,7 +129,7 @@ MATERIAL CHANGE FOUND 2026-08-25, and it contradicts this directory's own headli
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-25
+- **last_checked**: 2026-09-03
 
 - **Data baked**: 2026-09-03
 

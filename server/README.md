@@ -179,11 +179,12 @@ find_tools(job_or_query="find-work-email", gate="free")
 | `has_github` | measured `github_url` only |
 | `has_github_candidate` | the unverified lead list parsed out of `mcp_url` and `sources` |
 | `canonical_only` | drop the 16 cross-listed second entries |
+| `live_endpoint_only` | keep only entries whose recorded MCP URL answered an `initialize` as a server on the last probe (`endpoint_status` live or live-auth-gated). Liveness, not a test of the tools |
 | `limit` | default 20, max 100 |
 
 **Two match paths, and the response always names the one it used.**
 
-1. **Job tags.** Your query resolves against the 55-job vocabulary (slugs,
+1. **Job tags.** Your query resolves against the 56-job vocabulary (slugs,
    labels, phrasings and aliases). The best match, plus anything within 5
    percent of it, filters the results. Weaker candidates come back in
    `also_considered` so you can re-ask precisely instead of being handed a
@@ -204,6 +205,23 @@ display rule. With filters only, the published display rule alone: official
 MCP first, then community, then unknown, then n/a, then none-found; within
 each band the gate order is free, paid, enterprise-leaning, enterprise-only,
 unknown; then alphabetical.
+
+### Endpoint versus docs, measured (added 2026-09-03)
+
+About half of the official `mcp_url` values are documentation pages, not
+endpoints. Every official and community entry now carries four derived,
+dated fields, filled from the weekly `mcp_verify.py` run and never hand-edited:
+
+| Field | Meaning |
+|---|---|
+| `endpoint_status` | `live` (answered an MCP initialize), `live-auth-gated` (401/402/407: alive, wants a key), `repo-local` (a repo or package you install and run locally over stdio), `docs-only` (a page about the server, not the server), `unreachable`, `not-probed`, `not-applicable` |
+| `mcp_endpoint` | the URL that answered as a server, or null |
+| `mcp_docs_url` | the URL that served a page or a repo, or null |
+| `endpoint_last_probed` | the date of the run that produced the three values above |
+
+`docs-only` is not a downgrade of `mcp_status`. It is the gap between where to
+read and where to connect, and an agent needs the second. `whats_mcpd` reports
+the split as `official_with_live_endpoint` and `official_docs_only`.
 
 ### `get_tool(name)`
 
@@ -275,7 +293,7 @@ fabricates a digest.
 
 ### `list_jobs(family=None)`
 
-The closed capability vocabulary an agent should ask with: 55 jobs in 10
+The closed capability vocabulary an agent should ask with: 56 jobs in 10
 families, plus the supply behind each one. An agent cannot guess a closed
 vocabulary. Read the menu once, then ask `find_tools` precisely.
 
@@ -315,7 +333,7 @@ Live numbers from the current build, not the spec's prose.
 | Solo-reachable | 117 (an MCP server plus a gate you can pass without a sales call) |
 | BENCH-TESTED | 0 |
 | Entries with a docs URL | 30 |
-| Job vocabulary | 55 jobs in 10 families |
+| Job vocabulary | 56 jobs in 10 families |
 | Entries with job tags | 271 of 293, all from a machine pass, none human-reviewed |
 
 Two things to know about the shape:

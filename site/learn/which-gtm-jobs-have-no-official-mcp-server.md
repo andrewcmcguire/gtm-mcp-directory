@@ -1,6 +1,6 @@
 # Which GTM jobs have no official MCP server at all? The gaps, counted
 
-> Of 55 jobs in the vocabulary, 1 have no tool at all with a first party MCP server. The gaps in the map, and the thinly covered jobs next to them. Counted 2026-09-03.
+> Of 56 jobs in the vocabulary, 1 have no tool at all with a first party MCP server. The gaps in the map, and the thinly covered jobs next to them. Counted 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -14,7 +14,7 @@
 
 **The short answer**
 
-Of the 55 jobs in this directory's closed vocabulary, 1 have no tool with an official MCP server at all. These are the holes an agent builder falls into: the capability exists in the market, and nothing exposes it through a vendor maintained server.
+Of the 56 jobs in this directory's closed vocabulary, 1 have no tool with an official MCP server at all. These are the holes an agent builder falls into: the capability exists in the market, and nothing exposes it through a vendor maintained server.
 
 ## Jobs with zero official servers
 
@@ -44,7 +44,7 @@ Separately from the zero official list, some jobs are barely covered by any tool
 
 ## Read these as leads, not as receipts
 
-> **Machine pass, human review pending** The job tags behind these numbers came from a machine pass over each entry's own description text on 2026-08-25, and 28 entries were flagged by that pass as needing a human to look again. A gap in this table can mean the market has a hole, or it can mean the vocabulary drew a line the tagger read differently. Both are worth checking before anybody builds a business on one.
+> **Machine pass, human review pending** The job tags behind these numbers came from a machine pass over each entry's own description text on 2026-08-25, and 49 entries were flagged by that pass as needing a human to look again. A gap in this table can mean the market has a hole, or it can mean the vocabulary drew a line the tagger read differently. Both are worth checking before anybody builds a business on one.
 
 ## Why publish the gaps at all
 

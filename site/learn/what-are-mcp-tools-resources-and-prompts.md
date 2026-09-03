@@ -30,7 +30,7 @@ Three different parties decide. The model chooses tools, the application chooses
 
 When a vendor here says it ships an MCP server, in practice that nearly always means tools: search, enrich, create, send. This directory records what the vendor documents and does not enumerate the tool surface of each server, because that would need each server to be installed and run, and 0 tools in this directory have been run by anybody here.
 
-The closest published proxy is the job tags. 827 tags across 271 entries record what each vendor says its tool does, in the agent's own phrasing, which is the vocabulary you would expect its tools to be named after.
+The closest published proxy is the job tags. 849 tags across 271 entries record what each vendor says its tool does, in the agent's own phrasing, which is the vocabulary you would expect its tools to be named after.
 
 ## Sources
 

@@ -11,7 +11,7 @@ This file exists because the directory publishes what it measures. A directory o
 - [search-index.json](https://andrewcmcguire.com/gtm-directory/search-index.json): one compact record per unique product, 277 of them.
 - [The data page](https://andrewcmcguire.com/gtm-directory/data.html): what every field means and how to read it without getting it wrong.
 - **Markdown twins**: every HTML page on this site has a markdown twin at the same path with a `.md` extension. Same content, no navigation, no styling, no scripts. Links inside a twin point at other twins, so the whole site is crawlable in markdown. Example: `https://andrewcmcguire.com/gtm-directory/learn/what-is-an-mcp-server.md`.
-- [sitemap.xml](https://andrewcmcguire.com/gtm-directory/sitemap.xml): all 466 pages.
+- [sitemap.xml](https://andrewcmcguire.com/gtm-directory/sitemap.xml): all 467 pages.
 
 ## The GTM Engineer job board
 
@@ -37,7 +37,7 @@ This file exists because the directory publishes what it measures. A directory o
 - API gate: 61 free to start, 113 paid self serve, 77 enterprise only, 4 enterprise leaning, 32 unknown, 6 not applicable.
 - Free to start or paid self serve: 174.
 - Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 132. This is the strictest useful filter on the site.
-- Jobs: 55 in 10 families, 827 tags across 271 entries. 22 entries are untagged and each records why.
+- Jobs: 56 in 10 families, 849 tags across 271 entries. 22 entries are untagged and each records why.
 - Bench tested: 0.
 
 ## Key pages
@@ -46,7 +46,7 @@ This file exists because the directory publishes what it measures. A directory o
 - [Methodology](https://andrewcmcguire.com/gtm-directory/methodology.html): how an entry is made, the two honesty tiers, and every place this build is thin, named.
 - [Every tool A to Z](https://andrewcmcguire.com/gtm-directory/tools/index.html): 277 product pages.
 - [By category](https://andrewcmcguire.com/gtm-directory/categories/index.html): 15 categories with their coverage.
-- [By job](https://andrewcmcguire.com/gtm-directory/jobs/index.html): 55 jobs phrased the way an agent asks for them.
+- [By job](https://andrewcmcguire.com/gtm-directory/jobs/index.html): 56 jobs phrased the way an agent asks for them.
 - [By MCP status](https://andrewcmcguire.com/gtm-directory/mcp/index.html) and [by access gate](https://andrewcmcguire.com/gtm-directory/gates/index.html).
 - [Submit a tool or a correction](https://andrewcmcguire.com/gtm-directory/submit.html): free, and placement is not for sale.
 

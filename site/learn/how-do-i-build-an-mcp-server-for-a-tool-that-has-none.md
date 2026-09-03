@@ -18,7 +18,7 @@ Wrap the three or four calls you actually need as tools, not the vendor's whole 
 
 ## Scope it by job, not by endpoint
 
-The mistake is mirroring the API. An agent does not want `GET /v2/contacts` with nineteen query parameters, it wants one tool called something like find a work email that takes a name and a domain. This directory's job vocabulary is exactly that shape: 55 verbs with objects, phrased from the agent's side, and it is a reasonable naming source for your tool surface.
+The mistake is mirroring the API. An agent does not want `GET /v2/contacts` with nineteen query parameters, it wants one tool called something like find a work email that takes a name and a domain. This directory's job vocabulary is exactly that shape: 56 verbs with objects, phrased from the agent's side, and it is a reasonable naming source for your tool surface.
 
 ## The practical checklist
 

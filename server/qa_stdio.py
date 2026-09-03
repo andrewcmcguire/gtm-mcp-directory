@@ -560,7 +560,10 @@ async def run_degradation(tmp: Path) -> None:
     half = write_fixture(
         tmp, "half", strip_layer(live, drop_vocabulary=False, drop_tags=True)
     )
-    print("   fixture: 55-job vocabulary kept, every jobs[] tag removed, restamped")
+    print(
+        "   fixture: %d-job vocabulary kept, every jobs[] tag removed, restamped"
+        % len(live["jobs_vocabulary"]["jobs"])
+    )
     async with Client(spawn(half)) as client:
         body = payload(
             await client.call_tool(

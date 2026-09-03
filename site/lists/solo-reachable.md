@@ -39,7 +39,7 @@ commonpaper.com | [Proposals & Deals](../categories/proposals-deals.md) | [Free 
 | [Composio](../tools/composio.md)
 composio.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [Crustdata](../tools/crustdata.md)
-crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
+crustdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) |
 | [Enrow](../tools/enrow.md)
@@ -53,19 +53,19 @@ fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [Free
 | [Fivetran](../tools/fivetran.md)
 fivetran.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [FullEnrich](../tools/fullenrich.md)
-fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
+fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
 | [Hightouch](../tools/hightouch.md)
 hightouch.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [HubSpot](../tools/hubspot.md)
 hubspot.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +4 |
 | [Hunter.io](../tools/hunter-io.md)
-hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
+hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
 leadfeeder.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) +1 |
 | [LeadMagic](../tools/leadmagic.md)
 leadmagic.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) +2 |
 | [Lusha](../tools/lusha.md)
-lusha.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +4 |
+lusha.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
 | [MeetGeek](../tools/meetgeek.md)
 meetgeek.ai | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
@@ -79,7 +79,7 @@ pipedrive.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](
 | [PredictLeads](../tools/predictleads.md)
 predictleads.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Scrape job postings](../jobs/scrape-job-postings.md) [Detect a company's tech stack](../jobs/detect-technographics.md) +1 |
 | [Prospeo](../tools/prospeo.md)
-prospeo.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +4 |
+prospeo.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
 | [Relevance AI](../tools/relevance-ai.md)
 relevanceai.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Retool](../tools/retool.md)
@@ -105,7 +105,7 @@ zapier.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../
 | [Zapier MCP](../tools/zapier-mcp.md)
 zapier.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [ZoomInfo](../tools/zoominfo.md)
-zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
+zoominfo.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +6 |
 | [Affinity](../tools/affinity.md)
 affinity.co | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Discover warm intro paths](../jobs/discover-warm-intro-paths.md) [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Read CRM records](../jobs/read-crm-records.md) +1 |
 | [Airspeed (formerly Glyphic)](../tools/airspeed.md)
@@ -115,7 +115,7 @@ allegrow.co | [Email Deliverability](../categories/email-deliverability.md) | [P
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
 amplemarket.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Track job changes](../jobs/track-job-changes.md) +4 |
 | [Apollo.io](../tools/apollo-io.md)
-apollo.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
+apollo.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +6 |
 | [Arphie](../tools/arphie.md)
 arphie.ai | [Proposals & Deals](../categories/proposals-deals.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Draft an RFP or questionnaire response](../jobs/draft-rfp-response.md) |
 | [Attention](../tools/attention.md)
@@ -133,23 +133,23 @@ chilipiper.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Paid
 | [Circleback](../tools/circleback.md)
 circleback.ai | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Clay](../tools/clay.md)
-clay.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Build a target account list](../jobs/build-target-account-list.md) [Find a work email address](../jobs/find-work-email.md) +3 |
+clay.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Build a target account list](../jobs/build-target-account-list.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) +4 |
 | [Close (Close CRM)](../tools/close.md)
 close.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Place an outbound call](../jobs/place-outbound-call.md) [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Coresignal](../tools/coresignal.md)
-coresignal.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +1 |
+coresignal.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
 | [Crustdata](../tools/crustdata.md)
-crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
+crustdata.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Cube Software](../tools/cube-software.md)
 cubesoftware.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Model a revenue plan](../jobs/model-revenue-plan.md) |
 | [CUFinder](../tools/cufinder.md)
-cufinder.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) +1 |
+cufinder.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) +2 |
 | [DocuSign](../tools/docusign.md)
 docusign.com | [Proposals & Deals](../categories/proposals-deals.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Send a document for signature](../jobs/send-document-for-signature.md) [Read contract terms](../jobs/read-contract-terms.md) |
 | [Dropcontact](../tools/dropcontact.md)
-dropcontact.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a work email address](../jobs/find-work-email.md) +1 |
+dropcontact.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) +2 |
 | [Explorium](../tools/explorium.md)
-explorium.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +2 |
+explorium.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) +1 |
 | [Fellow](../tools/fellow.md)
@@ -179,7 +179,7 @@ lagrowthmachine.com | [Engagement & Outbound](../categories/engagement-outbound.
 | [Lead411](../tools/lead411.md)
 lead411.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +3 |
 | [lemlist](../tools/lemlist.md)
-lemlist.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Run an email sequence](../jobs/run-email-sequence.md) +4 |
+lemlist.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +5 |
 | [Maildoso](../tools/maildoso.md)
 maildoso.ai | [Email Deliverability](../categories/email-deliverability.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Provision sending infrastructure](../jobs/provision-sending-infrastructure.md) |
 | [Mailforge](../tools/mailforge.md)
@@ -197,7 +197,7 @@ octavehq.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve
 | [Ortto](../tools/ortto.md)
 ortto.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Read outreach performance](../jobs/read-outreach-performance.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +1 |
 | [PhantomBuster](../tools/phantombuster.md)
-phantombuster.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) +1 |
+phantombuster.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) +2 |
 | [Pipedream MCP](../tools/pipedream-mcp.md)
 pipedream.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [RB2B](../tools/rb2b.md)
@@ -209,7 +209,7 @@ reply.io | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](../gat
 | [Responsive (formerly RFPIO)](../tools/responsive.md)
 responsive.io | [Proposals & Deals](../categories/proposals-deals.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Draft an RFP or questionnaire response](../jobs/draft-rfp-response.md) |
 | [RocketReach](../tools/rocketreach.md)
-rocketreach.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
+rocketreach.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) +1 |
 | [Salesforge](../tools/salesforge.md)
 salesforge.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +1 |
 | [Salesforge (Agent Frank)](../tools/salesforge.md)
@@ -241,7 +241,7 @@ versium.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, sel
 | [Waalaxy](../tools/waalaxy.md)
 waalaxy.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) +1 |
 | [Wiza](../tools/wiza.md)
-wiza.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) +2 |
+wiza.co | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) +3 |
 | [Woodpecker](../tools/woodpecker.md)
 woodpecker.co | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) |
 | [Landbot](../tools/landbot.md)
@@ -249,7 +249,7 @@ landbot.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Free to 
 | [Loom](../tools/loom.md)
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
-peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +2 |
+peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +3 |
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) |
 | [Chatbase](../tools/chatbase.md)
@@ -275,7 +275,7 @@ trigify.io | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, se
 | [Unify](../tools/unify.md)
 unifygtm.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Build a target account list](../jobs/build-target-account-list.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +5 |
 | [UpLead](../tools/uplead.md)
-uplead.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +4 |
+uplead.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) +5 |
 | [Vidyard](../tools/vidyard.md)
 vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [Weezly](../tools/weezly.md)

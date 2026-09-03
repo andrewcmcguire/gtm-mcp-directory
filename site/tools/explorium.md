@@ -1,6 +1,6 @@
 # Explorium: MCP server status, API access gate and what it does
 
-> Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup... Official MCP, Paid, self-serve. Checked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Explorium
 [Paid, self-serve](../gates/paid.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-03
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -41,7 +41,7 @@ Multi-source aggregation layer for agent-driven enrichment - an alternative to h
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -81,12 +81,13 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Detect a company's tech stack](../jobs/detect-technographics.md)
 - [Detect a funding or news event](../jobs/detect-funding-or-news-event.md)
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -94,13 +95,16 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://glama.ai/mcp/servers/explorium-ai/mcp-explorium](https://glama.ai/mcp/servers/explorium-ai/mcp-explorium)
 - [https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/](https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/)
 - [https://developers.explorium.ai/reference/setup/getting_your_api_key](https://developers.explorium.ai/reference/setup/getting_your_api_key)
+- [https://developers.explorium.ai/reference/prospects/match_prospects.md](https://developers.explorium.ai/reference/prospects/match_prospects.md)
+- [https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md](https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md)
+- [https://developers.explorium.ai/reference/agentsource-mcp](https://developers.explorium.ai/reference/agentsource-mcp)
 
-4 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://www.explorium.ai/mcp/, https://glama.ai/mcp/servers/explorium-ai/mcp-explorium, https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/, https://developers.explorium.ai/reference/setup/getting_your_api_key
+https://www.explorium.ai/mcp/, https://glama.ai/mcp/servers/explorium-ai/mcp-explorium, https://www.explorium.ai/building-ai-agents/how-to-add-b2b-data-enrichment-to-a-claude-code-agent-step-by-step/, https://developers.explorium.ai/reference/setup/getting_your_api_key, https://developers.explorium.ai/reference/prospects/match_prospects.md, https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md, https://developers.explorium.ai/reference/agentsource-mcp
 
 **Notes, verbatim from the file**
-Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not independently verified. Vendor content implies self-serve sign-up/trial for the MCP and API, but an explicit self-serve-vs-sales-gated pricing page could not be confirmed, so api_gate is left unknown rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://developers.explorium.ai/reference/setup/getting_your_api_key): the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key.
+Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not independently verified. Vendor content implies self-serve sign-up/trial for the MCP and API, but an explicit self-serve-vs-sales-gated pricing page could not be confirmed, so api_gate is left unknown rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> paid from the vendor's own page (https://developers.explorium.ai/reference/setup/getting_your_api_key): the API key is assigned automatically when a subscription package is purchased; cheapest self-serve package is Starter at $99.99 for 2,500 credits, and the $0 100-credit trial is not stated to include a key. 2026-09-03: vendor docs state Match Prospects (POST /v1/prospects/match) accepts full_name and company_name and returns prospect_id (https://developers.explorium.ai/reference/prospects/match_prospects.md), and the professional profile enrichment (POST /v1/prospects/profiles/enrich) returns linkedin, described as the URN of the individual's LinkedIn profile, and linkedin_url_array, described as a list of LinkedIn profile URLs associated with the prospect (https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md); MCP tools match-prospects and enrich-prospects are listed (https://developers.explorium.ai/reference/agentsource-mcp); no unit price is stated there.
 
 **Provenance**
 
@@ -112,7 +116,7 @@ Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-03
 
 - **Data baked**: 2026-09-03
 

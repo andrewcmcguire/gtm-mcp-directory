@@ -1,6 +1,6 @@
 # Hunter.io: MCP server status, API access gate and what it does
 
-> An email-finding and verification tool - given a name, domain, or company, it locates likely professional... Official MCP, Free to start. Checked 2026-08-24.
+> An email-finding and verification tool - given a name, domain, or company, it locates likely professional... Official MCP, Free to start. Checked 2026-09-03.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -15,7 +15,7 @@ Hunter.io
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-03
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 0.
 
@@ -41,7 +41,7 @@ Email-finding/verification utility typically plugged in downstream of a contact-
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://hunter.io/api-documentation#mcp](https://hunter.io/api-documentation#mcp)Probed**: 2026-09-03, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -81,12 +81,13 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 **Jobs it can do**
 
+- [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md)
 - [Find a work email address](../jobs/find-work-email.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 of 293 entries carry at least one tag; 827 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -95,13 +96,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 55 job vocabulary. 271 o
 - [https://hunter.io/api](https://hunter.io/api)
 - [https://fullenrich.com/content/hunter-io-pricing](https://fullenrich.com/content/hunter-io-pricing)
 - [https://www.g2.com/products/hunter/pricing](https://www.g2.com/products/hunter/pricing)
+- [https://hunter.io/api-documentation/v2](https://hunter.io/api-documentation/v2)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://github.com/hunter-io/hunter-mcp, https://hunter.io/pricing, https://hunter.io/api, https://fullenrich.com/content/hunter-io-pricing, https://www.g2.com/products/hunter/pricing
+https://github.com/hunter-io/hunter-mcp, https://hunter.io/pricing, https://hunter.io/api, https://fullenrich.com/content/hunter-io-pricing, https://www.g2.com/products/hunter/pricing, https://hunter.io/api-documentation/v2
 
 **Notes, verbatim from the file**
-The Free tier ($0/mo, 25 searches + 50 verifications/month) includes API access per Hunter's own feature-comparison table, making it one of the few tools here with genuinely self-serve, no-cost API access (rate/volume-limited). Paid tiers: Starter (~$34-49/mo), Growth (~$104-149/mo), Scale (~$209-299/mo depending on annual/monthly billing), Enterprise custom. A separate higher-volume "Data Platform" API product uses credit packages starting around $6,500.
+The Free tier ($0/mo, 25 searches + 50 verifications/month) includes API access per Hunter's own feature-comparison table, making it one of the few tools here with genuinely self-serve, no-cost API access (rate/volume-limited). Paid tiers: Starter (~$34-49/mo), Growth (~$104-149/mo), Scale (~$209-299/mo depending on annual/monthly billing), Enterprise custom. A separate higher-volume "Data Platform" API product uses credit packages starting around $6,500. 2026-09-03: vendor docs state the Email Finder endpoint "finds the most likely email address from a domain name, a first name and a last name" and its response includes linkedin_url (https://hunter.io/api-documentation/v2); no MCP tool name is stated on that page; the docs state no credit is charged if no email is found, and the pricing page states the Free plan includes 50 credits per month (https://hunter.io/pricing).
 
 **Provenance**
 
@@ -113,7 +115,7 @@ The Free tier ($0/mo, 25 searches + 50 verifications/month) includes API access 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-03
 
 - **Data baked**: 2026-09-03
 

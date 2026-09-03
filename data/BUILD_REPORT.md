@@ -56,7 +56,7 @@ api_gate, recount: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61,
 - docs_url present: **30 of 293**
 - api_gate `unknown`: **32 of 293**
 - entries with at least one github.com URL anywhere (phase 6 seed): **66**
-- sources: 1194 URLs total; 279 entries with 2+, 14 with exactly 1, 0 with none
+- sources: 1219 URLs total; 279 entries with 2+, 14 with exactly 1, 0 with none
 - sources carrying a non-URL annotation (preserved, not dropped): **11**
 - solo-reachable (official or community MCP AND gate free or paid): **132**
 - BENCH-TESTED: **0**. This stays 0 until Andrew runs something.
@@ -64,14 +64,14 @@ api_gate, recount: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61,
 mcp_status: `{"community": 26, "n-a": 9, "none-found": 87, "official": 156, "unknown": 15}`
 api_gate: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 61, "n-a": 6, "paid": 113, "unknown": 32}`
 tier: `{"RESEARCHED": 293}`
-last_checked: `{"2026-08-24": 134, "2026-08-25": 27, "2026-09-02": 132}`
+last_checked: `{"2026-08-24": 120, "2026-08-25": 23, "2026-09-02": 131, "2026-09-03": 19}`
 
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
 - probe run used: `2026-09-03`
-- endpoint_status: `{"live": 1, "live-auth-gated": 34, "docs-only": 131, "unreachable": 15, "not-probed": 1, "not-applicable": 111}`
+- endpoint_status: `{"live": 1, "live-auth-gated": 34, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 1, "not-applicable": 111}`
 - official entries whose recorded URL answered as an MCP server (live or auth-gated): **35**
-- official entries whose recorded URL is a docs page, not an endpoint: **106**
+- official entries whose recorded URL is a docs page, not an endpoint: **86**
 - docs-only is not wrong under SCHEMA law 1; it records where to read, not where to connect. Agents need the second.
 
 ### SPEC 2.3 fields present in the shape, unmeasured everywhere
@@ -91,14 +91,14 @@ Source files: `data/jobs.yaml` (the closed vocabulary) and `data/tags.yaml` (the
 
 **What a tag means: the vendor says the tool does this.** Tags are derived from each entry's own what_it_does / ai_features / revops_role text, which is RESEARCHED tier. A tag is not a test result and bench_tested is still 0.
 
-- vocabulary: **55 jobs** in **10 families**, status `closed`
+- vocabulary: **56 jobs** in **10 families**, status `closed`
 - tags.yaml keys (products): **255**, tagged on 2026-08-25 by `machine-pass`
 - entries tagged: **271 of 293**; untagged: **22**
 - canonical products tagged: **255**; untagged: **22**
-- total tag assignments: **827**, mean **3.05** per tagged entry, max **8**
-- flagged needs-review in tags.yaml: **28**
+- total tag assignments: **849**, mean **3.13** per tagged entry, max **9**
+- flagged needs-review in tags.yaml: **49**
 
-Tags per entry: `{"0": 22, "1": 71, "2": 57, "3": 50, "4": 29, "5": 32, "6": 13, "7": 14, "8": 5}`
+Tags per entry: `{"0": 22, "1": 71, "2": 54, "3": 52, "4": 26, "5": 30, "6": 18, "7": 10, "8": 8, "9": 2}`
 
 ### Supply per job, as computed
 
@@ -113,6 +113,7 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 | reverse-lookup-person-from-email | find-people-and-companies | 1 | 1 | 0 | 1 |
 | build-target-account-list | find-people-and-companies | 7 | 7 | 5 | 4 |
 | discover-warm-intro-paths | find-people-and-companies | 4 | 4 | 3 | 2 |
+| find-linkedin-url-from-name-and-company | find-people-and-companies | 22 | 21 | 18 | 19 |
 | find-work-email | get-contact-data | 29 | 29 | 22 | 22 |
 | find-phone-number | get-contact-data | 19 | 19 | 13 | 11 |
 | verify-email-deliverable | get-contact-data | 15 | 15 | 12 | 14 |
@@ -196,6 +197,27 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 | Syncari | 06-syncari | 1 job(s) | thin. Tagged sync-records-between-systems. Its Master MCP Server exposes governed unified data to agents, which is close to query-data-warehouse, but Syncari is an MDM layer over other systems rather than a warehouse. |
 | Versium REACH | 01-versium-reach | 1 job(s) | thin. Tagged verify-email-deliverable only. Identity-graph append on partial contact records is real but the entry does not say what identifiers go in or what comes out, so no enrich or reverse-lookup tag could be justified. |
 | Airbyte | 06-airbyte | 1 job(s) | thin. Tagged sync-records-between-systems. The hosted Context Store and the Agents product line let agents query connected data, which reads close to query-data-warehouse, but Airbyte lands data rather than serving analytical queries over it. |
+| People Data Labs | 01-people-data-labs | 6 job(s) | close-call, tagged. find-linkedin-url-from-name-and-company was added 2026-09-03 by human-pass on the entry's own what_it_does line, which says it returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL. A LinkedIn URL is a social handle and name is a stated input; the entry does not say name plus company in so many words. Strike the tag if that reading is too generous. |
+| Datagma | 01-datagma | 6 job(s) | close-call, tagged. find-linkedin-url-from-name-and-company was added 2026-09-03 by human-pass on the entry's revops_role, which lists find profile among its Clay waterfall actions (enrich person, enrich company, find email, find mobile, find profile, find employees) in a tool described as pulling prospect data directly from LinkedIn. The entry says profile, not LinkedIn URL; the tag reads that as the LinkedIn profile. Strike it if that reading is too generous. |
+| Prospeo | 01-prospeo | 8 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Enrich Person API accepts first name + last name + a company identifier and returns linkedin_url, "The person's public LinkedIn URL" (https://prospeo.io/api-docs/enrich-person). The MCP docs describe enrich_person as returning email and/or mobile, so the MCP surface may not expose the URL. |
+| Lusha | 01-lusha | 8 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Search Contacts looks up contacts by "firstName + lastName + companyName or companyDomain" and returns a preview that includes linkedinUrl (https://docs.lusha.com/apis/openapi/person-api); MCP tool contacts_search. |
+| RocketReach | 01-rocketreach | 4 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: People Lookup takes name ("Must specify along with current_employer") plus current_employer and returns linkedin_url (https://docs.rocketreach.co/reference/people-lookup-api.md); MCP tool person_lookup. |
+| Apollo.io | 01-apollo-io | 9 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: People Enrichment accepts first_name and last_name with organization_name or domain and returns linkedin_url, "The URL for the person's LinkedIn profile" (https://docs.apollo.io/reference/people-enrichment); MCP tool apollo_people_match. |
+| Wiza | 01-wiza | 6 job(s) | close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: an individual reveal takes "a name, company, and domain" and returns the Profile Details fields, which include Profile URL (https://docs.wiza.co/overview/data-dictionary.md). The vendor field is named Profile URL, not LinkedIn URL; MCP tool enrich_contact says "profile data". Strike the tag if that reading is too generous. |
+| FullEnrich | 01-fullenrich | 3 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Look Up People takes "full name combined with a company identifier" and returns social_profiles.professional_network.url with a linkedin.com/in/ example (https://docs.fullenrich.com/api/v2/people/lookup/post.md). The vendor says professional network, not LinkedIn, in the field name. |
+| Hunter.io | 01-hunter-io | 3 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Email Finder takes a domain name, a first name and a last name and its response includes linkedin_url (https://hunter.io/api-documentation/v2). The LinkedIn URL rides along with an email lookup; it is not a standalone finder. |
+| UpLead | 01-uplead | 8 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Person API takes first_name, last_name and domain and returns linkedin_url, one credit per record received (https://docs.uplead.com/). |
+| ZoomInfo | 01-zoominfo | 9 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: MCP tool Enrich Contacts accepts "a name paired with company context" and returns a LinkedIn URL among its fields, one bulk data credit per new contact (https://gtm.ai/content/docs/mcp/tools/enrich-contacts.md). |
+| Clay | 01-clay | 7 job(s) | close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Clay's catalog action "Find a Person's LinkedIn via Name and Company with SMARTe" is described as "This action enables users to find a person's LinkedIn profile using their name and company" (https://www.clay.com/integrations/action/find-a-persons-linkedin-via-name-and-company-smarte). The data comes from a third-party provider inside Clay, and the Clay MCP names no such tool. Strike the tag if that reading is too generous. |
+| Coresignal | 01-coresignal | 5 job(s) | close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the Base Employee search filter takes full_name and experience_company_name and its example records carry a professional-network profile url (https://docs.coresignal.com/employee-api/base-employee-api/endpoints/search-filters.md). The vendor never writes LinkedIn; the tag reads professional network as LinkedIn. Strike it if that reading is too generous. |
+| Crustdata | 01-crustdata, 05-crustdata | 6 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Person Search accepts basic_profile.name and experience.employment_details.company_name filters and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction). |
+| Dropcontact | 01-dropcontact | 5 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the enrich endpoint accepts "first_name + last_name + company (or full_name + company)" and its response includes a linkedin field with a linkedin.com/in/ example (https://developer.dropcontact.com/). |
+| BetterContact | 01-bettercontact | 3 job(s) | close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the enrichment endpoint takes first_name, last_name and company or company_domain and the results carry contact_linkedin_profile_url (https://doc.bettercontact.rocks/api-reference/endpoint/get). The docs do not say the URL is found when it was not supplied; the field is simply in the documented output. Strike the tag if that reading is too generous. |
+| PhantomBuster | 02-phantombuster | 5 job(s) | close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: the vendor catalog page is titled "LinkedIn Profile URL Finder" (https://phantombuster.com/automations/linkedin/4015/linkedin-profile-url-finder). The page body did not render for the fetcher; the input and credit statements come from the search index's rendering of the vendor pages, not a fetched sentence. Strike the tag if that is too thin. |
+| lemlist | 02-lemlist | 8 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Enrich Data accepts firstName, lastName and companyName or companyDomain with a linkedinEnrichment flag and its sample response returns linkedinUrl (https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md). |
+| Surfe | 01-surfe | 8 job(s) | close-call, tagged. Tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Enrich People accepts firstName, lastName and companyName or companyDomain and "Set include.linkedInUrl to return additional profile data" (https://developers.surfe.com/public-015-create-people-bulk-enrichment). The docs name an include flag, not a response field. Strike the tag if that reading is too generous. |
+| CUFinder | 01-cufinder | 5 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Person Enrichment takes full_name and company and returns social.linkedin_url, "Credit usage is 10 credits per request" (https://apidoc.cufinder.io/apis/person-enrichment.md). |
+| Explorium | 01-explorium | 6 job(s) | tagged 2026-09-03 by human-pass on a sourced sentence appended to the entry's notes the same day: Match Prospects accepts full_name and company_name and returns prospect_id, and the profile enrichment returns linkedin_url_array, a list of LinkedIn profile URLs (https://developers.explorium.ai/reference/prospects/enrichments/professional_profile_contact_and_workplace.md). Two calls, not one; MCP tools match-prospects and enrich-prospects. |
 
 ## Duplicates resolved
 
@@ -239,9 +261,9 @@ None.
 
 ## Integrity
 
-- content sha256: `80aed8e1594f3b21bb117b088f8aaf7f98e915ef8a9747d695c9cd50e9c66eed`
-- source sha256: `b6902eb71816c9ca3b7d5ba8105d8bf2e486327980b8976a5a7c828b68216294`
-- jobs.yaml sha256: `e63c27779ba7bdea1617e4ae1e6afaa47193ecbf695e5ceb744a0677da1db948`
-- tags.yaml sha256: `77a593d1de719f44e3816265c624b1cd7eefd1dee059b9f4ac8be0539b4d1b7f`
+- content sha256: `a245a27aa517863220ee6a0e89910b28221b7ecb10e62691583d0e80e7468ad0`
+- source sha256: `3753727bea86e6edabcb64057405f9a530de7c103e9748d8a7e55f978b416c51`
+- jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
+- tags.yaml sha256: `655a642d9a3306f942ac1ca2f690cab3f8f024bea7b5ae5c6550bf99033f95ba`
 - network calls made: 0 (the socket module is disarmed at import)
 
