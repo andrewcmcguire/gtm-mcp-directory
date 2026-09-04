@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [By category](index.md) / Signals & Intent
@@ -26,7 +28,7 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **Paid, self-serve**: 12
 - **Enterprise only**: 10
 
-Source file: 05-signals-intent-abm.md · content sha256 c231f00b603ad67e... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 03350ff153d834c4... · counts reconciled against tools_recount.py at build time.
 
 - [The 19 with an MCP server](../lists/mcp-signals-intent-abm.md)
 

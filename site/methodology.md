@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](index.md) / Methodology
 
@@ -39,7 +41,7 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 293 against 293, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 84e4e93b3c09e2f9230d71a6...
+Data baked 2026-09-04 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 dbb6222adcdd0081fdb13550...
 
 **The duplicates, and why two counts exist**
 
@@ -85,7 +87,7 @@ Data baked 2026-09-03 by build_directory.py (phase 1). Network calls made during
 - [BuzzSumo](tools/buzzsumo.md) 15-buzzsumo
 - [F5Bot](tools/f5bot.md) 15-f5bot
 
-**32 entries have an unknown access gate** and **263 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
+**32 entries have an unknown access gate** and **264 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
 
 **What has not been measured at all**
 

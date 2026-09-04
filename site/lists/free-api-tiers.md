@@ -1,8 +1,10 @@
 # GTM tools with free API tiers: 62 that need no sales call
 
-> 62 go to market tools where a solo operator can get API access without talking to anyone. 49 of them also have an MCP server. Counted 2026-09-03.
+> 62 go to market tools where a solo operator can get API access without talking to anyone. 49 of them also have an MCP server. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -141,4 +143,4 @@ scaledmail.com | [Email Deliverability](../categories/email-deliverability.md) |
 | [Warmup Inbox](../tools/warmup-inbox.md)
 warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Warm up an inbox](../jobs/warm-up-inbox.md) |
 
-Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-04 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

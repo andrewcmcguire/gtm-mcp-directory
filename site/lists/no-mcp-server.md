@@ -1,8 +1,10 @@
 # GTM tools with no MCP server: 87 of 293 checked
 
-> 87 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-03.
+> 87 of 293 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -191,4 +193,4 @@ toplyne.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | unknown i
 | [Ultimate.ai (Ultimate)](../tools/ultimate-ai.md)
 getultimate.ai | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving support tickets)... | [Gate not applicable](../gates/n-a.md) | 2026-09-02 |
 
-Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-04 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

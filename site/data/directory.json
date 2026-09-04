@@ -5,7 +5,7 @@
     "umbrella": "Agent Operator",
     "spec": "directory/product/SPEC.md"
   },
-  "generated_on": "2026-09-03",
+  "generated_on": "2026-09-04",
   "generated_by": "build_directory.py (phase 1)",
   "source": {
     "directory": "..",
@@ -422,7 +422,7 @@
         "05-vector",
         "05-warmly"
       ],
-      "source_sha256": "c231f00b603ad67e143211567dcd58245f75544e0bd26c662f15b63d579be081"
+      "source_sha256": "03350ff153d834c4b78a6748728cbca39820a1f05fa74b45b3d2ea3007098e00"
     },
     {
       "num": "06",
@@ -13209,7 +13209,7 @@
       "tier": "RESEARCHED",
       "last_checked": "2026-09-02",
       "sources": "https://www.usecentralize.com/, https://www.usecentralize.com/pricing, https://www.businesswire.com/news/home/20260729724558/en/Centralize-Raises-19M-Led-by-NEA-to-Bring-Relationship-Intelligence-to-the-Core-of-Enterprise-Sales, https://www.ycombinator.com/launches/LUE-centralize-ai-powered-org-charts-for-enterprise-sales",
-      "notes": "Added 2026-08-25 from a direct pointer that Centralize had just launched a self-service product. Confirmed: Businesswire, dated 2026-07-29, reports $19M led by NEA with Salesforce Ventures, Y Combinator, 20SALES, Ritual Capital and Adverb Ventures participating, announced alongside a free tier that any seller can sign up for. Named integrations: Salesforce, Slack, Gmail, Outlook, Google Calendar, Notion, Gong. SOC 2 Type 2 per the release. THE INTERESTING FACT HERE, and it is a content beat: this is the first entry in the directory where a vendor SELLS \"MCP access\" as a line item on a public pricing page while publishing no server URL, no docs, and no registry listing. That is the inverse of the usual failure mode (a server that exists but is undiscoverable) and it is exactly the case the two-tier honesty rule exists to handle. Re-check on the next sweep; if a server URL appears, this flips to official. CROSS-REFERENCE: The Swarm (01-data-enrichment.md) covers the same warm-path job from the opposite direction, selling a 500M-profile third-party relationship graph rather than mapping the customer's own data. 2026-09-02: re-checked. usecentralize.com/llms.txt is present and does not mention MCP; the pricing page still lists 'MCP access' under Pro ($49/user/month) with no link to docs or setup; web search returns nothing beyond the pricing page. Still a first-party claim with no URL that answers, so unknown stands.",
+      "notes": "Added 2026-08-25 from a direct pointer that Centralize had just launched a self-service product. Confirmed: Businesswire, dated 2026-07-29, reports $19M led by NEA with Salesforce Ventures, Y Combinator, 20SALES, Ritual Capital and Adverb Ventures participating, announced alongside a free tier that any seller can sign up for. Named integrations: Salesforce, Slack, Gmail, Outlook, Google Calendar, Notion, Gong. SOC 2 Type 2 per the release. THE INTERESTING FACT HERE, and it is a content beat: this is the first entry in the directory where a vendor SELLS \"MCP access\" as a line item on a public pricing page while publishing no server URL, no docs, and no registry listing. That is the inverse of the usual failure mode (a server that exists but is undiscoverable) and it is exactly the case the two-tier honesty rule exists to handle. Re-check on the next sweep; if a server URL appears, this flips to official. CROSS-REFERENCE: The Swarm (01-data-enrichment.md) covers the same warm-path job from the opposite direction, selling a 500M-profile third-party relationship graph rather than mapping the customer's own data. 2026-09-02: re-checked. usecentralize.com/llms.txt is present and does not mention MCP; the pricing page still lists 'MCP access' under Pro ($49/user/month) with no link to docs or setup; web search returns nothing beyond the pricing page. Still a first-party claim with no URL that answers, so unknown stands. docs_url is blank on purpose: no docs, developers or api subdomain or path resolves (checked 2026-09-02), so this entry counts in docs_url_missing rather than carrying prose in a URL field.",
       "mcp_status_bucket": "unknown",
       "api_gate_bucket": "free",
       "mcp_urls": [
@@ -13224,7 +13224,7 @@
       "source_annotations": [],
       "vendor_domain": "usecentralize.com",
       "display_name": "Centralize",
-      "docs_url": "(none found - no docs, developers, or api subdomain or path resolves)",
+      "docs_url": null,
       "jobs": [
         "discover-warm-intro-paths",
         "research-account-for-call-prep",
@@ -25326,6 +25326,6 @@
       "display_rank": 147
     }
   ],
-  "content_sha256": "84e4e93b3c09e2f9230d71a6305cb656ef4a30c7ab8a4a306a557f22dcb5541f",
-  "source_sha256": "7cb9ac376dc5b5600f4782dcb145eac0bfac0f8b37e4a1d47772eb1817ed2f7e"
+  "content_sha256": "dbb6222adcdd0081fdb1355043c4eb141cb7ed5746f46ea28604af03095fc9c3",
+  "source_sha256": "296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca"
 }

@@ -1,8 +1,10 @@
 # Community & Dark Social tools with MCP servers: 8 of 16, counted
 
-> 8 of the 16 community & dark social tools in The GTM MCP Directory have an MCP server: 5 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-03.
+> 8 of the 16 community & dark social tools in The GTM MCP Directory have an MCP server: 5 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -72,4 +74,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 
-Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-04 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

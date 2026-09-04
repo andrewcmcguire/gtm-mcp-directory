@@ -1,8 +1,10 @@
 # How many GTM tools have MCP servers? 182 of 293 checked
 
-> 182 of 293 go to market tools have an MCP server: 156 official, 26 community. The rest, and what none found actually means. Counted 2026-09-03.
+> 182 of 293 go to market tools have an MCP server: 156 official, 26 community. The rest, and what none found actually means. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -26,7 +28,7 @@
 | [MCP not applicable](../mcp/n-a.md) | 9 | 3% | An MCP server is not a meaningful question for this entry. |
 | [No MCP found](../mcp/none-found.md) | 87 | 30% | No server was found at the time of the check. That is a statement about the search, not a promise that none exists. |
 
-Counted 2026-09-03. Total: 293 entries across 15 category files, of which 277 are unique products and 16 are the same product listed in a second category.
+Counted 2026-09-04. Total: 293 entries across 15 category files, of which 277 are unique products and 16 are the same product listed in a second category.
 
 ## What none found does not mean
 
@@ -38,7 +40,7 @@ Adoption is not evenly spread and it is not random. Vendors whose product was al
 
 ## The number to watch
 
-This directory rebuilds from source files and republishes the counts each time, so the honest way to read 182 is as a reading taken on 2026-09-03, not a permanent state of the market. The same question asked six months from now will have a different answer, and the point of publishing the date on every number is that you can tell the difference.
+This directory rebuilds from source files and republishes the counts each time, so the honest way to read 182 is as a reading taken on 2026-09-04, not a permanent state of the market. The same question asked six months from now will have a different answer, and the point of publishing the date on every number is that you can tell the difference.
 
 ## Sources
 
@@ -46,7 +48,7 @@ This directory rebuilds from source files and republishes the counts each time, 
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

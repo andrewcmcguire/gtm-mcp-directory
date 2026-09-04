@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [Learn](index.md) / Definitions
@@ -27,7 +29,7 @@ Enrichment vendors differ mostly in where the data comes from and how fresh it i
 | A name and a company | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | An email address | [reverse-look-up a person from an email](../jobs/reverse-lookup-person-from-email.md) | 1 | 0 | 1 |
 
-Counted 2026-09-03. Entry counts, not product counts: a tool listed in two categories is counted in both.
+Counted 2026-09-04. Entry counts, not product counts: a tool listed in two categories is counted in both.
 
 ## Why this category is the exception
 
@@ -44,7 +46,7 @@ Credits. Enrichment is metered, and an agent in a loop is very good at spending 
 - [The GTM MCP Directory, Data and Enrichment](../categories/data-enrichment.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

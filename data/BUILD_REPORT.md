@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-03 by `build_directory.py`. Zero network calls.
+Generated 2026-09-04 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -49,11 +49,11 @@ api_gate, recount: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 62,
 | last_checked | 293 | 0 |
 | sources | 293 | 0 |
 | notes | 293 | 0 |
-| docs_url | 30 | 263 |
+| docs_url | 29 | 264 |
 
 - mcp_url non-empty: **276 of 293** (200 parse to at least one URL, 51 point at github.com)
 - mcp_auth non-empty: **288 of 293**
-- docs_url present: **30 of 293**
+- docs_url present: **29 of 293**
 - api_gate `unknown`: **32 of 293**
 - entries with at least one github.com URL anywhere (phase 6 seed): **66**
 - sources: 1219 URLs total; 279 entries with 2+, 14 with exactly 1, 0 with none
@@ -249,7 +249,7 @@ Editorial, not build failures. The markdown is the source of truth; the build re
 - SCHEMA law 1 risk (official or community with no parseable mcp_url): **1** 13-arphie
 - Thin sourcing (fewer than 2 source URLs): **14**
 - api_gate unknown: **32**
-- docs_url missing: **263**
+- docs_url missing: **264**
 
 ## Source file fixes made by this build
 
@@ -261,8 +261,8 @@ None.
 
 ## Integrity
 
-- content sha256: `84e4e93b3c09e2f9230d71a6305cb656ef4a30c7ab8a4a306a557f22dcb5541f`
-- source sha256: `7cb9ac376dc5b5600f4782dcb145eac0bfac0f8b37e4a1d47772eb1817ed2f7e`
+- content sha256: `dbb6222adcdd0081fdb1355043c4eb141cb7ed5746f46ea28604af03095fc9c3`
+- source sha256: `296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
 - network calls made: 0 (the socket module is disarmed at import)

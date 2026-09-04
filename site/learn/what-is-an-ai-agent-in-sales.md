@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [Learn](index.md) / Definitions
@@ -34,7 +36,7 @@ Across 293 tools, 182 are callable through MCP and 132 are reachable by one pers
 | Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 26 | 23 |
 | Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 18 | 14 |
 
-Counted 2026-09-03. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
+Counted 2026-09-04. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
 
 ## The honest limit
 
@@ -46,7 +48,7 @@ Nobody has run these tools for this directory. 1 are bench tested. Every number 
 - [The GTM MCP Directory, by job](../jobs/index.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

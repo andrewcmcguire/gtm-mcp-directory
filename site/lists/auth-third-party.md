@@ -1,8 +1,10 @@
 # GTM MCP servers behind a third party connector platform: 7 tools, counted
 
-> 7 of the 182 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-03.
+> 7 of the 182 GTM tools with an MCP server use a third party connector platform's auth. The verbatim auth field for each one is printed beside it. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -31,4 +33,4 @@ weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weez
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential. | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-04 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

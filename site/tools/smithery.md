@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [MCP Layer](../categories/mcp-infrastructure.md) /
@@ -64,7 +66,7 @@ free to browse; some individual listed servers charge per-call (e.g. one listed 
 
 No documentation URL recorded.
 
-263 of 293 entries are in the same position. Blank is legal and it is published as blank.
+264 of 293 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -103,6 +105,6 @@ Smithery lists 17,000+ MCP servers by its own count. Because Smithery's agent.pw
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-03
+- **Data baked**: 2026-09-04
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

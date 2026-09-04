@@ -1,8 +1,10 @@
 # AI SDR tools with MCP servers: 10 of 23, counted
 
-> 10 of the 23 ai sdrs tools in this directory have an MCP server: 7 official and 3 community. The list with server URLs and access gates. Counted 2026-09-03.
+> 10 of the 23 ai sdrs tools in this directory have an MCP server: 7 official and 3 community. The list with server URLs and access gates. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -83,7 +85,7 @@ An AI-powered revenue automation platform for enterprise sales teams, positioned
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 | [Gate unknown](../gates/unknown.md) | 3 |
 
-Counted 2026-09-03. Source file 04-ai-sdr-agents.md, content sha256 b6c65bd7529c7bdc...
+Counted 2026-09-04. Source file 04-ai-sdr-agents.md, content sha256 b6c65bd7529c7bdc...
 
 ## Sources
 
@@ -91,7 +93,7 @@ Counted 2026-09-03. Source file 04-ai-sdr-agents.md, content sha256 b6c65bd7529c
 - [AI SDRs tools with MCP servers](../lists/mcp-ai-sdr-agents.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

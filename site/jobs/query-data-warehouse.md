@@ -1,8 +1,10 @@
 # Query a data warehouse: 2 GTM tools, 2 with an official MCP server
 
-> Run analytical queries against the modeled GTM data, not against the CRM. 2 of the 2 entries tagged with this job carry an MCP server of some kind, 2 of them official. Counted 2026-09-03 from the directory data.
+> Run analytical queries against the modeled GTM data, not against the CRM. 2 of the 2 entries tagged with this job carry an MCP server of some kind, 2 of them official. Counted 2026-09-04 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -22,7 +24,7 @@ Run analytical queries against the modeled GTM data, not against the CRM.
 - **no MCP found**: 0
 - **solo reachable**: 2
 
-2 of the 2 entries tagged with this job carry an MCP server of some kind, 2 of them official. All 2 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+2 of the 2 entries tagged with this job carry an MCP server of some kind, 2 of them official. All 2 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-04 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

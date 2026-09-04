@@ -95,6 +95,16 @@ SITE_ROUTE = "andrewcmcguire.com/gtm-directory"
 # on the site is relative and unaffected.
 SITE_BASE = "https://andrewcmcguire.com/gtm-directory"
 PACKAGE_NAME = "gtm-mcp-directory"
+
+# The publisher provenance line. One line, in the footer of every page, in every markdown twin and
+# in llms.txt. Attribution, not a CTA: HANDOFF 2.7 removed gtmsignals.co as a content pillar and
+# this does not put it back.
+PROVENANCE_TEXT = ("Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes "
+                   "https://gtmsignals.co and https://justsaid.ai.")
+PROVENANCE_HTML = ('Maintained by <a href="https://andrewcmcguire.com" rel="noopener">Andrew '
+                   'McGuire</a>, same publisher as <a href="https://gtmsignals.co" '
+                   'rel="noopener">gtmsignals.co</a> and <a href="https://justsaid.ai" '
+                   'rel="noopener">justsaid.ai</a>.')
 SERVER_ID = "gtm-directory"
 
 EM = "\u2014"
@@ -103,6 +113,28 @@ EM = "\u2014"
 # ----------------------------------------------------------------------------------
 # text helpers
 # ----------------------------------------------------------------------------------
+
+def clean_path(p: str) -> str:
+    """Map a generated .html path to the extensionless URL Cloudflare Pages actually serves.
+
+    Pages 308-redirects foo.html to /foo and foo/index.html to /foo/. Emitting the .html form in a
+    canonical tag, a sitemap <loc>, a JSON-LD url or an internal href pointed every crawler at a
+    redirect, and the canonical on the redirect target pointed back at the .html URL: a
+    canonical-to-redirect loop that blocked indexing of all 465 pages until 2026-09-04.
+    Every URL this generator emits goes through here. Fragments survive.
+    """
+    base, sep, frag = p.partition("#")
+    if base == "index.html" or base.endswith("/index.html"):
+        base = base[:-len("index.html")]
+    elif base.endswith(".html"):
+        base = base[:-5]
+    return base + (sep + frag if sep else "")
+
+
+def abs_url(p: str) -> str:
+    """An absolute, extensionless, non-redirecting URL for a site relative page path."""
+    return SITE_BASE.rstrip("/") + "/" + clean_path(p.lstrip("/"))
+
 
 def detype(s: str) -> str:
     """Normalise em dashes out of source prose. Disclosed on /methodology.html."""
@@ -891,7 +923,7 @@ def head(title, desc, rel, extra="", ld=None, canon=None, robots="index,follow")
     <!--MDLINK--> is replaced in the markdown-twin pass with a link to this page's .md twin."""
     canon_tag = ""
     if canon is not None:
-        canon_tag = f'<link rel="canonical" href="{raw_esc(SITE_BASE.rstrip("/") + "/" + canon)}">\n'
+        canon_tag = f'<link rel="canonical" href="{raw_esc(abs_url(canon))}">\n'
     blocks = ""
     if ld:
         for obj in (ld if isinstance(ld, list) else [ld]):
@@ -919,7 +951,7 @@ def crumb_ld(rel, trail):
     for i, (label, href) in enumerate(trail, start=1):
         node = {"@type": "ListItem", "position": i, "name": detype(label)}
         if href:
-            node["item"] = SITE_BASE.rstrip("/") + "/" + href
+            node["item"] = abs_url(href)
         items.append(node)
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
 
@@ -932,12 +964,12 @@ def itemlist_ld(name, desc, url_path, rows):
         "@type": "ItemList",
         "name": detype(name),
         "description": detype(desc),
-        "url": SITE_BASE.rstrip("/") + "/" + url_path,
+        "url": abs_url(url_path),
         "numberOfItems": len(rows),
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "itemListElement": [
             {"@type": "ListItem", "position": i, "name": detype(n),
-             "url": SITE_BASE.rstrip("/") + "/" + p}
+             "url": abs_url(p)}
             for i, (n, p) in enumerate(rows, start=1)
         ],
     }
@@ -1027,7 +1059,8 @@ Reconciled: build {num(r['reconciliation']['build_total'])} vs recount
 {num(r['reconciliation']['recount_total'])}.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
-Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>
+{PROVENANCE_HTML}
 </div>
 </div>
 </footer>
@@ -1696,7 +1729,7 @@ it is disclosed on the <a href="{rel}methodology.html">methodology page</a>.</p>
         "featureList": [job_label(d, j) for j in e["jobs"]],
         "subjectOf": {
             "@type": "Dataset", "name": "The GTM MCP Directory",
-            "url": SITE_BASE.rstrip("/") + "/data.html",
+            "url": abs_url("data.html"),
         },
     }
     if e["mcp_urls"]:
@@ -2567,11 +2600,11 @@ def build_methodology(d, r, entries, byid, out: Path):
         "headline": "How an entry in The GTM MCP Directory is made",
         "description": "The five laws every entry survives, the two honesty tiers, the counting "
                        "authority, and every place this build is thin, named rather than padded.",
-        "url": SITE_BASE.rstrip("/") + "/methodology.html",
+        "url": abs_url("methodology.html"),
         "author": {"@type": "Person", "name": "Andrew McGuire"},
         "dateModified": d["generated_on"],
         "about": {"@type": "Dataset", "name": "The GTM MCP Directory",
-                  "url": SITE_BASE.rstrip("/") + "/data.html"},
+                  "url": abs_url("data.html")},
     }
     page = (head("Methodology: how an entry is made and where this build is thin",
                  f"The five laws an entry survives, the two honesty tiers "
@@ -2743,7 +2776,7 @@ def build_submit(d, r, out: Path):
                  ld=[{
                      "@context": "https://schema.org", "@type": "WebPage",
                      "name": "Submit a tool to The GTM MCP Directory",
-                     "url": SITE_BASE.rstrip("/") + "/submit.html",
+                     "url": abs_url("submit.html"),
                      "description": "Listing is free, verification is mandatory, and placement is "
                                     "not for sale. The ten step checklist every submission goes "
                                     "through.",
@@ -6127,7 +6160,7 @@ def dataset_ld(d, r, path="data.html"):
             f"tagged with, and the source URLs the facts came from. "
             f"{c['mcp_status']['official']} entries have an official MCP server."
         ),
-        "url": base + "/" + path,
+        "url": abs_url(path),
         "sameAs": REPO_URL,
         "keywords": ["MCP", "Model Context Protocol", "go to market", "GTM", "AI agents",
                      "sales tools", "RevOps", "data enrichment", "API access"],
@@ -6341,10 +6374,11 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None):
       f"{num(c['canonical_entries'])} of them.")
     A(f"- [The data page]({b}/data.html): what every field means and how to read it without getting "
       f"it wrong.")
-    A(f"- **Markdown twins**: every HTML page on this site has a markdown twin at the same path "
-      f"with a `.md` extension. Same content, no navigation, no styling, no scripts. Links inside a "
-      f"twin point at other twins, so the whole site is crawlable in markdown. Example: "
-      f"`{b}/learn/what-is-an-mcp-server.md`.")
+    A(f"- **Markdown twins**: every HTML page on this site has a markdown twin at the same file "
+      f"path with a `.md` extension. Page URLs are extensionless, so append `.md` to a page path "
+      f"and add `index` to a directory path. Same content, no navigation, no styling, no scripts. "
+      f"Links inside a twin point at other twins, so the whole site is crawlable in markdown. "
+      f"Examples: `{b}/learn/what-is-an-mcp-server.md`, `{b}/tools/index.md`.")
     A(f"- [sitemap.xml]({b}/sitemap.xml): all {n_pages} pages.")
     A("")
     if board:
@@ -6436,11 +6470,18 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None):
     A("")
     A(f"Contact and corrections: {REPO_URL}")
     A("")
+    A(PROVENANCE_TEXT)
+    A("")
     A(f"Built by Andrew McGuire. Agent Operator. The GTM MCP Directory is a product; Agent Operator "
       f"is the umbrella. Brendan Short's The Signal (https://www.thesignal.club) defines and "
       f"analyses the GTM engineer role; this is a utility for people doing the job.")
     A("")
-    write(out / "llms.txt", "\n".join(L))
+    text = "\n".join(L)
+    # Every page URL in this file must be the extensionless form Pages serves, not the .html form
+    # it redirects away from.
+    text = re.sub(re.escape(b) + r"/([A-Za-z0-9_./-]*[.]html)",
+                  lambda mo: b + "/" + clean_path(mo.group(1)), text)
+    write(out / "llms.txt", text)
 
 
 def build_sitemap(d, out: Path):
@@ -6451,7 +6492,7 @@ def build_sitemap(d, out: Path):
     for p in paths:
         prio = "1.0" if p == "index.html" else (
             "0.9" if p.startswith(("learn/", "lists/")) or p.endswith("/index.html") else "0.7")
-        items.append(f"  <url>\n    <loc>{b}/{p}</loc>\n"
+        items.append(f"  <url>\n    <loc>{b}/{clean_path(p)}</loc>\n"
                      f"    <lastmod>{d['generated_on']}</lastmod>\n"
                      f"    <priority>{prio}</priority>\n  </url>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -6593,6 +6634,8 @@ def html_to_markdown(doc: str, rel_depth: int) -> str:
                  f"Site map for machines: [llms.txt]({up}llms.txt). "
                  f"The whole dataset: [directory.json]({up}data/directory.json).*")
     front.append("")
+    front.append(f"*{PROVENANCE_TEXT}*")
+    front.append("")
     front.append("---")
     front.append("")
     return "\n".join(front) + body + "\n"
@@ -6660,6 +6703,37 @@ def build_markdown_twins(out: Path):
 
 
 # ----------------------------------------------------------------------------------
+# extensionless internal links
+# ----------------------------------------------------------------------------------
+
+_HREF_HTML_RE = re.compile(r'href="([^"?:]*[.]html)(#[^"]*)?"')
+
+
+def extensionless_links(out: Path) -> int:
+    """Rewrite every internal .html href in the finished HTML to the form Pages actually serves.
+
+    Cloudflare Pages 308-redirects foo.html to /foo and foo/index.html to /foo/, so linking the
+    .html form sent every crawler and every reader through a redirect on every internal link.
+    Runs after the markdown twins are built, so the twins are generated from the .html links and
+    still map cleanly onto their .md siblings. Relative depth is untouched: /tools/zapier and
+    /tools/zapier.html resolve ../ to the same directory.
+    """
+    n = 0
+
+    def one(mo):
+        nonlocal n
+        n += 1
+        return 'href="%s%s"' % (clean_path(mo.group(1)) or "./", mo.group(2) or "")
+
+    for p in sorted(out.rglob("*.html")):
+        t = p.read_text(encoding="utf-8")
+        t2 = _HREF_HTML_RE.sub(one, t)
+        if t2 != t:
+            p.write_text(t2, encoding="utf-8", newline="\n")
+    return n
+
+
+# ----------------------------------------------------------------------------------
 # checks
 # ----------------------------------------------------------------------------------
 
@@ -6674,8 +6748,10 @@ def check(out: Path, d, expect_pages):
         t = p.read_text(encoding="utf-8")
         if EM in t:
             problems.append(f"em dash in {rp}")
-        # HANDOFF 2.7: the retired domain must not appear on any public surface.
-        if ("gtm" + "signals") in t.lower():
+        # HANDOFF 2.7: the retired domain must not come back as a content pillar, banner or
+        # CTA. The one appearance allowed since 2026-09-04 is the publisher provenance line, which
+        # is attribution. Strip that exact URL, then anything left is a regression.
+        if ("gtm" + "signals") in t.lower().replace(PROVENANCE_HTML.lower(), ""):
             problems.append(f"retired-domain reference in {rp}")
         for tag in ("<html", "</html>", "<title>", "</body>", "assets/site.css"):
             if tag not in t:
@@ -6706,10 +6782,23 @@ def check(out: Path, d, expect_pages):
             u = m.group(1)
             if re.search(r'\.(css|js|png|jpg|jpeg|svg|woff2?|ttf)(\?|$)', u):
                 problems.append(f"external asset {u} in {rp}")
-        # links resolve
+        # the canonical must be the URL Pages serves, not one it redirects away from
+        mc = re.search(r'<link rel="canonical" href="([^"]+)">', t)
+        if mc and mc.group(1).endswith(".html"):
+            problems.append(f"canonical points at a redirecting .html URL in {rp}")
+        # links resolve. Asset and data links still carry an extension.
         for m in re.finditer(r'href="([^"#:]+\.(?:html|md|json|txt|xml))(#[^"]*)?"', t):
             if not (p.parent / m.group(1)).resolve().exists():
                 problems.append(f"broken link {m.group(1)} in {rp}")
+        # page links are extensionless after the rewrite pass. Resolve each one back to the file
+        # Cloudflare Pages would serve for it, so a dead link is still caught at build time.
+        for m in re.finditer(r'href="([^"#:]*)(#[^"]*)?"', t):
+            h = m.group(1)
+            if not h or re.search(r"[.](?:html|md|json|txt|xml|css|js|png|jpg|svg|ico|webmanifest)$", h):
+                continue
+            tgt = p.parent / (h + "index.html" if h.endswith("/") else h + ".html")
+            if not tgt.resolve().exists():
+                problems.append(f"broken extensionless link {h} in {rp}")
 
     # the markdown twins
     mds = sorted(p for p in out.rglob("*.md") if p.name not in KEEP_ROOT_MD)
@@ -6733,7 +6822,14 @@ def check(out: Path, d, expect_pages):
                  "data/directory.json", "data/build_report.json", "_headers"):
         if not (out / must).exists():
             problems.append(f"missing {must}")
+    smap = (out / "sitemap.xml").read_text(encoding="utf-8") if (out / "sitemap.xml").exists() else ""
+    if ".html<" in smap or ".html\n" in smap:
+        problems.append("sitemap.xml still emits .html URLs, which Pages 308-redirects")
     llms = (out / "llms.txt").read_text(encoding="utf-8") if (out / "llms.txt").exists() else ""
+    if SITE_BASE.rstrip("/") + "/index.html" in llms or ".html)" in llms:
+        problems.append("llms.txt still links .html page URLs, which Pages 308-redirects")
+    if PROVENANCE_TEXT not in llms:
+        problems.append("llms.txt is missing the publisher provenance line")
     if EM in llms:
         problems.append("em dash in llms.txt")
     if str(d["counts"]["entries"]) not in llms:
@@ -6814,6 +6910,7 @@ def main():
     n_sitemap = build_sitemap(d, out)
     build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board)
     n_md = build_markdown_twins(out)
+    n_links = extensionless_links(out)
 
     print(f"index               1")
     print(f"tool pages          {len(canon)}")
@@ -6834,6 +6931,7 @@ def main():
     print(f"TOTAL HTML          {total}")
     print(f"markdown twins      {n_md}")
     print(f"sitemap urls        {n_sitemap}")
+    print(f"internal links      {n_links} rewritten extensionless")
     print(f"search index        {n_index} products")
 
     if args.check:

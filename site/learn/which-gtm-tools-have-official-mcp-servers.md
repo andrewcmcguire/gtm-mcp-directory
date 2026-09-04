@@ -1,8 +1,10 @@
 # Which GTM tools have official MCP servers? 156 of 293, counted
 
-> 156 of 293 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-03.
+> 156 of 293 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -38,7 +40,7 @@ Official is a strict test here. The vendor has to ship and maintain the server i
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 3 | 0 | 17 | [open](../lists/mcp-forecasting-revenue.md) |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 2 | 1 | 14 | [open](../lists/mcp-enablement-coaching.md) |
 
-Counted 2026-09-03 from directory.json, reconciled against tools_recount.py. Entry counts: 16 products appear in two categories and are counted in both here.
+Counted 2026-09-04 from directory.json, reconciled against tools_recount.py. Entry counts: 16 products appear in two categories and are counted in both here.
 
 ## The full list
 
@@ -89,7 +91,7 @@ An official server is not the same as a server you can use. 35 of these sit behi
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,8 +1,10 @@
 # Which tools can an AI agent use to book a meeting? Counted
 
-> 10 of the 26 GTM tools tagged with this job ship an official MCP server, 10 are reachable without a contract. The full list, counted 2026-09-03.
+> 10 of the 26 GTM tools tagged with this job ship an official MCP server, 10 are reachable without a contract. The full list, counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -14,7 +16,7 @@
 
 **The short answer**
 
-23 products in this directory are tagged with this job. 10 of the 26 tagged entries have an official MCP server and 2 have a community one, so an agent can call 12 of them directly. 10 are reachable by one person without a contract. Counted 2026-09-03.
+23 products in this directory are tagged with this job. 10 of the 26 tagged entries have an official MCP server and 2 have a community one, so an agent can call 12 of them directly. 10 are reachable by one person without a contract. Counted 2026-09-04.
 
 Booking is where an agent stops being a research tool and starts holding somebody else's time. It is also the job where the difference between reading a calendar and writing to one is worth being deliberate about: 12 entries are tagged with the read side, 26 with the write side.
 
@@ -71,7 +73,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

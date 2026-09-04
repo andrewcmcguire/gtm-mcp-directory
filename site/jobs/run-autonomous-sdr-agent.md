@@ -1,8 +1,10 @@
 # Run an autonomous SDR agent: 16 GTM tools, 6 with an official MCP server
 
-> A packaged agent that claims to prospect, write, send and follow up with limited human input. Almost always vendor-stated and never bench-tested here. 6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-03 from the directory data.
+> A packaged agent that claims to prospect, write, send and follow up with limited human input. Almost always vendor-stated and never bench-tested here. 6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-04 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -22,7 +24,7 @@ A packaged agent that claims to prospect, write, send and follow up with limited
 - **no MCP found**: 10
 - **solo reachable**: 4
 
-6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. 12 of the 16 tagged entries are distinct products; the other 4 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-03 from directory.json.
+6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. 12 of the 16 tagged entries are distinct products; the other 4 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-04 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 

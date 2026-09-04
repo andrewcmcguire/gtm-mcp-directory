@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [Learn](index.md) / Definitions
@@ -32,7 +34,7 @@ This site does not use agent ready as a rating, because a rating nobody can repr
 
 An impressive number of tools describe themselves as built for agents while shipping nothing an external agent can call. The two claims live in different places: one on the homepage, one in the developer docs. The directory records the second and cites it.
 
-The reverse trap is real too. A tool with no MCP server and a clean, documented REST API is often more usable to an agent than a tool with a thin server and no docs. 263 of 293 entries have no documentation URL recorded at all, which is its own signal.
+The reverse trap is real too. A tool with no MCP server and a clean, documented REST API is often more usable to an agent than a tool with a thin server and no docs. 264 of 293 entries have no documentation URL recorded at all, which is its own signal.
 
 ## The phrase itself
 
@@ -44,7 +46,7 @@ Agent ready is in active commercial use as product language by at least one larg
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

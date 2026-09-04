@@ -1,8 +1,10 @@
 # GTM tools by MCP auth type: OAuth, API key or neither
 
-> How the 182 GTM tools with an MCP server authenticate. OAuth, API key, both, or not recorded, with the verbatim auth field on every row. Counted 2026-09-03.
+> How the 182 GTM tools with an MCP server authenticate. OAuth, API key, both, or not recorded, with the verbatim auth field on every row. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /

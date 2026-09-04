@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [Conversation Intel](../categories/conversation-intel.md) /
@@ -62,7 +64,7 @@ enterprise-only (no pricing page exists, the only CTA is schedule-your-demo, and
 
 No documentation URL recorded.
 
-263 of 293 entries are in the same position. Blank is legal and it is published as blank.
+264 of 293 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -105,6 +107,6 @@ Included as the field-sales / in-person contrast case to the video-call-centric 
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-03
+- **Data baked**: 2026-09-04
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

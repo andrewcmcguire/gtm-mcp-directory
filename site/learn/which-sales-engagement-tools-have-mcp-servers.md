@@ -1,8 +1,10 @@
 # Sales engagement and outbound tools with MCP servers: 19 of 27, counted
 
-> 19 of the 27 engagement & outbound tools in this directory have an MCP server: 18 official and 1 community. The list with server URLs and access gates. Counted 2026-09-03.
+> 19 of the 27 engagement & outbound tools in this directory have an MCP server: 18 official and 1 community. The list with server URLs and access gates. Counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -92,7 +94,7 @@ Multi-channel sales engagement platform (email, phone, social, SMS) with an AI S
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
 | [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-03. Source file 02-engagement-outbound.md, content sha256 d39de698365e1b83...
+Counted 2026-09-04. Source file 02-engagement-outbound.md, content sha256 d39de698365e1b83...
 
 ## Sources
 
@@ -100,7 +102,7 @@ Counted 2026-09-03. Source file 02-engagement-outbound.md, content sha256 d39de6
 - [Engagement & Outbound tools with MCP servers](../lists/mcp-engagement-outbound.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

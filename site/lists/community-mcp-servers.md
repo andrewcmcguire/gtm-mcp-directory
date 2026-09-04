@@ -1,8 +1,10 @@
 # Community MCP servers: 26 GTM tools with a third party server
 
-> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-03 across 293 directory entries.
+> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-04 across 293 directory entries.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -95,4 +97,4 @@ OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) aga
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-03 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-04 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

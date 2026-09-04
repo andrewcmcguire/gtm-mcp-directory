@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [Learn](index.md) / How to actually do it
@@ -20,7 +22,7 @@ Check five places in this order: this directory, the vendor's own developer docu
 
 - **This directory.** 293 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
 
-- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 30 of 293 entries here record a documentation URL, which tells you something in itself about the other 263.
+- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 29 of 293 entries here record a documentation URL, which tells you something in itself about the other 264.
 
 - **Their GitHub organisation.** 66 entries here already carry a github.com URL somewhere in their fields and 51 of those are in the mcp_url field itself, which usually means a local server you run yourself.
 
@@ -47,7 +49,7 @@ Ask who built it before you ask whether it works. A wrapper published by an inte
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, submit a tool](../submit.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

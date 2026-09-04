@@ -1,8 +1,10 @@
 # Which call recording tools can an AI agent fetch transcripts from? Counted
 
-> 15 of the 20 GTM tools tagged with this job ship an official MCP server, 11 are reachable without a contract. The full list, counted 2026-09-03.
+> 15 of the 20 GTM tools tagged with this job ship an official MCP server, 11 are reachable without a contract. The full list, counted 2026-09-04.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
 
 ---
 [Directory](../index.md) /
@@ -14,7 +16,7 @@
 
 **The short answer**
 
-20 products in this directory are tagged with this job. 15 of the 20 tagged entries have an official MCP server and 3 have a community one, so an agent can call 18 of them directly. 11 are reachable by one person without a contract. Counted 2026-09-03.
+20 products in this directory are tagged with this job. 15 of the 20 tagged entries have an official MCP server and 3 have a community one, so an agent can call 18 of them directly. 11 are reachable by one person without a contract. Counted 2026-09-04.
 
 A transcript is the only place most of what a buyer actually said is written down, which makes this the highest value read in the whole stack for an agent preparing for a call or writing a follow up.
 
@@ -81,7 +83,7 @@ It is not a ranking and it is not a recommendation. A job tag means the vendor s
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-03",
+  "generated_on": "2026-09-04",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
   "entries_parsed": 293,
@@ -231,8 +231,8 @@
         "missing": 0
       }
     },
-    "docs_url_present": 30,
-    "docs_url_missing": 263,
+    "docs_url_present": 29,
+    "docs_url_missing": 264,
     "mcp_url_present": 276,
     "mcp_url_missing": 17,
     "mcp_url_with_parseable_url": 200,
@@ -1450,7 +1450,7 @@
     },
     "docs_url_missing": {
       "rule": "SPEC 3.4: docs_url is blank-legal, but it is the seed for the whole docs intel layer (phase 6b/6c).",
-      "count": 263,
+      "count": 264,
       "entry_ids": [
         "01-apollo-io",
         "01-bettercontact",
@@ -1550,6 +1550,7 @@
         "05-6sense",
         "05-albacross",
         "05-bombora",
+        "05-centralize",
         "05-champify",
         "05-clearbit-reveal",
         "05-common-room",
@@ -1840,6 +1841,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "84e4e93b3c09e2f9230d71a6305cb656ef4a30c7ab8a4a306a557f22dcb5541f",
-  "source_sha256": "7cb9ac376dc5b5600f4782dcb145eac0bfac0f8b37e4a1d47772eb1817ed2f7e"
+  "content_sha256": "dbb6222adcdd0081fdb1355043c4eb141cb7ed5746f46ea28604af03095fc9c3",
+  "source_sha256": "296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca"
 }

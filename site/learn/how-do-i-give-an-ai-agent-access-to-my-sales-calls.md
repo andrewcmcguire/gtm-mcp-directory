@@ -4,6 +4,8 @@
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
 ---
 [Directory](../index.md) /
 [Learn](index.md) / How to actually do it
@@ -24,7 +26,7 @@ A transcript contains other people's words, captured under a notice that almost 
 
 - **The recorder's own MCP server.** Cleanest, and the most common: 15 of the tagged entries have one.
 
-- **The recorder's REST API with a thin wrapper.** Fine, and about an afternoon of work if the API is documented. 30 of 293 entries in this directory record a documentation URL.
+- **The recorder's REST API with a thin wrapper.** Fine, and about an afternoon of work if the API is documented. 29 of 293 entries in this directory record a documentation URL.
 
 - **A proxy platform.** 9 entries are tagged [proxy tool calls to saas apps](../jobs/proxy-tool-calls-to-saas.md). Fastest, and it puts a third party between your agent and your recordings, which for call data is a bigger decision than it is for firmographics.
 
@@ -70,7 +72,7 @@ The read only chain above is the highest value, lowest risk agent work in the wh
 - [The GTM MCP Directory, Conversation Intel](../categories/conversation-intel.md) this site
 - [The GTM MCP Directory, fetch a call transcript](../jobs/fetch-call-transcript.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-03. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-04. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 
