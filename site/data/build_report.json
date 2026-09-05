@@ -283,7 +283,7 @@
     },
     "official_with_live_endpoint": 35,
     "official_docs_only": 86,
-    "endpoint_probe_date": "2026-09-03",
+    "endpoint_probe_date": "2026-09-04",
     "jobs_tagged": 271,
     "jobs_untagged": 22,
     "jobs_assignments": 849,
@@ -1841,6 +1841,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "dbb6222adcdd0081fdb1355043c4eb141cb7ed5746f46ea28604af03095fc9c3",
+  "content_sha256": "0cc778de5c4cf96e525d35f8b013711560cb098208aa4c307021a9932de3de75",
   "source_sha256": "296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca"
 }

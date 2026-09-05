@@ -41,9 +41,9 @@ Web-research/enrichment layer used to supplement contact databases with live com
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)Probed**: 2026-09-03, HTTP 200
+- **Docs URL[https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
 mcp_status, verbatim from the file:
 

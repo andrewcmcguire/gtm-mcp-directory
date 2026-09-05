@@ -14,7 +14,7 @@
 
 ## The 156 GTM tools with an official MCP server
 
-Official means first party. The vendor ships and maintains the server itself, and a wrapper built by Zapier, viaSocket, Composio or any other third party does not count no matter how well it works. 155 of these 156 entries carry a parseable URL in the mcp_url field; the rest claim a server in prose without one, which is recorded as a risk on the [methodology page](../methodology.md) rather than cleaned up quietly. Probed live on 2026-09-03: 35 of the official entries record a URL that answered as an MCP server, and 86 record a documentation page rather than an endpoint. Each tool page says which.
+Official means first party. The vendor ships and maintains the server itself, and a wrapper built by Zapier, viaSocket, Composio or any other third party does not count no matter how well it works. 155 of these 156 entries carry a parseable URL in the mcp_url field; the rest claim a server in prose without one, which is recorded as a risk on the [methodology page](../methodology.md) rather than cleaned up quietly. Probed live on 2026-09-04: 35 of the official entries record a URL that answered as an MCP server, and 86 record a documentation page rather than an endpoint. Each tool page says which.
 
 | Tool | Category | Server URL | Auth | Gate |
 |---|---|---|---|---|

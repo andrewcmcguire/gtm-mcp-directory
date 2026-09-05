@@ -41,9 +41,9 @@ Low-friction, self-serve entry point for building an AI-assisted inbound chat fl
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)Probed**: 2026-09-03, HTTP 200
+- **Docs URL[https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)Probed**: 2026-09-04, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 

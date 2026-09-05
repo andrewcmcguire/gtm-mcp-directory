@@ -41,9 +41,9 @@ Upstream contact/company data source feeding CRM, enrichment, and outbound tooli
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: answered, asking for a key
-- **Endpoint URL[https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp)Probed**: 2026-09-03, HTTP 401
+- **Endpoint URL[https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp)Probed**: 2026-09-04, HTTP 401
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
 mcp_status, verbatim from the file:
 

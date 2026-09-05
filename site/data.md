@@ -98,6 +98,6 @@ Facts about third party products are recorded from those vendors' own public sou
 
 - **Schema version**: 1.1
 
-- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: dbb6222adcdd0081fdb13550...
+- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: 0cc778de5c4cf96e525d35f8...
 
 The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the [methodology page](methodology.md).

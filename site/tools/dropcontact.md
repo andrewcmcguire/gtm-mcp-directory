@@ -41,9 +41,9 @@ GDPR-conscious contact enrichment/verification layer for CRM hygiene and list-bu
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact)Probed**: 2026-09-03, HTTP 200
+- **Docs URL[https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-03 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 

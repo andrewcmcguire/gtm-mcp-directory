@@ -41,9 +41,9 @@ CPQ/quote-generation engine sitting upstream of the proposal itself, feeding liv
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
-- **Probed**: 2026-09-03, HTTP None
+- **Probed**: 2026-09-04, HTTP None
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-03 no recorded MCP URL answered.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 

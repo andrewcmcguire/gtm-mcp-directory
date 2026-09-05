@@ -68,7 +68,7 @@ last_checked: `{"2026-08-24": 118, "2026-08-25": 23, "2026-09-02": 131, "2026-09
 
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
-- probe run used: `2026-09-03`
+- probe run used: `2026-09-04`
 - endpoint_status: `{"live": 1, "live-auth-gated": 34, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 1, "not-applicable": 111}`
 - official entries whose recorded URL answered as an MCP server (live or auth-gated): **35**
 - official entries whose recorded URL is a docs page, not an endpoint: **86**
@@ -261,7 +261,7 @@ None.
 
 ## Integrity
 
-- content sha256: `dbb6222adcdd0081fdb1355043c4eb141cb7ed5746f46ea28604af03095fc9c3`
+- content sha256: `0cc778de5c4cf96e525d35f8b013711560cb098208aa4c307021a9932de3de75`
 - source sha256: `296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
