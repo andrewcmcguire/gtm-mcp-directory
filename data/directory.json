@@ -5160,7 +5160,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "apollo_email_accounts_index",
@@ -5178,7 +5178,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "apollo_emailer_campaigns_search",
@@ -7529,7 +7529,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "company_research_exa",
@@ -7556,7 +7556,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "deep_search_exa",
@@ -9306,7 +9306,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "clone_campaign",
@@ -9328,7 +9328,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_campaign_step",
@@ -9341,7 +9341,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_email_draft",
@@ -9350,7 +9350,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_list",
@@ -9361,7 +9361,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_saved_search",
@@ -9384,7 +9384,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_template",
@@ -9397,7 +9397,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_campaign",
@@ -9408,7 +9408,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_campaign_step",
@@ -9419,7 +9419,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_list",
@@ -9428,7 +9428,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_saved_search",
@@ -9437,7 +9437,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_task",
@@ -9446,7 +9446,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_template",
@@ -9455,7 +9455,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "execute_campaign_action",
@@ -9467,7 +9467,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "execute_campaign_step_action",
@@ -9698,7 +9698,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "research_companies",
@@ -9745,7 +9745,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "send_email",
@@ -9758,7 +9758,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "send_email_draft",
@@ -9767,7 +9767,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "send_email_preview",
@@ -9776,7 +9776,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_campaign",
@@ -9787,7 +9787,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_campaign_step",
@@ -9798,7 +9798,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_email_draft",
@@ -9807,7 +9807,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_list",
@@ -9825,7 +9825,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_task",
@@ -9834,7 +9834,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_template",
@@ -9843,7 +9843,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 54,
@@ -10786,7 +10786,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "enrich-company",
@@ -10876,7 +10876,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "tech-stack-snapshot",
@@ -10978,7 +10978,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "add_account_note",
@@ -10987,7 +10987,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "add_contact_note",
@@ -10996,7 +10996,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "add_lead_list_column",
@@ -11005,7 +11005,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "add_leads_to_list",
@@ -11014,7 +11014,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "add_leads_to_sequence",
@@ -11023,7 +11023,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "append_stage_to_sequence",
@@ -11032,7 +11032,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "ask_analytics",
@@ -11077,7 +11077,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_saved_search",
@@ -11086,7 +11086,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_sequence",
@@ -11095,7 +11095,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_task",
@@ -11104,7 +11104,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_workflow",
@@ -11113,7 +11113,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "enrich_company",
@@ -11360,7 +11360,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "remove_leads_from_lead_list",
@@ -11369,7 +11369,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "remove_leads_from_sequence",
@@ -11378,7 +11378,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "rename_lead_list_column",
@@ -11423,7 +11423,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_sequence_lead",
@@ -11432,7 +11432,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_sequence_stage",
@@ -11611,7 +11611,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "apollo_email_accounts_index",
@@ -11629,7 +11629,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "apollo_emailer_campaigns_search",
@@ -12123,7 +12123,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "UpdateCampaignAccounts",
@@ -12141,7 +12141,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "UpdateCampaignSequence",
@@ -12150,7 +12150,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "UpdateCampaignSettings",
@@ -12508,7 +12508,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "audience-icp-filter",
@@ -12517,7 +12517,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "campaign-challenger",
@@ -12544,7 +12544,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "duplicate_campaign",
@@ -12571,7 +12571,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_audience_leads",
@@ -12661,7 +12661,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_unread_conversations",
@@ -12724,7 +12724,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply-draft-assistant",
@@ -12742,7 +12742,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "search_conversations",
@@ -12760,7 +12760,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "send_linkedin_message",
@@ -12769,7 +12769,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "team-performance-dashboard",
@@ -13441,7 +13441,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "add_to_exclusion_list",
@@ -13450,7 +13450,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "archive_conversation",
@@ -13459,7 +13459,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "assign_conversation",
@@ -13468,7 +13468,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "clone_sourcing",
@@ -13477,7 +13477,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_campaign",
@@ -13486,7 +13486,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_list",
@@ -13495,7 +13495,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_organization",
@@ -13504,7 +13504,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_prospect",
@@ -13513,7 +13513,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_sourcing",
@@ -13522,7 +13522,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_campaign",
@@ -13531,7 +13531,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_list",
@@ -13540,7 +13540,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_organization",
@@ -13549,7 +13549,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_prospect",
@@ -13558,7 +13558,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_sourcing",
@@ -13567,7 +13567,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "disenroll_prospect",
@@ -13585,7 +13585,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_account",
@@ -13819,7 +13819,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "remove_campaign_step",
@@ -13828,7 +13828,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "remove_from_exclusion_list",
@@ -13837,7 +13837,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "start_sourcing",
@@ -13864,7 +13864,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_campaign_step",
@@ -13873,7 +13873,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_conversation",
@@ -13882,7 +13882,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_list",
@@ -13891,7 +13891,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_organization",
@@ -13900,7 +13900,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_prospect",
@@ -13909,7 +13909,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_sourcing",
@@ -13918,7 +13918,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 54,
@@ -14011,7 +14011,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "phantombuster_get_agent",
@@ -14056,7 +14056,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "phantombuster_list_agents",
@@ -14083,7 +14083,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 9,
@@ -14241,7 +14241,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_add_knowledge_base_source",
@@ -14250,7 +14250,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_approve_message",
@@ -14259,7 +14259,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_assign_email_account_to_sequence",
@@ -14286,7 +14286,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_attach_knowledge_base_to_sequence",
@@ -14331,7 +14331,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_change_contact_owner",
@@ -14349,7 +14349,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_change_status_in_sequence",
@@ -14358,7 +14358,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_compare_sequence_performance",
@@ -14385,7 +14385,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_knowledge_base",
@@ -14394,7 +14394,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_offer",
@@ -14403,7 +14403,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_playbook",
@@ -14412,7 +14412,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_reengagement_card",
@@ -14421,7 +14421,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_reply_handler",
@@ -14430,7 +14430,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_task",
@@ -14439,7 +14439,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_delete_knowledge_base_source",
@@ -14448,7 +14448,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_delete_reengagement_card",
@@ -14457,7 +14457,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_delete_reply_handler",
@@ -14466,7 +14466,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_duplicate_playbook",
@@ -14727,7 +14727,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_report_unsupported_request",
@@ -14772,7 +14772,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_search_team_members",
@@ -14790,7 +14790,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_set_sequence_reply_mode",
@@ -14799,7 +14799,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_start_sequence",
@@ -14808,7 +14808,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_update_contact",
@@ -17249,7 +17249,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "analyze_capacity_and_schedule",
@@ -17285,7 +17285,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_campaign",
@@ -17297,7 +17297,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_contact",
@@ -17308,7 +17308,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_webhook",
@@ -17320,7 +17320,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "deactivate_campaign",
@@ -17342,7 +17342,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "diagnose_deliverability",
@@ -17602,7 +17602,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "purchase_domains_and_mailboxes",
@@ -17611,7 +17611,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "purchase_mailbox",
@@ -17620,7 +17620,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "remove_from_blacklist",
@@ -17629,7 +17629,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "send_conversation_message",
@@ -17640,7 +17640,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_campaign_sequence",
@@ -17649,7 +17649,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_contact",
@@ -17660,7 +17660,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_sender",
@@ -17671,7 +17671,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "verify_email",
@@ -17907,7 +17907,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addLinkedinConnectionRequestStep",
@@ -17920,7 +17920,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addLinkedinDirectMessageStep",
@@ -17934,7 +17934,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addLinkedinInMailMessageStep",
@@ -17948,7 +17948,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addLinkedinProfileVisitStep",
@@ -17961,7 +17961,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addProspectsToCampaign",
@@ -17973,7 +17973,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addProspectsToDatabase",
@@ -18010,7 +18010,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "createLinkedinConnectionRequestCampaign",
@@ -18023,7 +18023,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "createLinkedinDirectMessageCampaign",
@@ -18037,7 +18037,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "createLinkedinInMailMessageCampaign",
@@ -18051,7 +18051,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "createLinkedinProfileVisitCampaign",
@@ -18064,7 +18064,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "deleteCampaign",
@@ -18075,7 +18075,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "deleteCampaignStep",
@@ -18087,7 +18087,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "deleteProspects",
@@ -18209,7 +18209,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "searchProspects",
@@ -18231,7 +18231,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "updateCampaignSettings",
@@ -18276,7 +18276,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "updateLinkedinStepVersion",
@@ -18290,7 +18290,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "updateProspectsInCampaign",
@@ -18302,7 +18302,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "updateProspectsInDatabase",
@@ -20726,7 +20726,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Add content to meeting",
@@ -20735,7 +20735,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Create a DSR engagement",
@@ -20744,7 +20744,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Generate LiveSend link",
@@ -20831,7 +20831,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Get post-meeting brief",
@@ -20842,7 +20842,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Get pre-meeting brief",
@@ -20912,7 +20912,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 20,
@@ -21519,7 +21519,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "ask_analytics",
@@ -21537,7 +21537,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_messaging_settings",
@@ -22704,7 +22704,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_approve_message",
@@ -22713,7 +22713,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_bulk_approve_messages",
@@ -22722,7 +22722,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_knowledge_base",
@@ -22731,7 +22731,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_offer",
@@ -22740,7 +22740,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_playbook",
@@ -22749,7 +22749,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_reengagement_card",
@@ -22758,7 +22758,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_create_reply_handler",
@@ -22767,7 +22767,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_delete_knowledge_base_source",
@@ -22776,7 +22776,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_delete_reengagement_card",
@@ -22785,7 +22785,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_delete_reply_handler",
@@ -22794,7 +22794,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_duplicate_playbook",
@@ -22929,7 +22929,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_set_sequence_reply_mode",
@@ -22938,7 +22938,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reply_update_knowledge_base",
@@ -23541,7 +23541,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "check_unify_enrollment_reply",
@@ -23568,7 +23568,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_unify_audience",
@@ -23793,7 +23793,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "list_unify_person_notes",
@@ -23883,7 +23883,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "sample_unify_object_records",
@@ -23937,7 +23937,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 45,
@@ -24484,7 +24484,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "commonroom_add_user",
@@ -24493,7 +24493,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "commonroom_get_activity_types",
@@ -25681,7 +25681,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "whoami",
@@ -26236,7 +26236,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:npmjs",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 19,
@@ -26401,7 +26401,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "capture-mcp-feedback",
@@ -26410,7 +26410,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-custom-field",
@@ -26419,7 +26419,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-persona",
@@ -26428,7 +26428,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-segment",
@@ -26437,7 +26437,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-tag",
@@ -26446,7 +26446,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete-custom-field",
@@ -26455,7 +26455,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get-organisation",
@@ -26626,7 +26626,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "reveal-contact-email",
@@ -26644,7 +26644,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "share-to-slack",
@@ -26671,7 +26671,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-custom-field",
@@ -26680,7 +26680,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-organisation-notes",
@@ -26689,7 +26689,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-persona",
@@ -26698,7 +26698,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-segment",
@@ -26707,7 +26707,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 35,
@@ -27677,7 +27677,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_field",
@@ -27704,7 +27704,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_list_entry",
@@ -27713,7 +27713,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_list_field_dropdown_option",
@@ -27722,7 +27722,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_note",
@@ -27731,7 +27731,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_opportunity",
@@ -27740,7 +27740,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_person",
@@ -27749,7 +27749,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_reminder",
@@ -27758,7 +27758,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_list_field_dropdown_option",
@@ -27767,7 +27767,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_reminder",
@@ -27776,7 +27776,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_company_info",
@@ -28082,7 +28082,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_list_field_dropdown_option",
@@ -28109,7 +28109,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_reminder",
@@ -28118,7 +28118,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "upsert_entity_field_values",
@@ -28127,7 +28127,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "upsert_list_entry_field_values",
@@ -28136,7 +28136,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 52,
@@ -28331,7 +28331,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-comment",
@@ -28340,7 +28340,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-list",
@@ -28349,7 +28349,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-note",
@@ -28358,7 +28358,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-record",
@@ -28367,7 +28367,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create-task",
@@ -28376,7 +28376,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete-comment",
@@ -28385,7 +28385,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get-call-recording",
@@ -28529,7 +28529,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "query-particle-sql",
@@ -28628,7 +28628,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-list-entry-by-id",
@@ -28637,7 +28637,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-list-entry-by-record-id",
@@ -28646,7 +28646,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-note",
@@ -28655,7 +28655,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-record",
@@ -28664,7 +28664,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update-task",
@@ -28673,7 +28673,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "upsert-record",
@@ -28682,7 +28682,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "whoami",
@@ -28970,7 +28970,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "close_product_knowledge_search",
@@ -28988,7 +28988,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_call_task",
@@ -28997,7 +28997,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_comment",
@@ -29006,7 +29006,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_contact",
@@ -29015,7 +29015,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_custom_activity_instance",
@@ -29024,7 +29024,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_custom_object_instance",
@@ -29033,7 +29033,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_draft_email",
@@ -29042,7 +29042,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_email_template",
@@ -29051,7 +29051,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_lead",
@@ -29060,7 +29060,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_lead_status",
@@ -29069,7 +29069,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_note",
@@ -29078,7 +29078,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_opportunity",
@@ -29087,7 +29087,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_opportunity_status_tool",
@@ -29096,7 +29096,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_pipeline",
@@ -29105,7 +29105,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_sms_template",
@@ -29114,7 +29114,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_task",
@@ -29123,7 +29123,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_workflow",
@@ -29132,7 +29132,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "customized_builtin_labels",
@@ -29150,7 +29150,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_call_task",
@@ -29159,7 +29159,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_contact",
@@ -29168,7 +29168,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_custom_activity_instance",
@@ -29177,7 +29177,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_custom_object_instance",
@@ -29186,7 +29186,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_email_template",
@@ -29195,7 +29195,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_lead",
@@ -29204,7 +29204,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_lead_smart_view",
@@ -29213,7 +29213,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_lead_status",
@@ -29222,7 +29222,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_note",
@@ -29231,7 +29231,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_opportunity",
@@ -29240,7 +29240,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_opportunity_status_tool",
@@ -29249,7 +29249,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_pipeline",
@@ -29258,7 +29258,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_sms_template",
@@ -29267,7 +29267,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_task",
@@ -29276,7 +29276,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "enrich_field",
@@ -29285,7 +29285,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "fetch",
@@ -29375,7 +29375,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "fetch_lead",
@@ -29591,7 +29591,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "find_lead_custom_fields",
@@ -29726,7 +29726,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "get_billing_summary",
@@ -29735,7 +29735,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "get_fields",
@@ -29780,7 +29780,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "list_membership_requests",
@@ -29834,7 +29834,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "schedule_voice_agent_call",
@@ -29843,7 +29843,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "search",
@@ -29861,7 +29861,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_contact",
@@ -29870,7 +29870,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_custom_activity_instance",
@@ -29879,7 +29879,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_custom_object_instance",
@@ -29888,7 +29888,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_draft_email",
@@ -29897,7 +29897,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_email_template",
@@ -29906,7 +29906,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_lead",
@@ -29915,7 +29915,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_lead_smart_view",
@@ -29924,7 +29924,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_lead_status",
@@ -29933,7 +29933,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_note",
@@ -29942,7 +29942,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_opportunity",
@@ -29951,7 +29951,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_opportunity_status_tool",
@@ -29960,7 +29960,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_pipeline",
@@ -29969,7 +29969,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_sms_template",
@@ -29978,7 +29978,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_task",
@@ -29987,7 +29987,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 116,
@@ -30516,7 +30516,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "manage_campaign_objects",
@@ -30525,7 +30525,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "manage_crm_objects",
@@ -30534,7 +30534,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "manage_landing_page",
@@ -30543,7 +30543,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "manage_marketing_email",
@@ -30588,7 +30588,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "render_landing_page_ui",
@@ -30642,7 +30642,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "tool_guidance",
@@ -30947,7 +30947,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "revenue-strategist",
@@ -31201,7 +31201,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addDeal",
@@ -31210,7 +31210,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addLead",
@@ -31219,7 +31219,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addNote",
@@ -31237,7 +31237,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "addPerson",
@@ -31246,7 +31246,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "convertLeadToDeal",
@@ -31582,7 +31582,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_create_resource",
@@ -31591,7 +31591,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_create_user_invite",
@@ -31600,7 +31600,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_delete_user_invite",
@@ -31609,7 +31609,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_delete_user_invite_attribute",
@@ -31618,7 +31618,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_delete_workflow",
@@ -31627,7 +31627,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_execute_resource_ts",
@@ -31645,7 +31645,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_get_app",
@@ -31753,7 +31753,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_list_app_access",
@@ -31897,7 +31897,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_publish_react_app",
@@ -31969,7 +31969,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_start_prepared_import",
@@ -31978,7 +31978,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_submit_prepared_import",
@@ -31987,7 +31987,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "retool_sync_react_app_thread",
@@ -32014,7 +32014,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 50,
@@ -32120,7 +32120,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "DEFAULT_TARGET_ORG",
@@ -32129,7 +32129,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "aura-experts",
@@ -32156,7 +32156,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "data",
@@ -32255,7 +32255,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 17,
@@ -32781,7 +32781,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "read",
@@ -32808,7 +32808,7 @@
           "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "x-apideck-api-key",
@@ -33215,7 +33215,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shopify_create_collection",
@@ -33224,7 +33224,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shopify_create_discount",
@@ -33233,7 +33233,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shopify_create_draft_order",
@@ -33242,7 +33242,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "shopify_create_fulfillment",
@@ -33251,7 +33251,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shopify_create_order",
@@ -33260,7 +33260,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shopify_create_product",
@@ -33269,7 +33269,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shopify_get_collection",
@@ -33305,7 +33305,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "shopify_get_inventory_levels",
@@ -33413,7 +33413,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "spend"
         },
         {
           "name": "shopify_list_products",
@@ -33431,7 +33431,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 25,
@@ -34283,7 +34283,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "enable_zapier_action",
@@ -34310,7 +34310,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "get_configuration_url",
@@ -34460,7 +34460,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Add Contact To List",
@@ -34469,7 +34469,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "New Contact",
@@ -34478,7 +34478,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "New Email To Contact",
@@ -34487,7 +34487,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 4,
@@ -34571,7 +34571,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Message Templates",
@@ -35759,7 +35759,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Add Prospect to Dynamic Video Campaign",
@@ -35768,7 +35768,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Create Dynamic Video Campaign V2",
@@ -35777,7 +35777,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Delete Webhook",
@@ -35786,7 +35786,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Get Dynamic Campaign by ID",
@@ -35915,7 +35915,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_lipsync",
@@ -35924,7 +35924,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_persona",
@@ -35933,7 +35933,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_replica",
@@ -35942,7 +35942,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_conversation",
@@ -35951,7 +35951,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_lipsync",
@@ -35960,7 +35960,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_persona",
@@ -35969,7 +35969,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_replica",
@@ -35978,7 +35978,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_speech",
@@ -35987,7 +35987,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_video",
@@ -35996,7 +35996,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "end_conversation",
@@ -36140,7 +36140,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "rename_replica",
@@ -37534,7 +37534,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "availability-list_user_availability_schedules",
@@ -37561,7 +37561,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "event_types-get_event_type",
@@ -37606,7 +37606,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "event_types-update_event_type_availability_schedule",
@@ -37615,7 +37615,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "list_calendly_skills",
@@ -37660,7 +37660,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "meetings-create_invitee_no_show",
@@ -37678,7 +37678,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "meetings-get_event",
@@ -37822,7 +37822,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "shares-create_share",
@@ -37831,7 +37831,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "users-get_current_user",
@@ -38517,7 +38517,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_add_custom_field_to_task",
@@ -38526,7 +38526,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_complete_task",
@@ -38544,7 +38544,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_create_custom_field",
@@ -38553,7 +38553,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_create_project",
@@ -38562,7 +38562,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_create_recurring_task",
@@ -38571,7 +38571,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_create_task",
@@ -38580,7 +38580,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_delete_comment",
@@ -38589,7 +38589,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_delete_project",
@@ -38598,7 +38598,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_delete_recurring_task",
@@ -38607,7 +38607,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_delete_task",
@@ -38616,7 +38616,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_get_comment",
@@ -38661,7 +38661,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_get_task",
@@ -38760,7 +38760,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_remove_custom_field_from_task",
@@ -38769,7 +38769,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_uncomplete_task",
@@ -38787,7 +38787,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_update_project",
@@ -38796,7 +38796,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_update_recurring_task",
@@ -38805,7 +38805,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "motion_update_task",
@@ -38814,7 +38814,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 34,
@@ -40342,7 +40342,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete-document",
@@ -40351,7 +40351,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "duplicate-document",
@@ -40405,7 +40405,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "list-documents",
@@ -40432,7 +40432,7 @@
           "evidence": "source",
           "repo_party": "first-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 11,
@@ -43262,7 +43262,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:zapier",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 1,
@@ -43594,7 +43594,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "delete_digest",
@@ -43603,7 +43603,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "download_skill_assets",
@@ -43801,7 +43801,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "vendor",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "update_digest",
@@ -44055,7 +44055,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Get Brand",
@@ -44118,7 +44118,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Replace Brand",
@@ -44136,7 +44136,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Set Agent Status",
@@ -44145,7 +44145,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Update Agent",
@@ -44154,7 +44154,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "Update Brand",
@@ -44163,7 +44163,7 @@
           "evidence": "docs",
           "repo_party": null,
           "source_party": "aggregator:composio",
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 13,
@@ -45160,7 +45160,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "commonroom_add_user",
@@ -45169,7 +45169,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "commonroom_get_activity_types",
@@ -45742,7 +45742,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "create_basic_alert",
@@ -45751,7 +45751,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         },
         {
           "name": "fetch_alert_stats",
@@ -45841,7 +45841,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 13,
@@ -46168,7 +46168,7 @@
           "evidence": "source",
           "repo_party": "third-party",
           "source_party": null,
-          "risk": "read"
+          "risk": "write"
         }
       ],
       "mcp_tool_count": 9,
@@ -46271,6 +46271,6 @@
       "display_rank": 147
     }
   ],
-  "content_sha256": "50067b26b98e696e4e535614118e1674f8f0eecdc67a086158a295f7fa5385ea",
+  "content_sha256": "7cc1ca6230c5833e434f430f7c4f4d2dfd0165db405db106eb304e318180dd2f",
   "source_sha256": "296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca"
 }
