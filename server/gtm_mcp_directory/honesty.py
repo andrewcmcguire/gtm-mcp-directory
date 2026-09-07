@@ -113,6 +113,24 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
                 "not one anybody has run."
                 % (n, evid, entry.get("mcp_tools_fetched_on") or "an unstamped date")
             )
+            aggs = sorted({(t.get("source_party") or "") for t in (entry.get("mcp_tools") or [])
+                           if (t.get("source_party") or "").startswith("aggregator")})
+            if aggs:
+                out.append(
+                    "Some of those tool names were read from %s rather than from this "
+                    "vendor's own documentation. An aggregator's tool list is its wrapper "
+                    "of the vendor's API, not the vendor's own MCP server, and the vendor "
+                    "may expose a different set."
+                    % ", ".join(a.split(":", 1)[1] for a in aggs)
+                )
+            if entry.get("mcp_tools_repo_party") == "third-party":
+                out.append(
+                    "Those tools were read from %s, which is NOT this vendor's own "
+                    "repository. They are that author's tools for this vendor's API, "
+                    "not the vendor's published MCP surface, and the vendor may expose "
+                    "a different set at its own endpoint."
+                    % entry.get("mcp_tools_repo")
+                )
         else:
             out.append(
                 "No tool list has been harvested for this server yet (mcp_tool_count "
