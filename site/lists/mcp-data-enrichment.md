@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 33 of 38, counted
+# Data & Enrichment tools with MCP servers: 40 of 45, counted
 
-> 33 of the 38 data & enrichment tools in The GTM MCP Directory have an MCP server: 31 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 40 of the 45 data & enrichment tools in The GTM MCP Directory have an MCP server: 38 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 33 of 293**
+**List · 40 of 318**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 33 of 38 entries in this category are reachable by an agent: 31 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 40 of 45 entries in this category are reachable by an agent: 38 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -72,6 +72,9 @@ OAuth 2.1 - per docs, the data key is fetched live with every request and never 
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Official MCP](../mcp/official.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | API key
 api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable... | [Paid, self-serve](../gates/paid.md) |
+| [Derrick](../tools/derrick.md)
+derrick-app.com | [Official MCP](../mcp/official.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +1 more | API key
+api key. The vendor's page states the MCP installs without credentials but every tool... | [Paid, self-serve](../gates/paid.md) |
 | [Dropcontact](../tools/dropcontact.md)
 dropcontact.com | [Official MCP](../mcp/official.md) | [https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact) | OAuth or an API key
 Hosted server at mcp.dropcontact.com/mcp/, supporting OAuth (recommended, browser-based)... | [Paid, self-serve](../gates/paid.md) |
@@ -84,12 +87,18 @@ OAuth via Clerk on the v3 endpoint; x-api-key header on the v2 and legacy endpoi
 | [Lead411](../tools/lead411.md)
 lead411.com | [Official MCP](../mcp/official.md) | [https://mcp.lead411.com/mcp](https://mcp.lead411.com/mcp) +3 more | API key
 api key via X-API-KEY header. TRANSPORT IS DISPUTED: the official registry record says... | [Paid, self-serve](../gates/paid.md) |
+| [LeadIQ](../tools/leadiq.md)
+leadiq.com | [Official MCP](../mcp/official.md) | [https://mcp.leadiq.com/mcp](https://mcp.leadiq.com/mcp) +1 more | OAuth
+oauth. The vendor's page states the connector is added from the AI client's connector... | [Paid, self-serve](../gates/paid.md) |
 | [Ocean.io](../tools/ocean-io.md)
 ocean.io | [Official MCP](../mcp/official.md) | [https://app.ocean.io/docs/getting-started/mcp](https://app.ocean.io/docs/getting-started/mcp) +1 more | API key
 api key (api-token passed as a URL parameter to the hosted MCP endpoint) | [Paid, self-serve](../gates/paid.md) |
 | [RocketReach](../tools/rocketreach.md)
 rocketreach.co | [Official MCP](../mcp/official.md) | [https://rocketreach.co/resources/products/mcp/](https://rocketreach.co/resources/products/mcp/) +1 more | OAuth
 OAuth 2.1, browser-based; ties to your existing RocketReach account and shares its credit... | [Paid, self-serve](../gates/paid.md) |
+| [SalesQL](../tools/salesql.md)
+salesql.com | [Official MCP](../mcp/official.md) | [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp) +2 more | OAuth or an API key
+oauth. The vendor's docs record "Auth OAuth 2.1" with an MCP key as the fallback for... | [Paid, self-serve](../gates/paid.md) |
 | [Snov.io](../tools/snov-io.md)
 snov.io | [Official MCP](../mcp/official.md) | [https://mcp.snov.io/mcp](https://mcp.snov.io/mcp) +1 more | OAuth
 OAuth - user reviews and approves the connection through their Snov.io account; no raw... | [Paid, self-serve](../gates/paid.md) |
@@ -99,12 +108,24 @@ OAuth via personal Swarm login (native Claude and ChatGPT app connectors) or tea
 | [Vainu](../tools/vainu.md)
 vainu.com | [Official MCP](../mcp/official.md) | [https://mcp.vainu.ai/mcp](https://mcp.vainu.ai/mcp) +2 more | OAuth
 OAuth 2.0 with PKCE, scoped to existing Vainu permissions, but NOT enabled by default.... | [Paid, self-serve](../gates/paid.md) |
+| [Vayne](../tools/vayne.md)
+vayne.io | [Official MCP](../mcp/official.md) | [https://mcp.vayne.io/mcp](https://mcp.vayne.io/mcp) +1 more | OAuth or an API key
+oauth or api key. The vendor's docs state OAuth is the default for Claude Desktop,... | [Paid, self-serve](../gates/paid.md) |
 | [Versium REACH](../tools/versium-reach.md)
 versium.com | [Official MCP](../mcp/official.md) | [https://app.versium.com/mcp/reach](https://app.versium.com/mcp/reach) +2 more | OAuth
 OAuth, and the client must support dynamic client registration. | [Paid, self-serve](../gates/paid.md) |
 | [Wiza](../tools/wiza.md)
 wiza.co | [Official MCP](../mcp/official.md) | [https://mcp.wiza.co/mcp](https://mcp.wiza.co/mcp) +2 more | OAuth or an API key
 OAuth 2.1 with PKCE for clients that support it, otherwise a static bearer token in the... | [Paid, self-serve](../gates/paid.md) |
+| [Harmonic](../tools/harmonic.md)
+harmonic.ai | [Official MCP](../mcp/official.md) | [https://mcp.api.harmonic.ai](https://mcp.api.harmonic.ai) +1 more | OAuth or an API key
+oauth. The server publishes OAuth protected-resource metadata at... | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [SigParser](../tools/sigparser.md)
+sigparser.com | [Official MCP](../mcp/official.md) | [https://ipaas.sigparser.com/api/mcp](https://ipaas.sigparser.com/api/mcp) | API key
+unknown. The endpoint answers HTTP 401 to an unauthenticated MCP initialize but no... | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Crunchbase](../tools/crunchbase.md)
+crunchbase.com | [Official MCP](../mcp/official.md) | [https://mcp.crunchbase.com](https://mcp.crunchbase.com) +2 more | OAuth
+OAuth 2.1. The user signs in with their normal Crunchbase account in the AI client's... | [Enterprise only](../gates/enterprise-only.md) |
 | [Seamless.AI](../tools/seamless-ai.md)
 seamless.ai | [Official MCP](../mcp/official.md) | [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs) +1 more | OAuth or an API key
 OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - i.e.... | [Enterprise only](../gates/enterprise-only.md) |
@@ -146,4 +167,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

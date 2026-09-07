@@ -1136,6 +1136,210 @@ def get_server_tools(name: str) -> dict[str, Any]:
     return body
 
 
+
+# ---------------------------------------------------------------------------
+# 9. plan_stack
+# ---------------------------------------------------------------------------
+
+# What "reachable" costs an agent, cheapest first. An endpoint that answered a
+# handshake is the only kind you can call without installing anything; a repo is
+# an install; a docs page is a URL to go read; unmeasured is a research task.
+_REACH_RANK = {"live": 0, "live-auth-gated": 1, "repo-local": 2, "docs-only": 3, "not-probed": 4, "unreachable": 5, "not-applicable": 6}
+_GATE_RANK = {"free": 0, "paid": 1, "enterprise-leaning": 2, "enterprise-only": 3, "unknown": 4, "n-a": 5}
+_STATUS_RANK = {"official": 0, "community": 1, "unknown": 2, "n-a": 3, "none-found": 4}
+
+
+_STOPWORDS = {"from", "with", "into", "your", "this", "that", "them", "and", "the", "for", "get", "a"}
+
+
+def _job_terms(job_slug: str, job: dict[str, Any]) -> list[str]:
+    """The words that make this job distinctive, for matching real tool names.
+
+    Built from the slug and the job's own label rather than its one-liner: the
+    one-liner is prose and drags in words like "database" and "list" that match
+    almost any tool, which is how a plan ends up recommending a call that has
+    nothing to do with the step.
+    """
+    blob = job_slug.replace("-", " ") + " " + (job.get("label") or "")
+    terms = {w for w in re.split(r"[^a-z0-9]+", blob.lower()) if len(w) > 3 and w not in _STOPWORDS}
+    return sorted(terms)
+
+
+def _match_tools(entry: dict[str, Any], terms: list[str]) -> list[str]:
+    """Tool names on this server that plausibly do this step, name matches first.
+
+    A hit in the tool's NAME is worth more than one in its description, because
+    a description mentioning "email" is common and a tool called find_email is
+    the thing you would actually call. Requires two distinct term hits when the
+    match is only in the description, which is what stops "company" alone from
+    dragging in every enrich tool.
+    """
+    named, described = [], []
+    for t in entry.get("mcp_tools") or []:
+        name = (t.get("name") or "").lower()
+        desc = (t.get("description") or "").lower()
+        in_name = [w for w in terms if w in name]
+        in_desc = [w for w in terms if w in desc]
+        if in_name:
+            named.append((len(in_name), t.get("name")))
+        elif len(in_desc) >= 2:
+            described.append((len(in_desc), t.get("name")))
+    named.sort(reverse=True)
+    described.sort(reverse=True)
+    return [n for _, n in named][:5] + [n for _, n in described][:3]
+
+
+def _step_candidates(job_slug: str, max_per_step: int, job: dict[str, Any]) -> list[dict[str, Any]]:
+    """Every entry that claims this job, ranked by what it costs an agent to use it."""
+    terms = _job_terms(job_slug, job or {})
+    rows = []
+    for e in ENTRIES:
+        if job_slug not in (e.get("jobs") or []):
+            continue
+        if e.get("mcp_status_bucket") in ("none-found", "n-a"):
+            continue
+        reach = e.get("endpoint_status") or "not-probed"
+        tools = e.get("mcp_tools") or []
+        # Tool names whose own text looks like this step, so the plan can name a
+        # call rather than only a vendor.
+        matched = _match_tools(e, terms)
+        rows.append({
+            "name": e["display_name"],
+            "mcp_status": e.get("mcp_status_bucket"),
+            "api_gate": e.get("api_gate_bucket"),
+            "api_gate_verbatim": e.get("api_gate"),
+            "endpoint_status": reach,
+            "connect_at": e.get("mcp_endpoint") or e.get("mcp_docs_url") or e.get("mcp_url"),
+            "auth": e.get("mcp_auth"),
+            "tool_count": e.get("mcp_tool_count") or 0,
+            "tools_matching_step": len(matched),
+            "candidate_tool_names": matched,
+            "tools_evidence": e.get("mcp_tools_evidence"),
+            "repo_party": e.get("mcp_tools_repo_party"),
+            "catalog_shape": e.get("mcp_catalog_shape"),
+            "_sort": (
+                _REACH_RANK.get(reach, 9),
+                _GATE_RANK.get(e.get("api_gate_bucket"), 9),
+                _STATUS_RANK.get(e.get("mcp_status_bucket"), 9),
+                0 if matched else 1,
+                -(e.get("mcp_tool_count") or 0),
+                e["display_name"].lower(),
+            ),
+        })
+    rows.sort(key=lambda r: r["_sort"])
+    for r in rows:
+        r.pop("_sort", None)
+    return rows[:max_per_step]
+
+
+@mcp.tool()
+def plan_stack(
+    goal: str,
+    prefer_free: Optional[bool] = None,
+    connectable_only: Optional[bool] = None,
+    max_per_step: int = 4,
+) -> dict[str, Any]:
+    """Plan how to actually DO a go-to-market job with these tools, step by step.
+
+    find_tools answers "who claims this". get_server_tools answers "what does
+    this one expose". This answers the question an operator actually has: given
+    what I am trying to do, what should my agent call, in what order, what will
+    it cost me to get in, and where does the chain break.
+
+    `goal` is plain language and may describe several steps at once, for example
+    "find a person's linkedin from a name and company, get their work email,
+    verify it, then write the contact to my CRM". Each step resolves against the
+    56-job vocabulary; the response says what resolved and what did not.
+
+    For every step it returns candidate tools ranked by what they cost an agent:
+    an endpoint that answered a live handshake first, then a repo you install,
+    then a documentation page you have to go read. Within that, free before
+    paid, official before community, and a server whose own tool names match the
+    step before one that only claims the job.
+
+    prefer_free drops anything an operator cannot start on without a sales call.
+    connectable_only drops anything whose URL has never answered as a server.
+
+    Two honesty rules ride on every plan. A job tag means the vendor says the
+    product does this, so a ranking is a reading order, not a benchmark. And
+    nothing here has been run: bench_tested is 1 across the whole directory, so
+    treat the plan as the shortlist to go test, never as a verified pipeline.
+    """
+    max_per_step = max(1, min(int(max_per_step or 4), 10))
+    raw = (goal or "").strip()
+    if not raw:
+        return {**HONESTY.server_meta(), "status": "no-goal",
+                "message": "Describe what you are trying to do. Call list_jobs to see the 56 jobs this directory can plan against."}
+
+    # Split the goal into steps on the connectives people actually use.
+    parts = [p.strip() for p in re.split(r"\s*(?:,|;|\bthen\b|\band then\b|\bafter that\b|\bnext\b|->|→)\s*", raw) if p.strip()]
+    if not parts:
+        parts = [raw]
+
+    steps, unresolved, seen = [], [], set()
+    for part in parts[:8]:
+        resolved = VOCAB.resolve(part) if VOCAB else []
+        if not resolved:
+            unresolved.append(part)
+            continue
+        best = resolved[0]
+        slug = best["job"]
+        if slug in seen:
+            continue
+        seen.add(slug)
+        job = VOCAB._by_slug.get(slug) or next((j for j in (VOCAB.jobs or []) if j.get("id") == slug), {})
+        cands = _step_candidates(slug, max_per_step, job)
+        if prefer_free:
+            kept = [c for c in cands if c["api_gate"] in ("free", "paid")]
+            cands = kept or cands
+        if connectable_only:
+            kept = [c for c in cands if c["endpoint_status"] in ("live", "live-auth-gated")]
+            cands = kept or []
+        steps.append({
+            "step": len(steps) + 1,
+            "asked": part,
+            "job": slug,
+            "job_label": job.get("label") or slug,
+            "job_meaning": job.get("one_liner"),
+            "resolved_how": best.get("confidence"),
+            "supply": len(cands),
+            "recommended": cands[0] if cands else None,
+            "alternatives": cands[1:],
+            "gap": None if cands else (
+                "No tool in the directory both claims this job and has a reachable server under "
+                "the filters you set. That is a finding about this directory's coverage as much "
+                "as about the market."
+            ),
+        })
+
+    reachable = [s for s in steps if s["recommended"]]
+    gates = [s["recommended"]["api_gate"] for s in reachable]
+    return {
+        **HONESTY.server_meta(),
+        "status": "ok" if steps else "nothing-resolved",
+        "goal": raw,
+        "steps": steps,
+        "unresolved_phrases": unresolved,
+        "summary": {
+            "steps_planned": len(steps),
+            "steps_with_a_tool": len(reachable),
+            "steps_with_no_tool": len(steps) - len(reachable),
+            "free_steps": sum(1 for g in gates if g == "free"),
+            "paid_steps": sum(1 for g in gates if g == "paid"),
+            "enterprise_steps": sum(1 for g in gates if g in ("enterprise-only", "enterprise-leaning")),
+            "all_free": bool(gates) and all(g == "free" for g in gates),
+        },
+        "how_to_read_this": (
+            "Ranking is by what a tool costs an agent to use, not by quality: a server that "
+            "answered a live handshake outranks one you must install, which outranks a "
+            "documentation page. Nobody has run any of these. Take the recommended row per step "
+            "as the first thing to go and test, and read the api_gate_verbatim line before "
+            "assuming you can get a key today."
+        ),
+        "honesty": HONESTY.envelope(),
+    }
+
+
 # ---------------------------------------------------------------------------
 # 7. list_jobs
 # ---------------------------------------------------------------------------

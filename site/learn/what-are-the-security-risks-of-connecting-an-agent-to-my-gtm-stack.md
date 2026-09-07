@@ -20,7 +20,7 @@ Four risks matter: the credential you hand the server can usually do far more th
 
 ## 1. The credential is the blast radius
 
-An MCP server does what your credential allows, not what the tool description says. A CRM key scoped to full access does not become read only because the agent was only asked to read. Scope the credential at the vendor, not in the prompt. Of the 182 servers counted here, [the OAuth ones](../lists/auth-oauth.md) are the better shape for this: the token is scoped and revocable from the vendor side without touching the agent's config.
+An MCP server does what your credential allows, not what the tool description says. A CRM key scoped to full access does not become read only because the agent was only asked to read. Scope the credential at the vendor, not in the prompt. Of the 207 servers counted here, [the OAuth ones](../lists/auth-oauth.md) are the better shape for this: the token is scoped and revocable from the vendor side without touching the agent's config.
 
 ## 2. Tool output is untrusted input
 

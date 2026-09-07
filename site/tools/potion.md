@@ -60,13 +60,13 @@ api_gate, verbatim from the file:
 
 unknown. A personal API token exists (used to connect Zapier) but no public developer-API documentation or portal was found; API-related questions are routed to a support email rather than public docs.
 
-32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 318 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-264 of 293 entries are in the same position. Blank is legal and it is published as blank.
+289 of 318 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -80,7 +80,7 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

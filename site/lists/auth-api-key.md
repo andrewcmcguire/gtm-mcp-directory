@@ -1,6 +1,6 @@
-# GTM MCP servers that use an API key: 47 tools, counted
+# GTM MCP servers that use an API key: 51 tools, counted
 
-> 47 of the 182 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
+> 51 of the 207 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use an API key
 
-**List · 47 of 293**
+**List · 51 of 318**
 
 ## GTM MCP servers that use an API key
 
@@ -20,6 +20,8 @@ The server authenticates with a key or token the operator generates and pastes i
 |---|---|---|---|---|
 | [Autobound](../tools/autobound.md)
 autobound.ai | [Official MCP](../mcp/official.md) | [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp) +1 more | api key via an AUTOBOUND_API_KEY environment variable in the MCP client config. | [Free to start](../gates/free.md) |
+| [Buffer](../tools/buffer.md)
+buffer.com | [Official MCP](../mcp/official.md) | [https://mcp.buffer.com/mcp](https://mcp.buffer.com/mcp) +1 more | api key. The vendor's guide instructs the user to generate an API key from the developer site and send it as "Authorization: Bearer YOUR_API_KEY"... | [Free to start](../gates/free.md) |
 | [Census (now operates as "Fivetran Activations")](../tools/census.md)
 getcensus.com | [Official MCP](../mcp/official.md) | [https://github.com/fivetran/fivetran-mcp](https://github.com/fivetran/fivetran-mcp) | API key + secret via env vars (FIVETRAN_API_KEY, FIVETRAN_API_SECRET). | [Free to start](../gates/free.md) |
 | [Crustdata](../tools/crustdata.md)
@@ -54,6 +56,8 @@ brightdata.com | [Official MCP](../mcp/official.md) | [https://github.com/bright
 clay.com | [Official MCP](../mcp/official.md) | [https://www.clay.com/mcp](https://www.clay.com/mcp) +1 more | Session cookie - the same token used to log into app.clay.com in-browser, which grants full account access (tables, records, enrichments, CRM... | [Paid, self-serve](../gates/paid.md) |
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Official MCP](../mcp/official.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable HTTP transport, explicitly stated by the vendor. | [Paid, self-serve](../gates/paid.md) |
+| [Derrick](../tools/derrick.md)
+derrick-app.com | [Official MCP](../mcp/official.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +1 more | api key. The vendor's page states the MCP installs without credentials but every tool call needs a Derrick API key, passed as an Authorization Bearer... | [Paid, self-serve](../gates/paid.md) |
 | [Explorium](../tools/explorium.md)
 explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | api key | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
@@ -64,6 +68,8 @@ gohighlevel.com | [Official MCP](../mcp/official.md) | [https://services.leadcon
 infraforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/mcp](https://mcp.salesforge.ai/mcp) | API key, generated from the Infraforge/Salesforge dashboard. | [Paid, self-serve](../gates/paid.md) |
 | [Instantly](../tools/instantly.md)
 instantly.ai | [Official MCP](../mcp/official.md) | [https://mcp.instantly.ai/mcp](https://mcp.instantly.ai/mcp) +1 more | api key (generated in Instantly Settings > Integrations > API Keys) | [Paid, self-serve](../gates/paid.md) |
+| [JustCall](../tools/justcall.md)
+justcall.io | [Official MCP](../mcp/official.md) | [https://mcp.justcall.host/mcp](https://mcp.justcall.host/mcp) +2 more | api key. The vendor's docs show an Authorization header of the form "Bearer :", a key and secret pair joined... | [Paid, self-serve](../gates/paid.md) |
 | [Lead411](../tools/lead411.md)
 lead411.com | [Official MCP](../mcp/official.md) | [https://mcp.lead411.com/mcp](https://mcp.lead411.com/mcp) +3 more | api key via X-API-KEY header. TRANSPORT IS DISPUTED: the official registry record says SSE, PulseMCP says Streamable HTTP. Verify at connect time. | [Paid, self-serve](../gates/paid.md) |
 | [Mailforge](../tools/mailforge.md)
@@ -84,6 +90,8 @@ supersend.io | [Official MCP](../mcp/official.md) | [https://docs.supersend.io/d
 tldv.io | [Official MCP](../mcp/official.md) | [https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server) +1 more | API key generated at Settings → Personal Settings → API keys. | [Paid, self-serve](../gates/paid.md) |
 | [Trainual](../tools/trainual.md)
 trainual.com | [Official MCP](../mcp/official.md) | [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server) +1 more | Bearer MCP token in the Authorization header; the help article states "Only those with an Admin+ permission level can create MCP tokens" and "The... | [Paid, self-serve](../gates/paid.md) |
+| [SigParser](../tools/sigparser.md)
+sigparser.com | [Official MCP](../mcp/official.md) | [https://ipaas.sigparser.com/api/mcp](https://ipaas.sigparser.com/api/mcp) | unknown. The endpoint answers HTTP 401 to an unauthenticated MCP initialize but no first-party page documents the scheme; SigParser's REST API,... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [HG Insights (Phoenix platform)](../tools/hg-insights.md)
 hginsights.com | [Official MCP](../mcp/official.md) | [https://learn.microsoft.com/en-us/connectors/hginsig...](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/) | api key (`x-api-key` header; throttled to 100 calls/60 seconds per connection) | [Enterprise only](../gates/enterprise-only.md) |
 | [MadKudu](../tools/madkudu.md)
@@ -113,4 +121,4 @@ zoominfo.com | [Community MCP](../mcp/community.md) | [https://github.com/openso
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

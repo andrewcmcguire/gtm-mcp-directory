@@ -71,7 +71,7 @@ enterprise-only for the MCP-enabled path - Salesforce Hosted MCP Servers require
 
 No documentation URL recorded.
 
-264 of 293 entries are in the same position. Blank is legal and it is published as blank.
+289 of 318 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -94,7 +94,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -114,7 +114,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A prebuilt agent within Salesforce's Agentforce platform intended to handle inbound lead engagement and outbound prospecting conversations natively inside Sales Cloud, escalating to a human rep once a prospect is ready.
 
-16 of the 293 entries are cross listed like this. They are why the entry count is 293 and the unique product count is 277. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 318 entries are cross listed like this. They are why the entry count is 318 and the unique product count is 302. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

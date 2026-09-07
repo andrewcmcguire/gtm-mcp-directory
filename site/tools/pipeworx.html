@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pipeworx: MCP server status, API access gate and what it does</title>
+<meta name="description" content="A single MCP gateway that fronts a stated 1,532 live data sources as 5,871 tools behind one URL, weighted... Official MCP, Free to start. Checked 2026-09-07.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/pipeworx">
+<link rel="alternate" type="text/markdown" href="pipeworx.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Pipeworx",
+  "url": "https://pipeworx.io",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "MCP Layer",
+  "description": "A single MCP gateway that fronts a stated 1,532 live data sources as 5,871 tools behind one URL, weighted toward public and regulatory data (SEC EDGAR, FDA, the Federal Reserve, ClinicalTrials, USPTO, EPA, EU procurement), with per-application wrapper paths for common SaaS APIs alongside them.",
+  "offers": {
+    "@type": "Offer",
+    "category": "Free to start"
+  },
+  "featureList": [],
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/gtm-directory/data"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://gateway.pipeworx.io/mcp"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/gtm-directory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "MCP Layer",
+      "item": "https://andrewcmcguire.com/gtm-directory/categories/mcp-infrastructure"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pipeworx",
+      "item": "https://andrewcmcguire.com/gtm-directory/tools/pipeworx"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/" aria-current="page">Tools</a>
+<a href="../categories/">Categories</a>
+<a href="../jobs/">Jobs</a>
+<a href="../jobs-board/">Hiring</a>
+<a href="../lists/">Lists</a>
+<a href="../learn/">Learn</a>
+<a href="../mcp/">MCP status</a>
+<a href="../gates/">Gate</a>
+<a href="../methodology">Method</a>
+<a href="../data">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../">Directory</a> /
+<a href="../categories/mcp-infrastructure">MCP Layer</a> /
+Pipeworx</div>
+<div class="toolhead">
+<h1>Pipeworx</h1>
+<div class="badges">
+<a class="badge gold" href="../mcp/official">Official MCP</a>
+<a class="badge teal" href="../gates/free">Free to start</a>
+<a class="badge mute flat" href="../categories/mcp-infrastructure">MCP Layer</a>
+<span class="badge tier flat">RESEARCHED</span>
+<span class="badge mute flat">Checked 2026-09-07</span>
+</div>
+<div class="tierbox"><b>RESEARCHED</b>
+Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and
+cannot be bought at any price. Across the whole directory that count is 1.</div>
+<p class="note">Vendor: <a href="https://pipeworx.io" rel="noopener nofollow">pipeworx.io</a>
+&middot; entry id 07-pipeworx &middot; source
+07-mcp-infrastructure.md line 352</p>
+</div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">A single MCP gateway that fronts a stated 1,532 live data sources as 5,871 tools behind one URL, weighted toward public and regulatory data (SEC EDGAR, FDA, the Federal Reserve, ClinicalTrials, USPTO, EPA, EU procurement), with per-application wrapper paths for common SaaS APIs alongside them.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">None as a model, but several agent-native design features that are genuinely unusual: it ships all three MCP primitives (Tools, Resources and Prompts) rather than tools alone, and adds gateway meta-tools including ask_pipeworx, discover_tools, resolve_entity, compare_entities, entity_profile, recent_changes and a remember, recall and forget memory triple, which the vendor says collapse five to fifteen agent round trips into one call.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">The public-and-regulatory-data leg of a research agent, sitting alongside rather than inside the GTM stack: filings, patents, tenders, approvals and rates that no CRM or enrichment vendor supplies, reachable without a key.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">none required for the free tiers. The vendor states &quot;No API keys&quot; and that an anonymous client gets 50 tool calls a day on the full catalogue; a free GitHub signup raises that to 200 a day and adds persistent memory and a usage dashboard, and paid usage is metered in credits.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">4 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">not probed yet</div></div>
+</div>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
+<p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io/&lt;app&gt;/mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory)</p><ul><li><a href="https://gateway.pipeworx.io/mcp" rel="noopener nofollow">https://gateway.pipeworx.io/mcp</a></li><li><a href="https://gateway.pipeworx.io/" rel="noopener nofollow">https://gateway.pipeworx.io/</a></li><li><a href="https://pipeworx.io/docs/" rel="noopener nofollow">https://pipeworx.io/docs/</a></li><li><a href="https://pipeworx.io/directory" rel="noopener nofollow">https://pipeworx.io/directory</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
+<div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
+</div>
+<p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
+<p>free - the pricing page publishes an &quot;Anonymous&quot; tier, &quot;Free forever&quot;, at &quot;50 tool calls / day&quot; with &quot;All 5,871 tools&quot; and no API keys, and a &quot;Registered (Free)&quot; tier at &quot;200 tool calls / day&quot; with GitHub signup. Paid usage is priced in credits at 1 credit = $0.0001, with per-category rates and optional $49/month and $99/month subscriptions that lock a lower rate card and are credited against usage rather than charged on top.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">289 of 318 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://pipeworx.io/" rel="noopener nofollow">https://pipeworx.io/</a></li><li><a href="https://pipeworx.io/pricing" rel="noopener nofollow">https://pipeworx.io/pricing</a></li><li><a href="https://pipeworx.io/docs/" rel="noopener nofollow">https://pipeworx.io/docs/</a></li><li><a href="https://gateway.pipeworx.io/mcp" rel="noopener nofollow">https://gateway.pipeworx.io/mcp</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://pipeworx.io/, https://pipeworx.io/pricing, https://pipeworx.io/docs/, https://gateway.pipeworx.io/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Verified 2026-09-07 and this is the strongest liveness result in this group: POST of an MCP initialize to https://gateway.pipeworx.io/mcp returned HTTP 200 over SSE with a full initialize result, serverInfo name &quot;pipeworx-gateway&quot; version 0.1.0, protocol 2025-06-18, advertising tools, resources and prompts. A per-application path, https://gateway.pipeworx.io/hubspot/mcp, returned the same server identity, which confirms the per-app URLs in the candidate research are routes on one gateway rather than separate servers. RECLASSIFIED FROM THE CANDIDATE ROW: the research filed this as a &quot;third-party wrapper (community)&quot; because its per-app routes wrap other vendors&#x27; REST APIs. That is true of the wrapper routes and is a real caveat for anyone connecting the HubSpot or Salesforce path, since neither vendor endorses it. But the entry here is for Pipeworx as a product, and the gateway is Pipeworx&#x27;s own first-party server, which is the same treatment Composio, Pipedream and Zapier MCP already get in this file, so mcp_status is official. Vendor claims recorded as claims, not findings: 1.7M+ requests/month, and a benchmark asserting frontier models were &quot;100% correct with Pipeworx, 63% with web search&quot; across 188 questions. The self-reported reliability figures are unusually candid and worth quoting in any coverage: the vendor says agent tool calls fail 25 to 30 percent of the time against typical MCP servers and that one instrumentation pass in May 2026 took its own error rate from 27.6% to 6.9%.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Entry id</div><div class="bv">07-pipeworx</div></div>
+<div><div class="bk">Source file</div><div class="bv">07-mcp-infrastructure.md</div></div>
+<div><div class="bk">Source line</div><div class="bv">352</div></div>
+<div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-07</div></div>
+</div>
+<p class="note">Every field above is rendered from directory.json exactly as the build produced it.
+Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
+it is disclosed on the <a href="../methodology">methodology page</a>.</p></div></div></div></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>318 directory entries across 15 category files.
+    302 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>181 official MCP servers,
+    26 community.
+    1 bench tested.</p>
+    <p>56 jobs in 10 families.
+    271 entries carry at least one job tag,
+    47 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../categories/">By category</a></li>
+      <li><a href="../mcp/">By MCP status</a></li>
+      <li><a href="../gates/">By access gate</a></li>
+      <li><a href="../jobs/">By job</a></li>
+      <li><a href="../jobs-board/">The GTM Engineer job board</a></li>
+      <li><a href="../github/">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology">How an entry is made</a></li>
+      <li><a href="../submit">Submit a tool, free</a></li>
+      <li><a href="../learn/">Learn: the questions, answered</a></li>
+      <li><a href="../lists/">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="pipeworx.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-09-07 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 318 vs recount
+318.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>
+Maintained by <a href="https://andrewcmcguire.com" rel="noopener">Andrew McGuire</a>, same publisher as <a href="https://gtmsignals.co" rel="noopener">gtmsignals.co</a> and <a href="https://justsaid.ai" rel="noopener">justsaid.ai</a>.
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
-# MCP Layer tools with MCP servers: 8 of 13, counted
+# MCP Layer tools with MCP servers: 14 of 19, counted
 
-> 8 of the 13 mcp layer tools in The GTM MCP Directory have an MCP server: 8 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 14 of the 19 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / MCP Layer tools with an MCP server
 
-**List · 8 of 293**
+**List · 14 of 318**
 
 ## MCP Layer tools with an MCP server
 
-The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 8 of 13 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
+The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 14 of 19 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -24,9 +24,24 @@ Managed OAuth via Apideck Vault on the hosted endpoint, or x-apideck-api-key plu
 | [Composio](../tools/composio.md)
 composio.dev | [Official MCP](../mcp/official.md) | [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp) | OAuth or an API key
 Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the... | [Free to start](../gates/free.md) |
+| [Knit MCP](../tools/knit-mcp.md)
+getknit.dev | [Official MCP](../mcp/official.md) | [https://www.getknit.dev/mcp-servers](https://www.getknit.dev/mcp-servers) +1 more | OAuth
+Knit-managed OAuth or SAML per connected application; the customer authorises each end... | [Free to start](../gates/free.md) |
+| [Merge Agent Handler](../tools/merge-agent-handler.md)
+merge.dev | [Official MCP](../mcp/official.md) | [https://api.merge.dev/api/v1/tool-packs/](https://api.merge.dev/api/v1/tool-packs/) +2 more | OAuth or an API key
+api key in an Authorization Bearer header, alongside the identity encoded in the URL... | [Free to start](../gates/free.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [Official MCP](../mcp/official.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | API key
 Per-server - individual servers take credentials (e.g. API tokens) via environment... | [Free to start](../gates/free.md) |
+| [Pipeworx](../tools/pipeworx.md)
+pipeworx.io | [Official MCP](../mcp/official.md) | [https://gateway.pipeworx.io/mcp](https://gateway.pipeworx.io/mcp) +3 more | Auth not recorded
+none required for the free tiers. The vendor states "No API keys" and that an anonymous... | [Free to start](../gates/free.md) |
+| [StackOne](../tools/stackone.md)
+stackone.com | [Official MCP](../mcp/official.md) | [https://api.stackone.com/mcp?x-account-id=](https://api.stackone.com/mcp?x-account-id=) +1 more | OAuth or an API key
+Basic authentication plus a per-account identifier, with StackOne brokering OAuth, API... | [Free to start](../gates/free.md) |
+| [usefulapi.io](../tools/usefulapi-io.md)
+usefulapi.io | [Official MCP](../mcp/official.md) | [https://usefulapi.io/](https://usefulapi.io/) +1 more | OAuth or an API key
+per-application OAuth. The setup instructions add the subdomain as a custom connector and... | [Free to start](../gates/free.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
 zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) +1 more | OAuth
 Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize... | [Free to start](../gates/free.md) |
@@ -36,6 +51,9 @@ Fully custodial - Metorial stores and centrally manages OAuth tokens for every c
 | [Pipedream MCP](../tools/pipedream-mcp.md)
 pipedream.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedream.com](https://mcp.pipedream.com) | OAuth or an API key
 OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated... | [Paid, self-serve](../gates/paid.md) |
+| [Paragon (ActionKit MCP)](../tools/paragon.md)
+useparagon.com | [Official MCP](../mcp/official.md) | [https://github.com/useparagon/paragon-mcp](https://github.com/useparagon/paragon-mcp) +1 more | OAuth
+Paragon user token plus Connect Portal OAuth. The distinguishing feature is that the... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
 turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | OAuth
 Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Enterprise only](../gates/enterprise-only.md) |
@@ -69,4 +87,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Read CRM records](../jobs/read-crm-records.md)
 - [Write CRM records](../jobs/write-crm-records.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

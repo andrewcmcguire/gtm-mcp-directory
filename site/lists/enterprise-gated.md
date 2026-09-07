@@ -1,6 +1,6 @@
-# Enterprise gated GTM tools: 81 an agent cannot reach without a contract
+# Enterprise gated GTM tools: 86 an agent cannot reach without a contract
 
-> 77 enterprise only entries plus 4 enterprise leaning. 35 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-07.
+> 78 enterprise only entries plus 8 enterprise leaning. 40 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 81 GTM tools that need a contract before an agent can touch them
+[The lists](index.md) / The 86 GTM tools that need a contract before an agent can touch them
 
-**List · 81 of 293**
+**List · 86 of 318**
 
-## The 81 GTM tools that need a contract before an agent can touch them
+## The 86 GTM tools that need a contract before an agent can touch them
 
 Enterprise gated with no public docs is the most useful fact in a directory like this, so it is surfaced rather than hidden. An official MCP server behind a procurement cycle is still an official MCP server, and it is still unreachable for a solo operator, which is why this site publishes MCP status and access gate as two separate columns.
 
@@ -22,6 +22,14 @@ Enterprise gated with no public docs is the most useful fact in a directory like
 amplemarket.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences... |
 | [Clari](../tools/clari.md)
 clari.com | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | Revenue operations platform that aggregates CRM, activity, and conversation data into pipeline inspection, forecasting,... |
+| [Dialpad](../tools/dialpad.md)
+dialpad.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | An AI-native business communications platform covering cloud phone, contact centre, SMS and meetings, with an MCP... |
+| [Harmonic](../tools/harmonic.md)
+harmonic.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | A startup and private-company database built for early discovery, tracking a stated 40 million companies, 200 million... |
+| [Paragon (ActionKit MCP)](../tools/paragon.md)
+useparagon.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | An embedded integration platform for SaaS products, whose ActionKit product exposes a stated 1,000-plus actions across... |
+| [SigParser](../tools/sigparser.md)
+sigparser.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | A relationship-intelligence and contact-capture product that scans connected mailboxes, calendars and address books,... |
 | [Sybill](../tools/sybill.md)
 sybill.ai | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call summaries, and... |
 | [6sense](../tools/6sense.md)
@@ -42,6 +50,8 @@ commonroom.io | [Signals & Intent](../categories/signals-intent-abm.md) | [Offic
 commonroom.io | [Community & Dark Social](../categories/community-dark-social.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | See the full RESEARCHED entry in 05-signals-intent-abm.md (Common Room is filed there as its canonical home in this... |
 | [Crossbeam](../tools/crossbeam.md)
 crossbeam.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Compares your account list against your partners' account lists to surface overlaps, partner-shared contacts, and warm... |
+| [Crunchbase](../tools/crunchbase.md)
+crunchbase.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | A private-company database covering company profiles, funding rounds, investors, people and acquisitions, sold as a web... |
 | [Demandbase (Demandbase One)](../tools/demandbase.md)
 demandbase.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Identifies and scores in-market B2B accounts by combining IP/website deanonymization, a global... |
 | [G2 Buyer Intent](../tools/g2-buyer-intent.md)
@@ -181,4 +191,4 @@ vareto.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No
 | [Varicent](../tools/varicent.md)
 varicent.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory... |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

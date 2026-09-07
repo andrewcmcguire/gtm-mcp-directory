@@ -1,6 +1,6 @@
 # Methodology: how an entry is made and where this build is thin
 
-> The five laws an entry survives, the two honesty tiers (1 bench tested of 293), the counting authority, and every thin spot named rather than padded.
+> The five laws an entry survives, the two honesty tiers (1 bench tested of 318), the counting authority, and every thin spot named rather than padded.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -13,11 +13,11 @@
 
 ## The verification is the product.
 
-The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that every answer carries its honesty tier and the date it was measured, and that the awkward numbers are on the page instead of in a drawer.
+The list is not the moat. Anyone can copy 318 rows. What is hard to copy is that every answer carries its honesty tier and the date it was measured, and that the awkward numbers are on the page instead of in a drawer.
 
 **The two tiers**
 
-**RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 292 entries in this build are RESEARCHED.
+**RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 317 entries in this build are RESEARCHED.
 
 **BENCH-TESTED.** Andrew personally ran it on a stated date. Cannot be bought. There are 1 of them. That number is on the front page. It stays at 1 until Andrew actually runs something, and a vendor offering access buys a test, never a verdict.
 
@@ -29,7 +29,7 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 3. Vendor copy is a source for what the vendor says, not for what the tool can do. Every what_it_does on this site was rewritten in plain language.
 
-4. Enterprise gated with no public docs is itself the most useful fact in the directory, so it is surfaced rather than hidden. 77 entries are enterprise only.
+4. Enterprise gated with no public docs is itself the most useful fact in the directory, so it is surfaced rather than hidden. 78 entries are enterprise only.
 
 5. Official means first party. A Zapier, viaSocket or Composio wrapper is not an official MCP server no matter how well it works.
 
@@ -39,13 +39,13 @@ The list is not the moat. Anyone can copy 293 rows. What is hard to copy is that
 
 **The counting authority**
 
-tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 293 against 293, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
+tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 318 against 318, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-07 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 7cc1ca6230c5833e434f430f...
+Data baked 2026-09-07 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 a6e192258cb0f3b538108321...
 
 **The duplicates, and why two counts exist**
 
-293 entries, 277 unique products. The difference is 16 products that are deliberately listed in two category files because a reader browsing either one should find them. The canonical home for each is declared in INDEX.md and not chosen by the parser. Category and status views count all 293 entries, because that is what the source files hold. Tool pages count 277, because that is how many products there are.
+318 entries, 302 unique products. The difference is 16 products that are deliberately listed in two category files because a reader browsing either one should find them. The canonical home for each is declared in INDEX.md and not chosen by the parser. Category and status views count all 318 entries, because that is what the source files hold. Tool pages count 302, because that is how many products there are.
 
 - [Amplemarket](tools/amplemarket.md) 02-amplemarket + 04-amplemarket
 - [Chili Piper](tools/chili-piper.md) 10-chili-piper + 14-chili-piper
@@ -87,26 +87,26 @@ Data baked 2026-09-07 by build_directory.py (phase 1). Network calls made during
 - [BuzzSumo](tools/buzzsumo.md) 15-buzzsumo
 - [F5Bot](tools/f5bot.md) 15-f5bot
 
-**32 entries have an unknown access gate** and **264 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
+**32 entries have an unknown access gate** and **289 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
 
 **What has not been measured at all**
 
 The following fields exist in the schema, are present on every entry, and are empty on every entry. Nothing about them is inferred anywhere on this site.
 
-- docs_digest: empty on 293 of 293 entries
-- docs_last_crawled: empty on 293 of 293 entries
-- github_archived: empty on 293 of 293 entries
-- github_fetched_on: empty on 293 of 293 entries
-- github_last_commit: empty on 293 of 293 entries
-- github_stars: empty on 293 of 293 entries
-- github_url: empty on 293 of 293 entries
-- submission: empty on 293 of 293 entries
+- docs_digest: empty on 318 of 318 entries
+- docs_last_crawled: empty on 318 of 318 entries
+- github_archived: empty on 318 of 318 entries
+- github_fetched_on: empty on 318 of 318 entries
+- github_last_commit: empty on 318 of 318 entries
+- github_stars: empty on 318 of 318 entries
+- github_url: empty on 318 of 318 entries
+- submission: empty on 318 of 318 entries
 
 That is why the GitHub view shows seeds instead of star counts. An empty field is published as empty.
 
 **The jobs field, which is now measured**
 
-jobs[] used to be on the list above. It is not any more. As of 2026-08-25 the vocabulary is closed at 56 jobs in 10 families, and 849 tags are assigned across 271 of 293 entries. 22 entries carry no tag at all, each one for a recorded reason that is printed on its own tool page.
+jobs[] used to be on the list above. It is not any more. As of 2026-08-25 the vocabulary is closed at 56 jobs in 10 families, and 849 tags are assigned across 271 of 318 entries. 47 entries carry no tag at all, each one for a recorded reason that is printed on its own tool page.
 
 **What a tag means, exactly.** A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records. It was derived from the entry's own what_it_does, ai_features and revops_role text, which is itself RESEARCHED tier. Tagged by machine-pass, tier RESEARCHED, and bench_tested is still 1. 49 entries were flagged for human review by that pass and are the first thing a second reader should look at.
 

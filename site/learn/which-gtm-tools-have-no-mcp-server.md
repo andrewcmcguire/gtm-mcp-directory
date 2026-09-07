@@ -1,6 +1,6 @@
-# Which GTM tools have no MCP server? 87 of 293, and what that means
+# Which GTM tools have no MCP server? 87 of 318, and what that means
 
-> 87 of 293 GTM tools had no MCP server found on the date they were checked. The list, the categories it clusters in, and why none found is not the same as none exists.
+> 87 of 318 GTM tools had no MCP server found on the date they were checked. The list, the categories it clusters in, and why none found is not the same as none exists.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-87 of the 293 entries in this directory had no MCP server found at the time of the check. That is a statement about a search on a stated date, not a claim that no server exists, and every entry carries the date its facts were pulled.
+87 of the 318 entries in this directory had no MCP server found at the time of the check. That is a statement about a search on a stated date, not a claim that no server exists, and every entry carries the date its facts were pulled.
 
 The list matters more than it looks. If a tool your team depends on is on it, that is the work item: either an API and some glue, or a case to the vendor, or a decision to route around it.
 
@@ -28,16 +28,16 @@ The list matters more than it looks. If a tool your team depends on is on it, th
 | [Email Deliverability](../categories/email-deliverability.md) | 8 | 13 | 62% |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 8 | 14 | 57% |
 | [AI SDRs](../categories/ai-sdr-agents.md) | 13 | 23 | 57% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 6 | 16 | 38% |
 | [Proposals & Deals](../categories/proposals-deals.md) | 5 | 14 | 36% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 5 | 15 | 33% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 6 | 18 | 33% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 5 | 17 | 29% |
 | [Video Prospecting](../categories/video-prospecting.md) | 4 | 14 | 29% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 4 | 14 | 29% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 27 | 22% |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 6 | 28 | 21% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 38 | 13% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 31 | 19% |
 | [Conversation Intel](../categories/conversation-intel.md) | 3 | 24 | 12% |
-| [RevOps Infra](../categories/revops-infra.md) | 1 | 23 | 4% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 45 | 11% |
+| [RevOps Infra](../categories/revops-infra.md) | 1 | 27 | 4% |
 
 ## What none found does not mean
 

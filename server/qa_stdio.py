@@ -77,6 +77,7 @@ REQUIRED_TOOLS = [
     "get_docs_digest",
     "list_jobs",
     "get_server_tools",
+    "plan_stack",
 ]
 
 
@@ -538,7 +539,8 @@ async def run_degradation(tmp: Path) -> None:
         )
         check(
             "it says out loud that nothing is tagged",
-            any("0 of 293" in c for c in body["honesty"]["caveats"]),
+            any(("0 of %d" % EXPECTED["entries"]) in c for c in body["honesty"]["caveats"]),
+            [c for c in body["honesty"]["caveats"] if "tag" in c.lower()][:1],
         )
 
         body = payload(await client.call_tool("list_jobs", {}))

@@ -64,7 +64,7 @@ paid (the API is an add-on to the Business plan which starts at $249/mo, with re
 
 No documentation URL recorded.
 
-264 of 293 entries are in the same position. Blank is legal and it is published as blank.
+289 of 318 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -78,7 +78,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: no-job-fits. Trend and topic velocity detection. It is not mention monitoring and it is not an account signal, so monitor-social-mentions would be wrong. Candidate new job: detect-emerging-topic.
 
-22 of 293 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

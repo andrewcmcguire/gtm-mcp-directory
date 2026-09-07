@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Help Scout: MCP server status, API access gate and what it does</title>
+<meta name="description" content="A shared inbox, live chat and knowledge-base product for customer-facing teams, with an MCP server that gives... Official MCP, Paid, self-serve. Checked 2026-09-07.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/help-scout">
+<link rel="alternate" type="text/markdown" href="help-scout.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Help Scout",
+  "url": "https://helpscout.com",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Inbound & PLG Chat",
+  "description": "A shared inbox, live chat and knowledge-base product for customer-facing teams, with an MCP server that gives an AI agent read access to conversations, customers, organisations, reporting and Docs content, each teammate connecting under their own credentials and permissions.",
+  "offers": {
+    "@type": "Offer",
+    "category": "Paid, self-serve"
+  },
+  "featureList": [],
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/gtm-directory/data"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://mcp.helpscout.net/mcp"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/gtm-directory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Inbound & PLG Chat",
+      "item": "https://andrewcmcguire.com/gtm-directory/categories/inbound-plg-chat"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Help Scout",
+      "item": "https://andrewcmcguire.com/gtm-directory/tools/help-scout"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/" aria-current="page">Tools</a>
+<a href="../categories/">Categories</a>
+<a href="../jobs/">Jobs</a>
+<a href="../jobs-board/">Hiring</a>
+<a href="../lists/">Lists</a>
+<a href="../learn/">Learn</a>
+<a href="../mcp/">MCP status</a>
+<a href="../gates/">Gate</a>
+<a href="../methodology">Method</a>
+<a href="../data">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../">Directory</a> /
+<a href="../categories/inbound-plg-chat">Inbound &amp; PLG Chat</a> /
+Help Scout</div>
+<div class="toolhead">
+<h1>Help Scout</h1>
+<div class="badges">
+<a class="badge gold" href="../mcp/official">Official MCP</a>
+<a class="badge gold" href="../gates/paid">Paid, self-serve</a>
+<a class="badge mute flat" href="../categories/inbound-plg-chat">Inbound &amp; PLG Chat</a>
+<span class="badge tier flat">RESEARCHED</span>
+<span class="badge mute flat">Checked 2026-09-07</span>
+</div>
+<div class="tierbox"><b>RESEARCHED</b>
+Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and
+cannot be bought at any price. Across the whole directory that count is 1.</div>
+<p class="note">Vendor: <a href="https://helpscout.com" rel="noopener nofollow">helpscout.com</a>
+&middot; entry id 14-help-scout &middot; source
+14-inbound-plg-chat.md line 313</p>
+</div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">A shared inbox, live chat and knowledge-base product for customer-facing teams, with an MCP server that gives an AI agent read access to conversations, customers, organisations, reporting and Docs content, each teammate connecting under their own credentials and permissions.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">The product ships an AI inbox assistant, AI drafts and an AI Answers resolution feature on its paid tiers. The MCP server is deliberately not one of them: it is read-only for new connections, so the intelligence is entirely on the client side.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Inbound support and success inbox for SMB and mid-market teams, and, through a read-only MCP surface, a way to let an agent answer questions about customer history and support load without any ability to write into the queue.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">oauth. The vendor&#x27;s article states the connector registers itself, so the OAuth client ID and secret fields in the AI client are left empty, and warns explicitly that a Help Scout App ID and secret from My Apps are for the REST API and &quot;won&#x27;t work for the connector&quot;.</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">not probed yet</div></div>
+</div>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
+<p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.helpscout.net/mcp (docs: https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports)</p><ul><li><a href="https://mcp.helpscout.net/mcp" rel="noopener nofollow">https://mcp.helpscout.net/mcp</a></li><li><a href="https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports" rel="noopener nofollow">https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
+<div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
+</div>
+<p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
+<p>paid - the vendor&#x27;s own article states &quot;Your Help Scout account must have API access, which is included on the Standard, Plus, and Pro plans&quot;, and adds that report tools require Plus or Pro because the reporting API is not available on Standard. Published self-serve prices are Standard $25, Plus $45 and Pro $75 per user per month, with Pro routed to &quot;Book a Demo&quot;; a Free tier exists but does not carry API access and therefore cannot reach the MCP server.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">289 of 318 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports" rel="noopener nofollow">https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports</a></li><li><a href="https://www.helpscout.com/pricing/" rel="noopener nofollow">https://www.helpscout.com/pricing/</a></li><li><a href="https://mcp.helpscout.net/mcp" rel="noopener nofollow">https://mcp.helpscout.net/mcp</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports, https://www.helpscout.com/pricing/, https://mcp.helpscout.net/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Verified 2026-09-07: POST of an MCP initialize to https://mcp.helpscout.net/mcp returned HTTP 401 with {&quot;error&quot;:&quot;invalid_token&quot;,&quot;error_description&quot;:&quot;No authorization provided&quot;}, confirming a live auth-gated server, and the endpoint is printed in Help Scout&#x27;s own help-centre article. Note the domain: helpscout.net, not helpscout.com, which is a discovery trap for anyone checking only the marketing domain. TWO PLAN GATES STACK INSIDE ONE PRODUCT and both are documented by the vendor: Standard and above reaches the server at all, but the report tools return nothing on Standard because the reporting API is not included there, so an agent on a Standard plan will silently get an empty answer to a reporting question rather than an error a user can act on. Access is stated to be read-only for new connections with writes on the roadmap, so this is currently the safest inbox in this file to hand an unsupervised agent. The article also records a client-side gate that has nothing to do with Help Scout: on Claude Team and Enterprise only an Owner can add a custom connector, and on ChatGPT Business and Enterprise a workspace admin must enable Developer mode first. Help Scout was not listed in Claude&#x27;s connector directory as of the article&#x27;s own text, so it is added as a custom connector by URL.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Entry id</div><div class="bv">14-help-scout</div></div>
+<div><div class="bk">Source file</div><div class="bv">14-inbound-plg-chat.md</div></div>
+<div><div class="bk">Source line</div><div class="bv">313</div></div>
+<div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-07</div></div>
+</div>
+<p class="note">Every field above is rendered from directory.json exactly as the build produced it.
+Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
+it is disclosed on the <a href="../methodology">methodology page</a>.</p></div></div></div></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>318 directory entries across 15 category files.
+    302 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>181 official MCP servers,
+    26 community.
+    1 bench tested.</p>
+    <p>56 jobs in 10 families.
+    271 entries carry at least one job tag,
+    47 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../categories/">By category</a></li>
+      <li><a href="../mcp/">By MCP status</a></li>
+      <li><a href="../gates/">By access gate</a></li>
+      <li><a href="../jobs/">By job</a></li>
+      <li><a href="../jobs-board/">The GTM Engineer job board</a></li>
+      <li><a href="../github/">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology">How an entry is made</a></li>
+      <li><a href="../submit">Submit a tool, free</a></li>
+      <li><a href="../learn/">Learn: the questions, answered</a></li>
+      <li><a href="../lists/">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="help-scout.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-09-07 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 318 vs recount
+318.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>
+Maintained by <a href="https://andrewcmcguire.com" rel="noopener">Andrew McGuire</a>, same publisher as <a href="https://gtmsignals.co" rel="noopener">gtmsignals.co</a> and <a href="https://justsaid.ai" rel="noopener">justsaid.ai</a>.
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+# Microsoft Dynamics 365 Sales: MCP server status, API access gate and what it does
+
+> Microsoft's enterprise CRM for sales, built on Dataverse and the Power Platform, covering leads,... Official MCP, Paid, self-serve. Checked 2026-09-07.
+
+*Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
+---
+[Directory](../index.md) /
+[RevOps Infra](../categories/revops-infra.md) /
+Microsoft Dynamics 365 Sales
+
+# Microsoft Dynamics 365 Sales
+
+[Official MCP](../mcp/official.md)
+[Paid, self-serve](../gates/paid.md)
+[RevOps Infra](../categories/revops-infra.md)
+RESEARCHED
+Checked 2026-09-07
+
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
+
+Vendor: [microsoft.com/dynamics-365](https://microsoft.com/dynamics-365) · entry id 06-microsoft-dynamics-365-sales · source 06-revops-infra.md line 516
+
+**What it does**
+Microsoft's enterprise CRM for sales, built on Dataverse and the Power Platform, covering leads, opportunities, accounts and forecasting, with a first-party MCP server that lets Copilot Studio agents and other MCP clients qualify leads, research opportunities and read and write Dataverse records.
+
+**AI features, separated from automation with an AI label on it**
+Substantial and native: Copilot inside Dynamics writes summaries and email drafts, and Microsoft ships named agents (Sales Qualification, Sales Opportunity, Sales Research, and Sales Close in preview) that run on Copilot Credits. The MCP server is the interface that lets an outside agent reach the same data, not itself an AI feature.
+
+**RevOps role**
+System of record for Microsoft-standardised enterprise sales orgs, and through MCP the point at which an external agent can read and write the pipeline directly rather than through a middleware sync.
+
+**MCP server**
+
+- **Status bucket**: Official MCP
+
+- **Auth**: enterprise gate. Microsoft Entra identity; the documented prerequisites are admin permissions in Dynamics 365 Sales, admin permissions in Copilot Studio, an environment-level allowance for non-Copilot-Studio MCP clients to reach the Dataverse MCP server, and enough Copilot Studio credits to cover the tool calls.
+
+- **Parsed URLs**: 2 found in the mcp_url field
+
+- **Endpoint probe**: not probed yet
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-07 and the MCP URL has not been probed live yet.
+
+mcp_status, verbatim from the file:
+
+official
+
+mcp_url, verbatim from the file:
+
+https://agent365.svc.cloud.microsoft/mcp/environments//servers/msdyn_SalesMCPServer for the Sales server, plus https:///api/mcp for the Dataverse server (docs: https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol)
+
+- [https://agent365.svc.cloud.microsoft/mcp/environments/](https://agent365.svc.cloud.microsoft/mcp/environments/)
+- [https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol](https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol)
+
+**Access gate**
+
+- **Gate bucket**: Paid, self-serve
+
+- **Can a solo operator reach it**: Yes, by paying, no sales call
+
+api_gate, verbatim from the file:
+
+paid - Microsoft publishes per-seat prices with a self-serve "Buy now" path for the two lower tiers: Dynamics 365 Sales Professional at "$65.00 user/month, paid yearly" and Sales Enterprise Edition at "$105.00 user/month, paid yearly", with Sales Premium at "$150.00 user/month, paid yearly" routed to "Contact us". The MCP path costs more than a licence, because it additionally consumes Copilot Studio credits per tool call and requires tenant admin rights the buyer may not hold.
+
+**API documentation**
+
+No documentation URL recorded.
+
+289 of 318 entries are in the same position. Blank is legal and it is published as blank.
+
+**GitHub health**
+
+Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
+
+The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**Jobs it can do**
+
+No job tag on this entry.
+
+47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+
+**Sources**
+
+- [https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol](https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol)
+- [https://www.microsoft.com/en-us/dynamics-365/products/sales/pricing](https://www.microsoft.com/en-us/dynamics-365/products/sales/pricing)
+
+2 source URLs. Raw sources field, verbatim:
+
+https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol, https://www.microsoft.com/en-us/dynamics-365/products/sales/pricing
+
+**Notes, verbatim from the file**
+Verified 2026-09-07 from Microsoft Learn. The endpoints are tenant-specific templates, not a shared host, so there is nothing to probe without an environment ID and this entry carries no liveness probe result; that is a property of the design, not a gap in the research. The single most useful line for this directory's readers is in Microsoft's own prerequisites: "Claude Desktop isn't supported at this time." A Microsoft-shaped MCP server that the most widely used MCP client cannot reach is the sharpest available illustration of MCP support being a spectrum rather than a yes or no. The docs give a working mcp.json example pairing both servers, and note that CRUD on Dataverse records requires connecting the Dataverse MCP server as well as the Sales one, so an agent needs two connections to do what a rep does in one screen. Copilot Credit consumption is per tool and documented in a separate Microsoft rate table, so cost scales with agent chattiness rather than with seats.
+
+**Provenance**
+
+- **Entry id**: 06-microsoft-dynamics-365-sales
+
+- **Source file**: 06-revops-infra.md
+
+- **Source line**: 516
+
+- **Tier**: RESEARCHED
+
+- **last_checked**: 2026-09-07
+
+- **Data baked**: 2026-09-07
+
+Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

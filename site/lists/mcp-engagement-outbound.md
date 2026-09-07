@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 19 of 27, counted
+# Engagement & Outbound tools with MCP servers: 23 of 31, counted
 
-> 19 of the 27 engagement & outbound tools in The GTM MCP Directory have an MCP server: 18 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 23 of the 31 engagement & outbound tools in The GTM MCP Directory have an MCP server: 22 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 19 of 293**
+**List · 23 of 318**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 19 of 27 entries in this category are reachable by an agent: 18 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 23 of 31 entries in this category are reachable by an agent: 22 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -27,6 +27,9 @@ workspace-scoped "MCP key" + connection URL (API-key-style, not OAuth) | [Paid, 
 | [Instantly](../tools/instantly.md)
 instantly.ai | [Official MCP](../mcp/official.md) | [https://mcp.instantly.ai/mcp](https://mcp.instantly.ai/mcp) +1 more | API key
 api key (generated in Instantly Settings > Integrations > API Keys) | [Paid, self-serve](../gates/paid.md) |
+| [JustCall](../tools/justcall.md)
+justcall.io | [Official MCP](../mcp/official.md) | [https://mcp.justcall.host/mcp](https://mcp.justcall.host/mcp) +2 more | API key
+api key. The vendor's docs show an Authorization header of the form "Bearer... | [Paid, self-serve](../gates/paid.md) |
 | [La Growth Machine](../tools/la-growth-machine.md)
 lagrowthmachine.com | [Official MCP](../mcp/official.md) | [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system) +1 more | OAuth
 OAuth - no API key needed; first use opens a browser sign-in directly to the user's La... | [Paid, self-serve](../gates/paid.md) |
@@ -42,9 +45,15 @@ OAuth - first connection redirects to PhantomBuster sign-in/authorization, then 
 | [Reply.io](../tools/reply-io.md)
 reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | API key
 api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
+| [RingCentral App Connect MCP](../tools/ringcentral-app-connect-mcp.md)
+ringcentral.com | [Official MCP](../mcp/official.md) | [https://unified-crm-extension.labs.ringcentral.com/m...](https://unified-crm-extension.labs.ringcentral.com/mcp) +2 more | OAuth
+oauth plus a second, separate CRM link. The docs describe a two-layer model: RingCentral... | [Paid, self-serve](../gates/paid.md) |
 | [Salesforge](../tools/salesforge.md)
 salesforge.ai | [Official MCP](../mcp/official.md) | [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp) | API key
 api key via HTTP header (X-Salesforge-Key) | [Paid, self-serve](../gates/paid.md) |
+| [Saleshandy](../tools/saleshandy.md)
+saleshandy.com | [Official MCP](../mcp/official.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +2 more | OAuth or an API key
+oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses OAuth for... | [Paid, self-serve](../gates/paid.md) |
 | [Smartlead](../tools/smartlead.md)
 smartlead.ai | [Official MCP](../mcp/official.md) | [https://helpcenter.smartlead.ai/en/articles/300-smar...](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) +3 more | API key
 api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE... | [Paid, self-serve](../gates/paid.md) |
@@ -60,6 +69,9 @@ hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Wo
 | [Amplemarket](../tools/amplemarket.md)
 amplemarket.com | [Official MCP](../mcp/official.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) +2 more | OAuth
 OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says... | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Dialpad](../tools/dialpad.md)
+dialpad.com | [Official MCP](../mcp/official.md) | [https://mcp-public.us.karehq.com/mcp](https://mcp-public.us.karehq.com/mcp) +3 more | OAuth
+oauth. The docs state the server is hosted by Dialpad, supports Dynamic Client... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md)
 apollo.io | [Official MCP](../mcp/official.md) | [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) +1 more | OAuth
 OAuth (Apollo.io sign-in/authorization flow; no API key required for this MCP) | [Enterprise only](../gates/enterprise-only.md) |
@@ -110,4 +122,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

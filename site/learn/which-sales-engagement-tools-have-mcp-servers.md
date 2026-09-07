@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 19 of 27, counted
+# Sales engagement and outbound tools with MCP servers: 23 of 31, counted
 
-> 19 of the 27 engagement & outbound tools in this directory have an MCP server: 18 official and 1 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 23 of the 31 engagement & outbound tools in this directory have an MCP server: 22 official and 1 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-19 of the 27 engagement & outbound entries in this directory have an MCP server: 18 built and maintained by the vendor and 1 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+23 of the 31 engagement & outbound entries in this directory have an MCP server: 22 built and maintained by the vendor and 1 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -30,6 +30,8 @@ Generates personalised outbound email copy and openers from live buyer signals, 
 Cloud-based LinkedIn outreach automation platform for agencies/sales teams running multi-account connection, messaging, and inbox campaigns from...
 - [Instantly](../tools/instantly.md) Official MCP · Paid, self-serve
 Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing.
+- [JustCall](../tools/justcall.md) Official MCP · Paid, self-serve
+A cloud phone, SMS and WhatsApp platform for sales and support teams built by SaaS Labs, with a sales dialer, CRM integrations and AI voice agents,...
 - [La Growth Machine](../tools/la-growth-machine.md) Official MCP · Paid, self-serve
 Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with...
 - [lemlist](../tools/lemlist.md) Official MCP · Paid, self-serve
@@ -40,8 +42,12 @@ Gmail-native sales engagement layer that runs email sequences, tracking, calenda
 General browser-automation/data-extraction platform ("Phantoms") that runs cloud scripts to scrape and act on LinkedIn and other web platforms -...
 - [Reply.io](../tools/reply-io.md) Official MCP · Paid, self-serve
 Multichannel sales engagement platform for email, LinkedIn, call, and SMS outreach with an AI SDR product layered on top.
+- [RingCentral App Connect MCP](../tools/ringcentral-app-connect-mcp.md) Official MCP · Paid, self-serve
+One of four MCP servers RingCentral publishes through its Labs programme; this one bridges RingCentral telephony to whichever CRM the customer has...
 - [Salesforge](../tools/salesforge.md) Official MCP · Paid, self-serve
 Multi-channel cold outreach platform (email + LinkedIn) with an AI SDR product ("Agent Frank") layered on top of standard sequencing.
+- [Saleshandy](../tools/saleshandy.md) Official MCP · Paid, self-serve
+A cold-email outreach platform with sequences, sender rotation, email warm-up and deliverability tooling, plus a Lead Finder contact database,...
 - [Smartlead](../tools/smartlead.md) Official MCP · Paid, self-serve
 Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox.
 - [Super Send](../tools/super-send.md) Official MCP · Paid, self-serve
@@ -52,6 +58,8 @@ Chrome-extension-based LinkedIn (+ email) prospecting tool that automates invita
 Cold email and LinkedIn outreach automation tool with inbox rotation, adaptive sending, and centralized reply management.
 - [Amplemarket](../tools/amplemarket.md) Official MCP · Enterprise leaning
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
+- [Dialpad](../tools/dialpad.md) Official MCP · Enterprise leaning
+An AI-native business communications platform covering cloud phone, contact centre, SMS and meetings, with an MCP server that exposes the Dialpad...
 - [Apollo.io Sequences (Emailer Campaigns)](../tools/apollo-io-sequences.md) Official MCP · Enterprise only
 Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/task) cadences that enroll contacts pulled from Apollo's prospecting...
 - [Nooks](../tools/nooks.md) Official MCP · Enterprise only
@@ -89,12 +97,12 @@ Multi-channel sales engagement platform (email, phone, social, SMS) with an AI S
 | Gate | Entries |
 |---|---|
 | [Free to start](../gates/free.md) | 1 |
-| [Paid, self-serve](../gates/paid.md) | 18 |
-| [Enterprise leaning](../gates/enterprise-leaning.md) | 1 |
+| [Paid, self-serve](../gates/paid.md) | 21 |
+| [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
 | [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-07. Source file 02-engagement-outbound.md, content sha256 d39de698365e1b83...
+Counted 2026-09-07. Source file 02-engagement-outbound.md, content sha256 d8356c2296cb7c31...
 
 ## Sources
 

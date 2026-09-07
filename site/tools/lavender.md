@@ -60,7 +60,7 @@ api_gate, verbatim from the file:
 
 unknown - there is no docs.lavender.ai, no developer or API page, and no API reference on lavender.ai. APITracker's Lavender profile shows dashes for "Developer docs," "API Reference," and "Authentication." Lavender's capability is reachable programmatically only as a third-party integration, notably Clay's native "Rate Your Emails with Lavender" enrichment action, which is billed in Clay credits and is not a Lavender-issued API key. Recorded as unknown rather than none, because the absence of a public docs page is not proof that no partner API exists.
 
-32 of 293 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+32 of 318 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -81,7 +81,7 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 293 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

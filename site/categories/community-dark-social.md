@@ -1,6 +1,6 @@
-# Community & Dark Social: 16 tools, 5 with an official MCP server
+# Community & Dark Social: 18 tools, 7 with an official MCP server
 
-> Tools that surface what's happening in the channels a CRM and normal web analytics can't see -... 16 tools counted, 5 with an official MCP server and 1 free to start.
+> Tools that surface what's happening in the channels a CRM and normal web analytics can't see -... 18 tools counted, 7 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,28 +16,32 @@
 
 Tools that surface what's happening in the channels a CRM and normal web analytics can't see - Slack and Discord communities, Reddit threads, X posts, newsletters, GitHub activity, and forum comments - the raw material of community-led growth and "dark social" signal-driven outbound. The tension: a handful of tools here (SparkToro, Syften, Common Room) build genuinely for solo operators and AI agents, with real free tiers or paid-but-reachable MCP servers, while the legacy media-monitoring incumbents (Brandwatch, Meltwater, Talkwalker) remain enterprise-sales-gated dashboards with no self-serve path at all - and this category has an unusually high mortality rate: two of the tools researched here (Orbit, GummySearch) turned out to be dead or shut down mid-research.
 
-- **entries in this file**: 16
+- **entries in this file**: 18
 
-- **Official MCP**: 5
+- **Official MCP**: 7
 - **Community MCP**: 3
 - **MCP not applicable**: 2
 - **No MCP found**: 6
 
-- **Free to start**: 1
-- **Paid, self-serve**: 6
+- **Free to start**: 2
+- **Paid, self-serve**: 7
 - **Enterprise only**: 5
 - **Gate unknown**: 3
 - **Gate not applicable**: 1
 
-Source file: 15-community-dark-social.md · content sha256 0967c428e3205aec... · counts reconciled against tools_recount.py at build time.
+Source file: 15-community-dark-social.md · content sha256 9cbb1be6d45168b5... · counts reconciled against tools_recount.py at build time.
 
-- [The 8 with an MCP server](../lists/mcp-community-dark-social.md)
+- [The 10 with an MCP server](../lists/mcp-community-dark-social.md)
 
 - [Monitor social and community mentions](../jobs/monitor-social-mentions.md)
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 
+- [Buffer](../tools/buffer.md) buffer.com A social-media scheduling and publishing tool covering channels, a posting queue, drafts, ideas and per-post analytics, with a remote MCP server that lets an AI assistant read channels, browse the queue and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
 - [Brand24](../tools/brand24.md) brand24.com Tracks brand/keyword mentions across social media, news, blogs, forums, podcasts, and review sites, then scores sentiment and surfaces coverage spikes and influencer reach. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Hootsuite (Social OS)](../tools/hootsuite.md) hootsuite.com A social-media management suite split into four named products, each with its own MCP server: Perch for content creation, planning and publishing, Nest for social inbox and customer care, Lumen for listening... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [SparkToro](../tools/sparktoro.md) sparktoro.com Audience-research tool that shows what a defined audience (by keyword, website, social account, or podcast) reads, watches, listens to, and follows, by combining social-graph, search, and web-crawl data. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 

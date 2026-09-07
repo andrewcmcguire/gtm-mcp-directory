@@ -1,6 +1,6 @@
 # Which GTM categories are most agent reachable? The 15 layers, ranked by coverage
 
-> RevOps Infra leads at 91% MCP coverage. Forecasting & Revenue is last. The full ranking across 15 categories, counted 2026-09-07.
+> RevOps Infra leads at 93% MCP coverage. Forecasting & Revenue is last. The full ranking across 15 categories, counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,23 +16,23 @@
 
 **The short answer**
 
-RevOps Infra is the most agent reachable category at 21 of 23 entries with a server. Forecasting & Revenue is the least at 3 of 17. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
+RevOps Infra is the most agent reachable category at 25 of 27 entries with a server. Forecasting & Revenue is the least at 3 of 17. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
 
 ## The ranking
 
 | # | Category | Reachable | Official | Community | Of |
 |---|---|---|---|---|---|
-| 1 | [RevOps Infra](../categories/revops-infra.md) | 91% | 21 | 0 | 23 |
-| 2 | [Conversation Intel](../categories/conversation-intel.md) | 88% | 18 | 3 | 24 |
-| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 87% | 31 | 2 | 38 |
-| 4 | [Engagement & Outbound](../categories/engagement-outbound.md) | 70% | 18 | 1 | 27 |
-| 5 | [Signals & Intent](../categories/signals-intent-abm.md) | 68% | 18 | 1 | 28 |
-| 6 | [Video Prospecting](../categories/video-prospecting.md) | 64% | 3 | 6 | 14 |
-| 7 | [Proposals & Deals](../categories/proposals-deals.md) | 64% | 7 | 2 | 14 |
-| 8 | [MCP Layer](../categories/mcp-infrastructure.md) | 62% | 8 | 0 | 13 |
-| 9 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 53% | 6 | 2 | 15 |
-| 10 | [Scheduling & Routing](../categories/scheduling-routing.md) | 50% | 5 | 2 | 14 |
-| 11 | [Community & Dark Social](../categories/community-dark-social.md) | 50% | 5 | 3 | 16 |
+| 1 | [RevOps Infra](../categories/revops-infra.md) | 93% | 25 | 0 | 27 |
+| 2 | [Data & Enrichment](../categories/data-enrichment.md) | 89% | 38 | 2 | 45 |
+| 3 | [Conversation Intel](../categories/conversation-intel.md) | 88% | 18 | 3 | 24 |
+| 4 | [Engagement & Outbound](../categories/engagement-outbound.md) | 74% | 22 | 1 | 31 |
+| 5 | [MCP Layer](../categories/mcp-infrastructure.md) | 74% | 14 | 0 | 19 |
+| 6 | [Signals & Intent](../categories/signals-intent-abm.md) | 68% | 18 | 1 | 28 |
+| 7 | [Video Prospecting](../categories/video-prospecting.md) | 64% | 3 | 6 | 14 |
+| 8 | [Proposals & Deals](../categories/proposals-deals.md) | 64% | 7 | 2 | 14 |
+| 9 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 59% | 8 | 2 | 17 |
+| 10 | [Community & Dark Social](../categories/community-dark-social.md) | 56% | 7 | 3 | 18 |
+| 11 | [Scheduling & Routing](../categories/scheduling-routing.md) | 50% | 5 | 2 | 14 |
 | 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 43% | 7 | 3 | 23 |
 | 13 | [Email Deliverability](../categories/email-deliverability.md) | 31% | 4 | 0 | 13 |
 | 14 | [Enablement & Coaching](../categories/enablement-coaching.md) | 21% | 2 | 1 | 14 |
@@ -42,7 +42,7 @@ Counted 2026-09-07 from the category blocks in directory.json. Reachable means a
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 7 official servers across 23 entries. Enablement & Coaching is at 2 of 14. Meanwhile the plumbing layer, RevOps Infra, is at 21 of 23.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 7 official servers across 23 entries. Enablement & Coaching is at 2 of 14. Meanwhile the plumbing layer, RevOps Infra, is at 25 of 27.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 
@@ -52,7 +52,7 @@ Video Prospecting has 6 community servers against 3 official, the only category 
 
 ## How to use this ranking
 
-Build the agent driven parts of a stack from the top of that table, and expect to write glue or click at the bottom of it. Then apply the second filter, which is the access gate: reachable and purchasable are different columns, and 77 entries need a contract before any of this is relevant.
+Build the agent driven parts of a stack from the top of that table, and expect to write glue or click at the bottom of it. Then apply the second filter, which is the access gate: reachable and purchasable are different columns, and 78 entries need a contract before any of this is relevant.
 
 ## Sources
 

@@ -1,6 +1,6 @@
-# GTM MCP servers that use OAuth: 52 tools, counted
+# GTM MCP servers that use OAuth: 63 tools, counted
 
-> 52 of the 182 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
+> 63 of the 207 GTM tools with an MCP server use OAuth. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use OAuth
 
-**List · 52 of 293**
+**List · 63 of 318**
 
 ## GTM MCP servers that use OAuth
 
@@ -26,6 +26,8 @@ getcargo.ai | [Official MCP](../mcp/official.md) | [https://docs.getcargo.ai/](h
 fullenrich.com | [Official MCP](../mcp/official.md) | [https://mcp.fullenrich.com/mcp](https://mcp.fullenrich.com/mcp) +1 more | oauth (browser sign-in to FullEnrich account; no manual API key needed) | [Free to start](../gates/free.md) |
 | [HubSpot](../tools/hubspot.md)
 hubspot.com | [Official MCP](../mcp/official.md) | [https://developers.hubspot.com/ai-tools/mcp](https://developers.hubspot.com/ai-tools/mcp) | OAuth 2.0 for the hosted Remote MCP Server (migrating to OAuth 2.1 with PKCE + refresh-token rotation), explicitly excluding custom Sensitive Data... | [Free to start](../gates/free.md) |
+| [Knit MCP](../tools/knit-mcp.md)
+getknit.dev | [Official MCP](../mcp/official.md) | [https://www.getknit.dev/mcp-servers](https://www.getknit.dev/mcp-servers) +1 more | Knit-managed OAuth or SAML per connected application; the customer authorises each end application through Knit rather than holding its credentials... | [Free to start](../gates/free.md) |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
 leadfeeder.com | [Official MCP](../mcp/official.md) | [https://www.leadfeeder.com/features/mcp-server/](https://www.leadfeeder.com/features/mcp-server/) +1 more | OAuth - user signs in with their own Leadfeeder account; vendor states "No keys pasted in." | [Free to start](../gates/free.md) |
 | [PandaDoc](../tools/pandadoc.md)
@@ -62,18 +64,30 @@ cubesoftware.com | [Official MCP](../mcp/official.md) | [https://www.cubesoftwar
 docusign.com | [Official MCP](../mcp/official.md) | [https://developers.docusign.com/platform/mcp-server/](https://developers.docusign.com/platform/mcp-server/) +2 more | OAuth - Streamable HTTP transport; first connection opens a browser window to sign in and authorize, then reuses credentials. | [Paid, self-serve](../gates/paid.md) |
 | [Fellow](../tools/fellow.md)
 fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth, with OAuth 2.0 dynamic discovery supported. | [Paid, self-serve](../gates/paid.md) |
+| [Front](../tools/front.md)
+front.com | [Official MCP](../mcp/official.md) | [https://mcp.frontapp.com/mcp](https://mcp.frontapp.com/mcp) +1 more | OAuth 2.1 with PKCE, per teammate. Front's docs state the server does not support Dynamic Client Registration, so the AI client must be able to send... | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
 grain.com | [Official MCP](../mcp/official.md) | [https://developers.grain.com/mcp](https://developers.grain.com/mcp) +1 more | OAuth via the native Claude integration, or manual server-URL setup for other MCP clients. Deal and coaching-feedback tools specifically require a... | [Paid, self-serve](../gates/paid.md) |
 | [Granola](../tools/granola.md)
 granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth - no manual API key required. | [Paid, self-serve](../gates/paid.md) |
+| [Help Scout](../tools/help-scout.md)
+helpscout.com | [Official MCP](../mcp/official.md) | [https://mcp.helpscout.net/mcp](https://mcp.helpscout.net/mcp) +1 more | oauth. The vendor's article states the connector registers itself, so the OAuth client ID and secret fields in the AI client are left empty, and... | [Paid, self-serve](../gates/paid.md) |
 | [HeyGen](../tools/heygen.md)
 heygen.com | [Official MCP](../mcp/official.md) | [https://mcp.heygen.com/mcp/v1/](https://mcp.heygen.com/mcp/v1/) +2 more | OAuth - vendor states "connect your HeyGen account, no API key required"; generation draws down the premium credits already in the user's HeyGen plan... | [Paid, self-serve](../gates/paid.md) |
+| [Hootsuite (Social OS)](../tools/hootsuite.md)
+hootsuite.com | [Official MCP](../mcp/official.md) | [https://mcp.hootsuite.com/perch](https://mcp.hootsuite.com/perch) +4 more | oauth. The vendor's setup steps end with "Sign in with your Hootsuite workspace when prompted. Authorization is one-time." | [Paid, self-serve](../gates/paid.md) |
 | [La Growth Machine](../tools/la-growth-machine.md)
 lagrowthmachine.com | [Official MCP](../mcp/official.md) | [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system) +1 more | OAuth - no API key needed; first use opens a browser sign-in directly to the user's La Growth Machine account. | [Paid, self-serve](../gates/paid.md) |
+| [LeadIQ](../tools/leadiq.md)
+leadiq.com | [Official MCP](../mcp/official.md) | [https://mcp.leadiq.com/mcp](https://mcp.leadiq.com/mcp) +1 more | oauth. The vendor's page states the connector is added from the AI client's connector directory and the user then signs in with LeadIQ credentials to... | [Paid, self-serve](../gates/paid.md) |
 | [Mixmax](../tools/mixmax.md)
 mixmax.com | [Official MCP](../mcp/official.md) | [https://mcp.mixmax.com/mcp](https://mcp.mixmax.com/mcp) +2 more | OAuth 2.0 authorization code flow, scoped to the connecting user's account. Read-only. | [Paid, self-serve](../gates/paid.md) |
+| [Nutshell CRM](../tools/nutshell-crm.md)
+nutshell.com | [Official MCP](../mcp/official.md) | [https://app.nutshell.com/mcp](https://app.nutshell.com/mcp) +1 more | oauth. The vendor's article instructs the user to add the server URL as a custom connector, then log in to Nutshell and approve access on a consent... | [Paid, self-serve](../gates/paid.md) |
 | [PhantomBuster](../tools/phantombuster.md)
 phantombuster.com | [Official MCP](../mcp/official.md) | [https://hub.phantombuster.com/docs/mcp-server](https://hub.phantombuster.com/docs/mcp-server) +1 more | OAuth - first connection redirects to PhantomBuster sign-in/authorization, then workspace selection. | [Paid, self-serve](../gates/paid.md) |
+| [RingCentral App Connect MCP](../tools/ringcentral-app-connect-mcp.md)
+ringcentral.com | [Official MCP](../mcp/official.md) | [https://unified-crm-extension.labs.ringcentral.com/m...](https://unified-crm-extension.labs.ringcentral.com/mcp) +2 more | oauth plus a second, separate CRM link. The docs describe a two-layer model: RingCentral identity via OAuth 2.0 or SSO established when the server is... | [Paid, self-serve](../gates/paid.md) |
 | [RocketReach](../tools/rocketreach.md)
 rocketreach.co | [Official MCP](../mcp/official.md) | [https://rocketreach.co/resources/products/mcp/](https://rocketreach.co/resources/products/mcp/) +1 more | OAuth 2.1, browser-based; ties to your existing RocketReach account and shares its credit pool (no separate API key needed for the official connector) | [Paid, self-serve](../gates/paid.md) |
 | [Snov.io](../tools/snov-io.md)
@@ -86,8 +100,14 @@ superblocks.com | [Official MCP](../mcp/official.md) | [https://superblocks.com/
 vainu.com | [Official MCP](../mcp/official.md) | [https://mcp.vainu.ai/mcp](https://mcp.vainu.ai/mcp) +2 more | OAuth 2.0 with PKCE, scoped to existing Vainu permissions, but NOT enabled by default. The vendor help centre says it "isn't automatically available... | [Paid, self-serve](../gates/paid.md) |
 | [Versium REACH](../tools/versium-reach.md)
 versium.com | [Official MCP](../mcp/official.md) | [https://app.versium.com/mcp/reach](https://app.versium.com/mcp/reach) +2 more | OAuth, and the client must support dynamic client registration. | [Paid, self-serve](../gates/paid.md) |
+| [Zoho CRM](../tools/zoho-crm.md)
+zoho.com | [Official MCP](../mcp/official.md) | [https://www.zoho.com/crm/developer/mcp.html](https://www.zoho.com/crm/developer/mcp.html) | oauth. The vendor's page describes a four-step setup ending in "Authenticate via OAuth. Connect your Zoho CRM account. Your agent inherits your... | [Paid, self-serve](../gates/paid.md) |
 | [Amplemarket](../tools/amplemarket.md)
 amplemarket.com | [Official MCP](../mcp/official.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) +2 more | OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says no API keys are needed. Rate limit 100 requests per minute... | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Dialpad](../tools/dialpad.md)
+dialpad.com | [Official MCP](../mcp/official.md) | [https://mcp-public.us.karehq.com/mcp](https://mcp-public.us.karehq.com/mcp) +3 more | oauth. The docs state the server is hosted by Dialpad, supports Dynamic Client Registration so clients register themselves on first connect, acts on... | [Enterprise leaning](../gates/enterprise-leaning.md) |
+| [Paragon (ActionKit MCP)](../tools/paragon.md)
+useparagon.com | [Official MCP](../mcp/official.md) | [https://github.com/useparagon/paragon-mcp](https://github.com/useparagon/paragon-mcp) +1 more | Paragon user token plus Connect Portal OAuth. The distinguishing feature is that the authorisation prompt is embedded in the calling product's own... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Sybill](../tools/sybill.md)
 sybill.ai | [Official MCP](../mcp/official.md) | [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html) +1 more | Browser-based sign-in / OAuth on first connection from an MCP client such as Claude Desktop. | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [6sense](../tools/6sense.md)
@@ -100,6 +120,8 @@ commonroom.io | [Official MCP](../mcp/official.md) | [https://www.commonroom.io/
 commonroom.io | [Official MCP](../mcp/official.md) | [https://www.commonroom.io/docs/using-common-room/mcp...](https://www.commonroom.io/docs/using-common-room/mcp-server/) +1 more | oauth (OAuth 2.1, browser-based, tokens scoped to the user's own Common Room permissions) | [Enterprise only](../gates/enterprise-only.md) |
 | [Crossbeam](../tools/crossbeam.md)
 crossbeam.com | [Official MCP](../mcp/official.md) | [https://mcp.crossbeam.com/mcp](https://mcp.crossbeam.com/mcp) +1 more | OAuth with Crossbeam login credentials, with a permission consent screen at connect time. | [Enterprise only](../gates/enterprise-only.md) |
+| [Crunchbase](../tools/crunchbase.md)
+crunchbase.com | [Official MCP](../mcp/official.md) | [https://mcp.crunchbase.com](https://mcp.crunchbase.com) +2 more | OAuth 2.1. The user signs in with their normal Crunchbase account in the AI client's browser flow; Crunchbase then checks that the account holds an... | [Enterprise only](../gates/enterprise-only.md) |
 | [G2 Buyer Intent](../tools/g2-buyer-intent.md)
 g2.com | [Official MCP](../mcp/official.md) | [https://mcp.g2.com/mcp](https://mcp.g2.com/mcp) +2 more | OAuth 2.0 Authorization Code with PKCE. You register an OAuth app in the G2 Developer Dashboard at https://my.g2.com/developers to get a client_id... | [Enterprise only](../gates/enterprise-only.md) |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
@@ -123,4 +145,4 @@ bonjoro.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bon
 | [Loopio](../tools/loopio.md)
 loopio.com | [Community MCP](../mcp/community.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the Loopio Data API v2, per the repo README; runs locally over... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

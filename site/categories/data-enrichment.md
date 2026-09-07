@@ -1,6 +1,6 @@
-# Data & Enrichment: 38 tools, 31 with an official MCP server
+# Data & Enrichment: 45 tools, 38 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 38 tools counted, 31 with an official MCP server and 17 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 45 tools counted, 38 with an official MCP server and 17 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,19 +16,20 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 38
+- **entries in this file**: 45
 
-- **Official MCP**: 31
+- **Official MCP**: 38
 - **Community MCP**: 2
 - **No MCP found**: 5
 
 - **Free to start**: 17
-- **Paid, self-serve**: 17
-- **Enterprise only**: 4
+- **Paid, self-serve**: 21
+- **Enterprise leaning**: 2
+- **Enterprise only**: 5
 
-Source file: 01-data-enrichment.md · content sha256 be1d10f969502184... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 456f24dbcf6cffa9... · counts reconciled against tools_recount.py at build time.
 
-- [The 33 with an MCP server](../lists/mcp-data-enrichment.md)
+- [The 40 with an MCP server](../lists/mcp-data-enrichment.md)
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
@@ -71,6 +72,8 @@ Source file: 01-data-enrichment.md · content sha256 be1d10f969502184... · coun
 
 - [CUFinder](../tools/cufinder.md) cufinder.io A credit-based B2B data lookup service where you feed in a company name, domain, LinkedIn URL, or person and get back an enriched company or contact record including verified emails, through a web app or... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Derrick](../tools/derrick.md) derrick-app.com A credit-metered B2B enrichment engine sold primarily as a Google Sheets add-on, plus a REST API and a hosted MCP server, covering email finding, mobile phone finding, LinkedIn profile lookup, company... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
 - [Dropcontact](../tools/dropcontact.md) dropcontact.com A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name plus company (name, domain, or LinkedIn URL) and returns a verified professional email plus cleaned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Explorium](../tools/explorium.md) explorium.ai Aggregates roughly 50 third-party data sources into one API/platform for business and prospect lookup (firmographics, contacts, technographics, business events), claiming coverage of 150M+ companies and 800M+... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
@@ -79,9 +82,13 @@ Source file: 01-data-enrichment.md · content sha256 be1d10f969502184... · coun
 
 - [Lead411](../tools/lead411.md) lead411.com A B2B contact and company database with verified emails, direct dials, and growth/intent triggers, queryable by search or by an enrichment API. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
+- [LeadIQ](../tools/leadiq.md) leadiq.com A B2B contact and company database with a Chrome extension for prospecting on LinkedIn and Sales Navigator, CRM enrichment, and champion-tracking (job-change) alerts, now also reachable as a verified Claude... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
 - [Ocean.io](../tools/ocean-io.md) ocean.io A company-search and "lookalike" prospecting tool that finds businesses similar to a given target account based on industry, size, geography, and website content, and exports the resulting account lists. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [RocketReach](../tools/rocketreach.md) rocketreach.co A large contact/company lookup database queried by name, company domain, or LinkedIn profile to find work emails, direct dials, and mobile numbers, with bulk lookup and CRM/Salesforce sync. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
+- [SalesQL](../tools/salesql.md) salesql.com A LinkedIn-first contact database and browser extension that returns verified work emails and mobile numbers, with bulk CSV enrichment, an email verifier, a REST API and an MCP server that exposes search and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Snov.io](../tools/snov-io.md) snov.io A B2B prospecting and outreach platform - finds and verifies emails/contacts, enriches company and contact records, manages prospect lists and a lightweight CRM, and runs email drip campaigns plus LinkedIn... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -89,9 +96,17 @@ Source file: 01-data-enrichment.md · content sha256 be1d10f969502184... · coun
 
 - [Vainu](../tools/vainu.md) vainu.com Sells a licensed database of roughly 5M Nordic registered companies with 700+ fields and around 9M decision-maker contacts, plus scraped and classified trigger events, delivered into a CRM, an API, or Excel. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Vayne](../tools/vayne.md) vayne.io A LinkedIn data platform that runs Sales Navigator lead and account scraping, single-URL and batch profile and company scraping, job scraping and job search, post-engagement scraping, reverse email to LinkedIn... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
 - [Versium REACH](../tools/versium-reach.md) versium.com An identity-graph append service that turns partial contact records into enriched B2B and B2C profiles, plus audience sizing and real-time email validation. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Wiza](../tools/wiza.md) wiza.co Pulls verified work emails and mobile numbers for people found on LinkedIn or Sales Navigator and exports them to CSV or a CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Harmonic](../tools/harmonic.md) harmonic.ai A startup and private-company database built for early discovery, tracking a stated 40 million companies, 200 million people and 250 thousand investors, with company search, similar-company lookup, people... [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md)
+
+- [SigParser](../tools/sigparser.md) sigparser.com A relationship-intelligence and contact-capture product that scans connected mailboxes, calendars and address books, parses email signatures, and turns the result into contact and company records with... [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md)
+
+- [Crunchbase](../tools/crunchbase.md) crunchbase.com A private-company database covering company profiles, funding rounds, investors, people and acquisitions, sold as a web product, a REST API and, since 2026, a first-party MCP server that exposes the same data... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zoho CRM: MCP server status, API access gate and what it does</title>
+<meta name="description" content="A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of... Official MCP, Paid, self-serve. Checked 2026-09-07.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/zoho-crm">
+<link rel="alternate" type="text/markdown" href="zoho-crm.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Zoho CRM",
+  "url": "https://zoho.com/crm",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "RevOps Infra",
+  "description": "A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of the market, which in 2026 shipped four separately scoped MCP servers so an agent can be given exactly as much CRM access as a task needs.",
+  "offers": {
+    "@type": "Offer",
+    "category": "Paid, self-serve"
+  },
+  "featureList": [],
+  "subjectOf": {
+    "@type": "Dataset",
+    "name": "The GTM MCP Directory",
+    "url": "https://andrewcmcguire.com/gtm-directory/data"
+  },
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://www.zoho.com/crm/developer/mcp.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/gtm-directory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "RevOps Infra",
+      "item": "https://andrewcmcguire.com/gtm-directory/categories/revops-infra"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Zoho CRM",
+      "item": "https://andrewcmcguire.com/gtm-directory/tools/zoho-crm"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/" aria-current="page">Tools</a>
+<a href="../categories/">Categories</a>
+<a href="../jobs/">Jobs</a>
+<a href="../jobs-board/">Hiring</a>
+<a href="../lists/">Lists</a>
+<a href="../learn/">Learn</a>
+<a href="../mcp/">MCP status</a>
+<a href="../gates/">Gate</a>
+<a href="../methodology">Method</a>
+<a href="../data">Data</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../">Directory</a> /
+<a href="../categories/revops-infra">RevOps Infra</a> /
+Zoho CRM</div>
+<div class="toolhead">
+<h1>Zoho CRM</h1>
+<div class="badges">
+<a class="badge gold" href="../mcp/official">Official MCP</a>
+<a class="badge gold" href="../gates/paid">Paid, self-serve</a>
+<a class="badge mute flat" href="../categories/revops-infra">RevOps Infra</a>
+<span class="badge tier flat">RESEARCHED</span>
+<span class="badge mute flat">Checked 2026-09-07</span>
+</div>
+<div class="tierbox"><b>RESEARCHED</b>
+Facts from public sources with URLs. No usage claims. Nobody has run this tool.
+The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and
+cannot be bought at any price. Across the whole directory that count is 1.</div>
+<p class="note">Vendor: <a href="https://zoho.com/crm" rel="noopener nofollow">zoho.com/crm</a>
+&middot; entry id 06-zoho-crm &middot; source
+06-revops-infra.md line 580</p>
+</div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of the market, which in 2026 shipped four separately scoped MCP servers so an agent can be given exactly as much CRM access as a task needs.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Zoho markets AI agents on its Professional tier and above, and the MCP layer is presented as the way an outside model acts on CRM data. The four-server split is a governance design rather than an AI feature: the intelligence is on the client side.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">System of record for cost-sensitive SMB and mid-market teams, and the clearest worked example in this directory of scoping an agent&#x27;s CRM reach by choosing which server to connect rather than by trusting a permission model after the fact.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
+<div><div class="bk">Auth</div><div class="bv">oauth. The vendor&#x27;s page describes a four-step setup ending in &quot;Authenticate via OAuth. Connect your Zoho CRM account. Your agent inherits your permissions and nothing beyond that.&quot;</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
+<div><div class="bk">Endpoint probe</div><div class="bv">not probed yet</div></div>
+</div>
+<p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
+The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
+<p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://www.zoho.com/crm/developer/mcp.html is the vendor&#x27;s own MCP product page describing four servers (Data Insights, Data Operations, Modules, Workflow and Automation); per-server endpoints are issued from Zoho&#x27;s in-product Server Registry and the host is mcp.zoho.com</p><ul><li><a href="https://www.zoho.com/crm/developer/mcp.html" rel="noopener nofollow">https://www.zoho.com/crm/developer/mcp.html</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
+<div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
+</div>
+<p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
+<p>paid - the vendor&#x27;s own pricing page lists APIs as a Standard-tier feature and describes them as &quot;Connect Zoho CRM to any app and perform actions with 5000 API calls/day.&quot; The fetch on this date rendered prices in Indian rupees (Standard 800, Professional 1,400, Enterprise 2,400 per user per month), so no dollar figure is recorded here rather than converted. Every tier carries a self-serve free trial.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">289 of 318 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://www.zoho.com/crm/developer/mcp.html" rel="noopener nofollow">https://www.zoho.com/crm/developer/mcp.html</a></li><li><a href="https://www.zoho.com/crm/zohocrm-pricing.html" rel="noopener nofollow">https://www.zoho.com/crm/zohocrm-pricing.html</a></li><li><a href="https://mcp.zoho.com" rel="noopener nofollow">https://mcp.zoho.com</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://www.zoho.com/crm/developer/mcp.html, https://www.zoho.com/crm/zohocrm-pricing.html, https://mcp.zoho.com</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Verified 2026-09-07: the host https://mcp.zoho.com answered a POST with HTTP 400 and a Zoho-formatted JSON body, {&quot;status&quot;:&quot;failure&quot;,&quot;data&quot;:{&quot;error_code&quot;:&quot;INVALID_REQUEST_METHOD&quot;,&quot;message&quot;:&quot;The http request method type is not a valid one&quot;}}, which proves a live Zoho service at that host but is NOT an MCP initialize response, because the per-server paths are issued from the in-product Server Registry and were not obtainable without an account. No bare endpoint is therefore recorded above and the mcp_url points at the vendor&#x27;s own documentation page instead; SCHEMA law 1 is satisfied by that page, not by a probe. THE FOUR-SERVER SPLIT IS THE STORY and is worth a segment: Data Insights is read-only (pipeline questions with no write path at all), Data Operations is full CRUD, Modules can change schema and layouts, and Workflow and Automation can create workflow rules and blueprints. Almost every other CRM in this file ships one server and one blast radius. Zoho&#x27;s own copy for the read-only server, &quot;Read everything. Risk nothing&quot;, is the cleanest statement of the design anyone in this category has published. Caveat found on the page: its &quot;Get started&quot; button links to a signup URL carrying plan=enterprise, which sits oddly against the Standard-tier API line on the pricing page; the plan floor for MCP specifically was not stated anywhere that could be read and is not guessed here.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<div><div class="bk">Entry id</div><div class="bv">06-zoho-crm</div></div>
+<div><div class="bk">Source file</div><div class="bv">06-revops-infra.md</div></div>
+<div><div class="bk">Source line</div><div class="bv">580</div></div>
+<div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-07</div></div>
+</div>
+<p class="note">Every field above is rendered from directory.json exactly as the build produced it.
+Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
+it is disclosed on the <a href="../methodology">methodology page</a>.</p></div></div></div></div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>318 directory entries across 15 category files.
+    302 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>181 official MCP servers,
+    26 community.
+    1 bench tested.</p>
+    <p>56 jobs in 10 families.
+    271 entries carry at least one job tag,
+    47 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../categories/">By category</a></li>
+      <li><a href="../mcp/">By MCP status</a></li>
+      <li><a href="../gates/">By access gate</a></li>
+      <li><a href="../jobs/">By job</a></li>
+      <li><a href="../jobs-board/">The GTM Engineer job board</a></li>
+      <li><a href="../github/">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology">How an entry is made</a></li>
+      <li><a href="../submit">Submit a tool, free</a></li>
+      <li><a href="../learn/">Learn: the questions, answered</a></li>
+      <li><a href="../lists/">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../data">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="zoho-crm.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-09-07 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 318 vs recount
+318.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>
+Maintained by <a href="https://andrewcmcguire.com" rel="noopener">Andrew McGuire</a>, same publisher as <a href="https://gtmsignals.co" rel="noopener">gtmsignals.co</a> and <a href="https://justsaid.ai" rel="noopener">justsaid.ai</a>.
+</div>
+</div>
+</footer>
+</body>
+</html>

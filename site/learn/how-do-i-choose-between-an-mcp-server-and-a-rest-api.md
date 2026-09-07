@@ -16,7 +16,7 @@
 
 **The short answer**
 
-Use the MCP server when it exists and exposes what you need: it is faster to wire, and any client can use it. Use the REST API when you need something the server does not expose, when you want tight control over rate limits and error handling, or when there is no server at all, which is the case for 87 of 293 entries here.
+Use the MCP server when it exists and exposes what you need: it is faster to wire, and any client can use it. Use the REST API when you need something the server does not expose, when you want tight control over rate limits and error handling, or when there is no server at all, which is the case for 87 of 318 entries here.
 
 ## What each one gives you
 
@@ -27,11 +27,11 @@ Use the MCP server when it exists and exposes what you need: it is faster to wir
 | Reuse across clients | Any MCP client | Whatever you wrote it for |
 | Rate limit and retry control | Whatever the server does | Yours |
 | Breaks when | The vendor changes the server | The vendor changes the API |
-| Available for | 182 of 293 entries here | Most of the rest, if they document one |
+| Available for | 207 of 318 entries here | Most of the rest, if they document one |
 
 ## The honest default
 
-Start with the server if there is one. The whole point of a protocol is that you stop writing the same integration twice, and 156 vendors here have already done the work for you. Move to the API when you hit a specific wall, and you will know exactly which wall it was.
+Start with the server if there is one. The whole point of a protocol is that you stop writing the same integration twice, and 181 vendors here have already done the work for you. Move to the API when you hit a specific wall, and you will know exactly which wall it was.
 
 ## When the API is clearly right
 
@@ -41,11 +41,11 @@ Start with the server if there is one. The whole point of a protocol is that you
 
 - **The server is community built and you cannot carry the risk.** 26 entries here are in that position.
 
-- **There is no server.** 87 entries, and 264 of 293 entries have no documentation URL recorded either, which is its own kind of answer.
+- **There is no server.** 87 entries, and 289 of 318 entries have no documentation URL recorded either, which is its own kind of answer.
 
 ## The thing that decides it more often than either
 
-The access gate. 77 entries need a contract before you get any credential at all, and at that point the protocol question is academic. Check [the gate](../gates/index.md) before you design either integration.
+The access gate. 78 entries need a contract before you get any credential at all, and at that point the protocol question is academic. Check [the gate](../gates/index.md) before you design either integration.
 
 ## Sources
 

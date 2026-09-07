@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GTM tools by GitHub repo health: not measured yet, and why</title>
-<meta name="description" content="Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 66 entries carry a github.com URL as a seed.">
+<meta name="description" content="Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 68 entries carry a github.com URL as a seed.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/github/">
@@ -59,7 +59,7 @@
 <p class="note"></p>
 <div class="warn"><b>Nothing measured yet</b>
 github_url, github_stars, github_last_commit, github_archived and github_fetched_on are null on all
-293 entries. The refresh rail in SPEC section 7.2 has
+318 entries. The refresh rail in SPEC section 7.2 has
 not been run. A star count without the date it was taken is a lie, so no number is shown at all.</div>
 <p class="sub">When the rail runs, every repo lands in one of five bands and every band ships with
 the date it was measured: active under 90 days, slowing 90 to 180, quiet 180 to 365, dormant over a
@@ -68,8 +68,8 @@ need commits. But an agent about to write a community MCP wrapper into a workflo
 the repo has been silent for eight months first, and this directory already has the receipts that
 the category churns.</p>
 <h3 style="margin-top:34px">The seed, which is a fact and not a measurement</h3>
-<p class="sub">66 of 293 entries already carry a
-github.com URL somewhere in their fields, and 51 of those sit in
+<p class="sub">68 of 318 entries already carry a
+github.com URL somewhere in their fields, and 53 of those sit in
 the mcp_url field. Those repos are free to measure when the rail runs. Nothing below says anything
 about whether a repo is healthy.</p>
 <ul class="rows">
@@ -242,6 +242,12 @@ about whether a repo is healthy.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a></div>
 </li>
 <li class="row">
+<div class="top"><a class="nm" href="../tools/justcall">JustCall</a>
+<span class="dom">justcall.io</span></div>
+<div class="desc">A cloud phone, SMS and WhatsApp platform for sales and support teams built by SaaS Labs, with a sales dialer, CRM integrations and AI voice agents, plus a hosted MCP server that lets an assistant read and act...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a></div>
+</li>
+<li class="row">
 <div class="top"><a class="nm" href="../tools/la-growth-machine">La Growth Machine</a>
 <span class="dom">lagrowthmachine.com</span></div>
 <div class="desc">Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with built-in lead enrichment.</div>
@@ -306,6 +312,12 @@ about whether a repo is healthy.</p>
 <span class="dom">waalaxy.com</span></div>
 <div class="desc">Chrome-extension-based LinkedIn (+ email) prospecting tool that automates invitations, messages, and multi-step campaigns, with a built-in prospect finder.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a></div>
+</li>
+<li class="row">
+<div class="top"><a class="nm" href="../tools/paragon">Paragon (ActionKit MCP)</a>
+<span class="dom">useparagon.com</span></div>
+<div class="desc">An embedded integration platform for SaaS products, whose ActionKit product exposes a stated 1,000-plus actions across 130-plus third-party applications through one API and one MCP server, with Paragon...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-leaning">Enterprise leaning</a><a class="badge mute flat" href="../categories/mcp-infrastructure">MCP Layer</a></div>
 </li>
 <li class="row">
 <div class="top"><a class="nm" href="../tools/apollo-io-sequences">Apollo.io Sequences (Emailer Campaigns)</a>
@@ -476,15 +488,15 @@ about whether a repo is healthy.</p>
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>293 directory entries across 15 category files.
-    277 unique products, 16 of them cross listed
+    <p>318 directory entries across 15 category files.
+    302 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>156 official MCP servers,
+    <p>181 official MCP servers,
     26 community.
     1 bench tested.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    22 carry none and say why.</p>
+    47 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -524,8 +536,8 @@ about whether a repo is healthy.</p>
 </div>
 <div class="legal">
 Generated 2026-09-07 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 293 vs recount
-293.<br>
+Reconciled: build 318 vs recount
+318.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

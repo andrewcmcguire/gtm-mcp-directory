@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 21 of 23, counted
+# CRM and RevOps tools with MCP servers: 25 of 27, counted
 
-> 21 of the 23 revops infra tools in this directory have an MCP server: 21 official and 0 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 25 of the 27 revops infra tools in this directory have an MCP server: 25 official and 0 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 23 revops infra entries in this directory have an MCP server: 21 built and maintained by the vendor and 0 built by somebody else. 12 are free to start and 4 need a contract before anybody gets an API key.
+25 of the 27 revops infra entries in this directory have an MCP server: 25 built and maintained by the vendor and 0 built by somebody else. 13 are free to start and 4 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -38,6 +38,8 @@ Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Sales
 A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs,...
 - [HubSpot](../tools/hubspot.md) Official MCP · Free to start
 An all-in-one CRM/marketing/sales/service platform with contacts, deals, marketing automation, and a public REST API/developer platform.
+- [monday.com (monday CRM)](../tools/monday-com.md) Official MCP · Free to start
+A work-management platform whose CRM product runs pipelines, contacts, accounts and deal activity as boards and items, with a first-party remote MCP...
 - [n8n](../tools/n8n.md) Official MCP · Free to start
 A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud.
 - [Pipedrive](../tools/pipedrive.md) Official MCP · Free to start
@@ -56,12 +58,18 @@ A sales CRM built for inside-sales teams with built-in calling, email, and SMS a
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Make](../tools/make.md) Official MCP · Paid, self-serve
 A visual, node-based workflow automation platform ("scenarios") connecting 3,000+ apps, with newer AI-agent and natural-language-build features...
+- [Microsoft Dynamics 365 Sales](../tools/microsoft-dynamics-365-sales.md) Official MCP · Paid, self-serve
+Microsoft's enterprise CRM for sales, built on Dataverse and the Power Platform, covering leads, opportunities, accounts and forecasting, with a...
+- [Nutshell CRM](../tools/nutshell-crm.md) Official MCP · Paid, self-serve
+An SMB CRM covering leads, companies, people, pipelines and activity reporting, with email and calendar sync and built-in marketing tools, and a...
 - [Octave](../tools/octave.md) Official MCP · Paid, self-serve
 A GTM context engine that stores a company's ICP, personas, positioning, competitors, proof points, and objections as one structured model, then...
 - [Ortto](../tools/ortto.md) Official MCP · Paid, self-serve
 A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
 - [Superblocks](../tools/superblocks.md) Official MCP · Paid, self-serve
 A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing...
+- [Zoho CRM](../tools/zoho-crm.md) Official MCP · Paid, self-serve
+A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of the market, which in 2026 shipped four...
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) Official MCP · Enterprise only
 A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on...
 - [Syncari](../tools/syncari.md) Official MCP · Enterprise only
@@ -80,11 +88,11 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 
 | Gate | Entries |
 |---|---|
-| [Free to start](../gates/free.md) | 12 |
-| [Paid, self-serve](../gates/paid.md) | 7 |
+| [Free to start](../gates/free.md) | 13 |
+| [Paid, self-serve](../gates/paid.md) | 10 |
 | [Enterprise only](../gates/enterprise-only.md) | 4 |
 
-Counted 2026-09-07. Source file 06-revops-infra.md, content sha256 6ee3bd0074d80cba...
+Counted 2026-09-07. Source file 06-revops-infra.md, content sha256 4bdbddeb7fda9796...
 
 ## Sources
 

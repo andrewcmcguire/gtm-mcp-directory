@@ -1,6 +1,6 @@
-# GTM MCP servers that accept OAuth or an API key: 50 tools, counted
+# GTM MCP servers that accept OAuth or an API key: 58 tools, counted
 
-> 50 of the 182 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
+> 58 of the 207 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that accept OAuth or an API key
 
-**List · 50 of 293**
+**List · 58 of 318**
 
 ## GTM MCP servers that accept OAuth or an API key
 
@@ -38,10 +38,18 @@ fireflies.ai | [Official MCP](../mcp/official.md) | [https://guide.fireflies.ai/
 leadmagic.io | [Official MCP](../mcp/official.md) | [https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp) +1 more | api key for local/self-hosted install (LEADMAGIC_API_KEY env var); OAuth Bearer token (Clerk-issued) for the hosted remote MCP - hosted version does... | [Free to start](../gates/free.md) |
 | [MeetGeek](../tools/meetgeek.md)
 meetgeek.ai | [Official MCP](../mcp/official.md) | [https://mcp.meetgeek.ai/mcp](https://mcp.meetgeek.ai/mcp) +2 more | Two paths. The cloud server uses OAuth 2.0 with Google or Microsoft sign-in and no API key. The self-hosted server runs locally on Node.js and... | [Free to start](../gates/free.md) |
+| [Merge Agent Handler](../tools/merge-agent-handler.md)
+merge.dev | [Official MCP](../mcp/official.md) | [https://api.merge.dev/api/v1/tool-packs/](https://api.merge.dev/api/v1/tool-packs/) +2 more | api key in an Authorization Bearer header, alongside the identity encoded in the URL itself. The docs are explicit that three values are needed on... | [Free to start](../gates/free.md) |
+| [monday.com (monday CRM)](../tools/monday-com.md)
+monday.com | [Official MCP](../mcp/official.md) | [https://mcp.monday.com/mcp](https://mcp.monday.com/mcp) +2 more | oauth for the remote server. The vendor states "monday MCP remote server connects via the secure OAuth protocol" and that an admin must first install... | [Free to start](../gates/free.md) |
 | [Prospeo](../tools/prospeo.md)
 prospeo.io | [Official MCP](../mcp/official.md) | [https://github.com/prospeo-v2/prospeo-mcp-server](https://github.com/prospeo-v2/prospeo-mcp-server) | OAuth 2.0 for the hosted server (auto-handled by Claude.ai/Desktop via the MCP directory); local/self-hosted setup uses an API key via... | [Free to start](../gates/free.md) |
+| [StackOne](../tools/stackone.md)
+stackone.com | [Official MCP](../mcp/official.md) | [https://api.stackone.com/mcp?x-account-id=](https://api.stackone.com/mcp?x-account-id=) +1 more | Basic authentication plus a per-account identifier, with StackOne brokering OAuth, API keys and token refresh to each connected application on the... | [Free to start](../gates/free.md) |
 | [Tavus](../tools/tavus.md)
 tavus.io | [Official MCP](../mcp/official.md) | [https://mcp.tavus.io/mcp](https://mcp.tavus.io/mcp) +3 more | OAuth 2.0 browser-based flow; the exchange mints a per-user API key server-side, nothing stored in client config. | [Free to start](../gates/free.md) |
+| [usefulapi.io](../tools/usefulapi-io.md)
+usefulapi.io | [Official MCP](../mcp/official.md) | [https://usefulapi.io/](https://usefulapi.io/) +1 more | per-application OAuth. The setup instructions add the subdomain as a custom connector and the user then authenticates with the wrapped vendor when... | [Free to start](../gates/free.md) |
 | [Warmly](../tools/warmly.md)
 warmly.ai | [Official MCP](../mcp/official.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth for the MCP connector; API key for the REST API | [Free to start](../gates/free.md) |
 | [Warmly (Warmly.ai)](../tools/warmly.md)
@@ -80,14 +88,22 @@ octavehq.com | [Official MCP](../mcp/official.md) | [https://docs.octavehq.com/m
 pipedream.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedream.com](https://mcp.pipedream.com) | OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated per end user; Pipedream states credentials are "never exposed... | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io (Jason AI)](../tools/reply-io.md)
 reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) +1 more | Personal API key (vendor-recommended, sent as a Bearer token, scoped to the permissions the key allows) or OAuth (used by the Claude connector;... | [Paid, self-serve](../gates/paid.md) |
+| [Saleshandy](../tools/saleshandy.md)
+saleshandy.com | [Official MCP](../mcp/official.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +2 more | oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses OAuth for authentication - no API key needed for most clients" and... | [Paid, self-serve](../gates/paid.md) |
+| [SalesQL](../tools/salesql.md)
+salesql.com | [Official MCP](../mcp/official.md) | [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp) +2 more | oauth. The vendor's docs record "Auth OAuth 2.1" with an MCP key as the fallback for clients that cannot carry the OAuth flow. | [Paid, self-serve](../gates/paid.md) |
 | [The Swarm](../tools/the-swarm.md)
 theswarm.com | [Official MCP](../mcp/official.md) | [https://bee.theswarm.com/mcp](https://bee.theswarm.com/mcp) +1 more | OAuth via personal Swarm login (native Claude and ChatGPT app connectors) or team API key via x-api-key header for any MCP client supporting custom... | [Paid, self-serve](../gates/paid.md) |
+| [Vayne](../tools/vayne.md)
+vayne.io | [Official MCP](../mcp/official.md) | [https://mcp.vayne.io/mcp](https://mcp.vayne.io/mcp) +1 more | oauth or api key. The vendor's docs state OAuth is the default for Claude Desktop, Claude.ai, Claude Code and Cursor (server URL only, no token... | [Paid, self-serve](../gates/paid.md) |
 | [Waalaxy](../tools/waalaxy.md)
 waalaxy.com | [Official MCP](../mcp/official.md) | [https://docs.waalaxy.com/mcp-server](https://docs.waalaxy.com/mcp-server) +1 more | user-based OAuth 2.1 via magic-link sign-in; vendor docs explicitly state bearer API keys are NOT supported by the MCP server (differs from the... | [Paid, self-serve](../gates/paid.md) |
 | [Wiza](../tools/wiza.md)
 wiza.co | [Official MCP](../mcp/official.md) | [https://mcp.wiza.co/mcp](https://mcp.wiza.co/mcp) +2 more | OAuth 2.1 with PKCE for clients that support it, otherwise a static bearer token in the Authorization header using a Wiza API key. Streamable HTTP... | [Paid, self-serve](../gates/paid.md) |
 | [Woodpecker](../tools/woodpecker.md)
 woodpecker.co | [Official MCP](../mcp/official.md) | [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/) +1 more | hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker API key | [Paid, self-serve](../gates/paid.md) |
+| [Harmonic](../tools/harmonic.md)
+harmonic.ai | [Official MCP](../mcp/official.md) | [https://mcp.api.harmonic.ai](https://mcp.api.harmonic.ai) +1 more | oauth. The server publishes OAuth protected-resource metadata at https://mcp.api.harmonic.ai/.well-known/oauth-protected-resource declaring itself as... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
 anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | unknown - described only as a "governed MCP connection" with permission/audit controls; the specific credential mechanism (API key vs. OAuth) is not... | [Enterprise only](../gates/enterprise-only.md) |
 | [Meltwater](../tools/meltwater.md)
@@ -119,4 +135,4 @@ bombbomb.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bo
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer. | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 293 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

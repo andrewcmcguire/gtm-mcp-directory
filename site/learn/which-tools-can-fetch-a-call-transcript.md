@@ -26,7 +26,7 @@ It is also the most sensitive. A transcript contains other people's words, recor
 
 | Measure | Count | Of what |
 |---|---|---|
-| Entries tagged fetch-call-transcript | 20 | of 293 directory entries |
+| Entries tagged fetch-call-transcript | 20 | of 318 directory entries |
 | Distinct products | 20 | the rest are cross listings |
 | Official MCP server | 15 | vendor built and maintained |
 | Community MCP server | 3 | built by somebody else |

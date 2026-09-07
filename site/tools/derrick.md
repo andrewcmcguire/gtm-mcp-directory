@@ -1,0 +1,113 @@
+# Derrick: MCP server status, API access gate and what it does
+
+> A credit-metered B2B enrichment engine sold primarily as a Google Sheets add-on, plus a REST API and a hosted... Official MCP, Paid, self-serve. Checked 2026-09-07.
+
+*Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
+---
+[Directory](../index.md) /
+[Data & Enrichment](../categories/data-enrichment.md) /
+Derrick
+
+# Derrick
+
+[Official MCP](../mcp/official.md)
+[Paid, self-serve](../gates/paid.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+Checked 2026-09-07
+
+> **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
+
+Vendor: [derrick-app.com](https://derrick-app.com) · entry id 01-derrick · source 01-data-enrichment.md line 758
+
+**What it does**
+A credit-metered B2B enrichment engine sold primarily as a Google Sheets add-on, plus a REST API and a hosted MCP server, covering email finding, mobile phone finding, LinkedIn profile lookup, company firmographics, website technology detection and the French SIRET company registry.
+
+**AI features, separated from automation with an AI label on it**
+Thin. A "Leads from a Prompt" feature turns a natural-language ICP description into rows, and the MCP server lets an assistant pick which lookup to run; the lookups themselves are multi-source deterministic API waterfalls, not model inference.
+
+**RevOps role**
+A cheap, credit-priced enrichment provider for a solo operator or small team, used either inside a spreadsheet or as one leg of a waterfall behind an agent, with unusually deep French and EU registry coverage.
+
+**MCP server**
+
+- **Status bucket**: Official MCP
+
+- **Auth**: api key. The vendor's page states the MCP installs without credentials but every tool call needs a Derrick API key, passed as an Authorization Bearer header or entered when the client first prompts; the key is generated in the Google Sheets add-on under Settings then API access.
+
+- **Parsed URLs**: 2 found in the mcp_url field
+
+- **Endpoint probe**: not probed yet
+
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established on 2026-09-07 and the MCP URL has not been probed live yet.
+
+mcp_status, verbatim from the file:
+
+official
+
+mcp_url, verbatim from the file:
+
+https://app1.derrick-app.com/mcp (docs: https://derrick-app.com/mcp; the same page advertises a server card at /.well-known/mcp/server-card.json)
+
+- [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp)
+- [https://derrick-app.com/mcp](https://derrick-app.com/mcp)
+
+**Access gate**
+
+- **Gate bucket**: Paid, self-serve
+
+- **Can a solo operator reach it**: Yes, by paying, no sales call
+
+api_gate, verbatim from the file:
+
+paid - the vendor's MCP page states that API keys "unlock from the PLUS plan" and prices that plan at 47.5 euros per month. The same page contradicts itself twice in the surrounding copy, and both contradictions are recorded in notes rather than resolved by guesswork.
+
+**API documentation**
+
+No documentation URL recorded.
+
+289 of 318 entries are in the same position. Blank is legal and it is published as blank.
+
+**GitHub health**
+
+Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
+
+The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**Jobs it can do**
+
+No job tag on this entry.
+
+47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+
+**Sources**
+
+- [https://derrick-app.com/mcp](https://derrick-app.com/mcp)
+- [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp)
+- [https://derrick-app.com/](https://derrick-app.com/)
+
+3 source URLs. Raw sources field, verbatim:
+
+https://derrick-app.com/mcp, https://app1.derrick-app.com/mcp, https://derrick-app.com/
+
+**Notes, verbatim from the file**
+Verified 2026-09-07: POST of an MCP initialize to https://app1.derrick-app.com/mcp returned HTTP 401 with {"error":"invalid_token","error_description":"Missing Authorization header"}, confirming a live auth-gated server. DEFECT ON THE VENDOR'S OWN PAGE, recorded rather than resolved: derrick-app.com/mcp states three different things about the plan floor in three places. Its FAQ says keys "unlock from the PLUS plan (47.5 euros/mo)"; a call-to-action block earlier on the same page says "MCP access from Standard (20 euros/mo)"; and a third line renders an unsubstituted template variable, reading "API access unlocks from the ${API_UNLOCK_TIER} plan". The FAQ figure was taken as the api_gate value because it is the most specific and sits in the section that answers the question directly, but a solo operator should confirm with support before purchase. The page also publishes per-tool credit costs (find_email 5, find_phone 150, enrich_profile 1, verify_email 1, search 1 per result) and states 100 credits per month are free to start, so a phone number costs thirty times an enrichment on the same balance and an unattended agent can drain a plan quickly.
+
+**Provenance**
+
+- **Entry id**: 01-derrick
+
+- **Source file**: 01-data-enrichment.md
+
+- **Source line**: 758
+
+- **Tier**: RESEARCHED
+
+- **last_checked**: 2026-09-07
+
+- **Data baked**: 2026-09-07
+
+Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

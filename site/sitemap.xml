@@ -1111,6 +1111,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/buffer</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/buzzsumo</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1276,6 +1281,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/crunchbase</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/crustdata</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1307,6 +1317,16 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/demandbase</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/derrick</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/dialpad</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1436,6 +1456,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/front</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/fullenrich</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1491,6 +1516,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/harmonic</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/help-scout</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/heygen</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1522,6 +1557,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/hippo-video</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/hootsuite</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1591,6 +1631,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/justcall</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/keyplay</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1612,6 +1657,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/kluster</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/knit-mcp</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1652,6 +1702,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/leadfeeder</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/leadiq</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1766,7 +1821,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/merge-agent-handler</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/metorial</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/microsoft-dynamics-365-sales</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1791,6 +1856,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/monday-com</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/motion</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1802,6 +1872,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/nooks</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/nutshell-crm</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1861,6 +1936,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/paragon</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/people-data-labs</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1882,6 +1962,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/pipedrive</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/pipeworx</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2001,6 +2086,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/ringcentral-app-connect-mcp</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/rocketreach</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -2026,7 +2116,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/saleshandy</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/salesloft</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/salesql</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2071,6 +2171,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/sigparser</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/similarweb</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -2107,6 +2212,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/spekit</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/stackone</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2231,6 +2341,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/usefulapi-io</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/usergems</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -2247,6 +2362,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/varicent</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/vayne</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2317,6 +2437,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/zapier</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/zoho-crm</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>

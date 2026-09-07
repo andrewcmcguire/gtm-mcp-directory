@@ -1,6 +1,6 @@
 # API access gates: free, paid, or a procurement cycle before your agent starts
 
-> An access gate is what stands between you and an API key. Across 293 GTM tools: 62 free to start, 112 paid self serve, 77 enterprise only.
+> An access gate is what stands between you and an API key. Across 318 GTM tools: 69 free to start, 125 paid self serve, 78 enterprise only.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,13 +24,13 @@ This is the second column nobody else publishes, and in practice it decides more
 
 | Gate | Entries | What it means for one person with an agent |
 |---|---|---|
-| [Free to start](../gates/free.md) | 62 | Sign up, get a key, start calling. No conversation with anybody. |
-| [Paid, self serve](../gates/paid.md) | 112 | A credit card is enough. Still no sales call. |
-| [Enterprise leaning](../gates/enterprise-leaning.md) | 4 | Self serve on paper, gated in practice. |
-| [Enterprise only](../gates/enterprise-only.md) | 77 | Contract, seat minimum or procurement. A solo operator is out. |
+| [Free to start](../gates/free.md) | 69 | Sign up, get a key, start calling. No conversation with anybody. |
+| [Paid, self serve](../gates/paid.md) | 125 | A credit card is enough. Still no sales call. |
+| [Enterprise leaning](../gates/enterprise-leaning.md) | 8 | Self serve on paper, gated in practice. |
+| [Enterprise only](../gates/enterprise-only.md) | 78 | Contract, seat minimum or procurement. A solo operator is out. |
 | [Unknown](../gates/unknown.md) | 32 | The gate could not be established from public sources and is published as unknown rather than guessed. |
 
-6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-09-07 across 293 entries.
+6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-09-07 across 318 entries.
 
 ## Why unknown is such a large number
 
@@ -38,7 +38,7 @@ This is the second column nobody else publishes, and in practice it decides more
 
 ## The intersection that matters
 
-MCP status and access gate are separate columns for a reason. 35 entries ship an official MCP server behind an enterprise gate. The server is real, the protocol works, and most people reading this cannot call it. The [132 solo reachable entries](../lists/solo-reachable.md) are the list that matters if you are one person and a credit card.
+MCP status and access gate are separate columns for a reason. 40 entries ship an official MCP server behind an enterprise gate. The server is real, the protocol works, and most people reading this cannot call it. The [152 solo reachable entries](../lists/solo-reachable.md) are the list that matters if you are one person and a credit card.
 
 ## Sources
 

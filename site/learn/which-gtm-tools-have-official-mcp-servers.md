@@ -1,6 +1,6 @@
-# Which GTM tools have official MCP servers? 156 of 293, counted
+# Which GTM tools have official MCP servers? 181 of 318, counted
 
-> 156 of 293 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-07.
+> 181 of 318 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,25 +16,25 @@
 
 **The short answer**
 
-156 of the 293 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 26 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
+181 of the 318 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 26 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
 
 Official is a strict test here. The vendor has to ship and maintain the server itself. A wrapper built by Zapier, Composio, viaSocket or any other integration platform is recorded as community no matter how well it works, because when the underlying API changes, only one of those two has a team whose job it is to notice.
 
-## Where the 156 sit
+## Where the 181 sit
 
 | Category | Official | Community | Of total | The list |
 |---|---|---|---|---|
-| [Data & Enrichment](../categories/data-enrichment.md) | 31 | 2 | 38 | [open](../lists/mcp-data-enrichment.md) |
-| [RevOps Infra](../categories/revops-infra.md) | 21 | 0 | 23 | [open](../lists/mcp-revops-infra.md) |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 18 | 1 | 27 | [open](../lists/mcp-engagement-outbound.md) |
+| [Data & Enrichment](../categories/data-enrichment.md) | 38 | 2 | 45 | [open](../lists/mcp-data-enrichment.md) |
+| [RevOps Infra](../categories/revops-infra.md) | 25 | 0 | 27 | [open](../lists/mcp-revops-infra.md) |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 22 | 1 | 31 | [open](../lists/mcp-engagement-outbound.md) |
 | [Conversation Intel](../categories/conversation-intel.md) | 18 | 3 | 24 | [open](../lists/mcp-conversation-intel.md) |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 18 | 1 | 28 | [open](../lists/mcp-signals-intent-abm.md) |
-| [MCP Layer](../categories/mcp-infrastructure.md) | 8 | 0 | 13 | [open](../lists/mcp-mcp-infrastructure.md) |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 14 | 0 | 19 | [open](../lists/mcp-mcp-infrastructure.md) |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 8 | 2 | 17 | [open](../lists/mcp-inbound-plg-chat.md) |
 | [AI SDRs](../categories/ai-sdr-agents.md) | 7 | 3 | 23 | [open](../lists/mcp-ai-sdr-agents.md) |
 | [Proposals & Deals](../categories/proposals-deals.md) | 7 | 2 | 14 | [open](../lists/mcp-proposals-deals.md) |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 6 | 2 | 15 | [open](../lists/mcp-inbound-plg-chat.md) |
+| [Community & Dark Social](../categories/community-dark-social.md) | 7 | 3 | 18 | [open](../lists/mcp-community-dark-social.md) |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 5 | 2 | 14 | [open](../lists/mcp-scheduling-routing.md) |
-| [Community & Dark Social](../categories/community-dark-social.md) | 5 | 3 | 16 | [open](../lists/mcp-community-dark-social.md) |
 | [Email Deliverability](../categories/email-deliverability.md) | 4 | 0 | 13 | [open](../lists/mcp-email-deliverability.md) |
 | [Video Prospecting](../categories/video-prospecting.md) | 3 | 6 | 14 | [open](../lists/mcp-video-prospecting.md) |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 3 | 0 | 17 | [open](../lists/mcp-forecasting-revenue.md) |
@@ -44,7 +44,7 @@ Counted 2026-09-07 from directory.json, reconciled against tools_recount.py. Ent
 
 ## The full list
 
-All 156 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 200 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
+All 181 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 225 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
 
 ## The first fifteen, in the published order
 
@@ -58,6 +58,8 @@ A unified API that normalises 200+ SaaS connectors into single data models, expo
 A CRM built around a flexible, user-defined data model (not fixed contact/company/deal objects) with real-time sync and an API-first architecture.
 - [Autobound](../tools/autobound.md) Official MCP · Free to start
 Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed.
+- [Buffer](../tools/buffer.md) Official MCP · Free to start
+A social-media scheduling and publishing tool covering channels, a posting queue, drafts, ideas and per-post analytics, with a remote MCP server that...
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
 Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source...
 - [Calendly](../tools/calendly.md) Official MCP · Free to start
@@ -76,14 +78,12 @@ A real-time API for company and person firmographic/growth data (headcount trend
 A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
 - [Enrow](../tools/enrow.md) Official MCP · Free to start
 Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a...
-- [Exa](../tools/exa.md) Official MCP · Free to start
-A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
 
-131 more are on the linked page. The cut is the display limit, not a ranking.
+156 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The caveat that matters
 
-An official server is not the same as a server you can use. 35 of these sit behind an enterprise gate: a contract, a seat count or a procurement cycle before anybody gets a key. Check the gate column, not just the status.
+An official server is not the same as a server you can use. 40 of these sit behind an enterprise gate: a contract, a seat count or a procurement cycle before anybody gets a key. Check the gate column, not just the status.
 
 ## Sources
 
