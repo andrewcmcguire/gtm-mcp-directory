@@ -10,6 +10,7 @@ No write tools. No telemetry. No outbound requests. No featured field.
 from __future__ import annotations
 
 import os
+import re
 import sys
 from typing import Any, Optional
 
@@ -250,6 +251,7 @@ def find_tools(
     has_github_candidate: Optional[bool] = None,
     canonical_only: Optional[bool] = None,
     live_endpoint_only: Optional[bool] = None,
+    tool_query: Optional[str] = None,
     limit: int = 20,
 ) -> dict[str, Any]:
     """Find GTM tools by capability, and say whether an agent can actually reach them.
@@ -268,7 +270,12 @@ def find_tools(
     live_endpoint_only (keep only entries whose recorded MCP URL answered as
     a server on the last probe: endpoint_status live or live-auth-gated. This
     is liveness, not a test of the tools; a docs-only entry may still have a
-    perfectly good server at a URL the directory does not record).
+    perfectly good server at a URL the directory does not record),
+    tool_query (match against the ACTUAL tool names and descriptions each
+    server exposes, rather than the vendor's description of the product. This
+    is the capability layer: "linkedin url", "verify email", "create deal".
+    Only servers whose tool list has been harvested can match, so a miss means
+    unmeasured as often as it means absent; the response says which).
     """
     limit = max(1, min(int(limit or 20), 100))
     query = (job_or_query or "").strip()
@@ -297,6 +304,32 @@ def find_tools(
         has_github_candidate,
         canonical_only,
     )
+    if tool_query:
+        q = tool_query.strip().lower()
+        terms = [t for t in re.split(r"[^a-z0-9]+", q) if len(t) > 2]
+        before = len(pool)
+        harvested = [e for e in pool if e.get("mcp_tool_count")]
+        hits = []
+        for e in harvested:
+            matched = []
+            for t in e.get("mcp_tools") or []:
+                blob = ((t.get("name") or "") + " " + (t.get("description") or "")).lower()
+                if q in blob or (terms and all(term in blob for term in terms)):
+                    matched.append(t.get("name"))
+            if matched:
+                hits.append((e, matched))
+        pool = [e for e, _ in hits]
+        applied["tool_query"] = tool_query
+        tool_matches = {e["id"]: m for e, m in hits}
+        filter_notes.append(
+            "tool_query matched the tool lists of %d servers out of %d in scope, of which %d "
+            "have a harvested tool list at all. A server with no harvested list cannot match: "
+            "that is unmeasured, not a statement that it lacks the capability."
+            % (len(pool), before, len(harvested))
+        )
+    else:
+        tool_matches = {}
+
     if live_endpoint_only:
         before = len(pool)
         pool = [e for e in pool if e.get("endpoint_status") in ("live", "live-auth-gated")]
@@ -1034,6 +1067,73 @@ def get_docs_digest(name: str) -> dict[str, Any]:
             [entry], scope_note="Documentation digest for %s." % entry.get("name")
         ),
     }
+
+
+
+# ---------------------------------------------------------------------------
+# 8. get_server_tools
+# ---------------------------------------------------------------------------
+
+@mcp.tool()
+def get_server_tools(name: str) -> dict[str, Any]:
+    """What an MCP server actually exposes: every tool it names, with the evidence.
+
+    This is the capability layer, and it answers a different question from
+    find_tools. find_tools asks which PRODUCTS claim a job. This asks what one
+    SERVER will let an agent call, by tool name, with the required parameters
+    where they are recorded.
+
+    Every tool carries the evidence that produced it, strongest first:
+      live-list  the server answered tools/list on the date recorded
+      source     the tool is registered in the server's own source code
+      docs       the vendor's documentation names it
+      readme     a README table names it, which can drift from the code
+
+    A tool listed here has NOT been called. bench_tested is a separate and much
+    stronger claim, and it is still 1 across the whole directory.
+    """
+    matches, how = match_name(ENTRIES, name)
+    if not matches:
+        return {
+            **HONESTY.server_meta(),
+            "status": "no-match",
+            "asked_for": name,
+            "message": "No entry matched that name. Call find_tools or list_categories to see what exists.",
+        }
+    if len(matches) > 1:
+        return {
+            **HONESTY.server_meta(),
+            "status": "ambiguous",
+            "asked_for": name,
+            "candidates": [e["display_name"] for e in matches[:12]],
+            "message": "Several entries matched. Ask again with one of these exact names.",
+        }
+    e = matches[0]
+    tools = e.get("mcp_tools") or []
+    body = {
+        **HONESTY.server_meta(),
+        "status": "ok",
+        "name": e["display_name"],
+        "matched_by": how,
+        "mcp_status": e.get("mcp_status_bucket"),
+        "api_gate": e.get("api_gate_bucket"),
+        "mcp_endpoint": e.get("mcp_endpoint"),
+        "mcp_docs_url": e.get("mcp_docs_url"),
+        "endpoint_status": e.get("endpoint_status"),
+        "tool_count": len(tools),
+        "evidence": e.get("mcp_tools_evidence"),
+        "harvested_on": e.get("mcp_tools_fetched_on"),
+        "tools": tools,
+        "honesty": entry_honesty(e),
+    }
+    if not tools:
+        body["message"] = (
+            "No tool list has been harvested for this server yet. That is unmeasured, "
+            "not a claim that the server exposes nothing. mcp_status is %s and the "
+            "recorded URL is %s."
+            % (e.get("mcp_status_bucket"), (e.get("mcp_endpoint") or e.get("mcp_docs_url") or e.get("mcp_url") or "not recorded"))
+        )
+    return body
 
 
 # ---------------------------------------------------------------------------

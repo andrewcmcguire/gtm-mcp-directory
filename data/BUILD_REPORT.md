@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-04 by `build_directory.py`. Zero network calls.
+Generated 2026-09-07 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -65,6 +65,14 @@ mcp_status: `{"community": 26, "n-a": 9, "none-found": 87, "official": 156, "unk
 api_gate: `{"enterprise-leaning": 4, "enterprise-only": 77, "free": 62, "n-a": 6, "paid": 112, "unknown": 32}`
 tier: `{"BENCH-TESTED": 1, "RESEARCHED": 292}`
 last_checked: `{"2026-08-24": 118, "2026-08-25": 23, "2026-09-02": 131, "2026-09-03": 21}`
+
+### Capability layer (what each server exposes, from merge_capabilities.py)
+
+null
+- servers with a recorded tool list: **13** of 182 that claim a server
+- tools recorded in total: **230**
+- by evidence: `{"source": 188, "readme": 40, "live-list": 2}`
+- a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
@@ -261,7 +269,7 @@ None.
 
 ## Integrity
 
-- content sha256: `0cc778de5c4cf96e525d35f8b013711560cb098208aa4c307021a9932de3de75`
+- content sha256: `a8277aa7c43ca03341265d77caaaedd306d2d9c5d7baee950a987f4a610ff02f`
 - source sha256: `296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`

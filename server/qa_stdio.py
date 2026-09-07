@@ -76,6 +76,7 @@ REQUIRED_TOOLS = [
     "find_by_gate",
     "get_docs_digest",
     "list_jobs",
+    "get_server_tools",
 ]
 
 

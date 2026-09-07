@@ -98,6 +98,27 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
     elif status == "unknown":
         out.append("MCP status could not be determined from public sources.")
 
+    if entry.get("mcp_status_bucket") in ("official", "community"):
+        n = entry.get("mcp_tool_count") or 0
+        if n:
+            evid = {
+                "live-list": "the server itself answered tools/list",
+                "source": "the tools are registered in the server's own source",
+                "docs": "the vendor's documentation names them",
+                "readme": "a README table names them, which can drift from the code",
+            }.get(entry.get("mcp_tools_evidence"), "an unrecorded source")
+            out.append(
+                "%d tool(s) are recorded for this server because %s, harvested on %s. "
+                "None of them has been called: a listed tool is one you could try, "
+                "not one anybody has run."
+                % (n, evid, entry.get("mcp_tools_fetched_on") or "an unstamped date")
+            )
+        else:
+            out.append(
+                "No tool list has been harvested for this server yet (mcp_tool_count "
+                "is 0, which means not measured, not zero tools)."
+            )
+
     if not entry.get("jobs"):
         out.append(
             "No job tags yet (jobs_tagged_by is null). Capability matching for "
@@ -220,6 +241,9 @@ class HonestyBuilder:
             1 for e in directory.entries
             if e.get("mcp_status_bucket") == "official" and e.get("endpoint_status") == "docs-only"
         )
+        self.with_tools = sum(1 for e in directory.entries if e.get("mcp_tool_count"))
+        self.tools_total = sum(e.get("mcp_tool_count") or 0 for e in directory.entries)
+        self.servers_claimed = sum(1 for e in directory.entries if e.get("mcp_status_bucket") in ("official", "community"))
         self.endpoint_probe_date = next(
             (e.get("endpoint_last_probed") for e in directory.entries if e.get("endpoint_last_probed")), None
         )
@@ -308,6 +332,17 @@ class HonestyBuilder:
                     "Provenance per entry is in jobs_tagged_by."
                     % (machine, self.tagged)
                 )
+        if self.with_tools:
+            caveats.append(
+                "The capability layer covers %d of the %d entries claiming an MCP server: "
+                "%d tools recorded, each with the evidence that produced it (the server's own "
+                "tools/list, its source, or the vendor's docs). The other %d servers have no "
+                "tool list harvested yet, which is unmeasured rather than empty. Listing a "
+                "tool is not running it."
+                % (self.with_tools, self.servers_claimed, self.tools_total, self.servers_claimed - self.with_tools)
+            )
+        else:
+            caveats.append("No server's tool list has been harvested on this build.")
         if self.endpoint_probe_date:
             caveats.append(
                 "Endpoint liveness was measured on %s: %d of %d official entries "
