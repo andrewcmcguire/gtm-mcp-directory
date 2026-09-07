@@ -951,6 +951,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/actively</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/ada</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -962,6 +967,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/airbyte</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/aircall</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1012,6 +1022,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/apideck</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/apify</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1111,6 +1126,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/browserbase</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/buffer</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1132,6 +1152,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/cargo</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/catchintent</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1306,6 +1331,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/dbt</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/dealhub</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1431,6 +1461,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/firecrawl</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/fireflies-ai</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1496,6 +1531,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/google-bigquery</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/grain</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1522,6 +1562,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/help-scout</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/hex</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1631,6 +1676,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/jotform</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/justcall</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1727,6 +1777,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/live-data-technologies</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/looker</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1831,6 +1886,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/metricool</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/microsoft-dynamics-365-sales</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -1887,6 +1947,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/octave</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/offorte</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2181,6 +2246,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/skyp-ai</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/smartlead</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -2261,6 +2331,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/tally</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/tavily</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/tavus</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
@@ -2322,6 +2402,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/trumpet</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/typeform</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2407,6 +2492,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/weezly</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/wistia</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.7</priority>
   </url>

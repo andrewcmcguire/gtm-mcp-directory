@@ -1,6 +1,6 @@
-# Free to start: 69 GTM tools, counted
+# Free to start: 78 GTM tools, counted
 
-> 69 of 318 GTM tools in this directory are free to start. A solo operator can get API access without talking to anyone.
+> 78 of 336 GTM tools in this directory are free to start. A solo operator can get API access without talking to anyone.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 A solo operator can get API access without talking to anyone.
 
-69 of 318 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+78 of 336 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Airbyte](../tools/airbyte.md) airbyte.com Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -24,9 +24,13 @@ A solo operator can get API access without talking to anyone.
 
 - [Apideck](../tools/apideck.md) apideck.com A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file storage and issue tracking. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [Apify](../tools/apify.md) apify.com A cloud platform for running "Actors" (hosted scrapers and automation programs, thousands of them in a public store) that extract web data such as LinkedIn posts, Google Maps listings, company sites and social... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Attio](../tools/attio.md) attio.com A CRM built around a flexible, user-defined data model (not fixed contact/company/deal objects) with real-time sync and an API-first architecture. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Autobound](../tools/autobound.md) autobound.ai Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Browserbase](../tools/browserbase.md) browserbase.com A hosted headless-browser service (sessions, proxies, stealth, session recording) with Stagehand, its natural-language browser automation layer, so agents can navigate, act on and extract from web pages that... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Buffer](../tools/buffer.md) buffer.com A social-media scheduling and publishing tool covering channels, a posting queue, drafts, ideas and per-post analytics, with a remote MCP server that lets an AI assistant read channels, browse the queue and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
@@ -54,17 +58,23 @@ A solo operator can get API access without talking to anyone.
 
 - [Fathom](../tools/fathom.md) fathom.video Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Firecrawl](../tools/firecrawl.md) firecrawl.dev A web scraping and crawling API that turns any URL or whole site into clean markdown or structured JSON for LLM pipelines, with search, map, crawl, extract, parse and browser-interaction endpoints. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Fireflies.ai](../tools/fireflies-ai.md) fireflies.ai Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and CRM writeback. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Fivetran](../tools/fivetran.md) fivetran.com Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that land CRM and GTM-tool data in a warehouse, plus... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [FullEnrich](../tools/fullenrich.md) fullenrich.com A B2B contact-enrichment aggregator that runs a single lookup or bulk list through 15+ third-party data vendors in a "waterfall" and returns the first verified work/personal email or mobile number found,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Google BigQuery](../tools/google-bigquery.md) cloud.google.com Google Cloud's serverless data warehouse, where many RevOps teams land CRM, product and billing data for modelling and reporting; a first-party remote MCP server exposes dataset and table metadata and SQL... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
+
 - [Hightouch](../tools/hightouch.md) hightouch.com A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs, marketing automation) for audience activation and personalization. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [HubSpot](../tools/hubspot.md) hubspot.com An all-in-one CRM/marketing/sales/service platform with contacts, deals, marketing automation, and a public REST API/developer platform. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Hunter.io](../tools/hunter-io.md) hunter.io An email-finding and verification tool - given a name, domain, or company, it locates likely professional email addresses (via domain pattern-matching and web-crawled data) and verifies deliverability; also... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Jotform](../tools/jotform.md) jotform.com An online form builder (forms, approvals, tables, e-sign, payment collection and conversational "AI Agents") with a REST API and a hosted MCP server. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Knit MCP](../tools/knit-mcp.md) getknit.dev A unified-API vendor that publishes hosted, serverless MCP servers for individual SaaS applications across CRM, ATS, HRIS, ticketing, accounting, calendar, email and e-sign, alongside its unified REST APIs and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -77,6 +87,8 @@ A solo operator can get API access without talking to anyone.
 - [MeetGeek](../tools/meetgeek.md) meetgeek.ai Automatic meeting recorder and transcriber that produces summaries, highlights and conversation analytics across Zoom, Teams and Meet. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Merge Agent Handler](../tools/merge-agent-handler.md) merge.dev Merge's tool-calling platform for AI agents: it wraps hundreds of third-party SaaS applications as pre-built MCP-ready connectors, bundles them into scoped "tool packs" per agent, brokers per-end-user... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Metricool](../tools/metricool.md) metricool.com A social media management and analytics tool (scheduling, analytics, competitor tracking and ad-campaign monitoring across Instagram, Facebook, X, LinkedIn, TikTok, YouTube and Meta, Google and TikTok Ads) for... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
 - [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md) github.com The official reference-implementation repository for MCP, "managed by Anthropic, but built together with the community" - ships a small set of maintained example servers (Everything, Fetch, Filesystem, Git,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -102,6 +114,10 @@ A solo operator can get API access without talking to anyone.
 
 - [StackOne](../tools/stackone.md) stackone.com A unified-API vendor that publishes a stated 518 managed MCP servers exposing 31,928 tools across HR, CRM, IT and finance applications, reachable through one endpoint with per-account routing, plus dynamic... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [Tally](../tools/tally.md) tally.so A free-first online form builder (unlimited forms and submissions on the free plan, conditional logic, payments, signatures, file uploads) with a REST API, webhooks and a hosted MCP server. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+
+- [Tavily](../tools/tavily.md) tavily.com A web search and page-extraction API built for LLM agents that returns ranked, cleaned results and extracted page content rather than a list of links. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Tavus](../tools/tavus.md) tavus.io Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases like greeting website visitors and booking meetings, not... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [TheirStack](../tools/theirstack.md) theirstack.com A job-postings and technographic-data API that tracks live job listings and the tech stack/hiring signals behind them across 195 countries (claims 223M+ jobs, 352K+ sources), queryable for GTM timing/intent... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · Cross listed, canonical home is Signals & Intent
@@ -117,6 +133,8 @@ A solo operator can get API access without talking to anyone.
 - [Warmly](../tools/warmly.md) warmly.ai A website-visitor de-anonymization and intent platform that identifies companies (and increasingly named individuals) visiting a customer's site from IP/behavioral signals, then enriches those visitor records... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · Cross listed, canonical home is Signals & Intent
 
 - [Warmly (Warmly.ai)](../tools/warmly.md) warmly.ai De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party (social/job-change), and third-party (Bombora intent, keyword... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+
+- [Wistia](../tools/wistia.md) wistia.com A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams use it for hosted demo and follow-up video with per-viewer... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [Zapier](../tools/zapier.md) zapier.com A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate agent product. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
 

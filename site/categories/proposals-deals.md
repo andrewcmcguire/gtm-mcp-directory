@@ -1,6 +1,6 @@
-# Proposals & Deals: 14 tools, 7 with an official MCP server
+# Proposals & Deals: 15 tools, 8 with an official MCP server
 
-> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 14 tools counted, 7 with an official MCP server and 4 free to start.
+> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 15 tools counted, 8 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor.
 
-- **entries in this file**: 14
+- **entries in this file**: 15
 
-- **Official MCP**: 7
+- **Official MCP**: 8
 - **Community MCP**: 2
 - **No MCP found**: 5
 
 - **Free to start**: 4
-- **Paid, self-serve**: 6
+- **Paid, self-serve**: 7
 - **Enterprise only**: 3
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 b199f1829c269826... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 9eb204ee3613b95e... · counts reconciled against tools_recount.py at build time.
 
-- [The 9 with an MCP server](../lists/mcp-proposals-deals.md)
+- [The 10 with an MCP server](../lists/mcp-proposals-deals.md)
 
 - [Send a document for signature](../jobs/send-document-for-signature.md)
 - [Generate a proposal or quote](../jobs/generate-proposal-or-quote.md)
@@ -45,6 +45,8 @@ Source file: 13-proposals-deals.md · content sha256 b199f1829c269826... · coun
 - [Arphie](../tools/arphie.md) arphie.ai AI-native RFP/RFx/security-questionnaire response software, positioned as a faster-drafting alternative/competitor to Loopio and Responsive. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [DocuSign](../tools/docusign.md) docusign.com E-signature and Intelligent Agreement Management (IAM) platform; the CLM/AI side covered here is agreement creation, status tracking, and AI-assisted querying/analysis of agreement data via MCP, distinct from... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Offorte](../tools/offorte.md) offorte.com Proposal software (templates, interactive web proposals, e-signature, open and read tracking, automation sets) for small businesses, with a REST API, webhooks and an MCP server published by the vendor. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Responsive (formerly RFPIO)](../tools/responsive.md) responsive.io RFP, DDQ, and security-questionnaire response-management platform with an approved-content library ("Library") and AI-assisted drafting grounded in that governed content. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 

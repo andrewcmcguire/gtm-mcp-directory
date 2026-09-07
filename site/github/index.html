@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GTM tools by GitHub repo health: not measured yet, and why</title>
-<meta name="description" content="Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 92 entries carry a github.com URL as a seed.">
+<meta name="description" content="Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 98 entries carry a github.com URL as a seed.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/github/">
@@ -59,7 +59,7 @@
 <p class="note"></p>
 <div class="warn"><b>Nothing measured yet</b>
 github_url, github_stars, github_last_commit, github_archived and github_fetched_on are null on all
-318 entries. The refresh rail in SPEC section 7.2 has
+336 entries. The refresh rail in SPEC section 7.2 has
 not been run. A star count without the date it was taken is a lie, so no number is shown at all.</div>
 <p class="sub">When the rail runs, every repo lands in one of five bands and every band ships with
 the date it was measured: active under 90 days, slowing 90 to 180, quiet 180 to 365, dormant over a
@@ -68,8 +68,8 @@ need commits. But an agent about to write a community MCP wrapper into a workflo
 the repo has been silent for eight months first, and this directory already has the receipts that
 the category churns.</p>
 <h3 style="margin-top:34px">The seed, which is a fact and not a measurement</h3>
-<p class="sub">92 of 318 entries already carry a
-github.com URL somewhere in their fields, and 77 of those sit in
+<p class="sub">98 of 336 entries already carry a
+github.com URL somewhere in their fields, and 83 of those sit in
 the mcp_url field. Those repos are free to measure when the rail runs. Nothing below says anything
 about whether a repo is healthy.</p>
 <ul class="rows">
@@ -128,6 +128,12 @@ about whether a repo is healthy.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/conversation-intel">Conversation Intel</a></div>
 </li>
 <li class="row">
+<div class="top"><a class="nm" href="../tools/firecrawl">Firecrawl</a>
+<span class="dom">firecrawl.dev</span></div>
+<div class="desc">A web scraping and crawling API that turns any URL or whole site into clean markdown or structured JSON for LLM pipelines, with search, map, crawl, extract, parse and browser-interaction endpoints.</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a></div>
+</li>
+<li class="row">
 <div class="top"><a class="nm" href="../tools/fivetran">Fivetran</a>
 <span class="dom">fivetran.com</span></div>
 <div class="desc">Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that land CRM and GTM-tool data in a warehouse, plus...</div>
@@ -168,6 +174,12 @@ about whether a repo is healthy.</p>
 <span class="dom">merge.dev</span></div>
 <div class="desc">Merge&#x27;s tool-calling platform for AI agents: it wraps hundreds of third-party SaaS applications as pre-built MCP-ready connectors, bundles them into scoped &quot;tool packs&quot; per agent, brokers per-end-user...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/mcp-infrastructure">MCP Layer</a></div>
+</li>
+<li class="row">
+<div class="top"><a class="nm" href="../tools/metricool">Metricool</a>
+<span class="dom">metricool.com</span></div>
+<div class="desc">A social media management and analytics tool (scheduling, analytics, competitor tracking and ad-campaign monitoring across Instagram, Facebook, X, LinkedIn, TikTok, YouTube and Meta, Google and TikTok Ads) for...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/community-dark-social">Community &amp; Dark Social</a></div>
 </li>
 <li class="row">
 <div class="top"><a class="nm" href="../tools/model-context-protocol-official-servers-repo">Model Context Protocol - official servers repo</a>
@@ -290,6 +302,12 @@ about whether a repo is healthy.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a></div>
 </li>
 <li class="row">
+<div class="top"><a class="nm" href="../tools/dbt">dbt (dbt platform remote MCP)</a>
+<span class="dom">getdbt.com</span></div>
+<div class="desc">The transformation layer of the modern data stack: SQL models, tests and documentation compiled and run against a warehouse, with a hosted &quot;dbt platform&quot; (formerly dbt Cloud) that adds scheduling, a Semantic...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/revops-infra">RevOps Infra</a></div>
+</li>
+<li class="row">
 <div class="top"><a class="nm" href="../tools/derrick">Derrick</a>
 <span class="dom">derrick-app.com</span></div>
 <div class="desc">A credit-metered B2B enrichment engine sold primarily as a Google Sheets add-on, plus a REST API and a hosted MCP server, covering email finding, mobile phone finding, LinkedIn profile lookup, company...</div>
@@ -354,6 +372,12 @@ about whether a repo is healthy.</p>
 <span class="dom">octavehq.com</span></div>
 <div class="desc">A GTM context engine that stores a company&#x27;s ICP, personas, positioning, competitors, proof points, and objections as one structured model, then serves that model to sequences, scripts, and AI agents at...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/revops-infra">RevOps Infra</a></div>
+</li>
+<li class="row">
+<div class="top"><a class="nm" href="../tools/offorte">Offorte</a>
+<span class="dom">offorte.com</span></div>
+<div class="desc">Proposal software (templates, interactive web proposals, e-signature, open and read tracking, automation sets) for small businesses, with a REST API, webhooks and an MCP server published by the vendor.</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/proposals-deals">Proposals &amp; Deals</a></div>
 </li>
 <li class="row">
 <div class="top"><a class="nm" href="../tools/phantombuster">PhantomBuster</a>
@@ -476,6 +500,12 @@ about whether a repo is healthy.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><a class="badge mute flat" href="../categories/proposals-deals">Proposals &amp; Deals</a></div>
 </li>
 <li class="row">
+<div class="top"><a class="nm" href="../tools/looker">Looker</a>
+<span class="dom">cloud.google.com</span></div>
+<div class="desc">Google Cloud&#x27;s governed BI platform (LookML semantic model, explores, Looks, dashboards, embedded analytics) that sits on top of a warehouse; two first-party MCP routes exist, a local MCP Toolbox prebuilt...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><a class="badge mute flat" href="../categories/revops-infra">RevOps Infra</a></div>
+</li>
+<li class="row">
 <div class="top"><a class="nm" href="../tools/mcp-run-turbomcp">mcp.run / TurboMCP</a>
 <span class="dom">turbomcp.ai</span></div>
 <div class="desc">An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled deployment of MCP servers across a team&#x27;s own infrastructure (K8s, PaaS, VMs).</div>
@@ -534,6 +564,12 @@ about whether a repo is healthy.</p>
 <span class="dom">peopledatalabs.com</span></div>
 <div class="desc">A raw person/company data API that returns profile records (name, job history, education, skills, social handles, contact fields) matched by identifiers like email, name, or LinkedIn URL, plus SQL-style bulk...</div>
 <div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a></div>
+</li>
+<li class="row">
+<div class="top"><a class="nm" href="../tools/aircall">Aircall</a>
+<span class="dom">aircall.io</span></div>
+<div class="desc">A cloud phone system and call centre for sales and support teams (numbers, dialer campaigns, call recording, SMS, CRM integrations) with a public REST API and webhooks.</div>
+<div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a></div>
 </li>
 <li class="row">
 <div class="top"><a class="nm" href="../tools/mention">Mention</a>
@@ -632,15 +668,15 @@ about whether a repo is healthy.</p>
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>318 directory entries across 15 category files.
-    302 unique products, 16 of them cross listed
+    <p>336 directory entries across 15 category files.
+    320 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>183 official MCP servers,
-    24 community.
+    <p>200 official MCP servers,
+    25 community.
     1 bench tested.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    47 carry none and say why.</p>
+    65 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -680,8 +716,8 @@ about whether a repo is healthy.</p>
 </div>
 <div class="legal">
 Generated 2026-09-07 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 318 vs recount
-318.<br>
+Reconciled: build 336 vs recount
+336.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

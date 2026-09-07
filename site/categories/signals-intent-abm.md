@@ -1,6 +1,6 @@
-# Signals & Intent: 28 tools, 18 with an official MCP server
+# Signals & Intent: 30 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 28 tools counted, 18 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 30 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,22 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 28
+- **entries in this file**: 30
 
-- **Official MCP**: 18
+- **Official MCP**: 20
 - **Community MCP**: 1
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
 - **No MCP found**: 6
 
 - **Free to start**: 6
-- **Paid, self-serve**: 12
+- **Paid, self-serve**: 13
 - **Enterprise only**: 10
+- **Gate unknown**: 1
 
-Source file: 05-signals-intent-abm.md · content sha256 111b3a6a8c0a8caf... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 e510b3f0628d810d... · counts reconciled against tools_recount.py at build time.
 
-- [The 19 with an MCP server](../lists/mcp-signals-intent-abm.md)
+- [The 21 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md)
@@ -46,6 +47,8 @@ Source file: 05-signals-intent-abm.md · content sha256 111b3a6a8c0a8caf... · c
 - [TheirStack](../tools/theirstack.md) theirstack.com Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals (job-posting keywords implying a company has or needs a... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Warmly (Warmly.ai)](../tools/warmly.md) warmly.ai De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party (social/job-change), and third-party (Bombora intent, keyword... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [CatchIntent](../tools/catchintent.md) catchintent.com A B2B intent tool that monitors social and web sources for buying signals, ranks the people behind them by warmth, enriches the profiles and drafts personalised openers, then pushes leads to a CRM or outreach... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Factors.ai](../tools/factors-ai.md) factors.ai De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party intent research signals) to identify in-market accounts and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -72,6 +75,8 @@ Source file: 05-signals-intent-abm.md · content sha256 111b3a6a8c0a8caf... · c
 - [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [UserGems](../tools/usergems.md) usergems.com Tracks job changes of known contacts (past customers/champions moving to new companies) plus 30+ other native signals (new hires, promotions, funding, website visits, M&A) sourced from LinkedIn-style data... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Actively](../tools/actively.md) actively.ai A sales platform that runs an always-on "per-account agent" for every account in a seller's book, synthesising CRM data, call transcripts and external signals into account research, risk flags and recommended... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 
 - [Trigify (Trigify.io)](../tools/trigify.md) trigify.io Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who engaged with that content into an "engagement graph" filtered... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 

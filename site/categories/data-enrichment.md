@@ -1,6 +1,6 @@
-# Data & Enrichment: 45 tools, 38 with an official MCP server
+# Data & Enrichment: 49 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 45 tools counted, 38 with an official MCP server and 17 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 49 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 45
+- **entries in this file**: 49
 
-- **Official MCP**: 38
+- **Official MCP**: 42
 - **Community MCP**: 2
 - **No MCP found**: 5
 
-- **Free to start**: 17
+- **Free to start**: 21
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
 
-Source file: 01-data-enrichment.md · content sha256 24bf7b35cc9fb080... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 236e983aff5aca4d... · counts reconciled against tools_recount.py at build time.
 
-- [The 40 with an MCP server](../lists/mcp-data-enrichment.md)
+- [The 44 with an MCP server](../lists/mcp-data-enrichment.md)
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
@@ -38,6 +38,10 @@ Source file: 01-data-enrichment.md · content sha256 24bf7b35cc9fb080... · coun
 
 - [Anymail Finder](../tools/anymail-finder.md) anymailfinder.com Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
+- [Apify](../tools/apify.md) apify.com A cloud platform for running "Actors" (hosted scrapers and automation programs, thousands of them in a public store) that extract web data such as LinkedIn posts, Google Maps listings, company sites and social... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [Browserbase](../tools/browserbase.md) browserbase.com A hosted headless-browser service (sessions, proxies, stealth, session recording) with Stagehand, its natural-language browser automation layer, so agents can navigate, act on and extract from web pages that... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
 - [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Diffbot](../tools/diffbot.md) diffbot.com A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles) queryable for company/entity enrichment, plus raw... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
@@ -45,6 +49,8 @@ Source file: 01-data-enrichment.md · content sha256 24bf7b35cc9fb080... · coun
 - [Enrow](../tools/enrow.md) enrow.io Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a verified result. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Exa](../tools/exa.md) exa.ai A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword matching, plus tools to fetch page contents and get... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [Firecrawl](../tools/firecrawl.md) firecrawl.dev A web scraping and crawling API that turns any URL or whole site into clean markdown or structured JSON for LLM pipelines, with search, map, crawl, extract, parse and browser-interaction endpoints. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [FullEnrich](../tools/fullenrich.md) fullenrich.com A B2B contact-enrichment aggregator that runs a single lookup or bulk list through 15+ third-party data vendors in a "waterfall" and returns the first verified work/personal email or mobile number found,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
@@ -55,6 +61,8 @@ Source file: 01-data-enrichment.md · content sha256 24bf7b35cc9fb080... · coun
 - [Lusha](../tools/lusha.md) lusha.com A B2B contact and company database (300M+ profiles) accessed via a browser extension, web prospecting platform, and bulk CSV/API enrichment for finding direct dials, emails, and company data. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [Tavily](../tools/tavily.md) tavily.com A web search and page-extraction API built for LLM agents that returns ranked, cleaned results and extracted page content rather than a list of links. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [TheirStack](../tools/theirstack.md) theirstack.com A job-postings and technographic-data API that tracks live job listings and the tech stack/hiring signals behind them across 195 countries (claims 223M+ jobs, 352K+ sources), queryable for GTM timing/intent... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · Cross listed, canonical home is Signals & Intent
 

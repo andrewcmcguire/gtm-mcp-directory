@@ -1,6 +1,6 @@
-# Community & Dark Social tools with MCP servers: 10 of 18, counted
+# Community & Dark Social tools with MCP servers: 11 of 19, counted
 
-> 10 of the 18 community & dark social tools in The GTM MCP Directory have an MCP server: 7 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 11 of the 19 community & dark social tools in The GTM MCP Directory have an MCP server: 8 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,17 +10,20 @@
 [Directory](../index.md) /
 [The lists](index.md) / Community & Dark Social tools with an MCP server
 
-**List · 10 of 318**
+**List · 11 of 336**
 
 ## Community & Dark Social tools with an MCP server
 
-Tools that surface what's happening in the channels a CRM and normal web analytics can't see - Slack and Discord communities, Reddit threads, X posts, newsletters, GitHub activity, and forum comments - the raw material of community-led growth and "dark social" signal-driven outbound. The tension: a handful of tools here (SparkToro, Syften, Common Room) build genuinely for solo operators and AI agents, with real free tiers or paid-but-reachable MCP servers, while the legacy media-monitoring incumbents (Brandwatch, Meltwater, Talkwalker) remain enterprise-sales-gated dashboards with no self-serve path at all - and this category has an unusually high mortality rate: two of the tools researched here (Orbit, GummySearch) turned out to be dead or shut down mid-research. 10 of 18 entries in this category are reachable by an agent: 7 through a server the vendor maintains and 3 through one somebody else built. The category is tagged most often with Monitor social and community mentions. [See the full category page](../categories/community-dark-social.md).
+Tools that surface what's happening in the channels a CRM and normal web analytics can't see - Slack and Discord communities, Reddit threads, X posts, newsletters, GitHub activity, and forum comments - the raw material of community-led growth and "dark social" signal-driven outbound. The tension: a handful of tools here (SparkToro, Syften, Common Room) build genuinely for solo operators and AI agents, with real free tiers or paid-but-reachable MCP servers, while the legacy media-monitoring incumbents (Brandwatch, Meltwater, Talkwalker) remain enterprise-sales-gated dashboards with no self-serve path at all - and this category has an unusually high mortality rate: two of the tools researched here (Orbit, GummySearch) turned out to be dead or shut down mid-research. 11 of 19 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 3 through one somebody else built. The category is tagged most often with Monitor social and community mentions. [See the full category page](../categories/community-dark-social.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Buffer](../tools/buffer.md)
 buffer.com | [Official MCP](../mcp/official.md) | [https://mcp.buffer.com/mcp](https://mcp.buffer.com/mcp) +1 more | API key
 api key. The vendor's guide instructs the user to generate an API key from the developer... | [Free to start](../gates/free.md) |
+| [Metricool](../tools/metricool.md)
+metricool.com | [Official MCP](../mcp/official.md) | [https://ai.metricool.com/mcp](https://ai.metricool.com/mcp) +3 more | OAuth
+oauth (browser authorisation in clients that support remote OAuth MCP) or a... | [Free to start](../gates/free.md) |
 | [Brand24](../tools/brand24.md)
 brand24.com | [Official MCP](../mcp/official.md) | [https://mcp.brand24.com/v1/mcp](https://mcp.brand24.com/v1/mcp) +1 more | OAuth
 OAuth; the help article states "MCP access is available to Brand24 subscribers. The data... | [Paid, self-serve](../gates/paid.md) |
@@ -80,4 +83,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

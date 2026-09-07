@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / Scheduling & Routing tools with an MCP server
 
-**List · 7 of 318**
+**List · 7 of 336**
 
 ## Scheduling & Routing tools with an MCP server
 
@@ -72,4 +72,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 - [Summarize a meeting](../jobs/summarize-meeting.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

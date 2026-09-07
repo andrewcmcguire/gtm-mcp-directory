@@ -26,7 +26,7 @@ Treat two claims separately. Whether the software can run the workflow, which ve
 
 There are 23 AI SDR entries here. **8 have an official MCP server** and 13 have none found. 3 do not publish enough for the access gate to be established at all.
 
-That is the inversion this directory keeps running into. A category built on the promise of autonomous software is, as a group, the least callable by anybody else's autonomous software. If you want an agent you control to drive the workflow rather than buying one that drives itself, the parts you can actually assemble sit in enrichment, signals and RevOps infrastructure, where the official server counts are 38, 18 and 25 respectively.
+That is the inversion this directory keeps running into. A category built on the promise of autonomous software is, as a group, the least callable by anybody else's autonomous software. If you want an agent you control to drive the workflow rather than buying one that drives itself, the parts you can actually assemble sit in enrichment, signals and RevOps infrastructure, where the official server counts are 42, 20 and 29 respectively.
 
 ## The tools tagged with the autonomous SDR job
 

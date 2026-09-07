@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 40 of 45, counted
+# Data & Enrichment tools with MCP servers: 44 of 49, counted
 
-> 40 of the 45 data & enrichment tools in The GTM MCP Directory have an MCP server: 38 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 44 of the 49 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,17 +10,23 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 40 of 318**
+**List · 44 of 336**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 40 of 45 entries in this category are reachable by an agent: 38 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 44 of 49 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Anymail Finder](../tools/anymail-finder.md)
 anymailfinder.com | [Official MCP](../mcp/official.md) | [https://api.anymailfinder.com/mcp](https://api.anymailfinder.com/mcp) +1 more | OAuth or an API key
 Browser-based OAuth-style sign-in and approval for Claude, ChatGPT and Cursor, with an... | [Free to start](../gates/free.md) |
+| [Apify](../tools/apify.md)
+apify.com | [Official MCP](../mcp/official.md) | [https://mcp.apify.com](https://mcp.apify.com) +1 more | OAuth or an API key
+oauth (recommended, browser sign-in) or an Apify API token as an Authorization Bearer... | [Free to start](../gates/free.md) |
+| [Browserbase](../tools/browserbase.md)
+browserbase.com | [Official MCP](../mcp/official.md) | [https://mcp.browserbase.com/mcp](https://mcp.browserbase.com/mcp) +1 more | API key
+api key passed as a browserbaseApiKey query parameter on the endpoint URL; the docs list... | [Free to start](../gates/free.md) |
 | [Crustdata](../tools/crustdata.md)
 crustdata.com | [Official MCP](../mcp/official.md) | [https://install.crustdata.com/mcp](https://install.crustdata.com/mcp) +1 more | Auth not recorded
 unknown | [Free to start](../gates/free.md) |
@@ -33,6 +39,9 @@ api key. ENROW_API_KEY env var for stdio, or an Authorization Bearer / x-enrow-a
 | [Exa](../tools/exa.md)
 exa.ai | [Official MCP](../mcp/official.md) | [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) +1 more | API key
 api key (issued via dashboard.exa.ai) for the self-hosted server and for quota. CORRECTED... | [Free to start](../gates/free.md) |
+| [Firecrawl](../tools/firecrawl.md)
+firecrawl.dev | [Official MCP](../mcp/official.md) | [https://mcp.firecrawl.dev/v2/mcp](https://mcp.firecrawl.dev/v2/mcp) +4 more | OAuth or an API key
+api key as an Authorization Bearer header, or browser sign-in via the /v2/mcp-oauth... | [Free to start](../gates/free.md) |
 | [FullEnrich](../tools/fullenrich.md)
 fullenrich.com | [Official MCP](../mcp/official.md) | [https://mcp.fullenrich.com/mcp](https://mcp.fullenrich.com/mcp) +1 more | OAuth
 oauth (browser sign-in to FullEnrich account; no manual API key needed) | [Free to start](../gates/free.md) |
@@ -48,6 +57,9 @@ api key (LUSHA_API_KEY) | [Free to start](../gates/free.md) |
 | [Prospeo](../tools/prospeo.md)
 prospeo.io | [Official MCP](../mcp/official.md) | [https://github.com/prospeo-v2/prospeo-mcp-server](https://github.com/prospeo-v2/prospeo-mcp-server) | OAuth or an API key
 OAuth 2.0 for the hosted server (auto-handled by Claude.ai/Desktop via the MCP... | [Free to start](../gates/free.md) |
+| [Tavily](../tools/tavily.md)
+tavily.com | [Official MCP](../mcp/official.md) | [https://mcp.tavily.com/mcp/](https://mcp.tavily.com/mcp/) +1 more | OAuth or an API key
+api key as a tavilyApiKey query parameter or in the Authorization header, or OAuth. The... | [Free to start](../gates/free.md) |
 | [TheirStack](../tools/theirstack.md)
 theirstack.com | [Official MCP](../mcp/official.md) | [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/) +3 more | API key
 api key (same credentials as the REST API) | [Free to start](../gates/free.md) |
@@ -167,4 +179,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

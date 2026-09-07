@@ -1,6 +1,6 @@
-# Inbound & PLG Chat tools with MCP servers: 10 of 17, counted
+# Inbound & PLG Chat tools with MCP servers: 13 of 20, counted
 
-> 10 of the 17 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 13 of the 20 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 11 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,14 +10,20 @@
 [Directory](../index.md) /
 [The lists](index.md) / Inbound & PLG Chat tools with an MCP server
 
-**List · 10 of 318**
+**List · 13 of 336**
 
 ## Inbound & PLG Chat tools with an MCP server
 
-Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed. 10 of 17 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Answer an inbound chat or call. [See the full category page](../categories/inbound-plg-chat.md).
+Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed. 13 of 20 entries in this category are reachable by an agent: 11 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Answer an inbound chat or call. [See the full category page](../categories/inbound-plg-chat.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
+| [Jotform](../tools/jotform.md)
+jotform.com | [Official MCP](../mcp/official.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +1 more | OAuth or an API key
+oauth only. The vendor's MCP page states "Bearer-token access is not supported; OAuth 2.0... | [Free to start](../gates/free.md) |
+| [Tally](../tools/tally.md)
+tally.so | [Official MCP](../mcp/official.md) | [https://api.tally.so/mcp](https://api.tally.so/mcp) +2 more | OAuth or an API key
+oauth or api key. The help page states "The easiest way to connect is through OAuth, just... | [Free to start](../gates/free.md) |
 | [Tidio](../tools/tidio.md)
 tidio.com | [Official MCP](../mcp/official.md) | [https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector) +1 more | OAuth
 OAuth: the tidio_connect tool opens a browser to Tidio's login page, then stores access... | [Free to start](../gates/free.md) |
@@ -33,6 +39,9 @@ oauth. The vendor's article states the connector registers itself, so the OAuth 
 | [Intercom (Fin)](../tools/intercom.md)
 intercom.com | [Official MCP](../mcp/official.md) | [https://mcp.intercom.com/mcp](https://mcp.intercom.com/mcp) +2 more | OAuth or an API key
 OAuth (browser-based, recommended) or a Bearer token using an Intercom API token;... | [Paid, self-serve](../gates/paid.md) |
+| [Typeform](../tools/typeform.md)
+typeform.com | [Official MCP](../mcp/official.md) | [https://api.typeform.com/mcp](https://api.typeform.com/mcp) +2 more | OAuth
+oauth. The docs state "Authorization is OAuth 2.0, and your client is prompted on first... | [Paid, self-serve](../gates/paid.md) |
 | [Ada](../tools/ada.md)
 ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
 none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
@@ -81,4 +90,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

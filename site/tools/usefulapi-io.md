@@ -71,7 +71,7 @@ free - every server page publishes the same two tiers, "Free 100 tool calls / mo
 
 No documentation URL recorded.
 
-289 of 318 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -87,7 +87,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 No job tag on this entry.
 
-47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

@@ -1,6 +1,6 @@
-# GTM MCP servers that use an API key: 51 tools, counted
+# GTM MCP servers that use an API key: 53 tools, counted
 
-> 51 of the 207 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
+> 53 of the 225 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use an API key
 
-**List · 51 of 318**
+**List · 53 of 336**
 
 ## GTM MCP servers that use an API key
 
@@ -20,6 +20,8 @@ The server authenticates with a key or token the operator generates and pastes i
 |---|---|---|---|---|
 | [Autobound](../tools/autobound.md)
 autobound.ai | [Official MCP](../mcp/official.md) | [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp) +1 more | api key via an AUTOBOUND_API_KEY environment variable in the MCP client config. | [Free to start](../gates/free.md) |
+| [Browserbase](../tools/browserbase.md)
+browserbase.com | [Official MCP](../mcp/official.md) | [https://mcp.browserbase.com/mcp](https://mcp.browserbase.com/mcp) +1 more | api key passed as a browserbaseApiKey query parameter on the endpoint URL; the docs list it as "Required for tool calls". Six tools: navigate, act,... | [Free to start](../gates/free.md) |
 | [Buffer](../tools/buffer.md)
 buffer.com | [Official MCP](../mcp/official.md) | [https://mcp.buffer.com/mcp](https://mcp.buffer.com/mcp) +1 more | api key. The vendor's guide instructs the user to generate an API key from the developer site and send it as "Authorization: Bearer YOUR_API_KEY"... | [Free to start](../gates/free.md) |
 | [Census (now operates as "Fivetran Activations")](../tools/census.md)
@@ -76,6 +78,8 @@ lead411.com | [Official MCP](../mcp/official.md) | [https://mcp.lead411.com/mcp]
 mailforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/mcp](https://mcp.salesforge.ai/mcp) | API key, generated from the Mailforge dashboard. | [Paid, self-serve](../gates/paid.md) |
 | [Ocean.io](../tools/ocean-io.md)
 ocean.io | [Official MCP](../mcp/official.md) | [https://app.ocean.io/docs/getting-started/mcp](https://app.ocean.io/docs/getting-started/mcp) +1 more | api key (api-token passed as a URL parameter to the hosted MCP endpoint) | [Paid, self-serve](../gates/paid.md) |
+| [Offorte](../tools/offorte.md)
+offorte.com | [Official MCP](../mcp/official.md) | [https://github.com/offorte/offorte-mcp-server](https://github.com/offorte/offorte-mcp-server) +2 more | api key. The repo README lists an "Offorte API Key (see Authentication Section of the Offorte API Docs)"; the server runs locally with npx -y... | [Paid, self-serve](../gates/paid.md) |
 | [RB2B](../tools/rb2b.md)
 rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | api key | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io](../tools/reply-io.md)
@@ -121,4 +125,4 @@ zoominfo.com | [Community MCP](../mcp/community.md) | [https://github.com/openso
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# Video Prospecting tools with MCP servers: 9 of 14, counted
+# Video Prospecting tools with MCP servers: 10 of 15, counted
 
-> 9 of the 14 video prospecting tools in The GTM MCP Directory have an MCP server: 3 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 10 of the 15 video prospecting tools in The GTM MCP Directory have an MCP server: 4 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,17 +10,20 @@
 [Directory](../index.md) /
 [The lists](index.md) / Video Prospecting tools with an MCP server
 
-**List · 9 of 318**
+**List · 10 of 336**
 
 ## Video Prospecting tools with an MCP server
 
-Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server. 9 of 14 entries in this category are reachable by an agent: 3 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Create and send a prospecting video. [See the full category page](../categories/video-prospecting.md).
+Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server. 10 of 15 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Create and send a prospecting video. [See the full category page](../categories/video-prospecting.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Tavus](../tools/tavus.md)
 tavus.io | [Official MCP](../mcp/official.md) | [https://mcp.tavus.io/mcp](https://mcp.tavus.io/mcp) +3 more | OAuth or an API key
 OAuth 2.0 browser-based flow; the exchange mints a per-user API key server-side, nothing... | [Free to start](../gates/free.md) |
+| [Wistia](../tools/wistia.md)
+wistia.com | [Official MCP](../mcp/official.md) | [https://api.wistia.com/mcp/api](https://api.wistia.com/mcp/api) +1 more | OAuth or an API key
+oauth or an access token as an Authorization Bearer header. The docs state "If you use an... | [Free to start](../gates/free.md) |
 | [HeyGen](../tools/heygen.md)
 heygen.com | [Official MCP](../mcp/official.md) | [https://mcp.heygen.com/mcp/v1/](https://mcp.heygen.com/mcp/v1/) +2 more | OAuth
 OAuth - vendor states "connect your HeyGen account, no API key required"; generation... | [Paid, self-serve](../gates/paid.md) |
@@ -73,4 +76,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 - [Create a digital sales room](../jobs/create-digital-sales-room.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

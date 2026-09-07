@@ -1,6 +1,6 @@
-# Community MCP servers: 24 GTM tools with a third party server
+# Community MCP servers: 25 GTM tools with a third party server
 
-> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-07 across 318 directory entries.
+> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-07 across 336 directory entries.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 24 GTM tools with a community MCP server
+[The lists](index.md) / The 25 GTM tools with a community MCP server
 
-**List · 24 of 318**
+**List · 25 of 336**
 
-## The 24 GTM tools with a community MCP server
+## The 25 GTM tools with a community MCP server
 
 A community server is a real server. It is also a server that can be abandoned without the vendor noticing, which is the single most useful thing to know before you write one into a workflow. The repo health rail that would date stamp each one has not been run, so no staleness claim is made here.
 
@@ -27,6 +27,9 @@ karbassi/mcp-loom uses Loom's undocumented internal GraphQL API via a browser se
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp) | API key
 api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
+| [Aircall](../tools/aircall.md)
+aircall.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://github.com/themobilefirstco/aircall-mcp-serv...](https://github.com/themobilefirstco/aircall-mcp-server) +1 more | OAuth or an API key
+api key. The community server takes an Aircall API ID and API token, which the public API... | [Paid, self-serve](../gates/paid.md) |
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Video Prospecting](../categories/video-prospecting.md) | [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro) | OAuth
 Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side... | [Paid, self-serve](../gates/paid.md) |
@@ -91,4 +94,4 @@ OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) aga
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

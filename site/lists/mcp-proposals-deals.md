@@ -1,6 +1,6 @@
-# Proposals & Deals tools with MCP servers: 9 of 14, counted
+# Proposals & Deals tools with MCP servers: 10 of 15, counted
 
-> 9 of the 14 proposals & deals tools in The GTM MCP Directory have an MCP server: 7 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 10 of the 15 proposals & deals tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Proposals & Deals tools with an MCP server
 
-**List · 9 of 318**
+**List · 10 of 336**
 
 ## Proposals & Deals tools with an MCP server
 
-Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 9 of 14 entries in this category are reachable by an agent: 7 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
+Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 10 of 15 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -33,6 +33,9 @@ unknown | [Paid, self-serve](../gates/paid.md) |
 | [DocuSign](../tools/docusign.md)
 docusign.com | [Official MCP](../mcp/official.md) | [https://developers.docusign.com/platform/mcp-server/](https://developers.docusign.com/platform/mcp-server/) +2 more | OAuth
 OAuth - Streamable HTTP transport; first connection opens a browser window to sign in and... | [Paid, self-serve](../gates/paid.md) |
+| [Offorte](../tools/offorte.md)
+offorte.com | [Official MCP](../mcp/official.md) | [https://github.com/offorte/offorte-mcp-server](https://github.com/offorte/offorte-mcp-server) +2 more | API key
+api key. The repo README lists an "Offorte API Key (see Authentication Section of the... | [Paid, self-serve](../gates/paid.md) |
 | [Responsive (formerly RFPIO)](../tools/responsive.md)
 responsive.io | [Official MCP](../mcp/official.md) | [https://www.responsive.io/capability/mcp-server](https://www.responsive.io/capability/mcp-server) +2 more | Auth not recorded
 unknown - not detailed in the sources reviewed. | [Paid, self-serve](../gates/paid.md) |
@@ -74,4 +77,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Draft an RFP or questionnaire response](../jobs/draft-rfp-response.md)
 - [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

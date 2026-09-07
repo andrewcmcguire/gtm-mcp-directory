@@ -1,6 +1,6 @@
-# Video Prospecting: 14 tools, 3 with an official MCP server
+# Video Prospecting: 15 tools, 4 with an official MCP server
 
-> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 14 tools counted, 3 with an official MCP server and 2 free to start.
+> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 15 tools counted, 4 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server.
 
-- **entries in this file**: 14
+- **entries in this file**: 15
 
-- **Official MCP**: 3
+- **Official MCP**: 4
 - **Community MCP**: 6
 - **MCP unknown**: 1
 - **No MCP found**: 4
 
-- **Free to start**: 2
+- **Free to start**: 3
 - **Paid, self-serve**: 6
 - **Enterprise leaning**: 1
 - **Enterprise only**: 2
 - **Gate unknown**: 3
 
-Source file: 08-video-prospecting.md · content sha256 f399b396ce00616e... · counts reconciled against tools_recount.py at build time.
+Source file: 08-video-prospecting.md · content sha256 2d319620894dbaff... · counts reconciled against tools_recount.py at build time.
 
-- [The 9 with an MCP server](../lists/mcp-video-prospecting.md)
+- [The 10 with an MCP server](../lists/mcp-video-prospecting.md)
 
 - [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md)
 - [Read outreach performance](../jobs/read-outreach-performance.md)
@@ -39,6 +39,8 @@ Source file: 08-video-prospecting.md · content sha256 f399b396ce00616e... · co
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 
 - [Tavus](../tools/tavus.md) tavus.io Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases like greeting website visitors and booking meetings, not... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [Wistia](../tools/wistia.md) wistia.com A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams use it for hosted demo and follow-up video with per-viewer... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 

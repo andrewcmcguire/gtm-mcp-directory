@@ -69,7 +69,7 @@ free (open source; dual-licensed Apache 2.0 for new contributions, MIT for exist
 
 No documentation URL recorded.
 
-289 of 318 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -87,7 +87,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: no-job-fits. The official reference-servers repo. It is the spec's canonical reference, not a registry an agent queries and not a SaaS proxy.
 
-47 of 318 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

@@ -1,6 +1,6 @@
-# Official MCP servers list: 183 GTM tools, with links
+# Official MCP servers list: 200 GTM tools, with links
 
-> The full list of 183 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-07.
+> The full list of 200 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,13 +8,13 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 183 GTM tools with an official MCP server
+[The lists](index.md) / The 200 GTM tools with an official MCP server
 
-**List · 183 of 318**
+**List · 200 of 336**
 
-## The 183 GTM tools with an official MCP server
+## The 200 GTM tools with an official MCP server
 
-Official means first party. The vendor ships and maintains the server itself, and a wrapper built by Zapier, viaSocket, Composio or any other third party does not count no matter how well it works. 182 of these 183 entries carry a parseable URL in the mcp_url field; the rest claim a server in prose without one, which is recorded as a risk on the [methodology page](../methodology.md) rather than cleaned up quietly. Probed live on 2026-09-04: 27 of the official entries record a URL that answered as an MCP server, and 88 record a documentation page rather than an endpoint. Each tool page says which.
+Official means first party. The vendor ships and maintains the server itself, and a wrapper built by Zapier, viaSocket, Composio or any other third party does not count no matter how well it works. 199 of these 200 entries carry a parseable URL in the mcp_url field; the rest claim a server in prose without one, which is recorded as a risk on the [methodology page](../methodology.md) rather than cleaned up quietly. Probed live on 2026-09-04: 27 of the official entries record a URL that answered as an MCP server, and 88 record a documentation page rather than an endpoint. Each tool page says which.
 
 | Tool | Category | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -27,12 +27,18 @@ Browser-based OAuth-style sign-in and approval for Claude, ChatGPT and Cursor, w
 | [Apideck](../tools/apideck.md)
 apideck.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp) +1 more | OAuth or an API key
 Managed OAuth via Apideck Vault on the hosted endpoint, or x-apideck-api-key plus... | [Free to start](../gates/free.md) |
+| [Apify](../tools/apify.md)
+apify.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.apify.com](https://mcp.apify.com) +1 more | OAuth or an API key
+oauth (recommended, browser sign-in) or an Apify API token as an Authorization Bearer... | [Free to start](../gates/free.md) |
 | [Attio](../tools/attio.md)
 attio.com | [RevOps Infra](../categories/revops-infra.md) | [https://mcp.attio.com/mcp](https://mcp.attio.com/mcp) +1 more | OAuth
 OAuth - one-time login as the user's own Attio account, no API key needed. Reads... | [Free to start](../gates/free.md) |
 | [Autobound](../tools/autobound.md)
 autobound.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp) +1 more | API key
 api key via an AUTOBOUND_API_KEY environment variable in the MCP client config. | [Free to start](../gates/free.md) |
+| [Browserbase](../tools/browserbase.md)
+browserbase.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.browserbase.com/mcp](https://mcp.browserbase.com/mcp) +1 more | API key
+api key passed as a browserbaseApiKey query parameter on the endpoint URL; the docs list... | [Free to start](../gates/free.md) |
 | [Buffer](../tools/buffer.md)
 buffer.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://mcp.buffer.com/mcp](https://mcp.buffer.com/mcp) +1 more | API key
 api key. The vendor's guide instructs the user to generate an API key from the developer... | [Free to start](../gates/free.md) |
@@ -72,6 +78,9 @@ api key (issued via dashboard.exa.ai) for the self-hosted server and for quota. 
 | [Fathom](../tools/fathom.md)
 fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [https://developers.fathom.ai/mcp-docs](https://developers.fathom.ai/mcp-docs) +4 more | OAuth or an API key
 In-client authorization: the docs say to add the server URL "then authenticate to access... | [Free to start](../gates/free.md) |
+| [Firecrawl](../tools/firecrawl.md)
+firecrawl.dev | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.firecrawl.dev/v2/mcp](https://mcp.firecrawl.dev/v2/mcp) +4 more | OAuth or an API key
+api key as an Authorization Bearer header, or browser sign-in via the /v2/mcp-oauth... | [Free to start](../gates/free.md) |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://api.fireflies.ai/mcp](https://api.fireflies.ai/mcp) +1 more | OAuth or an API key
 OAuth (Google/Microsoft, recommended) or manual API key for Claude Desktop and other MCP... | [Free to start](../gates/free.md) |
@@ -81,6 +90,9 @@ API key + API secret via env vars, generated from the Fivetran dashboard. Scoped
 | [FullEnrich](../tools/fullenrich.md)
 fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.fullenrich.com/mcp](https://mcp.fullenrich.com/mcp) +1 more | OAuth
 oauth (browser sign-in to FullEnrich account; no manual API key needed) | [Free to start](../gates/free.md) |
+| [Google BigQuery](../tools/google-bigquery.md)
+cloud.google.com | [RevOps Infra](../categories/revops-infra.md) | [https://bigquery.googleapis.com/mcp](https://bigquery.googleapis.com/mcp) +1 more | OAuth or an API key
+oauth. The docs state the server uses the "OAuth 2.0 protocol with IAM for authentication... | [Free to start](../gates/free.md) |
 | [Hightouch](../tools/hightouch.md)
 hightouch.com | [RevOps Infra](../categories/revops-infra.md) | [https://hightouch.com/docs/ai-integrations/mcp](https://hightouch.com/docs/ai-integrations/mcp) | Auth not recorded
 Existing Hightouch workspace auth with role-based access control; however the MCP server... | [Free to start](../gates/free.md) |
@@ -90,6 +102,9 @@ OAuth 2.0 for the hosted Remote MCP Server (migrating to OAuth 2.1 with PKCE +..
 | [Hunter.io](../tools/hunter-io.md)
 hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://hunter.io/api-documentation#mcp](https://hunter.io/api-documentation#mcp) | API key
 api key (HUNTER_API_KEY) | [Free to start](../gates/free.md) |
+| [Jotform](../tools/jotform.md)
+jotform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +1 more | OAuth or an API key
+oauth only. The vendor's MCP page states "Bearer-token access is not supported; OAuth 2.0... | [Free to start](../gates/free.md) |
 | [Knit MCP](../tools/knit-mcp.md)
 getknit.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.getknit.dev/mcp-servers](https://www.getknit.dev/mcp-servers) +1 more | OAuth
 Knit-managed OAuth or SAML per connected application; the customer authorises each end... | [Free to start](../gates/free.md) |
@@ -108,6 +123,9 @@ Two paths. The cloud server uses OAuth 2.0 with Google or Microsoft sign-in and 
 | [Merge Agent Handler](../tools/merge-agent-handler.md)
 merge.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/merge-api/merge-mcp](https://github.com/merge-api/merge-mcp) +3 more | OAuth or an API key
 api key in an Authorization Bearer header, alongside the identity encoded in the URL... | [Free to start](../gates/free.md) |
+| [Metricool](../tools/metricool.md)
+metricool.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://ai.metricool.com/mcp](https://ai.metricool.com/mcp) +3 more | OAuth
+oauth (browser authorisation in clients that support remote OAuth MCP) or a... | [Free to start](../gates/free.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | API key
 Per-server - individual servers take credentials (e.g. API tokens) via environment... | [Free to start](../gates/free.md) |
@@ -144,6 +162,12 @@ Snowflake OAuth 2.0 by default, or External OAuth (Okta, Microsoft Entra ID); ha
 | [StackOne](../tools/stackone.md)
 stackone.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://mcp.stackone.com/mcp](https://mcp.stackone.com/mcp) +2 more | OAuth or an API key
 Basic authentication plus a per-account identifier, with StackOne brokering OAuth, API... | [Free to start](../gates/free.md) |
+| [Tally](../tools/tally.md)
+tally.so | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://api.tally.so/mcp](https://api.tally.so/mcp) +2 more | OAuth or an API key
+oauth or api key. The help page states "The easiest way to connect is through OAuth, just... | [Free to start](../gates/free.md) |
+| [Tavily](../tools/tavily.md)
+tavily.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.tavily.com/mcp/](https://mcp.tavily.com/mcp/) +1 more | OAuth or an API key
+api key as a tavilyApiKey query parameter or in the Authorization header, or OAuth. The... | [Free to start](../gates/free.md) |
 | [Tavus](../tools/tavus.md)
 tavus.io | [Video Prospecting](../categories/video-prospecting.md) | [https://mcp.tavus.io/mcp](https://mcp.tavus.io/mcp) +3 more | OAuth or an API key
 OAuth 2.0 browser-based flow; the exchange mints a per-user API key server-side, nothing... | [Free to start](../gates/free.md) |
@@ -168,6 +192,9 @@ OAuth for the MCP connector; API key for the REST API | [Free to start](../gates
 | [Warmly (Warmly.ai)](../tools/warmly.md)
 warmly.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth or an API key
 MCP uses OAuth-based login (no manual key management); the separate REST API... | [Free to start](../gates/free.md) |
+| [Wistia](../tools/wistia.md)
+wistia.com | [Video Prospecting](../categories/video-prospecting.md) | [https://api.wistia.com/mcp/api](https://api.wistia.com/mcp/api) +1 more | OAuth or an API key
+oauth or an access token as an Authorization Bearer header. The docs state "If you use an... | [Free to start](../gates/free.md) |
 | [Zapier](../tools/zapier.md)
 zapier.com | [RevOps Infra](../categories/revops-infra.md) | [https://mcp.zapier.com/api/v1/connect](https://mcp.zapier.com/api/v1/connect) +3 more | OAuth or an API key
 Reuses Zapier's existing 13+ year credential infrastructure - connect an AI client... | [Free to start](../gates/free.md) |
@@ -207,6 +234,9 @@ OAuth; the help article states "MCP access is available to Brand24 subscribers. 
 | [Bright Data](../tools/bright-data.md)
 brightdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | API key
 api key (Bright Data API token) | [Paid, self-serve](../gates/paid.md) |
+| [CatchIntent](../tools/catchintent.md)
+catchintent.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp) +2 more | OAuth
+oauth. The vendor's MCP page states "One-time OAuth 2.1 authorization. Your MCP client... | [Paid, self-serve](../gates/paid.md) |
 | [Chili Piper](../tools/chili-piper.md)
 chilipiper.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.chilipiper.com/products/mcp](https://www.chilipiper.com/products/mcp) +3 more | OAuth or an API key
 Two supported paths, both vendor-documented. Option A (vendor-recommended): a Chili Piper... | [Paid, self-serve](../gates/paid.md) |
@@ -234,6 +264,9 @@ OAuth - no manual API key management. | [Paid, self-serve](../gates/paid.md) |
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | API key
 api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable... | [Paid, self-serve](../gates/paid.md) |
+| [dbt (dbt platform remote MCP)](../tools/dbt.md)
+getdbt.com | [RevOps Infra](../categories/revops-infra.md) | [https://YOUR_DBT_HOST_URL/api/ai/v1/mcp](https://YOUR_DBT_HOST_URL/api/ai/v1/mcp) +3 more | OAuth or an API key
+oauth (beta) or token. The docs state "OAuth lets you connect to the remote MCP server... | [Paid, self-serve](../gates/paid.md) |
 | [Derrick](../tools/derrick.md)
 derrick-app.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +2 more | API key
 api key. The vendor's page states the MCP installs without credentials but every tool... | [Paid, self-serve](../gates/paid.md) |
@@ -267,6 +300,9 @@ OAuth - no manual API key required. | [Paid, self-serve](../gates/paid.md) |
 | [Help Scout](../tools/help-scout.md)
 helpscout.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.helpscout.net/mcp](https://mcp.helpscout.net/mcp) +1 more | OAuth
 oauth. The vendor's article states the connector registers itself, so the OAuth client ID... | [Paid, self-serve](../gates/paid.md) |
+| [Hex](../tools/hex.md)
+hex.tech | [RevOps Infra](../categories/revops-infra.md) | [https://app.hex.tech/mcp](https://app.hex.tech/mcp) +1 more | OAuth
+oauth. The docs state "Complete the OAuth flow to authorize access to your Hex... | [Paid, self-serve](../gates/paid.md) |
 | [HeyGen](../tools/heygen.md)
 heygen.com | [Video Prospecting](../categories/video-prospecting.md) | [https://mcp.heygen.com/mcp/v1/](https://mcp.heygen.com/mcp/v1/) +2 more | OAuth
 OAuth - vendor states "connect your HeyGen account, no API key required"; generation... | [Paid, self-serve](../gates/paid.md) |
@@ -336,6 +372,9 @@ api key (api-token passed as a URL parameter to the hosted MCP endpoint) | [Paid
 | [Octave](../tools/octave.md)
 octavehq.com | [RevOps Infra](../categories/revops-infra.md) | [https://docs.octavehq.com/mcp/overview](https://docs.octavehq.com/mcp/overview) +3 more | OAuth or an API key
 Browser OAuth. Per the vendor's Claude Code setup doc you add the server with "claude mcp... | [Paid, self-serve](../gates/paid.md) |
+| [Offorte](../tools/offorte.md)
+offorte.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://github.com/offorte/offorte-mcp-server](https://github.com/offorte/offorte-mcp-server) +2 more | API key
+api key. The repo README lists an "Offorte API Key (see Authentication Section of the... | [Paid, self-serve](../gates/paid.md) |
 | [Ortto](../tools/ortto.md)
 ortto.com | [RevOps Infra](../categories/revops-infra.md) | [https://mcp-api-us.ortto.app/mcp](https://mcp-api-us.ortto.app/mcp) +1 more | Auth not recorded
 A scoped JWT key created as an MCP data source inside the Ortto account, passed as a... | [Paid, self-serve](../gates/paid.md) |
@@ -375,6 +414,9 @@ oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses O
 | [SalesQL](../tools/salesql.md)
 salesql.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp) +2 more | OAuth or an API key
 oauth. The vendor's docs record "Auth OAuth 2.1" with an MCP key as the fallback for... | [Paid, self-serve](../gates/paid.md) |
+| [Skyp.ai](../tools/skyp-ai.md)
+skyp.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://api.skyp.ai/mcp](https://api.skyp.ai/mcp) +3 more | OAuth or an API key
+api key (X-API-Key or Authorization Bearer header) or OAuth. The endpoint's own 401 body... | [Paid, self-serve](../gates/paid.md) |
 | [Smartlead](../tools/smartlead.md)
 smartlead.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://helpcenter.smartlead.ai/en/articles/300-smar...](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) +3 more | API key
 api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE... | [Paid, self-serve](../gates/paid.md) |
@@ -405,6 +447,9 @@ API key generated at Settings → Personal Settings → API keys. | [Paid, self-
 | [Trainual](../tools/trainual.md)
 trainual.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server) +1 more | API key
 Bearer MCP token in the Authorization header; the help article states "Only those with an... | [Paid, self-serve](../gates/paid.md) |
+| [Typeform](../tools/typeform.md)
+typeform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://api.typeform.com/mcp](https://api.typeform.com/mcp) +2 more | OAuth
+oauth. The docs state "Authorization is OAuth 2.0, and your client is prompted on first... | [Paid, self-serve](../gates/paid.md) |
 | [Vainu](../tools/vainu.md)
 vainu.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.vainu.ai/mcp](https://mcp.vainu.ai/mcp) +2 more | OAuth
 OAuth 2.0 with PKCE, scoped to existing Vainu permissions, but NOT enabled by default.... | [Paid, self-serve](../gates/paid.md) |
@@ -495,6 +540,9 @@ unknown - product page describes agent-to-agent access via OpenAI, Anthropic, an
 | [Ironclad](../tools/ironclad.md)
 ironcladapp.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://support.ironcladapp.com/hc/en-us/articles/39...](https://support.ironcladapp.com/hc/en-us/articles/39887091143319-Ironclad-MCP-Server) +1 more | Auth not recorded
 unknown - a single, static MCP endpoint per the support article; specific credential... | [Enterprise only](../gates/enterprise-only.md) |
+| [Looker](../tools/looker.md)
+cloud.google.com | [RevOps Infra](../categories/revops-infra.md) | [https://docs.cloud.google.com/looker/docs/mcp](https://docs.cloud.google.com/looker/docs/mcp) +3 more | OAuth
+The managed server uses OAuth 2.1 and an admin "must manually register AI agents as OAuth... | [Enterprise only](../gates/enterprise-only.md) |
 | [MadKudu](../tools/madkudu.md)
 madkudu.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://developers.madkudu.com/madkudu-mcp/install-i...](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min) +2 more | API key
 MadKudu API key embedded in the endpoint path; the portal states "Please contact HG... | [Enterprise only](../gates/enterprise-only.md) |
@@ -546,6 +594,9 @@ Sign in with a Hootsuite workspace when prompted; the Hootsuite MCP page says...
 | [UserGems](../tools/usergems.md)
 usergems.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://www.usergems.com/product/mcp](https://www.usergems.com/product/mcp) | OAuth or an API key
 unknown - connects inside Claude/ChatGPT per the product page, but the exact auth... | [Enterprise only](../gates/enterprise-only.md) |
+| [Actively](../tools/actively.md)
+actively.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [https://app.actively.ai/docs/mcp](https://app.actively.ai/docs/mcp) +2 more | OAuth
+oauth. The vendor docs state "MCP access uses OAuth 2.1 with WorkOS." Tools are... | [Gate unknown](../gates/unknown.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://app.endgame.io/api/v1/mcp](https://app.endgame.io/api/v1/mcp) +1 more | OAuth or an API key
 OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex... | [Gate unknown](../gates/unknown.md) |
@@ -568,4 +619,4 @@ OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0
 zoom.com | [Conversation Intel](../categories/conversation-intel.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

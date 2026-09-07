@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 19 of 28, counted
+# Signal and intent tools with MCP servers: 21 of 30, counted
 
-> 19 of the 28 signals & intent tools in this directory have an MCP server: 18 official and 1 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 21 of the 30 signals & intent tools in this directory have an MCP server: 20 official and 1 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-19 of the 28 signals & intent entries in this directory have an MCP server: 18 built and maintained by the vendor and 1 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+21 of the 30 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 1 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -34,6 +34,8 @@ Aggregates five signal categories (job openings, technology detections, news eve
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals...
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
+- [CatchIntent](../tools/catchintent.md) Official MCP · Paid, self-serve
+A B2B intent tool that monitors social and web sources for buying signals, ranks the people behind them by warmth, enriches the profiles and drafts...
 - [Factors.ai](../tools/factors-ai.md) Official MCP · Paid, self-serve
 De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party...
 - [Keyplay](../tools/keyplay.md) Official MCP · Paid, self-serve
@@ -60,6 +62,8 @@ Aggregates B2B technographic data (software/tech a company runs, sourced from jo
 Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an...
 - [UserGems](../tools/usergems.md) Official MCP · Enterprise only
 Tracks job changes of known contacts (past customers/champions moving to new companies) plus 30+ other native signals (new hires, promotions,...
+- [Actively](../tools/actively.md) Official MCP · Gate unknown
+A sales platform that runs an always-on "per-account agent" for every account in a seller's book, synthesising CRM data, call transcripts and...
 - [Trigify (Trigify.io)](../tools/trigify.md) Community MCP · Paid, self-serve
 Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who...
 
@@ -91,10 +95,11 @@ Tracks job changes of a company's past customers and champions as they move to n
 | Gate | Entries |
 |---|---|
 | [Free to start](../gates/free.md) | 6 |
-| [Paid, self-serve](../gates/paid.md) | 12 |
+| [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
+| [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-07. Source file 05-signals-intent-abm.md, content sha256 111b3a6a8c0a8caf...
+Counted 2026-09-07. Source file 05-signals-intent-abm.md, content sha256 e510b3f0628d810d...
 
 ## Sources
 

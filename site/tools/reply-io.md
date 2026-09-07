@@ -70,7 +70,7 @@ paid
 
 No documentation URL recorded.
 
-289 of 318 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -93,7 +93,7 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -113,7 +113,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks.
 
-16 of the 318 entries are cross listed like this. They are why the entry count is 318 and the unique product count is 302. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 336 entries are cross listed like this. They are why the entry count is 336 and the unique product count is 320. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

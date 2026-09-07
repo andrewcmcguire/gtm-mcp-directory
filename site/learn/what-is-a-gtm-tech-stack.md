@@ -16,7 +16,7 @@
 
 **The short answer**
 
-A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 318 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
+A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 336 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
 
 Most stack diagrams are drawn by category because that is how software is sold. An agent does not experience it that way. It experiences a chain of doors, and the chain is only as good as its locked link.
 
@@ -24,23 +24,23 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 
 | Layer | Tools | Official MCP | Community | Reachable |
 |---|---|---|---|---|
-| [RevOps Infra](../categories/revops-infra.md) | 27 | 25 | 0 | 93% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 45 | 38 | 2 | 89% |
+| [RevOps Infra](../categories/revops-infra.md) | 31 | 29 | 0 | 94% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 49 | 42 | 2 | 90% |
 | [Conversation Intel](../categories/conversation-intel.md) | 24 | 19 | 2 | 88% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 31 | 22 | 1 | 74% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 33 | 23 | 2 | 76% |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 19 | 14 | 0 | 74% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 28 | 18 | 1 | 68% |
-| [Video Prospecting](../categories/video-prospecting.md) | 14 | 3 | 6 | 64% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 14 | 7 | 2 | 64% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 17 | 8 | 2 | 59% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 18 | 7 | 3 | 56% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 30 | 20 | 1 | 70% |
+| [Video Prospecting](../categories/video-prospecting.md) | 15 | 4 | 6 | 67% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 15 | 8 | 2 | 67% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 20 | 11 | 2 | 65% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 19 | 8 | 3 | 58% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 14 | 5 | 2 | 50% |
 | [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 8 | 2 | 43% |
 | [Email Deliverability](../categories/email-deliverability.md) | 13 | 4 | 0 | 31% |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 2 | 1 | 21% |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 3 | 0 | 18% |
 
-Counted 2026-09-07. Totals sum to 318 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-07. Totals sum to 336 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
@@ -50,7 +50,7 @@ If you are assembling a stack an agent can drive, build it from the top of that 
 
 ## The second filter
 
-Reachable is not the same as available. 78 entries need a contract before anybody gets an API key. Cross those two columns before you plan anything: the list you actually get to build with is the 152 entries that have a server and are free to start or paid self serve.
+Reachable is not the same as available. 79 entries need a contract before anybody gets an API key. Cross those two columns before you plan anything: the list you actually get to build with is the 168 entries that have a server and are free to start or paid self serve.
 
 ## Sources
 

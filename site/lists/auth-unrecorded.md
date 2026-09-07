@@ -1,6 +1,6 @@
 # GTM MCP servers with no auth model recorded: 28 tools, counted
 
-> 28 of the 207 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
+> 28 of the 225 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers with no auth model recorded
 
-**List · 28 of 318**
+**List · 28 of 336**
 
 ## GTM MCP servers with no auth model recorded
 
@@ -75,4 +75,4 @@ brandwatch.com | [Community MCP](../mcp/community.md) | [https://github.com/ambo
 | [DealHub (DealHub AI)](../tools/dealhub.md)
 dealhub.io | [Community MCP](../mcp/community.md) | [https://www.pulsemcp.com/servers/vishvick-dealhub-ad...](https://www.pulsemcp.com/servers/vishvick-dealhub-admin) | unknown - stdio transport run locally against the customer's own DealHub instance per the npm description; credential mechanism not read | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

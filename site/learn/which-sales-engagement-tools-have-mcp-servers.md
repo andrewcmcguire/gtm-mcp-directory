@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 23 of 31, counted
+# Sales engagement and outbound tools with MCP servers: 25 of 33, counted
 
-> 23 of the 31 engagement & outbound tools in this directory have an MCP server: 22 official and 1 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 25 of the 33 engagement & outbound tools in this directory have an MCP server: 23 official and 2 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-23 of the 31 engagement & outbound entries in this directory have an MCP server: 22 built and maintained by the vendor and 1 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+25 of the 33 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 2 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -48,6 +48,8 @@ One of four MCP servers RingCentral publishes through its Labs programme; this o
 Multi-channel cold outreach platform (email + LinkedIn) with an AI SDR product ("Agent Frank") layered on top of standard sequencing.
 - [Saleshandy](../tools/saleshandy.md) Official MCP · Paid, self-serve
 A cold-email outreach platform with sequences, sender rotation, email warm-up and deliverability tooling, plus a Lead Finder contact database,...
+- [Skyp.ai](../tools/skyp-ai.md) Official MCP · Paid, self-serve
+A cold-email outreach platform (campaigns, contacts, per-prospect AI-written emails, tracking, webhooks) that markets itself on being driven by AI...
 - [Smartlead](../tools/smartlead.md) Official MCP · Paid, self-serve
 Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox.
 - [Super Send](../tools/super-send.md) Official MCP · Paid, self-serve
@@ -68,6 +70,8 @@ AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live m
 Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM.
 - [Salesloft](../tools/salesloft.md) Official MCP · Enterprise only
 Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that...
+- [Aircall](../tools/aircall.md) Community MCP · Paid, self-serve
+A cloud phone system and call centre for sales and support teams (numbers, dialer campaigns, call recording, SMS, CRM integrations) with a public...
 - [Overloop](../tools/overloop.md) Community MCP · Paid, self-serve
 Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns.
 
@@ -97,12 +101,12 @@ Multi-channel sales engagement platform (email, phone, social, SMS) with an AI S
 | Gate | Entries |
 |---|---|
 | [Free to start](../gates/free.md) | 1 |
-| [Paid, self-serve](../gates/paid.md) | 21 |
+| [Paid, self-serve](../gates/paid.md) | 23 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
 | [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-07. Source file 02-engagement-outbound.md, content sha256 d57fa7d9c1509d73...
+Counted 2026-09-07. Source file 02-engagement-outbound.md, content sha256 85d06b78cc69e2e6...
 
 ## Sources
 

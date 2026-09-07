@@ -1,6 +1,6 @@
 # What does it cost to run a GTM agent? What this directory can and cannot tell you
 
-> This directory tracks access gates, not prices. What it can tell you: 69 tools are free to start and 78 need a contract. What it cannot, and where the cost actually lands.
+> This directory tracks access gates, not prices. What it can tell you: 78 tools are free to start and 79 need a contract. What it cannot, and where the cost actually lands.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 **The short answer**
 
-This directory does not track prices, credits or quotas, so it cannot give you a number and will not pretend to. What it can tell you is which doors open without a sales call: 69 entries are free to start, 125 are paid self serve, and 78 need a contract.
+This directory does not track prices, credits or quotas, so it cannot give you a number and will not pretend to. What it can tell you is which doors open without a sales call: 78 entries are free to start, 132 are paid self serve, and 79 need a contract.
 
 ## What is actually being tracked here
 
-- **Tracked:** the access gate, in four buckets, with a source URL, for every entry. 32 entries could not be established from public sources and are published as unknown rather than guessed.
+- **Tracked:** the access gate, in four buckets, with a source URL, for every entry. 33 entries could not be established from public sources and are published as unknown rather than guessed.
 
 - **Not tracked:** price, credit cost per lookup, quota size, rate limits, overage behaviour, minimum contract value, or what a free tier does with your data. None of it should be inferred from anything on this site.
 
@@ -30,13 +30,13 @@ Three places, and the model is usually the smallest of them.
 
 - **Metered data calls.** Enrichment, verification and intent are priced per lookup, and an agent generates lookups at a rate no human workflow ever did. This is where budgets go.
 
-- **Seats and contracts.** The 78 enterprise gated entries here carry a floor that has nothing to do with usage.
+- **Seats and contracts.** The 79 enterprise gated entries here carry a floor that has nothing to do with usage.
 
 - **Model tokens.** Real, and usually the line item people worry about first and should worry about third.
 
 ## The cheapest honest way to find out
 
-Build the smallest end to end chain on free tiers, run a hundred records through it, and count. 53 products here are both free to start and have an MCP server, which is enough to build a research and contact chain without spending anything. [The free tier list is here.](../lists/free-api-tiers.md)
+Build the smallest end to end chain on free tiers, run a hundred records through it, and count. 62 products here are both free to start and have an MCP server, which is enough to build a research and contact chain without spending anything. [The free tier list is here.](../lists/free-api-tiers.md)
 
 ## The control that saves you
 

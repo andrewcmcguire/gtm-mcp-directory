@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 25 of 27, counted
+# CRM and RevOps tools with MCP servers: 29 of 31, counted
 
-> 25 of the 27 revops infra tools in this directory have an MCP server: 25 official and 0 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 29 of the 31 revops infra tools in this directory have an MCP server: 29 official and 0 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-25 of the 27 revops infra entries in this directory have an MCP server: 25 built and maintained by the vendor and 0 built by somebody else. 13 are free to start and 4 need a contract before anybody gets an API key.
+29 of the 31 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 0 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -34,6 +34,8 @@ A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, versi
 Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the...
 - [Fivetran](../tools/fivetran.md) Official MCP · Free to start
 Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that...
+- [Google BigQuery](../tools/google-bigquery.md) Official MCP · Free to start
+Google Cloud's serverless data warehouse, where many RevOps teams land CRM, product and billing data for modelling and reporting; a first-party...
 - [Hightouch](../tools/hightouch.md) Official MCP · Free to start
 A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs,...
 - [HubSpot](../tools/hubspot.md) Official MCP · Free to start
@@ -54,6 +56,10 @@ A cloud automation platform connecting thousands of apps via trigger-action work
 A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength,...
 - [Close (Close CRM)](../tools/close.md) Official MCP · Paid, self-serve
 A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo...
+- [dbt (dbt platform remote MCP)](../tools/dbt.md) Official MCP · Paid, self-serve
+The transformation layer of the modern data stack: SQL models, tests and documentation compiled and run against a warehouse, with a hosted "dbt...
+- [Hex](../tools/hex.md) Official MCP · Paid, self-serve
+A collaborative data workspace (SQL and Python notebooks, published apps, a conversational "Threads" analysis mode) used by data and RevOps teams to...
 - [HighLevel (GoHighLevel)](../tools/highlevel.md) Official MCP · Paid, self-serve
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Make](../tools/make.md) Official MCP · Paid, self-serve
@@ -70,6 +76,8 @@ A combined customer data platform and marketing automation tool for building mul
 A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing...
 - [Zoho CRM](../tools/zoho-crm.md) Official MCP · Paid, self-serve
 A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of the market, which in 2026 shipped four...
+- [Looker](../tools/looker.md) Official MCP · Enterprise only
+Google Cloud's governed BI platform (LookML semantic model, explores, Looks, dashboards, embedded analytics) that sits on top of a warehouse; two...
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) Official MCP · Enterprise only
 A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on...
 - [Syncari](../tools/syncari.md) Official MCP · Enterprise only
@@ -88,11 +96,11 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 
 | Gate | Entries |
 |---|---|
-| [Free to start](../gates/free.md) | 13 |
-| [Paid, self-serve](../gates/paid.md) | 10 |
-| [Enterprise only](../gates/enterprise-only.md) | 4 |
+| [Free to start](../gates/free.md) | 14 |
+| [Paid, self-serve](../gates/paid.md) | 12 |
+| [Enterprise only](../gates/enterprise-only.md) | 5 |
 
-Counted 2026-09-07. Source file 06-revops-infra.md, content sha256 c66959b87f4348f6...
+Counted 2026-09-07. Source file 06-revops-infra.md, content sha256 b642afdaa81f349c...
 
 ## Sources
 

@@ -1,6 +1,6 @@
-# Enterprise gated GTM tools: 86 an agent cannot reach without a contract
+# Enterprise gated GTM tools: 87 an agent cannot reach without a contract
 
-> 78 enterprise only entries plus 8 enterprise leaning. 40 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-07.
+> 79 enterprise only entries plus 8 enterprise leaning. 41 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 86 GTM tools that need a contract before an agent can touch them
+[The lists](index.md) / The 87 GTM tools that need a contract before an agent can touch them
 
-**List · 86 of 318**
+**List · 87 of 336**
 
-## The 86 GTM tools that need a contract before an agent can touch them
+## The 87 GTM tools that need a contract before an agent can touch them
 
 Enterprise gated with no public docs is the most useful fact in a directory like this, so it is surfaced rather than hidden. An official MCP server behind a procurement cycle is still an official MCP server, and it is still unreachable for a solo operator, which is why this site publishes MCP status and access gate as two separate columns.
 
@@ -64,6 +64,8 @@ hginsights.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Offi
 highspot.com | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Sales enablement platform (content management, training) that has added a genuine call-recording and... |
 | [Ironclad](../tools/ironclad.md)
 ironcladapp.com | [Proposals & Deals](../categories/proposals-deals.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Contract lifecycle management (CLM) platform for drafting, negotiating, and managing contracts with workflow automation... |
+| [Looker](../tools/looker.md)
+cloud.google.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Google Cloud's governed BI platform (LookML semantic model, explores, Looks, dashboards, embedded analytics) that sits... |
 | [MadKudu](../tools/madkudu.md)
 madkudu.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Official MCP](../mcp/official.md) | [Enterprise only](../gates/enterprise-only.md) | Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears... |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
@@ -191,4 +193,4 @@ vareto.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No
 | [Varicent](../tools/varicent.md)
 varicent.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory... |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 25 of 27, counted
+# RevOps infrastructure tools with MCP servers: 29 of 31, counted
 
-> 25 of the 27 revops infra tools in The GTM MCP Directory have an MCP server: 25 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 29 of the 31 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 25 of 318**
+**List · 29 of 336**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 25 of 27 entries in this category are reachable by an agent: 25 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 29 of 31 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -33,6 +33,9 @@ API key + secret via env vars (FIVETRAN_API_KEY, FIVETRAN_API_SECRET). | [Free t
 | [Fivetran](../tools/fivetran.md)
 fivetran.com | [Official MCP](../mcp/official.md) | [https://github.com/fivetran/fivetran-mcp](https://github.com/fivetran/fivetran-mcp) | API key
 API key + API secret via env vars, generated from the Fivetran dashboard. Scoped... | [Free to start](../gates/free.md) |
+| [Google BigQuery](../tools/google-bigquery.md)
+cloud.google.com | [Official MCP](../mcp/official.md) | [https://bigquery.googleapis.com/mcp](https://bigquery.googleapis.com/mcp) +1 more | OAuth or an API key
+oauth. The docs state the server uses the "OAuth 2.0 protocol with IAM for authentication... | [Free to start](../gates/free.md) |
 | [Hightouch](../tools/hightouch.md)
 hightouch.com | [Official MCP](../mcp/official.md) | [https://hightouch.com/docs/ai-integrations/mcp](https://hightouch.com/docs/ai-integrations/mcp) | Auth not recorded
 Existing Hightouch workspace auth with role-based access control; however the MCP server... | [Free to start](../gates/free.md) |
@@ -63,6 +66,12 @@ OAuth where the client supports it, otherwise an API key. Local deployment is AP
 | [Close (Close CRM)](../tools/close.md)
 close.com | [Official MCP](../mcp/official.md) | [https://mcp.close.com/mcp](https://mcp.close.com/mcp) +1 more | OAuth or an API key
 Dual - OAuth 2.0 with Dynamic Client Registration (recommended; used by Claude, ChatGPT,... | [Paid, self-serve](../gates/paid.md) |
+| [dbt (dbt platform remote MCP)](../tools/dbt.md)
+getdbt.com | [Official MCP](../mcp/official.md) | [https://YOUR_DBT_HOST_URL/api/ai/v1/mcp](https://YOUR_DBT_HOST_URL/api/ai/v1/mcp) +3 more | OAuth or an API key
+oauth (beta) or token. The docs state "OAuth lets you connect to the remote MCP server... | [Paid, self-serve](../gates/paid.md) |
+| [Hex](../tools/hex.md)
+hex.tech | [Official MCP](../mcp/official.md) | [https://app.hex.tech/mcp](https://app.hex.tech/mcp) +1 more | OAuth
+oauth. The docs state "Complete the OAuth flow to authorize access to your Hex... | [Paid, self-serve](../gates/paid.md) |
 | [HighLevel (GoHighLevel)](../tools/highlevel.md)
 gohighlevel.com | [Official MCP](../mcp/official.md) | [https://services.leadconnectorhq.com/mcp/](https://services.leadconnectorhq.com/mcp/) +1 more | API key
 A Private Integration Token passed as a bearer token, plus a locationId header. Tool... | [Paid, self-serve](../gates/paid.md) |
@@ -87,6 +96,9 @@ unknown - the announcement doesn't specify the auth method; the feature is... | 
 | [Zoho CRM](../tools/zoho-crm.md)
 zoho.com | [Official MCP](../mcp/official.md) | [https://www.zoho.com/crm/developer/mcp.html](https://www.zoho.com/crm/developer/mcp.html) | OAuth
 oauth. The vendor's page describes a four-step setup ending in "Authenticate via OAuth.... | [Paid, self-serve](../gates/paid.md) |
+| [Looker](../tools/looker.md)
+cloud.google.com | [Official MCP](../mcp/official.md) | [https://docs.cloud.google.com/looker/docs/mcp](https://docs.cloud.google.com/looker/docs/mcp) +3 more | OAuth
+The managed server uses OAuth 2.1 and an admin "must manually register AI agents as OAuth... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [Official MCP](../mcp/official.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth
 OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every MCP call... | [Enterprise only](../gates/enterprise-only.md) |
@@ -116,4 +128,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

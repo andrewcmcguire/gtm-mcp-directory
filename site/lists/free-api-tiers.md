@@ -1,6 +1,6 @@
-# GTM tools with free API tiers: 69 that need no sales call
+# GTM tools with free API tiers: 78 that need no sales call
 
-> 69 go to market tools where a solo operator can get API access without talking to anyone. 56 of them also have an MCP server. Counted 2026-09-07.
+> 78 go to market tools where a solo operator can get API access without talking to anyone. 65 of them also have an MCP server. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 69 GTM tools a solo operator can call for free
+[The lists](index.md) / The 78 GTM tools a solo operator can call for free
 
-**List · 69 of 318**
+**List · 78 of 336**
 
-## The 69 GTM tools a solo operator can call for free
+## The 78 GTM tools a solo operator can call for free
 
 Free to start means a solo operator can get API access without talking to anyone. It does not mean unlimited, it does not mean free forever, and this directory does not track prices or quota sizes, so nothing here should be read as a pricing claim. It tracks one thing: whether the door opens without a sales call.
 
@@ -24,10 +24,14 @@ airbyte.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../
 anymailfinder.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Apideck](../tools/apideck.md)
 apideck.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
+| [Apify](../tools/apify.md)
+apify.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Attio](../tools/attio.md)
 attio.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Autobound](../tools/autobound.md)
 autobound.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Official MCP](../mcp/official.md) | [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Track job changes](../jobs/track-job-changes.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) +1 |
+| [Browserbase](../tools/browserbase.md)
+browserbase.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Buffer](../tools/buffer.md)
 buffer.com | [Community & Dark Social](../categories/community-dark-social.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Cal.com](../tools/cal-com.md)
@@ -54,18 +58,24 @@ enrow.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP
 exa.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) |
 | [Fathom](../tools/fathom.md)
 fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
+| [Firecrawl](../tools/firecrawl.md)
+firecrawl.dev | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) +1 |
 | [Fivetran](../tools/fivetran.md)
 fivetran.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [FullEnrich](../tools/fullenrich.md)
 fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
+| [Google BigQuery](../tools/google-bigquery.md)
+cloud.google.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Hightouch](../tools/hightouch.md)
 hightouch.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [HubSpot](../tools/hubspot.md)
 hubspot.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +4 |
 | [Hunter.io](../tools/hunter-io.md)
 hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
+| [Jotform](../tools/jotform.md)
+jotform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Knit MCP](../tools/knit-mcp.md)
 getknit.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
@@ -78,6 +88,8 @@ lusha.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MC
 meetgeek.ai | [Conversation Intel](../categories/conversation-intel.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Merge Agent Handler](../tools/merge-agent-handler.md)
 merge.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Metricool](../tools/metricool.md)
+metricool.com | [Community & Dark Social](../categories/community-dark-social.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | no tag |
 | [monday.com (monday CRM)](../tools/monday-com.md)
@@ -102,6 +114,10 @@ retool.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../m
 snowflake.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Query a data warehouse](../jobs/query-data-warehouse.md) |
 | [StackOne](../tools/stackone.md)
 stackone.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Tally](../tools/tally.md)
+tally.so | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Tavily](../tools/tavily.md)
+tavily.com | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Tavus](../tools/tavus.md)
 tavus.io | [Video Prospecting](../categories/video-prospecting.md) | [Official MCP](../mcp/official.md) | [Book a meeting](../jobs/book-a-meeting.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [TheirStack](../tools/theirstack.md)
@@ -118,6 +134,8 @@ usefulapi.io | [MCP Layer](../categories/mcp-infrastructure.md) | [Official MCP]
 warmly.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +2 |
 | [Warmly (Warmly.ai)](../tools/warmly.md)
 warmly.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +2 |
+| [Wistia](../tools/wistia.md)
+wistia.com | [Video Prospecting](../categories/video-prospecting.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Zapier](../tools/zapier.md)
 zapier.com | [RevOps Infra](../categories/revops-infra.md) | [Official MCP](../mcp/official.md) | [Sync records between systems](../jobs/sync-records-between-systems.md) [Run an automation workflow](../jobs/run-automation-workflow.md) [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
@@ -157,4 +175,4 @@ scaledmail.com | [Email Deliverability](../categories/email-deliverability.md) |
 | [Warmup Inbox](../tools/warmup-inbox.md)
 warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Warm up an inbox](../jobs/warm-up-inbox.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

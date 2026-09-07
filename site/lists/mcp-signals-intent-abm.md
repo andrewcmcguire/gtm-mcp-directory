@@ -1,6 +1,6 @@
-# Signals & Intent tools with MCP servers: 19 of 28, counted
+# Signals & Intent tools with MCP servers: 21 of 30, counted
 
-> 19 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 18 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+> 21 of the 30 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Signals & Intent tools with an MCP server
 
-**List · 19 of 318**
+**List · 21 of 336**
 
 ## Signals & Intent tools with an MCP server
 
-Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 19 of 28 entries in this category are reachable by an agent: 18 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
+Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 21 of 30 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -33,6 +33,9 @@ unknown - page references a "How does authentication work?" FAQ but the answer w
 | [Warmly (Warmly.ai)](../tools/warmly.md)
 warmly.ai | [Official MCP](../mcp/official.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth or an API key
 MCP uses OAuth-based login (no manual key management); the separate REST API... | [Free to start](../gates/free.md) |
+| [CatchIntent](../tools/catchintent.md)
+catchintent.com | [Official MCP](../mcp/official.md) | [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp) +2 more | OAuth
+oauth. The vendor's MCP page states "One-time OAuth 2.1 authorization. Your MCP client... | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
 factors.ai | [Official MCP](../mcp/official.md) | [https://mcp.factors.ai/mcp](https://mcp.factors.ai/mcp) +1 more | API key
 Personal access token (generated in Settings > AI Features), used via Claude custom... | [Paid, self-serve](../gates/paid.md) |
@@ -72,6 +75,9 @@ CONFLICTING VENDOR STATEMENTS, flagged rather than resolved. Both Similarweb dev
 | [UserGems](../tools/usergems.md)
 usergems.com | [Official MCP](../mcp/official.md) | [https://www.usergems.com/product/mcp](https://www.usergems.com/product/mcp) | OAuth or an API key
 unknown - connects inside Claude/ChatGPT per the product page, but the exact auth... | [Enterprise only](../gates/enterprise-only.md) |
+| [Actively](../tools/actively.md)
+actively.ai | [Official MCP](../mcp/official.md) | [https://app.actively.ai/docs/mcp](https://app.actively.ai/docs/mcp) +2 more | OAuth
+oauth. The vendor docs state "MCP access uses OAuth 2.1 with WorkOS." Tools are... | [Gate unknown](../gates/unknown.md) |
 | [Trigify (Trigify.io)](../tools/trigify.md)
 trigify.io | [Community MCP](../mcp/community.md) | [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli) | API key
 api key (from app.trigify.io/settings; via `trigify login --api-key`, env var... | [Paid, self-serve](../gates/paid.md) |
@@ -112,4 +118,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

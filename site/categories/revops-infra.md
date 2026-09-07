@@ -1,6 +1,6 @@
-# RevOps Infra: 27 tools, 25 with an official MCP server
+# RevOps Infra: 31 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 27 tools counted, 25 with an official MCP server and 13 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 31 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,19 +16,19 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 27
+- **entries in this file**: 31
 
-- **Official MCP**: 25
+- **Official MCP**: 29
 - **MCP unknown**: 1
 - **No MCP found**: 1
 
-- **Free to start**: 13
-- **Paid, self-serve**: 10
-- **Enterprise only**: 4
+- **Free to start**: 14
+- **Paid, self-serve**: 12
+- **Enterprise only**: 5
 
-Source file: 06-revops-infra.md · content sha256 c66959b87f4348f6... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 b642afdaa81f349c... · counts reconciled against tools_recount.py at build time.
 
-- [The 25 with an MCP server](../lists/mcp-revops-infra.md)
+- [The 29 with an MCP server](../lists/mcp-revops-infra.md)
 
 - [Run an automation workflow](../jobs/run-automation-workflow.md)
 - [Sync records between systems](../jobs/sync-records-between-systems.md)
@@ -44,6 +44,8 @@ Source file: 06-revops-infra.md · content sha256 c66959b87f4348f6... · counts 
 - [Census (now operates as "Fivetran Activations")](../tools/census.md) getcensus.com Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the product now lives inside Fivetran as "Activations," same... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Fivetran](../tools/fivetran.md) fivetran.com Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that land CRM and GTM-tool data in a warehouse, plus... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+
+- [Google BigQuery](../tools/google-bigquery.md) cloud.google.com Google Cloud's serverless data warehouse, where many RevOps teams land CRM, product and billing data for modelling and reporting; a first-party remote MCP server exposes dataset and table metadata and SQL... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Hightouch](../tools/hightouch.md) hightouch.com A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs, marketing automation) for audience activation and personalization. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
@@ -65,6 +67,10 @@ Source file: 06-revops-infra.md · content sha256 c66959b87f4348f6... · counts 
 
 - [Close (Close CRM)](../tools/close.md) close.com A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
+- [dbt (dbt platform remote MCP)](../tools/dbt.md) getdbt.com The transformation layer of the modern data stack: SQL models, tests and documentation compiled and run against a warehouse, with a hosted "dbt platform" (formerly dbt Cloud) that adds scheduling, a Semantic... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Hex](../tools/hex.md) hex.tech A collaborative data workspace (SQL and Python notebooks, published apps, a conversational "Threads" analysis mode) used by data and RevOps teams to answer questions on top of the warehouse. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
 - [HighLevel (GoHighLevel)](../tools/highlevel.md) gohighlevel.com An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts from one place. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Make](../tools/make.md) make.com A visual, node-based workflow automation platform ("scenarios") connecting 3,000+ apps, with newer AI-agent and natural-language-build features layered on top. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
@@ -80,6 +86,8 @@ Source file: 06-revops-infra.md · content sha256 c66959b87f4348f6... · counts 
 - [Superblocks](../tools/superblocks.md) superblocks.com A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing prototypes from Claude, Lovable, or Replit) while giving... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Zoho CRM](../tools/zoho-crm.md) zoho.com A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of the market, which in 2026 shipped four separately scoped MCP servers so an agent can be given... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Looker](../tools/looker.md) cloud.google.com Google Cloud's governed BI platform (LookML semantic model, explores, Looks, dashboards, embedded analytics) that sits on top of a warehouse; two first-party MCP routes exist, a local MCP Toolbox prebuilt... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) salesforce.com A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on top for configuring autonomous AI agents that read... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 

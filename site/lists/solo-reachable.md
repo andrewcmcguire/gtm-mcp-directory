@@ -1,6 +1,6 @@
-# GTM tools a solo operator can reach: 152 with a server and no procurement cycle
+# GTM tools a solo operator can reach: 168 with a server and no procurement cycle
 
-> 152 of 318 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-07.
+> 168 of 336 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,13 +8,13 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 152 GTM tools an agent can call and a solo operator can pay for
+[The lists](index.md) / The 168 GTM tools an agent can call and a solo operator can pay for
 
-**List · 152 of 318**
+**List · 168 of 336**
 
-## The 152 GTM tools an agent can call and a solo operator can pay for
+## The 168 GTM tools an agent can call and a solo operator can pay for
 
-Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 194 entries pass the gate test on its own (69 free to start plus 125 paid self serve) and 207 pass the server test on its own. 152 pass both. Paying is allowed; a procurement cycle is not.
+Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 210 entries pass the gate test on its own (78 free to start plus 132 paid self serve) and 225 pass the server test on its own. 168 pass both. Paying is allowed; a procurement cycle is not.
 
 | Tool | Category | Gate | MCP status | Jobs it is tagged with |
 |---|---|---|---|---|
@@ -24,10 +24,14 @@ airbyte.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](..
 anymailfinder.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
 | [Apideck](../tools/apideck.md)
 apideck.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
+| [Apify](../tools/apify.md)
+apify.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Attio](../tools/attio.md)
 attio.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Read CRM records](../jobs/read-crm-records.md) [Write CRM records](../jobs/write-crm-records.md) |
 | [Autobound](../tools/autobound.md)
 autobound.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) [Track job changes](../jobs/track-job-changes.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) +1 |
+| [Browserbase](../tools/browserbase.md)
+browserbase.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Buffer](../tools/buffer.md)
 buffer.com | [Community & Dark Social](../categories/community-dark-social.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Cal.com](../tools/cal-com.md)
@@ -54,18 +58,24 @@ enrow.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to star
 exa.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) [Research an account before a call](../jobs/research-account-for-call-prep.md) |
 | [Fathom](../tools/fathom.md)
 fathom.video | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Write CRM records](../jobs/write-crm-records.md) |
+| [Firecrawl](../tools/firecrawl.md)
+firecrawl.dev | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Fireflies.ai](../tools/fireflies-ai.md)
 fireflies.ai | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) +1 |
 | [Fivetran](../tools/fivetran.md)
 fivetran.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [FullEnrich](../tools/fullenrich.md)
 fullenrich.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Find a phone number](../jobs/find-phone-number.md) |
+| [Google BigQuery](../tools/google-bigquery.md)
+cloud.google.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Hightouch](../tools/hightouch.md)
 hightouch.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Sync records between systems](../jobs/sync-records-between-systems.md) |
 | [HubSpot](../tools/hubspot.md)
 hubspot.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +4 |
 | [Hunter.io](../tools/hunter-io.md)
 hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) [Find a work email address](../jobs/find-work-email.md) [Verify an email is deliverable](../jobs/verify-email-deliverable.md) |
+| [Jotform](../tools/jotform.md)
+jotform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Knit MCP](../tools/knit-mcp.md)
 getknit.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
@@ -78,6 +88,8 @@ lusha.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to sta
 meetgeek.ai | [Conversation Intel](../categories/conversation-intel.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Merge Agent Handler](../tools/merge-agent-handler.md)
 merge.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Metricool](../tools/metricool.md)
+metricool.com | [Community & Dark Social](../categories/community-dark-social.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [monday.com (monday CRM)](../tools/monday-com.md)
@@ -102,6 +114,10 @@ retool.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../
 snowflake.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Query a data warehouse](../jobs/query-data-warehouse.md) |
 | [StackOne](../tools/stackone.md)
 stackone.com | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Tally](../tools/tally.md)
+tally.so | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Tavily](../tools/tavily.md)
+tavily.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Tavus](../tools/tavus.md)
 tavus.io | [Video Prospecting](../categories/video-prospecting.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Book a meeting](../jobs/book-a-meeting.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
 | [TheirStack](../tools/theirstack.md)
@@ -118,6 +134,8 @@ usefulapi.io | [MCP Layer](../categories/mcp-infrastructure.md) | [Free to start
 warmly.ai | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +2 |
 | [Warmly (Warmly.ai)](../tools/warmly.md)
 warmly.ai | [Signals & Intent](../categories/signals-intent-abm.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md) [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) +2 |
+| [Wistia](../tools/wistia.md)
+wistia.com | [Video Prospecting](../categories/video-prospecting.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Zapier](../tools/zapier.md)
 zapier.com | [RevOps Infra](../categories/revops-infra.md) | [Free to start](../gates/free.md) | [Official MCP](../mcp/official.md) | [Sync records between systems](../jobs/sync-records-between-systems.md) [Run an automation workflow](../jobs/run-automation-workflow.md) [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
@@ -144,6 +162,8 @@ avoma.com | [Conversation Intel](../categories/conversation-intel.md) | [Paid, s
 brand24.com | [Community & Dark Social](../categories/community-dark-social.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Monitor social and community mentions](../jobs/monitor-social-mentions.md) |
 | [Bright Data](../tools/bright-data.md)
 brightdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) |
+| [CatchIntent](../tools/catchintent.md)
+catchintent.com | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Chili Piper](../tools/chili-piper.md)
 chilipiper.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Book a meeting](../jobs/book-a-meeting.md) [Read calendar availability](../jobs/read-calendar-availability.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +2 |
 | [Chili Piper](../tools/chili-piper.md)
@@ -162,6 +182,8 @@ coresignal.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, 
 cubesoftware.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Model a revenue plan](../jobs/model-revenue-plan.md) |
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) +2 |
+| [dbt (dbt platform remote MCP)](../tools/dbt.md)
+getdbt.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Derrick](../tools/derrick.md)
 derrick-app.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [DocuSign](../tools/docusign.md)
@@ -184,6 +206,8 @@ grain.com | [Conversation Intel](../categories/conversation-intel.md) | [Paid, s
 granola.ai | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Search across recorded calls](../jobs/search-call-library.md) [Summarize a meeting](../jobs/summarize-meeting.md) |
 | [Help Scout](../tools/help-scout.md)
 helpscout.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Hex](../tools/hex.md)
+hex.tech | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [HeyGen](../tools/heygen.md)
 heygen.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [HeyReach](../tools/heyreach.md)
@@ -230,6 +254,8 @@ nutshell.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve
 ocean.io | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Build a target account list](../jobs/build-target-account-list.md) |
 | [Octave](../tools/octave.md)
 octavehq.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Research an account before a call](../jobs/research-account-for-call-prep.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Retrieve sales content](../jobs/retrieve-sales-content.md) +1 |
+| [Offorte](../tools/offorte.md)
+offorte.com | [Proposals & Deals](../categories/proposals-deals.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Ortto](../tools/ortto.md)
 ortto.com | [RevOps Infra](../categories/revops-infra.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Read outreach performance](../jobs/read-outreach-performance.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +1 |
 | [PhantomBuster](../tools/phantombuster.md)
@@ -256,6 +282,8 @@ salesforge.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](.
 saleshandy.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [SalesQL](../tools/salesql.md)
 salesql.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Skyp.ai](../tools/skyp-ai.md)
+skyp.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Smartlead](../tools/smartlead.md)
 smartlead.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Verify an email is deliverable](../jobs/verify-email-deliverable.md) [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +2 |
 | [Snitcher](../tools/snitcher.md)
@@ -276,6 +304,8 @@ theswarm.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, se
 tldv.io | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) [Score rep performance](../jobs/score-rep-performance.md) |
 | [Trainual](../tools/trainual.md)
 trainual.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
+| [Typeform](../tools/typeform.md)
+typeform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Vainu](../tools/vainu.md)
 vainu.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Detect a funding or news event](../jobs/detect-funding-or-news-event.md) +1 |
 | [Vayne](../tools/vayne.md)
@@ -296,6 +326,8 @@ landbot.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Free to 
 loom.com | [Video Prospecting](../categories/video-prospecting.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Read outreach performance](../jobs/read-outreach-performance.md) |
 | [People Data Labs](../tools/people-data-labs.md)
 peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Free to start](../gates/free.md) | [Community MCP](../mcp/community.md) | [Search people by criteria](../jobs/search-people-by-criteria.md) [Search companies by firmographics](../jobs/search-companies-by-firmographics.md) [Enrich a person from a LinkedIn URL](../jobs/enrich-person-from-linkedin-url.md) +3 |
+| [Aircall](../tools/aircall.md)
+aircall.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | no tag |
 | [Bonjoro](../tools/bonjoro.md)
 bonjoro.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) |
 | [Chatbase](../tools/chatbase.md)
@@ -323,4 +355,4 @@ vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, s
 | [Weezly](../tools/weezly.md)
 weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Book a meeting](../jobs/book-a-meeting.md) |
 
-Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

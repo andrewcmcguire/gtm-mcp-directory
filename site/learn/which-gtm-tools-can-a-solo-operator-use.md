@@ -1,6 +1,6 @@
-# Which GTM tools can a solo operator use with an agent? 146 products
+# Which GTM tools can a solo operator use with an agent? 162 products
 
-> 194 of 318 GTM tools are free to start or paid self serve, and 152 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-07.
+> 210 of 336 GTM tools are free to start or paid self serve, and 168 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,27 +16,27 @@
 
 **The short answer**
 
-194 of the 318 entries here are free to start or paid self serve, so one person can get API access without a contract. 152 of those also have an MCP server, which comes to 146 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
+210 of the 336 entries here are free to start or paid self serve, so one person can get API access without a contract. 168 of those also have an MCP server, which comes to 162 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
 
 Two columns have to be true at once. The tool has to be callable, and you have to be able to get in. This directory publishes both separately on purpose, because plenty of tools pass one test and fail the other.
 
 ## The arithmetic
 
-- 69 entries are free to start: sign up, get a key, no conversation.
+- 78 entries are free to start: sign up, get a key, no conversation.
 
-- 125 are paid self serve: a credit card is enough.
+- 132 are paid self serve: a credit card is enough.
 
-- Together, 194 of 318 entries, or 61%, pass the gate test.
+- Together, 210 of 336 entries, or 62%, pass the gate test.
 
-- Cross that with the MCP column and 152 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
+- Cross that with the MCP column and 168 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
 
-- 78 are enterprise only and 8 enterprise leaning. Those are closed doors for one person.
+- 79 are enterprise only and 8 enterprise leaning. Those are closed doors for one person.
 
-- 32 do not publish enough for the gate to be established at all, and are recorded as unknown rather than guessed.
+- 33 do not publish enough for the gate to be established at all, and are recorded as unknown rather than guessed.
 
 ## Callable and reachable, both
 
-146 unique products pass both tests. Here are the first fifteen in the published order.
+162 unique products pass both tests. Here are the first fifteen in the published order.
 
 - [Airbyte](../tools/airbyte.md) Official MCP · Free to start
 Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a...
@@ -44,10 +44,14 @@ Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools 
 Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when...
 - [Apideck](../tools/apideck.md) Official MCP · Free to start
 A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file...
+- [Apify](../tools/apify.md) Official MCP · Free to start
+A cloud platform for running "Actors" (hosted scrapers and automation programs, thousands of them in a public store) that extract web data such as...
 - [Attio](../tools/attio.md) Official MCP · Free to start
 A CRM built around a flexible, user-defined data model (not fixed contact/company/deal objects) with real-time sync and an API-first architecture.
 - [Autobound](../tools/autobound.md) Official MCP · Free to start
 Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed.
+- [Browserbase](../tools/browserbase.md) Official MCP · Free to start
+A hosted headless-browser service (sessions, proxies, stealth, session recording) with Stagehand, its natural-language browser automation layer, so...
 - [Buffer](../tools/buffer.md) Official MCP · Free to start
 A social-media scheduling and publishing tool covering channels, a posting queue, drafts, ideas and per-post analytics, with a remote MCP server that...
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
@@ -64,14 +68,10 @@ Contract system built for startups - standardized, mutually-agreeable contract t
 A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion,...
 - [Crustdata](../tools/crustdata.md) Official MCP · Free to start
 A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as...
-- [Diffbot](../tools/diffbot.md) Official MCP · Free to start
-A web-extraction and "Knowledge Graph" company that crawls the public web and structures it into an entity graph (organizations, people, articles)...
-- [Enrow](../tools/enrow.md) Official MCP · Free to start
-Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a...
 
-131 more are on the linked page. The cut is the display limit, not a ranking.
+147 more are on the linked page. The cut is the display limit, not a ranking.
 
-[The full solo reachable list is here](../lists/solo-reachable.md), and the [69 free tiers are here](../lists/free-api-tiers.md).
+[The full solo reachable list is here](../lists/solo-reachable.md), and the [78 free tiers are here](../lists/free-api-tiers.md).
 
 ## What free does not mean
 

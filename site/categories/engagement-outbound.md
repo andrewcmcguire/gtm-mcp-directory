@@ -1,6 +1,6 @@
-# Engagement & Outbound: 31 tools, 22 with an official MCP server
+# Engagement & Outbound: 33 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 31 tools counted, 22 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 33 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 31
+- **entries in this file**: 33
 
-- **Official MCP**: 22
-- **Community MCP**: 1
+- **Official MCP**: 23
+- **Community MCP**: 2
 - **MCP unknown**: 2
 - **No MCP found**: 6
 
 - **Free to start**: 1
-- **Paid, self-serve**: 21
+- **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
 - **Gate unknown**: 1
 
-Source file: 02-engagement-outbound.md · content sha256 d57fa7d9c1509d73... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 85d06b78cc69e2e6... · counts reconciled against tools_recount.py at build time.
 
-- [The 23 with an MCP server](../lists/mcp-engagement-outbound.md)
+- [The 25 with an MCP server](../lists/mcp-engagement-outbound.md)
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
@@ -62,6 +62,8 @@ Source file: 02-engagement-outbound.md · content sha256 d57fa7d9c1509d73... · 
 
 - [Saleshandy](../tools/saleshandy.md) saleshandy.com A cold-email outreach platform with sequences, sender rotation, email warm-up and deliverability tooling, plus a Lead Finder contact database, exposed to AI clients through an MCP server that can create... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Skyp.ai](../tools/skyp-ai.md) skyp.ai A cold-email outreach platform (campaigns, contacts, per-prospect AI-written emails, tracking, webhooks) that markets itself on being driven by AI agents through a native MCP server and REST API rather than... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+
 - [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Super Send](../tools/super-send.md) supersend.io Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based on live deliverability signals. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
@@ -81,6 +83,8 @@ Source file: 02-engagement-outbound.md · content sha256 d57fa7d9c1509d73... · 
 - [Outreach](../tools/outreach.md) outreach.ai Sales engagement platform for building, running, and tracking multichannel outbound sequences (email, call, social) and rep activity, tied into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Aircall](../tools/aircall.md) aircall.io A cloud phone system and call centre for sales and support teams (numbers, dialer campaigns, call recording, SMS, CRM integrations) with a public REST API and webhooks. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 

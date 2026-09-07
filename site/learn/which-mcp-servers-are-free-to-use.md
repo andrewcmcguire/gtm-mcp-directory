@@ -1,6 +1,6 @@
-# Which GTM MCP servers are free to use? 53 products, counted
+# Which GTM MCP servers are free to use? 62 products, counted
 
-> 53 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-07.
+> 62 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-53 unique products here have both an MCP server and a free to start gate, meaning you can sign up, get access and point an agent at them without paying anything or speaking to a salesperson. Free to start is a gate, not a price: everything on this list still meters something.
+62 unique products here have both an MCP server and a free to start gate, meaning you can sign up, get access and point an agent at them without paying anything or speaking to a salesperson. Free to start is a gate, not a price: everything on this list still meters something.
 
 The MCP server itself is almost never the thing you pay for. What you pay for is what it calls: credits, seats, sends, lookups. A free server in front of a metered API is normal and it is not a trick, but an agent in a loop consumes a free tier considerably faster than a human clicking does.
 
@@ -28,10 +28,14 @@ Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools 
 Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when...
 - [Apideck](../tools/apideck.md) Official MCP · Free to start
 A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file...
+- [Apify](../tools/apify.md) Official MCP · Free to start
+A cloud platform for running "Actors" (hosted scrapers and automation programs, thousands of them in a public store) that extract web data such as...
 - [Attio](../tools/attio.md) Official MCP · Free to start
 A CRM built around a flexible, user-defined data model (not fixed contact/company/deal objects) with real-time sync and an API-first architecture.
 - [Autobound](../tools/autobound.md) Official MCP · Free to start
 Generates personalised outbound email copy and openers from live buyer signals, and sells the underlying signal data as an API and MCP feed.
+- [Browserbase](../tools/browserbase.md) Official MCP · Free to start
+A hosted headless-browser service (sessions, proxies, stealth, session recording) with Stagehand, its natural-language browser automation layer, so...
 - [Buffer](../tools/buffer.md) Official MCP · Free to start
 A social-media scheduling and publishing tool covering channels, a posting queue, drafts, ideas and per-post analytics, with a remote MCP server that...
 - [Cal.com](../tools/cal-com.md) Official MCP · Free to start
@@ -56,18 +60,24 @@ Finds and verifies work email addresses and direct phone numbers from a name plu
 A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword...
 - [Fathom](../tools/fathom.md) Official MCP · Free to start
 Free AI meeting recorder/notetaker that transcribes calls and generates summaries, action items, and CRM sync.
+- [Firecrawl](../tools/firecrawl.md) Official MCP · Free to start
+A web scraping and crawling API that turns any URL or whole site into clean markdown or structured JSON for LLM pipelines, with search, map, crawl,...
 - [Fireflies.ai](../tools/fireflies-ai.md) Official MCP · Free to start
 Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant ("AskFred") for summaries, search, and...
 - [Fivetran](../tools/fivetran.md) Official MCP · Free to start
 Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that...
 - [FullEnrich](../tools/fullenrich.md) Official MCP · Free to start
 A B2B contact-enrichment aggregator that runs a single lookup or bulk list through 15+ third-party data vendors in a "waterfall" and returns the...
+- [Google BigQuery](../tools/google-bigquery.md) Official MCP · Free to start
+Google Cloud's serverless data warehouse, where many RevOps teams land CRM, product and billing data for modelling and reporting; a first-party...
 - [Hightouch](../tools/hightouch.md) Official MCP · Free to start
 A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs,...
 - [HubSpot](../tools/hubspot.md) Official MCP · Free to start
 An all-in-one CRM/marketing/sales/service platform with contacts, deals, marketing automation, and a public REST API/developer platform.
 - [Hunter.io](../tools/hunter-io.md) Official MCP · Free to start
 An email-finding and verification tool - given a name, domain, or company, it locates likely professional email addresses (via domain...
+- [Jotform](../tools/jotform.md) Official MCP · Free to start
+An online form builder (forms, approvals, tables, e-sign, payment collection and conversational "AI Agents") with a REST API and a hosted MCP server.
 - [Knit MCP](../tools/knit-mcp.md) Official MCP · Free to start
 A unified-API vendor that publishes hosted, serverless MCP servers for individual SaaS applications across CRM, ATS, HRIS, ticketing, accounting,...
 - [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md) Official MCP · Free to start
@@ -80,6 +90,8 @@ A B2B contact and company database (300M+ profiles) accessed via a browser exten
 Automatic meeting recorder and transcriber that produces summaries, highlights and conversation analytics across Zoom, Teams and Meet.
 - [Merge Agent Handler](../tools/merge-agent-handler.md) Official MCP · Free to start
 Merge's tool-calling platform for AI agents: it wraps hundreds of third-party SaaS applications as pre-built MCP-ready connectors, bundles them into...
+- [Metricool](../tools/metricool.md) Official MCP · Free to start
+A social media management and analytics tool (scheduling, analytics, competitor tracking and ad-campaign monitoring across Instagram, Facebook, X,...
 - [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md) Official MCP · Free to start
 The official reference-implementation repository for MCP, "managed by Anthropic, but built together with the community" - ships a small set of...
 - [monday.com (monday CRM)](../tools/monday-com.md) Official MCP · Free to start
@@ -104,6 +116,10 @@ A low-code platform for building internal tools/dashboards/admin panels on top o
 Cloud data warehouse that acts as the central store where GTM data (CRM, product usage, marketing, support) gets modeled and joined; increasingly the...
 - [StackOne](../tools/stackone.md) Official MCP · Free to start
 A unified-API vendor that publishes a stated 518 managed MCP servers exposing 31,928 tools across HR, CRM, IT and finance applications, reachable...
+- [Tally](../tools/tally.md) Official MCP · Free to start
+A free-first online form builder (unlimited forms and submissions on the free plan, conditional logic, payments, signatures, file uploads) with a...
+- [Tavily](../tools/tavily.md) Official MCP · Free to start
+A web search and page-extraction API built for LLM agents that returns ranked, cleaned results and extracted page content rather than a list of links.
 - [Tavus](../tools/tavus.md) Official MCP · Free to start
 Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases...
 - [TheirStack](../tools/theirstack.md) Official MCP · Free to start
@@ -116,6 +132,8 @@ Digital sales room / "Pod" builder for buyer-facing deal collateral, tracking gr
 A hosted catalogue of 146 single-application MCP servers, one per SaaS product, each on its own subdomain, wrapping that product's public REST API as...
 - [Warmly (Warmly.ai)](../tools/warmly.md) Official MCP · Free to start
 De-anonymizes website visitors at the person and company level from site traffic, and aggregates first-party (web/product/CRM), second-party...
+- [Wistia](../tools/wistia.md) Official MCP · Free to start
+A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams...
 - [Zapier](../tools/zapier.md) Official MCP · Free to start
 A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate agent product.
 - [Zapier MCP](../tools/zapier-mcp.md) Official MCP · Free to start
@@ -131,7 +149,7 @@ A raw person/company data API that returns profile records (name, job history, e
 
 ## What this directory does and does not track about money
 
-- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 69 entries are free to start, 125 paid self serve, 78 enterprise only, 32 unknown.
+- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 78 entries are free to start, 132 paid self serve, 79 enterprise only, 33 unknown.
 
 - **Not tracked:** prices, credit costs, quota sizes, rate limits, overage behaviour, or what happens to your data on a free tier. None of those should be inferred from anything here.
 

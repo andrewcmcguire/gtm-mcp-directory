@@ -1,6 +1,6 @@
-# How many GTM tools are enterprise gated? 78 of 318, counted
+# How many GTM tools are enterprise gated? 79 of 336, counted
 
-> 78 of 318 GTM tools need a contract before anybody gets API access, and 38 of those ship an official MCP server most people cannot call. Counted 2026-09-07.
+> 79 of 336 GTM tools need a contract before anybody gets API access, and 39 of those ship an official MCP server most people cannot call. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-78 of the 318 entries in this directory are enterprise only: API access needs a contract, a seat count or a procurement cycle. One more is enterprise leaning. 38 of them ship an official MCP server that a solo operator still cannot reach.
+79 of the 336 entries in this directory are enterprise only: API access needs a contract, a seat count or a procurement cycle. One more is enterprise leaning. 39 of them ship an official MCP server that a solo operator still cannot reach.
 
 Enterprise gated with no public documentation is the single most useful fact a directory like this can publish, so it is surfaced rather than hidden. It is also the fact vendors are least happy to see counted.
 
@@ -26,24 +26,24 @@ Enterprise gated with no public documentation is the single most useful fact a d
 |---|---|---|---|
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 13 | 17 | 76% |
 | [AI SDRs](../categories/ai-sdr-agents.md) | 10 | 23 | 43% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 10 | 28 | 36% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 10 | 30 | 33% |
 | [Conversation Intel](../categories/conversation-intel.md) | 8 | 24 | 33% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 31 | 19% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 33 | 18% |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 6 | 14 | 43% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 45 | 11% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 5 | 18 | 28% |
-| [RevOps Infra](../categories/revops-infra.md) | 4 | 27 | 15% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 3 | 14 | 21% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 3 | 17 | 18% |
-| [Video Prospecting](../categories/video-prospecting.md) | 2 | 14 | 14% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 49 | 10% |
+| [RevOps Infra](../categories/revops-infra.md) | 5 | 31 | 16% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 5 | 19 | 26% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 3 | 15 | 20% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 3 | 20 | 15% |
+| [Video Prospecting](../categories/video-prospecting.md) | 2 | 15 | 13% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 2 | 14 | 14% |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 1 | 19 | 5% |
 
-Counted 2026-09-07. 32 further entries do not publish enough for the gate to be established at all and are recorded as unknown rather than guessed into a bucket.
+Counted 2026-09-07. 33 further entries do not publish enough for the gate to be established at all and are recorded as unknown rather than guessed into a bucket.
 
 ## The cruel intersection
 
-38 of these enterprise gated products ship an official MCP server. The protocol works, the server is real, the vendor built it properly, and the reader of this page cannot call it without a purchase order. Agent readiness is two questions and this is why they are published as two columns.
+39 of these enterprise gated products ship an official MCP server. The protocol works, the server is real, the vendor built it properly, and the reader of this page cannot call it without a purchase order. Agent readiness is two questions and this is why they are published as two columns.
 
 - [Amplemarket](../tools/amplemarket.md) Official MCP · Enterprise leaning
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
@@ -70,11 +70,11 @@ Apollo's outbound-sequencing feature - multi-step, multi-channel (email/call/tas
 - [Artisan AI (Ava)](../tools/artisan-ai.md) Official MCP · Enterprise only
 An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings - marketed as...
 
-26 more are on the linked page. The cut is the display limit, not a ranking.
+27 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## What to do about it
 
-If you are inside a company that already has the contract, the server is a genuine unlock and worth asking for. If you are one person, build from the [152 solo reachable entries](../lists/solo-reachable.md) instead and treat the enterprise tier as something you graduate into rather than something you are blocked by.
+If you are inside a company that already has the contract, the server is a genuine unlock and worth asking for. If you are one person, build from the [168 solo reachable entries](../lists/solo-reachable.md) instead and treat the enterprise tier as something you graduate into rather than something you are blocked by.
 
 ## Sources
 
