@@ -283,12 +283,12 @@
     },
     "official_with_live_endpoint": 35,
     "official_docs_only": 86,
-    "mcp_tool_count_total": 1541,
-    "servers_with_a_tool_list": 79,
+    "mcp_tool_count_total": 2013,
+    "servers_with_a_tool_list": 101,
     "servers_claiming_a_server": 182,
     "tools_by_evidence": {
+      "docs": 997,
       "source": 843,
-      "docs": 525,
       "readme": 171,
       "live-list": 2
     },
@@ -1850,6 +1850,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "3b647f416ab9319b94d58c22e004463c648e96c192270b668c1c84c3c21bd752",
+  "content_sha256": "50067b26b98e696e4e535614118e1674f8f0eecdc67a086158a295f7fa5385ea",
   "source_sha256": "296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca"
 }

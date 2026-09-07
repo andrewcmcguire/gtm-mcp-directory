@@ -113,6 +113,14 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
                 "not one anybody has run."
                 % (n, evid, entry.get("mcp_tools_fetched_on") or "an unstamped date")
             )
+            spend = [t.get("name") for t in (entry.get("mcp_tools") or []) if t.get("risk") == "spend"]
+            if spend:
+                out.append(
+                    "%d of those tools would SPEND money if an agent called them (%s). They are "
+                    "flagged from the vendor's own naming, so verify before wiring one into an "
+                    "autonomous loop."
+                    % (len(spend), ", ".join(spend[:5]))
+                )
             aggs = sorted({(t.get("source_party") or "") for t in (entry.get("mcp_tools") or [])
                            if (t.get("source_party") or "").startswith("aggregator")})
             if aggs:
@@ -131,6 +139,12 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
                     "a different set at its own endpoint."
                     % entry.get("mcp_tools_repo")
                 )
+        elif entry.get("mcp_catalog_shape") == "dynamic":
+            out.append(
+                "This server has no fixed tool catalogue by design: %s. An empty tool "
+                "list here is the correct answer, not a gap in the research."
+                % (entry.get("mcp_catalog_note") or "it exposes the customer's own workspace")
+            )
         else:
             out.append(
                 "No tool list has been harvested for this server yet (mcp_tool_count "

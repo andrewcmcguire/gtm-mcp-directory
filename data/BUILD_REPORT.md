@@ -69,9 +69,9 @@ last_checked: `{"2026-08-24": 118, "2026-08-25": 23, "2026-09-02": 131, "2026-09
 ### Capability layer (what each server exposes, from merge_capabilities.py)
 
 null
-- servers with a recorded tool list: **79** of 182 that claim a server
-- tools recorded in total: **1541**
-- by evidence: `{"source": 843, "docs": 525, "readme": 171, "live-list": 2}`
+- servers with a recorded tool list: **101** of 182 that claim a server
+- tools recorded in total: **2013**
+- by evidence: `{"docs": 997, "source": 843, "readme": 171, "live-list": 2}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
@@ -270,7 +270,7 @@ None.
 
 ## Integrity
 
-- content sha256: `3b647f416ab9319b94d58c22e004463c648e96c192270b668c1c84c3c21bd752`
+- content sha256: `50067b26b98e696e4e535614118e1674f8f0eecdc67a086158a295f7fa5385ea`
 - source sha256: `296df244a0233b95b37e226cdd795687b4fd093b096bdfd6bfd0678b9668bdca`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
