@@ -21,7 +21,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [ortto.com](https://ortto.com) · entry id 06-ortto · source 06-revops-infra.md line 496
+Vendor: [ortto.com](https://ortto.com) · entry id 06-ortto · source 06-revops-infra.md line 509
 
 **What it does**
 A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
@@ -40,10 +40,10 @@ Customer data and lifecycle-marketing layer sitting beside the CRM, useful for p
 
 - **Parsed URLs**: 2 found in the mcp_url field
 
-- **Endpoint probe**: answered, asking for a key
+- **Endpoint probe**: auth wall at every path, not proven a server
 - **Endpoint URL[https://mcp-api-us.ortto.app/mcp](https://mcp-api-us.ortto.app/mcp)Probed**: 2026-09-04, HTTP 401
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
 
 mcp_status, verbatim from the file:
 
@@ -108,7 +108,7 @@ Added 2026-08-25 in the coverage sweep. Endpoints are region-pinned: US, EU and 
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 496
+- **Source line**: 509
 
 - **Tier**: RESEARCHED
 

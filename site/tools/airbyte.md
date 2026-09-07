@@ -1,6 +1,6 @@
 # Airbyte: MCP server status, API access gate and what it does
 
-> Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into... Official MCP, Free to start. Checked 2026-08-24.
+> Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Airbyte
 [Free to start](../gates/free.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [airbyte.com](https://airbyte.com) · entry id 06-airbyte · source 06-revops-infra.md line 323
+Vendor: [airbyte.com](https://airbyte.com) · entry id 06-airbyte · source 06-revops-infra.md line 332
 
 **What it does**
 Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store.
@@ -38,12 +38,12 @@ Upstream data-integration layer - gets GTM tool data (and 600+ other sources) in
 
 - **Auth**: Two-layer OAuth 2.0 - OAuth into the Airbyte account/org for the MCP server itself, plus separate OAuth or API-key auth per connected third-party service (Salesforce, HubSpot, GitHub, Stripe, etc.), entered in-browser, never in agent chat. Hosted endpoint: https://mcp.airbyte.ai/mcp.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.airbyte.com/ai-agents/interfaces/mcp](https://docs.airbyte.com/ai-agents/interfaces/mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.airbyte.com/ai-agents/interfaces/mcp
+https://mcp.airbyte.ai/mcp ; https://docs.airbyte.com/ai-agents/interfaces/mcp
 
+- [https://mcp.airbyte.ai/mcp](https://mcp.airbyte.ai/mcp)
 - [https://docs.airbyte.com/ai-agents/interfaces/mcp](https://docs.airbyte.com/ai-agents/interfaces/mcp)
 
 **Access gate**
@@ -90,13 +91,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://airbyte.com/](https://airbyte.com/)
 - [https://airbyte.com/pricing](https://airbyte.com/pricing)
 - [https://docs.airbyte.com/ai-agents/interfaces/mcp](https://docs.airbyte.com/ai-agents/interfaces/mcp)
+- [https://mcp.airbyte.ai/mcp](https://mcp.airbyte.ai/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://airbyte.com/, https://airbyte.com/pricing, https://docs.airbyte.com/ai-agents/interfaces/mcp
+https://airbyte.com/, https://airbyte.com/pricing, https://docs.airbyte.com/ai-agents/interfaces/mcp, https://mcp.airbyte.ai/mcp
 
 **Notes, verbatim from the file**
-One of the more clearly "official and productized" MCP implementations in this file - hosted, documented, and multi-client (Claude, ChatGPT, Cursor, VS Code, Codex).
+One of the more clearly "official and productized" MCP implementations in this file - hosted, documented, and multi-client (Claude, ChatGPT, Cursor, VS Code, Codex). 2026-09-07: Official MCP registry entry io.github.airbytehq/agents lists remote https://mcp.airbyte.ai/mcp; that URL returned 401 to an MCP initialize. airbytehq is Airbyte's own GitHub org (https://mcp.airbyte.ai/mcp).
 
 **Provenance**
 
@@ -104,11 +106,11 @@ One of the more clearly "official and productized" MCP implementations in this f
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 323
+- **Source line**: 332
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

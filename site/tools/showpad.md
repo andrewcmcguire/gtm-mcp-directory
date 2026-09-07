@@ -1,6 +1,6 @@
 # Showpad: MCP server status, API access gate and what it does
 
-> Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven... Official MCP, Enterprise only. Checked 2026-09-02.
+> Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Showpad
 [Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-09-02
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Content-plus-coaching hub with a documented developer portal, positioned similar
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://developer.showpad.com/docs/integrations/platform-independent/mcp (first-party docs; remote endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1)
+https://mcp.showpad.com/mcp/v1 ; https://developer.showpad.com/docs/integrations/platform-independent/mcp (first-party docs; remote endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1)
 
-- [https://developer.showpad.com/docs/integrations/platform-independent/mcp](https://developer.showpad.com/docs/integrations/platform-independent/mcp)
 - [https://mcp.showpad.com/mcp/v1](https://mcp.showpad.com/mcp/v1)
+- [https://developer.showpad.com/docs/integrations/platform-independent/mcp](https://developer.showpad.com/docs/integrations/platform-independent/mcp)
 - [https://yourcompany.showpad.biz/mcp/v1](https://yourcompany.showpad.biz/mcp/v1)
 
 **Access gate**
@@ -96,13 +96,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.showpad.com/pricing/](https://www.showpad.com/pricing/)
 - [https://developer.showpad.com/docs/integrations/platform-independent/mcp](https://developer.showpad.com/docs/integrations/platform-independent/mcp)
 - [https://developer.showpad.com/news/mcp-tools](https://developer.showpad.com/news/mcp-tools)
+- [https://mcp.showpad.com/mcp/v1](https://mcp.showpad.com/mcp/v1)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/, https://developer.showpad.com/docs/integrations/platform-independent/mcp, https://developer.showpad.com/news/mcp-tools
+https://www.showpad.com, https://developer.showpad.com, https://www.showpad.com/pricing/, https://developer.showpad.com/docs/integrations/platform-independent/mcp, https://developer.showpad.com/news/mcp-tools, https://mcp.showpad.com/mcp/v1
 
 **Notes, verbatim from the file**
-No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase. 2026-09-02: mcp_status none-found -> official. developer.showpad.com loaded without the earlier 403, its homepage says "connect AI assistants with Showpad MCP", and its sitemap lists https://developer.showpad.com/docs/integrations/platform-independent/mcp, a first-party docs page for a remotely hosted Showpad MCP: endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1, OAuth per end user with Showpad permissions enforced, 8 text tools (search, fetch, showpad_showql_guide, showpad_showql_filter, showpad_ask_a_question, showpad_whoami, showpad_shared_spaces_list, showpad_shared_spaces_get, showpad_shared_spaces_get_engagement) plus 3 MCP Apps widgets, with Claude Code and ChatGPT named as clients. The docs call it beta and route access via "Contact your Account Manager"; a July 2026 news item (https://developer.showpad.com/news/mcp-tools) says the article now carries the full tool reference. The "no MCP server found" sentence above is superseded.
+No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or pulsemcp.com - the developer portal exists but nothing MCP-specific was found there in this pass. developer.showpad.com returned an HTTP 403 to an automated fetch during this research pass; worth checking by hand directly in a browser. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.showpad.com/pricing/): the Developer Bundle (API/SDK, webhooks, reporting API) is bundled into the mid-tier Advanced plan and the Expert tier adds a remote MCP server, but all three tiers are quote-only with no published price and no self-serve purchase. 2026-09-02: mcp_status none-found -> official. developer.showpad.com loaded without the earlier 403, its homepage says "connect AI assistants with Showpad MCP", and its sitemap lists https://developer.showpad.com/docs/integrations/platform-independent/mcp, a first-party docs page for a remotely hosted Showpad MCP: endpoints https://mcp.showpad.com/mcp/v1 or per-tenant https://yourcompany.showpad.biz/mcp/v1, OAuth per end user with Showpad permissions enforced, 8 text tools (search, fetch, showpad_showql_guide, showpad_showql_filter, showpad_ask_a_question, showpad_whoami, showpad_shared_spaces_list, showpad_shared_spaces_get, showpad_shared_spaces_get_engagement) plus 3 MCP Apps widgets, with Claude Code and ChatGPT named as clients. The docs call it beta and route access via "Contact your Account Manager"; a July 2026 news item (https://developer.showpad.com/news/mcp-tools) says the article now carries the full tool reference. The "no MCP server found" sentence above is superseded. 2026-09-07: https://mcp.showpad.com/mcp/v1 returned 401 to an MCP initialize POST, as did the per-tenant form https://<tenant>.showpad.biz/mcp/v1 (https://mcp.showpad.com/mcp/v1).
 
 **Provenance**
 
@@ -114,7 +115,7 @@ No MCP server found at developer.showpad.com or on GitHub, mcp.so, glama.ai, or 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-02
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

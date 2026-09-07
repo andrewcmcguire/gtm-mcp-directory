@@ -1,6 +1,6 @@
-# Write CRM records: 28 GTM tools, 18 with an official MCP server
+# Write CRM records: 28 GTM tools, 19 with an official MCP server
 
-> Create or update records, log activity, or push data back into a system of record. 20 of the 28 entries tagged with this job carry an MCP server of some kind, 18 of them official. Counted 2026-09-07 from the directory data.
+> Create or update records, log activity, or push data back into a system of record. 20 of the 28 entries tagged with this job carry an MCP server of some kind, 19 of them official. Counted 2026-09-07 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,12 +19,12 @@ Write CRM records
 Create or update records, log activity, or push data back into a system of record.
 
 - **entries tagged**: 28
-- **official MCP**: 18
-- **community MCP**: 2
+- **official MCP**: 19
+- **community MCP**: 1
 - **no MCP found**: 7
 - **solo reachable**: 14
 
-20 of the 28 entries tagged with this job carry an MCP server of some kind, 18 of them official. 25 of the 28 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-07 from directory.json.
+20 of the 28 entries tagged with this job carry an MCP server of some kind, 19 of them official. 25 of the 28 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-07 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -68,6 +68,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Attention](../tools/attention.md) attention.com Captures, transcribes, and analyzes sales and customer conversations, automatically syncing structured insights to the CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Clay](../tools/clay.md) clay.com A spreadsheet-style workflow/orchestration tool that runs lead and company records through "waterfall" lookups across 100-200+ third-party data providers (Apollo, Lusha, Clearbit, etc.) and chains automation... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Close (Close CRM)](../tools/close.md) close.com A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
@@ -85,8 +87,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Surfe](../tools/surfe.md) surfe.com A Chrome extension plus API that pulls contacts and companies off LinkedIn, runs them through a multi-vendor waterfall to find verified emails and mobile numbers, and pushes the records into a CRM. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 

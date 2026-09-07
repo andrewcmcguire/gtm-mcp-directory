@@ -1,6 +1,6 @@
 # Amplemarket: MCP server status, API access gate and what it does
 
-> An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences... Official MCP, Enterprise leaning. Checked 2026-09-02.
+> An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences... Official MCP, Enterprise leaning. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Amplemarket
 [Enterprise leaning](../gates/enterprise-leaning.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-09-02
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Outbound execution layer (sequencing, deliverability, unified inbox) that would 
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server (endpoint https://mcp.amplemarket.com/mcp; product page https://www.amplemarket.com/mcp)
+https://mcp.amplemarket.com/mcp ; https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server (endpoint https://mcp.amplemarket.com/mcp; product page https://www.amplemarket.com/mcp)
 
-- [https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server)
 - [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp)
+- [https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server)
 - [https://www.amplemarket.com/mcp](https://www.amplemarket.com/mcp)
 
 **Access gate**
@@ -120,13 +120,14 @@ What that listing says it does: An all-in-one sales platform (lead gen + multich
 - [https://www.amplemarket.com/pricing](https://www.amplemarket.com/pricing)
 - [https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server)
 - [https://www.amplemarket.com/mcp](https://www.amplemarket.com/mcp)
+- [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket, https://www.amplemarket.com/pricing, https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server, https://www.amplemarket.com/mcp
+https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket, https://www.amplemarket.com/pricing, https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server, https://www.amplemarket.com/mcp, https://mcp.amplemarket.com/mcp
 
 **Notes, verbatim from the file**
-No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual. 2026-09-02: mcp_status none-found -> official, reconciled with the Amplemarket (Duo Copilot) entry in 04-ai-sdr-agents.md, which already recorded it. The help-center subdomain is reachable now: https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server returned 200 and documents the endpoint https://mcp.amplemarket.com/mcp (OAuth 2.0 sign-in, no API keys; Claude, ChatGPT, Claude Code, Cursor and any remote-capable client; prospect search, enrichment, sequences, lead lists, workflows, analytics; enrichment via MCP costs 0.5 credits). The endpoint answered 401 with a Bearer challenge today, which is the expected behaviour of an OAuth-gated MCP server. https://www.amplemarket.com/mcp links to the same guide.
+No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual. 2026-09-02: mcp_status none-found -> official, reconciled with the Amplemarket (Duo Copilot) entry in 04-ai-sdr-agents.md, which already recorded it. The help-center subdomain is reachable now: https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server returned 200 and documents the endpoint https://mcp.amplemarket.com/mcp (OAuth 2.0 sign-in, no API keys; Claude, ChatGPT, Claude Code, Cursor and any remote-capable client; prospect search, enrichment, sequences, lead lists, workflows, analytics; enrichment via MCP costs 0.5 credits). The endpoint answered 401 with a Bearer challenge today, which is the expected behaviour of an OAuth-gated MCP server. https://www.amplemarket.com/mcp links to the same guide. 2026-09-07: https://mcp.amplemarket.com/mcp returned 401 "Jwt is missing" to an MCP initialize POST. Vendor-owned mcp. subdomain (https://mcp.amplemarket.com/mcp).
 
 **Provenance**
 
@@ -138,7 +139,7 @@ No public API/developer-docs page was found (an /api path 404'd, help-center sub
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-02
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

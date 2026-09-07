@@ -1,6 +1,6 @@
 # TheirStack: MCP server status, API access gate and what it does
 
-> Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals,... Official MCP, Free to start. Checked 2026-08-24.
+> Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals,... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ TheirStack
 [Free to start](../gates/free.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://theirstack.com](https://theirstack.com) · entry id 05-theirstack · source 05-signals-intent-abm.md line 539
+Vendor: [https://theirstack.com](https://theirstack.com) · entry id 05-theirstack · source 05-signals-intent-abm.md line 544
 
 **What it does**
 Tracks 233M+ job postings across 195+ countries and 33,000+ technologies to detect hiring signals, technographic footprint, and buying-intent signals (job-posting keywords implying a company has or needs a specific type of software).
@@ -38,12 +38,12 @@ Hiring/technographic/intent signal feed used to build outbound target lists base
 
 - **Auth**: unknown - page references a "How does authentication work?" FAQ but the answer wasn't visible in the fetched content; requires free signup/login to use.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://theirstack.com/en/job-posting-mcp](https://theirstack.com/en/job-posting-mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://theirstack.com/en/job-posting-mcp (also technographics-mcp and buying-intent-mcp at the same domain)
+https://api.theirstack.com/mcp/ ; https://theirstack.com/en/job-posting-mcp (also technographics-mcp and buying-intent-mcp at the same domain)
 
+- [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/)
 - [https://theirstack.com/en/job-posting-mcp](https://theirstack.com/en/job-posting-mcp)
 
 **Access gate**
@@ -112,13 +113,14 @@ What that listing says it does: A job-postings and technographic-data API that t
 - [https://theirstack.com/](https://theirstack.com/)
 - [https://theirstack.com/en/pricing](https://theirstack.com/en/pricing)
 - [https://theirstack.com/en/job-posting-mcp](https://theirstack.com/en/job-posting-mcp)
+- [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://theirstack.com/, https://theirstack.com/en/pricing, https://theirstack.com/en/job-posting-mcp
+https://theirstack.com/, https://theirstack.com/en/pricing, https://theirstack.com/en/job-posting-mcp, https://api.theirstack.com/mcp/
 
 **Notes, verbatim from the file**
-Free trial plus credit-based pricing from $49/mo (API credits) up to $5,500/mo; one-time credit packs $109-$999; a full "talk to sales" enterprise tier exists for the complete datasets. Three separate MCP servers (jobs, technographics, buying intent) rather than one unified server - see Sweep notes for MCP-of-the-Week candidacy.
+Free trial plus credit-based pricing from $49/mo (API credits) up to $5,500/mo; one-time credit packs $109-$999; a full "talk to sales" enterprise tier exists for the complete datasets. Three separate MCP servers (jobs, technographics, buying intent) rather than one unified server - see Sweep notes for MCP-of-the-Week candidacy. 2026-09-07: Same first-party endpoint as the other TheirStack entry: DNS-verified registry namespace com.theirstack, 401 invalid_token to an MCP initialize on the trailing-slash path (https://api.theirstack.com/mcp/).
 
 **Provenance**
 
@@ -126,11 +128,11 @@ Free trial plus credit-based pricing from $49/mo (API credits) up to $5,500/mo; 
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 539
+- **Source line**: 544
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

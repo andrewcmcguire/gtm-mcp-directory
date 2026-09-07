@@ -29,7 +29,7 @@ Tools that surface what's happening in the channels a CRM and normal web analyti
 - **Gate unknown**: 3
 - **Gate not applicable**: 1
 
-Source file: 15-community-dark-social.md · content sha256 9cbb1be6d45168b5... · counts reconciled against tools_recount.py at build time.
+Source file: 15-community-dark-social.md · content sha256 43e0aeb5d3a2e3d2... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-community-dark-social.md)
 

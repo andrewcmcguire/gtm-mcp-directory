@@ -1,6 +1,6 @@
 # Woodpecker: MCP server status, API access gate and what it does
 
-> Cold email and LinkedIn outreach automation tool with inbox rotation, adaptive sending, and centralized reply... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Cold email and LinkedIn outreach automation tool with inbox rotation, adaptive sending, and centralized reply... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Woodpecker
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Outbound email sequencing/deliverability layer; MCP access is bundled with API/w
 
 - **Auth**: hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker API key
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://developers.woodpecker.co/docs/mcp/ (Claude-specific setup at https://developers.woodpecker.co/docs/mcp/connect-claude/)
+https://github.com/Woodpeckerco/woodpecker-mcp-server ; https://developers.woodpecker.co/docs/mcp/ (Claude-specific setup at https://developers.woodpecker.co/docs/mcp/connect-claude/)
 
+- [https://github.com/Woodpeckerco/woodpecker-mcp-server](https://github.com/Woodpeckerco/woodpecker-mcp-server)
 - [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/)
 - [https://developers.woodpecker.co/docs/mcp/connect-claude/](https://developers.woodpecker.co/docs/mcp/connect-claude/)
 
@@ -78,6 +79,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/Woodpeckerco/woodpecker-mcp-server](https://github.com/Woodpeckerco/woodpecker-mcp-server)
+
 **Jobs it can do**
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
@@ -92,13 +97,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://woodpecker.co/pricing/](https://woodpecker.co/pricing/)
 - [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/)
+- [https://github.com/Woodpeckerco/woodpecker-mcp-server](https://github.com/Woodpeckerco/woodpecker-mcp-server)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://woodpecker.co/pricing/, https://developers.woodpecker.co/docs/mcp/
+https://woodpecker.co/pricing/, https://developers.woodpecker.co/docs/mcp/, https://github.com/Woodpeckerco/woodpecker-mcp-server
 
 **Notes, verbatim from the file**
-"Integrations, API, webhooks, MCP, CLI" is a single $20/month add-on available on top of any pricing tier - not enterprise-gated. Notable discovery gap: this server did not surface via GitHub/glama.ai search (which returned an unrelated "Woodpecker CI" project) - only found by checking the vendor's own site directly.
+"Integrations, API, webhooks, MCP, CLI" is a single $20/month add-on available on top of any pricing tier - not enterprise-gated. Notable discovery gap: this server did not surface via GitHub/glama.ai search (which returned an unrelated "Woodpecker CI" project) - only found by checking the vendor's own site directly. 2026-09-07: GitHub account Woodpeckerco; README: "The Woodpecker MCP (Model Context Protocol) integration transforms cold email campaign management into a conversational experience... connecting your AI assistant to Woodpecker's automation platform" - that is woodpecker.co the cold-email vendor, not Woodpecker CI (https://github.com/Woodpeckerco/woodpecker-mcp-server).
 
 **Provenance**
 
@@ -110,7 +116,7 @@ https://woodpecker.co/pricing/, https://developers.woodpecker.co/docs/mcp/
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

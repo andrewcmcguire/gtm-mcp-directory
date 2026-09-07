@@ -38,7 +38,7 @@ Call logging and CRM hygiene for a RingCentral phone stack, aimed at teams whose
 
 - **Auth**: oauth plus a second, separate CRM link. The docs describe a two-layer model: RingCentral identity via OAuth 2.0 or SSO established when the server is added to the AI client, and then a CRM connection linked through the App Connect Chrome extension rather than inside the AI client, with only one CRM connected per RingCentral account at a time.
 
-- **Parsed URLs**: 3 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: not probed yet
 
@@ -50,11 +50,12 @@ official
 
 mcp_url, verbatim from the file:
 
-https://unified-crm-extension.labs.ringcentral.com/mcp (docs: https://mcp.labs.ringcentral.com/docs/servers/app-connect/; server registry: https://mcp.labs.ringcentral.com/docs/servers/)
+https://unified-crm-extension.labs.ringcentral.com/mcp (docs: https://mcp.labs.ringcentral.com/docs/servers/app-connect/; server registry: https://mcp.labs.ringcentral.com/docs/servers/) ; repo https://github.com/ringcentral/ringcentral-mcp-docs
 
 - [https://unified-crm-extension.labs.ringcentral.com/mcp](https://unified-crm-extension.labs.ringcentral.com/mcp)
 - [https://mcp.labs.ringcentral.com/docs/servers/app-connect/](https://mcp.labs.ringcentral.com/docs/servers/app-connect/)
 - [https://mcp.labs.ringcentral.com/docs/servers/](https://mcp.labs.ringcentral.com/docs/servers/)
+- [https://github.com/ringcentral/ringcentral-mcp-docs](https://github.com/ringcentral/ringcentral-mcp-docs)
 
 **Access gate**
 
@@ -78,6 +79,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/ringcentral/ringcentral-mcp-docs](https://github.com/ringcentral/ringcentral-mcp-docs)
+
 **Jobs it can do**
 
 No job tag on this entry.
@@ -89,13 +94,15 @@ No job tag on this entry.
 - [https://mcp.labs.ringcentral.com/docs/servers/app-connect/](https://mcp.labs.ringcentral.com/docs/servers/app-connect/)
 - [https://mcp.labs.ringcentral.com/docs/servers/](https://mcp.labs.ringcentral.com/docs/servers/)
 - [https://www.ringcentral.com/office/plansandpricing.html](https://www.ringcentral.com/office/plansandpricing.html)
+- [https://github.com/ringcentral/ringcentral-mcp-docs](https://github.com/ringcentral/ringcentral-mcp-docs)
+- [https://unified-crm-extension.labs.ringcentral.com/mcp](https://unified-crm-extension.labs.ringcentral.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://mcp.labs.ringcentral.com/docs/servers/app-connect/, https://mcp.labs.ringcentral.com/docs/servers/, https://www.ringcentral.com/office/plansandpricing.html
+https://mcp.labs.ringcentral.com/docs/servers/app-connect/, https://mcp.labs.ringcentral.com/docs/servers/, https://www.ringcentral.com/office/plansandpricing.html, https://github.com/ringcentral/ringcentral-mcp-docs, https://unified-crm-extension.labs.ringcentral.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07 and this one is unusual: POST of an MCP initialize to https://unified-crm-extension.labs.ringcentral.com/mcp returned HTTP 200 with a full initialize result, serverInfo name "rc-unified-crm-extension" version 1.0.0, protocol 2024-11-05. Tool discovery is open and unauthenticated by design; the docs confirm this, stating the RingEX servers need "no authentication required for tool discovery" and that only the tools marked as requiring a CRM connection need a linked account. Status is Beta and transport is SSE over HTTPS. The candid line on the vendor's own page is worth quoting in any coverage: "Some CRMs publish their own dedicated MCP servers with deeper, CRM-specific functionality. App Connect is most valuable when your CRM doesn't yet support MCP natively." A vendor telling a buyer to use someone else's server is rare enough to be the story. Three sibling servers are published in the same registry and are candidates for their own entries: RingEX Phone (12 tools), RingEX Chat (9 tools) and RingEX Admin (26 tools), all marked Preview. Nine tools here: getSessionInfo, getPublicConnectors, getHelp, findContactByName, findContactByPhone, createContact, createCallLog, rcGetCallLogs, logout.
+Verified 2026-09-07 and this one is unusual: POST of an MCP initialize to https://unified-crm-extension.labs.ringcentral.com/mcp returned HTTP 200 with a full initialize result, serverInfo name "rc-unified-crm-extension" version 1.0.0, protocol 2024-11-05. Tool discovery is open and unauthenticated by design; the docs confirm this, stating the RingEX servers need "no authentication required for tool discovery" and that only the tools marked as requiring a CRM connection need a linked account. Status is Beta and transport is SSE over HTTPS. The candid line on the vendor's own page is worth quoting in any coverage: "Some CRMs publish their own dedicated MCP servers with deeper, CRM-specific functionality. App Connect is most valuable when your CRM doesn't yet support MCP natively." A vendor telling a buyer to use someone else's server is rare enough to be the story. Three sibling servers are published in the same registry and are candidates for their own entries: RingEX Phone (12 tools), RingEX Chat (9 tools) and RingEX Admin (26 tools), all marked Preview. Nine tools here: getSessionInfo, getPublicConnectors, getHelp, findContactByName, findContactByPhone, createContact, createCallLog, rcGetCallLogs, logout. 2026-09-07: GitHub org ringcentral; repo is the MkDocs site for "RingCentral MCP Server Documentation" with per-server pages (docs/servers/app-connect.md) (https://github.com/ringcentral/ringcentral-mcp-docs).
 
 **Provenance**
 

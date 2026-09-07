@@ -28,13 +28,13 @@ Across 318 tools, 207 are callable through MCP and 152 are reachable by one pers
 
 | Step | Job | Tools tagged | Official MCP | Solo reachable |
 |---|---|---|---|---|
-| Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 8 |
+| Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 11 | 8 |
 | Find the person | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 17 | 17 |
 | Get a work email | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 22 |
 | Check it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 12 | 14 |
-| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 28 | 25 |
-| Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 26 | 23 |
-| Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 18 | 14 |
+| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 30 | 25 |
+| Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 27 | 23 |
+| Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 19 | 14 |
 
 Counted 2026-09-07. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
 

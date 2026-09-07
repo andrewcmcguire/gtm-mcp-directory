@@ -1,6 +1,6 @@
 # Pipedrive: MCP server status, API access gate and what it does
 
-> A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams. Official MCP, Free to start. Checked 2026-08-24.
+> A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams. Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Pipedrive
 [Free to start](../gates/free.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [pipedrive.com](https://pipedrive.com) · entry id 06-pipedrive · source 06-revops-infra.md line 79
+Vendor: [pipedrive.com](https://pipedrive.com) · entry id 06-pipedrive · source 06-revops-infra.md line 80
 
 **What it does**
 A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams.
@@ -38,12 +38,12 @@ SMB/mid-market pipeline CRM; positions its MCP server as available to any plan t
 
 - **Auth**: OAuth - "Connect in minutes through secure OAuth. No coding, no API development, no developer required." AI assistants can only see/edit what the logged-in Pipedrive user already has permission for; actions are logged for auditability.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.pipedrive.com/en/features/mcp-server
+https://mcp.pipedrive.com/mcp ; https://www.pipedrive.com/en/features/mcp-server
 
+- [https://mcp.pipedrive.com/mcp](https://mcp.pipedrive.com/mcp)
 - [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)
 
 **Access gate**
@@ -110,13 +111,14 @@ What that listing says it does: Pipedrive's built-in AI-driven forecasting layer
 **Sources**
 
 - [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)
+- [https://mcp.pipedrive.com/mcp](https://mcp.pipedrive.com/mcp)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+2 source URLs. Raw sources field, verbatim:
 
-https://www.pipedrive.com/en/features/mcp-server
+https://www.pipedrive.com/en/features/mcp-server, https://mcp.pipedrive.com/mcp
 
 **Notes, verbatim from the file**
-A community/self-hosted alternative exists (github.com/WillDent/pipedrive-mcp-server) but is unofficial and separate from Pipedrive's own native server.
+A community/self-hosted alternative exists (github.com/WillDent/pipedrive-mcp-server) but is unofficial and separate from Pipedrive's own native server. 2026-09-07: https://mcp.pipedrive.com/mcp returned 401 {"success":false,"error":"unauthorized access","errorCode":401,"error_info":"Please check developers.pipedrive.com"} to an MCP initialize POST - a vendor-branded error on a vendor-owned mcp. subdomain (https://mcp.pipedrive.com/mcp).
 
 **Provenance**
 
@@ -124,11 +126,11 @@ A community/self-hosted alternative exists (github.com/WillDent/pipedrive-mcp-se
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 79
+- **Source line**: 80
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

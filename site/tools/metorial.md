@@ -1,6 +1,6 @@
 # Metorial: MCP server status, API access gate and what it does
 
-> A hosted MCP gateway that gives AI agents/"AI employees" centralized, governed access to a company's SaaS... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> A hosted MCP gateway that gives AI agents/"AI employees" centralized, governed access to a company's SaaS... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Metorial
 [Paid, self-serve](../gates/paid.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [metorial.com](https://metorial.com) · entry id 07-metorial · source 07-mcp-infrastructure.md line 245
+Vendor: [metorial.com](https://metorial.com) · entry id 07-metorial · source 07-mcp-infrastructure.md line 250
 
 **What it does**
 A hosted MCP gateway that gives AI agents/"AI employees" centralized, governed access to a company's SaaS tools (Google Workspace, Microsoft 365, GitHub, Jira, Slack, Teams, Stripe, Salesforce, Zendesk, and custom internal systems) through one integration point.
@@ -38,12 +38,12 @@ An enterprise-governance-flavored alternative to Composio/Pipedream - pitched at
 
 - **Auth**: Fully custodial - Metorial stores and centrally manages OAuth tokens for every connected integration ("no tokens to manage" for the end user), with company login handled via SSO/SAML (Okta, Azure AD, Google Workspace) and each integration isolated from the others.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://metorial.com](https://metorial.com)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://metorial.com
+https://github.com/metorial/metorial ; https://metorial.com
 
+- [https://github.com/metorial/metorial](https://github.com/metorial/metorial)
 - [https://metorial.com](https://metorial.com)
 
 **Access gate**
@@ -77,6 +78,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/metorial/metorial](https://github.com/metorial/metorial)
+
 **Jobs it can do**
 
 - [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md)
@@ -89,13 +94,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://metorial.com](https://metorial.com)
 - [https://metorial.com/pricing](https://metorial.com/pricing)
+- [https://github.com/metorial/metorial](https://github.com/metorial/metorial)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://metorial.com, https://metorial.com/pricing
+https://metorial.com, https://metorial.com/pricing, https://github.com/metorial/metorial
 
 **Notes, verbatim from the file**
-Metorial is explicitly and fully custodial of OAuth tokens across every connected app - the entire pitch is "no tokens to manage" because Metorial manages them centrally. That is a meaningfully bigger trust concentration than Zapier MCP (reuses Zapier's existing per-app OAuth) or Anthropic's directory (per-connector, third-party-operated) - worth flagging to anyone evaluating it for a Salesforce/finance-adjacent connection.
+Metorial is explicitly and fully custodial of OAuth tokens across every connected app - the entire pitch is "no tokens to manage" because Metorial manages them centrally. That is a meaningfully bigger trust concentration than Zapier MCP (reuses Zapier's existing per-app OAuth) or Anthropic's directory (per-connector, third-party-operated) - worth flagging to anyone evaluating it for a Salesforce/finance-adjacent connection. 2026-09-07: GitHub org metorial (homepage metorial.com), repo metorial, 3,351 stars, pushed 2026-09-07 (https://github.com/metorial/metorial).
 
 **Provenance**
 
@@ -103,11 +109,11 @@ Metorial is explicitly and fully custodial of OAuth tokens across every connecte
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 245
+- **Source line**: 250
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

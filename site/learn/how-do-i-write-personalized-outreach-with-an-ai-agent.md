@@ -22,16 +22,16 @@ The drafting is the easy half and it is not where quality comes from. What decid
 
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
-| Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
+| Research the account | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 11 | 3 |
 | Find a real trigger | [detect a funding or news event](../jobs/detect-funding-or-news-event.md) | 12 | 10 | 5 |
 | Scrape the specific page | [scrape a web page for facts](../jobs/scrape-web-page-for-facts.md) | 6 | 5 | 2 |
-| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 28 | 6 |
-| Send it | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 26 | 3 |
+| Draft the message | [draft personalized outreach](../jobs/draft-personalized-outreach.md) | 51 | 30 | 6 |
+| Send it | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 27 | 3 |
 | Read what happened | [read outreach performance](../jobs/read-outreach-performance.md) | 14 | 7 | 2 |
 
 ## Why the research step is the whole game
 
-51 entries here are tagged [draft personalized outreach](../jobs/draft-personalized-outreach.md), the most tagged job in the entire vocabulary. Drafting is commoditised: every tool in the category will write you a competent paragraph. None of them can invent the fact that makes the paragraph worth reading. That fact comes from a research call, and research is where coverage is thinner: 10 official servers across 17 tagged entries.
+51 entries here are tagged [draft personalized outreach](../jobs/draft-personalized-outreach.md), the most tagged job in the entire vocabulary. Drafting is commoditised: every tool in the category will write you a competent paragraph. None of them can invent the fact that makes the paragraph worth reading. That fact comes from a research call, and research is where coverage is thinner: 11 official servers across 17 tagged entries.
 
 ## The tools an agent can call for the drafting step
 
@@ -49,14 +49,14 @@ A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ 
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
 - [Apollo.io](../tools/apollo-io.md) Official MCP · Paid, self-serve
 A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing,...
+- [Clari Copilot](../tools/clari-copilot.md) Official MCP · Paid, self-serve
+Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after...
 - [HeyReach](../tools/heyreach.md) Official MCP · Paid, self-serve
 Cloud-based LinkedIn outreach automation platform for agencies/sales teams running multi-account connection, messaging, and inbox campaigns from...
 - [Instantly](../tools/instantly.md) Official MCP · Paid, self-serve
 Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing.
-- [La Growth Machine](../tools/la-growth-machine.md) Official MCP · Paid, self-serve
-Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with...
 
-15 more are on the linked page. The cut is the display limit, not a ranking.
+17 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The failure mode to design against
 

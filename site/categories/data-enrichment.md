@@ -27,7 +27,7 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
 
-Source file: 01-data-enrichment.md · content sha256 456f24dbcf6cffa9... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 24bf7b35cc9fb080... · counts reconciled against tools_recount.py at build time.
 
 - [The 40 with an MCP server](../lists/mcp-data-enrichment.md)
 

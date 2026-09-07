@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://predictleads.com](https://predictleads.com) · entry id 05-predictleads · source 05-signals-intent-abm.md line 493
+Vendor: [https://predictleads.com](https://predictleads.com) · entry id 05-predictleads · source 05-signals-intent-abm.md line 497
 
 **What it does**
 Aggregates five signal categories (job openings, technology detections, news events, business connections, firmographics) across 129M companies in 195 countries by scraping public web sources - company sites, job boards, DNS/HTML/JS technology footprints, news.
@@ -107,7 +107,7 @@ Free tier confirmed - "sign up and get 100 free API requests/month," paid plans 
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 493
+- **Source line**: 497
 
 - **Tier**: RESEARCHED
 

@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://www.livedatatechnologies.com](https://www.livedatatechnologies.com) · entry id 05-live-data-technologies · source 05-signals-intent-abm.md line 446
+Vendor: [https://www.livedatatechnologies.com](https://www.livedatatechnologies.com) · entry id 05-live-data-technologies · source 05-signals-intent-abm.md line 449
 
 **What it does**
 Tracks real-time job changes and employment history for ~80M white-collar professionals by continuously re-verifying identities against open-web and public professional data sources, surfaced via API or the Moneyball/Streams products.
@@ -100,7 +100,7 @@ Searched "Live Data Technologies MCP server/github" plus mcp.so/glama.ai/pulsemc
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 446
+- **Source line**: 449
 
 - **Tier**: RESEARCHED
 

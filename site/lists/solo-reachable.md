@@ -150,6 +150,8 @@ chilipiper.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [
 chilipiper.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Book a meeting](../jobs/book-a-meeting.md) [Read calendar availability](../jobs/read-calendar-availability.md) [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) +2 |
 | [Circleback](../tools/circleback.md)
 circleback.ai | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Summarize a meeting](../jobs/summarize-meeting.md) |
+| [Clari Copilot](../tools/clari-copilot.md)
+clari.com | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) +2 |
 | [Clay](../tools/clay.md)
 clay.com | [Data & Enrichment](../categories/data-enrichment.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Enrich a company from a domain](../jobs/enrich-company-from-domain.md) [Build a target account list](../jobs/build-target-account-list.md) [Find a person's LinkedIn URL from a name and company](../jobs/find-linkedin-url-from-name-and-company.md) +4 |
 | [Close (Close CRM)](../tools/close.md)
@@ -200,6 +202,8 @@ intercom.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Paid, 
 justcall.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | no tag |
 | [Keyplay](../tools/keyplay.md)
 keyplay.io | [Signals & Intent](../categories/signals-intent-abm.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Build a target account list](../jobs/build-target-account-list.md) [Detect a company's tech stack](../jobs/detect-technographics.md) [Score and prioritize leads](../jobs/score-and-prioritize-leads.md) |
+| [Klenty](../tools/klenty.md)
+klenty.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Research an account before a call](../jobs/research-account-for-call-prep.md) [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +3 |
 | [La Growth Machine](../tools/la-growth-machine.md)
 lagrowthmachine.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [Paid, self-serve](../gates/paid.md) | [Official MCP](../mcp/official.md) | [Run an email sequence](../jobs/run-email-sequence.md) [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +1 |
 | [Lead411](../tools/lead411.md)
@@ -296,10 +300,6 @@ peopledatalabs.com | [Data & Enrichment](../categories/data-enrichment.md) | [Fr
 bonjoro.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) |
 | [Chatbase](../tools/chatbase.md)
 chatbase.co | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Answer an inbound chat or call](../jobs/answer-inbound-chat.md) |
-| [Clari Copilot](../tools/clari-copilot.md)
-clari.com | [Conversation Intel](../categories/conversation-intel.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Draft personalized outreach](../jobs/draft-personalized-outreach.md) [Fetch a call transcript](../jobs/fetch-call-transcript.md) [Summarize a meeting](../jobs/summarize-meeting.md) +2 |
-| [Klenty](../tools/klenty.md)
-klenty.com | [AI SDRs](../categories/ai-sdr-agents.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Research an account before a call](../jobs/research-account-for-call-prep.md) [Run an email sequence](../jobs/run-email-sequence.md) [Draft personalized outreach](../jobs/draft-personalized-outreach.md) +3 |
 | [Mention](../tools/mention.md)
 mention.com | [Community & Dark Social](../categories/community-dark-social.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Monitor social and community mentions](../jobs/monitor-social-mentions.md) |
 | [Motion](../tools/motion.md)

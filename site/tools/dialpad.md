@@ -90,13 +90,14 @@ No job tag on this entry.
 - [https://developers.dialpad.com/docs/dialpad-mcp-server](https://developers.dialpad.com/docs/dialpad-mcp-server)
 - [https://www.dialpad.com/mcp/](https://www.dialpad.com/mcp/)
 - [https://www.dialpad.com/pricing/](https://www.dialpad.com/pricing/)
+- [https://mcp-public.us.karehq.com/mcp](https://mcp-public.us.karehq.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://developers.dialpad.com/docs/dialpad-mcp-server, https://www.dialpad.com/mcp/, https://www.dialpad.com/pricing/
+https://developers.dialpad.com/docs/dialpad-mcp-server, https://www.dialpad.com/mcp/, https://www.dialpad.com/pricing/, https://mcp-public.us.karehq.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp-public.us.karehq.com/mcp returned HTTP 401 with {"detail":"Authorization header missing or invalid format."}, confirming a live auth-gated server. TWO CORRECTIONS TO THE CANDIDATE ROW, both material. First, the endpoint is not on a dialpad.com host at all: mcp.dialpad.com does not resolve (DNS failure on this date), and the documented server URLs are on karehq.com, a domain Dialpad acquired with Kare Knowledgeware. An operator checking only dialpad.com would conclude no server exists. Second, the marketing page at dialpad.com/mcp shows an API key (dp_...) in its illustrations and claims "100+ pre-built actions", while the developer docs state OAuth with no API keys and count "36 tools are exposed by the Dialpad MCP Server today". Where the two disagree the developer docs are treated as authoritative and both figures are recorded. Tool groups documented: Calls, Call Centers, Coaching Teams, Contacts, Departments and Offices, and more. The tools are built out of the Dialpad Public APIs, so MCP reach equals API reach.
+Verified 2026-09-07: POST of an MCP initialize to https://mcp-public.us.karehq.com/mcp returned HTTP 401 with {"detail":"Authorization header missing or invalid format."}, confirming a live auth-gated server. TWO CORRECTIONS TO THE CANDIDATE ROW, both material. First, the endpoint is not on a dialpad.com host at all: mcp.dialpad.com does not resolve (DNS failure on this date), and the documented server URLs are on karehq.com, a domain Dialpad acquired with Kare Knowledgeware. An operator checking only dialpad.com would conclude no server exists. Second, the marketing page at dialpad.com/mcp shows an API key (dp_...) in its illustrations and claims "100+ pre-built actions", while the developer docs state OAuth with no API keys and count "36 tools are exposed by the Dialpad MCP Server today". Where the two disagree the developer docs are treated as authoritative and both figures are recorded. Tool groups documented: Calls, Call Centers, Coaching Teams, Contacts, Departments and Offices, and more. The tools are built out of the Dialpad Public APIs, so MCP reach equals API reach. 2026-09-07: Both regional endpoints answered 401 to an MCP initialize POST: https://mcp-public.us.karehq.com/mcp and https://mcp-public.eu.karehq.com/mcp. karehq.com is Dialpad-operated (Kare was acquired by Dialpad) (https://mcp-public.us.karehq.com/mcp).
 
 **Provenance**
 

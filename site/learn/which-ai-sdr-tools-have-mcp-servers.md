@@ -1,6 +1,6 @@
 # AI SDR tools with MCP servers: 10 of 23, counted
 
-> 10 of the 23 ai sdrs tools in this directory have an MCP server: 7 official and 3 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 10 of the 23 ai sdrs tools in this directory have an MCP server: 8 official and 2 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-10 of the 23 ai sdrs entries in this directory have an MCP server: 7 built and maintained by the vendor and 3 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
+10 of the 23 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 2 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
 
 This is the inversion in one table. A category sold entirely on autonomous software is the least callable by anybody else's autonomous software, and the gap is not close.
 
@@ -28,6 +28,8 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 A platform for building and deploying specialist AI agents (research/enrichment, outbound prospecting, meeting scheduling, deal review, proposal...
 - [Amplemarket](../tools/amplemarket.md) Official MCP · Enterprise leaning
 An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email...
+- [Klenty](../tools/klenty.md) No MCP found · Paid, self-serve
+Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS...
 - [Reply.io](../tools/reply-io.md) Official MCP · Paid, self-serve
 Multichannel sales engagement platform for email, LinkedIn, call, and SMS outreach with an AI SDR product layered on top.
 - [Salesforge](../tools/salesforge.md) Official MCP · Paid, self-serve
@@ -38,8 +40,6 @@ An AI agent ("Ava") that finds and enriches B2B leads, writes and sends personal
 Revenue operations platform that aggregates CRM, activity, and conversation data into pipeline inspection, forecasting, and deal-execution workflows.
 - [MadKudu](../tools/madkudu.md) Official MCP · Enterprise only
 Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears folded into HG Insights' "HG...
-- [Klenty](../tools/klenty.md) No MCP found · Paid, self-serve
-Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS...
 - [Unify](../tools/unify.md) Community MCP · Paid, self-serve
 A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and...
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) Community MCP · Enterprise only
@@ -85,7 +85,7 @@ An AI-powered revenue automation platform for enterprise sales teams, positioned
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 | [Gate unknown](../gates/unknown.md) | 3 |
 
-Counted 2026-09-07. Source file 04-ai-sdr-agents.md, content sha256 b6c65bd7529c7bdc...
+Counted 2026-09-07. Source file 04-ai-sdr-agents.md, content sha256 50ad3dbcb89d3177...
 
 ## Sources
 

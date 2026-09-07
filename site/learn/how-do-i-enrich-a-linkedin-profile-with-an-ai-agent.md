@@ -58,7 +58,7 @@ A profile URL is rarely the end state. The usual sequence is profile to person r
 | Find the work email | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | Verify it is deliverable | [verify an email is deliverable](../jobs/verify-email-deliverable.md) | 15 | 12 | 6 |
 | Enrich their company | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 15 |
-| Write it to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 18 | 7 |
+| Write it to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 19 | 7 |
 
 ## Three things to be careful about
 

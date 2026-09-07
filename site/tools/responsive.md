@@ -99,7 +99,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.responsive.io/capability/mcp-server, https://help.responsive.io/en-US/responsive/article/duV3ckq5-using-responsive-mcp-server-with-generative-ai-tools, https://autorfp.ai/blog/responsive-rfpio-pricing, https://tribble.ai/blog/responsive-rfpio-review-pricing-features-limitations-2026/
 
 **Notes, verbatim from the file**
-Verify current URL/branding before publishing - Responsive was formerly RFPIO; responsive.io is the confirmed current primary domain used in official MCP docs.
+Verify current URL/branding before publishing - Responsive was formerly RFPIO; responsive.io is the confirmed current primary domain used in official MCP docs. 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. What the official claim actually rests on: a vendor capability page and a Microsoft-certified connector, neither of which is a repo or a callable endpoint. The finder searched GitHub ("Responsive mcp" and "RFPIO mcp", owners responsive-io, responsiveio and rfpio), npm, PyPI and the official registry and probed https://mcp.responsive.io/ and /mcp with no result. A human should decide whether official survives law 1.
 
 **Provenance**
 

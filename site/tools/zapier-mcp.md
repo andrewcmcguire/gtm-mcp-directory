@@ -1,6 +1,6 @@
 # Zapier MCP: MCP server status, API access gate and what it does
 
-> Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app... Official MCP, Free to start. Checked 2026-08-24.
+> Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Zapier MCP
 [Free to start](../gates/free.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [zapier.com/mcp](https://zapier.com/mcp) · entry id 07-zapier-mcp · source 07-mcp-infrastructure.md line 54
+Vendor: [zapier.com/mcp](https://zapier.com/mcp) · entry id 07-zapier-mcp · source 07-mcp-infrastructure.md line 56
 
 **What it does**
 Zapier's own MCP endpoint, letting Claude, ChatGPT, Cursor, and other MCP clients trigger the same 9,000+ app actions Zapier already exposes to its classic trigger-action Zaps.
@@ -38,12 +38,12 @@ The broadest reach-into-anything connector for a RevOps stack already standardiz
 
 - **Auth**: Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize apps the same way you would for a normal Zap, then expose selected actions to the MCP client.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,12 @@ official
 
 mcp_url, verbatim from the file:
 
-https://mcp.zapier.com/login?redirectTo=%2Fmcp (redirect correction 2026-08-28: the bare address previously recorded here, mcp.zapier.com, 307s to /mcp and then to this signed-in console URL, which returns 200. It is an auth wall, not documentation; the public documentation for the same server is https://zapier.com/mcp)
+https://mcp.zapier.com/api/v1/connect ; https://mcp.zapier.com/login?redirectTo=%2Fmcp (redirect correction 2026-08-28: the bare address previously recorded here, mcp.zapier.com, 307s to /mcp and then to this signed-in console URL, which returns 200. It is an auth wall, not documentation; the public documentation for the same server is https://zapier.com/mcp) ; repo https://github.com/zapier/zapier-mcp
 
+- [https://mcp.zapier.com/api/v1/connect](https://mcp.zapier.com/api/v1/connect)
 - [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)
 - [https://zapier.com/mcp](https://zapier.com/mcp)
+- [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
 
 **Access gate**
 
@@ -78,6 +80,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+
 **Jobs it can do**
 
 - [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md)
@@ -90,13 +96,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://zapier.com/mcp](https://zapier.com/mcp)
 - [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)
+- [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+- [https://mcp.zapier.com/api/v1/connect](https://mcp.zapier.com/api/v1/connect)
 
-2 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://zapier.com/mcp, https://mcp.zapier.com/login?redirectTo=%2Fmcp
+https://zapier.com/mcp, https://mcp.zapier.com/login?redirectTo=%2Fmcp, https://github.com/zapier/zapier-mcp, https://mcp.zapier.com/api/v1/connect
 
 **Notes, verbatim from the file**
-Because MCP calls draw from the same task pool as regular Zaps, a chatty agent can burn a plan's task quota fast - worth watching before pointing a high-frequency agent at it.
+Because MCP calls draw from the same task pool as regular Zaps, a chatty agent can burn a plan's task quota fast - worth watching before pointing a high-frequency agent at it. 2026-09-07: Same first-party artifact as the Zapier entry: zapier/zapier-mcp (405 stars), registry com.zapier/mcp, remote https://mcp.zapier.com/api/v1/connect returning 401 to an MCP initialize (https://github.com/zapier/zapier-mcp).
 
 **Provenance**
 
@@ -104,11 +112,11 @@ Because MCP calls draw from the same task pool as regular Zaps, a chatty agent c
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 54
+- **Source line**: 56
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

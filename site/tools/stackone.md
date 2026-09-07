@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [stackone.com](https://stackone.com) · entry id 07-stackone · source 07-mcp-infrastructure.md line 375
+Vendor: [stackone.com](https://stackone.com) · entry id 07-stackone · source 07-mcp-infrastructure.md line 383
 
 **What it does**
 A unified-API vendor that publishes a stated 518 managed MCP servers exposing 31,928 tools across HR, CRM, IT and finance applications, reachable through one endpoint with per-account routing, plus dynamic tool discovery so an agent loads only the tools a task needs.
@@ -38,7 +38,7 @@ The connector layer for a team that wants one governed endpoint in front of many
 
 - **Auth**: Basic authentication plus a per-account identifier, with StackOne brokering OAuth, API keys and token refresh to each connected application on the customer's behalf.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: not probed yet
 
@@ -50,8 +50,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://api.stackone.com/mcp?x-account-id= (product page: https://www.stackone.com/platform/mcp/)
+https://mcp.stackone.com/mcp ; https://api.stackone.com/mcp?x-account-id= (product page: https://www.stackone.com/platform/mcp/)
 
+- [https://mcp.stackone.com/mcp](https://mcp.stackone.com/mcp)
 - [https://api.stackone.com/mcp?x-account-id=](https://api.stackone.com/mcp?x-account-id=)
 - [https://www.stackone.com/platform/mcp/](https://www.stackone.com/platform/mcp/)
 
@@ -89,13 +90,14 @@ No job tag on this entry.
 - [https://www.stackone.com/pricing/](https://www.stackone.com/pricing/)
 - [https://api.stackone.com/mcp](https://api.stackone.com/mcp)
 - [https://docs.stackone.com/mcp](https://docs.stackone.com/mcp)
+- [https://mcp.stackone.com/mcp](https://mcp.stackone.com/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.stackone.com/platform/mcp/, https://www.stackone.com/pricing/, https://api.stackone.com/mcp, https://docs.stackone.com/mcp
+https://www.stackone.com/platform/mcp/, https://www.stackone.com/pricing/, https://api.stackone.com/mcp, https://docs.stackone.com/mcp, https://mcp.stackone.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp returned HTTP 401 with {"statusCode":401,"message":"Unauthorized"}, confirming a live auth-gated server. NAME COLLISION INSIDE ONE VENDOR, worth recording because it will catch an automated verifier: https://docs.stackone.com/mcp is also a live MCP server, but it is a Mintlify documentation server whose tools are search_stackone and query_docs_filesystem_stackone over StackOne's own docs, and it is read-only and scoped to published site content. It is not the unified-API server and must not be recorded as the product endpoint. The vendor's positioning line is a direct swipe at this directory's own subject matter and is quotable: "First-party MCPs weren't built for production. StackOne's are." GTM connectors the research surfaced on StackOne include Salesloft, JustCall, Dialpad, Help Scout, RingCentral and Aircall, which means several vendors in this directory can be reached either directly or through StackOne, and a buyer should compare rather than assume the wrapper is worse. Vendor also advertises automated creation of new MCP servers, which would make the 518 figure a moving number.
+Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp returned HTTP 401 with {"statusCode":401,"message":"Unauthorized"}, confirming a live auth-gated server. NAME COLLISION INSIDE ONE VENDOR, worth recording because it will catch an automated verifier: https://docs.stackone.com/mcp is also a live MCP server, but it is a Mintlify documentation server whose tools are search_stackone and query_docs_filesystem_stackone over StackOne's own docs, and it is read-only and scoped to published site content. It is not the unified-API server and must not be recorded as the product endpoint. The vendor's positioning line is a direct swipe at this directory's own subject matter and is quotable: "First-party MCPs weren't built for production. StackOne's are." GTM connectors the research surfaced on StackOne include Salesloft, JustCall, Dialpad, Help Scout, RingCentral and Aircall, which means several vendors in this directory can be reached either directly or through StackOne, and a buyer should compare rather than assume the wrapper is worse. Vendor also advertises automated creation of new MCP servers, which would make the 518 figure a moving number. 2026-09-07: Official MCP registry carries com.stackone/mcp (DNS-verified stackone.com namespace) with remote https://mcp.stackone.com/mcp; that URL returned 401 to an MCP initialize, as did https://api.stackone.com/mcp (https://mcp.stackone.com/mcp).
 
 **Provenance**
 
@@ -103,7 +105,7 @@ Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp r
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 375
+- **Source line**: 383
 
 - **Tier**: RESEARCHED
 

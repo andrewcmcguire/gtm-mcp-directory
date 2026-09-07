@@ -88,7 +88,7 @@ Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agent
 - 2024
 - referenced via the newsroom listing
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 13 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.zendesk.com/newsroom/press-releases/ (press release "Zendesk to Acquire Ultimate," dated March 13, 2024, referenced via the newsroom listing)
 

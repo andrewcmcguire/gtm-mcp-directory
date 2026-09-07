@@ -1,6 +1,6 @@
 # Which call recording tools can an AI agent fetch transcripts from? Counted
 
-> 15 of the 20 GTM tools tagged with this job ship an official MCP server, 11 are reachable without a contract. The full list, counted 2026-09-07.
+> 16 of the 20 GTM tools tagged with this job ship an official MCP server, 11 are reachable without a contract. The full list, counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-20 products in this directory are tagged with this job. 15 of the 20 tagged entries have an official MCP server and 3 have a community one, so an agent can call 18 of them directly. 11 are reachable by one person without a contract. Counted 2026-09-07.
+20 products in this directory are tagged with this job. 16 of the 20 tagged entries have an official MCP server and 2 have a community one, so an agent can call 18 of them directly. 11 are reachable by one person without a contract. Counted 2026-09-07.
 
 A transcript is the only place most of what a buyer actually said is written down, which makes this the highest value read in the whole stack for an agent preparing for a call or writing a follow up.
 
@@ -28,8 +28,8 @@ It is also the most sensitive. A transcript contains other people's words, recor
 |---|---|---|
 | Entries tagged fetch-call-transcript | 20 | of 318 directory entries |
 | Distinct products | 20 | the rest are cross listings |
-| Official MCP server | 15 | vendor built and maintained |
-| Community MCP server | 3 | built by somebody else |
+| Official MCP server | 16 | vendor built and maintained |
+| Community MCP server | 2 | built by somebody else |
 | No server found | 2 | on the date each entry was checked |
 | Free to start | 3 | no payment, no sales call |
 | Solo reachable | 11 | free or paid self serve |
@@ -49,6 +49,8 @@ A relationship-intelligence CRM for deal teams that auto-builds the contact grap
 Captures, transcribes, and analyzes sales and customer conversations, automatically syncing structured insights to the CRM.
 - [Avoma](../tools/avoma.md) Official MCP · Paid, self-serve
 AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams.
+- [Clari Copilot](../tools/clari-copilot.md) Official MCP · Paid, self-serve
+Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after...
 - [Fellow](../tools/fellow.md) Official MCP · Paid, self-serve
 A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they...
 - [Grain](../tools/grain.md) Official MCP · Paid, self-serve
@@ -59,10 +61,8 @@ General-purpose AI notetaker that generates enhanced meeting notes and summaries
 Records and transcribes Zoom, Google Meet, and Microsoft Teams calls, layering on sales coaching (playbook monitoring, objection handling) at higher...
 - [Gong](../tools/gong.md) Official MCP · Enterprise only
 Records, transcribes, and analyzes sales calls and emails, then rolls the signals into deal-risk scores, coaching data, and revenue forecasts.
-- [Highspot](../tools/highspot.md) Official MCP · Enterprise only
-Sales enablement platform (content management, training) that has added a genuine call-recording and conversation-intelligence module on top of its...
 
-3 more are on the linked page. The cut is the display limit, not a ranking.
+4 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The ones with a free tier
 

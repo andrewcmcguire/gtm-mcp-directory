@@ -102,17 +102,17 @@
     "build_total": 318,
     "recount_total": 318,
     "build_mcp_status": {
-      "community": 26,
+      "community": 24,
       "n-a": 9,
       "none-found": 87,
-      "official": 181,
+      "official": 183,
       "unknown": 15
     },
     "recount_mcp_status": {
-      "community": 26,
+      "community": 24,
       "n-a": 9,
       "none-found": 87,
-      "official": 181,
+      "official": 183,
       "unknown": 15
     },
     "build_api_gate": {
@@ -236,20 +236,20 @@
     "mcp_url_present": 301,
     "mcp_url_missing": 17,
     "mcp_url_with_parseable_url": 225,
-    "mcp_url_pointing_at_github": 53,
+    "mcp_url_pointing_at_github": 77,
     "mcp_auth_present": 313,
-    "github_candidates_any": 68,
+    "github_candidates_any": 92,
     "sources_zero_urls": 0,
-    "sources_one_url": 14,
-    "sources_two_or_more_urls": 304,
-    "sources_url_total": 1298,
+    "sources_one_url": 13,
+    "sources_two_or_more_urls": 305,
+    "sources_url_total": 1386,
     "sources_with_annotations": 12,
     "entries_with_extra_fields": 0,
     "mcp_status": {
-      "community": 26,
+      "community": 24,
       "n-a": 9,
       "none-found": 87,
-      "official": 181,
+      "official": 183,
       "unknown": 15
     },
     "api_gate": {
@@ -266,32 +266,33 @@
       "RESEARCHED": 317
     },
     "last_checked": {
-      "2026-08-24": 118,
-      "2026-08-25": 23,
-      "2026-09-02": 131,
-      "2026-09-03": 21,
-      "2026-09-07": 25
+      "2026-08-24": 71,
+      "2026-08-25": 22,
+      "2026-09-02": 121,
+      "2026-09-03": 15,
+      "2026-09-07": 89
     },
     "bench_tested": 1,
     "endpoint_status": {
       "live": 1,
-      "live-auth-gated": 34,
+      "live-auth-gated": 26,
+      "auth-wall": 8,
       "repo-local": 34,
       "docs-only": 97,
       "unreachable": 15,
       "not-probed": 26,
       "not-applicable": 111
     },
-    "official_with_live_endpoint": 35,
-    "official_docs_only": 86,
-    "mcp_tool_count_total": 7991,
-    "servers_with_a_tool_list": 106,
+    "official_with_live_endpoint": 27,
+    "official_docs_only": 88,
+    "mcp_tool_count_total": 8345,
+    "servers_with_a_tool_list": 115,
     "servers_claiming_a_server": 207,
     "tools_by_evidence": {
-      "live-list": 5940,
-      "docs": 986,
-      "source": 894,
-      "readme": 171
+      "live-list": 5957,
+      "source": 1191,
+      "docs": 983,
+      "readme": 214
     },
     "endpoint_probe_date": "2026-09-04",
     "jobs_tagged": 271,
@@ -1028,7 +1029,7 @@
       "family": "signals-and-research",
       "entry_count": 17,
       "product_count": 16,
-      "official_mcp": 10,
+      "official_mcp": 11,
       "solo_reachable": 8,
       "bench_tested": 1
     },
@@ -1037,7 +1038,7 @@
       "family": "outreach-and-engagement",
       "entry_count": 45,
       "product_count": 38,
-      "official_mcp": 26,
+      "official_mcp": 27,
       "solo_reachable": 23,
       "bench_tested": 0
     },
@@ -1055,7 +1056,7 @@
       "family": "outreach-and-engagement",
       "entry_count": 51,
       "product_count": 45,
-      "official_mcp": 28,
+      "official_mcp": 30,
       "solo_reachable": 25,
       "bench_tested": 0
     },
@@ -1064,7 +1065,7 @@
       "family": "outreach-and-engagement",
       "entry_count": 22,
       "product_count": 19,
-      "official_mcp": 12,
+      "official_mcp": 13,
       "solo_reachable": 8,
       "bench_tested": 0
     },
@@ -1100,7 +1101,7 @@
       "family": "conversations-and-meetings",
       "entry_count": 20,
       "product_count": 20,
-      "official_mcp": 15,
+      "official_mcp": 16,
       "solo_reachable": 11,
       "bench_tested": 0
     },
@@ -1118,7 +1119,7 @@
       "family": "conversations-and-meetings",
       "entry_count": 22,
       "product_count": 22,
-      "official_mcp": 18,
+      "official_mcp": 19,
       "solo_reachable": 14,
       "bench_tested": 0
     },
@@ -1127,7 +1128,7 @@
       "family": "conversations-and-meetings",
       "entry_count": 21,
       "product_count": 21,
-      "official_mcp": 11,
+      "official_mcp": 12,
       "solo_reachable": 4,
       "bench_tested": 0
     },
@@ -1172,7 +1173,7 @@
       "family": "systems-of-record",
       "entry_count": 28,
       "product_count": 25,
-      "official_mcp": 18,
+      "official_mcp": 19,
       "solo_reachable": 14,
       "bench_tested": 0
     },
@@ -1298,7 +1299,7 @@
       "family": "planning-scoring-coaching",
       "entry_count": 25,
       "product_count": 24,
-      "official_mcp": 7,
+      "official_mcp": 8,
       "solo_reachable": 4,
       "bench_tested": 0
     },
@@ -1307,7 +1308,7 @@
       "family": "planning-scoring-coaching",
       "entry_count": 11,
       "product_count": 10,
-      "official_mcp": 2,
+      "official_mcp": 3,
       "solo_reachable": 1,
       "bench_tested": 0
     },
@@ -1371,7 +1372,7 @@
     },
     "thin_sourcing": {
       "rule": "SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs.",
-      "count": 14,
+      "count": 13,
       "entries": [
         {
           "id": "04-aisdr",
@@ -1391,11 +1392,6 @@
         {
           "id": "05-intently",
           "name": "Intently (getintently.com)",
-          "source_urls": 1
-        },
-        {
-          "id": "06-pipedrive",
-          "name": "Pipedrive",
           "source_urls": 1
         },
         {
@@ -1901,6 +1897,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "a6e192258cb0f3b53810832184cac5129a9e921f2070392092cb76310485644a",
-  "source_sha256": "8ced61216b3602e5ab7d8b494d39e0733ffcd227cedc3e2491438f5e67f7dceb"
+  "content_sha256": "d639e1c627d417b72c444457b3b51691df14929cc9c263abb65ad6210e317a42",
+  "source_sha256": "16f326cdbfc4a888ca04a125a94357faa4cde81706114895c5bbbed585209355"
 }

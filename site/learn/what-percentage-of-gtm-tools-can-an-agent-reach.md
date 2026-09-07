@@ -24,7 +24,7 @@
 |---|---|---|
 | Every tool counted | 318 | 100% |
 | Has a server of any kind | 207 | 65% |
-| Server is first party | 181 | 57% |
+| Server is first party | 183 | 58% |
 | Server, and free or paid self serve | 152 | 48% |
 | Server, first party, and free to start | 53 | 17% |
 | And somebody here has actually run it | 1 | 0% |

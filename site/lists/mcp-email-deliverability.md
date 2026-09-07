@@ -19,7 +19,7 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Allegrow](../tools/allegrow.md)
-allegrow.co | [Official MCP](../mcp/official.md) | [https://www.allegrow.co/knowledge-base/claude-email-...](https://www.allegrow.co/knowledge-base/claude-email-mcp) | OAuth
+allegrow.co | [Official MCP](../mcp/official.md) | [https://mcp.allegrow.co/mcp](https://mcp.allegrow.co/mcp) +1 more | OAuth
 OAuth - connects through Claude's standard connector authorization flow; user logs into... | [Paid, self-serve](../gates/paid.md) |
 | [Infraforge](../tools/infraforge.md)
 infraforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/mcp](https://mcp.salesforge.ai/mcp) | API key

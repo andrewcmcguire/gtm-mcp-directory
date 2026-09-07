@@ -1,6 +1,6 @@
 # Seamless.AI: MCP server status, API access gate and what it does
 
-> A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers,... Official MCP, Enterprise only. Checked 2026-08-24.
+> A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers,... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Seamless.AI
 [Enterprise only](../gates/enterprise-only.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Top-of-funnel prospecting/contact-discovery source - used to build target lists 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.seamless.ai/mcp-docs (hosted endpoint https://mcp.seamless.ai/mcp)
+https://mcp.seamless.ai/mcp ; https://docs.seamless.ai/mcp-docs (hosted endpoint https://mcp.seamless.ai/mcp)
 
-- [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs)
 - [https://mcp.seamless.ai/mcp](https://mcp.seamless.ai/mcp)
+- [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs)
 
 **Access gate**
 
@@ -100,13 +100,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://salesintel.io/blog/seamless-ai-pricing/](https://salesintel.io/blog/seamless-ai-pricing/)
 - [https://www.spendhound.com/marketplace/seamlessai-pricing](https://www.spendhound.com/marketplace/seamlessai-pricing)
 - [https://www.cleanlist.ai/blog/2026-03-19-seamless-ai-pricing-guide](https://www.cleanlist.ai/blog/2026-03-19-seamless-ai-pricing-guide)
+- [https://mcp.seamless.ai/mcp](https://mcp.seamless.ai/mcp)
 
-6 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://docs.seamless.ai/mcp-docs, https://seamless.ai/customers/blog/products/seamless-mcp-server, https://www.prweb.com/releases/seamlessais-new-mcp-server-takes-you-from-prompt-to-closed-won-deal-302839077.html, https://salesintel.io/blog/seamless-ai-pricing/, https://www.spendhound.com/marketplace/seamlessai-pricing, https://www.cleanlist.ai/blog/2026-03-19-seamless-ai-pricing-guide
+https://docs.seamless.ai/mcp-docs, https://seamless.ai/customers/blog/products/seamless-mcp-server, https://www.prweb.com/releases/seamlessais-new-mcp-server-takes-you-from-prompt-to-closed-won-deal-302839077.html, https://salesintel.io/blog/seamless-ai-pricing/, https://www.spendhound.com/marketplace/seamlessai-pricing, https://www.cleanlist.ai/blog/2026-03-19-seamless-ai-pricing-guide, https://mcp.seamless.ai/mcp
 
 **Notes, verbatim from the file**
-Multiple independent pricing breakdowns put raw API access on Seamless's Enterprise tier only, with quoted contracts roughly $20k-$100k/year depending on seats/volume; consumer-facing Free/Basic/Pro plans are seat-and-credit based with no documented self-serve API key. Treat "MCP access must be enabled on your account" as effectively the same enterprise gate.
+Multiple independent pricing breakdowns put raw API access on Seamless's Enterprise tier only, with quoted contracts roughly $20k-$100k/year depending on seats/volume; consumer-facing Free/Basic/Pro plans are seat-and-credit based with no documented self-serve API key. Treat "MCP access must be enabled on your account" as effectively the same enterprise gate. 2026-09-07: https://mcp.seamless.ai/mcp returned 401 to an MCP initialize POST (https://mcp.seamless.ai/mcp).
 
 **Provenance**
 
@@ -118,7 +119,7 @@ Multiple independent pricing breakdowns put raw API access on Seamless's Enterpr
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

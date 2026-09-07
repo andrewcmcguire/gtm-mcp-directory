@@ -88,13 +88,14 @@ No job tag on this entry.
 - [https://harmonic.ai/pricing](https://harmonic.ai/pricing)
 - [https://mcp.api.harmonic.ai/.well-known/oauth-protected-resource](https://mcp.api.harmonic.ai/.well-known/oauth-protected-resource)
 - [https://console.harmonic.ai/docs/mcp-server](https://console.harmonic.ai/docs/mcp-server)
+- [https://mcp.api.harmonic.ai](https://mcp.api.harmonic.ai)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://harmonic.ai/pricing, https://mcp.api.harmonic.ai/.well-known/oauth-protected-resource, https://console.harmonic.ai/docs/mcp-server
+https://harmonic.ai/pricing, https://mcp.api.harmonic.ai/.well-known/oauth-protected-resource, https://console.harmonic.ai/docs/mcp-server, https://mcp.api.harmonic.ai
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.api.harmonic.ai returned HTTP 401 with an invalid_token error instructing the client to clear its tokens and reconnect, which is how a live OAuth-gated MCP server behaves, and the OAuth protected-resource document at the same host resolved and declared read and write scopes. HONEST LIMIT: console.harmonic.ai/docs/mcp-server returns HTTP 200 but is a client-rendered dashboard shell, so no human-readable MCP documentation could be read by an automated fetch on this date. The official call therefore rests on the first-party endpoint plus the two MCP feature lines on harmonic.ai/pricing, not on a docs page whose contents anyone has verified. The tier split is the useful finding for a solo operator: "MCP trial credits" and "Full MCP access" are different things on different packages and neither carries a published price. Cross-reference: this is also a signals product and 05-signals-intent-abm.md could reasonably cross-list it; 01 is treated as canonical.
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.api.harmonic.ai returned HTTP 401 with an invalid_token error instructing the client to clear its tokens and reconnect, which is how a live OAuth-gated MCP server behaves, and the OAuth protected-resource document at the same host resolved and declared read and write scopes. HONEST LIMIT: console.harmonic.ai/docs/mcp-server returns HTTP 200 but is a client-rendered dashboard shell, so no human-readable MCP documentation could be read by an automated fetch on this date. The official call therefore rests on the first-party endpoint plus the two MCP feature lines on harmonic.ai/pricing, not on a docs page whose contents anyone has verified. The tier split is the useful finding for a solo operator: "MCP trial credits" and "Full MCP access" are different things on different packages and neither carries a published price. Cross-reference: this is also a signals product and 05-signals-intent-abm.md could reasonably cross-list it; 01 is treated as canonical. 2026-09-07: https://mcp.api.harmonic.ai returned 401 to an MCP initialize POST (https://mcp.api.harmonic.ai).
 
 **Provenance**
 

@@ -1,6 +1,6 @@
 # Sybill: MCP server status, API access gate and what it does
 
-> AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call... Official MCP, Enterprise leaning. Checked 2026-08-24.
+> AI sales assistant that analyzes call recordings, emails, and CRM data to produce deal insights, call... Official MCP, Enterprise leaning. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Sybill
 [Enterprise leaning](../gates/enterprise-leaning.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Chat-first conversation-intelligence layer aimed at individual AEs, with a still
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://api.sybill.ai/docs/mcp.html (server https://mcp.sybill.ai/mcp)
+https://mcp.sybill.ai/mcp ; https://api.sybill.ai/docs/mcp.html (server https://mcp.sybill.ai/mcp)
 
-- [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html)
 - [https://mcp.sybill.ai/mcp](https://mcp.sybill.ai/mcp)
+- [https://api.sybill.ai/docs/mcp.html](https://api.sybill.ai/docs/mcp.html)
 
 **Access gate**
 
@@ -94,13 +94,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://api.sybill.ai/docs/introduction.html](https://api.sybill.ai/docs/introduction.html)
 - [https://www.sybill.ai/pricing](https://www.sybill.ai/pricing)
 - [https://help.sybill.ai/en/articles/15384825-sybill-ai-credits-guide-pricing-overview](https://help.sybill.ai/en/articles/15384825-sybill-ai-credits-guide-pricing-overview)
+- [https://mcp.sybill.ai/mcp](https://mcp.sybill.ai/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://api.sybill.ai/docs/mcp.html, https://api.sybill.ai/docs/introduction.html, https://www.sybill.ai/pricing, https://help.sybill.ai/en/articles/15384825-sybill-ai-credits-guide-pricing-overview
+https://api.sybill.ai/docs/mcp.html, https://api.sybill.ai/docs/introduction.html, https://www.sybill.ai/pricing, https://help.sybill.ai/en/articles/15384825-sybill-ai-credits-guide-pricing-overview, https://mcp.sybill.ai/mcp
 
 **Notes, verbatim from the file**
-None. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.sybill.ai/pricing): API and MCP access appear only on Business at $90/user/mo and Enterprise; Free and Pro carry neither, and the Business CTA is book-a-demo rather than a self-serve checkout.
+None. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.sybill.ai/pricing): API and MCP access appear only on Business at $90/user/mo and Enterprise; Free and Pro carry neither, and the Business CTA is book-a-demo rather than a self-serve checkout. 2026-09-07: https://mcp.sybill.ai/mcp returned 401 to an MCP initialize POST (https://mcp.sybill.ai/mcp).
 
 **Provenance**
 
@@ -112,7 +113,7 @@ None. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

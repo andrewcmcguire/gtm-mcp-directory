@@ -1,6 +1,6 @@
 # Dropcontact: MCP server status, API access gate and what it does
 
-> A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name... Official MCP, Paid, self-serve. Checked 2026-09-03.
+> A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Dropcontact
 [Paid, self-serve](../gates/paid.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-09-03
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ GDPR-conscious contact enrichment/verification layer for CRM hygiene and list-bu
 
 - **Auth**: Hosted server at mcp.dropcontact.com/mcp/, supporting OAuth (recommended, browser-based) or a Dropcontact API token/key passed via headers; also usable through the npx mcp-remote bridge for clients without native remote-MCP support
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.dropcontact.com/mcp-dropcontact
+https://mcp.dropcontact.com/mcp ; https://www.dropcontact.com/mcp-dropcontact
 
+- [https://mcp.dropcontact.com/mcp](https://mcp.dropcontact.com/mcp)
 - [https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact)
 
 **Access gate**
@@ -99,13 +100,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.dropcontact.com/help/clay-integration](https://www.dropcontact.com/help/clay-integration)
 - [https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key](https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key)
 - [https://developer.dropcontact.com/](https://developer.dropcontact.com/)
+- [https://mcp.dropcontact.com/mcp](https://mcp.dropcontact.com/mcp)
 
-8 source URLs. Raw sources field, verbatim:
+9 source URLs. Raw sources field, verbatim:
 
-https://www.dropcontact.com/mcp-dropcontact, https://developer.dropcontact.com, https://www.dropcontact.com/pricing, https://www.clay.com/integrations/data-provider/dropcontact, https://university.clay.com/docs/dropcontact-integration-overview, https://www.dropcontact.com/help/clay-integration, https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key, https://developer.dropcontact.com/
+https://www.dropcontact.com/mcp-dropcontact, https://developer.dropcontact.com, https://www.dropcontact.com/pricing, https://www.clay.com/integrations/data-provider/dropcontact, https://university.clay.com/docs/dropcontact-integration-overview, https://www.dropcontact.com/help/clay-integration, https://support.dropcontact.com/article/237-how-to-use-the-dropcontact-api-key, https://developer.dropcontact.com/, https://mcp.dropcontact.com/mcp
 
 **Notes, verbatim from the file**
-Dropcontact is a clear "official, vendor-built" MCP - it has its own product page and a centrally hosted MCP endpoint at mcp.dropcontact.com, distinct from (and in addition to) its long-standing Clay data-provider integration. API & MCP access is bundled starting at the Starter tier (EUR 79/mo, ~500 credits/mo) and up; there is no persistent free API tier, only a "50 free emails" signup incentive. Pricing model is pay-on-success (1 credit = 1 email found or verified; credit refunded if nothing found). Lower tiers reportedly throttle API requests to ~100/min, which can bottleneck heavy Clay/n8n automation. 2026-09-03: vendor docs state the enrich endpoint (POST /v1/enrich/all) accepts "first_name + last_name + company (or full_name + company)" and its response includes a linkedin field with a linkedin.com/in/ example (https://developer.dropcontact.com/); no MCP tool name is stated there; the docs state a credit is charged only if a verified email is returned.
+Dropcontact is a clear "official, vendor-built" MCP - it has its own product page and a centrally hosted MCP endpoint at mcp.dropcontact.com, distinct from (and in addition to) its long-standing Clay data-provider integration. API & MCP access is bundled starting at the Starter tier (EUR 79/mo, ~500 credits/mo) and up; there is no persistent free API tier, only a "50 free emails" signup incentive. Pricing model is pay-on-success (1 credit = 1 email found or verified; credit refunded if nothing found). Lower tiers reportedly throttle API requests to ~100/min, which can bottleneck heavy Clay/n8n automation. 2026-09-03: vendor docs state the enrich endpoint (POST /v1/enrich/all) accepts "first_name + last_name + company (or full_name + company)" and its response includes a linkedin field with a linkedin.com/in/ example (https://developer.dropcontact.com/); no MCP tool name is stated there; the docs state a credit is charged only if a verified email is returned. 2026-09-07: https://mcp.dropcontact.com/mcp returned 401 with {"error": "invalid_token", "error_description": "Authentication failed. The provided bearer token is invalid..."} to an MCP initialize POST (https://mcp.dropcontact.com/mcp).
 
 **Provenance**
 
@@ -117,7 +119,7 @@ Dropcontact is a clear "official, vendor-built" MCP - it has its own product pag
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-03
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

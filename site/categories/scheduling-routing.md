@@ -29,7 +29,7 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 - **Enterprise only**: 2
 - **Gate unknown**: 6
 
-Source file: 10-scheduling-routing.md · content sha256 9a2c30e3df2810c6... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 06987a2092768ed5... · counts reconciled against tools_recount.py at build time.
 
 - [The 7 with an MCP server](../lists/mcp-scheduling-routing.md)
 

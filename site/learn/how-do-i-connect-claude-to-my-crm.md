@@ -53,10 +53,10 @@ A CRM connection on its own is a search box. The value shows up when the assista
 | Step | The job | Tools tagged | Official MCP | Free tier |
 |---|---|---|---|---|
 | Read CRM records | [read crm records](../jobs/read-crm-records.md) | 13 | 10 | 5 |
-| Write CRM records | [write crm records](../jobs/write-crm-records.md) | 28 | 18 | 7 |
+| Write CRM records | [write crm records](../jobs/write-crm-records.md) | 28 | 19 | 7 |
 | Sync records between systems | [sync records between systems](../jobs/sync-records-between-systems.md) | 9 | 8 | 6 |
 | Enrich a company from a domain | [enrich a company from a domain](../jobs/enrich-company-from-domain.md) | 34 | 24 | 15 |
-| Research an account before a call | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 10 | 3 |
+| Research an account before a call | [research an account before a call](../jobs/research-account-for-call-prep.md) | 17 | 11 | 3 |
 
 ## If your CRM has no server
 

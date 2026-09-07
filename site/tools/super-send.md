@@ -1,6 +1,6 @@
 # Super Send: MCP server status, API access gate and what it does
 
-> Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Super Send
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Dedicated sending-infrastructure layer for outbound email, positioned as an infr
 
 - **Auth**: api key, Streamable HTTP transport
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.supersend.io/docs/mcp-server (endpoint mcp.supersend.io)
+https://mcp.supersend.io/mcp ; https://docs.supersend.io/docs/mcp-server (endpoint mcp.supersend.io)
 
+- [https://mcp.supersend.io/mcp](https://mcp.supersend.io/mcp)
 - [https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server)
 
 **Access gate**
@@ -92,13 +93,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://www.pulsemcp.com/servers/supersend](https://www.pulsemcp.com/servers/supersend)
 - [https://supersend.io](https://supersend.io)
+- [https://mcp.supersend.io/mcp](https://mcp.supersend.io/mcp)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.pulsemcp.com/servers/supersend, https://supersend.io
+https://www.pulsemcp.com/servers/supersend, https://supersend.io, https://mcp.supersend.io/mcp
 
 **Notes, verbatim from the file**
-Vendor's own MCP docs state the MCP server is a paid service with no free tier. Smaller/lesser-known player than most others in this sweep, but has a real vendor-hosted, documented MCP server - more than several larger competitors (Klenty, Outplay, Mailshake, QuickMail) have.
+Vendor's own MCP docs state the MCP server is a paid service with no free tier. Smaller/lesser-known player than most others in this sweep, but has a real vendor-hosted, documented MCP server - more than several larger competitors (Klenty, Outplay, Mailshake, QuickMail) have. 2026-09-07: https://mcp.supersend.io/mcp returned 401 with a JSON-RPC body: {"jsonrpc":"2.0","error":{"code":-32001,"message":"Missing or invalid credentials. Use Authorization: Bearer <key> or X-Supersend-Api-Key: <key>..."}} (https://mcp.supersend.io/mcp).
 
 **Provenance**
 
@@ -110,7 +112,7 @@ Vendor's own MCP docs state the MCP server is a paid service with no free tier. 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

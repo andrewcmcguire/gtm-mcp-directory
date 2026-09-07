@@ -89,13 +89,14 @@ No job tag on this entry.
 - [https://developer.saleshandy.com/api-reference/mcp](https://developer.saleshandy.com/api-reference/mcp)
 - [https://www.saleshandy.com/mcp](https://www.saleshandy.com/mcp)
 - [https://www.saleshandy.com/pricing/](https://www.saleshandy.com/pricing/)
+- [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://developer.saleshandy.com/api-reference/mcp, https://www.saleshandy.com/mcp, https://www.saleshandy.com/pricing/
+https://developer.saleshandy.com/api-reference/mcp, https://www.saleshandy.com/mcp, https://www.saleshandy.com/pricing/, https://mcp.saleshandy.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.saleshandy.com/mcp returned HTTP 401 with {"jsonrpc":"2.0","error":{"code":-32001,"message":"Authentication required. Use an API key or OAuth Bearer token."}}, which confirms a live auth-gated server and confirms both auth paths in one response. A second address, https://api.saleshandy.com/mcp, returned HTTP 406 with a content-type complaint rather than 404, so it exists but is not the documented entry point; the documented endpoint is the mcp.saleshandy.com one and that is what is recorded. WRITE ACCESS IS THE POINT AND THE RISK: the vendor's own copy is "Create sequences, add prospects, verify email addresses, and track performances, all without launching the app", so an agent with this connected can start real cold email against real people. Anyone bench-testing this should use a throwaway sending domain. Saleshandy also publishes an MCP CLI, listed in its own footer navigation next to "Model Context Protocol", which is a second surface worth checking. The MCP marketing page offers a 7-day free trial with no credit card, which is the cheapest hands-on path found in this category on this date.
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.saleshandy.com/mcp returned HTTP 401 with {"jsonrpc":"2.0","error":{"code":-32001,"message":"Authentication required. Use an API key or OAuth Bearer token."}}, which confirms a live auth-gated server and confirms both auth paths in one response. A second address, https://api.saleshandy.com/mcp, returned HTTP 406 with a content-type complaint rather than 404, so it exists but is not the documented entry point; the documented endpoint is the mcp.saleshandy.com one and that is what is recorded. WRITE ACCESS IS THE POINT AND THE RISK: the vendor's own copy is "Create sequences, add prospects, verify email addresses, and track performances, all without launching the app", so an agent with this connected can start real cold email against real people. Anyone bench-testing this should use a throwaway sending domain. Saleshandy also publishes an MCP CLI, listed in its own footer navigation next to "Model Context Protocol", which is a second surface worth checking. The MCP marketing page offers a 7-day free trial with no credit card, which is the cheapest hands-on path found in this category on this date. 2026-09-07: https://mcp.saleshandy.com/mcp returned 401 to an MCP initialize POST (https://mcp.saleshandy.com/mcp).
 
 **Provenance**
 

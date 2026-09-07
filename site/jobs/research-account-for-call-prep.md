@@ -1,6 +1,6 @@
-# Research an account before a call: 17 GTM tools, 10 with an official MCP server
+# Research an account before a call: 17 GTM tools, 11 with an official MCP server
 
-> Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull. 12 of the 17 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-09-07 from the directory data.
+> Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull. 12 of the 17 entries tagged with this job carry an MCP server of some kind, 11 of them official. Counted 2026-09-07 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,12 +19,12 @@ Research an account before a call
 Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull.
 
 - **entries tagged**: 17
-- **official MCP**: 10
-- **community MCP**: 2
+- **official MCP**: 11
+- **community MCP**: 1
 - **no MCP found**: 4
 - **solo reachable**: 8
 
-12 of the 17 entries tagged with this job carry an MCP server of some kind, 10 of them official. 16 of the 17 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 1 have been bench tested. Counted 2026-09-07 from directory.json.
+12 of the 17 entries tagged with this job carry an MCP server of some kind, 11 of them official. 16 of the 17 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 1 have been bench tested. Counted 2026-09-07 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -57,6 +57,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Factors.ai](../tools/factors-ai.md) factors.ai De-anonymizes website visitors and tracks named-account behavior (page visits, LinkedIn/Google ad engagement, email/content engagement, third-party intent research signals) to identify in-market accounts and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Octave](../tools/octave.md) octavehq.com A GTM context engine that stores a company's ICP, personas, positioning, competitors, proof points, and objections as one structured model, then serves that model to sequences, scripts, and AI agents at... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Sumble](../tools/sumble.md) sumble.com Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -68,8 +70,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
-
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

@@ -1,6 +1,6 @@
 # Affinity: MCP server status, API access gate and what it does
 
-> A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar... Official MCP, Paid, self-serve. Checked 2026-08-25.
+> A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Affinity
 [Paid, self-serve](../gates/paid.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-25
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [affinity.co](https://affinity.co) · entry id 06-affinity · source 06-revops-infra.md line 456
+Vendor: [affinity.co](https://affinity.co) · entry id 06-affinity · source 06-revops-infra.md line 469
 
 **What it does**
 A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity.
@@ -43,7 +43,7 @@ System of record for relationship-driven pipelines, primarily private capital, w
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -94,13 +94,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP](https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP)
 - [https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital](https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital)
 - [https://www.affinity.co/product/crm](https://www.affinity.co/product/crm)
+- [https://mcp.affinity.co/mcp](https://mcp.affinity.co/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP, https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital, https://www.affinity.co/product/crm
+https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP, https://www.affinity.co/blog/affinity-is-building-the-best-mcp-for-private-capital, https://www.affinity.co/product/crm, https://mcp.affinity.co/mcp
 
 **Notes, verbatim from the file**
-Added 2026-08-25 in the coverage sweep. API and MCP access are restricted to the Scale, Advanced and Enterprise tiers; lower tiers cannot use it at all. Launched in beta in 2026 with roughly 33 read and write tools. TRANSFERABILITY CAVEAT: Affinity is aimed at VC, PE and investment banking rather than classic B2B SaaS sales, so the relationship-strength model is tuned for a different motion than most of this directory. Included because the auto-built relationship graph is the same job Centralize (05) and The Swarm (01) do, approached from a third direction, and the three together are a coherent lane.
+Added 2026-08-25 in the coverage sweep. API and MCP access are restricted to the Scale, Advanced and Enterprise tiers; lower tiers cannot use it at all. Launched in beta in 2026 with roughly 33 read and write tools. TRANSFERABILITY CAVEAT: Affinity is aimed at VC, PE and investment banking rather than classic B2B SaaS sales, so the relationship-strength model is tuned for a different motion than most of this directory. Included because the auto-built relationship graph is the same job Centralize (05) and The Swarm (01) do, approached from a third direction, and the three together are a coherent lane. 2026-09-07: https://mcp.affinity.co/mcp returned 401 to an MCP initialize POST (https://mcp.affinity.co/mcp).
 
 **Provenance**
 
@@ -108,11 +109,11 @@ Added 2026-08-25 in the coverage sweep. API and MCP access are restricted to the
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 456
+- **Source line**: 469
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-25
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

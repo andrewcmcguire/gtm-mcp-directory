@@ -1,6 +1,6 @@
 # Allegrow: MCP server status, API access gate and what it does
 
-> B2B email verification and deliverability platform - resolves catch-all/secure-email-gateway addresses that... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> B2B email verification and deliverability platform - resolves catch-all/secure-email-gateway addresses that... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Allegrow
 [Paid, self-serve](../gates/paid.md)
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Email-verification-plus-deliverability layer aimed at list hygiene before and du
 
 - **Auth**: OAuth - connects through Claude's standard connector authorization flow; user logs into their Allegrow account and grants access explicitly (no manual API key copying).
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.allegrow.co/knowledge-base/claude-email-mcp](https://www.allegrow.co/knowledge-base/claude-email-mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.allegrow.co/knowledge-base/claude-email-mcp
+https://mcp.allegrow.co/mcp ; https://www.allegrow.co/knowledge-base/claude-email-mcp
 
+- [https://mcp.allegrow.co/mcp](https://mcp.allegrow.co/mcp)
 - [https://www.allegrow.co/knowledge-base/claude-email-mcp](https://www.allegrow.co/knowledge-base/claude-email-mcp)
 
 **Access gate**
@@ -91,13 +92,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.allegrow.co/knowledge-base/claude-email-mcp](https://www.allegrow.co/knowledge-base/claude-email-mcp)
 - [https://www.allegrow.co/knowledge-base/complete-guide-to-email-warm-up-tools-which-increase-sender-reputation](https://www.allegrow.co/knowledge-base/complete-guide-to-email-warm-up-tools-which-increase-sender-reputation)
 - [https://emailwarmup.com/blog/email-deliverability-tools/allegrow-review/](https://emailwarmup.com/blog/email-deliverability-tools/allegrow-review/)
+- [https://mcp.allegrow.co/mcp](https://mcp.allegrow.co/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.allegrow.co/knowledge-base/claude-email-mcp, https://www.allegrow.co/knowledge-base/complete-guide-to-email-warm-up-tools-which-increase-sender-reputation, https://emailwarmup.com/blog/email-deliverability-tools/allegrow-review/
+https://www.allegrow.co/knowledge-base/claude-email-mcp, https://www.allegrow.co/knowledge-base/complete-guide-to-email-warm-up-tools-which-increase-sender-reputation, https://emailwarmup.com/blog/email-deliverability-tools/allegrow-review/, https://mcp.allegrow.co/mcp
 
 **Notes, verbatim from the file**
-Vendor-published on Allegrow's own domain and listed in Claude's connector directory (claude.ai/directory/allegrow) - clears this schema's bar for "official" since Allegrow built and documents it themselves. Worth noting Claude's own directory UI labels it a "community connector" (meaning it passed Anthropic's automated review but isn't Anthropic-verified) - a different axis than this schema's official/community distinction, which tracks who built the server, not who verified it.
+Vendor-published on Allegrow's own domain and listed in Claude's connector directory (claude.ai/directory/allegrow) - clears this schema's bar for "official" since Allegrow built and documents it themselves. Worth noting Claude's own directory UI labels it a "community connector" (meaning it passed Anthropic's automated review but isn't Anthropic-verified) - a different axis than this schema's official/community distinction, which tracks who built the server, not who verified it. 2026-09-07: https://mcp.allegrow.co/mcp returned 401 {"error":"unauthorized"} to an MCP initialize POST, on a vendor-owned mcp. subdomain (https://mcp.allegrow.co/mcp).
 
 **Provenance**
 
@@ -109,7 +111,7 @@ Vendor-published on Allegrow's own domain and listed in Claude's connector direc
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

@@ -1,6 +1,6 @@
 # Calendly: MCP server status, API access gate and what it does
 
-> Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's... Official MCP, Free to start. Checked 2026-08-24.
+> Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Calendly
 [Free to start](../gates/free.md)
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Prospect-facing meeting-booking layer - the "here's my link, pick a time" step a
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://developer.calendly.com/calendly-mcp-server (hosted at https://mcp.calendly.com); announcement: https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450; vendor blog: https://calendly.com/blog/mcp-server
+https://mcp.calendly.com ; https://developer.calendly.com/calendly-mcp-server (hosted at https://mcp.calendly.com); announcement: https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450; vendor blog: https://calendly.com/blog/mcp-server
 
-- [https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server)
 - [https://mcp.calendly.com](https://mcp.calendly.com)
+- [https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server)
 - [https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450](https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450)
 - [https://calendly.com/blog/mcp-server](https://calendly.com/blog/mcp-server)
 
@@ -97,13 +97,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://meetergo.com/en/magazine/calendly-plans](https://meetergo.com/en/magazine/calendly-plans)
 - [https://www.cloudeagle.ai/blogs/calendly-pricing-guide](https://www.cloudeagle.ai/blogs/calendly-pricing-guide)
 - [https://costbench.com/software/scheduling/calendly/](https://costbench.com/software/scheduling/calendly/)
+- [https://mcp.calendly.com](https://mcp.calendly.com)
 
-6 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://developer.calendly.com/calendly-mcp-server, https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450, https://calendly.com/blog/mcp-server, https://meetergo.com/en/magazine/calendly-plans, https://www.cloudeagle.ai/blogs/calendly-pricing-guide, https://costbench.com/software/scheduling/calendly/
+https://developer.calendly.com/calendly-mcp-server, https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450, https://calendly.com/blog/mcp-server, https://meetergo.com/en/magazine/calendly-plans, https://www.cloudeagle.ai/blogs/calendly-pricing-guide, https://costbench.com/software/scheduling/calendly/, https://mcp.calendly.com
 
 **Notes, verbatim from the file**
-MCP server released March 11, 2026 (community announcement date). First release "focused on scheduling workflows" (availability management, event-type config, meeting booking, link generation). Requires an MCP-compliant client supporting MCP 2025-03-26+ and streamable HTTP - ChatGPT's free tier doesn't support custom MCP connectors, so Calendly's MCP isn't reachable there without a paid ChatGPT plan.
+MCP server released March 11, 2026 (community announcement date). First release "focused on scheduling workflows" (availability management, event-type config, meeting booking, link generation). Requires an MCP-compliant client supporting MCP 2025-03-26+ and streamable HTTP - ChatGPT's free tier doesn't support custom MCP connectors, so Calendly's MCP isn't reachable there without a paid ChatGPT plan. 2026-09-07: https://mcp.calendly.com returned 401 to an MCP initialize POST (https://mcp.calendly.com).
 
 **Provenance**
 
@@ -115,7 +116,7 @@ MCP server released March 11, 2026 (community announcement date). First release 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

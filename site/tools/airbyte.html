@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Airbyte: MCP server status, API access gate and what it does</title>
-<meta name="description" content="Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into... Official MCP, Free to start. Checked 2026-08-24.">
+<meta name="description" content="Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into... Official MCP, Free to start. Checked 2026-09-07.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools/airbyte">
@@ -34,7 +34,7 @@
   },
   "softwareHelp": {
     "@type": "CreativeWork",
-    "url": "https://docs.airbyte.com/ai-agents/interfaces/mcp"
+    "url": "https://mcp.airbyte.ai/mcp"
   }
 }
 </script>
@@ -95,7 +95,7 @@ Airbyte</div>
 <a class="badge teal" href="../gates/free">Free to start</a>
 <a class="badge mute flat" href="../categories/revops-infra">RevOps Infra</a>
 <span class="badge tier flat">RESEARCHED</span>
-<span class="badge mute flat">Checked 2026-08-24</span>
+<span class="badge mute flat">Checked 2026-09-07</span>
 </div>
 <div class="tierbox"><b>RESEARCHED</b>
 Facts from public sources with URLs. No usage claims. Nobody has run this tool.
@@ -103,27 +103,27 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note">Vendor: <a href="https://airbyte.com" rel="noopener nofollow">airbyte.com</a>
 &middot; entry id 06-airbyte &middot; source
-06-revops-infra.md line 323</p>
+06-revops-infra.md line 332</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">A real, substantive &quot;Agents&quot; product line (app.airbyte.ai) using a Connect-Ask-Act model that lets agents query/act on connected data - not just a copilot bolt-on. Whether the core Connector Builder itself has natural-language-assisted connector generation was not confirmed either way and is left as unknown rather than guessed.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Upstream data-integration layer - gets GTM tool data (and 600+ other sources) into the warehouse, and now also positions as the retrieval/action layer for AI agents to reach across GTM systems directly.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">Two-layer OAuth 2.0 - OAuth into the Airbyte account/org for the MCP server itself, plus separate OAuth or API-key auth per connected third-party service (Salesforce, HubSpot, GitHub, Stripe, etc.), entered in-browser, never in agent chat. Hosted endpoint: https://mcp.airbyte.ai/mcp.</div></div>
-<div><div class="bk">Parsed URLs</div><div class="bv">1 found in the mcp_url field</div></div>
+<div><div class="bk">Parsed URLs</div><div class="bv">2 found in the mcp_url field</div></div>
 <div><div class="bk">Endpoint probe</div><div class="bv">docs page, not an endpoint</div></div><div><div class="bk">Docs URL</div><div class="bv mono"><a href="https://docs.airbyte.com/ai-agents/interfaces/mcp" rel="noopener nofollow">https://docs.airbyte.com/ai-agents/interfaces/mcp</a></div></div><div><div class="bk">Probed</div><div class="bv">2026-09-04, HTTP 200</div></div>
 </div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
-The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
+The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://docs.airbyte.com/ai-agents/interfaces/mcp</p><ul><li><a href="https://docs.airbyte.com/ai-agents/interfaces/mcp" rel="noopener nofollow">https://docs.airbyte.com/ai-agents/interfaces/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.airbyte.ai/mcp ; https://docs.airbyte.com/ai-agents/interfaces/mcp</p><ul><li><a href="https://mcp.airbyte.ai/mcp" rel="noopener nofollow">https://mcp.airbyte.ai/mcp</a></li><li><a href="https://docs.airbyte.com/ai-agents/interfaces/mcp" rel="noopener nofollow">https://docs.airbyte.com/ai-agents/interfaces/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>free - Core (self-managed, open source) is always free; Cloud has a genuine self-serve $0/mo tier (1,000 Agent Operations/month); cheapest paid Standard tier starts at $10/mo.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">289 of 318 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/sync-records-between-systems">Sync records between systems</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://airbyte.com/" rel="noopener nofollow">https://airbyte.com/</a></li><li><a href="https://airbyte.com/pricing" rel="noopener nofollow">https://airbyte.com/pricing</a></li><li><a href="https://docs.airbyte.com/ai-agents/interfaces/mcp" rel="noopener nofollow">https://docs.airbyte.com/ai-agents/interfaces/mcp</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://airbyte.com/, https://airbyte.com/pricing, https://docs.airbyte.com/ai-agents/interfaces/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">One of the more clearly &quot;official and productized&quot; MCP implementations in this file - hosted, documented, and multi-client (Claude, ChatGPT, Cursor, VS Code, Codex).</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>free - Core (self-managed, open source) is always free; Cloud has a genuine self-serve $0/mo tier (1,000 Agent Operations/month); cheapest paid Standard tier starts at $10/mo.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">289 of 318 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/sync-records-between-systems">Sync records between systems</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://airbyte.com/" rel="noopener nofollow">https://airbyte.com/</a></li><li><a href="https://airbyte.com/pricing" rel="noopener nofollow">https://airbyte.com/pricing</a></li><li><a href="https://docs.airbyte.com/ai-agents/interfaces/mcp" rel="noopener nofollow">https://docs.airbyte.com/ai-agents/interfaces/mcp</a></li><li><a href="https://mcp.airbyte.ai/mcp" rel="noopener nofollow">https://mcp.airbyte.ai/mcp</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://airbyte.com/, https://airbyte.com/pricing, https://docs.airbyte.com/ai-agents/interfaces/mcp, https://mcp.airbyte.ai/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">One of the more clearly &quot;official and productized&quot; MCP implementations in this file - hosted, documented, and multi-client (Claude, ChatGPT, Cursor, VS Code, Codex). 2026-09-07: Official MCP registry entry io.github.airbytehq/agents lists remote https://mcp.airbyte.ai/mcp; that URL returned 401 to an MCP initialize. airbytehq is Airbyte&#x27;s own GitHub org (https://mcp.airbyte.ai/mcp).</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">06-airbyte</div></div>
 <div><div class="bk">Source file</div><div class="bv">06-revops-infra.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">323</div></div>
+<div><div class="bk">Source line</div><div class="bv">332</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
-<div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
+<div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-07</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
@@ -136,8 +136,8 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>318 directory entries across 15 category files.
     302 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>181 official MCP servers,
-    26 community.
+    <p>183 official MCP servers,
+    24 community.
     1 bench tested.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,

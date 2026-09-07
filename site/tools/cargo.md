@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [getcargo.ai](https://getcargo.ai) · entry id 06-cargo · source 06-revops-infra.md line 186
+Vendor: [getcargo.ai](https://getcargo.ai) · entry id 06-cargo · source 06-revops-infra.md line 194
 
 **What it does**
 A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, version, and automate go-to-market logic - lead sourcing, enrichment, scoring, routing, CRM sync - as code, run by AI agents.
@@ -106,7 +106,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.ycombinator.com/companies/cargo, https://www.getcargo.ai/, https://www.getcargo.ai/pricing, https://docs.getcargo.ai/, https://github.com/getcargohq
 
 **Notes, verbatim from the file**
-DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multiple direct fetch attempts). The real company matching this brief (YC S23, founders ex-Spendesk) is at getcargo.ai / getcargo.io. Cargo's GitHub org (github.com/getcargohq) has 5 public repos but no standalone "MCP server" repo - MCP is a feature inside the core product/docs, not a separate open-source connector.
+DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multiple direct fetch attempts). The real company matching this brief (YC S23, founders ex-Spendesk) is at getcargo.ai / getcargo.io. Cargo's GitHub org (github.com/getcargohq) has 5 public repos but no standalone "MCP server" repo - MCP is a feature inside the core product/docs, not a separate open-source connector. 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. What the official claim actually rests on: defineMcpServer inside Cargo's own CDK, a framework feature documented at docs.getcargo.ai, not a separate repo or a callable endpoint. The finder searched GitHub (owners getcargo, getcargo-ai, cargo-ai), npm, PyPI and the official registry and probed https://mcp.getcargo.ai/ and /mcp with no result. A human should decide whether official survives law 1.
 
 **Provenance**
 
@@ -114,7 +114,7 @@ DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multipl
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 186
+- **Source line**: 194
 
 - **Tier**: RESEARCHED
 

@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://albacross.com](https://albacross.com) · entry id 05-albacross · source 05-signals-intent-abm.md line 402
+Vendor: [https://albacross.com](https://albacross.com) · entry id 05-albacross · source 05-signals-intent-abm.md line 404
 
 **What it does**
 Identifies which companies visit a website via IP-to-company matching, tracks on-site and off-site behavioral/intent signals, and enriches identified companies with firmographic data and optional verified contact email/phone credits.
@@ -107,7 +107,7 @@ GitHub org (github.com/albacross) exists but contains only internal/task repos (
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 402
+- **Source line**: 404
 
 - **Tier**: RESEARCHED
 

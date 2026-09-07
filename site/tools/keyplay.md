@@ -1,6 +1,6 @@
 # Keyplay: MCP server status, API access gate and what it does
 
-> Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of... Official MCP, Paid, self-serve. Checked 2026-09-02.
+> Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Keyplay
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-09-02
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Account selection / ICP modeling and continuous re-scoring layer, sitting upstre
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.keyplay.io/en/articles/13643214-keyplay-mcp (endpoint https://api.keyplay.io/mcp, streamable HTTP)
+https://api.keyplay.io/mcp ; https://docs.keyplay.io/en/articles/13643214-keyplay-mcp (endpoint https://api.keyplay.io/mcp, streamable HTTP)
 
-- [https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)
 - [https://api.keyplay.io/mcp](https://api.keyplay.io/mcp)
+- [https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)
 
 **Access gate**
 
@@ -96,13 +96,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://syncgtm.com/blog/keyplay-review](https://syncgtm.com/blog/keyplay-review)
 - [https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)
 - [https://adamgtm.com/brand/keyplay/](https://adamgtm.com/brand/keyplay/)
+- [https://api.keyplay.io/mcp](https://api.keyplay.io/mcp)
 
-6 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://keyplay.io/pricing/, https://keyplay.io/product/, https://www.salesforge.ai/directory/sales-tools/keyplay, https://syncgtm.com/blog/keyplay-review, https://docs.keyplay.io/en/articles/13643214-keyplay-mcp, https://adamgtm.com/brand/keyplay/
+https://keyplay.io/pricing/, https://keyplay.io/product/, https://www.salesforge.ai/directory/sales-tools/keyplay, https://syncgtm.com/blog/keyplay-review, https://docs.keyplay.io/en/articles/13643214-keyplay-mcp, https://adamgtm.com/brand/keyplay/, https://api.keyplay.io/mcp
 
 **Notes, verbatim from the file**
-No MCP found on GitHub, mcp.so, glama.ai, or pulsemcp.com. A free "List Builder" tier exists (25 credits, 750+ signals, CSV export) - genuinely solo-operator-accessible at $0 - but ICP-modeling and Enrichment API access sit behind paid tiers ($18-20K/yr "Growth," custom "Scale"). Keyplay's own homepage indicates it has joined a company called Inflection ("the B2B marketing platform where agents actually execute"); this ownership transition could not be independently verified beyond Keyplay's own site copy, so flag as unconfirmed. 2026-09-02: CHANGED none-found -> official. Keyplay's own help center documents a remote MCP at https://api.keyplay.io/mcp (install: claude mcp add keyplay --transport http https://api.keyplay.io/mcp) with OAuth for Claude.ai and Claude Desktop or an API key for Claude Code. Tools documented: search_accounts, get_account_data, filter_accounts, list_filter_options, plus whoami and switch_customer; five guided prompts: analyze_customers, define_icp, concept_campaign, build_target_list, write_account_brief. The docs page does not state which plan includes it. Pointer came from adamgtm.com (run by Keyplay co-founder Adam Schoenfeld), which states it shipped February 2026 ahead of the Inflection acquisition; the acquisition is now confirmed by a merger announcement on Keyplay's own homepage. keyplay.io/llms.txt, keyplay.io/mcp and the MCP registry carry nothing, so the help-center article is the only receipt.
+No MCP found on GitHub, mcp.so, glama.ai, or pulsemcp.com. A free "List Builder" tier exists (25 credits, 750+ signals, CSV export) - genuinely solo-operator-accessible at $0 - but ICP-modeling and Enrichment API access sit behind paid tiers ($18-20K/yr "Growth," custom "Scale"). Keyplay's own homepage indicates it has joined a company called Inflection ("the B2B marketing platform where agents actually execute"); this ownership transition could not be independently verified beyond Keyplay's own site copy, so flag as unconfirmed. 2026-09-02: CHANGED none-found -> official. Keyplay's own help center documents a remote MCP at https://api.keyplay.io/mcp (install: claude mcp add keyplay --transport http https://api.keyplay.io/mcp) with OAuth for Claude.ai and Claude Desktop or an API key for Claude Code. Tools documented: search_accounts, get_account_data, filter_accounts, list_filter_options, plus whoami and switch_customer; five guided prompts: analyze_customers, define_icp, concept_campaign, build_target_list, write_account_brief. The docs page does not state which plan includes it. Pointer came from adamgtm.com (run by Keyplay co-founder Adam Schoenfeld), which states it shipped February 2026 ahead of the Inflection acquisition; the acquisition is now confirmed by a merger announcement on Keyplay's own homepage. keyplay.io/llms.txt, keyplay.io/mcp and the MCP registry carry nothing, so the help-center article is the only receipt. 2026-09-07: https://api.keyplay.io/mcp returned 401 to an MCP initialize POST (https://api.keyplay.io/mcp).
 
 **Provenance**
 
@@ -114,7 +115,7 @@ No MCP found on GitHub, mcp.so, glama.ai, or pulsemcp.com. A free "List Builder"
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-02
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

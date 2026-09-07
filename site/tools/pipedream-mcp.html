@@ -103,7 +103,7 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note">Vendor: <a href="https://pipedream.com" rel="noopener nofollow">pipedream.com</a>
 &middot; entry id 07-pipedream-mcp &middot; source
-07-mcp-infrastructure.md line 33</p>
+07-mcp-infrastructure.md line 35</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">Pipedream&#x27;s existing workflow/integration platform re-exposed as hosted MCP servers, giving an MCP client access to 3,000+ connected apps and 10,000+ pre-built tools via Pipedream Connect.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">none in Pipedream itself - same pattern as Composio, it is connector infrastructure an external LLM/agent calls into, not a model or agent of its own.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Same slot as Composio - a hosted connector layer, notable for breadth (3,000+ apps) rather than GTM-specific depth.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">OAuth/API-key credentials for each underlying app are stored by Pipedream and isolated per end user; Pipedream states credentials are &quot;never exposed to AI models or client-side code&quot; and all calls route server-side through its infrastructure.</div></div>
@@ -121,7 +121,7 @@ The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL
 <p>paid (free for personal use and development; a paid plan is required once you deploy to production)</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">289 of 318 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/proxy-tool-calls-to-saas">Proxy tool calls to SaaS apps</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 318 entries carry at least one tag; 849 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://mcp.pipedream.com" rel="noopener nofollow">https://mcp.pipedream.com</a></li><li><a href="https://pipedream.com/docs/connect/mcp" rel="noopener nofollow">https://pipedream.com/docs/connect/mcp</a></li></ul><p class="note">2 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://mcp.pipedream.com, https://pipedream.com/docs/connect/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Pipedream is custodial like Composio - it stores end-user credentials server-side rather than passing them through. Could not confirm exact production-tier pricing numbers in this pass (pricing docs page 404&#x27;d); marked unknown rather than guessed. GTM apps (Salesforce, HubSpot) were not explicitly named in the fetched docs, only implied by the &quot;3,000+ apps&quot; breadth claim.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">07-pipedream-mcp</div></div>
 <div><div class="bk">Source file</div><div class="bv">07-mcp-infrastructure.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">33</div></div>
+<div><div class="bk">Source line</div><div class="bv">35</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-08-24</div></div>
 <div><div class="bk">Data baked</div><div class="bv">2026-09-07</div></div>
@@ -136,8 +136,8 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>318 directory entries across 15 category files.
     302 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
-    <p>181 official MCP servers,
-    26 community.
+    <p>183 official MCP servers,
+    24 community.
     1 bench tested.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,

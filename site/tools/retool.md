@@ -1,6 +1,6 @@
 # Retool: MCP server status, API access gate and what it does
 
-> A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a... Official MCP, Free to start. Checked 2026-08-24.
+> A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Retool
 [Free to start](../gates/free.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [retool.com](https://retool.com) · entry id 06-retool · source 06-revops-infra.md line 392
+Vendor: [retool.com](https://retool.com) · entry id 06-retool · source 06-revops-infra.md line 403
 
 **What it does**
 A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a GTM context, used to build custom RevOps tooling - lead-routing consoles, deal-desk approval apps, data-correction UIs - on top of the warehouse/CRM.
@@ -38,12 +38,12 @@ The app layer for RevOps - builds custom internal UIs on top of the warehouse/CR
 
 - **Auth**: OAuth 2.0. Endpoint pattern https:///mcp over HTTP.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official (public beta)
 
 mcp_url, verbatim from the file:
 
-https://retool.com/blog/retool-mcp-server
+https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server
 
+- [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp)
 - [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)
 
 **Access gate**
@@ -91,13 +92,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://retool.com/pricing](https://retool.com/pricing)
 - [https://retool.com/products/ai](https://retool.com/products/ai)
 - [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)
+- [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://retool.com/pricing, https://retool.com/products/ai, https://retool.com/blog/retool-mcp-server
+https://retool.com/pricing, https://retool.com/products/ai, https://retool.com/blog/retool-mcp-server, https://mcp.retool.com/mcp
 
 **Notes, verbatim from the file**
-The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries, bulk user invites, access audits, resource enumeration) - an admin/dev-ops-facing MCP rather than an end-user data MCP. Available to both cloud and self-hosted customers per the announcement.
+The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries, bulk user invites, access audits, resource enumeration) - an admin/dev-ops-facing MCP rather than an end-user data MCP. Available to both cloud and self-hosted customers per the announcement. 2026-09-07: https://mcp.retool.com/mcp returned 401 {"error":"Missing Authorization: Bearer <token> header"} to an MCP initialize POST; https://app.retool.com/mcp answers identically (https://mcp.retool.com/mcp).
 
 **Provenance**
 
@@ -105,11 +107,11 @@ The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 392
+- **Source line**: 403
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

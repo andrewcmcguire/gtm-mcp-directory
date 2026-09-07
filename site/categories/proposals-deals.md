@@ -27,7 +27,7 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 - **Enterprise only**: 3
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 ecf6a9476e855c3a... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 b199f1829c269826... · counts reconciled against tools_recount.py at build time.
 
 - [The 9 with an MCP server](../lists/mcp-proposals-deals.md)
 

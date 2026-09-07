@@ -29,7 +29,7 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Enterprise only**: 6
 - **Gate unknown**: 1
 
-Source file: 02-engagement-outbound.md · content sha256 d8356c2296cb7c31... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 d57fa7d9c1509d73... · counts reconciled against tools_recount.py at build time.
 
 - [The 23 with an MCP server](../lists/mcp-engagement-outbound.md)
 

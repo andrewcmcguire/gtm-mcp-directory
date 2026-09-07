@@ -1,6 +1,6 @@
 # Reply.io: MCP server status, API access gate and what it does
 
-> Multichannel sales engagement platform for email, LinkedIn, call, and SMS outreach with an AI SDR product... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Multichannel sales engagement platform for email, LinkedIn, call, and SMS outreach with an AI SDR product... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Reply.io
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Multichannel outbound sequencing layer with an AI SDR agent tier positioned as a
 
 - **Auth**: api key (personal API key over HTTPS, included in free trial)
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,9 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://reply.io/mcp/
+https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp
 
 - [https://reply.io/mcp/](https://reply.io/mcp/)
+- [https://github.com/reply-team/reply-mcp](https://github.com/reply-team/reply-mcp)
 
 **Access gate**
 
@@ -76,6 +77,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/reply-team/reply-mcp](https://github.com/reply-team/reply-mcp)
 
 **Jobs it can do**
 
@@ -114,13 +119,14 @@ What that listing says it does: A multichannel sales engagement platform whose A
 
 - [https://reply.io/mcp/](https://reply.io/mcp/)
 - [https://reply.io/](https://reply.io/)
+- [https://github.com/reply-team/reply-mcp](https://github.com/reply-team/reply-mcp)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://reply.io/mcp/, https://reply.io/
+https://reply.io/mcp/, https://reply.io/, https://github.com/reply-team/reply-mcp
 
 **Notes, verbatim from the file**
-Vendor states API/webhook access is included across all pricing tiers starting at Standard ($59/mo); some MCP operations consume metered API credits. Site returned HTTP 403 to direct fetch and was retrieved via a read-only proxy - treat pricing figures as slightly less certain than directly-fetched pages.
+Vendor states API/webhook access is included across all pricing tiers starting at Standard ($59/mo); some MCP operations consume metered API credits. Site returned HTTP 403 to direct fetch and was retrieved via a read-only proxy - treat pricing figures as slightly less certain than directly-fetched pages. 2026-09-07: GitHub org reply-team, repo reply-mcp; README reads "Reply.io MCP Server - Connect Reply.io to your AI client" and links reply.io and docs.reply.io/reply-mcp (https://github.com/reply-team/reply-mcp).
 
 **Provenance**
 
@@ -132,7 +138,7 @@ Vendor states API/webhook access is included across all pricing tiers starting a
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

@@ -21,7 +21,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [similarweb.com](https://similarweb.com) · entry id 05-similarweb · source 05-signals-intent-abm.md line 641
+Vendor: [similarweb.com](https://similarweb.com) · entry id 05-similarweb · source 05-signals-intent-abm.md line 647
 
 **What it does**
 Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal.
@@ -40,10 +40,10 @@ Account-sizing, competitor-displacement and territory-prioritisation signal, and
 
 - **Parsed URLs**: 4 found in the mcp_url field
 
-- **Endpoint probe**: answered, asking for a key
+- **Endpoint probe**: auth wall at every path, not proven a server
 - **Endpoint URL[https://mcp.similarweb.com](https://mcp.similarweb.com)Probed**: 2026-09-04, HTTP 401
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
 
 mcp_status, verbatim from the file:
 
@@ -111,7 +111,7 @@ Added 2026-08-25 in the coverage sweep. 21 tools across three groups: Web Metric
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 641
+- **Source line**: 647
 
 - **Tier**: RESEARCHED
 

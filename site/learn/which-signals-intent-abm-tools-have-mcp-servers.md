@@ -94,7 +94,7 @@ Tracks job changes of a company's past customers and champions as they move to n
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 
-Counted 2026-09-07. Source file 05-signals-intent-abm.md, content sha256 03350ff153d834c4...
+Counted 2026-09-07. Source file 05-signals-intent-abm.md, content sha256 111b3a6a8c0a8caf...
 
 ## Sources
 

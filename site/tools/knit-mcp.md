@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [getknit.dev](https://getknit.dev) · entry id 07-knit-mcp · source 07-mcp-infrastructure.md line 286
+Vendor: [getknit.dev](https://getknit.dev) · entry id 07-knit-mcp · source 07-mcp-infrastructure.md line 292
 
 **What it does**
 A unified-API vendor that publishes hosted, serverless MCP servers for individual SaaS applications across CRM, ATS, HRIS, ticketing, accounting, calendar, email and e-sign, alongside its unified REST APIs and an LLM-tools surface for the same catalogue.
@@ -101,7 +101,7 @@ Verified 2026-09-07 from the vendor's own catalogue and pricing pages. NO ENDPOI
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 286
+- **Source line**: 292
 
 - **Tier**: RESEARCHED
 

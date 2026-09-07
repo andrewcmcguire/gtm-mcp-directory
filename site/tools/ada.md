@@ -1,6 +1,6 @@
 # Ada: MCP server status, API access gate and what it does
 
-> Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales... Official MCP, Enterprise only. Checked 2026-08-24.
+> Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Ada
 [Enterprise only](../gates/enterprise-only.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Enterprise inbound AI agent platform for CX teams; notable in this category for 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -97,7 +97,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.ada.cx, https://docs.ada.cx, https://docs.ada.cx/_mcp/server, https://www.ada.cx/pricing/
 
 **Notes, verbatim from the file**
-IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search over the documentation") and only lets an AI client search Ada's own help docs; it is not an MCP for querying or acting on a customer's live Ada account data (conversations, contacts, etc.). Listed as official because the URL is real and vendor-hosted, but do not conflate this with a full product-data MCP like Intercom's or Pylon's. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ada.cx/pricing/): /pricing is a demo-booking landing page with no tiers or prices; docs.ada.cx publishes a public API reference but states no plan or package requirement for access.
+IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search over the documentation") and only lets an AI client search Ada's own help docs; it is not an MCP for querying or acting on a customer's live Ada account data (conversations, contacts, etc.). Listed as official because the URL is real and vendor-hosted, but do not conflate this with a full product-data MCP like Intercom's or Pylon's. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ada.cx/pricing/): /pricing is a demo-booking landing page with no tiers or prices; docs.ada.cx publishes a public API reference but states no plan or package requirement for access. 2026-09-07: https://docs.ada.cx/_mcp/server answered an MCP initialize with HTTP 200 and a jsonrpc result - a live, unauthenticated MCP server on the vendor domain (https://docs.ada.cx/_mcp/server).
 
 **Provenance**
 
@@ -109,7 +109,7 @@ IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

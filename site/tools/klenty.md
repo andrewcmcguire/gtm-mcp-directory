@@ -93,7 +93,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **Category**: [AI SDRs](../categories/ai-sdr-agents.md)
 
-- **MCP status there**: Community MCP
+- **MCP status there**: Official MCP
 
 - **Gate there**: Paid, self-serve
 

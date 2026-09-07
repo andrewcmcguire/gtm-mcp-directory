@@ -1,6 +1,6 @@
 # Sumble: MCP server status, API access gate and what it does
 
-> Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Sumble
 [Paid, self-serve](../gates/paid.md)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://sumble.com](https://sumble.com) · entry id 05-sumble · source 05-signals-intent-abm.md line 469
+Vendor: [https://sumble.com](https://sumble.com) · entry id 05-sumble · source 05-signals-intent-abm.md line 472
 
 **What it does**
 Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and initiatives like cloud migrations or GenAI projects per company.
@@ -38,12 +38,12 @@ Account research / call-prep layer - LLM-driven account intelligence for reps pr
 
 - **Auth**: unknown - the MCP overview page documents one-click install from the Claude and ChatGPT app directories and a custom MCP connection for Cursor, Claude Code and Gemini CLI, but does not name the credential type on that page. Read 2026-08-28.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.sumble.com/api/mcp (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. Product overview at https://sumble.com/mcp)
+https://mcp.sumble.com/ ; https://docs.sumble.com/api/mcp (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. Product overview at https://sumble.com/mcp)
 
+- [https://mcp.sumble.com/](https://mcp.sumble.com/)
 - [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)
 - [https://sumble.com/mcp](https://sumble.com/mcp)
 
@@ -94,13 +95,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)
 - [https://sumble.com/llms.txt](https://sumble.com/llms.txt)
 - [https://sumble.com/mcp](https://sumble.com/mcp)
+- [https://mcp.sumble.com/](https://mcp.sumble.com/)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/, https://sumble.com/, https://docs.sumble.com/api/mcp, https://sumble.com/llms.txt, https://sumble.com/mcp
+https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/, https://sumble.com/, https://docs.sumble.com/api/mcp, https://sumble.com/llms.txt, https://sumble.com/mcp, https://mcp.sumble.com/
 
 **Notes, verbatim from the file**
-2026-08-28 link-rot correction, and the lead paid off. The mcp_url published until today, docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4, 404d when re-checked on 2026-08-27. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. https://sumble.com/llms.txt names the real current surface under a "For AI agents" heading, and both https://sumble.com/mcp and https://docs.sumble.com/api/mcp return 200. The server is alive and first-party, so mcp_status stays official rather than being downgraded. Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2.6M companies. Self-serve 30-day free trial, no credit card required; specific paid pricing tiers not published.
+2026-08-28 link-rot correction, and the lead paid off. The mcp_url published until today, docs.sumble.com/pages/KLH6XuEHsUssUZW6C1i4, 404d when re-checked on 2026-08-27. It is named here rather than left in the mcp_url field so the published page does not carry a link to a 404. https://sumble.com/llms.txt names the real current surface under a "For AI agents" heading, and both https://sumble.com/mcp and https://docs.sumble.com/api/mcp return 200. The server is alive and first-party, so mcp_status stays official rather than being downgraded. Emerged from stealth October 2025 with a $38.5M raise; knowledge graph covers ~2.6M companies. Self-serve 30-day free trial, no credit card required; specific paid pricing tiers not published. 2026-09-07: https://mcp.sumble.com/ returned 401 {"error": "invalid_token", "error_description": "Authentication required"} to an MCP initialize POST (https://mcp.sumble.com/).
 
 **Provenance**
 
@@ -108,11 +110,11 @@ https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-brin
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 469
+- **Source line**: 472
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

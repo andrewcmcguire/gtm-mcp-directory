@@ -1,6 +1,6 @@
 # Jiminny: MCP server status, API access gate and what it does
 
-> Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. Community MCP, Enterprise only. Checked 2026-08-24.
+> Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. Community MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Jiminny
 [Enterprise only](../gates/enterprise-only.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Mid-market call-recording and coaching layer with a documented but not fully tra
 
 - **Auth**: Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
 - **Docs URL[https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp)Probed**: 2026-09-04, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,12 @@ community
 
 mcp_url, verbatim from the file:
 
-https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp ; https://zapier.com/mcp/jiminny - both third-party; no official Jiminny-branded MCP announcement was found.
+https://mcp.jiminny.com/mcp ; https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp ; https://zapier.com/mcp/jiminny - both third-party; no official Jiminny-branded MCP announcement was found. ; repo https://github.com/fzheng0222/jiminny-mcp
 
+- [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp)
 - [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp)
 - [https://zapier.com/mcp/jiminny](https://zapier.com/mcp/jiminny)
+- [https://github.com/fzheng0222/jiminny-mcp](https://github.com/fzheng0222/jiminny-mcp)
 
 **Access gate**
 
@@ -78,6 +80,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/fzheng0222/jiminny-mcp](https://github.com/fzheng0222/jiminny-mcp)
+
 **Jobs it can do**
 
 - [Fetch a call transcript](../jobs/fetch-call-transcript.md)
@@ -96,13 +102,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://zapier.com/mcp/jiminny](https://zapier.com/mcp/jiminny)
 - [https://apitracker.io/a/jiminny](https://apitracker.io/a/jiminny)
 - [https://www.jiminny.com/](https://www.jiminny.com/)
+- [https://github.com/fzheng0222/jiminny-mcp](https://github.com/fzheng0222/jiminny-mcp)
+- [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp)
 
-5 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/
+https://help.jiminny.com/en/articles/9527212-what-is-the-jiminny-api, https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp, https://zapier.com/mcp/jiminny, https://apitracker.io/a/jiminny, https://www.jiminny.com/, https://github.com/fzheng0222/jiminny-mcp, https://mcp.jiminny.com/mcp
 
 **Notes, verbatim from the file**
-Added as an expansion beyond the seed list - a second mid-market Gong/Chorus competitor worth tracking. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.jiminny.com/): no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us.
+Added as an expansion beyond the seed list - a second mid-market Gong/Chorus competitor worth tracking. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.jiminny.com/): no pricing page exists on any path and neither the site nor the integrations page mentions an API; the only route is contact-us. 2026-09-07: fzheng0222/jiminny-mcp is a real server (pyproject.toml + src/server.py, README lists transcript/summary tools) but the owner is an individual, not Jiminny (https://github.com/fzheng0222/jiminny-mcp).
 
 **Provenance**
 
@@ -114,7 +122,7 @@ Added as an expansion beyond the seed list - a second mid-market Gong/Chorus com
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

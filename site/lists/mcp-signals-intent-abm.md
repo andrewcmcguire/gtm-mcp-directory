@@ -19,7 +19,7 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | API key
+crustdata.com | [Official MCP](../mcp/official.md) | [https://install.crustdata.com/mcp](https://install.crustdata.com/mcp) +2 more | API key
 api key (free sandbox key available) | [Free to start](../gates/free.md) |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](../tools/leadfeeder.md)
 leadfeeder.com | [Official MCP](../mcp/official.md) | [https://www.leadfeeder.com/features/mcp-server/](https://www.leadfeeder.com/features/mcp-server/) +1 more | OAuth
@@ -28,25 +28,25 @@ OAuth - user signs in with their own Leadfeeder account; vendor states "No keys 
 predictleads.com | [Official MCP](../mcp/official.md) | [https://mcp.predictleads.com/](https://mcp.predictleads.com/) | API key
 api key (same API key/token used for REST API calls, per vendor blog) | [Free to start](../gates/free.md) |
 | [TheirStack](../tools/theirstack.md)
-theirstack.com | [Official MCP](../mcp/official.md) | [https://theirstack.com/en/job-posting-mcp](https://theirstack.com/en/job-posting-mcp) | Auth not recorded
+theirstack.com | [Official MCP](../mcp/official.md) | [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/) +1 more | Auth not recorded
 unknown - page references a "How does authentication work?" FAQ but the answer wasn't... | [Free to start](../gates/free.md) |
 | [Warmly (Warmly.ai)](../tools/warmly.md)
 warmly.ai | [Official MCP](../mcp/official.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth or an API key
 MCP uses OAuth-based login (no manual key management); the separate REST API... | [Free to start](../gates/free.md) |
 | [Factors.ai](../tools/factors-ai.md)
-factors.ai | [Official MCP](../mcp/official.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | API key
+factors.ai | [Official MCP](../mcp/official.md) | [https://mcp.factors.ai/mcp](https://mcp.factors.ai/mcp) +1 more | API key
 Personal access token (generated in Settings > AI Features), used via Claude custom... | [Paid, self-serve](../gates/paid.md) |
 | [Keyplay](../tools/keyplay.md)
-keyplay.io | [Official MCP](../mcp/official.md) | [https://docs.keyplay.io/en/articles/13643214-keyplay...](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp) +1 more | OAuth or an API key
+keyplay.io | [Official MCP](../mcp/official.md) | [https://api.keyplay.io/mcp](https://api.keyplay.io/mcp) +1 more | OAuth or an API key
 OAuth for Claude.ai and Claude Desktop, API key for Claude Code, per the vendor's docs | [Paid, self-serve](../gates/paid.md) |
 | [RB2B](../tools/rb2b.md)
 rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | API key
 api key | [Paid, self-serve](../gates/paid.md) |
 | [Snitcher](../tools/snitcher.md)
-snitcher.com | [Official MCP](../mcp/official.md) | [https://www.snitcher.com/changelog/point-claude-at-s...](https://www.snitcher.com/changelog/point-claude-at-snitcher/) | Auth not recorded
+snitcher.com | [Official MCP](../mcp/official.md) | [https://app.snitcher.com/mcp/snitcher](https://app.snitcher.com/mcp/snitcher) +1 more | Auth not recorded
 unknown - vendor changelog points to docs.snitcher.com for authentication specifics, not... | [Paid, self-serve](../gates/paid.md) |
 | [Sumble](../tools/sumble.md)
-sumble.com | [Official MCP](../mcp/official.md) | [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp) +1 more | Auth not recorded
+sumble.com | [Official MCP](../mcp/official.md) | [https://mcp.sumble.com/](https://mcp.sumble.com/) +2 more | Auth not recorded
 unknown - the MCP overview page documents one-click install from the Claude and ChatGPT... | [Paid, self-serve](../gates/paid.md) |
 | [6sense](../tools/6sense.md)
 6sense.com | [Official MCP](../mcp/official.md) | [https://6sense.com/platform/mcp-server/](https://6sense.com/platform/mcp-server/) +1 more | OAuth

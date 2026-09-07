@@ -24,7 +24,7 @@ RevOps Infra is the most agent reachable category at 25 of 27 entries with a ser
 |---|---|---|---|---|---|
 | 1 | [RevOps Infra](../categories/revops-infra.md) | 93% | 25 | 0 | 27 |
 | 2 | [Data & Enrichment](../categories/data-enrichment.md) | 89% | 38 | 2 | 45 |
-| 3 | [Conversation Intel](../categories/conversation-intel.md) | 88% | 18 | 3 | 24 |
+| 3 | [Conversation Intel](../categories/conversation-intel.md) | 88% | 19 | 2 | 24 |
 | 4 | [Engagement & Outbound](../categories/engagement-outbound.md) | 74% | 22 | 1 | 31 |
 | 5 | [MCP Layer](../categories/mcp-infrastructure.md) | 74% | 14 | 0 | 19 |
 | 6 | [Signals & Intent](../categories/signals-intent-abm.md) | 68% | 18 | 1 | 28 |
@@ -33,7 +33,7 @@ RevOps Infra is the most agent reachable category at 25 of 27 entries with a ser
 | 9 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 59% | 8 | 2 | 17 |
 | 10 | [Community & Dark Social](../categories/community-dark-social.md) | 56% | 7 | 3 | 18 |
 | 11 | [Scheduling & Routing](../categories/scheduling-routing.md) | 50% | 5 | 2 | 14 |
-| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 43% | 7 | 3 | 23 |
+| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 43% | 8 | 2 | 23 |
 | 13 | [Email Deliverability](../categories/email-deliverability.md) | 31% | 4 | 0 | 13 |
 | 14 | [Enablement & Coaching](../categories/enablement-coaching.md) | 21% | 2 | 1 | 14 |
 | 15 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 18% | 3 | 0 | 17 |
@@ -42,7 +42,7 @@ Counted 2026-09-07 from the category blocks in directory.json. Reachable means a
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 7 official servers across 23 entries. Enablement & Coaching is at 2 of 14. Meanwhile the plumbing layer, RevOps Infra, is at 25 of 27.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 23 entries. Enablement & Coaching is at 2 of 14. Meanwhile the plumbing layer, RevOps Infra, is at 25 of 27.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 

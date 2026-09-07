@@ -1,6 +1,6 @@
 # Fireflies.ai: MCP server status, API access gate and what it does
 
-> Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant... Official MCP, Free to start. Checked 2026-08-24.
+> Records and transcribes meetings and exposes the data through an open GraphQL API and an in-app AI assistant... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Fireflies.ai
 [Free to start](../gates/free.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Low-friction, developer-accessible conversation-data layer - the clearest solo-o
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol (server endpoint https://api.fireflies.ai/mcp)
+https://api.fireflies.ai/mcp ; https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol (server endpoint https://api.fireflies.ai/mcp)
 
-- [https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol)
 - [https://api.fireflies.ai/mcp](https://api.fireflies.ai/mcp)
+- [https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol)
 
 **Access gate**
 
@@ -95,13 +95,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://docs.fireflies.ai/getting-started/quickstart](https://docs.fireflies.ai/getting-started/quickstart)
 - [https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol)
 - [https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans](https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans)
+- [https://api.fireflies.ai/mcp](https://api.fireflies.ai/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://docs.fireflies.ai/getting-started/introduction, https://docs.fireflies.ai/getting-started/quickstart, https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol, https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans
+https://docs.fireflies.ai/getting-started/introduction, https://docs.fireflies.ai/getting-started/quickstart, https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol, https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans, https://api.fireflies.ai/mcp
 
 **Notes, verbatim from the file**
-This is the Gong-vs-Fireflies contrast the directory is built to surface: an open, self-serve GraphQL API plus an official MCP server, versus Gong's sales-gated everything.
+This is the Gong-vs-Fireflies contrast the directory is built to surface: an open, self-serve GraphQL API plus an official MCP server, versus Gong's sales-gated everything. 2026-09-07: https://api.fireflies.ai/mcp returned 401 to an MCP initialize POST (https://api.fireflies.ai/mcp).
 
 **Provenance**
 
@@ -113,7 +114,7 @@ This is the Gong-vs-Fireflies contrast the directory is built to surface: an ope
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

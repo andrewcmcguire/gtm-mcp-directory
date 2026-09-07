@@ -1,6 +1,6 @@
 # lemlist: MCP server status, API access gate and what it does
 
-> Multichannel sales engagement platform combining lead database/enrichment, email/LinkedIn/call/SMS... Official MCP, Paid, self-serve. Checked 2026-09-03.
+> Multichannel sales engagement platform combining lead database/enrichment, email/LinkedIn/call/SMS... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ lemlist
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-09-03
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Multichannel outbound sequencing and lead-enrichment layer, increasingly agent-a
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://developer.lemlist.com/mcp/setup](https://developer.lemlist.com/mcp/setup)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://developer.lemlist.com/mcp/setup (endpoint https://app.lemlist.com/mcp)
+https://app.lemlist.com/mcp ; https://developer.lemlist.com/mcp/setup (endpoint https://app.lemlist.com/mcp)
 
-- [https://developer.lemlist.com/mcp/setup](https://developer.lemlist.com/mcp/setup)
 - [https://app.lemlist.com/mcp](https://app.lemlist.com/mcp)
+- [https://developer.lemlist.com/mcp/setup](https://developer.lemlist.com/mcp/setup)
 
 **Access gate**
 
@@ -99,13 +99,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.lemlist.com/pricing](https://www.lemlist.com/pricing)
 - [http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview](http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview)
 - [https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md](https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md)
+- [https://app.lemlist.com/mcp](https://app.lemlist.com/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://developer.lemlist.com/mcp/setup, https://www.lemlist.com/pricing, http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview, https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md
+https://developer.lemlist.com/mcp/setup, https://www.lemlist.com/pricing, http://help.lemlist.com/en/articles/4452791-lemlist-plans-and-pricing-overview, https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md, https://app.lemlist.com/mcp
 
 **Notes, verbatim from the file**
-One of the more clearly first-party, well-documented MCP implementations in this category - dual OAuth/API-key auth, 40+ documented actions. "Advanced API access" is explicitly called out as an Enterprise-tier ("Outreach Scale," 5+ seats, annual billing) feature; standard-tier API availability is not clearly documented, so treat access as paid/enterprise-leaning. 2026-09-03: vendor docs state the Enrich Data endpoint (POST /enrich) accepts firstName, lastName and companyName or companyDomain with a linkedinEnrichment flag ("Run LinkedIn enrichment") and its sample response returns linkedinUrl (https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md); no MCP tool name and no unit price are stated there.
+One of the more clearly first-party, well-documented MCP implementations in this category - dual OAuth/API-key auth, 40+ documented actions. "Advanced API access" is explicitly called out as an Enterprise-tier ("Outreach Scale," 5+ seats, annual billing) feature; standard-tier API availability is not clearly documented, so treat access as paid/enterprise-leaning. 2026-09-03: vendor docs state the Enrich Data endpoint (POST /enrich) accepts firstName, lastName and companyName or companyDomain with a linkedinEnrichment flag ("Run LinkedIn enrichment") and its sample response returns linkedinUrl (https://developer.lemlist.com/api-reference/endpoints/enrich/enrich-data.md); no MCP tool name and no unit price are stated there. 2026-09-07: https://app.lemlist.com/mcp returned 401 to an MCP initialize POST (https://app.lemlist.com/mcp).
 
 **Provenance**
 
@@ -117,7 +118,7 @@ One of the more clearly first-party, well-documented MCP implementations in this
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-03
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

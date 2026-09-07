@@ -1,6 +1,6 @@
-# Summarize a meeting: 22 GTM tools, 18 with an official MCP server
+# Summarize a meeting: 22 GTM tools, 19 with an official MCP server
 
-> Return notes, action items and next steps from a call or meeting. 21 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. Counted 2026-09-07 from the directory data.
+> Return notes, action items and next steps from a call or meeting. 21 of the 22 entries tagged with this job carry an MCP server of some kind, 19 of them official. Counted 2026-09-07 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,12 +19,12 @@ Summarize a meeting
 Return notes, action items and next steps from a call or meeting.
 
 - **entries tagged**: 22
-- **official MCP**: 18
-- **community MCP**: 3
+- **official MCP**: 19
+- **community MCP**: 2
 - **no MCP found**: 1
 - **solo reachable**: 14
 
-21 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. All 22 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-07 from directory.json.
+21 of the 22 entries tagged with this job carry an MCP server of some kind, 19 of them official. All 22 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-07 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -59,6 +59,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Circleback](../tools/circleback.md) circleback.ai AI meeting notetaker that produces structured notes, action items and insights from calls, and connects email threads to the same relationship record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Fellow](../tools/fellow.md) fellow.ai A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they came from. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Grain](../tools/grain.md) grain.com AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
@@ -80,8 +82,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) zoom.com Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account activity. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Motion](../tools/motion.md) usemotion.com AI-driven work-management app that auto-schedules a user's tasks, projects, and meetings onto their calendar around priorities and deadlines, bundled with note-taking and document tools. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 

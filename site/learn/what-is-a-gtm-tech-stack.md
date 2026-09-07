@@ -26,7 +26,7 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 |---|---|---|---|---|
 | [RevOps Infra](../categories/revops-infra.md) | 27 | 25 | 0 | 93% |
 | [Data & Enrichment](../categories/data-enrichment.md) | 45 | 38 | 2 | 89% |
-| [Conversation Intel](../categories/conversation-intel.md) | 24 | 18 | 3 | 88% |
+| [Conversation Intel](../categories/conversation-intel.md) | 24 | 19 | 2 | 88% |
 | [Engagement & Outbound](../categories/engagement-outbound.md) | 31 | 22 | 1 | 74% |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 19 | 14 | 0 | 74% |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 28 | 18 | 1 | 68% |
@@ -35,7 +35,7 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 17 | 8 | 2 | 59% |
 | [Community & Dark Social](../categories/community-dark-social.md) | 18 | 7 | 3 | 56% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 14 | 5 | 2 | 50% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 7 | 3 | 43% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 8 | 2 | 43% |
 | [Email Deliverability](../categories/email-deliverability.md) | 13 | 4 | 0 | 31% |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 2 | 1 | 21% |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 3 | 0 | 18% |
@@ -44,7 +44,7 @@ Counted 2026-09-07. Totals sum to 318 entries, which includes 16 products delibe
 
 ## What the ordering tells you
 
-The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 7 official servers out of 23.
+The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 23.
 
 If you are assembling a stack an agent can drive, build it from the top of that table down. The bottom is where you will still be writing glue, or clicking.
 

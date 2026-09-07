@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [microsoft.com/dynamics-365](https://microsoft.com/dynamics-365) · entry id 06-microsoft-dynamics-365-sales · source 06-revops-infra.md line 516
+Vendor: [microsoft.com/dynamics-365](https://microsoft.com/dynamics-365) · entry id 06-microsoft-dynamics-365-sales · source 06-revops-infra.md line 529
 
 **What it does**
 Microsoft's enterprise CRM for sales, built on Dataverse and the Power Platform, covering leads, opportunities, accounts and forecasting, with a first-party MCP server that lets Copilot Studio agents and other MCP clients qualify leads, research opportunities and read and write Dataverse records.
@@ -93,7 +93,7 @@ No job tag on this entry.
 https://learn.microsoft.com/en-us/dynamics365/sales/connect-agents-to-model-context-protocol, https://www.microsoft.com/en-us/dynamics-365/products/sales/pricing
 
 **Notes, verbatim from the file**
-Verified 2026-09-07 from Microsoft Learn. The endpoints are tenant-specific templates, not a shared host, so there is nothing to probe without an environment ID and this entry carries no liveness probe result; that is a property of the design, not a gap in the research. The single most useful line for this directory's readers is in Microsoft's own prerequisites: "Claude Desktop isn't supported at this time." A Microsoft-shaped MCP server that the most widely used MCP client cannot reach is the sharpest available illustration of MCP support being a spectrum rather than a yes or no. The docs give a working mcp.json example pairing both servers, and note that CRUD on Dataverse records requires connecting the Dataverse MCP server as well as the Sales one, so an agent needs two connections to do what a rep does in one screen. Copilot Credit consumption is per tool and documented in a separate Microsoft rate table, so cost scales with agent chattiness rather than with seats.
+Verified 2026-09-07 from Microsoft Learn. The endpoints are tenant-specific templates, not a shared host, so there is nothing to probe without an environment ID and this entry carries no liveness probe result; that is a property of the design, not a gap in the research. The single most useful line for this directory's readers is in Microsoft's own prerequisites: "Claude Desktop isn't supported at this time." A Microsoft-shaped MCP server that the most widely used MCP client cannot reach is the sharpest available illustration of MCP support being a spectrum rather than a yes or no. The docs give a working mcp.json example pairing both servers, and note that CRUD on Dataverse records requires connecting the Dataverse MCP server as well as the Sales one, so an agent needs two connections to do what a rep does in one screen. Copilot Credit consumption is per tool and documented in a separate Microsoft rate table, so cost scales with agent chattiness rather than with seats. 2026-09-07: the Agent 365 endpoint is per-tenant and templated (https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_SalesMCPServer), so no capability harvest can ever enumerate its tools without a customer EnvironmentID. The route itself is confirmed real (HTTP 400 with an MCP-shaped error to a probe carrying a placeholder environment id). DO NOT RE-INVESTIGATE: this entry is permanently unharvestable from outside a tenant.
 
 **Provenance**
 
@@ -101,7 +101,7 @@ Verified 2026-09-07 from Microsoft Learn. The endpoints are tenant-specific temp
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 516
+- **Source line**: 529
 
 - **Tier**: RESEARCHED
 

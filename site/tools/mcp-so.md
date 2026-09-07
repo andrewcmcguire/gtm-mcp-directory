@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [mcp.so](https://mcp.so) · entry id 07-mcp-so · source 07-mcp-infrastructure.md line 157
+Vendor: [mcp.so](https://mcp.so) · entry id 07-mcp-so · source 07-mcp-infrastructure.md line 162
 
 **What it does**
 A community MCP server/client directory (per its public reputation as one of the earlier MCP catalog sites) - could not independently re-verify current content in this research pass.
@@ -101,7 +101,7 @@ Per the two-tier honesty rule and the "no invented facts" law, this entry is int
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 157
+- **Source line**: 162
 
 - **Tier**: RESEARCHED
 

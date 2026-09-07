@@ -1,6 +1,6 @@
 # Common Paper: MCP server status, API access gate and what it does
 
-> Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order... Official MCP, Free to start. Checked 2026-08-24.
+> Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Common Paper
 [Free to start](../gates/free.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Lightweight, standardized contracting layer aimed at startups closing deals fast
 
 - **Auth**: unknown - not detailed in the release-notes excerpt reviewed.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/ ; REST API docs at https://api.commonpaper.com/docs
+https://api.commonpaper.com/mcp ; https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/ ; REST API docs at https://api.commonpaper.com/docs
 
+- [https://api.commonpaper.com/mcp](https://api.commonpaper.com/mcp)
 - [https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/)
 - [https://api.commonpaper.com/docs](https://api.commonpaper.com/docs)
 
@@ -92,13 +93,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/)
 - [https://commonpaper.com/pricing/](https://commonpaper.com/pricing/)
 - [https://api.commonpaper.com/docs](https://api.commonpaper.com/docs)
+- [https://api.commonpaper.com/mcp](https://api.commonpaper.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/, https://commonpaper.com/pricing/, https://api.commonpaper.com/docs
+https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/, https://commonpaper.com/pricing/, https://api.commonpaper.com/docs, https://api.commonpaper.com/mcp
 
 **Notes, verbatim from the file**
-The main commonpaper.com homepage returned an HTTP 403 to automated fetching during this research; facts above are drawn from search-indexed pricing and release-notes pages instead of a direct homepage read - worth a manual re-check.
+The main commonpaper.com homepage returned an HTTP 403 to automated fetching during this research; facts above are drawn from search-indexed pricing and release-notes pages instead of a direct homepage read - worth a manual re-check. 2026-09-07: https://api.commonpaper.com/mcp returned 401 "Bearer token required" while the control path https://api.commonpaper.com/zzznotamcp returned a 404 problem-JSON, so /mcp is a real registered route on the vendor API, not a blanket auth wall (https://api.commonpaper.com/mcp).
 
 **Provenance**
 
@@ -110,7 +112,7 @@ The main commonpaper.com homepage returned an HTTP 403 to automated fetching dur
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

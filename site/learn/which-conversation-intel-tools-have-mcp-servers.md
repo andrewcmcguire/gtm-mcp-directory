@@ -1,6 +1,6 @@
 # Conversation intelligence tools with MCP servers: 21 of 24, counted
 
-> 21 of the 24 conversation intel tools in this directory have an MCP server: 18 official and 3 community. The list with server URLs and access gates. Counted 2026-09-07.
+> 21 of the 24 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 24 conversation intel entries in this directory have an MCP server: 18 built and maintained by the vendor and 3 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
+21 of the 24 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
 
 Call recordings are the richest unstructured data a revenue team owns, and the only place most of what a buyer actually said is written down. Whether an agent can read them decides whether it can prepare for a call or only summarise a CRM field.
 
@@ -38,6 +38,8 @@ Captures, transcribes, and analyzes sales and customer conversations, automatica
 AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams.
 - [Circleback](../tools/circleback.md) Official MCP · Paid, self-serve
 AI meeting notetaker that produces structured notes, action items and insights from calls, and connects email threads to the same relationship record.
+- [Clari Copilot](../tools/clari-copilot.md) Official MCP · Paid, self-serve
+Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after...
 - [Fellow](../tools/fellow.md) Official MCP · Paid, self-serve
 A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they...
 - [Grain](../tools/grain.md) Official MCP · Paid, self-serve
@@ -60,8 +62,6 @@ AI meeting notetaker whose Sales Agent variant pulls CRM context before a call a
 Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales...
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) Official MCP · Gate unknown
 Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account...
-- [Clari Copilot](../tools/clari-copilot.md) Community MCP · Paid, self-serve
-Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after...
 - [Chorus](../tools/chorus.md) Community MCP · Enterprise only
 Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM.
 - [Jiminny](../tools/jiminny.md) Community MCP · Enterprise only
@@ -88,7 +88,7 @@ Real-time AI video-conferencing platform for sales calls that coaches reps live 
 | [Enterprise only](../gates/enterprise-only.md) | 8 |
 | [Gate unknown](../gates/unknown.md) | 2 |
 
-Counted 2026-09-07. Source file 03-conversation-intel.md, content sha256 1ff25b61d9f1f7df...
+Counted 2026-09-07. Source file 03-conversation-intel.md, content sha256 b029e32f980d38b3...
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Close (Close CRM): MCP server status, API access gate and what it does
 
-> A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Close (Close CRM)
 [Paid, self-serve](../gates/paid.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [close.com](https://close.com) · entry id 06-close · source 06-revops-infra.md line 99
+Vendor: [close.com](https://close.com) · entry id 06-close · source 06-revops-infra.md line 101
 
 **What it does**
 A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record.
@@ -43,7 +43,7 @@ SMB/startup sales CRM often chosen for native calling/SMS; its MCP server pitche
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://help.close.com/integrations/close-mcp-server (redirect correction 2026-08-28: the address previously recorded here, help.close.com/docs/mcp-server, 308s to this one and this one returns 200. Endpoint: https://mcp.close.com/mcp)
+https://mcp.close.com/mcp ; https://help.close.com/integrations/close-mcp-server (redirect correction 2026-08-28: the address previously recorded here, help.close.com/docs/mcp-server, 308s to this one and this one returns 200. Endpoint: https://mcp.close.com/mcp)
 
-- [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server)
 - [https://mcp.close.com/mcp](https://mcp.close.com/mcp)
+- [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server)
 
 **Access gate**
 
@@ -92,13 +92,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://help.close.com/integrations/close-mcp-server](https://help.close.com/integrations/close-mcp-server)
 - [https://help.close.com/llms.txt](https://help.close.com/llms.txt)
+- [https://mcp.close.com/mcp](https://mcp.close.com/mcp)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://help.close.com/integrations/close-mcp-server, https://help.close.com/llms.txt
+https://help.close.com/integrations/close-mcp-server, https://help.close.com/llms.txt, https://mcp.close.com/mcp
 
 **Notes, verbatim from the file**
-Supports HTTP Streamable transport and integrates with Claude (web/desktop/code), ChatGPT, Cursor, VS Code, and n8n per its own docs. A separate community CLI tool (bcharleson/close-crm-cli) also exists and is unofficial.
+Supports HTTP Streamable transport and integrates with Claude (web/desktop/code), ChatGPT, Cursor, VS Code, and n8n per its own docs. A separate community CLI tool (bcharleson/close-crm-cli) also exists and is unofficial. 2026-09-07: Official MCP registry carries com.close/close-mcp (DNS-verified close.com namespace) with remote https://mcp.close.com/mcp; that URL returned 401 to an MCP initialize (https://mcp.close.com/mcp).
 
 **Provenance**
 
@@ -106,11 +107,11 @@ Supports HTTP Streamable transport and integrates with Claude (web/desktop/code)
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 99
+- **Source line**: 101
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

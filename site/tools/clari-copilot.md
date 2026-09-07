@@ -1,6 +1,6 @@
 # Clari Copilot: MCP server status, API access gate and what it does
 
-> Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and... Community MCP, Paid, self-serve. Checked 2026-08-24.
+> Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,11 +13,11 @@ Clari Copilot
 
 # Clari Copilot
 
-[Community MCP](../mcp/community.md)
+[Official MCP](../mcp/official.md)
 [Paid, self-serve](../gates/paid.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -34,25 +34,26 @@ Conversation-intelligence / call-recording layer (Gong-equivalent within the Cla
 
 **MCP server**
 
-- **Status bucket**: Community MCP
+- **Status bucket**: Official MCP
 
 - **Auth**: Scalekit-hosted connector uses per-user delegated OAuth-style authorization in Scalekit's own token vault. The underlying Clari Copilot REST API (https://api-doc.copilot.clari.com/) uses a static API Key + API Password pair generated in Workspace Settings → Integrations.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot)Probed**: 2026-09-04, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
-community
+official
 
 mcp_url, verbatim from the file:
 
-https://www.scalekit.com/connectors/claricopilot (third-party connector, not vendor-built). A Clari community forum thread - https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980 - asks why a "Copilot MCP Server" was pulled from July release notes, suggesting an official one may have been planned or briefly shipped; status of any first-party version is unresolved as of this research, so it is logged as community, not official.
+https://mcp.clari.com/mcp ; https://www.scalekit.com/connectors/claricopilot (third-party connector, not vendor-built). A Clari community forum thread - https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980 - asks why a "Copilot MCP Server" was pulled from July release notes, suggesting an official one may have been planned or briefly shipped. SUPERSEDED 2026-09-07: a first-party Clari MCP endpoint at https://mcp.clari.com/mcp does answer, so this entry is now official; see notes.
 
+- [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp)
 - [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot)
 - [https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980](https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980)
 
@@ -97,13 +98,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://community.clari.com/product-q-a-6/how-to-use-copilot-apis-2258](https://community.clari.com/product-q-a-6/how-to-use-copilot-apis-2258)
 - [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot)
 - [https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980](https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980)
+- [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.clari.com/products/copilot/, https://api-doc.copilot.clari.com/, https://community.clari.com/product-q-a-6/how-to-use-copilot-apis-2258, https://www.scalekit.com/connectors/claricopilot, https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980
+https://www.clari.com/products/copilot/, https://api-doc.copilot.clari.com/, https://community.clari.com/product-q-a-6/how-to-use-copilot-apis-2258, https://www.scalekit.com/connectors/claricopilot, https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980, https://mcp.clari.com/mcp
 
 **Notes, verbatim from the file**
-The removed-from-release-notes thread is worth watching - an official Clari Copilot MCP server may land later and should be re-checked.
+The removed-from-release-notes thread is worth watching - an official Clari Copilot MCP server may land later and should be re-checked. 2026-09-07: Same first-party endpoint as the Clari entry: https://mcp.clari.com/mcp answered 401 to an MCP initialize while a control path 404d (https://mcp.clari.com/mcp). mcp_status raised community to official on this evidence: mcp.clari.com is Clari's own domain and the control path 404s, so the endpoint is first-party; the previous community status rested on the third-party Scalekit connector, retained below. CAVEAT recorded by the finder: the 401 proves a live first-party Clari MCP server but does not prove that the Clari Copilot tool surface sits behind it.
 
 **Provenance**
 
@@ -115,7 +117,7 @@ The removed-from-release-notes thread is worth watching - an official Clari Copi
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

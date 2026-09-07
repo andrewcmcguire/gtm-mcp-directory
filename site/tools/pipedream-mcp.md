@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [pipedream.com](https://pipedream.com) · entry id 07-pipedream-mcp · source 07-mcp-infrastructure.md line 33
+Vendor: [pipedream.com](https://pipedream.com) · entry id 07-pipedream-mcp · source 07-mcp-infrastructure.md line 35
 
 **What it does**
 Pipedream's existing workflow/integration platform re-exposed as hosted MCP servers, giving an MCP client access to 3,000+ connected apps and 10,000+ pre-built tools via Pipedream Connect.
@@ -103,7 +103,7 @@ Pipedream is custodial like Composio - it stores end-user credentials server-sid
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 33
+- **Source line**: 35
 
 - **Tier**: RESEARCHED
 

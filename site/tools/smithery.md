@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [smithery.ai](https://smithery.ai) · entry id 07-smithery · source 07-mcp-infrastructure.md line 96
+Vendor: [smithery.ai](https://smithery.ai) · entry id 07-smithery · source 07-mcp-infrastructure.md line 101
 
 **What it does**
 A registry and distribution marketplace for MCP servers - "publish once, install anywhere" - that indexes and distributes third-party servers rather than hosting them itself, plus an integrated OAuth/credential layer.
@@ -86,7 +86,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://smithery.ai](https://smithery.ai)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 14 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 13 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://smithery.ai
 
@@ -99,7 +99,7 @@ Smithery lists 17,000+ MCP servers by its own count. Because Smithery's agent.pw
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 96
+- **Source line**: 101
 
 - **Tier**: RESEARCHED
 

@@ -1,6 +1,6 @@
 # Relevance AI: MCP server status, API access gate and what it does
 
-> A platform for building and deploying specialist AI agents (research/enrichment, outbound prospecting,... Official MCP, Free to start. Checked 2026-08-24.
+> A platform for building and deploying specialist AI agents (research/enrichment, outbound prospecting,... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Relevance AI
 [Free to start](../gates/free.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Agent-building layer that can sit anywhere in the stack depending on configurati
 
 - **Auth**: OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project roles get restricted read-only access automatically
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins (redirect correction 2026-08-28: the address previously recorded here, relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction, 308s to this one and this one returns 200)
+https://mcp.relevanceai.com/ ; https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins (redirect correction 2026-08-28: the address previously recorded here, relevanceai.com/docs/integrations/mcp/programmatic-gtm/introduction, 308s to this one and this one returns 200)
 
+- [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/)
 - [https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins)
 
 **Access gate**
@@ -90,13 +91,14 @@ Reason recorded by the tagging pass: thin. Tagged nothing. It is a build-your-ow
 - [https://relevanceai.com](https://relevanceai.com)
 - [https://marketplace.relevanceai.com/](https://marketplace.relevanceai.com/)
 - [https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins)
+- [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins
+https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins, https://mcp.relevanceai.com/
 
 **Notes, verbatim from the file**
-The seed list named this tool's SDR agent "Bosh" - that name could not be found anywhere on the current site or marketplace (agent templates found instead: "Outbound Prospector," "Sales Researcher," "Perfect 5 Leads," etc.). Either renamed, deprecated, or misremembered - flag as unconfirmed. This is one of the very few tools in this category with a confirmed, solo-operator-accessible official MCP - a strong bench-test candidate.
+The seed list named this tool's SDR agent "Bosh" - that name could not be found anywhere on the current site or marketplace (agent templates found instead: "Outbound Prospector," "Sales Researcher," "Perfect 5 Leads," etc.). Either renamed, deprecated, or misremembered - flag as unconfirmed. This is one of the very few tools in this category with a confirmed, solo-operator-accessible official MCP - a strong bench-test candidate. 2026-09-07: https://mcp.relevanceai.com/ returned 401 {"error":"invalid_token","error_description":"Missing Authorization header"} to an MCP initialize POST (https://mcp.relevanceai.com/).
 
 **Provenance**
 
@@ -108,7 +110,7 @@ The seed list named this tool's SDR agent "Bosh" - that name could not be found 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

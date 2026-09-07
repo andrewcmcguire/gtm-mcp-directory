@@ -30,7 +30,7 @@ Tools that sit on the receiving end of demand - website chat that qualifies and 
 - **Gate unknown**: 3
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 141115aed60b1158... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 c4001c89802f8ba0... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 

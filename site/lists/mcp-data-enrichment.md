@@ -22,7 +22,7 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 anymailfinder.com | [Official MCP](../mcp/official.md) | [https://api.anymailfinder.com/mcp](https://api.anymailfinder.com/mcp) +1 more | OAuth or an API key
 Browser-based OAuth-style sign-in and approval for Claude, ChatGPT and Cursor, with an... | [Free to start](../gates/free.md) |
 | [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://crustdata.com/](https://crustdata.com/) | Auth not recorded
+crustdata.com | [Official MCP](../mcp/official.md) | [https://install.crustdata.com/mcp](https://install.crustdata.com/mcp) +1 more | Auth not recorded
 unknown | [Free to start](../gates/free.md) |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Official MCP](../mcp/official.md) | [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp) | API key
@@ -49,7 +49,7 @@ api key (LUSHA_API_KEY) | [Free to start](../gates/free.md) |
 prospeo.io | [Official MCP](../mcp/official.md) | [https://github.com/prospeo-v2/prospeo-mcp-server](https://github.com/prospeo-v2/prospeo-mcp-server) | OAuth or an API key
 OAuth 2.0 for the hosted server (auto-handled by Claude.ai/Desktop via the MCP... | [Free to start](../gates/free.md) |
 | [TheirStack](../tools/theirstack.md)
-theirstack.com | [Official MCP](../mcp/official.md) | [https://theirstack.com/en/docs/mcp](https://theirstack.com/en/docs/mcp) +2 more | API key
+theirstack.com | [Official MCP](../mcp/official.md) | [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/) +3 more | API key
 api key (same credentials as the REST API) | [Free to start](../gates/free.md) |
 | [Warmly](../tools/warmly.md)
 warmly.ai | [Official MCP](../mcp/official.md) | [https://www.warmly.ai/launches/warmly-mcp-and-api-ar...](https://www.warmly.ai/launches/warmly-mcp-and-api-are-live) | OAuth or an API key
@@ -67,19 +67,19 @@ api key (Bright Data API token) | [Paid, self-serve](../gates/paid.md) |
 clay.com | [Official MCP](../mcp/official.md) | [https://www.clay.com/mcp](https://www.clay.com/mcp) +1 more | API key
 Session cookie - the same token used to log into app.clay.com in-browser, which grants... | [Paid, self-serve](../gates/paid.md) |
 | [Coresignal](../tools/coresignal.md)
-coresignal.com | [Official MCP](../mcp/official.md) | [https://coresignal.com/mcp-server/](https://coresignal.com/mcp-server/) | OAuth
+coresignal.com | [Official MCP](../mcp/official.md) | [https://mcp.coresignal.com/mcp/v2](https://mcp.coresignal.com/mcp/v2) +2 more | OAuth
 OAuth 2.1 - per docs, the data key is fetched live with every request and never stored,... | [Paid, self-serve](../gates/paid.md) |
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Official MCP](../mcp/official.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | API key
 api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable... | [Paid, self-serve](../gates/paid.md) |
 | [Derrick](../tools/derrick.md)
-derrick-app.com | [Official MCP](../mcp/official.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +1 more | API key
+derrick-app.com | [Official MCP](../mcp/official.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +2 more | API key
 api key. The vendor's page states the MCP installs without credentials but every tool... | [Paid, self-serve](../gates/paid.md) |
 | [Dropcontact](../tools/dropcontact.md)
-dropcontact.com | [Official MCP](../mcp/official.md) | [https://www.dropcontact.com/mcp-dropcontact](https://www.dropcontact.com/mcp-dropcontact) | OAuth or an API key
+dropcontact.com | [Official MCP](../mcp/official.md) | [https://mcp.dropcontact.com/mcp](https://mcp.dropcontact.com/mcp) +1 more | OAuth or an API key
 Hosted server at mcp.dropcontact.com/mcp/, supporting OAuth (recommended, browser-based)... | [Paid, self-serve](../gates/paid.md) |
 | [Explorium](../tools/explorium.md)
-explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | API key
+explorium.ai | [Official MCP](../mcp/official.md) | [https://mcp-github-registry.explorium.ai/mcp](https://mcp-github-registry.explorium.ai/mcp) +3 more | API key
 api key | [Paid, self-serve](../gates/paid.md) |
 | [Fiber AI](../tools/fiber-ai.md)
 fiber.ai | [Official MCP](../mcp/official.md) | [https://mcp.fiber.ai/mcp/v3](https://mcp.fiber.ai/mcp/v3) +2 more | OAuth or an API key
@@ -127,7 +127,7 @@ unknown. The endpoint answers HTTP 401 to an unauthenticated MCP initialize but 
 crunchbase.com | [Official MCP](../mcp/official.md) | [https://mcp.crunchbase.com](https://mcp.crunchbase.com) +2 more | OAuth
 OAuth 2.1. The user signs in with their normal Crunchbase account in the AI client's... | [Enterprise only](../gates/enterprise-only.md) |
 | [Seamless.AI](../tools/seamless-ai.md)
-seamless.ai | [Official MCP](../mcp/official.md) | [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs) +1 more | OAuth or an API key
+seamless.ai | [Official MCP](../mcp/official.md) | [https://mcp.seamless.ai/mcp](https://mcp.seamless.ai/mcp) +1 more | OAuth or an API key
 OAuth 2.1 or API key; docs state "MCP access must be enabled on your account" - i.e.... | [Enterprise only](../gates/enterprise-only.md) |
 | [Surfe](../tools/surfe.md)
 surfe.com | [Official MCP](../mcp/official.md) | [https://mcp.eu.surfe.com/mcp](https://mcp.eu.surfe.com/mcp) +1 more | API key

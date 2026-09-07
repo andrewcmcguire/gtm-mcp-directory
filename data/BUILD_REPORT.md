@@ -25,8 +25,8 @@ Generated 2026-09-07 by `build_directory.py`. Zero network calls.
 | 15-community-dark-social.md | 18 | 18 | OK |
 | **Total** | **318** | **318** | **OK** |
 
-mcp_status, build: `{"community": 26, "n-a": 9, "none-found": 87, "official": 181, "unknown": 15}`
-mcp_status, recount: `{"community": 26, "n-a": 9, "none-found": 87, "official": 181, "unknown": 15}`
+mcp_status, build: `{"community": 24, "n-a": 9, "none-found": 87, "official": 183, "unknown": 15}`
+mcp_status, recount: `{"community": 24, "n-a": 9, "none-found": 87, "official": 183, "unknown": 15}`
 
 api_gate, build: `{"enterprise-leaning": 8, "enterprise-only": 78, "free": 69, "n-a": 6, "paid": 125, "unknown": 32}`
 api_gate, recount: `{"enterprise-leaning": 8, "enterprise-only": 78, "free": 69, "n-a": 6, "paid": 125, "unknown": 32}`
@@ -51,36 +51,36 @@ api_gate, recount: `{"enterprise-leaning": 8, "enterprise-only": 78, "free": 69,
 | notes | 318 | 0 |
 | docs_url | 29 | 289 |
 
-- mcp_url non-empty: **301 of 318** (225 parse to at least one URL, 53 point at github.com)
+- mcp_url non-empty: **301 of 318** (225 parse to at least one URL, 77 point at github.com)
 - mcp_auth non-empty: **313 of 318**
 - docs_url present: **29 of 318**
 - api_gate `unknown`: **32 of 318**
-- entries with at least one github.com URL anywhere (phase 6 seed): **68**
-- sources: 1298 URLs total; 304 entries with 2+, 14 with exactly 1, 0 with none
+- entries with at least one github.com URL anywhere (phase 6 seed): **92**
+- sources: 1386 URLs total; 305 entries with 2+, 13 with exactly 1, 0 with none
 - sources carrying a non-URL annotation (preserved, not dropped): **12**
 - solo-reachable (official or community MCP AND gate free or paid): **152**
 - BENCH-TESTED: **1**. This stays 0 until Andrew runs something.
 
-mcp_status: `{"community": 26, "n-a": 9, "none-found": 87, "official": 181, "unknown": 15}`
+mcp_status: `{"community": 24, "n-a": 9, "none-found": 87, "official": 183, "unknown": 15}`
 api_gate: `{"enterprise-leaning": 8, "enterprise-only": 78, "free": 69, "n-a": 6, "paid": 125, "unknown": 32}`
 tier: `{"BENCH-TESTED": 1, "RESEARCHED": 317}`
-last_checked: `{"2026-08-24": 118, "2026-08-25": 23, "2026-09-02": 131, "2026-09-03": 21, "2026-09-07": 25}`
+last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-03": 15, "2026-09-07": 89}`
 
 ### Capability layer (what each server exposes, from merge_capabilities.py)
 
 null
-- servers with a recorded tool list: **106** of 207 that claim a server
-- tools recorded in total: **7991**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
-- by evidence: `{"live-list": 5940, "docs": 986, "source": 894, "readme": 171}`
+- servers with a recorded tool list: **115** of 207 that claim a server
+- tools recorded in total: **8345**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
+- by evidence: `{"live-list": 5957, "source": 1191, "docs": 983, "readme": 214}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
 - probe run used: `2026-09-04`
-- endpoint_status: `{"live": 1, "live-auth-gated": 34, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 26, "not-applicable": 111}`
-- official entries whose recorded URL answered as an MCP server (live or auth-gated): **35**
-- official entries whose recorded URL is a docs page, not an endpoint: **86**
+- endpoint_status: `{"live": 1, "live-auth-gated": 26, "auth-wall": 8, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 26, "not-applicable": 111}`
+- official entries whose recorded URL answered as an MCP server (live or auth-gated): **27**
+- official entries whose recorded URL is a docs page, not an endpoint: **88**
 - docs-only is not wrong under SCHEMA law 1; it records where to read, not where to connect. Agents need the second.
 
 ### SPEC 2.3 fields present in the shape, unmeasured everywhere
@@ -134,23 +134,23 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 | detect-funding-or-news-event | signals-and-research | 12 | 11 | 10 | 9 |
 | scrape-web-page-for-facts | signals-and-research | 6 | 6 | 5 | 5 |
 | monitor-social-mentions | signals-and-research | 12 | 11 | 5 | 4 |
-| research-account-for-call-prep | signals-and-research | 17 | 16 | 10 | 8 |
-| run-email-sequence | outreach-and-engagement | 45 | 38 | 26 | 23 |
+| research-account-for-call-prep | signals-and-research | 17 | 16 | 11 | 8 |
+| run-email-sequence | outreach-and-engagement | 45 | 38 | 27 | 23 |
 | send-linkedin-message | outreach-and-engagement | 22 | 19 | 14 | 13 |
-| draft-personalized-outreach | outreach-and-engagement | 51 | 45 | 28 | 25 |
-| place-outbound-call | outreach-and-engagement | 22 | 19 | 12 | 8 |
+| draft-personalized-outreach | outreach-and-engagement | 51 | 45 | 30 | 25 |
+| place-outbound-call | outreach-and-engagement | 22 | 19 | 13 | 8 |
 | create-and-send-prospecting-video | outreach-and-engagement | 14 | 13 | 3 | 7 |
 | read-outreach-performance | outreach-and-engagement | 14 | 13 | 7 | 6 |
 | run-autonomous-sdr-agent | outreach-and-engagement | 16 | 12 | 6 | 4 |
-| fetch-call-transcript | conversations-and-meetings | 20 | 20 | 15 | 11 |
+| fetch-call-transcript | conversations-and-meetings | 20 | 20 | 16 | 11 |
 | search-call-library | conversations-and-meetings | 5 | 5 | 5 | 3 |
-| summarize-meeting | conversations-and-meetings | 22 | 22 | 18 | 14 |
-| extract-deal-signals-from-calls | conversations-and-meetings | 21 | 21 | 11 | 4 |
+| summarize-meeting | conversations-and-meetings | 22 | 22 | 19 | 14 |
+| extract-deal-signals-from-calls | conversations-and-meetings | 21 | 21 | 12 | 4 |
 | book-a-meeting | conversations-and-meetings | 26 | 23 | 10 | 10 |
 | read-calendar-availability | conversations-and-meetings | 12 | 11 | 6 | 6 |
 | answer-inbound-chat | conversations-and-meetings | 21 | 16 | 12 | 11 |
 | read-crm-records | systems-of-record | 13 | 10 | 10 | 8 |
-| write-crm-records | systems-of-record | 28 | 25 | 18 | 14 |
+| write-crm-records | systems-of-record | 28 | 25 | 19 | 14 |
 | query-data-warehouse | systems-of-record | 2 | 2 | 2 | 2 |
 | sync-records-between-systems | systems-of-record | 9 | 9 | 8 | 7 |
 | run-automation-workflow | systems-of-record | 18 | 15 | 10 | 9 |
@@ -164,8 +164,8 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 | read-pipeline-forecast | planning-scoring-coaching | 22 | 19 | 8 | 2 |
 | model-revenue-plan | planning-scoring-coaching | 7 | 7 | 3 | 1 |
 | score-and-prioritize-leads | planning-scoring-coaching | 24 | 21 | 15 | 9 |
-| score-rep-performance | planning-scoring-coaching | 25 | 24 | 7 | 4 |
-| run-sales-roleplay-practice | planning-scoring-coaching | 11 | 10 | 2 | 1 |
+| score-rep-performance | planning-scoring-coaching | 25 | 24 | 8 | 4 |
+| run-sales-roleplay-practice | planning-scoring-coaching | 11 | 10 | 3 | 1 |
 | warm-up-inbox | sending-infrastructure | 13 | 12 | 9 | 9 |
 | provision-sending-infrastructure | sending-infrastructure | 9 | 9 | 6 | 6 |
 | check-inbox-placement | sending-infrastructure | 4 | 4 | 1 | 1 |
@@ -256,7 +256,7 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 Editorial, not build failures. The markdown is the source of truth; the build reports these and ships.
 
 - SCHEMA law 1 risk (official or community with no parseable mcp_url): **1** 13-arphie
-- Thin sourcing (fewer than 2 source URLs): **14**
+- Thin sourcing (fewer than 2 source URLs): **13**
 - api_gate unknown: **32**
 - docs_url missing: **289**
 
@@ -270,8 +270,8 @@ None.
 
 ## Integrity
 
-- content sha256: `a6e192258cb0f3b53810832184cac5129a9e921f2070392092cb76310485644a`
-- source sha256: `8ced61216b3602e5ab7d8b494d39e0733ffcd227cedc3e2491438f5e67f7dceb`
+- content sha256: `d639e1c627d417b72c444457b3b51691df14929cc9c263abb65ad6210e317a42`
+- source sha256: `16f326cdbfc4a888ca04a125a94357faa4cde81706114895c5bbbed585209355`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
 - network calls made: 0 (the socket module is disarmed at import)

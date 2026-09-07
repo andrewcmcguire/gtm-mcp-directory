@@ -1,6 +1,6 @@
 # MadKudu: MCP server status, API access gate and what it does
 
-> Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and... Official MCP, Enterprise only. Checked 2026-09-02.
+> Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ MadKudu
 [Enterprise only](../gates/enterprise-only.md)
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
-Checked 2026-09-02
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Formerly a lead-scoring layer between marketing/sales handoff; now positioned in
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -100,7 +100,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.madkudu.com, https://hginsights.com, https://hginsights.com/pricing, https://developers.madkudu.com/, https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min
 
 **Notes, verbatim from the file**
-SWEEP FLAG - www.madkudu.com now 301-redirects to hginsights.com, and the login link is labeled "HG Sales Copilot" at msi.madkudu.com. Strong signal of an acquisition/absorption; could not find a dedicated public announcement confirming deal terms or date in this pass. Treat MadKudu as effectively discontinued as a standalone product. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://hginsights.com/pricing): madkudu.com/pricing 301s to hginsights.com after the HG Insights acquisition and HG publishes no prices - platform and data-fabric pricing is by data consumption, seats and credits on quote, with no self-serve purchase path. 2026-09-02: mcp_status none-found -> official. https://developers.madkudu.com/ ("HG Platform API", shorthand MadAPI and MadMCP) has a MadKudu MCP section (What is MadKudu MCP, First time using MCP, Install in AI platforms in 2min, MadMCP tools, Building AI Agents powered by MadKudu) and states "MCP is a new protocol to connect to AI tools like ChatGPT, Claude, Cursor, Dust, or your own GPT agents... The MCP server translates that into API calls to MadKudu." The install page gives the mcp.madkudu.com endpoints above. The key is gated behind HG Insights sales, so api_gate stays enterprise-only. hginsights.com/llms.txt has no MCP mention; the receipt lives on the MadKudu developer subdomain, which still operates under the MadKudu name post-acquisition.
+SWEEP FLAG - www.madkudu.com now 301-redirects to hginsights.com, and the login link is labeled "HG Sales Copilot" at msi.madkudu.com. Strong signal of an acquisition/absorption; could not find a dedicated public announcement confirming deal terms or date in this pass. Treat MadKudu as effectively discontinued as a standalone product. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://hginsights.com/pricing): madkudu.com/pricing 301s to hginsights.com after the HG Insights acquisition and HG publishes no prices - platform and data-fabric pricing is by data consumption, seats and credits on quote, with no self-serve purchase path. 2026-09-02: mcp_status none-found -> official. https://developers.madkudu.com/ ("HG Platform API", shorthand MadAPI and MadMCP) has a MadKudu MCP section (What is MadKudu MCP, First time using MCP, Install in AI platforms in 2min, MadMCP tools, Building AI Agents powered by MadKudu) and states "MCP is a new protocol to connect to AI tools like ChatGPT, Claude, Cursor, Dust, or your own GPT agents... The MCP server translates that into API calls to MadKudu." The install page gives the mcp.madkudu.com endpoints above. The key is gated behind HG Insights sales, so api_gate stays enterprise-only. hginsights.com/llms.txt has no MCP mention; the receipt lives on the MadKudu developer subdomain, which still operates under the MadKudu name post-acquisition. 2026-09-07: https://mcp.madkudu.com/YOUR_API_KEY/mcp answered an MCP initialize with HTTP 200 and a jsonrpc result (the key is a path segment). npm publishes @madkudu/mcp under the vendor scope (https://mcp.madkudu.com/<API_KEY>/mcp).
 
 **Provenance**
 
@@ -112,7 +112,7 @@ SWEEP FLAG - www.madkudu.com now 301-redirects to hginsights.com, and the login 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-02
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

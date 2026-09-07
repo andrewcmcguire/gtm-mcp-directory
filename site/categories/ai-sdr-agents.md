@@ -1,6 +1,6 @@
-# AI SDRs: 23 tools, 7 with an official MCP server
+# AI SDRs: 23 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 23 tools counted, 7 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 23 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -18,8 +18,8 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 
 - **entries in this file**: 23
 
-- **Official MCP**: 7
-- **Community MCP**: 3
+- **Official MCP**: 8
+- **Community MCP**: 2
 - **No MCP found**: 13
 
 - **Free to start**: 2
@@ -27,7 +27,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Enterprise only**: 10
 - **Gate unknown**: 3
 
-Source file: 04-ai-sdr-agents.md · content sha256 b6c65bd7529c7bdc... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 50ad3dbcb89d3177... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -40,6 +40,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 b6c65bd7529c7bdc... · counts
 
 - [Amplemarket (Duo Copilot)](../tools/amplemarket.md) amplemarket.com An all-in-one sales platform (lead gen + multichannel engagement + deliverability) with an AI agent layer ("Duo Copilot") that detects buying signals, writes and A/B-tests email copy (including AI voice-cloned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Salesforge (Agent Frank)](../tools/salesforge.md) salesforge.ai An AI agent ("Agent Frank") that prospects, writes tailored outreach, sends across email and LinkedIn, manages follow-up sequences, and books meetings - positioned to either join a human team or fully replace... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
@@ -49,8 +51,6 @@ Source file: 04-ai-sdr-agents.md · content sha256 b6c65bd7529c7bdc... · counts
 - [Clari (+ Salesloft agents)](../tools/clari.md) clari.com Primarily a revenue-intelligence/forecasting platform (deal inspection, pipeline forecasting) with an AI Copilot for conversation coaching; following Clari's merger with Salesloft, the combined product line... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · Cross listed, canonical home is Conversation Intel
 
 - [MadKudu](../tools/madkudu.md) madkudu.com Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears folded into HG Insights' "HG Sales Copilot" (AI-automated scoring, account research,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
-
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Unify](../tools/unify.md) unifygtm.com A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and run multi-channel sequences triggered by intent signals... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 

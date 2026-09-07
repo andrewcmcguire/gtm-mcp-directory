@@ -1478,6 +1478,7 @@ def urllist(urls, annotations=None):
 ENDPOINT_LABEL = {
     "live": "answered as an MCP server",
     "live-auth-gated": "answered, asking for a key",
+    "auth-wall": "auth wall at every path, not proven a server",
     "repo-local": "repo or package: install and run locally",
     "docs-only": "docs page, not an endpoint",
     "unreachable": "did not answer",
@@ -1508,6 +1509,10 @@ def endpoint_sentence(e):
     if es in ("live", "live-auth-gated"):
         return (f"The status was established by hand on {checked}. On {probed} the recorded URL answered "
                 f"an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.")
+    if es == "auth-wall":
+        return (f"The status was established by hand on {checked}. On {probed} the recorded URL answered an "
+                f"auth challenge, but so did a path on that host which cannot exist, so the challenge proves "
+                f"a wall rather than a running MCP server.")
     if es == "repo-local":
         return (f"The status was established by hand on {checked}. On {probed} the recorded URL was a reachable "
                 f"repository or package: a server you install and run on your own machine over stdio. "

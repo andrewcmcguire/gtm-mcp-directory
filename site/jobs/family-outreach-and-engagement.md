@@ -16,10 +16,10 @@
 
 Write it, send it, dial it, and read back what happened. 7 jobs, 184 tagged entries, 84 distinct entries across the family.
 
-- [Run an email sequence](run-email-sequence.md) - 45 tools · 26 official MCP. Enroll contacts in a multi-step cadence and send it. The execution step, not the writing step.
+- [Run an email sequence](run-email-sequence.md) - 45 tools · 27 official MCP. Enroll contacts in a multi-step cadence and send it. The execution step, not the writing step.
 - [Send a LinkedIn message or connection request](send-linkedin-message.md) - 22 tools · 14 official MCP. Act on LinkedIn: connect, message, follow up. Carries standing platform-terms risk the directory flags on files 02 and 05.
-- [Draft personalized outreach](draft-personalized-outreach.md) - 51 tools · 28 official MCP. Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step.
-- [Place an outbound call](place-outbound-call.md) - 22 tools · 12 official MCP. Dial, including parallel and power dialing, and connect a rep or an agent to a live answer.
+- [Draft personalized outreach](draft-personalized-outreach.md) - 51 tools · 30 official MCP. Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step.
+- [Place an outbound call](place-outbound-call.md) - 22 tools · 13 official MCP. Dial, including parallel and power dialing, and connect a rep or an agent to a live answer.
 - [Create and send a prospecting video](create-and-send-prospecting-video.md) - 14 tools · 3 official MCP. Record or generate a personalized video and deliver it into an email, sequence or CRM step.
 - [Read outreach performance](read-outreach-performance.md) - 14 tools · 7 official MCP. Return sends, opens, replies, views, watch time and campaign-level results back to the caller.
 - [Run an autonomous SDR agent](run-autonomous-sdr-agent.md) - 16 tools · 6 official MCP. A packaged agent that claims to prospect, write, send and follow up with limited human input. Almost always vendor-stated and...
@@ -48,6 +48,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Apollo.io](../tools/apollo-io.md) apollo.io A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing, and contact/organization enrichment. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Close (Close CRM)](../tools/close.md) close.com A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
@@ -57,6 +59,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [HighLevel (GoHighLevel)](../tools/highlevel.md) gohighlevel.com An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts from one place. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Instantly](../tools/instantly.md) instantly.ai Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [La Growth Machine](../tools/la-growth-machine.md) lagrowthmachine.com Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with built-in lead enrichment. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -113,10 +117,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Loom](../tools/loom.md) loom.com Async video-messaging platform; in its sales use case, reps record personalized video messages with name/company variables, track prospect views, and embed CTAs/booking links directly in the video. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md)
 
 - [Bonjoro](../tools/bonjoro.md) bonjoro.com Personalized 1:1 and 1:many video-messaging platform triggered by CRM events (new signup, first purchase, deal-stage change), used across sales and customer-success teams. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
-
-- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 

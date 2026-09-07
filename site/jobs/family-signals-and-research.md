@@ -24,7 +24,7 @@ Find out something changed, or find out what is true right now. 9 jobs, 117 tagg
 - [Detect a funding or news event](detect-funding-or-news-event.md) - 12 tools · 10 official MCP. Return company-level events: funding rounds, M&A, leadership changes, expansion, press.
 - [Scrape a web page for facts](scrape-web-page-for-facts.md) - 6 tools · 5 official MCP. Fetch and structure an arbitrary public page. The general-purpose fallback when no structured provider has the record.
 - [Monitor social and community mentions](monitor-social-mentions.md) - 12 tools · 5 official MCP. Watch social, forum, community and news surfaces for a keyword, brand or competitor and alert on matches.
-- [Research an account before a call](research-account-for-call-prep.md) - 17 tools · 10 official MCP. Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull.
+- [Research an account before a call](research-account-for-call-prep.md) - 17 tools · 11 official MCP. Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull.
 
 ### Every entry tagged with a job in this family
 
@@ -76,6 +76,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Keyplay](../tools/keyplay.md) keyplay.io Builds a mathematical ICP model from a company's existing best customers, then scores and ranks a universe of target accounts against that model using 750+ pre-built "signals" (hiring velocity, tech stack,... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Lead411](../tools/lead411.md) lead411.com A B2B contact and company database with verified emails, direct dials, and growth/intent triggers, queryable by search or by an enrichment API. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [lemlist](../tools/lemlist.md) lemlist.com Multichannel sales engagement platform combining lead database/enrichment, email/LinkedIn/call/SMS sequencing, and a unified inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
@@ -125,8 +127,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [UserGems](../tools/usergems.md) usergems.com Tracks job changes of known contacts (past customers/champions moving to new companies) plus 30+ other native signals (new hires, promotions, funding, website visits, M&A) sourced from LinkedIn-style data... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
-
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Mention](../tools/mention.md) mention.com Monitors web and social mentions across a claimed 1 billion+ sources in real time, layering sentiment/reach analytics and a unified social inbox on top of the monitoring feed. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Community & Dark Social](../categories/community-dark-social.md)
 

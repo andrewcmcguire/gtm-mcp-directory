@@ -1,6 +1,6 @@
-# Fetch a call transcript: 20 GTM tools, 15 with an official MCP server
+# Fetch a call transcript: 20 GTM tools, 16 with an official MCP server
 
-> Return the recorded and transcribed text of a specific call or meeting. 18 of the 20 entries tagged with this job carry an MCP server of some kind, 15 of them official. Counted 2026-09-07 from the directory data.
+> Return the recorded and transcribed text of a specific call or meeting. 18 of the 20 entries tagged with this job carry an MCP server of some kind, 16 of them official. Counted 2026-09-07 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,12 +19,12 @@ Fetch a call transcript
 Return the recorded and transcribed text of a specific call or meeting.
 
 - **entries tagged**: 20
-- **official MCP**: 15
-- **community MCP**: 3
+- **official MCP**: 16
+- **community MCP**: 2
 - **no MCP found**: 2
 - **solo reachable**: 11
 
-18 of the 20 entries tagged with this job carry an MCP server of some kind, 15 of them official. All 20 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-07 from directory.json.
+18 of the 20 entries tagged with this job carry an MCP server of some kind, 16 of them official. All 20 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-07 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -57,6 +57,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Avoma](../tools/avoma.md) avoma.com AI meeting platform combining scheduling, note-taking, and conversation intelligence (deal insights, coaching) for sales teams. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
 - [Fellow](../tools/fellow.md) fellow.ai A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they came from. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Grain](../tools/grain.md) grain.com AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
@@ -74,8 +76,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Seismic](../tools/seismic.md) seismic.com Sales enablement platform with a "Seismic for Meetings" module, powered by its "Aura" AI engine, that records, transcribes, and analyzes sales meetings. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Zoom Revenue Accelerator](../tools/zoom-revenue-accelerator.md) zoom.com Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meetings and Phone calls for deal insights, scorecards, and account activity. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
-
-- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Conversation Intel](../categories/conversation-intel.md)
 

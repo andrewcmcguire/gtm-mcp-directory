@@ -87,13 +87,14 @@ No job tag on this entry.
 
 - [https://leadiq.com/leadiq-mcp](https://leadiq.com/leadiq-mcp)
 - [https://leadiq.com/pricing](https://leadiq.com/pricing)
+- [https://mcp.leadiq.com/mcp](https://mcp.leadiq.com/mcp)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://leadiq.com/leadiq-mcp, https://leadiq.com/pricing
+https://leadiq.com/leadiq-mcp, https://leadiq.com/pricing, https://mcp.leadiq.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.leadiq.com/mcp returned HTTP 401 with {"code":"unauthorized","message":"Authentication required"}, confirming a live auth-gated server. The endpoint is not printed on the vendor page, which is written for a non-technical buyer and routes entirely through the Claude connector directory; the address above came from the candidate research and was confirmed by probe rather than by vendor text, and that distinction matters if the vendor moves it. LeadIQ describes itself as a "Verified Connector" in Anthropic's directory, which is a review of security, reliability and compatibility, not a statement about data quality. The pricing page renders its tier table client-side and the fetch on this date returned only surrounding copy, so no per-plan price is recorded here; the paid-subscription requirement is quoted from the MCP page's own FAQ instead. Credits are consumed per company lookup or contact enrichment exactly as in the app, so an agent left to loop can spend a plan's credits with no human in the path.
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.leadiq.com/mcp returned HTTP 401 with {"code":"unauthorized","message":"Authentication required"}, confirming a live auth-gated server. The endpoint is not printed on the vendor page, which is written for a non-technical buyer and routes entirely through the Claude connector directory; the address above came from the candidate research and was confirmed by probe rather than by vendor text, and that distinction matters if the vendor moves it. LeadIQ describes itself as a "Verified Connector" in Anthropic's directory, which is a review of security, reliability and compatibility, not a statement about data quality. The pricing page renders its tier table client-side and the fetch on this date returned only surrounding copy, so no per-plan price is recorded here; the paid-subscription requirement is quoted from the MCP page's own FAQ instead. Credits are consumed per company lookup or contact enrichment exactly as in the app, so an agent left to loop can spend a plan's credits with no human in the path. 2026-09-07: https://mcp.leadiq.com/mcp returned 401 to an MCP initialize POST (https://mcp.leadiq.com/mcp).
 
 **Provenance**
 

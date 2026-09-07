@@ -1,6 +1,6 @@
 # WorkRamp: MCP server status, API access gate and what it does
 
-> Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and... Community MCP, Enterprise only. Checked 2026-09-02.
+> Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and... Community MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ WorkRamp
 [Enterprise only](../gates/enterprise-only.md)
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
-Checked 2026-09-02
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Onboarding/enablement LMS layer, reachable by AI agents only through third-party
 
 - **Auth**: Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp)Probed**: 2026-09-04, HTTP 200
 
-A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,12 @@ community
 
 mcp_url, verbatim from the file:
 
-https://zapier.com/mcp/workramp ; https://viasocket.com/mcp/workramp
+https://app.workramp.com/mcp ; https://zapier.com/mcp/workramp ; https://viasocket.com/mcp/workramp ; repo https://github.com/msdanyg/workramp-mcp
 
+- [https://app.workramp.com/mcp](https://app.workramp.com/mcp)
 - [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp)
 - [https://viasocket.com/mcp/workramp](https://viasocket.com/mcp/workramp)
+- [https://github.com/msdanyg/workramp-mcp](https://github.com/msdanyg/workramp-mcp)
 
 **Access gate**
 
@@ -78,6 +80,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/msdanyg/workramp-mcp](https://github.com/msdanyg/workramp-mcp)
+
 **Jobs it can do**
 
 No job tag on this entry.
@@ -94,13 +100,15 @@ Reason recorded by the tagging pass: no-job-fits. Corporate LMS, same call as Co
 - [https://getcor.ai/blog/reviews/workramp-pricing](https://getcor.ai/blog/reviews/workramp-pricing)
 - [https://developers.workramp.com/](https://developers.workramp.com/)
 - [https://www.confirm.com/scale-up/products/learn-up](https://www.confirm.com/scale-up/products/learn-up)
+- [https://github.com/msdanyg/workramp-mcp](https://github.com/msdanyg/workramp-mcp)
+- [https://app.workramp.com/mcp](https://app.workramp.com/mcp)
 
-6 source URLs. Raw sources field, verbatim:
+8 source URLs. Raw sources field, verbatim:
 
-https://zapier.com/mcp/workramp, https://viasocket.com/mcp/workramp, https://www.vendr.com/marketplace/workramp, https://getcor.ai/blog/reviews/workramp-pricing, https://developers.workramp.com/, https://www.confirm.com/scale-up/products/learn-up
+https://zapier.com/mcp/workramp, https://viasocket.com/mcp/workramp, https://www.vendr.com/marketplace/workramp, https://getcor.ai/blog/reviews/workramp-pricing, https://developers.workramp.com/, https://www.confirm.com/scale-up/products/learn-up, https://github.com/msdanyg/workramp-mcp, https://app.workramp.com/mcp
 
 **Notes, verbatim from the file**
-Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a WorkRamp-published server - hence community, not official. Exposes 11 triggers plus create-assignment/onboard-user/update-profile write actions per Zapier's documented action list. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://developers.workramp.com/): the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo. 2026-09-02: rebrand confirmed. https://www.workramp.com/ 301s to https://www.confirm.com/scale-up/products/learn-up, where the product is branded Learn:Up, "Formerly WorkRamp", an AI-driven LMS inside Confirm's suite; that page has no MCP mention. https://zapier.com/mcp/workramp still returned 200 today, so mcp_status community (third-party hosted connectors) is unchanged.
+Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a WorkRamp-published server - hence community, not official. Exposes 11 triggers plus create-assignment/onboard-user/update-profile write actions per Zapier's documented action list. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://developers.workramp.com/): the developer docs state this is a private API and you must contact support to see if you are eligible and request access, and it requires an enterprise account provisioned for Learn:Up - even though Learn:Up itself is self-serve from $9/user/mo. 2026-09-02: rebrand confirmed. https://www.workramp.com/ 301s to https://www.confirm.com/scale-up/products/learn-up, where the product is branded Learn:Up, "Formerly WorkRamp", an AI-driven LMS inside Confirm's suite; that page has no MCP mention. https://zapier.com/mcp/workramp still returned 200 today, so mcp_status community (third-party hosted connectors) is unchanged. 2026-09-07: msdanyg/workramp-mcp is a real server (pyproject.toml, src/workramp_mcp/server.py + client.py; README: "An MCP server for the WorkRamp LMS API ... enroll users, assign learning paths, audit certifications") but the owner is an individual (homepage cmoconfessions.com), so it supports community only (https://github.com/msdanyg/workramp-mcp).
 
 **Provenance**
 
@@ -112,7 +120,7 @@ Both MCP entries are third-party hosted connectors (Zapier and viaSocket), not a
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-02
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

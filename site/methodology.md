@@ -41,7 +41,7 @@ The list is not the moat. Anyone can copy 318 rows. What is hard to copy is that
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 318 against 318, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-07 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 a6e192258cb0f3b538108321...
+Data baked 2026-09-07 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 d639e1c627d417b72c444457...
 
 **The duplicates, and why two counts exist**
 
@@ -70,13 +70,12 @@ Data baked 2026-09-07 by build_directory.py (phase 1). Network calls made during
 
 - [Arphie](tools/arphie.md) 13-arphie
 
-**14 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
+**13 entries carry fewer than two source URLs.** SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs. They are listed rather than quietly padded.
 
 - [AiSDR](tools/aisdr.md) 04-aisdr
 - [Conversica](tools/conversica.md) 04-conversica
 - [Salesforce Agentforce (SDR Agent)](tools/salesforce-agentforce.md) 04-salesforce-agentforce
 - [Intently (getintently.com)](tools/intently.md) 05-intently
-- [Pipedrive](tools/pipedrive.md) 06-pipedrive
 - [Model Context Protocol - official servers repo](tools/model-context-protocol-official-servers-repo.md) 07-model-context-protocol-official-servers-repo
 - [PulseMCP](tools/pulsemcp.md) 07-pulsemcp
 - [Smithery](tools/smithery.md) 07-smithery

@@ -22,7 +22,7 @@ Tools that surface what's happening in the channels a CRM and normal web analyti
 buffer.com | [Official MCP](../mcp/official.md) | [https://mcp.buffer.com/mcp](https://mcp.buffer.com/mcp) +1 more | API key
 api key. The vendor's guide instructs the user to generate an API key from the developer... | [Free to start](../gates/free.md) |
 | [Brand24](../tools/brand24.md)
-brand24.com | [Official MCP](../mcp/official.md) | [https://help.brand24.com/en/articles/13011375-brand2...](https://help.brand24.com/en/articles/13011375-brand24-mcp) +1 more | OAuth
+brand24.com | [Official MCP](../mcp/official.md) | [https://mcp.brand24.com/v1/mcp](https://mcp.brand24.com/v1/mcp) +1 more | OAuth
 OAuth; the help article states "MCP access is available to Brand24 subscribers. The data... | [Paid, self-serve](../gates/paid.md) |
 | [Hootsuite (Social OS)](../tools/hootsuite.md)
 hootsuite.com | [Official MCP](../mcp/official.md) | [https://mcp.hootsuite.com/perch](https://mcp.hootsuite.com/perch) +4 more | OAuth
@@ -37,7 +37,7 @@ oauth (OAuth 2.1, browser-based, tokens scoped to the user's own Common Room per
 meltwater.com | [Official MCP](../mcp/official.md) | [https://developer.meltwater.com/guides/meltwater-mcp...](https://developer.meltwater.com/guides/meltwater-mcp/overview/) +1 more | OAuth or an API key
 Meltwater API token today, "with OAuth 2.0 planned for later this year" per the vendor... | [Enterprise only](../gates/enterprise-only.md) |
 | [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md)
-talkwalker.com | [Official MCP](../mcp/official.md) | [https://www.hootsuite.com/integrations/mcp](https://www.hootsuite.com/integrations/mcp) +1 more | Auth not recorded
+talkwalker.com | [Official MCP](../mcp/official.md) | [https://mcp.hootsuite.com/lumen](https://mcp.hootsuite.com/lumen) +1 more | Auth not recorded
 Sign in with a Hootsuite workspace when prompted; the Hootsuite MCP page says... | [Enterprise only](../gates/enterprise-only.md) |
 | [Mention](../tools/mention.md)
 mention.com | [Community MCP](../mcp/community.md) | [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server) | API key

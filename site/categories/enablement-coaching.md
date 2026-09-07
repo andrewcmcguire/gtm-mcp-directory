@@ -27,7 +27,7 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 - **Enterprise only**: 6
 - **Gate unknown**: 7
 
-Source file: 11-enablement-coaching.md · content sha256 46a13e522a4c8e7e... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 6e5000999d3c4bc4... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
 

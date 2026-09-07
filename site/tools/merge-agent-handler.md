@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [merge.dev](https://merge.dev) · entry id 07-merge-agent-handler · source 07-mcp-infrastructure.md line 307
+Vendor: [merge.dev](https://merge.dev) · entry id 07-merge-agent-handler · source 07-mcp-infrastructure.md line 313
 
 **What it does**
 Merge's tool-calling platform for AI agents: it wraps hundreds of third-party SaaS applications as pre-built MCP-ready connectors, bundles them into scoped "tool packs" per agent, brokers per-end-user authentication, and puts a security gateway, redaction rules and an audit log in front of every tool call.
@@ -38,7 +38,7 @@ The governed alternative to handing an agent a dozen raw vendor MCP servers: one
 
 - **Auth**: api key in an Authorization Bearer header, alongside the identity encoded in the URL itself. The docs are explicit that three values are needed on every connection: the tool pack (what tools), the registered user (whose credentials), and the access key (authorisation). Per-end-user OAuth to each connected application is brokered separately through Merge Link.
 
-- **Parsed URLs**: 3 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: not probed yet
 
@@ -50,8 +50,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://api.merge.dev/api/v1/tool-packs//registered-users//mcp (docs: https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration and https://docs.merge.dev/merge-agent-handler/overview)
+https://github.com/merge-api/merge-mcp ; https://api.merge.dev/api/v1/tool-packs//registered-users//mcp (docs: https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration and https://docs.merge.dev/merge-agent-handler/overview)
 
+- [https://github.com/merge-api/merge-mcp](https://github.com/merge-api/merge-mcp)
 - [https://api.merge.dev/api/v1/tool-packs/](https://api.merge.dev/api/v1/tool-packs/)
 - [https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration](https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration)
 - [https://docs.merge.dev/merge-agent-handler/overview](https://docs.merge.dev/merge-agent-handler/overview)
@@ -78,6 +79,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/merge-api/merge-mcp](https://github.com/merge-api/merge-mcp)
+
 **Jobs it can do**
 
 No job tag on this entry.
@@ -90,13 +95,14 @@ No job tag on this entry.
 - [https://docs.merge.dev/merge-agent-handler/overview](https://docs.merge.dev/merge-agent-handler/overview)
 - [https://www.merge.dev/merge-agent-handler](https://www.merge.dev/merge-agent-handler)
 - [https://www.merge.dev/pricing/agent-handler](https://www.merge.dev/pricing/agent-handler)
+- [https://github.com/merge-api/merge-mcp](https://github.com/merge-api/merge-mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration, https://docs.merge.dev/merge-agent-handler/overview, https://www.merge.dev/merge-agent-handler, https://www.merge.dev/pricing/agent-handler
+https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration, https://docs.merge.dev/merge-agent-handler/overview, https://www.merge.dev/merge-agent-handler, https://www.merge.dev/pricing/agent-handler, https://github.com/merge-api/merge-mcp
 
 **Notes, verbatim from the file**
-CORRECTION TO THE CANDIDATE ROW, and it matters: the address carried in CANDIDATES.md pointed at ah-api-develop.merge.dev, a development host. Merge's own documentation gives the production pattern as https://api.merge.dev/api/v1/tool-packs/{TOOL_PACK_ID}/registered-users/{REGISTERED_USER_ID}/mcp, and that is what is recorded above. Verified 2026-09-07 from the docs; no liveness probe result is recorded because the URL is per-tenant and cannot be constructed without a tool pack and a registered user. The docs also document a simplified URL for the "Agent Handler for Employees" setup, plus custom MCP servers and custom headers, so a buyer can front their own servers with the same gateway. Merge's own troubleshooting page names the two failure modes worth knowing before a bench test: a 401 on every call usually means the Bearer prefix is missing or the key belongs to the wrong environment, and session-ID mismatches require capturing and reusing the Mcp-Session-Id header. Merge sells three separate products on one brand (Unified, Agent Handler, Gateway) with three separate price lists; only Agent Handler is the MCP product and the $650/month figure that appears in Merge coverage belongs to the Unified API, not to this.
+CORRECTION TO THE CANDIDATE ROW, and it matters: the address carried in CANDIDATES.md pointed at ah-api-develop.merge.dev, a development host. Merge's own documentation gives the production pattern as https://api.merge.dev/api/v1/tool-packs/{TOOL_PACK_ID}/registered-users/{REGISTERED_USER_ID}/mcp, and that is what is recorded above. Verified 2026-09-07 from the docs; no liveness probe result is recorded because the URL is per-tenant and cannot be constructed without a tool pack and a registered user. The docs also document a simplified URL for the "Agent Handler for Employees" setup, plus custom MCP servers and custom headers, so a buyer can front their own servers with the same gateway. Merge's own troubleshooting page names the two failure modes worth knowing before a bench test: a 401 on every call usually means the Bearer prefix is missing or the key belongs to the wrong environment, and session-ID mismatches require capturing and reusing the Mcp-Session-Id header. Merge sells three separate products on one brand (Unified, Agent Handler, Gateway) with three separate price lists; only Agent Handler is the MCP product and the $650/month figure that appears in Merge coverage belongs to the Unified API, not to this. 2026-09-07: the Agent Handler endpoint is per-tool-pack and per-user and templated (https://api.merge.dev/api/v1/tool-packs/<TOOL_PACK_ID>/registered-users/<REGISTERED_USER_ID>/mcp), so no capability harvest can ever enumerate its tools without a customer's tool pack and registered user ids. DO NOT RE-INVESTIGATE the endpoint: the harvestable artifact is the first-party repo https://github.com/merge-api/merge-mcp (GitHub org merge-api, src/merge_mcp/server.py, last push 2025-04-30), recorded here instead.
 
 **Provenance**
 
@@ -104,7 +110,7 @@ CORRECTION TO THE CANDIDATE ROW, and it matters: the address carried in CANDIDAT
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 307
+- **Source line**: 313
 
 - **Tier**: RESEARCHED
 

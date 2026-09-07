@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://www.leadfeeder.com](https://www.leadfeeder.com) · entry id 05-leadfeeder · source 05-signals-intent-abm.md line 378
+Vendor: [https://www.leadfeeder.com](https://www.leadfeeder.com) · entry id 05-leadfeeder · source 05-signals-intent-abm.md line 380
 
 **What it does**
 Identifies companies visiting a website via IP-to-company matching, tracks page-level visit behavior, and surfaces intent signals plus verified contact data for those companies.
@@ -114,7 +114,7 @@ Permanently free "Lite" tier exists (unlimited users, last 100 identified compan
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 378
+- **Source line**: 380
 
 - **Tier**: RESEARCHED
 

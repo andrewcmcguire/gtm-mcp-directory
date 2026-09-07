@@ -1,6 +1,6 @@
-# Run an email sequence: 45 GTM tools, 26 with an official MCP server
+# Run an email sequence: 45 GTM tools, 27 with an official MCP server
 
-> Enroll contacts in a multi-step cadence and send it. The execution step, not the writing step. 29 of the 45 entries tagged with this job carry an MCP server of some kind, 26 of them official. Counted 2026-09-07 from the directory data.
+> Enroll contacts in a multi-step cadence and send it. The execution step, not the writing step. 29 of the 45 entries tagged with this job carry an MCP server of some kind, 27 of them official. Counted 2026-09-07 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,12 +19,12 @@ Run an email sequence
 Enroll contacts in a multi-step cadence and send it. The execution step, not the writing step.
 
 - **entries tagged**: 45
-- **official MCP**: 26
-- **community MCP**: 3
+- **official MCP**: 27
+- **community MCP**: 2
 - **no MCP found**: 14
 - **solo reachable**: 23
 
-29 of the 45 entries tagged with this job carry an MCP server of some kind, 26 of them official. 38 of the 45 tagged entries are distinct products; the other 7 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-07 from directory.json.
+29 of the 45 entries tagged with this job carry an MCP server of some kind, 27 of them official. 38 of the 45 tagged entries are distinct products; the other 7 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-07 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -64,6 +64,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Instantly](../tools/instantly.md) instantly.ai Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [La Growth Machine](../tools/la-growth-machine.md) lagrowthmachine.com Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with built-in lead enrichment. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [lemlist](../tools/lemlist.md) lemlist.com Multichannel sales engagement platform combining lead database/enrichment, email/LinkedIn/call/SMS sequencing, and a unified inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
@@ -101,8 +103,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Salesloft](../tools/salesloft.md) salesloft.com Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email execution, and rep activity tracking that feeds forecasting. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
-
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 

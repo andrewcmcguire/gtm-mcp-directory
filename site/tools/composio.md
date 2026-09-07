@@ -1,6 +1,6 @@
 # Composio: MCP server status, API access gate and what it does
 
-> A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps... Official MCP, Free to start. Checked 2026-08-24.
+> A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Composio
 [Free to start](../gates/free.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ The connector layer a solo RevOps engineer reaches for instead of hand-building 
 
 - **Auth**: Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the user's behalf, then gates the MCP endpoint itself with an x-api-key header (required by default for new orgs). MCP endpoint pattern is https://backend.composio.dev/v3/mcp/{server_id}?user_id={user_id}.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,9 +51,11 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.composio.dev/docs/single-toolkit-mcp (redirect correction 2026-08-28: the address previously recorded here, docs.composio.dev/mcp/overview, 308s to this one and this one returns 200)
+https://connect.composio.dev/mcp ; https://docs.composio.dev/docs/single-toolkit-mcp (redirect correction 2026-08-28: the address previously recorded here, docs.composio.dev/mcp/overview, 308s to this one and this one returns 200) ; repo https://github.com/ComposioHQ/GHMCP
 
+- [https://connect.composio.dev/mcp](https://connect.composio.dev/mcp)
 - [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp)
+- [https://github.com/ComposioHQ/GHMCP](https://github.com/ComposioHQ/GHMCP)
 
 **Access gate**
 
@@ -77,6 +79,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/ComposioHQ/GHMCP](https://github.com/ComposioHQ/GHMCP)
+
 **Jobs it can do**
 
 - [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md)
@@ -90,13 +96,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://composio.dev](https://composio.dev)
 - [https://composio.dev/pricing](https://composio.dev/pricing)
 - [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp)
+- [https://github.com/ComposioHQ/GHMCP](https://github.com/ComposioHQ/GHMCP)
+- [https://connect.composio.dev/mcp](https://connect.composio.dev/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://composio.dev, https://composio.dev/pricing, https://docs.composio.dev/docs/single-toolkit-mcp
+https://composio.dev, https://composio.dev/pricing, https://docs.composio.dev/docs/single-toolkit-mcp, https://github.com/ComposioHQ/GHMCP, https://connect.composio.dev/mcp
 
 **Notes, verbatim from the file**
-Composio holds the OAuth tokens for every connected toolkit - it is a custodial broker, not a pass-through. Pro tier ($29/mo) adds pay-as-you-scale overage at $0.0003/tool call; Enterprise adds SSO/SCIM and a KMS proxy for teams that don't want Composio holding raw tokens.
+Composio holds the OAuth tokens for every connected toolkit - it is a custodial broker, not a pass-through. Pro tier ($29/mo) adds pay-as-you-scale overage at $0.0003/tool call; Enterprise adds SSO/SCIM and a KMS proxy for teams that don't want Composio holding raw tokens. 2026-09-07: GitHub org ComposioHQ; repo GHMCP holds the server.json registry manifest and a publish-mcp workflow, and its README reads "Composio MCP Server ... Composio is a remote, streamable-HTTP MCP server ... https://connect.composio.dev/mcp" (https://github.com/ComposioHQ/GHMCP).
 
 **Provenance**
 
@@ -108,7 +116,7 @@ Composio holds the OAuth tokens for every connected toolkit - it is a custodial 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

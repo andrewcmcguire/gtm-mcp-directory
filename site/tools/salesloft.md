@@ -1,6 +1,6 @@
 # Salesloft: MCP server status, API access gate and what it does
 
-> Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email... Official MCP, Enterprise only. Checked 2026-08-24.
+> Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbound cadences, call/email... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Salesloft
 [Enterprise only](../gates/enterprise-only.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Core outbound execution and, post-Clari-merger, forecasting layer - increasingly
 
 - **Auth**: unknown exact flow - vendor press material describes it as natively listed in Claude's connector directory "with no custom setup required," implying a managed OAuth connector, but the precise auth mechanics were not documented in sourced pages.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server ; https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem
+https://mcp.salesloft.com/mcp ; https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server ; https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem
 
+- [https://mcp.salesloft.com/mcp](https://mcp.salesloft.com/mcp)
 - [https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server)
 - [https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem](https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem)
 
@@ -100,13 +101,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://champions.salesloft.com/product-updates/august-2026-release-notes-605](https://champions.salesloft.com/product-updates/august-2026-release-notes-605)
 - [https://www.vendr.com/marketplace/salesloft](https://www.vendr.com/marketplace/salesloft)
 - [https://www.salesloft.com/pricing](https://www.salesloft.com/pricing)
+- [https://mcp.salesloft.com/mcp](https://mcp.salesloft.com/mcp)
 
-6 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://developers.salesloft.com/, https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://champions.salesloft.com/product-updates/august-2026-release-notes-605, https://www.vendr.com/marketplace/salesloft, https://www.salesloft.com/pricing
+https://developers.salesloft.com/, https://www.salesloft.com/company/newsroom/salesloft-mcp-server-revenue-data-ai-ecosystem, https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server, https://champions.salesloft.com/product-updates/august-2026-release-notes-605, https://www.vendr.com/marketplace/salesloft, https://www.salesloft.com/pricing, https://mcp.salesloft.com/mcp
 
 **Notes, verbatim from the file**
-One of the most aggressive MCP rollouts researched in this category - initial launch April 2026, expanded July 2026 after the Clari-Salesloft merger, ChatGPT custom connector added August 2026. Vendr lists list pricing around $125-165/user/month, implying API/MCP access rides on a paid seat rather than being free-standing. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.salesloft.com/pricing): developer docs say customers need API keys to reach the API with no tier condition stated, but the pricing page publishes no prices or plan names and routes everything to contact-us.
+One of the most aggressive MCP rollouts researched in this category - initial launch April 2026, expanded July 2026 after the Clari-Salesloft merger, ChatGPT custom connector added August 2026. Vendr lists list pricing around $125-165/user/month, implying API/MCP access rides on a paid seat rather than being free-standing. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.salesloft.com/pricing): developer docs say customers need API keys to reach the API with no tier condition stated, but the pricing page publishes no prices or plan names and routes everything to contact-us. 2026-09-07: https://mcp.salesloft.com/mcp returned 401 with a JSON-RPC body: {"error":{"code":-32000,"message":"User not authenticated"},"id":1,"jsonrpc":"2.0"} (https://mcp.salesloft.com/mcp).
 
 **Provenance**
 
@@ -118,7 +120,7 @@ One of the most aggressive MCP rollouts researched in this category - initial la
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

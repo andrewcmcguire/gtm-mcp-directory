@@ -1,6 +1,6 @@
 # Crustdata: MCP server status, API access gate and what it does
 
-> A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web... Official MCP, Free to start. Checked 2026-09-03.
+> A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Crustdata
 [Free to start](../gates/free.md)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
-Checked 2026-09-03
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Real-time firmographic/trigger-signal layer for outbound (funding events, headco
 
 - **Auth**: unknown
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://crustdata.com/](https://crustdata.com/)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://crustdata.com/ (MCP referenced directly on the vendor homepage: "drop the whole graph into your agent with the MCP, in one line"; a dedicated MCP docs sub-page was not locatable under docs.crustdata.com)
+https://install.crustdata.com/mcp ; https://crustdata.com/ (MCP referenced directly on the vendor homepage: "drop the whole graph into your agent with the MCP, in one line"; a dedicated MCP docs sub-page was not locatable under docs.crustdata.com)
 
+- [https://install.crustdata.com/mcp](https://install.crustdata.com/mcp)
 - [https://crustdata.com/](https://crustdata.com/)
 
 **Access gate**
@@ -102,7 +103,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 - **Gate there**: Free to start
 
-- **Source**: 05-signals-intent-abm.md line 515
+- **Source**: 05-signals-intent-abm.md line 519
 
 - **Canonical page**: [Crustdata](../tools/crustdata.md)
 
@@ -116,13 +117,14 @@ What that listing says it does: Aggregates real-time company and people data (25
 - [https://docs.crustdata.com/general/pricing](https://docs.crustdata.com/general/pricing)
 - [https://crustdata.com/blog/b2b-prospecting-workflow-claude-code](https://crustdata.com/blog/b2b-prospecting-workflow-claude-code)
 - [https://docs.crustdata.com/person-docs/search/introduction](https://docs.crustdata.com/person-docs/search/introduction)
+- [https://install.crustdata.com/mcp](https://install.crustdata.com/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code, https://docs.crustdata.com/person-docs/search/introduction
+https://crustdata.com/, https://docs.crustdata.com/general/pricing, https://crustdata.com/blog/b2b-prospecting-workflow-claude-code, https://docs.crustdata.com/person-docs/search/introduction, https://install.crustdata.com/mcp
 
 **Notes, verbatim from the file**
-MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there. [api_gate 2026-09-03] Re-checked against the live vendor pricing surfaces and held at free; the cross-listed 05-signals-intent-abm.md entry was reconciled paid -> free to match. Two corrections to the 2026-08-25 line above: the vendor homepage today says "Free sandbox key, full API, MCP server and skill templates" but does NOT say "no credit card", so that phrase is withdrawn as unsourced; and https://crustdata.com/pricing today shows no price list at all, only credit-based real-time API access with monthly/annual plans, flat-file data, and a contact-sales custom/enterprise tier. https://docs.crustdata.com/general/pricing confirms credits are "valid for 6 months from the purchase date", /person/search and /company/search at 0.03 credits per result, autocomplete and /company/identify free, "Web live endpoints are available on self-serve plans", and Company and Person live endpoints still plan-gated. Free-to-start with paid usage on top; no sales call to get a key, so not enterprise-only and not paid-only.
+MCP existence is confirmed on the vendor's own homepage, but the exact MCP-specific auth flow and a dedicated MCP docs URL could not be pinned down in this pass - mcp_auth and the precise api_gate are marked unknown rather than guessed. Web search/fetch and basic search+enrichment endpoints appear self-serve (free sandbox key referenced); live real-time Person and Company endpoints are explicitly plan-gated per docs.crustdata.com/general/pricing, with no full public price list and credits that expire after 6 months (up to 7 credits per enriched person profile). [api_gate 2026-08-25] Reclassified unknown -> free from the vendor's own page (https://crustdata.com/): free sandbox API key issued self-serve at signup, no credit card; paid usage is credit-based on top. 2026-09-03: vendor docs state the Person Search API (POST /person/search) accepts combined filters such as basic_profile.name and experience.employment_details.company_name and returns social_handles.professional_network_identifier.profile_url with a linkedin.com/in/ value, at "0.03 credits per result returned" (https://docs.crustdata.com/person-docs/search/introduction); no MCP tool name is stated there. [api_gate 2026-09-03] Re-checked against the live vendor pricing surfaces and held at free; the cross-listed 05-signals-intent-abm.md entry was reconciled paid -> free to match. Two corrections to the 2026-08-25 line above: the vendor homepage today says "Free sandbox key, full API, MCP server and skill templates" but does NOT say "no credit card", so that phrase is withdrawn as unsourced; and https://crustdata.com/pricing today shows no price list at all, only credit-based real-time API access with monthly/annual plans, flat-file data, and a contact-sales custom/enterprise tier. https://docs.crustdata.com/general/pricing confirms credits are "valid for 6 months from the purchase date", /person/search and /company/search at 0.03 credits per result, autocomplete and /company/identify free, "Web live endpoints are available on self-serve plans", and Company and Person live endpoints still plan-gated. Free-to-start with paid usage on top; no sales call to get a key, so not enterprise-only and not paid-only. 2026-09-07: Official MCP registry entry io.github.mhimed-crustdata/crustdata lists remote https://install.crustdata.com/mcp; that URL returned 401 to an MCP initialize POST. mhimed-crustdata is a Crustdata-affiliated account and the host is a crustdata.com subdomain. https://mcp.crustdata.com/mcp also answers 401 (https://install.crustdata.com/mcp).
 
 **Provenance**
 
@@ -134,7 +136,7 @@ MCP existence is confirmed on the vendor's own homepage, but the exact MCP-speci
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-03
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

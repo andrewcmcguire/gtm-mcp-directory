@@ -1,4 +1,4 @@
-# Community MCP servers: 26 GTM tools with a third party server
+# Community MCP servers: 24 GTM tools with a third party server
 
 > Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-07 across 318 directory entries.
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 26 GTM tools with a community MCP server
+[The lists](index.md) / The 24 GTM tools with a community MCP server
 
-**List · 26 of 318**
+**List · 24 of 318**
 
-## The 26 GTM tools with a community MCP server
+## The 24 GTM tools with a community MCP server
 
 A community server is a real server. It is also a server that can be abandoned without the vendor noticing, which is the single most useful thing to know before you write one into a workflow. The repo health rail that would date stamp each one has not been run, so no staleness claim is made here.
 
@@ -33,12 +33,6 @@ Rides a Zapier account connection (OAuth to Zapier, which holds the Bonjoro-side
 | [Chatbase](../tools/chatbase.md)
 chatbase.co | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://zapier.com/mcp/chatbase](https://zapier.com/mcp/chatbase) | Third party platform auth
 Rides Zapier's hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP... | [Paid, self-serve](../gates/paid.md) |
-| [Clari Copilot](../tools/clari-copilot.md)
-clari.com | [Conversation Intel](../categories/conversation-intel.md) | [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot) +1 more | OAuth or an API key
-Scalekit-hosted connector uses per-user delegated OAuth-style authorization in Scalekit's... | [Paid, self-serve](../gates/paid.md) |
-| [Klenty](../tools/klenty.md)
-klenty.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://zapier.com/mcp/klenty](https://zapier.com/mcp/klenty) +1 more | Third party platform auth
-Rides Zapier's hosted-connector auth at mcp.zapier.com (and Runbear's for the Slack... | [Paid, self-serve](../gates/paid.md) |
 | [Mention](../tools/mention.md)
 mention.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server) | API key
 Mention API key via the MCP_MENTION_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
@@ -88,13 +82,13 @@ API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/en
 dealhub.io | [Proposals & Deals](../categories/proposals-deals.md) | [https://www.pulsemcp.com/servers/vishvick-dealhub-ad...](https://www.pulsemcp.com/servers/vishvick-dealhub-admin) | Auth not recorded
 unknown - stdio transport run locally against the customer's own DealHub instance per the... | [Enterprise only](../gates/enterprise-only.md) |
 | [Jiminny](../tools/jiminny.md)
-jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp](https://glama.ai/mcp/servers/fzheng0222/jiminny-mcp) +1 more | OAuth or an API key
+jiminny.com | [Conversation Intel](../categories/conversation-intel.md) | [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp) +3 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 | [Loopio](../tools/loopio.md)
 loopio.com | [Proposals & Deals](../categories/proposals-deals.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth
 OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the... | [Enterprise only](../gates/enterprise-only.md) |
 | [WorkRamp](../tools/workramp.md)
-workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
+workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

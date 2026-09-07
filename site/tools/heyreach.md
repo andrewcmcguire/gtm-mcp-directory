@@ -1,6 +1,6 @@
 # HeyReach: MCP server status, API access gate and what it does
 
-> Cloud-based LinkedIn outreach automation platform for agencies/sales teams running multi-account connection,... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Cloud-based LinkedIn outreach automation platform for agencies/sales teams running multi-account connection,... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ HeyReach
 [Paid, self-serve](../gates/paid.md)
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ LinkedIn multi-account outbound execution layer, downstream of list-building/enr
 
 - **Auth**: workspace-scoped "MCP key" + connection URL (API-key-style, not OAuth)
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.heyreach.io/mcp](https://www.heyreach.io/mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.heyreach.io/mcp ; setup docs at https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools
+https://mcp.heyreach.io/mcp ; https://www.heyreach.io/mcp ; setup docs at https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools
 
+- [https://mcp.heyreach.io/mcp](https://mcp.heyreach.io/mcp)
 - [https://www.heyreach.io/mcp](https://www.heyreach.io/mcp)
 - [https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools](https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools)
 
@@ -93,13 +94,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.heyreach.io/mcp](https://www.heyreach.io/mcp)
 - [https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools](https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools)
 - [https://www.heyreach.io/blog/campaign-api](https://www.heyreach.io/blog/campaign-api)
+- [https://mcp.heyreach.io/mcp](https://mcp.heyreach.io/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.heyreach.io/pricing, https://www.heyreach.io/mcp, https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools, https://www.heyreach.io/blog/campaign-api
+https://www.heyreach.io/pricing, https://www.heyreach.io/mcp, https://help.heyreach.io/en/articles/12117291-how-does-heyreach-mcp-work-with-popular-tools, https://www.heyreach.io/blog/campaign-api, https://mcp.heyreach.io/mcp
 
 **Notes, verbatim from the file**
-No permanent free tier (14-day trial only); cheapest paid plan is Growth at $79/mo/sender, with API and MCP included. A third-party/unofficial MCP repo (github.com/bcharleson/heyreach-mcp) predates and duplicates the official one - don't conflate them. Like all LinkedIn automation tools, this operates against LinkedIn's User Agreement, which prohibits third-party bots/automation (linkedin.com/help/linkedin/answer/a1341387).
+No permanent free tier (14-day trial only); cheapest paid plan is Growth at $79/mo/sender, with API and MCP included. A third-party/unofficial MCP repo (github.com/bcharleson/heyreach-mcp) predates and duplicates the official one - don't conflate them. Like all LinkedIn automation tools, this operates against LinkedIn's User Agreement, which prohibits third-party bots/automation (linkedin.com/help/linkedin/answer/a1341387). 2026-09-07: https://mcp.heyreach.io/mcp returned 401 to an MCP initialize POST while a control path on the same host (https://mcp.heyreach.io/zzznotamcp) returned 404, so /mcp is a real distinct route and not a blanket auth wall (https://mcp.heyreach.io/mcp).
 
 **Provenance**
 
@@ -111,7 +113,7 @@ No permanent free tier (14-day trial only); cheapest paid plan is Growth at $79/
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

@@ -26,7 +26,7 @@ Tools that try to answer "how much will we actually close this quarter" - CRM-na
 - **Paid, self-serve**: 3
 - **Enterprise only**: 13
 
-Source file: 12-forecasting-revenue.md · content sha256 1ad4344abc52273f... · counts reconciled against tools_recount.py at build time.
+Source file: 12-forecasting-revenue.md · content sha256 d301d1b38aca32d3... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-forecasting-revenue.md)
 

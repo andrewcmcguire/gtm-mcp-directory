@@ -22,10 +22,10 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 trainual.com | [Official MCP](../mcp/official.md) | [https://help.trainual.com/en/the-trainual-mcp-server](https://help.trainual.com/en/the-trainual-mcp-server) +1 more | API key
 Bearer MCP token in the Authorization header; the help article states "Only those with an... | [Paid, self-serve](../gates/paid.md) |
 | [Showpad](../tools/showpad.md)
-showpad.com | [Official MCP](../mcp/official.md) | [https://developer.showpad.com/docs/integrations/plat...](https://developer.showpad.com/docs/integrations/platform-independent/mcp) +2 more | OAuth
+showpad.com | [Official MCP](../mcp/official.md) | [https://mcp.showpad.com/mcp/v1](https://mcp.showpad.com/mcp/v1) +2 more | OAuth
 OAuth; the docs say each end user authenticates with their own Showpad credentials and... | [Enterprise only](../gates/enterprise-only.md) |
 | [WorkRamp](../tools/workramp.md)
-workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Third party platform auth
+workramp.com | [Community MCP](../mcp/community.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
 ### The other 11 in this category

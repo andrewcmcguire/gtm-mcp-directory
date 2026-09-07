@@ -1,6 +1,6 @@
 # Snowflake (Cortex AI, as GTM/RevOps warehouse layer): MCP server status, API access gate and what it does
 
-> Cloud data warehouse that acts as the central store where GTM data (CRM, product usage, marketing, support)... Official MCP, Free to start. Checked 2026-08-24.
+> Cloud data warehouse that acts as the central store where GTM data (CRM, product usage, marketing, support)... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Snowflake (Cortex AI, as GTM/RevOps warehouse layer)
 [Free to start](../gates/free.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [snowflake.com](https://snowflake.com) · entry id 06-snowflake · source 06-revops-infra.md line 370
+Vendor: [snowflake.com](https://snowflake.com) · entry id 06-snowflake · source 06-revops-infra.md line 380
 
 **What it does**
 Cloud data warehouse that acts as the central store where GTM data (CRM, product usage, marketing, support) gets modeled and joined; increasingly the platform other reverse-ETL tools (Hightouch, Fivetran Activations) and app tools (Retool, Superblocks) sit on top of.
@@ -38,12 +38,12 @@ The warehouse/data layer everything else in a modern RevOps stack reads from or 
 
 - **Auth**: Snowflake OAuth 2.0 by default, or External OAuth (Okta, Microsoft Entra ID); hardcoded PATs/tokens are explicitly discouraged. Exposes Cortex Agent, Cortex Analyst (semantic views only), Cortex Search, read-only SQL execution, and custom UDF/stored-procedure tools, capped at 50 tools per server.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,9 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp ; deprecated predecessor repo https://github.com/Snowflake-Labs/mcp
 
 - [https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp)
+- [https://github.com/Snowflake-Labs/mcp](https://github.com/Snowflake-Labs/mcp)
 
 **Access gate**
 
@@ -77,6 +78,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/Snowflake-Labs/mcp](https://github.com/Snowflake-Labs/mcp)
+
 **Jobs it can do**
 
 - [Query a data warehouse](../jobs/query-data-warehouse.md)
@@ -90,13 +95,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.snowflake.com/en/data-cloud/cortex/](https://www.snowflake.com/en/data-cloud/cortex/)
 - [https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp)
 - [https://docs.snowflake.com/en/user-guide/admin-trial-account](https://docs.snowflake.com/en/user-guide/admin-trial-account)
+- [https://github.com/Snowflake-Labs/mcp](https://github.com/Snowflake-Labs/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://www.snowflake.com/en/data-cloud/cortex/, https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp, https://docs.snowflake.com/en/user-guide/admin-trial-account
+https://www.snowflake.com/en/data-cloud/cortex/, https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp, https://docs.snowflake.com/en/user-guide/admin-trial-account, https://github.com/Snowflake-Labs/mcp
 
 **Notes, verbatim from the file**
-The community github.com/Snowflake-Labs/mcp repo is explicitly deprecated - its README states "This project is deprecated and no longer maintained. Please migrate to the official Snowflake MCP Server," linking to the docs.snowflake.com URL above. Do not cite Snowflake-Labs/mcp as current; the officially-supported, Snowflake-managed MCP server is the one at docs.snowflake.com (GA, but not supported in government regions).
+The community github.com/Snowflake-Labs/mcp repo is explicitly deprecated - its README states "This project is deprecated and no longer maintained. Please migrate to the official Snowflake MCP Server," linking to the docs.snowflake.com URL above. Do not cite Snowflake-Labs/mcp as current; the officially-supported, Snowflake-managed MCP server is the one at docs.snowflake.com (GA, but not supported in government regions). 2026-09-07: the vendor now marks this repo DEPRECATED - the README of https://github.com/Snowflake-Labs/mcp reads "[DEPRECATED] ... migrate to the official Snowflake MCP Server" and points at docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp, which is the replacement and is already the primary mcp_url recorded here. The repo is still a real server (mcp_server_snowflake/ with cortex_services, object_manager and query_manager tools, PyPI snowflake-labs-mcp) and is recorded because the successor is an in-account managed server with no public repo and no public endpoint, so the deprecated repo is the only harvestable artifact. mcp_status left at official on the strength of the current vendor docs page, not the deprecated repo.
 
 **Provenance**
 
@@ -104,11 +110,11 @@ The community github.com/Snowflake-Labs/mcp repo is explicitly deprecated - its 
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 370
+- **Source line**: 380
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

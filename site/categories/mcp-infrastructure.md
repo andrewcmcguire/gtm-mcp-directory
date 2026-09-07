@@ -28,7 +28,7 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 - **Enterprise only**: 1
 - **Gate unknown**: 3
 
-Source file: 07-mcp-infrastructure.md · content sha256 a1409059e7a3e782... · counts reconciled against tools_recount.py at build time.
+Source file: 07-mcp-infrastructure.md · content sha256 37ac5980797c44b6... · counts reconciled against tools_recount.py at build time.
 
 - [The 14 with an MCP server](../lists/mcp-mcp-infrastructure.md)
 

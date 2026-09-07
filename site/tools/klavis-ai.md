@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [klavis.ai](https://klavis.ai) · entry id 07-klavis-ai · source 07-mcp-infrastructure.md line 219
+Vendor: [klavis.ai](https://klavis.ai) · entry id 07-klavis-ai · source 07-mcp-infrastructure.md line 224
 
 **What it does**
 Primarily an AI-agent training-data company - it builds "live environments for training AI agents" (long-horizon coding tasks and agentic tool-use scenarios), and separately mentions "production MCP servers" and "600+ real tools and SaaS apps" as part of that training-data infrastructure.
@@ -117,7 +117,7 @@ Included per the research brief's seed list, but the public-facing material foun
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 219
+- **Source line**: 224
 
 - **Tier**: RESEARCHED
 

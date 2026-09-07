@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://www.commonroom.io](https://www.commonroom.io) · entry id 05-common-room · source 05-signals-intent-abm.md line 284
+Vendor: [https://www.commonroom.io](https://www.commonroom.io) · entry id 05-common-room · source 05-signals-intent-abm.md line 285
 
 **What it does**
 Aggregates buyer/community engagement signals - Slack, Discord, GitHub activity (stars, PRs, issues), product usage, and third-party intent data (Bombora integration) - across a company's community/product channels into unified contact and organization profiles.
@@ -133,7 +133,7 @@ Official MCP exposes 4 tools (get_catalog, list_objects, create_object, update_o
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 284
+- **Source line**: 285
 
 - **Tier**: RESEARCHED
 

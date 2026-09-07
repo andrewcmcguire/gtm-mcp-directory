@@ -1,6 +1,6 @@
-# Which GTM tools have official MCP servers? 181 of 318, counted
+# Which GTM tools have official MCP servers? 183 of 318, counted
 
-> 181 of 318 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-07.
+> 183 of 318 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 **The short answer**
 
-181 of the 318 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 26 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
+183 of the 318 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 24 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
 
 Official is a strict test here. The vendor has to ship and maintain the server itself. A wrapper built by Zapier, Composio, viaSocket or any other integration platform is recorded as community no matter how well it works, because when the underlying API changes, only one of those two has a team whose job it is to notice.
 
-## Where the 181 sit
+## Where the 183 sit
 
 | Category | Official | Community | Of total | The list |
 |---|---|---|---|---|
 | [Data & Enrichment](../categories/data-enrichment.md) | 38 | 2 | 45 | [open](../lists/mcp-data-enrichment.md) |
 | [RevOps Infra](../categories/revops-infra.md) | 25 | 0 | 27 | [open](../lists/mcp-revops-infra.md) |
 | [Engagement & Outbound](../categories/engagement-outbound.md) | 22 | 1 | 31 | [open](../lists/mcp-engagement-outbound.md) |
-| [Conversation Intel](../categories/conversation-intel.md) | 18 | 3 | 24 | [open](../lists/mcp-conversation-intel.md) |
+| [Conversation Intel](../categories/conversation-intel.md) | 19 | 2 | 24 | [open](../lists/mcp-conversation-intel.md) |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 18 | 1 | 28 | [open](../lists/mcp-signals-intent-abm.md) |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 14 | 0 | 19 | [open](../lists/mcp-mcp-infrastructure.md) |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 8 | 2 | 23 | [open](../lists/mcp-ai-sdr-agents.md) |
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 8 | 2 | 17 | [open](../lists/mcp-inbound-plg-chat.md) |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 7 | 3 | 23 | [open](../lists/mcp-ai-sdr-agents.md) |
 | [Proposals & Deals](../categories/proposals-deals.md) | 7 | 2 | 14 | [open](../lists/mcp-proposals-deals.md) |
 | [Community & Dark Social](../categories/community-dark-social.md) | 7 | 3 | 18 | [open](../lists/mcp-community-dark-social.md) |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 5 | 2 | 14 | [open](../lists/mcp-scheduling-routing.md) |
@@ -44,7 +44,7 @@ Counted 2026-09-07 from directory.json, reconciled against tools_recount.py. Ent
 
 ## The full list
 
-All 181 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 225 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
+All 183 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 225 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
 
 ## The first fifteen, in the published order
 
@@ -79,7 +79,7 @@ A web-extraction and "Knowledge Graph" company that crawls the public web and st
 - [Enrow](../tools/enrow.md) Official MCP · Free to start
 Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a...
 
-156 more are on the linked page. The cut is the display limit, not a ranking.
+158 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The caveat that matters
 

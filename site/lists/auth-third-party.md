@@ -18,12 +18,12 @@ Auth is handled by a connector platform sitting between the agent and the vendor
 
 | Tool | MCP status | Server URL | mcp_auth, verbatim | Gate |
 |---|---|---|---|---|
+| [Klenty](../tools/klenty.md)
+klenty.com | [Official MCP](../mcp/official.md) | [https://api.klenty.com/mcp](https://api.klenty.com/mcp) +2 more | Rides Zapier's hosted-connector auth at mcp.zapier.com (and Runbear's for the Slack connector), not a Klenty-issued MCP credential. | [Paid, self-serve](../gates/paid.md) |
 | [Landbot](../tools/landbot.md)
 landbot.io | [Community MCP](../mcp/community.md) | [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot) +1 more | The operator's own Landbot API key stored with Composio; the Zapier connector rides Zapier's hosted auth at mcp.zapier.com. | [Free to start](../gates/free.md) |
 | [Chatbase](../tools/chatbase.md)
 chatbase.co | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/chatbase](https://zapier.com/mcp/chatbase) | Rides Zapier's hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP credential. | [Paid, self-serve](../gates/paid.md) |
-| [Klenty](../tools/klenty.md)
-klenty.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/klenty](https://zapier.com/mcp/klenty) +1 more | Rides Zapier's hosted-connector auth at mcp.zapier.com (and Runbear's for the Slack connector), not a Klenty-issued MCP credential. | [Paid, self-serve](../gates/paid.md) |
 | [Sendspark](../tools/sendspark.md)
 sendspark.com | [Community MCP](../mcp/community.md) | [https://composio.dev/toolkits/sendspark](https://composio.dev/toolkits/sendspark) | API-key based - Composio's page states Sendspark requires the user's own API key, which Composio then stores/manages. | [Paid, self-serve](../gates/paid.md) |
 | [Vidyard](../tools/vidyard.md)
@@ -31,6 +31,6 @@ vidyard.com | [Community MCP](../mcp/community.md) | [https://viasocket.com/mcp/
 | [Weezly](../tools/weezly.md)
 weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weezly](https://zapier.com/mcp/weezly) | Zapier-mediated connection. | [Paid, self-serve](../gates/paid.md) |
 | [WorkRamp](../tools/workramp.md)
-workramp.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp) +1 more | Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential. | [Enterprise only](../gates/enterprise-only.md) |
+workramp.com | [Community MCP](../mcp/community.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential. | [Enterprise only](../gates/enterprise-only.md) |
 
 Counted 2026-09-07 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 318 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

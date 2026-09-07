@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [openprisetech.com](https://openprisetech.com) · entry id 06-openprise · source 06-revops-infra.md line 233
+Vendor: [openprisetech.com](https://openprisetech.com) · entry id 06-openprise · source 06-revops-infra.md line 241
 
 **What it does**
 A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack.
@@ -104,7 +104,7 @@ Checked homepage, /docs (404), /platform, and /resources specifically for "MCP" 
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 233
+- **Source line**: 241
 
 - **Tier**: RESEARCHED
 

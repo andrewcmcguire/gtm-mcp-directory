@@ -73,6 +73,10 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
                 "An agent needs an endpoint URL before it can call this tool."
                 % probed
             )
+        elif es == "auth-wall":
+            out.append(entry.get("endpoint_wall_note") or (
+                "The recorded URL answers an auth challenge at every path, so it proves a wall "
+                "rather than a running MCP server. Unproven, not dead."))
         elif es == "unreachable" and probed:
             out.append(
                 "On %s no recorded MCP URL for this entry answered at all "

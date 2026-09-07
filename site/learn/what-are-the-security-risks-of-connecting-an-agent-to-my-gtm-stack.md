@@ -28,7 +28,7 @@ An agent reads what a tool returns. A scraped page, an inbound email, a CRM note
 
 ## 3. A community server is somebody's code on your machine
 
-26 entries here have a community server, and a locally installed server runs with your user's permissions. Read who published it, whether the vendor acknowledges it, and what it wants access to. The repo health rail that would date stamp each one has not been run for this build, so this directory publishes no staleness claim at all rather than a stale one.
+24 entries here have a community server, and a locally installed server runs with your user's permissions. Read who published it, whether the vendor acknowledges it, and what it wants access to. The repo health rail that would date stamp each one has not been run for this build, so this directory publishes no staleness claim at all rather than a stale one.
 
 ## 4. Speed is the amplifier
 

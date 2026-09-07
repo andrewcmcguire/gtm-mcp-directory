@@ -1,6 +1,6 @@
 # PandaDoc: MCP server status, API access gate and what it does
 
-> Document builder/e-signature platform for proposals, quotes, and contracts, with AI-assisted content... Official MCP, Free to start. Checked 2026-08-24.
+> Document builder/e-signature platform for proposals, quotes, and contracts, with AI-assisted content... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ PandaDoc
 [Free to start](../gates/free.md)
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Proposal/quote/e-signature system of record, one of the more genuinely solo-oper
 
 - **Auth**: OAuth - remote hosted server, add the server URL to an MCP client (Claude Desktop, Claude Code, Cursor, VS Code, Gemini, etc.) and authenticate via OAuth.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,11 @@ official
 
 mcp_url, verbatim from the file:
 
-https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server ; hosted remote server at https://mcp.pandadoc.com/v1/mcp
+https://mcp.pandadoc.com/v1/mcp ; https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server ; hosted remote server at https://mcp.pandadoc.com/v1/mcp ; repo https://github.com/PandaDoc/mcp-server-guide
 
-- [https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server)
 - [https://mcp.pandadoc.com/v1/mcp](https://mcp.pandadoc.com/v1/mcp)
+- [https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server)
+- [https://github.com/PandaDoc/mcp-server-guide](https://github.com/PandaDoc/mcp-server-guide)
 
 **Access gate**
 
@@ -78,6 +79,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/PandaDoc/mcp-server-guide](https://github.com/PandaDoc/mcp-server-guide)
+
 **Jobs it can do**
 
 - [Generate a proposal or quote](../jobs/generate-proposal-or-quote.md)
@@ -94,13 +99,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.pandadoc.com/blog/pandadoc-free-plan-api/](https://www.pandadoc.com/blog/pandadoc-free-plan-api/)
 - [https://www.pandadoc.com/api/pricing/](https://www.pandadoc.com/api/pricing/)
 - [https://www.pulsemcp.com/servers/dazanza-pandadoc](https://www.pulsemcp.com/servers/dazanza-pandadoc)
+- [https://github.com/PandaDoc/mcp-server-guide](https://github.com/PandaDoc/mcp-server-guide)
+- [https://mcp.pandadoc.com/v1/mcp](https://mcp.pandadoc.com/v1/mcp)
 
-5 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server, https://www.usecarly.com/blog/pandadoc-mcp/, https://www.pandadoc.com/blog/pandadoc-free-plan-api/, https://www.pandadoc.com/api/pricing/, https://www.pulsemcp.com/servers/dazanza-pandadoc
+https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server, https://www.usecarly.com/blog/pandadoc-mcp/, https://www.pandadoc.com/blog/pandadoc-free-plan-api/, https://www.pandadoc.com/api/pricing/, https://www.pulsemcp.com/servers/dazanza-pandadoc, https://github.com/PandaDoc/mcp-server-guide, https://mcp.pandadoc.com/v1/mcp
 
 **Notes, verbatim from the file**
-PulseMCP also lists a third-party community server (dazanza-pandadoc) - prefer the official hosted one (mcp.pandadoc.com) documented on PandaDoc's own developer site.
+PulseMCP also lists a third-party community server (dazanza-pandadoc) - prefer the official hosted one (mcp.pandadoc.com) documented on PandaDoc's own developer site. 2026-09-07: GitHub org PandaDoc (homepage developers.pandadoc.com). Repo mcp-server-guide holds server.json / mcp.json / .mcp.json - the registry and client manifests - and the official registry carries com.pandadoc.mcp/mcp (DNS-verified pandadoc.com namespace) pointing at this repo with remote https://mcp.pandadoc.com/v1/mcp, which returned 401 to an MCP initialize (https://github.com/PandaDoc/mcp-server-guide).
 
 **Provenance**
 
@@ -112,7 +119,7 @@ PulseMCP also lists a third-party community server (dazanza-pandadoc) - prefer t
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

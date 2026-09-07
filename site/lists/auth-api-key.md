@@ -25,7 +25,7 @@ buffer.com | [Official MCP](../mcp/official.md) | [https://mcp.buffer.com/mcp](h
 | [Census (now operates as "Fivetran Activations")](../tools/census.md)
 getcensus.com | [Official MCP](../mcp/official.md) | [https://github.com/fivetran/fivetran-mcp](https://github.com/fivetran/fivetran-mcp) | API key + secret via env vars (FIVETRAN_API_KEY, FIVETRAN_API_SECRET). | [Free to start](../gates/free.md) |
 | [Crustdata](../tools/crustdata.md)
-crustdata.com | [Official MCP](../mcp/official.md) | [https://docs.crustdata.com/for-agents/mcp.md](https://docs.crustdata.com/for-agents/mcp.md) +1 more | api key (free sandbox key available) | [Free to start](../gates/free.md) |
+crustdata.com | [Official MCP](../mcp/official.md) | [https://install.crustdata.com/mcp](https://install.crustdata.com/mcp) +2 more | api key (free sandbox key available) | [Free to start](../gates/free.md) |
 | [Diffbot](../tools/diffbot.md)
 diffbot.com | [Official MCP](../mcp/official.md) | [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp) | api key (free Diffbot token required to use the MCP tools) | [Free to start](../gates/free.md) |
 | [Enrow](../tools/enrow.md)
@@ -41,15 +41,15 @@ lusha.com | [Official MCP](../mcp/official.md) | [https://github.com/lusha-oss/l
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [Official MCP](../mcp/official.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Per-server - individual servers take credentials (e.g. API tokens) via environment variables or CLI args where needed; the repo itself has no central... | [Free to start](../gates/free.md) |
 | [n8n](../tools/n8n.md)
-n8n.io | [Official MCP](../mcp/official.md) | [https://docs.n8n.io/integrations/builtin/core-nodes/...](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger) +1 more | MCP Server Trigger supports Bearer or Header auth to secure the exposed endpoint; supports SSE and streamable-HTTP transport with separate... | [Free to start](../gates/free.md) |
+n8n.io | [Official MCP](../mcp/official.md) | [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n) +2 more | MCP Server Trigger supports Bearer or Header auth to secure the exposed endpoint; supports SSE and streamable-HTTP transport with separate... | [Free to start](../gates/free.md) |
 | [PredictLeads](../tools/predictleads.md)
 predictleads.com | [Official MCP](../mcp/official.md) | [https://mcp.predictleads.com/](https://mcp.predictleads.com/) | api key (same API key/token used for REST API calls, per vendor blog) | [Free to start](../gates/free.md) |
 | [TheirStack](../tools/theirstack.md)
-theirstack.com | [Official MCP](../mcp/official.md) | [https://theirstack.com/en/docs/mcp](https://theirstack.com/en/docs/mcp) +2 more | api key (same credentials as the REST API) | [Free to start](../gates/free.md) |
+theirstack.com | [Official MCP](../mcp/official.md) | [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/) +3 more | api key (same credentials as the REST API) | [Free to start](../gates/free.md) |
 | [Airspeed (formerly Glyphic)](../tools/airspeed.md)
 goairspeed.com | [Official MCP](../mcp/official.md) | [https://api.glyphic.ai/mcp](https://api.glyphic.ai/mcp) +1 more | Airspeed API key passed as an X-API-Key header. | [Paid, self-serve](../gates/paid.md) |
 | [Avoma](../tools/avoma.md)
-avoma.com | [Official MCP](../mcp/official.md) | [https://help.avoma.com/admins-add-avoma-mcp-connecto...](https://help.avoma.com/admins-add-avoma-mcp-connector-in-claude) | API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer. | [Paid, self-serve](../gates/paid.md) |
+avoma.com | [Official MCP](../mcp/official.md) | [https://mcp.avoma.com/mcp](https://mcp.avoma.com/mcp) +1 more | API key pair (CLIENT_KEY:CLIENT_SECRET) generated at Settings → Organization → Developer. | [Paid, self-serve](../gates/paid.md) |
 | [Bright Data](../tools/bright-data.md)
 brightdata.com | [Official MCP](../mcp/official.md) | [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | api key (Bright Data API token) | [Paid, self-serve](../gates/paid.md) |
 | [Clay](../tools/clay.md)
@@ -57,11 +57,11 @@ clay.com | [Official MCP](../mcp/official.md) | [https://www.clay.com/mcp](https
 | [CUFinder](../tools/cufinder.md)
 cufinder.io | [Official MCP](../mcp/official.md) | [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) +1 more | api key from the CUFinder dashboard under Account Settings then API Dashboard. Streamable HTTP transport, explicitly stated by the vendor. | [Paid, self-serve](../gates/paid.md) |
 | [Derrick](../tools/derrick.md)
-derrick-app.com | [Official MCP](../mcp/official.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +1 more | api key. The vendor's page states the MCP installs without credentials but every tool call needs a Derrick API key, passed as an Authorization Bearer... | [Paid, self-serve](../gates/paid.md) |
+derrick-app.com | [Official MCP](../mcp/official.md) | [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp) +2 more | api key. The vendor's page states the MCP installs without credentials but every tool call needs a Derrick API key, passed as an Authorization Bearer... | [Paid, self-serve](../gates/paid.md) |
 | [Explorium](../tools/explorium.md)
-explorium.ai | [Official MCP](../mcp/official.md) | [https://www.explorium.ai/mcp/](https://www.explorium.ai/mcp/) +1 more | api key | [Paid, self-serve](../gates/paid.md) |
+explorium.ai | [Official MCP](../mcp/official.md) | [https://mcp-github-registry.explorium.ai/mcp](https://mcp-github-registry.explorium.ai/mcp) +3 more | api key | [Paid, self-serve](../gates/paid.md) |
 | [Factors.ai](../tools/factors-ai.md)
-factors.ai | [Official MCP](../mcp/official.md) | [https://help.factors.ai/en/articles/14705206-factors...](https://help.factors.ai/en/articles/14705206-factors-mcp) | Personal access token (generated in Settings > AI Features), used via Claude custom connector or a local Python 3.11+ package. | [Paid, self-serve](../gates/paid.md) |
+factors.ai | [Official MCP](../mcp/official.md) | [https://mcp.factors.ai/mcp](https://mcp.factors.ai/mcp) +1 more | Personal access token (generated in Settings > AI Features), used via Claude custom connector or a local Python 3.11+ package. | [Paid, self-serve](../gates/paid.md) |
 | [HighLevel (GoHighLevel)](../tools/highlevel.md)
 gohighlevel.com | [Official MCP](../mcp/official.md) | [https://services.leadconnectorhq.com/mcp/](https://services.leadconnectorhq.com/mcp/) +1 more | A Private Integration Token passed as a bearer token, plus a locationId header. Tool availability follows the scopes granted to the token. | [Paid, self-serve](../gates/paid.md) |
 | [Infraforge](../tools/infraforge.md)
@@ -79,13 +79,13 @@ ocean.io | [Official MCP](../mcp/official.md) | [https://app.ocean.io/docs/getti
 | [RB2B](../tools/rb2b.md)
 rb2b.com | [Official MCP](../mcp/official.md) | [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp) | api key | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io](../tools/reply-io.md)
-reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
+reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) +1 more | api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
 | [Salesforge](../tools/salesforge.md)
 salesforge.ai | [Official MCP](../mcp/official.md) | [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp) | api key via HTTP header (X-Salesforge-Key) | [Paid, self-serve](../gates/paid.md) |
 | [Smartlead](../tools/smartlead.md)
 smartlead.ai | [Official MCP](../mcp/official.md) | [https://helpcenter.smartlead.ai/en/articles/300-smar...](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) +3 more | api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE transport only (the help article says streamable HTTP is not... | [Paid, self-serve](../gates/paid.md) |
 | [Super Send](../tools/super-send.md)
-supersend.io | [Official MCP](../mcp/official.md) | [https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server) | api key, Streamable HTTP transport | [Paid, self-serve](../gates/paid.md) |
+supersend.io | [Official MCP](../mcp/official.md) | [https://mcp.supersend.io/mcp](https://mcp.supersend.io/mcp) +1 more | api key, Streamable HTTP transport | [Paid, self-serve](../gates/paid.md) |
 | [tl;dv](../tools/tl-dv.md)
 tldv.io | [Official MCP](../mcp/official.md) | [https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server) +1 more | API key generated at Settings → Personal Settings → API keys. | [Paid, self-serve](../gates/paid.md) |
 | [Trainual](../tools/trainual.md)

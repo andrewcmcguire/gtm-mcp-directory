@@ -1,6 +1,6 @@
 # mcp.run / TurboMCP: MCP server status, API access gate and what it does
 
-> An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus... Official MCP, Enterprise only. Checked 2026-09-02.
+> An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ mcp.run / TurboMCP
 [Enterprise only](../gates/enterprise-only.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
-Checked 2026-09-02
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [turbomcp.ai (mcp.run now 301-redirects here)](https://turbomcp.ai (mcp.run now 301-redirects here)) · entry id 07-mcp-run-turbomcp · source 07-mcp-infrastructure.md line 75
+Vendor: [turbomcp.ai (mcp.run now 301-redirects here)](https://turbomcp.ai (mcp.run now 301-redirects here)) · entry id 07-mcp-run-turbomcp · source 07-mcp-infrastructure.md line 79
 
 **What it does**
 An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled deployment of MCP servers across a team's own infrastructure (K8s, PaaS, VMs).
@@ -38,12 +38,12 @@ Relevant to a RevOps/IT team that wants centralized control over which MCP serve
 
 - **Auth**: Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic Client Registration for the servers it fronts.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://turbomcp.ai](https://turbomcp.ai)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official (this is infrastructure for running/gating other servers' MCP endpoints
 
 mcp_url, verbatim from the file:
 
-https://turbomcp.ai
+https://github.com/dylibso/mcp.run-servlets ; https://turbomcp.ai
 
+- [https://github.com/dylibso/mcp.run-servlets](https://github.com/dylibso/mcp.run-servlets)
 - [https://turbomcp.ai](https://turbomcp.ai)
 
 **Access gate**
@@ -77,6 +78,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/dylibso/mcp.run-servlets](https://github.com/dylibso/mcp.run-servlets)
+
 **Jobs it can do**
 
 - [Discover MCP servers](../jobs/discover-mcp-servers.md)
@@ -90,14 +95,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://www.mcp.run](https://www.mcp.run)
 - [https://turbomcp.ai](https://turbomcp.ai)
+- [https://github.com/dylibso/mcp.run-servlets](https://github.com/dylibso/mcp.run-servlets)
 - (redirects to turbomcp.ai, confirmed 301)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://www.mcp.run (redirects to turbomcp.ai, confirmed 301), https://turbomcp.ai
+https://www.mcp.run (redirects to turbomcp.ai, confirmed 301), https://turbomcp.ai, https://github.com/dylibso/mcp.run-servlets
 
 **Notes, verbatim from the file**
-mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points. 2026-09-02: re-verified. https://www.mcp.run/ still 301s to https://turbomcp.ai/, which loaded today as "the leading standards-compliant, self-hosted MCP gateway and management platform" (OIDC identity-provider integration, OAuth with dynamic client registration, RBAC approvals, centralized audit logs, kill switch) with no pricing, no docs link, and still no mention of its mcp.run history. The what_it_does and ai_features copy above already describes the TurboMCP product rather than the old hosted registry, so no rewrite was needed; mcp_status unchanged.
+mcp.run - originally a lightweight community MCP server registry - now redirects permanently to TurboMCP, an enterprise self-hosted gateway product. The fetched TurboMCP page does not mention its mcp.run history, so the nature/terms of that transition are unconfirmed; flagged as a gap rather than guessed. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://turbomcp.ai): mcp.run 301s to turbomcp.ai, which publishes no pricing at all and positions as a self-hosted enterprise MCP gateway with only run-Turbo-MCP contact and book-a-demo as entry points. 2026-09-02: re-verified. https://www.mcp.run/ still 301s to https://turbomcp.ai/, which loaded today as "the leading standards-compliant, self-hosted MCP gateway and management platform" (OIDC identity-provider integration, OAuth with dynamic client registration, RBAC approvals, centralized audit logs, kill switch) with no pricing, no docs link, and still no mention of its mcp.run history. The what_it_does and ai_features copy above already describes the TurboMCP product rather than the old hosted registry, so no rewrite was needed; mcp_status unchanged. 2026-09-07: THIS ROW CONFLATES TWO VENDORS AND NEEDS SPLITTING. mcp.run is dylibso, and the verified artifact is https://github.com/dylibso/mcp.run-servlets, whose README reads "These are the official servlets for the @dylibso account on mcp.run" and which is now ARCHIVED (archived=true, last push 2025-11-20). TurboMCP is a different project from a different owner: Epistates/turbomcp (https://github.com/Epistates/turbomcp), a Rust MCP SDK at turbomcp.org, which is what this row's vendor_domain turbomcp.ai points at. Two vendors in one row: split before publishing. Not split by this pass.
 
 **Provenance**
 
@@ -105,11 +111,11 @@ mcp.run - originally a lightweight community MCP server registry - now redirects
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 75
+- **Source line**: 79
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-09-02
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

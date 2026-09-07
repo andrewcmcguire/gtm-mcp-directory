@@ -22,7 +22,7 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 cal.com | [Official MCP](../mcp/official.md) | [https://github.com/calcom/cal-mcp](https://github.com/calcom/cal-mcp) +1 more | OAuth or an API key
 Two paths. Hosted server (mcp.cal.com) uses OAuth 2.1 - "your client handles the... | [Free to start](../gates/free.md) |
 | [Calendly](../tools/calendly.md)
-calendly.com | [Official MCP](../mcp/official.md) | [https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server) +3 more | OAuth or an API key
+calendly.com | [Official MCP](../mcp/official.md) | [https://mcp.calendly.com](https://mcp.calendly.com) +3 more | OAuth or an API key
 OAuth 2.1 Authorization Code + PKCE (S256) with Dynamic Client Registration (RFC 7591).... | [Free to start](../gates/free.md) |
 | [Chili Piper](../tools/chili-piper.md)
 chilipiper.com | [Official MCP](../mcp/official.md) | [https://www.chilipiper.com/products/mcp](https://www.chilipiper.com/products/mcp) +3 more | OAuth or an API key

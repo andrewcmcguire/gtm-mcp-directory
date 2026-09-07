@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [nutshell.com](https://nutshell.com) · entry id 06-nutshell-crm · source 06-revops-infra.md line 559
+Vendor: [nutshell.com](https://nutshell.com) · entry id 06-nutshell-crm · source 06-revops-infra.md line 574
 
 **What it does**
 An SMB CRM covering leads, companies, people, pipelines and activity reporting, with email and calendar sync and built-in marketing tools, and a read-only MCP server that lets an assistant search that data and pull sales reports.
@@ -87,13 +87,14 @@ No job tag on this entry.
 
 - [https://support.nutshell.com/en/articles/12631143-mcp-server](https://support.nutshell.com/en/articles/12631143-mcp-server)
 - [https://www.nutshell.com/pricing](https://www.nutshell.com/pricing)
+- [https://app.nutshell.com/mcp](https://app.nutshell.com/mcp)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://support.nutshell.com/en/articles/12631143-mcp-server, https://www.nutshell.com/pricing
+https://support.nutshell.com/en/articles/12631143-mcp-server, https://www.nutshell.com/pricing, https://app.nutshell.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://app.nutshell.com/mcp returned HTTP 401 Authorization required, confirming a live auth-gated server. READ-ONLY BY DESIGN, and the vendor says so plainly: "The MCP server can only read your data and cannot make any changes to your Nutshell account." Documented tool coverage is search over leads, companies, people and users, plus pipelines, stages, outcomes, activity types, sources and channels, industries, markets and territories, and tags. That makes it the safest CRM MCP in this file to hand an unsupervised agent, and a useful counterexample to the assumption that an official CRM server means write access. Cost note worth carrying into any write-up: Nutshell charges nothing for MCP queries but the article points out the real bill lands on the AI side, saying "You'll only pay for your AI assistant subscription (ChatGPT Plus, Claude Pro)", and the connection instructions for both Claude and ChatGPT require a paid plan on those products.
+Verified 2026-09-07: POST of an MCP initialize to https://app.nutshell.com/mcp returned HTTP 401 Authorization required, confirming a live auth-gated server. READ-ONLY BY DESIGN, and the vendor says so plainly: "The MCP server can only read your data and cannot make any changes to your Nutshell account." Documented tool coverage is search over leads, companies, people and users, plus pipelines, stages, outcomes, activity types, sources and channels, industries, markets and territories, and tags. That makes it the safest CRM MCP in this file to hand an unsupervised agent, and a useful counterexample to the assumption that an official CRM server means write access. Cost note worth carrying into any write-up: Nutshell charges nothing for MCP queries but the article points out the real bill lands on the AI side, saying "You'll only pay for your AI assistant subscription (ChatGPT Plus, Claude Pro)", and the connection instructions for both Claude and ChatGPT require a paid plan on those products. 2026-09-07: https://app.nutshell.com/mcp returned 401 to an MCP initialize POST (https://app.nutshell.com/mcp).
 
 **Provenance**
 
@@ -101,7 +102,7 @@ Verified 2026-09-07: POST of an MCP initialize to https://app.nutshell.com/mcp r
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 559
+- **Source line**: 574
 
 - **Tier**: RESEARCHED
 

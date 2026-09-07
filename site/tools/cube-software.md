@@ -1,6 +1,6 @@
 # Cube Software: MCP server status, API access gate and what it does
 
-> Spreadsheet-native FP&A planning and reporting platform for finance teams; revenue-scenario modeling is one... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> Spreadsheet-native FP&A planning and reporting platform for finance teams; revenue-scenario modeling is one... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Cube Software
 [Paid, self-serve](../gates/paid.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ FP&A-adjacent planning layer, included here (like Vareto) because revenue-scenar
 
 - **Auth**: OAuth - no manual API key management.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.cubesoftware.com/mcp ; docs: https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server
+https://mcp.cubesoftware.com/ ; https://www.cubesoftware.com/mcp ; docs: https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server
 
+- [https://mcp.cubesoftware.com/](https://mcp.cubesoftware.com/)
 - [https://www.cubesoftware.com/mcp](https://www.cubesoftware.com/mcp)
 - [https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server](https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server)
 
@@ -92,13 +93,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.cubesoftware.com/pricing](https://www.cubesoftware.com/pricing)
 - [https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server](https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server)
 - [https://www.pulsemcp.com/servers?q=cube](https://www.pulsemcp.com/servers?q=cube)
+- [https://mcp.cubesoftware.com/](https://mcp.cubesoftware.com/)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.cubesoftware.com/mcp, https://www.cubesoftware.com/pricing, https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server, https://www.pulsemcp.com/servers?q=cube
+https://www.cubesoftware.com/mcp, https://www.cubesoftware.com/pricing, https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server, https://www.pulsemcp.com/servers?q=cube, https://mcp.cubesoftware.com/
 
 **Notes, verbatim from the file**
-A separate community MCP server (github.com/isaacwasserman/mcp_cube_server) exists for "Cube" the open-source semantic-layer/BI engine (cube.dev) - a different, unrelated product from Cube Software the FP&A vendor. Do not conflate the two when searching "Cube MCP."
+A separate community MCP server (github.com/isaacwasserman/mcp_cube_server) exists for "Cube" the open-source semantic-layer/BI engine (cube.dev) - a different, unrelated product from Cube Software the FP&A vendor. Do not conflate the two when searching "Cube MCP." 2026-09-07: https://mcp.cubesoftware.com/ returned 401 {"error": "invalid_token", "error_description": "Authentication failed. The provided bearer token is invalid..."} to an MCP initialize POST (https://mcp.cubesoftware.com/).
 
 **Provenance**
 
@@ -110,7 +112,7 @@ A separate community MCP server (github.com/isaacwasserman/mcp_cube_server) exis
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

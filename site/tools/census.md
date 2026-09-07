@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)](https://getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)) · entry id 06-census · source 06-revops-infra.md line 278
+Vendor: [getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)](https://getcensus.com (301-redirects to fivetran.com; docs.getcensus.com redirects to fivetran.com/docs/activations)) · entry id 06-census · source 06-revops-infra.md line 287
 
 **What it does**
 Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the product now lives inside Fivetran as "Activations," same function.
@@ -110,7 +110,7 @@ This is worth flagging plainly - anyone still citing "Census" as an independent 
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 278
+- **Source line**: 287
 
 - **Tier**: RESEARCHED
 

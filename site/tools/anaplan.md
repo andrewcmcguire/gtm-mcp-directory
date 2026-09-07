@@ -1,6 +1,6 @@
 # Anaplan (PlanIQ / Anaplan Forecaster): MCP server status, API access gate and what it does
 
-> Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by... Official MCP, Enterprise only. Checked 2026-08-24.
+> Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Anaplan (PlanIQ / Anaplan Forecaster)
 [Enterprise only](../gates/enterprise-only.md)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Enterprise connected-planning platform where sales/demand forecasting is one mod
 
 - **Auth**: unknown - described only as a "governed MCP connection" with permission/audit controls; the specific credential mechanism (API key vs. OAuth) is not disclosed on the page found.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,9 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.anaplan.com/platform/intelligence/ - the "Anaplan AI Gateway" feature page states: "Securely connect any LLM interface or enterprise agent to Anaplan through a governed MCP connection, with controls for permissions, auditability, consumption management, and rate limiting." No separate dedicated MCP docs/repo page was found beyond this feature description.
+https://www.anaplan.com/platform/intelligence/ - the "Anaplan AI Gateway" feature page states: "Securely connect any LLM interface or enterprise agent to Anaplan through a governed MCP connection, with controls for permissions, auditability, consumption management, and rate limiting." No separate dedicated MCP docs/repo page was found beyond this feature description. The only resolving server URL found for Anaplan is third-party, not first-party: https://github.com/larasrinath/anaplan-mcp (individually owned, community at most).
 
 - [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/)
+- [https://github.com/larasrinath/anaplan-mcp](https://github.com/larasrinath/anaplan-mcp)
 
 **Access gate**
 
@@ -77,6 +78,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/larasrinath/anaplan-mcp](https://github.com/larasrinath/anaplan-mcp)
+
 **Jobs it can do**
 
 - [Read the pipeline forecast](../jobs/read-pipeline-forecast.md)
@@ -94,13 +99,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html](https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html)
 - [https://www.pulsemcp.com/servers?q=anaplan](https://www.pulsemcp.com/servers?q=anaplan)
 - [https://www.anaplan.com/pricing/](https://www.anaplan.com/pricing/)
+- [https://github.com/larasrinath/anaplan-mcp](https://github.com/larasrinath/anaplan-mcp)
 
-6 source URLs. Raw sources field, verbatim:
+7 source URLs. Raw sources field, verbatim:
 
-https://www.anaplan.com/platform/anaplan-planiq/, https://www.anaplan.com/platform/intelligence/, https://help.anaplan.com/drive-intelligent-forecasting-with-planiq-7333fab4-7118-45d9-8504-4137bc114e04, https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html, https://www.pulsemcp.com/servers?q=anaplan, https://www.anaplan.com/pricing/
+https://www.anaplan.com/platform/anaplan-planiq/, https://www.anaplan.com/platform/intelligence/, https://help.anaplan.com/drive-intelligent-forecasting-with-planiq-7333fab4-7118-45d9-8504-4137bc114e04, https://www.globenewswire.com/news-release/2025/12/09/3202449/0/en/Anaplan-Introduces-Role-Based-AI-Agents-to-Advance-Industry-Leading-Enterprise-Scenario-Planning-and-Analysis-Platform.html, https://www.pulsemcp.com/servers?q=anaplan, https://www.anaplan.com/pricing/, https://github.com/larasrinath/anaplan-mcp
 
 **Notes, verbatim from the file**
-Marked official rather than none-found because Anaplan's own product page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law - the same judgment call made for the Default entry in 06-revops-infra.md - even though no dedicated MCP docs/repo page exists yet. Re-check as this matures; it currently reads as an early/generic capability statement rather than a documented integration. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.anaplan.com/pricing/): /pricing resolves to a contact form promising an Anaplan expert will connect with you, with no pricing page and no developer or API portal link in nav or footer.
+Marked official rather than none-found because Anaplan's own product page explicitly names MCP with a linkable URL, satisfying the schema's "URL required" law - the same judgment call made for the Default entry in 06-revops-infra.md - even though no dedicated MCP docs/repo page exists yet. Re-check as this matures; it currently reads as an early/generic capability statement rather than a documented integration. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.anaplan.com/pricing/): /pricing resolves to a contact form promising an Anaplan expert will connect with you, with no pricing page and no developer or API portal link in nav or footer. 2026-09-07: larasrinath/anaplan-mcp (7 stars) is a real server: src/server.ts plus src/tools/{bulk,exploration,transactional}.ts, README "MCP server for Anaplan Integration API v2." Owner is an individual, so third-party (https://github.com/larasrinath/anaplan-mcp). 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. What the official claim actually rests on: the "Anaplan AI Gateway" feature page at https://www.anaplan.com/platform/intelligence/, which describes a governed MCP connection but publishes no resolving server URL. The finder searched GitHub owner anaplan, npm, PyPI and the official registry and probed https://mcp.anaplan.com/mcp with no first-party result; the only real servers found (larasrinath/anaplan-mcp, VinzenzKlass/anaplan-mcp, FireEden/anaplan-mcp-model-management) are all third-party. A human should decide whether official survives law 1.
 
 **Provenance**
 
@@ -112,7 +118,7 @@ Marked official rather than none-found because Anaplan's own product page explic
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

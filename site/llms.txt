@@ -1,6 +1,6 @@
 # The GTM MCP Directory
 
-> 318 go to market software entries, each recording whether an AI agent can call it through an MCP server, who maintains that server, and whether a solo operator can get API access without a contract. 181 entries have an official MCP server. Baked 2026-09-07 by build_directory.py (phase 1), reconciled against tools_recount.py. Every number on the site is generated from the data file below at build time.
+> 318 go to market software entries, each recording whether an AI agent can call it through an MCP server, who maintains that server, and whether a solo operator can get API access without a contract. 183 entries have an official MCP server. Baked 2026-09-07 by build_directory.py (phase 1), reconciled against tools_recount.py. Every number on the site is generated from the data file below at build time.
 
 This file exists because the directory publishes what it measures. A directory of tools an agent can read that was not itself readable by an agent would be a joke at its own expense.
 
@@ -33,7 +33,7 @@ This file exists because the directory publishes what it measures. A directory o
 ## The counts, as of the build date
 
 - Entries: 318 across 15 categories. Unique products: 302. Cross listed: 16.
-- MCP status: 181 official, 26 community, 87 none found, 15 unknown, 9 not applicable.
+- MCP status: 183 official, 24 community, 87 none found, 15 unknown, 9 not applicable.
 - API gate: 69 free to start, 125 paid self serve, 78 enterprise only, 8 enterprise leaning, 32 unknown, 6 not applicable.
 - Free to start or paid self serve: 194.
 - Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 152. This is the strictest useful filter on the site.
@@ -52,8 +52,8 @@ This file exists because the directory publishes what it measures. A directory o
 
 ## The lists, which are the fastest answers to the most common questions
 
-- [The 181 GTM tools with an official MCP server](https://andrewcmcguire.com/gtm-directory/lists/official-mcp-servers): 181 entries. The full list of 181 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-07.
-- [The 26 GTM tools with a community MCP server](https://andrewcmcguire.com/gtm-directory/lists/community-mcp-servers): 26 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-07 across 318 directory entries.
+- [The 183 GTM tools with an official MCP server](https://andrewcmcguire.com/gtm-directory/lists/official-mcp-servers): 183 entries. The full list of 183 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-07.
+- [The 24 GTM tools with a community MCP server](https://andrewcmcguire.com/gtm-directory/lists/community-mcp-servers): 24 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-07 across 318 directory entries.
 - [The 87 GTM tools with no MCP server found](https://andrewcmcguire.com/gtm-directory/lists/no-mcp-server): 87 entries. 87 of 318 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-07.
 - [The 69 GTM tools a solo operator can call for free](https://andrewcmcguire.com/gtm-directory/lists/free-api-tiers): 69 entries. 69 go to market tools where a solo operator can get API access without talking to anyone. 56 of them also have an MCP server. Counted 2026-09-07.
 - [The 152 GTM tools an agent can call and a solo operator can pay for](https://andrewcmcguire.com/gtm-directory/lists/solo-reachable): 152 entries. 152 of 318 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-07.
@@ -66,8 +66,8 @@ This file exists because the directory publishes what it measures. A directory o
 - [GTM tools by MCP auth type](https://andrewcmcguire.com/gtm-directory/lists/auth-types): 207 entries. How the 207 GTM tools with an MCP server authenticate: OAuth, API key, both, or not recorded, with the verbatim auth field on every row.
 - [Data & Enrichment tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-data-enrichment): 40 entries. 40 of the 45 data & enrichment tools in The GTM MCP Directory have an MCP server: 38 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 - [Engagement & Outbound tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-engagement-outbound): 23 entries. 23 of the 31 engagement & outbound tools in The GTM MCP Directory have an MCP server: 22 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
-- [Conversation Intel tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-conversation-intel): 21 entries. 21 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 18 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
-- [AI SDR tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-ai-sdr-agents): 10 entries. 10 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 7 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+- [Conversation Intel tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-conversation-intel): 21 entries. 21 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
+- [AI SDR tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-ai-sdr-agents): 10 entries. 10 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 - [Signals & Intent tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-signals-intent-abm): 19 entries. 19 of the 28 signals & intent tools in The GTM MCP Directory have an MCP server: 18 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 - [RevOps infrastructure tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-revops-infra): 25 entries. 25 of the 27 revops infra tools in The GTM MCP Directory have an MCP server: 25 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-07.
 - [MCP Layer tools with an MCP server](https://andrewcmcguire.com/gtm-directory/lists/mcp-mcp-infrastructure): 14 entries. 14 of the 19 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-07.

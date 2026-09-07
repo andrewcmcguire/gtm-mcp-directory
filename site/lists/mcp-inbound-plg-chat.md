@@ -37,7 +37,7 @@ OAuth (browser-based, recommended) or a Bearer token using an Intercom API token
 ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
 none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
 | [Endgame](../tools/endgame.md)
-endgame.io | [Official MCP](../mcp/official.md) | [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server) +1 more | OAuth or an API key
+endgame.io | [Official MCP](../mcp/official.md) | [https://app.endgame.io/api/v1/mcp](https://app.endgame.io/api/v1/mcp) +1 more | OAuth or an API key
 OAuth (browser-based) for individual users via Claude/ChatGPT/Claude Code/Codex... | [Gate unknown](../gates/unknown.md) |
 | [Pylon](../tools/pylon.md)
 usepylon.com | [Official MCP](../mcp/official.md) | [https://mcp.usepylon.com](https://mcp.usepylon.com) +1 more | OAuth

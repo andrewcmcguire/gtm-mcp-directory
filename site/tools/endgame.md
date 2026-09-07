@@ -1,6 +1,6 @@
 # Endgame: MCP server status, API access gate and what it does
 
-> A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge... Official MCP, Gate unknown. Checked 2026-08-24.
+> A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge... Official MCP, Gate unknown. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Endgame
 [Gate unknown](../gates/unknown.md)
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Account-context and revenue-intelligence layer for AI agents, disambiguated here
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.endgame.io/features/mcp-server (endpoint https://app.endgame.io/api/v1/mcp)
+https://app.endgame.io/api/v1/mcp ; https://docs.endgame.io/features/mcp-server (endpoint https://app.endgame.io/api/v1/mcp)
 
-- [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server)
 - [https://app.endgame.io/api/v1/mcp](https://app.endgame.io/api/v1/mcp)
+- [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server)
 
 **Access gate**
 
@@ -93,13 +93,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://endgame.io](https://endgame.io)
 - [https://docs.endgame.io](https://docs.endgame.io)
 - [https://docs.endgame.io/features/mcp-server](https://docs.endgame.io/features/mcp-server)
+- [https://app.endgame.io/api/v1/mcp](https://app.endgame.io/api/v1/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://endgame.io, https://docs.endgame.io, https://docs.endgame.io/features/mcp-server
+https://endgame.io, https://docs.endgame.io, https://docs.endgame.io/features/mcp-server, https://app.endgame.io/api/v1/mcp
 
 **Notes, verbatim from the file**
-DISAMBIGUATION - verified this is not an unrelated security- or gaming-branded "Endgame"; endgame.io's own case studies (Handle, Monte Carlo, BetterUp, Hex) and GTM-agent framing confirm it is a revenue-intelligence company. However, its current positioning (calls/deals/emails/documents -> context graph) reads as closer to conversation-intelligence/account-context than to a PLG product-usage-signal tool like Pocus/Correlated/Toplyne - the seed framing may reflect an earlier product stage; flagging for whoever updates this entry next. [api_gate 2026-08-25] Re-checked and left unknown, honestly: no pricing page exists (endgame.io/pricing 404s) though a self-serve sign-up is offered; the docs describe an MCP server and API keys with the only stated limit being that only Endgame admins can create API keys, and no tier condition is published. Checked against https://docs.endgame.io/features/mcp-server.
+DISAMBIGUATION - verified this is not an unrelated security- or gaming-branded "Endgame"; endgame.io's own case studies (Handle, Monte Carlo, BetterUp, Hex) and GTM-agent framing confirm it is a revenue-intelligence company. However, its current positioning (calls/deals/emails/documents -> context graph) reads as closer to conversation-intelligence/account-context than to a PLG product-usage-signal tool like Pocus/Correlated/Toplyne - the seed framing may reflect an earlier product stage; flagging for whoever updates this entry next. [api_gate 2026-08-25] Re-checked and left unknown, honestly: no pricing page exists (endgame.io/pricing 404s) though a self-serve sign-up is offered; the docs describe an MCP server and API keys with the only stated limit being that only Endgame admins can create API keys, and no tier condition is published. Checked against https://docs.endgame.io/features/mcp-server. 2026-09-07: https://app.endgame.io/api/v1/mcp returned 401 to an MCP initialize POST (https://app.endgame.io/api/v1/mcp).
 
 **Provenance**
 
@@ -111,7 +112,7 @@ DISAMBIGUATION - verified this is not an unrelated security- or gaming-branded "
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

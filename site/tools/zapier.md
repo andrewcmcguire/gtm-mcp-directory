@@ -1,6 +1,6 @@
 # Zapier: MCP server status, API access gate and what it does
 
-> A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate... Official MCP, Free to start. Checked 2026-08-24.
+> A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Zapier
 [Free to start](../gates/free.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [zapier.com](https://zapier.com) · entry id 06-zapier · source 06-revops-infra.md line 142
+Vendor: [zapier.com](https://zapier.com) · entry id 06-zapier · source 06-revops-infra.md line 146
 
 **What it does**
 A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate agent product.
@@ -38,12 +38,12 @@ General-purpose integration/automation backbone connecting CRM, marketing, and s
 
 - **Auth**: Reuses Zapier's existing 13+ year credential infrastructure - connect an AI client (Claude, ChatGPT, Cursor) through a guided ~5-minute flow that auto-imports app connections already authorized on the account; effectively OAuth/account-login-style rather than a bare API key.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://zapier.com/mcp](https://zapier.com/mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,12 @@ official
 
 mcp_url, verbatim from the file:
 
-https://zapier.com/mcp (connection endpoint https://mcp.zapier.com)
+https://mcp.zapier.com/api/v1/connect ; https://zapier.com/mcp (connection endpoint https://mcp.zapier.com) ; repo https://github.com/zapier/zapier-mcp
 
+- [https://mcp.zapier.com/api/v1/connect](https://mcp.zapier.com/api/v1/connect)
 - [https://zapier.com/mcp](https://zapier.com/mcp)
 - [https://mcp.zapier.com](https://mcp.zapier.com)
+- [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
 
 **Access gate**
 
@@ -78,6 +80,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+
 **Jobs it can do**
 
 - [Sync records between systems](../jobs/sync-records-between-systems.md)
@@ -93,13 +99,15 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://zapier.com/mcp](https://zapier.com/mcp)
 - [https://zapier.com/agents](https://zapier.com/agents)
 - [https://zapier.com/pricing](https://zapier.com/pricing)
+- [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+- [https://mcp.zapier.com/api/v1/connect](https://mcp.zapier.com/api/v1/connect)
 
-3 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://zapier.com/mcp, https://zapier.com/agents, https://zapier.com/pricing
+https://zapier.com/mcp, https://zapier.com/agents, https://zapier.com/pricing, https://github.com/zapier/zapier-mcp, https://mcp.zapier.com/api/v1/connect
 
 **Notes, verbatim from the file**
-Zapier's own stated scale claims (195,000+ MCP servers created, 4.6M+ tool calls, 250,000+ apps connected) are vendor-reported, not independently verified.
+Zapier's own stated scale claims (195,000+ MCP servers created, 4.6M+ tool calls, 250,000+ apps connected) are vendor-reported, not independently verified. 2026-09-07: GitHub org zapier, repo zapier-mcp, 405 stars: "Official plugin distribution for the hosted Zapier MCP server." The official registry carries com.zapier/mcp (DNS-verified zapier.com namespace) pointing at this repo with remote https://mcp.zapier.com/api/v1/connect, which returned 401 to an MCP initialize (https://github.com/zapier/zapier-mcp).
 
 **Provenance**
 
@@ -107,11 +115,11 @@ Zapier's own stated scale claims (195,000+ MCP servers created, 4.6M+ tool calls
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 142
+- **Source line**: 146
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

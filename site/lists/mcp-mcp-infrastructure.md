@@ -22,31 +22,31 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 apideck.com | [Official MCP](../mcp/official.md) | [https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp) +1 more | OAuth or an API key
 Managed OAuth via Apideck Vault on the hosted endpoint, or x-apideck-api-key plus... | [Free to start](../gates/free.md) |
 | [Composio](../tools/composio.md)
-composio.dev | [Official MCP](../mcp/official.md) | [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp) | OAuth or an API key
+composio.dev | [Official MCP](../mcp/official.md) | [https://connect.composio.dev/mcp](https://connect.composio.dev/mcp) +2 more | OAuth or an API key
 Composio brokers OAuth for each connected toolkit (HubSpot, Gmail, Slack, etc.) on the... | [Free to start](../gates/free.md) |
 | [Knit MCP](../tools/knit-mcp.md)
 getknit.dev | [Official MCP](../mcp/official.md) | [https://www.getknit.dev/mcp-servers](https://www.getknit.dev/mcp-servers) +1 more | OAuth
 Knit-managed OAuth or SAML per connected application; the customer authorises each end... | [Free to start](../gates/free.md) |
 | [Merge Agent Handler](../tools/merge-agent-handler.md)
-merge.dev | [Official MCP](../mcp/official.md) | [https://api.merge.dev/api/v1/tool-packs/](https://api.merge.dev/api/v1/tool-packs/) +2 more | OAuth or an API key
+merge.dev | [Official MCP](../mcp/official.md) | [https://github.com/merge-api/merge-mcp](https://github.com/merge-api/merge-mcp) +3 more | OAuth or an API key
 api key in an Authorization Bearer header, alongside the identity encoded in the URL... | [Free to start](../gates/free.md) |
 | [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 github.com | [Official MCP](../mcp/official.md) | [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | API key
 Per-server - individual servers take credentials (e.g. API tokens) via environment... | [Free to start](../gates/free.md) |
 | [Pipeworx](../tools/pipeworx.md)
-pipeworx.io | [Official MCP](../mcp/official.md) | [https://gateway.pipeworx.io/mcp](https://gateway.pipeworx.io/mcp) +3 more | Auth not recorded
+pipeworx.io | [Official MCP](../mcp/official.md) | [https://gateway.pipeworx.io/mcp](https://gateway.pipeworx.io/mcp) +4 more | Auth not recorded
 none required for the free tiers. The vendor states "No API keys" and that an anonymous... | [Free to start](../gates/free.md) |
 | [StackOne](../tools/stackone.md)
-stackone.com | [Official MCP](../mcp/official.md) | [https://api.stackone.com/mcp?x-account-id=](https://api.stackone.com/mcp?x-account-id=) +1 more | OAuth or an API key
+stackone.com | [Official MCP](../mcp/official.md) | [https://mcp.stackone.com/mcp](https://mcp.stackone.com/mcp) +2 more | OAuth or an API key
 Basic authentication plus a per-account identifier, with StackOne brokering OAuth, API... | [Free to start](../gates/free.md) |
 | [usefulapi.io](../tools/usefulapi-io.md)
-usefulapi.io | [Official MCP](../mcp/official.md) | [https://usefulapi.io/](https://usefulapi.io/) +1 more | OAuth or an API key
+usefulapi.io | [Official MCP](../mcp/official.md) | [https://pipedrive.usefulapi.io/mcp](https://pipedrive.usefulapi.io/mcp) +3 more | OAuth or an API key
 per-application OAuth. The setup instructions add the subdomain as a custom connector and... | [Free to start](../gates/free.md) |
 | [Zapier MCP](../tools/zapier-mcp.md)
-zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) +1 more | OAuth
+zapier.com | [Official MCP](../mcp/official.md) | [https://mcp.zapier.com/api/v1/connect](https://mcp.zapier.com/api/v1/connect) +3 more | OAuth
 Uses Zapier's existing decade-old app-connection/OAuth infrastructure - you authorize... | [Free to start](../gates/free.md) |
 | [Metorial](../tools/metorial.md)
-metorial.com | [Official MCP](../mcp/official.md) | [https://metorial.com](https://metorial.com) | OAuth or an API key
+metorial.com | [Official MCP](../mcp/official.md) | [https://github.com/metorial/metorial](https://github.com/metorial/metorial) +1 more | OAuth or an API key
 Fully custodial - Metorial stores and centrally manages OAuth tokens for every connected... | [Paid, self-serve](../gates/paid.md) |
 | [Pipedream MCP](../tools/pipedream-mcp.md)
 pipedream.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedream.com](https://mcp.pipedream.com) | OAuth or an API key
@@ -55,7 +55,7 @@ OAuth/API-key credentials for each underlying app are stored by Pipedream and is
 useparagon.com | [Official MCP](../mcp/official.md) | [https://github.com/useparagon/paragon-mcp](https://github.com/useparagon/paragon-mcp) +1 more | OAuth
 Paragon user token plus Connect Portal OAuth. The distinguishing feature is that the... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [mcp.run / TurboMCP](../tools/mcp-run-turbomcp.md)
-turbomcp.ai | [Official MCP](../mcp/official.md) | [https://turbomcp.ai](https://turbomcp.ai) | OAuth
+turbomcp.ai | [Official MCP](../mcp/official.md) | [https://github.com/dylibso/mcp.run-servlets](https://github.com/dylibso/mcp.run-servlets) +1 more | OAuth
 Integrates with a team's own OIDC-compatible identity provider; handles OAuth and Dynamic... | [Enterprise only](../gates/enterprise-only.md) |
 | [Klavis AI](../tools/klavis-ai.md)
 klavis.ai | [Official MCP](../mcp/official.md) | [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md) +2 more | OAuth or an API key

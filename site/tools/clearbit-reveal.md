@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://clearbit.com (redirects into hubspot.com)](https://clearbit.com (redirects into hubspot.com)) · entry id 05-clearbit-reveal · source 05-signals-intent-abm.md line 354
+Vendor: [https://clearbit.com (redirects into hubspot.com)](https://clearbit.com (redirects into hubspot.com)) · entry id 05-clearbit-reveal · source 05-signals-intent-abm.md line 356
 
 **What it does**
 Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count, revenue, tech stack, location) and surfaces buying-intent signals like pricing-page visits.
@@ -106,7 +106,7 @@ Clearbit is no longer sold standalone ("working hard to integrate Clearbit servi
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 354
+- **Source line**: 356
 
 - **Tier**: RESEARCHED
 

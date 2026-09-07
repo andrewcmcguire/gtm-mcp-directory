@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [pipeworx.io](https://pipeworx.io) · entry id 07-pipeworx · source 07-mcp-infrastructure.md line 352
+Vendor: [pipeworx.io](https://pipeworx.io) · entry id 07-pipeworx · source 07-mcp-infrastructure.md line 359
 
 **What it does**
 A single MCP gateway that fronts a stated 1,532 live data sources as 5,871 tools behind one URL, weighted toward public and regulatory data (SEC EDGAR, FDA, the Federal Reserve, ClinicalTrials, USPTO, EPA, EU procurement), with per-application wrapper paths for common SaaS APIs alongside them.
@@ -38,7 +38,7 @@ The public-and-regulatory-data leg of a research agent, sitting alongside rather
 
 - **Auth**: none required for the free tiers. The vendor states "No API keys" and that an anonymous client gets 50 tool calls a day on the full catalogue; a free GitHub signup raises that to 200 a day and adds persistent memory and a usage dashboard, and paid usage is metered in credits.
 
-- **Parsed URLs**: 4 found in the mcp_url field
+- **Parsed URLs**: 5 found in the mcp_url field
 
 - **Endpoint probe**: not probed yet
 
@@ -50,12 +50,13 @@ official
 
 mcp_url, verbatim from the file:
 
-https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io//mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory)
+https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io//mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory) ; repo https://github.com/pipeworx-io/pipeworx
 
 - [https://gateway.pipeworx.io/mcp](https://gateway.pipeworx.io/mcp)
 - [https://gateway.pipeworx.io/](https://gateway.pipeworx.io/)
 - [https://pipeworx.io/docs/](https://pipeworx.io/docs/)
 - [https://pipeworx.io/directory](https://pipeworx.io/directory)
+- [https://github.com/pipeworx-io/pipeworx](https://github.com/pipeworx-io/pipeworx)
 
 **Access gate**
 
@@ -79,6 +80,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/pipeworx-io/pipeworx](https://github.com/pipeworx-io/pipeworx)
+
 **Jobs it can do**
 
 No job tag on this entry.
@@ -91,13 +96,14 @@ No job tag on this entry.
 - [https://pipeworx.io/pricing](https://pipeworx.io/pricing)
 - [https://pipeworx.io/docs/](https://pipeworx.io/docs/)
 - [https://gateway.pipeworx.io/mcp](https://gateway.pipeworx.io/mcp)
+- [https://github.com/pipeworx-io/pipeworx](https://github.com/pipeworx-io/pipeworx)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://pipeworx.io/, https://pipeworx.io/pricing, https://pipeworx.io/docs/, https://gateway.pipeworx.io/mcp
+https://pipeworx.io/, https://pipeworx.io/pricing, https://pipeworx.io/docs/, https://gateway.pipeworx.io/mcp, https://github.com/pipeworx-io/pipeworx
 
 **Notes, verbatim from the file**
-Verified 2026-09-07 and this is the strongest liveness result in this group: POST of an MCP initialize to https://gateway.pipeworx.io/mcp returned HTTP 200 over SSE with a full initialize result, serverInfo name "pipeworx-gateway" version 0.1.0, protocol 2025-06-18, advertising tools, resources and prompts. A per-application path, https://gateway.pipeworx.io/hubspot/mcp, returned the same server identity, which confirms the per-app URLs in the candidate research are routes on one gateway rather than separate servers. RECLASSIFIED FROM THE CANDIDATE ROW: the research filed this as a "third-party wrapper (community)" because its per-app routes wrap other vendors' REST APIs. That is true of the wrapper routes and is a real caveat for anyone connecting the HubSpot or Salesforce path, since neither vendor endorses it. But the entry here is for Pipeworx as a product, and the gateway is Pipeworx's own first-party server, which is the same treatment Composio, Pipedream and Zapier MCP already get in this file, so mcp_status is official. Vendor claims recorded as claims, not findings: 1.7M+ requests/month, and a benchmark asserting frontier models were "100% correct with Pipeworx, 63% with web search" across 188 questions. The self-reported reliability figures are unusually candid and worth quoting in any coverage: the vendor says agent tool calls fail 25 to 30 percent of the time against typical MCP servers and that one instrumentation pass in May 2026 took its own error rate from 27.6% to 6.9%.
+Verified 2026-09-07 and this is the strongest liveness result in this group: POST of an MCP initialize to https://gateway.pipeworx.io/mcp returned HTTP 200 over SSE with a full initialize result, serverInfo name "pipeworx-gateway" version 0.1.0, protocol 2025-06-18, advertising tools, resources and prompts. A per-application path, https://gateway.pipeworx.io/hubspot/mcp, returned the same server identity, which confirms the per-app URLs in the candidate research are routes on one gateway rather than separate servers. RECLASSIFIED FROM THE CANDIDATE ROW: the research filed this as a "third-party wrapper (community)" because its per-app routes wrap other vendors' REST APIs. That is true of the wrapper routes and is a real caveat for anyone connecting the HubSpot or Salesforce path, since neither vendor endorses it. But the entry here is for Pipeworx as a product, and the gateway is Pipeworx's own first-party server, which is the same treatment Composio, Pipedream and Zapier MCP already get in this file, so mcp_status is official. Vendor claims recorded as claims, not findings: 1.7M+ requests/month, and a benchmark asserting frontier models were "100% correct with Pipeworx, 63% with web search" across 188 questions. The self-reported reliability figures are unusually candid and worth quoting in any coverage: the vendor says agent tool calls fail 25 to 30 percent of the time against typical MCP servers and that one instrumentation pass in May 2026 took its own error rate from 27.6% to 6.9%. 2026-09-07: GitHub org pipeworx-io. The gateway endpoint https://gateway.pipeworx.io/mcp answered an MCP initialize with HTTP 200 and a jsonrpc result, as did every per-source path tested (19hz, 7timer, abn-lookup, abs-au, coresignal, hubspot, n8n, pipedrive, calendly) (https://github.com/pipeworx-io/pipeworx).
 
 **Provenance**
 
@@ -105,7 +111,7 @@ Verified 2026-09-07 and this is the strongest liveness result in this group: POS
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 352
+- **Source line**: 359
 
 - **Tier**: RESEARCHED
 

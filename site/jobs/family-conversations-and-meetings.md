@@ -16,10 +16,10 @@
 
 Get a meeting on the calendar and get the words out of it. 7 jobs, 127 tagged entries, 75 distinct entries across the family.
 
-- [Fetch a call transcript](fetch-call-transcript.md) - 20 tools · 15 official MCP. Return the recorded and transcribed text of a specific call or meeting.
+- [Fetch a call transcript](fetch-call-transcript.md) - 20 tools · 16 official MCP. Return the recorded and transcribed text of a specific call or meeting.
 - [Search across recorded calls](search-call-library.md) - 5 tools · 5 official MCP. Query across many recorded conversations at once rather than fetching one by id.
-- [Summarize a meeting](summarize-meeting.md) - 22 tools · 18 official MCP. Return notes, action items and next steps from a call or meeting.
-- [Extract deal signals from calls](extract-deal-signals-from-calls.md) - 21 tools · 11 official MCP. Return objections, competitor mentions, risk flags, sentiment or scoring derived from conversation content.
+- [Summarize a meeting](summarize-meeting.md) - 22 tools · 19 official MCP. Return notes, action items and next steps from a call or meeting.
+- [Extract deal signals from calls](extract-deal-signals-from-calls.md) - 21 tools · 12 official MCP. Return objections, competitor mentions, risk flags, sentiment or scoring derived from conversation content.
 - [Book a meeting](book-a-meeting.md) - 26 tools · 10 official MCP. Actually put a meeting on a calendar, whether by link, invite or negotiated time.
 - [Read calendar availability](read-calendar-availability.md) - 12 tools · 6 official MCP. Return open slots, availability rules or existing bookings without necessarily writing anything.
 - [Answer an inbound chat or call](answer-inbound-chat.md) - 21 tools · 12 official MCP. Hold a live two-way conversation with an inbound visitor or caller, by text or voice, and qualify or resolve it.
@@ -61,6 +61,8 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Chili Piper](../tools/chili-piper.md) chilipiper.com Inbound lead routing and meeting-scheduling platform - converts web-form submissions and inbound leads into booked meetings in seconds, with rep-availability and fairness-rule logic. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · Cross listed, canonical home is Scheduling & Routing
 
 - [Circleback](../tools/circleback.md) circleback.ai AI meeting notetaker that produces structured notes, action items and insights from calls, and connects email threads to the same relationship record. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
+
+- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Fellow](../tools/fellow.md) fellow.ai A meeting assistant that records, transcribes and summarises calls, then turns them into action items and decisions tied to the calendar event they came from. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
@@ -111,8 +113,6 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 - [Landbot](../tools/landbot.md) landbot.io No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows with LLM-powered conversation. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Chatbase](../tools/chatbase.md) chatbase.co No-code AI agent builder for deploying chat/voice/email support-and-sales bots across a website widget and channels like WhatsApp and Slack. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
-
-- [Clari Copilot](../tools/clari-copilot.md) clari.com Records and transcribes sales calls in real time and surfaces live coaching prompts, deal-risk flags, and auto-generated CRM updates during and after the call. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Conversation Intel](../categories/conversation-intel.md)
 
 - [Motion](../tools/motion.md) usemotion.com AI-driven work-management app that auto-schedules a user's tasks, projects, and meetings onto their calendar around priorities and deadlines, bundled with note-taking and document tools. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 

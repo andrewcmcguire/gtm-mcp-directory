@@ -38,7 +38,7 @@ A cheap, credit-priced enrichment provider for a solo operator or small team, us
 
 - **Auth**: api key. The vendor's page states the MCP installs without credentials but every tool call needs a Derrick API key, passed as an Authorization Bearer header or entered when the client first prompts; the key is generated in the Google Sheets add-on under Settings then API access.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: not probed yet
 
@@ -50,10 +50,11 @@ official
 
 mcp_url, verbatim from the file:
 
-https://app1.derrick-app.com/mcp (docs: https://derrick-app.com/mcp; the same page advertises a server card at /.well-known/mcp/server-card.json)
+https://app1.derrick-app.com/mcp (docs: https://derrick-app.com/mcp; the same page advertises a server card at /.well-known/mcp/server-card.json) ; repo https://github.com/DerrickAppOrg/derrick-mcp
 
 - [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp)
 - [https://derrick-app.com/mcp](https://derrick-app.com/mcp)
+- [https://github.com/DerrickAppOrg/derrick-mcp](https://github.com/DerrickAppOrg/derrick-mcp)
 
 **Access gate**
 
@@ -77,6 +78,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/DerrickAppOrg/derrick-mcp](https://github.com/DerrickAppOrg/derrick-mcp)
+
 **Jobs it can do**
 
 No job tag on this entry.
@@ -88,13 +93,14 @@ No job tag on this entry.
 - [https://derrick-app.com/mcp](https://derrick-app.com/mcp)
 - [https://app1.derrick-app.com/mcp](https://app1.derrick-app.com/mcp)
 - [https://derrick-app.com/](https://derrick-app.com/)
+- [https://github.com/DerrickAppOrg/derrick-mcp](https://github.com/DerrickAppOrg/derrick-mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://derrick-app.com/mcp, https://app1.derrick-app.com/mcp, https://derrick-app.com/
+https://derrick-app.com/mcp, https://app1.derrick-app.com/mcp, https://derrick-app.com/, https://github.com/DerrickAppOrg/derrick-mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://app1.derrick-app.com/mcp returned HTTP 401 with {"error":"invalid_token","error_description":"Missing Authorization header"}, confirming a live auth-gated server. DEFECT ON THE VENDOR'S OWN PAGE, recorded rather than resolved: derrick-app.com/mcp states three different things about the plan floor in three places. Its FAQ says keys "unlock from the PLUS plan (47.5 euros/mo)"; a call-to-action block earlier on the same page says "MCP access from Standard (20 euros/mo)"; and a third line renders an unsubstituted template variable, reading "API access unlocks from the ${API_UNLOCK_TIER} plan". The FAQ figure was taken as the api_gate value because it is the most specific and sits in the section that answers the question directly, but a solo operator should confirm with support before purchase. The page also publishes per-tool credit costs (find_email 5, find_phone 150, enrich_profile 1, verify_email 1, search 1 per result) and states 100 credits per month are free to start, so a phone number costs thirty times an enrichment on the same balance and an unattended agent can drain a plan quickly.
+Verified 2026-09-07: POST of an MCP initialize to https://app1.derrick-app.com/mcp returned HTTP 401 with {"error":"invalid_token","error_description":"Missing Authorization header"}, confirming a live auth-gated server. DEFECT ON THE VENDOR'S OWN PAGE, recorded rather than resolved: derrick-app.com/mcp states three different things about the plan floor in three places. Its FAQ says keys "unlock from the PLUS plan (47.5 euros/mo)"; a call-to-action block earlier on the same page says "MCP access from Standard (20 euros/mo)"; and a third line renders an unsubstituted template variable, reading "API access unlocks from the ${API_UNLOCK_TIER} plan". The FAQ figure was taken as the api_gate value because it is the most specific and sits in the section that answers the question directly, but a solo operator should confirm with support before purchase. The page also publishes per-tool credit costs (find_email 5, find_phone 150, enrich_profile 1, verify_email 1, search 1 per result) and states 100 credits per month are free to start, so a phone number costs thirty times an enrichment on the same balance and an unattended agent can drain a plan quickly. 2026-09-07: GitHub org DerrickAppOrg; README "# Derrick MCP Server ... B2B data enrichment tools for any MCP-compatible AI client"; tree contains src/server.ts and src/tools.ts. npm package derrick-mcp is published by user derrick_app and points at this repo (https://github.com/DerrickAppOrg/derrick-mcp).
 
 **Provenance**
 

@@ -28,7 +28,7 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **Paid, self-serve**: 12
 - **Enterprise only**: 10
 
-Source file: 05-signals-intent-abm.md · content sha256 03350ff153d834c4... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 111b3a6a8c0a8caf... · counts reconciled against tools_recount.py at build time.
 
 - [The 19 with an MCP server](../lists/mcp-signals-intent-abm.md)
 

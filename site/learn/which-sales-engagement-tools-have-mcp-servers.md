@@ -102,7 +102,7 @@ Multi-channel sales engagement platform (email, phone, social, SMS) with an AI S
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
 | [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-07. Source file 02-engagement-outbound.md, content sha256 d8356c2296cb7c31...
+Counted 2026-09-07. Source file 02-engagement-outbound.md, content sha256 d57fa7d9c1509d73...
 
 ## Sources
 

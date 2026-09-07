@@ -93,7 +93,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.arphie.ai/, https://autorfp.ai/blog/arphie-pricing, https://www.arphie.ai/blog/best-ai-tools-rfx-response-automation-software
 
 **Notes, verbatim from the file**
-FLAG: the "$50/mo + per-answer usage" MCP pricing pattern appearing identically at both Responsive and Arphie (two direct competitors) is worth a dedicated follow-up - either a coincidence, a category-wide pricing convention, or both vendors reselling the same underlying MCP-hosting infrastructure.
+FLAG: the "$50/mo + per-answer usage" MCP pricing pattern appearing identically at both Responsive and Arphie (two direct competitors) is worth a dedicated follow-up - either a coincidence, a category-wide pricing convention, or both vendors reselling the same underlying MCP-hosting infrastructure. 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. A repo finder searched GitHub ("Arphie mcp", owners arphie and arphie-ai), npm, PyPI and the official MCP registry and found nothing, and probes of https://mcp.arphie.ai/ and https://mcp.arphie.ai/mcp did not answer an MCP initialize. What the official claim actually rests on: a pricing-tier mention on the vendor site, with no standalone MCP docs page - the finder called it the weakest official claim in the set. A human should decide whether it survives law 1.
 
 **Provenance**
 

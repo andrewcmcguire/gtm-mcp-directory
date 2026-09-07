@@ -1,6 +1,6 @@
 # Can an AI agent send email on my behalf? Yes, and the four things to do first
 
-> 45 tools here are tagged with running an email sequence and 26 have an official MCP server. What to set up before you let anything send.
+> 45 tools here are tagged with running an email sequence and 27 have an official MCP server. What to set up before you let anything send.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -42,16 +42,16 @@ A combined B2B contact database (265M+ contacts) and sales engagement platform i
 An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts...
 - [Instantly](../tools/instantly.md) Official MCP · Paid, self-serve
 Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing.
+- [Klenty](../tools/klenty.md) No MCP found · Paid, self-serve
+Sales engagement platform for multichannel outbound (email, cold calling, SMS) with CRM integrations (Salesforce, HubSpot, Pipedrive, Zoho, MS...
 - [La Growth Machine](../tools/la-growth-machine.md) Official MCP · Paid, self-serve
 Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with...
 - [lemlist](../tools/lemlist.md) Official MCP · Paid, self-serve
 Multichannel sales engagement platform combining lead database/enrichment, email/LinkedIn/call/SMS sequencing, and a unified inbox.
 - [Mixmax](../tools/mixmax.md) Official MCP · Paid, self-serve
 Gmail-native sales engagement layer that runs email sequences, tracking, calendaring and meeting notes from inside the inbox.
-- [Ortto](../tools/ortto.md) Official MCP · Paid, self-serve
-A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.
 
-12 more are on the linked page. The cut is the display limit, not a ranking.
+13 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The bit nobody enjoys
 

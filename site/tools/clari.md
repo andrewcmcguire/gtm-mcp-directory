@@ -1,6 +1,6 @@
 # Clari: MCP server status, API access gate and what it does
 
-> Revenue operations platform that aggregates CRM, activity, and conversation data into pipeline inspection,... Official MCP, Enterprise leaning. Checked 2026-08-24.
+> Revenue operations platform that aggregates CRM, activity, and conversation data into pipeline inspection,... Official MCP, Enterprise leaning. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Clari
 [Enterprise leaning](../gates/enterprise-leaning.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Forecasting / pipeline-inspection layer sitting above conversation-intelligence 
 
 - **Auth**: unknown / not disclosed publicly
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/ (no public technical docs or repo found - the announcement points to a sales/Champions-Hub contact, not open docs)
+https://mcp.clari.com/mcp ; https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/ (no public technical docs or repo found - the announcement points to a sales/Champions-Hub contact, not open docs)
 
+- [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp)
 - [https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/)
 
 **Access gate**
@@ -111,13 +112,14 @@ What that listing says it does: Primarily a revenue-intelligence/forecasting pla
 - [https://www.salesloft.com/innovation/feature-releases/spring-2026-product-update](https://www.salesloft.com/innovation/feature-releases/spring-2026-product-update)
 - [https://community.clari.com/product-q-a-6/clari-api-all-you-need-to-know-556](https://community.clari.com/product-q-a-6/clari-api-all-you-need-to-know-556)
 - [https://community.clari.com/general-q-a-7/using-clari-api-1542](https://community.clari.com/general-q-a-7/using-clari-api-1542)
+- [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/, https://www.salesloft.com/innovation/feature-releases/spring-2026-product-update, https://community.clari.com/product-q-a-6/clari-api-all-you-need-to-know-556, https://community.clari.com/general-q-a-7/using-clari-api-1542
+https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/, https://www.salesloft.com/innovation/feature-releases/spring-2026-product-update, https://community.clari.com/product-q-a-6/clari-api-all-you-need-to-know-556, https://community.clari.com/general-q-a-7/using-clari-api-1542, https://mcp.clari.com/mcp
 
 **Notes, verbatim from the file**
-This April 2026 MCP server is a joint Clari + Salesloft product (the two appear to have combined go-to-market) - separate from the Clari Copilot conversation-intelligence product below.
+This April 2026 MCP server is a joint Clari + Salesloft product (the two appear to have combined go-to-market) - separate from the Clari Copilot conversation-intelligence product below. 2026-09-07: https://mcp.clari.com/mcp returned 401 {"message":"Unauthorized"} to an MCP initialize POST, while the control path https://mcp.clari.com/zzznotamcp returned 404 - so /mcp is a real route on a vendor-owned mcp. subdomain. https://api.clari.com/mcp behaves the same (https://mcp.clari.com/mcp).
 
 **Provenance**
 
@@ -129,7 +131,7 @@ This April 2026 MCP server is a joint Clari + Salesloft product (the two appear 
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

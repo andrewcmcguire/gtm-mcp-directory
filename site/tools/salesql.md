@@ -90,13 +90,14 @@ No job tag on this entry.
 - [https://salesql.com/docs/mcp](https://salesql.com/docs/mcp)
 - [https://salesql.com/pricing](https://salesql.com/pricing)
 - [https://salesql.com/](https://salesql.com/)
+- [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://salesql.com/mcp, https://salesql.com/docs/mcp, https://salesql.com/pricing, https://salesql.com/
+https://salesql.com/mcp, https://salesql.com/docs/mcp, https://salesql.com/pricing, https://salesql.com/, https://mcp.salesql.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.salesql.com/mcp returned HTTP 401 with an invalid_token error, confirming a live auth-gated server, and the endpoint, transport (Streamable HTTP) and auth model are all printed on the vendor's own docs page rather than inferred. Named tools seen on the vendor pages include search_people, enrich_person and enrich_person_bulk, the last documented as accepting up to 100 profiles in one call. The free-search, paid-reveal split deserves a line in any write-up: it is the inverse of the usual MCP failure mode, where an agent burns credits exploring. The MCP shares one credit balance with the REST API, so an agent and a script compete for the same pool. Vendor claims of 800,000+ users and a 4.8 average across 917 reviews are marketing figures and are recorded as claims, not findings.
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.salesql.com/mcp returned HTTP 401 with an invalid_token error, confirming a live auth-gated server, and the endpoint, transport (Streamable HTTP) and auth model are all printed on the vendor's own docs page rather than inferred. Named tools seen on the vendor pages include search_people, enrich_person and enrich_person_bulk, the last documented as accepting up to 100 profiles in one call. The free-search, paid-reveal split deserves a line in any write-up: it is the inverse of the usual MCP failure mode, where an agent burns credits exploring. The MCP shares one credit balance with the REST API, so an agent and a script compete for the same pool. Vendor claims of 800,000+ users and a 4.8 average across 917 reviews are marketing figures and are recorded as claims, not findings. 2026-09-07: Official MCP registry carries com.salesql/salesql (DNS-verified salesql.com namespace) with remote https://mcp.salesql.com/mcp; that URL returned 401 to an MCP initialize (https://mcp.salesql.com/mcp).
 
 **Provenance**
 

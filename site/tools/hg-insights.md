@@ -100,7 +100,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://hginsights.com/gtm-data-insights/gtm-infrastructure/, https://hginsights.com/solutions-use-case/gtm-infrastructure-for-ai-agents/, https://learn.microsoft.com/en-us/connectors/hginsightsmcp/, https://data-docs.hginsights.com/v2/guides/overview, https://phoenix.hginsights.com/features
 
 **Notes, verbatim from the file**
-The AI-agent/MCP product is described as "early access request" only, no self-serve signup found, consistent with HG Insights' historical enterprise-contract business model. Note: madkudu.com now 301-redirects to hginsights.com, indicating MadKudu (predictive PQL scoring) has been folded into HG Insights - see Sweep notes.
+The AI-agent/MCP product is described as "early access request" only, no self-serve signup found, consistent with HG Insights' historical enterprise-contract business model. Note: madkudu.com now 301-redirects to hginsights.com, indicating MadKudu (predictive PQL scoring) has been folded into HG Insights - see Sweep notes. 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. What the official claim actually rests on: a Microsoft-certified Power Platform connector, which is a Microsoft-hosted wrapper, not a first-party repo or endpoint. The finder searched GitHub ("HG Insights mcp", owners hginsights and HGInsights), npm, PyPI and the official registry and probed https://mcp.hginsights.com/mcp with no result. A human should decide whether official survives law 1.
 
 **Provenance**
 

@@ -1,6 +1,6 @@
 # Superblocks: MCP server status, API access gate and what it does
 
-> A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ Superblocks
 [Paid, self-serve](../gates/paid.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [superblocks.com](https://superblocks.com) · entry id 06-superblocks · source 06-revops-infra.md line 414
+Vendor: [superblocks.com](https://superblocks.com) · entry id 06-superblocks · source 06-revops-infra.md line 426
 
 **What it does**
 A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing prototypes from Claude, Lovable, or Replit) while giving IT/Security a control layer over integrations, permissions, and auditing.
@@ -38,12 +38,12 @@ Adjacent to Retool - an internal-app builder, but positioned specifically as the
 
 - **Auth**: unknown - the announcement doesn't specify the auth method; the feature is Enterprise-only, implying an admin/OAuth-gated setup, but this isn't documented in what was found.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://superblocks.com/blog/superblocks-mcp](https://superblocks.com/blog/superblocks-mcp)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://superblocks.com/blog/superblocks-mcp
+https://api.superblocks.com/mcp ; https://superblocks.com/blog/superblocks-mcp
 
+- [https://api.superblocks.com/mcp](https://api.superblocks.com/mcp)
 - [https://superblocks.com/blog/superblocks-mcp](https://superblocks.com/blog/superblocks-mcp)
 
 **Access gate**
@@ -90,13 +91,14 @@ Reason recorded by the tagging pass: no-job-fits. Internal-app building and AI-a
 - [https://superblocks.com/](https://superblocks.com/)
 - [https://superblocks.com/pricing](https://superblocks.com/pricing)
 - [https://superblocks.com/blog/superblocks-mcp](https://superblocks.com/blog/superblocks-mcp)
+- [https://api.superblocks.com/mcp](https://api.superblocks.com/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://superblocks.com/, https://superblocks.com/pricing, https://superblocks.com/blog/superblocks-mcp
+https://superblocks.com/, https://superblocks.com/pricing, https://superblocks.com/blog/superblocks-mcp, https://api.superblocks.com/mcp
 
 **Notes, verbatim from the file**
-Superblocks MCP is a different category of MCP than the rest of this file - it isn't "connect an AI agent to move/query GTM data," it's "give IT admins programmatic visibility and control over every AI-built app, integration, and permission in the org" (identify malicious packages, detect unusual write patterns, alert on permission changes, correlate audit logs to builders).
+Superblocks MCP is a different category of MCP than the rest of this file - it isn't "connect an AI agent to move/query GTM data," it's "give IT admins programmatic visibility and control over every AI-built app, integration, and permission in the org" (identify malicious packages, detect unusual write patterns, alert on permission changes, correlate audit logs to builders). 2026-09-07: https://api.superblocks.com/mcp returned 401 {"responseMeta":{"status":401,"message":"Authentication required."...}} while the control path https://api.superblocks.com/zzznotamcp returned 404 "no Route matched with those values" - so /mcp is a real registered route, not a blanket auth wall (https://api.superblocks.com/mcp).
 
 **Provenance**
 
@@ -104,11 +106,11 @@ Superblocks MCP is a different category of MCP than the rest of this file - it i
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 414
+- **Source line**: 426
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

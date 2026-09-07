@@ -19,10 +19,10 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Common Paper](../tools/common-paper.md)
-commonpaper.com | [Official MCP](../mcp/official.md) | [https://commonpaper.com/release-notes/common-paper-m...](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/) +1 more | Auth not recorded
+commonpaper.com | [Official MCP](../mcp/official.md) | [https://api.commonpaper.com/mcp](https://api.commonpaper.com/mcp) +2 more | Auth not recorded
 unknown - not detailed in the release-notes excerpt reviewed. | [Free to start](../gates/free.md) |
 | [PandaDoc](../tools/pandadoc.md)
-pandadoc.com | [Official MCP](../mcp/official.md) | [https://developers.pandadoc.com/docs/how-to-use-the-...](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server) +1 more | OAuth
+pandadoc.com | [Official MCP](../mcp/official.md) | [https://mcp.pandadoc.com/v1/mcp](https://mcp.pandadoc.com/v1/mcp) +2 more | OAuth
 OAuth - remote hosted server, add the server URL to an MCP client (Claude Desktop, Claude... | [Free to start](../gates/free.md) |
 | [Trumpet (sendtrumpet.com)](../tools/trumpet.md)
 sendtrumpet.com | [Official MCP](../mcp/official.md) | [https://www.sendtrumpet.com/blog-posts/introducing-t...](https://www.sendtrumpet.com/blog-posts/introducing-trumpet-mcp) | OAuth

@@ -1,6 +1,6 @@
 # Otter.ai: MCP server status, API access gate and what it does
 
-> AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections,... Official MCP, Enterprise only. Checked 2026-08-24.
+> AI meeting notetaker whose Sales Agent variant pulls CRM context before a call and flags objections,... Official MCP, Enterprise only. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Otter.ai
 [Enterprise only](../gates/enterprise-only.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -38,12 +38,12 @@ Live-call-assist layer available at Business tier; broader API/MCP agent access 
 
 - **Auth**: unknown - exact auth mechanism not confirmed in public sources; framed under "Otter for Enterprise" with a demo-request CTA.
 
-- **Parsed URLs**: 3 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server ; https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use ; https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp
+https://mcp.otter.ai/mcp ; https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server ; https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use ; https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp
 
+- [https://mcp.otter.ai/mcp](https://mcp.otter.ai/mcp)
 - [https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server](https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server)
 - [https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use](https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use)
 - [https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp](https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp)
@@ -98,13 +99,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://otter.ai/pricing](https://otter.ai/pricing)
 - [https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp](https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp)
 - [https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server](https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server)
+- [https://mcp.otter.ai/mcp](https://mcp.otter.ai/mcp)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://otter.ai/sales-agent, https://otter.ai/pricing, https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp, https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server
+https://otter.ai/sales-agent, https://otter.ai/pricing, https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp, https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server, https://mcp.otter.ai/mcp
 
 **Notes, verbatim from the file**
-None.
+None. 2026-09-07: https://mcp.otter.ai/mcp returned 401 {"error": "invalid_token", "error_description": "Authentication required"} to an MCP initialize POST (https://mcp.otter.ai/mcp).
 
 **Provenance**
 
@@ -116,7 +118,7 @@ None.
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

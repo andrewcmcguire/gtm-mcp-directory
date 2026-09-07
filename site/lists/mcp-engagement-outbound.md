@@ -22,7 +22,7 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 autobound.ai | [Official MCP](../mcp/official.md) | [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp) +1 more | API key
 api key via an AUTOBOUND_API_KEY environment variable in the MCP client config. | [Free to start](../gates/free.md) |
 | [HeyReach](../tools/heyreach.md)
-heyreach.io | [Official MCP](../mcp/official.md) | [https://www.heyreach.io/mcp](https://www.heyreach.io/mcp) +1 more | OAuth or an API key
+heyreach.io | [Official MCP](../mcp/official.md) | [https://mcp.heyreach.io/mcp](https://mcp.heyreach.io/mcp) +2 more | OAuth or an API key
 workspace-scoped "MCP key" + connection URL (API-key-style, not OAuth) | [Paid, self-serve](../gates/paid.md) |
 | [Instantly](../tools/instantly.md)
 instantly.ai | [Official MCP](../mcp/official.md) | [https://mcp.instantly.ai/mcp](https://mcp.instantly.ai/mcp) +1 more | API key
@@ -34,7 +34,7 @@ api key. The vendor's docs show an Authorization header of the form "Bearer... |
 lagrowthmachine.com | [Official MCP](../mcp/official.md) | [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system) +1 more | OAuth
 OAuth - no API key needed; first use opens a browser sign-in directly to the user's La... | [Paid, self-serve](../gates/paid.md) |
 | [lemlist](../tools/lemlist.md)
-lemlist.com | [Official MCP](../mcp/official.md) | [https://developer.lemlist.com/mcp/setup](https://developer.lemlist.com/mcp/setup) +1 more | OAuth or an API key
+lemlist.com | [Official MCP](../mcp/official.md) | [https://app.lemlist.com/mcp](https://app.lemlist.com/mcp) +1 more | OAuth or an API key
 OAuth (browser-based PKCE flow, recommended) or API key via X-API-Key header | [Paid, self-serve](../gates/paid.md) |
 | [Mixmax](../tools/mixmax.md)
 mixmax.com | [Official MCP](../mcp/official.md) | [https://mcp.mixmax.com/mcp](https://mcp.mixmax.com/mcp) +2 more | OAuth
@@ -43,10 +43,10 @@ OAuth 2.0 authorization code flow, scoped to the connecting user's account. Read
 phantombuster.com | [Official MCP](../mcp/official.md) | [https://hub.phantombuster.com/docs/mcp-server](https://hub.phantombuster.com/docs/mcp-server) +1 more | OAuth
 OAuth - first connection redirects to PhantomBuster sign-in/authorization, then workspace... | [Paid, self-serve](../gates/paid.md) |
 | [Reply.io](../tools/reply-io.md)
-reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) | API key
+reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) +1 more | API key
 api key (personal API key over HTTPS, included in free trial) | [Paid, self-serve](../gates/paid.md) |
 | [RingCentral App Connect MCP](../tools/ringcentral-app-connect-mcp.md)
-ringcentral.com | [Official MCP](../mcp/official.md) | [https://unified-crm-extension.labs.ringcentral.com/m...](https://unified-crm-extension.labs.ringcentral.com/mcp) +2 more | OAuth
+ringcentral.com | [Official MCP](../mcp/official.md) | [https://unified-crm-extension.labs.ringcentral.com/m...](https://unified-crm-extension.labs.ringcentral.com/mcp) +3 more | OAuth
 oauth plus a second, separate CRM link. The docs describe a two-layer model: RingCentral... | [Paid, self-serve](../gates/paid.md) |
 | [Salesforge](../tools/salesforge.md)
 salesforge.ai | [Official MCP](../mcp/official.md) | [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp) | API key
@@ -58,16 +58,16 @@ oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses O
 smartlead.ai | [Official MCP](../mcp/official.md) | [https://helpcenter.smartlead.ai/en/articles/300-smar...](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) +3 more | API key
 api key, passed as the user_api_key query parameter on the SSE endpoint URL; SSE... | [Paid, self-serve](../gates/paid.md) |
 | [Super Send](../tools/super-send.md)
-supersend.io | [Official MCP](../mcp/official.md) | [https://docs.supersend.io/docs/mcp-server](https://docs.supersend.io/docs/mcp-server) | API key
+supersend.io | [Official MCP](../mcp/official.md) | [https://mcp.supersend.io/mcp](https://mcp.supersend.io/mcp) +1 more | API key
 api key, Streamable HTTP transport | [Paid, self-serve](../gates/paid.md) |
 | [Waalaxy](../tools/waalaxy.md)
 waalaxy.com | [Official MCP](../mcp/official.md) | [https://docs.waalaxy.com/mcp-server](https://docs.waalaxy.com/mcp-server) +1 more | OAuth or an API key
 user-based OAuth 2.1 via magic-link sign-in; vendor docs explicitly state bearer API keys... | [Paid, self-serve](../gates/paid.md) |
 | [Woodpecker](../tools/woodpecker.md)
-woodpecker.co | [Official MCP](../mcp/official.md) | [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/) +1 more | OAuth or an API key
+woodpecker.co | [Official MCP](../mcp/official.md) | [https://github.com/Woodpeckerco/woodpecker-mcp-serve...](https://github.com/Woodpeckerco/woodpecker-mcp-server) +2 more | OAuth or an API key
 hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker... | [Paid, self-serve](../gates/paid.md) |
 | [Amplemarket](../tools/amplemarket.md)
-amplemarket.com | [Official MCP](../mcp/official.md) | [https://knowledge.amplemarket.com/articles/802268531...](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server) +2 more | OAuth
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | OAuth
 OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Dialpad](../tools/dialpad.md)
 dialpad.com | [Official MCP](../mcp/official.md) | [https://mcp-public.us.karehq.com/mcp](https://mcp-public.us.karehq.com/mcp) +3 more | OAuth
@@ -82,7 +82,7 @@ OAuth 2.0 authorization code with PKCE (S256), issuer https://oauth.nooks.in, pe
 outreach.ai | [Official MCP](../mcp/official.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
 OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesloft](../tools/salesloft.md)
-salesloft.com | [Official MCP](../mcp/official.md) | [https://www.salesloft.com/company/newsroom/clari-sal...](https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server) +1 more | OAuth
+salesloft.com | [Official MCP](../mcp/official.md) | [https://mcp.salesloft.com/mcp](https://mcp.salesloft.com/mcp) +2 more | OAuth
 unknown exact flow - vendor press material describes it as natively listed in Claude's... | [Enterprise only](../gates/enterprise-only.md) |
 | [Overloop](../tools/overloop.md)
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | API key

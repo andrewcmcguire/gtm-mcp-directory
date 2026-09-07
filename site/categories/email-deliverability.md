@@ -26,7 +26,7 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 - **Paid, self-serve**: 10
 - **Gate unknown**: 1
 
-Source file: 09-email-deliverability.md · content sha256 5a4c85e11fb5bcde... · counts reconciled against tools_recount.py at build time.
+Source file: 09-email-deliverability.md · content sha256 6a1f45a40a93e161... · counts reconciled against tools_recount.py at build time.
 
 - [The 4 with an MCP server](../lists/mcp-email-deliverability.md)
 

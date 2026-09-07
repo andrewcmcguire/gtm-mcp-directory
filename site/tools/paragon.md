@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [useparagon.com](https://useparagon.com) · entry id 07-paragon · source 07-mcp-infrastructure.md line 330
+Vendor: [useparagon.com](https://useparagon.com) · entry id 07-paragon · source 07-mcp-infrastructure.md line 337
 
 **What it does**
 An embedded integration platform for SaaS products, whose ActionKit product exposes a stated 1,000-plus actions across 130-plus third-party applications through one API and one MCP server, with Paragon handling the OAuth prompts inside the customer's own product.
@@ -106,7 +106,7 @@ Verified 2026-09-07 from the vendor's own MCP page. NOT A HOSTED ENDPOINT: unlik
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 330
+- **Source line**: 337
 
 - **Tier**: RESEARCHED
 

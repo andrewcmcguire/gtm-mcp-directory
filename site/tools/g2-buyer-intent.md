@@ -21,7 +21,7 @@ Checked 2026-08-25
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [g2.com](https://g2.com) · entry id 05-g2-buyer-intent · source 05-signals-intent-abm.md line 621
+Vendor: [g2.com](https://g2.com) · entry id 05-g2-buyer-intent · source 05-signals-intent-abm.md line 627
 
 **What it does**
 Surfaces which companies are researching your product and your competitors on G2's review marketplace, plus the review and category data behind those signals.
@@ -109,7 +109,7 @@ Added 2026-08-25 in the coverage sweep, closing the most glaring gap in this fil
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 621
+- **Source line**: 627
 
 - **Tier**: RESEARCHED
 

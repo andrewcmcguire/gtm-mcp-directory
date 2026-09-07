@@ -1,6 +1,6 @@
 # n8n: MCP server status, API access gate and what it does
 
-> A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes,... Official MCP, Free to start. Checked 2026-08-24.
+> A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes,... Official MCP, Free to start. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,11 +17,11 @@ n8n
 [Free to start](../gates/free.md)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [n8n.io](https://n8n.io) · entry id 06-n8n · source 06-revops-infra.md line 120
+Vendor: [n8n.io](https://n8n.io) · entry id 06-n8n · source 06-revops-infra.md line 123
 
 **What it does**
 A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud.
@@ -38,12 +38,12 @@ The general-purpose orchestration layer that glues the other tools (Salesforce, 
 
 - **Auth**: MCP Server Trigger supports Bearer or Header auth to secure the exposed endpoint; supports SSE and streamable-HTTP transport with separate test/production URLs.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL[https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger)Probed**: 2026-09-04, HTTP 200
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
 mcp_status, verbatim from the file:
 
@@ -51,8 +51,9 @@ official
 
 mcp_url, verbatim from the file:
 
-https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger (MCP Server Trigger - n8n exposes its own workflows as an MCP server) and https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp (MCP Client Tool - an n8n AI Agent calls external MCP servers as tools)
+https://github.com/n8n-io/n8n ; https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger (MCP Server Trigger - n8n exposes its own workflows as an MCP server) and https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp (MCP Client Tool - an n8n AI Agent calls external MCP servers as tools)
 
+- [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n)
 - [https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger)
 - [https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp)
 
@@ -78,6 +79,10 @@ Not measured. github_url, github_stars, github_last_commit and github_archived a
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
 
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n)
+
 **Jobs it can do**
 
 - [Sync records between systems](../jobs/sync-records-between-systems.md)
@@ -93,13 +98,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger)
 - [https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp)
 - [https://n8n.io/integrations/agent/](https://n8n.io/integrations/agent/)
+- [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger, https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp, https://n8n.io/integrations/agent/
+https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger, https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp, https://n8n.io/integrations/agent/, https://github.com/n8n-io/n8n
 
 **Notes, verbatim from the file**
-n8n's MCP nodes are first-party/built-in, not a community add-on - distinguish from third-party community MCP-related packages that also exist in the ecosystem.
+n8n's MCP nodes are first-party/built-in, not a community add-on - distinguish from third-party community MCP-related packages that also exist in the ecosystem. 2026-09-07: n8n publishes @n8n/mcp-apps and @n8n/mcp-browser to npm under the vendor-owned @n8n scope, both with repository git+https://github.com/n8n-io/n8n.git (https://github.com/n8n-io/n8n).
 
 **Provenance**
 
@@ -107,11 +113,11 @@ n8n's MCP nodes are first-party/built-in, not a community add-on - distinguish f
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 120
+- **Source line**: 123
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

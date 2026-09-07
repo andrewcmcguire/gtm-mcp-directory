@@ -1,6 +1,6 @@
 # Grain: MCP server status, API access gate and what it does
 
-> AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced... Official MCP, Paid, self-serve. Checked 2026-08-24.
+> AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced... Official MCP, Paid, self-serve. Checked 2026-09-07.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -17,7 +17,7 @@ Grain
 [Paid, self-serve](../gates/paid.md)
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
-Checked 2026-08-24
+Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -43,7 +43,7 @@ Meeting-capture and AI-searchable knowledge layer with direct, official MCP acce
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 no recorded MCP URL answered.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.
 
 mcp_status, verbatim from the file:
 
@@ -51,10 +51,10 @@ official
 
 mcp_url, verbatim from the file:
 
-https://developers.grain.com/mcp (server endpoint https://api.grain.com/_/mcp)
+https://api.grain.com/_/mcp ; https://developers.grain.com/mcp (server endpoint https://api.grain.com/_/mcp)
 
-- [https://developers.grain.com/mcp](https://developers.grain.com/mcp)
 - [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp)
+- [https://developers.grain.com/mcp](https://developers.grain.com/mcp)
 
 **Access gate**
 
@@ -96,13 +96,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://developers.grain.com/mcp](https://developers.grain.com/mcp)
 - [https://support.grain.com/en/articles/15507288-grain-api](https://support.grain.com/en/articles/15507288-grain-api)
 - [https://grain.com/pricing](https://grain.com/pricing)
+- [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://developers.grain.com/mcp, https://support.grain.com/en/articles/15507288-grain-api, https://grain.com/pricing
+https://developers.grain.com/mcp, https://support.grain.com/en/articles/15507288-grain-api, https://grain.com/pricing, https://api.grain.com/_/mcp
 
 **Notes, verbatim from the file**
-An unofficial third-party server (https://github.com/eadm/grain-mcp-server) also exists - prefer the official one.
+An unofficial third-party server (https://github.com/eadm/grain-mcp-server) also exists - prefer the official one. 2026-09-07: https://api.grain.com/_/mcp returned 401 to an MCP initialize POST (https://api.grain.com/_/mcp).
 
 **Provenance**
 
@@ -114,7 +115,7 @@ An unofficial third-party server (https://github.com/eadm/grain-mcp-server) also
 
 - **Tier**: RESEARCHED
 
-- **last_checked**: 2026-08-24
+- **last_checked**: 2026-09-07
 
 - **Data baked**: 2026-09-07
 

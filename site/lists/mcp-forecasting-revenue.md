@@ -19,10 +19,10 @@ Tools that try to answer "how much will we actually close this quarter" - CRM-na
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Cube Software](../tools/cube-software.md)
-cubesoftware.com | [Official MCP](../mcp/official.md) | [https://www.cubesoftware.com/mcp](https://www.cubesoftware.com/mcp) +1 more | OAuth
+cubesoftware.com | [Official MCP](../mcp/official.md) | [https://mcp.cubesoftware.com/](https://mcp.cubesoftware.com/) +2 more | OAuth
 OAuth - no manual API key management. | [Paid, self-serve](../gates/paid.md) |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
-anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) | OAuth or an API key
+anaplan.com | [Official MCP](../mcp/official.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) +1 more | OAuth or an API key
 unknown - described only as a "governed MCP connection" with permission/audit controls;... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
 pigment.com | [Official MCP](../mcp/official.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | Auth not recorded

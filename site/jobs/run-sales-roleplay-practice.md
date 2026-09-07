@@ -1,6 +1,6 @@
-# Run a sales roleplay practice: 11 GTM tools, 2 with an official MCP server
+# Run a sales roleplay practice: 11 GTM tools, 3 with an official MCP server
 
-> Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring. 3 of the 11 entries tagged with this job carry an MCP server of some kind, 2 of them official. Counted 2026-09-07 from the directory data.
+> Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring. 3 of the 11 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-09-07 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -19,12 +19,12 @@ Run a sales roleplay practice
 Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring.
 
 - **entries tagged**: 11
-- **official MCP**: 2
-- **community MCP**: 1
+- **official MCP**: 3
+- **community MCP**: 0
 - **no MCP found**: 7
 - **solo reachable**: 1
 
-3 of the 11 entries tagged with this job carry an MCP server of some kind, 2 of them official. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-07 from directory.json.
+3 of the 11 entries tagged with this job carry an MCP server of some kind, 3 of them official. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-07 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -45,11 +45,11 @@ Hold a simulated buyer conversation with a rep and grade it. A distinct product 
 
 Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
+- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
+
 - [Nooks](../tools/nooks.md) nooks.ai AI parallel dialer and "virtual salesfloor" combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
-
-- [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Mindtickle](../tools/mindtickle.md) mindtickle.com Sales enablement and readiness platform for onboarding, content, and skill certification, with a dedicated AI Sales Role Play module for live conversation practice. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
