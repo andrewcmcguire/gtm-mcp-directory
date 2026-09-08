@@ -38,6 +38,10 @@ Vendor domain: [composio.dev](https://composio.dev) · vendor page id composio-d
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/ComposioHQ](https://github.com/ComposioHQ), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://docs.composio.dev/docs/single-toolkit-mcp](https://docs.composio.dev/docs/single-toolkit-mcp) (Composio, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Composio](../tools/composio.md) composio official CLI
+
+```
+curl -fsSL https://composio.dev/install | bash
+```
+
+quoted from [https://composio.dev/cli](https://composio.dev/cli) on 2026-09-08, via shell
+
+Login or key hint: composio login
+
+2 more install commands, 12 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/composio.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/ComposioHQ](https://github.com/ComposioHQ) tied to the vendor by rule 2, account website https://composio.dev has the vendor's domain, confidence strong
+
+- **Public repositories**: 14, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 4 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [composio](https://github.com/ComposioHQ/composio) | MCP server | Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you... | 30,092 | 2026-09-08 | @composio/cli@0.4.2-beta.384 |
+| [logo-cdn](https://github.com/ComposioHQ/logo-cdn) | other | oss logo cdn of composio toolkits | 7 | 2026-09-08 | |
+| [helm-charts](https://github.com/ComposioHQ/helm-charts) | infrastructure | Helm charts to deploy Composio | 2 | 2026-09-07 | r20260908_01 |
+| [composio-base-py](https://github.com/ComposioHQ/composio-base-py) | SDK | | 3 | 2026-08-19 | v1.44.0 |
+| [composio-plugin-openai](https://github.com/ComposioHQ/composio-plugin-openai) | plugin or integration | | 4 | 2026-08-11 | v0.2.3 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

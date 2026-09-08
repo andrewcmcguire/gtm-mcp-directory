@@ -52,6 +52,10 @@ n/a (the only first-party surface is the Q2 2026 release post, https://www.leand
 
 - [https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/](https://www.leandata.com/blog/leandata-q2-2026-release-audit-logs-best-fit-assignment-bookit-mcp/)
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -73,6 +77,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to leandata.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+3 candidate accounts seen and rejected by the evidence rules: leandata, leandatatech, LeanDataPartners. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

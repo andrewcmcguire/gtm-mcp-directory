@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 n/a
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise leaning
@@ -71,6 +75,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+The entry carried no github.com URL and the organisation search returned nothing on 2026-09-08. That is a statement about the instrument on that date, not proof the vendor has no GitHub.
 
 **Jobs it can do**
 

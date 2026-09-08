@@ -18,6 +18,7 @@ Salesforge
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: forge
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -287,6 +288,27 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: forge
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @salesforge/forge-cli
+```
+
+quoted from [https://www.npmjs.com/package/@salesforge/forge-cli](https://www.npmjs.com/package/@salesforge/forge-cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @salesforge/forge-cli 1.0.0](https://www.npmjs.com/package/@salesforge/forge-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -312,6 +334,25 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp)
+
+**On GitHub**
+
+[github.com/SalesforgeAI](https://github.com/SalesforgeAI) tied to the vendor by rule 1, the directory already classed this repo first-party and its owner is an Organization, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [forge-mcp](https://github.com/SalesforgeAI/forge-mcp) | MCP server | MCP server for Salesforge products - manage contacts, sequences, domains, mailboxes and more from any MCP-compatible AI... | 2 | 2026-09-08 | |
+| [forge-cli](https://github.com/SalesforgeAI/forge-cli) | CLI | Forge CLI | 1 | 2026-09-03 | |
+| [emailengine-mcp](https://github.com/SalesforgeAI/emailengine-mcp) | MCP server | EmailEngine MCP built on top of learn.emailengine.app/docs | 0 | 2026-08-18 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

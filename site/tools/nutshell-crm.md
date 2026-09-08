@@ -61,6 +61,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -82,6 +86,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/nutshellcrm](https://github.com/nutshellcrm) tied to the vendor by rule 3, account website https://nutshell.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 6, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-06-13
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [eslint-config-nutshell](https://github.com/nutshellcrm/eslint-config-nutshell) | other | ESLint shareable config for the Nutshell JavaScript style guide | 1 | 2025-06-13 | v5.0.0 |
+| [api-spec](https://github.com/nutshellcrm/api-spec) | API client | | 3 | 2023-09-14 | |
+| [is](https://github.com/nutshellcrm/is) | other | | 0 | 2023-09-14 | |
+| [nutshell-api-php](https://github.com/nutshellcrm/nutshell-api-php) | SDK | A lightweight JSON-RPC + CURL wrapper to access Nutshell CRM's API. | 22 | 2023-09-14 | |
+| [hass-config](https://github.com/nutshellcrm/hass-config) | other | The config for the Nutshell Home Assistant instance | 0 | 2023-09-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

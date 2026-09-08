@@ -38,6 +38,10 @@ Vendor domain: [savvycal.com](https://savvycal.com) · vendor page id savvycal-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/svycal](https://github.com/svycal), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/arturkoter/savvycal-mcp-server](https://github.com/arturkoter/savvycal-mcp-server) (SavvyCal, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/svycal](https://github.com/svycal) tied to the vendor by rule 3, account website https://savvycal.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-02
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [mjml-editor](https://github.com/svycal/mjml-editor) | other | A React MJML template editor | 1 | 2026-09-02 | @savvycal/mjml-editor@0.9.1 |
+| [zonex](https://github.com/svycal/zonex) | other | An Elixir library for compiling enriched time zone information | 10 | 2026-09-01 | v0.7.1 |
+| [appointments-js-archive](https://github.com/svycal/appointments-js-archive) | infrastructure | Scheduling infrastructure by SavvyCal | 2 | 2026-08-28 | @savvycal/appointments-react-query@2.0.1 |
+| [enact](https://github.com/svycal/enact) | other | A thin, behaviour-based action layer for application write operations. | 1 | 2026-08-24 | v0.1.0 |
+| [calendar](https://github.com/svycal/calendar) | other | A React calendar component | 2 | 2026-08-22 | @savvycal/calendar@0.10.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

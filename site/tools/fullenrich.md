@@ -18,6 +18,7 @@ FullEnrich
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-03
+CLI: fullenrichclient (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,6 +64,33 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: fullenrichclient
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install fullenrichclient
+```
+
+quoted from [https://github.com/ifightcode/Fullenrich-API-Client](https://github.com/ifightcode/Fullenrich-API-Client) on 2026-09-08, via pypi, a third party source
+
+Login or key hint seen on the page:
+
+# Initialize with API key (or set FULLENRICH_API_KEY env var)
+
+Where it was documented:
+
+- [https://github.com/ifightcode/Fullenrich-API-Client](https://github.com/ifightcode/Fullenrich-API-Client) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -84,6 +112,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to fullenrich.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+1 candidate account seen and rejected by the evidence rules: FullEnrich. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

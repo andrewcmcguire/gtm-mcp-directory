@@ -18,6 +18,7 @@ Paragon (ActionKit MCP)
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: whiskers
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -70,6 +71,36 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: whiskers
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @useparagon/whiskers-cli
+```
+
+quoted from [https://www.npmjs.com/package/@useparagon/whiskers-cli](https://www.npmjs.com/package/@useparagon/whiskers-cli) on 2026-09-08, via npm
+
+```
+npm install -g @useparagon/cli
+```
+
+quoted from [https://www.npmjs.com/package/@useparagon/cli](https://www.npmjs.com/package/@useparagon/cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @useparagon/whiskers-cli 2026.5.12](https://www.npmjs.com/package/@useparagon/whiskers-cli)
+- [npm: @useparagon/cli 1.1.15](https://www.npmjs.com/package/@useparagon/cli)
+- [npm: @polarityinc/paragon 0.1.4, third party](https://www.npmjs.com/package/@polarityinc/paragon)
+- [pypi: paragon 1.0.0, third party](https://pypi.org/project/paragon/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise leaning
@@ -95,6 +126,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/useparagon/paragon-mcp](https://github.com/useparagon/paragon-mcp)
+
+**On GitHub**
+
+[github.com/useparagon](https://github.com/useparagon) tied to the vendor by rule 1, the directory already classed this repo first-party and its owner is an Organization, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [paragon-ai-skills](https://github.com/useparagon/paragon-ai-skills) | other | Agent Skills for setting up Paragon integrations - from project setup, to installation, and all the way to connecting... | 0 | 2026-09-07 | |
+| [enterprise-installer](https://github.com/useparagon/enterprise-installer) | infrastructure | Paragon Enterprise deployment assets | 10 | 2026-09-07 | 2026.0826.0910-46ada2b5 |
+| [managed-sync-s3-uploader](https://github.com/useparagon/managed-sync-s3-uploader) | other | A Node.js service to forward files synced by Paragon Managed Sync pipelines to an S3 bucket | 1 | 2026-08-25 | |
+| [connect-headless-example](https://github.com/useparagon/connect-headless-example) | docs or examples | | 1 | 2026-08-20 | |
+| [paragon-mcp](https://github.com/useparagon/paragon-mcp) | MCP server | | 48 | 2026-07-22 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

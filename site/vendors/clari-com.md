@@ -38,6 +38,10 @@ Vendor domain: [clari.com](https://clari.com) · vendor page id clari-com
 
 - **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/clari](https://github.com/clari), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 2**
@@ -97,6 +101,29 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/](https://www.clari.com/press/clari-salesloft-forecasting-execution-mcp-server/) (Clari, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/clari](https://github.com/clari) tied to the vendor by rule 3, account website http://www.clari.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2023-01-24
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [react-ios-switch](https://github.com/clari/react-ios-switch) | other | React switch component https://clari.github.io/react-ios-switch | 129 | 2023-01-24 | |
+| [SFDCLeadConversion](https://github.com/clari/SFDCLeadConversion) | other | SFDC Custom package for exposing leadConversion using custom RestApi | 0 | 2019-08-26 | |
+| [clari_dynamo](https://github.com/clari/clari_dynamo) | other | Customizable service layer around DynamoDB | 1 | 2015-07-27 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

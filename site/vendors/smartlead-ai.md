@@ -38,6 +38,10 @@ Vendor domain: [smartlead.ai](https://smartlead.ai) · vendor page id smartlead-
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: none tied to smartlead.ai with evidence on 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,28 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server](https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server) (Smartlead, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Smartlead](../tools/smartlead.md) smartlead official CLI
+
+```
+npm install -g @smartlead/cli
+```
+
+quoted from [https://www.npmjs.com/package/@smartlead/cli](https://www.npmjs.com/package/@smartlead/cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/smartlead.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+No GitHub organisation could be tied to smartlead.ai with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+6 candidate accounts seen and rejected by the evidence rules: LeadMagic, Smartleader, smartleadmagnet, Smartlead-Public, Smartlead-AI-promo. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **What this page does not claim**
 

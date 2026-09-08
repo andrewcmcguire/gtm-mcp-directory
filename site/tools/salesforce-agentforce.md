@@ -18,6 +18,7 @@ Salesforce (core CRM/platform) + Agentforce
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: sf
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -105,6 +106,28 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: sf
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @salesforce/cli
+```
+
+quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @salesforce/cli 2.150.6](https://www.npmjs.com/package/@salesforce/cli)
+- [pypi: salesforcecli 0.0.12, third party](https://pypi.org/project/salesforcecli/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -131,6 +154,27 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/forcedotcom/mcp-hosted](https://github.com/forcedotcom/mcp-hosted)
 - [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp)
+
+**On GitHub**
+
+[github.com/salesforcecli](https://github.com/salesforcecli) tied to the vendor by rule 1, account website https://developer.salesforce.com/tools/salesforcecli has the vendor's domain, confidence strong
+
+- **Public repositories**: 75, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 16 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [plugin-trust](https://github.com/salesforcecli/plugin-trust) | plugin or integration | | 2 | 2026-09-08 | 4.0.12 |
+| [plugin-apex](https://github.com/salesforcecli/plugin-apex) | CLI | Salesforce CLI Plugin that hosts the Apex commands | 5 | 2026-09-08 | 4.1.2 |
+| [cli](https://github.com/salesforcecli/cli) | CLI | The `sf` cli. | 180 | 2026-09-08 | 2.151.6 |
+| [plugin-data-setup-transfer](https://github.com/salesforcecli/plugin-data-setup-transfer) | plugin or integration | | 0 | 2026-09-07 | 1.0.2 |
+| [plugin-data-code-extension](https://github.com/salesforcecli/plugin-data-code-extension) | plugin or integration | | 0 | 2026-09-07 | 1.4.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

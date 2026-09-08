@@ -38,6 +38,10 @@ Vendor domain: [landbot.io](https://landbot.io) · vendor page id landbot-io
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: none tied to landbot.io with evidence on 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,18 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot) (Landbot, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+No GitHub organisation could be tied to landbot.io with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+1 candidate account seen and rejected by the evidence rules: landbot-org. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **What this page does not claim**
 

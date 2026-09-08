@@ -64,6 +64,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -85,6 +89,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/CommonPaper](https://github.com/CommonPaper) tied to the vendor by rule 3, account website https://commonpaper.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 14, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-05
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [claude-skill](https://github.com/CommonPaper/claude-skill) | other | Official Common Paper skill for Claude and other agents | 7 | 2026-09-05 | |
+| [Design-Partner-Agreement](https://github.com/CommonPaper/Design-Partner-Agreement) | other | Common Paper standard Design Partner Agreement | 23 | 2026-08-04 | 1.3 |
+| [AI-Addendum](https://github.com/CommonPaper/AI-Addendum) | other | Common Paper Standard AI Addendum | 3 | 2025-08-07 | 1.0 |
+| [Pilot-Agreement](https://github.com/CommonPaper/Pilot-Agreement) | other | Common Paper standard Pilot Agreement | 3 | 2025-07-22 | 1.1 |
+| [PSA](https://github.com/CommonPaper/PSA) | other | Common Paper standard Professional Services Agreement | 14 | 2025-05-23 | 1.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

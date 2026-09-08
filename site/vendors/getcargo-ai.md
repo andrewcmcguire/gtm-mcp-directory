@@ -38,6 +38,10 @@ Vendor domain: [getcargo.ai](https://getcargo.ai) · vendor page id getcargo-ai
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/getcargohq](https://github.com/getcargohq), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,39 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://docs.getcargo.ai/](https://docs.getcargo.ai/) (Cargo, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Cargo](../tools/cargo.md) cargo official CLI
+
+```
+npm install -g @cargo-ai/cli
+```
+
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-08, via npm
+
+Login or key hint: cargo-ai login --token
+
+**On GitHub**
+
+[github.com/getcargohq](https://github.com/getcargohq) tied to the vendor by rule 2, account name 'Cargo' equals the entry's display name, confidence check
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [gtm-skills](https://github.com/getcargohq/gtm-skills) | other | Standalone Cargo GTM agent skills - one job each. Find leads, enrich contacts, verify emails, track signals. | 3 | 2026-09-07 | |
+| [cargo-skills](https://github.com/getcargohq/cargo-skills) | CLI | GTM engineering skills for AI coding agents - build lead lists, find & verify emails, waterfall enrichment, lead... | 17 | 2026-09-05 | |
+| [cargo-manifest](https://github.com/getcargohq/cargo-manifest) | other | The software factory for go-to-market. An open-source monorepo holding your company context (ICP, personas, plays,... | 6 | 2026-09-03 | |
+| [cargo-partner-skills](https://github.com/getcargohq/cargo-partner-skills) | other | | 0 | 2026-08-19 | |
+| [dummy-integration](https://github.com/getcargohq/dummy-integration) | plugin or integration | | 2 | 2026-01-13 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

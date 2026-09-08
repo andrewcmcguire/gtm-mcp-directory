@@ -89,6 +89,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 ,localhost:` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_HOST** `0.0.0.0` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_PORT** `3000` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_MAX_RESULTS** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_READ_ONLY** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_SCOPES** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_TRUST_PROXY_AUTH** `false` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **Variable** Required evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -114,6 +118,14 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)
+
+**On GitHub**
+
+No GitHub organisation could be tied to loopio.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+6 candidate accounts seen and rejected by the evidence rules: fredericboyer, Loopio-EPD, Avnio, loopio-app, Loopio-AI. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

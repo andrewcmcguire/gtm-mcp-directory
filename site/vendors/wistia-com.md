@@ -38,6 +38,10 @@ Vendor domain: [wistia.com](https://wistia.com) · vendor page id wistia-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/wistia](https://github.com/wistia), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Wistia](../tools/wistia.md) wistia official CLI
+
+```
+npm install -g @wistia/wistia-cli
+```
+
+quoted from [https://www.npmjs.com/package/@wistia/wistia-cli](https://www.npmjs.com/package/@wistia/wistia-cli) on 2026-09-08, via npm
+
+Login or key hint: wistia configure
+
+2 more install commands, 3 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/wistia.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/wistia](https://github.com/wistia) tied to the vendor by rule 3, account website https://wistia.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 58, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [wistia-typescript-sdk](https://github.com/wistia/wistia-typescript-sdk) | SDK | | 0 | 2026-09-08 | v2026.7.0 |
+| [digestabot-demo](https://github.com/wistia/digestabot-demo) | docs or examples | Demonstration repo for https://github.com/chainguard-dev/digestabot/pull/74 | 0 | 2026-09-08 | |
+| [homebrew-tap](https://github.com/wistia/homebrew-tap) | infrastructure | Homebrew Tap for Wistia Desktop | 0 | 2026-09-04 | |
+| [json-mask-ruby](https://github.com/wistia/json-mask-ruby) | SDK | Google partial-response / JSON Mask field selectors for Ruby: filter JSON-compatible Hashes and Arrays without changing... | 0 | 2026-09-04 | |
+| [elixir_nsq](https://github.com/wistia/elixir_nsq) | other | An NSQ client for Elixir and Erlang, written in Elixir. | 92 | 2026-09-04 | 1.2.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

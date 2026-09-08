@@ -68,6 +68,10 @@ The count below still carries this entry on the unmeasured side, because there i
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -93,6 +97,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n)
+
+**On GitHub**
+
+[github.com/n8n-io](https://github.com/n8n-io) tied to the vendor by rule 2, account website https://n8n.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 35, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [terraform-aws-n8n](https://github.com/n8n-io/terraform-aws-n8n) | infrastructure | Production-grade n8n Enterprise on AWS - multi-main EKS, RDS Postgres, ElastiCache Redis, S3, and ALB in one terraform... | 13 | 2026-09-08 | 0.3.0 |
+| [n8n](https://github.com/n8n-io/n8n) | MCP server | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host... | 203,741 | 2026-09-08 | n8n@2.39.0 |
+| [n8n-docs](https://github.com/n8n-io/n8n-docs) | docs or examples | Documentation for n8n, a fair-code licensed automation tool with a free community edition and powerful enterprise... | 1,758 | 2026-09-08 | |
+| [n8n-hosting](https://github.com/n8n-io/n8n-hosting) | docs or examples | Example of self-hosting n8n in various environments like docker, kubernetes, etc. | 1,734 | 2026-09-08 | v1.11.0 |
+| [n8n-sandbox-service](https://github.com/n8n-io/n8n-sandbox-service) | other | | 18 | 2026-09-08 | service/v1.3.3 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -68,6 +68,10 @@ The count below still carries this entry on the unmeasured side, because there i
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -93,6 +97,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/integromat/make-mcp-server](https://github.com/integromat/make-mcp-server)
+
+**On GitHub**
+
+[github.com/integromat](https://github.com/integromat) tied to the vendor by rule 2, account website https://www.make.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 26, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [make-typescript-sdk](https://github.com/integromat/make-typescript-sdk) | SDK | Make TypeScript SDK | 14 | 2026-09-08 | v1.6.15 |
+| [make-skills](https://github.com/integromat/make-skills) | other | Make Skills | 98 | 2026-09-07 | |
+| [make-white-label-documentation](https://github.com/integromat/make-white-label-documentation) | docs or examples | Source of content for white label documentation in GitBook; https://developers.make.com/white-label-documentation | 0 | 2026-09-07 | |
+| [make-forman-schema](https://github.com/integromat/make-forman-schema) | other | Make Forman Schema Tools | 0 | 2026-09-02 | v2.0.1 |
+| [vscode-apps-sdk](https://github.com/integromat/vscode-apps-sdk) | SDK | Integromat Apps SDK plugin for Visual Studio Code | 51 | 2026-08-31 | 2.8.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

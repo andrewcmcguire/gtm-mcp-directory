@@ -38,6 +38,10 @@ Vendor domain: [monday.com](https://monday.com) · [Public company brief (MNDY)]
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/mondaycom](https://github.com/mondaycom), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [monday.com (monday CRM)](../tools/monday-com.md) mapps official CLI
+
+```
+npm install -g @mondaycom/apps-cli
+```
+
+quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-08, via npm
+
+Login or key hint: mapps init
+
+30 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/monday-com.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/mondaycom](https://github.com/mondaycom) tied to the vendor by rule 1, account website https://monday.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 40, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 5 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [vibe](https://github.com/mondaycom/vibe) | MCP server | 🎨 Vibe Design System - Official monday.com UI resources for application development in React.js | 675 | 2026-09-08 | @vibe/wizard@4.0.4 |
+| [mcli](https://github.com/mondaycom/mcli) | CLI | Monday CLI | 1 | 2026-09-08 | v0.8.0 |
+| [mcp](https://github.com/mondaycom/mcp) | MCP server | Enable AI agents to work reliably - giving them secure access to structured data, tools to take action, and the context... | 423 | 2026-09-07 | |
+| [n8n-nodes-monday-models](https://github.com/mondaycom/n8n-nodes-monday-models) | plugin or integration | n8n community node for monday.com Models API - use monday-hosted AI chat models in Agents and Chains | 0 | 2026-08-11 | |
+| [monday-sdk-js](https://github.com/mondaycom/monday-sdk-js) | SDK | Node.js and JavaScript SDK for developing over the monday.com platform | 102 | 2026-08-10 | 0.5.9 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

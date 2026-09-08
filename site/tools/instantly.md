@@ -18,6 +18,7 @@ Instantly
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: instantly (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -74,6 +75,50 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: instantly
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g instantly-cli
+```
+
+quoted from [https://github.com/bcharleson/instantly-cli](https://github.com/bcharleson/instantly-cli) on 2026-09-08, via npm, a third party source
+
+```
+npx instantly-cli
+```
+
+quoted from [https://github.com/bcharleson/instantly-cli](https://github.com/bcharleson/instantly-cli) on 2026-09-08, via npx, a third party source
+
+```
+npm install -g @clera/instantly-cli
+```
+
+quoted from [https://github.com/getclera/instantly-cli](https://github.com/getclera/instantly-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint seen on the page:
+
+instantly login
+
+40 subcommands seen with the binary in the docs or README:
+expand to read them
+
+account-mappings, accounts, analytics, api-keys, audit-logs, background-jobs, blocklist, campaigns, crm-actions, custom-prompt-templates, custom-tag-mappings, custom-tags, dfy-orders, email, email-templates, email-verification, emails, enrichment, health, inbox-placement, inbox-placement-analytics, inbox-placement-reports, jobs, labels, lead-labels, lead-lists, leads, lists, login, mcp, oauth, profile, sales-flow, status, subsequences, tags, verify, webhook-events, webhooks, workspace
+
+Where it was documented:
+
+- [https://github.com/bcharleson/instantly-cli](https://github.com/bcharleson/instantly-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -99,6 +144,14 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/bcharleson/Instantly-MCP](https://github.com/bcharleson/Instantly-MCP)
+
+**On GitHub**
+
+No GitHub organisation could be tied to instantly.ai with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+6 candidate accounts seen and rejected by the evidence rules: bcharleson, replit, netlify, Fission-AI, loopholelabs. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

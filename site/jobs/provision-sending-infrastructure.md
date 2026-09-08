@@ -47,21 +47,21 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Infraforge](../tools/infraforge.md) infraforge.ai Private cold-email infrastructure platform (part of the same Salesforge "Forge Stack" as Mailforge) offering dedicated IPs, automated DNS setup, and pre-warmed domains for high-volume senders who want more... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Instantly](../tools/instantly.md) instantly.ai Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Instantly](../tools/instantly.md) instantly.ai Cold email sending platform providing mailbox infrastructure, warmup, deliverability management, sequencing, and lead sourcing. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: instantly (community)
 
 - [Maildoso](../tools/maildoso.md) maildoso.ai Cold-outreach mailbox and domain infrastructure provider - sells pre-configured SMTP mailboxes and Google Workspace accounts (with SPF/DKIM/DMARC already set up) built specifically for cold email sending,... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Mailforge](../tools/mailforge.md) mailforge.ai Shared cold-email infrastructure platform (part of the Salesforge "Forge Stack") - automates workspace setup, domain purchase/checks, mailbox creation, DNS records, forwarding, and domain masking for... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
+- [Mailforge](../tools/mailforge.md) mailforge.ai Shared cold-email infrastructure platform (part of the Salesforge "Forge Stack") - automates workspace setup, domain purchase/checks, mailbox creation, DNS records, forwarding, and domain masking for... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md) · CLI: mailforge (community)
 
-- [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Smartlead](../tools/smartlead.md) smartlead.ai Cold email outreach platform for managing campaigns across many mailboxes, with built-in deliverability infrastructure and a unified reply inbox. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: smartlead
 
-- [Super Send](../tools/super-send.md) supersend.io Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based on live deliverability signals. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Super Send](../tools/super-send.md) supersend.io Cold email sequencing platform providing dedicated, warmed sending infrastructure with adaptive pacing based on live deliverability signals. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: supersendtx
 
 - [Scaledmail](../tools/scaledmail.md) scaledmail.com Cold-email infrastructure provider - sets up sending domains, configures DNS authentication (SPF/DKIM/DMARC) from day one, and rotates inboxes so outbound sequences land in the primary tab. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims fully... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
+- [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md) · CLI: folderly (community)
 
 ### Next to this job
 

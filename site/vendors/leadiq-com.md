@@ -38,6 +38,10 @@ Vendor domain: [leadiq.com](https://leadiq.com) · vendor page id leadiq-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/leadiq](https://github.com/leadiq), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,38 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [LeadIQ](../tools/leadiq.md) backend community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+Login or key hint: - `GROQ_API_KEY`
+
+2 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/leadiq.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/leadiq](https://github.com/leadiq) tied to the vendor by rule 3, account website leadiq.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-06-30
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [api-samples](https://github.com/leadiq/api-samples) | docs or examples | | 0 | 2026-06-30 | |
+| [dataiq-api-specs](https://github.com/leadiq/dataiq-api-specs) | API client | LeadIQ Contact Search APIs | 3 | 2021-07-09 | |
+| [sttp-play](https://github.com/leadiq/sttp-play) | other | Play based backends and json packages for STTP | 0 | 2018-10-26 | |
+| [apollo-link-defer](https://github.com/leadiq/apollo-link-defer) | other | Interface for creating asynchronous links. | 18 | 2018-08-15 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

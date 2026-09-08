@@ -18,6 +18,7 @@ Seamless.AI
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: seamless (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -176,6 +177,41 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: seamless
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g seamless-ai-cli
+```
+
+quoted from [https://www.npmjs.com/package/seamless-ai-cli](https://www.npmjs.com/package/seamless-ai-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint seen on the page:
+
+seamless login
+
+Subcommands seen with the binary:
+
+companies, contacts, login, mcp
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: seamless-ai-cli 0.1.8, third party](https://www.npmjs.com/package/seamless-ai-cli)
+
+Where it was documented:
+
+- [https://github.com/bcharleson/seamless-ai-cli](https://github.com/bcharleson/seamless-ai-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -197,6 +233,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to seamless.ai with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+5 candidate accounts seen and rejected by the evidence rules: seamless-protocol, modelcontextprotocol, SeamlessAI, chainflip-io, seamless-test. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

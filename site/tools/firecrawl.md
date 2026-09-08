@@ -18,6 +18,7 @@ Firecrawl
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: firecrawl
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -97,6 +98,46 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: firecrawl
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g firecrawl-cli
+```
+
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-08, via npm
+
+```
+npx -y firecrawl-cli@latest
+```
+
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-08, via npx
+
+Login or key hint seen on the page:
+
+firecrawl login
+
+16 subcommands seen with the binary in the docs or README:
+expand to read them
+
+agent, browser, config, crawl, credit-usage, developer, init, interact, login, logout, map, monitor, scrape, search, version, view-config
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: firecrawl-cli 1.23.3](https://www.npmjs.com/package/firecrawl-cli)
+
+Where it was documented:
+
+- [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -122,6 +163,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
+
+**On GitHub**
+
+[github.com/firecrawl](https://github.com/firecrawl) tied to the vendor by rule 1, account website firecrawl.dev has the vendor's domain, confidence strong
+
+- **Public repositories**: 86, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | other | Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based... | 18,944 | 2026-09-08 | v1.18.0 |
+| [firecrawl-php](https://github.com/firecrawl/firecrawl-php) | SDK | | 2 | 2026-09-08 | |
+| [firecrawl](https://github.com/firecrawl/firecrawl) | other | The context API to search, scrape, and interact with the web at scale. 🔥 | 177,931 | 2026-09-08 | v2.11.0 |
+| [firecrawl-docs](https://github.com/firecrawl/firecrawl-docs) | docs or examples | Documentation for Firecrawl. | 92 | 2026-09-08 | |
+| [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | MCP server | 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. | 7,418 | 2026-09-08 | v3.2.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

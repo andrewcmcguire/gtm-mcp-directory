@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -71,6 +75,17 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/livedatatechnologies](https://github.com/livedatatechnologies) tied to the vendor by rule 3, account website https://www.livedatatechnologies.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 0, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: not recorded
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

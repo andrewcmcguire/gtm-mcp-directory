@@ -89,6 +89,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -115,6 +119,23 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/dancolta/subscope](https://github.com/dancolta/subscope)
 - [https://github.com/syntax-syndicate/social-listening](https://github.com/syntax-syndicate/social-listening)
+
+**On GitHub**
+
+[github.com/syften](https://github.com/syften) tied to the vendor by rule 3, account website https://syften.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 1, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-07-30
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [syften-examples](https://github.com/syften/syften-examples) | docs or examples | Syften API usage examples | 3 | 2026-07-30 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

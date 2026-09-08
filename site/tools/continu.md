@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 n/a
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -71,6 +75,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/continu](https://github.com/continu) tied to the vendor by rule 3, account website www.continu.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2017-04-06
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [query-handler](https://github.com/continu/query-handler) | other | Extends MongoDB read only operations to be manipulated via query string statements in api calls | 0 | 2017-04-06 | |
+| [styleguide](https://github.com/continu/styleguide) | other | Continu Style Guide | 0 | 2014-06-26 | |
+| [documentation_theme](https://github.com/continu/documentation_theme) | docs or examples | | 0 | 2014-03-21 | |
+| [tincan-client](https://github.com/continu/tincan-client) | SDK | | 0 | 2014-03-12 | |
+| [outbound.js](https://github.com/continu/outbound.js) | SDK | | 0 | 2014-02-04 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

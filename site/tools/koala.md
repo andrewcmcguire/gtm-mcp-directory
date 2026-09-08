@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -71,6 +75,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/getkoala](https://github.com/getkoala) tied to the vendor by rule 3, account website https://getkoala.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 6, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-06-24
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [docs](https://github.com/getkoala/docs) | docs or examples | Koala's public docs | 2 | 2025-06-24 | |
+| [libduckdb-docker](https://github.com/getkoala/libduckdb-docker) | infrastructure | DuckDB headers and libs distributed as Docker images | 9 | 2024-10-24 | |
+| [react](https://github.com/getkoala/react) | SDK | A React wrapper around the Koala Snippet + SDK | 1 | 2024-08-13 | |
+| [examples](https://github.com/getkoala/examples) | docs or examples | Examples of using Koala and the Koala Edge API | 0 | 2022-12-07 | |
+| [crc32](https://github.com/getkoala/crc32) | other | A tiny implementation of the CRC32 algorithm in JavaScript | 1 | 2022-10-21 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

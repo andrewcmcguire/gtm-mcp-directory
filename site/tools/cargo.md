@@ -18,6 +18,7 @@ Cargo
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: cargo
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -66,6 +67,38 @@ The count below still carries this entry on the unmeasured side, because there i
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: cargo
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @cargo-ai/cli
+```
+
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-08, via npm
+
+```
+npx @cargo-ai/cli
+```
+
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-08, via npx
+
+Login or key hint seen on the page:
+
+cargo-ai login --token
+- [npm: @cargo-ai/cli 1.0.90](https://www.npmjs.com/package/@cargo-ai/cli)
+
+Where it was documented:
+
+- [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -91,6 +124,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/getcargohq](https://github.com/getcargohq)
+
+**On GitHub**
+
+[github.com/getcargohq](https://github.com/getcargohq) tied to the vendor by rule 2, account name 'Cargo' equals the entry's display name, confidence check
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [gtm-skills](https://github.com/getcargohq/gtm-skills) | other | Standalone Cargo GTM agent skills - one job each. Find leads, enrich contacts, verify emails, track signals. | 3 | 2026-09-07 | |
+| [cargo-skills](https://github.com/getcargohq/cargo-skills) | CLI | GTM engineering skills for AI coding agents - build lead lists, find & verify emails, waterfall enrichment, lead... | 17 | 2026-09-05 | |
+| [cargo-manifest](https://github.com/getcargohq/cargo-manifest) | other | The software factory for go-to-market. An open-source monorepo holding your company context (ICP, personas, plays,... | 6 | 2026-09-03 | |
+| [cargo-partner-skills](https://github.com/getcargohq/cargo-partner-skills) | other | | 0 | 2026-08-19 | |
+| [dummy-integration](https://github.com/getcargohq/dummy-integration) | plugin or integration | | 2 | 2026-01-13 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

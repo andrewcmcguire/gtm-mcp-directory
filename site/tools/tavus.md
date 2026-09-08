@@ -18,6 +18,7 @@ Tavus
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: tavus
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -132,6 +133,29 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: tavus
+- **Status**: official CLI, first party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install tavus
+```
+
+quoted from [https://pypi.org/project/tavus/](https://pypi.org/project/tavus/) on 2026-09-08, via pypi
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: tavus-cli 0.4.3, third party](https://pypi.org/project/tavus-cli/)
+- [pypi: tavus 0.4.3](https://pypi.org/project/tavus/)
+- [pypi: tavus-cli 0.4.3, third party](https://pypi.org/project/tavus-cli/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -157,6 +181,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/rakeshdavid/Tavus-MCP](https://github.com/rakeshdavid/Tavus-MCP)
+
+**On GitHub**
+
+[github.com/Tavus-Engineering](https://github.com/Tavus-Engineering) tied to the vendor by rule 3, account website tavus.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 10, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [tavus-intake](https://github.com/Tavus-Engineering/tavus-intake) | other | | 4 | 2026-09-07 | |
+| [tavus-interviewer](https://github.com/Tavus-Engineering/tavus-interviewer) | other | | 3 | 2026-09-07 | |
+| [dj_charlie](https://github.com/Tavus-Engineering/dj_charlie) | other | | 1 | 2026-06-23 | |
+| [tavus-audio-passthrough-demo](https://github.com/Tavus-Engineering/tavus-audio-passthrough-demo) | docs or examples | | 1 | 2026-04-09 | |
+| [tavus-examples](https://github.com/Tavus-Engineering/tavus-examples) | docs or examples | Examples and guides for using Tavus's Conversational Video Interface (CVI) & Video Gen APIs | 86 | 2026-04-06 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

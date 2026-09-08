@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -78,6 +82,27 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/orbit-love](https://github.com/orbit-love)
 - [https://github.com/orbit-love/orbit-model](https://github.com/orbit-love/orbit-model)
+
+**On GitHub**
+
+[github.com/orbit-love](https://github.com/orbit-love) tied to the vendor by rule 2, account website https://orbit.love/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 34, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-03-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [orbit-model](https://github.com/orbit-love/orbit-model) | other | A framework for building high gravity communities 🪐 | 1,016 | 2026-03-07 | |
+| [mg-migrations-showcase](https://github.com/orbit-love/mg-migrations-showcase) | other | Demonstrating our approach to performing migrations on our Memgraph DB. Extracted from Community Search's backend | 5 | 2024-12-04 | |
+| [ruby-orbit-members](https://github.com/orbit-love/ruby-orbit-members) | other | Orbit API helper library for Ruby. This client can create, read, update and delete members and their identities in your... | 1 | 2024-08-01 | v0.0.1 |
+| [orbit-website](https://github.com/orbit-love/orbit-website) | app | | 0 | 2024-07-24 | |
+| [ruby-orbit-activities](https://github.com/orbit-love/ruby-orbit-activities) | SDK | Orbit API helper library for Ruby. This client can create, read, update and delete activities in your Orbit workspace. | 4 | 2024-05-16 | v0.2.3 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

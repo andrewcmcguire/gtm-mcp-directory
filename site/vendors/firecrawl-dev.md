@@ -38,6 +38,10 @@ Vendor domain: [firecrawl.dev](https://firecrawl.dev) · vendor page id firecraw
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/firecrawl](https://github.com/firecrawl), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Firecrawl](../tools/firecrawl.md) firecrawl official CLI
+
+```
+npm install -g firecrawl-cli
+```
+
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-08, via npm
+
+Login or key hint: firecrawl login
+
+1 more install command, 16 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/firecrawl.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/firecrawl](https://github.com/firecrawl) tied to the vendor by rule 1, account website firecrawl.dev has the vendor's domain, confidence strong
+
+- **Public repositories**: 86, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | other | Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based... | 18,944 | 2026-09-08 | v1.18.0 |
+| [firecrawl-php](https://github.com/firecrawl/firecrawl-php) | SDK | | 2 | 2026-09-08 | |
+| [firecrawl](https://github.com/firecrawl/firecrawl) | other | The context API to search, scrape, and interact with the web at scale. 🔥 | 177,931 | 2026-09-08 | v2.11.0 |
+| [firecrawl-docs](https://github.com/firecrawl/firecrawl-docs) | docs or examples | Documentation for Firecrawl. | 92 | 2026-09-08 | |
+| [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | MCP server | 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. | 7,418 | 2026-09-08 | v3.2.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

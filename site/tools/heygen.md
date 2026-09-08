@@ -18,6 +18,7 @@ HeyGen
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: heygen
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -64,6 +65,35 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: heygen
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+curl -fsSL https://static.heygen.ai/cli/install.sh | bash
+```
+
+quoted from [https://developers.heygen.com/cli](https://developers.heygen.com/cli) on 2026-09-08, via shell
+
+Login or key hint seen on the page:
+
+heygen auth
+
+Subcommands seen with the binary:
+
+auth, video, video-agent
+
+Where it was documented:
+
+- [https://developers.heygen.com/cli](https://developers.heygen.com/cli) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -85,6 +115,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to heygen.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+5 candidate accounts seen and rejected by the evidence rules: heygen-com, HeyGen-Official, HeyGen-Ai-App, heygen-fork, Heygent-core. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

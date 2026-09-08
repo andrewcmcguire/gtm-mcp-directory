@@ -24,6 +24,8 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **MCP not applicable**: 1
 - **No MCP found**: 6
 
+- **ship a CLI (official) as of 2026-09-08**: 2
+
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
@@ -60,11 +62,11 @@ Source file: 05-signals-intent-abm.md · content sha256 e510b3f0628d810d... · c
 
 - [Sumble](../tools/sumble.md) sumble.com Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [6sense](../tools/6sense.md) 6sense.com Detects B2B buying intent by combining IP-based website deanonymization, a proprietary third-party intent/content-consumption network ("Signalverse"), and first-party CRM/MAP/product data to flag in-market... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [6sense](../tools/6sense.md) 6sense.com Detects B2B buying intent by combining IP-based website deanonymization, a proprietary third-party intent/content-consumption network ("Signalverse"), and first-party CRM/MAP/product data to flag in-market... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI (community)
 
-- [Common Room](../tools/common-room.md) commonroom.io Aggregates buyer/community engagement signals - Slack, Discord, GitHub activity (stars, PRs, issues), product usage, and third-party intent data (Bombora integration) - across a company's community/product... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Common Room](../tools/common-room.md) commonroom.io Aggregates buyer/community engagement signals - Slack, Discord, GitHub activity (stars, PRs, issues), product usage, and third-party intent data (Bombora integration) - across a company's community/product... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: cr
 
-- [Crossbeam](../tools/crossbeam.md) crossbeam.com Compares your account list against your partners' account lists to surface overlaps, partner-shared contacts, and warm introduction paths for co-selling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Crossbeam](../tools/crossbeam.md) crossbeam.com Compares your account list against your partners' account lists to surface overlaps, partner-shared contacts, and warm introduction paths for co-selling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: crossbeam (community)
 
 - [Demandbase (Demandbase One)](../tools/demandbase.md) demandbase.com Identifies and scores in-market B2B accounts by combining IP/website deanonymization, a global firmographic/technographic database, and intent-signal ingestion, rolling this into "Buying Group" and... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
@@ -72,17 +74,17 @@ Source file: 05-signals-intent-abm.md · content sha256 e510b3f0628d810d... · c
 
 - [HG Insights (Phoenix platform)](../tools/hg-insights.md) hginsights.com Aggregates B2B technographic data (software/tech a company runs, sourced from job postings, web crawling, public filings, partner feeds), firmographics, IT spend estimates, and third-party intent (via... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Similarweb](../tools/similarweb.md) similarweb.com Web, app and market intelligence platform that estimates traffic, audience, keyword and competitive metrics for any domain, used in sales as an account-prioritisation and account-research signal. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: similarweb (community)
 
 - [UserGems](../tools/usergems.md) usergems.com Tracks job changes of known contacts (past customers/champions moving to new companies) plus 30+ other native signals (new hires, promotions, funding, website visits, M&A) sourced from LinkedIn-style data... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Actively](../tools/actively.md) actively.ai A sales platform that runs an always-on "per-account agent" for every account in a seller's book, synthesising CRM data, call transcripts and external signals into account research, risk flags and recommended... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 
-- [Trigify (Trigify.io)](../tools/trigify.md) trigify.io Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who engaged with that content into an "engagement graph" filtered... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
+- [Trigify (Trigify.io)](../tools/trigify.md) trigify.io Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who engaged with that content into an "engagement graph" filtered... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: trigify
 
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md)
 
-- [Vector (vector.co)](../tools/vector.md) vector.co Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks their behavior (job changes, CRM activity, ad engagement)... [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md)
+- [Vector (vector.co)](../tools/vector.md) vector.co Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks their behavior (job changes, CRM activity, ad engagement)... [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md) · CLI: vector_cli (community)
 
 - [Koala](../tools/koala.md) getkoala.com Identified and scored anonymous B2B website visitors by matching visitor IPs/first-party signals against 30+ data sources, then triggered configurable AI-agent workflows (enrichment, research, alerting) on... [MCP not applicable](../mcp/n-a.md) · [Paid, self-serve](../gates/paid.md)
 

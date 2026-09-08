@@ -45,15 +45,15 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Common Paper](../tools/common-paper.md) commonpaper.com Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature layer, positioned as a faster, less lawyer-heavy alternative to a... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [PandaDoc](../tools/pandadoc.md) pandadoc.com Document builder/e-signature platform for proposals, quotes, and contracts, with AI-assisted content generation and CRM-linked workflows. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [PandaDoc](../tools/pandadoc.md) pandadoc.com Document builder/e-signature platform for proposals, quotes, and contracts, with AI-assisted content generation and CRM-linked workflows. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Proposals & Deals](../categories/proposals-deals.md) · CLI: pandadoc (community)
 
-- [DocuSign](../tools/docusign.md) docusign.com E-signature and Intelligent Agreement Management (IAM) platform; the CLM/AI side covered here is agreement creation, status tracking, and AI-assisted querying/analysis of agreement data via MCP, distinct from... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [DocuSign](../tools/docusign.md) docusign.com E-signature and Intelligent Agreement Management (IAM) platform; the CLM/AI side covered here is agreement creation, status tracking, and AI-assisted querying/analysis of agreement data via MCP, distinct from... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md) · CLI: docusign
 
 - [GetAccept](../tools/getaccept.md) getaccept.com Digital sales room and e-signature platform combining proposal delivery, contract tracking, and an e-signature API for embedding signing flows into other products. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
 - [Proposify](../tools/proposify.md) proposify.com Proposal-creation and e-signature software with template libraries, approval workflows, and CRM/Salesforce integration for sales teams. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md) · CLI: qwilr (community)
 
 ### Next to this job
 

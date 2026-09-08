@@ -38,6 +38,10 @@ Vendor domain: [lagrowthmachine.com](https://lagrowthmachine.com) · vendor page
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/LaGrowthMachine](https://github.com/LaGrowthMachine), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -78,6 +82,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system) (La Growth Machine, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/LaGrowthMachine](https://github.com/LaGrowthMachine) tied to the vendor by rule 1, account website https://lagrowthmachine.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 9, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [gtm-system](https://github.com/LaGrowthMachine/gtm-system) | MCP server | Open-source Claude skills and an MCP server for Sales and GTM teams: build Sales Navigator searches, write multichannel... | 36 | 2026-09-08 | |
+| [lgm-web-comps](https://github.com/LaGrowthMachine/lgm-web-comps) | app | tests de séparation des compos figma | 0 | 2026-09-01 | |
+| [n8n-templates](https://github.com/LaGrowthMachine/n8n-templates) | docs or examples | Ready-to-import n8n workflows for the official La Growth Machine node | 0 | 2026-08-11 | |
+| [n8n-nodes-lagrowthmachine](https://github.com/LaGrowthMachine/n8n-nodes-lagrowthmachine) | plugin or integration | | 0 | 2026-08-11 | v1.0.4 |
+| [lgm-mcp](https://github.com/LaGrowthMachine/lgm-mcp) | MCP server | MCP server exposing La Growth Machine (multichannel B2B outreach) to AI clients - Claude Desktop, Claude.ai, Cursor,... | 0 | 2026-07-23 | v1.4.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

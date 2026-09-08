@@ -52,6 +52,10 @@ https://claude.com/connectors (redirect correction 2026-08-28: the address previ
 
 - [https://claude.com/connectors](https://claude.com/connectors)
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -73,6 +77,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to claude.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+5 candidate accounts seen and rejected by the evidence rules: claude-code-expert, claudekit, claudeskills, SuperClaude-Org, claude-world. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

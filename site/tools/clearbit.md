@@ -18,6 +18,7 @@ Clearbit (now HubSpot Breeze Intelligence)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: hubspot
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -48,6 +49,31 @@ none-found
 
 The mcp_url field is empty on this entry. 17 of 336 entries are.
 
+**Command line**
+
+- **Binary**: hubspot
+- **Status**: official CLI, first party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @hubspot/cli
+```
+
+quoted from [https://github.com/HubSpot/hubspot-cli](https://github.com/HubSpot/hubspot-cli) on 2026-09-08, via npm
+
+Login or key hint seen on the page:
+
+hs init
+
+Where it was documented:
+
+- [https://github.com/HubSpot/hubspot-cli](https://github.com/HubSpot/hubspot-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -69,6 +95,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/HubSpot](https://github.com/HubSpot) tied to the vendor by rule 3, account website http://product.hubspot.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 99, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 5 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [HubSpot-public-api-spec-collection](https://github.com/HubSpot/HubSpot-public-api-spec-collection) | API client | | 45 | 2026-09-08 | |
+| [agent-cli-skills](https://github.com/HubSpot/agent-cli-skills) | CLI | | 23 | 2026-09-08 | |
+| [hubspot-project-components](https://github.com/HubSpot/hubspot-project-components) | docs or examples | Provides sample components for HubSpot projects. | 25 | 2026-09-08 | 2.3.0 |
+| [hubspot-cms-vscode](https://github.com/HubSpot/hubspot-cms-vscode) | plugin or integration | A HubL language extension for the Visual Studio Code IDE, allowing for :rocket: fast local HubSpot CMS Platform... | 75 | 2026-09-08 | v1.7.5 |
+| [boomslang](https://github.com/HubSpot/boomslang) | other | Python, but Java | 6 | 2026-09-08 | build-cfcfca4ac2ca188e3acd2a3abe8bed21bc281917 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

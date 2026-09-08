@@ -38,6 +38,10 @@ Vendor domain: [circleback.ai](https://circleback.ai) · vendor page id circleba
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/circlebackai](https://github.com/circlebackai), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,41 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://circleback.ai/api/mcp](https://circleback.ai/api/mcp) (Circleback, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Circleback](../tools/circleback.md) cb official CLI
+
+```
+npm install -g @circleback/cli
+```
+
+quoted from [https://support.circleback.ai/en/articles/14677613-circleback-cli](https://support.circleback.ai/en/articles/14677613-circleback-cli) on 2026-09-08, via npm
+
+Login or key hint: cb auth
+
+11 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/circleback.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/circlebackai](https://github.com/circlebackai) tied to the vendor by rule 3, account website circleback.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-07-10
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [openclaw-plugin](https://github.com/circlebackai/openclaw-plugin) | plugin or integration | Circleback for OpenClaw | 0 | 2026-07-10 | |
+| [claude-code-plugin](https://github.com/circlebackai/claude-code-plugin) | plugin or integration | Circleback Claude Code plugin. | 2 | 2026-07-10 | |
+| [cursor-plugin](https://github.com/circlebackai/cursor-plugin) | plugin or integration | Circleback plugin for Cursor. | 0 | 2026-06-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -22,6 +22,8 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 - **MCP unknown**: 1
 - **No MCP found**: 8
 
+- **ship a CLI (official) as of 2026-09-08**: 0
+
 - **Free to start**: 2
 - **Paid, self-serve**: 10
 - **Gate unknown**: 1
@@ -41,7 +43,7 @@ Source file: 09-email-deliverability.md · content sha256 6a1f45a40a93e161... ·
 
 - [Maildoso](../tools/maildoso.md) maildoso.ai Cold-outreach mailbox and domain infrastructure provider - sells pre-configured SMTP mailboxes and Google Workspace accounts (with SPF/DKIM/DMARC already set up) built specifically for cold email sending,... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Mailforge](../tools/mailforge.md) mailforge.ai Shared cold-email infrastructure platform (part of the Salesforge "Forge Stack") - automates workspace setup, domain purchase/checks, mailbox creation, DNS records, forwarding, and domain masking for... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+- [Mailforge](../tools/mailforge.md) mailforge.ai Shared cold-email infrastructure platform (part of the Salesforge "Forge Stack") - automates workspace setup, domain purchase/checks, mailbox creation, DNS records, forwarding, and domain masking for... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI: mailforge (community)
 
 - [GlockApps](../tools/glockapps.md) glockapps.com Email deliverability testing and monitoring platform - Inbox Insight sends a test email to real seed accounts across 60+ providers (Gmail, Yahoo, Outlook, Apple Mail, AOL, etc.) and reports exact... [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -53,10 +55,10 @@ Source file: 09-email-deliverability.md · content sha256 6a1f45a40a93e161... ·
 
 - [InboxAlly](../tools/inboxally.md) inboxally.com Email warmup and reputation-repair service that adds real seed inboxes into a customer's actual campaigns; those seed accounts perform browser-level engagement (open, read, reply, mark important, move out of... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
-- [MailGenius](../tools/mailgenius.md) mailgenius.com Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans blacklists, previews inbox rendering across Gmail/Outlook, and scores spam likelihood. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+- [MailGenius](../tools/mailgenius.md) mailgenius.com Free/paid email deliverability and spam-testing tool - checks SPF/DKIM/DMARC authentication, scans blacklists, previews inbox rendering across Gmail/Outlook, and scores spam likelihood. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · CLI: genius (community)
 
-- [Mailreach](../tools/mailreach.md) mailreach.co Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat Score" reputation metric, and monitors blacklist/authentication status across Gmail, Outlook, and any... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+- [Mailreach](../tools/mailreach.md) mailreach.co Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat Score" reputation metric, and monitors blacklist/authentication status across Gmail, Outlook, and any... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · CLI: mailreach (community)
 
 - [Warmy.io](../tools/warmy-io.md) warmy.io Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up topic/language selection, works across Gmail, Outlook, Zoho, and Amazon SES, with a real-time... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: folderly (community)

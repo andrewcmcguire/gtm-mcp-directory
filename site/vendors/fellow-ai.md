@@ -38,6 +38,10 @@ Vendor domain: [fellow.ai](https://fellow.ai) · vendor page id fellow-ai
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/fellowapp](https://github.com/fellowapp), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,45 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://fellow.app/mcp](https://fellow.app/mcp) (Fellow, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Fellow](../tools/fellow.md) fellowai community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install fellow
+```
+
+quoted from [https://pypi.org/project/fellow/](https://pypi.org/project/fellow/) on 2026-09-08, via pypi, a third party source
+
+Login or key hint: fellowai login
+
+5 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/fellow.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/fellowapp](https://github.com/fellowapp) tied to the vendor by rule 3, account website https://fellow.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-22
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [nix-support](https://github.com/fellowapp/nix-support) | infrastructure | A Nix flake providing easy access to useful packages that might not be available or up-to-date in the main nixpkgs... | 2 | 2026-08-22 | |
+| [mudder-py](https://github.com/fellowapp/mudder-py) | SDK | Python port of fasiha/mudderjs | 6 | 2026-07-25 | v0.3.1 |
+| [prosemirror-py](https://github.com/fellowapp/prosemirror-py) | SDK | Python implementation of core ProseMirror modules | 62 | 2026-07-20 | v0.6.1 |
+| [traefik-cluster-ratelimit](https://github.com/fellowapp/traefik-cluster-ratelimit) | plugin or integration | Traefik Plugin for Rate Limiting Middleware | 1 | 2026-07-08 | |
+| [n8n-nodes-fellow](https://github.com/fellowapp/n8n-nodes-fellow) | plugin or integration | The Official Fellow n8n Node | 1 | 2026-06-08 | v1.0.3 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

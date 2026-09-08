@@ -38,6 +38,10 @@ Vendor domain: [enrow.io](https://enrow.io) · vendor page id enrow-io
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/EnrowAPI](https://github.com/EnrowAPI), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -77,6 +81,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/EnrowAPI/enrow-mcp](https://github.com/EnrowAPI/enrow-mcp) (Enrow, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Enrow](../tools/enrow.md) enrow official CLI
+
+```
+npm install -g @enrow/cli
+```
+
+quoted from [https://github.com/EnrowAPI/enrow-cli](https://github.com/EnrowAPI/enrow-cli) on 2026-09-08, via npm
+
+Login or key hint: enrow config set-key YOUR_API_KEY
+
+5 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/enrow.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/EnrowAPI](https://github.com/EnrowAPI) tied to the vendor by rule 1, account website enrow.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 41, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-07-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [enrow-mcp](https://github.com/EnrowAPI/enrow-mcp) | MCP server | MCP server for the Enrow API - use email finder, verifier, and phone finder from any AI assistant | 1 | 2026-07-08 | |
+| [phone-finder-swift](https://github.com/EnrowAPI/phone-finder-swift) | SDK | Find mobile phone numbers from LinkedIn or name + company - Swift library powered by Enrow | 0 | 2026-04-06 | |
+| [phone-finder-java](https://github.com/EnrowAPI/phone-finder-java) | SDK | Find mobile phone numbers from LinkedIn or name + company - Java library powered by Enrow | 0 | 2026-04-06 | |
+| [phone-finder-rust](https://github.com/EnrowAPI/phone-finder-rust) | SDK | Find mobile phone numbers from LinkedIn or name + company - Rust library powered by Enrow | 0 | 2026-04-06 | |
+| [phone-finder-php](https://github.com/EnrowAPI/phone-finder-php) | SDK | Find mobile phone numbers from LinkedIn or name + company - PHP library powered by Enrow | 0 | 2026-04-06 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

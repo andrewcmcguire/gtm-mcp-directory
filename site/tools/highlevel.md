@@ -18,6 +18,7 @@ HighLevel (GoHighLevel)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-08-25
+CLI: gohighlevel (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,6 +64,27 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: gohighlevel
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+No install command was quoted by the harvest. The status rests on the package or page linked below.
+
+Subcommands seen with the binary:
+
+calendars, contacts, conversations, metadata, opportunities
+
+Where it was documented:
+
+- [https://github.com/deanmikan/gohighlevel-cli](https://github.com/deanmikan/gohighlevel-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -84,6 +106,27 @@ No documentation text is reproduced anywhere on this site. Read the vendor page 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/GoHighLevel](https://github.com/GoHighLevel) tied to the vendor by rule 3, account website http://gohighlevel.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [marketplace-cli](https://github.com/GoHighLevel/marketplace-cli) | CLI | | 0 | 2026-09-08 | |
+| [highlevel-api-sdk](https://github.com/GoHighLevel/highlevel-api-sdk) | SDK | Official SDK for HighLevel Public APIs | 29 | 2026-09-03 | v3.1.0 |
+| [highlevel-api-docs](https://github.com/GoHighLevel/highlevel-api-docs) | docs or examples | This repo is our public documentation for API v2. | 144 | 2026-08-25 | |
+| [ghl-sdk-examples](https://github.com/GoHighLevel/ghl-sdk-examples) | docs or examples | Examples for how to use HighLevel SDK | 12 | 2026-06-25 | |
+| [highlevel-api-python](https://github.com/GoHighLevel/highlevel-api-python) | SDK | Python library for the HighLevel API. | 4 | 2026-06-25 | v3.0.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

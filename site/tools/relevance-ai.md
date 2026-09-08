@@ -18,6 +18,7 @@ Relevance AI
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: relevanceai
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,6 +64,27 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: relevanceai
+- **Status**: official CLI, first party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install relevanceai
+```
+
+quoted from [https://pypi.org/project/relevanceai/](https://pypi.org/project/relevanceai/) on 2026-09-08, via pypi
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: relevanceai 10.2.2](https://pypi.org/project/relevanceai/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -84,6 +106,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/RelevanceAI](https://github.com/RelevanceAI) tied to the vendor by rule 3, account website https://relevanceai.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 39, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [relevance-docs](https://github.com/RelevanceAI/relevance-docs) | docs or examples | | 3 | 2026-09-08 | |
+| [content-cdn](https://github.com/RelevanceAI/content-cdn) | other | | 2 | 2026-09-08 | |
+| [arg-releases](https://github.com/RelevanceAI/arg-releases) | CLI | Public release artifacts for the arg CLI (binary distribution only; source lives in the private monorepo) | 0 | 2026-08-24 | v0.3.19 |
+| [cc-plugin](https://github.com/RelevanceAI/cc-plugin) | plugin or integration | RelevanceAI Claude Code plugin (Skills + MCP) | 1 | 2026-07-27 | |
+| [homebrew-tap](https://github.com/RelevanceAI/homebrew-tap) | CLI | Homebrew tap for the arg CLI. Run: brew tap relevanceai/tap | 0 | 2026-05-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

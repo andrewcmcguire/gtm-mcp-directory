@@ -38,6 +38,10 @@ Vendor domain: [cloud.google.com](https://cloud.google.com) · [Public company b
 
 - **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform), [github.com/looker-open-source](https://github.com/looker-open-source), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 2**
@@ -89,6 +93,54 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+### github.com/GoogleCloudPlatform
+
+[github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) tied to the vendor by rule 3, account website https://cloud.google.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 150, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 4 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [DataflowTemplates](https://github.com/GoogleCloudPlatform/DataflowTemplates) | other | Cloud Dataflow Google-provided templates for solving in-Cloud data tasks | 1,311 | 2026-09-08 | 2026-09-01-00_RC00 |
+| [composer-airflow](https://github.com/GoogleCloudPlatform/composer-airflow) | other | | 38 | 2026-09-08 | |
+| [spring-cloud-gcp](https://github.com/GoogleCloudPlatform/spring-cloud-gcp) | other | New home for Spring Cloud GCP development starting with version 2.0. | 551 | 2026-09-08 | v8.1.1 |
+| [PerfKitBenchmarker](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker) | other | PerfKit Benchmarker (PKB) contains a set of benchmarks to measure and compare cloud offerings. The benchmarks use... | 2,010 | 2026-09-08 | v1.15.1 |
+| [opentelemetry-operations-collector](https://github.com/GoogleCloudPlatform/opentelemetry-operations-collector) | other | | 83 | 2026-09-08 | v0.159.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
+
+### github.com/looker-open-source
+
+[github.com/looker-open-source](https://github.com/looker-open-source) tied to the vendor by rule 3, account website https://cloud.google.com/looker has the vendor's domain, confidence strong
+
+- **Public repositories**: 86, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [viz-report-table-marketplace-open-source](https://github.com/looker-open-source/viz-report-table-marketplace-open-source) | other | | 17 | 2026-09-07 | v1.1.4 |
+| [viz-force_directed_graph-marketplace](https://github.com/looker-open-source/viz-force_directed_graph-marketplace) | other | | 7 | 2026-09-07 | |
+| [app-lookml-diagram](https://github.com/looker-open-source/app-lookml-diagram) | plugin or integration | An "ERD for LookML". Now available for download on the Looker Marketplace. | 23 | 2026-09-07 | v2.0.9 |
+| [app-data-dictionary](https://github.com/looker-open-source/app-data-dictionary) | app | | 14 | 2026-09-07 | v2.1.3 |
+| [extension-gen-ai](https://github.com/looker-open-source/extension-gen-ai) | plugin or integration | Looker Extension GenAI - using LLMs to make exploration easier and getting dashboard insights | 94 | 2026-09-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

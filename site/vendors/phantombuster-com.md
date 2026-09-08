@@ -38,6 +38,10 @@ Vendor domain: [phantombuster.com](https://phantombuster.com) · vendor page id 
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/phantombuster](https://github.com/phantombuster), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://hub.phantombuster.com/docs/mcp-server](https://hub.phantombuster.com/docs/mcp-server) (PhantomBuster, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [PhantomBuster](../tools/phantombuster.md) phantombuster community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install phantombuster
+```
+
+quoted from [https://pypi.org/project/phantombuster/](https://pypi.org/project/phantombuster/) on 2026-09-08, via pypi, a third party source
+
+harvested 2026-09-08, all on the [tool page](../tools/phantombuster.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/phantombuster](https://github.com/phantombuster) tied to the vendor by rule 3, account website https://phantombuster.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 13, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [public-gists](https://github.com/phantombuster/public-gists) | other | Because you can't create gists as a GitHub org | 2 | 2026-09-08 | |
+| [.github](https://github.com/phantombuster/.github) | other | Special repository for default files available throughout the organization. | 1 | 2025-12-03 | |
+| [sdk](https://github.com/phantombuster/sdk) | SDK | Phantombuster's SDK | 15 | 2024-10-16 | |
+| [dyn53](https://github.com/phantombuster/dyn53) | other | A Lambda that updates a Route53 A record with the requester's IP address | 2 | 2021-11-16 | |
+| [nickjs](https://github.com/phantombuster/nickjs) | other | Web scraping library made by the Phantombuster team. Modern, simple & works on all websites. (Deprecated) | 495 | 2020-06-19 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

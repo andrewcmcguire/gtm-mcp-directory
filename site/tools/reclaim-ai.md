@@ -18,6 +18,7 @@ Reclaim.ai
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: reclaim (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -83,6 +84,48 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: reclaim
+- **Status**: community CLI, third party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install reclaim-cli
+```
+
+quoted from [https://pypi.org/project/reclaim-cli/](https://pypi.org/project/reclaim-cli/) on 2026-09-08, via pypi, a third party source
+
+```
+curl -fsSL https://raw.githubusercontent.com/cruzluna/reclaim-cli/main/install.sh | bash
+```
+
+quoted from [https://github.com/cruzluna/reclaim-cli](https://github.com/cruzluna/reclaim-cli) on 2026-09-08, via shell, a third party source
+
+Login or key hint seen on the page:
+
+Set `RECLAIM_API_KEY` to a personal Reclaim API key before use.
+
+Subcommands seen with the binary:
+
+create, snooze
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: reclaim-cli 0.2.3, third party](https://pypi.org/project/reclaim-cli/)
+- [pypi: reclaim-cli 0.2.3, third party](https://pypi.org/project/reclaim-cli/)
+
+Where it was documented:
+
+- [https://github.com/petetanton/reclaim-cli](https://github.com/petetanton/reclaim-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -110,6 +153,25 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/universalamateur/reclaim-mcp-server](https://github.com/universalamateur/reclaim-mcp-server)
+
+**On GitHub**
+
+[github.com/reclaim-ai](https://github.com/reclaim-ai) tied to the vendor by rule 3, account website https://reclaim.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-10-17
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [react-intercom-hook](https://github.com/reclaim-ai/react-intercom-hook) | other | React hook for Intercom.io | 12 | 2025-10-17 | v2.0.6 |
+| [be-interview](https://github.com/reclaim-ai/be-interview) | other | Simple project for backend interview exercise | 0 | 2023-07-21 | |
+| [reclaim-raycast-extension](https://github.com/reclaim-ai/reclaim-raycast-extension) | plugin or integration | | 0 | 2023-07-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -38,6 +38,10 @@ Vendor domain: [lusha.com](https://lusha.com) · vendor page id lusha-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/lusha-oss](https://github.com/lusha-oss), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -82,6 +86,38 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/lusha-oss/lusha-public-api-mcp](https://github.com/lusha-oss/lusha-public-api-mcp) (Lusha, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Lusha](../tools/lusha.md) community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+Login or key hint: api key (page mentions one)
+
+harvested 2026-09-08, all on the [tool page](../tools/lusha.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/lusha-oss](https://github.com/lusha-oss) tied to the vendor by rule 1, account website https://www.lusha.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [lusha-mcp-talent-sourcing-plugin](https://github.com/lusha-oss/lusha-mcp-talent-sourcing-plugin) | MCP server | Lusha HR MCP plugin | 0 | 2026-09-03 | |
+| [n8n-nodes-lusha](https://github.com/lusha-oss/n8n-nodes-lusha) | plugin or integration | Complete Lusha API integration for n8n | 4 | 2026-09-01 | v1.2.2 |
+| [lusha-mcp-plugin](https://github.com/lusha-oss/lusha-mcp-plugin) | MCP server | | 4 | 2026-08-06 | v0.1.1 |
+| [lusha-public-api-mcp](https://github.com/lusha-oss/lusha-public-api-mcp) | MCP server | | 6 | 2026-03-04 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

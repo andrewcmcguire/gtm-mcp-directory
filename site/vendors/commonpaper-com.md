@@ -38,6 +38,10 @@ Vendor domain: [commonpaper.com](https://commonpaper.com) · vendor page id comm
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/CommonPaper](https://github.com/CommonPaper), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/](https://commonpaper.com/release-notes/common-paper-mcp-model-context-protocol-integration/) (Common Paper, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/CommonPaper](https://github.com/CommonPaper) tied to the vendor by rule 3, account website https://commonpaper.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 14, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-05
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [claude-skill](https://github.com/CommonPaper/claude-skill) | other | Official Common Paper skill for Claude and other agents | 7 | 2026-09-05 | |
+| [Design-Partner-Agreement](https://github.com/CommonPaper/Design-Partner-Agreement) | other | Common Paper standard Design Partner Agreement | 23 | 2026-08-04 | 1.3 |
+| [AI-Addendum](https://github.com/CommonPaper/AI-Addendum) | other | Common Paper Standard AI Addendum | 3 | 2025-08-07 | 1.0 |
+| [Pilot-Agreement](https://github.com/CommonPaper/Pilot-Agreement) | other | Common Paper standard Pilot Agreement | 3 | 2025-07-22 | 1.1 |
+| [PSA](https://github.com/CommonPaper/PSA) | other | Common Paper standard Professional Services Agreement | 14 | 2025-05-23 | 1.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

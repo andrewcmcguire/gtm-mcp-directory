@@ -18,6 +18,7 @@ Tavily
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: tvly
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,6 +62,49 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: tvly
+- **Status**: official CLI, first party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install tavily-cli
+```
+
+quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-08, via pypi
+
+```
+curl -fsSL https://raw.githubusercontent.com/tavily-ai/tavily-cli/main/install.sh | sh
+```
+
+quoted from [https://github.com/tavily-ai/tavily-cli](https://github.com/tavily-ai/tavily-cli) on 2026-09-08, via shell
+
+Login or key hint seen on the page:
+
+tvly init
+
+Subcommands seen with the binary:
+
+auth, crawl, extract, login, map, research, search, update
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: tavily-cli 0.1.2, third party](https://www.npmjs.com/package/tavily-cli)
+- [npm: @renxqoo/tavily-cli 1.0.3, third party](https://www.npmjs.com/package/@renxqoo/tavily-cli)
+- [pypi: tavily-cli 0.1.8](https://pypi.org/project/tavily-cli/)
+- [pypi: tavily 1.1.0, third party](https://pypi.org/project/tavily/)
+- [pypi: tavily-cli 0.1.8](https://pypi.org/project/tavily-cli/)
+
+Where it was documented:
+
+- [https://github.com/tavily-ai/tavily-cli](https://github.com/tavily-ai/tavily-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -82,6 +126,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/tavily-ai](https://github.com/tavily-ai) tied to the vendor by rule 3, account website tavily.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 36, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [tavily-power](https://github.com/tavily-ai/tavily-power) | other | | 0 | 2026-09-08 | |
+| [tavily-js](https://github.com/tavily-ai/tavily-js) | SDK | Official TypeScript/JavaScript library for Tavily. | 94 | 2026-09-08 | |
+| [skills](https://github.com/tavily-ai/skills) | other | | 477 | 2026-09-04 | |
+| [Use-Case-Skills](https://github.com/tavily-ai/Use-Case-Skills) | other | | 1 | 2026-09-03 | |
+| [tavily-python](https://github.com/tavily-ai/tavily-python) | SDK | The Tavily Python SDK allows for easy interaction with the Tavily API, offering the full range of our search, extract,... | 1,390 | 2026-09-03 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

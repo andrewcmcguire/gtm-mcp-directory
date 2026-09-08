@@ -390,6 +390,27 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
 .caplist .tm{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--mute-2);
   margin-top:5px;overflow-wrap:anywhere}
 .caplist .tm a{color:var(--mute)}
+/* the command-line and GitHub organisation layers */
+.field pre{margin-top:10px}
+.field .note.quote{margin-top:-6px;margin-bottom:12px;font-family:var(--mono);font-size:11.5px;
+  letter-spacing:.03em;color:var(--mute-2)}
+.field details.fold{margin-top:14px}
+.field details.fold summary{cursor:pointer;font-family:var(--mono);font-size:12px;letter-spacing:.06em;
+  color:var(--mute)}
+.field details.fold summary:hover{color:var(--accent)}
+.field .v .note{font-size:12.5px;color:var(--mute)}
+/* a quoted install command or a config block must never widen a phone page: wrap, do not scroll */
+pre code{white-space:pre-wrap;overflow-wrap:anywhere}
+/* the recent-repos table folds into stacked rows on a phone, each cell labelled */
+@media (max-width:640px){
+  .orgtable table,.orgtable tbody,.orgtable tr,.orgtable td{display:block;width:100%;max-width:100%}
+  .orgtable thead{display:none}
+  .orgtable tr{padding:8px 0;border-bottom:1px solid var(--rule-soft)}
+  .orgtable td,.orgtable td.n{padding:1px 0;border:0;white-space:normal;overflow-wrap:anywhere}
+  .orgtable td:empty{display:none}
+  .orgtable td::before{content:attr(data-l) ': ';font-family:var(--mono);font-size:10.5px;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+}
 .caplist .sv{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
 
 @media (prefers-reduced-motion:no-preference){

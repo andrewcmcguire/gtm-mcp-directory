@@ -38,6 +38,10 @@ Vendor domain: [zoominfo.com](https://zoominfo.com) · vendor page id zoominfo-c
 
 - **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/Zoominfo](https://github.com/Zoominfo), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 2**
@@ -103,6 +107,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server) (Chorus, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [ZoomInfo](../tools/zoominfo.md) gtm official CLI
+
+```
+npm install -g @zoominfo/gtm-ai-cli
+```
+
+quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-08, via npm
+
+Login or key hint: gtm auth
+
+1 more install command, 4 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/zoominfo.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/Zoominfo](https://github.com/Zoominfo) tied to the vendor by rule 1, account website https://www.zoominfo.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 8, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [zoominfo-mcp-plugin](https://github.com/Zoominfo/zoominfo-mcp-plugin) | MCP server | ZoomInfo MCP plugin | 7 | 2026-09-03 | |
+| [n8n-nodes-zoominfo](https://github.com/Zoominfo/n8n-nodes-zoominfo) | plugin or integration | n8n community node for the ZoomInfo GTM API | 0 | 2026-09-02 | v1.0.0 |
+| [gtm-ai-cli](https://github.com/Zoominfo/gtm-ai-cli) | CLI | A command-line tool for searching ZoomInfo's go-to-market data | 1 | 2026-08-30 | v1.1.0 |
+| [homebrew-gtm-ai](https://github.com/Zoominfo/homebrew-gtm-ai) | infrastructure | Homebrew tap for gtm-ai formulae | 0 | 2026-08-26 | |
+| [api-auth-java-client](https://github.com/Zoominfo/api-auth-java-client) | SDK | Zoominfo API's Java Authentication Client | 2 | 2026-06-30 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

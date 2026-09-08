@@ -121,6 +121,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -148,6 +152,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)
+
+**On GitHub**
+
+[github.com/Klavis-AI](https://github.com/Klavis-AI) tied to the vendor by rule 1, account website www.klavis.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 6, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [deep-swe](https://github.com/Klavis-AI/deep-swe) | other | | 0 | 2026-08-04 | |
+| [Toolathlon-mvp](https://github.com/Klavis-AI/Toolathlon-mvp) | other | | 0 | 2026-06-02 | |
+| [klavis](https://github.com/Klavis-AI/klavis) | MCP server | Klavis AI: MCP integration platforms that let AI agents use tools reliably at any scale | 5,801 | 2026-06-01 | ts-v2.20.0 |
+| [python-sdk](https://github.com/Klavis-AI/python-sdk) | SDK | | 4 | 2026-01-29 | 2.20.0 |
+| [typescript-sdk](https://github.com/Klavis-AI/typescript-sdk) | SDK | | 0 | 2026-01-29 | 2.20.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

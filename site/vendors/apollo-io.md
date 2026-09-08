@@ -38,6 +38,10 @@ Vendor domain: [apollo.io](https://apollo.io) · vendor page id apollo-io
 
 - **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/apolloio](https://github.com/apolloio), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 2**
@@ -101,6 +105,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) (Apollo.io Sequences (Emailer Campaigns), docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/apolloio](https://github.com/apolloio) tied to the vendor by rule 1, account website https://www.apollo.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 10, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-08-31
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [apollo-io-cli](https://github.com/apolloio/apollo-io-cli) | CLI | The Official Apollo.io CLI | 53 | 2026-08-31 | v2.1.0 |
+| [claude-statusline](https://github.com/apolloio/claude-statusline) | other | | 1 | 2026-08-26 | |
+| [homebrew-apollo-io-cli](https://github.com/apolloio/homebrew-apollo-io-cli) | CLI | Homebrew tap for apollo-io-cli | 1 | 2026-08-07 | |
+| [apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) | MCP server | Connect Claude Code + Cowork to Apollo MCP via this plugin | 20 | 2026-07-20 | v0.1.1 |
+| [n8n-nodes-apollo](https://github.com/apolloio/n8n-nodes-apollo) | plugin or integration | Official Apollo.io n8n community node for lead enrichment and organization enrichment | 1 | 2026-07-17 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

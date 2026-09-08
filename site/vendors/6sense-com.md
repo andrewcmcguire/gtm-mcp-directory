@@ -38,6 +38,10 @@ Vendor domain: [6sense.com](https://6sense.com) · vendor page id 6sense-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/6si](https://github.com/6si), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,37 @@ The gate is the api_gate field on each product entry, established by hand on the
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [6sense](../tools/6sense.md) community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+harvested 2026-09-08, all on the [tool page](../tools/6sense.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/6si](https://github.com/6si) tied to the vendor by rule 3, account website https://6sense.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 7, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2024-10-11
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [rules_cloud_files](https://github.com/6si/rules_cloud_files) | other | | 1 | 2024-10-11 | v1.0.0 |
+| [rules_wheel](https://github.com/6si/rules_wheel) | other | | 0 | 2024-08-08 | v0.2.1 |
+| [changed-files](https://github.com/6si/changed-files) | other | Mirror of tj-actions/changed-files | 0 | 2023-09-04 | v19 |
+| [shipwright](https://github.com/6si/shipwright) | infrastructure | Shipwright / The right way to build, tag and ship Docker containers. | 117 | 2023-04-15 | |
+| [docker-utf8](https://github.com/6si/docker-utf8) | infrastructure | Ubuntu en_US.UTF-8 to workaround the fact CircleCI can't run locale-gen under docker | 0 | 2014-11-09 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -38,6 +38,10 @@ Vendor domain: [glama.ai](https://glama.ai) · vendor page id glama-ai
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/glama-ai](https://github.com/glama-ai), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,29 @@ The gate is the api_gate field on each product entry, established by hand on the
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/glama-ai](https://github.com/glama-ai) tied to the vendor by rule 3, account website https://glama.ai/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [tool-definition-quality-score](https://github.com/glama-ai/tool-definition-quality-score) | other | An open framework for scoring how well an MCP tool definition communicates to an AI agent – the Tool Definition Quality... | 32 | 2026-09-04 | |
+| [lightport](https://github.com/glama-ai/lightport) | other | A lightweight AI gateway that makes LLM providers OpenAI-compatible. | 17 | 2026-08-16 | v2.11.0 |
+| [rjsf-validator-cfworker](https://github.com/glama-ai/rjsf-validator-cfworker) | other | The @cfworker/json-schema based validator for @rjsf/core | 5 | 2026-01-13 | v1.0.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -268,6 +268,7 @@
 <div class="stats" style="margin-top:26px">
 <div class="stat"><div class="n">31</div><div class="k">entries in this file</div></div>
 <div class="stat is-gold"><div class="n">29</div><div class="k">Official MCP</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">MCP unknown</div></div><div class="stat is-copper"><div class="n">1</div><div class="k">No MCP found</div></div>
+<div class="stat is-teal"><div class="n">9</div><div class="k">ship a CLI (official) as of 2026-09-08</div></div>
 </div>
 <div class="stats" style="margin-top:1px"><div class="stat is-teal"><div class="n">14</div><div class="k">Free to start</div></div><div class="stat is-gold"><div class="n">12</div><div class="k">Paid, self-serve</div></div><div class="stat is-copper"><div class="n">5</div><div class="k">Enterprise only</div></div></div>
 <p class="note">Source file: 06-revops-infra.md &middot; content sha256
@@ -278,187 +279,187 @@ tools_recount.py at build time.</p>
 <a class="btn ghost" href="../jobs/run-automation-workflow">Run an automation workflow</a><a class="btn ghost" href="../jobs/sync-records-between-systems">Sync records between systems</a><a class="btn ghost" href="../jobs/read-crm-records">Read CRM records</a><a class="btn ghost" href="../jobs/write-crm-records">Write CRM records</a>
 </div>
 <ul class="rows">
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/airbyte">Airbyte</a>
 <span class="dom">airbyte.com</span></div>
 <div class="desc">Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge gold flat">CLI: airbyte-config (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/attio">Attio</a>
 <span class="dom">attio.com</span></div>
 <div class="desc">A CRM built around a flexible, user-defined data model (not fixed contact/company/deal objects) with real-time sync and an API-first architecture.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: attio</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/cargo">Cargo</a>
 <span class="dom">getcargo.ai</span></div>
 <div class="desc">A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, version, and automate go-to-market logic - lead sourcing, enrichment, scoring, routing, CRM sync - as code, run by AI agents.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: cargo</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/census">Census (now operates as &quot;Fivetran Activations&quot;)</a>
 <span class="dom">getcensus.com</span></div>
 <div class="desc">Was a standalone reverse-ETL tool for syncing warehouse data (Snowflake, BigQuery, etc.) into GTM tools like Salesforce/HubSpot without code; the product now lives inside Fivetran as &quot;Activations,&quot; same...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/fivetran">Fivetran</a>
 <span class="dom">fivetran.com</span></div>
 <div class="desc">Managed ELT pipeline platform; for GTM purposes, the relevant piece is its Salesforce/HubSpot/Marketo/Outreach/Salesloft/Gong/Zendesk connectors that land CRM and GTM-tool data in a warehouse, plus...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge gold flat">CLI: fivetran-cli (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/google-bigquery">Google BigQuery</a>
 <span class="dom">cloud.google.com</span></div>
 <div class="desc">Google Cloud&#x27;s serverless data warehouse, where many RevOps teams land CRM, product and billing data for modelling and reporting; a first-party remote MCP server exposes dataset and table metadata and SQL...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/hightouch">Hightouch</a>
 <span class="dom">hightouch.com</span></div>
 <div class="desc">A CDP/reverse-ETL platform that syncs warehouse data (Snowflake, BigQuery, Databricks, Redshift) to 300+ downstream tools (ad platforms, CRMs, marketing automation) for audience activation and personalization.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/hubspot">HubSpot</a>
 <span class="dom">hubspot.com</span></div>
 <div class="desc">An all-in-one CRM/marketing/sales/service platform with contacts, deals, marketing automation, and a public REST API/developer platform.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: hs</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/monday-com">monday.com (monday CRM)</a>
 <span class="dom">monday.com</span></div>
 <div class="desc">A work-management platform whose CRM product runs pipelines, contacts, accounts and deal activity as boards and items, with a first-party remote MCP server that lets an AI client read and update that data on...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: mapps</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/n8n">n8n</a>
 <span class="dom">n8n.io</span></div>
 <div class="desc">A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/pipedrive">Pipedrive</a>
 <span class="dom">pipedrive.com</span></div>
 <div class="desc">A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge gold flat">CLI: pipedrive (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/retool">Retool</a>
 <span class="dom">retool.com</span></div>
 <div class="desc">A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a GTM context, used to build custom RevOps tooling - lead-routing consoles, deal-desk approval apps,...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: retool</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/snowflake">Snowflake (Cortex AI, as GTM/RevOps warehouse layer)</a>
 <span class="dom">snowflake.com</span></div>
 <div class="desc">Cloud data warehouse that acts as the central store where GTM data (CRM, product usage, marketing, support) gets modeled and joined; increasingly the platform other reverse-ETL tools (Hightouch, Fivetran...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: snowflake-cli</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/zapier">Zapier</a>
 <span class="dom">zapier.com</span></div>
 <div class="desc">A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate agent product.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge teal flat">CLI: zapier-platform</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/affinity">Affinity</a>
 <span class="dom">affinity.co</span></div>
 <div class="desc">A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/close">Close (Close CRM)</a>
 <span class="dom">close.com</span></div>
 <div class="desc">A sales CRM built for inside-sales teams with built-in calling, email, and SMS alongside pipeline/lead management - a communications-plus-CRM combo rather than a pure system of record.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/dbt">dbt (dbt platform remote MCP)</a>
 <span class="dom">getdbt.com</span></div>
 <div class="desc">The transformation layer of the modern data stack: SQL models, tests and documentation compiled and run against a warehouse, with a hosted &quot;dbt platform&quot; (formerly dbt Cloud) that adds scheduling, a Semantic...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge teal flat">CLI: dbt</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/hex">Hex</a>
 <span class="dom">hex.tech</span></div>
 <div class="desc">A collaborative data workspace (SQL and Python notebooks, published apps, a conversational &quot;Threads&quot; analysis mode) used by data and RevOps teams to answer questions on top of the warehouse.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/highlevel">HighLevel (GoHighLevel)</a>
 <span class="dom">gohighlevel.com</span></div>
 <div class="desc">An all-in-one agency CRM covering contacts, pipelines, conversations, calendars, payments and campaign automation across many client sub-accounts from one place.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge gold flat">CLI: gohighlevel (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/make">Make</a>
 <span class="dom">make.com</span></div>
 <div class="desc">A visual, node-based workflow automation platform (&quot;scenarios&quot;) connecting 3,000+ apps, with newer AI-agent and natural-language-build features layered on top.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/microsoft-dynamics-365-sales">Microsoft Dynamics 365 Sales</a>
 <span class="dom">microsoft.com</span></div>
 <div class="desc">Microsoft&#x27;s enterprise CRM for sales, built on Dataverse and the Power Platform, covering leads, opportunities, accounts and forecasting, with a first-party MCP server that lets Copilot Studio agents and other...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/nutshell-crm">Nutshell CRM</a>
 <span class="dom">nutshell.com</span></div>
 <div class="desc">An SMB CRM covering leads, companies, people, pipelines and activity reporting, with email and calendar sync and built-in marketing tools, and a read-only MCP server that lets an assistant search that data and...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/octave">Octave</a>
 <span class="dom">octavehq.com</span></div>
 <div class="desc">A GTM context engine that stores a company&#x27;s ICP, personas, positioning, competitors, proof points, and objections as one structured model, then serves that model to sequences, scripts, and AI agents at...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/ortto">Ortto</a>
 <span class="dom">ortto.com</span></div>
 <div class="desc">A combined customer data platform and marketing automation tool for building multi-channel journeys across email, SMS, push, in-app and live chat.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/superblocks">Superblocks</a>
 <span class="dom">superblocks.com</span></div>
 <div class="desc">A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing prototypes from Claude, Lovable, or Replit) while giving...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/zoho-crm">Zoho CRM</a>
 <span class="dom">zoho.com</span></div>
 <div class="desc">A full CRM platform for leads, contacts, deals, workflow automation and customisation, sold at the low end of the market, which in 2026 shipped four separately scoped MCP servers so an agent can be given...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/looker">Looker</a>
 <span class="dom">cloud.google.com</span></div>
 <div class="desc">Google Cloud&#x27;s governed BI platform (LookML semantic model, explores, Looks, dashboards, embedded analytics) that sits on top of a warehouse; two first-party MCP routes exist, a local MCP Toolbox prebuilt...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/salesforce-agentforce">Salesforce (core CRM/platform) + Agentforce</a>
 <span class="dom">salesforce.com</span></div>
 <div class="desc">A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on top for configuring autonomous AI agents that read...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge teal flat">CLI: sf</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/syncari">Syncari</a>
 <span class="dom">syncari.com</span></div>
 <div class="desc">An &quot;agentic master data management&quot; (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to both humans (dashboards/BI) and AI agents.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/default">Default</a>
 <span class="dom">default.com</span></div>
 <div class="desc">An inbound go-to-market platform unifying revenue-stack data (a &quot;Tables&quot; data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling.</div>
-<div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
+<div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/openprise">Openprise</a>
 <span class="dom">openprisetech.com</span></div>
 <div class="desc">A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack.</div>

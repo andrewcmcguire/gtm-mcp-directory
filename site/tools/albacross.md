@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -75,6 +79,26 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/albacross](https://github.com/albacross)
+
+**On GitHub**
+
+[github.com/albacross](https://github.com/albacross) tied to the vendor by rule 2, account website https://albacross.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-06-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [n8n-nodes-albacross](https://github.com/albacross/n8n-nodes-albacross) | plugin or integration | | 2 | 2026-06-04 | 0.1.1 |
+| [gtm-tracking](https://github.com/albacross/gtm-tracking) | other | Google Tag Manager Template for Tracking Script | 0 | 2020-06-01 | |
+| [gtm-reveal](https://github.com/albacross/gtm-reveal) | other | Google Tag Manager Template for Reveal Script | 0 | 2020-06-01 | |
+| [joomla_plugin](https://github.com/albacross/joomla_plugin) | plugin or integration | Joomla plugin for albacross integration | 0 | 2018-07-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

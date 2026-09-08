@@ -166,6 +166,7 @@
 <div class="stats" style="margin-top:26px">
 <div class="stat"><div class="n">14</div><div class="k">entries in this file</div></div>
 <div class="stat is-gold"><div class="n">5</div><div class="k">Official MCP</div></div><div class="stat is-teal"><div class="n">2</div><div class="k">Community MCP</div></div><div class="stat is-mute"><div class="n">2</div><div class="k">MCP unknown</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">MCP not applicable</div></div><div class="stat is-copper"><div class="n">4</div><div class="k">No MCP found</div></div>
+<div class="stat is-teal"><div class="n">0</div><div class="k">ship a CLI (official) as of 2026-09-08</div></div>
 </div>
 <div class="stats" style="margin-top:1px"><div class="stat is-teal"><div class="n">2</div><div class="k">Free to start</div></div><div class="stat is-gold"><div class="n">4</div><div class="k">Paid, self-serve</div></div><div class="stat is-copper"><div class="n">2</div><div class="k">Enterprise only</div></div><div class="stat is-mute"><div class="n">6</div><div class="k">Gate unknown</div></div></div>
 <p class="note">Source file: 10-scheduling-routing.md &middot; content sha256
@@ -176,85 +177,85 @@ tools_recount.py at build time.</p>
 <a class="btn ghost" href="../jobs/read-calendar-availability">Read calendar availability</a><a class="btn ghost" href="../jobs/book-a-meeting">Book a meeting</a><a class="btn ghost" href="../jobs/route-inbound-lead">Route an inbound lead</a><a class="btn ghost" href="../jobs/score-and-prioritize-leads">Score and prioritize leads</a>
 </div>
 <ul class="rows">
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/cal-com">Cal.com</a>
 <span class="dom">cal.com</span></div>
 <div class="desc">Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source product and as hosted SaaS.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/calendly">Calendly</a>
 <span class="dom">calendly.com</span></div>
 <div class="desc">Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep&#x27;s calendar based on defined availability rules.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge gold flat">CLI: calendly-axi (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/chili-piper">Chili Piper</a>
 <span class="dom">chilipiper.com</span></div>
 <div class="desc">Inbound lead-routing and instant meeting-booking platform (&quot;Concierge&quot;) that qualifies web-form leads and books them directly onto the right rep&#x27;s calendar in real time.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/reclaim-ai">Reclaim.ai</a>
 <span class="dom">reclaim.ai</span></div>
 <div class="desc">AI calendar app that auto-schedules tasks, habits, and focus time around a user&#x27;s existing meetings, dynamically defending and rebalancing the calendar as things change.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge mute" href="../gates/unknown">Gate unknown</a><span class="badge gold flat">CLI: reclaim (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/revenuehero">RevenueHero</a>
 <span class="dom">revenuehero.io</span></div>
 <div class="desc">Instant meeting-scheduling and inbound-lead-routing tool that qualifies web-form leads against CRM data and books them directly onto the right rep&#x27;s calendar without a redirect.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/motion">Motion</a>
 <span class="dom">usemotion.com</span></div>
 <div class="desc">AI-driven work-management app that auto-schedules a user&#x27;s tasks, projects, and meetings onto their calendar around priorities and deadlines, bundled with note-taking and document tools.</div>
 <div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/savvycal">SavvyCal</a>
 <span class="dom">savvycal.com</span></div>
 <div class="desc">Prospect-facing scheduling/booking-page tool (Calendly competitor) built around letting invitees overlay their own calendar on the organizer&#x27;s availability, with Collective/Round-Robin/Group team-scheduling...</div>
 <div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/default">Default</a>
 <span class="dom">default.com</span></div>
 <div class="desc">&quot;Agentic GTM infrastructure&quot; platform unifying CRM, website-form, and enrichment data into one identity-resolved model, with lead routing, scheduling, enrichment, and workflow automation built on top.</div>
-<div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge xref flat">Cross listed, canonical home is RevOps Infra</span></div>
+<div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge xref flat">Cross listed, canonical home is RevOps Infra</span><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/leandata">LeanData</a>
 <span class="dom">leandata.com</span></div>
 <div class="desc">GTM lead-routing/orchestration platform for Salesforce-centric revenue teams - routes leads, signals, and buying-group activity to the right rep/queue across the customer lifecycle, plus a scheduling add-on...</div>
 <div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/clockwise">Clockwise</a>
 <span class="dom">getclockwise.com</span></div>
 <div class="desc">Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended Focus Time, and blocked task time factoring in each person&#x27;s working hours/preferences. THE PRODUCT...</div>
 <div class="badges"><a class="badge mute" href="../mcp/n-a">MCP not applicable</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/clara">Clara (Clara Labs)</a>
 <span class="dom">claralabs.com</span></div>
 <div class="desc">AI scheduling assistant reached by CC&#x27;ing &quot;Clara&quot; on an email thread - it reads the thread, proposes times, handles replies, and confirms meetings across Google Workspace, Outlook, Zoom, and Teams without a...</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/doodle">Doodle</a>
 <span class="dom">doodle.com</span></div>
 <div class="desc">General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1 booking pages - used more broadly than GTM specifically (events, recruiting, ops)...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/unknown">Gate unknown</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/kronologic">Kronologic</a>
 <span class="dom">kronologic.com</span></div>
 <div class="desc">Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep&#x27;s behalf and negotiates meeting times over email, aimed mainly at customer-expansion motions (renewals,...</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/trevor-ai">Trevor AI</a>
 <span class="dom">trevorai.com</span></div>
 <div class="desc">AI planning app that merges task management and calendar scheduling - connects task lists (Todoist, Google Tasks, Microsoft To-Do) and calendars (Google, Outlook, Microsoft 365) into one auto-scheduled daily...</div>

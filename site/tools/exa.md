@@ -18,6 +18,7 @@ Exa
 [Data & Enrichment](../categories/data-enrichment.md)
 BENCH-TESTED
 Checked 2026-09-03
+CLI: exa-cli (community)
 
 > **BENCH-TESTED** Andrew personally ran it on a stated date. Cannot be bought. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -92,6 +93,30 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: exa-cli
+- **Status**: community CLI, third party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install exa-cli
+```
+
+quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-08, via pypi, a third party source
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: exa-cli 0.1.0, third party](https://pypi.org/project/exa-cli/)
+- [pypi: exa-cli 0.1.0, third party](https://pypi.org/project/exa-cli/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -117,6 +142,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
+
+**On GitHub**
+
+[github.com/exa-labs](https://github.com/exa-labs) tied to the vendor by rule 1, account website https://exa.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 50, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [agent-skills](https://github.com/exa-labs/agent-skills) | other | Official skills for the Exa API. | 46 | 2026-09-03 | |
+| [exa-js](https://github.com/exa-labs/exa-js) | SDK | The Official Exa Javascript SDK | 130 | 2026-09-03 | v2.20.0 |
+| [exa-py](https://github.com/exa-labs/exa-py) | SDK | The Official Exa Python Package | 233 | 2026-09-03 | v2.20.0 |
+| [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) | MCP server | Exa MCP for web search and web crawling! | 4,987 | 2026-08-21 | |
+| [company-researcher](https://github.com/exa-labs/company-researcher) | other | Company Researcher tool helps you instantly understand any company inside out. | 1,494 | 2026-08-08 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

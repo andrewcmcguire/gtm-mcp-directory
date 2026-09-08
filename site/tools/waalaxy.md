@@ -84,6 +84,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -109,6 +113,14 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/globodai-group/mcp-server-waalaxy](https://github.com/globodai-group/mcp-server-waalaxy)
+
+**On GitHub**
+
+No GitHub organisation could be tied to waalaxy.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+1 candidate account seen and rejected by the evidence rules: globodai-group. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

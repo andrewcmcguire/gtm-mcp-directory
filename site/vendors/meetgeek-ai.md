@@ -38,6 +38,10 @@ Vendor domain: [meetgeek.ai](https://meetgeek.ai) · vendor page id meetgeek-ai
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/meetgeekai](https://github.com/meetgeekai), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,45 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.meetgeek.ai/mcp](https://mcp.meetgeek.ai/mcp) (MeetGeek, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [MeetGeek](../tools/meetgeek.md) meetgeek community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+npm install -g meetgeek-cli
+```
+
+quoted from [https://www.npmjs.com/package/meetgeek-cli](https://www.npmjs.com/package/meetgeek-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint: meetgeek auth
+
+7 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/meetgeek.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/meetgeekai](https://github.com/meetgeekai) tied to the vendor by rule 1, the directory already classed this repo first-party and its owner is an Organization, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-03-12
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [onechart](https://github.com/meetgeekai/onechart) | other | | 0 | 2026-03-12 | v1.0.13 |
+| [meetgeek-mcp-server](https://github.com/meetgeekai/meetgeek-mcp-server) | MCP server | Official MeetGeek MCP Server | 23 | 2026-02-05 | |
+| [meetgeekai-n8n-node](https://github.com/meetgeekai/meetgeekai-n8n-node) | SDK | n8n community node for integrating with the Meetgeek app | 4 | 2025-10-17 | |
+| [meetgeek-mcp-test](https://github.com/meetgeekai/meetgeek-mcp-test) | MCP server | | 0 | 2025-07-23 | |
+| [release-action](https://github.com/meetgeekai/release-action) | infrastructure | | 0 | 2024-06-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

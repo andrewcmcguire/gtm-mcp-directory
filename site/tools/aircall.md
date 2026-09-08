@@ -18,6 +18,7 @@ Aircall
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: aircall (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -232,6 +233,41 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: aircall
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g aircall-cli
+```
+
+quoted from [https://www.npmjs.com/package/aircall-cli](https://www.npmjs.com/package/aircall-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint seen on the page:
+
+aircall auth
+
+Subcommands seen with the binary:
+
+auth, calls, ping, users
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: aircall-cli 0.2.0, third party](https://www.npmjs.com/package/aircall-cli)
+
+Where it was documented:
+
+- [https://github.com/bryanryu1/Aircall-CLI](https://github.com/bryanryu1/Aircall-CLI) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -257,6 +293,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/themobilefirstco/aircall-mcp-server](https://github.com/themobilefirstco/aircall-mcp-server)
+
+**On GitHub**
+
+[github.com/aircall](https://github.com/aircall) tied to the vendor by rule 3, account website https://aircall.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-05-26
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [aircall-everywhere](https://github.com/aircall/aircall-everywhere) | SDK | SDK to embed and communicate to Aircall phone in any web page | 39 | 2026-05-26 | v2.0.6 |
+| [aircall-infosecmanager-takehome-submission-template](https://github.com/aircall/aircall-infosecmanager-takehome-submission-template) | docs or examples | Template for candidates to clone to submit their take home exercise deliverables | 0 | 2026-01-12 | |
+| [frontend-hiring-test](https://github.com/aircall/frontend-hiring-test) | app | | 46 | 2025-12-15 | |
+| [ios-test](https://github.com/aircall/ios-test) | other | | 0 | 2024-02-23 | |
+| [backend-test-5](https://github.com/aircall/backend-test-5) | other | | 5 | 2023-01-19 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

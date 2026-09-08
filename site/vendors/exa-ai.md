@@ -38,6 +38,10 @@ Vendor domain: [exa.ai](https://exa.ai) · vendor page id exa-ai
 
 - **Bench tested**: 1 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/exa-labs](https://github.com/exa-labs), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) (Exa, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Exa](../tools/exa.md) exa-cli community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install exa-cli
+```
+
+quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-08, via pypi, a third party source
+
+harvested 2026-09-08, all on the [tool page](../tools/exa.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/exa-labs](https://github.com/exa-labs) tied to the vendor by rule 1, account website https://exa.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 50, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [agent-skills](https://github.com/exa-labs/agent-skills) | other | Official skills for the Exa API. | 46 | 2026-09-03 | |
+| [exa-js](https://github.com/exa-labs/exa-js) | SDK | The Official Exa Javascript SDK | 130 | 2026-09-03 | v2.20.0 |
+| [exa-py](https://github.com/exa-labs/exa-py) | SDK | The Official Exa Python Package | 233 | 2026-09-03 | v2.20.0 |
+| [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) | MCP server | Exa MCP for web search and web crawling! | 4,987 | 2026-08-21 | |
+| [company-researcher](https://github.com/exa-labs/company-researcher) | other | Company Researcher tool helps you instantly understand any company inside out. | 1,494 | 2026-08-08 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -18,6 +18,7 @@ Vector (vector.co)
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: vector_cli (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -52,6 +53,40 @@ https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-
 
 - [https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does](https://www.vector.co/blog/we-built-an-mcp-for-marketing-heres-what-it-actually-does)
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: vector_cli
+- **Status**: community CLI, third party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install vector_cli
+```
+
+quoted from [https://pypi.org/project/vector_cli/](https://pypi.org/project/vector_cli/) on 2026-09-08, via pypi, a third party source
+
+```
+npm i client-vector-search
+```
+
+quoted from [https://github.com/yusufhilmi/client-vector-search](https://github.com/yusufhilmi/client-vector-search) on 2026-09-08, via npm, a third party source
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: vector_cli 0.2.0, third party](https://pypi.org/project/vector_cli/)
+- [pypi: vector_cli 0.2.0, third party](https://pypi.org/project/vector_cli/)
+
+Where it was documented:
+
+- [https://github.com/yusufhilmi/client-vector-search](https://github.com/yusufhilmi/client-vector-search) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -73,6 +108,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to vector.co with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+5 candidate accounts seen and rejected by the evidence rules: vector, vectordotdev, VectorInstitute, Vector35, qdrant. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

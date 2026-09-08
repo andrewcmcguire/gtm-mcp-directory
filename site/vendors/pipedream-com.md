@@ -38,6 +38,10 @@ Vendor domain: [pipedream.com](https://pipedream.com) · vendor page id pipedrea
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/PipedreamHQ](https://github.com/PipedreamHQ), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.pipedream.com](https://mcp.pipedream.com) (Pipedream MCP, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/PipedreamHQ](https://github.com/PipedreamHQ) tied to the vendor by rule 3, account website https://pipedream.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 24, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [pipedream](https://github.com/PipedreamHQ/pipedream) | CLI | Connect APIs, remarkably fast. Free for developers. | 11,680 | 2026-09-08 | |
+| [pipedream-sdk-java](https://github.com/PipedreamHQ/pipedream-sdk-java) | SDK | Java SDK for Pipedream | 2 | 2026-09-03 | v2.1.3 |
+| [pipedream-sdk-python](https://github.com/PipedreamHQ/pipedream-sdk-python) | SDK | Python SDK for Pipedream | 14 | 2026-09-03 | v2.1.20 |
+| [pipedream-sdk-typescript](https://github.com/PipedreamHQ/pipedream-sdk-typescript) | SDK | TypeScript SDK for Pipedream | 9 | 2026-09-03 | v3.1.6 |
+| [pipedream-connect-examples](https://github.com/PipedreamHQ/pipedream-connect-examples) | docs or examples | Collection of example apps showcasing the pipedream SDKs. Learn more https://pipedream.com/docs/connect. | 28 | 2026-08-20 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

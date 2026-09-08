@@ -18,6 +18,7 @@ Tidio
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
 Checked 2026-09-02
+CLI (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -78,6 +79,27 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: not seen in a usage line
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+No install command was quoted by the harvest. The status rests on the package or page linked below.
+
+Login or key hint seen on the page:
+
+Tidio login
+
+Where it was documented:
+
+- [https://github.com/odedNea1/tidio-cli-chat](https://github.com/odedNea1/tidio-cli-chat) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -103,6 +125,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/TidioPoland/tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector)
+
+**On GitHub**
+
+[github.com/TidioPoland](https://github.com/TidioPoland) tied to the vendor by rule 1, account website https://www.tidio.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 8, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-25
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [eslint-plugin-tidio](https://github.com/TidioPoland/eslint-plugin-tidio) | plugin or integration | | 4 | 2026-08-25 | v6.0.0 |
+| [eslint-plugin-tidio-additional-rules](https://github.com/TidioPoland/eslint-plugin-tidio-additional-rules) | plugin or integration | | 0 | 2026-08-25 | v3.0.0 |
+| [tidio-lp-tracking](https://github.com/TidioPoland/tidio-lp-tracking) | other | Tracking for LPs | 0 | 2026-03-27 | |
+| [tidio-widget-react-native-expo](https://github.com/TidioPoland/tidio-widget-react-native-expo) | docs or examples | Example React Native (Expo) app showcasing Tidio Widget integration. | 0 | 2026-03-11 | |
+| [tidio-mcp-connector](https://github.com/TidioPoland/tidio-mcp-connector) | MCP server | Connect AI assistants to Tidio with one command and start offering instant support through chatbot and live chat... | 1 | 2026-01-19 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

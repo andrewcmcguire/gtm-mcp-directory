@@ -63,6 +63,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -89,6 +93,27 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/calcom/cal-mcp](https://github.com/calcom/cal-mcp)
 - [https://github.com/calcom/cal-mcp/blob/main/README.md](https://github.com/calcom/cal-mcp/blob/main/README.md)
+
+**On GitHub**
+
+[github.com/calcom](https://github.com/calcom) tied to the vendor by rule 2, account website https://cal.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 27, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [sans](https://github.com/calcom/sans) | other | The home for our Cal Sans font. | 1,612 | 2026-09-08 | v1.0.0 |
+| [cal.diy](https://github.com/calcom/cal.diy) | infrastructure | Scheduling infrastructure for absolutely everyone. | 48,278 | 2026-09-07 | v6.2.0 |
+| [help](https://github.com/calcom/help) | other | cal.com/help | 6 | 2026-09-07 | |
+| [companion](https://github.com/calcom/companion) | other | | 27 | 2026-09-05 | |
+| [handbook](https://github.com/calcom/handbook) | other | our handbook.cal.com | 28 | 2026-07-21 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

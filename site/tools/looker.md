@@ -78,6 +78,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -103,6 +107,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox)
+
+**On GitHub**
+
+[github.com/looker-open-source](https://github.com/looker-open-source) tied to the vendor by rule 3, account website https://cloud.google.com/looker has the vendor's domain, confidence strong
+
+- **Public repositories**: 86, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [viz-report-table-marketplace-open-source](https://github.com/looker-open-source/viz-report-table-marketplace-open-source) | other | | 17 | 2026-09-07 | v1.1.4 |
+| [viz-force_directed_graph-marketplace](https://github.com/looker-open-source/viz-force_directed_graph-marketplace) | other | | 7 | 2026-09-07 | |
+| [app-lookml-diagram](https://github.com/looker-open-source/app-lookml-diagram) | plugin or integration | An "ERD for LookML". Now available for download on the Looker Marketplace. | 23 | 2026-09-07 | v2.0.9 |
+| [app-data-dictionary](https://github.com/looker-open-source/app-data-dictionary) | app | | 14 | 2026-09-07 | v2.1.3 |
+| [extension-gen-ai](https://github.com/looker-open-source/extension-gen-ai) | plugin or integration | Looker Extension GenAI - using LLMs to make exploration easier and getting dashboard insights | 94 | 2026-09-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

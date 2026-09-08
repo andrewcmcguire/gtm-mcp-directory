@@ -22,6 +22,8 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 - **Community MCP**: 2
 - **No MCP found**: 5
 
+- **ship a CLI (official) as of 2026-09-08**: 2
+
 - **Free to start**: 4
 - **Paid, self-serve**: 7
 - **Enterprise only**: 3
@@ -38,21 +40,21 @@ Source file: 13-proposals-deals.md · content sha256 9eb204ee3613b95e... · coun
 
 - [Common Paper](../tools/common-paper.md) commonpaper.com Contract system built for startups - standardized, mutually-agreeable contract templates (MSAs, DPAs, order forms) plus a workflow/e-signature layer, positioned as a faster, less lawyer-heavy alternative to a... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
-- [PandaDoc](../tools/pandadoc.md) pandadoc.com Document builder/e-signature platform for proposals, quotes, and contracts, with AI-assisted content generation and CRM-linked workflows. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+- [PandaDoc](../tools/pandadoc.md) pandadoc.com Document builder/e-signature platform for proposals, quotes, and contracts, with AI-assisted content generation and CRM-linked workflows. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: pandadoc (community)
 
 - [Trumpet (sendtrumpet.com)](../tools/trumpet.md) sendtrumpet.com Digital sales room / "Pod" builder for buyer-facing deal collateral, tracking granular buyer engagement (clicks, time-on-page, returning champions) across the deal cycle. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Arphie](../tools/arphie.md) arphie.ai AI-native RFP/RFx/security-questionnaire response software, positioned as a faster-drafting alternative/competitor to Loopio and Responsive. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [DocuSign](../tools/docusign.md) docusign.com E-signature and Intelligent Agreement Management (IAM) platform; the CLM/AI side covered here is agreement creation, status tracking, and AI-assisted querying/analysis of agreement data via MCP, distinct from... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+- [DocuSign](../tools/docusign.md) docusign.com E-signature and Intelligent Agreement Management (IAM) platform; the CLM/AI side covered here is agreement creation, status tracking, and AI-assisted querying/analysis of agreement data via MCP, distinct from... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI: docusign
 
 - [Offorte](../tools/offorte.md) offorte.com Proposal software (templates, interactive web proposals, e-signature, open and read tracking, automation sets) for small businesses, with a REST API, webhooks and an MCP server published by the vendor. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Responsive (formerly RFPIO)](../tools/responsive.md) responsive.io RFP, DDQ, and security-questionnaire response-management platform with an approved-content library ("Library") and AI-assisted drafting grounded in that governed content. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+- [Responsive (formerly RFPIO)](../tools/responsive.md) responsive.io RFP, DDQ, and security-questionnaire response-management platform with an approved-content library ("Library") and AI-assisted drafting grounded in that governed content. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI (community)
 
-- [Ironclad](../tools/ironclad.md) ironcladapp.com Contract lifecycle management (CLM) platform for drafting, negotiating, and managing contracts with workflow automation across legal, sales, and procurement teams - sales-adjacent rather than a sales tool... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Ironclad](../tools/ironclad.md) ironcladapp.com Contract lifecycle management (CLM) platform for drafting, negotiating, and managing contracts with workflow automation across legal, sales, and procurement teams - sales-adjacent rather than a sales tool... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: rivet
 
-- [DealHub (DealHub AI)](../tools/dealhub.md) dealhub.io CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time pricing logic, plus optional CLM and subscription-billing modules. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+- [DealHub (DealHub AI)](../tools/dealhub.md) dealhub.io CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time pricing logic, plus optional CLM and subscription-billing modules. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · CLI (community)
 
 - [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
@@ -62,6 +64,6 @@ Source file: 13-proposals-deals.md · content sha256 9eb204ee3613b95e... · coun
 
 - [Proposify](../tools/proposify.md) proposify.com Proposal-creation and e-signature software with template libraries, approval workflows, and CRM/Salesforce integration for sales teams. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+- [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · CLI: qwilr (community)
 
 - [Aligned (alignedup.com)](../tools/aligned.md) alignedup.com Digital sales room platform for buyer collaboration, mutual action plans, and centralized deal content, competing directly with Trumpet and Recapped.io in the same product category. [No MCP found](../mcp/none-found.md) · [Gate not applicable](../gates/n-a.md)

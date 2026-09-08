@@ -38,6 +38,10 @@ Vendor domain: [wiza.co](https://wiza.co) · vendor page id wiza-co
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/WizaCo](https://github.com/WizaCo), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -80,6 +84,29 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.wiza.co/mcp](https://mcp.wiza.co/mcp) (Wiza, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/WizaCo](https://github.com/WizaCo) tied to the vendor by rule 3, account website Wiza.co has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-07-14
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [n8n-nodes-wiza](https://github.com/WizaCo/n8n-nodes-wiza) | plugin or integration | | 0 | 2026-07-14 | |
+| [letter_opener_web-s3](https://github.com/WizaCo/letter_opener_web-s3) | app | | 0 | 2025-10-26 | |
+| [letter_opener_web-redis](https://github.com/WizaCo/letter_opener_web-redis) | app | | 0 | 2025-10-26 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

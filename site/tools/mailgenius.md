@@ -18,6 +18,7 @@ MailGenius
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: genius (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,6 +51,36 @@ mcp_url, verbatim from the file:
 
 n/a
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: genius
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g mailgenius-cli
+```
+
+quoted from [https://www.npmjs.com/package/mailgenius-cli](https://www.npmjs.com/package/mailgenius-cli) on 2026-09-08, via npm, a third party source
+
+```
+pip install mailgenius
+```
+
+quoted from [https://pypi.org/project/mailgenius/](https://pypi.org/project/mailgenius/) on 2026-09-08, via pypi, a third party source
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: mailgenius-cli 0.1.0, third party](https://www.npmjs.com/package/mailgenius-cli)
+- [pypi: mailgenius 0.1.0, third party](https://pypi.org/project/mailgenius/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -71,6 +102,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to mailgenius.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+1 candidate account seen and rejected by the evidence rules: mailgenius-com. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

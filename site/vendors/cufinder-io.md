@@ -38,6 +38,10 @@ Vendor domain: [cufinder.io](https://cufinder.io) · vendor page id cufinder-io
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/CUFinder](https://github.com/CUFinder), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.cufinder.io/mcp](https://mcp.cufinder.io/mcp) (CUFinder, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/CUFinder](https://github.com/CUFinder) tied to the vendor by rule 3, account website https://cufinder.io/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 7, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-19
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [cufinder-ruby](https://github.com/CUFinder/cufinder-ruby) | SDK | Ruby SDK for the CUFinder API. | 3 | 2026-08-19 | v1.3.0 |
+| [cufinder-rust](https://github.com/CUFinder/cufinder-rust) | SDK | Rust SDK for the CUFinder API. | 3 | 2026-08-19 | v1.3.0 |
+| [cufinder-go](https://github.com/CUFinder/cufinder-go) | SDK | Golang SDK for the CUFinder API. | 3 | 2026-08-18 | v1.3.0 |
+| [cufinder-py](https://github.com/CUFinder/cufinder-py) | SDK | Python SDK for the CUFinder API. | 3 | 2026-08-17 | v1.3.0 |
+| [cufinder-ts](https://github.com/CUFinder/cufinder-ts) | SDK | Typescript SDK for the CUFinder API. | 4 | 2026-08-16 | v1.6.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

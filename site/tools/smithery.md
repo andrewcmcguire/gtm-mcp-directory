@@ -18,6 +18,7 @@ Smithery
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: smithery
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -52,6 +53,34 @@ https://smithery.ai
 
 - [https://smithery.ai](https://smithery.ai)
 
+**Command line**
+
+- **Binary**: smithery
+- **Status**: official CLI, first party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install smithery
+```
+
+quoted from [https://pypi.org/project/smithery/](https://pypi.org/project/smithery/) on 2026-09-08, via pypi
+
+```
+brew install smithery-cli
+```
+
+quoted from [https://formulae.brew.sh/formula/smithery-cli](https://formulae.brew.sh/formula/smithery-cli) on 2026-09-08, via brew
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: smithery 0.4.4](https://pypi.org/project/smithery/)
+- [brew: smithery-cli 4.11.1](https://formulae.brew.sh/formula/smithery-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -73,6 +102,17 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/smithery-ai](https://github.com/smithery-ai) tied to the vendor by rule 3, account website https://smithery.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 0, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: not recorded
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

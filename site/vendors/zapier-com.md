@@ -38,6 +38,10 @@ Vendor domain: [zapier.com](https://zapier.com) · vendor page id zapier-com
 
 - **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/zapier](https://github.com/zapier), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 2**
@@ -94,6 +98,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) (Zapier MCP, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Zapier](../tools/zapier.md) zapier-platform official CLI
+
+```
+npx zapier
+```
+
+quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-08, via npx
+
+Login or key hint: handles auth
+
+2 more install commands, harvested 2026-09-08, all on the [tool page](../tools/zapier.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/zapier](https://github.com/zapier) tied to the vendor by rule 2, account website https://zapier.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 82, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 5 of them
+- **Look like CLIs**: 5 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [zapier-platform](https://github.com/zapier/zapier-platform) | CLI | The toolkit for you to build an integration on Zapier | 551 | 2026-09-08 | |
+| [kubechecks](https://github.com/zapier/kubechecks) | infrastructure | Check your Kubernetes changes before they hit the cluster | 612 | 2026-09-02 | v3.4.0 |
+| [connectors](https://github.com/zapier/connectors) | CLI | Connect your agent to the apps you already use - with or without Zapier. | 164 | 2026-08-25 | |
+| [agent-skills](https://github.com/zapier/agent-skills) | other | Agent skills for working with Zapier, maintained by Zapier teams. Indexed by skills.sh. | 17 | 2026-08-25 | |
+| [marketplace](https://github.com/zapier/marketplace) | CLI | Install Zapier in your coding agent via the Claude Code, Codex, and Copilot CLI marketplaces. | 13 | 2026-08-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -18,6 +18,7 @@ Zapier
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: zapier-platform
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -69,6 +70,48 @@ The count below still carries this entry on the unmeasured side, because there i
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: zapier-platform
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npx zapier
+```
+
+quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-08, via npx
+
+```
+npm install -g zapier-platform-cli
+```
+
+quoted from [https://www.npmjs.com/package/zapier-platform-cli](https://www.npmjs.com/package/zapier-platform-cli) on 2026-09-08, via npm
+
+```
+npm install -g @zapier/zapier-sdk-cli
+```
+
+quoted from [https://www.npmjs.com/package/@zapier/zapier-sdk-cli](https://www.npmjs.com/package/@zapier/zapier-sdk-cli) on 2026-09-08, via npm
+
+Login or key hint seen on the page:
+
+handles auth
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: zapier-platform-cli 19.1.0](https://www.npmjs.com/package/zapier-platform-cli)
+- [npm: @zapier/zapier-sdk-cli 0.81.0](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
+
+Where it was documented:
+
+- [https://zapier.com/sdk](https://zapier.com/sdk) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -94,6 +137,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+
+**On GitHub**
+
+[github.com/zapier](https://github.com/zapier) tied to the vendor by rule 2, account website https://zapier.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 82, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 5 of them
+- **Look like CLIs**: 5 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [zapier-platform](https://github.com/zapier/zapier-platform) | CLI | The toolkit for you to build an integration on Zapier | 551 | 2026-09-08 | |
+| [kubechecks](https://github.com/zapier/kubechecks) | infrastructure | Check your Kubernetes changes before they hit the cluster | 612 | 2026-09-02 | v3.4.0 |
+| [connectors](https://github.com/zapier/connectors) | CLI | Connect your agent to the apps you already use - with or without Zapier. | 164 | 2026-08-25 | |
+| [agent-skills](https://github.com/zapier/agent-skills) | other | Agent skills for working with Zapier, maintained by Zapier teams. Indexed by skills.sh. | 17 | 2026-08-25 | |
+| [marketplace](https://github.com/zapier/marketplace) | CLI | Install Zapier in your coding agent via the Claude Code, Codex, and Copilot CLI marketplaces. | 13 | 2026-08-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

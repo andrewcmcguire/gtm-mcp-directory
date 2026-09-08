@@ -18,6 +18,7 @@ DocuSign
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: docusign
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -77,6 +78,51 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: docusign
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @docusign/cli
+```
+
+quoted from [https://www.npmjs.com/package/@docusign/cli](https://www.npmjs.com/package/@docusign/cli) on 2026-09-08, via npm
+
+```
+npm install -g @docusign/agreement-cli
+```
+
+quoted from [https://www.npmjs.com/package/@docusign/agreement-cli](https://www.npmjs.com/package/@docusign/agreement-cli) on 2026-09-08, via npm
+
+```
+npm install -g @docusign-it/sfpds
+```
+
+quoted from [https://www.npmjs.com/package/@docusign-it/sfpds](https://www.npmjs.com/package/@docusign-it/sfpds) on 2026-09-08, via npm
+
+```
+npm install docusign-esign
+```
+
+quoted from [https://github.com/docusign/docusign-esign-node-client](https://github.com/docusign/docusign-esign-node-client) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @docusign/cli 1.1.0-rc](https://www.npmjs.com/package/@docusign/cli)
+- [npm: @docusign/agreement-cli 1.2.1-beta](https://www.npmjs.com/package/@docusign/agreement-cli)
+- [npm: @docusign-it/sfpds 25.6.1](https://www.npmjs.com/package/@docusign-it/sfpds)
+
+Where it was documented:
+
+- [https://github.com/docusign/docusign-esign-node-client](https://github.com/docusign/docusign-esign-node-client) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -98,6 +144,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/docusign](https://github.com/docusign) tied to the vendor by rule 3, account website https://developers.docusign.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 145, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [PSA](https://github.com/docusign/PSA) | other | Repo for all PSA assets | 1 | 2026-09-04 | workshop-kit-v1 |
+| [community-code-along](https://github.com/docusign/community-code-along) | other | | 1 | 2026-09-04 | |
+| [code-examples-csharp](https://github.com/docusign/code-examples-csharp) | docs or examples | Docusign C# code examples and launcher | 64 | 2026-09-03 | v2018.12.18-1 |
+| [docusign-monitor-python-client](https://github.com/docusign/docusign-monitor-python-client) | SDK | | 2 | 2026-09-03 | v1.2.0 |
+| [docusign-monitor-csharp-client](https://github.com/docusign/docusign-monitor-csharp-client) | SDK | The Official DocuSign Charp Library used to interact with the Monitor REST API. | 0 | 2026-09-03 | v2.0.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

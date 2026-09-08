@@ -61,6 +61,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -82,6 +86,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/hex-inc](https://github.com/hex-inc) tied to the vendor by rule 3, account website https://hex.tech has the vendor's domain, confidence strong
+
+- **Public repositories**: 17, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [shared-workflows](https://github.com/hex-inc/shared-workflows) | infrastructure | Github Actions workflows that are shared across Hex repositories | 0 | 2026-09-08 | |
+| [hex-sl-utils](https://github.com/hex-inc/hex-sl-utils) | other | Hex semantic layer utilities | 0 | 2026-09-04 | |
+| [typeorm](https://github.com/hex-inc/typeorm) | other | ORM for TypeScript and JavaScript. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL... | 0 | 2026-09-03 | |
+| [action-context-toolkit](https://github.com/hex-inc/action-context-toolkit) | infrastructure | GitHub action for Hex context toolkit | 2 | 2026-09-02 | v2.1.0 |
+| [homebrew-hex-cli](https://github.com/hex-inc/homebrew-hex-cli) | CLI | Homebrew formula for official Hex CLI. | 0 | 2026-09-01 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

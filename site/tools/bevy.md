@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -71,6 +75,25 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/bevy](https://github.com/bevy) tied to the vendor by rule 3, account website https://bevy.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2022-05-02
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [photo-editor](https://github.com/bevy/photo-editor) | other | Photo editor with a lot of cool features | 897 | 2022-05-02 | 0.5 |
+| [mezzanine-fix-demo](https://github.com/bevy/mezzanine-fix-demo) | docs or examples | | 0 | 2022-01-13 | |
+| [photo-editor-android](https://github.com/bevy/photo-editor-android) | SDK | Photo Editor SDK contains a lot of features like edit, scale, rotate and draw on images like Instagram stories. | 560 | 2020-06-15 | v1.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

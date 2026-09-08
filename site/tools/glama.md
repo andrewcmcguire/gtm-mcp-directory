@@ -52,6 +52,10 @@ https://glama.ai/mcp/servers
 
 - [https://glama.ai/mcp/servers](https://glama.ai/mcp/servers)
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -75,6 +79,25 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/glama-ai](https://github.com/glama-ai) tied to the vendor by rule 3, account website https://glama.ai/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [tool-definition-quality-score](https://github.com/glama-ai/tool-definition-quality-score) | other | An open framework for scoring how well an MCP tool definition communicates to an AI agent – the Tool Definition Quality... | 32 | 2026-09-04 | |
+| [lightport](https://github.com/glama-ai/lightport) | other | A lightweight AI gateway that makes LLM providers OpenAI-compatible. | 17 | 2026-08-16 | v2.11.0 |
+| [rjsf-validator-cfworker](https://github.com/glama-ai/rjsf-validator-cfworker) | other | The @cfworker/json-schema based validator for @rjsf/core | 5 | 2026-01-13 | v1.0.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

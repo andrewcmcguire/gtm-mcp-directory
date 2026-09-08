@@ -38,6 +38,10 @@ Vendor domain: [useparagon.com](https://useparagon.com) · vendor page id usepar
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/useparagon](https://github.com/useparagon), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,41 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Paragon (ActionKit MCP)](../tools/paragon.md) whiskers official CLI
+
+```
+npm install -g @useparagon/whiskers-cli
+```
+
+quoted from [https://www.npmjs.com/package/@useparagon/whiskers-cli](https://www.npmjs.com/package/@useparagon/whiskers-cli) on 2026-09-08, via npm
+
+1 more install command, harvested 2026-09-08, all on the [tool page](../tools/paragon.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/useparagon](https://github.com/useparagon) tied to the vendor by rule 1, the directory already classed this repo first-party and its owner is an Organization, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [paragon-ai-skills](https://github.com/useparagon/paragon-ai-skills) | other | Agent Skills for setting up Paragon integrations - from project setup, to installation, and all the way to connecting... | 0 | 2026-09-07 | |
+| [enterprise-installer](https://github.com/useparagon/enterprise-installer) | infrastructure | Paragon Enterprise deployment assets | 10 | 2026-09-07 | 2026.0826.0910-46ada2b5 |
+| [managed-sync-s3-uploader](https://github.com/useparagon/managed-sync-s3-uploader) | other | A Node.js service to forward files synced by Paragon Managed Sync pipelines to an S3 bucket | 1 | 2026-08-25 | |
+| [connect-headless-example](https://github.com/useparagon/connect-headless-example) | docs or examples | | 1 | 2026-08-20 | |
+| [paragon-mcp](https://github.com/useparagon/paragon-mcp) | MCP server | | 48 | 2026-07-22 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

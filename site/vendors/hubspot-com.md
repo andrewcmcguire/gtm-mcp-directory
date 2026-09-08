@@ -38,6 +38,10 @@ Vendor domain: [hubspot.com](https://hubspot.com) · [Public company brief (HUBS
 
 - **Bench tested**: 0 of 3 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 3 of 3 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/HubSpot](https://github.com/HubSpot), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 3**
@@ -115,6 +119,55 @@ The gate is the api_gate field on each product entry, established by hand on the
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [HubSpot](../tools/hubspot.md) hs official CLI
+
+```
+npm install -g @hubspot/cli
+```
+
+quoted from [https://www.npmjs.com/package/@hubspot/cli](https://www.npmjs.com/package/@hubspot/cli) on 2026-09-08, via npm
+
+Login or key hint: hs init
+
+harvested 2026-09-08, all on the [tool page](../tools/hubspot.md).
+
+### [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot official CLI
+
+```
+npm install -g @hubspot/cli
+```
+
+quoted from [https://github.com/HubSpot/hubspot-cli](https://github.com/HubSpot/hubspot-cli) on 2026-09-08, via npm
+
+Login or key hint: hs init
+
+harvested 2026-09-08, all on the [tool page](../tools/clearbit.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/HubSpot](https://github.com/HubSpot) tied to the vendor by rule 3, account website http://product.hubspot.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 99, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 5 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [HubSpot-public-api-spec-collection](https://github.com/HubSpot/HubSpot-public-api-spec-collection) | API client | | 45 | 2026-09-08 | |
+| [agent-cli-skills](https://github.com/HubSpot/agent-cli-skills) | CLI | | 23 | 2026-09-08 | |
+| [hubspot-project-components](https://github.com/HubSpot/hubspot-project-components) | docs or examples | Provides sample components for HubSpot projects. | 25 | 2026-09-08 | 2.3.0 |
+| [hubspot-cms-vscode](https://github.com/HubSpot/hubspot-cms-vscode) | plugin or integration | A HubL language extension for the Visual Studio Code IDE, allowing for :rocket: fast local HubSpot CMS Platform... | 75 | 2026-09-08 | v1.7.5 |
+| [boomslang](https://github.com/HubSpot/boomslang) | other | Python, but Java | 6 | 2026-09-08 | build-cfcfca4ac2ca188e3acd2a3abe8bed21bc281917 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

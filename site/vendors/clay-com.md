@@ -38,6 +38,10 @@ Vendor domain: [clay.com](https://clay.com) · vendor page id clay-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/clay-run](https://github.com/clay-run), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -81,6 +85,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://www.clay.com/mcp](https://www.clay.com/mcp) (Clay, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/clay-run](https://github.com/clay-run) tied to the vendor by rule 3, account website https://clay.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 11, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [public-docs](https://github.com/clay-run/public-docs) | docs or examples | MD files of Clay documentation | 5 | 2026-09-08 | |
+| [agent-plugins](https://github.com/clay-run/agent-plugins) | CLI | Build with Clay in your AI coding agent - skills, MCP tools, and the clay CLI for Claude Code, Codex, and Cursor.... | 111 | 2026-09-03 | clay-cli-v0.16.0 |
+| [action-template-nodejs](https://github.com/clay-run/action-template-nodejs) | docs or examples | A Clay Action Template - NodeJs | 1 | 2020-09-15 | |
+| [base-app-starter](https://github.com/clay-run/base-app-starter) | docs or examples | Base Starter App | 1 | 2020-09-04 | |
+| [keyword-lists](https://github.com/clay-run/keyword-lists) | other | Some keyword lists | 0 | 2020-02-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

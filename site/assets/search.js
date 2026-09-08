@@ -11,7 +11,7 @@
   var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
   if(!q || !out) return;
 
-  var filters = {mcp:null, gate:null};
+  var filters = {mcp:null, gate:null, cli:null};
 
   function tokens(s){
     return (s||'').toLowerCase().replace(/[^a-z0-9+.# ]+/g,' ').split(/\s+/)
@@ -42,7 +42,16 @@
   function pass(t){
     if(filters.mcp && t.m !== filters.mcp) return false;
     if(filters.gate && t.g !== filters.gate) return false;
+    // the CLI chip keeps a measured official or community CLI. not-checked never passes,
+    // because an unmeasured entry is not a "no".
+    if(filters.cli && !(t.cli === 'official' || t.cli === 'community')) return false;
     return true;
+  }
+
+  function cliBadge(t){
+    if(t.cli !== 'official' && t.cli !== 'community') return '';
+    var label = 'CLI' + (t.cb ? ': ' + t.cb : '') + (t.cli === 'community' ? ' (community)' : '');
+    return '<span class="badge ' + (t.cli === 'official' ? 'teal' : 'gold') + ' flat">' + esc(label) + '</span>';
   }
 
   function esc(s){
@@ -99,6 +108,7 @@
         '<span class="badge ' + (GATETONE[t.g]||'mute') + '">' + esc(t.gl) + '</span>' +
         '<span class="badge mute flat">' + esc(t.c) + '</span>' +
         '<span class="badge tier flat">' + esc(t.t) + '</span>' +
+        cliBadge(t) +
         '</div></li>';
     }
     out.innerHTML = vh + html;

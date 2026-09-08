@@ -18,6 +18,7 @@ Folderly
 [Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: folderly (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,6 +51,29 @@ mcp_url, verbatim from the file:
 
 n/a
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: folderly
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g folderly
+```
+
+quoted from [https://www.npmjs.com/package/folderly](https://www.npmjs.com/package/folderly) on 2026-09-08, via npm, a third party source
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: folderly 0.1.2, third party](https://www.npmjs.com/package/folderly)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -73,6 +97,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to folderly.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+1 candidate account seen and rejected by the evidence rules: Folderly. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

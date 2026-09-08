@@ -18,6 +18,7 @@ Circleback
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-25
+CLI: cb
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -64,6 +65,39 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: cb
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @circleback/cli
+```
+
+quoted from [https://support.circleback.ai/en/articles/14677613-circleback-cli](https://support.circleback.ai/en/articles/14677613-circleback-cli) on 2026-09-08, via npm
+
+Login or key hint seen on the page:
+
+cb auth
+
+Subcommands seen with the binary:
+
+action-items, auth, calendar, companies, emails, meetings, people, support, tags, transcripts, update
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @circleback/cli 0.3.1](https://www.npmjs.com/package/@circleback/cli)
+
+Where it was documented:
+
+- [https://support.circleback.ai/en/articles/14677613-circleback-cli](https://support.circleback.ai/en/articles/14677613-circleback-cli) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -85,6 +119,25 @@ No documentation text is reproduced anywhere on this site. Read the vendor page 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/circlebackai](https://github.com/circlebackai) tied to the vendor by rule 3, account website circleback.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-07-10
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [openclaw-plugin](https://github.com/circlebackai/openclaw-plugin) | plugin or integration | Circleback for OpenClaw | 0 | 2026-07-10 | |
+| [claude-code-plugin](https://github.com/circlebackai/claude-code-plugin) | plugin or integration | Circleback Claude Code plugin. | 2 | 2026-07-10 | |
+| [cursor-plugin](https://github.com/circlebackai/cursor-plugin) | plugin or integration | Circleback plugin for Cursor. | 0 | 2026-06-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

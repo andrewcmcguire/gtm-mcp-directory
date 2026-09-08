@@ -38,6 +38,10 @@ Vendor domain: [madkudu.com](https://madkudu.com) · vendor page id madkudu-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/MadKudu](https://github.com/MadKudu), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min) (MadKudu, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [MadKudu](../tools/madkudu.md) mct-vulnerator official CLI
+
+```
+npm install -g @madkudu-core-tools/vulnerator
+```
+
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-08, via npm
+
+1 more install command, harvested 2026-09-08, all on the [tool page](../tools/madkudu.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/MadKudu](https://github.com/MadKudu) tied to the vendor by rule 3, account website http://www.madkudu.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 0, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: not recorded
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

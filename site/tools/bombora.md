@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -71,6 +75,24 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/bomboradata](https://github.com/bomboradata) tied to the vendor by rule 3, account website http://www.bombora.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 2, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2018-04-23
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [pubsub-to-bigquery](https://github.com/bomboradata/pubsub-to-bigquery) | other | A highly configurable Google Cloud Dataflow pipeline that writes data into Google Big Query table from Pub/Sub | 67 | 2018-04-23 | |
+| [bombora-tutorials](https://github.com/bomboradata/bombora-tutorials) | docs or examples | Notebooks for learning general concepts regarding Bombora interfaces, services and data schemas. | 2 | 2016-07-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

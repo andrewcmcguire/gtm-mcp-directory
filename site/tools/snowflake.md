@@ -18,6 +18,7 @@ Snowflake (Cortex AI, as GTM/RevOps warehouse layer)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: snowflake-cli
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -120,6 +121,68 @@ Recorded by the harvest: Cortex names tool TYPES (CORTEX_AGENT_RUN, SYSTEM_EXECU
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: snowflake-cli
+- **Status**: official CLI, first party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install snowflake-cli
+```
+
+quoted from [https://pypi.org/project/snowflake-cli/](https://pypi.org/project/snowflake-cli/) on 2026-09-08, via pypi
+
+```
+brew install snowflake-cli
+```
+
+quoted from [https://formulae.brew.sh/formula/snowflake-cli](https://formulae.brew.sh/formula/snowflake-cli) on 2026-09-08, via brew
+
+```
+uv tool install snowflake-cli
+```
+
+quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via pypi
+
+```
+uvx --from snowflake-cli snow
+```
+
+quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via uvx
+
+```
+brew install --cask snowflake-cli
+```
+
+quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via brew
+
+```
+brew tap snowflakedb/snowflake-cli
+```
+
+quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via brew-tap
+
+Login or key hint seen on the page:
+
+development setup
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: snowflake-cli 3.26.0](https://pypi.org/project/snowflake-cli/)
+- [pypi: snowflakecli 0.4.4, third party](https://pypi.org/project/snowflakecli/)
+- [pypi: snowflake-cli 3.26.0](https://pypi.org/project/snowflake-cli/)
+- [brew: snowflake-cli 3.26.0](https://formulae.brew.sh/formula/snowflake-cli)
+
+Where it was documented:
+
+- [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -145,6 +208,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/Snowflake-Labs/mcp](https://github.com/Snowflake-Labs/mcp)
+
+**On GitHub**
+
+[github.com/Snowflake-Labs](https://github.com/Snowflake-Labs) tied to the vendor by rule 1, account website https://developers.snowflake.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 125, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 4 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [sfquickstarts](https://github.com/Snowflake-Labs/sfquickstarts) | other | Follow along with our tutorials to get you up and running with Snowflake. | 17 | 2026-09-08 | |
+| [pg_lake](https://github.com/Snowflake-Labs/pg_lake) | other | pg_lake: Postgres with Iceberg and data lake access | 1,637 | 2026-09-08 | v3.5.0 |
+| [coco-skills](https://github.com/Snowflake-Labs/coco-skills) | CLI | This is a curated collection of Agent Skills for Cortex Code ("CoCo") - Snowflake's CLI for building with AI. | 29 | 2026-09-08 | |
+| [swt-tokyo-2026-coco](https://github.com/Snowflake-Labs/swt-tokyo-2026-coco) | other | | 0 | 2026-09-08 | |
+| [sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator](https://github.com/Snowflake-Labs/sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator) | other | | 12 | 2026-09-08 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

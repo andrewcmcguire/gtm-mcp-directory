@@ -18,6 +18,7 @@ Apify
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: actor
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,6 +62,64 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: actor
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g apify-cli
+```
+
+quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-08, via npm
+
+```
+brew install apify-cli
+```
+
+quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-08, via brew
+
+```
+npx apify-cli
+```
+
+quoted from [https://github.com/apify/apify-cli](https://github.com/apify/apify-cli) on 2026-09-08, via npx
+
+```
+curl -fsSL https://apify.com/install-cli.sh | bash
+```
+
+quoted from [https://github.com/apify/apify-cli](https://github.com/apify/apify-cli) on 2026-09-08, via shell
+
+```
+irm https://apify.com/install-cli.ps1 | iex
+```
+
+quoted from [https://github.com/apify/apify-cli](https://github.com/apify/apify-cli) on 2026-09-08, via powershell
+
+Login or key hint seen on the page:
+
+apify login
+
+Subcommands seen with the binary:
+
+call, help, login, telemetry
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: apify-cli 1.10.0](https://www.npmjs.com/package/apify-cli)
+- [brew: apify-cli 1.10.0](https://formulae.brew.sh/formula/apify-cli)
+
+Where it was documented:
+
+- [https://github.com/apify/apify-cli](https://github.com/apify/apify-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -82,6 +141,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/apify](https://github.com/apify) tied to the vendor by rule 3, account website https://apify.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 122, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 12 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [agent-skills](https://github.com/apify/agent-skills) | other | Collection of Apify agent skills | 2,371 | 2026-09-08 | |
+| [apify-evals](https://github.com/apify/apify-evals) | other | | 0 | 2026-09-08 | |
+| [cgroups-sensor](https://github.com/apify/cgroups-sensor) | other | Utility functions to measure resource limits from cgroups in scenarios where psutils is not sufficient. | 0 | 2026-09-08 | |
+| [actor-templates](https://github.com/apify/actor-templates) | docs or examples | This project is the :house: home of Apify Actor templates to help users quickly get started. Contributions welcome! | 60 | 2026-09-08 | |
+| [apify-mcp-server](https://github.com/apify/apify-mcp-server) | MCP server | The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites,... | 6,380 | 2026-09-08 | v0.15.4 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -38,6 +38,10 @@ Vendor domain: [commsor.com](https://commsor.com) · vendor page id commsor-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/commsor](https://github.com/commsor), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,31 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/commsor](https://github.com/commsor) tied to the vendor by rule 3, account website https://commsor.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2022-09-16
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [titanoboa](https://github.com/commsor/titanoboa) | other | Titanoboa makes complex workflows easy. It is a low-code workflow orchestration platform for JVM - distributed, highly... | 921 | 2022-09-16 | 1.0.0-alfa.1 |
+| [titanoboa-tasklets](https://github.com/commsor/titanoboa-tasklets) | other | ready-made workflow steps for titanoboa | 15 | 2022-01-05 | |
+| [edge-datadog-opentracing-debugging](https://github.com/commsor/edge-datadog-opentracing-debugging) | other | | 0 | 2021-07-20 | |
+| [titanoboa-gui](https://github.com/commsor/titanoboa-gui) | other | | 3 | 2021-01-22 | 0.9.0 |
+| [titanoboa-sample-workflows](https://github.com/commsor/titanoboa-sample-workflows) | docs or examples | Sample workflows for titanoboa | 17 | 2020-12-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

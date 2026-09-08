@@ -48,6 +48,10 @@ none-found
 
 The mcp_url field is empty on this entry. 17 of 336 entries are.
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -71,6 +75,24 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/Rox-AI](https://github.com/Rox-AI) tied to the vendor by rule 3, account website rox.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 2, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-21
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [rox-electron-updates](https://github.com/Rox-AI/rox-electron-updates) | other | Rox Desktop Electron App Updates | 0 | 2026-08-21 | v1.0.37 |
+| [rox-mac-app-updates](https://github.com/Rox-AI/rox-mac-app-updates) | app | Rox Mac App updates | 0 | 2026-02-17 | mac-0.4.6 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

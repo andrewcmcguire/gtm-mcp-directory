@@ -18,6 +18,7 @@ HeyReach
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: heyreach
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -85,6 +86,63 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: heyreach
+- **Status**: official CLI, first party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+brew install heyreach
+```
+
+quoted from [https://github.com/HeyReach/HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) on 2026-09-08, via brew
+
+```
+brew tap heyreach/heyreach
+```
+
+quoted from [https://github.com/HeyReach/HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) on 2026-09-08, via brew-tap
+
+```
+curl -sfL https://github.com/heyreach/heyreach-cli-releases/releases/latest/download/install.sh | bash
+```
+
+quoted from [https://github.com/HeyReach/HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) on 2026-09-08, via shell
+
+```
+irm https://github.com/heyreach/heyreach-cli-releases/releases/latest/download/install.ps1 | iex
+```
+
+quoted from [https://github.com/HeyReach/HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) on 2026-09-08, via powershell
+
+```
+scoop install heyreach
+```
+
+quoted from [https://github.com/HeyReach/HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) on 2026-09-08, via scoop
+
+Login or key hint seen on the page:
+
+heyreach auth
+
+Subcommands seen with the binary:
+
+auth, campaigns, inbox, skill, stats, update, version
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: heyreach-cli 0.2.2, third party](https://www.npmjs.com/package/heyreach-cli)
+
+Where it was documented:
+
+- [https://github.com/HeyReach/HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -106,6 +164,26 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/HeyReach](https://github.com/HeyReach) tied to the vendor by rule 3, account website https://heyreach.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [HeyReach-CLI-releases](https://github.com/HeyReach/HeyReach-CLI-releases) | CLI | | 5 | 2026-09-07 | v1.0.2 |
+| [heyreach-scoop](https://github.com/HeyReach/heyreach-scoop) | other | | 0 | 2026-05-12 | |
+| [homebrew-heyreach](https://github.com/HeyReach/homebrew-heyreach) | infrastructure | | 0 | 2026-05-12 | |
+| [n8n-nodes-heyreach](https://github.com/HeyReach/n8n-nodes-heyreach) | plugin or integration | HeyReach n8n community node | 0 | 2025-10-04 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -66,6 +66,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -93,6 +97,14 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 - [https://github.com/druellan/Fathom-Simple-MCP](https://github.com/druellan/Fathom-Simple-MCP)
 - [https://github.com/lukas-bekr/fathom-mcp](https://github.com/lukas-bekr/fathom-mcp)
 - [https://github.com/trevorwelch/fathom-video-mcp](https://github.com/trevorwelch/fathom-video-mcp)
+
+**On GitHub**
+
+No GitHub organisation could be tied to fathom.video with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+8 candidate accounts seen and rejected by the evidence rules: trevorwelch, lukas-bekr, druellan, fathomnet, fathom-global. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

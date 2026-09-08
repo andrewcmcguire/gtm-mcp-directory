@@ -202,6 +202,7 @@
 <div class="stats" style="margin-top:26px">
 <div class="stat"><div class="n">20</div><div class="k">entries in this file</div></div>
 <div class="stat is-gold"><div class="n">11</div><div class="k">Official MCP</div></div><div class="stat is-teal"><div class="n">2</div><div class="k">Community MCP</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">MCP unknown</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">MCP not applicable</div></div><div class="stat is-copper"><div class="n">5</div><div class="k">No MCP found</div></div>
+<div class="stat is-teal"><div class="n">3</div><div class="k">ship a CLI (official) as of 2026-09-08</div></div>
 </div>
 <div class="stats" style="margin-top:1px"><div class="stat is-teal"><div class="n">4</div><div class="k">Free to start</div></div><div class="stat is-gold"><div class="n">6</div><div class="k">Paid, self-serve</div></div><div class="stat is-copper"><div class="n">3</div><div class="k">Enterprise only</div></div><div class="stat is-mute"><div class="n">3</div><div class="k">Gate unknown</div></div><div class="stat is-mute"><div class="n">4</div><div class="k">Gate not applicable</div></div></div>
 <p class="note">Source file: 14-inbound-plg-chat.md &middot; content sha256
@@ -212,121 +213,121 @@ tools_recount.py at build time.</p>
 <a class="btn ghost" href="../jobs/answer-inbound-chat">Answer an inbound chat or call</a><a class="btn ghost" href="../jobs/book-a-meeting">Book a meeting</a><a class="btn ghost" href="../jobs/score-and-prioritize-leads">Score and prioritize leads</a><a class="btn ghost" href="../jobs/research-account-for-call-prep">Research an account before a call</a>
 </div>
 <ul class="rows">
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/jotform">Jotform</a>
 <span class="dom">jotform.com</span></div>
 <div class="desc">An online form builder (forms, approvals, tables, e-sign, payment collection and conversational &quot;AI Agents&quot;) with a REST API and a hosted MCP server.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/tally">Tally</a>
 <span class="dom">tally.so</span></div>
 <div class="desc">A free-first online form builder (unlimited forms and submissions on the free plan, conditional logic, payments, signatures, file uploads) with a REST API, webhooks and a hosted MCP server.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge gold flat">CLI: tally (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/tidio">Tidio</a>
 <span class="dom">tidio.com</span></div>
 <div class="desc">Customer-service platform combining live chat, a help desk, and an AI agent (&quot;Lyro&quot;) that resolves routine support/sales questions automatically.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/chili-piper">Chili Piper</a>
 <span class="dom">chilipiper.com</span></div>
 <div class="desc">Inbound lead routing and meeting-scheduling platform - converts web-form submissions and inbound leads into booked meetings in seconds, with rep-availability and fairness-rule logic.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge xref flat">Cross listed, canonical home is Scheduling &amp; Routing</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/front">Front</a>
 <span class="dom">front.com</span></div>
 <div class="desc">A shared-inbox and customer-communication platform where email, SMS, social and chat land in team inboxes with assignment, internal comments and rules, and, since July 2026, an MCP server that lets an AI agent...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/help-scout">Help Scout</a>
 <span class="dom">helpscout.com</span></div>
 <div class="desc">A shared inbox, live chat and knowledge-base product for customer-facing teams, with an MCP server that gives an AI agent read access to conversations, customers, organisations, reporting and Docs content,...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/intercom">Intercom (Fin)</a>
 <span class="dom">intercom.com</span></div>
 <div class="desc">Customer service/helpdesk platform whose &quot;Fin&quot; AI agent resolves support and pre-sales chat conversations autonomously across a website widget, email, and other channels.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge teal flat">CLI: fin</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/typeform">Typeform</a>
 <span class="dom">typeform.com</span></div>
 <div class="desc">An online form and survey builder (conversational one-question-at-a-time forms, quizzes, lead-capture forms) with logic, integrations, webhooks and a REST API, widely used as the top-of-funnel intake form.</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/ada">Ada</a>
 <span class="dom">ada.cx</span></div>
 <div class="desc">Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales conversations end-to-end.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/endgame">Endgame</a>
 <span class="dom">endgame.io</span></div>
 <div class="desc">A GTM &quot;context graph&quot; platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge mute" href="../gates/unknown">Gate unknown</a><span class="badge gold flat">CLI: endgame (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/pylon">Pylon</a>
 <span class="dom">usepylon.com</span></div>
 <div class="desc">&quot;Agentic&quot; B2B customer support platform (Slack, Teams, email, chat, SMS, WhatsApp, phone) where AI agents and humans jointly investigate, resolve, and act on support signals.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/landbot">Landbot</a>
 <span class="dom">landbot.io</span></div>
 <div class="desc">No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows with LLM-powered conversation.</div>
 <div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge teal" href="../gates/free">Free to start</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/chatbase">Chatbase</a>
 <span class="dom">chatbase.co</span></div>
 <div class="desc">No-code AI agent builder for deploying chat/voice/email support-and-sales bots across a website widget and channels like WhatsApp and Slack.</div>
-<div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge teal" href="../mcp/community">Community MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge teal flat">CLI: chatbase</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/forethought">Forethought (now &quot;Forethought AI Agents by Zendesk&quot;)</a>
 <span class="dom">forethought.ai</span></div>
 <div class="desc">Omnichannel AI agent (&quot;Solve&quot;) that resolves customer support and pre-sales issues across chat, email, voice, and a headless API, trained on a company&#x27;s past tickets and help-center content.</div>
 <div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/pocus">Pocus</a>
 <span class="dom">pocus.com</span></div>
 <div class="desc">Was a PLG/product-usage-signal platform - AI agents for account prioritization, an &quot;intelligent inbox&quot; for reps, and intent-signal enrichment aimed at turning free-trial/self-serve activity into sales-ready...</div>
-<div class="badges"><a class="badge mute" href="../mcp/n-a">MCP not applicable</a><a class="badge mute" href="../gates/n-a">Gate not applicable</a></div>
+<div class="badges"><a class="badge mute" href="../mcp/n-a">MCP not applicable</a><a class="badge mute" href="../gates/n-a">Gate not applicable</a><span class="badge teal flat">CLI: pocus</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/qualified">Qualified</a>
 <span class="dom">qualified.com</span></div>
 <div class="desc">Website chat/pipeline-generation platform built for account-based and inbound motions - its &quot;Piper&quot; AI SDR agent engages known target-account visitors in real time, qualifies them, and books meetings, then...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/drift">Drift</a>
 <span class="dom">drift.com</span></div>
 <div class="desc">Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered the &quot;buyer-intent chatbot&quot; category before being acquired.</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/unknown">Gate unknown</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/correlated">Correlated</a>
 <span class="dom">correlated.ai</span></div>
 <div class="desc">unknown in current form - per the seed list and general market classification, Correlated was a product-usage/PLG-signal tool for identifying product-qualified leads (PQLs); this description could not be...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/n-a">Gate not applicable</a></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/n-a">Gate not applicable</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/toplyne">Toplyne</a>
 <span class="dom">toplyne.io</span></div>
 <div class="desc">unknown in current form - per the seed list and general market classification, Toplyne provided product-qualified-lead (PQL) scoring for PLG companies; this description could not be re-verified against a live...</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge mute" href="../gates/n-a">Gate not applicable</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/ultimate-ai">Ultimate.ai (Ultimate)</a>
 <span class="dom">getultimate.ai</span></div>
 <div class="desc">unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving support tickets) before being acquired; the product&#x27;s functionality reportedly continues inside...</div>

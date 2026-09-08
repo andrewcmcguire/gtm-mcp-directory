@@ -38,6 +38,10 @@ Vendor domain: [pipedrive.com](https://pipedrive.com) · vendor page id pipedriv
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/pipedrive](https://github.com/pipedrive), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -77,6 +81,45 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server) (Pipedrive, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Pipedrive](../tools/pipedrive.md) pipedrive community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+curl -sSL https://raw.githubusercontent.com/Aaronontheweb/pipedrive-cli/dev/install.sh | bash
+```
+
+quoted from [https://github.com/Aaronontheweb/pipedrive-cli](https://github.com/Aaronontheweb/pipedrive-cli) on 2026-09-08, via shell, a third party source
+
+Login or key hint: pipedrive config set --api-key YOUR_TOKEN --domain acme.pipedrive.com
+
+10 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/pipedrive.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/pipedrive](https://github.com/pipedrive) tied to the vendor by rule 3, account website http://www.pipedrive.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 13, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [client-php](https://github.com/pipedrive/client-php) | SDK | Pipedrive API client for PHP | 64 | 2026-09-08 | 6.7.0 |
+| [client-nodejs](https://github.com/pipedrive/client-nodejs) | SDK | Pipedrive API client for NodeJS | 234 | 2026-09-08 | v17.5.3 |
+| [app-extensions-sdk](https://github.com/pipedrive/app-extensions-sdk) | SDK | SDK for Pipedrive app extensions | 8 | 2026-08-31 | |
+| [create-pipedrive-app](https://github.com/pipedrive/create-pipedrive-app) | app | Scaffold a production-ready Pipedrive Marketplace app with OAuth, database, and App Extensions in seconds. | 4 | 2026-08-11 | |
+| [test-public-npm-module](https://github.com/pipedrive/test-public-npm-module) | other | Public NPM module for testing publishing workflow | 0 | 2026-06-15 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

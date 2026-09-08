@@ -138,6 +138,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -163,6 +167,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system)
+
+**On GitHub**
+
+[github.com/LaGrowthMachine](https://github.com/LaGrowthMachine) tied to the vendor by rule 1, account website https://lagrowthmachine.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 9, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [gtm-system](https://github.com/LaGrowthMachine/gtm-system) | MCP server | Open-source Claude skills and an MCP server for Sales and GTM teams: build Sales Navigator searches, write multichannel... | 36 | 2026-09-08 | |
+| [lgm-web-comps](https://github.com/LaGrowthMachine/lgm-web-comps) | app | tests de séparation des compos figma | 0 | 2026-09-01 | |
+| [n8n-templates](https://github.com/LaGrowthMachine/n8n-templates) | docs or examples | Ready-to-import n8n workflows for the official La Growth Machine node | 0 | 2026-08-11 | |
+| [n8n-nodes-lagrowthmachine](https://github.com/LaGrowthMachine/n8n-nodes-lagrowthmachine) | plugin or integration | | 0 | 2026-08-11 | v1.0.4 |
+| [lgm-mcp](https://github.com/LaGrowthMachine/lgm-mcp) | MCP server | MCP server exposing La Growth Machine (multichannel B2B outreach) to AI clients - Claude Desktop, Claude.ai, Cursor,... | 0 | 2026-07-23 | v1.4.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

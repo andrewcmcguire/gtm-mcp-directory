@@ -52,6 +52,10 @@ none - HubSpot has a general-purpose "HubSpot MCP Client" (docs: https://knowled
 
 - [https://knowledge.hubspot.com/integrations/customize-breeze-agents-with-hubspot-mcp-client](https://knowledge.hubspot.com/integrations/customize-breeze-agents-with-hubspot-mcp-client)
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -73,6 +77,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/clearbit](https://github.com/clearbit) tied to the vendor by rule 3, account website https://clearbit.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 16, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-06-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [clearbit-slack](https://github.com/clearbit/clearbit-slack) | other | Clearbit enrichment data in a Slack channel | 37 | 2026-06-03 | |
+| [clearbit-eslint-rules](https://github.com/clearbit/clearbit-eslint-rules) | plugin or integration | Some custom eslint rules as an eslint plugin | 0 | 2026-03-29 | |
+| [team-review-action](https://github.com/clearbit/team-review-action) | infrastructure | github actions that makes sure PRs are approved by team members before merged | 0 | 2025-02-18 | |
+| [check-PR-description-action](https://github.com/clearbit/check-PR-description-action) | infrastructure | github action that checks if the description is present and different from the template for the repo | 0 | 2025-02-14 | |
+| [omniauth-clearbit](https://github.com/clearbit/omniauth-clearbit) | plugin or integration | OmniAuth integration for Clearbit | 1 | 2025-01-10 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

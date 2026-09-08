@@ -18,6 +18,7 @@ BetterContact
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-03
+CLI: bettercontact
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -48,6 +49,27 @@ none-found
 
 The mcp_url field is empty on this entry. 17 of 336 entries are.
 
+**Command line**
+
+- **Binary**: bettercontact
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g bettercontact
+```
+
+quoted from [https://www.npmjs.com/package/bettercontact](https://www.npmjs.com/package/bettercontact) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: bettercontact 0.2.1](https://www.npmjs.com/package/bettercontact)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -69,6 +91,23 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/bettercontactorg](https://github.com/bettercontactorg) tied to the vendor by rule 3, account website bettercontact.rocks has the vendor's domain, confidence strong
+
+- **Public repositories**: 1, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-19
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [docs](https://github.com/bettercontactorg/docs) | docs or examples | | 0 | 2026-08-19 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

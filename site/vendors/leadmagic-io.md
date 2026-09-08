@@ -38,6 +38,10 @@ Vendor domain: [leadmagic.io](https://leadmagic.io) · vendor page id leadmagic-
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/LeadMagic](https://github.com/LeadMagic), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,45 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp) (LeadMagic, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [LeadMagic](../tools/leadmagic.md) leadmagic community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+npm install -g leadmagic-agent-cli
+```
+
+quoted from [https://www.npmjs.com/package/leadmagic-agent-cli](https://www.npmjs.com/package/leadmagic-agent-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint: leadmagic login
+
+2 more install commands, 7 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/leadmagic.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/LeadMagic](https://github.com/LeadMagic) tied to the vendor by rule 1, account website https://leadmagic.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 10, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 6 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [gtm-skills](https://github.com/LeadMagic/gtm-skills) | other | GTM agent skills for Claude Code, Codex, and GitHub Copilot: sales, marketing, SEO, RevOps, and customer research... | 48 | 2026-09-07 | v0.26.0 |
+| [leadmagic-openapi](https://github.com/LeadMagic/leadmagic-openapi) | API client | OpenAPI 3.1 specification for the LeadMagic B2B data enrichment REST API: email finder, email validation, people and... | 2 | 2026-09-07 | v1.0.0 |
+| [leadmagic-cursor-plugin](https://github.com/LeadMagic/leadmagic-cursor-plugin) | plugin or integration | LeadMagic Cursor plugin for B2B research, email finding, company intelligence, and data enrichment through hosted MCP... | 0 | 2026-09-07 | |
+| [leadmagic-skills](https://github.com/LeadMagic/leadmagic-skills) | API client | LeadMagic agent skills and Claude Code plugin for B2B enrichment, people and company search, REST API integration, and... | 0 | 2026-09-07 | |
+| [leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp) | MCP server | Local TypeScript MCP server for the LeadMagic API: email finder, email validation, company enrichment, and research... | 7 | 2026-09-07 | v1.0.3 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

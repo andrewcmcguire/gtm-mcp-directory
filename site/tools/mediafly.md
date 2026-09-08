@@ -18,6 +18,7 @@ Mediafly (Intelligence360, formerly InsightSquared)
 [Forecasting & Revenue](../categories/forecasting-revenue.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: extension-cli
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,6 +51,27 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+- **Binary**: extension-cli
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @mediafly/extension-cli
+```
+
+quoted from [https://www.npmjs.com/package/@mediafly/extension-cli](https://www.npmjs.com/package/@mediafly/extension-cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @mediafly/extension-cli 2.1.1](https://www.npmjs.com/package/@mediafly/extension-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -71,6 +93,24 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/mediafly](https://github.com/mediafly) tied to the vendor by rule 3, account website https://www.mediafly.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 2, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-04-24
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [go-bus](https://github.com/mediafly/go-bus) | other | | 0 | 2025-04-24 | |
+| [go-log](https://github.com/mediafly/go-log) | other | | 0 | 2025-04-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

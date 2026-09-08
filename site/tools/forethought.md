@@ -52,6 +52,10 @@ none published. Forethought's own headless page https://forethought.ai/channels/
 
 - [https://forethought.ai/channels/headless](https://forethought.ai/channels/headless)
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -73,6 +77,26 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/Forethought-Technologies](https://github.com/Forethought-Technologies) tied to the vendor by rule 3, account website https://engineering.forethought.ai/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [solve-android](https://github.com/Forethought-Technologies/solve-android) | SDK | | 1 | 2026-09-04 | 1.0.1 |
+| [solve-ios](https://github.com/Forethought-Technologies/solve-ios) | SDK | Contains the public XCframework | 3 | 2026-07-14 | 2.4.1 |
+| [AutoChain](https://github.com/Forethought-Technologies/AutoChain) | other | AutoChain: Build lightweight, extensible, and testable LLM Agents | 1,879 | 2025-12-16 | |
+| [ieee-dsmp-2018-paper](https://github.com/Forethought-Technologies/ieee-dsmp-2018-paper) | other | "Automated labeling of bugs and tickets using attention-based mechanisms in recurrent neural networks" paper for... | 5 | 2020-01-26 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -38,6 +38,10 @@ Vendor domain: [doodle.com](https://doodle.com) · vendor page id doodle-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/DoodleScheduling](https://github.com/DoodleScheduling), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -74,6 +78,37 @@ The gate is the api_gate field on each product entry, established by hand on the
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Doodle](../tools/doodle.md) community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+harvested 2026-09-08, all on the [tool page](../tools/doodle.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/DoodleScheduling](https://github.com/DoodleScheduling) tied to the vendor by rule 3, account website https://doodle.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 45, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [cloud-autoscale-controller](https://github.com/DoodleScheduling/cloud-autoscale-controller) | infrastructure | Scale cloud resources according pod uptime | 0 | 2026-09-08 | v0.4.0 |
+| [neo4j-aura-controller](https://github.com/DoodleScheduling/neo4j-aura-controller) | infrastructure | Kubernetes controller for managing Neo4j Aura | 0 | 2026-09-08 | v0.1.0 |
+| [oauth2-redirect-controller](https://github.com/DoodleScheduling/oauth2-redirect-controller) | infrastructure | OAUTH2 RedirectURI proxy kubernetes controller | 1 | 2026-09-08 | v1.2.0 |
+| [db-controller](https://github.com/DoodleScheduling/db-controller) | infrastructure | Kubernetes Controller for managing databases and users | 4 | 2026-09-08 | v0.6.0 |
+| [growthbook-controller](https://github.com/DoodleScheduling/growthbook-controller) | infrastructure | Kubernetes controller for managing growthbook | 2 | 2026-09-08 | v0.7.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

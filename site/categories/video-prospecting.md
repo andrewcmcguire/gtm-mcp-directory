@@ -23,6 +23,8 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **MCP unknown**: 1
 - **No MCP found**: 4
 
+- **ship a CLI (official) as of 2026-09-08**: 4
+
 - **Free to start**: 3
 - **Paid, self-serve**: 6
 - **Enterprise leaning**: 1
@@ -38,11 +40,11 @@ Source file: 08-video-prospecting.md · content sha256 2d319620894dbaff... · co
 - [Book a meeting](../jobs/book-a-meeting.md)
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 
-- [Tavus](../tools/tavus.md) tavus.io Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases like greeting website visitors and booking meetings, not... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+- [Tavus](../tools/tavus.md) tavus.io Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases like greeting website visitors and booking meetings, not... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: tavus
 
-- [Wistia](../tools/wistia.md) wistia.com A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams use it for hosted demo and follow-up video with per-viewer... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+- [Wistia](../tools/wistia.md) wistia.com A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams use it for hosted demo and follow-up video with per-viewer... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: wistia
 
-- [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+- [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI: heygen
 
 - [Trumpet](../tools/trumpet.md) sendtrumpet.com Digital-sales-room / buyer-facing microsite platform ("Pods") for revenue teams, with a built-in webcam/screen-recording tool for sellers to send personalized welcome and post-demo recap videos embedded in the... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · Cross listed, canonical home is Proposals & Deals
 
@@ -52,7 +54,7 @@ Source file: 08-video-prospecting.md · content sha256 2d319620894dbaff... · co
 
 - [Sendspark](../tools/sendspark.md) sendspark.com Purpose-built B2B outbound video-prospecting platform - record one video, and AI voice cloning plus dynamic personalization generate individualized versions per prospect at scale for cold/warm outreach... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
+- [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: vy-cli
 
 - [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -66,4 +68,4 @@ Source file: 08-video-prospecting.md · content sha256 2d319620894dbaff... · co
 
 - [Potion](../tools/potion.md) sendpotion.com AI video-personalization tool for outbound sales - record one template video, and Potion overlays a personalized version per prospect (dynamic name/logo/background) for cold email and LinkedIn outreach at... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: qp (community)

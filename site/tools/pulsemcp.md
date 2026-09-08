@@ -18,6 +18,7 @@ PulseMCP
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: air
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -52,6 +53,27 @@ https://www.pulsemcp.com
 
 - [https://www.pulsemcp.com](https://www.pulsemcp.com)
 
+**Command line**
+
+- **Binary**: air
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @pulsemcp/air-cli
+```
+
+quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @pulsemcp/air-cli 0.13.1](https://www.npmjs.com/package/@pulsemcp/air-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -73,6 +95,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/pulsemcp](https://github.com/pulsemcp) tied to the vendor by rule 3, account website pulsemcp.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 7, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-06
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [air](https://github.com/pulsemcp/air) | other | A lightweight, open source framework that enables org/team collaboration on open standard-powered AI-related artifacts... | 3 | 2026-09-06 | |
+| [mcp-servers](https://github.com/pulsemcp/mcp-servers) | MCP server | MCP (Model Context Protocol) Servers authored and maintained by the PulseMCP team. We build reliable servers... | 80 | 2026-08-30 | gmail-workspace-mcp-server@0.4.12 |
+| [linear-mcp-client-bridge](https://github.com/pulsemcp/linear-mcp-client-bridge) | MCP server | An example for how we can de-facto inject a highly capable agent and MCP client into just about any software service. | 0 | 2026-06-24 | |
+| [switchboard](https://github.com/pulsemcp/switchboard) | other | Free, self-hostable OSS that saves agent transcripts from Claude Code, Codex, and other coding agents for retroactive... | 2 | 2026-06-13 | |
+| [ai-artifacts](https://github.com/pulsemcp/ai-artifacts) | other | Skills, Hooks, and other artifacts developed by the PulseMCP team that may be useful to others. | 2 | 2026-06-04 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

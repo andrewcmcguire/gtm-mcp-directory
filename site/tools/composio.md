@@ -18,6 +18,7 @@ Composio
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: composio
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -83,6 +84,47 @@ Recorded by the harvest: a small fixed meta-tool set plus the customer's own con
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: composio
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+curl -fsSL https://composio.dev/install | bash
+```
+
+quoted from [https://composio.dev/cli](https://composio.dev/cli) on 2026-09-08, via shell
+
+```
+curl -fsSL https://composio.dev/install | sh
+```
+
+quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/cli) on 2026-09-08, via shell
+
+```
+curl -fsSL https://composio.dev/install | sh -s -- @composio/cli@0.3.1
+```
+
+quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/cli) on 2026-09-08, via shell
+
+Login or key hint seen on the page:
+
+composio login
+
+Subcommands seen with the binary:
+
+dev, execute, generate, link, links, login, proxy, run, search, setup, start, upgrade
+
+Where it was documented:
+
+- [https://composio.dev/cli](https://composio.dev/cli) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -108,6 +150,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/ComposioHQ/GHMCP](https://github.com/ComposioHQ/GHMCP)
+
+**On GitHub**
+
+[github.com/ComposioHQ](https://github.com/ComposioHQ) tied to the vendor by rule 2, account website https://composio.dev has the vendor's domain, confidence strong
+
+- **Public repositories**: 14, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 4 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [composio](https://github.com/ComposioHQ/composio) | MCP server | Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you... | 30,092 | 2026-09-08 | @composio/cli@0.4.2-beta.384 |
+| [logo-cdn](https://github.com/ComposioHQ/logo-cdn) | other | oss logo cdn of composio toolkits | 7 | 2026-09-08 | |
+| [helm-charts](https://github.com/ComposioHQ/helm-charts) | infrastructure | Helm charts to deploy Composio | 2 | 2026-09-07 | r20260908_01 |
+| [composio-base-py](https://github.com/ComposioHQ/composio-base-py) | SDK | | 3 | 2026-08-19 | v1.44.0 |
+| [composio-plugin-openai](https://github.com/ComposioHQ/composio-plugin-openai) | plugin or integration | | 4 | 2026-08-11 | v0.2.3 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

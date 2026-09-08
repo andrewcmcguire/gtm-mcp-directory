@@ -18,6 +18,7 @@ Vidyard
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: vy-cli
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -62,6 +63,27 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: vy-cli
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @vidyard/vy-cli
+```
+
+quoted from [https://www.npmjs.com/package/@vidyard/vy-cli](https://www.npmjs.com/package/@vidyard/vy-cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @vidyard/vy-cli 1.1.0](https://www.npmjs.com/package/@vidyard/vy-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -83,6 +105,26 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/Vidyard](https://github.com/Vidyard) tied to the vendor by rule 3, account website www.vidyard.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-05-11
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [DesktopAppReleases](https://github.com/Vidyard/DesktopAppReleases) | app | To house official releases of the Vidyard Desktop App | 0 | 2026-05-11 | 2.3.5 |
+| [.github](https://github.com/Vidyard/.github) | other | Public org repo | 0 | 2026-02-03 | |
+| [wordpress-plugin](https://github.com/Vidyard/wordpress-plugin) | plugin or integration | | 2 | 2019-09-30 | |
+| [dsm](https://github.com/Vidyard/dsm) | other | Online MySQL data migrations gem | 2 | 2017-04-18 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

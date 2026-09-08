@@ -18,6 +18,7 @@ Common Room
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: cr
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -102,6 +103,27 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: cr
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @commonroomio/cli
+```
+
+quoted from [https://www.npmjs.com/package/@commonroomio/cli](https://www.npmjs.com/package/@commonroomio/cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @commonroomio/cli 0.2.0](https://www.npmjs.com/package/@commonroomio/cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -127,6 +149,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/chris-trag/commonroom-mcp](https://github.com/chris-trag/commonroom-mcp)
+
+**On GitHub**
+
+[github.com/common-room](https://github.com/common-room) tied to the vendor by rule 3, account website commonroom.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [cli-sample](https://github.com/common-room/cli-sample) | docs or examples | | 1 | 2026-09-08 | |
+| [homebrew-tap](https://github.com/common-room/homebrew-tap) | infrastructure | | 0 | 2026-08-21 | |
+| [hacker-news-integration](https://github.com/common-room/hacker-news-integration) | docs or examples | End to end working example that integrates Hacker News with Common Room. | 0 | 2026-05-28 | |
+| [claude-plugin](https://github.com/common-room/claude-plugin) | plugin or integration | | 3 | 2026-02-19 | |
+| [.github](https://github.com/common-room/.github) | other | | 0 | 2025-05-01 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

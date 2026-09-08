@@ -75,6 +75,18 @@ null
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
+### Command-line layer (from harvest_cli.py, read from data/cli_inventory.json)
+
+- harvest date: `null`
+- cli_status: `{}`. official = a first-party source (vendor docs with an install command, or a registry package the vendor publishes); community = third-party only; none-found = every probe empty on that date, which is not proof of absence.
+- install commands quoted with their source URL: **None**; entries with a known binary: **None**; by evidence: `{}`
+
+### Vendor GitHub organisations (from harvest_orgs.py, read from data/github_orgs.json)
+
+- harvest date: `null`
+- organisations tied to a vendor with domain evidence: **None**; status split `{}`
+- public non-fork repositories across those organisations: **None**, of which **None** mention MCP and **None** look like CLIs. An unresolved vendor is a resolution miss on that date, not a vendor without GitHub.
+
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
 - probe run used: `2026-09-04`
@@ -270,7 +282,7 @@ None.
 
 ## Integrity
 
-- content sha256: `6407f14572b01374cd5dacb16512c7ab743085f077afeb9f6390053ac278f3bf`
+- content sha256: `50f8f3df89e25dc287240a575d8bb842be277935af9867d09262332e52848d30`
 - source sha256: `c4736c4873d844d6f5a59e9661fc4a7644e84a6e0a7b25036dad508dcd4447b4`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`

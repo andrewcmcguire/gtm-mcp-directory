@@ -38,6 +38,10 @@ Vendor domain: [clearbit.com](https://clearbit.com) · vendor page id clearbit-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/clearbit](https://github.com/clearbit), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/clearbit](https://github.com/clearbit) tied to the vendor by rule 3, account website https://clearbit.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 16, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-06-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [clearbit-slack](https://github.com/clearbit/clearbit-slack) | other | Clearbit enrichment data in a Slack channel | 37 | 2026-06-03 | |
+| [clearbit-eslint-rules](https://github.com/clearbit/clearbit-eslint-rules) | plugin or integration | Some custom eslint rules as an eslint plugin | 0 | 2026-03-29 | |
+| [team-review-action](https://github.com/clearbit/team-review-action) | infrastructure | github actions that makes sure PRs are approved by team members before merged | 0 | 2025-02-18 | |
+| [check-PR-description-action](https://github.com/clearbit/check-PR-description-action) | infrastructure | github action that checks if the description is present and different from the template for the repo | 0 | 2025-02-14 | |
+| [omniauth-clearbit](https://github.com/clearbit/omniauth-clearbit) | plugin or integration | OmniAuth integration for Clearbit | 1 | 2025-01-10 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -80,6 +80,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -105,6 +109,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/fzheng0222/jiminny-mcp](https://github.com/fzheng0222/jiminny-mcp)
+
+**On GitHub**
+
+[github.com/jiminny](https://github.com/jiminny) tied to the vendor by rule 3, account website https://jiminny.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 7, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-06-04
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [oauth2-dialpad](https://github.com/jiminny/oauth2-dialpad) | other | | 0 | 2026-06-04 | |
+| [record-public](https://github.com/jiminny/record-public) | other | | 0 | 2025-12-01 | |
+| [join-the-team](https://github.com/jiminny/join-the-team) | other | Interested in joining the Jiminny Engineering team? Start here! | 10 | 2024-03-29 | |
+| [oauth2-aircall](https://github.com/jiminny/oauth2-aircall) | other | | 0 | 2024-03-01 | |
+| [oauth2-salesloft](https://github.com/jiminny/oauth2-salesloft) | infrastructure | | 0 | 2023-10-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

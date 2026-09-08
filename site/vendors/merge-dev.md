@@ -38,6 +38,10 @@ Vendor domain: [merge.dev](https://merge.dev) · vendor page id merge-dev
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/merge-api](https://github.com/merge-api), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Merge Agent Handler](../tools/merge-agent-handler.md) MergePythonClient official CLI
+
+```
+pip install MergePythonClient
+```
+
+quoted from [https://github.com/merge-api/merge-python-client](https://github.com/merge-api/merge-python-client) on 2026-09-08, via pypi
+
+Login or key hint: can configure
+
+1 more install command, harvested 2026-09-08, all on the [tool page](../tools/merge-agent-handler.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/merge-api](https://github.com/merge-api) tied to the vendor by rule 2, account website merge.dev has the vendor's domain, confidence strong
+
+- **Public repositories**: 54, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [merge-unified-skills](https://github.com/merge-api/merge-unified-skills) | other | Claude Code skills for the Merge Unified API | 0 | 2026-09-07 | |
+| [react-merge-link](https://github.com/merge-api/react-merge-link) | other | | 5 | 2026-08-27 | 2.4.2 |
+| [merge-workforce-dist](https://github.com/merge-api/merge-workforce-dist) | other | Public distribution point for the Merge Workforce desktop client (signed macOS + Windows packages). Downloads are on... | 0 | 2026-08-24 | v0.1.0-preview3 |
+| [react-agent-handler-link](https://github.com/merge-api/react-agent-handler-link) | other | | 0 | 2026-08-14 | |
+| [merge-gateway-ai-sdk-provider](https://github.com/merge-api/merge-gateway-ai-sdk-provider) | SDK | Merge Gateway provider for the Vercel AI SDK | 0 | 2026-08-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

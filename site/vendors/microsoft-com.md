@@ -38,6 +38,10 @@ Vendor domain: [microsoft.com](https://microsoft.com) · [Public company brief (
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/microsoft](https://github.com/microsoft), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,31 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/microsoft](https://github.com/microsoft) tied to the vendor by rule 3, account website https://opensource.microsoft.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 148, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 4 of them
+- **Look like CLIs**: 8 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [winget-pkgs](https://github.com/microsoft/winget-pkgs) | other | The Microsoft community Windows Package Manager manifest repository | 11,059 | 2026-09-08 | |
+| [aspire](https://github.com/microsoft/aspire) | other | Aspire is the tool for code-first, extensible, observable dev and deploy. | 6,290 | 2026-09-08 | v13.5.3 |
+| [LakeBench](https://github.com/microsoft/LakeBench) | other | A multi-modal Python library for benchmarking lakehouse engines and ELT scenarios, supporting both industry-standard... | 52 | 2026-09-08 | v1.2.0 |
+| [playwright](https://github.com/microsoft/playwright) | other | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single... | 95,815 | 2026-09-08 | v1.63.0 |
+| [vscode](https://github.com/microsoft/vscode) | other | Visual Studio Code | 191,494 | 2026-09-08 | 1.136.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

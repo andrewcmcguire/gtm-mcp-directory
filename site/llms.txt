@@ -41,6 +41,70 @@ This file exists because the directory publishes what it measures. A directory o
 - Jobs: 56 in 10 families, 849 tags across 271 entries. 65 entries are untagged and each records why.
 - Bench tested: 1.
 - Capability layer, harvested 2026-09-08: 8503 tool names, of which 2575 belong to the GTM tools themselves and 5928 to one gateway that re-exposes other vendors, counted apart. 122 of the 225 entries recording an official or community MCP server have a tool list. The other 103 are UNMEASURED, not empty: nobody has read their tool list, so this directory says nothing about what they expose. Do not report an unmeasured server as a server with no tools.
+- Command-line layer, harvested 2026-09-08 across vendor docs, npm, PyPI, Homebrew and GitHub: 62 entries ship a CLI the vendor publishes, 72 have only a third party's, 202 came back none found on that date, 0 were not reached. None found is a probe result, not proof of absence. Each entry carries cli_status, cli_binary, cli_install (every command quoted with its source URL and fetch date), cli_login, cli_commands_seen, cli_packages and cli_checked_on.
+- Vendor GitHub organisations, read 2026-09-08: 215 entries carry an organisation tied to the vendor domain with evidence; the rest read unresolved, no-github-signal or not-checked, each of which is a statement about the instrument on that date. Each resolved entry carries github_org, github_org_url, public non-fork repo counts, how many mention MCP or look like CLIs, and the five most recently pushed repositories with stars, push date and latest release.
+
+## Official CLIs, 57 of them, harvested 2026-09-08
+
+One line per tool whose vendor publishes a command-line interface: the binary, the first install command exactly as the source shows it, and the URL it was quoted from. Nobody has run these.
+
+- Apideck: binary `apideck`, install `brew install apideck-libraries/tap/apideck`, source https://www.apideck.com/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/apideck
+- Apify: binary `actor`, install `npm install -g apify-cli`, source https://www.npmjs.com/package/apify-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/apify
+- Attio: binary `attio`, install `npm install -g attio`, source https://www.npmjs.com/package/attio, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/attio
+- BetterContact: binary `bettercontact`, install `npm install -g bettercontact`, source https://www.npmjs.com/package/bettercontact, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/bettercontact
+- Bright Data: binary `bdata`, install `npm install -g @brightdata/cli`, source https://www.npmjs.com/package/@brightdata/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/bright-data
+- Browserbase: binary `browse`, install `npm install -g browse`, source https://docs.browserbase.com/integrations/skills/browse-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/browserbase
+- Cargo: binary `cargo`, install `npm install -g @cargo-ai/cli`, source https://docs.getcargo.ai/cli/overview, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/cargo
+- Chatbase: binary `chatbase`, install `npm install -g chatbase`, source https://www.chatbase.co/docs/cli/overview, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/chatbase
+- Chorus: binary `gtm`, install `npm install -g @zoominfo/gtm-ai-cli`, source https://www.npmjs.com/package/@zoominfo/gtm-ai-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/chorus
+- Circleback: binary `cb`, install `npm install -g @circleback/cli`, source https://support.circleback.ai/en/articles/14677613-circleback-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/circleback
+- Clearbit (now HubSpot Breeze Intelligence): binary `hubspot`, install `npm install -g @hubspot/cli`, source https://github.com/HubSpot/hubspot-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/clearbit
+- Common Room: binary `cr`, install `npm install -g @commonroomio/cli`, source https://www.npmjs.com/package/@commonroomio/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/common-room
+- Composio: binary `composio`, install `curl -fsSL https://composio.dev/install | bash`, source https://composio.dev/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/composio
+- dbt (dbt platform remote MCP): binary `dbt`, install `pip install dbt`, source https://pypi.org/project/dbt/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/dbt
+- DocuSign: binary `docusign`, install `npm install -g @docusign/cli`, source https://www.npmjs.com/package/@docusign/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/docusign
+- Enrow: binary `enrow`, install `npm install -g @enrow/cli`, source https://github.com/EnrowAPI/enrow-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/enrow
+- Firecrawl: binary `firecrawl`, install `npm install -g firecrawl-cli`, source https://docs.firecrawl.dev/sdks/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/firecrawl
+- HeyGen: binary `heygen`, install `curl -fsSL https://static.heygen.ai/cli/install.sh | bash`, source https://developers.heygen.com/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/heygen
+- HeyReach: binary `heyreach`, install `brew install heyreach`, source https://github.com/HeyReach/HeyReach-CLI-releases, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/heyreach
+- HubSpot: binary `hs`, install `npm install -g @hubspot/cli`, source https://www.npmjs.com/package/@hubspot/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/hubspot
+- HubSpot Breeze (AI Prospecting Agent): binary `hs`, install `npm install -g @hubspot/cli`, source https://www.npmjs.com/package/@hubspot/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/hubspot-breeze
+- Intercom (Fin): binary `fin`, install `npm install -g @intercom/cli`, source https://www.npmjs.com/package/@intercom/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/intercom
+- Ironclad: binary `rivet`, install `npm install -g @ironclad/rivet-cli`, source https://www.npmjs.com/package/@ironclad/rivet-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/ironclad
+- MadKudu: binary `mct-vulnerator`, install `npm install -g @madkudu-core-tools/vulnerator`, source https://www.npmjs.com/package/@madkudu-core-tools/vulnerator, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/madkudu
+- Mediafly (Intelligence360, formerly InsightSquared): binary `extension-cli`, install `npm install -g @mediafly/extension-cli`, source https://www.npmjs.com/package/@mediafly/extension-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/mediafly
+- Meltwater: binary `generateJwk`, install `npm install -g @meltwater/jwk-converter-cli`, source https://www.npmjs.com/package/@meltwater/jwk-converter-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/meltwater
+- Merge Agent Handler: binary `MergePythonClient`, install `pip install MergePythonClient`, source https://github.com/merge-api/merge-python-client, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/merge-agent-handler
+- Metorial: binary `metorial`, install `npm install -g @metorial/cli`, source https://metorial.com/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/metorial
+- monday.com (monday CRM): binary `mapps`, install `npm install -g @mondaycom/apps-cli`, source https://www.npmjs.com/package/@mondaycom/apps-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/monday-com
+- Paragon (ActionKit MCP): binary `whiskers`, install `npm install -g @useparagon/whiskers-cli`, source https://www.npmjs.com/package/@useparagon/whiskers-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/paragon
+- Pipeworx: binary `pipeworx`, install `npx pipeworx@latest`, source https://pipeworx.io/docs/getting-started/cli/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/pipeworx
+- Pocus: binary `pocus`, install `npm install -g @pocus/cli`, source https://www.npmjs.com/package/@pocus/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/pocus
+- PulseMCP: binary `air`, install `npm install -g @pulsemcp/air-cli`, source https://www.npmjs.com/package/@pulsemcp/air-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/pulsemcp
+- Relevance AI: binary `relevanceai`, install `pip install relevanceai`, source https://pypi.org/project/relevanceai/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/relevance-ai
+- Reply.io: binary `reply`, install `npm install -g reply-cli`, source https://docs.reply.io/cli/overview, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/reply-io
+- Retool: binary `retool`, install `npm install -g retool-cli`, source https://www.npmjs.com/package/retool-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/retool
+- Salesforce (core CRM/platform) + Agentforce: binary `sf`, install `npm install -g @salesforce/cli`, source https://www.npmjs.com/package/@salesforce/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/salesforce-agentforce
+- Salesforce Einstein Forecasting: binary `sf`, install `npm install -g @salesforce/cli`, source https://www.npmjs.com/package/@salesforce/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/salesforce-einstein-forecasting
+- Salesforge: binary `forge`, install `npm install -g @salesforge/forge-cli`, source https://www.npmjs.com/package/@salesforge/forge-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/salesforge
+- Saleshandy: binary `saleshandy`, install `npm install -g @saleshandy/saleshandy-cli`, source https://www.npmjs.com/package/@saleshandy/saleshandy-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/saleshandy
+- Showpad: binary `showpad`, install `npm install -g @showpad/cli`, source https://www.npmjs.com/package/@showpad/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/showpad
+- Smartlead: binary `smartlead`, install `npm install -g @smartlead/cli`, source https://www.npmjs.com/package/@smartlead/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/smartlead
+- Smithery: binary `smithery`, install `pip install smithery`, source https://pypi.org/project/smithery/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/smithery
+- Snowflake (Cortex AI, as GTM/RevOps warehouse layer): binary `snowflake-cli`, install `pip install snowflake-cli`, source https://pypi.org/project/snowflake-cli/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/snowflake
+- StackOne: binary `stackone`, install `npm install -g @stackone/cli`, source https://www.npmjs.com/package/@stackone/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/stackone
+- Super Send: binary `supersendtx`, install `npm install -g supersendtx-cli`, source https://www.npmjs.com/package/supersendtx-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/super-send
+- Tavily: binary `tvly`, install `pip install tavily-cli`, source https://pypi.org/project/tavily-cli/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/tavily
+- Tavus: binary `tavus`, install `pip install tavus`, source https://pypi.org/project/tavus/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/tavus
+- Trigify (Trigify.io): binary `trigify`, install `npm install -g @trigify/cli`, source https://www.npmjs.com/package/@trigify/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/trigify
+- Vainu: binary `vainu-cli`, install `pip install vainu-cli`, source https://pypi.org/project/vainu-cli/, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/vainu
+- Vayne: binary `vayne`, install `npm install -g @vayne/cli`, source https://www.npmjs.com/package/@vayne/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/vayne
+- Vidyard: binary `vy-cli`, install `npm install -g @vidyard/vy-cli`, source https://www.npmjs.com/package/@vidyard/vy-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/vidyard
+- Wistia: binary `wistia`, install `npm install -g @wistia/wistia-cli`, source https://www.npmjs.com/package/@wistia/wistia-cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/wistia
+- Woodpecker: binary `woodpecker`, install `npm install -g @woodpecker.co/cli`, source https://www.npmjs.com/package/@woodpecker.co/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/woodpecker
+- Zapier: binary `zapier-platform`, install `npx zapier`, source https://zapier.com/sdk, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/zapier
+- Zapier MCP: binary `zapier-platform`, install `npx zapier`, source https://zapier.com/sdk, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/zapier-mcp
+- ZoomInfo: binary `gtm`, install `npm install -g @zoominfo/gtm-ai-cli`, source https://gtm.ai/docs/cli, fetched 2026-09-08. Page: https://andrewcmcguire.com/gtm-directory/tools/zoominfo
 
 ## Key pages
 

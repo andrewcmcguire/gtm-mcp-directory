@@ -18,6 +18,7 @@ Calendly
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: calendly-axi (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -142,6 +143,55 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: calendly-axi
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g calendly-axi
+```
+
+quoted from [https://www.npmjs.com/package/calendly-axi](https://www.npmjs.com/package/calendly-axi) on 2026-09-08, via npm, a third party source
+
+```
+npm install -g calendly-cli
+```
+
+quoted from [https://www.npmjs.com/package/calendly-cli](https://www.npmjs.com/package/calendly-cli) on 2026-09-08, via npm, a third party source
+
+```
+npx calendly-cli
+```
+
+quoted from [https://github.com/bcharleson/calendly-cli](https://github.com/bcharleson/calendly-cli) on 2026-09-08, via npx, a third party source
+
+Login or key hint seen on the page:
+
+--api-key TEXT API key. Sourced from CALENDLY_API_KEY as well
+
+18 subcommands seen with the binary in the docs or README:
+expand to read them
+
+activity-log, auth-status, availability, data-compliance, event-types, groups, install, invitees, login, logout, mcp, organizations, routing-forms, scheduled-events, scheduling-links, shell, users, webhooks
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: calendly-axi 1.2.0, third party](https://www.npmjs.com/package/calendly-axi)
+- [npm: calendly-cli 1.0.5, third party](https://www.npmjs.com/package/calendly-cli)
+
+Where it was documented:
+
+- [https://github.com/iloveitaly/calendly-cli](https://github.com/iloveitaly/calendly-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -163,6 +213,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/calendly](https://github.com/calendly) tied to the vendor by rule 3, account website https://calendly.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 6, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-03-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [buzzwordcrm](https://github.com/calendly/buzzwordcrm) | docs or examples | BuzzwordCRM is a sample application that demonstrates how to build applications using Calendly's v2 api. | 125 | 2026-03-03 | |
+| [cypress_tictactoe](https://github.com/calendly/cypress_tictactoe) | other | | 0 | 2025-09-16 | |
+| [gatsby-plugin-guru-export](https://github.com/calendly/gatsby-plugin-guru-export) | plugin or integration | | 0 | 2023-07-19 | |
+| [gatsby-scroll-repro](https://github.com/calendly/gatsby-scroll-repro) | other | | 0 | 2023-06-05 | |
+| [embed-demo](https://github.com/calendly/embed-demo) | docs or examples | | 1 | 2023-04-22 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

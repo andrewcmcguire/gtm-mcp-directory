@@ -38,6 +38,10 @@ Vendor domain: [trigify.io](https://trigify.io) · vendor page id trigify-io
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/trigify](https://github.com/trigify), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -77,6 +81,37 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli) (Trigify (Trigify.io), docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Trigify (Trigify.io)](../tools/trigify.md) trigify official CLI
+
+```
+npm install -g @trigify/cli
+```
+
+quoted from [https://www.npmjs.com/package/@trigify/cli](https://www.npmjs.com/package/@trigify/cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/trigify.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/trigify](https://github.com/trigify) tied to the vendor by rule 3, account website https://trigify.io has the vendor's domain, confidence strong
+
+- **Public repositories**: 1, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-04-01
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [skills](https://github.com/trigify/skills) | other | Agentic Skills | 0 | 2026-04-01 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

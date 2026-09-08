@@ -18,6 +18,7 @@ Wistia
 [Video Prospecting](../categories/video-prospecting.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: wistia
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,6 +62,51 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: wistia
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @wistia/wistia-cli
+```
+
+quoted from [https://www.npmjs.com/package/@wistia/wistia-cli](https://www.npmjs.com/package/@wistia/wistia-cli) on 2026-09-08, via npm
+
+```
+brew install wistia/tap/wistia-cli
+```
+
+quoted from [https://github.com/wistia/wistia-cli](https://github.com/wistia/wistia-cli) on 2026-09-08, via brew
+
+```
+curl -fsSL https://raw.githubusercontent.com/wistia/wistia-cli/main/scripts/install.sh | bash
+```
+
+quoted from [https://github.com/wistia/wistia-cli](https://github.com/wistia/wistia-cli) on 2026-09-08, via shell
+
+Login or key hint seen on the page:
+
+wistia configure
+
+Subcommands seen with the binary:
+
+completion, configure, upload-or-import-media
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @wistia/wistia-cli 2026.5.1](https://www.npmjs.com/package/@wistia/wistia-cli)
+
+Where it was documented:
+
+- [https://github.com/wistia/wistia-cli](https://github.com/wistia/wistia-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -82,6 +128,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/wistia](https://github.com/wistia) tied to the vendor by rule 3, account website https://wistia.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 58, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [wistia-typescript-sdk](https://github.com/wistia/wistia-typescript-sdk) | SDK | | 0 | 2026-09-08 | v2026.7.0 |
+| [digestabot-demo](https://github.com/wistia/digestabot-demo) | docs or examples | Demonstration repo for https://github.com/chainguard-dev/digestabot/pull/74 | 0 | 2026-09-08 | |
+| [homebrew-tap](https://github.com/wistia/homebrew-tap) | infrastructure | Homebrew Tap for Wistia Desktop | 0 | 2026-09-04 | |
+| [json-mask-ruby](https://github.com/wistia/json-mask-ruby) | SDK | Google partial-response / JSON Mask field selectors for Ruby: filter JSON-compatible Hashes and Arrays without changing... | 0 | 2026-09-04 | |
+| [elixir_nsq](https://github.com/wistia/elixir_nsq) | other | An NSQ client for Elixir and Erlang, written in Elixir. | 92 | 2026-09-04 | 1.2.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

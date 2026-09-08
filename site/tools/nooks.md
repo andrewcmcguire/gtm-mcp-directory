@@ -63,6 +63,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -88,6 +92,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/NooksApp](https://github.com/NooksApp)
+
+**On GitHub**
+
+[github.com/NooksApp](https://github.com/NooksApp) tied to the vendor by rule 2, account website https://nooks.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 10, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-27
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [nooks-agent-interview](https://github.com/NooksApp/nooks-agent-interview) | other | Nooks prospecting assistant - the agent-engineering interview exercise. Clone this repo to start. | 0 | 2026-08-27 | |
+| [nooks-domain-verification](https://github.com/NooksApp/nooks-domain-verification) | other | | 0 | 2025-12-03 | |
+| [nooks-fullstack-takehome](https://github.com/NooksApp/nooks-fullstack-takehome) | other | Nooks full-stack engineering take home assignment - starter code | 3 | 2025-10-21 | |
+| [nooks-ai-takehome](https://github.com/NooksApp/nooks-ai-takehome) | other | | 0 | 2025-04-16 | |
+| [realtime-chatbot-demo](https://github.com/NooksApp/realtime-chatbot-demo) | docs or examples | | 0 | 2024-10-25 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

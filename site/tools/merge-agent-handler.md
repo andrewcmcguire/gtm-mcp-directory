@@ -18,6 +18,7 @@ Merge Agent Handler
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: MergePythonClient
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -67,6 +68,37 @@ The count below still carries this entry on the unmeasured side, because there i
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: MergePythonClient
+- **Status**: official CLI, first party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install MergePythonClient
+```
+
+quoted from [https://github.com/merge-api/merge-python-client](https://github.com/merge-api/merge-python-client) on 2026-09-08, via pypi
+
+```
+gem install merge_ruby_client
+```
+
+quoted from [https://github.com/merge-api/merge-ruby-client](https://github.com/merge-api/merge-ruby-client) on 2026-09-08, via gem
+
+Login or key hint seen on the page:
+
+can configure
+
+Where it was documented:
+
+- [https://github.com/merge-api/merge-python-client](https://github.com/merge-api/merge-python-client) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -92,6 +124,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/merge-api/merge-mcp](https://github.com/merge-api/merge-mcp)
+
+**On GitHub**
+
+[github.com/merge-api](https://github.com/merge-api) tied to the vendor by rule 2, account website merge.dev has the vendor's domain, confidence strong
+
+- **Public repositories**: 54, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [merge-unified-skills](https://github.com/merge-api/merge-unified-skills) | other | Claude Code skills for the Merge Unified API | 0 | 2026-09-07 | |
+| [react-merge-link](https://github.com/merge-api/react-merge-link) | other | | 5 | 2026-08-27 | 2.4.2 |
+| [merge-workforce-dist](https://github.com/merge-api/merge-workforce-dist) | other | Public distribution point for the Merge Workforce desktop client (signed macOS + Windows packages). Downloads are on... | 0 | 2026-08-24 | v0.1.0-preview3 |
+| [react-agent-handler-link](https://github.com/merge-api/react-agent-handler-link) | other | | 0 | 2026-08-14 | |
+| [merge-gateway-ai-sdk-provider](https://github.com/merge-api/merge-gateway-ai-sdk-provider) | SDK | Merge Gateway provider for the Vercel AI SDK | 0 | 2026-08-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

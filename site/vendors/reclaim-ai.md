@@ -38,6 +38,10 @@ Vendor domain: [reclaim.ai](https://reclaim.ai) · vendor page id reclaim-ai
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/reclaim-ai](https://github.com/reclaim-ai), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.reclaim.ai](https://mcp.reclaim.ai) (Reclaim.ai, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Reclaim.ai](../tools/reclaim-ai.md) reclaim community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install reclaim-cli
+```
+
+quoted from [https://pypi.org/project/reclaim-cli/](https://pypi.org/project/reclaim-cli/) on 2026-09-08, via pypi, a third party source
+
+Login or key hint: Set `RECLAIM_API_KEY` to a personal Reclaim API key before use.
+
+1 more install command, 2 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/reclaim-ai.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/reclaim-ai](https://github.com/reclaim-ai) tied to the vendor by rule 3, account website https://reclaim.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 3, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-10-17
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [react-intercom-hook](https://github.com/reclaim-ai/react-intercom-hook) | other | React hook for Intercom.io | 12 | 2025-10-17 | v2.0.6 |
+| [be-interview](https://github.com/reclaim-ai/be-interview) | other | Simple project for backend interview exercise | 0 | 2023-07-21 | |
+| [reclaim-raycast-extension](https://github.com/reclaim-ai/reclaim-raycast-extension) | plugin or integration | | 0 | 2023-07-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

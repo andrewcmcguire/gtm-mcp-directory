@@ -38,6 +38,10 @@ Vendor domain: [snowflake.com](https://snowflake.com) · [Public company brief (
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/Snowflake-Labs](https://github.com/Snowflake-Labs), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp) (Snowflake (Cortex AI, as GTM/RevOps warehouse layer), docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md) snowflake-cli official CLI
+
+```
+pip install snowflake-cli
+```
+
+quoted from [https://pypi.org/project/snowflake-cli/](https://pypi.org/project/snowflake-cli/) on 2026-09-08, via pypi
+
+Login or key hint: development setup
+
+5 more install commands, harvested 2026-09-08, all on the [tool page](../tools/snowflake.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/Snowflake-Labs](https://github.com/Snowflake-Labs) tied to the vendor by rule 1, account website https://developers.snowflake.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 125, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 4 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [sfquickstarts](https://github.com/Snowflake-Labs/sfquickstarts) | other | Follow along with our tutorials to get you up and running with Snowflake. | 17 | 2026-09-08 | |
+| [pg_lake](https://github.com/Snowflake-Labs/pg_lake) | other | pg_lake: Postgres with Iceberg and data lake access | 1,637 | 2026-09-08 | v3.5.0 |
+| [coco-skills](https://github.com/Snowflake-Labs/coco-skills) | CLI | This is a curated collection of Agent Skills for Cortex Code ("CoCo") - Snowflake's CLI for building with AI. | 29 | 2026-09-08 | |
+| [swt-tokyo-2026-coco](https://github.com/Snowflake-Labs/swt-tokyo-2026-coco) | other | | 0 | 2026-09-08 | |
+| [sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator](https://github.com/Snowflake-Labs/sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator) | other | | 12 | 2026-09-08 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

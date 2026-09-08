@@ -250,6 +250,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -275,6 +279,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/shanefirek/clay-mcp-public](https://github.com/shanefirek/clay-mcp-public)
+
+**On GitHub**
+
+[github.com/clay-run](https://github.com/clay-run) tied to the vendor by rule 3, account website https://clay.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 11, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [public-docs](https://github.com/clay-run/public-docs) | docs or examples | MD files of Clay documentation | 5 | 2026-09-08 | |
+| [agent-plugins](https://github.com/clay-run/agent-plugins) | CLI | Build with Clay in your AI coding agent - skills, MCP tools, and the clay CLI for Claude Code, Codex, and Cursor.... | 111 | 2026-09-03 | clay-cli-v0.16.0 |
+| [action-template-nodejs](https://github.com/clay-run/action-template-nodejs) | docs or examples | A Clay Action Template - NodeJs | 1 | 2020-09-15 | |
+| [base-app-starter](https://github.com/clay-run/base-app-starter) | docs or examples | Base Starter App | 1 | 2020-09-04 | |
+| [keyword-lists](https://github.com/clay-run/keyword-lists) | other | Some keyword lists | 0 | 2020-02-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

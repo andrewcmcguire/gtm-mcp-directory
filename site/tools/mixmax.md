@@ -64,6 +64,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -85,6 +89,27 @@ No documentation text is reproduced anywhere on this site. Read the vendor page 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/mixmaxhq](https://github.com/mixmaxhq) tied to the vendor by rule 3, account website https://www.mixmax.com/engineering has the vendor's domain, confidence strong
+
+- **Public repositories**: 105, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-01
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [email-setup](https://github.com/mixmaxhq/email-setup) | other | Collection of utilities for checking email configuration settings. | 2 | 2026-09-01 | v1.1.2 |
+| [eslint-config-mixmax](https://github.com/mixmaxhq/eslint-config-mixmax) | other | Mixmax's JS linter configuration. | 1 | 2026-08-19 | v6.0.1 |
+| [custody-probe](https://github.com/mixmaxhq/custody-probe) | other | Report the state of child processes to custody. | 0 | 2026-07-10 | |
+| [aws-instance-metadata](https://github.com/mixmaxhq/aws-instance-metadata) | other | | 2 | 2026-07-10 | v2.1.3 |
+| [check-dependencies-except-peer](https://github.com/mixmaxhq/check-dependencies-except-peer) | other | Ensure that your package-lock matches your package and is self-consistent, and ignore missing peerDependencies | 1 | 2026-07-10 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

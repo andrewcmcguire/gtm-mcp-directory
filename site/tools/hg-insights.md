@@ -153,6 +153,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -174,6 +178,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/HGData](https://github.com/HGData) tied to the vendor by rule 3, account website http://www.hginsights.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 27, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-02-20
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [action-setup-elixir](https://github.com/HGData/action-setup-elixir) | SDK | Checks out the code, configures Elixir, fetches dependencies, and manages build caching | 0 | 2026-02-20 | v1.0.6 |
+| [mk-developers](https://github.com/HGData/mk-developers) | other | | 2 | 2024-09-12 | |
+| [mk-node-mixpanel-export](https://github.com/HGData/mk-node-mixpanel-export) | other | | 0 | 2024-07-09 | |
+| [mk-node-marketo](https://github.com/HGData/mk-node-marketo) | other | REST Client for Marketo API | 50 | 2024-02-05 | 0.7.8 |
+| [mk-node-eloqua](https://github.com/HGData/mk-node-eloqua) | other | | 4 | 2024-01-03 | 1.3.5 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

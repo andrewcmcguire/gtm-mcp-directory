@@ -38,6 +38,10 @@ Vendor domain: [pipeworx.io](https://pipeworx.io) · vendor page id pipeworx-io
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/pipeworx-io](https://github.com/pipeworx-io), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Pipeworx](../tools/pipeworx.md) pipeworx official CLI
+
+```
+npx pipeworx@latest
+```
+
+quoted from [https://pipeworx.io/docs/getting-started/cli/](https://pipeworx.io/docs/getting-started/cli/) on 2026-09-08, via npx
+
+Login or key hint: export PIPEWORX_API_KEY = your_key_here
+
+1 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/pipeworx.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/pipeworx-io](https://github.com/pipeworx-io) tied to the vendor by rule 1, the directory already classed this repo first-party and its owner is an Organization, confidence strong
+
+- **Public repositories**: 150, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 150 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [mcp-symmap](https://github.com/pipeworx-io/mcp-symmap) | MCP server | SymMap v2 - Traditional Chinese Medicine association graph from symmap.org | 0 | 2026-09-08 | |
+| [mcp-tcm-products](https://github.com/pipeworx-io/mcp-tcm-products) | MCP server | Traditional Chinese Medicine (TCM) products licensed in Singapore - the HSA Chinese Proprietary Medicine listing... | 0 | 2026-09-08 | |
+| [mcp-hk-companies](https://github.com/pipeworx-io/mcp-hk-companies) | MCP server | Hong Kong Companies Registry open data - company name/BR-number search, new registrations, and name changes via... | 0 | 2026-09-07 | |
+| [mcp-china-safe](https://github.com/pipeworx-io/mcp-china-safe) | MCP server | China SAFE (State Administration of Foreign Exchange) - 国家外汇管理局 | 0 | 2026-09-07 | |
+| [mcp-china-air-quality](https://github.com/pipeworx-io/mcp-china-air-quality) | MCP server | China Air Quality MCP - nationwide hourly AQI from CNEMC (中国环境监测总站). | 0 | 2026-09-07 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -38,6 +38,10 @@ Vendor domain: [buffer.com](https://buffer.com) · vendor page id buffer-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/bufferapp](https://github.com/bufferapp), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,39 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Buffer](../tools/buffer.md) public community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+Login or key hint: Common setup
+
+8 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/buffer.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/bufferapp](https://github.com/bufferapp) tied to the vendor by rule 3, account website https://overflow.buffer.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 129, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-02
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [vpat](https://github.com/bufferapp/vpat) | other | Contains VPAT document for Buffer | 1 | 2026-09-02 | |
+| [buffer-n8n](https://github.com/bufferapp/buffer-n8n) | plugin or integration | The official Buffer integration for n8n | 0 | 2026-08-27 | v3.8.1 |
+| [smart-tag](https://github.com/bufferapp/smart-tag) | other | | 0 | 2026-05-13 | |
+| [js-bufflog](https://github.com/bufferapp/js-bufflog) | other | logger for all javascript and typescript Buffer services | 0 | 2026-05-13 | |
+| [go-base-worker](https://github.com/bufferapp/go-base-worker) | other | Golang packages needed to build a consumers | 3 | 2026-03-23 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

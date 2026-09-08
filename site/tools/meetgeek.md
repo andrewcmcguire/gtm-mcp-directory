@@ -18,6 +18,7 @@ MeetGeek
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-25
+CLI: meetgeek (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -83,6 +84,41 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: meetgeek
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g meetgeek-cli
+```
+
+quoted from [https://www.npmjs.com/package/meetgeek-cli](https://www.npmjs.com/package/meetgeek-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint seen on the page:
+
+meetgeek auth
+
+Subcommands seen with the binary:
+
+ask, auth, highlights, list, show, summary, transcript
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: meetgeek-cli 0.1.2, third party](https://www.npmjs.com/package/meetgeek-cli)
+
+Where it was documented:
+
+- [https://github.com/nexty5870/meetgeek-cli](https://github.com/nexty5870/meetgeek-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -108,6 +144,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/meetgeekai/meetgeek-mcp-server](https://github.com/meetgeekai/meetgeek-mcp-server)
+
+**On GitHub**
+
+[github.com/meetgeekai](https://github.com/meetgeekai) tied to the vendor by rule 1, the directory already classed this repo first-party and its owner is an Organization, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-03-12
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [onechart](https://github.com/meetgeekai/onechart) | other | | 0 | 2026-03-12 | v1.0.13 |
+| [meetgeek-mcp-server](https://github.com/meetgeekai/meetgeek-mcp-server) | MCP server | Official MeetGeek MCP Server | 23 | 2026-02-05 | |
+| [meetgeekai-n8n-node](https://github.com/meetgeekai/meetgeekai-n8n-node) | SDK | n8n community node for integrating with the Meetgeek app | 4 | 2025-10-17 | |
+| [meetgeek-mcp-test](https://github.com/meetgeekai/meetgeek-mcp-test) | MCP server | | 0 | 2025-07-23 | |
+| [release-action](https://github.com/meetgeekai/release-action) | infrastructure | | 0 | 2024-06-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

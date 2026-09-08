@@ -50,6 +50,10 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -73,6 +77,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/commsor](https://github.com/commsor) tied to the vendor by rule 3, account website https://commsor.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2022-09-16
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [titanoboa](https://github.com/commsor/titanoboa) | other | Titanoboa makes complex workflows easy. It is a low-code workflow orchestration platform for JVM - distributed, highly... | 921 | 2022-09-16 | 1.0.0-alfa.1 |
+| [titanoboa-tasklets](https://github.com/commsor/titanoboa-tasklets) | other | ready-made workflow steps for titanoboa | 15 | 2022-01-05 | |
+| [edge-datadog-opentracing-debugging](https://github.com/commsor/edge-datadog-opentracing-debugging) | other | | 0 | 2021-07-20 | |
+| [titanoboa-gui](https://github.com/commsor/titanoboa-gui) | other | | 3 | 2021-01-22 | 0.9.0 |
+| [titanoboa-sample-workflows](https://github.com/commsor/titanoboa-sample-workflows) | docs or examples | Sample workflows for titanoboa | 17 | 2020-12-05 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

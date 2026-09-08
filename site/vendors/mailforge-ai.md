@@ -38,6 +38,10 @@ Vendor domain: [mailforge.ai](https://mailforge.ai) · vendor page id mailforge-
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: no github.com signal on any product, checked 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,28 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.salesforge.ai/mcp](https://mcp.salesforge.ai/mcp) (Mailforge, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Mailforge](../tools/mailforge.md) mailforge community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install mailforge-cli
+```
+
+quoted from [https://github.com/gitstq/MailForge-CLI](https://github.com/gitstq/MailForge-CLI) on 2026-09-08, via pypi, a third party source
+
+Login or key hint: mailforge init
+
+9 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/mailforge.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+The entry carried no github.com URL and the organisation search returned nothing on 2026-09-08. That is a statement about the instrument on that date, not proof the vendor has no GitHub.
 
 **What this page does not claim**
 

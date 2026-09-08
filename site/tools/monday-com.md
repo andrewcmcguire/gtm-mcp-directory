@@ -18,6 +18,7 @@ monday.com (monday CRM)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: mapps
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -80,6 +81,40 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: mapps
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @mondaycom/apps-cli
+```
+
+quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-08, via npm
+
+Login or key hint seen on the page:
+
+mapps init
+
+30 subcommands seen with the binary in the docs or README:
+expand to read them
+
+api:generate, app-features:build, app-features:create, app-features:list, app-version:builds, app-version:list, app:create, app:deploy, app:list, app:promote, autocomplete, code:env, code:logs, code:push, code:secret, code:status, database:connection-string, help, init, manifest:export, manifest:import, scheduler:create, scheduler:delete, scheduler:list, scheduler:run, scheduler:update, storage:export, storage:remove-data, storage:search, tunnel:create
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @mondaycom/apps-cli 4.10.8](https://www.npmjs.com/package/@mondaycom/apps-cli)
+
+Where it was documented:
+
+- [https://github.com/mondaycom/monday-apps-cli](https://github.com/mondaycom/monday-apps-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -105,6 +140,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/mondaycom/mcp](https://github.com/mondaycom/mcp)
+
+**On GitHub**
+
+[github.com/mondaycom](https://github.com/mondaycom) tied to the vendor by rule 1, account website https://monday.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 40, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 5 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [vibe](https://github.com/mondaycom/vibe) | MCP server | 🎨 Vibe Design System - Official monday.com UI resources for application development in React.js | 675 | 2026-09-08 | @vibe/wizard@4.0.4 |
+| [mcli](https://github.com/mondaycom/mcli) | CLI | Monday CLI | 1 | 2026-09-08 | v0.8.0 |
+| [mcp](https://github.com/mondaycom/mcp) | MCP server | Enable AI agents to work reliably - giving them secure access to structured data, tools to take action, and the context... | 423 | 2026-09-07 | |
+| [n8n-nodes-monday-models](https://github.com/mondaycom/n8n-nodes-monday-models) | plugin or integration | n8n community node for monday.com Models API - use monday-hosted AI chat models in Agents and Chains | 0 | 2026-08-11 | |
+| [monday-sdk-js](https://github.com/mondaycom/monday-sdk-js) | SDK | Node.js and JavaScript SDK for developing over the monday.com platform | 102 | 2026-08-10 | 0.5.9 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

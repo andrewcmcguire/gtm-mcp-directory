@@ -5,7 +5,7 @@ Run it from this directory:
     python qa_stdio.py
 
 It spawns `python -m gtm_mcp_directory` as a real subprocess, speaks MCP over
-stdio to it, calls all seven tools, prints trimmed output, and asserts the
+stdio to it, calls all eleven tools, prints trimmed output, and asserts the
 things that are load-bearing:
 
 - every tool is registered and callable
@@ -13,6 +13,8 @@ things that are load-bearing:
 - every response carries the job-tag meaning line
 - "enrich a linkedin profile url" returns tools that actually do that
 - the counts match the build report
+- the CLI and GitHub organisation layers count what the data counts, and say
+  "not measured" rather than 0 when they have not run
 - nothing needs the network
 
 Exit code 0 means the server is honest and working. Anything else is a fail.
@@ -63,7 +65,45 @@ def expected_counts() -> dict[str, int]:
     for e in entries:
         g = e.get("api_gate_bucket") or "unknown"
         gates[g] = gates.get(g, 0) + 1
-    return {"entries": len(entries), "official": official, "solo_reachable": solo, "bench_tested": bench, "gates": gates, "official_live": official_live}
+
+    # The command-line layer. The top-level "cli" summary and the per-entry
+    # cli_status must agree with each other before the server is asked to agree
+    # with either. A build without the layer reads as not measured.
+    cli_layer = directory.get("cli") or {}
+    by_cli: dict[str, int] = {}
+    for e in entries:
+        k = e.get("cli_status") or "not-checked"
+        by_cli[k] = by_cli.get(k, 0) + 1
+    cli_reachable = by_cli.get("official", 0) + by_cli.get("community", 0)
+    summary_status = cli_layer.get("by_status") or {}
+    cli_summary_reachable = int(summary_status.get("official") or 0) + int(summary_status.get("community") or 0)
+    cli_measured = bool(cli_layer.get("generated_on")) and any(k != "not-checked" for k in by_cli)
+
+    orgs_layer = directory.get("github_orgs") or {}
+    by_org: dict[str, int] = {}
+    for e in entries:
+        k = e.get("github_org_status") or "not-checked"
+        by_org[k] = by_org.get(k, 0) + 1
+    orgs_measured = bool(orgs_layer.get("generated_on")) and any(k != "not-checked" for k in by_org)
+    orgs_resolved_canonical = sum(
+        1 for e in entries if e.get("canonical", True) and e.get("github_org_status") == "resolved"
+    )
+    return {
+        "entries": len(entries),
+        "official": official,
+        "solo_reachable": solo,
+        "bench_tested": bench,
+        "gates": gates,
+        "official_live": official_live,
+        "cli_reachable": cli_reachable,
+        "cli_summary_reachable": cli_summary_reachable,
+        "cli_measured": cli_measured,
+        "cli_checked_on": cli_layer.get("generated_on"),
+        "orgs_measured": orgs_measured,
+        "orgs_checked_on": orgs_layer.get("generated_on"),
+        "orgs_resolved_canonical": orgs_resolved_canonical,
+        "orgs_by_status": by_org,
+    }
 
 
 EXPECTED = expected_counts()
@@ -78,7 +118,20 @@ REQUIRED_TOOLS = [
     "list_jobs",
     "get_server_tools",
     "plan_stack",
+    "get_install",
+    "whats_building",
 ]
+
+PLAN_GOAL = "find a person's linkedin from a name and company, get their work email, verify it"
+
+
+def candidate_sets(plan: dict[str, Any]) -> list[list[str]]:
+    """Per step, the sorted candidate names, so two plans can be compared as sets."""
+    out = []
+    for step in plan.get("steps") or []:
+        rows = ([step["recommended"]] if step.get("recommended") else []) + (step.get("alternatives") or [])
+        out.append(sorted(r["name"] for r in rows))
+    return out
 
 
 def check(label: str, condition: bool, detail: str = "") -> None:
@@ -430,6 +483,173 @@ async def run() -> None:
         )
 
         # ------------------------------------------------------------------
+        rule("9b. find_tools(interface='cli'): the command-line layer as a filter")
+        body = payload(await client.call_tool("find_tools", {"interface": "cli", "limit": 100}))
+        print("   cli layer measured (data): %s on %s" % (EXPECTED["cli_measured"], EXPECTED["cli_checked_on"]))
+        print("   filters:     %s" % body["filters_applied"])
+        print("   match_count: %s (data says %s reachable, summary says %s)" % (body["match_count"], EXPECTED["cli_reachable"], EXPECTED["cli_summary_reachable"]))
+        for n in body["filter_notes"][:2]:
+            print("   note:        %s" % trim(n, 220))
+        for r in body["results"][:6]:
+            inst = (r["cli_install"] or [{}])[0]
+            print("     - %-24s %-10s %-10s %s" % (trim(r["name"], 24), r["cli_status"], trim(r["cli_binary"], 10), trim(inst.get("cmd"), 50)))
+        print("   summary:     %s" % trim(body["summary"], 320))
+        assert_envelope("find_tools/interface=cli", body)
+        check(
+            "the data agrees with itself on cli official+community (%d)" % EXPECTED["cli_reachable"],
+            EXPECTED["cli_reachable"] == EXPECTED["cli_summary_reachable"],
+            EXPECTED["cli_summary_reachable"],
+        )
+        check(
+            "interface=cli count matches the data (%d)" % EXPECTED["cli_reachable"],
+            body["match_count"] == EXPECTED["cli_reachable"],
+            body["match_count"],
+        )
+        check(
+            "every interface=cli result has cli_status official or community",
+            all(r["cli_status"] in ("official", "community") for r in body["results"]),
+        )
+        check(
+            "every cli result carries cli_checked_on",
+            all(r["cli_checked_on"] for r in body["results"]),
+        )
+        check(
+            "the result view carries the CLI and organisation fields",
+            all(k in (body["results"][0] if body["results"] else {"cli_status": 1, "cli_binary": 1, "cli_install": 1, "cli_party": 1, "cli_checked_on": 1, "github_org": 1, "github_org_repos": 1, "github_org_latest_activity": 1})
+                for k in ("cli_status", "cli_binary", "cli_install", "cli_party", "cli_checked_on", "github_org", "github_org_repos", "github_org_latest_activity")),
+        )
+        if not EXPECTED["cli_measured"]:
+            check(
+                "an unmeasured CLI layer says so in the filter notes",
+                any("has not been measured" in n for n in body["filter_notes"]),
+                body["filter_notes"][:1],
+            )
+            check(
+                "an unmeasured CLI layer says so in the summary",
+                "has not been measured" in body["summary"],
+            )
+        else:
+            check(
+                "a measured CLI layer states its date in the notes",
+                any(EXPECTED["cli_checked_on"] in n for n in body["filter_notes"]),
+            )
+        check(
+            "the envelope carries the CLI layer sentence",
+            any("CLI layer" in c for c in body["honesty"]["caveats"]),
+        )
+
+        body = payload(await client.call_tool("find_tools", {"interface": "either", "limit": 1}))
+        either = body["match_count"]
+        body = payload(await client.call_tool("find_tools", {"interface": "mcp", "limit": 1}))
+        print("   interface=mcp %d, interface=either %d" % (body["match_count"], either))
+        check("interface=either is at least interface=mcp", either >= body["match_count"])
+        check("interface=mcp matches official+community MCP", body["match_count"] == EXPECTED["official"] + sum(
+            1 for e in json.loads((HERE.parent / "data" / "directory.json").read_text(encoding="utf-8"))["entries"]
+            if e.get("mcp_status_bucket") == "community"), body["match_count"])
+
+        # ------------------------------------------------------------------
+        rule("9c. get_install('ZoomInfo'): both routes in one answer")
+        body = payload(await client.call_tool("get_install", {"name": "ZoomInfo"}))
+        print("   status:          %s (match=%s) -> %s" % (body["status"], body["match_method"], body["name"]))
+        print("   mcp route:       %s" % trim(body["mcp"]["route"], 200))
+        print("   hosted_or_local: %s" % body["mcp"]["hosted_or_local"])
+        print("   cli route:       %s" % trim(body["cli"]["route"], 200))
+        for i in body["cli"]["cli_install"]:
+            print("     $ %-50s <- %s (%s)" % (trim(i["cmd"], 50), trim(i["source_url"], 60), i["fetched_on"]))
+        print("   recommendation:  %s" % trim(body["recommendation"], 300))
+        for c in body["caveats"][:3]:
+            print("     * %s" % trim(c, 170))
+        assert_envelope("get_install", body)
+        check("get_install resolved ZoomInfo", body["status"] == "ok" and body["name"] == "ZoomInfo", body.get("name"))
+        check("get_install carries both routes", "mcp" in body and "cli" in body)
+        check("the MCP route states endpoint_status", body["mcp"]["endpoint_status"] is not None)
+        check("the MCP route states hosted or local", body["mcp"]["hosted_or_local"] in ("hosted", "local", "unknown", "none"))
+        check("recommendation names both routes", body["recommendation"].startswith("MCP:") and "CLI:" in body["recommendation"])
+        check("recommendation does not rank vendors", "best" not in body["recommendation"].lower() and "recommend" not in body["recommendation"].lower())
+        if body["cli"]["cli_status"] == "official":
+            check("official CLI: at least one install command", len(body["cli"]["cli_install"]) >= 1)
+            check(
+                "official CLI: every install command has a non-empty source_url",
+                all(i.get("source_url") for i in body["cli"]["cli_install"]),
+            )
+            check(
+                "official CLI: every install command has a fetched_on date",
+                all(i.get("fetched_on") for i in body["cli"]["cli_install"]),
+            )
+            check("official CLI: the caveats say the command was quoted, not run", any("not run" in c for c in body["caveats"]))
+        elif body["cli"]["cli_status"] == "not-checked":
+            check("unmeasured CLI: the route says not measured", "not been measured" in body["cli"]["route"] or "not measured" in body["cli"]["route"], body["cli"]["route"])
+        elif body["cli"]["cli_status"] == "none-found":
+            check("none-found CLI: the route carries the date", (body["cli"]["cli_checked_on"] or "") in body["cli"]["route"])
+        else:
+            check("community CLI: the route says third party", "third party" in body["cli"]["route"])
+
+        body = payload(await client.call_tool("get_install", {"name": "quantum yak shaving inc"}))
+        print("   unknown name -> %s" % body["status"])
+        check("get_install explains a miss", body["status"] == "not found" and "not been researched" in body["message"])
+
+        # ------------------------------------------------------------------
+        rule("9d. whats_building(): what vendors ship in public, dated")
+        body = payload(await client.call_tool("whats_building", {}))
+        print("   orgs layer measured (data): %s on %s" % (EXPECTED["orgs_measured"], EXPECTED["orgs_checked_on"]))
+        print("   status:    %s   scope=%s" % (body["status"], body["scope"]))
+        print("   window:    %s" % body["window"])
+        print("   counts:    %s" % body["counts"])
+        if body["status"] == "ok":
+            print("   silence:   %s" % trim(body["silence_note"], 260))
+            for v in body["active_vendors"][:5]:
+                top = (v["recent_repos"] or [{}])[0]
+                print("     - %-20s %-18s repos=%-4s mcp=%-3s last=%s  top=%s" % (trim(v["name"], 20), trim(v["github_org"], 18), v["repos_public_non_fork"], v["repos_mcp"], trim(v["latest_activity"], 10), trim(top.get("name"), 30)))
+        else:
+            print("   message:   %s" % trim(body["message"], 260))
+        assert_envelope("whats_building", body)
+        if EXPECTED["orgs_measured"]:
+            check("whats_building serves when the layer is measured", body["status"] == "ok", body["status"])
+            check("resolved count matches the data (%d canonical)" % EXPECTED["orgs_resolved_canonical"], body["counts"]["resolved"] == EXPECTED["orgs_resolved_canonical"], body["counts"]["resolved"])
+            check("every count carries checked_on", body["counts"]["checked_on"] == EXPECTED["orgs_checked_on"], body["counts"]["checked_on"])
+            check("active vendors all carry a last push and a date", all(v["latest_activity"] and v["checked_on"] for v in body["active_vendors"]))
+            check("active vendors are sorted most recent first", [v["latest_activity"] for v in body["active_vendors"]] == sorted((v["latest_activity"] for v in body["active_vendors"]), reverse=True))
+            check("silence is counted, not hidden", body["counts"]["silent_total"] == body["counts"]["entries_in_scope"] - body["counts"]["resolved"])
+        else:
+            check("whats_building says not measured", body["status"] == "not measured", body["status"])
+            check("unmeasured counts are null, not zero", body["counts"]["resolved"] is None and body["counts"]["not_checked"] is None)
+            check("the message says the layer has not been measured", "has not been measured" in body["message"])
+
+        body = payload(await client.call_tool("whats_building", {"name": "Apify"}))
+        print("   Apify -> org=%s status=%s repos=%s last=%s" % (body.get("github_org"), body.get("github_org_status"), body.get("repos"), trim(body.get("latest_activity"), 10)))
+        print("   message: %s" % trim(body.get("message"), 240))
+        check("whats_building(name) resolves a vendor", body["status"] == "ok" and body["name"] == "Apify", body.get("name"))
+        if body["github_org_status"] == "resolved":
+            check("a resolved org carries integer repo counts and a date", isinstance(body["repos"]["public_non_fork"], int) and bool(body["repos"]["checked_on"]))
+            check("a resolved org carries recent repos with pushed dates", bool(body["recent_repos"]) and all(r.get("pushed_at") for r in body["recent_repos"]))
+        else:
+            check("an unresolved or unchecked org carries null counts", body["repos"]["public_non_fork"] is None)
+
+        # ------------------------------------------------------------------
+        rule("9e. plan_stack(prefer_interface='cli') reorders, never removes")
+        base = payload(await client.call_tool("plan_stack", {"goal": PLAN_GOAL}))
+        pref = payload(await client.call_tool("plan_stack", {"goal": PLAN_GOAL, "prefer_interface": "cli"}))
+        print("   steps: %d; preference note: %s" % (len(pref["steps"]), trim(pref["interface_preference"]["note"], 200)))
+        for st in pref["steps"]:
+            rec = st["recommended"] or {}
+            print("     %d. %-34s -> %-22s cli=%s" % (st["step"], st["job"], trim(rec.get("name"), 22), (rec.get("cli") or {}).get("status")))
+        check("plan_stack still plans the goal", base["status"] == "ok" and len(base["steps"]) >= 2, base["status"])
+        check("every candidate carries a cli block", all(
+            "cli" in c and "status" in c["cli"] and "install" in c["cli"]
+            for st in base["steps"] for c in ([st["recommended"]] if st["recommended"] else []) + st["alternatives"]
+        ))
+        check("prefer_interface=cli returns the same candidate set per step", candidate_sets(base) == candidate_sets(pref), (candidate_sets(base), candidate_sets(pref)))
+        check("prefer_interface is disclosed", pref["interface_preference"]["asked"] == "cli" and bool(pref["interface_preference"]["note"]))
+        if EXPECTED["cli_measured"]:
+            check("with a measured CLI layer, CLI-bearing candidates lead each step", all(
+                [c["cli"]["status"] in ("official", "community") for c in ([st["recommended"]] if st["recommended"] else []) + st["alternatives"]]
+                == sorted([c["cli"]["status"] in ("official", "community") for c in ([st["recommended"]] if st["recommended"] else []) + st["alternatives"]], reverse=True)
+                for st in pref["steps"]
+            ))
+        else:
+            check("with an unmeasured CLI layer the note says so", "has not been measured" in (pref["interface_preference"]["note"] or ""))
+
+        # ------------------------------------------------------------------
         rule("10. INTEGRITY RESOURCE")
         res = await client.read_resource("gtm-directory://integrity")
         raw = getattr(res[0], "text", None)
@@ -460,6 +680,38 @@ def strip_layer(payload: dict, *, drop_vocabulary: bool, drop_tags: bool) -> dic
         if isinstance(out.get("counts"), dict):
             out["counts"]["entries_tagged"] = 0
             out["counts"]["entries_untagged"] = len(out["entries"])
+    out["content_sha256"] = content_sha256(out)
+    return out
+
+
+CLI_DEFAULTS = {
+    "cli_status": "not-checked", "cli_party": None, "cli_binary": None, "cli_install": [],
+    "cli_login": None, "cli_commands_seen": [], "cli_docs_url": None, "cli_repo": None,
+    "cli_packages": [], "cli_evidence": None, "cli_checked_on": None,
+}
+ORG_DEFAULTS = {
+    "github_org": None, "github_org_status": "not-checked", "github_org_url": None,
+    "github_org_evidence": None, "github_org_repos": 0, "github_org_repos_mcp": 0,
+    "github_org_repos_cli": 0, "github_org_latest_activity": None,
+    "github_org_recent_repos": [], "github_org_checked_on": None,
+}
+
+
+def strip_interface_layers(payload: dict) -> dict:
+    """Return a copy of the directory as a build on which neither harvest has run."""
+    from gtm_mcp_directory.loading import content_sha256
+
+    out = json.loads(json.dumps(payload))
+    for entry in out["entries"]:
+        entry.update(json.loads(json.dumps(CLI_DEFAULTS)))
+        entry.update(json.loads(json.dumps(ORG_DEFAULTS)))
+    out["cli"] = {
+        "source": "data/cli_inventory.json", "generated_on": None,
+        "by_status": {"official": 0, "community": 0, "none-found": 0, "not-checked": 0},
+        "meaning": "The CLI harvest has not run on this build.",
+    }
+    out["github_orgs"] = {"source": "data/github_orgs.json", "generated_on": None, "resolved": 0,
+                          "meaning": "The organisation harvest has not run on this build."}
     out["content_sha256"] = content_sha256(out)
     return out
 
@@ -607,6 +859,46 @@ async def run_degradation(tmp: Path) -> None:
             % (body["scope_basis"], body["entries"], trim(body["scope_notes"][0] if body["scope_notes"] else "", 160))
         )
         check("job stats disclose the text-match basis", body["scope_basis"] == "text-match")
+
+    # ---------------------------------------------------------------- 12b --
+    rule("12b. DEGRADATION: neither the CLI nor the organisation harvest has run")
+    bare_iface = write_fixture(tmp, "no-interfaces", strip_interface_layers(live))
+    print("   fixture: every cli_* and github_org_* field reset to not-checked, summaries unstamped, restamped")
+    async with Client(spawn(bare_iface)) as client:
+        body = payload(await client.call_tool("whats_building", {}))
+        print("   whats_building: status=%s counts=%s" % (body["status"], body["counts"]))
+        print("   message:        %s" % trim(body["message"], 240))
+        check("unmeasured org layer: status says not measured", body["status"] == "not measured", body["status"])
+        check("unmeasured org layer: counts are null, not zero", all(
+            body["counts"][k] is None for k in ("resolved", "unresolved", "no_github_signal", "not_checked", "silent_total", "checked_on")
+        ), body["counts"])
+        check("unmeasured org layer: the sentence says so", "has not been measured" in body["message"])
+
+        body = payload(await client.call_tool("whats_building", {"name": "Apify"}))
+        print("   whats_building(Apify): status=%s repos=%s" % (body["github_org_status"], body["repos"]))
+        check("unmeasured org layer: a vendor lookup carries null counts", body["repos"]["public_non_fork"] is None)
+        check("unmeasured org layer: a vendor lookup says so", "not been measured" in body["message"])
+
+        body = payload(await client.call_tool("get_install", {"name": "ZoomInfo"}))
+        print("   get_install(ZoomInfo) cli route: %s" % trim(body["cli"]["route"], 200))
+        check("unmeasured CLI layer: get_install says the layer has not been measured", "has not been measured" in body["cli"]["route"])
+        check("unmeasured CLI layer: the MCP route still answers", body["mcp"]["endpoint_status"] is not None)
+        check("unmeasured CLI layer: the recommendation still names both routes", body["recommendation"].startswith("MCP:") and "CLI:" in body["recommendation"])
+
+        body = payload(await client.call_tool("find_tools", {"interface": "cli", "limit": 5}))
+        print("   find_tools(interface=cli): match_count=%s note=%s" % (body["match_count"], trim(body["filter_notes"][0] if body["filter_notes"] else "", 200)))
+        check("unmeasured CLI layer: interface=cli keeps nothing and says why", body["match_count"] == 0 and any("has not been measured" in n for n in body["filter_notes"]))
+        check("unmeasured CLI layer: the summary says not measured", "has not been measured" in body["summary"])
+
+        body = payload(await client.call_tool("find_tools", {"interface": "either", "limit": 1}))
+        print("   find_tools(interface=either): match_count=%s" % body["match_count"])
+        check("unmeasured CLI layer: interface=either reduces to MCP", body["match_count"] == EXPECTED["official"] + sum(
+            1 for e in live["entries"] if e.get("mcp_status_bucket") == "community"), body["match_count"])
+
+        body = payload(await client.call_tool("plan_stack", {"goal": PLAN_GOAL, "prefer_interface": "cli"}))
+        print("   plan_stack(prefer cli): %s" % trim(body["interface_preference"]["note"], 200))
+        check("unmeasured CLI layer: plan_stack says the preference changes nothing", "has not been measured" in (body["interface_preference"]["note"] or ""))
+        check("unmeasured CLI layer: plan summary carries null, not zero", body["summary"]["steps_with_a_cli_route"] is None and body["summary"]["cli_measured_on"] is None)
 
 
 def run_startup_gate(tmp: Path) -> None:

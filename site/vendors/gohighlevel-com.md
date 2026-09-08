@@ -38,6 +38,10 @@ Vendor domain: [gohighlevel.com](https://gohighlevel.com) · vendor page id gohi
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/GoHighLevel](https://github.com/GoHighLevel), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,37 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://services.leadconnectorhq.com/mcp/](https://services.leadconnectorhq.com/mcp/) (HighLevel (GoHighLevel), endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [HighLevel (GoHighLevel)](../tools/highlevel.md) gohighlevel community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+5 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/highlevel.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/GoHighLevel](https://github.com/GoHighLevel) tied to the vendor by rule 3, account website http://gohighlevel.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 18, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [marketplace-cli](https://github.com/GoHighLevel/marketplace-cli) | CLI | | 0 | 2026-09-08 | |
+| [highlevel-api-sdk](https://github.com/GoHighLevel/highlevel-api-sdk) | SDK | Official SDK for HighLevel Public APIs | 29 | 2026-09-03 | v3.1.0 |
+| [highlevel-api-docs](https://github.com/GoHighLevel/highlevel-api-docs) | docs or examples | This repo is our public documentation for API v2. | 144 | 2026-08-25 | |
+| [ghl-sdk-examples](https://github.com/GoHighLevel/ghl-sdk-examples) | docs or examples | Examples for how to use HighLevel SDK | 12 | 2026-06-25 | |
+| [highlevel-api-python](https://github.com/GoHighLevel/highlevel-api-python) | SDK | Python library for the HighLevel API. | 4 | 2026-06-25 | v3.0.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

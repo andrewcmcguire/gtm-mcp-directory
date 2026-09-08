@@ -18,6 +18,7 @@ Granola
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-08-24
+CLI: granola (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,6 +64,82 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: granola
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g granola-cli
+```
+
+quoted from [https://www.npmjs.com/package/granola-cli](https://www.npmjs.com/package/granola-cli) on 2026-09-08, via npm, a third party source
+
+```
+npm install -g granola-to-minutes
+```
+
+quoted from [https://www.npmjs.com/package/granola-to-minutes](https://www.npmjs.com/package/granola-to-minutes) on 2026-09-08, via npm, a third party source
+
+```
+npm install -g @toolittlecakes/granola-cli
+```
+
+quoted from [https://www.npmjs.com/package/@toolittlecakes/granola-cli](https://www.npmjs.com/package/@toolittlecakes/granola-cli) on 2026-09-08, via npm, a third party source
+
+```
+npm install -g @doist/granola-cli
+```
+
+quoted from [https://www.npmjs.com/package/@doist/granola-cli](https://www.npmjs.com/package/@doist/granola-cli) on 2026-09-08, via npm, a third party source
+
+```
+pip install granola-cli
+```
+
+quoted from [https://pypi.org/project/granola-cli/](https://pypi.org/project/granola-cli/) on 2026-09-08, via pypi, a third party source
+
+```
+npx granola-cli
+```
+
+quoted from [https://github.com/magarcia/granola-cli](https://github.com/magarcia/granola-cli) on 2026-09-08, via npx, a third party source
+
+```
+curl -fsSL https://raw.githubusercontent.com/joelhooks/granola-cli/main/install.sh | sh
+```
+
+quoted from [https://github.com/joelhooks/granola-cli](https://github.com/joelhooks/granola-cli) on 2026-09-08, via shell, a third party source
+
+Login or key hint seen on the page:
+
+granola auth
+
+Subcommands seen with the binary:
+
+alias, auth, config, folder, meeting, meetings, notes, search, today, workspace
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: granola-cli 0.2.0, third party](https://www.npmjs.com/package/granola-cli)
+- [npm: granola-to-minutes 0.5.3, third party](https://www.npmjs.com/package/granola-to-minutes)
+- [npm: @toolittlecakes/granola-cli 0.2.6, third party](https://www.npmjs.com/package/@toolittlecakes/granola-cli)
+- [npm: @doist/granola-cli 1.0.0, third party](https://www.npmjs.com/package/@doist/granola-cli)
+- [pypi: granola-cli 0.1.0, third party](https://pypi.org/project/granola-cli/)
+- [pypi: granola-cli 0.1.0, third party](https://pypi.org/project/granola-cli/)
+
+Where it was documented:
+
+- [https://github.com/magarcia/granola-cli](https://github.com/magarcia/granola-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -89,6 +166,14 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/Bencockin/granola-mcp](https://github.com/Bencockin/granola-mcp)
 - [https://github.com/chrisguillory/granola-mcp](https://github.com/chrisguillory/granola-mcp)
+
+**On GitHub**
+
+No GitHub organisation could be tied to granola.ai with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+7 candidate accounts seen and rejected by the evidence rules: chrisguillory, Bencockin, Granola-Team, granola-inc, GranolaCash. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

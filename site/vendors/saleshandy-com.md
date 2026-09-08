@@ -38,6 +38,10 @@ Vendor domain: [saleshandy.com](https://saleshandy.com) · vendor page id salesh
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/saleshandy](https://github.com/saleshandy), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,41 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Saleshandy](../tools/saleshandy.md) saleshandy official CLI
+
+```
+npm install -g @saleshandy/saleshandy-cli
+```
+
+quoted from [https://www.npmjs.com/package/@saleshandy/saleshandy-cli](https://www.npmjs.com/package/@saleshandy/saleshandy-cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/saleshandy.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/saleshandy](https://github.com/saleshandy) tied to the vendor by rule 3, account website https://www.saleshandy.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 9, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-05
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [icons](https://github.com/saleshandy/icons) | other | The Saleshandy Icons Library is a comprehensive collection of 570+ SVG icons for use in your projects. | 1 | 2026-09-05 | |
+| [aws-kms-crypto](https://github.com/saleshandy/aws-kms-crypto) | other | Package that lets you integrate AWS KMS seamlessly in your javascript project | 0 | 2026-08-26 | |
+| [devops.infrastructure.tf-modules](https://github.com/saleshandy/devops.infrastructure.tf-modules) | other | | 0 | 2026-07-10 | |
+| [outreach-superpower](https://github.com/saleshandy/outreach-superpower) | other | | 1 | 2026-05-19 | |
+| [saleshandy-plugin](https://github.com/saleshandy/saleshandy-plugin) | plugin or integration | | 0 | 2026-05-11 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

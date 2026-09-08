@@ -38,6 +38,10 @@ Vendor domain: [stackone.com](https://stackone.com) · vendor page id stackone-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/StackOneHQ](https://github.com/StackOneHQ), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [StackOne](../tools/stackone.md) stackone official CLI
+
+```
+npm install -g @stackone/cli
+```
+
+quoted from [https://www.npmjs.com/package/@stackone/cli](https://www.npmjs.com/package/@stackone/cli) on 2026-09-08, via npm
+
+Login or key hint: can setup
+
+5 more install commands, harvested 2026-09-08, all on the [tool page](../tools/stackone.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/StackOneHQ](https://github.com/StackOneHQ) tied to the vendor by rule 3, account website https://stackone.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 34, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 4 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [stack-nudge](https://github.com/StackOneHQ/stack-nudge) | other | | 24 | 2026-09-08 | v1.32.0 |
+| [stackvox](https://github.com/StackOneHQ/stackvox) | CLI | Offline Kokoro-82M text-to-speech for Python - library, CLI, and a unix-socket daemon for ~13ms speech from shell... | 3 | 2026-09-08 | v0.12.0 |
+| [defender](https://github.com/StackOneHQ/defender) | CLI | Open source prompt injection protection for Agents calling tools (via MCP, CLI or direct function calling). Detect and... | 120 | 2026-09-08 | defender-v0.8.2 |
+| [hub](https://github.com/StackOneHQ/hub) | plugin or integration | Embeddable Integration Hub components | 1 | 2026-09-08 | hub-v1.11.2 |
+| [agent-plugins](https://github.com/StackOneHQ/agent-plugins) | plugin or integration | StackOne agent skills - installable via npx skills add stackonehq/agent-plugins-marketplace | 3 | 2026-09-07 | stackone-agent-plugins-v3.2.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

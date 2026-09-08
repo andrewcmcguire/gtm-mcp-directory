@@ -38,6 +38,10 @@ Vendor domain: [hootsuite.com](https://hootsuite.com) · vendor page id hootsuit
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/hootsuite](https://github.com/hootsuite), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,37 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Hootsuite (Social OS)](../tools/hootsuite.md) community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+harvested 2026-09-08, all on the [tool page](../tools/hootsuite.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/hootsuite](https://github.com/hootsuite) tied to the vendor by rule 3, account website code.hootsuite.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 12, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-07-28
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [copyable-macro](https://github.com/hootsuite/copyable-macro) | other | Copyable is a Swift Macro used to bring Kotlin's `copy` functionality to Swift. | 6 | 2026-07-28 | v1.1.0 |
+| [embedded-apps-template](https://github.com/hootsuite/embedded-apps-template) | docs or examples | Embedded sample app | 0 | 2026-04-20 | |
+| [token-ui](https://github.com/hootsuite/token-ui) | app | Text input components that allows to add 'tokens' rendered as pills. | 42 | 2026-03-10 | v8.3.4 |
+| [nachos](https://github.com/hootsuite/nachos) | other | Material Chips for Android | 448 | 2025-12-16 | 2.0.0 |
+| [hootsuite-app-express](https://github.com/hootsuite/hootsuite-app-express) | docs or examples | Sample Hootsuite app directory app using Express and Node.js | 0 | 2025-08-27 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

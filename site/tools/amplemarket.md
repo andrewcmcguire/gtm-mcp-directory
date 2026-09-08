@@ -172,6 +172,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise leaning
@@ -193,6 +197,26 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/amplemarket](https://github.com/amplemarket) tied to the vendor by rule 3, account website https://amplemarket.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-18
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [skills](https://github.com/amplemarket/skills) | other | Amplemarket skills | 5 | 2026-08-18 | workflow-migration-v3.2.0 |
+| [.github](https://github.com/amplemarket/.github) | other | Amplemarket Public Github profile | 1 | 2025-07-03 | |
+| [ample_sfdc_flow_action](https://github.com/amplemarket/ample_sfdc_flow_action) | infrastructure | | 1 | 2025-05-27 | |
+| [amplemarket_zendesk](https://github.com/amplemarket/amplemarket_zendesk) | other | Amplemarket Zendesk app | 1 | 2021-03-31 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -142,6 +142,7 @@ reconciled against tools_recount.py</p>
 <div class="stat is-copper"><div class="n">79</div><div class="k">enterprise gated</div></div>
 <div class="stat is-teal"><div class="n">168</div><div class="k">solo reachable</div></div>
 <div class="stat is-mute"><div class="n">1</div><div class="k">bench tested</div></div>
+<div class="stat is-teal"><div class="n">62</div><div class="k">ship a CLI (official) as of 2026-09-08</div></div>
 </div>
 <p class="note">Entry facts were pulled by hand: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07. The generated date above is only
 the date this site was baked. Both dates ship because both rot.
@@ -156,6 +157,7 @@ vendors and are counted apart. The remaining 103 servers are
 <b>unmeasured, not empty</b>: nobody has read their tool list yet, and their pages say exactly
 that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is
 still 1 across the whole directory.</p>
+<p class="note">The command-line layer was harvested 2026-09-08 across vendor docs, npm, PyPI, Homebrew and GitHub: 62 of the 336 entries ship a CLI the vendor publishes, 72 have only a third party's, and 202 came back none found, which is a probe result on that date and not proof of absence. Each tool page quotes the install command with the URL it came from.</p>
 <div class="btnrow">
 <a class="btn solid" href="#search">Search by capability</a>
 <a class="btn" href="#install">Install the MCP server</a>
@@ -179,6 +181,7 @@ no backend, no query logging, and it keeps working with the network cable pulled
 </div>
 <div class="filters"><button class="chip" type="button" data-kind="mcp" data-val="official" aria-pressed="false">Official MCP</button><button class="chip" type="button" data-kind="mcp" data-val="community" aria-pressed="false">Community MCP</button><button class="chip" type="button" data-kind="mcp" data-val="unknown" aria-pressed="false">MCP unknown</button><button class="chip" type="button" data-kind="mcp" data-val="n-a" aria-pressed="false">MCP not applicable</button><button class="chip" type="button" data-kind="mcp" data-val="none-found" aria-pressed="false">No MCP found</button></div>
 <div class="filters"><button class="chip" type="button" data-kind="gate" data-val="free" aria-pressed="false">Free to start</button><button class="chip" type="button" data-kind="gate" data-val="paid" aria-pressed="false">Paid, self-serve</button><button class="chip" type="button" data-kind="gate" data-val="enterprise-leaning" aria-pressed="false">Enterprise leaning</button><button class="chip" type="button" data-kind="gate" data-val="enterprise-only" aria-pressed="false">Enterprise only</button><button class="chip" type="button" data-kind="gate" data-val="unknown" aria-pressed="false">Gate unknown</button><button class="chip" type="button" data-kind="gate" data-val="n-a" aria-pressed="false">Gate not applicable</button></div>
+<div class="filters"><button class="chip" type="button" data-kind="cli" data-val="any" aria-pressed="false">Ships a CLI</button></div>
 <p class="sortnote">Ordering is fixed and published, never tuned and never purchasable.
 official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable. With a query typed, matches are banded by relevance first and the rule above
 breaks every tie. An exact name match pins to the top and nothing else is boosted.

@@ -38,6 +38,10 @@ Vendor domain: [nutshell.com](https://nutshell.com) · vendor page id nutshell-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/nutshellcrm](https://github.com/nutshellcrm), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,31 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/nutshellcrm](https://github.com/nutshellcrm) tied to the vendor by rule 3, account website https://nutshell.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 6, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-06-13
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [eslint-config-nutshell](https://github.com/nutshellcrm/eslint-config-nutshell) | other | ESLint shareable config for the Nutshell JavaScript style guide | 1 | 2025-06-13 | v5.0.0 |
+| [api-spec](https://github.com/nutshellcrm/api-spec) | API client | | 3 | 2023-09-14 | |
+| [is](https://github.com/nutshellcrm/is) | other | | 0 | 2023-09-14 | |
+| [nutshell-api-php](https://github.com/nutshellcrm/nutshell-api-php) | SDK | A lightweight JSON-RPC + CURL wrapper to access Nutshell CRM's API. | 22 | 2023-09-14 | |
+| [hass-config](https://github.com/nutshellcrm/hass-config) | other | The config for the Nutshell Home Assistant instance | 0 | 2023-09-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

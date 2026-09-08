@@ -45,7 +45,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Arphie](../tools/arphie.md) arphie.ai AI-native RFP/RFx/security-questionnaire response software, positioned as a faster-drafting alternative/competitor to Loopio and Responsive. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [Responsive (formerly RFPIO)](../tools/responsive.md) responsive.io RFP, DDQ, and security-questionnaire response-management platform with an approved-content library ("Library") and AI-assisted drafting grounded in that governed content. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [Responsive (formerly RFPIO)](../tools/responsive.md) responsive.io RFP, DDQ, and security-questionnaire response-management platform with an approved-content library ("Library") and AI-assisted drafting grounded in that governed content. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Proposals & Deals](../categories/proposals-deals.md) · CLI (community)
 
 - [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [Proposals & Deals](../categories/proposals-deals.md)
 

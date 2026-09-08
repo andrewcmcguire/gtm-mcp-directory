@@ -32,9 +32,13 @@ Every GTM tool your agent can use, and which one does the job.
 
 - **bench tested**: 1
 
+- **ship a CLI (official) as of 2026-09-08**: 62
+
 Entry facts were pulled by hand: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07. The generated date above is only the date this site was baked. Both dates ship because both rot. 320 of the 336 entries are unique products; 16 are the same product listed in a second category and counted once here.
 
 The tool count is the capability layer, harvested 2026-09-08: 122 of the 225 entries that record an official or community MCP server have a harvested tool list, and it names 8,503 tools. 2,575 of those belong to the GTM tools themselves; 5,928 belong to one gateway that re-exposes other vendors and are counted apart. The remaining 103 servers are **unmeasured, not empty**: nobody has read their tool list yet, and their pages say exactly that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is still 1 across the whole directory.
+
+The command-line layer was harvested 2026-09-08 across vendor docs, npm, PyPI, Homebrew and GitHub: 62 of the 336 entries ship a CLI the vendor publishes, 72 have only a third party's, and 202 came back none found, which is a probe result on that date and not proof of absence. Each tool page quotes the install command with the URL it came from.
 
 - [Search by capability](#search)
 
@@ -54,6 +58,7 @@ Search the directory
 
 Official MCPCommunity MCPMCP unknownMCP not applicableNo MCP found
 Free to startPaid, self-serveEnterprise leaningEnterprise onlyGate unknownGate not applicable
+Ships a CLI
 
 Ordering is fixed and published, never tuned and never purchasable. official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable. With a query typed, matches are banded by relevance first and the rule above breaks every tie. An exact name match pins to the top and nothing else is boosted. The filters above run over the 320 unique products, so their totals sit below the 336 entry totals used by the [MCP status](mcp/index.md) and [gate](gates/index.md) views. Both numbers are correct and the difference is the 16 cross listings.
 

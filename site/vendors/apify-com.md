@@ -38,6 +38,10 @@ Vendor domain: [apify.com](https://apify.com) · vendor page id apify-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/apify](https://github.com/apify), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,43 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Apify](../tools/apify.md) actor official CLI
+
+```
+npm install -g apify-cli
+```
+
+quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-08, via npm
+
+Login or key hint: apify login
+
+4 more install commands, 4 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/apify.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/apify](https://github.com/apify) tied to the vendor by rule 3, account website https://apify.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 122, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 12 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [agent-skills](https://github.com/apify/agent-skills) | other | Collection of Apify agent skills | 2,371 | 2026-09-08 | |
+| [apify-evals](https://github.com/apify/apify-evals) | other | | 0 | 2026-09-08 | |
+| [cgroups-sensor](https://github.com/apify/cgroups-sensor) | other | Utility functions to measure resource limits from cgroups in scenarios where psutils is not sufficient. | 0 | 2026-09-08 | |
+| [actor-templates](https://github.com/apify/actor-templates) | docs or examples | This project is the :house: home of Apify Actor templates to help users quickly get started. Contributions welcome! | 60 | 2026-09-08 | |
+| [apify-mcp-server](https://github.com/apify/apify-mcp-server) | MCP server | The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites,... | 6,380 | 2026-09-08 | v0.15.4 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -76,6 +76,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -103,6 +107,27 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 - [https://github.com/Chili-Piper/mcp-assets](https://github.com/Chili-Piper/mcp-assets)
 - [https://github.com/Chili-Piper/mcp-assets/blob/main/mcp-servers/chili-piper/README.md](https://github.com/Chili-Piper/mcp-assets/blob/main/mcp-servers/chili-piper/README.md)
 - [https://github.com/hyypeman/chilipiper-mcp](https://github.com/hyypeman/chilipiper-mcp)
+
+**On GitHub**
+
+[github.com/Chili-Piper](https://github.com/Chili-Piper) tied to the vendor by rule 1, account website https://www.chilipiper.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 7, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [mcp-assets](https://github.com/Chili-Piper/mcp-assets) | MCP server | Official Chili Piper Skills and ChatGPT GPTs for the Chili Piper MCP - meeting diagnostics, routing audits, no-show... | 7 | 2026-09-08 | v1.0.0 |
+| [terraform-provider-jitsu](https://github.com/Chili-Piper/terraform-provider-jitsu) | infrastructure | terraform provider for Jitsu | 0 | 2026-09-08 | v0.0.7 |
+| [Integration](https://github.com/Chili-Piper/Integration) | plugin or integration | CP Integrations repository | 0 | 2026-03-30 | |
+| [trivy-report-issue-action](https://github.com/Chili-Piper/trivy-report-issue-action) | infrastructure | Creates GitHub Issues from Trivy scan results. | 2 | 2025-02-20 | v1.2 |
+| [repository-notifier](https://github.com/Chili-Piper/repository-notifier) | other | Repository Notifier Service | 0 | 2025-01-29 | v0.2 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

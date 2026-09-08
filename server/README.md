@@ -102,7 +102,7 @@ Edit `claude_desktop_config.json`:
 }
 ```
 
-Restart Claude Desktop. The seven tools appear under the tools menu.
+Restart Claude Desktop. The eleven tools appear under the tools menu.
 
 ### Claude Code
 
@@ -157,7 +157,21 @@ Python 3.10 or newer, `fastmcp`, `pyyaml`. That is the whole dependency list.
 
 ## The tools
 
-Seven read-only tools. No write tools, no submission tool, no telemetry.
+Eleven read-only tools. No write tools, no submission tool, no telemetry.
+
+| Tool | Question it answers |
+|---|---|
+| `find_tools` | which tools claim a job, and by which interface (MCP, CLI) can an agent reach them |
+| `get_tool` | one entry, every field, every source URL |
+| `list_categories` | the 15 categories with counts and gates |
+| `whats_mcpd` | how much of GTM an agent can reach, in numbers |
+| `find_by_gate` | the access axis on its own |
+| `get_docs_digest` | structured facts from vendor API docs, when crawled |
+| `get_server_tools` | what one MCP server actually exposes |
+| `get_install` | both routes into one tool: the MCP endpoint and the CLI install commands |
+| `whats_building` | what vendors ship in public on GitHub, dated |
+| `plan_stack` | a step-by-step shortlist for a multi-step GTM job |
+| `list_jobs` | the closed capability vocabulary |
 
 ### `find_tools(job_or_query, ...)`
 
@@ -180,7 +194,17 @@ find_tools(job_or_query="find-work-email", gate="free")
 | `has_github_candidate` | the unverified lead list parsed out of `mcp_url` and `sources` |
 | `canonical_only` | drop the 16 cross-listed second entries |
 | `live_endpoint_only` | keep only entries whose recorded MCP URL answered an `initialize` as a server on the last probe (`endpoint_status` live or live-auth-gated). Liveness, not a test of the tools |
+| `tool_query` | match against the actual tool names and descriptions a server exposes, not the vendor's blurb. Only harvested servers can match |
+| `interface` | `mcp` (official or community MCP server on record), `cli` (`cli_status` official or community), `either` (at least one). An entry dropped by `cli` has `cli_status` none-found or not-checked, and neither is proof the vendor ships no CLI |
+| `cli_status` | `official`, `community`, `none-found`, `not-checked`, the direct filter on the command-line layer |
 | `limit` | default 20, max 100 |
+
+Every result row carries its CLI fields (`cli_status`, `cli_party`,
+`cli_binary`, the first two `cli_install` commands with the `source_url` and
+`fetched_on` each was quoted from, `cli_checked_on`) and its vendor
+organisation fields (`github_org`, `github_org_repos`,
+`github_org_latest_activity`, `github_org_checked_on`). `get_install` returns
+every install command for one tool.
 
 **Two match paths, and the response always names the one it used.**
 
@@ -222,6 +246,43 @@ dated fields, filled from the weekly `mcp_verify.py` run and never hand-edited:
 `docs-only` is not a downgrade of `mcp_status`. It is the gap between where to
 read and where to connect, and an agent needs the second. `whats_mcpd` reports
 the split as `official_with_live_endpoint` and `official_docs_only`.
+
+### Command line and vendor GitHub, measured (added 2026-09-08)
+
+Agents reach for a CLI as readily as for an MCP server (Claude Code, Codex and
+Gemini CLI all run shell commands), so the directory asks the same question of
+the command line, and it asks what each vendor is shipping in public. Two more
+machine-measured layers, same rules: dated, never hand-edited, and "none found"
+is a statement about the instrument on that date.
+
+| Field | Meaning |
+|---|---|
+| `cli_status` | `official` (a first-party source: the vendor's own docs page showing an install command, or a registry package the vendor publishes), `community` (only third-party packages or repositories name this vendor), `none-found` (every probe empty on `cli_checked_on`), `not-checked` (the harvest did not reach the entry) |
+| `cli_binary` | the command users type, as seen in usage lines |
+| `cli_install[]` | `{cmd, manager, source_url, party, fetched_on}`: every command quoted verbatim from `source_url` on `fetched_on`. Never run here |
+| `cli_login`, `cli_commands_seen`, `cli_docs_url`, `cli_repo`, `cli_packages[]` | the auth command seen, the subcommands seen, the page and repository that documented it, the npm/PyPI/Homebrew records |
+| `cli_checked_on` | the date of the harvest that produced the values above |
+| `github_org` | the GitHub organisation tied to the vendor by domain evidence, or null |
+| `github_org_status` | `resolved`, `unresolved` (accounts seen, none passed the evidence rules), `no-github-signal`, `not-checked` |
+| `github_org_repos`, `github_org_repos_mcp`, `github_org_repos_cli` | public non-fork repositories on `github_org_checked_on`, and how many mention MCP or look like CLIs |
+| `github_org_latest_activity`, `github_org_recent_repos[]` | the most recent push, and the five most recently pushed repositories with kind, description, stars, pushed date and latest release |
+| `github_org_checked_on` | the date of the harvest that produced the values above |
+
+Three honesty rules ride on both layers, in every response:
+
+- **A community CLI is a third party's work.** It wraps the vendor's API, the
+  vendor did not publish it and may not support it. The server says so on the
+  entry and on every install answer.
+- **An install command is a quotation, not a test.** Each one carries the URL
+  it was read from and the date. Nobody ran it for this directory; read the
+  page before pasting it.
+- **Unmeasured is null, not zero.** `none-found` means not found on that date.
+  `not-checked` means the harvest did not reach the entry. A null organisation
+  is a resolution miss on a date, not proof the vendor has no GitHub. When a
+  layer has not run at all, every count comes back as `null` with a sentence
+  ("the CLI layer has not been measured on this build") rather than as 0.
+  Repository `kind` is a heuristic from name, topics and description, not a
+  statement by the vendor.
 
 ### `get_tool(name)`
 
@@ -290,6 +351,65 @@ The docs intel layer has not run yet, so today every call returns
 `digest: null` with an honest status: `not yet digested` plus the URL for the
 30 entries that have one, or `no docs_url on file` for the rest. It never
 fabricates a digest.
+
+### `get_install(name)`
+
+Everything an agent needs to start using one tool, both routes in one answer.
+
+```python
+get_install(name="ZoomInfo")
+```
+
+`mcp` carries the MCP route: `mcp_endpoint` or the repository to install,
+`endpoint_status`, `mcp_auth`, the access gate, and `hosted_or_local` (a live
+endpoint is hosted and needs no install; a `repo-local` server is installed and
+run over stdio; a `docs-only` URL is a page to read, not a place to connect).
+`cli` carries the CLI route: `cli_status`, `cli_binary`, every `cli_install`
+command with its `source_url` and `fetched_on`, `cli_login`,
+`cli_commands_seen`, `cli_docs_url`, `cli_repo` and `cli_packages`.
+
+`recommendation` is one line that says which routes exist and are reachable,
+in the same shape every time. The MCP half comes from the liveness probe, the
+CLI half from the harvest, and each carries its date. On a build where the CLI
+harvest has not run it reads:
+
+> MCP: a live endpoint at https://mcp.zoominfo.com/mcp that asks for a key
+> (probed 2026-09-04). CLI: the CLI layer has not been measured on this build.
+
+On a build where it has, the CLI half becomes "CLI: official, <install
+command>, quoted from <source_url> on <date>", or "community (a third party's
+work, not the vendor's), ...", or "none found on <date>".
+
+It describes routes. It does not rank vendors, and it never says "best".
+`caveats` carries the three rules above for this entry: a community CLI is a
+third party's work, an install command was quoted from a page on a date and
+not run, and none-found means not found on that date. A name that matches
+nothing says "not researched yet"; a name that matches several returns the
+candidates instead of guessing.
+
+### `whats_building(name=None, category=None, days=90, limit=20)`
+
+What vendors are shipping in public on GitHub, from organisations tied to
+them with domain evidence (never a name match alone).
+
+```python
+whats_building(name="Apify")
+whats_building(category="data-enrichment", days=30)
+```
+
+With a name: the vendor's `github_org`, its status and the evidence rule that
+tied it, public repository counts, and the five most recently pushed
+repositories with description, kind, stars, pushed date and latest release.
+
+Without a name: across the directory or one category, the vendors whose
+organisation pushed within `days` of the measurement date, most recent first,
+each with its most recently pushed repositories. The window is measured back
+from `github_org_checked_on`, not from today, because the server has no clock
+it trusts over its data. `counts` carries resolved, unresolved, no-signal and
+not-checked totals with their date, and `silence_note` spells out how many
+vendors are silent here so that silence is never read as inactivity. If the
+layer has not been measured on the build, `status` is `not measured` and every
+count is `null`.
 
 ### `list_jobs(family=None)`
 
@@ -392,14 +512,17 @@ python qa_stdio.py
 ```
 
 The smoke test spawns `python -m gtm_mcp_directory` as a real subprocess,
-speaks MCP over stdio, calls all seven tools with real queries, asserts the
-honesty envelope on every response, rebuilds two degraded copies of the
+speaks MCP over stdio, calls all eleven tools with real queries, asserts the
+honesty envelope on every response, rebuilds three degraded copies of the
 directory in a temp folder (one with the tags stripped, one with the tags
-stripped but the vocabulary kept) to prove the fallbacks still answer
-honestly, and proves the startup gate by feeding the server a hand-edited
-file, a short file and a broken file and checking it refuses all three. 99
-checks, and it prints every answer so you can read them rather than trust
-them.
+stripped but the vocabulary kept, one with the CLI and organisation layers
+reset to not-checked) to prove the fallbacks still answer honestly, checks
+that `find_tools(interface="cli")` counts what the data counts and that
+`plan_stack(prefer_interface="cli")` reorders without removing, and proves
+the startup gate by feeding the server a hand-edited file, a short file and a
+broken file and checking it refuses all three. Every expected count is read
+from `directory.json`, never typed into the test, and it prints every answer
+so you can read them rather than trust them.
 
 ---
 

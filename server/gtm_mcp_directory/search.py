@@ -40,6 +40,9 @@ SEARCH_FIELDS: tuple[tuple[str, float], ...] = (
 )
 
 MCP_STATUS_VALUES = ("official", "community", "unknown", "n-a", "none-found")
+CLI_STATUS_VALUES = ("official", "community", "none-found", "not-checked")
+INTERFACE_VALUES = ("mcp", "cli", "either")
+REACHABLE_STATUSES = ("official", "community")
 GATE_VALUES = (
     "free",
     "paid",
@@ -89,6 +92,63 @@ def normalize_status(value: str) -> str | None:
     if v in MCP_STATUS_VALUES:
         return v
     return STATUS_ALIASES.get((value or "").strip().lower())
+
+
+CLI_STATUS_ALIASES = {
+    "none": "none-found",
+    "none found": "none-found",
+    "nonefound": "none-found",
+    "no": "none-found",
+    "not checked": "not-checked",
+    "notchecked": "not-checked",
+    "unchecked": "not-checked",
+    "unmeasured": "not-checked",
+    "first-party": "official",
+    "first party": "official",
+    "vendor": "official",
+    "third-party": "community",
+    "third party": "community",
+}
+
+
+def normalize_cli_status(value: str) -> str | None:
+    v = (value or "").strip().lower().replace("_", "-")
+    if v in CLI_STATUS_VALUES:
+        return v
+    return CLI_STATUS_ALIASES.get((value or "").strip().lower())
+
+
+def normalize_interface(value: str) -> str | None:
+    v = (value or "").strip().lower()
+    if v in INTERFACE_VALUES:
+        return v
+    return {"both": "either", "any": "either", "command-line": "cli", "command line": "cli", "shell": "cli"}.get(v)
+
+
+def has_mcp(entry: dict[str, Any]) -> bool:
+    """An official or community MCP server is on record. Says nothing about liveness."""
+    return entry.get("mcp_status_bucket") in REACHABLE_STATUSES
+
+
+def has_cli(entry: dict[str, Any]) -> bool:
+    """An official or community CLI was found on cli_checked_on. not-checked is not a no."""
+    return entry.get("cli_status") in REACHABLE_STATUSES
+
+
+def cli_install_view(entry: dict[str, Any], limit: int | None = 2) -> list[dict[str, Any]]:
+    """Install commands as quoted from their source, each with the URL and date it was read."""
+    rows = []
+    for i in entry.get("cli_install") or []:
+        rows.append(
+            {
+                "cmd": i.get("cmd"),
+                "manager": i.get("manager"),
+                "source_url": i.get("source_url"),
+                "party": i.get("party"),
+                "fetched_on": i.get("fetched_on"),
+            }
+        )
+    return rows[:limit] if limit else rows
 
 
 def tokenize(query: str) -> list[str]:
@@ -272,6 +332,25 @@ def result_row(
         "github_last_commit": entry.get("github_last_commit"),
         "github_fetched_on": entry.get("github_fetched_on"),
         "github_candidates": entry.get("github_candidates") or [],
+        # The command-line layer. cli_install shows the first two commands only;
+        # get_install returns every one. not-checked means not measured.
+        "cli_status": entry.get("cli_status") or "not-checked",
+        "cli_party": entry.get("cli_party"),
+        "cli_binary": entry.get("cli_binary"),
+        "cli_install": cli_install_view(entry, 2),
+        "cli_install_total": len(entry.get("cli_install") or []),
+        "cli_checked_on": entry.get("cli_checked_on"),
+        # The vendor organisation layer. Counts are null unless the organisation
+        # was resolved on github_org_checked_on: an unmeasured 0 is not a zero.
+        "github_org": entry.get("github_org"),
+        "github_org_status": entry.get("github_org_status") or "not-checked",
+        "github_org_repos": (
+            entry.get("github_org_repos")
+            if entry.get("github_org_status") == "resolved"
+            else None
+        ),
+        "github_org_latest_activity": entry.get("github_org_latest_activity"),
+        "github_org_checked_on": entry.get("github_org_checked_on"),
         "docs_url": entry.get("docs_url"),
         "docs_last_crawled": entry.get("docs_last_crawled"),
         "tier": entry.get("tier"),

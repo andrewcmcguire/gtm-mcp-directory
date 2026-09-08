@@ -38,6 +38,10 @@ Vendor domain: [intercom.com](https://intercom.com) · vendor page id intercom-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/intercom](https://github.com/intercom), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,41 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.intercom.com/mcp](https://mcp.intercom.com/mcp) (Intercom (Fin), endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Intercom (Fin)](../tools/intercom.md) fin official CLI
+
+```
+npm install -g @intercom/cli
+```
+
+quoted from [https://www.npmjs.com/package/@intercom/cli](https://www.npmjs.com/package/@intercom/cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/intercom.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/intercom](https://github.com/intercom) tied to the vendor by rule 3, account website https://www.intercom.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 30, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [intercom-react-native](https://github.com/intercom/intercom-react-native) | SDK | React Native wrapper to bridge our iOS and Android SDK | 167 | 2026-09-08 | 10.7.0 |
+| [Intercom-OpenAPI](https://github.com/intercom/Intercom-OpenAPI) | API client | An OpenAPI description for Intercom's REST API | 15 | 2026-09-08 | |
+| [intercom-android](https://github.com/intercom/intercom-android) | SDK | Intercom for Android, for integrating Intercom into your Android application. | 289 | 2026-09-04 | 18.9.3 |
+| [intercom-ios-sp](https://github.com/intercom/intercom-ios-sp) | SDK | The Official Swift Package for Intercom's iOS SDK | 9 | 2026-09-04 | 19.8.1 |
+| [intercom-ios](https://github.com/intercom/intercom-ios) | SDK | :iphone: Intercom for iOS, for integrating Intercom into your iOS application. | 386 | 2026-09-04 | 19.8.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -38,6 +38,10 @@ Vendor domain: [salesforce.com](https://salesforce.com) · [Public company brief
 
 - **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/salesforcecli](https://github.com/salesforcecli), [github.com/salesforce](https://github.com/salesforce), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 2**
@@ -96,6 +100,64 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) (Salesforce (core CRM/platform) + Agentforce, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md) sf official CLI
+
+```
+npm install -g @salesforce/cli
+```
+
+quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/salesforce-agentforce.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+### github.com/salesforcecli
+
+[github.com/salesforcecli](https://github.com/salesforcecli) tied to the vendor by rule 1, account website https://developer.salesforce.com/tools/salesforcecli has the vendor's domain, confidence strong
+
+- **Public repositories**: 75, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 16 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [plugin-trust](https://github.com/salesforcecli/plugin-trust) | plugin or integration | | 2 | 2026-09-08 | 4.0.12 |
+| [plugin-apex](https://github.com/salesforcecli/plugin-apex) | CLI | Salesforce CLI Plugin that hosts the Apex commands | 5 | 2026-09-08 | 4.1.2 |
+| [cli](https://github.com/salesforcecli/cli) | CLI | The `sf` cli. | 180 | 2026-09-08 | 2.151.6 |
+| [plugin-data-setup-transfer](https://github.com/salesforcecli/plugin-data-setup-transfer) | plugin or integration | | 0 | 2026-09-07 | 1.0.2 |
+| [plugin-data-code-extension](https://github.com/salesforcecli/plugin-data-code-extension) | plugin or integration | | 0 | 2026-09-07 | 1.4.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
+
+### github.com/salesforce
+
+[github.com/salesforce](https://github.com/salesforce) tied to the vendor by rule 3, account website https://opensource.salesforce.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 150, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [zana](https://github.com/salesforce/zana) | app | Run, schedule, and coordinate fleets of coding agents from one desktop app | 30 | 2026-09-08 | v2.0.5 |
+| [einstein-platform](https://github.com/salesforce/einstein-platform) | other | | 39 | 2026-09-08 | v1.0 |
+| [salesforce-skills](https://github.com/salesforce/salesforce-skills) | other | | 3 | 2026-09-08 | claude-1.0.0-pilot.1.1 |
+| [lwc](https://github.com/salesforce/lwc) | other | ⚡️ LWC - A Blazing Fast, Enterprise-Grade Web Components Foundation | 1,786 | 2026-09-08 | v9.3.8 |
+| [pomgen](https://github.com/salesforce/pomgen) | other | Utility that turns Bazel-built jars into Maven compatible artifacts | 46 | 2026-09-08 | 2.1.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

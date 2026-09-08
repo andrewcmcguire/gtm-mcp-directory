@@ -38,6 +38,10 @@ Vendor domain: [brightdata.com](https://brightdata.com) · vendor page id bright
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/brightdata](https://github.com/brightdata), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,41 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) (Bright Data, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Bright Data](../tools/bright-data.md) bdata official CLI
+
+```
+npm install -g @brightdata/cli
+```
+
+quoted from [https://www.npmjs.com/package/@brightdata/cli](https://www.npmjs.com/package/@brightdata/cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/bright-data.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/brightdata](https://github.com/brightdata) tied to the vendor by rule 1, account website https://brightdata.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 62, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 7 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-07
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [cli](https://github.com/brightdata/cli) | CLI | Official Bright Data CLI - scrape, search, and extract structured web data directly from your terminal. | 6,365 | 2026-09-07 | v0.3.5 |
+| [skills](https://github.com/brightdata/skills) | other | | 257 | 2026-09-06 | |
+| [answer-engines-country-codes](https://github.com/brightdata/answer-engines-country-codes) | other | Answer engine country codes | 3 | 2026-08-12 | |
+| [sdk-python](https://github.com/brightdata/sdk-python) | SDK | Bright Data's python SDK, use it to call bright data's scrape and search tools. bypass any Bot-detection or Captcha and... | 91 | 2026-08-12 | v2.5.2 |
+| [brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | MCP server | A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access. | 2,634 | 2026-08-12 | v2.11.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -96,6 +96,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -121,6 +125,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/ringcentral/ringcentral-mcp-docs](https://github.com/ringcentral/ringcentral-mcp-docs)
+
+**On GitHub**
+
+[github.com/ringcentral](https://github.com/ringcentral) tied to the vendor by rule 2, account website https://developers.ringcentral.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 149, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [ringcentral-embeddable](https://github.com/ringcentral/ringcentral-embeddable) | plugin or integration | RingCentral Embeddable widget | 92 | 2026-09-08 | 2.3.1 |
+| [trello-notification-app](https://github.com/ringcentral/trello-notification-app) | plugin or integration | Trello notification and bot add-in for RingCentral | 4 | 2026-09-07 | |
+| [engage-voice-embeddable](https://github.com/ringcentral/engage-voice-embeddable) | other | (Beta)RingCentral RingCX Embeddable widget | 7 | 2026-09-07 | 0.1.0 |
+| [rc-unified-crm-extension](https://github.com/ringcentral/rc-unified-crm-extension) | plugin or integration | App Connect is a CRM integration framework to help developers quickly bring to market a full-featured CTI into... | 13 | 2026-09-07 | 1.7.44 |
+| [ringcentral-call-control-js](https://github.com/ringcentral/ringcentral-call-control-js) | docs or examples | RingCentral Call Control SDK in JavaScript to control RingCentral calls on any endpoint. Demo URL: | 10 | 2026-09-07 | 0.2.12 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

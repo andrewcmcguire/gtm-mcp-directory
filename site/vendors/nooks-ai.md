@@ -38,6 +38,10 @@ Vendor domain: [nooks.ai](https://nooks.ai) · vendor page id nooks-ai
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/NooksApp](https://github.com/NooksApp), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -81,6 +85,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.nooks.in/mcp](https://mcp.nooks.in/mcp) (Nooks, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/NooksApp](https://github.com/NooksApp) tied to the vendor by rule 2, account website https://nooks.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 10, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-27
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [nooks-agent-interview](https://github.com/NooksApp/nooks-agent-interview) | other | Nooks prospecting assistant - the agent-engineering interview exercise. Clone this repo to start. | 0 | 2026-08-27 | |
+| [nooks-domain-verification](https://github.com/NooksApp/nooks-domain-verification) | other | | 0 | 2025-12-03 | |
+| [nooks-fullstack-takehome](https://github.com/NooksApp/nooks-fullstack-takehome) | other | Nooks full-stack engineering take home assignment - starter code | 3 | 2025-10-21 | |
+| [nooks-ai-takehome](https://github.com/NooksApp/nooks-ai-takehome) | other | | 0 | 2025-04-16 | |
+| [realtime-chatbot-demo](https://github.com/NooksApp/realtime-chatbot-demo) | docs or examples | | 0 | 2024-10-25 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -77,6 +77,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -102,6 +106,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/fiber-ai/fiber-ai-plugin](https://github.com/fiber-ai/fiber-ai-plugin)
+
+**On GitHub**
+
+[github.com/fiber-ai](https://github.com/fiber-ai) tied to the vendor by rule 1, account website https://fiber.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-01
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [typescript-sdk](https://github.com/fiber-ai/typescript-sdk) | SDK | Fiber AI TypeScript SDK for Node.js, Bun, etc. | 0 | 2026-09-01 | |
+| [python-sdk](https://github.com/fiber-ai/python-sdk) | SDK | Fiber AI Python SDK | 0 | 2026-09-01 | v0.0.1 |
+| [open-fiber](https://github.com/fiber-ai/open-fiber) | other | Open-source sales / recruiting UI built on Fiber APIs | 2 | 2026-08-20 | |
+| [fiber-ai-plugin](https://github.com/fiber-ai/fiber-ai-plugin) | plugin or integration | MCP servers, skills, hooks, and slash commands into a single installable unit | 2 | 2026-06-24 | |
+| [mcp](https://github.com/fiber-ai/mcp) | MCP server | Fiber MCP server | 0 | 2026-04-28 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

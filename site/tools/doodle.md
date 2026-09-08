@@ -18,6 +18,7 @@ Doodle
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
 Checked 2026-09-02
+CLI (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,6 +51,23 @@ mcp_url, verbatim from the file:
 
 n/a
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: not seen in a usage line
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+No install command was quoted by the harvest. The status rests on the package or page linked below.
+
+Where it was documented:
+
+- [https://github.com/xperseguers/doodle_client](https://github.com/xperseguers/doodle_client) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Gate unknown
@@ -73,6 +91,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/DoodleScheduling](https://github.com/DoodleScheduling) tied to the vendor by rule 3, account website https://doodle.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 45, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [cloud-autoscale-controller](https://github.com/DoodleScheduling/cloud-autoscale-controller) | infrastructure | Scale cloud resources according pod uptime | 0 | 2026-09-08 | v0.4.0 |
+| [neo4j-aura-controller](https://github.com/DoodleScheduling/neo4j-aura-controller) | infrastructure | Kubernetes controller for managing Neo4j Aura | 0 | 2026-09-08 | v0.1.0 |
+| [oauth2-redirect-controller](https://github.com/DoodleScheduling/oauth2-redirect-controller) | infrastructure | OAUTH2 RedirectURI proxy kubernetes controller | 1 | 2026-09-08 | v1.2.0 |
+| [db-controller](https://github.com/DoodleScheduling/db-controller) | infrastructure | Kubernetes Controller for managing databases and users | 4 | 2026-09-08 | v0.6.0 |
+| [growthbook-controller](https://github.com/DoodleScheduling/growthbook-controller) | infrastructure | Kubernetes controller for managing growthbook | 2 | 2026-09-08 | v0.7.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

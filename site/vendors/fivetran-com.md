@@ -38,6 +38,10 @@ Vendor domain: [fivetran.com](https://fivetran.com) · vendor page id fivetran-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/fivetran](https://github.com/fivetran), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,45 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/fivetran/fivetran-mcp](https://github.com/fivetran/fivetran-mcp) (Fivetran, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Fivetran](../tools/fivetran.md) fivetran-cli community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install fivetran-cli
+```
+
+quoted from [https://pypi.org/project/fivetran-cli/](https://pypi.org/project/fivetran-cli/) on 2026-09-08, via pypi, a third party source
+
+Login or key hint: export FIVETRAN_APIKEY="YOUR_API_KEY"
+
+harvested 2026-09-08, all on the [tool page](../tools/fivetran.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/fivetran](https://github.com/fivetran) tied to the vendor by rule 1, account website https://fivetran.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 144, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [fivetran_sdk_tools](https://github.com/fivetran/fivetran_sdk_tools) | SDK | Local testing tools for Partner SDK and Connector SDK | 0 | 2026-09-08 | 2.26.0908.001 |
+| [great_expectations](https://github.com/fivetran/great_expectations) | other | Always know what to expect from your data. | 11,776 | 2026-09-08 | 1.22.0 |
+| [community_connectors](https://github.com/fivetran/community_connectors) | SDK | Fivetran Connector SDK Connectors Catalog | 85 | 2026-09-08 | |
+| [connector_sdk](https://github.com/fivetran/connector_sdk) | SDK | Build custom connectors on Fivetran's platform | 133 | 2026-09-07 | |
+| [dbt_openai](https://github.com/fivetran/dbt_openai) | other | | 0 | 2026-09-04 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

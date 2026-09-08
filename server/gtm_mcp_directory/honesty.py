@@ -42,6 +42,119 @@ def _dates(values: Iterable[str | None]) -> list[str]:
     return sorted({v for v in values if isinstance(v, str) and v})
 
 
+CLI_LAYER_UNMEASURED = (
+    "The CLI layer has not been measured on this build: cli_status is "
+    "not-checked on every entry, which means not measured, not no CLI."
+)
+
+ORG_LAYER_UNMEASURED = (
+    "The vendor GitHub organisation layer has not been measured on this build: "
+    "github_org_status is not-checked on every entry, which means not "
+    "measured, not inactive."
+)
+
+
+def cli_caveats(entry: dict[str, Any]) -> list[str]:
+    """What the command-line layer does and does not know about this entry.
+
+    Same rules as the MCP caveats: a status is a probe result on a date, an
+    install command is a quotation from a page and was never run here, and a
+    community CLI is somebody else's work for this vendor's API.
+    """
+    out: list[str] = []
+    status = entry.get("cli_status") or "not-checked"
+    checked = entry.get("cli_checked_on") or "an unstamped date"
+    installs = entry.get("cli_install") or []
+
+    if status == "official":
+        out.append(
+            "A first-party CLI was found for this tool on %s (evidence: %s). The "
+            "vendor publishes it; its binary is %s. Nobody has run it for this "
+            "directory."
+            % (checked, entry.get("cli_evidence") or "unrecorded", entry.get("cli_binary") or "not recorded")
+        )
+    elif status == "community":
+        out.append(
+            "The CLI recorded for this tool is a THIRD PARTY's work (cli_status "
+            "community, found on %s): someone else wrapped this vendor's API in a "
+            "command line. The vendor did not publish it and may not support it."
+            % checked
+        )
+    elif status == "none-found":
+        out.append(
+            "No CLI was found for this tool on %s. That is what the harvest found "
+            "on that date across vendor docs, npm, PyPI, Homebrew and GitHub; it is "
+            "not proof that no CLI exists." % checked
+        )
+    else:
+        out.append(
+            "The CLI layer has not reached this entry (cli_status not-checked): "
+            "whether this tool ships a command line has not been measured."
+        )
+
+    if installs:
+        dated = _dates(i.get("fetched_on") for i in installs)
+        out.append(
+            "%d install command(s) are quoted verbatim from the page or registry "
+            "record at each source_url, read on %s. None of them was run here; "
+            "read the source before pasting one into a shell."
+            % (len(installs), ", ".join(dated) if dated else "an unstamped date")
+        )
+        third = [i for i in installs if (i.get("party") or "") == "third"]
+        if third and status == "official":
+            out.append(
+                "%d of those install commands come from third-party sources and sit "
+                "beside the vendor's own; the party field on each one says which."
+                % len(third)
+            )
+    return out
+
+
+def github_org_caveats(entry: dict[str, Any]) -> list[str]:
+    """What the organisation layer does and does not know about this vendor."""
+    out: list[str] = []
+    status = entry.get("github_org_status") or "not-checked"
+    checked = entry.get("github_org_checked_on") or "an unstamped date"
+    evidence = entry.get("github_org_evidence") or {}
+    rule = evidence.get("rule") if isinstance(evidence, dict) else None
+
+    if status == "resolved":
+        out.append(
+            "GitHub organisation %s was tied to this vendor on %s by domain "
+            "evidence (%s). Its %s public non-fork repositories were read on that "
+            "date; %s mention MCP and %s look like CLIs. Repository kinds are "
+            "heuristics from name, topics and description, not statements by the "
+            "vendor."
+            % (
+                entry.get("github_org"),
+                checked,
+                rule or "an unrecorded rule",
+                entry.get("github_org_repos"),
+                entry.get("github_org_repos_mcp"),
+                entry.get("github_org_repos_cli"),
+            )
+        )
+    elif status == "unresolved":
+        out.append(
+            "GitHub accounts were seen for this vendor on %s but none passed the "
+            "domain-evidence rules (github_org_status unresolved). A null "
+            "organisation is a resolution miss on that date, not proof that the "
+            "vendor has no GitHub." % checked
+        )
+    elif status == "no-github-signal":
+        out.append(
+            "On %s the entry carried no github.com URL and an organisation search "
+            "returned nothing. Many GTM SaaS vendors have no public GitHub at all; "
+            "this is a common answer, dated, not a gap." % checked
+        )
+    else:
+        out.append(
+            "The organisation layer has not reached this entry (github_org_status "
+            "not-checked): what this vendor builds in public has not been measured."
+        )
+    return out
+
+
 def entry_caveats(entry: dict[str, Any]) -> list[str]:
     """Everything this specific entry does NOT know, said in sentences."""
     out: list[str] = []
@@ -186,6 +299,9 @@ def entry_caveats(entry: dict[str, Any]) -> list[str]:
                 "answer rather than a gap."
             )
 
+    out.extend(cli_caveats(entry))
+    out.extend(github_org_caveats(entry))
+
     if entry.get("docs_url") and not entry.get("docs_digest"):
         out.append("docs_url is known but the documentation has never been crawled.")
     elif not entry.get("docs_url"):
@@ -226,6 +342,8 @@ def entry_honesty(entry: dict[str, Any]) -> dict[str, Any]:
             "github": entry.get("github_fetched_on"),
             "docs": entry.get("docs_last_crawled"),
             "mcp_url_liveness": entry.get("endpoint_last_probed"),
+            "cli": entry.get("cli_checked_on"),
+            "github_org": entry.get("github_org_checked_on"),
         },
         "source_urls": entry.get("source_urls") or [],
         "caveats": entry_caveats(entry),
@@ -282,6 +400,76 @@ class HonestyBuilder:
         self.servers_claimed = sum(1 for e in directory.entries if e.get("mcp_status_bucket") in ("official", "community"))
         self.endpoint_probe_date = next(
             (e.get("endpoint_last_probed") for e in directory.entries if e.get("endpoint_last_probed")), None
+        )
+
+        # The command-line layer (cli_*). A build that predates the layer has no
+        # cli_status at all; that reads as not-checked, never as none-found.
+        cli_summary = directory.payload.get("cli") or {}
+        self.cli_by_status: dict[str, int] = {}
+        for e in directory.entries:
+            key = e.get("cli_status") or "not-checked"
+            self.cli_by_status[key] = self.cli_by_status.get(key, 0) + 1
+        cli_dates = _dates(e.get("cli_checked_on") for e in directory.entries)
+        self.cli_checked_on: str | None = cli_summary.get("generated_on") or (cli_dates[-1] if cli_dates else None)
+        self.cli_measured: bool = bool(self.cli_checked_on) and any(
+            (e.get("cli_status") or "not-checked") != "not-checked" for e in directory.entries
+        )
+        self.cli_reachable = self.cli_by_status.get("official", 0) + self.cli_by_status.get("community", 0)
+
+        # The vendor GitHub organisation layer (github_org_*).
+        org_summary = directory.payload.get("github_orgs") or {}
+        self.orgs_by_status: dict[str, int] = {}
+        for e in directory.entries:
+            key = e.get("github_org_status") or "not-checked"
+            self.orgs_by_status[key] = self.orgs_by_status.get(key, 0) + 1
+        org_dates = _dates(e.get("github_org_checked_on") for e in directory.entries)
+        self.orgs_checked_on: str | None = org_summary.get("generated_on") or (org_dates[-1] if org_dates else None)
+        self.orgs_measured: bool = bool(self.orgs_checked_on) and any(
+            (e.get("github_org_status") or "not-checked") != "not-checked" for e in directory.entries
+        )
+        self.orgs_resolved = sum(1 for e in directory.entries if e.get("github_org"))
+        self.orgs_reached = sum(
+            1 for e in directory.entries if (e.get("github_org_status") or "not-checked") != "not-checked"
+        )
+
+    # -- layer sentences ---------------------------------------------------
+    def cli_layer_caveat(self) -> str:
+        """One dated sentence about the CLI layer as a whole."""
+        if not self.cli_measured:
+            return CLI_LAYER_UNMEASURED
+        return (
+            "The CLI layer was measured on %s: of %d entries, %d have a first-party "
+            "CLI, %d a community one, %d none found, %d not yet reached. none-found "
+            "is what the harvest found on that date, not proof of absence. Every "
+            "install command is quoted from a source URL on a date and was not run "
+            "here."
+            % (
+                self.cli_checked_on,
+                self.total,
+                self.cli_by_status.get("official", 0),
+                self.cli_by_status.get("community", 0),
+                self.cli_by_status.get("none-found", 0),
+                self.cli_by_status.get("not-checked", 0),
+            )
+        )
+
+    def org_layer_caveat(self) -> str:
+        """One dated sentence about the organisation layer as a whole."""
+        if not self.orgs_measured:
+            return ORG_LAYER_UNMEASURED
+        return (
+            "Vendor GitHub organisations were measured on %s: %d of %d entries "
+            "resolved to an organisation with domain evidence, %d unresolved, %d "
+            "with no GitHub signal, %d not yet reached. Unresolved and not-reached "
+            "vendors are silent, not inactive. Repository kinds are heuristics."
+            % (
+                self.orgs_checked_on,
+                self.orgs_resolved,
+                self.total,
+                self.orgs_by_status.get("unresolved", 0),
+                self.orgs_by_status.get("no-github-signal", 0),
+                self.orgs_by_status.get("not-checked", 0),
+            )
         )
 
     # -- pieces -----------------------------------------------------------
@@ -403,6 +591,8 @@ class HonestyBuilder:
                 "The docs intel layer has not run: 0 of %d entries carry a "
                 "docs_digest." % self.total
             )
+        caveats.append(self.cli_layer_caveat())
+        caveats.append(self.org_layer_caveat())
         if extra_caveats:
             caveats.extend([c for c in extra_caveats if c])
 
@@ -426,7 +616,9 @@ class HonestyBuilder:
             "measured_on": {
                 "github": None,
                 "docs": None,
-                "mcp_url_liveness": None,
+                "mcp_url_liveness": self.endpoint_probe_date,
+                "cli": self.cli_checked_on if self.cli_measured else None,
+                "github_org": self.orgs_checked_on if self.orgs_measured else None,
             },
             "measured_on_note": (
                 "null means never measured, not measured-as-zero. Any of these "

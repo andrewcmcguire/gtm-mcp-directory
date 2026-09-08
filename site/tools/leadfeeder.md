@@ -63,6 +63,10 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -88,6 +92,24 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/ever-works/awesome-mcp-servers/blob/master/details/leadfeeder-mcp-server.md](https://github.com/ever-works/awesome-mcp-servers/blob/master/details/leadfeeder-mcp-server.md)
+
+**On GitHub**
+
+[github.com/Leadfeeder](https://github.com/Leadfeeder) tied to the vendor by rule 3, account website https://www.leadfeeder.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 2, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-07-24
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [leadfeeder-mcp-plugin](https://github.com/Leadfeeder/leadfeeder-mcp-plugin) | MCP server | Leadfeeder Plugin & Skills | 0 | 2026-07-24 | |
+| [leadfeeder-google-tag-manager-template](https://github.com/Leadfeeder/leadfeeder-google-tag-manager-template) | docs or examples | Google Tag Manager template for Leadfeeder | 1 | 2023-03-29 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

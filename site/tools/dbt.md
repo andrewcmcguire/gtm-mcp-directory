@@ -18,6 +18,7 @@ dbt (dbt platform remote MCP)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: dbt
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,6 +64,27 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: dbt
+- **Status**: official CLI, first party
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+pip install dbt
+```
+
+quoted from [https://pypi.org/project/dbt/](https://pypi.org/project/dbt/) on 2026-09-08, via pypi
+
+Packages seen, with the version on 2026-09-08:
+
+- [pypi: dbt 1.0.0.40.21](https://pypi.org/project/dbt/)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -88,6 +110,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp)
+
+**On GitHub**
+
+[github.com/dbt-labs](https://github.com/dbt-labs) tied to the vendor by rule 2, account website getdbt.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 120, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 6 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [dbt-core](https://github.com/dbt-labs/dbt-core) | other | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to... | 13,790 | 2026-09-08 | v2.0.0-rc.2 |
+| [docs.getdbt.com](https://github.com/dbt-labs/docs.getdbt.com) | docs or examples | The code behind docs.getdbt.com | 213 | 2026-09-08 | |
+| [hub.getdbt.com-test](https://github.com/dbt-labs/hub.getdbt.com-test) | other | | 1 | 2026-09-08 | |
+| [hubcap](https://github.com/dbt-labs/hubcap) | other | This app adds modules to the hubsite at hub.getdbt.com | 16 | 2026-09-08 | 0.1.0 |
+| [dbt-mcp](https://github.com/dbt-labs/dbt-mcp) | MCP server | A MCP (Model Context Protocol) server for interacting with dbt. | 603 | 2026-09-08 | v2.3.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

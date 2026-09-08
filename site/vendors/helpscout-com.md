@@ -38,6 +38,10 @@ Vendor domain: [helpscout.com](https://helpscout.com) · vendor page id helpscou
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/helpscout](https://github.com/helpscout), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,39 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Help Scout](../tools/help-scout.md) community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+Login or key hint: through setup
+
+harvested 2026-09-08, all on the [tool page](../tools/help-scout.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/helpscout](https://github.com/helpscout) tied to the vendor by rule 3, account website https://developer.helpscout.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 132, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 4 of them
+- **Latest push**: 2026-08-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [app-template](https://github.com/helpscout/app-template) | docs or examples | Help Scout Developer Platform App Template | 14 | 2026-08-03 | |
+| [helpscout-api-php-laravel](https://github.com/helpscout/helpscout-api-php-laravel) | API client | Service Provider and Facade for using the Help Scout API with Laravel and Lumen applications. | 9 | 2026-07-24 | 2.1.4 |
+| [fe-yam-site](https://github.com/helpscout/fe-yam-site) | app | 🥔 Front-end Engineering: Hiring Project (Design Team) | 0 | 2026-06-23 | |
+| [helpscout-api-php](https://github.com/helpscout/helpscout-api-php) | SDK | PHP Wrapper for the Help Scout API | 102 | 2026-06-15 | 3.10.3 |
+| [beacon-ios-sdk](https://github.com/helpscout/beacon-ios-sdk) | SDK | The Beacon iOS SDK | 23 | 2026-04-27 | 4.1.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

@@ -71,6 +71,10 @@ Recorded by the harvest: the tools are the customer's own connected accounts and
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -92,6 +96,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/PipedreamHQ](https://github.com/PipedreamHQ) tied to the vendor by rule 3, account website https://pipedream.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 24, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [pipedream](https://github.com/PipedreamHQ/pipedream) | CLI | Connect APIs, remarkably fast. Free for developers. | 11,680 | 2026-09-08 | |
+| [pipedream-sdk-java](https://github.com/PipedreamHQ/pipedream-sdk-java) | SDK | Java SDK for Pipedream | 2 | 2026-09-03 | v2.1.3 |
+| [pipedream-sdk-python](https://github.com/PipedreamHQ/pipedream-sdk-python) | SDK | Python SDK for Pipedream | 14 | 2026-09-03 | v2.1.20 |
+| [pipedream-sdk-typescript](https://github.com/PipedreamHQ/pipedream-sdk-typescript) | SDK | TypeScript SDK for Pipedream | 9 | 2026-09-03 | v3.1.6 |
+| [pipedream-connect-examples](https://github.com/PipedreamHQ/pipedream-connect-examples) | docs or examples | Collection of example apps showcasing the pipedream SDKs. Learn more https://pipedream.com/docs/connect. | 28 | 2026-08-20 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

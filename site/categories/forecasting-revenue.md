@@ -22,6 +22,8 @@ Tools that try to answer "how much will we actually close this quarter" - CRM-na
 - **MCP unknown**: 1
 - **No MCP found**: 13
 
+- **ship a CLI (official) as of 2026-09-08**: 3
+
 - **Free to start**: 1
 - **Paid, self-serve**: 3
 - **Enterprise only**: 13
@@ -37,17 +39,17 @@ Source file: 12-forecasting-revenue.md · content sha256 d301d1b38aca32d3... · 
 
 - [Cube Software](../tools/cube-software.md) cubesoftware.com Spreadsheet-native FP&A planning and reporting platform for finance teams; revenue-scenario modeling is one supported use case rather than a dedicated CRM-native sales-forecasting product. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md) anaplan.com Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by "Anaplan Forecaster" (launched October 2025) - generates time-series demand/sales/revenue forecasts that... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md) anaplan.com Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by "Anaplan Forecaster" (launched October 2025) - generates time-series demand/sales/revenue forecasts that... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI (community)
 
 - [Pigment](../tools/pigment.md) pigment.com AI-native enterprise business-planning (EPM) platform used across finance, sales, HR, and supply chain; GTM-relevant use cases include capacity, territory, and quota planning and revenue-growth-management... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Xactly](../tools/xactly.md) xactlycorp.com Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue forecasting (Xactly Forecast), using compensation-plan and rep-behavior data as a forecasting input. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md) pipedrive.com Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · Cross listed, canonical home is RevOps Infra
+- [Pipedrive (AI Sales Assistant / forecasting)](../tools/pipedrive.md) pipedrive.com Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · Cross listed, canonical home is RevOps Infra · CLI: pipedrive (community)
 
-- [Forecastio](../tools/forecastio.md) forecastio.ai AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying machine learning, time-series models, and weighted-pipeline methods to predict a forecast range (best... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+- [Forecastio](../tools/forecastio.md) forecastio.ai AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying machine learning, time-series models, and weighted-pipeline methods to predict a forecast range (best... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · CLI (community)
 
-- [HubSpot (AI Forecasting)](../tools/hubspot.md) hubspot.com HubSpot's forecasting tool inside Sales Hub/Service Hub, turning pipeline data into revenue predictions via weighted-pipeline calculations plus an "AI forecasting" layer shown in-product. See... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is RevOps Infra
+- [HubSpot (AI Forecasting)](../tools/hubspot.md) hubspot.com HubSpot's forecasting tool inside Sales Hub/Service Hub, turning pipeline data into revenue predictions via weighted-pipeline calculations plus an "AI forecasting" layer shown in-product. See... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is RevOps Infra · CLI: hs
 
 - [Aviso](../tools/aviso.md) aviso.com AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
@@ -59,11 +61,11 @@ Source file: 12-forecasting-revenue.md · content sha256 d301d1b38aca32d3... · 
 
 - [Kluster](../tools/kluster.md) kluster.com AI-native revenue forecasting and revenue-analytics platform for mid-market to enterprise SaaS companies - plugs into the CRM, ingests historical performance and activity data, and produces AI/statistical... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md) mediafly.com Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into "Mediafly Intelligence360," providing deal inspection, pipeline forecasting,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Mediafly (Intelligence360, formerly InsightSquared)](../tools/mediafly.md) mediafly.com Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into "Mediafly Intelligence360," providing deal inspection, pipeline forecasting,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: extension-cli
 
 - [Revenue.io](../tools/revenue-io.md) revenue.io Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md) salesforce.com Sales Cloud's AI forecasting feature, analyzing past opportunities, account history, and activities plus rep win-rates to generate revenue predictions with confidence ranges. See 06-revops-infra.md for... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md) salesforce.com Sales Cloud's AI forecasting feature, analyzing past opportunities, account history, and activities plus rep win-rates to generate revenue predictions with confidence ranges. See 06-revops-infra.md for... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: sf
 
 - [Vareto](../tools/vareto.md) vareto.com FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling, cash-flow forecasting) that lists "Sales Revenue Forecasting" and "Capacity Planning" as one of... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 

@@ -184,6 +184,7 @@
 <div class="stats" style="margin-top:26px">
 <div class="stat"><div class="n">17</div><div class="k">entries in this file</div></div>
 <div class="stat is-gold"><div class="n">3</div><div class="k">Official MCP</div></div><div class="stat is-mute"><div class="n">1</div><div class="k">MCP unknown</div></div><div class="stat is-copper"><div class="n">13</div><div class="k">No MCP found</div></div>
+<div class="stat is-teal"><div class="n">3</div><div class="k">ship a CLI (official) as of 2026-09-08</div></div>
 </div>
 <div class="stats" style="margin-top:1px"><div class="stat is-teal"><div class="n">1</div><div class="k">Free to start</div></div><div class="stat is-gold"><div class="n">3</div><div class="k">Paid, self-serve</div></div><div class="stat is-copper"><div class="n">13</div><div class="k">Enterprise only</div></div></div>
 <p class="note">Source file: 12-forecasting-revenue.md &middot; content sha256
@@ -194,103 +195,103 @@ tools_recount.py at build time.</p>
 <a class="btn ghost" href="../jobs/read-pipeline-forecast">Read the pipeline forecast</a><a class="btn ghost" href="../jobs/model-revenue-plan">Model a revenue plan</a><a class="btn ghost" href="../jobs/extract-deal-signals-from-calls">Extract deal signals from calls</a><a class="btn ghost" href="../jobs/write-crm-records">Write CRM records</a>
 </div>
 <ul class="rows">
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/cube-software">Cube Software</a>
 <span class="dom">cubesoftware.com</span></div>
 <div class="desc">Spreadsheet-native FP&amp;A planning and reporting platform for finance teams; revenue-scenario modeling is one supported use case rather than a dedicated CRM-native sales-forecasting product.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/anaplan">Anaplan (PlanIQ / Anaplan Forecaster)</a>
 <span class="dom">anaplan.com</span></div>
 <div class="desc">Connected-planning platform whose AI forecasting engine - originally branded PlanIQ, now superseded by &quot;Anaplan Forecaster&quot; (launched October 2025) - generates time-series demand/sales/revenue forecasts that...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/pigment">Pigment</a>
 <span class="dom">pigment.com</span></div>
 <div class="desc">AI-native enterprise business-planning (EPM) platform used across finance, sales, HR, and supply chain; GTM-relevant use cases include capacity, territory, and quota planning and revenue-growth-management...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/xactly">Xactly</a>
 <span class="dom">xactlycorp.com</span></div>
 <div class="desc">Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue forecasting (Xactly Forecast), using compensation-plan and rep-behavior data as a forecasting input.</div>
 <div class="badges"><a class="badge mute" href="../mcp/unknown">MCP unknown</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/pipedrive">Pipedrive (AI Sales Assistant / forecasting)</a>
 <span class="dom">pipedrive.com</span></div>
 <div class="desc">Pipedrive&#x27;s built-in AI-driven forecasting layer - not a separately branded &quot;Insights&quot; product, but the CRM&#x27;s AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge xref flat">Cross listed, canonical home is RevOps Infra</span></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge teal" href="../gates/free">Free to start</a><span class="badge xref flat">Cross listed, canonical home is RevOps Infra</span><span class="badge gold flat">CLI: pipedrive (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/forecastio">Forecastio</a>
 <span class="dom">forecastio.ai</span></div>
 <div class="desc">AI sales-forecasting and pipeline-intelligence platform built for HubSpot and Salesforce users, applying machine learning, time-series models, and weighted-pipeline methods to predict a forecast range (best...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge gold flat">CLI (community)</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/hubspot">HubSpot (AI Forecasting)</a>
 <span class="dom">hubspot.com</span></div>
 <div class="desc">HubSpot&#x27;s forecasting tool inside Sales Hub/Service Hub, turning pipeline data into revenue predictions via weighted-pipeline calculations plus an &quot;AI forecasting&quot; layer shown in-product. See...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge xref flat">Cross listed, canonical home is RevOps Infra</span></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><span class="badge xref flat">Cross listed, canonical home is RevOps Infra</span><span class="badge teal flat">CLI: hs</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/aviso">Aviso</a>
 <span class="dom">aviso.com</span></div>
 <div class="desc">AI revenue operations platform combining pipeline forecasting, conversation/deal intelligence, and agentic workflow automation for sales, RevOps, and customer success teams.</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/boostup">BoostUp (rebranded: Terret)</a>
 <span class="dom">terret.ai</span></div>
 <div class="desc">AI revenue-intelligence and pipeline-forecasting platform that ingests CRM, email, call, and calendar data to produce forecasts and deal-risk scores, plus (post-rebrand) automated GTM workflow agents.</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/ebsta">Ebsta</a>
 <span class="dom">ebsta.com</span></div>
 <div class="desc">Revenue-intelligence add-on for Salesforce/HubSpot that syncs email and calendar activity into the CRM and layers on relationship scoring, conversation capture, and pipeline forecasting.</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/gong-forecast">Gong Forecast</a>
 <span class="dom">gong.io</span></div>
 <div class="desc">A licensed add-on module (separate from the base Gong Foundation license, with a lighter &quot;Forecast Essentials&quot; tier bundled into Gong&#x27;s Deal Execution package) that turns Gong&#x27;s conversation-intelligence...</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/kluster">Kluster</a>
 <span class="dom">kluster.com</span></div>
 <div class="desc">AI-native revenue forecasting and revenue-analytics platform for mid-market to enterprise SaaS companies - plugs into the CRM, ingests historical performance and activity data, and produces AI/statistical...</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/mediafly">Mediafly (Intelligence360, formerly InsightSquared)</a>
 <span class="dom">mediafly.com</span></div>
 <div class="desc">Combined revenue-enablement and revenue-intelligence platform; the InsightSquared product (acquired January 2022) is now folded into &quot;Mediafly Intelligence360,&quot; providing deal inspection, pipeline forecasting,...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge teal flat">CLI: extension-cli</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/revenue-io">Revenue.io</a>
 <span class="dom">revenue.io</span></div>
 <div class="desc">Salesforce-native AI-guided-selling platform whose forecasting product reads live Salesforce opportunity data to produce automatic rep/manager/VP forecast roll-ups without CSV exports or manual sync.</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/salesforce-einstein-forecasting">Salesforce Einstein Forecasting</a>
 <span class="dom">salesforce.com</span></div>
 <div class="desc">Sales Cloud&#x27;s AI forecasting feature, analyzing past opportunities, account history, and activities plus rep win-rates to generate revenue predictions with confidence ranges. See 06-revops-infra.md for...</div>
-<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
+<div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><span class="badge teal flat">CLI: sf</span></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/vareto">Vareto</a>
 <span class="dom">vareto.com</span></div>
 <div class="desc">FP&amp;A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling, cash-flow forecasting) that lists &quot;Sales Revenue Forecasting&quot; and &quot;Capacity Planning&quot; as one of...</div>
 <div class="badges"><a class="badge copper" href="../mcp/none-found">No MCP found</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a></div>
 </li>
-<li class="row">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/varicent">Varicent</a>
 <span class="dom">varicent.com</span></div>
 <div class="desc">Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory design, pipeline management, and revenue forecasting in one suite.</div>

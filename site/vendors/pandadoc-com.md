@@ -38,6 +38,10 @@ Vendor domain: [pandadoc.com](https://pandadoc.com) · vendor page id pandadoc-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/PandaDoc](https://github.com/PandaDoc), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server](https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server) (PandaDoc, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [PandaDoc](../tools/pandadoc.md) pandadoc community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install pandadoc
+```
+
+quoted from [https://pypi.org/project/pandadoc/](https://pypi.org/project/pandadoc/) on 2026-09-08, via pypi, a third party source
+
+harvested 2026-09-08, all on the [tool page](../tools/pandadoc.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/PandaDoc](https://github.com/PandaDoc) tied to the vendor by rule 2, account website https://pandadoc.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 16, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [pandadoc-openapi-specification](https://github.com/PandaDoc/pandadoc-openapi-specification) | API client | | 6 | 2026-09-08 | v7.27.1 |
+| [design-engineer-interview-200826-dry-run](https://github.com/PandaDoc/design-engineer-interview-200826-dry-run) | other | | 0 | 2026-08-20 | |
+| [mcp-server-guide](https://github.com/PandaDoc/mcp-server-guide) | MCP server | Where to start to use PandaDoc MCP server | 2 | 2026-08-20 | v1.0.0 |
+| [design-engineer-interview-170826](https://github.com/PandaDoc/design-engineer-interview-170826) | other | | 0 | 2026-08-17 | |
+| [property-agreement-templates](https://github.com/PandaDoc/property-agreement-templates) | docs or examples | Free property and real estate agreement templates - residential and commercial leases, rental agreements,... | 0 | 2026-07-22 | v1.0.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

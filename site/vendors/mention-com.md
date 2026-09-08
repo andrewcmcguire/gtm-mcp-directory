@@ -38,6 +38,10 @@ Vendor domain: [mention.com](https://mention.com) · vendor page id mention-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/mentionapp](https://github.com/mentionapp), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,37 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server) (Mention, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Mention](../tools/mention.md) community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+harvested 2026-09-08, all on the [tool page](../tools/mention.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/mentionapp](https://github.com/mentionapp) tied to the vendor by rule 3, account website https://mention.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 9, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2025-09-25
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [retry](https://github.com/mentionapp/retry) | other | Retry is a PHP library for retrying operations with customizable backoff, jitter, and support for both synchronous and... | 13 | 2025-09-25 | 1.0 |
+| [fast-doctrine-paginator](https://github.com/mentionapp/fast-doctrine-paginator) | other | Fast Doctrine paginator suitable for batching, infinite scrolling, GraphQL/Relay | 19 | 2023-12-06 | 2.0.0 |
+| [paginator](https://github.com/mentionapp/paginator) | other | Pagination base | 0 | 2023-12-06 | 2.0.0 |
+| [kebab](https://github.com/mentionapp/kebab) | other | Wrappers around the PHP standard library focused on safety and testability | 16 | 2023-11-28 | 1.4.2 |
+| [yoed](https://github.com/mentionapp/yoed) | other | YO hub | 10 | 2023-10-10 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

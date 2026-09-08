@@ -38,6 +38,10 @@ Vendor domain: [apideck.com](https://apideck.com) · vendor page id apideck-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/apideck-libraries](https://github.com/apideck-libraries), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -77,6 +81,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp) (Apideck, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Apideck](../tools/apideck.md) apideck official CLI
+
+```
+brew install apideck-libraries/tap/apideck
+```
+
+quoted from [https://www.apideck.com/cli](https://www.apideck.com/cli) on 2026-09-08, via brew
+
+Login or key hint: apideck auth
+
+2 more install commands, 6 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/apideck.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/apideck-libraries](https://github.com/apideck-libraries) tied to the vendor by rule 1, account website https://www.apideck.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 36, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [sdk-java](https://github.com/apideck-libraries/sdk-java) | SDK | | 1 | 2026-09-08 | v0.40.0 |
+| [sdk-csharp](https://github.com/apideck-libraries/sdk-csharp) | SDK | | 4 | 2026-09-08 | v0.32.0 |
+| [sdk-go](https://github.com/apideck-libraries/sdk-go) | SDK | | 1 | 2026-09-08 | v0.34.0 |
+| [sdk-typescript](https://github.com/apideck-libraries/sdk-typescript) | SDK | | 3 | 2026-09-08 | v0.48.0 |
+| [sdk-php](https://github.com/apideck-libraries/sdk-php) | SDK | | 2 | 2026-09-08 | v0.25.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

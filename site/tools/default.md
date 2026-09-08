@@ -18,6 +18,7 @@ Default
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-02
+CLI (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -52,6 +53,23 @@ n/a (marketing pages only: https://www.default.com/solutions/default-mcp names a
 
 - [https://www.default.com/solutions/default-mcp](https://www.default.com/solutions/default-mcp)
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: not seen in a usage line
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+No install command was quoted by the harvest. The status rests on the package or page linked below.
+
+Where it was documented:
+
+- [https://github.com/click-contrib/click-default-group](https://github.com/click-contrib/click-default-group) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -73,6 +91,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to default.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+5 candidate accounts seen and rejected by the evidence rules: chainguard-dev, SovereignCloudStack, Kicksecure, nordicsemi, AkerBP. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

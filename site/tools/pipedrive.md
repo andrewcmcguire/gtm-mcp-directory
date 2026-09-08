@@ -18,6 +18,7 @@ Pipedrive
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: pipedrive (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -132,6 +133,37 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: pipedrive
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+curl -sSL https://raw.githubusercontent.com/Aaronontheweb/pipedrive-cli/dev/install.sh | bash
+```
+
+quoted from [https://github.com/Aaronontheweb/pipedrive-cli](https://github.com/Aaronontheweb/pipedrive-cli) on 2026-09-08, via shell, a third party source
+
+Login or key hint seen on the page:
+
+pipedrive config set --api-key YOUR_TOKEN --domain acme.pipedrive.com
+
+Subcommands seen with the binary:
+
+activities, config, deals, emails, leads, notes, organizations, persons, pipelines, update
+
+Where it was documented:
+
+- [https://github.com/ricocaldeira/pipedrive-api-client](https://github.com/ricocaldeira/pipedrive-api-client) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -153,6 +185,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/pipedrive](https://github.com/pipedrive) tied to the vendor by rule 3, account website http://www.pipedrive.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 13, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [client-php](https://github.com/pipedrive/client-php) | SDK | Pipedrive API client for PHP | 64 | 2026-09-08 | 6.7.0 |
+| [client-nodejs](https://github.com/pipedrive/client-nodejs) | SDK | Pipedrive API client for NodeJS | 234 | 2026-09-08 | v17.5.3 |
+| [app-extensions-sdk](https://github.com/pipedrive/app-extensions-sdk) | SDK | SDK for Pipedrive app extensions | 8 | 2026-08-31 | |
+| [create-pipedrive-app](https://github.com/pipedrive/create-pipedrive-app) | app | Scaffold a production-ready Pipedrive Marketplace app with OAuth, database, and App Extensions in seconds. | 4 | 2026-08-11 | |
+| [test-public-npm-module](https://github.com/pipedrive/test-public-npm-module) | other | Public NPM module for testing publishing workflow | 0 | 2026-06-15 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

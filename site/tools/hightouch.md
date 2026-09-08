@@ -71,6 +71,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -92,6 +96,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/hightouchio](https://github.com/hightouchio) tied to the vendor by rule 3, account website https://hightouch.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 16, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-07-29
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [design-team](https://github.com/hightouchio/design-team) | other | This is a test of the new design team site. | 0 | 2026-07-29 | |
+| [tfc-agent](https://github.com/hightouchio/tfc-agent) | infrastructure | Terraform Cloud Agent with some customizations | 0 | 2026-06-11 | |
+| [airflow-provider-hightouch](https://github.com/hightouchio/airflow-provider-hightouch) | infrastructure | Airflow operators, hooks, and sensors for interacting with the Hightouch API | 16 | 2026-04-24 | 5.0.0 |
+| [passage](https://github.com/hightouchio/passage) | other | Secure private tunnels as a service :closed_lock_with_key: | 46 | 2025-10-03 | v0.3.6 |
+| [bottlerocket-bootstrap-storage](https://github.com/hightouchio/bottlerocket-bootstrap-storage) | other | Bootstrap container to configure storage on Bottlerocket instances | 0 | 2025-02-21 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -18,6 +18,7 @@ Chorus
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: gtm
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -149,6 +150,27 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: gtm
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @zoominfo/gtm-ai-cli
+```
+
+quoted from [https://www.npmjs.com/package/@zoominfo/gtm-ai-cli](https://www.npmjs.com/package/@zoominfo/gtm-ai-cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @zoominfo/gtm-ai-cli 1.1.0](https://www.npmjs.com/package/@zoominfo/gtm-ai-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -174,6 +196,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server)
+
+**On GitHub**
+
+[github.com/Zoominfo](https://github.com/Zoominfo) tied to the vendor by rule 3, account website https://www.zoominfo.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 8, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [zoominfo-mcp-plugin](https://github.com/Zoominfo/zoominfo-mcp-plugin) | MCP server | ZoomInfo MCP plugin | 7 | 2026-09-03 | |
+| [n8n-nodes-zoominfo](https://github.com/Zoominfo/n8n-nodes-zoominfo) | plugin or integration | n8n community node for the ZoomInfo GTM API | 0 | 2026-09-02 | v1.0.0 |
+| [gtm-ai-cli](https://github.com/Zoominfo/gtm-ai-cli) | CLI | A command-line tool for searching ZoomInfo's go-to-market data | 1 | 2026-08-30 | v1.1.0 |
+| [homebrew-gtm-ai](https://github.com/Zoominfo/homebrew-gtm-ai) | infrastructure | Homebrew tap for gtm-ai formulae | 0 | 2026-08-26 | |
+| [api-auth-java-client](https://github.com/Zoominfo/api-auth-java-client) | SDK | Zoominfo API's Java Authentication Client | 2 | 2026-06-30 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

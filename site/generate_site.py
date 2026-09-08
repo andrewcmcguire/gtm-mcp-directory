@@ -707,6 +707,27 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
 .caplist .tm{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--mute-2);
   margin-top:5px;overflow-wrap:anywhere}
 .caplist .tm a{color:var(--mute)}
+/* the command-line and GitHub organisation layers */
+.field pre{margin-top:10px}
+.field .note.quote{margin-top:-6px;margin-bottom:12px;font-family:var(--mono);font-size:11.5px;
+  letter-spacing:.03em;color:var(--mute-2)}
+.field details.fold{margin-top:14px}
+.field details.fold summary{cursor:pointer;font-family:var(--mono);font-size:12px;letter-spacing:.06em;
+  color:var(--mute)}
+.field details.fold summary:hover{color:var(--accent)}
+.field .v .note{font-size:12.5px;color:var(--mute)}
+/* a quoted install command or a config block must never widen a phone page: wrap, do not scroll */
+pre code{white-space:pre-wrap;overflow-wrap:anywhere}
+/* the recent-repos table folds into stacked rows on a phone, each cell labelled */
+@media (max-width:640px){
+  .orgtable table,.orgtable tbody,.orgtable tr,.orgtable td{display:block;width:100%;max-width:100%}
+  .orgtable thead{display:none}
+  .orgtable tr{padding:8px 0;border-bottom:1px solid var(--rule-soft)}
+  .orgtable td,.orgtable td.n{padding:1px 0;border:0;white-space:normal;overflow-wrap:anywhere}
+  .orgtable td:empty{display:none}
+  .orgtable td::before{content:attr(data-l) ': ';font-family:var(--mono);font-size:10.5px;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+}
 .caplist .sv{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
 
 @media (prefers-reduced-motion:no-preference){
@@ -763,7 +784,7 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
   var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
   if(!q || !out) return;
 
-  var filters = {mcp:null, gate:null};
+  var filters = {mcp:null, gate:null, cli:null};
 
   function tokens(s){
     return (s||'').toLowerCase().replace(/[^a-z0-9+.# ]+/g,' ').split(/\s+/)
@@ -794,7 +815,16 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
   function pass(t){
     if(filters.mcp && t.m !== filters.mcp) return false;
     if(filters.gate && t.g !== filters.gate) return false;
+    // the CLI chip keeps a measured official or community CLI. not-checked never passes,
+    // because an unmeasured entry is not a "no".
+    if(filters.cli && !(t.cli === 'official' || t.cli === 'community')) return false;
     return true;
+  }
+
+  function cliBadge(t){
+    if(t.cli !== 'official' && t.cli !== 'community') return '';
+    var label = 'CLI' + (t.cb ? ': ' + t.cb : '') + (t.cli === 'community' ? ' (community)' : '');
+    return '<span class="badge ' + (t.cli === 'official' ? 'teal' : 'gold') + ' flat">' + esc(label) + '</span>';
   }
 
   function esc(s){
@@ -851,6 +881,7 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
         '<span class="badge ' + (GATETONE[t.g]||'mute') + '">' + esc(t.gl) + '</span>' +
         '<span class="badge mute flat">' + esc(t.c) + '</span>' +
         '<span class="badge tier flat">' + esc(t.t) + '</span>' +
+        cliBadge(t) +
         '</div></li>';
     }
     out.innerHTML = vh + html;
@@ -1190,7 +1221,10 @@ def entry_row(e, rel, show_cat=True, byid=None):
             f'<span class="badge xref flat">Cross listed, canonical home is '
             f'{esc(tgt["category_label"])}</span>'
         )
-    return f"""<li class="row">
+    cb = cli_badge(tgt)
+    if cb:
+        bits.append(cb)
+    return f"""<li class="row" data-cli="{esc(cli_status_of(tgt))}">
 <div class="top"><a class="nm" href="{href}">{esc(e['name'])}</a>
 <span class="dom">{esc(e['vendor_domain'] or e['vendor_url'])}</span></div>
 <div class="desc">{esc(trim(e['what_it_does'], 210))}</div>
@@ -1277,6 +1311,21 @@ def build_index(d, r, out: Path):
         f'<div class="stat is-{tone}"><div class="n">{num(n)}</div><div class="k">{esc(k)}</div></div>'
         for tone, n, k in stats
     )
+    # the command-line layer: a stat only when it was measured, a sentence when it was not
+    cli_n, cli_when = cli_stat(d["entries"], d)
+    if cli_when:
+        statrow += "\n" + cli_stat_html(d["entries"], d)
+        cli_note = (f"The command-line layer was harvested {esc(cli_when)} across {CLI_SOURCES}: "
+                    f"{num(cli_n)} of the {num(c['entries'])} entries ship a CLI the vendor publishes, "
+                    f"{num(cli_summary(d)['by_status'].get('community', 0))} have only a third party's, "
+                    f"and {num(cli_summary(d)['by_status'].get('none-found', 0))} came back none found, "
+                    f"which is a probe result on that date and not proof of absence. Each tool page "
+                    f"quotes the install command with the URL it came from.")
+        cli_chip = ('<div class="filters"><button class="chip" type="button" data-kind="cli" '
+                    'data-val="any" aria-pressed="false">Ships a CLI</button></div>')
+    else:
+        cli_note = CLI_NOT_MEASURED
+        cli_chip = ""
 
     # the inversion, computed from the category blocks in directory.json
     cats = sorted(
@@ -1347,6 +1396,7 @@ vendors and are counted apart. The remaining {num(cap['servers_still_unmeasured'
 <b>unmeasured, not empty</b>: nobody has read their tool list yet, and their pages say exactly
 that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is
 still {c['bench_tested']} across the whole directory.</p>
+<p class="note">{cli_note}</p>
 <div class="btnrow">
 <a class="btn solid" href="#search">Search by capability</a>
 <a class="btn" href="#install">Install the MCP server</a>
@@ -1370,6 +1420,7 @@ no backend, no query logging, and it keeps working with the network cable pulled
 </div>
 <div class="filters">{mcp_chips}</div>
 <div class="filters">{gate_chips}</div>
+{cli_chip}
 <p class="sortnote">Ordering is fixed and published, never tuned and never purchasable.
 {esc(d['sort_rule'])} With a query typed, matches are banded by relevance first and the rule above
 breaks every tie. An exact name match pins to the top and nothing else is boosted.
@@ -1767,6 +1818,304 @@ def capability_block(e, d, rel, byid):
     return field("What this server exposes", body)
 
 
+# ----------------------------------------------------------------------------------
+# the command-line layer and the vendor's GitHub organisation
+#
+# Two machine-measured layers added 2026-09-08 (SCHEMA.md). Both are rendered from the
+# fields the builder attached and never invented here. not-checked means the instrument
+# has not run on this build, and every surface says so in words rather than showing an
+# empty box or a zero that would read as "none".
+# ----------------------------------------------------------------------------------
+
+CLI_LABEL = {
+    "official": "official CLI",
+    "community": "community CLI",
+    "none-found": "no CLI found",
+    "not-checked": "CLI not measured",
+}
+CLI_TONE = {"official": "teal", "community": "gold", "none-found": "mute", "not-checked": "mute"}
+CLI_SOURCES = "vendor docs, npm, PyPI, Homebrew and GitHub"
+CLI_NOT_MEASURED = "The CLI layer has not been measured on this build."
+ORG_NOT_MEASURED = "The GitHub organisation layer has not been measured on this build."
+CLI_COMMUNITY_SENTENCE = ("This is a third party's CLI. It was published by somebody other than the "
+                          "vendor, so it is that author's surface for the vendor's API and not the "
+                          "vendor's published surface. The two must not be read as the same thing.")
+CLI_CAVEAT = ("A CLI being listed means the harvest found an install command or a package on a "
+              "stated date. Nobody has run it. Every command is quoted verbatim from the URL "
+              "beneath it.")
+ORG_KIND_LABEL = {
+    "mcp-server": "MCP server", "cli": "CLI", "sdk": "SDK", "api-client": "API client",
+    "docs-or-examples": "docs or examples", "plugin-or-integration": "plugin or integration",
+    "app": "app", "infra": "infrastructure", "other": "other",
+}
+
+
+def cli_summary(d):
+    """directory.json's top level cli block. generated_on is None when the harvest has not run."""
+    s = d.get("cli") or {}
+    return {"generated_on": s.get("generated_on"), "by_status": s.get("by_status") or {}}
+
+
+def org_summary(d):
+    s = d.get("github_orgs") or {}
+    return {"generated_on": s.get("generated_on"), "by_status": s.get("by_status") or {},
+            "resolved": s.get("resolved") or 0}
+
+
+def cli_status_of(e):
+    return e.get("cli_status") or "not-checked"
+
+
+def cli_has(e):
+    return cli_status_of(e) in ("official", "community")
+
+
+def cli_none_sentence(e):
+    return (f"No CLI found by the {e.get('cli_checked_on') or 'undated'} harvest across "
+            f"{CLI_SOURCES}. That is a probe result, not proof of absence.")
+
+
+def repo_href(s):
+    """cli_repo arrives as owner/name from the harvest. Make it a URL; leave a URL alone."""
+    s = (s or "").strip()
+    if not s:
+        return ""
+    return s if s.startswith("http") else "https://github.com/" + s.strip("/")
+
+
+def cli_install_html(installs):
+    """Each install command in its own code block, with the quote line beneath it."""
+    out = []
+    for i in installs or []:
+        if not i.get("cmd"):
+            continue
+        out.append(f'<pre><code>{esc(i["cmd"])}</code></pre>')
+        src = i.get("source_url")
+        on = i.get("fetched_on") or "an undated fetch"
+        line = "quoted from "
+        if src:
+            line += f'<a href="{raw_esc(src)}" rel="noopener nofollow">{raw_esc(src)}</a>'
+        else:
+            line += "a source the harvest did not record"
+        line += f" on {esc(on)}"
+        extra = []
+        if i.get("manager"):
+            extra.append(f"via {esc(i['manager'])}")
+        if i.get("party") == "third":
+            extra.append("a third party source")
+        if extra:
+            line += ", " + ", ".join(extra)
+        out.append(f'<p class="note quote">{line}</p>')
+    return "".join(out)
+
+
+def cli_commands_html(cmds):
+    cmds = [c for c in (cmds or []) if c]
+    if not cmds:
+        return ""
+    listed = ", ".join(esc(c) for c in cmds)
+    if len(cmds) > 12:
+        return (f'<p class="note" style="margin-top:14px">{len(cmds)} subcommands seen with the '
+                f'binary in the docs or README:</p><details class="fold"><summary>expand to read '
+                f'them</summary>\n<p class="v mono">{listed}</p>\n</details>')
+    return (f'<p class="note" style="margin-top:14px">Subcommands seen with the binary:</p>'
+            f'<p class="v mono">{listed}</p>')
+
+
+def cli_block(e, d, rel):
+    """The Command line section on a tool page. official, community, none-found or not-checked,
+    and each of the four reads differently."""
+    st = cli_status_of(e)
+    if st == "not-checked":
+        return field("Command line", f'<p class="v empty">{esc(CLI_NOT_MEASURED)}</p>')
+    if st == "none-found":
+        return field("Command line", f'<p class="v">{esc(cli_none_sentence(e))}</p>')
+
+    on = e.get("cli_checked_on") or "an undated harvest"
+    body = ""
+    if st == "community":
+        body += f'<p class="v">{esc(CLI_COMMUNITY_SENTENCE)}</p>'
+    cells = [
+        f'<div><div class="bk">Binary</div><div class="bv mono">'
+        f'{esc(e.get("cli_binary")) if e.get("cli_binary") else "<span class=\"empty\">not seen in a usage line</span>"}</div></div>',
+        f'<div><div class="bk">Status</div><div class="bv">{esc(CLI_LABEL.get(st, st))}, '
+        f'{"first party" if e.get("cli_party") == "first" else "third party" if e.get("cli_party") == "third" else "party not recorded"}</div></div>',
+        f'<div><div class="bk">Strongest evidence</div><div class="bv">{esc(e.get("cli_evidence") or "not recorded")}</div></div>',
+        f'<div><div class="bk">Harvested</div><div class="bv">{esc(on)}</div></div>',
+    ]
+    body += f'<div class="blockgrid">{"".join(cells)}</div>'
+    installs = cli_install_html(e.get("cli_install"))
+    if installs:
+        body += '<p class="note" style="margin-top:14px">Install, as the source shows it:</p>' + installs
+    else:
+        body += ('<p class="note" style="margin-top:14px">No install command was quoted by the '
+                 'harvest. The status rests on the package or page linked below.</p>')
+    if e.get("cli_login"):
+        body += (f'<p class="note" style="margin-top:14px">Login or key hint seen on the page:</p>'
+                 f'<p class="v mono">{esc(e["cli_login"])}</p>')
+    body += cli_commands_html(e.get("cli_commands_seen"))
+    pk = [p for p in (e.get("cli_packages") or []) if p.get("package")]
+    if pk:
+        items = []
+        for p in pk:
+            label = f'{esc(p.get("kind") or "package")}: {esc(p["package"])}'
+            if p.get("version"):
+                label += f' {esc(p["version"])}'
+            if p.get("party") == "third":
+                label += ", third party"
+            if p.get("url"):
+                items.append(f'<li><a href="{raw_esc(p["url"])}" rel="noopener nofollow">{label}</a></li>')
+            else:
+                items.append(f"<li>{label}</li>")
+        body += (f'<p class="note" style="margin-top:14px">Packages seen, with the version on '
+                 f'{esc(on)}:</p><ul>{"".join(items)}</ul>')
+    links = []
+    if e.get("cli_docs_url"):
+        links.append(f'<li><a href="{raw_esc(e["cli_docs_url"])}" rel="noopener nofollow">'
+                     f'{raw_esc(e["cli_docs_url"])}</a> (the page that documented the CLI)</li>')
+    if e.get("cli_repo"):
+        links.append(f'<li><a href="{raw_esc(repo_href(e["cli_repo"]))}" rel="noopener nofollow">'
+                     f'{raw_esc(repo_href(e["cli_repo"]))}</a> (the repository that documented it)</li>')
+    if links:
+        body += f'<p class="note" style="margin-top:14px">Where it was documented:</p><ul>{"".join(links)}</ul>'
+    body += f'<p class="note">{esc(CLI_CAVEAT)} Harvest date {esc(on)}.</p>'
+    return field("Command line", body)
+
+
+def org_evidence_text(ev):
+    """github_org_evidence is a dict from harvest_orgs.py. Render the rule and the detail, and
+    tolerate a plain string in case an older record carried one."""
+    if not ev:
+        return ""
+    if isinstance(ev, str):
+        return ev
+    bits = []
+    if ev.get("rule"):
+        bits.append(str(ev["rule"]))
+    if ev.get("detail"):
+        bits.append(str(ev["detail"]))
+    elif ev.get("reason"):
+        bits.append(str(ev["reason"]))
+    if ev.get("confidence"):
+        bits.append(f"confidence {ev['confidence']}")
+    return ", ".join(bits)
+
+
+def org_recent_table(repos, limit=5):
+    rows = []
+    for x in (repos or [])[:limit]:
+        name = esc(x.get("name") or "")
+        if x.get("url"):
+            name = f'<a href="{raw_esc(x["url"])}" rel="noopener nofollow">{name}</a>'
+        stars = x.get("stars")
+        rows.append(
+            f'<tr><td data-l="Repository">{name}</td>'
+            f'<td class="n" data-l="Kind">{esc(ORG_KIND_LABEL.get(x.get("kind"), x.get("kind") or ""))}</td>'
+            f'<td data-l="Description">{esc(trim(x.get("description") or "", 120))}</td>'
+            f'<td class="n" data-l="Stars">{num(stars) if isinstance(stars, int) else ""}</td>'
+            f'<td class="n" data-l="Pushed">{esc(x.get("pushed_at") or "")}</td>'
+            f'<td class="n" data-l="Latest release">{esc(x.get("latest_release") or "")}</td></tr>'
+        )
+    if not rows:
+        return ""
+    return ('<div class="scroller orgtable"><table class="datatable"><thead><tr><th>Repository</th>'
+            '<th>Kind</th><th>Description</th><th>Stars</th><th>Pushed</th><th>Latest release</th>'
+            f'</tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+
+
+def org_unresolved_sentence(e):
+    dom = e.get("vendor_domain") or e.get("vendor_url") or "this vendor"
+    on = e.get("github_org_checked_on") or "an undated run"
+    return f"No GitHub organisation could be tied to {dom} with evidence on {on}."
+
+
+def org_body(e, heading_level=None):
+    """The shared On GitHub body for one entry: used by the tool page and, once per distinct
+    organisation, by the vendor page."""
+    st = e.get("github_org_status") or "not-checked"
+    on = e.get("github_org_checked_on") or "an undated run"
+    if st == "not-checked":
+        return f'<p class="v empty">{esc(ORG_NOT_MEASURED)}</p>'
+    if st == "no-github-signal":
+        return (f'<p class="v">The entry carried no github.com URL and the organisation search '
+                f'returned nothing on {esc(on)}. That is a statement about the instrument on '
+                f'that date, not proof the vendor has no GitHub.</p>')
+    if st != "resolved" or not e.get("github_org"):
+        body = f'<p class="v">{esc(org_unresolved_sentence(e))}</p>'
+        ev = e.get("github_org_evidence")
+        if isinstance(ev, dict):
+            rej = ev.get("candidates_rejected") or []
+            if ev.get("reason"):
+                body += f'<p class="note">Recorded by the harvest: {esc(ev["reason"])}.</p>'
+            if rej:
+                names = ", ".join(esc(x.get("login") or "?") for x in rej[:5])
+                body += (f'<p class="note">{len(rej)} candidate account{"" if len(rej) == 1 else "s"} '
+                         f'seen and rejected by the evidence rules: {names}. A name match alone is '
+                         f'never accepted; the account has to point at the vendor domain.</p>')
+        return body
+
+    url = e.get("github_org_url") or f'https://github.com/{e["github_org"]}'
+    body = (f'<p class="v"><a href="{raw_esc(url)}" rel="noopener nofollow">github.com/'
+            f'{esc(e["github_org"])}</a>')
+    evt = org_evidence_text(e.get("github_org_evidence"))
+    if evt:
+        body += f' <span class="note">tied to the vendor by {esc(evt)}</span>'
+    body += "</p>"
+    latest = (e.get("github_org_latest_activity") or "")[:10]
+    cells = [
+        f'<div><div class="bk">Public repositories</div><div class="bv">{num(e.get("github_org_repos") or 0)}, forks excluded, as read on {esc(on)}</div></div>',
+        f'<div><div class="bk">Mention MCP</div><div class="bv">{num(e.get("github_org_repos_mcp") or 0)} of them</div></div>',
+        f'<div><div class="bk">Look like CLIs</div><div class="bv">{num(e.get("github_org_repos_cli") or 0)} of them</div></div>',
+        f'<div><div class="bk">Latest push</div><div class="bv">{esc(latest) if latest else "not recorded"}</div></div>',
+    ]
+    body += f'<div class="blockgrid" style="margin-top:12px">{"".join(cells)}</div>'
+    tbl = org_recent_table(e.get("github_org_recent_repos"))
+    if tbl:
+        body += (f'<p class="note" style="margin-top:14px">The five most recently pushed, on '
+                 f'{esc(on)}:</p>' + tbl)
+    body += ('<p class="note">Kind is a heuristic guessed from the repository name, topics and '
+             'description, not a fact the vendor stated. A repository count is activity, not a '
+             f'verdict. Read {esc(on)}.</p>')
+    return body
+
+
+def github_org_block(e, d, rel):
+    return field("On GitHub", org_body(e))
+
+
+def cli_badge(e):
+    """The small CLI mark on a listing row. Only for a measured official or community CLI, so the
+    absence of the badge never claims anything."""
+    st = cli_status_of(e)
+    if st not in ("official", "community"):
+        return ""
+    label = "CLI"
+    if e.get("cli_binary"):
+        label += f": {e['cli_binary']}"
+    if st == "community":
+        label += " (community)"
+    return f'<span class="badge {CLI_TONE[st]} flat">{esc(label)}</span>'
+
+
+def cli_stat(entries, d, when=None):
+    """(count, date) for the "N ship a CLI (official)" stat, or (None, None) when the layer has not
+    run. The date is the harvest's generated_on, falling back to the entries' own checked dates."""
+    cs = cli_summary(d)
+    dates = sorted({e["cli_checked_on"] for e in entries if e.get("cli_checked_on")})
+    when = when or cs["generated_on"] or (dates[-1] if dates else None)
+    if not when:
+        return None, None
+    return sum(1 for e in entries if cli_status_of(e) == "official"), when
+
+
+def cli_stat_html(entries, d, tone="teal"):
+    n, when = cli_stat(entries, d)
+    if when is None:
+        return ""
+    return (f'<div class="stat is-{tone}"><div class="n">{num(n)}</div>'
+            f'<div class="k">ship a CLI (official) as of {esc(when)}</div></div>')
+
+
 def build_tool_page(e, d, r, byid, out: Path):
     rel = "../"
     c = d["counts"]
@@ -1790,6 +2139,7 @@ def build_tool_page(e, d, r, byid, out: Path):
 <a class="badge mute flat" href="{rel}categories/{e['category_slug']}.html">{esc(e['category_label'])}</a>
 <span class="badge tier flat">{esc(e['tier'])}</span>
 <span class="badge mute flat">Checked {esc(e['last_checked'])}</span>
+{cli_badge(e)}
 </div>
 <div class="tierbox"><b>{esc(e['tier'])}</b>
 {esc(d['honesty']['tier_meanings'].get(e['tier'], ''))}
@@ -1829,6 +2179,9 @@ cannot be bought at any price. Across the whole directory that count is {c['benc
 
     # the capability layer: what the server names, harvested with its evidence and its date
     parts.append(capability_block(e, d, rel, byid))
+
+    # the command-line layer: official, community, none found on a date, or not measured
+    parts.append(cli_block(e, d, rel))
 
     # gate
     gate_body = f"""<div class="blockgrid">
@@ -1872,6 +2225,9 @@ cannot be bought at any price. Across the whole directory that count is {c['benc
                     'somewhere in this entry, which is a seed for that rail and not a measurement '
                     'of repo health:</p>' + urllist(ghc))
     parts.append(field("GitHub health", gh_body))
+
+    # the vendor's public GitHub organisation, tied to the domain with evidence and dated
+    parts.append(github_org_block(e, d, rel))
 
     # jobs
     if e["jobs"]:
@@ -2324,6 +2680,35 @@ def vendor_facts(products):
     f["jobs"] = jobs
     f["connect"] = [(p, p.get("mcp_endpoint") or p.get("mcp_docs_url"))
                     for p in products if p.get("mcp_endpoint") or p.get("mcp_docs_url")]
+    # the command-line layer, once per vendor. A product with a CLI is listed under its binary and
+    # first install command; two products quoting the same command collapse into one line.
+    f["cli_official"] = sum(1 for p in products if cli_status_of(p) == "official")
+    f["cli_community"] = sum(1 for p in products if cli_status_of(p) == "community")
+    f["cli_none"] = sum(1 for p in products if cli_status_of(p) == "none-found")
+    f["cli_checked"] = sum(1 for p in products if cli_status_of(p) != "not-checked")
+    f["cli_dates"] = sorted({p["cli_checked_on"] for p in products if p.get("cli_checked_on")})
+    seen = set()
+    f["clis"] = []
+    for p in products:
+        if not cli_has(p):
+            continue
+        first = (p.get("cli_install") or [{}])[0]
+        key = ((p.get("cli_binary") or "").lower(), (first.get("cmd") or "").lower(), cli_status_of(p))
+        if key in seen:
+            continue
+        seen.add(key)
+        f["clis"].append(p)
+    # the GitHub organisation, once per distinct login across the vendor's products
+    orgs = {}
+    for p in products:
+        if p.get("github_org_status") == "resolved" and p.get("github_org"):
+            orgs.setdefault(p["github_org"].lower(), p)
+    f["orgs"] = list(orgs.values())
+    statuses = {p.get("github_org_status") or "not-checked" for p in products}
+    f["org_status"] = ("resolved" if f["orgs"] else "unresolved" if "unresolved" in statuses
+                       else "no-github-signal" if "no-github-signal" in statuses else "not-checked")
+    f["org_dates"] = sorted({p["github_org_checked_on"] for p in products
+                             if p.get("github_org_checked_on")})
     return f
 
 
@@ -2404,6 +2789,22 @@ def build_vendor_page(domain, products, d, r, byid, out: Path):
     if f["gateway_tools"]:
         tools_v += (f". A further {num(f['gateway_tools'])} sit behind a gateway server and are "
                     f"counted separately, because a gateway re-exposes other vendors")
+    if f["cli_checked"]:
+        cli_v = (f"{f['cli_official']} of {f['products']} official, {f['cli_community']} community "
+                 f"only, {f['cli_none']} none found, harvested {_dates(f['cli_dates'])}")
+    else:
+        cli_v = "not measured on this build"
+    if f["org_status"] == "resolved":
+        org_v = ", ".join(
+            f'<a href="{raw_esc(o.get("github_org_url") or "https://github.com/" + o["github_org"])}" '
+            f'rel="noopener nofollow">github.com/{esc(o["github_org"])}</a>' for o in f["orgs"]
+        ) + f", tied to the domain with evidence {_dates(f['org_dates'])}"
+    elif f["org_status"] == "unresolved":
+        org_v = f"none tied to {esc(domain)} with evidence on {_dates(f['org_dates'])}"
+    elif f["org_status"] == "no-github-signal":
+        org_v = f"no github.com signal on any product, checked {_dates(f['org_dates'])}"
+    else:
+        org_v = "not measured on this build"
     rollup = f"""<div class="blockgrid">
 <div><div class="bk">Products</div><div class="bv">{f['products']}, facts checked by hand {_dates(f['checked_dates'])}</div></div>
 <div><div class="bk">Official MCP servers</div><div class="bv">{f['official']} of {f['products']}, as recorded on {_dates(f['checked_dates'])}</div></div>
@@ -2413,6 +2814,8 @@ def build_vendor_page(domain, products, d, r, byid, out: Path):
 <div><div class="bk">Docs only</div><div class="bv">{f['docs_only']} of {f['products']}: the recorded URL is a page about the server, not the server</div></div>
 <div><div class="bk">Tools catalogued</div><div class="bv">{tools_v}</div></div>
 <div><div class="bk">Bench tested</div><div class="bv">{f['bench_tested']} of {f['products']} here, {c['bench_tested']} of {num(c['entries'])} across the directory</div></div>
+<div><div class="bk">Ships a CLI</div><div class="bv">{cli_v}</div></div>
+<div><div class="bk">GitHub organisation</div><div class="bv">{org_v}</div></div>
 </div>
 <p class="note" style="margin-top:14px">A live handshake means the URL answered an MCP initialize as a server on the
 probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server
@@ -2489,6 +2892,61 @@ called. A tool count of 0 means not measured, never zero tools.</p>"""
         cb = ('<p class="v empty">No product of this vendor records an MCP endpoint or docs URL '
               'that the probe could classify.</p>')
     parts.append(field("Connect URLs", cb))
+
+    # the command-line layer, once per vendor
+    if not f["cli_checked"]:
+        clib = f'<p class="v empty">{esc(CLI_NOT_MEASURED)}</p>'
+    elif not f["clis"]:
+        clib = (f'<p class="v">No CLI found for any product of this vendor by the '
+                f'{_dates(f["cli_dates"])} harvest across {CLI_SOURCES}. That is a probe result, '
+                f'not proof of absence.</p>')
+    else:
+        blocks = []
+        for p in f["clis"]:
+            st = cli_status_of(p)
+            first = (p.get("cli_install") or [{}])[0]
+            head_line = (f'<h3><a href="{rel}tools/{p["slug"]}.html">{esc(p["name"])}</a>'
+                         + (f' <span class="badge mono flat">{esc(p["cli_binary"])}</span>' if p.get("cli_binary") else "")
+                         + f' <span class="badge {CLI_TONE[st]} flat">{esc(CLI_LABEL[st])}</span></h3>')
+            blk = head_line
+            if st == "community":
+                blk += f'<p class="note">{esc(CLI_COMMUNITY_SENTENCE)}</p>'
+            if first.get("cmd"):
+                blk += cli_install_html([first])
+            if p.get("cli_login"):
+                blk += f'<p class="note">Login or key hint: <span class="mono">{esc(p["cli_login"])}</span></p>'
+            more = len(p.get("cli_install") or []) - 1
+            tail = []
+            if more > 0:
+                tail.append(f"{more} more install command{'' if more == 1 else 's'}")
+            if p.get("cli_commands_seen"):
+                tail.append(f"{len(p['cli_commands_seen'])} subcommands seen")
+            tail.append(f"harvested {esc(p.get('cli_checked_on') or 'undated')}")
+            blk += (f'<p class="note">{", ".join(tail)}, all on the '
+                    f'<a href="{rel}tools/{p["slug"]}.html">tool page</a>.</p>')
+            blocks.append(blk)
+        clib = "".join(blocks) + f'<p class="note">{esc(CLI_CAVEAT)}</p>'
+    parts.append(field("Command line", clib))
+
+    # the GitHub organisation, once per distinct login
+    if f["org_status"] == "not-checked":
+        orgb = f'<p class="v empty">{esc(ORG_NOT_MEASURED)}</p>'
+    elif f["org_status"] == "resolved":
+        orgb = ""
+        for o in f["orgs"]:
+            if len(f["orgs"]) > 1:
+                orgb += f'<h3>github.com/{esc(o["github_org"])}</h3>'
+            orgb += org_body(o)
+        others = [p for p in products if p.get("github_org_status") in ("unresolved", "no-github-signal")]
+        if others:
+            names = ", ".join(f'<a href="{rel}tools/{p["slug"]}.html">{esc(p["name"])}</a>' for p in others)
+            orgb += (f'<p class="note">No organisation could be tied with evidence to the entry for '
+                     f'{names} on {_dates(f["org_dates"])}; the organisation above was tied through '
+                     f'a sibling product.</p>')
+    else:
+        orgb = org_body(next(p for p in products
+                             if (p.get("github_org_status") or "not-checked") == f["org_status"]))
+    parts.append(field("On GitHub", orgb))
 
     # honesty
     parts.append(field("What this page does not claim", f"""<p>A job tag is a vendor claim: it means
@@ -2697,6 +3155,8 @@ its canonical tool page.</p>
             for b in GATE_ORDER if x["api_gate"].get(b)
         )
         off_c = x["mcp_status"]["official"]
+        cli_cat = cli_stat_html(mine, d)
+        cli_cat_note = "" if cli_cat else " " + CLI_NOT_MEASURED
         page = (head(f"{x['label']}: {x['total']} tools, {off_c} with an official MCP server",
                      f"{trim(x['one_line'], 100)} {x['total']} tools counted, {off_c} with an "
                      f"official MCP server and {x['api_gate']['free']} free to start.", rel,
@@ -2718,11 +3178,12 @@ its canonical tool page.</p>
 <div class="stats" style="margin-top:26px">
 <div class="stat"><div class="n">{x['total']}</div><div class="k">entries in this file</div></div>
 {st}
+{cli_cat}
 </div>
 <div class="stats" style="margin-top:1px">{gt}</div>
 <p class="note">Source file: {esc(x['file'])} &middot; content sha256
 {esc(x['source_sha256'][:16])}... &middot; counts reconciled against
-{esc(r['reconciliation']['authority'])} at build time.</p>
+{esc(r['reconciliation']['authority'])} at build time.{esc(cli_cat_note)}</p>
 <div class="btnrow">
 <a class="btn" href="{rel}lists/mcp-{x['slug']}.html">The {off_c + x['mcp_status']['community']} with an MCP server</a>
 {''.join(f'<a class="btn ghost" href="{rel}jobs/{raw_esc(j)}.html">{esc(job_label(d, j))}</a>' for j in x.get('top_jobs', [])[:4])}
@@ -3741,13 +4202,17 @@ def build_search_index(d, out: Path):
     tools = []
     for e in sorted([x for x in d["entries"] if x.get("canonical")],
                     key=lambda x: (x.get("display_rank", 9999), x["name"].lower())):
+        cli_words = []
+        if cli_has(e):
+            cli_words = ["cli", "command line", cli_status_of(e), e.get("cli_binary") or ""]
+            cli_words += [p.get("package") or "" for p in (e.get("cli_packages") or [])]
         blob = " ".join([
             e["name"], e["category_label"], e["vendor_domain"] or "",
             detype(e["what_it_does"] or ""),
             detype(e["revops_role"] or ""),
             trim(e["ai_features"] or "", 260),
-        ]).lower()
-        blob = re.sub(r"\s+", " ", blob).strip()[:900]
+        ] + cli_words).lower()
+        blob = re.sub(r"\s+", " ", blob).strip()[:960]
         tools.append({
             "s": e["slug"],
             "n": detype(e["name"]),
@@ -3761,6 +4226,8 @@ def build_search_index(d, out: Path):
             "r": e.get("display_rank", 9999),
             "w": trim(e["what_it_does"], 210),
             "x": blob,
+            "cli": cli_status_of(e),
+            "cb": e.get("cli_binary") or "",
         })
     # one record per vendor, so a search for a company name lands on its vendor page
     vendors = []
@@ -3789,7 +4256,9 @@ def build_search_index(d, out: Path):
             "vendors": len(vendors),
             "sort_rule": d["sort_rule"],
             "note": "Keys: s slug, n name, d domain, c category, m mcp bucket, g gate bucket, "
-                    "t tier, r the published sort rank, w the short description, x the search blob. "
+                    "t tier, r the published sort rank, w the short description, x the search blob, "
+                    "cli the cli_status (official, community, none-found or not-checked), cb the CLI "
+                    "binary when one was seen. "
                     "vendors[]: s vendor page slug under vendors/, n vendor name, d domain, p products, "
                     "o official MCP servers, l live handshakes, t tools catalogued, x the search blob.",
         },
@@ -7315,7 +7784,47 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
       f"{cap['servers_still_unmeasured']} are UNMEASURED, not empty: nobody has read their tool "
       f"list, so this directory says nothing about what they expose. Do not report an unmeasured "
       f"server as a server with no tools.")
+    cs = cli_summary(d)
+    if cs["generated_on"]:
+        bs = cs["by_status"]
+        A(f"- Command-line layer, harvested {cs['generated_on']} across {CLI_SOURCES}: "
+          f"{bs.get('official', 0)} entries ship a CLI the vendor publishes, "
+          f"{bs.get('community', 0)} have only a third party's, {bs.get('none-found', 0)} came back "
+          f"none found on that date, {bs.get('not-checked', 0)} were not reached. None found is a "
+          f"probe result, not proof of absence. Each entry carries cli_status, cli_binary, "
+          f"cli_install (every command quoted with its source URL and fetch date), cli_login, "
+          f"cli_commands_seen, cli_packages and cli_checked_on.")
+    else:
+        A(f"- Command-line layer: {CLI_NOT_MEASURED} Every entry reads cli_status not-checked, "
+          f"which means not measured, never none.")
+    os_ = org_summary(d)
+    if os_["generated_on"]:
+        A(f"- Vendor GitHub organisations, read {os_['generated_on']}: {os_['resolved']} entries "
+          f"carry an organisation tied to the vendor domain with evidence; the rest read unresolved, "
+          f"no-github-signal or not-checked, each of which is a statement about the instrument on "
+          f"that date. Each resolved entry carries github_org, github_org_url, public non-fork repo "
+          f"counts, how many mention MCP or look like CLIs, and the five most recently pushed "
+          f"repositories with stars, push date and latest release.")
+    else:
+        A(f"- Vendor GitHub organisations: {ORG_NOT_MEASURED}")
     A("")
+    if cs["generated_on"]:
+        clis = sorted([e for e in d["entries"] if e.get("canonical") and cli_status_of(e) == "official"],
+                      key=lambda e: e["name"].lower())
+        A(f"## Official CLIs, {len(clis)} of them, harvested {cs['generated_on']}")
+        A("")
+        A("One line per tool whose vendor publishes a command-line interface: the binary, the first "
+          "install command exactly as the source shows it, and the URL it was quoted from. Nobody "
+          "has run these.")
+        A("")
+        for e in clis:
+            first = (e.get("cli_install") or [{}])[0]
+            cmd = first.get("cmd") or "no install command quoted"
+            src = first.get("source_url") or e.get("cli_docs_url") or repo_href(e.get("cli_repo")) or "no source recorded"
+            A(f"- {detype(e['name'])}: binary `{e.get('cli_binary') or 'not seen'}`, install "
+              f"`{cmd}`, source {src}, fetched {first.get('fetched_on') or e.get('cli_checked_on') or 'undated'}. "
+              f"Page: {b}/tools/{e['slug']}.html")
+        A("")
     A("## Key pages")
     A("")
     A(f"- [The directory front page]({b}/index.html): the stat block, the capability search, and "
@@ -7681,8 +8190,9 @@ def check(out: Path, d, expect_pages):
                 continue
             if "@context" not in obj or "@type" not in obj:
                 problems.append(f"JSON-LD without @context/@type in {rp}")
-        # every external-looking asset reference must be same origin
-        for m in re.finditer(r'(?:src|href)="(https?://[^"]+)"', t):
+        # every external-looking asset reference must be same origin. Only tags that LOAD a
+        # resource count: an <a href> to a repository named outbound.js is a link, not a script.
+        for m in re.finditer(r'<(?:script|link|img|source|video|audio|iframe|embed|object|track)\b[^>]*?(?:src|href)="(https?://[^"]+)"', t):
             u = m.group(1)
             if re.search(r'\.(css|js|png|jpg|jpeg|svg|woff2?|ttf)(\?|$)', u):
                 problems.append(f"external asset {u} in {rp}")

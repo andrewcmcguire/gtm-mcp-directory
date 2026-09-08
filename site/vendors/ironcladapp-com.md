@@ -38,6 +38,10 @@ Vendor domain: [ironcladapp.com](https://ironcladapp.com) · vendor page id iron
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/Ironclad](https://github.com/Ironclad), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,40 @@ The gate is the api_gate field on each product entry, established by hand on the
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+### [Ironclad](../tools/ironclad.md) rivet official CLI
+
+```
+npm install -g @ironclad/rivet-cli
+```
+
+quoted from [https://www.npmjs.com/package/@ironclad/rivet-cli](https://www.npmjs.com/package/@ironclad/rivet-cli) on 2026-09-08, via npm
+
+harvested 2026-09-08, all on the [tool page](../tools/ironclad.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/Ironclad](https://github.com/Ironclad) tied to the vendor by rule 3, account website ironcladapp.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-26
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [rivet](https://github.com/Ironclad/rivet) | other | The open-source visual AI programming environment and TypeScript library | 4,688 | 2026-08-26 | app-v1.11.3 |
+| [openapi](https://github.com/Ironclad/openapi) | docs or examples | This repository is deprecated. The most up-to-date version of the Ironclad public API OpenAPI specifications can be... | 6 | 2025-10-20 | |
+| [rivet-example](https://github.com/Ironclad/rivet-example) | docs or examples | | 87 | 2024-03-26 | |
+| [ea-servicenow-guide](https://github.com/Ironclad/ea-servicenow-guide) | other | ServiceNow assets for EA solution guide | 1 | 2023-02-15 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

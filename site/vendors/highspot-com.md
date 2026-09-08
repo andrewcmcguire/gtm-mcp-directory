@@ -38,6 +38,10 @@ Vendor domain: [highspot.com](https://highspot.com) · vendor page id highspot-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/highspot](https://github.com/highspot), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,45 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://www.highspot.com/product/mcp-server/](https://www.highspot.com/product/mcp-server/) (Highspot, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Highspot](../tools/highspot.md) highspot community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+npm install -g highspot-cli
+```
+
+quoted from [https://www.npmjs.com/package/highspot-cli](https://www.npmjs.com/package/highspot-cli) on 2026-09-08, via npm, a third party source
+
+Login or key hint: export HIGHSPOT_API_KEY_ID=hs_key_id_xxx
+
+2 more install commands, 3 subcommands seen, harvested 2026-09-08, all on the [tool page](../tools/highspot.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/highspot](https://github.com/highspot) tied to the vendor by rule 3, account website https://www.highspot.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2022-10-12
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [accelerate-starter-code-fe](https://github.com/highspot/accelerate-starter-code-fe) | docs or examples | | 0 | 2022-10-12 | |
+| [coding-interview-mobile-app](https://github.com/highspot/coding-interview-mobile-app) | app | | 0 | 2022-09-21 | |
+| [highspot-accelerate-starter-code-frontend](https://github.com/highspot/highspot-accelerate-starter-code-frontend) | docs or examples | | 0 | 2022-09-21 | |
+| [Backbone](https://github.com/highspot/Backbone) | other | | 0 | 2021-10-18 | |
+| [git-sparse-checkout-buildkite-plugin](https://github.com/highspot/git-sparse-checkout-buildkite-plugin) | plugin or integration | Buildkite plugin that performs a bare-bones partial clone of a repo and then a sparse-checkout of specified directories | 0 | 2021-08-19 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

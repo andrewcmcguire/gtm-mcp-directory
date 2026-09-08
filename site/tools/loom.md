@@ -193,6 +193,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -220,6 +224,27 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 - [https://github.com/CaliLuke/loom-mcp](https://github.com/CaliLuke/loom-mcp)
 - [https://github.com/karbassi/mcp-loom](https://github.com/karbassi/mcp-loom)
 - [https://github.com/m2ai-mcp-servers/loom-mcp](https://github.com/m2ai-mcp-servers/loom-mcp)
+
+**On GitHub**
+
+[github.com/loomhq](https://github.com/loomhq) tied to the vendor by rule 3, account website https://www.loom.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 5, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [eks-ng-ami-updater](https://github.com/loomhq/eks-ng-ami-updater) | infrastructure | EKS NG AMI Updater is an open source project that can be used to update kubernetes node group images. | 28 | 2026-09-08 | |
+| [lock-exec](https://github.com/loomhq/lock-exec) | CLI | A CLI tool for running any shell based commands in a distributed environment with DynamoDB locking. | 7 | 2026-09-04 | v2.3.0 |
+| [datadog-exporter](https://github.com/loomhq/datadog-exporter) | other | export and backup datadog resource definitions locally | 1 | 2026-09-03 | v1.2.0 |
+| [cmake-orb](https://github.com/loomhq/cmake-orb) | other | CircleCI Orb for CMake Installation and Caching | 0 | 2023-02-03 | 1.0.0 |
+| [ElectronMacOSClickThrough](https://github.com/loomhq/ElectronMacOSClickThrough) | other | An Add On workaround for transparent window click through issues on electron v8 and above | 8 | 2021-04-16 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

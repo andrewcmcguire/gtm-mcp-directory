@@ -18,6 +18,7 @@ Findymail
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: findymail (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -48,6 +49,60 @@ none-found
 
 The mcp_url field is empty on this entry. 17 of 336 entries are.
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: findymail
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @paulelliot/findymail-cli
+```
+
+quoted from [https://www.npmjs.com/package/@paulelliot/findymail-cli](https://www.npmjs.com/package/@paulelliot/findymail-cli) on 2026-09-08, via npm, a third party source
+
+```
+npm install -g findymail-cli
+```
+
+quoted from [https://www.npmjs.com/package/findymail-cli](https://www.npmjs.com/package/findymail-cli) on 2026-09-08, via npm, a third party source
+
+```
+npm install @paulelliot/findymail-cli
+```
+
+quoted from [https://github.com/paulelliotco/findymail-cli](https://github.com/paulelliotco/findymail-cli) on 2026-09-08, via npm, a third party source
+
+```
+npx findymail
+```
+
+quoted from [https://github.com/paulelliotco/findymail-cli](https://github.com/paulelliotco/findymail-cli) on 2026-09-08, via npx, a third party source
+
+Login or key hint seen on the page:
+
+- bearer auth from `FINDYMAIL_API_KEY`
+
+Subcommands seen with the binary:
+
+contacts, intellimatch, lists, search, verify
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @paulelliot/findymail-cli 0.1.1, third party](https://www.npmjs.com/package/@paulelliot/findymail-cli)
+- [npm: findymail-cli 0.1.0, third party](https://www.npmjs.com/package/findymail-cli)
+
+Where it was documented:
+
+- [https://github.com/paulelliotco/findymail-cli](https://github.com/paulelliotco/findymail-cli) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -69,6 +124,14 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+No GitHub organisation could be tied to findymail.com with evidence on 2026-09-08.
+
+Recorded by the harvest: github candidates were seen but none passed the evidence rules.
+
+1 candidate account seen and rejected by the evidence rules: Findymail. A name match alone is never accepted; the account has to point at the vendor domain.
 
 **Jobs it can do**
 

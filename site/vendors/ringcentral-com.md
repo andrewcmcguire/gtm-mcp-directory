@@ -38,6 +38,10 @@ Vendor domain: [ringcentral.com](https://ringcentral.com) · [Public company bri
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/ringcentral](https://github.com/ringcentral), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -73,6 +77,31 @@ An empty list means nobody has tagged these entries, not that the tools do nothi
 **Connect URLs**
 
 No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/ringcentral](https://github.com/ringcentral) tied to the vendor by rule 2, account website https://developers.ringcentral.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 149, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [ringcentral-embeddable](https://github.com/ringcentral/ringcentral-embeddable) | plugin or integration | RingCentral Embeddable widget | 92 | 2026-09-08 | 2.3.1 |
+| [trello-notification-app](https://github.com/ringcentral/trello-notification-app) | plugin or integration | Trello notification and bot add-in for RingCentral | 4 | 2026-09-07 | |
+| [engage-voice-embeddable](https://github.com/ringcentral/engage-voice-embeddable) | other | (Beta)RingCentral RingCX Embeddable widget | 7 | 2026-09-07 | 0.1.0 |
+| [rc-unified-crm-extension](https://github.com/ringcentral/rc-unified-crm-extension) | plugin or integration | App Connect is a CRM integration framework to help developers quickly bring to market a full-featured CTI into... | 13 | 2026-09-07 | 1.7.44 |
+| [ringcentral-call-control-js](https://github.com/ringcentral/ringcentral-call-control-js) | docs or examples | RingCentral Call Control SDK in JavaScript to control RingCentral calls on any endpoint. Demo URL: | 10 | 2026-09-07 | 0.2.12 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

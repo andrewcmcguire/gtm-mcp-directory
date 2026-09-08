@@ -46,7 +46,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Trumpet (sendtrumpet.com)](../tools/trumpet.md) sendtrumpet.com Digital sales room / "Pod" builder for buyer-facing deal collateral, tracking granular buyer engagement (clicks, time-on-page, returning champions) across the deal cycle. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md) · CLI: heygen
 
 - [Trumpet](../tools/trumpet.md) sendtrumpet.com Digital-sales-room / buyer-facing microsite platform ("Pods") for revenue teams, with a built-in webcam/screen-recording tool for sellers to send personalized welcome and post-demo recap videos embedded in the... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md) · Cross listed, canonical home is Proposals & Deals
 
@@ -56,7 +56,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Sendspark](../tools/sendspark.md) sendspark.com Purpose-built B2B outbound video-prospecting platform - record one video, and AI voice cloning plus dynamic personalization generate individualized versions per prospect at scale for cold/warm outreach... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
-- [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Vidyard](../tools/vidyard.md) vidyard.com AI-powered video-selling platform for recording, personalizing (including AI-avatar-generated), and sending trackable video messages to prospects via email, CRM, and sales-engagement sequences. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md) · CLI: vy-cli
 
 - [Weezly](../tools/weezly.md) weezly.com AI sales-video plus scheduling platform - record once, AI generates many personalized variants with cloned voice/face claimed, and each video carries an integrated meeting-booking page; aimed at lead-gen... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · [Video Prospecting](../categories/video-prospecting.md)
 
@@ -70,7 +70,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Potion](../tools/potion.md) sendpotion.com AI video-personalization tool for outbound sales - record one template video, and Potion overlays a personalized version per prospect (dynamic name/logo/background) for cold email and LinkedIn outreach at... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
 
-- [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md) · CLI: qp (community)
 
 ### Next to this job
 

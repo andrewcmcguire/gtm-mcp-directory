@@ -91,6 +91,10 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -116,6 +120,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp)
+
+**On GitHub**
+
+[github.com/peopledatalabs](https://github.com/peopledatalabs) tied to the vendor by rule 3, account website https://www.peopledatalabs.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 7, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-24
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [peopledatalabs-go](https://github.com/peopledatalabs/peopledatalabs-go) | SDK | A Go client for the People Data Labs API | 7 | 2026-08-24 | v6.6.0 |
+| [peopledatalabs-rust](https://github.com/peopledatalabs/peopledatalabs-rust) | SDK | A Rust client for the People Data Labs API | 1 | 2026-08-14 | v5.0.0 |
+| [peopledatalabs-js](https://github.com/peopledatalabs/peopledatalabs-js) | SDK | A universal JS client with TypeScript support for the People Data Labs API | 26 | 2026-08-14 | v14.4.0 |
+| [peopledatalabs-python](https://github.com/peopledatalabs/peopledatalabs-python) | SDK | A Python client for the People Data Labs API | 40 | 2026-06-04 | v6.4.13 |
+| [peopledatalabs-ruby](https://github.com/peopledatalabs/peopledatalabs-ruby) | SDK | A Ruby client for the People Data Labs API | 5 | 2026-04-21 | v5.2.1 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

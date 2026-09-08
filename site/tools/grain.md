@@ -97,6 +97,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -118,6 +122,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/grain-team](https://github.com/grain-team) tied to the vendor by rule 3, account website https://grain.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 13, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-08-17
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [milvex](https://github.com/grain-team/milvex) | other | An Elixir Client for Milvus | 4 | 2026-08-17 | v0.14.2 |
+| [grain-meeting-memory-plugin](https://github.com/grain-team/grain-meeting-memory-plugin) | plugin or integration | | 1 | 2026-07-27 | |
+| [ueberauth_hubspot](https://github.com/grain-team/ueberauth_hubspot) | other | Hubspot Strategy for Überauth | 0 | 2026-05-22 | |
+| [meeting-data-analysis](https://github.com/grain-team/meeting-data-analysis) | other | For customers to pull meeting metrics | 0 | 2025-12-22 | |
+| [grain-workspace-api-example](https://github.com/grain-team/grain-workspace-api-example) | docs or examples | Example of how to iterate over all recordings in a workspace to download the transcripts | 0 | 2025-07-10 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

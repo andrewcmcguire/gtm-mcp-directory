@@ -18,6 +18,7 @@ Meltwater
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: generateJwk
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,6 +64,27 @@ Not harvested yet. Unmeasured, not empty: nobody has read this server's tool lis
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
+**Command line**
+
+- **Binary**: generateJwk
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @meltwater/jwk-converter-cli
+```
+
+quoted from [https://www.npmjs.com/package/@meltwater/jwk-converter-cli](https://www.npmjs.com/package/@meltwater/jwk-converter-cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @meltwater/jwk-converter-cli 1.0.0](https://www.npmjs.com/package/@meltwater/jwk-converter-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only
@@ -89,6 +111,27 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/danmeltwater/inception-volume-monitor](https://github.com/danmeltwater/inception-volume-monitor)
 - [https://github.com/mcopelandmw/mira-api-demo](https://github.com/mcopelandmw/mira-api-demo)
+
+**On GitHub**
+
+[github.com/meltwater](https://github.com/meltwater) tied to the vendor by rule 3, account website https://underthehood.meltwater.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 20, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 1 of them
+- **Look like CLIs**: 3 of them
+- **Latest push**: 2026-08-11
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [meltwater-plugins](https://github.com/meltwater/meltwater-plugins) | plugin or integration | Official Meltwater plugins for AI assistants and developer platforms. | 0 | 2026-08-11 | |
+| [aws-configuration-fetcher](https://github.com/meltwater/aws-configuration-fetcher) | other | A simple system for gathering configuration from both SSM and Secrets Manager in AWS | 0 | 2026-08-03 | |
+| [meltwater-api-examples](https://github.com/meltwater/meltwater-api-examples) | docs or examples | Example code for Meltwater API customers building their own solutions for PR & marketing use cases | 2 | 2026-07-14 | |
+| [meltwater-killercoda](https://github.com/meltwater/meltwater-killercoda) | other | Meltwater Engineering's Public / Shared Training Center | 2 | 2026-06-26 | |
+| [terraform-aws-asg-dns-handler](https://github.com/meltwater/terraform-aws-asg-dns-handler) | infrastructure | Terraform module for dynamically setting hostnames following a pattern on instances in AWS Auto Scaling Groups | 77 | 2026-06-25 | v2.1.8 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -38,6 +38,10 @@ Vendor domain: [metorial.com](https://metorial.com) · vendor page id metorial-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/metorial](https://github.com/metorial), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -75,6 +79,43 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://metorial.com](https://metorial.com) (Metorial, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+### [Metorial](../tools/metorial.md) metorial official CLI
+
+```
+npm install -g @metorial/cli
+```
+
+quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-08, via npm
+
+Login or key hint: Easy setup
+
+harvested 2026-09-08, all on the [tool page](../tools/metorial.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
+
+**On GitHub**
+
+[github.com/metorial](https://github.com/metorial) tied to the vendor by rule 1, account website https://metorial.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 35, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 8 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [metorial-platform](https://github.com/metorial/metorial-platform) | MCP server | The engine powering hundreds of thousands of MCP connections 🤖 🔥 | 221 | 2026-09-08 | |
+| [metorial](https://github.com/metorial/metorial) | CLI | Connect any AI model to 1200+ integrations (MCP, CLI, API) | 3,351 | 2026-09-08 | |
+| [outpost](https://github.com/metorial/outpost) | other | A trusted proxy and anonymization system for Metorial | 1 | 2026-09-03 | |
+| [object-storage](https://github.com/metorial/object-storage) | other | A lightweight and universal object storage service. | 4 | 2026-08-26 | |
+| [metorial-python](https://github.com/metorial/metorial-python) | SDK | Official Python SDK for the Metorial API 🐍 📡 | 11 | 2026-08-14 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

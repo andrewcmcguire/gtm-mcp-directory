@@ -78,6 +78,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -99,6 +103,27 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) tied to the vendor by rule 3, account website https://cloud.google.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 150, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 2 of them
+- **Look like CLIs**: 4 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [DataflowTemplates](https://github.com/GoogleCloudPlatform/DataflowTemplates) | other | Cloud Dataflow Google-provided templates for solving in-Cloud data tasks | 1,311 | 2026-09-08 | 2026-09-01-00_RC00 |
+| [composer-airflow](https://github.com/GoogleCloudPlatform/composer-airflow) | other | | 38 | 2026-09-08 | |
+| [spring-cloud-gcp](https://github.com/GoogleCloudPlatform/spring-cloud-gcp) | other | New home for Spring Cloud GCP development starting with version 2.0. | 551 | 2026-09-08 | v8.1.1 |
+| [PerfKitBenchmarker](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker) | other | PerfKit Benchmarker (PKB) contains a set of benchmarks to measure and compare cloud offerings. The benchmarks use... | 2,010 | 2026-09-08 | v1.15.1 |
+| [opentelemetry-operations-collector](https://github.com/GoogleCloudPlatform/opentelemetry-operations-collector) | other | | 83 | 2026-09-08 | v0.159.0 |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

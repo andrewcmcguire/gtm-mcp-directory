@@ -38,6 +38,10 @@ Vendor domain: [mixmax.com](https://mixmax.com) · vendor page id mixmax-com
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/mixmaxhq](https://github.com/mixmaxhq), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -79,6 +83,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://mcp.mixmax.com/mcp](https://mcp.mixmax.com/mcp) (Mixmax, endpoint, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/mixmaxhq](https://github.com/mixmaxhq) tied to the vendor by rule 3, account website https://www.mixmax.com/engineering has the vendor's domain, confidence strong
+
+- **Public repositories**: 105, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 2 of them
+- **Latest push**: 2026-09-01
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [email-setup](https://github.com/mixmaxhq/email-setup) | other | Collection of utilities for checking email configuration settings. | 2 | 2026-09-01 | v1.1.2 |
+| [eslint-config-mixmax](https://github.com/mixmaxhq/eslint-config-mixmax) | other | Mixmax's JS linter configuration. | 1 | 2026-08-19 | v6.0.1 |
+| [custody-probe](https://github.com/mixmaxhq/custody-probe) | other | Report the state of child processes to custody. | 0 | 2026-07-10 | |
+| [aws-instance-metadata](https://github.com/mixmaxhq/aws-instance-metadata) | other | | 2 | 2026-07-10 | v2.1.3 |
+| [check-dependencies-except-peer](https://github.com/mixmaxhq/check-dependencies-except-peer) | other | Ensure that your package-lock matches your package and is self-consistent, and ignore missing peerDependencies | 1 | 2026-07-10 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

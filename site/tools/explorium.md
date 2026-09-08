@@ -18,6 +18,7 @@ Explorium
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: explorium (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -92,6 +93,37 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: explorium
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+curl -fsSL https://raw.githubusercontent.com/haroExplorium/explorium-cli/main/install.sh | bash
+```
+
+quoted from [https://github.com/haroExplorium/explorium-cli](https://github.com/haroExplorium/explorium-cli) on 2026-09-08, via shell, a third party source
+
+Login or key hint seen on the page:
+
+explorium config init --api-key "your_api_key_here"
+
+Subcommands seen with the binary:
+
+businesses, config, prospects, webhooks
+
+Where it was documented:
+
+- [https://github.com/AdaY45/explorium-client](https://github.com/AdaY45/explorium-client) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve
@@ -117,6 +149,27 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/explorium-ai/mcp-explorium](https://github.com/explorium-ai/mcp-explorium)
+
+**On GitHub**
+
+[github.com/explorium-ai](https://github.com/explorium-ai) tied to the vendor by rule 2, account website https://www.explorium.ai has the vendor's domain, confidence strong
+
+- **Public repositories**: 20, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 7 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-08
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [vibeprospecting-mcp](https://github.com/explorium-ai/vibeprospecting-mcp) | MCP server | Power your chat with B2B data to create lead lists, research companies, personalize your outreach, and more. | 33 | 2026-09-08 | 2.0.0 |
+| [explorium-mintlify-docs](https://github.com/explorium-ai/explorium-mintlify-docs) | docs or examples | Explorium documentation over mintlify | 0 | 2026-09-08 | |
+| [vibeprospecting-plugin](https://github.com/explorium-ai/vibeprospecting-plugin) | plugin or integration | Power your chat with B2B data to create lead lists, research companies, personalize your outreach, and more. | 28 | 2026-09-08 | |
+| [agentsource-mcp-ext](https://github.com/explorium-ai/agentsource-mcp-ext) | MCP server | Access live company and contact data through Explorium's MCP server | 9 | 2026-08-25 | v2.0.9 |
+| [workflows-starter-template](https://github.com/explorium-ai/workflows-starter-template) | docs or examples | | 0 | 2026-08-19 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

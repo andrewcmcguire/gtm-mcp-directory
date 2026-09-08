@@ -38,6 +38,10 @@ Vendor domain: [hightouch.com](https://hightouch.com) · vendor page id hightouc
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-08
+
+- **GitHub organisation**: [github.com/hightouchio](https://github.com/hightouchio), tied to the domain with evidence 2026-09-08
+
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
 **Products, 1**
@@ -76,6 +80,31 @@ The gate is the api_gate field on each product entry, established by hand on the
 - [https://hightouch.com/docs/ai-integrations/mcp](https://hightouch.com/docs/ai-integrations/mcp) (Hightouch, docs page, probed 2026-09-04)
 
 An endpoint is where an agent connects. A docs page is where a person reads about connecting. Both are published because both are what the probe found; an agent needs the first.
+
+**Command line**
+
+No CLI found for any product of this vendor by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+
+**On GitHub**
+
+[github.com/hightouchio](https://github.com/hightouchio) tied to the vendor by rule 3, account website https://hightouch.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 16, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 1 of them
+- **Latest push**: 2026-07-29
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [design-team](https://github.com/hightouchio/design-team) | other | This is a test of the new design team site. | 0 | 2026-07-29 | |
+| [tfc-agent](https://github.com/hightouchio/tfc-agent) | infrastructure | Terraform Cloud Agent with some customizations | 0 | 2026-06-11 | |
+| [airflow-provider-hightouch](https://github.com/hightouchio/airflow-provider-hightouch) | infrastructure | Airflow operators, hooks, and sensors for interacting with the Hightouch API | 16 | 2026-04-24 | 5.0.0 |
+| [passage](https://github.com/hightouchio/passage) | other | Secure private tunnels as a service :closed_lock_with_key: | 46 | 2025-10-03 | v0.3.6 |
+| [bottlerocket-bootstrap-storage](https://github.com/hightouchio/bottlerocket-bootstrap-storage) | other | Bootstrap container to configure storage on Bottlerocket instances | 0 | 2025-02-21 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **What this page does not claim**
 

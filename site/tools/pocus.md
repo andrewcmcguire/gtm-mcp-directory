@@ -18,6 +18,7 @@ Pocus
 [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: pocus
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,6 +51,27 @@ mcp_url, verbatim from the file:
 
 none
 
+**Command line**
+
+- **Binary**: pocus
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-08
+
+Install, as the source shows it:
+
+```
+npm install -g @pocus/cli
+```
+
+quoted from [https://www.npmjs.com/package/@pocus/cli](https://www.npmjs.com/package/@pocus/cli) on 2026-09-08, via npm
+
+Packages seen, with the version on 2026-09-08:
+
+- [npm: @pocus/cli 0.1.1](https://www.npmjs.com/package/@pocus/cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Gate not applicable
@@ -71,6 +93,17 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+**On GitHub**
+
+[github.com/pocus](https://github.com/pocus) tied to the vendor by rule 3, account website https://pocus.com has the vendor's domain, confidence strong
+
+- **Public repositories**: 0, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 0 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: not recorded
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 

@@ -18,6 +18,7 @@ Lusha
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-03
+CLI (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -87,6 +88,27 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
+**Command line**
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: not seen in a usage line
+- **Status**: community CLI, third party
+- **Strongest evidence**: github
+- **Harvested**: 2026-09-08
+
+No install command was quoted by the harvest. The status rests on the package or page linked below.
+
+Login or key hint seen on the page:
+
+api key (page mentions one)
+
+Where it was documented:
+
+- [https://github.com/DireWolfZA/LushaApiClient](https://github.com/DireWolfZA/LushaApiClient) (the repository that documented it)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+
 **Access gate**
 
 - **Gate bucket**: Free to start
@@ -113,6 +135,26 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 - [https://github.com/lusha-oss/lusha-mcp-plugin](https://github.com/lusha-oss/lusha-mcp-plugin)
 - [https://github.com/lusha-oss/lusha-public-api-mcp](https://github.com/lusha-oss/lusha-public-api-mcp)
+
+**On GitHub**
+
+[github.com/lusha-oss](https://github.com/lusha-oss) tied to the vendor by rule 1, account website https://www.lusha.com/ has the vendor's domain, confidence strong
+
+- **Public repositories**: 4, forks excluded, as read on 2026-09-08
+- **Mention MCP**: 3 of them
+- **Look like CLIs**: 0 of them
+- **Latest push**: 2026-09-03
+
+The five most recently pushed, on 2026-09-08:
+
+| Repository | Kind | Description | Stars | Pushed | Latest release |
+|---|---|---|---|---|---|
+| [lusha-mcp-talent-sourcing-plugin](https://github.com/lusha-oss/lusha-mcp-talent-sourcing-plugin) | MCP server | Lusha HR MCP plugin | 0 | 2026-09-03 | |
+| [n8n-nodes-lusha](https://github.com/lusha-oss/n8n-nodes-lusha) | plugin or integration | Complete Lusha API integration for n8n | 4 | 2026-09-01 | v1.2.2 |
+| [lusha-mcp-plugin](https://github.com/lusha-oss/lusha-mcp-plugin) | MCP server | | 4 | 2026-08-06 | v0.1.1 |
+| [lusha-public-api-mcp](https://github.com/lusha-oss/lusha-public-api-mcp) | MCP server | | 6 | 2026-03-04 | |
+
+Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
 **Jobs it can do**
 
