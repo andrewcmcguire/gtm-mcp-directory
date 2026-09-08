@@ -316,6 +316,15 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
 .alpha{font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--accent);
   padding-top:26px;margin-bottom:-4px}
 
+/* ---------- vendor pages ---------- */
+.vendorhead{display:flex;flex-wrap:wrap;gap:16px 22px;align-items:flex-start}
+.vendorhead > div{flex:1 1 320px;min-width:0}
+.vlogo{width:56px;height:56px;flex:0 0 56px;border-radius:4px;background:var(--surface);
+  border:1px solid var(--rule);object-fit:contain;margin-top:8px}
+.vlogo.monogram{display:flex;align-items:center;justify-content:center;font-family:var(--serif);
+  font-size:28px;color:var(--accent)}
+.vlogo.monogram::before{content:attr(data-l)}
+
 .foot{border-top:1px solid var(--rule);background:var(--surface);padding:34px 0 46px;margin-top:0}
 .foot .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
 .foot .ft{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;

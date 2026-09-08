@@ -40,7 +40,7 @@ DATA_DIR = SITE_DIR.parent / "data"
 
 # Directories generate_site.py owns and will wipe on every run. Anything else that lives
 # in site/ (this script, DEPLOY.md) is left alone.
-GENERATED_DIRS = ["assets", "tools", "categories", "gates", "mcp", "jobs", "jobs-board",
+GENERATED_DIRS = ["assets", "tools", "vendors", "categories", "gates", "mcp", "jobs", "jobs-board",
                   "github", "learn", "lists", "data", "_dist"]
 GENERATED_FILES = [
     "index.html",
@@ -607,6 +607,15 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
 .alpha{font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--accent);
   padding-top:26px;margin-bottom:-4px}
 
+/* ---------- vendor pages ---------- */
+.vendorhead{display:flex;flex-wrap:wrap;gap:16px 22px;align-items:flex-start}
+.vendorhead > div{flex:1 1 320px;min-width:0}
+.vlogo{width:56px;height:56px;flex:0 0 56px;border-radius:4px;background:var(--surface);
+  border:1px solid var(--rule);object-fit:contain;margin-top:8px}
+.vlogo.monogram{display:flex;align-items:center;justify-content:center;font-family:var(--serif);
+  font-size:28px;color:var(--accent)}
+.vlogo.monogram::before{content:attr(data-l)}
+
 .foot{border-top:1px solid var(--rule);background:var(--surface);padding:34px 0 46px;margin-top:0}
 .foot .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
 .foot .ft{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
@@ -709,6 +718,7 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
    no query logging, works with the network cable pulled out. */
 (function(){
   var IDX = (window.GTMD_INDEX && window.GTMD_INDEX.tools) || [];
+  var VIDX = (window.GTMD_INDEX && window.GTMD_INDEX.vendors) || [];
   var META = (window.GTMD_INDEX && window.GTMD_INDEX.meta) || {};
   var q = document.getElementById('q');
   var out = document.getElementById('results');
@@ -761,7 +771,30 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
   var GATETONE = {'free':'teal','paid':'gold','enterprise-leaning':'copper',
                   'enterprise-only':'copper','unknown':'mute','n-a':'mute'};
 
+  function vendorHits(){
+    // a typed company name gets its vendor page offered above the product rows
+    var s = (q.value || '').toLowerCase().trim();
+    if(s.length < 2) return '';
+    var hits = [];
+    for(var i=0;i<VIDX.length && hits.length<3;i++){
+      var v = VIDX[i];
+      if(v.n.toLowerCase().indexOf(s) !== -1 || v.d.indexOf(s) !== -1) hits.push(v);
+    }
+    var html = '';
+    for(var j=0;j<hits.length;j++){
+      var h = hits[j];
+      html += '<li class="row"><div class="top">' +
+        '<a class="nm" href="vendors/' + esc(h.s) + '.html">' + esc(h.n) + '</a>' +
+        '<span class="dom">' + esc(h.d) + '</span></div>' +
+        '<div class="desc">Vendor page: ' + h.p + ' product' + (h.p === 1 ? '' : 's') + ', ' +
+        h.o + ' official MCP server' + (h.o === 1 ? '' : 's') + ', ' + h.l + ' live handshake' +
+        (h.l === 1 ? '' : 's') + ', ' + h.t + ' tools catalogued.</div></li>';
+    }
+    return html;
+  }
+
   function render(list, total){
+    var vh = vendorHits();
     if(!list.length){
       out.innerHTML = '<li class="row"><div class="desc">Nothing in the index matches that. ' +
         'Try a plainer phrase, or browse by category, gate or MCP status. ' +
@@ -783,7 +816,7 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
         '<span class="badge tier flat">' + esc(t.t) + '</span>' +
         '</div></li>';
     }
-    out.innerHTML = html;
+    out.innerHTML = vh + html;
     cnt.textContent = list.length + ' of ' + total + ' shown';
   }
 
@@ -984,6 +1017,7 @@ def masthead(rel, current=""):
 <a class="brandmark plain" href="{rel}index.html">The GTM MCP <span class="g">Directory</span></a>
 <nav class="navlinks">
 {link('tools/index.html','Tools','tools')}
+{link('vendors/index.html','Vendors','vendors')}
 {link('categories/index.html','Categories','categories')}
 {link('jobs/index.html','Jobs','jobs')}
 {link('jobs-board/index.html','Hiring','jobs-board')}
@@ -1022,6 +1056,7 @@ def footer(rel, d, r):
     <div class="ft">Views</div>
     <ul>
       <li><a href="{rel}tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="{rel}vendors/index.html">Every vendor, one page each</a></li>
       <li><a href="{rel}categories/index.html">By category</a></li>
       <li><a href="{rel}mcp/index.html">By MCP status</a></li>
       <li><a href="{rel}gates/index.html">By access gate</a></li>
@@ -1798,6 +1833,452 @@ listed a second time in another category and each one folds into its canonical p
 </div>"""
             + footer(rel, d, r))
     write(out / "tools" / "index.html", page)
+
+
+# ----------------------------------------------------------------------------------
+# vendor pages: /vendors
+# ----------------------------------------------------------------------------------
+
+# Logos rendered by build_map.py for the market map. Read only; the ones a vendor page uses are
+# copied into vendors/logos/ so the page makes no request off this origin. If the folder is
+# missing the page falls back to a monogram and says nothing about it.
+LOGO_DIR = SITE_DIR.parent.parent / "map" / "logos"
+
+# Vendors that are themselves listed public companies, and the earnings brief for each at
+# https://andrewcmcguire.com/companies/<slug>/ (a different lane on the same domain). Slugs were
+# read from H:/amcg-content/companies/out/companies/_slugmap.json (generated 2026-09-07), TICKER
+# to slug. Only a vendor whose own domain IS the listed company is here. Brands a public company
+# owns but sells on another domain (loom.com, github.com) are left out rather than guessed, and
+# ZoomInfo is left out because its ticker is not in that map.
+PUBLIC_COMPANIES = {
+    "hubspot.com": ("HUBS", "hubspot"),
+    "salesforce.com": ("CRM", "salesforce"),
+    "zoom.com": ("ZM", "zoom-communications"),
+    "cloud.google.com": ("GOOG", "alphabet"),
+    "microsoft.com": ("MSFT", "microsoft"),
+    "docusign.com": ("DOCU", "docusign"),
+    "monday.com": ("MNDY", "monday-com"),
+    "snowflake.com": ("SNOW", "snowflake"),
+    "similarweb.com": ("SMWB", "similarweb"),
+    "ringcentral.com": ("RNG", "ringcentral"),
+}
+PUBLIC_BRIEF_BASE = "https://andrewcmcguire.com/companies/"
+
+LIVE_STATUSES = ("live", "live-auth-gated")
+
+
+def vendor_slug(domain: str) -> str:
+    """hubspot.com -> hubspot-com. Stable, URL safe, and reversible by eye."""
+    s = re.sub(r"[^a-z0-9]+", "-", domain.lower()).strip("-")
+    return s or "vendor"
+
+
+def vendor_groups(entries):
+    """{vendor_domain: [canonical entries]} in the published sort order. An entry with no domain
+    stands alone under its own slug."""
+    g = {}
+    for e in entries:
+        if not e.get("canonical"):
+            continue
+        key = (e.get("vendor_domain") or e["slug"]).lower()
+        g.setdefault(key, []).append(e)
+    return {k: sort_entries(v) for k, v in sorted(g.items())}
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def vendor_name(domain: str, products) -> str:
+    """The name a vendor page carries. One product: that product's display name. Several:
+    the display name that IS the domain (HubSpot for hubspot.com), else the word inside a display
+    name that matches a domain label (Google out of "Google BigQuery" for cloud.google.com),
+    else the shortest display name. Nothing is typed by hand."""
+    names = [p.get("display_name") or p["name"] for p in products]
+    if len(names) == 1:
+        return names[0]
+    labels = [l for l in domain.lower().split(".") if l not in ("com", "io", "ai", "co", "dev",
+                                                                  "so", "app", "cx", "video",
+                                                                  "love", "tech", "rocks")]
+    targets = {_norm(domain)} | {_norm(l) for l in labels}
+    exact = [n for n in names if _norm(n) in targets]
+    if exact:
+        return min(exact, key=lambda n: (len(n), n.lower()))
+    for n in sorted(names, key=lambda n: (len(n), n.lower())):
+        for w in re.findall(r"[A-Za-z0-9][A-Za-z0-9.]*", n):
+            if _norm(w) in targets and _norm(w):
+                return w
+    return min(names, key=lambda n: (len(n), n.lower()))
+
+
+def vendor_logo_src(domain: str, out: Path):
+    """Copy the map's logo for this domain into vendors/logos/ and return the page-relative src,
+    or None when there is no logo to copy."""
+    if not LOGO_DIR.is_dir():
+        return None
+    src = LOGO_DIR / f"{domain}.png"
+    if not src.is_file():
+        return None
+    dst = out / "vendors" / "logos" / f"{domain}.png"
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    if not dst.exists():
+        shutil.copyfile(src, dst)
+    return f"logos/{domain}.png"
+
+
+def vendor_facts(products):
+    """Every count a vendor page shows, with the dates that stamp it. Computed once, read by the
+    page, the index, the JSON-LD, the search index and llms.txt, so the surfaces cannot disagree."""
+    f = {}
+    f["products"] = len(products)
+    f["official"] = sum(1 for p in products if p["mcp_status_bucket"] == "official")
+    f["community"] = sum(1 for p in products if p["mcp_status_bucket"] == "community")
+    f["servers"] = f["official"] + f["community"]
+    f["live"] = sum(1 for p in products if (p.get("endpoint_status") or "") in LIVE_STATUSES)
+    f["repo_local"] = sum(1 for p in products if p.get("endpoint_status") == "repo-local")
+    f["docs_only"] = sum(1 for p in products if p.get("endpoint_status") == "docs-only")
+    f["probed"] = sum(1 for p in products if p.get("endpoint_last_probed"))
+    f["probe_dates"] = sorted({p["endpoint_last_probed"] for p in products
+                               if p.get("endpoint_last_probed")})
+    f["tools"] = sum(p.get("mcp_tool_count") or 0 for p in products
+                     if p.get("mcp_catalog_shape") != "gateway")
+    f["gateway_tools"] = sum(p.get("mcp_tool_count") or 0 for p in products
+                             if p.get("mcp_catalog_shape") == "gateway")
+    f["tools_measured"] = sum(1 for p in products if p.get("mcp_tools_fetched_on"))
+    f["tool_dates"] = sorted({p["mcp_tools_fetched_on"] for p in products
+                              if p.get("mcp_tools_fetched_on")})
+    f["bench_tested"] = sum(1 for p in products if p["tier"] == "BENCH-TESTED")
+    f["checked_dates"] = sorted({p["last_checked"] for p in products})
+    f["gates"] = {}
+    for p in products:
+        f["gates"][p["api_gate_bucket"]] = f["gates"].get(p["api_gate_bucket"], 0) + 1
+    jobs = []
+    for p in products:
+        for j in p["jobs"]:
+            if j not in jobs:
+                jobs.append(j)
+    f["jobs"] = jobs
+    f["connect"] = [(p, p.get("mcp_endpoint") or p.get("mcp_docs_url"))
+                    for p in products if p.get("mcp_endpoint") or p.get("mcp_docs_url")]
+    return f
+
+
+def _dates(ds):
+    return ", ".join(ds) if ds else "no date"
+
+
+GATE_PLAIN = {
+    "free": "free to start, a solo operator gets API access without talking to anyone",
+    "paid": "paid and self serve, API access by paying, no sales call",
+    "enterprise-leaning": "enterprise leaning, self serve on paper and gated in practice",
+    "enterprise-only": "enterprise only, API access needs a contract",
+    "unknown": "gate unknown, not established from public sources and published as unknown",
+    "n-a": "gate not applicable",
+}
+
+
+def gates_plain(f):
+    bits = []
+    for b in GATE_ORDER:
+        n = f["gates"].get(b)
+        if n:
+            bits.append(f"{n} of {f['products']} {GATE_PLAIN[b]}")
+    return ". ".join(bits) + "."
+
+
+def build_vendor_page(domain, products, d, r, byid, out: Path):
+    rel = "../"
+    c = d["counts"]
+    cov = r["coverage"]
+    slug = vendor_slug(domain)
+    name = vendor_name(domain, products)
+    f = vendor_facts(products)
+    logo = vendor_logo_src(domain, out)
+    is_domain = bool(products[0].get("vendor_domain"))
+    vhref = "https://" + domain if is_domain else (products[0]["vendor_url"] or "")
+
+    if logo:
+        mark = (f'<img class="vlogo" src="{raw_esc(logo)}" alt="" width="56" height="56" '
+                f'loading="lazy">')
+    else:
+        mark = f'<div class="vlogo monogram" data-l="{esc(name[:1].upper())}" aria-hidden="true"></div>'
+
+    pub = PUBLIC_COMPANIES.get(domain)
+    pub_html = ""
+    if pub:
+        ticker, pslug = pub
+        pub_html = (f' &middot; <a href="{PUBLIC_BRIEF_BASE}{pslug}/" rel="noopener">Public company '
+                    f'brief ({esc(ticker)})</a>')
+
+    many = f["products"] != 1
+    parts = []
+    parts.append(f"""<div class="wrap">
+<div class="crumbs"><a href="{rel}index.html">Directory</a> /
+<a href="{rel}vendors/index.html">Vendors</a> /
+{esc(name)}</div>
+<div class="toolhead vendorhead">
+{mark}
+<div>
+<h1>{esc(name)}</h1>
+<div class="badges">
+<span class="badge mute flat">{f['products']} product{'s' if many else ''} in the directory</span>
+<span class="badge gold flat">{f['official']} official MCP server{'' if f['official'] == 1 else 's'}</span>
+<span class="badge teal flat">{f['live']} live handshake{'' if f['live'] == 1 else 's'}</span>
+<span class="badge mute flat">Data baked {esc(d['generated_on'])}</span>
+</div>
+<p class="note">Vendor domain: <a href="{raw_esc(vhref)}" rel="noopener nofollow">{esc(domain)}</a>{pub_html}
+&middot; vendor page id {esc(slug)}</p>
+</div>
+</div>""")
+
+    parts.append('<div class="fields">')
+
+    # rollup
+    tools_v = (f"{num(f['tools'])} named across {f['tools_measured']} measured server"
+               f"{'' if f['tools_measured'] == 1 else 's'}, harvested {_dates(f['tool_dates'])}"
+               if f["tools_measured"] else "not measured on any product of this vendor")
+    if f["gateway_tools"]:
+        tools_v += (f". A further {num(f['gateway_tools'])} sit behind a gateway server and are "
+                    f"counted separately, because a gateway re-exposes other vendors")
+    rollup = f"""<div class="blockgrid">
+<div><div class="bk">Products</div><div class="bv">{f['products']}, facts checked by hand {_dates(f['checked_dates'])}</div></div>
+<div><div class="bk">Official MCP servers</div><div class="bv">{f['official']} of {f['products']}, as recorded on {_dates(f['checked_dates'])}</div></div>
+<div><div class="bk">Community MCP servers</div><div class="bv">{f['community']} of {f['products']}</div></div>
+<div><div class="bk">Live handshake</div><div class="bv">{f['live']} of {f['products']} answered an MCP initialize, {f['probed']} probed, {_dates(f['probe_dates'])}</div></div>
+<div><div class="bk">Repo local</div><div class="bv">{f['repo_local']} of {f['products']}: a server you install and run yourself</div></div>
+<div><div class="bk">Docs only</div><div class="bv">{f['docs_only']} of {f['products']}: the recorded URL is a page about the server, not the server</div></div>
+<div><div class="bk">Tools catalogued</div><div class="bv">{tools_v}</div></div>
+<div><div class="bk">Bench tested</div><div class="bv">{f['bench_tested']} of {f['products']} here, {c['bench_tested']} of {num(c['entries'])} across the directory</div></div>
+</div>
+<p class="note" style="margin-top:14px">A live handshake means the URL answered an MCP initialize as a server on the
+probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server
+names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been
+called. A tool count of 0 means not measured, never zero tools.</p>"""
+    parts.append(field("The rollup", rollup))
+
+    # products
+    cards = []
+    for p in products:
+        es_ = p.get("endpoint_status") or "not-probed"
+        connect = p.get("mcp_endpoint") or p.get("mcp_docs_url")
+        kind = ("endpoint" if p.get("mcp_endpoint") else "docs page" if p.get("mcp_docs_url") else "")
+        connect_html = (f'<a href="{raw_esc(connect)}" rel="noopener nofollow">{raw_esc(connect)}</a> '
+                        f'({kind})' if connect else '<span class="empty">no connect URL recorded</span>')
+        probed = (f"{esc(p['endpoint_last_probed'])}" if p.get("endpoint_last_probed")
+                  else "not probed")
+        tc = p.get("mcp_tool_count") or 0
+        if p.get("mcp_tools_fetched_on"):
+            shape = p.get("mcp_catalog_shape") or "fixed"
+            tools_cell = f"{tc} named, harvested {esc(p['mcp_tools_fetched_on'])}, catalogue {esc(shape)}"
+            if shape == "gateway":
+                tools_cell += ", counted apart from the vendor total"
+            if shape == "dynamic":
+                tools_cell += ", the server exposes the customer's own workspace"
+        else:
+            tools_cell = "not measured"
+        cards.append(f"""<h3><a href="{rel}tools/{p['slug']}.html">{esc(p['name'])}</a></h3>
+<p class="sub">{esc(trim(p['what_it_does'], 260))}</p>
+<div class="badges">{badge_mcp(p, rel)}{badge_gate(p, rel)}
+<a class="badge mute flat" href="{rel}categories/{p['category_slug']}.html">{esc(p['category_label'])}</a>
+<span class="badge tier flat">{esc(p['tier'])}</span></div>
+<div class="blockgrid" style="margin-top:12px">
+<div><div class="bk">Endpoint probe</div><div class="bv">{esc(ENDPOINT_LABEL.get(es_, es_))}, {probed}</div></div>
+<div><div class="bk">Connect URL</div><div class="bv">{connect_html}</div></div>
+<div><div class="bk">Tools catalogued</div><div class="bv">{tools_cell}</div></div>
+<div><div class="bk">last_checked</div><div class="bv">{esc(p['last_checked'])}</div></div>
+</div>""")
+    parts.append(field(f"Products, {f['products']}", "".join(cards)))
+
+    # gates
+    parts.append(field("The gates, in plain words",
+                       f"<p>{esc(gates_plain(f))}</p>"
+                       f"<p class='note'>The gate is the api_gate field on each product entry, "
+                       f"established by hand on the last_checked date shown above. It records "
+                       f"whether a solo operator can get API access without a contract. Money is "
+                       f"not tracked.</p>"))
+
+    # jobs
+    if f["jobs"]:
+        jl = "".join(f'<li><a href="{rel}jobs/{raw_esc(j)}.html">{esc(job_label(d, j))}</a></li>'
+                     for j in f["jobs"])
+        tagged_on = sorted({p["jobs_tagged_on"] for p in products if p.get("jobs_tagged_on")})
+        jb = (f"<ul>{jl}</ul><p class='note'>{len(f['jobs'])} distinct job label"
+              f"{'' if len(f['jobs']) == 1 else 's'}, the union across {f['products']} product"
+              f"{'' if f['products'] == 1 else 's'}, tagged {_dates(tagged_on)}. {esc(TAG_MEANING)}</p>")
+    else:
+        jb = ('<p class="v empty">No job tag on any product of this vendor.</p>'
+              '<p class="note">An empty list means nobody has tagged these entries, not that the '
+              'tools do nothing.</p>')
+    parts.append(field("Jobs the vendor says its products do", jb))
+
+    # connect URLs
+    if f["connect"]:
+        cl = "".join(
+            f'<li><a href="{raw_esc(u)}" rel="noopener nofollow">{raw_esc(u)}</a> '
+            f'({esc(p["name"])}, {"endpoint" if p.get("mcp_endpoint") else "docs page"}, '
+            f'probed {esc(p.get("endpoint_last_probed") or "no date")})</li>'
+            for p, u in f["connect"])
+        cb = (f"<ul>{cl}</ul><p class='note'>An endpoint is where an agent connects. A docs page is "
+              f"where a person reads about connecting. Both are published because both are what the "
+              f"probe found; an agent needs the first.</p>")
+    else:
+        cb = ('<p class="v empty">No product of this vendor records an MCP endpoint or docs URL '
+              'that the probe could classify.</p>')
+    parts.append(field("Connect URLs", cb))
+
+    # honesty
+    parts.append(field("What this page does not claim", f"""<p>A job tag is a vendor claim: it means
+the vendor says the product does this, and it is not a test result. A listed tool has not been run:
+the catalogue says what an agent could try, not what works. {c['bench_tested']} of
+{num(c['entries'])} directory entries are bench tested, meaning somebody personally ran the tool on a
+stated date, and {f['bench_tested']} of this vendor's {f['products']} product{'' if f['products'] == 1 else 's'} {'is' if f['bench_tested'] == 1 else 'are'} among them.
+There is no verdict here on whether this vendor is better than another.</p>
+<p class="note">Vendor pages group the directory's canonical product entries by vendor_domain. The vendor
+name is the product display name that matches the domain when several products share it; nothing on this
+page is typed by hand. Data baked {esc(d['generated_on'])} by {esc(d['generated_by'])}.</p>"""))
+
+    parts.append("</div></div>")
+
+    offers = []
+    for p in products:
+        app = {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": detype(p["name"]),
+                "url": abs_url(f"tools/{p['slug']}.html"),
+                "applicationCategory": "BusinessApplication",
+                "applicationSubCategory": detype(p["category_label"]),
+                "description": detype(trim(p["what_it_does"], 200)),
+            },
+            "category": GATE_LABEL.get(p["api_gate_bucket"], p["api_gate_bucket"]),
+        }
+        offers.append(app)
+    org = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": detype(name),
+        "url": vhref,
+        "makesOffer": offers,
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": f"{detype(name)} products in The GTM MCP Directory",
+            "numberOfItems": len(offers),
+            "itemListElement": offers,
+        },
+        "subjectOf": [{"@type": "Dataset", "name": "The GTM MCP Directory",
+                       "url": abs_url("data.html")}],
+    }
+    if logo:
+        org["logo"] = abs_url(f"vendors/{logo}")
+    if pub:
+        org["subjectOf"].append({"@type": "WebPage", "name": f"{detype(name)} public company brief",
+                                 "url": f"{PUBLIC_BRIEF_BASE}{pub[1]}/"})
+    trail = [("Directory", "index.html"), ("Vendors", "vendors/index.html"),
+             (name, f"vendors/{slug}.html")]
+    desc = (f"{name} ({domain}): {f['products']} product{'s' if many else ''} in The GTM MCP "
+            f"Directory, {f['official']} with an official MCP server, {f['live']} answering a live "
+            f"handshake, {num(f['tools'])} tools catalogued. Data baked {d['generated_on']}.")
+    page = (head(f"{name}: products, MCP servers and connect URLs, one vendor page", desc, rel,
+                 ld=[org, crumb_ld(rel, trail)], canon=f"vendors/{slug}.html")
+            + masthead(rel, "vendors") + "".join(parts) + footer(rel, d, r))
+    write(out / "vendors" / f"{slug}.html", page)
+    return {"slug": slug, "name": name, "domain": domain, "facts": f, "products": products,
+            "logo": logo}
+
+
+def build_vendors(d, r, out: Path):
+    """One page per vendor at vendors/<domain-slug>.html plus vendors/index.html. Returns the
+    number of pages written and the vendor rows the machine surfaces reuse."""
+    rel = "../"
+    c = d["counts"]
+    entries = d["entries"]
+    byid = {e["id"]: e for e in entries}
+    groups = vendor_groups(entries)
+    rows = [build_vendor_page(dom, prods, d, r, byid, out) for dom, prods in groups.items()]
+    rows.sort(key=lambda v: (v["name"].lower(), v["domain"]))
+
+    n_vendors = len(rows)
+    multi = [v for v in rows if v["facts"]["products"] > 1]
+    tot_official = sum(v["facts"]["official"] for v in rows)
+    tot_live = sum(v["facts"]["live"] for v in rows)
+    tot_tools = sum(v["facts"]["tools"] for v in rows)
+    tool_dates = sorted({dt for v in rows for dt in v["facts"]["tool_dates"]})
+    probe_dates = sorted({dt for v in rows for dt in v["facts"]["probe_dates"]})
+
+    groups_az = {}
+    for v in rows:
+        ch = v["name"][0].upper()
+        if not ch.isalpha():
+            ch = "#"
+        groups_az.setdefault(ch, []).append(v)
+    keys = sorted(groups_az, key=lambda k: (k == "#", k))
+    nav = "".join(f'<a href="#{k if k != "#" else "num"}">{k}</a>' for k in keys)
+
+    def vrow(v):
+        f = v["facts"]
+        return (f'<tr><td><a href="{v["slug"]}.html">{esc(v["name"])}</a></td>'
+                f'<td class="n">{esc(v["domain"])}</td>'
+                f'<td class="n">{f["products"]}</td>'
+                f'<td class="n">{f["official"]}</td>'
+                f'<td class="n">{f["live"]}</td>'
+                f'<td class="n">{num(f["tools"])}</td></tr>')
+
+    thead = ('<thead><tr><th>Vendor</th><th>Domain</th><th>Products</th>'
+             '<th>Official servers</th><th>Live handshakes</th><th>Tools catalogued</th></tr></thead>')
+    body = []
+    for k in keys:
+        anchor = k if k != "#" else "num"
+        body.append(f'<div class="alpha" id="{anchor}">{k}</div>')
+        body.append(f'<div class="scroller"><table class="datatable">{thead}<tbody>'
+                    + "".join(vrow(v) for v in groups_az[k]) + "</tbody></table></div>")
+
+    multi_items = []
+    for v in multi:
+        plist = ", ".join(f'<a href="{rel}tools/{p["slug"]}.html">{esc(p["name"])}</a>'
+                          for p in v["products"])
+        multi_items.append(f'<li><a href="{v["slug"]}.html">{esc(v["name"])}</a> '
+                           f'({esc(v["domain"])}), {v["facts"]["products"]} products: {plist}</li>')
+
+    page = (head(f"Every GTM vendor, A to Z: {n_vendors} vendors with their MCP servers",
+                 f"All {n_vendors} vendors in The GTM MCP Directory, one page each, with product count, "
+                 f"official MCP servers, live handshakes and tools catalogued. Data baked {d['generated_on']}.",
+                 rel,
+                 ld=[crumb_ld(rel, [("Directory", "index.html"), ("Vendors", "vendors/index.html")]),
+                     itemlist_ld("Every GTM vendor, A to Z",
+                                 f"All {n_vendors} vendors, one page each.",
+                                 "vendors/index.html",
+                                 [(v["name"], f"vendors/{v['slug']}.html") for v in rows])],
+                 canon="vendors/index.html")
+            + masthead(rel, "vendors")
+            + f"""<div class="wrap wide">
+<div class="crumbs" style="padding-bottom:0"><a href="{rel}index.html">Directory</a> / Vendors</div>
+<section style="padding-top:18px">
+<div class="eyebrow">A to Z</div>
+<h2>Every vendor in the directory.</h2>
+<p class="sub">{n_vendors} vendors behind {num(c['canonical_entries'])} unique products, grouped by
+vendor domain, data baked {esc(d['generated_on'])}. Between them: {num(tot_official)} products with an
+official MCP server as recorded by hand (the directory's entry count is {num(c['mcp_status']['official'])}
+of {num(c['entries'])}, because a cross listed product carries its status in two categories and is
+counted once here), {tot_live} products answering a live MCP handshake on
+{_dates(probe_dates)}, and {num(tot_tools)} tools catalogued across their servers, gateways excluded,
+harvested {_dates(tool_dates)}. A vendor page URL is the domain with its dots turned to hyphens:
+hubspot.com is at vendors/hubspot-com.</p>
+<p class="note">Official servers, live handshakes and tools are counts of products, not verdicts. A live
+handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server,
+not called. {c['bench_tested']} of {num(c['entries'])} entries in the whole directory are bench tested.</p>
+<h3 style="margin-top:30px">Multi product vendors, {len(multi)}</h3>
+<p class="sub">Vendors with more than one product in the directory, each product on its own tool page.</p>
+<ul class="srcs">
+{''.join(multi_items)}
+</ul>
+<div class="alphanav">{nav}</div>
+{''.join(body)}
+</section>
+</div>"""
+            + footer(rel, d, r))
+    write(out / "vendors" / "index.html", page)
+    return 1 + n_vendors, rows
 
 
 def build_categories(d, r, entries, byid, out: Path):
@@ -2917,6 +3398,23 @@ def build_search_index(d, out: Path):
             "w": trim(e["what_it_does"], 210),
             "x": blob,
         })
+    # one record per vendor, so a search for a company name lands on its vendor page
+    vendors = []
+    for dom, prods in vendor_groups(d["entries"]).items():
+        f = vendor_facts(prods)
+        nm = vendor_name(dom, prods)
+        vblob = " ".join([nm, dom] + [detype(p["name"]) for p in prods]).lower()
+        vendors.append({
+            "s": vendor_slug(dom),
+            "n": detype(nm),
+            "d": dom,
+            "p": f["products"],
+            "o": f["official"],
+            "l": f["live"],
+            "t": f["tools"],
+            "x": re.sub(r"\s+", " ", vblob).strip()[:400],
+        })
+    vendors.sort(key=lambda v: (v["n"].lower(), v["d"]))
     payload = {
         "meta": {
             "product": d["product"]["name"],
@@ -2924,11 +3422,15 @@ def build_search_index(d, out: Path):
             "generated_by": d["generated_by"],
             "entries": d["counts"]["entries"],
             "tools": len(tools),
+            "vendors": len(vendors),
             "sort_rule": d["sort_rule"],
             "note": "Keys: s slug, n name, d domain, c category, m mcp bucket, g gate bucket, "
-                    "t tier, r the published sort rank, w the short description, x the search blob.",
+                    "t tier, r the published sort rank, w the short description, x the search blob. "
+                    "vendors[]: s vendor page slug under vendors/, n vendor name, d domain, p products, "
+                    "o official MCP servers, l live handshakes, t tools catalogued, x the search blob.",
         },
         "tools": tools,
+        "vendors": vendors,
     }
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":"), sort_keys=False)
     write(out / "search-index.json", blob + "\n")
@@ -6352,7 +6854,7 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 # llms.txt, sitemap.xml, robots.txt
 # ----------------------------------------------------------------------------------
 
-def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None):
+def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, vendors=None):
     c = d["counts"]
     cov = r["coverage"]
     b = SITE_BASE.rstrip("/")
@@ -6444,6 +6946,19 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None):
     A(f"- [Methodology]({b}/methodology.html): how an entry is made, the two honesty tiers, and "
       f"every place this build is thin, named.")
     A(f"- [Every tool A to Z]({b}/tools/index.html): {num(c['canonical_entries'])} product pages.")
+    if vendors:
+        multi = [v for v in vendors if v["facts"]["products"] > 1]
+        A(f"- [Every vendor A to Z]({b}/vendors/index.html): {len(vendors)} vendor pages, one per "
+          f"vendor_domain, each listing the vendor's products with links to their tool pages, how "
+          f"many have an official or community MCP server, how many answered a live handshake, how "
+          f"many are repo local or docs only, tools catalogued across its servers, the gates in plain "
+          f"words, the union of job labels the vendor claims, and the connect URLs. Every count "
+          f"carries its date.")
+        A(f"- A vendor page URL is the vendor's domain with every dot turned into a hyphen, under "
+          f"`{b}/vendors/`. hubspot.com is `{b}/vendors/hubspot-com`, cloud.google.com is "
+          f"`{b}/vendors/cloud-google-com`. The markdown twin adds `.md`. {len(multi)} vendors have "
+          f"more than one product: "
+          + ", ".join(f"{v['name']} ({v['facts']['products']})" for v in multi) + ".")
     A(f"- [By category]({b}/categories/index.html): {c['categories']} categories with their "
       f"coverage.")
     A(f"- [By job]({b}/jobs/index.html): {c['jobs']} jobs phrased the way an agent asks for them.")
@@ -6893,6 +7408,7 @@ def main():
     for e in canon:
         build_tool_page(e, d, r, byid, out)
     build_tools_index(d, r, entries, byid, out)
+    n_vendors, vendor_rows = build_vendors(d, r, out)
     build_categories(d, r, entries, byid, out)
     build_bucket_view(d, r, entries, byid, out, "mcp")
     build_bucket_view(d, r, entries, byid, out, "gates")
@@ -6909,18 +7425,19 @@ def main():
     n_cat = 1 + len(d["categories"])
     n_mcp = 1 + sum(1 for b in MCP_ORDER if d["counts"]["mcp_status"].get(b))
     n_gate = 1 + sum(1 for b in GATE_ORDER if d["counts"]["api_gate"].get(b))
-    total = (1 + len(canon) + 1 + n_cat + n_mcp + n_gate + n_jobs + n_board + n_lists
+    total = (1 + len(canon) + 1 + n_vendors + n_cat + n_mcp + n_gate + n_jobs + n_board + n_lists
              + n_learn + 1 + 1 + 1 + 1 + 1)
 
     # machine surfaces last: they describe the finished tree.
     n_sitemap = build_sitemap(d, out)
-    build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board)
+    build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board, vendor_rows)
     n_md = build_markdown_twins(out)
     n_links = extensionless_links(out)
 
     print(f"index               1")
     print(f"tool pages          {len(canon)}")
     print(f"tools A to Z        1")
+    print(f"vendor pages        {n_vendors}   (index + {n_vendors - 1} vendors)")
     print(f"category pages      {n_cat}   (index + {len(d['categories'])})")
     print(f"mcp status pages    {n_mcp}   (index + buckets)")
     print(f"gate pages          {n_gate}   (index + buckets)")

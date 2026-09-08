@@ -3,6 +3,7 @@
    no query logging, works with the network cable pulled out. */
 (function(){
   var IDX = (window.GTMD_INDEX && window.GTMD_INDEX.tools) || [];
+  var VIDX = (window.GTMD_INDEX && window.GTMD_INDEX.vendors) || [];
   var META = (window.GTMD_INDEX && window.GTMD_INDEX.meta) || {};
   var q = document.getElementById('q');
   var out = document.getElementById('results');
@@ -55,7 +56,30 @@
   var GATETONE = {'free':'teal','paid':'gold','enterprise-leaning':'copper',
                   'enterprise-only':'copper','unknown':'mute','n-a':'mute'};
 
+  function vendorHits(){
+    // a typed company name gets its vendor page offered above the product rows
+    var s = (q.value || '').toLowerCase().trim();
+    if(s.length < 2) return '';
+    var hits = [];
+    for(var i=0;i<VIDX.length && hits.length<3;i++){
+      var v = VIDX[i];
+      if(v.n.toLowerCase().indexOf(s) !== -1 || v.d.indexOf(s) !== -1) hits.push(v);
+    }
+    var html = '';
+    for(var j=0;j<hits.length;j++){
+      var h = hits[j];
+      html += '<li class="row"><div class="top">' +
+        '<a class="nm" href="vendors/' + esc(h.s) + '.html">' + esc(h.n) + '</a>' +
+        '<span class="dom">' + esc(h.d) + '</span></div>' +
+        '<div class="desc">Vendor page: ' + h.p + ' product' + (h.p === 1 ? '' : 's') + ', ' +
+        h.o + ' official MCP server' + (h.o === 1 ? '' : 's') + ', ' + h.l + ' live handshake' +
+        (h.l === 1 ? '' : 's') + ', ' + h.t + ' tools catalogued.</div></li>';
+    }
+    return html;
+  }
+
   function render(list, total){
+    var vh = vendorHits();
     if(!list.length){
       out.innerHTML = '<li class="row"><div class="desc">Nothing in the index matches that. ' +
         'Try a plainer phrase, or browse by category, gate or MCP status. ' +
@@ -77,7 +101,7 @@
         '<span class="badge tier flat">' + esc(t.t) + '</span>' +
         '</div></li>';
     }
-    out.innerHTML = html;
+    out.innerHTML = vh + html;
     cnt.textContent = list.length + ' of ' + total + ' shown';
   }
 
