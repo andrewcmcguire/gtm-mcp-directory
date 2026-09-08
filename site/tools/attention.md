@@ -122,6 +122,6 @@ https://docs.attention.com/mcp/overview, https://docs.attention.com/mcp/authenti
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-07
+- **Data baked**: 2026-09-08
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

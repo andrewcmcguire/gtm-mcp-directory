@@ -129,6 +129,6 @@ API access ("API Connections") is included starting at the Starter tier ($50/mo)
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-07
+- **Data baked**: 2026-09-08
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

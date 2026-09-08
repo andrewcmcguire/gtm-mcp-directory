@@ -112,6 +112,6 @@ Verified 2026-09-07 from the vendor's own MCP page. NOT A HOSTED ENDPOINT: unlik
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-07
+- **Data baked**: 2026-09-08
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
