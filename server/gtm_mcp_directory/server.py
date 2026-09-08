@@ -2189,7 +2189,16 @@ def main(argv: list[str] | None = None) -> None:
                         help="URL path the HTTP transport answers on. The hosted endpoint sits behind a CDN that forwards the full path, so it runs as /gtm-directory/api/mcp.")
     args = parser.parse_args(argv)
     if args.transport == "http":
-        mcp.run(transport="http", host=args.host, port=args.port, path=args.path, show_banner=False)
+        from . import gate
+        from . import keys as keystore
+        if keystore.db_path():
+            # The hosted copy: a key store is configured, so the gate wraps the app and uvicorn
+            # serves the wrapped ASGI app directly. Local installs never take this branch.
+            import uvicorn
+            app = gate.wrap(mcp.http_app(path=args.path), args.path, generated_on=str(DIRECTORY.generated_on))
+            uvicorn.run(app, host=args.host, port=args.port, log_level=os.environ.get("GTM_LOG_LEVEL", "warning"), access_log=False)
+        else:
+            mcp.run(transport="http", host=args.host, port=args.port, path=args.path, show_banner=False)
     else:
         mcp.run(transport="stdio", show_banner=False)
 

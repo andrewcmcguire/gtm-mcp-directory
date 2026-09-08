@@ -108,13 +108,34 @@ The server loads the baked file once at import and answers from memory. It makes
 {
  "mcpServers": {
  "gtm-directory": {
- "url": "https://andrewcmcguire.com/gtm-directory/api/mcp"
+ "url": "https://andrewcmcguire.com/gtm-directory/api/mcp",
+ "headers": {
+ "Authorization": "Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ }
  }
  }
 }
 ```
 
-That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same read-only server this page is built from, restarted on every publish. It keeps no request log of its own. If you would rather run it yourself:
+That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same read-only server this page is built from, restarted on every publish. It needs a free key, and `gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` above is where yours goes. [Request a key](access/index.md). A work email address is approved automatically, usually within about ten minutes. The hosted copy records, per key, the number of calls and the date last used, and nothing else: no query text, no tool arguments, no IP log kept.
+
+```
+claude mcp add --transport http gtm-directory https://andrewcmcguire.com/gtm-directory/api/mcp --header "Authorization: Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+Same key, as one line for Claude Code. A client that only accepts a URL (claude.ai custom connectors) cannot send a header, so it uses the per-key URL instead:
+
+```
+{
+ "mcpServers": {
+ "gtm-directory": {
+ "url": "https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ }
+ }
+}
+```
+
+Both forms also work on the fallback host `https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp`. Some clients hit a Cloudflare 403 on the apex host today; if yours does, swap the host and keep the rest. If you would rather run it yourself, no key is needed, because the code and the data are public:
 
 ```
 {
@@ -160,8 +181,6 @@ The 15 category files with their counts, gates and source markdown, reconciled a
 ## Get the changelog by email.
 
 Once a week: new entries, dead endpoints, gate changes, and every tool that moved between MCP statuses. Assembled from the machine output, never written from thin air.
-
- Not wired yet
 
 PLACEHOLDER. The list runs on Kit and the form action is deliberately empty until that endpoint is set. No address is collected today and nothing is sent anywhere.
 

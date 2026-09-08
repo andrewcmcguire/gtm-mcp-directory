@@ -86,7 +86,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **Terms**
 
-Use it. Attribution to The GTM MCP Directory with a link is the only ask, and it is an ask rather than a licence trap. The data is free because it is more useful when other operators correct it, and a correction is the most valuable thing anyone can send. There is no key to request, no quota, and nothing about you is logged by this site because there is no backend to log it.
+Use it. Attribution to The GTM MCP Directory with a link is the only ask, and it is an ask rather than a licence trap. The data is free because it is more useful when other operators correct it, and a correction is the most valuable thing anyone can send. There is no key to request, no quota, and nothing about you is logged by this site because there is no backend to log it. The one thing on this route that does need a key is the [hosted MCP endpoint](access/index.md), and the key is free; per key it records the number of calls and the date last used, and nothing else.
 
 Facts about third party products are recorded from those vendors' own public sources with URLs, and every entry names them. If you are a vendor and something here is wrong, [the correction path is the same one everybody else uses](submit.md).
 

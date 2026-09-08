@@ -77,7 +77,8 @@ buy.
 
 ## Install
 
-Nothing to sign up for. No account, no API key, no telemetry.
+Nothing to sign up for. No account, no API key, no telemetry. The one exception
+is the hosted copy, which needs a free key; see "The hosted copy" below.
 
 > **Status note, in the spirit of the rest of this file:** the `uvx` blocks
 > below are the shipping shape and they are what the config will say, but the
@@ -122,6 +123,48 @@ Or commit a `.mcp.json` at the root of a repo so the whole team gets it:
   }
 }
 ```
+
+### The hosted copy
+
+Or skip the install: a hosted copy of this same read-only server has answered at
+`https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP) since 2026-09-08.
+It is rebuilt and restarted on every publish. **It needs a key.** Keys are free:
+request one at https://andrewcmcguire.com/gtm-directory/access/. A request from a
+work email address is approved automatically, usually within about ten minutes, and
+the key arrives by email. Requests from free-mail addresses or without a clear use
+case are reviewed by Drew, the directory's operator, and answered within a day.
+Without a key the endpoint returns 401 with a JSON body that points at the request
+page.
+
+A key looks like `gtmd_` followed by 32 characters, and there are two ways to
+present it. A client that supports headers (Cursor, Claude Code, Claude Desktop)
+sends `Authorization: Bearer gtmd_...`:
+
+```json
+{
+  "mcpServers": {
+    "gtm-directory": {
+      "url": "https://andrewcmcguire.com/gtm-directory/api/mcp",
+      "headers": { "Authorization": "Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
+    }
+  }
+}
+```
+
+```bash
+claude mcp add --transport http gtm-directory https://andrewcmcguire.com/gtm-directory/api/mcp --header "Authorization: Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+A client that only accepts a URL (claude.ai custom connectors) uses the per-key URL
+instead, `https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_...`, and should
+treat that URL like the key it contains. Both forms also work on the fallback host
+`https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp`; some clients hit a
+Cloudflare 403 on the apex host today, and swapping the host is the fix.
+
+The hosted copy records, per key, the number of calls and the date last used, and
+nothing else: no query text, no tool arguments, no IP log kept. A key can be revoked
+on request by replying to the email it came in. The local install needs no key
+because the code and the data are public.
 
 ### From a clone (what you want if you are working on the directory itself)
 
@@ -531,13 +574,19 @@ so you can read them rather than trust them.
 - **No write tools.** Nothing here mutates the directory.
 - **No submission tool.** A vendor submitting through an agent cannot be
   verified as a human at a company. The review queue is deliberately human.
-- **No telemetry of any kind.** Not usage counts, not query logs, not a ping.
+- **No telemetry in the package.** Not usage counts, not query logs, not a ping. The
+  local install phones nobody. The hosted copy's per-key counter is the one exception,
+  and the next bullet says exactly what it keeps.
 - **No `featured` or `recommended` field**, in the schema or anywhere else.
 - **No query log at the hosted endpoint.** A hosted copy exists since 2026-09-08 at
-  `https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP; put that URL in your client's `mcpServers` entry). It runs
-  this same read-only package with zero outbound requests, keeps no request log of its
-  own, and the local install stays the reference: nothing is available remotely that is
-  not in the repo.
+  `https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP). It requires a
+  free key, requested at https://andrewcmcguire.com/gtm-directory/access/ and presented
+  either as an `Authorization: Bearer gtmd_...` header or in the per-key URL
+  `https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_...` for clients that only
+  take a URL. The hosted copy records, per key, the number of calls and the date last
+  used, and nothing else: no query text, no tool arguments, no IP log kept. It runs this
+  same read-only package with zero outbound requests, and the local install stays the
+  reference and stays keyless: nothing is available remotely that is not in the repo.
 
 ## Submitting a tool or a correction
 

@@ -1,0 +1,65 @@
+# Publish gtm-mcp-directory to PyPI with Trusted Publishing (OIDC). No token is stored anywhere.
+#
+# One-time setup on pypi.org (the project owner does this once):
+#   Account -> Publishing -> "Add a new pending publisher":
+#     PyPI project name:  gtm-mcp-directory
+#     Owner:              andrewcmcguire
+#     Repository name:    gtm-mcp-directory
+#     Workflow name:      publish.yml
+#     Environment name:   pypi
+# Then push a tag such as v0.2.0 (or run this workflow by hand) and the package appears at
+# https://pypi.org/project/gtm-mcp-directory/ within a minute. `uvx gtm-mcp-directory` works after that.
+#
+# The package carries its data: server/gtm_mcp_directory/data/ is refreshed by publish.py on every
+# directory build, so the wheel built from a tag is the directory as of that tag's date.
+
+name: publish to PyPI
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: build sdist and wheel
+        working-directory: server
+        run: |
+          python -m pip install --upgrade pip build twine
+          python -m build --sdist --wheel .
+          python -m twine check dist/*
+      - name: smoke test the wheel (stdio server, no network)
+        working-directory: server
+        run: |
+          python -m pip install dist/*.whl
+          python -c "import gtm_mcp_directory.server as s; print('import ok, tools registered')"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: server/dist/
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write   # the OIDC token PyPI trusts; nothing else
+      contents: read
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/
+          print-hash: true

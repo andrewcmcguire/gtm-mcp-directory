@@ -61,17 +61,43 @@ python -m gtm_mcp_directory        # stdio, blocks, speaks MCP
 
 Or skip the install: a hosted copy of this same read-only server has answered at
 `https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP) since 2026-09-08.
-It is rebuilt and restarted on every publish and keeps no request log of its own.
+It is rebuilt and restarted on every publish. **It needs a key.** Keys are free:
+request one at https://andrewcmcguire.com/gtm-directory/access/. A request from a
+work email address is approved automatically, usually within about ten minutes, and
+the key arrives by email. Requests from free-mail addresses or without a clear use
+case are reviewed by Drew, the directory's operator, and answered within a day.
+Without a key the endpoint returns 401 with a JSON body that points at the request
+page.
+
+A key looks like `gtmd_` followed by 32 characters, and there are two ways to
+present it. A client that supports headers (Cursor, Claude Code, Claude Desktop)
+sends `Authorization: Bearer gtmd_...`:
 
 ```json
 {
   "mcpServers": {
     "gtm-directory": {
-      "url": "https://andrewcmcguire.com/gtm-directory/api/mcp"
+      "url": "https://andrewcmcguire.com/gtm-directory/api/mcp",
+      "headers": { "Authorization": "Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
     }
   }
 }
 ```
+
+```bash
+claude mcp add --transport http gtm-directory https://andrewcmcguire.com/gtm-directory/api/mcp --header "Authorization: Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+A client that only accepts a URL (claude.ai custom connectors) uses the per-key URL
+instead, `https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_...`, and should
+treat that URL like the key it contains. Both forms also work on the fallback host
+`https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp`; some clients hit a
+Cloudflare 403 on the apex host today, and swapping the host is the fix.
+
+The hosted copy records, per key, the number of calls and the date last used, and
+nothing else: no query text, no tool arguments, no IP log kept. A key can be revoked
+on request by replying to the email it came in. The local install needs no key
+because the code and the data are public.
 
 Running it yourself, point a client at the checkout:
 

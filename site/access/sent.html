@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Key requested: what happens next</title>
+<meta name="description" content="Your request for a hosted endpoint key was received. A work email address is approved automatically, usually within about ten minutes; other requests are reviewed within a day.">
+<meta name="robots" content="noindex,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/access/sent">
+<link rel="alternate" type="text/markdown" href="sent.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Key requested",
+  "url": "https://andrewcmcguire.com/gtm-directory/access/sent",
+  "description": "What happens after a hosted endpoint key is requested."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/gtm-directory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Request a key",
+      "item": "https://andrewcmcguire.com/gtm-directory/access/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sent",
+      "item": "https://andrewcmcguire.com/gtm-directory/access/sent"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/">Tools</a>
+<a href="../vendors/">Vendors</a>
+<a href="../categories/">Categories</a>
+<a href="../jobs/">Jobs</a>
+<a href="../jobs-board/">Hiring</a>
+<a href="../lists/">Lists</a>
+<a href="../learn/">Learn</a>
+<a href="../mcp/">MCP status</a>
+<a href="../gates/">Gate</a>
+<a href="../methodology">Method</a>
+<a href="../data">Data</a>
+<a class="navlink" href="https://andrewcmcguire.com/gtm-directory/map/">Map</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs"><a href="../">Directory</a> /
+<a href="./">Request a key</a> / Sent</div>
+<section style="padding-top:18px">
+<div class="eyebrow">Received</div>
+<h2>Thank you. Here is what happens next.</h2>
+<p class="sub">Your request is in the queue. Nothing else is needed from you.</p>
+
+<div class="field"><div class="k">If you used a work email address</div><div class="v">
+<p>The directory's access desk approves it automatically, usually within about ten minutes, and the
+key arrives by email from the directory. Check the spam folder if it is not there in twenty.</p>
+</div></div>
+
+<div class="field"><div class="k">If you used a free-mail address, or the use case was thin</div><div class="v">
+<p>Drew, the directory's operator, reads it and answers within a day. A short reply asking what your
+agent will do with the directory is not a refusal; it is the question the form asked.</p>
+</div></div>
+
+<div class="field"><div class="k">When the key arrives</div><div class="v">
+<p>It looks like <code>gtmd_</code> followed by 32 characters. Put it in an
+<code>Authorization: Bearer</code> header, or use the per-key URL if your client only takes a URL.
+<a href="./">Both forms are shown on the request page</a>, with the fallback host for
+clients that hit a Cloudflare 403 on the apex.</p>
+<p style="margin-top:10px">The hosted copy records, per key, the number of calls and the date last
+used, and nothing else. To revoke the key, reply to the email it came in.</p>
+</div></div>
+
+<div class="btnrow">
+<a class="btn solid" href="../">Back to the directory</a>
+<a class="btn ghost" href="../tools/">Every tool, A to Z</a>
+</div>
+</section>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>336 directory entries across 15 category files.
+    320 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>200 official MCP servers,
+    25 community.
+    1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
+    <p>56 jobs in 10 families.
+    271 entries carry at least one job tag,
+    65 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
+      <li><a href="../vendors/">Every vendor, one page each</a></li>
+      <li><a href="../categories/">By category</a></li>
+      <li><a href="../mcp/">By MCP status</a></li>
+      <li><a href="../gates/">By access gate</a></li>
+      <li><a href="../jobs/">By job</a></li>
+      <li><a href="../jobs-board/">The GTM Engineer job board</a></li>
+      <li><a href="../github/">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology">How an entry is made</a></li>
+      <li><a href="../submit">Submit a tool, free</a></li>
+      <li><a href="../learn/">Learn: the questions, answered</a></li>
+      <li><a href="../lists/">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../access/">The hosted MCP endpoint: request a key, free</a></li>
+      <li><a href="../data">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="sent.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-09-08 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 336 vs recount
+336.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>
+Maintained by <a href="https://andrewcmcguire.com" rel="noopener">Andrew McGuire</a>, same publisher as <a href="https://gtmsignals.co" rel="noopener">gtmsignals.co</a> and <a href="https://justsaid.ai" rel="noopener">justsaid.ai</a>.
+</div>
+</div>
+</footer>
+</body>
+</html>

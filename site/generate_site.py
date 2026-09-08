@@ -41,7 +41,7 @@ DATA_DIR = SITE_DIR.parent / "data"
 # Directories generate_site.py owns and will wipe on every run. Anything else that lives
 # in site/ (this script, DEPLOY.md) is left alone.
 GENERATED_DIRS = ["assets", "tools", "vendors", "categories", "gates", "mcp", "jobs", "jobs-board",
-                  "github", "learn", "lists", "data", "_dist"]
+                  "github", "learn", "lists", "data", "access", "_dist"]
 GENERATED_FILES = [
     "index.html",
     "tools-index.html",
@@ -89,6 +89,15 @@ HEADERS = """/*
 
 REPO_URL = "https://github.com/andrewcmcguire/gtm-mcp-directory"  # live
 HOSTED_MCP_URL = "https://andrewcmcguire.com/gtm-directory/api/mcp"
+# The same endpoint on the CloudFront origin. Some clients hit a Cloudflare 403 on the apex host
+# today, and this host is the fix. Both key forms below work on both hosts.
+HOSTED_MCP_FALLBACK_URL = "https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp"
+# Since 2026-09-08 the hosted endpoint requires a key. A key is "gtmd_" plus 32 characters, sent as
+# an Authorization: Bearer header, or embedded in the per-key URL for clients that only take a URL.
+# This placeholder is the right length and shape so a pasted config block fails loudly, not oddly.
+KEY_PLACEHOLDER = "gtmd_" + "x" * 32
+# The request form posts here. Same origin as the site, so form-action 'self' in the CSP passes.
+ACCESS_FORM_ACTION = "/gtm-directory/api/access"
 ISSUE_URL = REPO_URL + "/issues/new?template=tool-submission.yml"  # live
 SITE_ROUTE = "andrewcmcguire.com/gtm-directory"
 # ROUTED AND LIVE since 2026-08-27. The site serves from andrewcmcguire.com/gtm-directory, with the
@@ -554,6 +563,32 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
 .subform{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .subform input{flex:1 1 260px;min-width:0;font-family:var(--sans);font-size:15px;padding:12px 14px;
   background:var(--surface-2);color:var(--fg);border:1px solid var(--rule);border-radius:3px}
+
+/* ---------- the access request form (/access/) ---------- */
+.aform{margin-top:22px;max-width:640px}
+.aform .frow{margin-top:18px}
+.aform label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--mute);margin-bottom:7px}
+.aform label .opt{color:var(--mute-2);letter-spacing:.06em;text-transform:none;font-size:11px}
+.aform input[type=text],.aform input[type=email],.aform textarea,.aform select{display:block;
+  width:100%;max-width:100%;min-width:0;font-family:var(--sans);font-size:15px;padding:12px 14px;
+  background:var(--surface-2);color:var(--fg);border:1px solid var(--rule);border-radius:3px}
+.aform textarea{min-height:110px;resize:vertical;line-height:1.5}
+.aform select{appearance:auto}
+.aform input:focus,.aform textarea:focus,.aform select:focus{outline:2px solid var(--accent);
+  outline-offset:1px}
+.aform .fhint{font-family:var(--mono);font-size:11.5px;line-height:1.7;letter-spacing:.02em;
+  color:var(--mute-2);margin-top:6px}
+.aform .frow.check{display:flex;gap:10px;align-items:flex-start}
+.aform .frow.check input{margin-top:5px;flex:0 0 auto;accent-color:var(--accent)}
+.aform .frow.check label{font-family:var(--sans);font-size:14px;letter-spacing:0;
+  text-transform:none;color:var(--fg-soft);margin:0;line-height:1.55}
+/* the honeypot. A person never sees it; a form filler that fills every field fills it and is
+   dropped server side. Not type=hidden on purpose: the fillers skip those. */
+.hp{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.returned{border-left:3px solid var(--rule);background:var(--surface-2);padding:11px 16px;
+  margin-top:18px;font-family:var(--mono);font-size:11.5px;line-height:1.75;letter-spacing:.02em;
+  color:var(--mute);border-radius:2px;max-width:640px}
 
 /* ---------- tool page ---------- */
 .crumbs{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
@@ -1153,6 +1188,7 @@ def footer(rel, d, r):
     <div class="ft">For agents</div>
     <ul>
       <li><a href="{rel}llms.txt">llms.txt</a></li>
+      <li><a href="{rel}access/index.html">The hosted MCP endpoint: request a key, free</a></li>
       <li><a href="{rel}data.html">The public data endpoint</a></li>
       <li><a href="{rel}data/directory.json">directory.json</a></li>
       <li><a href="{rel}search-index.json">search-index.json</a></li>
@@ -1364,9 +1400,17 @@ def build_index(d, r, out: Path):
         indent=2,
     ))
     hosted = html.escape(json.dumps(
-        {"mcpServers": {SERVER_ID: {"url": HOSTED_MCP_URL}}},
+        {"mcpServers": {SERVER_ID: {"url": HOSTED_MCP_URL,
+                                    "headers": {"Authorization": "Bearer " + KEY_PLACEHOLDER}}}},
         indent=2,
     ))
+    hosted_url_form = html.escape(json.dumps(
+        {"mcpServers": {SERVER_ID: {"url": HOSTED_MCP_URL + "/k/" + KEY_PLACEHOLDER}}},
+        indent=2,
+    ))
+    hosted_cli = html.escape(
+        f'claude mcp add --transport http {SERVER_ID} {HOSTED_MCP_URL} '
+        f'--header "Authorization: Bearer {KEY_PLACEHOLDER}"')
 
     body = f"""{masthead(rel)}
 <div class="hero">
@@ -1456,8 +1500,19 @@ zero outbound network requests, so it cannot be slow, cannot rate limit you, can
 and cannot leak your query to a vendor. Everything network shaped happens in the weekly build.</p>
 <pre><code>{hosted}</code></pre>
 <p class="note">That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same
-read-only server this page is built from, restarted on every publish. It keeps no request log of its
-own. If you would rather run it yourself:</p>
+read-only server this page is built from, restarted on every publish. It needs a free key, and
+<code>{KEY_PLACEHOLDER}</code> above is where yours goes.
+<a href="access/index.html">Request a key</a>. A work email address is approved automatically,
+usually within about ten minutes. The hosted copy records, per key, the number of calls and the
+date last used, and nothing else: no query text, no tool arguments, no IP log kept.</p>
+<pre><code>{hosted_cli}</code></pre>
+<p class="note">Same key, as one line for Claude Code. A client that only accepts a URL (claude.ai
+custom connectors) cannot send a header, so it uses the per-key URL instead:</p>
+<pre><code>{hosted_url_form}</code></pre>
+<p class="note">Both forms also work on the fallback host
+<code>{HOSTED_MCP_FALLBACK_URL}</code>. Some clients hit a Cloudflare 403 on the apex host today;
+if yours does, swap the host and keep the rest. If you would rather run it yourself, no key is
+needed, because the code and the data are public:</p>
 <pre><code>{install}</code></pre>
 <p class="note">The package is not on PyPI yet, so this block is the shape the install will take
 rather than a working one-liner today. The server source is real and public: it lives in the
@@ -4166,6 +4221,205 @@ for asking would be a punishment and this directory does not punish.</p>
 </div>"""
             + footer(rel, d, r))
     write(out / "submit.html", page)
+
+
+def build_access(d, r, out: Path):
+    """/access/ (the key request form) and /access/sent (what happens next).
+
+    The hosted MCP endpoint has required a key since 2026-09-08. The form is plain HTML posting
+    to the same origin, so the CSP's form-action 'self' passes and no script is needed. The
+    server answers a good request with a 303 to /access/sent and a bad one with a 303 back to
+    /access/?error=1; a static page cannot read that query string without script, so the
+    "sent back here" note is always on the page and short enough not to mind.
+    """
+    rel = "../"
+    hosted_hdr = html.escape(json.dumps(
+        {"mcpServers": {SERVER_ID: {"url": HOSTED_MCP_URL,
+                                    "headers": {"Authorization": "Bearer " + KEY_PLACEHOLDER}}}},
+        indent=2,
+    ))
+    hosted_url = html.escape(json.dumps(
+        {"mcpServers": {SERVER_ID: {"url": HOSTED_MCP_URL + "/k/" + KEY_PLACEHOLDER}}},
+        indent=2,
+    ))
+    hosted_cli = html.escape(
+        f'claude mcp add --transport http {SERVER_ID} {HOSTED_MCP_URL} '
+        f'--header "Authorization: Bearer {KEY_PLACEHOLDER}"')
+    policy = f"""<div class="field"><div class="k">The policy</div><div class="v">
+<p>Keys are free. A request from a work email address is approved automatically, usually within
+about ten minutes, by the directory's access desk, and the key arrives by email. Requests from
+free-mail addresses or without a clear use case are reviewed by Drew, the directory's operator, and
+answered within a day.</p>
+<p style="margin-top:10px">The hosted copy records, per key, the number of calls and the date last
+used, and nothing else: no query text, no tool arguments, no IP log kept. A key can be revoked on
+request by replying to the email it came in.</p>
+<p style="margin-top:10px">The local install needs no key because the code and the data are public.
+The <a href="{rel}data.html">data endpoint</a> needs no key either.</p>
+</div></div>"""
+    page = (head("Request a key for the hosted GTM MCP Directory endpoint",
+                 "The hosted MCP endpoint needs a free key. A work email address is approved "
+                 "automatically, usually within about ten minutes. The hosted copy records, per "
+                 "key, the number of calls and the date last used, and nothing else.", rel,
+                 ld=[{
+                     "@context": "https://schema.org", "@type": "WebPage",
+                     "name": "Request a key for the hosted MCP endpoint",
+                     "url": abs_url("access/index.html"),
+                     "description": "Keys are free. A work email address is approved "
+                                    "automatically; other requests are reviewed within a day. "
+                                    "Per key, the hosted copy records call count and date last "
+                                    "used, and nothing else.",
+                 }, crumb_ld(rel, [("Directory", "index.html"),
+                                   ("Request a key", "access/index.html")])],
+                 canon="access/index.html")
+            + masthead(rel, "access")
+            + f"""<div class="wrap">
+<div class="crumbs"><a href="{rel}index.html">Directory</a> / Request a key</div>
+<section style="padding-top:18px">
+<div class="eyebrow">The hosted MCP endpoint</div>
+<h2>Request a key. It is free.</h2>
+<p class="sub">The hosted copy of the directory's MCP server at <code>{HOSTED_MCP_URL}</code>
+requires a key since 2026-09-08. Without one it answers 401 with a JSON body that points back here.
+A key looks like <code>gtmd_</code> followed by 32 characters, and it is presented one of two ways,
+shown below the form.</p>
+
+<p class="returned">If you were sent back here, a required field was missing or the email did not
+look real. Fill it in and send it again.</p>
+
+<form class="aform" method="post" action="{ACCESS_FORM_ACTION}"
+ enctype="application/x-www-form-urlencoded">
+<div class="frow">
+<label for="f-name">Name</label>
+<input id="f-name" name="name" type="text" required maxlength="120" autocomplete="name">
+</div>
+<div class="frow">
+<label for="f-email">Email</label>
+<input id="f-email" name="email" type="email" required maxlength="200" autocomplete="email"
+ placeholder="you@company.com">
+<div class="fhint">A work email gets a key automatically. A free-mail address is reviewed by hand
+and answered within a day.</div>
+</div>
+<div class="frow">
+<label for="f-company">Company <span class="opt">optional</span></label>
+<input id="f-company" name="company" type="text" maxlength="120" autocomplete="organization">
+</div>
+<div class="frow">
+<label for="f-use">Use case</label>
+<textarea id="f-use" name="use_case" required minlength="20" maxlength="2000" rows="4"
+ placeholder="what your agent will ask the directory"></textarea>
+<div class="fhint">At least 20 characters. One or two plain sentences is the right length.</div>
+</div>
+<div class="frow">
+<label for="f-client">Client</label>
+<select id="f-client" name="client">
+<option value="Claude">Claude</option>
+<option value="Claude Code">Claude Code</option>
+<option value="Cursor">Cursor</option>
+<option value="ChatGPT">ChatGPT</option>
+<option value="Other">Other</option>
+</select>
+</div>
+<div class="frow check">
+<input id="f-consent" name="consent" type="checkbox" value="yes" required>
+<label for="f-consent">You may email me the key and occasional directory changes. No marketing.</label>
+</div>
+<div class="hp" aria-hidden="true">
+<label for="f-website">Website</label>
+<input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+</div>
+<div class="btnrow">
+<button class="btn solid" type="submit">Request a key</button>
+<a class="btn ghost" href="{rel}methodology.html">Read the methodology first</a>
+</div>
+</form>
+<p class="note">Name, email and company are used to send the key and to ask a follow up question
+if the use case is unclear. They are never published. The form posts to this site's own origin and
+nowhere else.</p>
+
+{policy}
+
+<div class="field"><div class="k">Presenting the key, first way: a header</div><div class="v">
+<p>Any client that supports headers sends <code>Authorization: Bearer gtmd_...</code>. Cursor,
+Claude Code and Claude Desktop all do. Replace the placeholder with your key:</p>
+<pre><code>{hosted_hdr}</code></pre>
+<p style="margin-top:10px">The same thing as one line for Claude Code:</p>
+<pre><code>{hosted_cli}</code></pre>
+</div></div>
+
+<div class="field"><div class="k">Presenting the key, second way: the per-key URL</div><div class="v">
+<p>A client that only accepts a URL, such as a claude.ai custom connector, cannot send a header. It
+uses the per-key URL instead, which carries the key as the last path segment:</p>
+<pre><code>{hosted_url}</code></pre>
+<p style="margin-top:10px">Treat that URL like the key it contains. Do not paste it into anything
+public.</p>
+</div></div>
+
+<div class="field"><div class="k">The fallback host</div><div class="v">
+<p>Both forms also work on <code>{HOSTED_MCP_FALLBACK_URL}</code>. Some clients hit a Cloudflare
+403 on the apex host today. If yours does, swap the host and keep the rest of the URL and the key
+exactly as they are.</p>
+</div></div>
+
+<div class="field"><div class="k">Or run it yourself, no key</div><div class="v">
+<p>The server is a public Python package in the <a href="{REPO_URL}"
+rel="noopener">{PACKAGE_NAME}</a> repo and the data is
+<a href="{rel}data/directory.json">one JSON file</a>. A local install loads that file once and
+answers from memory, makes zero outbound requests, and asks nobody for anything. The
+<a href="{rel}index.html#install">install block is on the front page</a>.</p>
+</div></div>
+
+</section>
+</div>"""
+            + footer(rel, d, r))
+    write(out / "access" / "index.html", page)
+
+    sent = (head("Key requested: what happens next",
+                 "Your request for a hosted endpoint key was received. A work email address is "
+                 "approved automatically, usually within about ten minutes; other requests are "
+                 "reviewed within a day.", rel,
+                 ld=[{"@context": "https://schema.org", "@type": "WebPage",
+                      "name": "Key requested",
+                      "url": abs_url("access/sent.html"),
+                      "description": "What happens after a hosted endpoint key is requested."},
+                     crumb_ld(rel, [("Directory", "index.html"),
+                                    ("Request a key", "access/index.html"),
+                                    ("Sent", "access/sent.html")])],
+                 canon="access/sent.html", robots="noindex,follow")
+            + masthead(rel, "access")
+            + f"""<div class="wrap">
+<div class="crumbs"><a href="{rel}index.html">Directory</a> /
+<a href="index.html">Request a key</a> / Sent</div>
+<section style="padding-top:18px">
+<div class="eyebrow">Received</div>
+<h2>Thank you. Here is what happens next.</h2>
+<p class="sub">Your request is in the queue. Nothing else is needed from you.</p>
+
+<div class="field"><div class="k">If you used a work email address</div><div class="v">
+<p>The directory's access desk approves it automatically, usually within about ten minutes, and the
+key arrives by email from the directory. Check the spam folder if it is not there in twenty.</p>
+</div></div>
+
+<div class="field"><div class="k">If you used a free-mail address, or the use case was thin</div><div class="v">
+<p>Drew, the directory's operator, reads it and answers within a day. A short reply asking what your
+agent will do with the directory is not a refusal; it is the question the form asked.</p>
+</div></div>
+
+<div class="field"><div class="k">When the key arrives</div><div class="v">
+<p>It looks like <code>gtmd_</code> followed by 32 characters. Put it in an
+<code>Authorization: Bearer</code> header, or use the per-key URL if your client only takes a URL.
+<a href="index.html">Both forms are shown on the request page</a>, with the fallback host for
+clients that hit a Cloudflare 403 on the apex.</p>
+<p style="margin-top:10px">The hosted copy records, per key, the number of calls and the date last
+used, and nothing else. To revoke the key, reply to the email it came in.</p>
+</div></div>
+
+<div class="btnrow">
+<a class="btn solid" href="{rel}index.html">Back to the directory</a>
+<a class="btn ghost" href="{rel}tools/index.html">Every tool, A to Z</a>
+</div>
+</section>
+</div>"""
+            + footer(rel, d, r))
+    write(out / "access" / "sent.html", sent)
 
 
 def build_404(d, r, out: Path):
@@ -7655,7 +7909,10 @@ rail that would fill them has not run.</p>
 <p>Use it. Attribution to The GTM MCP Directory with a link is the only ask, and it is an ask rather
 than a licence trap. The data is free because it is more useful when other operators correct it, and
 a correction is the most valuable thing anyone can send. There is no key to request, no quota, and
-nothing about you is logged by this site because there is no backend to log it.</p>
+nothing about you is logged by this site because there is no backend to log it. The one thing on
+this route that does need a key is the <a href="access/index.html">hosted MCP endpoint</a>, and
+the key is free; per key it records the number of calls and the date last used, and nothing
+else.</p>
 <p style="margin-top:10px">Facts about third party products are recorded from those vendors' own
 public sources with URLs, and every entry names them. If you are a vendor and something here is
 wrong, <a href="submit.html">the correction path is the same one everybody else uses</a>.</p>
@@ -7710,6 +7967,10 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
     A("")
     A(f"- [directory.json]({b}/data/directory.json): the whole dataset, every entry, every field, "
       f"every source URL. Start here. No key, no rate limit, no signup.")
+    A(f"- Hosted MCP endpoint requires a free key; request at {b}/access/. The endpoint is "
+      f"{HOSTED_MCP_URL} (streamable HTTP, key as an Authorization: Bearer header or in the "
+      f"per-key URL form {HOSTED_MCP_URL}/k/<key>). Per key it records the number of calls and "
+      f"the date last used, and nothing else. The local install needs no key.")
     A(f"- [build_report.json]({b}/data/build_report.json): the counting authority's report, field "
       f"coverage, and every place this build is thin, named rather than padded.")
     A(f"- [search-index.json]({b}/search-index.json): one compact record per unique product, "
@@ -7911,7 +8172,9 @@ def build_sitemap(d, out: Path):
            + "\n".join(items) + "\n</urlset>\n")
     write(out / "sitemap.xml", xml)
     robots = (f"# The GTM MCP Directory. Everything here is public and free to read, by anyone,\n"
-              f"# including machines. There is no backend, so nothing about you is logged.\n"
+              f"# including machines. The site has no backend, so nothing about you is logged.\n"
+              f"# The hosted MCP endpoint at /gtm-directory/api/mcp needs a free key and records,\n"
+              f"# per key, the number of calls and the date last used, and nothing else.\n"
               f"User-agent: *\n"
               f"Allow: /\n\n"
               f"Sitemap: {b}/sitemap.xml\n"
@@ -8008,8 +8271,35 @@ def html_to_markdown(doc: str, rel_depth: int) -> str:
     body = re.sub(r'(?<=</span>)(?=<(?:a|span) class="badge)', " · ", body)
     # a bold label that CSS renders as its own line needs a real separator in markdown
     body = re.sub(r"</b>(?=[A-Z])", "</b>: ", body)
+    # a form cannot be submitted from markdown. The twin lists its fields, labelled and marked
+    # required where the HTML says so, and says where the form posts. A form with no labelled
+    # fields (the disabled subscribe stub on the index) produces nothing, as before.
+    def _form(mo):
+        f = mo.group(0)
+        action = re.search(r'action="([^"]*)"', f)
+        lines = []
+        for lab in re.finditer(r'<label for="([^"]+)">(.*?)</label>', f, re.S):
+            fid, text = lab.group(1), _flat(lab.group(2))
+            el = re.search(r'<(input|textarea|select)\b[^>]*\bid="%s"[^>]*>' % re.escape(fid), f)
+            if not el:
+                continue
+            tag = el.group(0)
+            name = re.search(r'\bname="([^"]+)"', tag)
+            if not name or name.group(1) == "website":
+                continue
+            kind = re.search(r'\btype="([^"]+)"', tag)
+            kind = kind.group(1) if kind else el.group(1)
+            req = " required" if re.search(r"\brequired\b", tag) else ""
+            lines.append(f"- **{text}**: `{name.group(1)}` ({kind}{req})")
+        if not lines:
+            return ""
+        where = (f" It posts to `{action.group(1)}` as application/x-www-form-urlencoded."
+                 if action and action.group(1) else "")
+        return ("\n\n*The HTML page carries a form here.%s Its fields:*\n\n" % where
+                + "\n".join(lines) + "\n\n")
+    body = re.sub(r"<form\b.*?</form>", _form, body, flags=re.S)
     # callouts become blockquotes, which is what they are
-    body = re.sub(r'<div class="(?:warn|tierbox)"[^>]*>(.*?)</div>',
+    body = re.sub(r'<div class="(?:warn|tierbox|returned)"[^>]*>(.*?)</div>',
                   lambda mo: "\n\n> " + _inline(mo.group(1), rel_depth, True) + "\n\n",
                   body, flags=re.S)
     # block structure
@@ -8311,6 +8601,7 @@ def main():
     build_github(d, r, entries, byid, out)
     build_methodology(d, r, entries, byid, out)
     build_submit(d, r, out)
+    build_access(d, r, out)
     n_lists, list_rows = build_lists(d, r, entries, byid, out)
     n_learn, learn_specs_out = build_learn(d, r, entries, byid, out)
     build_data_page(d, r, out)
@@ -8320,7 +8611,7 @@ def main():
     n_mcp = 1 + sum(1 for b in MCP_ORDER if d["counts"]["mcp_status"].get(b))
     n_gate = 1 + sum(1 for b in GATE_ORDER if d["counts"]["api_gate"].get(b))
     total = (1 + len(canon) + 1 + 1 + n_vendors + n_cat + n_mcp + n_gate + n_jobs + n_board
-             + n_lists + n_learn + 1 + 1 + 1 + 1 + 1)
+             + n_lists + n_learn + 1 + 1 + 1 + 2 + 1 + 1)
 
     # machine surfaces last: they describe the finished tree.
     n_sitemap = build_sitemap(d, out)
@@ -8344,6 +8635,7 @@ def main():
     print(f"github view         1")
     print(f"methodology         1")
     print(f"submit              1")
+    print(f"access pages        2   (request form + sent)")
     print(f"data endpoint       1")
     print(f"404                 1")
     print(f"TOTAL HTML          {total}")

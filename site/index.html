@@ -232,13 +232,33 @@ and cannot leak your query to a vendor. Everything network shaped happens in the
 <pre><code>{
   &quot;mcpServers&quot;: {
     &quot;gtm-directory&quot;: {
-      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp&quot;
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp&quot;,
+      &quot;headers&quot;: {
+        &quot;Authorization&quot;: &quot;Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+      }
     }
   }
 }</code></pre>
 <p class="note">That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same
-read-only server this page is built from, restarted on every publish. It keeps no request log of its
-own. If you would rather run it yourself:</p>
+read-only server this page is built from, restarted on every publish. It needs a free key, and
+<code>gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</code> above is where yours goes.
+<a href="access/">Request a key</a>. A work email address is approved automatically,
+usually within about ten minutes. The hosted copy records, per key, the number of calls and the
+date last used, and nothing else: no query text, no tool arguments, no IP log kept.</p>
+<pre><code>claude mcp add --transport http gtm-directory https://andrewcmcguire.com/gtm-directory/api/mcp --header &quot;Authorization: Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;</code></pre>
+<p class="note">Same key, as one line for Claude Code. A client that only accepts a URL (claude.ai
+custom connectors) cannot send a header, so it uses the per-key URL instead:</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+    }
+  }
+}</code></pre>
+<p class="note">Both forms also work on the fallback host
+<code>https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp</code>. Some clients hit a Cloudflare 403 on the apex host today;
+if yours does, swap the host and keep the rest. If you would rather run it yourself, no key is
+needed, because the code and the data are public:</p>
 <pre><code>{
   &quot;mcpServers&quot;: {
     &quot;gtm-directory&quot;: {
@@ -410,6 +430,7 @@ methodology page rather than quietly padded.</p>
     <div class="ft">For agents</div>
     <ul>
       <li><a href="llms.txt">llms.txt</a></li>
+      <li><a href="access/">The hosted MCP endpoint: request a key, free</a></li>
       <li><a href="data">The public data endpoint</a></li>
       <li><a href="data/directory.json">directory.json</a></li>
       <li><a href="search-index.json">search-index.json</a></li>

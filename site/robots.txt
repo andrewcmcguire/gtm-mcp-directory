@@ -1,5 +1,7 @@
 # The GTM MCP Directory. Everything here is public and free to read, by anyone,
-# including machines. There is no backend, so nothing about you is logged.
+# including machines. The site has no backend, so nothing about you is logged.
+# The hosted MCP endpoint at /gtm-directory/api/mcp needs a free key and records,
+# per key, the number of calls and the date last used, and nothing else.
 User-agent: *
 Allow: /
 
