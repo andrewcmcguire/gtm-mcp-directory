@@ -993,6 +993,7 @@ def masthead(rel, current=""):
 {link('gates/index.html','Gate','gates')}
 {link('methodology.html','Method','methodology')}
 {link('data.html','Data','data')}
+<a class="navlink" href="https://andrewcmcguire.com/gtm-directory/map/">Map</a>
 <button class="themetoggle" id="themetoggle" type="button">Dark</button>
 </nav>
 </div>
