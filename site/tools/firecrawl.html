@@ -113,7 +113,71 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.firecrawl.dev/v2/mcp (docs: https://docs.firecrawl.dev/mcp-server; repo: https://github.com/firecrawl/firecrawl-mcp-server; search-only endpoint https://mcp.firecrawl.dev/v2/mcp-search; OAuth variant https://mcp.firecrawl.dev/v2/mcp-oauth)</p><ul><li><a href="https://mcp.firecrawl.dev/v2/mcp" rel="noopener nofollow">https://mcp.firecrawl.dev/v2/mcp</a></li><li><a href="https://docs.firecrawl.dev/mcp-server" rel="noopener nofollow">https://docs.firecrawl.dev/mcp-server</a></li><li><a href="https://github.com/firecrawl/firecrawl-mcp-server" rel="noopener nofollow">https://github.com/firecrawl/firecrawl-mcp-server</a></li><li><a href="https://mcp.firecrawl.dev/v2/mcp-search" rel="noopener nofollow">https://mcp.firecrawl.dev/v2/mcp-search</a></li><li><a href="https://mcp.firecrawl.dev/v2/mcp-oauth" rel="noopener nofollow">https://mcp.firecrawl.dev/v2/mcp-oauth</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.firecrawl.dev/v2/mcp (docs: https://docs.firecrawl.dev/mcp-server; repo: https://github.com/firecrawl/firecrawl-mcp-server; search-only endpoint https://mcp.firecrawl.dev/v2/mcp-search; OAuth variant https://mcp.firecrawl.dev/v2/mcp-oauth)</p><ul><li><a href="https://mcp.firecrawl.dev/v2/mcp" rel="noopener nofollow">https://mcp.firecrawl.dev/v2/mcp</a></li><li><a href="https://docs.firecrawl.dev/mcp-server" rel="noopener nofollow">https://docs.firecrawl.dev/mcp-server</a></li><li><a href="https://github.com/firecrawl/firecrawl-mcp-server" rel="noopener nofollow">https://github.com/firecrawl/firecrawl-mcp-server</a></li><li><a href="https://mcp.firecrawl.dev/v2/mcp-search" rel="noopener nofollow">https://mcp.firecrawl.dev/v2/mcp-search</a></li><li><a href="https://mcp.firecrawl.dev/v2/mcp-oauth" rel="noopener nofollow">https://mcp.firecrawl.dev/v2/mcp-oauth</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">13</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">firecrawl/firecrawl-mcp-server</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>agent</b></div>
+<div class="td">Multi-source research, unknown or many sites</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>crawl</b></div>
+<div class="td">Multi-page extraction (with limits)</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>developer</b></div>
+<div class="td">Programming questions over developer sources</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>firecrawl_parse</b></div>
+<div class="td">Parse one supported document into markdown, HTML, links, summary, targeted answers, or JSON matching a schema. Supported inputs include common HTML, PDF, Word, RTF, OpenDocument, and spreadsheet files; PDF parsing can be bounded with `pdfO</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>firecrawl_scrape</b></div>
+<div class="td">Retrieve and extract content from one supplied URL through Firecrawl. Use this when the request identifies a page and needs its content or defined fields. It can return markdown, HTML, links, screenshots, branding data, a targeted answer,</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>firecrawl_search</b></div>
+<div class="td">Search web, news, or image sources and return ranked results. Operators include quoted phrases, `-term`, `site:host`, `inurl:term`, `intitle:term`, and `related:host`; the set is non-exhaustive. `includeDomains` and `excludeDomains` are mu</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>interact</b></div>
+<div class="td">Interact with a URL or scraped page</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>map</b></div>
+<div class="td">Discovering URLs on a site</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>monitor</b></div>
+<div class="td">Recurring page checks</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>parse</b></div>
+<div class="td">Files and hosted upload refs</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>research</b></div>
+<div class="td">Paper and GitHub repository research</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>scrape</b></div>
+<div class="td">Single page content</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search</b></div>
+<div class="td">Web search for info</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -139,6 +203,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -147,6 +214,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

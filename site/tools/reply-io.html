@@ -120,7 +120,361 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp</p><ul><li><a href="https://reply.io/mcp/" rel="noopener nofollow">https://reply.io/mcp/</a></li><li><a href="https://github.com/reply-team/reply-mcp" rel="noopener nofollow">https://github.com/reply-team/reply-mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp</p><ul><li><a href="https://reply.io/mcp/" rel="noopener nofollow">https://reply.io/mcp/</a></li><li><a href="https://github.com/reply-team/reply-mcp" rel="noopener nofollow">https://github.com/reply-team/reply-mcp</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">71</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">reply-team/reply-mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>reply_add_contact_to_sequence</b></div>
+<div class="td">Enroll up to 100 existing contacts into a sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_add_knowledge_base_source</b></div>
+<div class="td">Add a web-page URL source to a knowledge base</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_approve_message</b></div>
+<div class="td">Approve one draft and send it immediately</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_assign_email_account_to_sequence</b></div>
+<div class="td">Link a mailbox to a sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_assign_linkedin_account_to_sequence</b></div>
+<div class="td">Link a LinkedIn account to a sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_assign_schedule_to_sequence</b></div>
+<div class="td">Set the sending schedule (business-hours window)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_attach_knowledge_base_to_sequence</b></div>
+<div class="td">Attach a knowledge base to an AI SDR sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_attach_offer_to_sequence</b></div>
+<div class="td">Attach an offer to an AI SDR sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_attach_playbook_to_sequence</b></div>
+<div class="td">Attach a playbook to an AI SDR sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_blacklist_contact</b></div>
+<div class="td">Blacklist a contact&#x27;s email (or whole domain) from outreach</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_bulk_approve_messages</b></div>
+<div class="td">Approve and send up to 100 drafts (atomic batch)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_change_contact_owner</b></div>
+<div class="td">Reassign up to 100 contacts to another user</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_change_inbox_category</b></div>
+<div class="td">Assign or clear a thread&#x27;s workspace category</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_change_status_in_sequence</b></div>
+<div class="td">Set one contact&#x27;s per-sequence status</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_compare_sequence_performance</b></div>
+<div class="td">Side-by-side metrics for up to 25 sequences</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_complete_task</b></div>
+<div class="td">Mark a task completed (with optional call resolution)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_contact</b></div>
+<div class="td">Create a contact (needs a name plus email or LinkedIn URL)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_knowledge_base</b></div>
+<div class="td">Create a knowledge base</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_offer</b></div>
+<div class="td">Create an offer Jason can pitch</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_playbook</b></div>
+<div class="td">Create a playbook (Team or Organization visibility)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_reengagement_card</b></div>
+<div class="td">Add a reengagement card (with send-after days)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_reply_handler</b></div>
+<div class="td">Add a reply handler (question type to instructions)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_create_task</b></div>
+<div class="td">Create a standalone task (ToDo / Call / Meeting / LinkedIn and others)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_delete_knowledge_base_source</b></div>
+<div class="td">Remove a URL source from a knowledge base</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_delete_reengagement_card</b></div>
+<div class="td">Remove a reengagement card</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_delete_reply_handler</b></div>
+<div class="td">Remove a reply handler</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_diagnose</b></div>
+<div class="td">Explain why a sequence isn&#x27;t sending and how to fix it</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_duplicate_playbook</b></div>
+<div class="td">Duplicate a playbook into a new one</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_filter_contacts</b></div>
+<div class="td">List contacts by list/sequence membership and/or free-text search</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_generate_offer_from_website</b></div>
+<div class="td">Draft offer fields from a company website (does not save)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_app_map</b></div>
+<div class="td">Catalog of app areas with in-app navigation steps and links</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_contact_activity</b></div>
+<div class="td">Activity history for one contact (sends, opens, replies, calls)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_inbox_emails</b></div>
+<div class="td">List inbox threads (email and LinkedIn) with short previews</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_knowledge_base</b></div>
+<div class="td">Full detail of one knowledge base (instructions, URL sources)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_knowledge_base_article</b></div>
+<div class="td">Read a full Help Center article by slug</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_offer</b></div>
+<div class="td">Full offer content (ICP, value props, proof points, CTAs)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_playbook</b></div>
+<div class="td">Full playbook, including the instruction body</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_reengagement_card</b></div>
+<div class="td">Full detail of one reengagement card</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_reply_handler</b></div>
+<div class="td">Full detail of one reply handler</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_sequence_stats</b></div>
+<div class="td">Email and LinkedIn performance metrics for one sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_sequence_step_variants</b></div>
+<div class="td">Read a message step&#x27;s A/B content variants (subject, body)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_get_sequence_steps</b></div>
+<div class="td">List a sequence&#x27;s ordered steps (type, delay, position, variant count)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_email_accounts</b></div>
+<div class="td">List mailboxes with connection status, daily limits, tags</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_knowledge_bases</b></div>
+<div class="td">List Jason knowledge bases</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_linkedin_accounts</b></div>
+<div class="td">List connected LinkedIn accounts with health and tier</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_my_tasks</b></div>
+<div class="td">List your tasks, filterable by type / status / due window / contact</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_offers</b></div>
+<div class="td">List Jason offers (id plus name)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_pending_approvals</b></div>
+<div class="td">The queue of Jason drafts awaiting approval</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_playbooks</b></div>
+<div class="td">List Jason playbooks (id, name, visibility)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_reengagement_cards</b></div>
+<div class="td">List reengagement (win-back) cards in a knowledge base</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_reply_handlers</b></div>
+<div class="td">List reply handlers in a knowledge base</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_list_schedules</b></div>
+<div class="td">List sending schedules (timezone, default flag, slot counts)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_mark_contacts_as_replied</b></div>
+<div class="td">Mark up to 100 contacts as replied (or clear the flag)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_pause_sequence</b></div>
+<div class="td">Pause a sequence; halt in-flight scheduled steps</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_regenerate_message</b></div>
+<div class="td">Ask Jason to rewrite a pending draft (optionally with feedback)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_reject_message</b></div>
+<div class="td">Reject a draft and remove the contact from the sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_report_unsupported_request</b></div>
+<div class="td">Log a capability Reply.io does not have, for the product team</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_search_contacts</b></div>
+<div class="td">Look up contacts by exact email or LinkedIn URL</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_search_knowledge_base</b></div>
+<div class="td">Search the Reply.io Help Center for how-to articles</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_search_lists</b></div>
+<div class="td">Resolve a contact list name to its ListId</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_search_sequences</b></div>
+<div class="td">Find sequences by name / status / archive flag; returns per-sequence summary fields</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_search_team_members</b></div>
+<div class="td">Resolve a teammate name/email to their UserId</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_send_inbox_reply</b></div>
+<div class="td">Send a reply on an existing thread (body only in v1)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_set_sequence_reply_mode</b></div>
+<div class="td">Set Jason&#x27;s Review / Autonomous reply mode</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_start_sequence</b></div>
+<div class="td">Start or resume a sequence so it begins sending</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>reply_update_contact</b></div>
+<div class="td">Patch fields on an existing contact</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_update_knowledge_base</b></div>
+<div class="td">Rename or edit a knowledge base&#x27;s instructions</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_update_offer</b></div>
+<div class="td">Patch an offer</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_update_playbook</b></div>
+<div class="td">Patch a playbook</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_update_reengagement_card</b></div>
+<div class="td">Patch a reengagement card</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reply_update_reply_handler</b></div>
+<div class="td">Patch a reply handler</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -155,6 +509,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -163,6 +520,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

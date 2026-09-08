@@ -56,6 +56,49 @@ https://github.com/offorte/offorte-mcp-server (vendor pages: https://www.offorte
 - [https://www.offorte.com/for-developers](https://www.offorte.com/for-developers)
 - [https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp](https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp)
 
+**What this server exposes**
+
+- **Tools named**: 15
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: offorte/offorte-mcp-server
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **create_contact** Create a new contact (organisation or person/individual) evidence: in the server source · calling it writes
+
+- **create_proposal** Create a new proposal evidence: in the server source · calling it writes
+
+- **get_account_users** Lists all account users for the current account evidence: in the server source · calling it reads
+
+- **get_automation_sets** Lists automation sets which are used as an optional input to create a new proposal evidence: in the server source · calling it writes
+
+- **get_contact_details** Get all details for a contact by id evidence: in the server source · calling it reads
+
+- **get_design_templates** Lists available design templates which are used to create new proposals evidence: in the server source · calling it writes
+
+- **get_email_templates** Lists available email templates which are used to send proposals evidence: in the server source · calling it writes
+
+- **get_initial_context** IMPORTANT: This tool must be called before using any other tools. It will get usage instructions & Offorte context for this MCP server. evidence: in the server source · calling it reads
+
+- **get_proposal_directories** Get all proposal directories grouped by status (edit, open, won, lost, closed) evidence: in the server source · calling it reads
+
+- **get_proposal_templates** Lists proposal templates which are used as starting points to create new proposals evidence: in the server source · calling it writes
+
+- **get_text_templates** Lists available language text templates which are used to create new proposals evidence: in the server source · calling it writes
+
+- **search_contact_organisations** Search for organisations by name in the contacts evidence: in the server source · calling it reads
+
+- **search_contact_people** Search for people by name in the contacts evidence: in the server source · calling it reads
+
+- **search_proposals** Search for proposals by query evidence: in the server source · calling it reads
+
+- **send_proposal** Send a proposal to its assigned contacts evidence: in the server source · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

@@ -41,7 +41,8 @@ Customer data and lifecycle-marketing layer sitting beside the CRM, useful for p
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: auth wall at every path, not proven a server
-- **Endpoint URL[https://mcp-api-us.ortto.app/mcp](https://mcp-api-us.ortto.app/mcp)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://mcp-api-us.ortto.app/mcp](https://mcp-api-us.ortto.app/mcp)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
 
@@ -55,6 +56,12 @@ https://mcp-api-us.ortto.app/mcp (docs: https://help.ortto.com/a-910-ortto-mcp; 
 
 - [https://mcp-api-us.ortto.app/mcp](https://mcp-api-us.ortto.app/mcp)
 - [https://help.ortto.com/a-910-ortto-mcp](https://help.ortto.com/a-910-ortto-mcp)
+
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
 **Access gate**
 

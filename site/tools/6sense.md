@@ -56,6 +56,12 @@ https://6sense.com/platform/mcp-server/ ; https://support.6sense.com/docs/6sense
 - [https://6sense.com/platform/mcp-server/](https://6sense.com/platform/mcp-server/)
 - [https://support.6sense.com/docs/6sense-model-context-protocol-mcp-1](https://support.6sense.com/docs/6sense-model-context-protocol-mcp-1)
 
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only

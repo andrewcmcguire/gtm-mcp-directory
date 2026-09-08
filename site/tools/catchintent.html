@@ -113,7 +113,76 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://engine.catchintent.com/mcp (vendor page: https://catchintent.com/mcp; changelog v3.0.0 dated 2026-05-13: https://catchintent.com/changelog/)</p><ul><li><a href="https://engine.catchintent.com/mcp" rel="noopener nofollow">https://engine.catchintent.com/mcp</a></li><li><a href="https://catchintent.com/mcp" rel="noopener nofollow">https://catchintent.com/mcp</a></li><li><a href="https://catchintent.com/changelog/" rel="noopener nofollow">https://catchintent.com/changelog/</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://engine.catchintent.com/mcp (vendor page: https://catchintent.com/mcp; changelog v3.0.0 dated 2026-05-13: https://catchintent.com/changelog/)</p><ul><li><a href="https://engine.catchintent.com/mcp" rel="noopener nofollow">https://engine.catchintent.com/mcp</a></li><li><a href="https://catchintent.com/mcp" rel="noopener nofollow">https://catchintent.com/mcp</a></li><li><a href="https://catchintent.com/changelog/" rel="noopener nofollow">https://catchintent.com/changelog/</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">14</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>lead_enrich</b></div>
+<div class="td">Trigger full LinkedIn profile enrichment via Apify (~$0.002, idempotent).</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: leadId</div>
+</li>
+<li>
+<div class="tn"><b>lead_get</b></div>
+<div class="td">Get full details of one lead: profile, discovery context (fit reason, pain hypothesis, role signals, disqualifiers), the AI-drafted outreach sequence (lead.outreach), warmth score, and status.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: leadId</div>
+</li>
+<li>
+<div class="tn"><b>lead_push_to_crm</b></div>
+<div class="td">Push leads to your connected CRM (HubSpot, Close, Pipedrive, Zoho). Each lead becomes a contact / deal in the destination. Lead status does not change automatically  - call lead_update_status to mark as `pushed` once CRM confirms.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: leadIds</div>
+</li>
+<li>
+<div class="tn"><b>lead_regenerate_sequence</b></div>
+<div class="td">Re-draft the lead&#x27;s AI outreach sequence (LinkedIn/X steps). Optional instructions steer the rewrite. Capped per lead  - edit directly once the cap is hit.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: leadId</div>
+</li>
+<li>
+<div class="tn"><b>lead_search</b></div>
+<div class="td">Search leads in the workspace. A lead is always a person discovered on LinkedIn. Filter by warmth, status, or text.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>lead_update_sequence</b></div>
+<div class="td">Replace the lead&#x27;s outreach sequence steps with edited versions (marks the sequence as edited).</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: leadId, steps</div>
+</li>
+<li>
+<div class="tn"><b>lead_update_status</b></div>
+<div class="td">Move a lead through the triage funnel. Valid transitions: NEW → SEEN/SAVED/PUSHED/ARCHIVED, SEEN ↔ SAVED, SAVED → PUSHED/ARCHIVED, PUSHED → ARCHIVED, ARCHIVED → SEEN. PUSHED is irreversible  - it marks handoff to an outreach tool / CRM.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: leadId, status</div>
+</li>
+<li>
+<div class="tn"><b>product_create</b></div>
+<div class="td">Create a new product. You can set sell (name/description/keywords/competitors), the structured offer, voice, and reach (roles/seniority/functions). Company firmographics (industries/size/country) are set in the dashboard, not here. Brand fi</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>product_delete</b></div>
+<div class="td">Delete a product. Fails only if it&#x27;s the workspace&#x27;s only product. Its audience and leads cascade-delete.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: productId</div>
+</li>
+<li>
+<div class="tn"><b>product_get</b></div>
+<div class="td">Resolved brand profile for a product, returned as nested sections with human-readable labels: sell (name/description/keywords/competitors/offer), fit (company firmographics), reach (roles/seniority/functions), plus offer, voice, and domain.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: productId</div>
+</li>
+<li>
+<div class="tn"><b>product_list</b></div>
+<div class="td">List every product/brand tracked by this workspace. Each product has its own brand profile, audience, and leads. Returns id, name, and timestamps.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>product_update</b></div>
+<div class="td">Update a product. Partial  - only provided fields change. You can set sell (name/description/keywords/competitors), the structured offer, voice, and reach (roles/seniority/functions). Company firmographics (industries/size/country) are set...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: productId</div>
+</li>
+<li>
+<div class="tn"><b>workspace_icp_options</b></div>
+<div class="td">Get the valid Seniority Level and Job Function labels for product targeting (the reach dimensions MCP can set; roles are free text). Call this before product_update  - unknown labels are rejected, never silently dropped.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>workspace_usage</b></div>
+<div class="td">Current workspace usage vs plan limits: leads delivered this billing period, team members, products, AI compute budget, daily/monthly caps.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it spends money</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -139,6 +208,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -147,6 +219,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

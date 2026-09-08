@@ -41,7 +41,8 @@ Enablement-plus-meeting-intelligence platform similar to Highspot, exposing cont
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server](https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server](https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,57 @@ https://mcp.seismic.com/ ; https://developer.seismic.com/seismicsoftware/docs/se
 
 - [https://mcp.seismic.com/](https://mcp.seismic.com/)
 - [https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server](https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server)
+
+**What this server exposes**
+
+- **Tools named**: 20
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Add content to DSR** Adds a selected Seismic content to a chosen Digital Sales Room (DSR) evidence: in the vendor docs · calling it writes · required: dsrId, contentVersionId
+
+- **Add content to meeting** Add Seismic content to meeting evidence: in the vendor docs · calling it writes
+
+- **Create a DSR engagement** Creates a new Digital Sales Room (DSR) from provided template and request parameters evidence: in the vendor docs · calling it writes
+
+- **Generate LiveSend link** Generates a LiveSend link with configurable settings and provided contents evidence: in the vendor docs · calling it reads
+
+- **Generate answers or summaries by Generative Search** Generates a natural-language answer to a user question and returns the supporting sources used evidence: in the vendor docs · calling it reads
+
+- **Get CRM context by ID** Retrieves CRM context information by context ID evidence: in the vendor docs · calling it reads · required: context ID
+
+- **Get DSR comments and user details** Returns comments and associated user details for a Digital Sales Room evidence: in the vendor docs · calling it reads
+
+- **Get available CRM Systems** Retrieves a list of all available CRM systems integrated with the platform evidence: in the vendor docs · calling it reads
+
+- **Get contents by Generative Search** Retrieves relevant sources for a user query without generating an answer evidence: in the vendor docs · calling it reads
+
+- **Get meeting details by ID** Retrieves complete meeting information by meeting ID evidence: in the vendor docs · calling it reads · required: meeting ID
+
+- **Get meeting list** Get a paginated list of meetings based on created time evidence: in the vendor docs · calling it reads
+
+- **Get post meeting overview** Get the post meeting overview, which include the summaries, the action items, content recommendations evidence: in the vendor docs · calling it writes · required: meeting ID
+
+- **Get post-meeting brief** Retrieves the AI-generated post-meeting brief for a specific meeting evidence: in the vendor docs · calling it writes · required: meeting ID
+
+- **Get pre-meeting brief** Retrieves AI-generated pre-meeting brief information for a specific meeting evidence: in the vendor docs · calling it reads · required: meeting ID, CRM account
+
+- **Get the DSR engagement list** Retrieve a paginated list of DSR engagements that match CRM context and filter criteria evidence: in the vendor docs · calling it reads
+
+- **Get the meeting engagement list** Retrieve a paginated list of meeting engagements that match CRM context and filter criteria evidence: in the vendor docs · calling it reads
+
+- **Get the transcript analysis of meeting** Get the transcript analysis of meeting by meeting id evidence: in the vendor docs · calling it reads · required: meeting ID
+
+- **List DSR templates** Lists available DSR templates with identifiers and descriptive metadata evidence: in the vendor docs · calling it reads
+
+- **Search CRM Contexts** Searches for CRM context objects using natural language queries and optional filters evidence: in the vendor docs · calling it reads · required: query
+
+- **Update meeting metadata** Updates meeting engagement metadata such as agenda entries, notes, and tags evidence: in the vendor docs · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

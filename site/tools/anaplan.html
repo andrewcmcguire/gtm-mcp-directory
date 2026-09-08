@@ -116,7 +116,356 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://www.anaplan.com/platform/intelligence/ - the &quot;Anaplan AI Gateway&quot; feature page states: &quot;Securely connect any LLM interface or enterprise agent to Anaplan through a governed MCP connection, with controls for permissions, auditability, consumption management, and rate limiting.&quot; No separate dedicated MCP docs/repo page was found beyond this feature description. The only resolving server URL found for Anaplan is third-party, not first-party: https://github.com/larasrinath/anaplan-mcp (individually owned, community at most).</p><ul><li><a href="https://www.anaplan.com/platform/intelligence/" rel="noopener nofollow">https://www.anaplan.com/platform/intelligence/</a></li><li><a href="https://github.com/larasrinath/anaplan-mcp" rel="noopener nofollow">https://github.com/larasrinath/anaplan-mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://www.anaplan.com/platform/intelligence/ - the &quot;Anaplan AI Gateway&quot; feature page states: &quot;Securely connect any LLM interface or enterprise agent to Anaplan through a governed MCP connection, with controls for permissions, auditability, consumption management, and rate limiting.&quot; No separate dedicated MCP docs/repo page was found beyond this feature description. The only resolving server URL found for Anaplan is third-party, not first-party: https://github.com/larasrinath/anaplan-mcp (individually owned, community at most).</p><ul><li><a href="https://www.anaplan.com/platform/intelligence/" rel="noopener nofollow">https://www.anaplan.com/platform/intelligence/</a></li><li><a href="https://github.com/larasrinath/anaplan-mcp" rel="noopener nofollow">https://github.com/larasrinath/anaplan-mcp</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">70</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">larasrinath/anaplan-mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">third-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.</p><ul class="caplist"><li>
+<div class="tn"><b>add_list_items</b></div>
+<div class="td">Add new items to a list. Supports parent (hierarchy placement) and subsets (subset membership). Use show_lists to find listId. Item names must be unique.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>bulk_delete_models</b></div>
+<div class="td">Bulk delete closed models (WARNING: irreversible). Models must be closed first.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_task</b></div>
+<div class="td">Cancel a running task. taskId comes from the run_* response or show_tasks.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>close_model</b></div>
+<div class="td">Close (archive) a model. Requires workspace admin. Must be closed before bulk_delete_models.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_list_readrequest</b></div>
+<div class="td">Start a large volume list read (for lists too large for get_list_items). Lifecycle: create -&gt; poll with get_list_readrequest -&gt; download pages with get_list_readrequest_page -&gt; cleanup with delete_list_readrequest.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_view_readrequest</b></div>
+<div class="td">Start a large volume view read (for views too large for read_cells). Lifecycle: create -&gt; poll with get_view_readrequest -&gt; download pages with get_view_readrequest_page -&gt; cleanup with delete_view_readrequest.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_file</b></div>
+<div class="td">Delete a file from a model (WARNING: irreversible). Use show_files to find the fileId.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_list_items</b></div>
+<div class="td">Remove items from a list (WARNING: irreversible). Specify id or code for each item. Use get_list_items to find values.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_list_readrequest</b></div>
+<div class="td">Delete a large volume list read request to free server resources. Always call this after downloading all pages.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_view_readrequest</b></div>
+<div class="td">Delete a large volume view read request to free server resources. Always call this after downloading all pages.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>download_file</b></div>
+<div class="td">Download file content from a model. Text files are returned inline; for binary files, set saveToDownloads=true to preserve the exact bytes.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>download_importdump</b></div>
+<div class="td">Download error details from a failed import task as CSV. Data is ephemeral (~48 hours). Prerequisites: importId from show_imports, taskId from run_import response or show_tasks.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>download_optimizer_log</b></div>
+<div class="td">Download Optimizer solver log for a completed optimizer action. Logs are removed after 48 hours.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>download_processdump</b></div>
+<div class="td">Download error details from a failed process task as CSV. Data is ephemeral (~48 hours). Prerequisites: processId from show_processes, taskId from run_process response, objectId from the failed step.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_action_status</b></div>
+<div class="td">Check status of a running task. Poll until taskState is COMPLETE or FAILED. Use includeProcessDetails=true for step timing. taskId from run_* response.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_list_items</b></div>
+<div class="td">Get items in a list. Use includeAll=true for subsets, properties, and selective access details. Returns item IDs for write_cells. For &gt;1M items, use create_list_readrequest.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_list_readrequest</b></div>
+<div class="td">Poll status of a large volume list read. When status is COMPLETE, use get_list_readrequest_page to download each page. requestId comes from create_list_readrequest response.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_list_readrequest_page</b></div>
+<div class="td">Download one page (CSV) from a completed large volume list read. Pages are 0-based. After all pages, use delete_list_readrequest.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_view_readrequest</b></div>
+<div class="td">Poll status of a large volume view read. When status is COMPLETE, use get_view_readrequest_page to download each page (0-based). requestId comes from create_view_readrequest response.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_view_readrequest_page</b></div>
+<div class="td">Download one page (CSV) from a completed large volume view read. Pages are 0-based. After downloading all pages, use delete_view_readrequest to free server resources.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>lookup_dimensionitems</b></div>
+<div class="td">Look up dimension items by name or code to get their IDs. Useful for resolving human-readable names to itemIds before write_cells.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>open_model</b></div>
+<div class="td">Open (wake up) a model. May return 202 if model is loading.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>preview_list</b></div>
+<div class="td">Preview up to 1000 records from a large list (CSV) before initiating a full large read request</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>read_cells</b></div>
+<div class="td">Read cell data from a module view. Use pages param to select specific page dimensions. For reports across ALL products/customers, use run_export instead -- do NOT call read_cells in a loop per item. viewId can be a saved view or moduleId (d</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>reset_list_index</b></div>
+<div class="td">Reset list item index numbering. Note: requires model ID and list ID (name resolution not supported for this tool).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>run_delete</b></div>
+<div class="td">Execute a delete action on a model. Use show_actions first to find the delete action ID.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>run_export</b></div>
+<div class="td">Execute an export and return the data inline. Best for bulk reports across all products/customers/regions -- prefer this over calling read_cells in a loop. Handles the full run-wait-download lifecycle. Use show_exports first.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>run_import</b></div>
+<div class="td">Upload CSV/JSON data to a file, then execute an import action. Use mappingParameters to target a specific dimension (e.g., import into</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>run_process</b></div>
+<div class="td">Execute a process (chain of imports/exports/deletes). Use mappingParameters to target a specific dimension at runtime. Use show_processes first. Monitor with get_action_status; download_processdump for failures.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>set_currentperiod</b></div>
+<div class="td">Set current period for a model (WARNING: may cause data loss if periods are removed). Use show_currentperiod to see the current value first.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>set_fiscalyear</b></div>
+<div class="td">Update fiscal year for model calendar (WARNING: may affect time ranges). Use show_modelcalendar to see the current value first.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>set_versionswitchover</b></div>
+<div class="td">Set version switchover date (WARNING: affects version boundaries). Use show_versions to find versionId. Note: requires model ID (name resolution not supported).</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_actiondetails</b></div>
+<div class="td">Get action definition metadata. Use run_delete to execute delete actions.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_actions</b></div>
+<div class="td">List available actions (including delete actions) in a model. Use run_delete to execute a delete action.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_alllineitems</b></div>
+<div class="td">List all line items in a model (cross-module). Note: requires model ID (name resolution not supported). Use includeAll=true for formulas and dimensions.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_allmodels</b></div>
+<div class="td">List all models across all workspaces. Filter by state param (PRODUCTION, UNLOCKED, etc). Use modelDetails=true for memory/dates. Returns IDs needed by ID-only tools.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_allviews</b></div>
+<div class="td">List all views in a model (cross-module, includes default and saved). Note: requires model ID (name resolution not supported).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_currentperiod</b></div>
+<div class="td">Get current period for a model. Use set_currentperiod to change it.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_currentuser</b></div>
+<div class="td">Get current authenticated user info</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_dimensionitems</b></div>
+<div class="td">List all items in a dimension. Returns itemId values needed for write_cells dimension coordinates. Note: requires model ID (name resolution not supported).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_exportdetails</b></div>
+<div class="td">Get export definition metadata including format and target.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_exports</b></div>
+<div class="td">List available export actions. Use run_export to execute and download data in one step.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_files</b></div>
+<div class="td">List files in a model. File IDs are needed for upload_file (before run_import) and download_file.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_importdetails</b></div>
+<div class="td">Get import definition metadata including source file and column mapping. Check this before run_import to understand the expected data format.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_imports</b></div>
+<div class="td">List available import actions in a model. Use show_importdetails to see source file and mapping, then run_import to execute.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_lineitem_dimensions</b></div>
+<div class="td">List dimensions for a line item. Returns dimensionId values needed by write_cells and show_dimensionitems. Note: requires model ID (name resolution not supported).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_lineitem_dimensions_items</b></div>
+<div class="td">List dimension items for a specific line item</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_lineitems</b></div>
+<div class="td">List line items in a module. Line item IDs are needed for write_cells. Use includeAll=true for formulas, formats, and dimensions.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_listmetadata</b></div>
+<div class="td">Get list metadata including properties, parent, and item count.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_lists</b></div>
+<div class="td">List all dimensions (lists) in a model. List IDs are needed for get_list_items, add/update/delete_list_items, and large volume list reads.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_modelcalendar</b></div>
+<div class="td">Get model calendar including fiscal year settings. Use set_fiscalyear to change the fiscal year.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_modeldetails</b></div>
+<div class="td">Get model details including status and workspace binding.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_models</b></div>
+<div class="td">List models in a workspace. Filter by state param (PRODUCTION, UNLOCKED, etc). Use modelDetails=true for memory/dates. Use show_modules next.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_modelstatus</b></div>
+<div class="td">Check model status including memory usage and export progress.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_moduledetails</b></div>
+<div class="td">Get module details with default view dimension metadata (rows, columns, pages). The default viewId equals the moduleId -- use it with read_cells directly.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_modules</b></div>
+<div class="td">List all modules in a model. Use show_lineitems to see a module</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_processdetails</b></div>
+<div class="td">Get process definition metadata including the chain of import/export actions.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_processes</b></div>
+<div class="td">List available processes (chained import/export actions). Use run_process to execute, then get_action_status to monitor.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_savedviews</b></div>
+<div class="td">List saved views in a module. Use includeSubsidiaryViews=true for unsaved subsidiary views. View IDs needed for read_cells. Tip: moduleId works as default viewId.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_tasks</b></div>
+<div class="td">List task history for an import, export, process, or action. Returns taskIds for use with get_action_status, cancel_task, or download_importdump/download_processdump.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_userdetails</b></div>
+<div class="td">Get user details by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_users</b></div>
+<div class="td">List all users in the tenant</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_versions</b></div>
+<div class="td">List version metadata (Current, Forecast, etc.) for a model. Version IDs are needed for set_versionswitchover. Note: requires model ID (name resolution not supported).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_viewdetails</b></div>
+<div class="td">Get view dimension layout (rows, columns, pages). Dimension IDs from here are needed for write_cells and show_viewdimensionitems.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_viewdimensionitems</b></div>
+<div class="td">List items in a dimension as filtered by a view. Useful for understanding what data a view includes. Note: requires model ID (name resolution not supported).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_workspacedetails</b></div>
+<div class="td">Get workspace details including size and active status.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>show_workspaces</b></div>
+<div class="td">List all accessible Anaplan workspaces. Use tenantDetails=true for size/quota info. Start here, then use show_models.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_list_items</b></div>
+<div class="td">Update existing items in a list. Use get_list_items to find item IDs. Important: if an item has a code value, you must include the code field in the update or Anaplan returns an error.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>upload_file</b></div>
+<div class="td">Upload CSV or text data to an Anaplan file (overwrites existing). Use compress=true for large files (&gt;50MB). Typically followed by run_import. Use show_files for fileId.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>write_cells</b></div>
+<div class="td">Write values to specific cells. Supports both ID-based and name-based targeting: use lineItemName/dimensionName/itemName instead of IDs to skip the dimension resolution chain. For ID-based writes, use show_lineitem_dimensions then show_dime</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
@@ -142,6 +491,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -150,6 +502,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

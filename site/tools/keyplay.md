@@ -41,7 +41,8 @@ Account selection / ICP modeling and continuous re-scoring layer, sitting upstre
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,29 @@ https://api.keyplay.io/mcp ; https://docs.keyplay.io/en/articles/13643214-keypla
 
 - [https://api.keyplay.io/mcp](https://api.keyplay.io/mcp)
 - [https://docs.keyplay.io/en/articles/13643214-keyplay-mcp](https://docs.keyplay.io/en/articles/13643214-keyplay-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 6
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **filter_accounts** Filter and browse millions of accounts using criteria evidence: in the vendor docs · calling it reads
+
+- **get_account_data** Get detailed enrichment data for a specific account by ID evidence: in the vendor docs · calling it reads
+
+- **list_filter_options** Discover valid IDs for use with filter_accounts evidence: in the vendor docs · calling it reads
+
+- **search_accounts** Look up a specific company by name, domain, or LinkedIn URL evidence: in the vendor docs · calling it reads
+
+- **switch_customer** Set the active workspace for the current OAuth/SSO session evidence: in the vendor docs · calling it writes
+
+- **whoami** Get current MCP authentication and customer context evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

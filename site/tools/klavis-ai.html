@@ -113,7 +113,131 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted Strata server; endpoint https://strata.klavis.ai/mcp/ per the official registry entry ai.klavis/strata; source at https://github.com/Klavis-AI/klavis, Apache-2.0)</p><ul><li><a href="https://www.klavis.ai/docs/concepts/strata.md" rel="noopener nofollow">https://www.klavis.ai/docs/concepts/strata.md</a></li><li><a href="https://strata.klavis.ai/mcp/" rel="noopener nofollow">https://strata.klavis.ai/mcp/</a></li><li><a href="https://github.com/Klavis-AI/klavis" rel="noopener nofollow">https://github.com/Klavis-AI/klavis</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted Strata server; endpoint https://strata.klavis.ai/mcp/ per the official registry entry ai.klavis/strata; source at https://github.com/Klavis-AI/klavis, Apache-2.0)</p><ul><li><a href="https://www.klavis.ai/docs/concepts/strata.md" rel="noopener nofollow">https://www.klavis.ai/docs/concepts/strata.md</a></li><li><a href="https://strata.klavis.ai/mcp/" rel="noopener nofollow">https://strata.klavis.ai/mcp/</a></li><li><a href="https://github.com/Klavis-AI/klavis" rel="noopener nofollow">https://github.com/Klavis-AI/klavis</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">25</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">Klavis-AI/klavis</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>shopify_adjust_inventory</b></div>
+<div class="td">Adjust the inventory quantity for an item at a specific location. Use this to add or remove stock after receiving shipments, cycle counts, damaged goods, or other inventory adjustments. Provide a positive number to increase stock or negativ</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shopify_create_collection</b></div>
+<div class="td">Create a new product collection in your Shopify store. Collections help organize products for easier browsing. Custom collections require you to manually add products later. Smart collections automatically include products based on rules yo</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shopify_create_discount</b></div>
+<div class="td">Create a new discount/price rule in your Shopify store. Discounts can be percentage-based (e.g., 20% off) or fixed amount (e.g., $10 off). They can apply to line items (products) or shipping. Configure target selection (all products or spec</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shopify_create_draft_order</b></div>
+<div class="td">Create a new draft order in your Shopify store. Draft orders are perfect for processing orders over the phone, via email, or for custom quotes. They allow you to create an order, potentially apply custom pricing or discounts, and send an in</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>shopify_create_fulfillment</b></div>
+<div class="td">Create a new fulfillment (shipment) for an order. Use this when you</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shopify_create_order</b></div>
+<div class="td">Create a new order in the Shopify store programmatically. Useful for creating orders from external systems, processing phone orders, or creating manual orders for customers. Requires line items with product variant IDs and quantities. Can o</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shopify_create_product</b></div>
+<div class="td">Create a new product in the Shopify store with full configuration. Allows setting title, HTML description, vendor, product type, tags, status (active/draft/archived), and variants. Each variant can have its own price, SKU, inventory quantit</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_collection</b></div>
+<div class="td">Get detailed information about a specific collection by ID. Returns complete collection details including title, description (body_html), handle (URL slug), publication date and scope, sort order for products, collection type (custom or sma</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_customer</b></div>
+<div class="td">Get comprehensive details about a specific customer by ID. Returns complete customer profile including personal information (name, email, phone), order history (total orders, total spent), addresses (default and additional), marketing prefe</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_discount</b></div>
+<div class="td">Get detailed information about a specific discount/price rule by ID. Returns complete discount configuration including title, value type and amount, what it targets (products or shipping), how it</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_draft_order</b></div>
+<div class="td">Get comprehensive details about a specific draft order by ID. Returns complete draft order information including order name, status, customer details, all line items with pricing, subtotal/taxes/total, shipping and billing addresses, notes,</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_inventory_levels</b></div>
+<div class="td">Get current stock levels for inventory items across your locations. Inventory levels show how much stock is available for each product variant at each location. Returns inventory item ID, location ID, available quantity, and last updated ti</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_location</b></div>
+<div class="td">Get detailed information about a specific location by ID. Returns complete location details including name, full address components, contact phone, active status, legacy flag, localized country/province names, and location capabilities. Use</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_order</b></div>
+<div class="td">Get complete details about a specific order by ID. Returns comprehensive order information including order number, customer information (name, email, phone), all line items with product details and quantities, pricing breakdown (subtotal, t</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_get_product</b></div>
+<div class="td">Get comprehensive details about a specific product by ID. Returns complete product information including title, description, body HTML, vendor, product type, tags, status, all variants with pricing and inventory, product options (size, colo</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_collections</b></div>
+<div class="td">List all product collections in your Shopify store, including both custom collections (manually curated) and smart collections (automatically populated based on rules). Returns collection details including title, handle, description, public</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_customers</b></div>
+<div class="td">List and browse all customers in your Shopify store with pagination. Returns customer information including name, email, phone number, total orders count, total amount spent, customer tags, marketing preferences, account status, default add</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_discounts</b></div>
+<div class="td">List all discount codes and automatic discounts (price rules) in your Shopify store. Price rules define the discount logic and can have multiple discount codes associated with them. Returns discount details including title, value type (perc</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_draft_orders</b></div>
+<div class="td">List draft orders in your Shopify store with optional filtering. Draft orders are orders created by merchants that haven</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_fulfillments</b></div>
+<div class="td">List all fulfillments (shipments) for a specific order. Fulfillments represent shipments sent to customers and track which items were shipped, tracking information, and shipment status. Returns fulfillment ID, status (pending, open, success</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_inventory_items</b></div>
+<div class="td">List inventory items in your Shopify store with optional filtering. Each product variant has an associated inventory item that tracks stock across locations. Returns inventory item details including SKU, cost, tracked status, shipping requi</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_locations</b></div>
+<div class="td">List all physical and virtual locations/warehouses configured in your Shopify store. Locations represent places where you stock and ship inventory from (warehouses, retail stores, pop-up shops, etc.). Returns location details including name</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_orders</b></div>
+<div class="td">List and search orders in your Shopify store with filtering by status. Returns comprehensive order information including order number, customer details, line items with products and quantities, pricing (subtotal, taxes, discounts, total), p</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>shopify_list_products</b></div>
+<div class="td">Search and list products in your Shopify store with advanced filtering. Returns comprehensive product details including title, description, vendor, pricing, product type, variants, images, and inventory status. Use this to find products by</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>shopify_update_product</b></div>
+<div class="td">Update an existing product</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Gate unknown</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not established</div></div>
 </div>
@@ -139,6 +263,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -147,6 +274,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

@@ -41,7 +41,8 @@ Point enrichment/verification step (single lookups or bulk CSV) feeding a sequen
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -55,6 +56,57 @@ https://github.com/LeadMagic/leadmagic-mcp (hosted endpoint: https://mcp.leadmag
 
 - [https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp)
 - [https://mcp.leadmagic.io/mcp](https://mcp.leadmagic.io/mcp)
+
+**What this server exposes**
+
+- **Tools named**: 19
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: LeadMagic/leadmagic-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **email_to_profile** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **find_email** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **find_employees** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **find_jobs** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **find_mobile** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **find_personal_email** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **find_role** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_b2b_ad_details** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_company_funding** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_credits** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_job_countries** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_job_types** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **search_b2b_ads** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **search_company** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **search_google_ads** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **search_meta_ads** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **search_profile** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **social_to_work_email** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **validate_email** No description was recorded with the name. evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

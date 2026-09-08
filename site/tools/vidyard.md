@@ -41,7 +41,8 @@ Personalized video touchpoints inside outbound sequences (Salesloft, Outreach, A
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://viasocket.com/mcp/vidyard](https://viasocket.com/mcp/vidyard)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://viasocket.com/mcp/vidyard](https://viasocket.com/mcp/vidyard)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -54,6 +55,12 @@ mcp_url, verbatim from the file:
 https://viasocket.com/mcp/vidyard (third-party viaSocket connector; no vendor-published or GitHub/registry-listed dedicated server found on mcp.so, glama.ai, or pulsemcp.com)
 
 - [https://viasocket.com/mcp/vidyard](https://viasocket.com/mcp/vidyard)
+
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
 **Access gate**
 

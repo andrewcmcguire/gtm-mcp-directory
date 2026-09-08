@@ -121,7 +121,276 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.seamless.ai/mcp ; https://docs.seamless.ai/mcp-docs (hosted endpoint https://mcp.seamless.ai/mcp)</p><ul><li><a href="https://mcp.seamless.ai/mcp" rel="noopener nofollow">https://mcp.seamless.ai/mcp</a></li><li><a href="https://docs.seamless.ai/mcp-docs" rel="noopener nofollow">https://docs.seamless.ai/mcp-docs</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.seamless.ai/mcp ; https://docs.seamless.ai/mcp-docs (hosted endpoint https://mcp.seamless.ai/mcp)</p><ul><li><a href="https://mcp.seamless.ai/mcp" rel="noopener nofollow">https://mcp.seamless.ai/mcp</a></li><li><a href="https://docs.seamless.ai/mcp-docs" rel="noopener nofollow">https://docs.seamless.ai/mcp-docs</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">54</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>add_contacts_to_campaign</b></div>
+<div class="td">Add saved contacts.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, contactIds</div>
+</li>
+<li>
+<div class="tn"><b>clone_campaign</b></div>
+<div class="td">Copy campaign (steps, not contacts).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>create_campaign</b></div>
+<div class="td">Create a campaign; optional inline steps and contactIds.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>create_campaign_step</b></div>
+<div class="td">Add email, call, or task step.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, type, content</div>
+</li>
+<li>
+<div class="tn"><b>create_email_draft</b></div>
+<div class="td">Create draft (not sent).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_list</b></div>
+<div class="td">Create a new contact list.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>create_saved_search</b></div>
+<div class="td">Save search filter values as a named saved search.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: type, values</div>
+</li>
+<li>
+<div class="tn"><b>create_task</b></div>
+<div class="td">Create email, call, or custom task.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: taskType</div>
+</li>
+<li>
+<div class="tn"><b>create_template</b></div>
+<div class="td">Create template with subject and body.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: name, subject, body</div>
+</li>
+<li>
+<div class="tn"><b>delete_campaign</b></div>
+<div class="td">Delete campaign and all steps/tasks.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>delete_campaign_step</b></div>
+<div class="td">Delete a step.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: stepId</div>
+</li>
+<li>
+<div class="tn"><b>delete_list</b></div>
+<div class="td">Permanently delete a list (not the contacts).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_saved_search</b></div>
+<div class="td">Permanently delete a saved search.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_task</b></div>
+<div class="td">Permanently delete a task.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_template</b></div>
+<div class="td">Permanently delete a template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>execute_campaign_action</b></div>
+<div class="td">Control campaign lifecycle: start, pause, resume, complete, archive.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, action</div>
+</li>
+<li>
+<div class="tn"><b>execute_campaign_step_action</b></div>
+<div class="td">Pause, resume, or skip a step.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: stepId, action</div>
+</li>
+<li>
+<div class="tn"><b>execute_task_action</b></div>
+<div class="td">pause, reschedule, complete, cancel, etc.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_activity_feed</b></div>
+<div class="td">Engagement feed: opens, replies, bounces, calls.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_campaign_metrics</b></div>
+<div class="td">Per-step engagement metrics.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>get_credits</b></div>
+<div class="td">Current credit balance and usage.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_email_draft</b></div>
+<div class="td">Retrieve a draft.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_lists</b></div>
+<div class="td">List all contact lists, or get one by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_my_companies</b></div>
+<div class="td">Saved/researched companies within a date range (max 30 days).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: startDate, endDate</div>
+</li>
+<li>
+<div class="tn"><b>get_my_contacts</b></div>
+<div class="td">Saved/researched contacts within a date range (max 30 days).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: startDate, endDate</div>
+</li>
+<li>
+<div class="tn"><b>list_call_dispositions</b></div>
+<div class="td">List disposition options (e.g. Left Voicemail).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_call_sentiments</b></div>
+<div class="td">List sentiment options (e.g. Positive).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_campaign_contacts</b></div>
+<div class="td">List contacts with engagement status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>list_campaign_steps</b></div>
+<div class="td">List steps with type, status, delay.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>list_campaigns</b></div>
+<div class="td">List campaigns or get one by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_email_accounts</b></div>
+<div class="td">List connected sender addresses.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_email_footers</b></div>
+<div class="td">List email footers for campaigns and templates.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_saved_searches</b></div>
+<div class="td">List all saved searches, or get one by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_tasks</b></div>
+<div class="td">List tasks or get one by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_templates</b></div>
+<div class="td">List templates or get one by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>log_call</b></div>
+<div class="td">Log call outcome for a contact.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: contactId</div>
+</li>
+<li>
+<div class="tn"><b>poll_company_research</b></div>
+<div class="td">Check status of company enrichment requests.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: requestIds</div>
+</li>
+<li>
+<div class="tn"><b>poll_contact_research</b></div>
+<div class="td">Check status of contact enrichment requests.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: requestIds</div>
+</li>
+<li>
+<div class="tn"><b>remove_contacts_from_campaign</b></div>
+<div class="td">Remove contacts.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, contactIds</div>
+</li>
+<li>
+<div class="tn"><b>research_companies</b></div>
+<div class="td">Enrich companies for revenue, size, technologies, etc.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: searchResultIds</div>
+</li>
+<li>
+<div class="tn"><b>research_contacts</b></div>
+<div class="td">Enrich contacts for verified email and phone.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_companies</b></div>
+<div class="td">Search companies by name, domain, industry, size, revenue, and more. Returns a paginated table.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_contacts</b></div>
+<div class="td">Search contacts by company, job title, seniority, location, industry, and more. Returns a paginated table.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>send_bulk_email</b></div>
+<div class="td">Send to contacts matching filters.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>send_email</b></div>
+<div class="td">Send in one step.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: contactId, from, to</div>
+</li>
+<li>
+<div class="tn"><b>send_email_draft</b></div>
+<div class="td">Send a saved draft.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>send_email_preview</b></div>
+<div class="td">Send preview to yourself before launch.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_campaign</b></div>
+<div class="td">Update name, visibility, or linked email accounts.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>update_campaign_step</b></div>
+<div class="td">Update step content or position.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: stepId</div>
+</li>
+<li>
+<div class="tn"><b>update_email_draft</b></div>
+<div class="td">Update draft content.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_list</b></div>
+<div class="td">Rename an existing list.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>update_saved_search</b></div>
+<div class="td">Update name, values, or sort options.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_task</b></div>
+<div class="td">Update name, due date, priority, status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_template</b></div>
+<div class="td">Update name, subject, or body.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
@@ -147,6 +416,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -155,6 +427,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

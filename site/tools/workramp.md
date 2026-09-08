@@ -41,7 +41,8 @@ Onboarding/enablement LMS layer, reachable by AI agents only through third-party
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -57,6 +58,83 @@ https://app.workramp.com/mcp ; https://zapier.com/mcp/workramp ; https://viasock
 - [https://zapier.com/mcp/workramp](https://zapier.com/mcp/workramp)
 - [https://viasocket.com/mcp/workramp](https://viasocket.com/mcp/workramp)
 - [https://github.com/msdanyg/workramp-mcp](https://github.com/msdanyg/workramp-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 31
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: msdanyg/workramp-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **workramp_academy_get_registrations** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_academy_list_certifications** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_academy_list_collections** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_academy_list_contacts** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_academy_list_paths** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_academy_list_trainings** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_create_guide_assignment** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_create_item_folder** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_create_path_assignment** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_create_user** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_get_certification_awards** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_get_content_catalog** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_get_group_users** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_get_item_folder** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_get_user_assignments** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_get_user_awards** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_certifications** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_events** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_groups** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_guide_assignments** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_guides** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_item_folders** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_path_assignments** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_paths** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_resources** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_scorm_assignments** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_scorm_courses** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_list_users** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_search_libraries** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_test_connection** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **workramp_update_user** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

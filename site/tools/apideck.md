@@ -41,7 +41,8 @@ One integration layer so an agent can read and write across every CRM in a portf
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -55,6 +56,63 @@ https://github.com/apideck-libraries/mcp (docs: https://developers.apideck.com/m
 
 - [https://github.com/apideck-libraries/mcp](https://github.com/apideck-libraries/mcp)
 - [https://developers.apideck.com/mcp](https://developers.apideck.com/mcp)
+
+**What this server exposes**
+
+- **Tools named**: 22
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: apideck-libraries/mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **API** Tools evidence: in a README table · calling it reads
+
+- **ATS** 15 evidence: in a README table · calling it reads
+
+- **Accounting** 143 evidence: in a README table · calling it reads
+
+- **CRM** 50 evidence: in a README table · calling it reads
+
+- **Connector** 8 evidence: in a README table · calling it reads
+
+- **Ecommerce** 7 evidence: in a README table · calling it reads
+
+- **HRIS** 25 evidence: in a README table · calling it reads
+
+- **Header** Description evidence: in a README table · calling it reads
+
+- **Mode** Tools exposed evidence: in a README table · calling it reads
+
+- **Proxy** 6 evidence: in a README table · calling it reads
+
+- **Scope** HTTP methods evidence: in a README table · calling it reads
+
+- **Vault** 23 evidence: in a README table · calling it reads
+
+- **Webhook** 6 evidence: in a README table · calling it reads
+
+- **apideck-month-end-close-check** Fans out aged-creditors, aged-debtors, balance-sheet, and P&L in parallel. Returns a partial result when some reports aren't supported by the connector. evidence: in a README table · calling it reads
+
+- **code** `apideck_search` + `apideck_run` evidence: in a README table · calling it reads
+
+- **destructive** DELETE evidence: in a README table · calling it writes
+
+- **read** GET, HEAD evidence: in a README table · calling it reads
+
+- **static** All 330 tools evidence: in a README table · calling it reads
+
+- **write** POST, PUT, PATCH evidence: in a README table · calling it writes
+
+- **x-apideck-api-key** Your Apideck API key evidence: in a README table · calling it reads
+
+- **x-apideck-app-id** Your Apideck application ID evidence: in a README table · calling it reads
+
+- **x-apideck-consumer-id** The end-user / customer ID in your app (**optional** - see below) evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

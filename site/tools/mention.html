@@ -115,7 +115,71 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing.
 The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/MaelitoP/mention-mcp-server (third-party; not published by Mention)</p><ul><li><a href="https://github.com/MaelitoP/mention-mcp-server" rel="noopener nofollow">https://github.com/MaelitoP/mention-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/MaelitoP/mention-mcp-server (third-party; not published by Mention)</p><ul><li><a href="https://github.com/MaelitoP/mention-mcp-server" rel="noopener nofollow">https://github.com/MaelitoP/mention-mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">13</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">MaelitoP/mention-mcp-server</div></div><div><div class="bk">Whose repo</div><div class="bv">third-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.</p><ul class="caplist"><li>
+<div class="tn"><b>build-boolean-query</b></div>
+<div class="td">Generate a valid Boolean query string using Boolean operators, quoted terms, proximity, and field selectors</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_advanced_alert</b></div>
+<div class="td">Create a new advanced monitoring alert with boolean query syntax. Advanced alerts use complex query strings with boolean operators like AND, OR, NOT.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_basic_alert</b></div>
+<div class="td">Create a new basic monitoring alert. Basic alerts use simple keyword matching with included_keywords, required_keywords, and excluded_keywords arrays.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>fetch_alert_stats</b></div>
+<div class="td">Retrieve comprehensive statistics for one or more alerts including mentions per interval, tones, influencers, geographical data, and reach metrics. Supports flexible date ranges, filtering, and aggregation options.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>fetch_mentions</b></div>
+<div class="td">Retrieve mentions associated with a specific alert. Supports various filters like source, folder, tone, countries, languages, and advanced search queries.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_account_info</b></div>
+<div class="td">Get current account information including subscription plan, account ID, and capabilities. This tool should be called first to understand account limitations and determine which alert creation tools are available.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_alert</b></div>
+<div class="td">Get detailed information about a specific alert by its ID.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_app_data</b></div>
+<div class="td">Get application configuration data including available languages, countries, sources, colors, and other metadata needed for creating alerts.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>instructions</b></div>
+<div class="td">What the Boolean query should match, e.g.,</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_alerts</b></div>
+<div class="td">List all monitoring alerts for the current account with pagination support.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>pause_alert</b></div>
+<div class="td">Temporarily pause monitoring for a specific alert.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>unpause_alert</b></div>
+<div class="td">Resume monitoring for a previously paused alert.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_alert</b></div>
+<div class="td">Update an existing alert with new criteria or settings.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -141,6 +205,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -149,6 +216,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

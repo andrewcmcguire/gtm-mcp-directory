@@ -120,7 +120,81 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 no recorded MCP URL answered.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://api.grain.com/_/mcp ; https://developers.grain.com/mcp (server endpoint https://api.grain.com/_/mcp)</p><ul><li><a href="https://api.grain.com/_/mcp" rel="noopener nofollow">https://api.grain.com/_/mcp</a></li><li><a href="https://developers.grain.com/mcp" rel="noopener nofollow">https://developers.grain.com/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://api.grain.com/_/mcp ; https://developers.grain.com/mcp (server endpoint https://api.grain.com/_/mcp)</p><ul><li><a href="https://api.grain.com/_/mcp" rel="noopener nofollow">https://api.grain.com/_/mcp</a></li><li><a href="https://developers.grain.com/mcp" rel="noopener nofollow">https://developers.grain.com/mcp</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">15</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>fetch_deal</b></div>
+<div class="td">Get detailed deal information</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: deal_id</div>
+</li>
+<li>
+<div class="tn"><b>fetch_meeting</b></div>
+<div class="td">Get detailed information about a specific meeting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting_id</div>
+</li>
+<li>
+<div class="tn"><b>fetch_meeting_coaching_feedback</b></div>
+<div class="td">Get detailed coaching scorecard for specific meeting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting_id</div>
+</li>
+<li>
+<div class="tn"><b>fetch_meeting_notes</b></div>
+<div class="td">Get AI-generated meeting notes (more concise than transcripts)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting_id</div>
+</li>
+<li>
+<div class="tn"><b>fetch_meeting_transcript</b></div>
+<div class="td">Retrieve full meeting transcript</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting_id</div>
+</li>
+<li>
+<div class="tn"><b>list_all_deals</b></div>
+<div class="td">Access HubSpot Deal intelligence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_attended_meetings</b></div>
+<div class="td">Get filtered list of all accessible meetings</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_coaching_feedback</b></div>
+<div class="td">Get AI-generated sales coaching insights</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_meetings</b></div>
+<div class="td">Get filtered list of all accessible meetings</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_open_deals</b></div>
+<div class="td">Access HubSpot Deal intelligence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_workspace_users</b></div>
+<div class="td">Get all users in your Grain workspace</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>myself</b></div>
+<div class="td">Get your Grain account information</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_companies</b></div>
+<div class="td">Find companies that participated in meetings when filtering</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: search_strings</div>
+</li>
+<li>
+<div class="tn"><b>search_meetings</b></div>
+<div class="td">Semantic search across all meeting transcripts</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: search_string</div>
+</li>
+<li>
+<div class="tn"><b>search_persons</b></div>
+<div class="td">Search for meeting participants when filtering</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: search_string</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -146,6 +220,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -154,6 +231,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

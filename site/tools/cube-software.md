@@ -57,6 +57,12 @@ https://mcp.cubesoftware.com/ ; https://www.cubesoftware.com/mcp ; docs: https:/
 - [https://www.cubesoftware.com/mcp](https://www.cubesoftware.com/mcp)
 - [https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server](https://help.cubesoftware.com/hc/en-us/articles/45569561283092-Connect-Cube-to-AI-Apps-via-MCP-Server)
 
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

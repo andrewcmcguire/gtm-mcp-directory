@@ -41,7 +41,8 @@ Top-of-funnel prospecting/contact-discovery source - used to build target lists 
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,125 @@ https://mcp.seamless.ai/mcp ; https://docs.seamless.ai/mcp-docs (hosted endpoint
 
 - [https://mcp.seamless.ai/mcp](https://mcp.seamless.ai/mcp)
 - [https://docs.seamless.ai/mcp-docs](https://docs.seamless.ai/mcp-docs)
+
+**What this server exposes**
+
+- **Tools named**: 54
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **add_contacts_to_campaign** Add saved contacts. evidence: in the vendor docs · calling it writes · required: campaignId, contactIds
+
+- **clone_campaign** Copy campaign (steps, not contacts). evidence: in the vendor docs · calling it reads · required: id
+
+- **create_campaign** Create a campaign; optional inline steps and contactIds. evidence: in the vendor docs · calling it writes · required: name
+
+- **create_campaign_step** Add email, call, or task step. evidence: in the vendor docs · calling it writes · required: campaignId, type, content
+
+- **create_email_draft** Create draft (not sent). evidence: in the vendor docs · calling it writes
+
+- **create_list** Create a new contact list. evidence: in the vendor docs · calling it writes · required: name
+
+- **create_saved_search** Save search filter values as a named saved search. evidence: in the vendor docs · calling it reads · required: type, values
+
+- **create_task** Create email, call, or custom task. evidence: in the vendor docs · calling it writes · required: taskType
+
+- **create_template** Create template with subject and body. evidence: in the vendor docs · calling it writes · required: name, subject, body
+
+- **delete_campaign** Delete campaign and all steps/tasks. evidence: in the vendor docs · calling it writes · required: id
+
+- **delete_campaign_step** Delete a step. evidence: in the vendor docs · calling it writes · required: stepId
+
+- **delete_list** Permanently delete a list (not the contacts). evidence: in the vendor docs · calling it writes
+
+- **delete_saved_search** Permanently delete a saved search. evidence: in the vendor docs · calling it writes
+
+- **delete_task** Permanently delete a task. evidence: in the vendor docs · calling it writes
+
+- **delete_template** Permanently delete a template. evidence: in the vendor docs · calling it writes
+
+- **execute_campaign_action** Control campaign lifecycle: start, pause, resume, complete, archive. evidence: in the vendor docs · calling it writes · required: campaignId, action
+
+- **execute_campaign_step_action** Pause, resume, or skip a step. evidence: in the vendor docs · calling it reads · required: stepId, action
+
+- **execute_task_action** pause, reschedule, complete, cancel, etc. evidence: in the vendor docs · calling it reads
+
+- **get_activity_feed** Engagement feed: opens, replies, bounces, calls. evidence: in the vendor docs · calling it reads
+
+- **get_campaign_metrics** Per-step engagement metrics. evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **get_credits** Current credit balance and usage. evidence: in the vendor docs · calling it reads
+
+- **get_email_draft** Retrieve a draft. evidence: in the vendor docs · calling it reads
+
+- **get_lists** List all contact lists, or get one by ID. evidence: in the vendor docs · calling it reads
+
+- **get_my_companies** Saved/researched companies within a date range (max 30 days). evidence: in the vendor docs · calling it reads · required: startDate, endDate
+
+- **get_my_contacts** Saved/researched contacts within a date range (max 30 days). evidence: in the vendor docs · calling it reads · required: startDate, endDate
+
+- **list_call_dispositions** List disposition options (e.g. Left Voicemail). evidence: in the vendor docs · calling it reads
+
+- **list_call_sentiments** List sentiment options (e.g. Positive). evidence: in the vendor docs · calling it reads
+
+- **list_campaign_contacts** List contacts with engagement status. evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **list_campaign_steps** List steps with type, status, delay. evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **list_campaigns** List campaigns or get one by ID. evidence: in the vendor docs · calling it reads
+
+- **list_email_accounts** List connected sender addresses. evidence: in the vendor docs · calling it reads
+
+- **list_email_footers** List email footers for campaigns and templates. evidence: in the vendor docs · calling it reads
+
+- **list_saved_searches** List all saved searches, or get one by ID. evidence: in the vendor docs · calling it reads
+
+- **list_tasks** List tasks or get one by ID. evidence: in the vendor docs · calling it reads
+
+- **list_templates** List templates or get one by ID. evidence: in the vendor docs · calling it reads
+
+- **log_call** Log call outcome for a contact. evidence: in the vendor docs · calling it reads · required: contactId
+
+- **poll_company_research** Check status of company enrichment requests. evidence: in the vendor docs · calling it reads · required: requestIds
+
+- **poll_contact_research** Check status of contact enrichment requests. evidence: in the vendor docs · calling it reads · required: requestIds
+
+- **remove_contacts_from_campaign** Remove contacts. evidence: in the vendor docs · calling it writes · required: campaignId, contactIds
+
+- **research_companies** Enrich companies for revenue, size, technologies, etc. evidence: in the vendor docs · calling it reads · required: searchResultIds
+
+- **research_contacts** Enrich contacts for verified email and phone. evidence: in the vendor docs · calling it reads
+
+- **search_companies** Search companies by name, domain, industry, size, revenue, and more. Returns a paginated table. evidence: in the vendor docs · calling it reads
+
+- **search_contacts** Search contacts by company, job title, seniority, location, industry, and more. Returns a paginated table. evidence: in the vendor docs · calling it reads
+
+- **send_bulk_email** Send to contacts matching filters. evidence: in the vendor docs · calling it writes
+
+- **send_email** Send in one step. evidence: in the vendor docs · calling it writes · required: contactId, from, to
+
+- **send_email_draft** Send a saved draft. evidence: in the vendor docs · calling it writes
+
+- **send_email_preview** Send preview to yourself before launch. evidence: in the vendor docs · calling it writes
+
+- **update_campaign** Update name, visibility, or linked email accounts. evidence: in the vendor docs · calling it writes · required: id
+
+- **update_campaign_step** Update step content or position. evidence: in the vendor docs · calling it writes · required: stepId
+
+- **update_email_draft** Update draft content. evidence: in the vendor docs · calling it writes
+
+- **update_list** Rename an existing list. evidence: in the vendor docs · calling it reads
+
+- **update_saved_search** Update name, values, or sort options. evidence: in the vendor docs · calling it writes
+
+- **update_task** Update name, due date, priority, status. evidence: in the vendor docs · calling it writes
+
+- **update_template** Update name, subject, or body. evidence: in the vendor docs · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

@@ -56,6 +56,47 @@ https://api.grain.com/_/mcp ; https://developers.grain.com/mcp (server endpoint 
 - [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp)
 - [https://developers.grain.com/mcp](https://developers.grain.com/mcp)
 
+**What this server exposes**
+
+- **Tools named**: 15
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **fetch_deal** Get detailed deal information evidence: in the vendor docs · calling it reads · required: deal_id
+
+- **fetch_meeting** Get detailed information about a specific meeting evidence: in the vendor docs · calling it reads · required: meeting_id
+
+- **fetch_meeting_coaching_feedback** Get detailed coaching scorecard for specific meeting evidence: in the vendor docs · calling it reads · required: meeting_id
+
+- **fetch_meeting_notes** Get AI-generated meeting notes (more concise than transcripts) evidence: in the vendor docs · calling it reads · required: meeting_id
+
+- **fetch_meeting_transcript** Retrieve full meeting transcript evidence: in the vendor docs · calling it reads · required: meeting_id
+
+- **list_all_deals** Access HubSpot Deal intelligence evidence: in the vendor docs · calling it reads
+
+- **list_attended_meetings** Get filtered list of all accessible meetings evidence: in the vendor docs · calling it reads
+
+- **list_coaching_feedback** Get AI-generated sales coaching insights evidence: in the vendor docs · calling it reads
+
+- **list_meetings** Get filtered list of all accessible meetings evidence: in the vendor docs · calling it reads
+
+- **list_open_deals** Access HubSpot Deal intelligence evidence: in the vendor docs · calling it reads
+
+- **list_workspace_users** Get all users in your Grain workspace evidence: in the vendor docs · calling it reads
+
+- **myself** Get your Grain account information evidence: in the vendor docs · calling it reads
+
+- **search_companies** Find companies that participated in meetings when filtering evidence: in the vendor docs · calling it reads · required: search_strings
+
+- **search_meetings** Semantic search across all meeting transcripts evidence: in the vendor docs · calling it reads · required: search_string
+
+- **search_persons** Search for meeting participants when filtering evidence: in the vendor docs · calling it reads · required: search_string
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

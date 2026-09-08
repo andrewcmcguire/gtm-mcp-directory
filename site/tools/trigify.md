@@ -41,7 +41,8 @@ Social/engagement-signal-based prospecting, surfacing warm leads from real-time 
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,27 @@ mcp_url, verbatim from the file:
 https://github.com/bcharleson/trigify-cli
 
 - [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli)
+
+**What this server exposes**
+
+- **Tools named**: 3
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: bcharleson/trigify-cli
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **Endpoint** Method evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Layer** What you get evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Operation** Cost evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

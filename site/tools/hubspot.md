@@ -55,6 +55,67 @@ https://developers.hubspot.com/ai-tools/mcp
 
 - [https://developers.hubspot.com/ai-tools/mcp](https://developers.hubspot.com/ai-tools/mcp)
 
+**What this server exposes**
+
+- **Tools named**: 25
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **discover_hubspot_schema** Search HubSpot schema to discover available object types, or look up specific known types directly evidence: in the vendor docs · calling it reads
+
+- **get_campaign_attribution_reports** Get revenue and deal attribution data for campaigns, scoped to closed-won deal attribution evidence: in the vendor docs · calling it reads
+
+- **get_content_analytics_report** Run content analytics across landing pages, website pages, and blog posts evidence: in the vendor docs · calling it reads
+
+- **get_conversation_channel_metadata** List the inboxes, channels, and channel instances available in the account evidence: in the vendor docs · calling it reads
+
+- **get_crm_objects** Fetch one or more CRM objects by their IDs in a single request evidence: in the vendor docs · calling it reads
+
+- **get_marketing_email_analytics** Get analytics data for marketing emails based on sends within a given date range evidence: in the vendor docs · calling it reads
+
+- **get_organization_details** Lists organization-wide teams, job titles, seat counts, and account information evidence: in the vendor docs · calling it reads
+
+- **get_properties** Get full property definitions, including data types and enumeration values evidence: in the vendor docs · calling it reads
+
+- **get_user_details** Returns the authenticated user's information, account details, and per-object access evidence: in the vendor docs · calling it reads
+
+- **manage_blog_post** Create, update, publish, and inspect HubSpot blog posts evidence: in the vendor docs · calling it writes
+
+- **manage_campaign_objects** Create or update marketing campaigns and manage campaign asset associations evidence: in the vendor docs · calling it writes
+
+- **manage_crm_objects** Create or update CRM records or activities evidence: in the vendor docs · calling it writes
+
+- **manage_landing_page** Create, edit, style, publish, clone, and inspect landing pages evidence: in the vendor docs · calling it writes
+
+- **manage_marketing_email** Manage marketing email settings and content evidence: in the vendor docs · calling it reads
+
+- **manage_onboarding** Assess an account's CRM onboarding status and guide users through onboarding steps evidence: in the vendor docs · calling it reads
+
+- **query_crm_data** Query HubSpot CRM data using SQL with HubSpot-specific extensions evidence: in the vendor docs · calling it reads
+
+- **read_campaign_data** Read campaign analytics, asset metrics, or contact data in a single operation evidence: in the vendor docs · calling it reads
+
+- **render_asset** Display a read-only preview card for a HubSpot asset such as a landing page or blog post evidence: in the vendor docs · calling it writes
+
+- **render_landing_page_ui** Display a landing page preview card with an editor link evidence: in the vendor docs · calling it reads
+
+- **search_conversations** Search conversations and messages from HubSpot inboxes evidence: in the vendor docs · calling it reads
+
+- **search_crm_objects** Search and filter CRM records using filter groups, text queries, sorting, and pagination evidence: in the vendor docs · calling it reads
+
+- **search_owners** Find CRM record owners by name or email, or look up owners by ID evidence: in the vendor docs · calling it reads
+
+- **search_properties** Find property definitions for an object type using keyword search evidence: in the vendor docs · calling it reads
+
+- **submit_feedback** Send feedback about the MCP server experience to HubSpot evidence: in the vendor docs · calling it writes
+
+- **tool_guidance** Retrieve usage instructions and guidance for one or more HubSpot MCP tools evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

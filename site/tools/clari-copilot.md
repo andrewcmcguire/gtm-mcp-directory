@@ -41,7 +41,8 @@ Conversation-intelligence / call-recording layer (Gong-equivalent within the Cla
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -56,6 +57,27 @@ https://mcp.clari.com/mcp ; https://www.scalekit.com/connectors/claricopilot (th
 - [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp)
 - [https://www.scalekit.com/connectors/claricopilot](https://www.scalekit.com/connectors/claricopilot)
 - [https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980](https://community.clari.com/product-q-a-6/why-was-copilot-mcp-server-removed-from-the-july-release-notes-2980)
+
+**What this server exposes**
+
+- **Tools named**: 5
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **clari_call_get** Retrieve a single call with transcript and AI insights. evidence: in the vendor docs · calling it reads · read off scalekit, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **clari_call_transcript** Fetch transcript with speaker attribution and timestamps. evidence: in the vendor docs · calling it reads · read off scalekit, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **clari_calls_list** List Clari Copilot calls with date, rep, and deal filters. evidence: in the vendor docs · calling it reads · read off scalekit, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **clari_deals_signals** Retrieve AI-derived risk and momentum signals for a deal. evidence: in the vendor docs · calling it reads · read off scalekit, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **clari_insights_search** Search insights, action items, and risks across calls. evidence: in the vendor docs · calling it reads · read off scalekit, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

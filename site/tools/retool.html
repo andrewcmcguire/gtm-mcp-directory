@@ -116,7 +116,256 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official (public beta)</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server</p><ul><li><a href="https://mcp.retool.com/mcp" rel="noopener nofollow">https://mcp.retool.com/mcp</a></li><li><a href="https://retool.com/blog/retool-mcp-server" rel="noopener nofollow">https://retool.com/blog/retool-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official (public beta)</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server</p><ul><li><a href="https://mcp.retool.com/mcp" rel="noopener nofollow">https://mcp.retool.com/mcp</a></li><li><a href="https://retool.com/blog/retool-mcp-server" rel="noopener nofollow">https://retool.com/blog/retool-mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">50</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>retool_cancel_react_app_thread_activity</b></div>
+<div class="td">Cancel activity on an active thread.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_create_or_append_react_app_thread_message</b></div>
+<div class="td">Create or update an app from a natural-language prompt.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_create_resource</b></div>
+<div class="td">Create a new resource.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_create_user_invite</b></div>
+<div class="td">Create a user invite.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_delete_user_invite</b></div>
+<div class="td">Delete a user invite by invite ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_delete_user_invite_attribute</b></div>
+<div class="td">Delete a user attribute from a user invite.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_delete_workflow</b></div>
+<div class="td">Delete a workflow by workflow ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_execute_resource_ts</b></div>
+<div class="td">Execute a TypeScript snippet against selected resources.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_finalize_prepared_import</b></div>
+<div class="td">Finalize a two-step import after the source zip is uploaded.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_app</b></div>
+<div class="td">Get a single app by app ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_environment</b></div>
+<div class="td">Get an environment by environment ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_folder</b></div>
+<div class="td">Get a folder by folder ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_group</b></div>
+<div class="td">Get a single permission group by group ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_organization</b></div>
+<div class="td">Get organization settings.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_react_app_thread_activity_status</b></div>
+<div class="td">Check whether an existing thread has active agent work.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_resource</b></div>
+<div class="td">Get metadata for one resource by name.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_resource_ts_definitions</b></div>
+<div class="td">Generate global variable bindings and TypeScript definitions for selected resources.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_user</b></div>
+<div class="td">Get a single user by user ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_user_invite</b></div>
+<div class="td">Get a single user invite by invite ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_get_workflow</b></div>
+<div class="td">Get a workflow by workflow ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_grant_app_access</b></div>
+<div class="td">Grant or update direct access to an app for a user, pending invite, or group.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_app_access</b></div>
+<div class="td">List the users, invited users, and groups that currently have access to an app.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_apps</b></div>
+<div class="td">List apps in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_audit_logs</b></div>
+<div class="td">List audit log events in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_environments</b></div>
+<div class="td">List environments in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_folders</b></div>
+<div class="td">List folders in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_groups</b></div>
+<div class="td">List permission groups in the organization, including their members.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_pending_react_app_function_approvals</b></div>
+<div class="td">List publish-blocking approvals required for mutating functions.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_pending_react_app_thread_reviews</b></div>
+<div class="td">List pending live human-in-the-loop review requests.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_react_app_files</b></div>
+<div class="td">List file paths, sizes, and line counts for an app.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_react_app_threads</b></div>
+<div class="td">List recently active threads for an app.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_resource_folders</b></div>
+<div class="td">List resource folders in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_resources</b></div>
+<div class="td">List resources available in the organization, including databases, APIs, storage, and AI providers.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_user_invites</b></div>
+<div class="td">List user invites in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_users</b></div>
+<div class="td">List users in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_workflows</b></div>
+<div class="td">List workflows in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_list_writable_app_folders</b></div>
+<div class="td">List the app folders the authenticated user can create apps in.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_publish_react_app</b></div>
+<div class="td">Publish a thread using the same publish flow as the app builder.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_read_react_app_files</b></div>
+<div class="td">Read the contents of specific files in an app.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_read_react_app_thread_stream</b></div>
+<div class="td">Fetch the most recent persisted chat messages for an existing thread.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_report_tool_usage_feedback</b></div>
+<div class="td">Report feedback about MCP tool usage.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_respond_to_react_app_thread_review</b></div>
+<div class="td">Wait for a pending review request and submit the response.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_revoke_app_access</b></div>
+<div class="td">Revoke direct app access for a user, pending invite, or group.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_search_app_share_subjects</b></div>
+<div class="td">Search the app sharing directory for users, pending invites, and groups.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_set_user_invite_attribute</b></div>
+<div class="td">Create or update a user attribute on a user invite.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_start_prepared_import</b></div>
+<div class="td">Start a two-step import of a large existing app.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_submit_prepared_import</b></div>
+<div class="td">Import an existing app in one step.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>retool_sync_react_app_thread</b></div>
+<div class="td">Sync an app&#x27;s thread branch from external source control.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_tail_react_app_thread_stream</b></div>
+<div class="td">Monitor an active thread and forward progress updates.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>retool_update_resource</b></div>
+<div class="td">Update an existing resource by name.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -142,6 +391,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -150,6 +402,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

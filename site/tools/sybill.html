@@ -117,7 +117,46 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.sybill.ai/mcp ; https://api.sybill.ai/docs/mcp.html (server https://mcp.sybill.ai/mcp)</p><ul><li><a href="https://mcp.sybill.ai/mcp" rel="noopener nofollow">https://mcp.sybill.ai/mcp</a></li><li><a href="https://api.sybill.ai/docs/mcp.html" rel="noopener nofollow">https://api.sybill.ai/docs/mcp.html</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.sybill.ai/mcp ; https://api.sybill.ai/docs/mcp.html (server https://mcp.sybill.ai/mcp)</p><ul><li><a href="https://mcp.sybill.ai/mcp" rel="noopener nofollow">https://mcp.sybill.ai/mcp</a></li><li><a href="https://api.sybill.ai/docs/mcp.html" rel="noopener nofollow">https://api.sybill.ai/docs/mcp.html</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">8</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>ask_sybill</b></div>
+<div class="td">Ask Sybill AI about your sales calls, deals, people, companies, emails, and more.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: message</div>
+</li>
+<li>
+<div class="tn"><b>get_account</b></div>
+<div class="td">Get the available details of a single CRM account</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: account_id</div>
+</li>
+<li>
+<div class="tn"><b>get_ask_sybill_result</b></div>
+<div class="td">Fetch the status and final answer for a previously submitted ask_sybill run</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: thread_id, run_id</div>
+</li>
+<li>
+<div class="tn"><b>get_conversation</b></div>
+<div class="td">Get the available details of a single conversation or meeting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: conversation_id</div>
+</li>
+<li>
+<div class="tn"><b>get_deal</b></div>
+<div class="td">Get the available details of a single CRM deal</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: deal_id</div>
+</li>
+<li>
+<div class="tn"><b>list_accounts</b></div>
+<div class="td">List CRM accounts available to the signed-in user</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_conversations</b></div>
+<div class="td">List sales conversations and meetings available to the signed-in user</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_deals</b></div>
+<div class="td">List CRM deals available to the signed-in user</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise leaning</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
@@ -143,6 +182,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -151,6 +193,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

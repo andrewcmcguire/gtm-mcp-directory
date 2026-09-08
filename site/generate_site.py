@@ -44,6 +44,7 @@ GENERATED_DIRS = ["assets", "tools", "vendors", "categories", "gates", "mcp", "j
                   "github", "learn", "lists", "data", "_dist"]
 GENERATED_FILES = [
     "index.html",
+    "tools-index.html",
     "methodology.html",
     "submit.html",
     "data.html",
@@ -87,6 +88,7 @@ HEADERS = """/*
 """
 
 REPO_URL = "https://github.com/andrewcmcguire/gtm-mcp-directory"  # live
+HOSTED_MCP_URL = "https://andrewcmcguire.com/gtm-directory/api/mcp"
 ISSUE_URL = REPO_URL + "/issues/new?template=tool-submission.yml"  # live
 SITE_ROUTE = "andrewcmcguire.com/gtm-directory"
 # ROUTED AND LIVE since 2026-08-27. The site serves from andrewcmcguire.com/gtm-directory, with the
@@ -228,6 +230,30 @@ GATE_TONE = {
     "unknown": "mute",
     "n-a": "mute",
 }
+
+# The capability layer. Every string below describes how a tool NAME was obtained, never that
+# anybody ran it. The ranking itself is data: directory.json["capabilities"]["evidence_ranking"]
+# carries the same order and the same words, and this table only shortens them for a badge.
+EVIDENCE_ORDER = ["live-list", "source", "docs", "readme"]
+EVIDENCE_LABEL = {
+    "live-list": "answered tools/list",
+    "source": "in the server source",
+    "docs": "in the vendor docs",
+    "readme": "in a README table",
+}
+EVIDENCE_TONE = {"live-list": "teal", "source": "gold", "docs": "gold", "readme": "mute"}
+RISK_LABEL = {"read": "reads", "write": "writes", "spend": "spends money"}
+RISK_TONE = {"read": "mute", "write": "copper", "spend": "copper"}
+CATALOG_LABEL = {
+    "fixed": "a fixed catalogue the vendor publishes",
+    "dynamic": "the customer's own workspace, not a fixed catalogue",
+    "gateway": "a gateway re-exposing other vendors through one endpoint",
+}
+CAPABILITY_CAVEAT = (
+    "A tool below is one the server NAMES. Nobody has called it. That is the same two tier "
+    "honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED "
+    "stays the only claim that anybody ran anything."
+)
 
 
 # ----------------------------------------------------------------------------------
@@ -672,6 +698,17 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
   .jrow .nm{font-size:18px}
 }
 
+/* the capability layer: the tool list on a tool page, and the /tools-index roll up */
+.caplist{list-style:none;margin-top:14px;border-top:1px solid var(--rule-soft)}
+.caplist li{padding:9px 0;border-bottom:1px solid var(--rule-soft)}
+.caplist .tn{font-family:var(--mono);font-size:13px;color:var(--fg);overflow-wrap:anywhere}
+.caplist .td{font-size:14px;line-height:1.6;color:var(--mute);margin-top:4px;max-width:88ch}
+.caplist .td.dim{color:var(--mute-2);font-style:italic}
+.caplist .tm{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--mute-2);
+  margin-top:5px;overflow-wrap:anywhere}
+.caplist .tm a{color:var(--mute)}
+.caplist .sv{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+
 @media (prefers-reduced-motion:no-preference){
   a,.btn,.chip{transition:color .12s ease,border-color .12s ease,background-color .12s ease}
 }
@@ -1037,6 +1074,7 @@ def masthead(rel, current=""):
 
 def footer(rel, d, r):
     c = d["counts"]
+    cap = d["capabilities"]
     return f"""<footer class="foot">
 <div class="wrap wide">
 <div class="cols">
@@ -1048,6 +1086,9 @@ def footer(rel, d, r):
     <p>{num(c['mcp_status']['official'])} official MCP servers,
     {c['mcp_status']['community']} community.
     {c['bench_tested']} bench tested.</p>
+    <p>{num(cap['tools_total'])} tool names harvested on {esc(cap['generated_on'])} from
+    {num(cap['servers_with_tools'])} of those {num(cap['servers_claimed'])} servers.
+    {num(cap['servers_still_unmeasured'])} are unmeasured, which is not the same as empty.</p>
     <p>{num(c['jobs'])} jobs in {c['job_families']} families.
     {num(c['entries_tagged'])} entries carry at least one job tag,
     {c['entries_untagged']} carry none and say why.</p>
@@ -1056,6 +1097,7 @@ def footer(rel, d, r):
     <div class="ft">Views</div>
     <ul>
       <li><a href="{rel}tools/index.html">Every tool, A to Z</a></li>
+      <li><a href="{rel}tools-index.html">Every tool a server names</a></li>
       <li><a href="{rel}vendors/index.html">Every vendor, one page each</a></li>
       <li><a href="{rel}categories/index.html">By category</a></li>
       <li><a href="{rel}mcp/index.html">By MCP status</a></li>
@@ -1220,9 +1262,11 @@ def build_index(d, r, out: Path):
     lc = cov["last_checked"]
     lc_line = ", ".join(f"{num(v)} on {k}" for k, v in sorted(lc.items()))
 
+    cap = d["capabilities"]
     stats = [
         ("gold", c["entries"], "tools counted"),
         ("gold", c["mcp_status"]["official"], "official MCP servers"),
+        ("gold", cap["tools_total"], "tools those servers name"),
         ("teal", c["mcp_status"]["community"], "community MCP"),
         ("copper", c["mcp_status"]["none-found"], "no MCP found"),
         ("copper", c["api_gate"]["enterprise-only"], "enterprise gated"),
@@ -1270,6 +1314,10 @@ def build_index(d, r, out: Path):
         {"mcpServers": {SERVER_ID: {"command": "uvx", "args": [PACKAGE_NAME]}}},
         indent=2,
     ))
+    hosted = html.escape(json.dumps(
+        {"mcpServers": {SERVER_ID: {"url": HOSTED_MCP_URL}}},
+        indent=2,
+    ))
 
     body = f"""{masthead(rel)}
 <div class="hero">
@@ -1280,6 +1328,7 @@ def build_index(d, r, out: Path):
 <div class="rule"></div>
 <p class="stamp"><b>{num(c['entries'])} tools</b> counted &middot;
 <b>{num(c['mcp_status']['official'])} official MCP servers</b> &middot;
+<b>{num(cap['tools_total'])} tools those servers name</b> &middot;
 generated <b>{esc(gen)}</b> by {esc(d['generated_by'])} &middot;
 reconciled against {esc(r['reconciliation']['authority'])}</p>
 <div class="stats">
@@ -1289,9 +1338,19 @@ reconciled against {esc(r['reconciliation']['authority'])}</p>
 the date this site was baked. Both dates ship because both rot.
 {num(c['canonical_entries'])} of the {num(c['entries'])} entries are unique products;
 {c['cross_listed_entries']} are the same product listed in a second category and counted once here.</p>
+<p class="note">The tool count is the capability layer, harvested {esc(cap['generated_on'])}:
+{num(cap['servers_with_tools'])} of the {num(cap['servers_claimed'])} entries that record an
+official or community MCP server have a harvested tool list, and it names
+{num(cap['tools_total'])} tools. {num(cap['tools_total_excluding_gateways'])} of those belong to
+the GTM tools themselves; {num(cap['gateway_tools'])} belong to one gateway that re-exposes other
+vendors and are counted apart. The remaining {num(cap['servers_still_unmeasured'])} servers are
+<b>unmeasured, not empty</b>: nobody has read their tool list yet, and their pages say exactly
+that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is
+still {c['bench_tested']} across the whole directory.</p>
 <div class="btnrow">
 <a class="btn solid" href="#search">Search by capability</a>
 <a class="btn" href="#install">Install the MCP server</a>
+<a class="btn ghost" href="tools-index.html">Every tool a server names</a>
 <a class="btn ghost" href="mcp/official.html">See the {num(c['mcp_status']['official'])} official servers</a>
 </div>
 </div>
@@ -1344,6 +1403,10 @@ Every ratio below is read straight out of the category blocks in directory.json.
 <p class="sub">The server loads the baked file once at import and answers from memory. It makes
 zero outbound network requests, so it cannot be slow, cannot rate limit you, cannot cost anything,
 and cannot leak your query to a vendor. Everything network shaped happens in the weekly build.</p>
+<pre><code>{hosted}</code></pre>
+<p class="note">That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same
+read-only server this page is built from, restarted on every publish. It keeps no request log of its
+own. If you would rather run it yourself:</p>
 <pre><code>{install}</code></pre>
 <p class="note">The package is not on PyPI yet, so this block is the shape the install will take
 rather than a working one-liner today. The server source is real and public: it lives in the
@@ -1572,6 +1635,138 @@ def endpoint_summary_sentence(cov):
             f"record a URL that answered as an MCP server, and {num(cov.get('official_docs_only', 0))} record a "
             f"documentation page rather than an endpoint. Each tool page says which.")
 
+def capability_source(e, byid):
+    """(entry the harvest recorded the tools against, its tool list) for this product.
+
+    Almost always the entry itself. A cross listed product can carry the harvest on its other
+    listing, and a page that said "unmeasured" while the same server's tools sat on its twin
+    would be wrong. TheirStack is the live case on this build.
+    """
+    if e.get("mcp_tools"):
+        return e, e["mcp_tools"]
+    for other in e.get("also_listed_in") or []:
+        o = byid.get(other["id"])
+        if o and o.get("mcp_tools"):
+            return o, o["mcp_tools"]
+    return None, []
+
+
+def evidence_badge(ev):
+    if not ev:
+        return '<span class="badge mute flat">evidence not recorded</span>'
+    return (f'<span class="badge {EVIDENCE_TONE.get(ev, "mute")} flat">'
+            f'{esc(EVIDENCE_LABEL.get(ev, ev))}</span>')
+
+
+def risk_badge(risk):
+    if not risk:
+        return ""
+    return (f'<span class="badge {RISK_TONE.get(risk, "mute")} flat">'
+            f'{esc(RISK_LABEL.get(risk, risk))}</span>')
+
+
+def tool_meta(t):
+    """The one mono line under a tool name: where the name came from, what calling it would do,
+    and, when the name was read off somebody other than the vendor, who that was."""
+    bits = [f"evidence: {EVIDENCE_LABEL.get(t.get('evidence'), t.get('evidence') or 'not recorded')}"]
+    if t.get("risk"):
+        bits.append("calling it " + RISK_LABEL.get(t["risk"], t["risk"]))
+    if t.get("required_params"):
+        bits.append("required: " + ", ".join(str(p) for p in t["required_params"]))
+    sp = t.get("source_party")
+    if sp and sp != "vendor":
+        bits.append("read off " + sp.replace("aggregator:", "") + ", an aggregator wrapping the "
+                    "vendor's API rather than the vendor's own server")
+    if t.get("repo_party") == "third-party":
+        bits.append("from a third party repo, so these are that author's tools, not the "
+                    "vendor's published surface")
+    return " &middot; ".join(esc(b) for b in bits)
+
+
+def capability_list(tools):
+    """One list item per tool. The newlines between the divs are load bearing: the markdown twin
+    strips tags, and without whitespace the name, the description and the meta line would run
+    together into one word."""
+    items = []
+    for t in tools:
+        desc = trim(t.get("description") or "", 240)
+        items.append(
+            f'<li>\n<div class="tn"><b>{esc(t.get("name") or "unnamed")}</b></div>\n'
+            + (f'<div class="td">{esc(desc)}</div>\n' if desc else
+               '<div class="td dim">No description was recorded with the name.</div>\n')
+            + f'<div class="tm">{tool_meta(t)}</div>\n</li>'
+        )
+    return '<ul class="caplist">' + "\n".join(items) + "</ul>"
+
+
+def capability_block(e, d, rel, byid):
+    """What this server exposes: the harvested tool list, or the honest reason there is none.
+
+    Unmeasured and empty are different findings and this block never lets them read the same.
+    """
+    cap = d["capabilities"]
+    src, tools = capability_source(e, byid)
+    mb = e["mcp_status_bucket"]
+    measured = f'{num(cap["servers_with_tools"])} of the {num(cap["servers_claimed"])} entries that record an official or community MCP server carry a harvested tool list. The other {num(cap["servers_still_unmeasured"])} are unmeasured, which is not the same as empty.'
+
+    if not tools:
+        if mb not in ("official", "community"):
+            return ""
+        shape = e.get("mcp_catalog_shape")
+        note = e.get("mcp_catalog_note")
+        if shape == "dynamic":
+            body = ('<p class="v">What this server exposes is the customer\'s own workspace, not a '
+                    'fixed catalogue the vendor publishes. No tool list is the correct answer here '
+                    'rather than a gap, and the harvest recorded it as one.</p>')
+            if note:
+                body += f'<p class="note">Recorded by the harvest: {esc(note)}</p>'
+            body += ('<p class="note">The count below still carries this entry on the unmeasured '
+                     'side, because there is no list to record. That is a different thing from a '
+                     'server nobody has read, and both are published rather than blended.</p>')
+        else:
+            body = ('<p class="v empty">Not harvested yet. Unmeasured, not empty: nobody has read '
+                    'this server\'s tool list, so this page says nothing about what it exposes.</p>')
+        body += (f'<p class="note">{esc(measured)} Harvest last run {esc(cap["generated_on"])}. '
+                 f'The full roll up is on the <a href="{rel}tools-index.html">tools index</a>.</p>')
+        return field("What this server exposes", body)
+
+    borrowed = ""
+    if src is not e:
+        borrowed = (f'<p class="note">The harvest recorded this server against the cross listing '
+                    f'<b>{esc(src["name"])}</b> in {esc(src["category_label"])}. It is the same '
+                    f'server, so the list is shown here rather than left blank.</p>')
+
+    cells = [
+        f'<div><div class="bk">Tools named</div><div class="bv">{num(len(tools))}</div></div>',
+        f'<div><div class="bk">Strongest evidence</div><div class="bv">'
+        f'{esc(EVIDENCE_LABEL.get(src.get("mcp_tools_evidence"), src.get("mcp_tools_evidence") or "not recorded"))}'
+        f'</div></div>',
+        f'<div><div class="bk">Harvested</div><div class="bv">{esc(src.get("mcp_tools_fetched_on") or cap["generated_on"])}</div></div>',
+    ]
+    if src.get("mcp_tools_repo"):
+        cells.append(f'<div><div class="bk">Repo read</div><div class="bv mono">{esc(src["mcp_tools_repo"])}</div></div>')
+    if src.get("mcp_tools_repo_party"):
+        cells.append(f'<div><div class="bk">Whose repo</div><div class="bv">{esc(src["mcp_tools_repo_party"])}</div></div>')
+    if src.get("mcp_catalog_shape"):
+        cells.append(f'<div><div class="bk">Catalogue shape</div><div class="bv">'
+                     f'{esc(CATALOG_LABEL.get(src["mcp_catalog_shape"], src["mcp_catalog_shape"]))}</div></div>')
+
+    body = f'<div class="blockgrid">{"".join(cells)}</div>'
+    body += borrowed
+    body += f'<p class="note" style="margin-top:14px">{esc(CAPABILITY_CAVEAT)}</p>'
+    if src.get("mcp_catalog_note"):
+        body += f'<p class="note">Recorded by the harvest: {esc(src["mcp_catalog_note"])}</p>'
+    if src.get("mcp_tools_repo_party") == "third-party":
+        body += ('<p class="note">This list came from a repo the vendor does not own. Those are '
+                 "that author's tools for the vendor's API, not the vendor's own published "
+                 "surface, and the two must not be read as the same thing.</p>")
+    body += capability_list(tools)
+    body += (f'<p class="note">{esc(measured)} Harvest last run {esc(cap["generated_on"])}. '
+             f'Every name across every server is on the <a href="{rel}tools-index.html">tools '
+             f'index</a>.</p>')
+    return field("What this server exposes", body)
+
+
 def build_tool_page(e, d, r, byid, out: Path):
     rel = "../"
     c = d["counts"]
@@ -1631,6 +1826,9 @@ cannot be bought at any price. Across the whole directory that count is {c['benc
     if mcp_urls:
         mcp_body += mcp_urls
     parts.append(field("MCP server", mcp_body))
+
+    # the capability layer: what the server names, harvested with its evidence and its date
+    parts.append(capability_block(e, d, rel, byid))
 
     # gate
     gate_body = f"""<div class="blockgrid">
@@ -1827,12 +2025,178 @@ def build_tools_index(d, r, entries, byid, out: Path):
 <p class="sub">{num(c['canonical_entries'])} unique products. The directory holds
 {num(c['entries'])} entries in total; the extra {c['cross_listed_entries']} are the same products
 listed a second time in another category and each one folds into its canonical page here.</p>
+<p class="note">Looking for the tools inside the servers rather than the products themselves? The
+<a href="{rel}tools-index.html">tools index</a> lists every one of the
+{num(d['capabilities']['tools_total'])} tool names harvested from
+{num(d['capabilities']['servers_with_tools'])} of the
+{num(d['capabilities']['servers_claimed'])} servers, with the server each one belongs to.</p>
 <div class="alphanav">{nav}</div>
 {''.join(body)}
 </section>
 </div>"""
             + footer(rel, d, r))
     write(out / "tools" / "index.html", page)
+
+
+# ----------------------------------------------------------------------------------
+# the capability layer: /tools-index
+# ----------------------------------------------------------------------------------
+
+def capability_rows(entries, byid):
+    """Every recorded tool name, as (product, tool) rows.
+
+    The harvest records against an ENTRY, and a cross listed product has two entries, so the same
+    server can be harvested twice. Rows are keyed on (canonical product, tool name) and the
+    strongest evidence wins, which merges those repeats without dropping a name: on this build the
+    two passes disagree in coverage, not in content. Returns (rows, records) where records is the
+    raw count before the merge, so the page can publish both numbers.
+    """
+    merged = {}
+    records = 0
+    for e in entries:
+        tools = e.get("mcp_tools") or []
+        records += len(tools)
+        tgt = e if e.get("canonical") else byid.get(e["canonical_id"], e)
+        for t in tools:
+            key = (tgt["id"], t.get("name") or "")
+            ev = t.get("evidence")
+            rank = EVIDENCE_ORDER.index(ev) if ev in EVIDENCE_ORDER else 99
+            prev = merged.get(key)
+            if prev is None or rank < prev[0]:
+                merged[key] = (rank, tgt, e, t)
+    rows = sorted(merged.values(),
+                  key=lambda v: ((v[3].get("name") or "").lower(), v[1]["name"].lower()))
+    return rows, records
+
+
+def capability_row_html(tgt, holder, t, rel, with_desc=True):
+    desc = trim(t.get("description") or "", 200) if with_desc else ""
+    meta = [f'<a href="{rel}tools/{tgt["slug"]}.html">{esc(tgt["name"])}</a>']
+    ev = t.get("evidence")
+    meta.append(esc(EVIDENCE_LABEL.get(ev, ev or "evidence not recorded")))
+    if t.get("risk"):
+        meta.append(esc("calling it " + RISK_LABEL.get(t["risk"], t["risk"])))
+    if holder.get("mcp_tools_repo_party") == "third-party":
+        meta.append("third party repo")
+    sp = t.get("source_party")
+    if sp and sp != "vendor":
+        meta.append(esc("read off " + sp.replace("aggregator:", "")))
+    return (f'<li>\n<div class="tn"><b>{esc(t.get("name") or "unnamed")}</b></div>\n'
+            + (f'<div class="td">{esc(desc)}</div>\n' if desc else "")
+            + f'<div class="tm">{" &middot; ".join(meta)}</div>\n</li>')
+
+
+def build_capability_index(d, r, entries, byid, out: Path):
+    """/tools-index: every tool name every server in the directory names, with the server it
+    belongs to, the evidence behind the name, and what calling it would do."""
+    rel = ""
+    c = d["counts"]
+    cap = d["capabilities"]
+    rows, records = capability_rows(entries, byid)
+    gate_rows = [v for v in rows if v[2].get("mcp_catalog_shape") == "gateway"]
+    main_rows = [v for v in rows if v[2].get("mcp_catalog_shape") != "gateway"]
+    products = len({v[1]["id"] for v in rows})
+    gateways = sorted({v[1]["name"] for v in gate_rows})
+
+    groups = {}
+    for _, tgt, holder, t in main_rows:
+        ch = (t.get("name") or "?")[0].upper()
+        if not ch.isalpha():
+            ch = "#"
+        groups.setdefault(ch, []).append((tgt, holder, t))
+    keys = sorted(groups, key=lambda k: (k == "#", k))
+    nav = "".join(f'<a href="#{k if k != "#" else "num"}">{k}</a>' for k in keys)
+    body = []
+    for k in keys:
+        anchor = k if k != "#" else "num"
+        body.append(f'<div class="alpha" id="{anchor}">{k}</div>')
+        body.append('<ul class="caplist">'
+                    + "\n".join(capability_row_html(tgt, holder, t, rel)
+                                for tgt, holder, t in groups[k])
+                    + "</ul>")
+
+    stats = [
+        ("gold", len(main_rows), "tool names"),
+        ("gold", products - len(gateways), "GTM servers measured"),
+        ("copper", cap["servers_still_unmeasured"], "servers unmeasured"),
+        ("teal", cap["by_best_evidence"].get("live-list", 0), "answered tools/list"),
+        ("mute", len(gate_rows), "gateway tools, counted apart"),
+        ("mute", c["bench_tested"], "bench tested"),
+    ]
+    statrow = "\n".join(
+        f'<div class="stat is-{tone}"><div class="n">{num(n)}</div><div class="k">{esc(k)}</div></div>'
+        for tone, n, k in stats
+    )
+    ranking = "".join(
+        f'<li><b>{esc(EVIDENCE_LABEL.get(k, k))}</b>: {esc(v)}</li>'
+        for k, v in ((k, cap["evidence_ranking"].get(k)) for k in EVIDENCE_ORDER)
+        if v
+    )
+    gate_block = ""
+    if gate_rows:
+        gate_block = f"""<section class="tint">
+<div class="wrap wide">
+<div class="eyebrow">Counted apart</div>
+<h2>The gateway.</h2>
+<p class="sub">{esc(", ".join(gateways))} re-exposes other vendors' servers through one endpoint,
+so its {num(len(gate_rows))} tools are other people's tools. They are listed here in full and kept
+out of the {num(len(main_rows))} above, because folding them in would make the directory look like
+it had catalogued five thousand GTM capabilities when it had catalogued one gateway.</p>
+<ul class="caplist">{"".join(capability_row_html(tgt, holder, t, rel, with_desc=False)
+                             for _, tgt, holder, t in gate_rows)}</ul>
+</div>
+</section>"""
+
+    page = (head(f"Every tool the MCP servers name: {num(len(main_rows))} tools across "
+                 f"{num(products - len(gateways))} GTM servers",
+                 f"Every tool name harvested from the MCP servers in The GTM MCP Directory, with "
+                 f"the server it belongs to, the evidence behind the name and its harvest date. "
+                 f"{cap['servers_with_tools']} of {cap['servers_claimed']} servers measured on "
+                 f"{cap['generated_on']}. None of these tools has been run.", rel,
+                 ld=[crumb_ld(rel, [("Directory", "index.html"),
+                                    ("Every tool a server names", "tools-index.html")])],
+                 canon="tools-index.html")
+            + masthead(rel)
+            + f"""<div class="wrap wide">
+<div class="crumbs" style="padding-bottom:0"><a href="{rel}index.html">Directory</a> / Tools index</div>
+<section style="padding-top:18px">
+<div class="eyebrow">The capability layer</div>
+<h2>Every tool these servers name.</h2>
+<p class="sub">A category tells you what a vendor sells. This tells you what its MCP server puts
+in front of an agent, tool by tool, with the evidence behind every name and the date it was read.
+{esc(CAPABILITY_CAVEAT)}</p>
+<div class="stats">{statrow}</div>
+<p class="note">Coverage, stated as it is rather than as a percentage that flatters it:
+{num(cap['servers_with_tools'])} of the {num(cap['servers_claimed'])} entries that record an
+official or community MCP server carry a harvested tool list, read on
+{esc(cap['generated_on'])}. The other {num(cap['servers_still_unmeasured'])} are
+<b>unmeasured, not empty</b>: nobody has read their tool list, so the directory says nothing about
+what they expose, and their tool pages say so in those words. Most of them are hosted endpoints
+behind an auth wall or vendors with no server repo on file.</p>
+<p class="note">Those {num(cap['servers_with_tools'])} entries are {num(products)} unique products,
+because a product listed in two categories is harvested once per listing.
+{num(records)} tool records were harvested and {num(len(rows))} survive as distinct
+product-and-tool pairs; the {num(records - len(rows))} merged are a cross listing repeating a name
+already recorded against the same product. Every name below is on a server this directory tracks,
+and clicking the server takes you to its entry, its gate and its endpoint probe.</p>
+<p class="note">Where a name came from, strongest first. The ranking is data, not prose: it is
+published in the capabilities block of
+<a href="{rel}data/directory.json">directory.json</a>.</p>
+<ul class="srcs">{ranking}</ul>
+<p class="note">Read off an aggregator such as Zapier or Composio, a name is that aggregator's
+wrapper of the vendor's API, not the vendor's own server, and the row says so. Read off a repo the
+vendor does not own, the tools are that author's, not the vendor's published surface, and the row
+says that too. What calling a tool would DO, reads, writes, or spends the operator's money, is
+derived from the tool's own name and the vendor's own description: a warning to check before
+wiring, not a guarantee.</p>
+<div class="alphanav">{nav}</div>
+{''.join(body)}
+</section>
+</div>
+{gate_block}"""
+            + footer(rel, d, r))
+    write(out / "tools-index.html", page)
+    return len(rows), records
 
 
 # ----------------------------------------------------------------------------------
@@ -6857,6 +7221,7 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, vendors=None):
     c = d["counts"]
     cov = r["coverage"]
+    cap = d["capabilities"]
     b = SITE_BASE.rstrip("/")
     L = []
     A = L.append
@@ -6914,6 +7279,10 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
       "exists. Every entry carries its own last_checked date.")
     A("- **Unknown** is a legal answer and is published as unknown rather than guessed.")
     A("- **A job tag** means the vendor says the tool does this. It is not a test result.")
+    A("- **A tool name** in the capability layer means the server NAMES that tool: it answered "
+      "tools/list, or the tool is registered in the server's own source, or the vendor documents "
+      "it. Nobody has called it. The strongest of those four evidences is recorded per tool, with "
+      "the date it was read.")
     A(f"- **BENCH-TESTED** means somebody personally ran the tool on a stated date. "
       f"{c['bench_tested']} entries are bench tested. Every other entry is RESEARCHED: facts from "
       f"public sources with URLs, no usage claims.")
@@ -6938,6 +7307,14 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
       f"{cov['jobs_tagged']} entries. {cov['jobs_untagged']} entries are untagged and each records "
       f"why.")
     A(f"- Bench tested: {c['bench_tested']}.")
+    A(f"- Capability layer, harvested {cap['generated_on']}: {cap['tools_total']} tool names, of "
+      f"which {cap['tools_total_excluding_gateways']} belong to the GTM tools themselves and "
+      f"{cap['gateway_tools']} to one gateway that re-exposes other vendors, counted apart. "
+      f"{cap['servers_with_tools']} of the {cap['servers_claimed']} entries recording an official "
+      f"or community MCP server have a tool list. The other "
+      f"{cap['servers_still_unmeasured']} are UNMEASURED, not empty: nobody has read their tool "
+      f"list, so this directory says nothing about what they expose. Do not report an unmeasured "
+      f"server as a server with no tools.")
     A("")
     A("## Key pages")
     A("")
@@ -6946,6 +7323,10 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
     A(f"- [Methodology]({b}/methodology.html): how an entry is made, the two honesty tiers, and "
       f"every place this build is thin, named.")
     A(f"- [Every tool A to Z]({b}/tools/index.html): {num(c['canonical_entries'])} product pages.")
+    A(f"- [The tools index]({b}/tools-index.html): every tool name the MCP servers in this "
+      f"directory expose, {num(cap['tools_total'])} of them, each with the server it belongs to, "
+      f"the evidence behind the name and the harvest date. Alphabetical by tool name, so it "
+      f"answers \"which server has a tool called this\" directly.")
     if vendors:
         multi = [v for v in vendors if v["facts"]["products"] > 1]
         A(f"- [Every vendor A to Z]({b}/vendors/index.html): {len(vendors)} vendor pages, one per "
@@ -7100,8 +7481,10 @@ def html_to_markdown(doc: str, rel_depth: int) -> str:
         r'<div class="stat[^"]*"><div class="n">(.*?)</div><div class="k">(.*?)</div></div>',
         lambda mo: "\n- **" + _inline(mo.group(2), rel_depth, True) + "**: "
                    + _inline(mo.group(1), rel_depth, True), body, flags=re.S)
+    # the value div carries a modifier class on some cells (bv mono), and a pattern that only
+    # matched the bare class ran two cells' labels together in the twin.
     body = re.sub(
-        r'<div><div class="bk">(.*?)</div><div class="bv">(.*?)</div></div>',
+        r'<div><div class="bk">(.*?)</div><div class="bv[^"]*">(.*?)</div></div>',
         lambda mo: "\n- **" + _inline(mo.group(1), rel_depth, True) + "**: "
                    + _inline(mo.group(2), rel_depth, True), body, flags=re.S)
     body = re.sub(
@@ -7408,6 +7791,7 @@ def main():
     for e in canon:
         build_tool_page(e, d, r, byid, out)
     build_tools_index(d, r, entries, byid, out)
+    n_caprows, n_caprecords = build_capability_index(d, r, entries, byid, out)
     n_vendors, vendor_rows = build_vendors(d, r, out)
     build_categories(d, r, entries, byid, out)
     build_bucket_view(d, r, entries, byid, out, "mcp")
@@ -7425,8 +7809,8 @@ def main():
     n_cat = 1 + len(d["categories"])
     n_mcp = 1 + sum(1 for b in MCP_ORDER if d["counts"]["mcp_status"].get(b))
     n_gate = 1 + sum(1 for b in GATE_ORDER if d["counts"]["api_gate"].get(b))
-    total = (1 + len(canon) + 1 + n_vendors + n_cat + n_mcp + n_gate + n_jobs + n_board + n_lists
-             + n_learn + 1 + 1 + 1 + 1 + 1)
+    total = (1 + len(canon) + 1 + 1 + n_vendors + n_cat + n_mcp + n_gate + n_jobs + n_board
+             + n_lists + n_learn + 1 + 1 + 1 + 1 + 1)
 
     # machine surfaces last: they describe the finished tree.
     n_sitemap = build_sitemap(d, out)
@@ -7437,6 +7821,7 @@ def main():
     print(f"index               1")
     print(f"tool pages          {len(canon)}")
     print(f"tools A to Z        1")
+    print(f"tools index         1   ({n_caprows} tool names, {n_caprecords} harvest records)")
     print(f"vendor pages        {n_vendors}   (index + {n_vendors - 1} vendors)")
     print(f"category pages      {n_cat}   (index + {len(d['categories'])})")
     print(f"mcp status pages    {n_mcp}   (index + buckets)")

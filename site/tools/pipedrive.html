@@ -117,7 +117,166 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.pipedrive.com/mcp ; https://www.pipedrive.com/en/features/mcp-server</p><ul><li><a href="https://mcp.pipedrive.com/mcp" rel="noopener nofollow">https://mcp.pipedrive.com/mcp</a></li><li><a href="https://www.pipedrive.com/en/features/mcp-server" rel="noopener nofollow">https://www.pipedrive.com/en/features/mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.pipedrive.com/mcp ; https://www.pipedrive.com/en/features/mcp-server</p><ul><li><a href="https://mcp.pipedrive.com/mcp" rel="noopener nofollow">https://mcp.pipedrive.com/mcp</a></li><li><a href="https://www.pipedrive.com/en/features/mcp-server" rel="noopener nofollow">https://www.pipedrive.com/en/features/mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">32</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>addActivity</b></div>
+<div class="td">Create a new activity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>addDeal</b></div>
+<div class="td">Create a new deal</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>addLead</b></div>
+<div class="td">Create a new lead</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>addNote</b></div>
+<div class="td">Adds a note attached to a deal, lead, contact or organization</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>addOrganization</b></div>
+<div class="td">Create a new organization</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>addPerson</b></div>
+<div class="td">Create a new contact</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>convertLeadToDeal</b></div>
+<div class="td">Convert a lead into a deal</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getActivities</b></div>
+<div class="td">Fetch a list of activities</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getActivity</b></div>
+<div class="td">Fetch one specific activity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getDeal</b></div>
+<div class="td">Fetch one specific deal</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getDeals</b></div>
+<div class="td">Fetch a list of deals</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getLead</b></div>
+<div class="td">Fetch one specific lead</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getLeadConversionStatus</b></div>
+<div class="td">Check whether a lead has been converted</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getLeads</b></div>
+<div class="td">Fetch a list of leads</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getNote</b></div>
+<div class="td">Fetch details of one specific note</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getNotes</b></div>
+<div class="td">Fetch the list of notes</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getOrganization</b></div>
+<div class="td">Fetch one specific organization</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getOrganizations</b></div>
+<div class="td">Fetch a list of organizations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getPerson</b></div>
+<div class="td">Fetch one specific contact</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getPersons</b></div>
+<div class="td">Fetch a list of contacts</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getStage</b></div>
+<div class="td">Fetch details of one specific stage</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>getStages</b></div>
+<div class="td">Fetch all stages in a pipeline</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>searchDeals</b></div>
+<div class="td">Search deals by keyword</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>searchLeads</b></div>
+<div class="td">Find leads by keyword or criteria</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>searchOrganization</b></div>
+<div class="td">Search organizations by name or keyword</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>searchPersons</b></div>
+<div class="td">Find contacts by name, email or other criteria</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>updateActivity</b></div>
+<div class="td">Edit an existing activity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>updateDeal</b></div>
+<div class="td">Edit an existing deal</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>updateLead</b></div>
+<div class="td">Edit an existing lead</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>updateNote</b></div>
+<div class="td">Updates a specific note by its ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>updateOrganization</b></div>
+<div class="td">Edit an existing organization</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>updatePerson</b></div>
+<div class="td">Edit an existing contact</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -152,6 +311,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -160,6 +322,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

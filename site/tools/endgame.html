@@ -115,7 +115,136 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://app.endgame.io/api/v1/mcp ; https://docs.endgame.io/features/mcp-server (endpoint https://app.endgame.io/api/v1/mcp)</p><ul><li><a href="https://app.endgame.io/api/v1/mcp" rel="noopener nofollow">https://app.endgame.io/api/v1/mcp</a></li><li><a href="https://docs.endgame.io/features/mcp-server" rel="noopener nofollow">https://docs.endgame.io/features/mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://app.endgame.io/api/v1/mcp ; https://docs.endgame.io/features/mcp-server (endpoint https://app.endgame.io/api/v1/mcp)</p><ul><li><a href="https://app.endgame.io/api/v1/mcp" rel="noopener nofollow">https://app.endgame.io/api/v1/mcp</a></li><li><a href="https://docs.endgame.io/features/mcp-server" rel="noopener nofollow">https://docs.endgame.io/features/mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">26</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>create_digest</b></div>
+<div class="td">Set up a new recurring digest</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_digest</b></div>
+<div class="td">Delete a digest so it stops running</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>download_skill_assets</b></div>
+<div class="td">Download a skill&#x27;s supporting files</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_graph_person</b></div>
+<div class="td">Resolve a person mentioned by name, email, or CRM ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_digest</b></div>
+<div class="td">Load a single digest in full</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_citations</b></div>
+<div class="td">Open the sources behind a single piece of context-agent output</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_entities</b></div>
+<div class="td">Load the full record for one or more entities by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_facts</b></div>
+<div class="td">List the facts known about a specific entity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_field_catalog</b></div>
+<div class="td">Get your organization&#x27;s field catalog</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_index</b></div>
+<div class="td">Get an overview of your organization&#x27;s context graph</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_person</b></div>
+<div class="td">Load full detail for one or more people</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_graph_relationships</b></div>
+<div class="td">Fetch the relationships of a single entity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_my_graph_profile</b></div>
+<div class="td">Resolve the current user to their graph profile</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_org_rules</b></div>
+<div class="td">Load your organization&#x27;s writing, style, policy, and product guidance</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_digests</b></div>
+<div class="td">List your scheduled digests, including any that are paused</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_graph_entities</b></div>
+<div class="td">Browse entities of a single type with property filters and ordering</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_graph_relationships</b></div>
+<div class="td">List or aggregate relationships org-wide</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_my_accounts</b></div>
+<div class="td">List the accounts you own or are assigned to</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_skills</b></div>
+<div class="td">Discover the expert workflows your organization has authored</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>read_skill</b></div>
+<div class="td">Load the full instructions for a specific skill</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_graph_entities</b></div>
+<div class="td">Search the context graph by display name, graph ID, or source identifier</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_graph_facts</b></div>
+<div class="td">Semantic search across extracted facts from meetings, emails, and documents</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_graph_people</b></div>
+<div class="td">Search people by their relationship to accounts and companies</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>tell_endgame</b></div>
+<div class="td">Correct or add to the context graph, and send feedback</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_digest</b></div>
+<div class="td">Change an existing digest&#x27;s configuration</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>verified_sources</b></div>
+<div class="td">Display a verified-source footer alongside an answer</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Gate unknown</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not established</div></div>
 </div>
@@ -141,6 +270,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -149,6 +281,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

@@ -41,7 +41,8 @@ Outbound email sequencing/deliverability layer; MCP access is bundled with API/w
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -56,6 +57,85 @@ https://github.com/Woodpeckerco/woodpecker-mcp-server ; https://developers.woodp
 - [https://github.com/Woodpeckerco/woodpecker-mcp-server](https://github.com/Woodpeckerco/woodpecker-mcp-server)
 - [https://developers.woodpecker.co/docs/mcp/](https://developers.woodpecker.co/docs/mcp/)
 - [https://developers.woodpecker.co/docs/mcp/connect-claude/](https://developers.woodpecker.co/docs/mcp/connect-claude/)
+
+**What this server exposes**
+
+- **Tools named**: 34
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **addEmailStep** Add an email follow-up step to an existing campaign evidence: in the vendor docs · calling it writes · required: campaignId, parentId, versions, deliveryTimes
+
+- **addLinkedinConnectionRequestStep** Add a LinkedIn connection request follow-up step to an existing campaign evidence: in the vendor docs · calling it writes · required: campaignId, parentId, linkedinAccountId
+
+- **addLinkedinDirectMessageStep** Add a LinkedIn direct message follow-up step to an existing campaign evidence: in the vendor docs · calling it writes · required: campaignId, parentId, linkedinAccountId, bodyVersions
+
+- **addLinkedinInMailMessageStep** Add a LinkedIn InMail message follow-up step to an existing campaign evidence: in the vendor docs · calling it writes · required: campaignId, parentId, linkedinAccountId, bodyVersions
+
+- **addLinkedinProfileVisitStep** Add a LinkedIn profile visit follow-up step to an existing campaign evidence: in the vendor docs · calling it writes · required: campaignId, parentId, linkedinAccountId
+
+- **addProspectsToCampaign** Bulk add prospects with full contact information and custom snippets evidence: in the vendor docs · calling it writes · required: campaignId, prospectsPayload
+
+- **addProspectsToDatabase** Adds new prospects to your global prospect list without enrolling them in campaigns evidence: in the vendor docs · calling it reads · required: prospectsPayload
+
+- **buildCampaignUrl** Generate Woodpecker app URL for campaign access evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **createEmailCampaign** Create a Woodpecker email campaign with one email step and minimal configuration evidence: in the vendor docs · calling it writes · required: timezone, dailyEnroll, emailAccountIds, versions, deliveryTimes
+
+- **createLinkedinConnectionRequestCampaign** Create a Woodpecker LinkedIn campaign with one connection request step evidence: in the vendor docs · calling it writes · required: timezone, dailyEnroll, linkedinAccountId
+
+- **createLinkedinDirectMessageCampaign** Create a Woodpecker LinkedIn campaign with one direct message step evidence: in the vendor docs · calling it writes · required: timezone, dailyEnroll, linkedinAccountId, bodyVersions
+
+- **createLinkedinInMailMessageCampaign** Create a Woodpecker LinkedIn campaign with one InMail message step evidence: in the vendor docs · calling it writes · required: timezone, dailyEnroll, linkedinAccountId, bodyVersions
+
+- **createLinkedinProfileVisitCampaign** Create a Woodpecker LinkedIn campaign with one profile visit step evidence: in the vendor docs · calling it writes · required: timezone, dailyEnroll, linkedinAccountId
+
+- **deleteCampaign** Remove campaign entirely evidence: in the vendor docs · calling it writes · required: campaignId
+
+- **deleteCampaignStep** Remove steps from campaigns evidence: in the vendor docs · calling it writes · required: campaignId, stepId
+
+- **deleteProspects** Permanently deletes prospects from your database and/or specific campaigns evidence: in the vendor docs · calling it reads · required: prospectIds
+
+- **listCampaigns** Retrieve campaigns with optional filtering by operational status evidence: in the vendor docs · calling it reads · required: pageNumber
+
+- **listLinkedinAccounts** Retrieve available LinkedIn accounts for campaign assignment evidence: in the vendor docs · calling it reads · required: filter
+
+- **listMailboxes** Retrieve available email accounts for campaign assignment evidence: in the vendor docs · calling it reads · required: filter
+
+- **listProspectsInCampaign** Paginated retrieval of campaign prospects evidence: in the vendor docs · calling it reads · required: campaignId, pageNumber
+
+- **listProspectsInDatabase** Lists prospects from your global prospect database (not tied to any specific campaign) evidence: in the vendor docs · calling it reads · required: pageNumber
+
+- **makeCampaignEditable** Enable campaign modifications evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **pauseCampaign** Pause campaign evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **retrieveCampaignDetails** Get detailed campaign structure including all steps and configurations evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **retrieveCampaignStatistics** Fetch campaign performance metrics and analytics evidence: in the vendor docs · calling it reads · required: campaignId
+
+- **runCampaign** Start campaign execution evidence: in the vendor docs · calling it writes · required: campaignId
+
+- **searchProspects** Searches for prospects matching specific criteria across your entire database evidence: in the vendor docs · calling it reads · required: pageNumber
+
+- **stopCampaign** Stop campaign evidence: in the vendor docs · calling it writes · required: campaignId
+
+- **updateCampaignSettings** Modify campaign-wide configuration including naming, email accounts, and limits evidence: in the vendor docs · calling it reads · required: campaignId, name, emailAccountIds, timezone, dailyEnroll
+
+- **updateCampaignStep** Modify step delivery times and scheduling evidence: in the vendor docs · calling it reads · required: campaignId, stepId, payload
+
+- **updateEmailStepVersion** Update email content, subject lines, signatures and tracking settings evidence: in the vendor docs · calling it writes · required: campaignId, stepId, versionId, subject, message, signature, trackOpens
+
+- **updateLinkedinStepVersion** Update LinkedIn connection request, direct message, or InMail content evidence: in the vendor docs · calling it writes · required: campaignId, stepId, versionId, message
+
+- **updateProspectsInCampaign** Update existing prospect data (requires explicit user request) evidence: in the vendor docs · calling it writes · required: campaignId, prospectsPayload
+
+- **updateProspectsInDatabase** Updates existing prospects in your global database or adds new ones if they do not exist evidence: in the vendor docs · calling it reads · required: prospectsPayload
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

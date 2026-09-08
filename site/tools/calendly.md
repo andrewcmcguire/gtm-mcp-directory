@@ -41,7 +41,8 @@ Prospect-facing meeting-booking layer - the "here's my link, pick a time" step a
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -57,6 +58,89 @@ https://mcp.calendly.com ; https://developer.calendly.com/calendly-mcp-server (h
 - [https://developer.calendly.com/calendly-mcp-server](https://developer.calendly.com/calendly-mcp-server)
 - [https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450](https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450)
 - [https://calendly.com/blog/mcp-server](https://calendly.com/blog/mcp-server)
+
+**What this server exposes**
+
+- **Tools named**: 36
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **availability-get_user_availability_schedule** Get a schedule's details evidence: in the vendor docs · calling it writes
+
+- **availability-list_user_availability_schedules** List user availability schedules evidence: in the vendor docs · calling it reads
+
+- **availability-list_user_busy_times** List busy times within a range evidence: in the vendor docs · calling it reads
+
+- **event_types-create_event_type** Create a new event type evidence: in the vendor docs · calling it writes
+
+- **event_types-get_event_type** Retrieve event type details evidence: in the vendor docs · calling it reads
+
+- **event_types-list_event_type_availability_schedule** List availability schedules evidence: in the vendor docs · calling it reads
+
+- **event_types-list_event_type_available_times** List available time slots evidence: in the vendor docs · calling it reads
+
+- **event_types-list_event_types** List event types for a user/org evidence: in the vendor docs · calling it reads
+
+- **event_types-update_event_type** Update event type details evidence: in the vendor docs · calling it writes
+
+- **event_types-update_event_type_availability_schedule** Update an availability schedule evidence: in the vendor docs · calling it writes
+
+- **list_calendly_skills** List available Calendly skills evidence: in the vendor docs · calling it reads
+
+- **load_calendly_skill** Retrieve a specific Calendly skill evidence: in the vendor docs · calling it reads
+
+- **locations-list_user_meeting_locations** List a user's meeting locations evidence: in the vendor docs · calling it reads
+
+- **meetings-cancel_event** Cancel a scheduled event evidence: in the vendor docs · calling it reads
+
+- **meetings-create_invitee** Create a new booking (Scheduling API). Requires a paid Calendly plan evidence: in the vendor docs · calling it writes
+
+- **meetings-create_invitee_no_show** Mark invitee as no-show evidence: in the vendor docs · calling it reads
+
+- **meetings-delete_invitee_no_show** Remove no-show status evidence: in the vendor docs · calling it writes
+
+- **meetings-get_event** Retrieve event details evidence: in the vendor docs · calling it reads
+
+- **meetings-get_event_invitee** Get invitee details evidence: in the vendor docs · calling it reads
+
+- **meetings-get_invitee_no_show** Get no-show details evidence: in the vendor docs · calling it reads
+
+- **meetings-list_event_invitees** List invitees for an event evidence: in the vendor docs · calling it reads
+
+- **meetings-list_events** List scheduled events evidence: in the vendor docs · calling it reads
+
+- **organizations-create_organization_invitation** Invite a user evidence: in the vendor docs · calling it reads
+
+- **organizations-get_organization** Retrieve org details evidence: in the vendor docs · calling it reads
+
+- **organizations-get_organization_membership** Get membership details evidence: in the vendor docs · calling it reads
+
+- **organizations-list_organization_invitations** List pending invitations evidence: in the vendor docs · calling it reads
+
+- **organizations-list_organization_memberships** List organization members evidence: in the vendor docs · calling it reads
+
+- **organizations-revoke_organization_invitation** Revoke an invitation evidence: in the vendor docs · calling it reads
+
+- **routing_forms-get_routing_form** Get form details. Requires a Calendly Teams plan or higher evidence: in the vendor docs · calling it reads
+
+- **routing_forms-get_routing_form_submission** Retrieve a submission. Requires a Calendly Teams plan or higher evidence: in the vendor docs · calling it reads
+
+- **routing_forms-list_routing_form_submissions** List form submissions. Requires a Calendly Teams plan or higher evidence: in the vendor docs · calling it reads
+
+- **routing_forms-list_routing_forms** List routing forms. Requires a Calendly Teams plan or higher evidence: in the vendor docs · calling it reads
+
+- **scheduling_links-create_single_use_scheduling_link** Create a single-use scheduling link from existing event type evidence: in the vendor docs · calling it writes
+
+- **shares-create_share** Create and customize single-use scheduling link from existing event type evidence: in the vendor docs · calling it writes
+
+- **users-get_current_user** Get the authenticated user evidence: in the vendor docs · calling it reads
+
+- **users-get_user** Get a specific user by UUID evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

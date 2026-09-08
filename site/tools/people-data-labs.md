@@ -41,7 +41,8 @@ Bulk/programmatic person and company enrichment feeding a CRM, data warehouse, o
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,41 @@ mcp_url, verbatim from the file:
 https://github.com/phxdev1/peopledatalabs-mcp
 
 - [https://github.com/phxdev1/peopledatalabs-mcp](https://github.com/phxdev1/peopledatalabs-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 10
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: phxdev1/peopledatalabs-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **autocomplete** Get autocomplete suggestions for a partial query evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **bulk_person_enrich** Enrich multiple person profiles in a single request evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **enrich_company** Enrich a company profile with additional data evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **enrich_person** Enrich a person profile with additional data from People Data Labs evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_companies** Search for companies matching specific criteria evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_job_titles** Search for job titles matching specific criteria evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_locations** Search for locations matching specific criteria evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_people** Search for people matching specific criteria evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_schools** Search for schools matching specific criteria evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_skills** Search for skills matching specific criteria evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

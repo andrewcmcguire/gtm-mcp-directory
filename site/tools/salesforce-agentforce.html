@@ -119,7 +119,91 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/salesforcecli/mcp (Salesforce DX/CLI MCP server, dev-tooling use case); https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html and https://github.com/forcedotcom/mcp-hosted (Salesforce Hosted MCP Servers, GA April 2026, external AI clients read/act on live org data)</p><ul><li><a href="https://github.com/salesforcecli/mcp" rel="noopener nofollow">https://github.com/salesforcecli/mcp</a></li><li><a href="https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html" rel="noopener nofollow">https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html</a></li><li><a href="https://github.com/forcedotcom/mcp-hosted" rel="noopener nofollow">https://github.com/forcedotcom/mcp-hosted</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/salesforcecli/mcp (Salesforce DX/CLI MCP server, dev-tooling use case); https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html and https://github.com/forcedotcom/mcp-hosted (Salesforce Hosted MCP Servers, GA April 2026, external AI clients read/act on live org data)</p><ul><li><a href="https://github.com/salesforcecli/mcp" rel="noopener nofollow">https://github.com/salesforcecli/mcp</a></li><li><a href="https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html" rel="noopener nofollow">https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html</a></li><li><a href="https://github.com/forcedotcom/mcp-hosted" rel="noopener nofollow">https://github.com/forcedotcom/mcp-hosted</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">17</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in a README table</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">salesforcecli/mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>ALLOW_ALL_ORGS</b></div>
+<div class="td">Allow access to all authorized orgs. Use this value with caution.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>DEFAULT_TARGET_DEV_HUB</b></div>
+<div class="td">Allow access to your default Dev Hub org. If you&#x27;ve set a local default Dev Hub org in your DX project, the MCP server uses it. If not, the server uses a globally-set default Dev Hub org.</div>
+<div class="tm">evidence: in a README table &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>DEFAULT_TARGET_ORG</b></div>
+<div class="td">Allow access to your default org. If you&#x27;ve set a local default org in your DX project, the MCP server uses it. If not, the server uses a globally-set default org.</div>
+<div class="tm">evidence: in a README table &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>aura-experts</b></div>
+<div class="td">Tools that provide Aura component analysis, blueprinting, and migration expertise..</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>code-analysis</b></div>
+<div class="td">Tools for static analysis of your code using Salesforce Code Analyzer.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>core</b></div>
+<div class="td">Core set of DX MCP tools. This toolset is always enabled.</div>
+<div class="tm">evidence: in a README table &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>data</b></div>
+<div class="td">Tools to manage the data in your org, such as listing all accounts.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>devops</b></div>
+<div class="td">Tools to securely and autonomously read, manage, and operate DevOps Center resources.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>experts-validation</b></div>
+<div class="td">Tools to validate and score LWC components for production readiness across accessibility, security, and best practices.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>lwc-experts</b></div>
+<div class="td">Tools to assist with Lightning Web Component (LWC) development, testing, optimization, and best practices.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>metadata</b></div>
+<div class="td">Tools to deploy and retrieve metadata to and from your org and your DX project.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mobile</b></div>
+<div class="td">Tools for mobile development and capabilities.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mobile-core</b></div>
+<div class="td">A subset of tools from the `mobile` toolset focused on essential mobile capabilities.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>orgs</b></div>
+<div class="td">Tools to manage your authorized orgs.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>scale-products</b></div>
+<div class="td">Tools for detecting and fixing Apex performance.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>testing</b></div>
+<div class="td">Tools to test your code and features.</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>users</b></div>
+<div class="td">Tools to manage org users, such as assigning a permission set.</div>
+<div class="tm">evidence: in a README table &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
@@ -154,6 +238,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -162,6 +249,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

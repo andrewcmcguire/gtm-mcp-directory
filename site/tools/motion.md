@@ -41,7 +41,8 @@ Personal/individual-rep calendar-and-task auto-scheduler - the "how does my day 
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/RF-D/motion-mcp](https://github.com/RF-D/motion-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/RF-D/motion-mcp](https://github.com/RF-D/motion-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,89 @@ mcp_url, verbatim from the file:
 https://github.com/RF-D/motion-mcp (one of several competing unofficial servers; also github.com/devondragon/MotionMCP, github.com/h3ro-dev/motion-mcp-server, github.com/christopher-czaban/motion-mcp-server, github.com/Identityex/use-motion-mcp-server) - the RF-D repo states plainly: "This is a community-built integration, not an official Motion product."
 
 - [https://github.com/RF-D/motion-mcp](https://github.com/RF-D/motion-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 34
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: RF-D/motion-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **motion_add_custom_field_to_project** Add a custom field value to a project evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_add_custom_field_to_task** Add a custom field value to a task evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_complete_task** Mark a task as completed evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_create_comment** Add a new comment to a task evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_create_custom_field** Create a new custom field evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_create_project** Create a new project in Motion evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_create_recurring_task** Create a new recurring task evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_create_task** Create a new task in Motion evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_delete_comment** Delete a comment permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_delete_project** Delete a project permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_delete_recurring_task** Delete a recurring task permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_delete_task** Delete a task permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_comment** Get details of a specific comment evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_current_user** Get information about the currently authenticated user evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_project** Get detailed information about a specific project evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_recurring_task** Get details of a specific recurring task evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_schedule** Get schedule information for a user within a date range evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_task** Get detailed information about a specific task evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_user** Get information about a specific user by ID evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_get_workspace** Get details of a specific workspace by ID evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_comments** List all comments for a specific task evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_custom_fields** List all custom fields, optionally filtered by workspace evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_projects** List all projects, optionally filtered by workspace evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_recurring_tasks** List all recurring tasks, optionally filtered by workspace evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_tasks** List tasks with optional filters. Supports pagination via cursor. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_users** List all users, optionally filtered by workspace evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_list_workspaces** List all workspaces accessible to the authenticated user evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_move_task** Move a task to a different project evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_remove_custom_field_from_task** Remove a custom field value from a task evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_uncomplete_task** Mark a task as not completed evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_update_comment** Update the content of an existing comment evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_update_project** Update an existing project evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_update_recurring_task** Update an existing recurring task evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **motion_update_task** Update an existing task evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

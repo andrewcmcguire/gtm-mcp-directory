@@ -117,7 +117,586 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.close.com/mcp ; https://help.close.com/integrations/close-mcp-server (redirect correction 2026-08-28: the address previously recorded here, help.close.com/docs/mcp-server, 308s to this one and this one returns 200. Endpoint: https://mcp.close.com/mcp)</p><ul><li><a href="https://mcp.close.com/mcp" rel="noopener nofollow">https://mcp.close.com/mcp</a></li><li><a href="https://help.close.com/integrations/close-mcp-server" rel="noopener nofollow">https://help.close.com/integrations/close-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.close.com/mcp ; https://help.close.com/integrations/close-mcp-server (redirect correction 2026-08-28: the address previously recorded here, help.close.com/docs/mcp-server, 308s to this one and this one returns 200. Endpoint: https://mcp.close.com/mcp)</p><ul><li><a href="https://mcp.close.com/mcp" rel="noopener nofollow">https://mcp.close.com/mcp</a></li><li><a href="https://help.close.com/integrations/close-mcp-server" rel="noopener nofollow">https://help.close.com/integrations/close-mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">116</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>activity_search</b></div>
+<div class="td">Search for activities. Results are returned ordered by date descending.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>aggregation</b></div>
+<div class="td">Perform an aggregation to answer questions like: How many emails were sent this week?</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>apply_voice_agent_update</b></div>
+<div class="td">Apply a previously proposed voice agent update.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>close_product_knowledge_search</b></div>
+<div class="td">Search Close product documentation and knowledge base for relevant information.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>create_address</b></div>
+<div class="td">Add a new address to an existing lead (company).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_call_task</b></div>
+<div class="td">Schedule a call task on a lead, assigned to either a user or a voice agent.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_comment</b></div>
+<div class="td">Add a comment to a commentable object (note, call, opportunity, task, custom object, etc.).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_contact</b></div>
+<div class="td">Create a new contact for a lead.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_custom_activity_instance</b></div>
+<div class="td">Create a new custom activity instance on a lead.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_custom_object_instance</b></div>
+<div class="td">Create a new custom object instance on a lead.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_draft_email</b></div>
+<div class="td">Create a draft email on a lead.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_email_template</b></div>
+<div class="td">Create a new email template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_lead</b></div>
+<div class="td">Create a new lead (company).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_lead_status</b></div>
+<div class="td">Create a new lead status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_note</b></div>
+<div class="td">Create a new note on a lead.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_opportunity</b></div>
+<div class="td">Create a new opportunity.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_opportunity_status_tool</b></div>
+<div class="td">Create a new opportunity status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_pipeline</b></div>
+<div class="td">Create a new opportunity pipeline.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_sms_template</b></div>
+<div class="td">Create a new SMS template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_task</b></div>
+<div class="td">Create a new task for a lead.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_workflow</b></div>
+<div class="td">Create a new workflow (a.k.a. sequence) with Draft status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>customized_builtin_labels</b></div>
+<div class="td">Return the customized builtin labels.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>delete_address</b></div>
+<div class="td">Delete an address from an existing lead (company).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_call_task</b></div>
+<div class="td">Delete a call task.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_contact</b></div>
+<div class="td">Permanently delete an existing contact.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_custom_activity_instance</b></div>
+<div class="td">Permanently delete an existing custom activity instance.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_custom_object_instance</b></div>
+<div class="td">Permanently delete an existing custom object instance.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_email_template</b></div>
+<div class="td">Permanently delete an email template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_lead</b></div>
+<div class="td">Permanently delete an existing lead (company) by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_lead_smart_view</b></div>
+<div class="td">Permanently delete a lead smart view (saved search).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_lead_status</b></div>
+<div class="td">Permanently delete a lead status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_note</b></div>
+<div class="td">Permanently delete an existing note.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_opportunity</b></div>
+<div class="td">Permanently delete an opportunity.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_opportunity_status_tool</b></div>
+<div class="td">Permanently delete an opportunity status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_pipeline</b></div>
+<div class="td">Permanently delete an opportunity pipeline.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_sms_template</b></div>
+<div class="td">Permanently delete an SMS template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete_task</b></div>
+<div class="td">Permanently delete an existing task by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>enrich_field</b></div>
+<div class="td">Use AI to determine and set the value of a field on a lead or contact.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>fetch</b></div>
+<div class="td">Retrieve the contents of an arbitrary object by its ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_call</b></div>
+<div class="td">Fetch a single call activity by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_call_task</b></div>
+<div class="td">Fetch a single call task by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_comment</b></div>
+<div class="td">Fetch a single comment by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_contact</b></div>
+<div class="td">Fetch an existing contact by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_custom_activity_instance</b></div>
+<div class="td">Fetch an existing custom activity instance by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_custom_object_instance</b></div>
+<div class="td">Fetch an existing custom object instance by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_custom_object_type</b></div>
+<div class="td">Fetch a single custom object type by its ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_email_template</b></div>
+<div class="td">Fetch an email template by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_invoice</b></div>
+<div class="td">Fetch one of the organization&#x27;s billing invoices by id.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>fetch_lead</b></div>
+<div class="td">Fetch an existing lead (company) by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_lead_smart_view</b></div>
+<div class="td">Fetch a lead smart view (saved search) by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_lead_status</b></div>
+<div class="td">Fetch a lead status by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_meeting_transcript</b></div>
+<div class="td">Fetch a meeting&#x27;s Notetaker transcript(s) by meeting activity ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_membership</b></div>
+<div class="td">Fetch one of the organization&#x27;s members by user id.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_note</b></div>
+<div class="td">Fetch an existing note by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_opportunity</b></div>
+<div class="td">Fetch a specific opportunity by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_opportunity_status</b></div>
+<div class="td">Fetch an opportunity status by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_pipeline_and_opportunity_statuses</b></div>
+<div class="td">Fetch an opportunity pipeline, including its opportunity statuses, by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_role</b></div>
+<div class="td">Fetch one of the organization&#x27;s roles by id, with every permission it grants.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_sms_template</b></div>
+<div class="td">Fetch an SMS template by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fetch_task</b></div>
+<div class="td">Fetch an existing task by ID.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_agent_configs</b></div>
+<div class="td">List all voice agents configured for the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_call_outcomes</b></div>
+<div class="td">List all outcomes applicable to calls available in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_call_tasks</b></div>
+<div class="td">Find call tasks based on various filters.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_contact_custom_fields</b></div>
+<div class="td">List all contact custom fields defined for the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_custom_activities</b></div>
+<div class="td">List all active (non-archived) Custom Activity Types in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_custom_activity_instances</b></div>
+<div class="td">Find a lead&#x27;s custom activity instances based on various filters.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_custom_object_instances</b></div>
+<div class="td">Find a lead&#x27;s custom object instances.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_custom_object_types</b></div>
+<div class="td">List all custom object types in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_email_templates</b></div>
+<div class="td">List or find email templates</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_forms</b></div>
+<div class="td">List all web forms in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_groups</b></div>
+<div class="td">List all groups in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_invoices</b></div>
+<div class="td">Find the organization&#x27;s billing invoices, newest first.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>find_lead_custom_fields</b></div>
+<div class="td">List all lead custom fields defined for the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_lead_smart_views</b></div>
+<div class="td">List lead smart views (saved searches).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_lead_statuses</b></div>
+<div class="td">List or find lead statuses for the organization</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_meeting_outcomes</b></div>
+<div class="td">List all outcomes applicable to meetings available in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_memberships</b></div>
+<div class="td">List the organization&#x27;s members with each member&#x27;s role name.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_notes</b></div>
+<div class="td">Find notes based on various filters.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_opportunities</b></div>
+<div class="td">Find opportunities by status (active/won/lost), owner, lead, or close-date range.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_opportunity_custom_fields</b></div>
+<div class="td">List all opportunity custom fields defined for the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_pipelines_and_opportunity_statuses</b></div>
+<div class="td">List all opportunity pipelines and their opportunity statuses in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_scheduling_links</b></div>
+<div class="td">List available scheduling links for the user and org.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_sms_templates</b></div>
+<div class="td">List or find SMS templates</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_tasks</b></div>
+<div class="td">Find tasks based on various filters.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_voice_agents</b></div>
+<div class="td">List all voice agents configured for the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_workflows</b></div>
+<div class="td">List or find workflows</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_ai_credit_usage</b></div>
+<div class="td">AI credit usage for the billing account, broken down by feature.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>get_billing_summary</b></div>
+<div class="td">Billing summary for the organization&#x27;s billing account.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>get_fields</b></div>
+<div class="td">Use this tool ONLY to get a list of fields for the aggregation tool.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_voice_agent_overview_report</b></div>
+<div class="td">Cross-agent rollup for the Voice Agents list page.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_voice_agent_performance_report</b></div>
+<div class="td">Performance metrics for one voice agent.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_voice_agents</b></div>
+<div class="td">Return detailed configuration for one or more voice agents.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>lead_search</b></div>
+<div class="td">Perform a simple lead search and return the initial set of results.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>list_membership_requests</b></div>
+<div class="td">List pending requests to join the current organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_roles</b></div>
+<div class="td">List the roles that can be assigned in the organization.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>org_info</b></div>
+<div class="td">Return general information about the organization and the user.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>org_users</b></div>
+<div class="td">Return active users (memberships) which are part of the current org.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>paginate_search</b></div>
+<div class="td">Paginate a search to retrieve more results.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>propose_voice_agent_update</b></div>
+<div class="td">Propose a voice agent configuration update from natural-language feedback.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>schedule_voice_agent_call</b></div>
+<div class="td">Schedule a voice agent to call a lead&#x27;s contact.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>search</b></div>
+<div class="td">Perform a natural language search for leads or contacts.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>update_call_task</b></div>
+<div class="td">Update a call task.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_contact</b></div>
+<div class="td">Update an existing contact.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_custom_activity_instance</b></div>
+<div class="td">Update an existing custom activity instance.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_custom_object_instance</b></div>
+<div class="td">Update an existing custom object instance.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_draft_email</b></div>
+<div class="td">Update an existing draft email.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_email_template</b></div>
+<div class="td">Update an existing email template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_lead</b></div>
+<div class="td">Update an existing lead (company).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_lead_smart_view</b></div>
+<div class="td">Update a lead smart view (saved search).</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_lead_status</b></div>
+<div class="td">Update the label of an existing lead status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_note</b></div>
+<div class="td">Update an existing note.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_opportunity</b></div>
+<div class="td">Update an existing opportunity.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_opportunity_status_tool</b></div>
+<div class="td">Update the label of an existing opportunity status.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_pipeline</b></div>
+<div class="td">Update an existing opportunity pipeline.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_sms_template</b></div>
+<div class="td">Update an existing SMS template.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_task</b></div>
+<div class="td">Update an existing task.</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -143,6 +722,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -151,6 +733,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

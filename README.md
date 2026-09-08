@@ -59,7 +59,21 @@ cd gtm-mcp-directory/server
 python -m gtm_mcp_directory        # stdio, blocks, speaks MCP
 ```
 
-Point a client at it:
+Or skip the install: a hosted copy of this same read-only server has answered at
+`https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP) since 2026-09-08.
+It is rebuilt and restarted on every publish and keeps no request log of its own.
+
+```json
+{
+  "mcpServers": {
+    "gtm-directory": {
+      "url": "https://andrewcmcguire.com/gtm-directory/api/mcp"
+    }
+  }
+}
+```
+
+Running it yourself, point a client at the checkout:
 
 ```json
 {

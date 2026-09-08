@@ -41,7 +41,8 @@ Core outbound execution layer between prospecting/data tools and CRM - cadence o
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: auth wall at every path, not proven a server
-- **Endpoint URL[https://api.outreach.io/mcp/](https://api.outreach.io/mcp/)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
 
@@ -55,6 +56,12 @@ https://api.outreach.io/mcp/ ; overview at https://support.outreach.io/support/s
 
 - [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/)
 - [https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview](https://support.outreach.io/support/solutions/articles/159000425158-outreach-mcp-server-overview)
+
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
 **Access gate**
 

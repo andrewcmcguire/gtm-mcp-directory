@@ -118,7 +118,106 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official (Early Access)</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.seismic.com/ ; https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server</p><ul><li><a href="https://mcp.seismic.com/" rel="noopener nofollow">https://mcp.seismic.com/</a></li><li><a href="https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server" rel="noopener nofollow">https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official (Early Access)</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.seismic.com/ ; https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server</p><ul><li><a href="https://mcp.seismic.com/" rel="noopener nofollow">https://mcp.seismic.com/</a></li><li><a href="https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server" rel="noopener nofollow">https://developer.seismic.com/seismicsoftware/docs/seismic-mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">20</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>Add content to DSR</b></div>
+<div class="td">Adds a selected Seismic content to a chosen Digital Sales Room (DSR)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: dsrId, contentVersionId</div>
+</li>
+<li>
+<div class="tn"><b>Add content to meeting</b></div>
+<div class="td">Add Seismic content to meeting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>Create a DSR engagement</b></div>
+<div class="td">Creates a new Digital Sales Room (DSR) from provided template and request parameters</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>Generate LiveSend link</b></div>
+<div class="td">Generates a LiveSend link with configurable settings and provided contents</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Generate answers or summaries by Generative Search</b></div>
+<div class="td">Generates a natural-language answer to a user question and returns the supporting sources used</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get CRM context by ID</b></div>
+<div class="td">Retrieves CRM context information by context ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: context ID</div>
+</li>
+<li>
+<div class="tn"><b>Get DSR comments and user details</b></div>
+<div class="td">Returns comments and associated user details for a Digital Sales Room</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get available CRM Systems</b></div>
+<div class="td">Retrieves a list of all available CRM systems integrated with the platform</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get contents by Generative Search</b></div>
+<div class="td">Retrieves relevant sources for a user query without generating an answer</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get meeting details by ID</b></div>
+<div class="td">Retrieves complete meeting information by meeting ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting ID</div>
+</li>
+<li>
+<div class="tn"><b>Get meeting list</b></div>
+<div class="td">Get a paginated list of meetings based on created time</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get post meeting overview</b></div>
+<div class="td">Get the post meeting overview, which include the summaries, the action items, content recommendations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: meeting ID</div>
+</li>
+<li>
+<div class="tn"><b>Get post-meeting brief</b></div>
+<div class="td">Retrieves the AI-generated post-meeting brief for a specific meeting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: meeting ID</div>
+</li>
+<li>
+<div class="tn"><b>Get pre-meeting brief</b></div>
+<div class="td">Retrieves AI-generated pre-meeting brief information for a specific meeting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting ID, CRM account</div>
+</li>
+<li>
+<div class="tn"><b>Get the DSR engagement list</b></div>
+<div class="td">Retrieve a paginated list of DSR engagements that match CRM context and filter criteria</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get the meeting engagement list</b></div>
+<div class="td">Retrieve a paginated list of meeting engagements that match CRM context and filter criteria</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Get the transcript analysis of meeting</b></div>
+<div class="td">Get the transcript analysis of meeting by meeting id</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: meeting ID</div>
+</li>
+<li>
+<div class="tn"><b>List DSR templates</b></div>
+<div class="td">Lists available DSR templates with identifiers and descriptive metadata</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>Search CRM Contexts</b></div>
+<div class="td">Searches for CRM context objects using natural language queries and optional filters</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>Update meeting metadata</b></div>
+<div class="td">Updates meeting engagement metadata such as agenda entries, notes, and tags</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
@@ -144,6 +243,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -152,6 +254,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

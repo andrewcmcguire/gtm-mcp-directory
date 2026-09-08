@@ -41,7 +41,8 @@ SMB/mid-market pipeline CRM; positions its MCP server as available to any plan t
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,81 @@ https://mcp.pipedrive.com/mcp ; https://www.pipedrive.com/en/features/mcp-server
 
 - [https://mcp.pipedrive.com/mcp](https://mcp.pipedrive.com/mcp)
 - [https://www.pipedrive.com/en/features/mcp-server](https://www.pipedrive.com/en/features/mcp-server)
+
+**What this server exposes**
+
+- **Tools named**: 32
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **addActivity** Create a new activity evidence: in the vendor docs · calling it writes
+
+- **addDeal** Create a new deal evidence: in the vendor docs · calling it writes
+
+- **addLead** Create a new lead evidence: in the vendor docs · calling it writes
+
+- **addNote** Adds a note attached to a deal, lead, contact or organization evidence: in the vendor docs · calling it reads
+
+- **addOrganization** Create a new organization evidence: in the vendor docs · calling it writes
+
+- **addPerson** Create a new contact evidence: in the vendor docs · calling it writes
+
+- **convertLeadToDeal** Convert a lead into a deal evidence: in the vendor docs · calling it reads
+
+- **getActivities** Fetch a list of activities evidence: in the vendor docs · calling it reads
+
+- **getActivity** Fetch one specific activity evidence: in the vendor docs · calling it reads
+
+- **getDeal** Fetch one specific deal evidence: in the vendor docs · calling it reads
+
+- **getDeals** Fetch a list of deals evidence: in the vendor docs · calling it reads
+
+- **getLead** Fetch one specific lead evidence: in the vendor docs · calling it reads
+
+- **getLeadConversionStatus** Check whether a lead has been converted evidence: in the vendor docs · calling it reads
+
+- **getLeads** Fetch a list of leads evidence: in the vendor docs · calling it reads
+
+- **getNote** Fetch details of one specific note evidence: in the vendor docs · calling it reads
+
+- **getNotes** Fetch the list of notes evidence: in the vendor docs · calling it reads
+
+- **getOrganization** Fetch one specific organization evidence: in the vendor docs · calling it reads
+
+- **getOrganizations** Fetch a list of organizations evidence: in the vendor docs · calling it reads
+
+- **getPerson** Fetch one specific contact evidence: in the vendor docs · calling it reads
+
+- **getPersons** Fetch a list of contacts evidence: in the vendor docs · calling it reads
+
+- **getStage** Fetch details of one specific stage evidence: in the vendor docs · calling it reads
+
+- **getStages** Fetch all stages in a pipeline evidence: in the vendor docs · calling it reads
+
+- **searchDeals** Search deals by keyword evidence: in the vendor docs · calling it reads
+
+- **searchLeads** Find leads by keyword or criteria evidence: in the vendor docs · calling it reads
+
+- **searchOrganization** Search organizations by name or keyword evidence: in the vendor docs · calling it reads
+
+- **searchPersons** Find contacts by name, email or other criteria evidence: in the vendor docs · calling it reads
+
+- **updateActivity** Edit an existing activity evidence: in the vendor docs · calling it reads
+
+- **updateDeal** Edit an existing deal evidence: in the vendor docs · calling it reads
+
+- **updateLead** Edit an existing lead evidence: in the vendor docs · calling it reads
+
+- **updateNote** Updates a specific note by its ID evidence: in the vendor docs · calling it reads
+
+- **updateOrganization** Edit an existing organization evidence: in the vendor docs · calling it reads
+
+- **updatePerson** Edit an existing contact evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

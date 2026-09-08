@@ -41,7 +41,8 @@ CRM-auto-write conversation-intelligence layer, marketed as an "AI agent platfor
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,35 @@ https://docs.attention.com/mcp/overview (re-verified 200 on 2026-08-28; correcte
 
 - [https://docs.attention.com/mcp/overview](https://docs.attention.com/mcp/overview)
 - [https://github.com/highgravitas/attention-mcp](https://github.com/highgravitas/attention-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 7
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: highgravitas/attention-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **ask_attention** Run Attention evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_conversation** Get full details and transcript for a specific Attention conversation by ID. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_scorecards_summary** Get per-criterion averages for a scorecard over a date range. Feeds weekly manager rollup. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_gi_history** List an org user evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_recent_conversations** List recent Attention conversations from the past N days. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_scorecards** List all scorecards configured for the organization (id, name, criteria). Call this first to pick a scorecard_id and criterion ids for create_scorecard_result. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_conversations** Search Attention for call recordings and transcripts. Use for sales calls, customer calls, and demos. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

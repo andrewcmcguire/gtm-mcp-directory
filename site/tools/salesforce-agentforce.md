@@ -41,7 +41,8 @@ The system-of-record CRM most large/enterprise RevOps stacks are built on; Agent
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -56,6 +57,53 @@ https://github.com/salesforcecli/mcp (Salesforce DX/CLI MCP server, dev-tooling 
 - [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp)
 - [https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html](https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html)
 - [https://github.com/forcedotcom/mcp-hosted](https://github.com/forcedotcom/mcp-hosted)
+
+**What this server exposes**
+
+- **Tools named**: 17
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: salesforcecli/mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **ALLOW_ALL_ORGS** Allow access to all authorized orgs. Use this value with caution. evidence: in a README table · calling it reads
+
+- **DEFAULT_TARGET_DEV_HUB** Allow access to your default Dev Hub org. If you've set a local default Dev Hub org in your DX project, the MCP server uses it. If not, the server uses a globally-set default Dev Hub org. evidence: in a README table · calling it writes
+
+- **DEFAULT_TARGET_ORG** Allow access to your default org. If you've set a local default org in your DX project, the MCP server uses it. If not, the server uses a globally-set default org. evidence: in a README table · calling it writes
+
+- **aura-experts** Tools that provide Aura component analysis, blueprinting, and migration expertise.. evidence: in a README table · calling it reads
+
+- **code-analysis** Tools for static analysis of your code using Salesforce Code Analyzer. evidence: in a README table · calling it reads
+
+- **core** Core set of DX MCP tools. This toolset is always enabled. evidence: in a README table · calling it writes
+
+- **data** Tools to manage the data in your org, such as listing all accounts. evidence: in a README table · calling it reads
+
+- **devops** Tools to securely and autonomously read, manage, and operate DevOps Center resources. evidence: in a README table · calling it reads
+
+- **experts-validation** Tools to validate and score LWC components for production readiness across accessibility, security, and best practices. evidence: in a README table · calling it reads
+
+- **lwc-experts** Tools to assist with Lightning Web Component (LWC) development, testing, optimization, and best practices. evidence: in a README table · calling it reads
+
+- **metadata** Tools to deploy and retrieve metadata to and from your org and your DX project. evidence: in a README table · calling it reads
+
+- **mobile** Tools for mobile development and capabilities. evidence: in a README table · calling it reads
+
+- **mobile-core** A subset of tools from the `mobile` toolset focused on essential mobile capabilities. evidence: in a README table · calling it reads
+
+- **orgs** Tools to manage your authorized orgs. evidence: in a README table · calling it reads
+
+- **scale-products** Tools for detecting and fixing Apex performance. evidence: in a README table · calling it reads
+
+- **testing** Tools to test your code and features. evidence: in a README table · calling it reads
+
+- **users** Tools to manage org users, such as assigning a permission set. evidence: in a README table · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

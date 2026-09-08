@@ -41,7 +41,8 @@ Multichannel outbound sequencing with an AI SDR agent as an optional higher tier
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,237 @@ mcp_url, verbatim from the file:
 https://github.com/SalesforgeAI/forge-mcp
 
 - [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 109
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: SalesforgeAI/forge-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **add_dnc_entries** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **assign_sender_profiles_to_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **assign_subsequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **bulk_create_contacts** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **bulk_update_contacts** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **confirm_enrollment_preflight** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_action_node** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_condition_node** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_contact** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_subsequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_subsequence_trigger** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_webhook** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **create_workspace** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **delete_sender_profile** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **delete_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **delete_sequence_node** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **download_email_attachment** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **download_email_attachments** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **enroll_contacts** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_contact** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_mailbox** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_me** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_sequence_node** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_sequence_schedule** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_sequence_settings** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_thread** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_validation_results** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_webhook** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **get_workspace** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_bulk_dns_update** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_check_domain_availability** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_check_domain_availability_bulk** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_create_credit_balance** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_disable_autorenew** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_enable_autorenew** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_get_alternative_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_get_credit_balance** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_get_domain_dns** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_list_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_purchase_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_update_credit_balance** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **infraforge_update_domain_dns** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **launch_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **leadsforge_get_department_filters** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **leadsforge_get_employee_range_filters** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **leadsforge_get_seniority_filters** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **leadsforge_search_lookalikes** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_action_types** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_condition_types** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_contacts** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_custom_variables** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_mailboxes** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_primebox_labels** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_primebox_threads** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_sender_profiles** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_sequence_branches** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_sequence_nodes** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_sequence_sender_profiles** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_sequences** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_subsequence_members** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_subsequence_parents** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_subsequence_triggers** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_webhooks** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **list_workspaces** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_bulk_disable_autorenew** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_bulk_dns_update** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_bulk_enable_autorenew** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_check_domain_availability** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_check_domain_availability_bulk** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_create_workspace** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_delete_domain_masking** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_delete_workspace** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_disable_autorenew** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_enable_autorenew** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_get_domain_dns** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_list_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_list_workspaces** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_purchase_domain_masking** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_purchase_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_transfer_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_update_domain_dns** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_update_domain_forwards** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **mailforge_update_workspace** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **preflight_enrollments** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **preview_enrollment_move** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_bulk_dns_update** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_buy_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_create_mailboxes_for_domain** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_delete_domain** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_get_domain** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_get_domain_dns** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_list_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **primeforge_search_domains** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **remove_enrollments** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **remove_sender_profiles_from_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **reply_to_email** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **set_sequence_status** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **start_email_validation** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_action_node** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_contact** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_sender_profile** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_sequence** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_sequence_schedule** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_sequence_settings** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **update_thread_label** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **warmforge_create_workspace** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **warmforge_list_workspaces** No description was recorded with the name. evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

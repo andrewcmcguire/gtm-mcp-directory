@@ -41,7 +41,8 @@ The context and messaging layer underneath the rest of the stack; it does not se
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://docs.octavehq.com/mcp/overview](https://docs.octavehq.com/mcp/overview)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://docs.octavehq.com/mcp/overview](https://docs.octavehq.com/mcp/overview)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -57,6 +58,33 @@ https://docs.octavehq.com/mcp/overview (endpoint: https://mcp.octavehq.com/mcp?c
 - [https://mcp.octavehq.com/mcp?ctx=](https://mcp.octavehq.com/mcp?ctx=)
 - [https://www.octavehq.com/capabilities/mcp](https://www.octavehq.com/capabilities/mcp)
 - [https://github.com/octavehq/lfgtm](https://github.com/octavehq/lfgtm)
+
+**What this server exposes**
+
+- **Tools named**: 7
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: octavehq/lfgtm
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Agent** Description evidence: in a README table · calling it reads
+
+- **Skill** Description evidence: in a README table · calling it reads
+
+- **asset-manager** Publish and manage hosted assets: upload, privacy tiers, share links, persistent registry; cache-aware - reuses existing assets instead of duplicating them evidence: in a README table · calling it reads
+
+- **octave-assistant** General GTM assistant with full Octave platform knowledge evidence: in a README table · calling it reads
+
+- **pmm-strategist** Senior PMM focused on positioning, messaging, and launch strategy evidence: in a README table · calling it writes
+
+- **revenue-strategist** VP Revenue advisor for pipeline strategy and deal coaching evidence: in a README table · calling it reads
+
+- **sdr-coach** SDR manager focused on outreach quality, reply rates, and coaching evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

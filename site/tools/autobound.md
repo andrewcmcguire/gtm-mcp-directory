@@ -41,7 +41,8 @@ Personalisation and signal layer that sits underneath a sequencer (Outreach, Sal
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,31 @@ https://www.autobound.ai/integrations/mcp (npm package @autobound-ai/mcp-server,
 
 - [https://www.autobound.ai/integrations/mcp](https://www.autobound.ai/integrations/mcp)
 - [https://www.autobound.ai/blog/announcing-autobounds-model-context-protocol-mcp](https://www.autobound.ai/blog/announcing-autobounds-model-context-protocol-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 7
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **account_info** Check credits, usage, API request logs, and signal database statistics. Monitor your consumption in real time. evidence: in the vendor docs · calling it reads
+
+- **company_enrich** Pass a domain. Get back every signal: financial filings, hiring trends, news, tech stack changes, social activity. Bulk enrichment available for up to 100 domains. evidence: in the vendor docs · calling it reads · required: domain
+
+- **company_timeline** Chronological view of all recent signals for a company. See what happened in the last 7, 30, or 90 days. evidence: in the vendor docs · calling it reads
+
+- **contact_enrich** Returns contact-level signals (job changes, LinkedIn posts, milestones) and their employer's company signals. Bulk enrichment available. evidence: in the vendor docs · calling it reads · required: email
+
+- **contact_timeline** Full signal timeline for a contact by email. Batch endpoint available for multiple contacts in one call. evidence: in the vendor docs · calling it reads · required: email
+
+- **signal_search** Structured search across 700+ signal types. Filter by signal type, domain, date range, and more to find exactly the signals you need. evidence: in the vendor docs · calling it reads
+
+- **signal_types** List all available signal types with descriptions, categories, and delivery stats. Useful for discovering what data is available. evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

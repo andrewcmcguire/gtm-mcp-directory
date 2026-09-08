@@ -11,7 +11,7 @@ This file exists because the directory publishes what it measures. A directory o
 - [search-index.json](https://andrewcmcguire.com/gtm-directory/search-index.json): one compact record per unique product, 320 of them.
 - [The data page](https://andrewcmcguire.com/gtm-directory/data): what every field means and how to read it without getting it wrong.
 - **Markdown twins**: every HTML page on this site has a markdown twin at the same file path with a `.md` extension. Page URLs are extensionless, so append `.md` to a page path and add `index` to a directory path. Same content, no navigation, no styling, no scripts. Links inside a twin point at other twins, so the whole site is crawlable in markdown. Examples: `https://andrewcmcguire.com/gtm-directory/learn/what-is-an-mcp-server.md`, `https://andrewcmcguire.com/gtm-directory/tools/index.md`.
-- [sitemap.xml](https://andrewcmcguire.com/gtm-directory/sitemap.xml): all 821 pages.
+- [sitemap.xml](https://andrewcmcguire.com/gtm-directory/sitemap.xml): all 822 pages.
 
 ## The GTM Engineer job board
 
@@ -27,6 +27,7 @@ This file exists because the directory publishes what it measures. A directory o
 - **None found** is a statement about a search on a stated date, not a claim that no server exists. Every entry carries its own last_checked date.
 - **Unknown** is a legal answer and is published as unknown rather than guessed.
 - **A job tag** means the vendor says the tool does this. It is not a test result.
+- **A tool name** in the capability layer means the server NAMES that tool: it answered tools/list, or the tool is registered in the server's own source, or the vendor documents it. Nobody has called it. The strongest of those four evidences is recorded per tool, with the date it was read.
 - **BENCH-TESTED** means somebody personally ran the tool on a stated date. 1 entries are bench tested. Every other entry is RESEARCHED: facts from public sources with URLs, no usage claims.
 - There are **no tool versus tool verdicts** anywhere on this site, and no rankings that can be purchased. The ordering rule is published and computed.
 
@@ -39,12 +40,14 @@ This file exists because the directory publishes what it measures. A directory o
 - Solo reachable, meaning BOTH an MCP server exists AND the gate is free or paid self serve: 168. This is the strictest useful filter on the site.
 - Jobs: 56 in 10 families, 849 tags across 271 entries. 65 entries are untagged and each records why.
 - Bench tested: 1.
+- Capability layer, harvested 2026-09-08: 8503 tool names, of which 2575 belong to the GTM tools themselves and 5928 to one gateway that re-exposes other vendors, counted apart. 122 of the 225 entries recording an official or community MCP server have a tool list. The other 103 are UNMEASURED, not empty: nobody has read their tool list, so this directory says nothing about what they expose. Do not report an unmeasured server as a server with no tools.
 
 ## Key pages
 
 - [The directory front page](https://andrewcmcguire.com/gtm-directory/): the stat block, the capability search, and the MCP coverage of all 15 categories.
 - [Methodology](https://andrewcmcguire.com/gtm-directory/methodology): how an entry is made, the two honesty tiers, and every place this build is thin, named.
 - [Every tool A to Z](https://andrewcmcguire.com/gtm-directory/tools/): 320 product pages.
+- [The tools index](https://andrewcmcguire.com/gtm-directory/tools-index): every tool name the MCP servers in this directory expose, 8,503 of them, each with the server it belongs to, the evidence behind the name and the harvest date. Alphabetical by tool name, so it answers "which server has a tool called this" directly.
 - [Every vendor A to Z](https://andrewcmcguire.com/gtm-directory/vendors/): 310 vendor pages, one per vendor_domain, each listing the vendor's products with links to their tool pages, how many have an official or community MCP server, how many answered a live handshake, how many are repo local or docs only, tools catalogued across its servers, the gates in plain words, the union of job labels the vendor claims, and the connect URLs. Every count carries its date.
 - A vendor page URL is the vendor's domain with every dot turned into a hyphen, under `https://andrewcmcguire.com/gtm-directory/vendors/`. hubspot.com is `https://andrewcmcguire.com/gtm-directory/vendors/hubspot-com`, cloud.google.com is `https://andrewcmcguire.com/gtm-directory/vendors/cloud-google-com`. The markdown twin adds `.md`. 9 vendors have more than one product: Apollo.io (2), Clari (2), Gong (2), Google (2), HubSpot (3), Salesforce (2), Terret (2), Zapier (2), ZoomInfo (2).
 - [By category](https://andrewcmcguire.com/gtm-directory/categories/): 15 categories with their coverage.

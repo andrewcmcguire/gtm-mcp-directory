@@ -381,6 +381,17 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
   .jrow .nm{font-size:18px}
 }
 
+/* the capability layer: the tool list on a tool page, and the /tools-index roll up */
+.caplist{list-style:none;margin-top:14px;border-top:1px solid var(--rule-soft)}
+.caplist li{padding:9px 0;border-bottom:1px solid var(--rule-soft)}
+.caplist .tn{font-family:var(--mono);font-size:13px;color:var(--fg);overflow-wrap:anywhere}
+.caplist .td{font-size:14px;line-height:1.6;color:var(--mute);margin-top:4px;max-width:88ch}
+.caplist .td.dim{color:var(--mute-2);font-style:italic}
+.caplist .tm{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--mute-2);
+  margin-top:5px;overflow-wrap:anywhere}
+.caplist .tm a{color:var(--mute)}
+.caplist .sv{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+
 @media (prefers-reduced-motion:no-preference){
   a,.btn,.chip{transition:color .12s ease,border-color .12s ease,background-color .12s ease}
 }

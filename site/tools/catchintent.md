@@ -56,6 +56,45 @@ https://engine.catchintent.com/mcp (vendor page: https://catchintent.com/mcp; ch
 - [https://catchintent.com/mcp](https://catchintent.com/mcp)
 - [https://catchintent.com/changelog/](https://catchintent.com/changelog/)
 
+**What this server exposes**
+
+- **Tools named**: 14
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **lead_enrich** Trigger full LinkedIn profile enrichment via Apify (~$0.002, idempotent). evidence: answered tools/list · calling it reads · required: leadId
+
+- **lead_get** Get full details of one lead: profile, discovery context (fit reason, pain hypothesis, role signals, disqualifiers), the AI-drafted outreach sequence (lead.outreach), warmth score, and status. evidence: answered tools/list · calling it reads · required: leadId
+
+- **lead_push_to_crm** Push leads to your connected CRM (HubSpot, Close, Pipedrive, Zoho). Each lead becomes a contact / deal in the destination. Lead status does not change automatically - call lead_update_status to mark as `pushed` once CRM confirms. evidence: answered tools/list · calling it writes · required: leadIds
+
+- **lead_regenerate_sequence** Re-draft the lead's AI outreach sequence (LinkedIn/X steps). Optional instructions steer the rewrite. Capped per lead - edit directly once the cap is hit. evidence: answered tools/list · calling it reads · required: leadId
+
+- **lead_search** Search leads in the workspace. A lead is always a person discovered on LinkedIn. Filter by warmth, status, or text. evidence: answered tools/list · calling it reads
+
+- **lead_update_sequence** Replace the lead's outreach sequence steps with edited versions (marks the sequence as edited). evidence: answered tools/list · calling it reads · required: leadId, steps
+
+- **lead_update_status** Move a lead through the triage funnel. Valid transitions: NEW → SEEN/SAVED/PUSHED/ARCHIVED, SEEN ↔ SAVED, SAVED → PUSHED/ARCHIVED, PUSHED → ARCHIVED, ARCHIVED → SEEN. PUSHED is irreversible - it marks handoff to an outreach tool / CRM. evidence: answered tools/list · calling it writes · required: leadId, status
+
+- **product_create** Create a new product. You can set sell (name/description/keywords/competitors), the structured offer, voice, and reach (roles/seniority/functions). Company firmographics (industries/size/country) are set in the dashboard, not here. Brand fi evidence: answered tools/list · calling it writes · required: name
+
+- **product_delete** Delete a product. Fails only if it's the workspace's only product. Its audience and leads cascade-delete. evidence: answered tools/list · calling it writes · required: productId
+
+- **product_get** Resolved brand profile for a product, returned as nested sections with human-readable labels: sell (name/description/keywords/competitors/offer), fit (company firmographics), reach (roles/seniority/functions), plus offer, voice, and domain. evidence: answered tools/list · calling it reads · required: productId
+
+- **product_list** List every product/brand tracked by this workspace. Each product has its own brand profile, audience, and leads. Returns id, name, and timestamps. evidence: answered tools/list · calling it reads
+
+- **product_update** Update a product. Partial - only provided fields change. You can set sell (name/description/keywords/competitors), the structured offer, voice, and reach (roles/seniority/functions). Company firmographics (industries/size/country) are set... evidence: answered tools/list · calling it writes · required: productId
+
+- **workspace_icp_options** Get the valid Seniority Level and Job Function labels for product targeting (the reach dimensions MCP can set; roles are free text). Call this before product_update - unknown labels are rejected, never silently dropped. evidence: answered tools/list · calling it reads
+
+- **workspace_usage** Current workspace usage vs plan limits: leads delivered this billing period, team members, products, AI compute budget, daily/monthly caps. evidence: answered tools/list · calling it spends money
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

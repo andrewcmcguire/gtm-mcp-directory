@@ -41,7 +41,8 @@ The broadest reach-into-anything connector for a RevOps stack already standardiz
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -57,6 +58,49 @@ https://mcp.zapier.com/api/v1/connect ; https://mcp.zapier.com/login?redirectTo=
 - [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp)
 - [https://zapier.com/mcp](https://zapier.com/mcp)
 - [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 15
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: the customer's own workspace, not a fixed catalogue
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+Recorded by the harvest: every tool is one of the customer's own connected Zaps
+
+- **auto_provision_mcp** Automatically provisions tools from your existing Zapier connections. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **create_zapier_skill** Creates new reusable workflows. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **delete_zapier_skill** Removes skills. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **disable_zapier_action** Removes an action you no longer need. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **discover_zapier_actions** Searches for apps and actions available to add. evidence: in the vendor docs · calling it writes · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **enable_zapier_action** Enables a specific action as a callable tool. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **execute_zapier_read_action** Runs search and lookup operations. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **execute_zapier_write_action** Runs create, send, or update operations. evidence: in the vendor docs · calling it writes · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **get_configuration_url** Returns the URL to your Zapier MCP configuration page. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **get_zapier_skill** Retrieves a specific skill by name. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **inspect_zapier_actions** Lists your enabled actions with what you need to run them. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **list_zapier_skills** Lists saved workflow instructions. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **send_feedback** Sends feedback to Zapier. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **update_zapier_skill** Modifies existing skills. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **write_code_action** Generates custom code when built-in actions do not fit. Exposed on some servers only. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

@@ -41,7 +41,8 @@ Personalized-video triggers embedded in CRM lifecycle stages - a sales/customer-
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -54,6 +55,23 @@ mcp_url, verbatim from the file:
 https://zapier.com/mcp/bonjoro (Zapier's generic MCP gateway; no vendor-published first-party server found)
 
 - [https://zapier.com/mcp/bonjoro](https://zapier.com/mcp/bonjoro)
+
+**What this server exposes**
+
+- **Tools named**: 3
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Create Task** Establishes a Bonjoro task requiring video recording via the platform. evidence: in the vendor docs · calling it writes · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Message Templates** Lists available message templates. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Workspaces** Lists available workspaces. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

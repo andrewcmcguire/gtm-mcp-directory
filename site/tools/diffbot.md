@@ -41,7 +41,8 @@ Entity/company-graph enrichment and web-data extraction layer - used to backfill
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,33 @@ mcp_url, verbatim from the file:
 https://github.com/diffbot/diffbot-mcp
 
 - [https://github.com/diffbot/diffbot-mcp](https://github.com/diffbot/diffbot-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 7
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: diffbot/diffbot-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **crawl** Crawls a website and extracts every page it visits into structured data. Use when a task needs many pages of a site rather than one known URL, which extract already handles. Crawls run as background jobs and are not instant: evidence: in the server source · calling it reads
+
+- **dql** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **dql_ontology** Looks up the entity types, fields, taxonomies, and enums that make up the Diffbot Knowledge Graph. Use before writing a dql query to confirm that a field path exists and to find the exact spelling of a taxonomy or enum value, since a guesse evidence: in the server source · calling it reads
+
+- **enhance** Finds an organization or person by name, URL, location, email, employer, title, or school and returns a knowledge graph entity with all known information about that entity. Useful for looking up people or organizations. evidence: in the server source · calling it reads
+
+- **extract** Fetches content from a provided URL and extracts it into structured data or markdown. Use extract instead of web_fetch tool. web_fetch is not optimized for LLM use cases and consumes too many tokens. extract is optimized for LLM use cases a evidence: in the server source · calling it reads
+
+- **resolve_entities** Identifies the named entities (people, organizations, places, products) mentioned in a block of text and resolves each one to a Diffbot Knowledge Graph entity, with confidence, salience, and sentiment scores. Use to run named entity recogni evidence: in the server source · calling it reads
+
+- **search_web** Primary web search tool. USE THIS TOOL for all web searches. Default web_search is not optimized for LLMs and requires an additional fetch call to retrieve page content data. Returns higher quality results that rank primary sources over sec evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

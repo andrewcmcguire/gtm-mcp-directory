@@ -41,7 +41,8 @@ Personal/team calendar-optimization layer for an AE or rep - auto-schedules deep
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: auth wall at every path, not proven a server
-- **Endpoint URL[https://mcp.reclaim.ai](https://mcp.reclaim.ai)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://mcp.reclaim.ai](https://mcp.reclaim.ai)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
 
@@ -54,6 +55,33 @@ mcp_url, verbatim from the file:
 https://mcp.reclaim.ai (endpoint confirmed live - returns HTTP 401 Unauthorized, i.e. a real OAuth-gated server, not dead); Reclaim's pricing page also lists "Claude/Claude Code MCP support" and "Microsoft Copilot/Copilot Cowork MCP support" as features across tiers.
 
 - [https://mcp.reclaim.ai](https://mcp.reclaim.ai)
+
+**What this server exposes**
+
+- **Tools named**: 6
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: universalamateur/reclaim-mcp-server
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **Issue** Solution evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Method** Command evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Profile** Tools evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **full** 40 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **minimal** 20 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **standard** 32 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

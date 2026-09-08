@@ -57,6 +57,121 @@ https://mcp.amplemarket.com/mcp ; https://knowledge.amplemarket.com/articles/802
 - [https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server)
 - [https://www.amplemarket.com/mcp](https://www.amplemarket.com/mcp)
 
+**What this server exposes**
+
+- **Tools named**: 52
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **act_on_duo_lead** Accept, schedule, dismiss, or regenerate a Duo lead. evidence: in the vendor docs · calling it writes
+
+- **add_account_note** Add a note to an account. evidence: in the vendor docs · calling it writes
+
+- **add_contact_note** Add a note to a contact. evidence: in the vendor docs · calling it writes
+
+- **add_lead_list_column** Add a new custom column to a lead list. evidence: in the vendor docs · calling it writes
+
+- **add_leads_to_list** Add leads to an existing list by email, LinkedIn URL, or name plus company. evidence: in the vendor docs · calling it writes
+
+- **add_leads_to_sequence** Enroll leads in an existing sequence. evidence: in the vendor docs · calling it writes
+
+- **append_stage_to_sequence** Add a step to an existing draft sequence. evidence: in the vendor docs · calling it writes
+
+- **ask_analytics** Ask natural language questions about your Amplemarket analytics: sequences, emails, LinkedIn, phone calls, meetings, and more. evidence: in the vendor docs · calling it reads
+
+- **check_excluded_domains** Check whether one or more domains are on your exclusion list. evidence: in the vendor docs · calling it reads
+
+- **check_excluded_emails** Check whether one or more email addresses are on your exclusion list. evidence: in the vendor docs · calling it reads
+
+- **complete_task** Mark a task as completed. evidence: in the vendor docs · calling it reads
+
+- **create_lead_list** Create a new lead list. evidence: in the vendor docs · calling it writes
+
+- **create_saved_search** Save a named set of people search filters as a saved search. evidence: in the vendor docs · calling it writes
+
+- **create_sequence** Create a new empty draft sequence. evidence: in the vendor docs · calling it writes
+
+- **create_task** Create a one-off task for a contact, such as a call, email, or custom action. evidence: in the vendor docs · calling it writes
+
+- **create_workflow** Create a draft workflow from natural language instructions using the Amplemarket AI Workflows agent. evidence: in the vendor docs · calling it writes
+
+- **enrich_company** Get company details, industry, size, funding, tech stack, location, by domain or LinkedIn URL. evidence: in the vendor docs · calling it reads
+
+- **enrich_person** Get detailed profile data for a person by email, LinkedIn URL, or name plus company. evidence: in the vendor docs · calling it reads
+
+- **get_account** Get detailed information about a specific account. evidence: in the vendor docs · calling it reads · required: account id
+
+- **get_contact** Retrieve a single contact from your Amplemarket account by ID. evidence: in the vendor docs · calling it reads · required: contact id
+
+- **get_inbox_thread** Get a single inbox thread with its full message history. evidence: in the vendor docs · calling it reads
+
+- **get_lead_list** View a specific lead list and its leads. evidence: in the vendor docs · calling it reads
+
+- **get_messaging_settings** Retrieve your Duo AI messaging configuration: value propositions, tone of voice, and sequence instructions. evidence: in the vendor docs · calling it reads
+
+- **get_outbox_entry** Get a single outbox entry with its full rendered content and engagement details. evidence: in the vendor docs · calling it reads
+
+- **get_persona** Get a persona's saved search filters and metadata. evidence: in the vendor docs · calling it reads
+
+- **get_saved_search** Get the full details of a saved search, including its filters and lead count stats. evidence: in the vendor docs · calling it reads
+
+- **get_sequence** Get full details of a specific sequence including all steps and their content. evidence: in the vendor docs · calling it reads
+
+- **get_sequence_lead** Get full detail on a single lead in a sequence. evidence: in the vendor docs · calling it reads
+
+- **get_workflow** Get the full definition of a workflow: triggers, enrollment filters, and every step. evidence: in the vendor docs · calling it reads
+
+- **get_workflow_creation** Poll the result of a create_workflow request. evidence: in the vendor docs · calling it reads
+
+- **list_accounts** List accounts in Amplemarket filtered by name, domain, owner, or tags. evidence: in the vendor docs · calling it reads
+
+- **list_contacts** List contacts in Amplemarket and filter by name, email, or account. evidence: in the vendor docs · calling it reads
+
+- **list_duo_leads** List Duo recommended leads for you or a rep you manage. evidence: in the vendor docs · calling it reads
+
+- **list_inbox_threads** List Unibox inbox threads for email or LinkedIn. evidence: in the vendor docs · calling it reads
+
+- **list_lead_lists** List your existing lead lists. evidence: in the vendor docs · calling it reads
+
+- **list_outbox_entries** List scheduled and past outgoing steps for email or LinkedIn. evidence: in the vendor docs · calling it reads
+
+- **list_personas** List the account's saved personas. evidence: in the vendor docs · calling it reads
+
+- **list_saved_searches** List saved searches visible to you, with optional filtering by owner or name. evidence: in the vendor docs · calling it reads
+
+- **list_sequence_leads** List leads enrolled in a sequence with optional filters by status. evidence: in the vendor docs · calling it reads
+
+- **list_sequences** List sequences in your account, with optional filters by name, status, creator, and priority. evidence: in the vendor docs · calling it reads
+
+- **list_tasks** List your tasks with optional filters by type, status, sequence, or due date. evidence: in the vendor docs · calling it reads
+
+- **list_workflows** List workflows in your account, most recently edited first. evidence: in the vendor docs · calling it reads
+
+- **remove_lead_list_column** Delete a column and its data from a lead list. evidence: in the vendor docs · calling it writes
+
+- **remove_leads_from_lead_list** Remove one or more leads from a lead list. evidence: in the vendor docs · calling it writes
+
+- **remove_leads_from_sequence** Remove one or more leads from a sequence. evidence: in the vendor docs · calling it writes
+
+- **rename_lead_list_column** Rename an existing column in a lead list. evidence: in the vendor docs · calling it reads
+
+- **search_companies** Search for companies by name, domain, industry, size, location, type, and more. evidence: in the vendor docs · calling it reads
+
+- **search_people** Search for people using the same filters available in Amplemarket Searcher: name, title, seniority, department, location, company, industry, company size, and more. evidence: in the vendor docs · calling it reads
+
+- **skip_task** Skip a task, removing it from your queue without completing it. evidence: in the vendor docs · calling it reads
+
+- **update_lead_list_entry** Update one or more cell values for a specific lead in a list. evidence: in the vendor docs · calling it writes
+
+- **update_sequence_lead** Update the dynamic field values of a lead already enrolled in a sequence. evidence: in the vendor docs · calling it writes
+
+- **update_sequence_stage** Edit the content of an existing step in a draft sequence. evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Enterprise leaning

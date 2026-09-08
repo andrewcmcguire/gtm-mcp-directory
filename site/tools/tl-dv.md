@@ -41,7 +41,8 @@ Recording-plus-coaching layer with a genuinely reachable paid entry point ($18-2
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -55,6 +56,27 @@ https://github.com/tldv-public/tldv-mcp-server (npm package tldv-mcp) ; https://
 
 - [https://github.com/tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)
 - [https://tldv.io/blog/tldv-mcp-elevating-meeting-intelligence-with-ai-driven-contextualization/](https://tldv.io/blog/tldv-mcp-elevating-meeting-intelligence-with-ai-driven-contextualization/)
+
+**What this server exposes**
+
+- **Tools named**: 4
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: tldv-public/tldv-mcp-server
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **get-highlights** Allows you to get highlights from a meeting by providing a meeting ID. evidence: in the server source · calling it reads
+
+- **get-meeting-metadata** Get a meeting by its ID. The meeting ID is a unique identifier for a meeting. It will return the meeting metadata, including the name, the date, the organizer, participants and more. evidence: in the server source · calling it reads
+
+- **get-transcript** Get transcript by meeting ID. The transcript is a list of messages exchanged between the participants in the meeting. It evidence: in the server source · calling it reads
+
+- **list-meetings** List all meetings based on the filters provided. You can filter by date, status, and more. Those meetings are the sames you have access to in the TLDV app. evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

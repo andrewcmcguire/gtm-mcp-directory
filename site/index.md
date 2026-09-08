@@ -14,11 +14,13 @@ Directory
 
 Every GTM tool your agent can use, and which one does the job.
 
-**336 tools** counted · **200 official MCP servers** · generated **2026-09-08** by build_directory.py (phase 1) · reconciled against tools_recount.py
+**336 tools** counted · **200 official MCP servers** · **8,503 tools those servers name** · generated **2026-09-08** by build_directory.py (phase 1) · reconciled against tools_recount.py
 
 - **tools counted**: 336
 
 - **official MCP servers**: 200
+
+- **tools those servers name**: 8,503
 
 - **community MCP**: 25
 
@@ -32,9 +34,13 @@ Every GTM tool your agent can use, and which one does the job.
 
 Entry facts were pulled by hand: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07. The generated date above is only the date this site was baked. Both dates ship because both rot. 320 of the 336 entries are unique products; 16 are the same product listed in a second category and counted once here.
 
+The tool count is the capability layer, harvested 2026-09-08: 122 of the 225 entries that record an official or community MCP server have a harvested tool list, and it names 8,503 tools. 2,575 of those belong to the GTM tools themselves; 5,928 belong to one gateway that re-exposes other vendors and are counted apart. The remaining 103 servers are **unmeasured, not empty**: nobody has read their tool list yet, and their pages say exactly that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is still 1 across the whole directory.
+
 - [Search by capability](#search)
 
 - [Install the MCP server](#install)
+
+- [Every tool a server names](tools-index.md)
 
 - [See the 200 official servers](mcp/official.md)
 
@@ -92,6 +98,18 @@ RevOps Infra is 29 of 31 reachable by an agent. Forecasting & Revenue is 3 of 17
 ## Point your agent at the directory.
 
 The server loads the baked file once at import and answers from memory. It makes zero outbound network requests, so it cannot be slow, cannot rate limit you, cannot cost anything, and cannot leak your query to a vendor. Everything network shaped happens in the weekly build.
+
+```
+{
+ "mcpServers": {
+ "gtm-directory": {
+ "url": "https://andrewcmcguire.com/gtm-directory/api/mcp"
+ }
+ }
+}
+```
+
+That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same read-only server this page is built from, restarted on every publish. It keeps no request log of its own. If you would rather run it yourself:
 
 ```
 {

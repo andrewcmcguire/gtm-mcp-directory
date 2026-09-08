@@ -41,7 +41,8 @@ Community-led-growth and product-signal intelligence, especially for developer-t
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.commonroom.io/docs/using-common-room/mcp-server/](https://www.commonroom.io/docs/using-common-room/mcp-server/)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://www.commonroom.io/docs/using-common-room/mcp-server/](https://www.commonroom.io/docs/using-common-room/mcp-server/)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,51 @@ https://www.commonroom.io/docs/using-common-room/mcp-server/ ; community alterna
 
 - [https://www.commonroom.io/docs/using-common-room/mcp-server/](https://www.commonroom.io/docs/using-common-room/mcp-server/)
 - [https://github.com/chris-trag/commonroom-mcp](https://github.com/chris-trag/commonroom-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 15
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: chris-trag/commonroom-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **commonroom_add_activity** Add a new activity record to Common Room (blog post, webinar, conference talk, etc.) evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_add_user** Add or update a user profile in Common Room evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_activity_types** Get all available Common Room activity types (article, webinar, presentation, etc.) evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_api_sources_url** Get URL for Common Room API sources configuration page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_api_tokens_url** Get URL for Common Room API tokens configuration page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_dashboard_urls** Get URLs for all Common Room dashboard sections (home, segments, search, contacts, etc.). Requires COMMONROOM_BASE_URL in .env file. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_member_activity_url** Get URL for individual Common Room member activity page (more detailed than overview) evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_member_url** Get URL for individual Common Room member page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_organization_url** Get URL for individual Common Room organization page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_segment_url** Get URL for individual Common Room segment page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_segments** Get all Common Room audience segments for targeting and analysis evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_sources_url** Get URL for Common Room sources configuration page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_tags** Get all Common Room tags used for categorizing activities and users evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **commonroom_get_user** Get Common Room user profile and activity data by email address evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **test_tool** Test tool to verify MCP connection evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

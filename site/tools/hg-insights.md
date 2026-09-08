@@ -41,7 +41,8 @@ Firmographic/technographic enrichment and account intelligence, feeding ICP fit-
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://learn.microsoft.com/en-us/connectors/hginsightsmcp/](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://learn.microsoft.com/en-us/connectors/hginsightsmcp/](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -54,6 +55,103 @@ mcp_url, verbatim from the file:
 https://learn.microsoft.com/en-us/connectors/hginsightsmcp/ (Microsoft-certified connector, publisher HG Insights)
 
 - [https://learn.microsoft.com/en-us/connectors/hginsightsmcp/](https://learn.microsoft.com/en-us/connectors/hginsightsmcp/)
+
+**What this server exposes**
+
+- **Tools named**: 43
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **company_ai_maturity** Company AI Maturity evidence: in the vendor docs · calling it reads
+
+- **company_cloud_spend** Company Cloud Spend evidence: in the vendor docs · calling it reads
+
+- **company_contracts** Company Contracts evidence: in the vendor docs · calling it reads
+
+- **company_fai** FAI Scores evidence: in the vendor docs · calling it reads
+
+- **company_firmographic** Company Firmographics evidence: in the vendor docs · calling it reads
+
+- **company_gov_opportunities** Company Gov Opportunities evidence: in the vendor docs · calling it reads
+
+- **company_gov_relationships** Company Gov Relationships evidence: in the vendor docs · calling it reads
+
+- **company_install_time_series** Company Install Time Series evidence: in the vendor docs · calling it reads
+
+- **company_intent** Company Intent evidence: in the vendor docs · calling it reads
+
+- **company_operating_signals** Company Operating Signals evidence: in the vendor docs · calling it reads
+
+- **company_research** Company Research evidence: in the vendor docs · calling it reads
+
+- **company_spend** Company Spend evidence: in the vendor docs · calling it reads
+
+- **company_technographic** Company Technographics evidence: in the vendor docs · calling it reads
+
+- **contact_enrich** Contact Enrich evidence: in the vendor docs · calling it reads
+
+- **contact_search** Contact Search evidence: in the vendor docs · calling it reads
+
+- **customer_data_explore** Customer Data Explore evidence: in the vendor docs · calling it reads
+
+- **customer_data_query** Customer Data Query evidence: in the vendor docs · calling it reads
+
+- **get_company_hierarchy** Company Hierarchy evidence: in the vendor docs · calling it reads
+
+- **get_product_attribute** Get Product Attribute evidence: in the vendor docs · calling it reads
+
+- **get_product_category** Get Product Category evidence: in the vendor docs · calling it reads
+
+- **get_product_information** Product Information evidence: in the vendor docs · calling it reads
+
+- **get_product_reviews** Product Reviews evidence: in the vendor docs · calling it reads
+
+- **get_vendor_information** Vendor Information evidence: in the vendor docs · calling it reads
+
+- **hg_catalog** HG Data Catalog evidence: in the vendor docs · calling it reads
+
+- **hg_data_query** HG Data Query evidence: in the vendor docs · calling it reads
+
+- **hg_query** HG Query (NL to SQL) evidence: in the vendor docs · calling it reads
+
+- **intent_category** Intent Category evidence: in the vendor docs · calling it reads
+
+- **list_fai_departments** FAI Departments evidence: in the vendor docs · calling it reads
+
+- **list_intent_topics** Intent Topics evidence: in the vendor docs · calling it reads
+
+- **phoenix_get_artifact** Get Artifact evidence: in the vendor docs · calling it reads
+
+- **phoenix_get_run_status** Get Run Status evidence: in the vendor docs · calling it reads
+
+- **phoenix_invoke_agent** Invoke Agent evidence: in the vendor docs · calling it reads
+
+- **phoenix_list_agents** List Agents evidence: in the vendor docs · calling it reads
+
+- **phoenix_list_artifacts** List Artifacts evidence: in the vendor docs · calling it reads
+
+- **phoenix_onboarding** Guided Onboarding evidence: in the vendor docs · calling it reads
+
+- **product_search_and_enrich** Product Search and Enrich evidence: in the vendor docs · calling it reads
+
+- **search_companies** Company Search evidence: in the vendor docs · calling it reads
+
+- **search_federal_contracts** Search Federal Contracts evidence: in the vendor docs · calling it reads
+
+- **search_gov_opportunities** Search Gov Opportunities evidence: in the vendor docs · calling it reads
+
+- **search_industries_naics_sic** Industry Search (NAICS/SIC) evidence: in the vendor docs · calling it reads
+
+- **sec_filing_section** SEC Filing Section evidence: in the vendor docs · calling it reads
+
+- **sec_full_text_search** SEC Full Text Search evidence: in the vendor docs · calling it reads
+
+- **web_search** Web Search evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

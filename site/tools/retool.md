@@ -41,7 +41,8 @@ The app layer for RevOps - builds custom internal UIs on top of the warehouse/CR
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,117 @@ https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server
 
 - [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp)
 - [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)
+
+**What this server exposes**
+
+- **Tools named**: 50
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **retool_cancel_react_app_thread_activity** Cancel activity on an active thread. evidence: in the vendor docs · calling it reads
+
+- **retool_create_or_append_react_app_thread_message** Create or update an app from a natural-language prompt. evidence: in the vendor docs · calling it writes
+
+- **retool_create_resource** Create a new resource. evidence: in the vendor docs · calling it writes
+
+- **retool_create_user_invite** Create a user invite. evidence: in the vendor docs · calling it writes
+
+- **retool_delete_user_invite** Delete a user invite by invite ID. evidence: in the vendor docs · calling it writes
+
+- **retool_delete_user_invite_attribute** Delete a user attribute from a user invite. evidence: in the vendor docs · calling it writes
+
+- **retool_delete_workflow** Delete a workflow by workflow ID. evidence: in the vendor docs · calling it writes
+
+- **retool_execute_resource_ts** Execute a TypeScript snippet against selected resources. evidence: in the vendor docs · calling it reads
+
+- **retool_finalize_prepared_import** Finalize a two-step import after the source zip is uploaded. evidence: in the vendor docs · calling it writes
+
+- **retool_get_app** Get a single app by app ID. evidence: in the vendor docs · calling it reads
+
+- **retool_get_environment** Get an environment by environment ID. evidence: in the vendor docs · calling it reads
+
+- **retool_get_folder** Get a folder by folder ID. evidence: in the vendor docs · calling it reads
+
+- **retool_get_group** Get a single permission group by group ID. evidence: in the vendor docs · calling it reads
+
+- **retool_get_organization** Get organization settings. evidence: in the vendor docs · calling it reads
+
+- **retool_get_react_app_thread_activity_status** Check whether an existing thread has active agent work. evidence: in the vendor docs · calling it reads
+
+- **retool_get_resource** Get metadata for one resource by name. evidence: in the vendor docs · calling it reads
+
+- **retool_get_resource_ts_definitions** Generate global variable bindings and TypeScript definitions for selected resources. evidence: in the vendor docs · calling it reads
+
+- **retool_get_user** Get a single user by user ID. evidence: in the vendor docs · calling it reads
+
+- **retool_get_user_invite** Get a single user invite by invite ID. evidence: in the vendor docs · calling it reads
+
+- **retool_get_workflow** Get a workflow by workflow ID. evidence: in the vendor docs · calling it reads
+
+- **retool_grant_app_access** Grant or update direct access to an app for a user, pending invite, or group. evidence: in the vendor docs · calling it writes
+
+- **retool_list_app_access** List the users, invited users, and groups that currently have access to an app. evidence: in the vendor docs · calling it reads
+
+- **retool_list_apps** List apps in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_audit_logs** List audit log events in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_environments** List environments in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_folders** List folders in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_groups** List permission groups in the organization, including their members. evidence: in the vendor docs · calling it reads
+
+- **retool_list_pending_react_app_function_approvals** List publish-blocking approvals required for mutating functions. evidence: in the vendor docs · calling it reads
+
+- **retool_list_pending_react_app_thread_reviews** List pending live human-in-the-loop review requests. evidence: in the vendor docs · calling it reads
+
+- **retool_list_react_app_files** List file paths, sizes, and line counts for an app. evidence: in the vendor docs · calling it reads
+
+- **retool_list_react_app_threads** List recently active threads for an app. evidence: in the vendor docs · calling it reads
+
+- **retool_list_resource_folders** List resource folders in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_resources** List resources available in the organization, including databases, APIs, storage, and AI providers. evidence: in the vendor docs · calling it reads
+
+- **retool_list_user_invites** List user invites in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_users** List users in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_workflows** List workflows in the organization. evidence: in the vendor docs · calling it reads
+
+- **retool_list_writable_app_folders** List the app folders the authenticated user can create apps in. evidence: in the vendor docs · calling it writes
+
+- **retool_publish_react_app** Publish a thread using the same publish flow as the app builder. evidence: in the vendor docs · calling it reads
+
+- **retool_read_react_app_files** Read the contents of specific files in an app. evidence: in the vendor docs · calling it reads
+
+- **retool_read_react_app_thread_stream** Fetch the most recent persisted chat messages for an existing thread. evidence: in the vendor docs · calling it reads
+
+- **retool_report_tool_usage_feedback** Report feedback about MCP tool usage. evidence: in the vendor docs · calling it reads
+
+- **retool_respond_to_react_app_thread_review** Wait for a pending review request and submit the response. evidence: in the vendor docs · calling it reads
+
+- **retool_revoke_app_access** Revoke direct app access for a user, pending invite, or group. evidence: in the vendor docs · calling it reads
+
+- **retool_search_app_share_subjects** Search the app sharing directory for users, pending invites, and groups. evidence: in the vendor docs · calling it reads
+
+- **retool_set_user_invite_attribute** Create or update a user attribute on a user invite. evidence: in the vendor docs · calling it writes
+
+- **retool_start_prepared_import** Start a two-step import of a large existing app. evidence: in the vendor docs · calling it writes
+
+- **retool_submit_prepared_import** Import an existing app in one step. evidence: in the vendor docs · calling it writes
+
+- **retool_sync_react_app_thread** Sync an app's thread branch from external source control. evidence: in the vendor docs · calling it reads
+
+- **retool_tail_react_app_thread_stream** Monitor an active thread and forward progress updates. evidence: in the vendor docs · calling it reads
+
+- **retool_update_resource** Update an existing resource by name. evidence: in the vendor docs · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

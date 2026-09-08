@@ -130,11 +130,13 @@
 <div class="rule"></div>
 <p class="stamp"><b>336 tools</b> counted &middot;
 <b>200 official MCP servers</b> &middot;
+<b>8,503 tools those servers name</b> &middot;
 generated <b>2026-09-08</b> by build_directory.py (phase 1) &middot;
 reconciled against tools_recount.py</p>
 <div class="stats">
 <div class="stat is-gold"><div class="n">336</div><div class="k">tools counted</div></div>
 <div class="stat is-gold"><div class="n">200</div><div class="k">official MCP servers</div></div>
+<div class="stat is-gold"><div class="n">8,503</div><div class="k">tools those servers name</div></div>
 <div class="stat is-teal"><div class="n">25</div><div class="k">community MCP</div></div>
 <div class="stat is-copper"><div class="n">87</div><div class="k">no MCP found</div></div>
 <div class="stat is-copper"><div class="n">79</div><div class="k">enterprise gated</div></div>
@@ -145,9 +147,19 @@ reconciled against tools_recount.py</p>
 the date this site was baked. Both dates ship because both rot.
 320 of the 336 entries are unique products;
 16 are the same product listed in a second category and counted once here.</p>
+<p class="note">The tool count is the capability layer, harvested 2026-09-08:
+122 of the 225 entries that record an
+official or community MCP server have a harvested tool list, and it names
+8,503 tools. 2,575 of those belong to
+the GTM tools themselves; 5,928 belong to one gateway that re-exposes other
+vendors and are counted apart. The remaining 103 servers are
+<b>unmeasured, not empty</b>: nobody has read their tool list yet, and their pages say exactly
+that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is
+still 1 across the whole directory.</p>
 <div class="btnrow">
 <a class="btn solid" href="#search">Search by capability</a>
 <a class="btn" href="#install">Install the MCP server</a>
+<a class="btn ghost" href="tools-index">Every tool a server names</a>
 <a class="btn ghost" href="mcp/official">See the 200 official servers</a>
 </div>
 </div>
@@ -214,6 +226,16 @@ Every ratio below is read straight out of the category blocks in directory.json.
 <p class="sub">The server loads the baked file once at import and answers from memory. It makes
 zero outbound network requests, so it cannot be slow, cannot rate limit you, cannot cost anything,
 and cannot leak your query to a vendor. Everything network shaped happens in the weekly build.</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp&quot;
+    }
+  }
+}</code></pre>
+<p class="note">That is the hosted copy, live since 2026-09-08: streamable HTTP, no install, the same
+read-only server this page is built from, restarted on every publish. It keeps no request log of its
+own. If you would rather run it yourself:</p>
 <pre><code>{
   &quot;mcpServers&quot;: {
     &quot;gtm-directory&quot;: {
@@ -349,6 +371,9 @@ methodology page rather than quietly padded.</p>
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -357,6 +382,7 @@ methodology page rather than quietly padded.</p>
     <div class="ft">Views</div>
     <ul>
       <li><a href="tools/">Every tool, A to Z</a></li>
+      <li><a href="tools-index">Every tool a server names</a></li>
       <li><a href="vendors/">Every vendor, one page each</a></li>
       <li><a href="categories/">By category</a></li>
       <li><a href="mcp/">By MCP status</a></li>

@@ -57,6 +57,45 @@ https://unified-crm-extension.labs.ringcentral.com/mcp (docs: https://mcp.labs.r
 - [https://mcp.labs.ringcentral.com/docs/servers/](https://mcp.labs.ringcentral.com/docs/servers/)
 - [https://github.com/ringcentral/ringcentral-mcp-docs](https://github.com/ringcentral/ringcentral-mcp-docs)
 
+**What this server exposes**
+
+- **Tools named**: 14
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **cancelAppointment** ⚠️ REQUIRES CRM CONNECTION. | Cancel an existing appointment or event in the CRM platform by its ID. This action is destructive - the appointment will be removed. evidence: answered tools/list · calling it reads · required: appointmentId
+
+- **confirmAppointment** ⚠️ REQUIRES CRM CONNECTION. | Confirm an existing appointment or event in the CRM platform by its ID. Returns the updated appointment details. evidence: answered tools/list · calling it reads · required: appointmentId
+
+- **createAppointment** ⚠️ REQUIRES CRM CONNECTION. | Create a new appointment or event in the CRM platform. Returns the created appointment ID and details. evidence: answered tools/list · calling it writes · required: title, startTimeUtc, durationMinutes
+
+- **createCallLog** ⚠️ REQUIRES CRM CONNECTION. | Create only one call log in the CRM platform. Returns the created log ID if successful. To use with `rcGetCallLogs`: pass a single item from the `records[]` array directly as `incomingData.logInfo`. evidence: answered tools/list · calling it writes
+
+- **createContact** ⚠️ REQUIRES CRM CONNECTION. | Create a new contact in the CRM platform. Returns the created contact information if successful. evidence: answered tools/list · calling it writes · required: phoneNumber
+
+- **findContactByName** ⚠️ REQUIRES CRM CONNECTION. | Search for a contact in the CRM platform by name. Returns contact details if found. evidence: answered tools/list · calling it reads · required: name
+
+- **findContactByPhone** ⚠️ REQUIRES CRM CONNECTION. | Search for a contact in the CRM platform by phone number. Returns contact details if found. evidence: answered tools/list · calling it reads · required: phoneNumber
+
+- **getHelp** Get a quick guide on what this integration can do and how to get started. evidence: answered tools/list · calling it reads
+
+- **getPublicConnectors** Get available connectors. Returns an interactive widget - do NOT summarize or list the results in text, just show the widget. evidence: answered tools/list · calling it reads
+
+- **getSessionInfo** Get the current user session info, including RingCentral identity and CRM connection status. evidence: answered tools/list · calling it reads
+
+- **listAppointments** ⚠️ REQUIRES CRM CONNECTION. | List appointments or events from the CRM platform. Use the `filter` param to get upcoming, today's, past, or all appointments. For a specific window, supply `startDate` and `endDate` (YYYY-MM-DD) directly. evidence: answered tools/list · calling it reads
+
+- **logout** Logout the user from the CRM platform. evidence: answered tools/list · calling it reads
+
+- **rcGetCallLogs** ⚠️ REQUIRES CRM CONNECTION. | Get call logs from RingCentral. Returns a `records[]` array. Each item in `records` is a complete RingCentral call log object that can be passed DIRECTLY as `incomingData.logInfo` to the `createCallLog` tool - evidence: answered tools/list · calling it reads · required: timeFrom, timeTo
+
+- **updateAppointment** ⚠️ REQUIRES CRM CONNECTION. | Update or reschedule an existing appointment or event in the CRM platform. Provide only the fields you want to change alongside the appointmentId. evidence: answered tools/list · calling it writes · required: appointmentId
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

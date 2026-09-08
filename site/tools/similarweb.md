@@ -41,7 +41,8 @@ Account-sizing, competitor-displacement and territory-prioritisation signal, and
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: auth wall at every path, not proven a server
-- **Endpoint URL[https://mcp.similarweb.com](https://mcp.similarweb.com)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://mcp.similarweb.com](https://mcp.similarweb.com)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
 
@@ -57,6 +58,12 @@ https://mcp.similarweb.com (docs: https://developers.similarweb.com/docs/similar
 - [https://developers.similarweb.com/docs/similarweb-mcp](https://developers.similarweb.com/docs/similarweb-mcp)
 - [https://docs.similarweb.com/api-v5/similarweb-mcp/mcp-setup](https://docs.similarweb.com/api-v5/similarweb-mcp/mcp-setup)
 - [https://www.similarweb.com/blog/updates/announcements/mcp-server-launch/](https://www.similarweb.com/blog/updates/announcements/mcp-server-launch/)
+
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
 **Access gate**
 

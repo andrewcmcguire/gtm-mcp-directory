@@ -41,7 +41,8 @@ A newer, flexible-schema CRM competing for data-team/startup RevOps stacks that 
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://docs.attio.com/mcp/overview](https://docs.attio.com/mcp/overview)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://docs.attio.com/mcp/overview](https://docs.attio.com/mcp/overview)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,99 @@ https://mcp.attio.com/mcp ; https://docs.attio.com/mcp/overview (endpoint: https
 
 - [https://mcp.attio.com/mcp](https://mcp.attio.com/mcp)
 - [https://docs.attio.com/mcp/overview](https://docs.attio.com/mcp/overview)
+
+**What this server exposes**
+
+- **Tools named**: 41
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **add-record-to-list** Add a record to a list as a new list entry evidence: in the vendor docs · calling it writes
+
+- **create-comment** Create a new comment on a record, list entry, or as a reply to an existing comment thread evidence: in the vendor docs · calling it writes
+
+- **create-list** Create a new list to group and track records of a single object type evidence: in the vendor docs · calling it writes
+
+- **create-note** Create a new note attached to a record evidence: in the vendor docs · calling it writes
+
+- **create-record** Create a new record (person, company, deal, or custom object) evidence: in the vendor docs · calling it writes
+
+- **create-task** Create a new task with optional deadline, assignee, and linked record evidence: in the vendor docs · calling it writes
+
+- **delete-comment** Delete a comment that you created evidence: in the vendor docs · calling it writes
+
+- **get-call-recording** Retrieve full details and transcript of a specific call recording evidence: in the vendor docs · calling it reads
+
+- **get-email-content** Retrieve the full body of a specific email evidence: in the vendor docs · calling it reads
+
+- **get-note-body** Retrieve the full content of a specific note evidence: in the vendor docs · calling it reads
+
+- **get-records-by-ids** Retrieve full details for specific records by their IDs evidence: in the vendor docs · calling it reads
+
+- **list-attribute-definitions** List all attributes available on an object type, including their types and valid options evidence: in the vendor docs · calling it reads
+
+- **list-comment-replies** Fetch additional replies for a top-level comment thread evidence: in the vendor docs · calling it reads
+
+- **list-comments** List comments on a record or list entry, with paginated top-level comments and inline replies evidence: in the vendor docs · calling it reads
+
+- **list-list-attribute-definitions** List the available entry attributes for a given list evidence: in the vendor docs · calling it reads
+
+- **list-lists** List all lists in the workspace, with optional filtering by name or slug evidence: in the vendor docs · calling it reads
+
+- **list-objects** List all objects in the workspace (e.g. companies, people, deals), with optional fuzzy search by name or API slug evidence: in the vendor docs · calling it reads
+
+- **list-records** List records in a given object with optional filtering and sorting evidence: in the vendor docs · calling it reads
+
+- **list-records-in-list** List entries in a given list with optional filtering and sorting evidence: in the vendor docs · calling it reads
+
+- **list-tasks** List tasks in the workspace with optional filters evidence: in the vendor docs · calling it reads
+
+- **list-workspace-members** List members in the workspace with their details and team memberships evidence: in the vendor docs · calling it reads
+
+- **list-workspace-teams** List all teams in the workspace evidence: in the vendor docs · calling it reads
+
+- **merge-records** Merge two records of the same object into one new record evidence: in the vendor docs · calling it writes
+
+- **query-particle-sql** Execute a read-only SQL query against your workspace data evidence: in the vendor docs · calling it reads
+
+- **run-basic-report** Run aggregate reports on records or list entries evidence: in the vendor docs · calling it reads
+
+- **search-call-recordings-by-metadata** Search call recordings by participants, related records, title, or time range evidence: in the vendor docs · calling it reads
+
+- **search-emails-by-metadata** Search emails by participants, domain, or time range evidence: in the vendor docs · calling it reads
+
+- **search-meetings** Search past and upcoming meetings by participants, related records, or time range evidence: in the vendor docs · calling it reads
+
+- **search-notes-by-metadata** Search notes by parent record, author, meeting, or creation time evidence: in the vendor docs · calling it reads
+
+- **search-records** Full-text search for records (people, companies, deals, etc.) by name, email, domain, or other indexed attributes evidence: in the vendor docs · calling it reads
+
+- **semantic-search-call-recordings** Find call recordings by topic using AI-powered semantic search evidence: in the vendor docs · calling it reads
+
+- **semantic-search-emails** Find emails by topic using AI-powered semantic search evidence: in the vendor docs · calling it reads
+
+- **semantic-search-notes** Find notes by topic using AI-powered semantic search evidence: in the vendor docs · calling it reads
+
+- **update-list** Update a list's name, API slug, or permissions evidence: in the vendor docs · calling it writes
+
+- **update-list-entry-by-id** Update an existing list entry when you already know the entry_id evidence: in the vendor docs · calling it writes
+
+- **update-list-entry-by-record-id** Find and update a list entry using its parent record ID evidence: in the vendor docs · calling it writes
+
+- **update-note** Append or prepend content to a note, or update its title evidence: in the vendor docs · calling it writes
+
+- **update-record** Update an existing record by record_id evidence: in the vendor docs · calling it writes
+
+- **update-task** Update a task's deadline, status, assignee, or linked record evidence: in the vendor docs · calling it writes
+
+- **upsert-record** Create or update a record using a matching attribute (e.g., email or domain) evidence: in the vendor docs · calling it writes
+
+- **whoami** Get information about the current user's identity and workspace membership evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

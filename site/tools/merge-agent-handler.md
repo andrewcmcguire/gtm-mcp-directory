@@ -57,6 +57,16 @@ https://github.com/merge-api/merge-mcp ; https://api.merge.dev/api/v1/tool-packs
 - [https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration](https://docs.merge.dev/merge-agent-handler/build/connecting-agents/mcp-integration)
 - [https://docs.merge.dev/merge-agent-handler/overview](https://docs.merge.dev/merge-agent-handler/overview)
 
+**What this server exposes**
+
+What this server exposes is the customer's own workspace, not a fixed catalogue the vendor publishes. No tool list is the correct answer here rather than a gap, and the harvest recorded it as one.
+
+Recorded by the harvest: a unified API gateway; its tools are the vendors it wraps, not its own
+
+The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

@@ -58,6 +58,45 @@ https://mcp.firecrawl.dev/v2/mcp (docs: https://docs.firecrawl.dev/mcp-server; r
 - [https://mcp.firecrawl.dev/v2/mcp-search](https://mcp.firecrawl.dev/v2/mcp-search)
 - [https://mcp.firecrawl.dev/v2/mcp-oauth](https://mcp.firecrawl.dev/v2/mcp-oauth)
 
+**What this server exposes**
+
+- **Tools named**: 13
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Repo read**: firecrawl/firecrawl-mcp-server
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **agent** Multi-source research, unknown or many sites evidence: in a README table · calling it reads
+
+- **crawl** Multi-page extraction (with limits) evidence: in a README table · calling it reads
+
+- **developer** Programming questions over developer sources evidence: in a README table · calling it reads
+
+- **firecrawl_parse** Parse one supported document into markdown, HTML, links, summary, targeted answers, or JSON matching a schema. Supported inputs include common HTML, PDF, Word, RTF, OpenDocument, and spreadsheet files; PDF parsing can be bounded with `pdfO evidence: answered tools/list · calling it reads
+
+- **firecrawl_scrape** Retrieve and extract content from one supplied URL through Firecrawl. Use this when the request identifies a page and needs its content or defined fields. It can return markdown, HTML, links, screenshots, branding data, a targeted answer, evidence: answered tools/list · calling it reads · required: url
+
+- **firecrawl_search** Search web, news, or image sources and return ranked results. Operators include quoted phrases, `-term`, `site:host`, `inurl:term`, `intitle:term`, and `related:host`; the set is non-exhaustive. `includeDomains` and `excludeDomains` are mu evidence: answered tools/list · calling it reads · required: query
+
+- **interact** Interact with a URL or scraped page evidence: in a README table · calling it reads
+
+- **map** Discovering URLs on a site evidence: in a README table · calling it reads
+
+- **monitor** Recurring page checks evidence: in a README table · calling it reads
+
+- **parse** Files and hosted upload refs evidence: in a README table · calling it reads
+
+- **research** Paper and GitHub repository research evidence: in a README table · calling it reads
+
+- **scrape** Single page content evidence: in a README table · calling it reads
+
+- **search** Web search for info evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

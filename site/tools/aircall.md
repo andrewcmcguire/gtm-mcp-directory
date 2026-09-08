@@ -55,6 +55,183 @@ https://github.com/themobilefirstco/aircall-mcp-server (73 tools, stdio; a remot
 - [https://github.com/themobilefirstco/aircall-mcp-server](https://github.com/themobilefirstco/aircall-mcp-server)
 - [https://aircall.usefulapi.io/mcp](https://aircall.usefulapi.io/mcp)
 
+**What this server exposes**
+
+- **Tools named**: 81
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Repo read**: themobilefirstco/aircall-mcp-server
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **aircall_add_call_comment** Add a comment / note to a call. Aircall REST: POST /calls/{id}/comments. evidence: answered tools/list · calling it writes · required: id, content
+
+- **aircall_add_campaign_numbers** Add numbers to campaign evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_add_comment** Add comment to call evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_add_email** Add email to contact evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_add_phone** Add phone to contact evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_add_tags** Tag a call evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_add_user_to_team** Add user to team evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_archive_call** Archive a call evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_check_availability** Check user availability evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_create_campaign** Create campaign evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_create_config** Enable SMS on number evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_create_contact** Create a new contact in the shared address book. Aircall typically requires at least one of first_name / last_name / company_name. Aircall REST: POST /contacts. evidence: answered tools/list · calling it writes
+
+- **aircall_create_tag** Create new tag evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_create_team** Create new team evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_create_user** Create new user evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_create_webhook** Create webhook evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_campaign** Delete campaign evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_config** Disable SMS evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_contact** Delete contact evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_email** Delete email evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_tag** Delete tag evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_team** Delete team evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_user** Delete user evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_delete_webhook** Delete webhook evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_dial** Open dialer with number evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_disable_integration** Disable integration evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_enable_integration** Enable integration evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_action_items** Get detected action items evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_call** Get a single call by id. Aircall REST: GET /calls/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_call_action_items** Get the AI-extracted action items / follow-ups from a call (Aircall AI Voice feature). Aircall REST: GET /calls/{id}/action_items. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_call_sentiments** Get the AI-generated sentiment analysis of a call (Aircall AI Voice feature). Aircall REST: GET /calls/{id}/sentiments. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_call_summary** Get the AI-generated summary of a call (Aircall AI Voice feature). Aircall REST: GET /calls/{id}/summary. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_call_topics** Get the AI-detected topics of a call (Aircall AI Voice feature). Aircall REST: GET /calls/{id}/topics. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_call_transcription** Get the AI-generated transcription of a call (Aircall AI Voice feature). Aircall REST: GET /calls/{id}/transcription. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_campaign** Get campaign details evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_campaign_numbers** List campaign numbers evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_company** Get details of the authenticated Aircall company (name, plan, usage). Aircall REST: GET /company. evidence: answered tools/list · calling it reads
+
+- **aircall_get_config** Get SMS config evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_contact** Get a single contact by id. Aircall REST: GET /contacts/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_number** Get a single phone number by id. Aircall REST: GET /numbers/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_realtime_transcript** Get live transcription evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_registration_status** Get registration status evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_sentiments** Get sentiment analysis evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_summary** Get AI-generated call summary evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_tag** Get a single tag by id. Aircall REST: GET /tags/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_team** Get a single team by id. Aircall REST: GET /teams/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_topics** Get topics discussed evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_transcript** Get call transcription evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_user** Get a single user (agent) by id. Aircall REST: GET /users/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **aircall_get_user_numbers** Get user's numbers evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_get_webhook** Get webhook details evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_list_availabilities** List all availabilities evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_list_calls** List calls, optionally filtered by a creation-date window and ordered. Aircall REST: GET /calls. evidence: answered tools/list · calling it reads
+
+- **aircall_list_campaigns** List campaigns evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_list_contacts** List contacts in the shared address book, optionally by creation-date window and order. Aircall REST: GET /contacts. evidence: answered tools/list · calling it reads
+
+- **aircall_list_integrations** List integrations evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_list_messages** List SMS messages evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_list_numbers** List the phone numbers owned by the company (id, name, digits, country). Aircall REST: GET /numbers. evidence: answered tools/list · calling it reads
+
+- **aircall_list_tags** List the company's call tags (id, name, color). Aircall REST: GET /tags. evidence: answered tools/list · calling it reads
+
+- **aircall_list_teams** List the company's teams and their members. Aircall REST: GET /teams. evidence: answered tools/list · calling it reads
+
+- **aircall_list_users** List users (agents) in the Aircall company (id, name, email, availability). Aircall REST: GET /users. evidence: answered tools/list · calling it reads
+
+- **aircall_list_webhooks** List webhooks evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_pause_recording** Pause call recording evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_ping** Health check - verify the API is reachable and the credentials are valid. Aircall REST: GET /ping. evidence: answered tools/list · calling it reads
+
+- **aircall_remove_campaign_number** Remove number evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_remove_user_from_team** Remove user from team evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_resume_recording** Resume call recording evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_search_calls** Search calls by a free-text term (e.g. phone number, tag, direction). Aircall REST: GET /calls/search. evidence: answered tools/list · calling it reads
+
+- **aircall_search_contacts** Search contacts by a free-text term (e.g. name, phone number, email). Aircall REST: GET /contacts/search. evidence: answered tools/list · calling it reads
+
+- **aircall_send_agent_message** Reply in conversation evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_send_message** Send SMS evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_start_call** Initiate outbound call evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_tag_call** Apply tags to a call by tag id (get ids from aircall_list_tags). Aircall REST: POST /calls/{id}/tags. evidence: answered tools/list · calling it writes · required: id, tag_ids
+
+- **aircall_transfer_call** Transfer active call evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_update_contact** Update fields on an existing contact. Only provided fields are changed. Aircall REST: PUT /contacts/{id}. evidence: answered tools/list · calling it writes · required: id
+
+- **aircall_update_messages** Update audio messages evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_update_number** Update number config evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_update_phone** Update phone number evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_update_tag** Update tag evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_update_user** Update user evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **aircall_update_webhook** Update webhook evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

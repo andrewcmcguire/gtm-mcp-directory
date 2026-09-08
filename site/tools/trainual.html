@@ -113,7 +113,61 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://help.trainual.com/en/the-trainual-mcp-server (endpoint https://mcp.trainual.com, remote MCP server)</p><ul><li><a href="https://help.trainual.com/en/the-trainual-mcp-server" rel="noopener nofollow">https://help.trainual.com/en/the-trainual-mcp-server</a></li><li><a href="https://mcp.trainual.com" rel="noopener nofollow">https://mcp.trainual.com</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://help.trainual.com/en/the-trainual-mcp-server (endpoint https://mcp.trainual.com, remote MCP server)</p><ul><li><a href="https://help.trainual.com/en/the-trainual-mcp-server" rel="noopener nofollow">https://help.trainual.com/en/the-trainual-mcp-server</a></li><li><a href="https://mcp.trainual.com" rel="noopener nofollow">https://mcp.trainual.com</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">11</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">trainual/tiptap-collaboration-mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>create-document</b></div>
+<div class="td">Create a new collaborative document</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete-document</b></div>
+<div class="td">Delete a collaborative document</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>duplicate-document</b></div>
+<div class="td">Duplicate a collaborative document</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>export-markdown</b></div>
+<div class="td">Export Tiptap JSON content to Markdown format</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get-document</b></div>
+<div class="td">Get information about a collaborative document</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get-document-statistics</b></div>
+<div class="td">Get real-time statistics for a specific document including current connections and connected IPs</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get-server-statistics</b></div>
+<div class="td">Get server-wide statistics including total documents, connections, and usage metrics</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>import-markdown</b></div>
+<div class="td">Import Markdown content and convert to Tiptap JSON format</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>list-documents</b></div>
+<div class="td">List all collaboration documents</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search-documents</b></div>
+<div class="td">Perform semantic search across documents</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>update-document</b></div>
+<div class="td">Update a collaborative document with new content</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -139,6 +193,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -147,6 +204,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

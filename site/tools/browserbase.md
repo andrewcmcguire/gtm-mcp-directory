@@ -55,6 +55,29 @@ https://mcp.browserbase.com/mcp (docs: https://docs.browserbase.com/integrations
 - [https://mcp.browserbase.com/mcp](https://mcp.browserbase.com/mcp)
 - [https://docs.browserbase.com/integrations/mcp/setup](https://docs.browserbase.com/integrations/mcp/setup)
 
+**What this server exposes**
+
+- **Tools named**: 6
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **act** Perform an action on the page evidence: answered tools/list · calling it reads · required: action
+
+- **end** Close the current Browserbase session evidence: answered tools/list · calling it reads
+
+- **extract** Extract data from the page evidence: answered tools/list · calling it reads
+
+- **navigate** Navigate to a URL evidence: answered tools/list · calling it reads · required: url
+
+- **observe** Observe actionable elements on the page evidence: answered tools/list · calling it reads · required: instruction
+
+- **start** Create or reuse a Browserbase session evidence: answered tools/list · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

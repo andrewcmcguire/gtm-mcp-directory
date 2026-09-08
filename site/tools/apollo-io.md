@@ -41,7 +41,8 @@ Combined data + outbound engagement layer, often the SDR's primary daily tool fo
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,59 @@ mcp_url, verbatim from the file:
 https://github.com/apolloio/apollo-mcp-plugin
 
 - [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin)
+
+**What this server exposes**
+
+- **Tools named**: 20
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: apolloio/apollo-mcp-plugin
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Endpoint** `https://mcp.apollo.io/mcp` evidence: in a README table · calling it reads
+
+- **Need** Where to go evidence: in a README table · calling it reads
+
+- **Path** Purpose evidence: in a README table · calling it reads
+
+- **Skill** What it does evidence: in a README table · calling it reads
+
+- **Symptom** What to check evidence: in a README table · calling it reads
+
+- **Transport** Streamable HTTP evidence: in a README table · calling it reads
+
+- **Version** `0.1.1` evidence: in a README table · calling it reads
+
+- **apollo_analytics_sync_report** Retrieve sales analytics metrics and breakdowns. evidence: in a README table · calling it reads
+
+- **apollo_contacts_create** Create a contact in the Apollo workspace. evidence: in a README table · calling it writes
+
+- **apollo_email_accounts_index** List connected email/sending accounts. evidence: in a README table · calling it reads
+
+- **apollo_emailer_campaigns_add_contact_ids** Add contacts to an outreach sequence. evidence: in a README table · calling it writes
+
+- **apollo_emailer_campaigns_search** Find outreach sequences by name. evidence: in a README table · calling it reads
+
+- **apollo_mixed_companies_search** Search Apollo's organization database by industry, size, location, and keywords. evidence: in a README table · calling it reads
+
+- **apollo_mixed_people_api_search** Search Apollo's people database by title, seniority, location, and company filters. evidence: in a README table · calling it reads
+
+- **apollo_organizations_bulk_enrich** Enrich multiple organizations in one call. evidence: in a README table · calling it reads
+
+- **apollo_organizations_enrich** Enrich a single organization. evidence: in a README table · calling it reads
+
+- **apollo_people_bulk_match** Match and enrich multiple people in one call. evidence: in a README table · calling it reads
+
+- **apollo_people_match** Match and enrich a single person from available identifiers. evidence: in a README table · calling it reads
+
+- **glama.json** Glama MCP directory metadata. evidence: in a README table · calling it reads
+
+- **server.json** Official MCP Registry metadata (name, version, transport, endpoint). evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

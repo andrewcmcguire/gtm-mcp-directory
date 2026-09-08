@@ -410,9 +410,11 @@ them.
   verified as a human at a company. The review queue is deliberately human.
 - **No telemetry of any kind.** Not usage counts, not query logs, not a ping.
 - **No `featured` or `recommended` field**, in the schema or anywhere else.
-- **No hosted remote endpoint**, yet. That introduces a host, a bill, a log of
-  other people's queries, and an availability promise. None of it is needed to
-  be useful.
+- **No query log at the hosted endpoint.** A hosted copy exists since 2026-09-08 at
+  `https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP; put that URL in your client's `mcpServers` entry). It runs
+  this same read-only package with zero outbound requests, keeps no request log of its
+  own, and the local install stays the reference: nothing is available remotely that is
+  not in the repo.
 
 ## Submitting a tool or a correction
 

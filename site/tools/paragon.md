@@ -55,6 +55,21 @@ https://github.com/useparagon/paragon-mcp (product page: https://www.useparagon.
 - [https://github.com/useparagon/paragon-mcp](https://github.com/useparagon/paragon-mcp)
 - [https://www.useparagon.com/mcp](https://www.useparagon.com/mcp)
 
+**What this server exposes**
+
+- **Tools named**: 1
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: useparagon/paragon-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **CALL_API_REQUEST** Call an API if no tool is available for an integration that matches the user evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Enterprise leaning

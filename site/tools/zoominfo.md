@@ -41,7 +41,8 @@ Upstream contact/company data source feeding CRM, enrichment, and outbound tooli
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: answered, asking for a key
-- **Endpoint URL[https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
@@ -56,6 +57,53 @@ https://mcp.zoominfo.com/mcp (server card at https://gtm.ai/.well-known/mcp/serv
 - [https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp)
 - [https://gtm.ai/.well-known/mcp/server-card.json](https://gtm.ai/.well-known/mcp/server-card.json)
 - [https://github.com/Zoominfo/zoominfo-mcp-plugin](https://github.com/Zoominfo/zoominfo-mcp-plugin)
+
+**What this server exposes**
+
+- **Tools named**: 17
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: Zoominfo/zoominfo-mcp-plugin
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Path** Purpose evidence: in a README table · calling it reads
+
+- **Skill** Description evidence: in a README table · calling it reads
+
+- **account-research** Produce an account intelligence brief with firmographics, relationship context, intent, news, and next actions evidence: in a README table · calling it reads
+
+- **build-list** Build targeted account or contact lists from natural-language criteria evidence: in a README table · calling it reads
+
+- **buying-committee** Map decision-makers, influencers, champions, and coverage gaps at a target account evidence: in a README table · calling it reads
+
+- **competitor-analysis** Create fact-led competitor briefs using ZoomInfo data plus public context evidence: in a README table · calling it writes
+
+- **enrich-company** Look up company profiles, firmographics, financials, structure, and growth signals evidence: in a README table · calling it reads
+
+- **enrich-contact** Look up professional contact profiles, title, department, contact data, and accuracy signals evidence: in a README table · calling it reads
+
+- **find-similar** Find lookalike companies or contacts based on a reference account or person evidence: in a README table · calling it reads
+
+- **mcp.json** MCP server registration (Cursor) evidence: in a README table · calling it reads
+
+- **meeting-prep** Prepare for upcoming calls with account, attendee, relationship, and talking-point context evidence: in a README table · calling it reads
+
+- **personalize-email** Draft outreach grounded in account, contact, intent, and trigger signals evidence: in a README table · calling it reads
+
+- **recommend-contacts** Get AI-ranked contact recommendations at a target company evidence: in a README table · calling it reads
+
+- **score-accounts** Prioritize accounts by ICP fit, intent, trigger signals, and explainable scoring evidence: in a README table · calling it reads
+
+- **score-leads** Rank inbound leads by fit, urgency, verified contact data, and recommended action evidence: in a README table · calling it reads
+
+- **tam-sizer** Size a market or territory and produce a reusable ICP filter set evidence: in a README table · calling it writes
+
+- **tech-stack-snapshot** Summarize detected technologies, displacement angles, and integration plays evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

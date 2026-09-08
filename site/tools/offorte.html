@@ -113,7 +113,81 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/offorte/offorte-mcp-server (vendor pages: https://www.offorte.com/for-developers and https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp)</p><ul><li><a href="https://github.com/offorte/offorte-mcp-server" rel="noopener nofollow">https://github.com/offorte/offorte-mcp-server</a></li><li><a href="https://www.offorte.com/for-developers" rel="noopener nofollow">https://www.offorte.com/for-developers</a></li><li><a href="https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp" rel="noopener nofollow">https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/offorte/offorte-mcp-server (vendor pages: https://www.offorte.com/for-developers and https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp)</p><ul><li><a href="https://github.com/offorte/offorte-mcp-server" rel="noopener nofollow">https://github.com/offorte/offorte-mcp-server</a></li><li><a href="https://www.offorte.com/for-developers" rel="noopener nofollow">https://www.offorte.com/for-developers</a></li><li><a href="https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp" rel="noopener nofollow">https://www.offorte.com/en/blog/proposal-software/handsfree-proposal-sending-with-mcp</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">15</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">offorte/offorte-mcp-server</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>create_contact</b></div>
+<div class="td">Create a new contact (organisation or person/individual)</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_proposal</b></div>
+<div class="td">Create a new proposal</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get_account_users</b></div>
+<div class="td">Lists all account users for the current account</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_automation_sets</b></div>
+<div class="td">Lists automation sets which are used as an optional input to create a new proposal</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get_contact_details</b></div>
+<div class="td">Get all details for a contact by id</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_design_templates</b></div>
+<div class="td">Lists available design templates which are used to create new proposals</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get_email_templates</b></div>
+<div class="td">Lists available email templates which are used to send proposals</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get_initial_context</b></div>
+<div class="td">IMPORTANT: This tool must be called before using any other tools. It will get usage instructions &amp; Offorte context for this MCP server.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_proposal_directories</b></div>
+<div class="td">Get all proposal directories grouped by status (edit, open, won, lost, closed)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_proposal_templates</b></div>
+<div class="td">Lists proposal templates which are used as starting points to create new proposals</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get_text_templates</b></div>
+<div class="td">Lists available language text templates which are used to create new proposals</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>search_contact_organisations</b></div>
+<div class="td">Search for organisations by name in the contacts</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_contact_people</b></div>
+<div class="td">Search for people by name in the contacts</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_proposals</b></div>
+<div class="td">Search for proposals by query</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>send_proposal</b></div>
+<div class="td">Send a proposal to its assigned contacts</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -139,6 +213,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -147,6 +224,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

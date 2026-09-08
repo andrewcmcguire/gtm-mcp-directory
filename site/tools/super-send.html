@@ -118,7 +118,231 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.supersend.io/mcp ; https://docs.supersend.io/docs/mcp-server (endpoint mcp.supersend.io)</p><ul><li><a href="https://mcp.supersend.io/mcp" rel="noopener nofollow">https://mcp.supersend.io/mcp</a></li><li><a href="https://docs.supersend.io/docs/mcp-server" rel="noopener nofollow">https://docs.supersend.io/docs/mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.supersend.io/mcp ; https://docs.supersend.io/docs/mcp-server (endpoint mcp.supersend.io)</p><ul><li><a href="https://mcp.supersend.io/mcp" rel="noopener nofollow">https://mcp.supersend.io/mcp</a></li><li><a href="https://docs.supersend.io/docs/mcp-server" rel="noopener nofollow">https://docs.supersend.io/docs/mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">45</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>activate_campaign</b></div>
+<div class="td">Turn a campaign on</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: CampaignId</div>
+</li>
+<li>
+<div class="tn"><b>add_to_blacklist</b></div>
+<div class="td">Add to blacklist</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>analyze_capacity_and_schedule</b></div>
+<div class="td">Capacity planning: when campaigns finish, allocated capacity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>analyze_domain_health</b></div>
+<div class="td">Per-domain DNS/health: SPF, DKIM, DMARC, MX, at-risk flags</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>analyze_sender_health</b></div>
+<div class="td">Per-sender health: sends, bounces, at-risk flags</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bulk_import_contacts</b></div>
+<div class="td">Bulk import contacts</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create_campaign</b></div>
+<div class="td">Create a new campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: name, TeamId</div>
+</li>
+<li>
+<div class="tn"><b>create_contact</b></div>
+<div class="td">Create/upsert contact or profile-only</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: TeamId</div>
+</li>
+<li>
+<div class="tn"><b>create_webhook</b></div>
+<div class="td">Create a webhook</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: url, events</div>
+</li>
+<li>
+<div class="tn"><b>deactivate_campaign</b></div>
+<div class="td">Turn a campaign off</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: CampaignId</div>
+</li>
+<li>
+<div class="tn"><b>delete_contact</b></div>
+<div class="td">Delete a contact (soft delete)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: ContactId</div>
+</li>
+<li>
+<div class="tn"><b>diagnose_deliverability</b></div>
+<div class="td">Deliverability diagnosis: reply rate, bounces, placement tests</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_campaign</b></div>
+<div class="td">Get a campaign by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: CampaignId</div>
+</li>
+<li>
+<div class="tn"><b>get_campaign_sequence</b></div>
+<div class="td">Get campaign sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: CampaignId</div>
+</li>
+<li>
+<div class="tn"><b>get_contact</b></div>
+<div class="td">Get a contact by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: ContactId</div>
+</li>
+<li>
+<div class="tn"><b>get_conversation</b></div>
+<div class="td">Get a conversation by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: ConversationId</div>
+</li>
+<li>
+<div class="tn"><b>get_conversation_messages</b></div>
+<div class="td">Get messages in a conversation</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: ConversationId</div>
+</li>
+<li>
+<div class="tn"><b>get_domain</b></div>
+<div class="td">Get a domain by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: DomainId</div>
+</li>
+<li>
+<div class="tn"><b>get_domain_bounce_insights</b></div>
+<div class="td">AI bounce breakdown per domain</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: DomainId</div>
+</li>
+<li>
+<div class="tn"><b>get_event</b></div>
+<div class="td">Get an event by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: EventId</div>
+</li>
+<li>
+<div class="tn"><b>get_health</b></div>
+<div class="td">Check SuperSend API health and connectivity</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_outbound_summary</b></div>
+<div class="td">Team outbound metrics: sends, replies, top campaigns</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_sender</b></div>
+<div class="td">Get a sender by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: SenderId</div>
+</li>
+<li>
+<div class="tn"><b>get_sender_bounce_insights</b></div>
+<div class="td">AI bounce type breakdown per sender</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: SenderId</div>
+</li>
+<li>
+<div class="tn"><b>get_team</b></div>
+<div class="td">Get a team by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: TeamId</div>
+</li>
+<li>
+<div class="tn"><b>list_blacklist</b></div>
+<div class="td">List blacklisted emails/domains</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_campaigns</b></div>
+<div class="td">List campaigns in a team</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: TeamId</div>
+</li>
+<li>
+<div class="tn"><b>list_contacts</b></div>
+<div class="td">List contacts in a team</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: TeamId</div>
+</li>
+<li>
+<div class="tn"><b>list_conversations</b></div>
+<div class="td">List conversations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_domains</b></div>
+<div class="td">List managed domains</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_events</b></div>
+<div class="td">List events (sends, opens, clicks, replies, bounces)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_labels</b></div>
+<div class="td">List conversation labels</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_placement_tests</b></div>
+<div class="td">List placement tests</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_senders</b></div>
+<div class="td">List email senders</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_teams</b></div>
+<div class="td">List teams the user has access to</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list_webhooks</b></div>
+<div class="td">List webhooks</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>purchase_domain</b></div>
+<div class="td">Purchase domains (requires payment method, contact details)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>purchase_domains_and_mailboxes</b></div>
+<div class="td">Purchase domains and mailboxes in one transaction</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>purchase_mailbox</b></div>
+<div class="td">Purchase mailboxes for existing domains</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>remove_from_blacklist</b></div>
+<div class="td">Remove from blacklist</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>send_conversation_message</b></div>
+<div class="td">Send a message in a conversation</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: ConversationId</div>
+</li>
+<li>
+<div class="tn"><b>update_campaign_sequence</b></div>
+<div class="td">Update campaign sequence</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update_contact</b></div>
+<div class="td">Update a contact</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: ContactId</div>
+</li>
+<li>
+<div class="tn"><b>update_sender</b></div>
+<div class="td">Update a sender</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: SenderId</div>
+</li>
+<li>
+<div class="tn"><b>verify_email</b></div>
+<div class="td">Standalone email verification</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: email</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -144,6 +368,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -152,6 +379,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

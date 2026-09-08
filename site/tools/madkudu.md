@@ -41,7 +41,8 @@ Formerly a lead-scoring layer between marketing/sales handoff; now positioned in
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -56,6 +57,49 @@ https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min (endp
 - [https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min)
 - [https://mcp.madkudu.com/YOUR_API_KEY/mcp](https://mcp.madkudu.com/YOUR_API_KEY/mcp)
 - [https://mcp.madkudu.com/YOUR_API_KEY/sse](https://mcp.madkudu.com/YOUR_API_KEY/sse)
+
+**What this server exposes**
+
+- **Tools named**: 16
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **madkudu-account-activities** Retrieve account activity history including events, timestamps, activity types, and associated person details with advanced filtering, search, and sorting capabilities. evidence: answered tools/list · calling it reads · required: domain
+
+- **madkudu-account-brief-instructions** Generate comprehensive account sales brief instructions for a target domain. This tool provides a structured prompt that guides through account research using various MadKudu tools to create an actionable sales strategy. These instructions evidence: answered tools/list · calling it reads · required: domain
+
+- **madkudu-account-details** Retrieve comprehensive account profile including company information, geographic location, social media presence, MadKudu scoring metrics, and activity data. evidence: answered tools/list · calling it reads · required: domain
+
+- **madkudu-account-news-deep-search** Execute comprehensive news research across multiple AI-optimized search queries, returning news information with relevance scoring. IMPORTANT: This tool has higher cost than other tools - only use when explicitly requested by the user or sp evidence: answered tools/list · calling it reads · required: domain
+
+- **madkudu-account-top-persons** Retrieve key people from an account including contact information, job titles, location data, social profiles, MadKudu scoring metrics, and activity levels. evidence: answered tools/list · calling it reads · required: domain
+
+- **madkudu-account-top-users** Lists the top users from the account based on activity volume evidence: in the vendor docs · calling it reads
+
+- **madkudu-discover-persons** Discover persons and retrieve contact information from external data providers using provider-specific filters. Each provider (Apollo, ZoomInfo, Cognism) has different filter capabilities and comprehensive filtering options. IMPORTANT: Alwa evidence: answered tools/list · calling it reads · required: provider
+
+- **madkudu-enrich-person** Enrich person records with additional contact information including email and phone numbers using provider-specific identifiers obtained from madkudu-discover-persons tool results. IMPORTANT: Always call madkudu-sourcing-providers first to evidence: answered tools/list · calling it reads · required: provider, provider_id
+
+- **madkudu-enrich-persons** Finds contact details like email and phone numbers for people discovered evidence: in the vendor docs · calling it reads
+
+- **madkudu-person-activities** Retrieve person activity history including events, timestamps, activity types, and associated account details with advanced filtering, search, and sorting capabilities. evidence: answered tools/list · calling it reads
+
+- **madkudu-person-details** Retrieve comprehensive person profile including contact information, job details, location, social profiles, MadKudu scoring metrics, and activity aggregations. evidence: answered tools/list · calling it reads
+
+- **madkudu-search-accounts** Search for accounts across your database with advanced filtering, text search, and sorting capabilities. Use typed filters restricted to account-specific fields. evidence: answered tools/list · calling it reads
+
+- **madkudu-search-job-postings** Search for job postings by domain with advanced filtering, sorting, and pagination capabilities. This tool helps identify hiring activity and job openings at specific companies. evidence: answered tools/list · calling it reads · required: domain
+
+- **madkudu-search-persons** Search for persons across your database with advanced filtering, text search, and sorting capabilities. Use typed filters restricted to person-specific fields. evidence: answered tools/list · calling it reads
+
+- **madkudu-sourcing-providers** Retrieve list of available external sourcing data providers and their connection status to determine which providers can be used for person discovery and enrichment. evidence: answered tools/list · calling it reads
+
+- **madkudu-value-prop** Retrieve tenant-specific value propositions and persona-based messaging for sales and marketing outreach customization. evidence: answered tools/list · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

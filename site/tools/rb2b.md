@@ -41,7 +41,8 @@ Top-of-funnel intent capture, turning anonymous website traffic into named, cont
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,55 @@ mcp_url, verbatim from the file:
 https://registry.npmjs.org/@rb2b/rb2b-apis-mcp (re-verified 200 on 2026-08-28, latest 1.1.7 published 2026-04-13. The only live first-party receipt; corrected that day off a dead receipt, see notes.)
 
 - [https://registry.npmjs.org/@rb2b/rb2b-apis-mcp](https://registry.npmjs.org/@rb2b/rb2b-apis-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 19
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **check_credits** Check remaining API credits for the account evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **email_to_best_linkedin** Get the highest-confidence LinkedIn profile URL for an email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **email_to_business_profile** Get business/employer profile (title, company, industry) for an email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **email_to_linkedin_slug** Get the LinkedIn slug for a plain-text email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **email_to_maid** Get Mobile Advertising IDs linked to an email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **help** List all available tools with descriptions and costs evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **hem_to_best_linkedin** Get the highest-confidence LinkedIn profile URL for a hashed email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **hem_to_business_profile** Get business/employer profile for a hashed email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **hem_to_linkedin_slug** Get the LinkedIn slug for a hashed email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **hem_to_maid** Get Mobile Advertising IDs linked to a hashed email evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **ip_to_company** Identify the company associated with an IP address evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **ip_to_hem** Get hashed emails (MD5 + SHA256) linked to an IP address evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **ip_to_maid** Get Mobile Advertising IDs (MAIDs) linked to an IP address evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **linkedin_to_best_personal_email** Get the highest-confidence personal email for a profile evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **linkedin_to_business_profile** Get business/employer profile (title, company, industry) for a profile evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **linkedin_to_hashed_emails** Get all hashed emails (personal + business, MD5 + SHA256) for a profile evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **linkedin_to_mobile_phone** Get the mobile phone number for a profile evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **linkedin_to_personal_email** Get all personal email candidates for a profile evidence: in the vendor docs · calling it reads · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **set_api_key** Update the stored API key (validates before saving) evidence: in the vendor docs · calling it writes · read off npmjs, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

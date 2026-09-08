@@ -41,7 +41,8 @@ Unclear fit for a solo GTM operator based on what's public - reads as an AI-lab 
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -56,6 +57,69 @@ https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted S
 - [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md)
 - [https://strata.klavis.ai/mcp/](https://strata.klavis.ai/mcp/)
 - [https://github.com/Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)
+
+**What this server exposes**
+
+- **Tools named**: 25
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: Klavis-AI/klavis
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **shopify_adjust_inventory** Adjust the inventory quantity for an item at a specific location. Use this to add or remove stock after receiving shipments, cycle counts, damaged goods, or other inventory adjustments. Provide a positive number to increase stock or negativ evidence: in the server source · calling it writes
+
+- **shopify_create_collection** Create a new product collection in your Shopify store. Collections help organize products for easier browsing. Custom collections require you to manually add products later. Smart collections automatically include products based on rules yo evidence: in the server source · calling it writes
+
+- **shopify_create_discount** Create a new discount/price rule in your Shopify store. Discounts can be percentage-based (e.g., 20% off) or fixed amount (e.g., $10 off). They can apply to line items (products) or shipping. Configure target selection (all products or spec evidence: in the server source · calling it writes
+
+- **shopify_create_draft_order** Create a new draft order in your Shopify store. Draft orders are perfect for processing orders over the phone, via email, or for custom quotes. They allow you to create an order, potentially apply custom pricing or discounts, and send an in evidence: in the server source · calling it spends money
+
+- **shopify_create_fulfillment** Create a new fulfillment (shipment) for an order. Use this when you evidence: in the server source · calling it writes
+
+- **shopify_create_order** Create a new order in the Shopify store programmatically. Useful for creating orders from external systems, processing phone orders, or creating manual orders for customers. Requires line items with product variant IDs and quantities. Can o evidence: in the server source · calling it writes
+
+- **shopify_create_product** Create a new product in the Shopify store with full configuration. Allows setting title, HTML description, vendor, product type, tags, status (active/draft/archived), and variants. Each variant can have its own price, SKU, inventory quantit evidence: in the server source · calling it writes
+
+- **shopify_get_collection** Get detailed information about a specific collection by ID. Returns complete collection details including title, description (body_html), handle (URL slug), publication date and scope, sort order for products, collection type (custom or sma evidence: in the server source · calling it reads
+
+- **shopify_get_customer** Get comprehensive details about a specific customer by ID. Returns complete customer profile including personal information (name, email, phone), order history (total orders, total spent), addresses (default and additional), marketing prefe evidence: in the server source · calling it reads
+
+- **shopify_get_discount** Get detailed information about a specific discount/price rule by ID. Returns complete discount configuration including title, value type and amount, what it targets (products or shipping), how it evidence: in the server source · calling it reads
+
+- **shopify_get_draft_order** Get comprehensive details about a specific draft order by ID. Returns complete draft order information including order name, status, customer details, all line items with pricing, subtotal/taxes/total, shipping and billing addresses, notes, evidence: in the server source · calling it spends money
+
+- **shopify_get_inventory_levels** Get current stock levels for inventory items across your locations. Inventory levels show how much stock is available for each product variant at each location. Returns inventory item ID, location ID, available quantity, and last updated ti evidence: in the server source · calling it reads
+
+- **shopify_get_location** Get detailed information about a specific location by ID. Returns complete location details including name, full address components, contact phone, active status, legacy flag, localized country/province names, and location capabilities. Use evidence: in the server source · calling it reads
+
+- **shopify_get_order** Get complete details about a specific order by ID. Returns comprehensive order information including order number, customer information (name, email, phone), all line items with product details and quantities, pricing breakdown (subtotal, t evidence: in the server source · calling it reads
+
+- **shopify_get_product** Get comprehensive details about a specific product by ID. Returns complete product information including title, description, body HTML, vendor, product type, tags, status, all variants with pricing and inventory, product options (size, colo evidence: in the server source · calling it reads
+
+- **shopify_list_collections** List all product collections in your Shopify store, including both custom collections (manually curated) and smart collections (automatically populated based on rules). Returns collection details including title, handle, description, public evidence: in the server source · calling it reads
+
+- **shopify_list_customers** List and browse all customers in your Shopify store with pagination. Returns customer information including name, email, phone number, total orders count, total amount spent, customer tags, marketing preferences, account status, default add evidence: in the server source · calling it reads
+
+- **shopify_list_discounts** List all discount codes and automatic discounts (price rules) in your Shopify store. Price rules define the discount logic and can have multiple discount codes associated with them. Returns discount details including title, value type (perc evidence: in the server source · calling it reads
+
+- **shopify_list_draft_orders** List draft orders in your Shopify store with optional filtering. Draft orders are orders created by merchants that haven evidence: in the server source · calling it reads
+
+- **shopify_list_fulfillments** List all fulfillments (shipments) for a specific order. Fulfillments represent shipments sent to customers and track which items were shipped, tracking information, and shipment status. Returns fulfillment ID, status (pending, open, success evidence: in the server source · calling it reads
+
+- **shopify_list_inventory_items** List inventory items in your Shopify store with optional filtering. Each product variant has an associated inventory item that tracks stock across locations. Returns inventory item details including SKU, cost, tracked status, shipping requi evidence: in the server source · calling it reads
+
+- **shopify_list_locations** List all physical and virtual locations/warehouses configured in your Shopify store. Locations represent places where you stock and ship inventory from (warehouses, retail stores, pop-up shops, etc.). Returns location details including name evidence: in the server source · calling it reads
+
+- **shopify_list_orders** List and search orders in your Shopify store with filtering by status. Returns comprehensive order information including order number, customer details, line items with products and quantities, pricing (subtotal, taxes, discounts, total), p evidence: in the server source · calling it spends money
+
+- **shopify_list_products** Search and list products in your Shopify store with advanced filtering. Returns comprehensive product details including title, description, vendor, pricing, product type, variants, images, and inventory status. Use this to find products by evidence: in the server source · calling it reads
+
+- **shopify_update_product** Update an existing product evidence: in the server source · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

@@ -41,7 +41,8 @@ Zero-cost entry point for putting real meeting transcripts in front of an agent,
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: answered, asking for a key
-- **Endpoint URL[https://mcp.meetgeek.ai/mcp](https://mcp.meetgeek.ai/mcp)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://mcp.meetgeek.ai/mcp](https://mcp.meetgeek.ai/mcp)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
@@ -56,6 +57,31 @@ https://mcp.meetgeek.ai/mcp (cloud; docs https://support.meetgeek.ai/en/articles
 - [https://mcp.meetgeek.ai/mcp](https://mcp.meetgeek.ai/mcp)
 - [https://support.meetgeek.ai/en/articles/13491658-public-mcp-cloud-guide](https://support.meetgeek.ai/en/articles/13491658-public-mcp-cloud-guide)
 - [https://github.com/meetgeekai/meetgeek-mcp-server](https://github.com/meetgeekai/meetgeek-mcp-server)
+
+**What this server exposes**
+
+- **Tools named**: 6
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: meetgeekai/meetgeek-mcp-server
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **highlights** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **meetingDetails** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **meetings** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **summary** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **teamMeetings** No description was recorded with the name. evidence: in the server source · calling it reads
+
+- **transcript** No description was recorded with the name. evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

@@ -41,7 +41,8 @@ RFP/RFI response system of record for larger proposal teams, the incumbent Loopi
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,39 @@ mcp_url, verbatim from the file:
 https://github.com/fredericboyer/loopio-mcp (unofficial)
 
 - [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 16
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: fredericboyer/loopio-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **LOOPIO_API_BASE_PATH** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_AUTH_NAME_CLAIM** `name` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_AUTH_NAME_HEADER** `x-ms-client-principal-name` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_AUTH_PRINCIPAL_HEADER** `x-ms-client-principal` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_AUTH_ROLES_CLAIM** `roles` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_CLIENT_ID** Yes evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_CLIENT_SECRET** Yes evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_HOST** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **LOOPIO_HTTP_ALLOWED_HOSTS** `127.0.0.1:
+
+,localhost:` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_HOST** `0.0.0.0` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_PORT** `3000` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_MAX_RESULTS** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_READ_ONLY** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_SCOPES** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_TRUST_PROXY_AUTH** `false` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **Variable** Required evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

@@ -56,6 +56,23 @@ https://api.fireflies.ai/mcp ; https://guide.fireflies.ai/articles/8272956938-le
 - [https://api.fireflies.ai/mcp](https://api.fireflies.ai/mcp)
 - [https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol)
 
+**What this server exposes**
+
+- **Tools named**: 3
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **get_transcript** Retrieve a full transcript using transcriptId evidence: in the vendor docs · calling it reads · required: transcriptId
+
+- **get_transcripts** Search across past transcripts with filters evidence: in the vendor docs · calling it reads
+
+- **get_user** Returns your user profile info evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

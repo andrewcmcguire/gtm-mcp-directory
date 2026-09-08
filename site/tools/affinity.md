@@ -56,6 +56,121 @@ https://mcp.affinity.co/mcp (docs: https://support.affinity.co/s/article/Getting
 - [https://mcp.affinity.co/mcp](https://mcp.affinity.co/mcp)
 - [https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP](https://support.affinity.co/s/article/Getting-started-with-Affinity-MCP)
 
+**What this server exposes**
+
+- **Tools named**: 52
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **create_company** Create a new company record evidence: in the vendor docs · calling it writes
+
+- **create_field** Define a new field on a list, on companies, on people, or on opportunities evidence: in the vendor docs · calling it reads
+
+- **create_interaction** Log a meeting, call, or chat message with one or more people evidence: in the vendor docs · calling it reads
+
+- **create_list** Create a new list for organizing companies, people, or opportunities evidence: in the vendor docs · calling it writes
+
+- **create_list_entry** Add an existing person or company as a list entry to a list evidence: in the vendor docs · calling it writes
+
+- **create_list_field_dropdown_option** Add a new selectable option to a dropdown field on a list evidence: in the vendor docs · calling it writes
+
+- **create_note** Create a note and attach it to a person, company, opportunity, or meeting evidence: in the vendor docs · calling it writes
+
+- **create_opportunity** Create a new opportunity and attach it to a list evidence: in the vendor docs · calling it writes
+
+- **create_person** Add a new person record to your team's address book evidence: in the vendor docs · calling it writes
+
+- **create_reminder** Set up a new reminder evidence: in the vendor docs · calling it writes
+
+- **delete_list_field_dropdown_option** Remove a dropdown option from a list field evidence: in the vendor docs · calling it writes
+
+- **delete_reminder** Delete an existing reminder evidence: in the vendor docs · calling it writes
+
+- **get_company_info** Get detailed profile and field data for a specific company evidence: in the vendor docs · calling it reads
+
+- **get_company_list_entries** See which lists a company appears on evidence: in the vendor docs · calling it reads
+
+- **get_company_relationships** View which teammates have relationships at a company and their strength evidence: in the vendor docs · calling it reads
+
+- **get_current_user** Check who you're authenticated as and verify your connection evidence: in the vendor docs · calling it reads
+
+- **get_entities_attached_to_note** Find what records are linked to a specific note evidence: in the vendor docs · calling it reads
+
+- **get_entity_field_dropdown_options** See what dropdown options are available on a person or company field evidence: in the vendor docs · calling it reads
+
+- **get_entity_fields** See what fields are available for people or companies evidence: in the vendor docs · calling it reads
+
+- **get_field_value_changes** See the history of changes to a field's values over time evidence: in the vendor docs · calling it reads
+
+- **get_list_field_dropdown_options** See what dropdown options are available on a list field evidence: in the vendor docs · calling it reads
+
+- **get_list_fields** See what fields are available on a specific list evidence: in the vendor docs · calling it reads
+
+- **get_list_info** Get metadata and a direct link for a specific list evidence: in the vendor docs · calling it reads
+
+- **get_lists** See all lists you have access to, optionally filtered by name evidence: in the vendor docs · calling it reads
+
+- **get_meetings** Get past and upcoming meeting interactions and attendees evidence: in the vendor docs · calling it reads
+
+- **get_meetings_for_entity** Get meetings for a specific person, company, or opportunity evidence: in the vendor docs · calling it reads
+
+- **get_notes_for_entity** Get all notes attached to a specific record evidence: in the vendor docs · calling it reads
+
+- **get_person_info** Get detailed profile and field data for a specific person evidence: in the vendor docs · calling it reads
+
+- **get_person_list_entries** See which lists a person appears on evidence: in the vendor docs · calling it reads
+
+- **get_person_relationships** View which teammates know a specific person and relationship strength evidence: in the vendor docs · calling it reads
+
+- **get_reminders** See all of your team's reminders evidence: in the vendor docs · calling it reads
+
+- **get_saved_view_list_entries** Pull the list entries that match a saved view's filters evidence: in the vendor docs · calling it reads
+
+- **get_saved_views** See the saved views configured on a list evidence: in the vendor docs · calling it reads
+
+- **get_single_list_entry** Get a specific entry on a list evidence: in the vendor docs · calling it reads
+
+- **get_transcript_fragments** Retrieve dialogue fragments of your team's meeting transcripts evidence: in the vendor docs · calling it reads
+
+- **query_notes** Find notes by creator or date range evidence: in the vendor docs · calling it reads
+
+- **render_warm_intro_graph** Render the ranked intro paths as an interactive network graph evidence: in the vendor docs · calling it reads
+
+- **search_all_companies** Exhaustively list or filter companies with cursor-based pagination evidence: in the vendor docs · calling it reads
+
+- **search_companies_top_matches** Search for companies using natural language, structured filters, or both evidence: in the vendor docs · calling it reads
+
+- **search_files** Search files by keyword, across all files or scoped to a company evidence: in the vendor docs · calling it reads
+
+- **search_list_entries** Search, filter, and sort entries on a specific list, with cursor-based pagination evidence: in the vendor docs · calling it reads
+
+- **search_notes** Search notes by keyword, across all notes or scoped to a company evidence: in the vendor docs · calling it reads
+
+- **search_opportunities** Search for opportunities by keyword or list them all evidence: in the vendor docs · calling it reads
+
+- **search_persons** Search people across your org using structured filters, sorts, and/or a keyword evidence: in the vendor docs · calling it reads
+
+- **send_feedback** Submit feedback about a missing capability or limitation directly to Affinity evidence: in the vendor docs · calling it reads
+
+- **update_company** Update an existing company's name, domain, or associated people evidence: in the vendor docs · calling it writes
+
+- **update_list_field_dropdown_option** Rename or restyle an existing dropdown option on a list field evidence: in the vendor docs · calling it reads
+
+- **update_opportunity** Rename an opportunity or change its company and person associations evidence: in the vendor docs · calling it reads
+
+- **update_person** Update an existing person's name, email addresses, or company associations evidence: in the vendor docs · calling it writes
+
+- **update_reminder** Update an existing reminder's details evidence: in the vendor docs · calling it writes
+
+- **upsert_entity_field_values** Create or update field values on a person or company evidence: in the vendor docs · calling it writes
+
+- **upsert_list_entry_field_values** Create or update field values in bulk for a specific list entry evidence: in the vendor docs · calling it writes
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

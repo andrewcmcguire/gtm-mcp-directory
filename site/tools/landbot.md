@@ -41,7 +41,8 @@ Low-friction, self-serve entry point for building an AI-assisted inbound chat fl
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,43 @@ https://composio.dev/toolkits/landbot (Composio-hosted, 13 tools); https://zapie
 
 - [https://composio.dev/toolkits/landbot](https://composio.dev/toolkits/landbot)
 - [https://zapier.com/mcp/landbot](https://zapier.com/mcp/landbot)
+
+**What this server exposes**
+
+- **Tools named**: 13
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Delete Bot** Tool to delete a specific bot from your account. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Get Brand** Tool to retrieve your brand data including contact information and settings. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **List Agents** Retrieves agents available in your Landbot account. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **List Bots** Tool to list all bots in your Landbot account. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **List Channels** Tool to list all channels integrated with your account. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **List Customers** Tool to list customers who have interacted with your bot. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **List WhatsApp Templates** Tool to list all WhatsApp message templates available for the account. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Replace Agent** Performs full update of specific agent data in your account. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Replace Brand** Executes complete replacement of brand information via PUT operation. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Send Message** Tool to send a plain text outbound message to a Landbot customer. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Set Agent Status** Changes an agent's availability status to online, offline, or busy. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Update Agent** Modifies agent information in your Landbot account. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+- **Update Brand** Performs partial updates to brand data in Landbot. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

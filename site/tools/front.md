@@ -55,6 +55,12 @@ https://mcp.frontapp.com/mcp (docs: https://dev.frontapp.com/docs/mcp-server)
 - [https://mcp.frontapp.com/mcp](https://mcp.frontapp.com/mcp)
 - [https://dev.frontapp.com/docs/mcp-server](https://dev.frontapp.com/docs/mcp-server)
 
+**What this server exposes**
+
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

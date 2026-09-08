@@ -41,7 +41,8 @@ Web-research/enrichment layer used to supplement contact databases with live com
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -55,6 +56,41 @@ https://github.com/exa-labs/exa-mcp-server (hosted endpoint https://mcp.exa.ai/m
 
 - [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
 - [https://mcp.exa.ai/mcp](https://mcp.exa.ai/mcp)
+
+**What this server exposes**
+
+- **Tools named**: 11
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Repo read**: exa-labs/exa-mcp-server
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **agent_run** Start or resume an Exa Agent run; runs may take several minutes. Retain the returned run ID and resume with runId when the tool reports the run is still running. An interrupted tool call is not an explicit cancellation request. evidence: in the server source · calling it writes
+
+- **company_research_exa** [Deprecated: Use web_search_advanced_exa instead] Research any company to get business information, news, and insights. Best for: Learning about a company evidence: in the server source · calling it reads
+
+- **deep_researcher_check** [Deprecated] Check status and get results from a deep research task. Best for: Getting the research report after calling deep_researcher_start. Returns: Research report when complete, or status update if still running. Important: Keep call evidence: in the server source · calling it reads
+
+- **deep_researcher_start** [Deprecated] Start an AI research agent that searches, reads, and writes a detailed report. Takes 15 seconds to 2 minutes. Best for: Complex research questions needing deep analysis and synthesis. Returns: Research ID - use deep_researcher evidence: in the server source · calling it writes
+
+- **deep_search_exa** [Deprecated: Use web_search_advanced_exa instead] Deep search with automatic query expansion for thorough research. Generates multiple search variations to find results from multiple angles, then synthesizes a short answer with citations. evidence: in the server source · calling it reads
+
+- **get_code_context_exa** Find code examples, documentation, and programming solutions. Best for: Any programming question - API usage, library examples, code snippets, debugging help. Returns: Relevant code and documentation. Query tips: describe what you evidence: in the server source · calling it reads
+
+- **linkedin_search_exa** ⚠️ DEPRECATED: This tool is deprecated. Please use evidence: in the server source · calling it reads
+
+- **people_search_exa** [Deprecated: Use web_search_advanced_exa instead] Find people and their professional profiles. Best for: Finding professionals, executives, or anyone with a public profile. Returns: Profile information and links. evidence: in the server source · calling it reads
+
+- **web_fetch_exa** Read a webpage's full content as clean markdown. Use after web_search_exa when highlights are insufficient or to read any URL. Best for: Extracting full content from known URLs. Batch multiple URLs in one call. Returns: Clean text content evidence: answered tools/list · calling it reads · required: urls
+
+- **web_search_advanced_exa** Advanced web search with full control over filters, domains, dates, and content options. Best for: When you need specific filters like date ranges, domain restrictions, or category filters. Not recommended for: Simple searches - use web_se evidence: in the server source · calling it reads
+
+- **web_search_exa** Search the web for any topic and get clean, ready-to-use content. Best for: Finding current information, news, facts, people, companies, or answering questions about any topic. Returns: Clean text content from top search result evidence: answered tools/list · calling it reads · required: query
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

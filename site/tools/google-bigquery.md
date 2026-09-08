@@ -55,6 +55,29 @@ https://bigquery.googleapis.com/mcp (docs: https://docs.cloud.google.com/bigquer
 - [https://bigquery.googleapis.com/mcp](https://bigquery.googleapis.com/mcp)
 - [https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp](https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp)
 
+**What this server exposes**
+
+- **Tools named**: 6
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **execute_sql** Run a SQL query in the project and return the result. Prefer the `execute_sql_readonly` tool if possible. This tool can execute any query that bigquery supports including: * SQL Queries (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE`, e evidence: answered tools/list · calling it reads · required: projectId, query
+
+- **execute_sql_readonly** Run a read-only SQL query in the project and return the result. Prefer this tool over `execute_sql` if possible. This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and `DELETE` statements and stored procedures aren't evidence: answered tools/list · calling it reads · required: projectId, query
+
+- **get_dataset_info** Get metadata information about a BigQuery dataset or BigLake namespace. evidence: answered tools/list · calling it reads · required: datasetId, projectId
+
+- **get_table_info** Get metadata information about a BigQuery table or BigLake table. evidence: answered tools/list · calling it reads · required: datasetId, projectId, tableId
+
+- **list_dataset_ids** List BigQuery dataset IDs and BigLake namespaces in a Google Cloud project. Supports pagination. Use `page_size` to limit results and `page_token` to retrieve next page. evidence: answered tools/list · calling it reads · required: projectId
+
+- **list_table_ids** List table ids in a BigQuery dataset or BigLake namespace. Supports pagination. Use `page_size` to limit results and `page_token` to retrieve next page. evidence: answered tools/list · calling it reads · required: datasetId, projectId
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

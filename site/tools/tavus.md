@@ -41,7 +41,8 @@ Conversational AI-agent layer for GTM (an AI rep that greets/qualifies a site vi
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: answered, asking for a key
-- **Endpoint URL[https://mcp.tavus.io/mcp](https://mcp.tavus.io/mcp)Probed**: 2026-09-04, HTTP 401
+- **Endpoint URL**: [https://mcp.tavus.io/mcp](https://mcp.tavus.io/mcp)
+- **Probed**: 2026-09-04, HTTP 401
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
@@ -57,6 +58,79 @@ https://mcp.tavus.io/mcp (docs: https://docs.tavus.io/sections/agent-tools/mcp-s
 - [https://docs.tavus.io/sections/agent-tools/mcp-server.md](https://docs.tavus.io/sections/agent-tools/mcp-server.md)
 - [https://docs.tavus.io/sections/agent-tools/mcp-tools-reference.md](https://docs.tavus.io/sections/agent-tools/mcp-tools-reference.md)
 - [https://github.com/rakeshdavid/Tavus-MCP](https://github.com/rakeshdavid/Tavus-MCP)
+
+**What this server exposes**
+
+- **Tools named**: 29
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: rakeshdavid/Tavus-MCP
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **create_conversation** Create a new conversational video interface evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **create_lipsync** Create a lipsync video by synchronizing audio with video evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **create_persona** Create a new persona for conversational AI evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **create_replica** Create a new AI replica from a training video evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **delete_conversation** Delete a conversation permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **delete_lipsync** Delete a lipsync permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **delete_persona** Delete a persona permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **delete_replica** Delete a replica permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **delete_speech** Delete a speech permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **delete_video** Delete a video permanently evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **end_conversation** End an active conversation evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **generate_speech** Generate speech audio from text using a replica evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **generate_video** Generate a video using a replica and script or audio evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_conversation** Get details of a specific conversation evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_lipsync** Get details of a specific lipsync evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_persona** Get details of a specific persona evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_replica** Get details of a specific replica evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_speech** Get details of a specific speech evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_video** Get details of a specific video evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_conversations** List all conversations in your account evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_lipsyncs** List all lipsyncs in your account evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_personas** List all personas in your account evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_replicas** List all replicas in your account evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_speeches** List all speeches in your account evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_videos** List all videos in your account evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **patch_persona** Update a persona using JSON patch format evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **rename_replica** Rename an existing replica evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **rename_speech** Rename an existing speech evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **rename_video** Rename an existing video evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

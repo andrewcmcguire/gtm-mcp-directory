@@ -57,6 +57,29 @@ https://mcp.monday.com/mcp for the remote server (product page: https://monday.c
 - [https://developer.monday.com/apps/docs/mondaycom-mcp-integration](https://developer.monday.com/apps/docs/mondaycom-mcp-integration)
 - [https://github.com/mondaycom/mcp](https://github.com/mondaycom/mcp)
 
+**What this server exposes**
+
+- **Tools named**: 5
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: mondaycom/mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Category** Tool evidence: in a README table · calling it reads
+
+- **Mode** `--mode`, `-m` evidence: in a README table · calling it reads
+
+- **all_monday_api** Generate and execute any GraphQL query or mutation dynamically evidence: in a README table · calling it reads
+
+- **get_graphql_schema** Fetch monday.com's GraphQL schema to understand available operations evidence: in a README table · calling it reads
+
+- **get_type_details** Retrieve detailed information about specific GraphQL types evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

@@ -116,7 +116,186 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.calendly.com ; https://developer.calendly.com/calendly-mcp-server (hosted at https://mcp.calendly.com); announcement: https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450; vendor blog: https://calendly.com/blog/mcp-server</p><ul><li><a href="https://mcp.calendly.com" rel="noopener nofollow">https://mcp.calendly.com</a></li><li><a href="https://developer.calendly.com/calendly-mcp-server" rel="noopener nofollow">https://developer.calendly.com/calendly-mcp-server</a></li><li><a href="https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450" rel="noopener nofollow">https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450</a></li><li><a href="https://calendly.com/blog/mcp-server" rel="noopener nofollow">https://calendly.com/blog/mcp-server</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.calendly.com ; https://developer.calendly.com/calendly-mcp-server (hosted at https://mcp.calendly.com); announcement: https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450; vendor blog: https://calendly.com/blog/mcp-server</p><ul><li><a href="https://mcp.calendly.com" rel="noopener nofollow">https://mcp.calendly.com</a></li><li><a href="https://developer.calendly.com/calendly-mcp-server" rel="noopener nofollow">https://developer.calendly.com/calendly-mcp-server</a></li><li><a href="https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450" rel="noopener nofollow">https://community.calendly.com/developer-faq-62/announcing-the-calendly-mcp-server-5450</a></li><li><a href="https://calendly.com/blog/mcp-server" rel="noopener nofollow">https://calendly.com/blog/mcp-server</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">36</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>availability-get_user_availability_schedule</b></div>
+<div class="td">Get a schedule&#x27;s details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>availability-list_user_availability_schedules</b></div>
+<div class="td">List user availability schedules</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>availability-list_user_busy_times</b></div>
+<div class="td">List busy times within a range</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>event_types-create_event_type</b></div>
+<div class="td">Create a new event type</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>event_types-get_event_type</b></div>
+<div class="td">Retrieve event type details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>event_types-list_event_type_availability_schedule</b></div>
+<div class="td">List availability schedules</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>event_types-list_event_type_available_times</b></div>
+<div class="td">List available time slots</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>event_types-list_event_types</b></div>
+<div class="td">List event types for a user/org</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>event_types-update_event_type</b></div>
+<div class="td">Update event type details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>event_types-update_event_type_availability_schedule</b></div>
+<div class="td">Update an availability schedule</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>list_calendly_skills</b></div>
+<div class="td">List available Calendly skills</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>load_calendly_skill</b></div>
+<div class="td">Retrieve a specific Calendly skill</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>locations-list_user_meeting_locations</b></div>
+<div class="td">List a user&#x27;s meeting locations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-cancel_event</b></div>
+<div class="td">Cancel a scheduled event</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-create_invitee</b></div>
+<div class="td">Create a new booking (Scheduling API). Requires a paid Calendly plan</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>meetings-create_invitee_no_show</b></div>
+<div class="td">Mark invitee as no-show</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-delete_invitee_no_show</b></div>
+<div class="td">Remove no-show status</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>meetings-get_event</b></div>
+<div class="td">Retrieve event details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-get_event_invitee</b></div>
+<div class="td">Get invitee details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-get_invitee_no_show</b></div>
+<div class="td">Get no-show details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-list_event_invitees</b></div>
+<div class="td">List invitees for an event</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meetings-list_events</b></div>
+<div class="td">List scheduled events</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>organizations-create_organization_invitation</b></div>
+<div class="td">Invite a user</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>organizations-get_organization</b></div>
+<div class="td">Retrieve org details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>organizations-get_organization_membership</b></div>
+<div class="td">Get membership details</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>organizations-list_organization_invitations</b></div>
+<div class="td">List pending invitations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>organizations-list_organization_memberships</b></div>
+<div class="td">List organization members</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>organizations-revoke_organization_invitation</b></div>
+<div class="td">Revoke an invitation</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>routing_forms-get_routing_form</b></div>
+<div class="td">Get form details. Requires a Calendly Teams plan or higher</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>routing_forms-get_routing_form_submission</b></div>
+<div class="td">Retrieve a submission. Requires a Calendly Teams plan or higher</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>routing_forms-list_routing_form_submissions</b></div>
+<div class="td">List form submissions. Requires a Calendly Teams plan or higher</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>routing_forms-list_routing_forms</b></div>
+<div class="td">List routing forms. Requires a Calendly Teams plan or higher</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>scheduling_links-create_single_use_scheduling_link</b></div>
+<div class="td">Create a single-use scheduling link from existing event type</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>shares-create_share</b></div>
+<div class="td">Create and customize single-use scheduling link from existing event type</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>users-get_current_user</b></div>
+<div class="td">Get the authenticated user</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>users-get_user</b></div>
+<div class="td">Get a specific user by UUID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -142,6 +321,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -150,6 +332,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

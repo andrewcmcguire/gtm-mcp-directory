@@ -32,6 +32,8 @@ DEFAULT_PAGES = [
     "jobs-board/family-revops.html",
     "index.html",
     "tools/index.html",
+    "tools-index.html",
+    "tools/apollo-io.html",
 ]
 
 PROBE = """() => {

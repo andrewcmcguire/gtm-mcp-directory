@@ -117,7 +117,176 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/Woodpeckerco/woodpecker-mcp-server ; https://developers.woodpecker.co/docs/mcp/ (Claude-specific setup at https://developers.woodpecker.co/docs/mcp/connect-claude/)</p><ul><li><a href="https://github.com/Woodpeckerco/woodpecker-mcp-server" rel="noopener nofollow">https://github.com/Woodpeckerco/woodpecker-mcp-server</a></li><li><a href="https://developers.woodpecker.co/docs/mcp/" rel="noopener nofollow">https://developers.woodpecker.co/docs/mcp/</a></li><li><a href="https://developers.woodpecker.co/docs/mcp/connect-claude/" rel="noopener nofollow">https://developers.woodpecker.co/docs/mcp/connect-claude/</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/Woodpeckerco/woodpecker-mcp-server ; https://developers.woodpecker.co/docs/mcp/ (Claude-specific setup at https://developers.woodpecker.co/docs/mcp/connect-claude/)</p><ul><li><a href="https://github.com/Woodpeckerco/woodpecker-mcp-server" rel="noopener nofollow">https://github.com/Woodpeckerco/woodpecker-mcp-server</a></li><li><a href="https://developers.woodpecker.co/docs/mcp/" rel="noopener nofollow">https://developers.woodpecker.co/docs/mcp/</a></li><li><a href="https://developers.woodpecker.co/docs/mcp/connect-claude/" rel="noopener nofollow">https://developers.woodpecker.co/docs/mcp/connect-claude/</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">34</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>addEmailStep</b></div>
+<div class="td">Add an email follow-up step to an existing campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, parentId, versions, deliveryTimes</div>
+</li>
+<li>
+<div class="tn"><b>addLinkedinConnectionRequestStep</b></div>
+<div class="td">Add a LinkedIn connection request follow-up step to an existing campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, parentId, linkedinAccountId</div>
+</li>
+<li>
+<div class="tn"><b>addLinkedinDirectMessageStep</b></div>
+<div class="td">Add a LinkedIn direct message follow-up step to an existing campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, parentId, linkedinAccountId, bodyVersions</div>
+</li>
+<li>
+<div class="tn"><b>addLinkedinInMailMessageStep</b></div>
+<div class="td">Add a LinkedIn InMail message follow-up step to an existing campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, parentId, linkedinAccountId, bodyVersions</div>
+</li>
+<li>
+<div class="tn"><b>addLinkedinProfileVisitStep</b></div>
+<div class="td">Add a LinkedIn profile visit follow-up step to an existing campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, parentId, linkedinAccountId</div>
+</li>
+<li>
+<div class="tn"><b>addProspectsToCampaign</b></div>
+<div class="td">Bulk add prospects with full contact information and custom snippets</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, prospectsPayload</div>
+</li>
+<li>
+<div class="tn"><b>addProspectsToDatabase</b></div>
+<div class="td">Adds new prospects to your global prospect list without enrolling them in campaigns</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: prospectsPayload</div>
+</li>
+<li>
+<div class="tn"><b>buildCampaignUrl</b></div>
+<div class="td">Generate Woodpecker app URL for campaign access</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>createEmailCampaign</b></div>
+<div class="td">Create a Woodpecker email campaign with one email step and minimal configuration</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: timezone, dailyEnroll, emailAccountIds, versions, deliveryTimes</div>
+</li>
+<li>
+<div class="tn"><b>createLinkedinConnectionRequestCampaign</b></div>
+<div class="td">Create a Woodpecker LinkedIn campaign with one connection request step</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: timezone, dailyEnroll, linkedinAccountId</div>
+</li>
+<li>
+<div class="tn"><b>createLinkedinDirectMessageCampaign</b></div>
+<div class="td">Create a Woodpecker LinkedIn campaign with one direct message step</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: timezone, dailyEnroll, linkedinAccountId, bodyVersions</div>
+</li>
+<li>
+<div class="tn"><b>createLinkedinInMailMessageCampaign</b></div>
+<div class="td">Create a Woodpecker LinkedIn campaign with one InMail message step</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: timezone, dailyEnroll, linkedinAccountId, bodyVersions</div>
+</li>
+<li>
+<div class="tn"><b>createLinkedinProfileVisitCampaign</b></div>
+<div class="td">Create a Woodpecker LinkedIn campaign with one profile visit step</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: timezone, dailyEnroll, linkedinAccountId</div>
+</li>
+<li>
+<div class="tn"><b>deleteCampaign</b></div>
+<div class="td">Remove campaign entirely</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>deleteCampaignStep</b></div>
+<div class="td">Remove steps from campaigns</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, stepId</div>
+</li>
+<li>
+<div class="tn"><b>deleteProspects</b></div>
+<div class="td">Permanently deletes prospects from your database and/or specific campaigns</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: prospectIds</div>
+</li>
+<li>
+<div class="tn"><b>listCampaigns</b></div>
+<div class="td">Retrieve campaigns with optional filtering by operational status</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: pageNumber</div>
+</li>
+<li>
+<div class="tn"><b>listLinkedinAccounts</b></div>
+<div class="td">Retrieve available LinkedIn accounts for campaign assignment</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: filter</div>
+</li>
+<li>
+<div class="tn"><b>listMailboxes</b></div>
+<div class="td">Retrieve available email accounts for campaign assignment</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: filter</div>
+</li>
+<li>
+<div class="tn"><b>listProspectsInCampaign</b></div>
+<div class="td">Paginated retrieval of campaign prospects</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId, pageNumber</div>
+</li>
+<li>
+<div class="tn"><b>listProspectsInDatabase</b></div>
+<div class="td">Lists prospects from your global prospect database (not tied to any specific campaign)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: pageNumber</div>
+</li>
+<li>
+<div class="tn"><b>makeCampaignEditable</b></div>
+<div class="td">Enable campaign modifications</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>pauseCampaign</b></div>
+<div class="td">Pause campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>retrieveCampaignDetails</b></div>
+<div class="td">Get detailed campaign structure including all steps and configurations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>retrieveCampaignStatistics</b></div>
+<div class="td">Fetch campaign performance metrics and analytics</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>runCampaign</b></div>
+<div class="td">Start campaign execution</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>searchProspects</b></div>
+<div class="td">Searches for prospects matching specific criteria across your entire database</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: pageNumber</div>
+</li>
+<li>
+<div class="tn"><b>stopCampaign</b></div>
+<div class="td">Stop campaign</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId</div>
+</li>
+<li>
+<div class="tn"><b>updateCampaignSettings</b></div>
+<div class="td">Modify campaign-wide configuration including naming, email accounts, and limits</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId, name, emailAccountIds, timezone, dailyEnroll</div>
+</li>
+<li>
+<div class="tn"><b>updateCampaignStep</b></div>
+<div class="td">Modify step delivery times and scheduling</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: campaignId, stepId, payload</div>
+</li>
+<li>
+<div class="tn"><b>updateEmailStepVersion</b></div>
+<div class="td">Update email content, subject lines, signatures and tracking settings</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, stepId, versionId, subject, message, signature, trackOpens</div>
+</li>
+<li>
+<div class="tn"><b>updateLinkedinStepVersion</b></div>
+<div class="td">Update LinkedIn connection request, direct message, or InMail content</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, stepId, versionId, message</div>
+</li>
+<li>
+<div class="tn"><b>updateProspectsInCampaign</b></div>
+<div class="td">Update existing prospect data (requires explicit user request)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes &middot; required: campaignId, prospectsPayload</div>
+</li>
+<li>
+<div class="tn"><b>updateProspectsInDatabase</b></div>
+<div class="td">Updates existing prospects in your global database or adds new ones if they do not exist</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: prospectsPayload</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -143,6 +312,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -151,6 +323,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

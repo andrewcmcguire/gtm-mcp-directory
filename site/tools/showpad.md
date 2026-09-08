@@ -57,6 +57,41 @@ https://mcp.showpad.com/mcp/v1 ; https://developer.showpad.com/docs/integrations
 - [https://developer.showpad.com/docs/integrations/platform-independent/mcp](https://developer.showpad.com/docs/integrations/platform-independent/mcp)
 - [https://yourcompany.showpad.biz/mcp/v1](https://yourcompany.showpad.biz/mcp/v1)
 
+**What this server exposes**
+
+- **Tools named**: 12
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **fetch** Retrieves an asset's content by ID: text transcription, page content, or a URL. evidence: in the vendor docs · calling it reads · required: id
+
+- **search** Finds Showpad assets by name, type, description, or content. Returns results with webapp URLs. evidence: in the vendor docs · calling it reads
+
+- **showpad_ask_a_question** Returns an AI-generated answer with cited sources, drawn from the user's Showpad content. evidence: in the vendor docs · calling it reads
+
+- **showpad_browse** An interactive asset browser with thumbnails, metadata, and content-type filters. Listed by the vendor as an MCP App rather than a text tool. evidence: in the vendor docs · calling it reads
+
+- **showpad_browse_filter** The same asset browser, populated by a ShowQL filter instead of free text. Listed by the vendor as an MCP App rather than a text tool. evidence: in the vendor docs · calling it reads
+
+- **showpad_shared_space_card** A visual card for one shared space showing metadata, sharing settings, engagement KPI tiles. Listed by the vendor as an MCP App rather than a text tool. evidence: in the vendor docs · calling it reads
+
+- **showpad_shared_spaces_get** Returns full details for one shared space by ID. evidence: in the vendor docs · calling it reads · required: id
+
+- **showpad_shared_spaces_get_engagement** Returns engagement insights for one shared space. evidence: in the vendor docs · calling it reads
+
+- **showpad_shared_spaces_list** Lists the shared spaces the user owns or participates in. evidence: in the vendor docs · calling it reads
+
+- **showpad_showql_filter** Filters assets by structured metadata: type, tags, dates, size, language, share flags, and engagement. evidence: in the vendor docs · calling it reads
+
+- **showpad_showql_guide** Returns the ShowQL syntax reference for building structured filter queries. evidence: in the vendor docs · calling it reads
+
+- **showpad_whoami** Returns the current user's identity: name, email, and account type. evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Enterprise only

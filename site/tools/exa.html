@@ -116,7 +116,87 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/exa-labs/exa-mcp-server (hosted endpoint https://mcp.exa.ai/mcp)</p><ul><li><a href="https://github.com/exa-labs/exa-mcp-server" rel="noopener nofollow">https://github.com/exa-labs/exa-mcp-server</a></li><li><a href="https://mcp.exa.ai/mcp" rel="noopener nofollow">https://mcp.exa.ai/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/exa-labs/exa-mcp-server (hosted endpoint https://mcp.exa.ai/mcp)</p><ul><li><a href="https://github.com/exa-labs/exa-mcp-server" rel="noopener nofollow">https://github.com/exa-labs/exa-mcp-server</a></li><li><a href="https://mcp.exa.ai/mcp" rel="noopener nofollow">https://mcp.exa.ai/mcp</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">11</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Repo read</div><div class="bv mono">exa-labs/exa-mcp-server</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>agent_run</b></div>
+<div class="td">Start or resume an Exa Agent run; runs may take several minutes. Retain the returned run ID and resume with runId when the tool reports the run is still running. An interrupted tool call is not an explicit cancellation request.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>company_research_exa</b></div>
+<div class="td">[Deprecated: Use web_search_advanced_exa instead] Research any company to get business information, news, and insights.
+
+Best for: Learning about a company</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>deep_researcher_check</b></div>
+<div class="td">[Deprecated] Check status and get results from a deep research task.
+
+Best for: Getting the research report after calling deep_researcher_start.
+Returns: Research report when complete, or status update if still running.
+Important: Keep call</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>deep_researcher_start</b></div>
+<div class="td">[Deprecated] Start an AI research agent that searches, reads, and writes a detailed report. Takes 15 seconds to 2 minutes.
+
+Best for: Complex research questions needing deep analysis and synthesis.
+Returns: Research ID - use deep_researcher</div>
+<div class="tm">evidence: in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>deep_search_exa</b></div>
+<div class="td">[Deprecated: Use web_search_advanced_exa instead] Deep search with automatic query expansion for thorough research. Generates multiple search variations to find results from multiple angles, then synthesizes a short answer with citations.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_code_context_exa</b></div>
+<div class="td">Find code examples, documentation, and programming solutions. 
+
+Best for: Any programming question - API usage, library examples, code snippets, debugging help.
+Returns: Relevant code and documentation.
+
+Query tips: describe what you</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>linkedin_search_exa</b></div>
+<div class="td">⚠️ DEPRECATED: This tool is deprecated. Please use</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>people_search_exa</b></div>
+<div class="td">[Deprecated: Use web_search_advanced_exa instead] Find people and their professional profiles.
+
+Best for: Finding professionals, executives, or anyone with a public profile.
+Returns: Profile information and links.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>web_fetch_exa</b></div>
+<div class="td">Read a webpage&#x27;s full content as clean markdown. Use after web_search_exa when highlights are insufficient or to read any URL.
+
+Best for: Extracting full content from known URLs. Batch multiple URLs in one call.
+Returns: Clean text content</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: urls</div>
+</li>
+<li>
+<div class="tn"><b>web_search_advanced_exa</b></div>
+<div class="td">Advanced web search with full control over filters, domains, dates, and content options.
+
+Best for: When you need specific filters like date ranges, domain restrictions, or category filters.
+Not recommended for: Simple searches - use web_se</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>web_search_exa</b></div>
+<div class="td">Search the web for any topic and get clean, ready-to-use content.
+
+      Best for: Finding current information, news, facts, people, companies, or answering questions about any topic.
+      Returns: Clean text content from top search result</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -142,6 +222,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -150,6 +233,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

@@ -41,7 +41,8 @@ Multichannel (LinkedIn-centric) outbound execution + enrichment layer that can b
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -55,6 +56,87 @@ https://github.com/LaGrowthMachine/gtm-system ; https://lagrowthmachine.com/mcp-
 
 - [https://github.com/LaGrowthMachine/gtm-system](https://github.com/LaGrowthMachine/gtm-system)
 - [https://lagrowthmachine.com/mcp-server/](https://lagrowthmachine.com/mcp-server/)
+
+**What this server exposes**
+
+- **Tools named**: 34
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-08
+- **Repo read**: LaGrowthMachine/gtm-system
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Skill** Type evidence: in a README table · calling it reads
+
+- **add_campaign_step_message** Write the message for an empty campaign step evidence: in a README table · calling it writes
+
+- **audience-icp-filter** Filters a CSV you paste - you re-import the segmented buckets by hand evidence: in a README table · calling it writes
+
+- **campaign-challenger** Benchmarks against stats you paste evidence: in a README table · calling it reads
+
+- **campaign-impact-analyzer** Works on pasted campaigns and deals evidence: in a README table · calling it reads
+
+- **create_audience_from_linkedin_url** Build an audience from a LinkedIn / Sales Navigator search or a post's engagers evidence: in a README table · calling it writes
+
+- **duplicate_campaign** Copy a campaign into an editable draft, without launching it evidence: in a README table · calling it reads
+
+- **edit_campaign_message** Rewrite a campaign step's message evidence: in a README table · calling it reads
+
+- **get_audience** Details and import status of an audience evidence: in a README table · calling it writes
+
+- **get_audience_leads** Leads in an audience (name, company, title, email, LinkedIn) evidence: in a README table · calling it reads
+
+- **get_campaign_messages** The message sequence of a campaign evidence: in a README table · calling it reads
+
+- **get_campaign_stats** Acceptance, reply and conversion rates for a campaign evidence: in a README table · calling it reads
+
+- **get_campaign_steps** The steps of a campaign sequence - channel, order, whether a message is attached evidence: in a README table · calling it reads
+
+- **get_conversation_messages** The full message thread of a conversation evidence: in a README table · calling it reads
+
+- **get_conversations_to_reply** Conversations waiting on your reply evidence: in a README table · calling it reads
+
+- **get_favourite_conversations** Starred conversations evidence: in a README table · calling it reads
+
+- **get_lead_conversations** A lead's conversations across channels evidence: in a README table · calling it reads
+
+- **get_lead_logs** Activity log for a lead (sent, accepted, replied…) evidence: in a README table · calling it reads
+
+- **get_linkedin_post** Read a LinkedIn post's content and engagement from its URL evidence: in a README table · calling it writes
+
+- **get_unread_conversations** Unread conversations evidence: in a README table · calling it reads
+
+- **list_campaigns** List your campaigns and their status evidence: in a README table · calling it reads
+
+- **list_identities** Your connected LinkedIn / email identities evidence: in a README table · calling it reads
+
+- **list_members** The members of your LGM account evidence: in a README table · calling it reads
+
+- **multichannel-campaign-builder** Sequence ready to copy into your tool evidence: in a README table · calling it reads
+
+- **objection-analyzer** Builds the playbook from a CSV export or threads you paste evidence: in a README table · calling it reads
+
+- **post-to-campaign** Writes the outreach sequence from the post evidence: in a README table · calling it writes
+
+- **reply-draft-assistant** Drafts answers for a conversation you paste evidence: in a README table · calling it reads
+
+- **sales-nav-search-builder** Sales Nav URL to open and import manually evidence: in a README table · calling it writes
+
+- **search_conversations** Filter the whole inbox (campaign, channel, date, status…) evidence: in a README table · calling it reads
+
+- **send_email_message** Send an email, with thread-aware replies evidence: in a README table · calling it writes
+
+- **send_linkedin_message** Send a LinkedIn message (text or voice note) evidence: in a README table · calling it writes
+
+- **team-performance-dashboard** Needs the LGM MCP - the dashboard is built from live LGM data evidence: in a README table · calling it reads
+
+- **weekly-performance-advisor** Needs the LGM MCP - the dashboard is built from live LGM data evidence: in a README table · calling it reads
+
+- **won-deal-icp-finder** Works on a HubSpot export you paste evidence: in a README table · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

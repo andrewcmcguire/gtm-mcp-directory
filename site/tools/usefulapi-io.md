@@ -57,6 +57,63 @@ https://pipedrive.usefulapi.io/mcp ; https://.usefulapi.io/mcp, one subdomain pe
 - [https://usefulapi.io/aircall](https://usefulapi.io/aircall)
 - [https://github.com/m190/usefulapi-mcp](https://github.com/m190/usefulapi-mcp)
 
+**What this server exposes**
+
+- **Tools named**: 20
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-08
+- **Repo read**: m190/usefulapi-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: the customer's own workspace, not a fixed catalogue
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+Recorded by the harvest: a gateway that generates an MCP server per wrapped vendor API
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **Server** Category evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **pipedrive_add_note** Add a note, linked to at least one of a deal/person/organization/lead. `content` is required (HTML or plain text). Uses v1 (v2 has no notes endpoint). Pipedrive REST: POST /api/v1/notes. evidence: answered tools/list · calling it writes · required: content
+
+- **pipedrive_create_activity** Create a new activity (task/event). `subject` is required; link it to a deal/person/org and set type/date/time as needed. Pipedrive REST: POST /api/v2/activities. evidence: answered tools/list · calling it writes · required: subject
+
+- **pipedrive_create_deal** Create a new deal. `title` is required; link it to a person/org/pipeline/stage/owner as needed. Pipedrive REST: POST /api/v2/deals. evidence: answered tools/list · calling it writes · required: title
+
+- **pipedrive_create_person** Create a new person (contact). `name` is required; `email`/`phone` are convenience strings mapped to Pipedrive's structured emails/phones arrays. Pipedrive REST: POST /api/v2/persons. evidence: answered tools/list · calling it writes · required: name
+
+- **pipedrive_get_current_user** Get the authenticated user's profile (name, email, company, locale, timezone). Pipedrive REST: GET /api/v1/users/me. evidence: answered tools/list · calling it reads
+
+- **pipedrive_get_deal** Get a single deal by its id. Pipedrive REST: GET /api/v2/deals/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **pipedrive_get_organization** Get a single organization by its id. Pipedrive REST: GET /api/v2/organizations/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **pipedrive_get_person** Get a single person (contact) by its id. Pipedrive REST: GET /api/v2/persons/{id}. evidence: answered tools/list · calling it reads · required: id
+
+- **pipedrive_list_activities** List activities (tasks/events), optionally filtered by filter/owner/deal/person/org/done/updated_since. Pipedrive REST: GET /api/v2/activities. evidence: answered tools/list · calling it reads
+
+- **pipedrive_list_deals** List deals, optionally filtered by filter/owner/person/org/pipeline/stage/status and sorted. Pipedrive REST: GET /api/v2/deals. evidence: answered tools/list · calling it reads
+
+- **pipedrive_list_notes** List notes, optionally filtered by user/deal/person/org/lead. Uses v1 (v2 has no notes endpoint) with start+limit pagination. Pipedrive REST: GET /api/v1/notes. evidence: answered tools/list · calling it reads
+
+- **pipedrive_list_organizations** List organizations, optionally filtered by filter/owner and sorted. Pipedrive REST: GET /api/v2/organizations. evidence: answered tools/list · calling it reads
+
+- **pipedrive_list_persons** List persons (contacts), optionally filtered by filter/owner/org and sorted. Pipedrive REST: GET /api/v2/persons. evidence: answered tools/list · calling it reads
+
+- **pipedrive_list_pipelines** List all pipelines. Pipedrive REST: GET /api/v2/pipelines. evidence: answered tools/list · calling it reads
+
+- **pipedrive_list_stages** List stages, optionally restricted to a single pipeline. Pipedrive REST: GET /api/v2/stages. evidence: answered tools/list · calling it reads
+
+- **pipedrive_search_deals** Search deals by term across selected fields. Pipedrive REST: GET /api/v2/deals/search. evidence: answered tools/list · calling it reads · required: term
+
+- **pipedrive_search_items** Global search across multiple item types (deals, persons, organizations, products, leads, files, etc.). Pipedrive REST: GET /api/v2/itemSearch. evidence: answered tools/list · calling it reads · required: term
+
+- **pipedrive_search_organizations** Search organizations by term across selected fields. Pipedrive REST: GET /api/v2/organizations/search. evidence: answered tools/list · calling it reads · required: term
+
+- **pipedrive_search_persons** Search persons (contacts) by term across selected fields. Pipedrive REST: GET /api/v2/persons/search. evidence: answered tools/list · calling it reads · required: term
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Free to start

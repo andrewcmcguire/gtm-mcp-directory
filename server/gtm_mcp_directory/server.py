@@ -1489,9 +1489,11 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--transport", choices=("stdio", "http"), default=os.environ.get("GTM_DIRECTORY_TRANSPORT", "stdio"))
     parser.add_argument("--host", default=os.environ.get("HOST", "127.0.0.1"))
     parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")))
+    parser.add_argument("--path", default=os.environ.get("GTM_DIRECTORY_HTTP_PATH", "/mcp"),
+                        help="URL path the HTTP transport answers on. The hosted endpoint sits behind a CDN that forwards the full path, so it runs as /gtm-directory/api/mcp.")
     args = parser.parse_args(argv)
     if args.transport == "http":
-        mcp.run(transport="http", host=args.host, port=args.port, show_banner=False)
+        mcp.run(transport="http", host=args.host, port=args.port, path=args.path, show_banner=False)
     else:
         mcp.run(transport="stdio", show_banner=False)
 

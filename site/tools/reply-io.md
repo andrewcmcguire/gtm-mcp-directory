@@ -56,6 +56,161 @@ https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp
 - [https://reply.io/mcp/](https://reply.io/mcp/)
 - [https://github.com/reply-team/reply-mcp](https://github.com/reply-team/reply-mcp)
 
+**What this server exposes**
+
+- **Tools named**: 71
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Repo read**: reply-team/reply-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **reply_add_contact_to_sequence** Enroll up to 100 existing contacts into a sequence evidence: in the vendor docs · calling it writes
+
+- **reply_add_knowledge_base_source** Add a web-page URL source to a knowledge base evidence: in the vendor docs · calling it writes
+
+- **reply_approve_message** Approve one draft and send it immediately evidence: in the vendor docs · calling it writes
+
+- **reply_assign_email_account_to_sequence** Link a mailbox to a sequence evidence: in the vendor docs · calling it reads
+
+- **reply_assign_linkedin_account_to_sequence** Link a LinkedIn account to a sequence evidence: in the vendor docs · calling it reads
+
+- **reply_assign_schedule_to_sequence** Set the sending schedule (business-hours window) evidence: in the vendor docs · calling it writes
+
+- **reply_attach_knowledge_base_to_sequence** Attach a knowledge base to an AI SDR sequence evidence: in the vendor docs · calling it reads
+
+- **reply_attach_offer_to_sequence** Attach an offer to an AI SDR sequence evidence: in the vendor docs · calling it reads
+
+- **reply_attach_playbook_to_sequence** Attach a playbook to an AI SDR sequence evidence: in the vendor docs · calling it reads
+
+- **reply_blacklist_contact** Blacklist a contact's email (or whole domain) from outreach evidence: in the vendor docs · calling it reads
+
+- **reply_bulk_approve_messages** Approve and send up to 100 drafts (atomic batch) evidence: in the vendor docs · calling it writes
+
+- **reply_change_contact_owner** Reassign up to 100 contacts to another user evidence: in the vendor docs · calling it reads
+
+- **reply_change_inbox_category** Assign or clear a thread's workspace category evidence: in the vendor docs · calling it writes
+
+- **reply_change_status_in_sequence** Set one contact's per-sequence status evidence: in the vendor docs · calling it writes
+
+- **reply_compare_sequence_performance** Side-by-side metrics for up to 25 sequences evidence: in the vendor docs · calling it reads
+
+- **reply_complete_task** Mark a task completed (with optional call resolution) evidence: in the vendor docs · calling it reads
+
+- **reply_create_contact** Create a contact (needs a name plus email or LinkedIn URL) evidence: in the vendor docs · calling it writes
+
+- **reply_create_knowledge_base** Create a knowledge base evidence: in the vendor docs · calling it writes
+
+- **reply_create_offer** Create an offer Jason can pitch evidence: in the vendor docs · calling it writes
+
+- **reply_create_playbook** Create a playbook (Team or Organization visibility) evidence: in the vendor docs · calling it writes
+
+- **reply_create_reengagement_card** Add a reengagement card (with send-after days) evidence: in the vendor docs · calling it writes
+
+- **reply_create_reply_handler** Add a reply handler (question type to instructions) evidence: in the vendor docs · calling it writes
+
+- **reply_create_task** Create a standalone task (ToDo / Call / Meeting / LinkedIn and others) evidence: in the vendor docs · calling it writes
+
+- **reply_delete_knowledge_base_source** Remove a URL source from a knowledge base evidence: in the vendor docs · calling it writes
+
+- **reply_delete_reengagement_card** Remove a reengagement card evidence: in the vendor docs · calling it writes
+
+- **reply_delete_reply_handler** Remove a reply handler evidence: in the vendor docs · calling it writes
+
+- **reply_diagnose** Explain why a sequence isn't sending and how to fix it evidence: in a README table · calling it reads
+
+- **reply_duplicate_playbook** Duplicate a playbook into a new one evidence: in the vendor docs · calling it reads
+
+- **reply_filter_contacts** List contacts by list/sequence membership and/or free-text search evidence: in the vendor docs · calling it reads
+
+- **reply_generate_offer_from_website** Draft offer fields from a company website (does not save) evidence: in the vendor docs · calling it reads
+
+- **reply_get_app_map** Catalog of app areas with in-app navigation steps and links evidence: in the vendor docs · calling it reads
+
+- **reply_get_contact_activity** Activity history for one contact (sends, opens, replies, calls) evidence: in the vendor docs · calling it reads
+
+- **reply_get_inbox_emails** List inbox threads (email and LinkedIn) with short previews evidence: in the vendor docs · calling it reads
+
+- **reply_get_knowledge_base** Full detail of one knowledge base (instructions, URL sources) evidence: in the vendor docs · calling it reads
+
+- **reply_get_knowledge_base_article** Read a full Help Center article by slug evidence: in the vendor docs · calling it reads
+
+- **reply_get_offer** Full offer content (ICP, value props, proof points, CTAs) evidence: in the vendor docs · calling it reads
+
+- **reply_get_playbook** Full playbook, including the instruction body evidence: in the vendor docs · calling it reads
+
+- **reply_get_reengagement_card** Full detail of one reengagement card evidence: in the vendor docs · calling it reads
+
+- **reply_get_reply_handler** Full detail of one reply handler evidence: in the vendor docs · calling it reads
+
+- **reply_get_sequence_stats** Email and LinkedIn performance metrics for one sequence evidence: in the vendor docs · calling it reads
+
+- **reply_get_sequence_step_variants** Read a message step's A/B content variants (subject, body) evidence: in the vendor docs · calling it reads
+
+- **reply_get_sequence_steps** List a sequence's ordered steps (type, delay, position, variant count) evidence: in the vendor docs · calling it reads
+
+- **reply_list_email_accounts** List mailboxes with connection status, daily limits, tags evidence: in the vendor docs · calling it reads
+
+- **reply_list_knowledge_bases** List Jason knowledge bases evidence: in the vendor docs · calling it reads
+
+- **reply_list_linkedin_accounts** List connected LinkedIn accounts with health and tier evidence: in the vendor docs · calling it reads
+
+- **reply_list_my_tasks** List your tasks, filterable by type / status / due window / contact evidence: in the vendor docs · calling it reads
+
+- **reply_list_offers** List Jason offers (id plus name) evidence: in the vendor docs · calling it reads
+
+- **reply_list_pending_approvals** The queue of Jason drafts awaiting approval evidence: in the vendor docs · calling it reads
+
+- **reply_list_playbooks** List Jason playbooks (id, name, visibility) evidence: in the vendor docs · calling it reads
+
+- **reply_list_reengagement_cards** List reengagement (win-back) cards in a knowledge base evidence: in the vendor docs · calling it reads
+
+- **reply_list_reply_handlers** List reply handlers in a knowledge base evidence: in the vendor docs · calling it reads
+
+- **reply_list_schedules** List sending schedules (timezone, default flag, slot counts) evidence: in the vendor docs · calling it reads
+
+- **reply_mark_contacts_as_replied** Mark up to 100 contacts as replied (or clear the flag) evidence: in the vendor docs · calling it reads
+
+- **reply_pause_sequence** Pause a sequence; halt in-flight scheduled steps evidence: in the vendor docs · calling it reads
+
+- **reply_regenerate_message** Ask Jason to rewrite a pending draft (optionally with feedback) evidence: in the vendor docs · calling it reads
+
+- **reply_reject_message** Reject a draft and remove the contact from the sequence evidence: in the vendor docs · calling it writes
+
+- **reply_report_unsupported_request** Log a capability Reply.io does not have, for the product team evidence: in the vendor docs · calling it reads
+
+- **reply_search_contacts** Look up contacts by exact email or LinkedIn URL evidence: in the vendor docs · calling it reads
+
+- **reply_search_knowledge_base** Search the Reply.io Help Center for how-to articles evidence: in the vendor docs · calling it reads
+
+- **reply_search_lists** Resolve a contact list name to its ListId evidence: in the vendor docs · calling it reads
+
+- **reply_search_sequences** Find sequences by name / status / archive flag; returns per-sequence summary fields evidence: in the vendor docs · calling it writes
+
+- **reply_search_team_members** Resolve a teammate name/email to their UserId evidence: in the vendor docs · calling it reads
+
+- **reply_send_inbox_reply** Send a reply on an existing thread (body only in v1) evidence: in the vendor docs · calling it writes
+
+- **reply_set_sequence_reply_mode** Set Jason's Review / Autonomous reply mode evidence: in the vendor docs · calling it writes
+
+- **reply_start_sequence** Start or resume a sequence so it begins sending evidence: in the vendor docs · calling it writes
+
+- **reply_update_contact** Patch fields on an existing contact evidence: in the vendor docs · calling it reads
+
+- **reply_update_knowledge_base** Rename or edit a knowledge base's instructions evidence: in the vendor docs · calling it reads
+
+- **reply_update_offer** Patch an offer evidence: in the vendor docs · calling it reads
+
+- **reply_update_playbook** Patch a playbook evidence: in the vendor docs · calling it reads
+
+- **reply_update_reengagement_card** Patch a reengagement card evidence: in the vendor docs · calling it reads
+
+- **reply_update_reply_handler** Patch a reply handler evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+
 **Access gate**
 
 - **Gate bucket**: Paid, self-serve

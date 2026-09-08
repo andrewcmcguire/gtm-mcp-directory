@@ -41,7 +41,8 @@ Call-recording / conversation-intelligence system of record feeding deal-risk an
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://help.gong.io/docs/about-gong-mcp](https://help.gong.io/docs/about-gong-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://help.gong.io/docs/about-gong-mcp](https://help.gong.io/docs/about-gong-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -56,6 +57,23 @@ https://help.gong.io/docs/about-gong-mcp ; announcement: https://www.gong.io/pre
 - [https://help.gong.io/docs/about-gong-mcp](https://help.gong.io/docs/about-gong-mcp)
 - [https://www.gong.io/press/gong-introduces-model-context-protocol-mcp-support-to-unify-enterprise-ai-agents-from-hubspot-microsoft-salesforce-and-others](https://www.gong.io/press/gong-introduces-model-context-protocol-mcp-support-to-unify-enterprise-ai-agents-from-hubspot-microsoft-salesforce-and-others)
 - [https://github.com/cedricziel/gong-mcp](https://github.com/cedricziel/gong-mcp)
+
+**What this server exposes**
+
+- **Tools named**: 1
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: cedricziel/gong-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **search_calls** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

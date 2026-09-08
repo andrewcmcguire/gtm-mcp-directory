@@ -41,7 +41,8 @@ General-purpose social/web mention monitoring with a social-management layer bol
 - **Parsed URLs**: 1 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. The status was established by hand on 2026-09-02. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -54,6 +55,47 @@ mcp_url, verbatim from the file:
 https://github.com/MaelitoP/mention-mcp-server (third-party; not published by Mention)
 
 - [https://github.com/MaelitoP/mention-mcp-server](https://github.com/MaelitoP/mention-mcp-server)
+
+**What this server exposes**
+
+- **Tools named**: 13
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: MaelitoP/mention-mcp-server
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **build-boolean-query** Generate a valid Boolean query string using Boolean operators, quoted terms, proximity, and field selectors evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **create_advanced_alert** Create a new advanced monitoring alert with boolean query syntax. Advanced alerts use complex query strings with boolean operators like AND, OR, NOT. evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **create_basic_alert** Create a new basic monitoring alert. Basic alerts use simple keyword matching with included_keywords, required_keywords, and excluded_keywords arrays. evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **fetch_alert_stats** Retrieve comprehensive statistics for one or more alerts including mentions per interval, tones, influencers, geographical data, and reach metrics. Supports flexible date ranges, filtering, and aggregation options. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **fetch_mentions** Retrieve mentions associated with a specific alert. Supports various filters like source, folder, tone, countries, languages, and advanced search queries. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_account_info** Get current account information including subscription plan, account ID, and capabilities. This tool should be called first to understand account limitations and determine which alert creation tools are available. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_alert** Get detailed information about a specific alert by its ID. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_app_data** Get application configuration data including available languages, countries, sources, colors, and other metadata needed for creating alerts. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **instructions** What the Boolean query should match, e.g., evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_alerts** List all monitoring alerts for the current account with pagination support. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **pause_alert** Temporarily pause monitoring for a specific alert. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **unpause_alert** Resume monitoring for a previously paused alert. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **update_alert** Update an existing alert with new criteria or settings. evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

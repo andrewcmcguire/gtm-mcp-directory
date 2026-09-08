@@ -116,7 +116,176 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.sumble.com/ ; https://docs.sumble.com/api/mcp (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. Product overview at https://sumble.com/mcp)</p><ul><li><a href="https://mcp.sumble.com/" rel="noopener nofollow">https://mcp.sumble.com/</a></li><li><a href="https://docs.sumble.com/api/mcp" rel="noopener nofollow">https://docs.sumble.com/api/mcp</a></li><li><a href="https://sumble.com/mcp" rel="noopener nofollow">https://sumble.com/mcp</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.sumble.com/ ; https://docs.sumble.com/api/mcp (re-verified 200 on 2026-08-28; corrected that day off a dead receipt, see notes. Product overview at https://sumble.com/mcp)</p><ul><li><a href="https://mcp.sumble.com/" rel="noopener nofollow">https://mcp.sumble.com/</a></li><li><a href="https://docs.sumble.com/api/mcp" rel="noopener nofollow">https://docs.sumble.com/api/mcp</a></li><li><a href="https://sumble.com/mcp" rel="noopener nofollow">https://sumble.com/mcp</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">34</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>AddContactsToList</b></div>
+<div class="td">Adds people to an existing contact list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: list id, person ids</div>
+</li>
+<li>
+<div class="tn"><b>AddOrganizationsToList</b></div>
+<div class="td">Adds organizations to an existing list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: list id or slug, organization ids</div>
+</li>
+<li>
+<div class="tn"><b>CreateContactList</b></div>
+<div class="td">Creates a new empty contact list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>CreateOrganizationList</b></div>
+<div class="td">Creates a new empty organization list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>FindMatchAndEnrichJobs</b></div>
+<div class="td">Find, look up, and enrich job postings in one call</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>FindMatchAndEnrichOrganizations</b></div>
+<div class="td">Find, match, and enrich organizations in one call, search by advanced query or resolve a list of names/URLs/IDs</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>FindMatchAndEnrichPeople</b></div>
+<div class="td">Find, match, and enrich people in one call</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>GetAccountInformation</b></div>
+<div class="td">Checks credit balance and plan info</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>GetContactList</b></div>
+<div class="td">Retrieves one contact list and its people</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: list id</div>
+</li>
+<li>
+<div class="tn"><b>GetDocumentationPage</b></div>
+<div class="td">Reads a documentation page</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: path</div>
+</li>
+<li>
+<div class="tn"><b>GetIntelligenceBrief</b></div>
+<div class="td">LLM-generated sales intelligence brief synthesized from structured data</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: organization id</div>
+</li>
+<li>
+<div class="tn"><b>GetMyCompanyProfile</b></div>
+<div class="td">Retrieves company profile and intelligence data</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>GetOrganizationList</b></div>
+<div class="td">Retrieves one organization list and its organizations</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: list id</div>
+</li>
+<li>
+<div class="tn"><b>GetOrganizationSignals</b></div>
+<div class="td">Get recent sales signals (notable changes) for one organization by ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: organization id</div>
+</li>
+<li>
+<div class="tn"><b>GetOrganizationTechStack</b></div>
+<div class="td">Get an organization&#x27;s CONFIRMED-USED technology stack, grouped by business function</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: organization id</div>
+</li>
+<li>
+<div class="tn"><b>ListContactLists</b></div>
+<div class="td">Lists saved contact lists with metadata</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ListDocumentation</b></div>
+<div class="td">Lists all documentation pages</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ListOrganizationLists</b></div>
+<div class="td">Lists saved organization lists with metadata</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ListSignalConfigs</b></div>
+<div class="td">Lists active standing rules for signal delivery</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ListTables</b></div>
+<div class="td">Lists all tables and columns in the database</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>LookupJobTitles</b></div>
+<div class="td">Resolves job titles to canonical job function and level</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: job titles</div>
+</li>
+<li>
+<div class="tn"><b>LookupProjects</b></div>
+<div class="td">Resolves project names or slugs to canonical data</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: projects</div>
+</li>
+<li>
+<div class="tn"><b>LookupTechnologies</b></div>
+<div class="td">Resolves technology names or slugs to canonical data</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: technologies</div>
+</li>
+<li>
+<div class="tn"><b>LookupTechnologyCategories</b></div>
+<div class="td">Resolves category slugs or names to canonical data</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: categories</div>
+</li>
+<li>
+<div class="tn"><b>RenameOrganizationList</b></div>
+<div class="td">Renames an existing organization list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ReportDataQualityIssue</b></div>
+<div class="td">Reports data quality or coverage issues</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>RunSqlQuery</b></div>
+<div class="td">Runs read-only SQL against DuckDB</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>SearchPrioritySignals</b></div>
+<div class="td">Searches Priority Signals digest items</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>SearchSignals</b></div>
+<div class="td">Searches Sumble Signals by IDs, organizations, people, technologies</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>SearchTechnologies</b></div>
+<div class="td">Looks up technology names and slugs</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>SetOrganizationListDeleted</b></div>
+<div class="td">Soft-deletes or restores an organization list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>SetOrganizationListSignals</b></div>
+<div class="td">Includes or excludes a list from Signals delivery</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>SubmitSupportRequest</b></div>
+<div class="td">Submits general support requests</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>UpdatePrioritySignalRelevance</b></div>
+<div class="td">Marks a priority signal relevant or not</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads &middot; required: signal id, is_relevant</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Paid, self-serve</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, by paying, no sales call</div></div>
 </div>
@@ -142,6 +311,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -150,6 +322,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>

@@ -41,7 +41,8 @@ Account research / call-prep layer - LLM-driven account intelligence for reps pr
 - **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -56,6 +57,85 @@ https://mcp.sumble.com/ ; https://docs.sumble.com/api/mcp (re-verified 200 on 20
 - [https://mcp.sumble.com/](https://mcp.sumble.com/)
 - [https://docs.sumble.com/api/mcp](https://docs.sumble.com/api/mcp)
 - [https://sumble.com/mcp](https://sumble.com/mcp)
+
+**What this server exposes**
+
+- **Tools named**: 34
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **AddContactsToList** Adds people to an existing contact list evidence: in the vendor docs · calling it reads · required: list id, person ids
+
+- **AddOrganizationsToList** Adds organizations to an existing list evidence: in the vendor docs · calling it reads · required: list id or slug, organization ids
+
+- **CreateContactList** Creates a new empty contact list evidence: in the vendor docs · calling it reads
+
+- **CreateOrganizationList** Creates a new empty organization list evidence: in the vendor docs · calling it reads
+
+- **FindMatchAndEnrichJobs** Find, look up, and enrich job postings in one call evidence: in the vendor docs · calling it reads
+
+- **FindMatchAndEnrichOrganizations** Find, match, and enrich organizations in one call, search by advanced query or resolve a list of names/URLs/IDs evidence: in the vendor docs · calling it reads
+
+- **FindMatchAndEnrichPeople** Find, match, and enrich people in one call evidence: in the vendor docs · calling it reads
+
+- **GetAccountInformation** Checks credit balance and plan info evidence: in the vendor docs · calling it reads
+
+- **GetContactList** Retrieves one contact list and its people evidence: in the vendor docs · calling it reads · required: list id
+
+- **GetDocumentationPage** Reads a documentation page evidence: in the vendor docs · calling it reads · required: path
+
+- **GetIntelligenceBrief** LLM-generated sales intelligence brief synthesized from structured data evidence: in the vendor docs · calling it reads · required: organization id
+
+- **GetMyCompanyProfile** Retrieves company profile and intelligence data evidence: in the vendor docs · calling it reads
+
+- **GetOrganizationList** Retrieves one organization list and its organizations evidence: in the vendor docs · calling it reads · required: list id
+
+- **GetOrganizationSignals** Get recent sales signals (notable changes) for one organization by ID evidence: in the vendor docs · calling it reads · required: organization id
+
+- **GetOrganizationTechStack** Get an organization's CONFIRMED-USED technology stack, grouped by business function evidence: in the vendor docs · calling it reads · required: organization id
+
+- **ListContactLists** Lists saved contact lists with metadata evidence: in the vendor docs · calling it reads
+
+- **ListDocumentation** Lists all documentation pages evidence: in the vendor docs · calling it reads
+
+- **ListOrganizationLists** Lists saved organization lists with metadata evidence: in the vendor docs · calling it reads
+
+- **ListSignalConfigs** Lists active standing rules for signal delivery evidence: in the vendor docs · calling it reads
+
+- **ListTables** Lists all tables and columns in the database evidence: in the vendor docs · calling it reads
+
+- **LookupJobTitles** Resolves job titles to canonical job function and level evidence: in the vendor docs · calling it reads · required: job titles
+
+- **LookupProjects** Resolves project names or slugs to canonical data evidence: in the vendor docs · calling it reads · required: projects
+
+- **LookupTechnologies** Resolves technology names or slugs to canonical data evidence: in the vendor docs · calling it reads · required: technologies
+
+- **LookupTechnologyCategories** Resolves category slugs or names to canonical data evidence: in the vendor docs · calling it reads · required: categories
+
+- **RenameOrganizationList** Renames an existing organization list evidence: in the vendor docs · calling it reads
+
+- **ReportDataQualityIssue** Reports data quality or coverage issues evidence: in the vendor docs · calling it reads
+
+- **RunSqlQuery** Runs read-only SQL against DuckDB evidence: in the vendor docs · calling it reads · required: query
+
+- **SearchPrioritySignals** Searches Priority Signals digest items evidence: in the vendor docs · calling it reads
+
+- **SearchSignals** Searches Sumble Signals by IDs, organizations, people, technologies evidence: in the vendor docs · calling it reads
+
+- **SearchTechnologies** Looks up technology names and slugs evidence: in the vendor docs · calling it reads · required: query
+
+- **SetOrganizationListDeleted** Soft-deletes or restores an organization list evidence: in the vendor docs · calling it reads
+
+- **SetOrganizationListSignals** Includes or excludes a list from Signals delivery evidence: in the vendor docs · calling it reads
+
+- **SubmitSupportRequest** Submits general support requests evidence: in the vendor docs · calling it reads
+
+- **UpdatePrioritySignalRelevance** Marks a priority signal relevant or not evidence: in the vendor docs · calling it reads · required: signal id, is_relevant
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

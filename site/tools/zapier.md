@@ -41,7 +41,8 @@ General-purpose integration/automation backbone connecting CRM, marketing, and s
 - **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://zapier.com/mcp](https://zapier.com/mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://zapier.com/mcp](https://zapier.com/mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -57,6 +58,16 @@ https://mcp.zapier.com/api/v1/connect ; https://zapier.com/mcp (connection endpo
 - [https://zapier.com/mcp](https://zapier.com/mcp)
 - [https://mcp.zapier.com](https://mcp.zapier.com)
 - [https://github.com/zapier/zapier-mcp](https://github.com/zapier/zapier-mcp)
+
+**What this server exposes**
+
+What this server exposes is the customer's own workspace, not a fixed catalogue the vendor publishes. No tool list is the correct answer here rather than a gap, and the harvest recorded it as one.
+
+Recorded by the harvest: every tool is one of the customer's own connected Zaps
+
+The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
 
 **Access gate**
 

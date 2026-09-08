@@ -41,7 +41,8 @@ Cheap pay-per-result waterfall endpoint for email and phone discovery, dropped i
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: repo or package: install and run locally
-- **Docs URL[https://github.com/EnrowAPI/enrow-mcp](https://github.com/EnrowAPI/enrow-mcp)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://github.com/EnrowAPI/enrow-mcp](https://github.com/EnrowAPI/enrow-mcp)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.
 
@@ -55,6 +56,45 @@ https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.puls
 
 - [https://github.com/EnrowAPI/enrow-mcp](https://github.com/EnrowAPI/enrow-mcp)
 - [https://www.pulsemcp.com/servers?q=enrow](https://www.pulsemcp.com/servers?q=enrow)
+
+**What this server exposes**
+
+- **Tools named**: 13
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-08
+- **Repo read**: EnrowAPI/enrow-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **find_email** Find a professional email address from a name and a company domain or name. At least one of company_domain or company_name is required. Asynchronous: returns a search id, then poll get_email_result. evidence: in the server source · calling it reads
+
+- **find_emails_bulk** Find multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_emails_bulk_result. evidence: in the server source · calling it reads
+
+- **find_phone** Find a mobile phone number from a LinkedIn URL (recommended) or first name + last name + company. Asynchronous: returns a search id, then poll get_phone_result. evidence: in the server source · calling it reads
+
+- **find_phones_bulk** Find multiple phone numbers in bulk (up to 3,000 per batch). Asynchronous: returns a batch id, then poll get_phones_bulk_result. evidence: in the server source · calling it reads
+
+- **get_account_info** Get your Enrow account info (credit balance and registered webhooks) evidence: in the server source · calling it reads
+
+- **get_email_result** Retrieve the result of a previously launched email search evidence: in the server source · calling it reads
+
+- **get_emails_bulk_result** Retrieve results of a bulk email search evidence: in the server source · calling it reads
+
+- **get_phone_result** Retrieve the result of a previously launched phone search evidence: in the server source · calling it reads
+
+- **get_phones_bulk_result** Retrieve results of a bulk phone search evidence: in the server source · calling it reads
+
+- **get_verification_result** Retrieve the result of a previously launched email verification evidence: in the server source · calling it reads
+
+- **get_verifications_bulk_result** Retrieve results of a bulk email verification evidence: in the server source · calling it reads
+
+- **verify_email** Verify if an email address is deliverable. Works on catch-all domains. Asynchronous: returns a verification id, then poll get_verification_result. evidence: in the server source · calling it reads
+
+- **verify_emails_bulk** Verify multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_verifications_bulk_result. evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

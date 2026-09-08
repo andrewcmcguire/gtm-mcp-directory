@@ -41,7 +41,8 @@ Enterprise capacity/territory/quota-planning layer, notable for one of the more 
 - **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
-- **Docs URL[https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server)Probed**: 2026-09-04, HTTP 200
+- **Docs URL**: [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server)
+- **Probed**: 2026-09-04, HTTP 200
 
 The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-24. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.
 
@@ -55,6 +56,29 @@ https://www.pigment.com/ai/mcp-server (developed in partnership with Anthropic);
 
 - [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server)
 - [https://kb.pigment.com/docs/mcp-server-1](https://kb.pigment.com/docs/mcp-server-1)
+
+**What this server exposes**
+
+- **Tools named**: 6
+- **Strongest evidence**: in the vendor docs
+- **Harvested**: 2026-09-08
+- **Catalogue shape**: a fixed catalogue the vendor publishes
+
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **get_ai_metrics** List AI-enabled Metrics in an Application. Returns Metric IDs and names. evidence: in the vendor docs · calling it reads · required: Application ID
+
+- **get_applications** List all Pigment applications the user can access, with their ID, name, and description. evidence: in the vendor docs · calling it reads
+
+- **get_metric_description** Get the structure of a Metric: name, data type, description, Dimensions (with sample Items), and Scenarios. evidence: in the vendor docs · calling it reads · required: Metric ID
+
+- **get_organization_info** Get information about the current organization (Workspace): ID and name. evidence: in the vendor docs · calling it reads
+
+- **query_data** Retrieve data from a single Metric using a natural-language query. One Metric per call. evidence: in the vendor docs · calling it reads · required: Metric ID
+
+- **search** Scan and understand the entire Application logic. Advanced mode only; exposes Block metadata. evidence: in the vendor docs · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
 
 **Access gate**
 

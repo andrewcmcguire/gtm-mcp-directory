@@ -116,7 +116,211 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.attio.com/mcp ; https://docs.attio.com/mcp/overview (endpoint: https://mcp.attio.com/mcp)</p><ul><li><a href="https://mcp.attio.com/mcp" rel="noopener nofollow">https://mcp.attio.com/mcp</a></li><li><a href="https://docs.attio.com/mcp/overview" rel="noopener nofollow">https://docs.attio.com/mcp/overview</a></li></ul></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.attio.com/mcp ; https://docs.attio.com/mcp/overview (endpoint: https://mcp.attio.com/mcp)</p><ul><li><a href="https://mcp.attio.com/mcp" rel="noopener nofollow">https://mcp.attio.com/mcp</a></li><li><a href="https://docs.attio.com/mcp/overview" rel="noopener nofollow">https://docs.attio.com/mcp/overview</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">41</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the vendor docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-08</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>add-record-to-list</b></div>
+<div class="td">Add a record to a list as a new list entry</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create-comment</b></div>
+<div class="td">Create a new comment on a record, list entry, or as a reply to an existing comment thread</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create-list</b></div>
+<div class="td">Create a new list to group and track records of a single object type</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create-note</b></div>
+<div class="td">Create a new note attached to a record</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create-record</b></div>
+<div class="td">Create a new record (person, company, deal, or custom object)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>create-task</b></div>
+<div class="td">Create a new task with optional deadline, assignee, and linked record</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>delete-comment</b></div>
+<div class="td">Delete a comment that you created</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get-call-recording</b></div>
+<div class="td">Retrieve full details and transcript of a specific call recording</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get-email-content</b></div>
+<div class="td">Retrieve the full body of a specific email</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get-note-body</b></div>
+<div class="td">Retrieve the full content of a specific note</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get-records-by-ids</b></div>
+<div class="td">Retrieve full details for specific records by their IDs</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-attribute-definitions</b></div>
+<div class="td">List all attributes available on an object type, including their types and valid options</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-comment-replies</b></div>
+<div class="td">Fetch additional replies for a top-level comment thread</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-comments</b></div>
+<div class="td">List comments on a record or list entry, with paginated top-level comments and inline replies</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-list-attribute-definitions</b></div>
+<div class="td">List the available entry attributes for a given list</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-lists</b></div>
+<div class="td">List all lists in the workspace, with optional filtering by name or slug</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-objects</b></div>
+<div class="td">List all objects in the workspace (e.g. companies, people, deals), with optional fuzzy search by name or API slug</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-records</b></div>
+<div class="td">List records in a given object with optional filtering and sorting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-records-in-list</b></div>
+<div class="td">List entries in a given list with optional filtering and sorting</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-tasks</b></div>
+<div class="td">List tasks in the workspace with optional filters</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-workspace-members</b></div>
+<div class="td">List members in the workspace with their details and team memberships</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>list-workspace-teams</b></div>
+<div class="td">List all teams in the workspace</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>merge-records</b></div>
+<div class="td">Merge two records of the same object into one new record</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>query-particle-sql</b></div>
+<div class="td">Execute a read-only SQL query against your workspace data</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>run-basic-report</b></div>
+<div class="td">Run aggregate reports on records or list entries</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search-call-recordings-by-metadata</b></div>
+<div class="td">Search call recordings by participants, related records, title, or time range</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search-emails-by-metadata</b></div>
+<div class="td">Search emails by participants, domain, or time range</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search-meetings</b></div>
+<div class="td">Search past and upcoming meetings by participants, related records, or time range</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search-notes-by-metadata</b></div>
+<div class="td">Search notes by parent record, author, meeting, or creation time</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search-records</b></div>
+<div class="td">Full-text search for records (people, companies, deals, etc.) by name, email, domain, or other indexed attributes</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>semantic-search-call-recordings</b></div>
+<div class="td">Find call recordings by topic using AI-powered semantic search</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>semantic-search-emails</b></div>
+<div class="td">Find emails by topic using AI-powered semantic search</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>semantic-search-notes</b></div>
+<div class="td">Find notes by topic using AI-powered semantic search</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>update-list</b></div>
+<div class="td">Update a list&#x27;s name, API slug, or permissions</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update-list-entry-by-id</b></div>
+<div class="td">Update an existing list entry when you already know the entry_id</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update-list-entry-by-record-id</b></div>
+<div class="td">Find and update a list entry using its parent record ID</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update-note</b></div>
+<div class="td">Append or prepend content to a note, or update its title</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update-record</b></div>
+<div class="td">Update an existing record by record_id</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>update-task</b></div>
+<div class="td">Update a task&#x27;s deadline, status, assignee, or linked record</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>upsert-record</b></div>
+<div class="td">Create or update a record using a matching attribute (e.g., email or domain)</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>whoami</b></div>
+<div class="td">Get information about the current user&#x27;s identity and workspace membership</div>
+<div class="tm">evidence: in the vendor docs &middot; calling it reads</div>
+</li></ul><p class="note">122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -142,6 +346,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
+    <p>8,503 tool names harvested on 2026-09-08 from
+    122 of those 225 servers.
+    103 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -150,6 +357,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <div class="ft">Views</div>
     <ul>
       <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
       <li><a href="../vendors/">Every vendor, one page each</a></li>
       <li><a href="../categories/">By category</a></li>
       <li><a href="../mcp/">By MCP status</a></li>
