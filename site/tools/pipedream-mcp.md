@@ -60,7 +60,7 @@ https://mcp.pipedream.com
 
 - **Tools named**: 1
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -69,11 +69,11 @@ Recorded by the harvest: the tools are the customer's own connected accounts and
 
 - **CONFIGURE_COMPONENT** Retrieve configuration values for dynamic properties of a component. evidence: in the vendor docs · calling it reads · required: key, propName · read off pipedream, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -150,6 +150,6 @@ Pipedream is custodial like Composio - it stores end-user credentials server-sid
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

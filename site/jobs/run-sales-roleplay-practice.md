@@ -1,6 +1,6 @@
 # Run a sales roleplay practice: 11 GTM tools, 3 with an official MCP server
 
-> Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring. 3 of the 11 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-09-08 from the directory data.
+> Hold a simulated buyer conversation with a rep and grade it. A distinct product class, not a feature of call scoring. 3 of the 11 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-09-09 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Hold a simulated buyer conversation with a rep and grade it. A distinct product 
 - **no MCP found**: 7
 - **solo reachable**: 1
 
-3 of the 11 entries tagged with this job carry an MCP server of some kind, 3 of them official. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-08 from directory.json.
+3 of the 11 entries tagged with this job carry an MCP server of some kind, 3 of them official. 10 of the 11 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-09 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -63,7 +63,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Luster](../tools/luster.md) luster.ai "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call signal analysis to flag rep skill gaps before they show up in real deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI (community)
+- [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Second Nature](../tools/second-nature.md) secondnature.ai AI roleplay platform for enterprise sales teams that generates AI buyer personas from a text description or uploaded content and runs 1:1, group, or chat-based practice conversations, then scores and gives... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 

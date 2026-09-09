@@ -60,7 +60,7 @@ https://github.com/themobilefirstco/aircall-mcp-server (73 tools, stdio; a remot
 
 - **Tools named**: 81
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: themobilefirstco/aircall-mcp-server
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -231,7 +231,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **aircall_update_webhook** Update webhook evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -240,7 +240,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: aircall
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -248,25 +248,13 @@ Install, as the source shows it:
 npm install -g aircall-cli
 ```
 
-quoted from [https://www.npmjs.com/package/aircall-cli](https://www.npmjs.com/package/aircall-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/aircall-cli](https://www.npmjs.com/package/aircall-cli) on 2026-09-09, via npm, a third party source
 
-Login or key hint seen on the page:
-
-aircall auth
-
-Subcommands seen with the binary:
-
-auth, calls, ping, users
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: aircall-cli 0.2.0, third party](https://www.npmjs.com/package/aircall-cli)
 
-Where it was documented:
-
-- [https://github.com/bryanryu1/Aircall-CLI](https://github.com/bryanryu1/Aircall-CLI) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -347,6 +335,6 @@ The GitHub README states "This MCP server is NOT built, maintained, or endorsed 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

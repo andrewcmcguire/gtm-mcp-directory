@@ -62,7 +62,7 @@ https://mcp.airbyte.ai/mcp ; https://docs.airbyte.com/ai-agents/interfaces/mcp
 
 - **Tools named**: 4
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -75,7 +75,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search_skills** search through available skills evidence: in the vendor docs · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -84,7 +84,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: airbyte-config
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -92,25 +92,13 @@ Install, as the source shows it:
 npm install -g airbyte-config-cli
 ```
 
-quoted from [https://www.npmjs.com/package/airbyte-config-cli](https://www.npmjs.com/package/airbyte-config-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/airbyte-config-cli](https://www.npmjs.com/package/airbyte-config-cli) on 2026-09-09, via npm, a third party source
 
-Login or key hint seen on the page:
-
-can configure
-
-Subcommands seen with the binary:
-
-check, create, export, get, logs, search, set-config
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: airbyte-config-cli 1.0.0, third party](https://www.npmjs.com/package/airbyte-config-cli)
 
-Where it was documented:
-
-- [https://github.com/harshithmullapudi/airbyte-cli](https://github.com/harshithmullapudi/airbyte-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -176,6 +164,6 @@ One of the more clearly "official and productized" MCP implementations in this f
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

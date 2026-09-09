@@ -1,6 +1,6 @@
 # Verify an email is deliverable: 15 GTM tools, 12 with an official MCP server
 
-> Check an address against the mail server or a verification pipeline before anything is sent to it. 14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. Counted 2026-09-08 from the directory data.
+> Check an address against the mail server or a verification pipeline before anything is sent to it. 14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. Counted 2026-09-09 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Check an address against the mail server or a verification pipeline before anyth
 - **no MCP found**: 1
 - **solo reachable**: 14
 
-14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. All 15 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-08 from directory.json.
+14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. All 15 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-09 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -48,7 +48,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Anymail Finder](../tools/anymail-finder.md) anymailfinder.com Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Enrow](../tools/enrow.md) enrow.io Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a verified result. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: enrow
+- [Enrow](../tools/enrow.md) enrow.io Finds and verifies work email addresses and direct phone numbers from a name plus company domain or a LinkedIn URL, charging only when it returns a verified result. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Hunter.io](../tools/hunter-io.md) hunter.io An email-finding and verification tool - given a name, domain, or company, it locates likely professional email addresses (via domain pattern-matching and web-crawled data) and verifies deliverability; also... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

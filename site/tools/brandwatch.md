@@ -18,7 +18,6 @@ Brandwatch
 [Community & Dark Social](../categories/community-dark-social.md)
 RESEARCHED
 Checked 2026-08-24
-CLI (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,7 +60,7 @@ https://github.com/ambo-sk/mcp-brandwatch
 
 - **Tools named**: 7
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: ambo-sk/mcp-brandwatch
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -84,24 +83,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **list_queries** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
-
-- **Binary**: not seen in a usage line
-- **Status**: community CLI, third party
-- **Strongest evidence**: github
-- **Harvested**: 2026-09-08
-
-No install command was quoted by the harvest. The status rests on the package or page linked below.
-
-Where it was documented:
-
-- [https://github.com/bwatch/BrandWatchClient](https://github.com/bwatch/BrandWatchClient) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -178,6 +164,6 @@ The community MCP server is third-party (author ambo-sk, no visible Brandwatch a
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

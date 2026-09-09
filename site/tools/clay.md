@@ -61,7 +61,7 @@ https://www.clay.com/mcp (docs: https://university.clay.com/docs/mcp-settings)
 
 - **Tools named**: 89
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: shanefirek/clay-mcp-public
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -248,11 +248,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **clay_write_personalized_email** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -344,6 +344,6 @@ Self-serve plans exist (Free, Launch ~$185/mo, Growth ~$495/mo as of the March 2
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

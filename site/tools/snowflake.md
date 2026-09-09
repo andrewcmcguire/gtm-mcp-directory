@@ -62,7 +62,7 @@ https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp ; de
 
 - **Tools named**: 24
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: Snowflake-Labs/mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
@@ -119,69 +119,31 @@ Recorded by the harvest: Cortex names tool TYPES (CORTEX_AGENT_RUN, SYSTEM_EXECU
 
 - **write_semantic_view_tool** No description was recorded with the name. evidence: in the server source · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: snowflake-cli
 - **Status**: official CLI, first party
-- **Strongest evidence**: pypi
-- **Harvested**: 2026-09-08
+- **Strongest evidence**: brew
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
-
-```
-pip install snowflake-cli
-```
-
-quoted from [https://pypi.org/project/snowflake-cli/](https://pypi.org/project/snowflake-cli/) on 2026-09-08, via pypi
 
 ```
 brew install snowflake-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/snowflake-cli](https://formulae.brew.sh/formula/snowflake-cli) on 2026-09-08, via brew
+quoted from [https://formulae.brew.sh/formula/snowflake-cli](https://formulae.brew.sh/formula/snowflake-cli) on 2026-09-09, via brew
 
-```
-uv tool install snowflake-cli
-```
+Packages seen, with the version on 2026-09-09:
 
-quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via pypi
-
-```
-uvx --from snowflake-cli snow
-```
-
-quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via uvx
-
-```
-brew install --cask snowflake-cli
-```
-
-quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via brew
-
-```
-brew tap snowflakedb/snowflake-cli
-```
-
-quoted from [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) on 2026-09-08, via brew-tap
-
-Login or key hint seen on the page:
-
-development setup
-
-Packages seen, with the version on 2026-09-08:
-
-- [pypi: snowflake-cli 3.26.0](https://pypi.org/project/snowflake-cli/)
+- [pypi: snowflake-cli 3.26.0, third party](https://pypi.org/project/snowflake-cli/)
 - [pypi: snowflakecli 0.4.4, third party](https://pypi.org/project/snowflakecli/)
-- [pypi: snowflake-cli 3.26.0](https://pypi.org/project/snowflake-cli/)
+- [pypi: snowflake-cli 3.26.0, third party](https://pypi.org/project/snowflake-cli/)
 - [brew: snowflake-cli 3.26.0](https://formulae.brew.sh/formula/snowflake-cli)
 
-Where it was documented:
-
-- [https://github.com/snowflakedb/snowflake-cli](https://github.com/snowflakedb/snowflake-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -264,6 +226,6 @@ The community github.com/Snowflake-Labs/mcp repo is explicitly deprecated - its 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
 # Build a target account list: 7 GTM tools, 5 with an official MCP server
 
-> Produce a ranked or filtered account universe from an ICP definition or a set of best customers. 6 of the 7 entries tagged with this job carry an MCP server of some kind, 5 of them official. Counted 2026-09-08 from the directory data.
+> Produce a ranked or filtered account universe from an ICP definition or a set of best customers. 6 of the 7 entries tagged with this job carry an MCP server of some kind, 5 of them official. Counted 2026-09-09 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Produce a ranked or filtered account universe from an ICP definition or a set of
 - **no MCP found**: 1
 - **solo reachable**: 4
 
-6 of the 7 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 7 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-08 from directory.json.
+6 of the 7 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 7 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-09 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -51,7 +51,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Ocean.io](../tools/ocean-io.md) ocean.io A company-search and "lookalike" prospecting tool that finds businesses similar to a given target account based on industry, size, geography, and website content, and exports the resulting account lists. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [6sense](../tools/6sense.md) 6sense.com Detects B2B buying intent by combining IP-based website deanonymization, a proprietary third-party intent/content-consumption network ("Signalverse"), and first-party CRM/MAP/product data to flag in-market... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI (community)
+- [6sense](../tools/6sense.md) 6sense.com Detects B2B buying intent by combining IP-based website deanonymization, a proprietary third-party intent/content-consumption network ("Signalverse"), and first-party CRM/MAP/product data to flag in-market... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Seamless.AI](../tools/seamless-ai.md) seamless.ai A B2B contact and company database/prospecting tool that lets users search and pull emails, phone numbers, and firmographic data from a claimed 1.9B+ contact / 121M+ company index, plus basic list-building,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: seamless (community)
 

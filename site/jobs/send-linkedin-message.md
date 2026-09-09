@@ -1,6 +1,6 @@
 # Send a LinkedIn message or connection request: 22 GTM tools, 14 with an official MCP server
 
-> Act on LinkedIn: connect, message, follow up. Carries standing platform-terms risk the directory flags on files 02 and 05. 15 of the 22 entries tagged with this job carry an MCP server of some kind, 14 of them official. Counted 2026-09-08 from the directory data.
+> Act on LinkedIn: connect, message, follow up. Carries standing platform-terms risk the directory flags on files 02 and 05. 15 of the 22 entries tagged with this job carry an MCP server of some kind, 14 of them official. Counted 2026-09-09 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Act on LinkedIn: connect, message, follow up. Carries standing platform-terms ri
 - **no MCP found**: 6
 - **solo reachable**: 13
 
-15 of the 22 entries tagged with this job carry an MCP server of some kind, 14 of them official. 19 of the 22 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-08 from directory.json.
+15 of the 22 entries tagged with this job carry an MCP server of some kind, 14 of them official. 19 of the 22 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-09 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -47,7 +47,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Amplemarket (Duo Copilot)](../tools/amplemarket.md) amplemarket.com An all-in-one sales platform (lead gen + multichannel engagement + deliverability) with an AI agent layer ("Duo Copilot") that detects buying signals, writes and A/B-tests email copy (including AI voice-cloned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
-- [HeyReach](../tools/heyreach.md) heyreach.io Cloud-based LinkedIn outreach automation platform for agencies/sales teams running multi-account connection, messaging, and inbox campaigns from unlimited LinkedIn accounts. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: heyreach
+- [HeyReach](../tools/heyreach.md) heyreach.io Cloud-based LinkedIn outreach automation platform for agencies/sales teams running multi-account connection, messaging, and inbox campaigns from unlimited LinkedIn accounts. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: heyreach (community)
 
 - [La Growth Machine](../tools/la-growth-machine.md) lagrowthmachine.com Multi-channel prospecting platform that sequences outreach across LinkedIn, email, Twitter/X, and voice notes/calls from one campaign builder, with built-in lead enrichment. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 

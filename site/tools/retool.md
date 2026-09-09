@@ -18,7 +18,7 @@ Retool
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: retool
+CLI: retool (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -62,7 +62,7 @@ https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server
 
 - **Tools named**: 50
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -167,14 +167,16 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **retool_update_resource** Update an existing resource by name. evidence: in the vendor docs · calling it writes
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
 - **Binary**: retool
-- **Status**: official CLI, first party
+- **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -182,27 +184,13 @@ Install, as the source shows it:
 npm install -g retool-cli
 ```
 
-quoted from [https://www.npmjs.com/package/retool-cli](https://www.npmjs.com/package/retool-cli) on 2026-09-08, via npm
+quoted from [https://www.npmjs.com/package/retool-cli](https://www.npmjs.com/package/retool-cli) on 2026-09-09, via npm, a third party source
 
-```
-npm install -g
-```
+Packages seen, with the version on 2026-09-09:
 
-quoted from [https://github.com/tryretool/retool-cli](https://github.com/tryretool/retool-cli) on 2026-09-08, via npm
+- [npm: retool-cli 1.0.29, third party](https://www.npmjs.com/package/retool-cli)
 
-Login or key hint seen on the page:
-
-retool login
-
-Packages seen, with the version on 2026-09-08:
-
-- [npm: retool-cli 1.0.29](https://www.npmjs.com/package/retool-cli)
-
-Where it was documented:
-
-- [https://github.com/tryretool/retool-cli](https://github.com/tryretool/retool-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -282,6 +270,6 @@ The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

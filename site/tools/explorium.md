@@ -18,7 +18,6 @@ Explorium
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: explorium (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -64,7 +63,7 @@ https://mcp-github-registry.explorium.ai/mcp ; https://www.explorium.ai/mcp/ (al
 
 - **Tools named**: 11
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -91,38 +90,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **match-prospects** Match specific individuals to get their Explorium prospect IDs evidence: in the vendor docs · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
-
-- **Binary**: explorium
-- **Status**: community CLI, third party
-- **Strongest evidence**: github
-- **Harvested**: 2026-09-08
-
-Install, as the source shows it:
-
-```
-curl -fsSL https://raw.githubusercontent.com/haroExplorium/explorium-cli/main/install.sh | bash
-```
-
-quoted from [https://github.com/haroExplorium/explorium-cli](https://github.com/haroExplorium/explorium-cli) on 2026-09-08, via shell, a third party source
-
-Login or key hint seen on the page:
-
-explorium config init --api-key "your_api_key_here"
-
-Subcommands seen with the binary:
-
-businesses, config, prospects, webhooks
-
-Where it was documented:
-
-- [https://github.com/AdaY45/explorium-client](https://github.com/AdaY45/explorium-client) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -215,6 +187,6 @@ Coverage-size claims (150M companies / 800M contacts) are vendor-stated and not 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

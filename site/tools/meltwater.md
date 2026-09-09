@@ -62,14 +62,14 @@ https://developer.meltwater.com/guides/meltwater-mcp/overview/ (endpoint https:/
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: generateJwk
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -77,13 +77,13 @@ Install, as the source shows it:
 npm install -g @meltwater/jwk-converter-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@meltwater/jwk-converter-cli](https://www.npmjs.com/package/@meltwater/jwk-converter-cli) on 2026-09-08, via npm
+quoted from [https://www.npmjs.com/package/@meltwater/jwk-converter-cli](https://www.npmjs.com/package/@meltwater/jwk-converter-cli) on 2026-09-09, via npm
 
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: @meltwater/jwk-converter-cli 1.0.0](https://www.npmjs.com/package/@meltwater/jwk-converter-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -168,6 +168,6 @@ Two GitHub repos surfaced referencing Meltwater + MCP - mcopelandmw/mira-api-dem
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

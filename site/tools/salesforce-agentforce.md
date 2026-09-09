@@ -63,7 +63,7 @@ https://github.com/salesforcecli/mcp (Salesforce DX/CLI MCP server, dev-tooling 
 
 - **Tools named**: 17
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: salesforcecli/mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -104,14 +104,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **users** Tools to manage org users, such as assigning a permission set. evidence: in a README table · calling it writes
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: sf
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -119,14 +119,14 @@ Install, as the source shows it:
 npm install -g @salesforce/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-08, via npm
+quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-09, via npm
 
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: @salesforce/cli 2.150.6](https://www.npmjs.com/package/@salesforce/cli)
 - [pypi: salesforcecli 0.0.12, third party](https://pypi.org/project/salesforcecli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -236,6 +236,6 @@ The Headless 360 MCP Server (beta, July 2026) exposes only four tools - Discover
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

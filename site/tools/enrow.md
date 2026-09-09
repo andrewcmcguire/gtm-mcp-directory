@@ -18,7 +18,6 @@ Enrow
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-08-25
-CLI: enrow
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -62,7 +61,7 @@ https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.puls
 
 - **Tools named**: 13
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: EnrowAPI/enrow-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -95,36 +94,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **verify_emails_bulk** Verify multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_verifications_bulk_result. evidence: in the server source · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: enrow
-- **Status**: official CLI, first party
-- **Strongest evidence**: github
-- **Harvested**: 2026-09-08
-
-Install, as the source shows it:
-
-```
-npm install -g @enrow/cli
-```
-
-quoted from [https://github.com/EnrowAPI/enrow-cli](https://github.com/EnrowAPI/enrow-cli) on 2026-09-08, via npm
-
-Login or key hint seen on the page:
-
-enrow config set-key YOUR_API_KEY
-
-Subcommands seen with the binary:
-
-account, config, email, phone, verify
-
-Where it was documented:
-
-- [https://github.com/EnrowAPI/enrow-cli](https://github.com/EnrowAPI/enrow-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -211,6 +185,6 @@ Added 2026-08-25, closing a named warm lead from this file's previous sweep note
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

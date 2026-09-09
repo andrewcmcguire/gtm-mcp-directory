@@ -54,7 +54,7 @@ none - HubSpot has a general-purpose "HubSpot MCP Client" (docs: https://knowled
 
 **Command line**
 
-No CLI found by the 2026-09-08 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -137,6 +137,6 @@ Clearbit is no longer sold standalone ("working hard to integrate Clearbit servi
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

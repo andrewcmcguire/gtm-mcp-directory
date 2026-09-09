@@ -62,7 +62,7 @@ https://github.com/exa-labs/exa-mcp-server (hosted endpoint https://mcp.exa.ai/m
 
 - **Tools named**: 11
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: exa-labs/exa-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -91,7 +91,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **web_search_exa** Search the web for any topic and get clean, ready-to-use content. Best for: Finding current information, news, facts, people, companies, or answering questions about any topic. Returns: Clean text content from top search result evidence: answered tools/list · calling it reads · required: query
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -100,7 +100,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: exa-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -108,14 +108,14 @@ Install, as the source shows it:
 pip install exa-cli
 ```
 
-quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-08, via pypi, a third party source
+quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-09, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [pypi: exa-cli 0.1.0, third party](https://pypi.org/project/exa-cli/)
 - [pypi: exa-cli 0.1.0, third party](https://pypi.org/project/exa-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -201,6 +201,6 @@ New accounts get $20 in free credits (~2,800 searches); free tier also adds $10/
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

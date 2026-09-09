@@ -18,7 +18,6 @@ Pipedrive
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: pipedrive (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -62,7 +61,7 @@ https://mcp.pipedrive.com/mcp ; https://www.pipedrive.com/en/features/mcp-server
 
 - **Tools named**: 32
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -131,38 +130,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **updatePerson** Edit an existing contact evidence: in the vendor docs · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
-
-- **Binary**: pipedrive
-- **Status**: community CLI, third party
-- **Strongest evidence**: github
-- **Harvested**: 2026-09-08
-
-Install, as the source shows it:
-
-```
-curl -sSL https://raw.githubusercontent.com/Aaronontheweb/pipedrive-cli/dev/install.sh | bash
-```
-
-quoted from [https://github.com/Aaronontheweb/pipedrive-cli](https://github.com/Aaronontheweb/pipedrive-cli) on 2026-09-08, via shell, a third party source
-
-Login or key hint seen on the page:
-
-pipedrive config set --api-key YOUR_TOKEN --domain acme.pipedrive.com
-
-Subcommands seen with the binary:
-
-activities, config, deals, emails, leads, notes, organizations, persons, pipelines, update
-
-Where it was documented:
-
-- [https://github.com/ricocaldeira/pipedrive-api-client](https://github.com/ricocaldeira/pipedrive-api-client) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -261,6 +233,6 @@ A community/self-hosted alternative exists (github.com/WillDent/pipedrive-mcp-se
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

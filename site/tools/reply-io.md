@@ -61,7 +61,7 @@ https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp
 
 - **Tools named**: 71
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: reply-team/reply-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -210,14 +210,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **reply_update_reply_handler** Patch a reply handler evidence: in the vendor docs · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: reply
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -225,19 +225,13 @@ Install, as the source shows it:
 npm install -g reply-cli
 ```
 
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-08, via npm
+quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-09, via npm
 
 ```
 npx -y reply-cli
 ```
 
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-08, via npx
-
-```
-npm i -g reply-cli
-```
-
-quoted from [https://github.com/reply-team/reply-cli](https://github.com/reply-team/reply-cli) on 2026-09-08, via npm
+quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-09, via npx
 
 Login or key hint seen on the page:
 
@@ -245,14 +239,13 @@ reply auth
 
 Subcommands seen with the binary:
 
-api, auth, install, profile, skills, team
+api, auth, profile, skills, team
 
 Where it was documented:
 
 - [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) (the page that documented the CLI)
-- [https://github.com/reply-team/reply-cli](https://github.com/reply-team/reply-cli) (the repository that documented it)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -359,6 +352,6 @@ Vendor states API/webhook access is included across all pricing tiers starting a
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

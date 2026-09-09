@@ -61,7 +61,7 @@ https://github.com/fivetran/fivetran-mcp
 
 - **Tools named**: 2
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 - **Repo read**: fivetran/fivetran-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -72,7 +72,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **list_endpoints** No description was recorded with the name. evidence: in the server source · calling it reads
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -81,7 +81,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: fivetran-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -89,22 +89,14 @@ Install, as the source shows it:
 pip install fivetran-cli
 ```
 
-quoted from [https://pypi.org/project/fivetran-cli/](https://pypi.org/project/fivetran-cli/) on 2026-09-08, via pypi, a third party source
+quoted from [https://pypi.org/project/fivetran-cli/](https://pypi.org/project/fivetran-cli/) on 2026-09-09, via pypi, a third party source
 
-Login or key hint seen on the page:
-
-export FIVETRAN_APIKEY="YOUR_API_KEY"
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [pypi: fivetran-cli 0.1.13, third party](https://pypi.org/project/fivetran-cli/)
 - [pypi: fivetran-cli 0.1.13, third party](https://pypi.org/project/fivetran-cli/)
 
-Where it was documented:
-
-- [https://github.com/ClickHouse/clickhouse-fivetran-destination](https://github.com/ClickHouse/clickhouse-fivetran-destination) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -189,6 +181,6 @@ Confirmed GTM-relevant connectors include Salesforce, HubSpot, Pipedrive, Copper
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

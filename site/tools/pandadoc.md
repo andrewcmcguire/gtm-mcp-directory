@@ -63,7 +63,7 @@ https://mcp.pandadoc.com/v1/mcp ; https://developers.pandadoc.com/docs/how-to-us
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -72,7 +72,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: pandadoc
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -80,13 +80,13 @@ Install, as the source shows it:
 pip install pandadoc
 ```
 
-quoted from [https://pypi.org/project/pandadoc/](https://pypi.org/project/pandadoc/) on 2026-09-08, via pypi, a third party source
+quoted from [https://pypi.org/project/pandadoc/](https://pypi.org/project/pandadoc/) on 2026-09-09, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [pypi: pandadoc 0.1.0, third party](https://pypi.org/project/pandadoc/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -173,6 +173,6 @@ PulseMCP also lists a third-party community server (dazanza-pandadoc) - prefer t
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

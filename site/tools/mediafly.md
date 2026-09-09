@@ -56,7 +56,7 @@ none
 - **Binary**: extension-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 npm install -g @mediafly/extension-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@mediafly/extension-cli](https://www.npmjs.com/package/@mediafly/extension-cli) on 2026-09-08, via npm
+quoted from [https://www.npmjs.com/package/@mediafly/extension-cli](https://www.npmjs.com/package/@mediafly/extension-cli) on 2026-09-09, via npm
 
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: @mediafly/extension-cli 2.1.1](https://www.npmjs.com/package/@mediafly/extension-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -150,6 +150,6 @@ The InsightSquared brand name is no longer used anywhere on the current site - d
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

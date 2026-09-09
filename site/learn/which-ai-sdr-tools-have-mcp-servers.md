@@ -1,6 +1,6 @@
 # AI SDR tools with MCP servers: 10 of 23, counted
 
-> 10 of the 23 ai sdrs tools in this directory have an MCP server: 8 official and 2 community. The list with server URLs and access gates. Counted 2026-09-08.
+> 10 of the 23 ai sdrs tools in this directory have an MCP server: 8 official and 2 community. The list with server URLs and access gates. Counted 2026-09-09.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -85,7 +85,7 @@ An AI-powered revenue automation platform for enterprise sales teams, positioned
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 | [Gate unknown](../gates/unknown.md) | 3 |
 
-Counted 2026-09-08. Source file 04-ai-sdr-agents.md, content sha256 50ad3dbcb89d3177...
+Counted 2026-09-09. Source file 04-ai-sdr-agents.md, content sha256 50ad3dbcb89d3177...
 
 ## Sources
 
@@ -93,7 +93,7 @@ Counted 2026-09-08. Source file 04-ai-sdr-agents.md, content sha256 50ad3dbcb89d
 - [AI SDRs tools with MCP servers](../lists/mcp-ai-sdr-agents.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-08. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-09. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

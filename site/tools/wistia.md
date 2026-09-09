@@ -60,14 +60,14 @@ https://api.wistia.com/mcp/api (docs: https://docs.wistia.com/docs/mcp-server-gu
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: wistia
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -75,37 +75,13 @@ Install, as the source shows it:
 npm install -g @wistia/wistia-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@wistia/wistia-cli](https://www.npmjs.com/package/@wistia/wistia-cli) on 2026-09-08, via npm
+quoted from [https://www.npmjs.com/package/@wistia/wistia-cli](https://www.npmjs.com/package/@wistia/wistia-cli) on 2026-09-09, via npm
 
-```
-brew install wistia/tap/wistia-cli
-```
-
-quoted from [https://github.com/wistia/wistia-cli](https://github.com/wistia/wistia-cli) on 2026-09-08, via brew
-
-```
-curl -fsSL https://raw.githubusercontent.com/wistia/wistia-cli/main/scripts/install.sh | bash
-```
-
-quoted from [https://github.com/wistia/wistia-cli](https://github.com/wistia/wistia-cli) on 2026-09-08, via shell
-
-Login or key hint seen on the page:
-
-wistia configure
-
-Subcommands seen with the binary:
-
-completion, configure, upload-or-import-media
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: @wistia/wistia-cli 2026.5.1](https://www.npmjs.com/package/@wistia/wistia-cli)
 
-Where it was documented:
-
-- [https://github.com/wistia/wistia-cli](https://github.com/wistia/wistia-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -182,6 +158,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://api.wistia.com/mcp/api
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -62,7 +62,7 @@ https://www.pulsemcp.com/servers/granola (official server at https://mcp.granola
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -71,7 +71,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: granola
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -79,53 +79,33 @@ Install, as the source shows it:
 npm install -g granola-cli
 ```
 
-quoted from [https://www.npmjs.com/package/granola-cli](https://www.npmjs.com/package/granola-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/granola-cli](https://www.npmjs.com/package/granola-cli) on 2026-09-09, via npm, a third party source
 
 ```
 npm install -g granola-to-minutes
 ```
 
-quoted from [https://www.npmjs.com/package/granola-to-minutes](https://www.npmjs.com/package/granola-to-minutes) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/granola-to-minutes](https://www.npmjs.com/package/granola-to-minutes) on 2026-09-09, via npm, a third party source
 
 ```
 npm install -g @toolittlecakes/granola-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@toolittlecakes/granola-cli](https://www.npmjs.com/package/@toolittlecakes/granola-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@toolittlecakes/granola-cli](https://www.npmjs.com/package/@toolittlecakes/granola-cli) on 2026-09-09, via npm, a third party source
 
 ```
 npm install -g @doist/granola-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@doist/granola-cli](https://www.npmjs.com/package/@doist/granola-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@doist/granola-cli](https://www.npmjs.com/package/@doist/granola-cli) on 2026-09-09, via npm, a third party source
 
 ```
 pip install granola-cli
 ```
 
-quoted from [https://pypi.org/project/granola-cli/](https://pypi.org/project/granola-cli/) on 2026-09-08, via pypi, a third party source
+quoted from [https://pypi.org/project/granola-cli/](https://pypi.org/project/granola-cli/) on 2026-09-09, via pypi, a third party source
 
-```
-npx granola-cli
-```
-
-quoted from [https://github.com/magarcia/granola-cli](https://github.com/magarcia/granola-cli) on 2026-09-08, via npx, a third party source
-
-```
-curl -fsSL https://raw.githubusercontent.com/joelhooks/granola-cli/main/install.sh | sh
-```
-
-quoted from [https://github.com/joelhooks/granola-cli](https://github.com/joelhooks/granola-cli) on 2026-09-08, via shell, a third party source
-
-Login or key hint seen on the page:
-
-granola auth
-
-Subcommands seen with the binary:
-
-alias, auth, config, folder, meeting, meetings, notes, search, today, workspace
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: granola-cli 0.2.0, third party](https://www.npmjs.com/package/granola-cli)
 - [npm: granola-to-minutes 0.5.3, third party](https://www.npmjs.com/package/granola-to-minutes)
@@ -134,11 +114,7 @@ Packages seen, with the version on 2026-09-08:
 - [pypi: granola-cli 0.1.0, third party](https://pypi.org/project/granola-cli/)
 - [pypi: granola-cli 0.1.0, third party](https://pypi.org/project/granola-cli/)
 
-Where it was documented:
-
-- [https://github.com/magarcia/granola-cli](https://github.com/magarcia/granola-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -212,6 +188,6 @@ Included per the seed list, but flagged clearly: Granola is a horizontal notetak
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

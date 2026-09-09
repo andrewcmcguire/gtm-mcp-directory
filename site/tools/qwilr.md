@@ -18,7 +18,6 @@ Qwilr
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
 Checked 2026-09-02
-CLI: qwilr (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -53,34 +52,7 @@ n/a
 
 **Command line**
 
-This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
-
-- **Binary**: qwilr
-- **Status**: community CLI, third party
-- **Strongest evidence**: github
-- **Harvested**: 2026-09-08
-
-Install, as the source shows it:
-
-```
-go install github.com/paulmeller/qwilr-cli@latest
-```
-
-quoted from [https://github.com/paulmeller/qwilr-cli](https://github.com/paulmeller/qwilr-cli) on 2026-09-08, via go, a third party source
-
-Login or key hint seen on the page:
-
-qwilr configure
-
-Subcommands seen with the binary:
-
-blocks, completion, configure, pages, templates, webhooks
-
-Where it was documented:
-
-- [https://github.com/paulmeller/qwilr-cli](https://github.com/paulmeller/qwilr-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -155,6 +127,6 @@ No native Qwilr MCP server found; reachable only indirectly through third-party 
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

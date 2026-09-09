@@ -28,7 +28,7 @@ The chain is: define the account criteria, search a company database, enrich eac
 | Search people by criteria | [search people by criteria](../jobs/search-people-by-criteria.md) | 24 | 17 | 7 |
 | Score and prioritise | [score and prioritize leads](../jobs/score-and-prioritize-leads.md) | 24 | 15 | 4 |
 
-Counted 2026-09-08. Entry counts rather than product counts.
+Counted 2026-09-09. Entry counts rather than product counts.
 
 ## Where it is thin
 
@@ -68,7 +68,7 @@ Building the list and sending to it are different decisions. Keep the send behin
 - [The GTM MCP Directory, by job](../jobs/index.md) this site
 - [The GTM MCP Directory, Data and Enrichment](../categories/data-enrichment.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-08. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-09. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

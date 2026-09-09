@@ -1,6 +1,6 @@
 # Enrich a person from a LinkedIn URL: 12 GTM tools, 8 with an official MCP server
 
-> Hand it a profile URL or a scraped profile and get a structured person record back. 9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. Counted 2026-09-08 from the directory data.
+> Hand it a profile URL or a scraped profile and get a structured person record back. 9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. Counted 2026-09-09 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Hand it a profile URL or a scraped profile and get a structured person record ba
 - **no MCP found**: 3
 - **solo reachable**: 8
 
-9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. All 12 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-08 from directory.json.
+9 of the 12 entries tagged with this job carry an MCP server of some kind, 8 of them official. All 12 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-09 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -46,7 +46,7 @@ Hand it a profile URL or a scraped profile and get a structured person record ba
 
 Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
-- [Lusha](../tools/lusha.md) lusha.com A B2B contact and company database (300M+ profiles) accessed via a browser extension, web prospecting platform, and bulk CSV/API enrichment for finding direct dials, emails, and company data. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI (community)
+- [Lusha](../tools/lusha.md) lusha.com A B2B contact and company database (300M+ profiles) accessed via a browser extension, web prospecting platform, and bulk CSV/API enrichment for finding direct dials, emails, and company data. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [CUFinder](../tools/cufinder.md) cufinder.io A credit-based B2B data lookup service where you feed in a company name, domain, LinkedIn URL, or person and get back an enriched company or contact record including verified emails, through a web app or... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

@@ -18,7 +18,6 @@ Ironclad
 [Proposals & Deals](../categories/proposals-deals.md)
 RESEARCHED
 Checked 2026-08-24
-CLI: rivet
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,28 +60,11 @@ https://support.ironcladapp.com/hc/en-us/articles/39887091143319-Ironclad-MCP-Se
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: rivet
-- **Status**: official CLI, first party
-- **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
-
-Install, as the source shows it:
-
-```
-npm install -g @ironclad/rivet-cli
-```
-
-quoted from [https://www.npmjs.com/package/@ironclad/rivet-cli](https://www.npmjs.com/package/@ironclad/rivet-cli) on 2026-09-08, via npm
-
-Packages seen, with the version on 2026-09-08:
-
-- [npm: @ironclad/rivet-cli 1.25.0](https://www.npmjs.com/package/@ironclad/rivet-cli)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -164,6 +146,6 @@ Included per the seed list's "sales-adjacent" framing - Ironclad is legal-ops-fi
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

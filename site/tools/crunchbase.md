@@ -61,7 +61,7 @@ https://mcp.crunchbase.com (docs: https://data.crunchbase.com/docs/mcp-overview 
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -70,7 +70,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: crunchbase-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -78,27 +78,13 @@ Install, as the source shows it:
 npm install -g crunchbase-cli
 ```
 
-quoted from [https://www.npmjs.com/package/crunchbase-cli](https://www.npmjs.com/package/crunchbase-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/crunchbase-cli](https://www.npmjs.com/package/crunchbase-cli) on 2026-09-09, via npm, a third party source
 
-```
-npm install crunchbase-cli -g
-```
-
-quoted from [https://github.com/srn/crunchbase-cli](https://github.com/srn/crunchbase-cli) on 2026-09-08, via npm, a third party source
-
-Login or key hint seen on the page:
-
-api key (page mentions one)
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: crunchbase-cli 1.0.0, third party](https://www.npmjs.com/package/crunchbase-cli)
 
-Where it was documented:
-
-- [https://github.com/shu223/CrunchBase-API-Client-for-iOS](https://github.com/shu223/CrunchBase-API-Client-for-iOS) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -168,6 +154,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.crunchbase.com ret
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

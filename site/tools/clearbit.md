@@ -18,7 +18,6 @@ Clearbit (now HubSpot Breeze Intelligence)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-02
-CLI: hubspot
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -51,28 +50,7 @@ The mcp_url field is empty on this entry. 17 of 336 entries are.
 
 **Command line**
 
-- **Binary**: hubspot
-- **Status**: official CLI, first party
-- **Strongest evidence**: github
-- **Harvested**: 2026-09-08
-
-Install, as the source shows it:
-
-```
-npm install -g @hubspot/cli
-```
-
-quoted from [https://github.com/HubSpot/hubspot-cli](https://github.com/HubSpot/hubspot-cli) on 2026-09-08, via npm
-
-Login or key hint seen on the page:
-
-hs init
-
-Where it was documented:
-
-- [https://github.com/HubSpot/hubspot-cli](https://github.com/HubSpot/hubspot-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -154,6 +132,6 @@ HubSpot acquired Clearbit (completed ~Dec 2024) and folded it into "Breeze Intel
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

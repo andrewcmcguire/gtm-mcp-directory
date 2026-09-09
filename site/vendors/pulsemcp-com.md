@@ -1,6 +1,6 @@
 # PulseMCP: products, MCP servers and connect URLs, one vendor page
 
-> PulseMCP (pulsemcp.com): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-08.
+> PulseMCP (pulsemcp.com): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-09.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ PulseMCP
 1 product in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-08
+Data baked 2026-09-09
 
 Vendor domain: [pulsemcp.com](https://pulsemcp.com) · vendor page id pulsemcp-com
 
@@ -38,7 +38,7 @@ Vendor domain: [pulsemcp.com](https://pulsemcp.com) · vendor page id pulsemcp-c
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-08
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-09
 
 - **GitHub organisation**: [github.com/pulsemcp](https://github.com/pulsemcp), tied to the domain with evidence 2026-09-08
 
@@ -86,9 +86,9 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 npm install -g @pulsemcp/air-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-08, via npm
+quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-09, via npm
 
-harvested 2026-09-08, all on the [tool page](../tools/pulsemcp.md).
+harvested 2026-09-09, all on the [tool page](../tools/pulsemcp.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -117,4 +117,4 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-08 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-09 by build_directory.py (phase 1).

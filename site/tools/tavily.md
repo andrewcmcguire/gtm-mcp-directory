@@ -18,7 +18,7 @@ Tavily
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: tvly
+CLI: tavily-cli
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -60,14 +60,14 @@ https://mcp.tavily.com/mcp/ (docs: https://docs.tavily.com/documentation/mcp)
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-08. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: tvly
+- **Binary**: tavily-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -75,23 +75,9 @@ Install, as the source shows it:
 pip install tavily-cli
 ```
 
-quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-08, via pypi
+quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-09, via pypi
 
-```
-curl -fsSL https://raw.githubusercontent.com/tavily-ai/tavily-cli/main/install.sh | sh
-```
-
-quoted from [https://github.com/tavily-ai/tavily-cli](https://github.com/tavily-ai/tavily-cli) on 2026-09-08, via shell
-
-Login or key hint seen on the page:
-
-tvly init
-
-Subcommands seen with the binary:
-
-auth, crawl, extract, login, map, research, search, update
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: tavily-cli 0.1.2, third party](https://www.npmjs.com/package/tavily-cli)
 - [npm: @renxqoo/tavily-cli 1.0.3, third party](https://www.npmjs.com/package/@renxqoo/tavily-cli)
@@ -99,11 +85,7 @@ Packages seen, with the version on 2026-09-08:
 - [pypi: tavily 1.1.0, third party](https://pypi.org/project/tavily/)
 - [pypi: tavily-cli 0.1.8](https://pypi.org/project/tavily-cli/)
 
-Where it was documented:
-
-- [https://github.com/tavily-ai/tavily-cli](https://github.com/tavily-ai/tavily-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -179,6 +161,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.tavily.com/mcp/ re
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

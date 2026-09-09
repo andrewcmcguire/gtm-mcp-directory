@@ -56,7 +56,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: findymail
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-08
+- **Harvested**: 2026-09-09
 
 Install, as the source shows it:
 
@@ -64,44 +64,20 @@ Install, as the source shows it:
 npm install -g @paulelliot/findymail-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@paulelliot/findymail-cli](https://www.npmjs.com/package/@paulelliot/findymail-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@paulelliot/findymail-cli](https://www.npmjs.com/package/@paulelliot/findymail-cli) on 2026-09-09, via npm, a third party source
 
 ```
 npm install -g findymail-cli
 ```
 
-quoted from [https://www.npmjs.com/package/findymail-cli](https://www.npmjs.com/package/findymail-cli) on 2026-09-08, via npm, a third party source
+quoted from [https://www.npmjs.com/package/findymail-cli](https://www.npmjs.com/package/findymail-cli) on 2026-09-09, via npm, a third party source
 
-```
-npm install @paulelliot/findymail-cli
-```
-
-quoted from [https://github.com/paulelliotco/findymail-cli](https://github.com/paulelliotco/findymail-cli) on 2026-09-08, via npm, a third party source
-
-```
-npx findymail
-```
-
-quoted from [https://github.com/paulelliotco/findymail-cli](https://github.com/paulelliotco/findymail-cli) on 2026-09-08, via npx, a third party source
-
-Login or key hint seen on the page:
-
-- bearer auth from `FINDYMAIL_API_KEY`
-
-Subcommands seen with the binary:
-
-contacts, intellimatch, lists, search, verify
-
-Packages seen, with the version on 2026-09-08:
+Packages seen, with the version on 2026-09-09:
 
 - [npm: @paulelliot/findymail-cli 0.1.1, third party](https://www.npmjs.com/package/@paulelliot/findymail-cli)
 - [npm: findymail-cli 0.1.0, third party](https://www.npmjs.com/package/findymail-cli)
 
-Where it was documented:
-
-- [https://github.com/paulelliotco/findymail-cli](https://github.com/paulelliotco/findymail-cli) (the repository that documented it)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-08.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
 
 **Access gate**
 
@@ -170,6 +146,6 @@ A GitHub repo titled "Meerkats-Ai/findymail-mcp-server" surfaced in search resul
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-08
+- **Data baked**: 2026-09-09
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
