@@ -24,7 +24,7 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **MCP not applicable**: 1
 - **No MCP found**: 6
 
-- **ship a CLI (official) as of 2026-09-09**: 2
+- **ship a CLI (official) as of 2026-09-10**: 2
 
 - **Free to start**: 6
 - **Paid, self-serve**: 13

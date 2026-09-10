@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Every tool the MCP servers name: 2,369 tools across 114 GTM servers</title>
-<meta name="description" content="Every tool name harvested from the MCP servers in The GTM MCP Directory, with the server it belongs to, the evidence behind the name and its harvest date. 121 of 225 servers measured on 2026-09-09. None of these tools has been run.">
+<title>Every tool the MCP servers name: 2,357 tools across 114 GTM servers</title>
+<meta name="description" content="Every tool name harvested from the MCP servers in The GTM MCP Directory, with the server it belongs to, the evidence behind the name and its harvest date. 121 of 225 servers measured on 2026-09-10. None of these tools has been run.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools-index">
@@ -61,23 +61,23 @@
 <p class="sub">A category tells you what a vendor sells. This tells you what its MCP server puts
 in front of an agent, tool by tool, with the evidence behind every name and the date it was read.
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p>
-<div class="stats"><div class="stat is-gold"><div class="n">2,369</div><div class="k">tool names</div></div>
+<div class="stats"><div class="stat is-gold"><div class="n">2,357</div><div class="k">tool names</div></div>
 <div class="stat is-gold"><div class="n">114</div><div class="k">GTM servers measured</div></div>
 <div class="stat is-copper"><div class="n">104</div><div class="k">servers unmeasured</div></div>
 <div class="stat is-teal"><div class="n">12</div><div class="k">answered tools/list</div></div>
-<div class="stat is-mute"><div class="n">5,948</div><div class="k">gateway tools, counted apart</div></div>
+<div class="stat is-mute"><div class="n">5,965</div><div class="k">gateway tools, counted apart</div></div>
 <div class="stat is-mute"><div class="n">1</div><div class="k">bench tested</div></div></div>
 <p class="note">Coverage, stated as it is rather than as a percentage that flatters it:
 121 of the 225 entries that record an
 official or community MCP server carry a harvested tool list, read on
-2026-09-09. The other 104 are
+2026-09-10. The other 104 are
 <b>unmeasured, not empty</b>: nobody has read their tool list, so the directory says nothing about
 what they expose, and their tool pages say so in those words. Most of them are hosted endpoints
 behind an auth wall or vendors with no server repo on file.</p>
 <p class="note">Those 121 entries are 115 unique products,
 because a product listed in two categories is harvested once per listing.
-8,504 tool records were harvested and 8,317 survive as distinct
-product-and-tool pairs; the 187 merged are a cross listing repeating a name
+8,495 tool records were harvested and 8,322 survive as distinct
+product-and-tool pairs; the 173 merged are a cross listing repeating a name
 already recorded against the same product. Every name below is on a server this directory tracks,
 and clicking the server takes you to its entry, its gate and its endpoint probe.</p>
 <p class="note">Where a name came from, strongest first. The ranking is data, not prose: it is
@@ -1176,6 +1176,14 @@ wiring, not a guarantee.</p>
 <div class="tm"><a href="tools/la-growth-machine">La Growth Machine</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>cancel_job</b></div>
+<div class="td">Cancel a running BigQuery job.
+
+Use this tool to cancel a query job that is currently executing (i.e. returned `job_complete: false`
+with a `job_id` from `execute_sql` or `execute_sql_readonly`)....</div>
+<div class="tm"><a href="tools/google-bigquery">Google BigQuery</a> &middot; answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>cancel_task</b></div>
 <div class="td">Cancel a running task. taskId comes from the run_* response or show_tasks.</div>
 <div class="tm"><a href="tools/anaplan">Anaplan (PlanIQ / Anaplan Forecaster)</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
@@ -1845,76 +1853,6 @@ wiring, not a guarantee.</p>
 <div class="tn"><b>comment_delete</b></div>
 <div class="td">Delete a comment from a card</div>
 <div class="tm"><a href="tools/mcp-run-turbomcp">mcp.run / TurboMCP</a> &middot; in the server source &middot; calling it writes &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_add_activity</b></div>
-<div class="td">Add a new activity record to Common Room (blog post, webinar, conference talk, etc.)</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it writes &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_add_user</b></div>
-<div class="td">Add or update a user profile in Common Room</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it writes &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_activity_types</b></div>
-<div class="td">Get all available Common Room activity types (article, webinar, presentation, etc.)</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_api_sources_url</b></div>
-<div class="td">Get URL for Common Room API sources configuration page</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_api_tokens_url</b></div>
-<div class="td">Get URL for Common Room API tokens configuration page</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_dashboard_urls</b></div>
-<div class="td">Get URLs for all Common Room dashboard sections (home, segments, search, contacts, etc.). Requires COMMONROOM_BASE_URL in .env file.</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_member_activity_url</b></div>
-<div class="td">Get URL for individual Common Room member activity page (more detailed than overview)</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_member_url</b></div>
-<div class="td">Get URL for individual Common Room member page</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_organization_url</b></div>
-<div class="td">Get URL for individual Common Room organization page</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_segment_url</b></div>
-<div class="td">Get URL for individual Common Room segment page</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_segments</b></div>
-<div class="td">Get all Common Room audience segments for targeting and analysis</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_sources_url</b></div>
-<div class="td">Get URL for Common Room sources configuration page</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_tags</b></div>
-<div class="td">Get all Common Room tags used for categorizing activities and users</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>commonroom_get_user</b></div>
-<div class="td">Get Common Room user profile and activity data by email address</div>
-<div class="tm"><a href="tools/common-room">Common Room</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
 </li>
 <li>
 <div class="tn"><b>company_ai_maturity</b></div>
@@ -4864,6 +4802,15 @@ Returns: Relevant code and...</div>
 <div class="tn"><b>get_prospects</b></div>
 <div class="td">Get prospects from a campaign or list</div>
 <div class="tm"><a href="tools/waalaxy">Waalaxy</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
+</li>
+<li>
+<div class="tn"><b>get_query_results</b></div>
+<div class="td">Get the results of a BigQuery SQL query job.
+
+Use this tool ONLY when:
+1. A previous `execute_sql` or `execute_sql_readonly` call returned `job_complete: false` with a `job_id`
+   (poll with this...</div>
+<div class="tm"><a href="tools/google-bigquery">Google BigQuery</a> &middot; answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_reactions</b></div>
@@ -11450,8 +11397,8 @@ Not...</div>
 <div class="eyebrow">Counted apart</div>
 <h2>The gateway.</h2>
 <p class="sub">Pipeworx re-exposes other vendors' servers through one endpoint,
-so its 5,948 tools are other people's tools. They are listed here in full and kept
-out of the 2,369 above, because folding them in would make the directory look like
+so its 5,965 tools are other people's tools. They are listed here in full and kept
+out of the 2,357 above, because folding them in would make the directory look like
 it had catalogued five thousand GTM capabilities when it had catalogued one gateway.</p>
 <ul class="caplist"><li>
 <div class="tn"><b>19hz_events</b></div>
@@ -14164,6 +14111,12 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>catfacts_list_breeds</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>catnap_antibody_info</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>catnap_search_neutralization</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>cbioportal_get_gene</b></div>
@@ -18597,6 +18550,21 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="tn"><b>geonames_get_timezone</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
+<div class="tn"><b>georgia_heritage_facets</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>georgia_heritage_museums</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>georgia_heritage_nearby</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>georgia_heritage_object</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>georgia_heritage_search</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
 <div class="tn"><b>germany_search_tenders</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
@@ -19018,6 +18986,9 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>get_enterprise</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>get_entities</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>get_episode</b></div>
@@ -19977,6 +19948,12 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="tn"><b>gmail_send</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it writes</div>
 </li><li>
+<div class="tn"><b>gnerc_prices</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it writes</div>
+</li><li>
+<div class="tn"><b>gnerc_station_generation</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
 <div class="tn"><b>gnews_search_news</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
@@ -20128,6 +20105,24 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>gsc_search_analytics</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>gse_demand_forecast</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>gse_frequency</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>gse_grid_at</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>gse_grid_now</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>gse_publications</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>gse_tenders</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>gsfa_additive_provisions</b></div>
@@ -20794,6 +20789,9 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>imf_get_data</b></div>
+<div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
+</li><li>
+<div class="tn"><b>immunology_search</b></div>
 <div class="tm"><a href="tools/pipeworx">Pipeworx</a> &middot; answered tools/list &middot; calling it reads</div>
 </li><li>
 <div class="tn"><b>impact_risk</b></div>
@@ -29310,7 +29308,7 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
-    <p>8,504 tool names harvested on 2026-09-09 from
+    <p>8,495 tool names harvested on 2026-09-10 from
     121 of those 225 servers.
     104 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
@@ -29357,7 +29355,7 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-09 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-10 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 336 vs recount
 336.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

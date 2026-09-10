@@ -61,7 +61,7 @@ https://composio.dev/toolkits/landbot (Composio-hosted, 13 tools); https://zapie
 
 - **Tools named**: 13
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -92,11 +92,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **Update Brand** Performs partial updates to brand data in Landbot. evidence: in the vendor docs · calling it writes · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -162,6 +162,6 @@ Checked PulseMCP directly - zero results for "landbot," consistent with none-fou
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

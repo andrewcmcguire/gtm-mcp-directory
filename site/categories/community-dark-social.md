@@ -23,7 +23,7 @@ Tools that surface what's happening in the channels a CRM and normal web analyti
 - **MCP not applicable**: 2
 - **No MCP found**: 6
 
-- **ship a CLI (official) as of 2026-09-09**: 2
+- **ship a CLI (official) as of 2026-09-10**: 2
 
 - **Free to start**: 3
 - **Paid, self-serve**: 7

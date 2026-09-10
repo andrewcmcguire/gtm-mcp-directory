@@ -62,14 +62,14 @@ https://YOUR_DBT_HOST_URL/api/ai/v1/mcp (per account, for example https://cloud.
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: dbt
 - **Status**: official CLI, first party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -77,13 +77,13 @@ Install, as the source shows it:
 pip install dbt
 ```
 
-quoted from [https://pypi.org/project/dbt/](https://pypi.org/project/dbt/) on 2026-09-09, via pypi
+quoted from [https://pypi.org/project/dbt/](https://pypi.org/project/dbt/) on 2026-09-10, via pypi
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [pypi: dbt 1.0.0.40.21](https://pypi.org/project/dbt/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -164,6 +164,6 @@ Probed 2026-09-07: POST of an MCP initialize to https://cloud.getdbt.com/api/ai/
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

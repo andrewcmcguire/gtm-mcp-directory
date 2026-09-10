@@ -22,7 +22,7 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 - **Community MCP**: 2
 - **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-09**: 1
+- **ship a CLI (official) as of 2026-09-10**: 1
 
 - **Free to start**: 4
 - **Paid, self-serve**: 7

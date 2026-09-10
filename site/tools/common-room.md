@@ -60,9 +60,9 @@ https://www.commonroom.io/docs/using-common-room/mcp-server/ ; community alterna
 
 **What this server exposes**
 
-- **Tools named**: 15
+- **Tools named**: 1
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Repo read**: chris-trag/commonroom-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -71,44 +71,16 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
 
-- **commonroom_add_activity** Add a new activity record to Common Room (blog post, webinar, conference talk, etc.) evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_add_user** Add or update a user profile in Common Room evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_activity_types** Get all available Common Room activity types (article, webinar, presentation, etc.) evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_api_sources_url** Get URL for Common Room API sources configuration page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_api_tokens_url** Get URL for Common Room API tokens configuration page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_dashboard_urls** Get URLs for all Common Room dashboard sections (home, segments, search, contacts, etc.). Requires COMMONROOM_BASE_URL in .env file. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_member_activity_url** Get URL for individual Common Room member activity page (more detailed than overview) evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_member_url** Get URL for individual Common Room member page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_organization_url** Get URL for individual Common Room organization page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_segment_url** Get URL for individual Common Room segment page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_segments** Get all Common Room audience segments for targeting and analysis evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_sources_url** Get URL for Common Room sources configuration page evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_tags** Get all Common Room tags used for categorizing activities and users evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **commonroom_get_user** Get Common Room user profile and activity data by email address evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **test_tool** Test tool to verify MCP connection evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: cr
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -116,13 +88,13 @@ Install, as the source shows it:
 npm install -g @commonroomio/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@commonroomio/cli](https://www.npmjs.com/package/@commonroomio/cli) on 2026-09-09, via npm
+quoted from [https://www.npmjs.com/package/@commonroomio/cli](https://www.npmjs.com/package/@commonroomio/cli) on 2026-09-10, via npm
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [npm: @commonroomio/cli 0.2.0](https://www.npmjs.com/package/@commonroomio/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -228,6 +200,6 @@ Official MCP exposes 4 tools (get_catalog, list_objects, create_object, update_o
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

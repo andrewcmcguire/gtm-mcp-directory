@@ -57,12 +57,14 @@ https://bigquery.googleapis.com/mcp (docs: https://docs.cloud.google.com/bigquer
 
 **What this server exposes**
 
-- **Tools named**: 6
+- **Tools named**: 8
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **cancel_job** Cancel a running BigQuery job. Use this tool to cancel a query job that is currently executing (i.e. returned `job_complete: false` with a `job_id` from `execute_sql` or `execute_sql_readonly`). Specify the `job_id` to abort. evidence: answered tools/list · calling it reads · required: jobId, projectId
 
 - **execute_sql** Run a SQL query in the project and return the result. Prefer the `execute_sql_readonly` tool if possible. This tool can execute any query that bigquery supports including: * SQL Queries (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE`, e evidence: answered tools/list · calling it reads · required: projectId, query
 
@@ -70,17 +72,19 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get_dataset_info** Get metadata information about a BigQuery dataset or BigLake namespace. evidence: answered tools/list · calling it reads · required: datasetId, projectId
 
+- **get_query_results** Get the results of a BigQuery SQL query job. Use this tool ONLY when: 1. A previous `execute_sql` or `execute_sql_readonly` call returned `job_complete: false` with a `job_id` (poll with this tool until `job_complete: true`), OR 2. You evidence: answered tools/list · calling it reads · required: jobId, projectId
+
 - **get_table_info** Get metadata information about a BigQuery table or BigLake table. evidence: answered tools/list · calling it reads · required: datasetId, projectId, tableId
 
 - **list_dataset_ids** List BigQuery dataset IDs and BigLake namespaces in a Google Cloud project. Supports pagination. Use `page_size` to limit results and `page_token` to retrieve next page. evidence: answered tools/list · calling it reads · required: projectId
 
 - **list_table_ids** List table ids in a BigQuery dataset or BigLake namespace. Supports pagination. Use `page_size` to limit results and `page_token` to retrieve next page. evidence: answered tools/list · calling it reads · required: datasetId, projectId
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -157,6 +161,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://bigquery.googleapis.co
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

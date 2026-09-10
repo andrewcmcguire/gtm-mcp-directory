@@ -60,7 +60,7 @@ https://mcp.browserbase.com/mcp (docs: https://docs.browserbase.com/integrations
 
 - **Tools named**: 6
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -77,14 +77,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **start** Create or reuse a Browserbase session evidence: answered tools/list · calling it writes
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: bb9
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -92,13 +92,13 @@ Install, as the source shows it:
 npm install -g browse
 ```
 
-quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-09, via npm
+quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-10, via npm
 
 ```
 npm install -g @browserbasehq/bb9
 ```
 
-quoted from [https://www.npmjs.com/package/@browserbasehq/bb9](https://www.npmjs.com/package/@browserbasehq/bb9) on 2026-09-09, via npm
+quoted from [https://www.npmjs.com/package/@browserbasehq/bb9](https://www.npmjs.com/package/@browserbasehq/bb9) on 2026-09-10, via npm
 
 Login or key hint seen on the page:
 
@@ -109,7 +109,7 @@ expand to read them
 
 back, click, cloud, fill, functions, open, screenshot, skills, snapshot, status, stop, topics, workflows
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [npm: @browserbasehq/bb9 1.2.20](https://www.npmjs.com/package/@browserbasehq/bb9)
 
@@ -117,7 +117,7 @@ Where it was documented:
 
 - [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -193,6 +193,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.browserbase.com/mc
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -62,7 +62,7 @@ https://mcp.monday.com/mcp for the remote server (product page: https://monday.c
 
 - **Tools named**: 5
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Repo read**: mondaycom/mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -79,14 +79,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get_type_details** Retrieve detailed information about specific GraphQL types evidence: in a README table · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: mapps
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -94,13 +94,13 @@ Install, as the source shows it:
 npm install -g @mondaycom/apps-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-09, via npm
+quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-10, via npm
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [npm: @mondaycom/apps-cli 4.10.8](https://www.npmjs.com/package/@mondaycom/apps-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -182,6 +182,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.monday.com/mcp ret
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

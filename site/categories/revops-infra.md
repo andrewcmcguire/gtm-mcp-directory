@@ -22,7 +22,7 @@ The systems of record, the pipes between them, and the low-code layer a GTM engi
 - **MCP unknown**: 1
 - **No MCP found**: 1
 
-- **ship a CLI (official) as of 2026-09-09**: 9
+- **ship a CLI (official) as of 2026-09-10**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
@@ -59,7 +59,7 @@ Source file: 06-revops-infra.md · content sha256 b642afdaa81f349c... · counts 
 
 - [Pipedrive](../tools/pipedrive.md) pipedrive.com A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
-- [Retool](../tools/retool.md) retool.com A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a GTM context, used to build custom RevOps tooling - lead-routing consoles, deal-desk approval apps,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: retool (community)
+- [Retool](../tools/retool.md) retool.com A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a GTM context, used to build custom RevOps tooling - lead-routing consoles, deal-desk approval apps,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md) snowflake.com Cloud data warehouse that acts as the central store where GTM data (CRM, product usage, marketing, support) gets modeled and joined; increasingly the platform other reverse-ETL tools (Hightouch, Fivetran... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: snowflake-cli
 

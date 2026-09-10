@@ -62,7 +62,7 @@ https://github.com/metorial/metorial ; https://metorial.com
 
 - **Tools named**: 9
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Repo read**: metorial/metorial
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -87,14 +87,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **XAI** `@metorial/xai` evidence: in a README table · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: metorial
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -102,7 +102,7 @@ Install, as the source shows it:
 npm install -g @metorial/cli
 ```
 
-quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-09, via npm
+quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-10, via npm
 
 Login or key hint seen on the page:
 
@@ -112,7 +112,7 @@ Where it was documented:
 
 - [https://metorial.com/cli](https://metorial.com/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -194,6 +194,6 @@ Metorial is explicitly and fully custodial of OAuth tokens across every connecte
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

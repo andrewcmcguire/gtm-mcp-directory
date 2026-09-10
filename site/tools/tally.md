@@ -61,7 +61,7 @@ https://api.tally.so/mcp (docs: https://tally.so/help/mcp and https://developers
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -70,7 +70,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: tally-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -78,14 +78,14 @@ Install, as the source shows it:
 pip install tally-cli
 ```
 
-quoted from [https://pypi.org/project/tally-cli/](https://pypi.org/project/tally-cli/) on 2026-09-09, via pypi, a third party source
+quoted from [https://pypi.org/project/tally-cli/](https://pypi.org/project/tally-cli/) on 2026-09-10, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [pypi: tally-cli 0.45.0, third party](https://pypi.org/project/tally-cli/)
 - [pypi: tally-cli 0.45.0, third party](https://pypi.org/project/tally-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -160,6 +160,6 @@ Probed 2026-09-07: POST of an MCP initialize to https://api.tally.so/mcp returne
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

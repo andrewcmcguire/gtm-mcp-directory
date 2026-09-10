@@ -1,6 +1,6 @@
 # Exa: products, MCP servers and connect URLs, one vendor page
 
-> Exa (exa.ai): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 11 tools catalogued. Data baked 2026-09-09.
+> Exa (exa.ai): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 11 tools catalogued. Data baked 2026-09-10.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Exa
 1 product in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-09
+Data baked 2026-09-10
 
 Vendor domain: [exa.ai](https://exa.ai) · vendor page id exa-ai
 
@@ -34,11 +34,11 @@ Vendor domain: [exa.ai](https://exa.ai) · vendor page id exa-ai
 
 - **Docs only**: 0 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 11 named across 1 measured server, harvested 2026-09-09
+- **Tools catalogued**: 11 named across 1 measured server, harvested 2026-09-10
 
 - **Bench tested**: 1 of 1 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-09
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-10
 
 - **GitHub organisation**: [github.com/exa-labs](https://github.com/exa-labs), tied to the domain with evidence 2026-09-08
 
@@ -58,7 +58,7 @@ BENCH-TESTED
 
 - **Connect URL**: [https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) (docs page)
 
-- **Tools catalogued**: 11 named, harvested 2026-09-09, catalogue fixed
+- **Tools catalogued**: 11 named, harvested 2026-09-10, catalogue fixed
 
 - **last_checked**: 2026-09-03
 
@@ -91,9 +91,9 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 pip install exa-cli
 ```
 
-quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-09, via pypi, a third party source
+quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-10, via pypi, a third party source
 
-harvested 2026-09-09, all on the [tool page](../tools/exa.md).
+harvested 2026-09-10, all on the [tool page](../tools/exa.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -122,4 +122,4 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 1 of this vendor's 1 product is among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-09 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-10 by build_directory.py (phase 1).

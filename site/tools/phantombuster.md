@@ -62,7 +62,7 @@ https://hub.phantombuster.com/docs/mcp-server (hosted at mcp.phantombuster.com);
 
 - **Tools named**: 9
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Repo read**: globodai-group/mcp-phantombuster
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -89,7 +89,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **phantombuster_stop_agent** Stop a running PhantomBuster agent evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -98,7 +98,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: phantombuster
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -106,13 +106,13 @@ Install, as the source shows it:
 pip install phantombuster
 ```
 
-quoted from [https://pypi.org/project/phantombuster/](https://pypi.org/project/phantombuster/) on 2026-09-09, via pypi, a third party source
+quoted from [https://pypi.org/project/phantombuster/](https://pypi.org/project/phantombuster/) on 2026-09-10, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [pypi: phantombuster 0.20.5, third party](https://pypi.org/project/phantombuster/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -200,6 +200,6 @@ Documented REST API available starting on the entry paid plan (~$56/mo Starter, 
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
 # RingCentral App Connect MCP: products, MCP servers and connect URLs, one vendor page
 
-> RingCentral App Connect MCP (ringcentral.com): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 14 tools catalogued. Data baked 2026-09-09.
+> RingCentral App Connect MCP (ringcentral.com): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 14 tools catalogued. Data baked 2026-09-10.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ RingCentral App Connect MCP
 1 product in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-09
+Data baked 2026-09-10
 
 Vendor domain: [ringcentral.com](https://ringcentral.com) · [Public company brief (RNG)](https://andrewcmcguire.com/companies/ringcentral/) · vendor page id ringcentral-com
 
@@ -34,11 +34,11 @@ Vendor domain: [ringcentral.com](https://ringcentral.com) · [Public company bri
 
 - **Docs only**: 0 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 14 named across 1 measured server, harvested 2026-09-09
+- **Tools catalogued**: 14 named across 1 measured server, harvested 2026-09-10
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-09
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-10
 
 - **GitHub organisation**: [github.com/ringcentral](https://github.com/ringcentral), tied to the domain with evidence 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 14 named, harvested 2026-09-09, catalogue fixed
+- **Tools catalogued**: 14 named, harvested 2026-09-10, catalogue fixed
 
 - **last_checked**: 2026-09-07
 
@@ -80,7 +80,7 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -107,4 +107,4 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-09 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-10 by build_directory.py (phase 1).

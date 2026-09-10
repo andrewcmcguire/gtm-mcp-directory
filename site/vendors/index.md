@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 310 vendors with their MCP servers
 
-> All 310 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-09.
+> All 310 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-10.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-09. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,366 tools catalogued across their servers, gateways excluded, harvested 2026-09-09. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-10. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,354 tools catalogued across their servers, gateways excluded, harvested 2026-09-10. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 336 entries in the whole directory are bench tested.
 
@@ -102,7 +102,7 @@ C
 | [Close (Close CRM)](close-com.md) | close.com | 1 | 1 | 0 | 116 |
 | [Cognism](cognism-com.md) | cognism.com | 1 | 0 | 0 | 0 |
 | [Common Paper](commonpaper-com.md) | commonpaper.com | 1 | 1 | 0 | 0 |
-| [Common Room](commonroom-io.md) | commonroom.io | 1 | 1 | 0 | 15 |
+| [Common Room](commonroom-io.md) | commonroom.io | 1 | 1 | 0 | 1 |
 | [Commsor](commsor-com.md) | commsor.com | 1 | 0 | 0 | 0 |
 | [Composio](composio-dev.md) | composio.dev | 1 | 1 | 0 | 6 |
 | [Continu](continu-com.md) | continu.com | 1 | 0 | 0 | 0 |
@@ -176,7 +176,7 @@ G
 | [Glama (MCP directory)](glama-ai.md) | glama.ai | 1 | 0 | 0 | 0 |
 | [GlockApps](glockapps-com.md) | glockapps.com | 1 | 0 | 0 | 0 |
 | [Gong](gong-io.md) | gong.io | 2 | 1 | 0 | 1 |
-| [Google](cloud-google-com.md) | cloud.google.com | 2 | 2 | 0 | 9 |
+| [Google](cloud-google-com.md) | cloud.google.com | 2 | 2 | 0 | 11 |
 | [Grain](grain-com.md) | grain.com | 1 | 1 | 0 | 15 |
 | [Granola](granola-ai.md) | granola.ai | 1 | 1 | 0 | 0 |
 | [Groove](groove-co.md) | groove.co | 1 | 0 | 0 | 0 |

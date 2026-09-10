@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-09 by `build_directory.py`. Zero network calls.
+Generated 2026-09-10 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -70,8 +70,8 @@ last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-
 
 null
 - servers with a recorded tool list: **121** of 225 that claim a server
-- tools recorded in total: **8504**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
-- by evidence: `{"live-list": 6051, "source": 1190, "docs": 983, "readme": 280}`
+- tools recorded in total: **8495**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
+- by evidence: `{"live-list": 6070, "source": 1162, "docs": 983, "readme": 280}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
@@ -282,7 +282,7 @@ None.
 
 ## Integrity
 
-- content sha256: `eae6588d01eebf9a9dd784c3394cc730e10ca62bc1f764c72a0427dade77ecd9`
+- content sha256: `424391ae9050687978c800d7cb1583bf6bfc3f5d433be84a12b3704d7c3d57f6`
 - source sha256: `c4736c4873d844d6f5a59e9661fc4a7644e84a6e0a7b25036dad508dcd4447b4`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`

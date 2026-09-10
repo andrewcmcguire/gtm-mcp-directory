@@ -60,7 +60,7 @@ https://github.com/useparagon/paragon-mcp (product page: https://www.useparagon.
 
 - **Tools named**: 1
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Repo read**: useparagon/paragon-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -69,14 +69,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **CALL_API_REQUEST** Call an API if no tool is available for an integration that matches the user evidence: in the server source · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: whiskers
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -84,22 +84,22 @@ Install, as the source shows it:
 npm install -g @useparagon/whiskers-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@useparagon/whiskers-cli](https://www.npmjs.com/package/@useparagon/whiskers-cli) on 2026-09-09, via npm
+quoted from [https://www.npmjs.com/package/@useparagon/whiskers-cli](https://www.npmjs.com/package/@useparagon/whiskers-cli) on 2026-09-10, via npm
 
 ```
 npm install -g @useparagon/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@useparagon/cli](https://www.npmjs.com/package/@useparagon/cli) on 2026-09-09, via npm
+quoted from [https://www.npmjs.com/package/@useparagon/cli](https://www.npmjs.com/package/@useparagon/cli) on 2026-09-10, via npm
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [npm: @useparagon/whiskers-cli 2026.5.12](https://www.npmjs.com/package/@useparagon/whiskers-cli)
 - [npm: @useparagon/cli 1.1.15](https://www.npmjs.com/package/@useparagon/cli)
 - [npm: @polarityinc/paragon 0.1.4, third party](https://www.npmjs.com/package/@polarityinc/paragon)
 - [pypi: paragon 1.0.0, third party](https://pypi.org/project/paragon/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -179,6 +179,6 @@ Verified 2026-09-07 from the vendor's own MCP page. NOT A HOSTED ENDPOINT: unlik
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

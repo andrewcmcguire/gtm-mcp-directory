@@ -23,7 +23,7 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 - **MCP unknown**: 3
 - **No MCP found**: 8
 
-- **ship a CLI (official) as of 2026-09-09**: 1
+- **ship a CLI (official) as of 2026-09-10**: 1
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6

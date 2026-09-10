@@ -58,7 +58,7 @@ https://www.pulsemcp.com
 - **Binary**: air
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 
 Install, as the source shows it:
 
@@ -66,13 +66,13 @@ Install, as the source shows it:
 npm install -g @pulsemcp/air-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-09, via npm
+quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-10, via npm
 
-Packages seen, with the version on 2026-09-09:
+Packages seen, with the version on 2026-09-10:
 
 - [npm: @pulsemcp/air-cli 0.13.1](https://www.npmjs.com/package/@pulsemcp/air-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-09.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
 
 **Access gate**
 
@@ -148,6 +148,6 @@ As of this check, PulseMCP stated new server submissions and listing changes wer
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

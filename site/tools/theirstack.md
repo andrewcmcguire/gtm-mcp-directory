@@ -61,7 +61,7 @@ https://api.theirstack.com/mcp/ ; https://theirstack.com/en/job-posting-mcp (als
 
 - **Tools named**: 3
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-09
+- **Harvested**: 2026-09-10
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 The harvest recorded this server against the cross listing **TheirStack** in Data & Enrichment. It is the same server, so the list is shown here rather than left blank.
@@ -74,11 +74,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **technographics** Your AI assistant calls the technographics tool to get any company's full technology stack, categorized by type, with detection dates and confidence signals. evidence: in the vendor docs · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-09. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-09 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -166,6 +166,6 @@ Free trial plus credit-based pricing from $49/mo (API credits) up to $5,500/mo; 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-09
+- **Data baked**: 2026-09-10
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
