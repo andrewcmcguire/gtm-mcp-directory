@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 310 vendors with their MCP servers
 
-> All 310 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-10.
+> All 310 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-11.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-10. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,354 tools catalogued across their servers, gateways excluded, harvested 2026-09-10. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-11. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,347 tools catalogued across their servers, gateways excluded, harvested 2026-09-11. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 336 entries in the whole directory are bench tested.
 
@@ -366,7 +366,7 @@ S
 | [Salesloft](salesloft-com.md) | salesloft.com | 1 | 1 | 0 | 0 |
 | [SalesQL](salesql-com.md) | salesql.com | 1 | 1 | 0 | 0 |
 | [Salesroom](salesroom-com.md) | salesroom.com | 1 | 0 | 0 | 0 |
-| [SavvyCal](savvycal-com.md) | savvycal.com | 1 | 0 | 0 | 8 |
+| [SavvyCal](savvycal-com.md) | savvycal.com | 1 | 0 | 0 | 1 |
 | [Scaledmail](scaledmail-com.md) | scaledmail.com | 1 | 0 | 0 | 0 |
 | [Seamless.AI](seamless-ai.md) | seamless.ai | 1 | 1 | 0 | 54 |
 | [Second Nature](secondnature-ai.md) | secondnature.ai | 1 | 0 | 0 | 0 |

@@ -61,7 +61,7 @@ https://pipedrive.usefulapi.io/mcp ; https://.usefulapi.io/mcp, one subdomain pe
 
 - **Tools named**: 20
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Repo read**: m190/usefulapi-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
@@ -112,11 +112,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **pipedrive_search_persons** Search persons (contacts) by term across selected fields. Pipedrive REST: GET /api/v2/persons/search. evidence: answered tools/list · calling it reads · required: term
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -184,6 +184,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://pipedrive.usefulapi.io
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

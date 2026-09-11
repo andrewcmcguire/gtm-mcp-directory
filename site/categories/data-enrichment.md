@@ -22,7 +22,7 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Community MCP**: 2
 - **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-10**: 7
+- **ship a CLI (official) as of 2026-09-11**: 7
 
 - **Free to start**: 21
 - **Paid, self-serve**: 21

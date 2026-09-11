@@ -18,6 +18,7 @@ Centralize
 [Signals & Intent](../categories/signals-intent-abm.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: cm-i (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -54,7 +55,26 @@ none locatable. The vendor's own pricing page lists "MCP access" as a named feat
 
 **Command line**
 
-No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: cm-i
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-11
+
+Install, as the source shows it:
+
+```
+npm install -g centralize-modules
+```
+
+quoted from [https://www.npmjs.com/package/centralize-modules](https://www.npmjs.com/package/centralize-modules) on 2026-09-11, via npm, a third party source
+
+Packages seen, with the version on 2026-09-11:
+
+- [npm: centralize-modules 1.0.5, third party](https://www.npmjs.com/package/centralize-modules)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -122,6 +142,6 @@ Added 2026-08-25 from a direct pointer that Centralize had just launched a self-
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

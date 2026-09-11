@@ -56,7 +56,7 @@ none (forecast-specific)
 - **Binary**: sf
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 npm install -g @salesforce/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-10, via npm
+quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-11, via npm
 
-Packages seen, with the version on 2026-09-10:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @salesforce/cli 2.150.6](https://www.npmjs.com/package/@salesforce/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -146,6 +146,6 @@ Cross-reference only - do not duplicate the full Salesforce/Agentforce entry alr
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -48,7 +48,7 @@ The verbatim auth field, whether the vendor offers OAuth, and whether the creden
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [The GTM MCP Directory, servers by auth type](../lists/auth-types.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-10. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-11. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,6 +1,6 @@
 # Discover warm intro paths: 4 GTM tools, 3 with an official MCP server
 
-> Answer "who already knows somebody here" from team, partner or relationship-graph data rather than from a bought contact list. 3 of the 4 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-09-10 from the directory data.
+> Answer "who already knows somebody here" from team, partner or relationship-graph data rather than from a bought contact list. 3 of the 4 entries tagged with this job carry an MCP server of some kind, 3 of them official. Counted 2026-09-11 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Answer "who already knows somebody here" from team, partner or relationship-grap
 - **no MCP found**: 0
 - **solo reachable**: 2
 
-3 of the 4 entries tagged with this job carry an MCP server of some kind, 3 of them official. All 4 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-10 from directory.json.
+3 of the 4 entries tagged with this job carry an MCP server of some kind, 3 of them official. All 4 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-11 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -52,7 +52,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Crossbeam](../tools/crossbeam.md) crossbeam.com Compares your account list against your partners' account lists to surface overlaps, partner-shared contacts, and warm introduction paths for co-selling. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: crossbeam (community)
 
-- [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: cm-i (community)
 
 ### Next to this job
 

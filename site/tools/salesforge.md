@@ -61,7 +61,7 @@ https://github.com/SalesforgeAI/forge-mcp
 
 - **Tools named**: 109
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Repo read**: SalesforgeAI/forge-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -286,14 +286,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **warmforge_list_workspaces** No description was recorded with the name. evidence: in the server source · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: forge
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -301,13 +301,13 @@ Install, as the source shows it:
 npm install -g @salesforge/forge-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@salesforge/forge-cli](https://www.npmjs.com/package/@salesforge/forge-cli) on 2026-09-10, via npm
+quoted from [https://www.npmjs.com/package/@salesforge/forge-cli](https://www.npmjs.com/package/@salesforge/forge-cli) on 2026-09-11, via npm
 
-Packages seen, with the version on 2026-09-10:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @salesforge/forge-cli 1.0.0](https://www.npmjs.com/package/@salesforge/forge-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -410,6 +410,6 @@ Both API and MCP access are restricted to the Growth plan ($80/mo) and up, not t
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

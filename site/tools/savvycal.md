@@ -58,9 +58,9 @@ https://github.com/arturkoter/savvycal-mcp-server
 
 **What this server exposes**
 
-- **Tools named**: 8
+- **Tools named**: 1
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Repo read**: arturkoter/savvycal-mcp-server
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -69,27 +69,13 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
 
-- **savvycal_cancel_event** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **savvycal_create_event** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **savvycal_get_available_slots** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **savvycal_get_current_user** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **savvycal_get_event** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **savvycal_list_events** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **savvycal_list_scheduling_links** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **savvycal_toggle_link** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -172,6 +158,6 @@ developers.savvycal.com exists as a dedicated dev-docs section but detailed cont
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

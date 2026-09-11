@@ -50,7 +50,7 @@ The mcp_url field is empty on this entry. 17 of 336 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -121,6 +121,6 @@ One of the few entries in this pass with transparent public pricing - useful dat
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

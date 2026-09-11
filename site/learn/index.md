@@ -1,6 +1,6 @@
 # Learn: GTM tools, MCP servers and AI agents, answered
 
-> 53 questions about GTM tools, MCP servers and AI agents, answered from 336 counted directory entries rather than from opinion. Baked 2026-09-10.
+> 53 questions about GTM tools, MCP servers and AI agents, answered from 336 counted directory entries rather than from opinion. Baked 2026-09-11.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 

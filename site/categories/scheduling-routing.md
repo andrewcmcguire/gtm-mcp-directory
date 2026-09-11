@@ -24,7 +24,7 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 - **MCP not applicable**: 1
 - **No MCP found**: 4
 
-- **ship a CLI (official) as of 2026-09-10**: 0
+- **ship a CLI (official) as of 2026-09-11**: 0
 
 - **Free to start**: 2
 - **Paid, self-serve**: 4

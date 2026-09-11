@@ -61,21 +61,21 @@ https://zapier.com/mcp/chatbase (Zapier-hosted; viaSocket, Activepieces and Pipe
 
 - **Tools named**: 1
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
 - **Send Prompt** Send a prompt to your chatbot. evidence: in the vendor docs · calling it writes · required: message, Chatbot ID · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: chatbase
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -83,13 +83,13 @@ Install, as the source shows it:
 npm install -g chatbase
 ```
 
-quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-10, via npm
+quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-11, via npm
 
 ```
 npx chatbase
 ```
 
-quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-10, via npx
+quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-11, via npx
 
 Login or key hint seen on the page:
 
@@ -99,7 +99,7 @@ Subcommands seen with the binary:
 
 agents, auth, chat, config
 
-Packages seen, with the version on 2026-09-10:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: chatbase 0.5.0](https://www.npmjs.com/package/chatbase)
 
@@ -107,7 +107,7 @@ Where it was documented:
 
 - [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -173,6 +173,6 @@ Checked mcp.so, glama.ai, and PulseMCP directly for a Chatbase MCP server - Puls
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

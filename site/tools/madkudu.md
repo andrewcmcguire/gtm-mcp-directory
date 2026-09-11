@@ -63,7 +63,7 @@ https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min (endp
 
 - **Tools named**: 16
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -100,14 +100,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **madkudu-value-prop** Retrieve tenant-specific value propositions and persona-based messaging for sales and marketing outreach customization. evidence: answered tools/list · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: mct-vulnerator
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -115,20 +115,20 @@ Install, as the source shows it:
 npm install -g @madkudu-core-tools/vulnerator
 ```
 
-quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-10, via npm
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-11, via npm
 
 ```
 npm install -g @madkudu-core-tools/split
 ```
 
-quoted from [https://www.npmjs.com/package/@madkudu-core-tools/split](https://www.npmjs.com/package/@madkudu-core-tools/split) on 2026-09-10, via npm
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/split](https://www.npmjs.com/package/@madkudu-core-tools/split) on 2026-09-11, via npm
 
-Packages seen, with the version on 2026-09-10:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @madkudu-core-tools/vulnerator 2.1.0](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator)
 - [npm: @madkudu-core-tools/split 1.2.0](https://www.npmjs.com/package/@madkudu-core-tools/split)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -198,6 +198,6 @@ SWEEP FLAG - www.madkudu.com now 301-redirects to hginsights.com, and the login 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

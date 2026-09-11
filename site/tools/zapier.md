@@ -68,14 +68,14 @@ Recorded by the harvest: every tool is one of the customer's own connected Zaps
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: zapier-platform
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -83,34 +83,34 @@ Install, as the source shows it:
 npx zapier
 ```
 
-quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-10, via npx
+quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-11, via npx
 
 ```
 npm install -g zapier-platform-cli
 ```
 
-quoted from [https://www.npmjs.com/package/zapier-platform-cli](https://www.npmjs.com/package/zapier-platform-cli) on 2026-09-10, via npm
+quoted from [https://www.npmjs.com/package/zapier-platform-cli](https://www.npmjs.com/package/zapier-platform-cli) on 2026-09-11, via npm
 
 ```
 npm install -g @zapier/zapier-sdk-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@zapier/zapier-sdk-cli](https://www.npmjs.com/package/@zapier/zapier-sdk-cli) on 2026-09-10, via npm
+quoted from [https://www.npmjs.com/package/@zapier/zapier-sdk-cli](https://www.npmjs.com/package/@zapier/zapier-sdk-cli) on 2026-09-11, via npm
 
 Login or key hint seen on the page:
 
 handles auth
 
-Packages seen, with the version on 2026-09-10:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: zapier-platform-cli 19.1.0](https://www.npmjs.com/package/zapier-platform-cli)
-- [npm: @zapier/zapier-sdk-cli 0.82.1](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
+- [npm: @zapier/zapier-sdk-cli 0.82.2](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
 
 Where it was documented:
 
 - [https://zapier.com/sdk](https://zapier.com/sdk) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -196,6 +196,6 @@ Zapier's own stated scale claims (195,000+ MCP servers created, 4.6M+ tool calls
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

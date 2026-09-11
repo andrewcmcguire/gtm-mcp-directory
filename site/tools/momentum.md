@@ -58,7 +58,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: momentum-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -66,14 +66,14 @@ Install, as the source shows it:
 pip install momentum-cli
 ```
 
-quoted from [https://pypi.org/project/momentum-cli/](https://pypi.org/project/momentum-cli/) on 2026-09-10, via pypi, a third party source
+quoted from [https://pypi.org/project/momentum-cli/](https://pypi.org/project/momentum-cli/) on 2026-09-11, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-10:
+Packages seen, with the version on 2026-09-11:
 
 - [pypi: momentum-cli 0.0.3, third party](https://pypi.org/project/momentum-cli/)
 - [pypi: momentum-cli 0.0.3, third party](https://pypi.org/project/momentum-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-10.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -144,6 +144,6 @@ A search for "Momentum MCP" surfaces an unrelated healthcare-sector company also
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

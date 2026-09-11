@@ -22,7 +22,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Community MCP**: 2
 - **No MCP found**: 13
 
-- **ship a CLI (official) as of 2026-09-10**: 6
+- **ship a CLI (official) as of 2026-09-11**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8

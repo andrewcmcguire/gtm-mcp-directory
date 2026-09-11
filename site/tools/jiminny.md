@@ -63,7 +63,7 @@ https://mcp.jiminny.com/mcp ; https://glama.ai/mcp/servers/fzheng0222/jiminny-mc
 
 - **Tools named**: 3
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Repo read**: fzheng0222/jiminny-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -78,11 +78,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **jiminny_list_conversations** Lists recorded calls (paginated, newest first) evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -171,6 +171,6 @@ Added as an expansion beyond the seed list - a second mid-market Gong/Chorus com
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

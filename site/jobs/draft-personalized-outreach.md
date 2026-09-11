@@ -1,6 +1,6 @@
 # Draft personalized outreach: 51 GTM tools, 30 with an official MCP server
 
-> Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step. 33 of the 51 entries tagged with this job carry an MCP server of some kind, 30 of them official. Counted 2026-09-10 from the directory data.
+> Generate the copy: openers, emails, follow-ups, personalized on prospect context. The writing step, not the sending step. 33 of the 51 entries tagged with this job carry an MCP server of some kind, 30 of them official. Counted 2026-09-11 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Generate the copy: openers, emails, follow-ups, personalized on prospect context
 - **no MCP found**: 16
 - **solo reachable**: 25
 
-33 of the 51 entries tagged with this job carry an MCP server of some kind, 30 of them official. 45 of the 51 tagged entries are distinct products; the other 6 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-10 from directory.json.
+33 of the 51 entries tagged with this job carry an MCP server of some kind, 30 of them official. 45 of the 51 tagged entries are distinct products; the other 6 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-11 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -118,7 +118,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: cm-i (community)
 
 - [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: groove (community)
 

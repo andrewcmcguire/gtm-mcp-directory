@@ -1,6 +1,6 @@
 # Research an account before a call: 17 GTM tools, 11 with an official MCP server
 
-> Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull. 12 of the 17 entries tagged with this job carry an MCP server of some kind, 11 of them official. Counted 2026-09-10 from the directory data.
+> Produce a synthesized read on a company or person from many sources, for prep or qualification rather than as a raw data pull. 12 of the 17 entries tagged with this job carry an MCP server of some kind, 11 of them official. Counted 2026-09-11 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Produce a synthesized read on a company or person from many sources, for prep or
 - **no MCP found**: 4
 - **solo reachable**: 8
 
-12 of the 17 entries tagged with this job carry an MCP server of some kind, 11 of them official. 16 of the 17 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 1 have been bench tested. Counted 2026-09-10 from directory.json.
+12 of the 17 entries tagged with this job carry an MCP server of some kind, 11 of them official. 16 of the 17 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 1 have been bench tested. Counted 2026-09-11 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -73,7 +73,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: cm-i (community)
 
 - [AiSDR](../tools/aisdr.md) aisdr.com An AI sales agent that researches prospects via "Live AI search," writes and sends personalized email/LinkedIn outreach, qualifies replies, and books a meeting only once a prospect is judged ready. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 

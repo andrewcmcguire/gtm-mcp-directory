@@ -60,7 +60,7 @@ https://hunter.io/api-documentation#mcp (an earlier open-source repo, github.com
 
 - **Tools named**: 6
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-10
+- **Harvested**: 2026-09-11
 - **Repo read**: hunter-io/hunter-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -79,11 +79,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **enrich_email** No description was recorded with the name. evidence: in the server source · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-10. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-10 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -170,6 +170,6 @@ The Free tier ($0/mo, 25 searches + 50 verifications/month) includes API access 
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-10
+- **Data baked**: 2026-09-11
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
