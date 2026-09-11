@@ -76,7 +76,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **my-tool** my tool description evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

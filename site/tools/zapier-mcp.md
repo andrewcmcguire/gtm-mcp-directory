@@ -101,7 +101,7 @@ Recorded by the harvest: every tool is one of the customer's own connected Zaps
 
 - **write_code_action** Generates custom code when built-in actions do not fit. Exposed on some servers only. evidence: in the vendor docs · calling it reads · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -137,7 +137,7 @@ handles auth
 Packages seen, with the version on 2026-09-11:
 
 - [npm: zapier-platform-cli 19.1.0](https://www.npmjs.com/package/zapier-platform-cli)
-- [npm: @zapier/zapier-sdk-cli 0.82.2](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
+- [npm: @zapier/zapier-sdk-cli 0.83.0](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
 
 Where it was documented:
 

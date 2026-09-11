@@ -136,7 +136,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **updateProspectsInDatabase** Updates existing prospects in your global database or adds new ones if they do not exist evidence: in the vendor docs · calling it reads · required: prospectsPayload
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

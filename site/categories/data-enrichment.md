@@ -22,7 +22,7 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Community MCP**: 2
 - **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-11**: 7
+- **ship a CLI (official) as of 2026-09-11**: 8
 
 - **Free to start**: 21
 - **Paid, self-serve**: 21
@@ -132,6 +132,6 @@ Source file: 01-data-enrichment.md · content sha256 236e983aff5aca4d... · coun
 
 - [Findymail](../tools/findymail.md) findymail.com An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or LinkedIn profile URL, verifies deliverability, and can also retrieve a phone number from a LinkedIn... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · CLI: findymail (community)
 
-- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: hs
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)

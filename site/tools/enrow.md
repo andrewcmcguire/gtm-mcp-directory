@@ -60,7 +60,7 @@ https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.puls
 **What this server exposes**
 
 - **Tools named**: 13
-- **Strongest evidence**: in the server source
+- **Strongest evidence**: in a README table
 - **Harvested**: 2026-09-11
 - **Repo read**: EnrowAPI/enrow-mcp
 - **Whose repo**: first-party
@@ -68,33 +68,33 @@ https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.puls
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
-- **find_email** Find a professional email address from a name and a company domain or name. At least one of company_domain or company_name is required. Asynchronous: returns a search id, then poll get_email_result. evidence: in the server source · calling it reads
+- **find_email** Find a professional email from a name + company evidence: in a README table · calling it reads
 
-- **find_emails_bulk** Find multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_emails_bulk_result. evidence: in the server source · calling it reads
+- **find_emails_bulk** Find up to 5,000 emails in one batch evidence: in a README table · calling it reads
 
-- **find_phone** Find a mobile phone number from a LinkedIn URL (recommended) or first name + last name + company. Asynchronous: returns a search id, then poll get_phone_result. evidence: in the server source · calling it reads
+- **find_phone** Find a phone number from LinkedIn or name + company evidence: in a README table · calling it reads
 
-- **find_phones_bulk** Find multiple phone numbers in bulk (up to 3,000 per batch). Asynchronous: returns a batch id, then poll get_phones_bulk_result. evidence: in the server source · calling it reads
+- **find_phones_bulk** Find up to 3,000 phone numbers in one batch evidence: in a README table · calling it reads
 
-- **get_account_info** Get your Enrow account info (credit balance and registered webhooks) evidence: in the server source · calling it reads
+- **get_account_info** Check credit balance and webhooks evidence: in a README table · calling it reads
 
-- **get_email_result** Retrieve the result of a previously launched email search evidence: in the server source · calling it reads
+- **get_email_result** Retrieve an email search result evidence: in a README table · calling it reads
 
-- **get_emails_bulk_result** Retrieve results of a bulk email search evidence: in the server source · calling it reads
+- **get_emails_bulk_result** Retrieve bulk email results evidence: in a README table · calling it reads
 
-- **get_phone_result** Retrieve the result of a previously launched phone search evidence: in the server source · calling it reads
+- **get_phone_result** Retrieve a phone search result evidence: in a README table · calling it reads
 
-- **get_phones_bulk_result** Retrieve results of a bulk phone search evidence: in the server source · calling it reads
+- **get_phones_bulk_result** Retrieve bulk phone results evidence: in a README table · calling it reads
 
-- **get_verification_result** Retrieve the result of a previously launched email verification evidence: in the server source · calling it reads
+- **get_verification_result** Retrieve a verification result evidence: in a README table · calling it reads
 
-- **get_verifications_bulk_result** Retrieve results of a bulk email verification evidence: in the server source · calling it reads
+- **get_verifications_bulk_result** Retrieve bulk verification results evidence: in a README table · calling it reads
 
-- **verify_email** Verify if an email address is deliverable. Works on catch-all domains. Asynchronous: returns a verification id, then poll get_verification_result. evidence: in the server source · calling it reads
+- **verify_email** Verify if an email is deliverable (works on catch-all) evidence: in a README table · calling it reads
 
-- **verify_emails_bulk** Verify multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_verifications_bulk_result. evidence: in the server source · calling it reads
+- **verify_emails_bulk** Verify up to 5,000 emails in one batch evidence: in a README table · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

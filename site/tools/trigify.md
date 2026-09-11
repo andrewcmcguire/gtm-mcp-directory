@@ -59,24 +59,9 @@ https://github.com/bcharleson/trigify-cli
 
 **What this server exposes**
 
-- **Tools named**: 3
-- **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
-- **Repo read**: bcharleson/trigify-cli
-- **Whose repo**: third-party
-- **Catalogue shape**: a fixed catalogue the vendor publishes
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
-
-This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
-
-- **Endpoint** Method evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **Layer** What you get evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **Operation** Cost evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 

@@ -1,6 +1,6 @@
 # Unify: products, MCP servers and connect URLs, one vendor page
 
-> Unify (unifygtm.com): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 45 tools catalogued. Data baked 2026-09-11.
+> Unify (unifygtm.com): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 13 tools catalogued. Data baked 2026-09-11.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -34,7 +34,7 @@ Vendor domain: [unifygtm.com](https://unifygtm.com) · vendor page id unifygtm-c
 
 - **Docs only**: 0 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 45 named across 1 measured server, harvested 2026-09-11
+- **Tools catalogued**: 13 named across 1 measured server, harvested 2026-09-11
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://github.com/footcarts/unify-mcp](https://github.com/footcarts/unify-mcp) (docs page)
 
-- **Tools catalogued**: 45 named, harvested 2026-09-11, catalogue fixed
+- **Tools catalogued**: 13 named, harvested 2026-09-11, catalogue fixed
 
 - **last_checked**: 2026-08-24
 

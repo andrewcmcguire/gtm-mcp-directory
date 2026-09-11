@@ -82,7 +82,7 @@ Recorded by the harvest: a small fixed meta-tool set plus the customer's own con
 
 - **COMPOSIO_SEARCH_TOOLS** Processes structured English search queries to discover and return relevant tools from Composio's toolkit ecosystem in parallel. evidence: in the vendor docs · calling it reads · required: queries, session · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -113,7 +113,7 @@ quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/
 
 Login or key hint seen on the page:
 
-composio login
+composio login --agent
 
 Subcommands seen with the binary:
 

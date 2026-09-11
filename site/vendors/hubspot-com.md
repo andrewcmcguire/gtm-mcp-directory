@@ -38,7 +38,7 @@ Vendor domain: [hubspot.com](https://hubspot.com) · [Public company brief (HUBS
 
 - **Bench tested**: 0 of 3 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 2 of 3 official, 0 community only, 1 none found, harvested 2026-09-11
+- **Ships a CLI**: 3 of 3 official, 0 community only, 0 none found, harvested 2026-09-11
 
 - **GitHub organisation**: [github.com/HubSpot](https://github.com/HubSpot), tied to the domain with evidence 2026-09-08
 

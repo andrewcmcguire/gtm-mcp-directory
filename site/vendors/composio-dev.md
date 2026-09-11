@@ -90,7 +90,7 @@ curl -fsSL https://composio.dev/install | bash
 
 quoted from [https://composio.dev/cli](https://composio.dev/cli) on 2026-09-11, via shell
 
-Login or key hint: composio login
+Login or key hint: composio login --agent
 
 2 more install commands, 12 subcommands seen, harvested 2026-09-11, all on the [tool page](../tools/composio.md).
 

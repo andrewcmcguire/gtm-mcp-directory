@@ -83,7 +83,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **List Webhooks** Retrieves all configured webhooks for a Sendspark workspace. evidence: in the vendor docs · calling it reads · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

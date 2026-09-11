@@ -1,6 +1,6 @@
 # Trigify (Trigify.io): products, MCP servers and connect URLs, one vendor page
 
-> Trigify (Trigify.io) (trigify.io): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 3 tools catalogued. Data baked 2026-09-11.
+> Trigify (Trigify.io) (trigify.io): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-11.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -34,7 +34,7 @@ Vendor domain: [trigify.io](https://trigify.io) · vendor page id trigify-io
 
 - **Docs only**: 0 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 3 named across 1 measured server, harvested 2026-09-11
+- **Tools catalogued**: not measured on any product of this vendor
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://github.com/bcharleson/trigify-cli](https://github.com/bcharleson/trigify-cli) (docs page)
 
-- **Tools catalogued**: 3 named, harvested 2026-09-11, catalogue fixed
+- **Tools catalogued**: not measured
 
 - **last_checked**: 2026-08-24
 

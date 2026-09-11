@@ -83,20 +83,20 @@
   "capabilities": {
     "source": "data/capabilities.json",
     "generated_on": "2026-09-11",
-    "servers_with_tools": 121,
-    "tools_total": 8512,
+    "servers_with_tools": 120,
+    "tools_total": 8509,
     "by_best_evidence": {
-      "source": 46,
       "docs": 46,
+      "source": 45,
       "readme": 17,
       "live-list": 12,
       "null": 7
     },
-    "tools_total_excluding_gateways": 2523,
-    "gateway_tools": 5989,
+    "tools_total_excluding_gateways": 2516,
+    "gateway_tools": 5993,
     "by_repo_party": {
       "first-party": 39,
-      "third-party": 32
+      "third-party": 31
     },
     "evidence_ranking": {
       "live-list": "the server answered tools/list on this date, unauthenticated",
@@ -106,21 +106,21 @@
     },
     "meaning": "Every tool here is one a server names: by answering tools/list, by registering it in its own source, or by the vendor documenting it. None of them has been CALLED. This file says what an agent could try, not what works: bench_tested stays the only claim that anybody ran anything, and it is separate from this file. repo_party says whether the source read was the VENDOR's own repo (first-party) or somebody else's server for the vendor's API (third-party). A third-party server's tools are that author's, not the vendor's published surface, and the two must not be read as the same thing. source_party does the same for documentation: a tool list read off Zapier or Composio is that aggregator's wrapper of the vendor's API, not the vendor's own MCP server. catalog_shape dynamic means the server exposes the CUSTOMER's own workspace rather than a fixed vendor catalogue, so an empty tool list there is the correct answer and not a documentation gap. catalog_shape gateway means the server re-exposes many other vendors through one endpoint, so its tools are counted separately: read tools_total_excluding_gateways for what the GTM tools themselves expose. risk says what calling a tool would DO: read, write, or spend the operator's money. It is derived from the tool's own name and the vendor's own description, so it is a warning to check before wiring, not a guarantee.",
     "servers_claimed": 225,
-    "servers_still_unmeasured": 104
+    "servers_still_unmeasured": 105
   },
   "cli": {
     "source": "data/cli_inventory.json",
     "generated_on": "2026-09-11",
     "by_status": {
-      "official": 54,
+      "official": 55,
       "community": 37,
-      "none-found": 245,
+      "none-found": 244,
       "not-checked": 0
     },
     "install_commands": 129,
-    "with_binary": 91,
+    "with_binary": 92,
     "by_evidence": {
-      "npm": 58,
+      "npm": 59,
       "pypi": 17,
       "vendor-docs": 15,
       "prose": 5,
@@ -7446,16 +7446,32 @@
       "mcp_catalog_shape": null,
       "mcp_catalog_note": null,
       "mcp_tools_fetched_on": null,
-      "cli_status": "none-found",
-      "cli_party": null,
-      "cli_binary": null,
-      "cli_install": [],
+      "cli_status": "official",
+      "cli_party": "first",
+      "cli_binary": "hs",
+      "cli_install": [
+        {
+          "cmd": "npm install -g @hubspot/cli",
+          "manager": "npm",
+          "source_url": "https://www.npmjs.com/package/@hubspot/cli",
+          "party": "first",
+          "fetched_on": "2026-09-11"
+        }
+      ],
       "cli_login": null,
       "cli_commands_seen": [],
       "cli_docs_url": null,
       "cli_repo": null,
-      "cli_packages": [],
-      "cli_evidence": null,
+      "cli_packages": [
+        {
+          "kind": "npm",
+          "package": "@hubspot/cli",
+          "version": "8.14.0",
+          "party": "first",
+          "url": "https://www.npmjs.com/package/@hubspot/cli"
+        }
+      ],
+      "cli_evidence": "npm",
       "cli_checked_on": "2026-09-11",
       "github_org": "HubSpot",
       "github_org_status": "resolved",
@@ -8980,124 +8996,124 @@
       "mcp_tools": [
         {
           "name": "find_email",
-          "description": "Find a professional email address from a name and a company domain or name. At least one of company_domain or company_name is required. Asynchronous: returns a search id, then poll get_email_result.",
+          "description": "Find a professional email from a name + company",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "find_emails_bulk",
-          "description": "Find multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_emails_bulk_result.",
+          "description": "Find up to 5,000 emails in one batch",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "find_phone",
-          "description": "Find a mobile phone number from a LinkedIn URL (recommended) or first name + last name + company. Asynchronous: returns a search id, then poll get_phone_result.",
+          "description": "Find a phone number from LinkedIn or name + company",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "find_phones_bulk",
-          "description": "Find multiple phone numbers in bulk (up to 3,000 per batch). Asynchronous: returns a batch id, then poll get_phones_bulk_result.",
+          "description": "Find up to 3,000 phone numbers in one batch",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_account_info",
-          "description": "Get your Enrow account info (credit balance and registered webhooks)",
+          "description": "Check credit balance and webhooks",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_email_result",
-          "description": "Retrieve the result of a previously launched email search",
+          "description": "Retrieve an email search result",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_emails_bulk_result",
-          "description": "Retrieve results of a bulk email search",
+          "description": "Retrieve bulk email results",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_phone_result",
-          "description": "Retrieve the result of a previously launched phone search",
+          "description": "Retrieve a phone search result",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_phones_bulk_result",
-          "description": "Retrieve results of a bulk phone search",
+          "description": "Retrieve bulk phone results",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_verification_result",
-          "description": "Retrieve the result of a previously launched email verification",
+          "description": "Retrieve a verification result",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "get_verifications_bulk_result",
-          "description": "Retrieve results of a bulk email verification",
+          "description": "Retrieve bulk verification results",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "verify_email",
-          "description": "Verify if an email address is deliverable. Works on catch-all domains. Asynchronous: returns a verification id, then poll get_verification_result.",
+          "description": "Verify if an email is deliverable (works on catch-all)",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         },
         {
           "name": "verify_emails_bulk",
-          "description": "Verify multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_verifications_bulk_result.",
+          "description": "Verify up to 5,000 emails in one batch",
           "required_params": [],
-          "evidence": "source",
+          "evidence": "readme",
           "repo_party": "first-party",
           "source_party": null,
           "risk": "read"
         }
       ],
       "mcp_tool_count": 13,
-      "mcp_tools_evidence": "source",
+      "mcp_tools_evidence": "readme",
       "mcp_tools_repo": "EnrowAPI/enrow-mcp",
       "mcp_tools_repo_party": "first-party",
       "mcp_catalog_shape": "fixed",
@@ -28877,13 +28893,6 @@
           "fetched_on": "2026-09-11"
         },
         {
-          "cmd": "npm install -g fireflies-export",
-          "manager": "npm",
-          "source_url": "https://www.npmjs.com/package/fireflies-export",
-          "party": "third",
-          "fetched_on": "2026-09-11"
-        },
-        {
           "cmd": "npm install -g fireflies-cli",
           "manager": "npm",
           "source_url": "https://www.npmjs.com/package/fireflies-cli",
@@ -28909,13 +28918,6 @@
           "version": "1.0.11",
           "party": "third",
           "url": "https://www.npmjs.com/package/@cli4ai/fireflies"
-        },
-        {
-          "kind": "npm",
-          "package": "fireflies-export",
-          "version": "0.1.6",
-          "party": "third",
-          "url": "https://www.npmjs.com/package/fireflies-export"
         },
         {
           "kind": "npm",
@@ -33551,19 +33553,19 @@
       "mcp_tools_fetched_on": "2026-09-11",
       "cli_status": "official",
       "cli_party": "first",
-      "cli_binary": "mct-vulnerator",
+      "cli_binary": "mct-split",
       "cli_install": [
-        {
-          "cmd": "npm install -g @madkudu-core-tools/vulnerator",
-          "manager": "npm",
-          "source_url": "https://www.npmjs.com/package/@madkudu-core-tools/vulnerator",
-          "party": "first",
-          "fetched_on": "2026-09-11"
-        },
         {
           "cmd": "npm install -g @madkudu-core-tools/split",
           "manager": "npm",
           "source_url": "https://www.npmjs.com/package/@madkudu-core-tools/split",
+          "party": "first",
+          "fetched_on": "2026-09-11"
+        },
+        {
+          "cmd": "npm install -g @madkudu-core-tools/vulnerator",
+          "manager": "npm",
+          "source_url": "https://www.npmjs.com/package/@madkudu-core-tools/vulnerator",
           "party": "first",
           "fetched_on": "2026-09-11"
         }
@@ -33575,17 +33577,17 @@
       "cli_packages": [
         {
           "kind": "npm",
-          "package": "@madkudu-core-tools/vulnerator",
-          "version": "2.1.0",
-          "party": "first",
-          "url": "https://www.npmjs.com/package/@madkudu-core-tools/vulnerator"
-        },
-        {
-          "kind": "npm",
           "package": "@madkudu-core-tools/split",
           "version": "1.2.0",
           "party": "first",
           "url": "https://www.npmjs.com/package/@madkudu-core-tools/split"
+        },
+        {
+          "kind": "npm",
+          "package": "@madkudu-core-tools/vulnerator",
+          "version": "2.1.0",
+          "party": "first",
+          "url": "https://www.npmjs.com/package/@madkudu-core-tools/vulnerator"
         }
       ],
       "cli_evidence": "npm",
@@ -36622,33 +36624,6 @@
       "submission": null,
       "mcp_tools": [
         {
-          "name": "add_to_unify_list",
-          "description": "Add one or more people/companies to a List. Pass the List",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "write"
-        },
-        {
-          "name": "check_unify_enrollment_reply",
-          "description": "Whether a given enrollment has received a reply.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "count_unify_enrollments_for_action",
-          "description": "Dry-run: count how many enrollments would be affected by a bulk action (use before unenroll). excludeStatuses defaults to [",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
           "name": "create_unify_task",
           "description": "Create a follow-up task on a Unify person. Type is the task category (PHONE_CALL, EMAIL, etc), priority is HIGH/MEDIUM/LOW, dueAt is an ISO timestamp.",
           "required_params": [],
@@ -36656,24 +36631,6 @@
           "repo_party": "third-party",
           "source_party": null,
           "risk": "write"
-        },
-        {
-          "name": "get_unify_audience",
-          "description": "Fetch an audience definition with its filter tree (personFiltersV2 / companyFiltersV2) and linked plays.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "get_unify_audience_people_count",
-          "description": "Total number of people currently matching an audience.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
         },
         {
           "name": "get_unify_company",
@@ -36687,33 +36644,6 @@
         {
           "name": "get_unify_current_user",
           "description": "Identity of the logged-in user (id, email, role, tenant, full permission flags).",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "get_unify_enrollment_steps",
-          "description": "Per-step execution history for a single enrollment (one entry per step with status/startedAt/endedAt).",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "get_unify_object_record",
-          "description": "Fetch one record by id from any object type. Returns full attributes including custom fields.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "get_unify_person",
-          "description": "Fetch a Unify person by id or email. Returns the full record (id, name, email, phones, title, status, recordOwner, lastWebsiteActivityAt, lead_source, company link, plus all custom fields).",
           "required_params": [],
           "evidence": "source",
           "repo_party": "third-party",
@@ -36739,62 +36669,8 @@
           "risk": "read"
         },
         {
-          "name": "get_unify_sequence",
-          "description": "Fetch a sequence definition with ordered steps and version metadata. By default step bodies (email HTML) are stripped; pass full=true to get raw output.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "get_unify_sequence_metrics",
-          "description": "Funnel breakdown for a sequence: total/inProgress/finished (subdivided by completed/replied/bounced/optedOut/excluded).",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
           "name": "get_unify_unseen_task_count",
           "description": "Number of unseen tasks for the current user.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_audience_companies",
-          "description": "List companies currently matching an audience filter, paginated.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_audience_people",
-          "description": "List people currently matching an audience filter, paginated.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_audiences",
-          "description": "List audiences (filter-based dynamic groups) in the workspace.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_background_actions",
-          "description": "Status of recent bulk actions (UNENROLL/REASSIGN/UPGRADE/REFRESH/RESTART). Filter by sequenceId, status[], startedWithinHours.",
           "required_params": [],
           "evidence": "source",
           "repo_party": "third-party",
@@ -36811,33 +36687,6 @@
           "risk": "read"
         },
         {
-          "name": "list_unify_list_company_entries",
-          "description": "List companies in a Company-list.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_list_person_entries",
-          "description": "List people in a Person-list. Each entry has its own membership id (selectedEntryIds for removal).",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_lists",
-          "description": "List static-membership Lists. objectModel is",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
           "name": "list_unify_mailboxes",
           "description": "List sending mailboxes (id, emailAddress, displayName, primaryUser, provider, isPaused, isUnauthorized).",
           "required_params": [],
@@ -36847,89 +36696,8 @@
           "risk": "read"
         },
         {
-          "name": "list_unify_object_records",
-          "description": "Page through records of an object type. Optionally filter with a free-text search.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_object_types",
-          "description": "List the Unify object types this MCP can introspect. Each type has dedicated search/get/sample tools.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_person_exclusions",
-          "description": "List exclusion (suppression) rules currently affecting a Unify person.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_person_lists",
-          "description": "List all Lists with a membership flag (objectEntryId is set when this person is in the list).",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "write"
-        },
-        {
-          "name": "list_unify_person_notes",
-          "description": "List published + draft notes for a Unify person, paginated.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_person_opportunities",
-          "description": "List CRM opportunities associated with a Unify person.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_person_sequence_enrollments",
-          "description": "List all sequence enrollments (active + finished) for a Unify person, including step-level execution history.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
           "name": "list_unify_plays",
           "description": "List plays. Filter by objectType to get only PERSON-targeting or COMPANY-targeting plays.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_sequence_enrollments",
-          "description": "List enrollments for a sequence with status, displayStatus, substatuses (isReplied/isBounced/etc), person, mailbox, and per-step executions. Paginated.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "list_unify_sequences",
-          "description": "List sequences in the workspace. Returns summarized rows (id/name/owner/etc); pass full=true for raw API output (large — includes full step bodies).",
           "required_params": [],
           "evidence": "source",
           "repo_party": "third-party",
@@ -36955,44 +36723,8 @@
           "risk": "read"
         },
         {
-          "name": "preview_unify_csv_upload",
-          "description": "Validate a CSV",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "remove_from_unify_list",
-          "description": "Remove entries from a List. Pass the membership entry ids (objectEntryId from list_unify_person_lists or list-entries calls).",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "write"
-        },
-        {
-          "name": "sample_unify_object_records",
-          "description": "Fetch a few records of an object type to discover all attribute keys (including custom fields). Unify has no /schema endpoint, so we sample records and reflect the keys present.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
           "name": "search_unify_companies",
           "description": "Free-text search Unify companies by name/domain. Returns id, name, domain, address, employee count, revenue, intent.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "search_unify_people",
-          "description": "Free-text search Unify people by name/email. Returns id, email, name, lead_source, company, recordOwner. Use page+limit for pagination.",
           "required_params": [],
           "evidence": "source",
           "repo_party": "third-party",
@@ -37007,27 +36739,9 @@
           "repo_party": "third-party",
           "source_party": null,
           "risk": "read"
-        },
-        {
-          "name": "unenroll_unify_persons_from_sequence",
-          "description": "Bulk-unenroll people from a sequence. Does NOT affect already-FINISHED enrollments. Returns immediately; the action runs as a background-action.",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "upload_unify_csv",
-          "description": "Bulk-import new people or companies into Unify from a CSV. Creates a List containing the imported records. The CSV",
-          "required_params": [],
-          "evidence": "source",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "write"
         }
       ],
-      "mcp_tool_count": 45,
+      "mcp_tool_count": 13,
       "mcp_tools_evidence": "source",
       "mcp_tools_repo": "footcarts/unify-mcp",
       "mcp_tools_repo_party": "third-party",
@@ -38469,6 +38183,132 @@
       "submission": null,
       "mcp_tools": [
         {
+          "name": "commonroom_add_activity",
+          "description": "Add a new activity record to Common Room (blog post, webinar, conference talk, etc.)",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "write"
+        },
+        {
+          "name": "commonroom_add_user",
+          "description": "Add or update a user profile in Common Room",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "write"
+        },
+        {
+          "name": "commonroom_get_activity_types",
+          "description": "Get all available Common Room activity types (article, webinar, presentation, etc.)",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_api_sources_url",
+          "description": "Get URL for Common Room API sources configuration page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_api_tokens_url",
+          "description": "Get URL for Common Room API tokens configuration page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_dashboard_urls",
+          "description": "Get URLs for all Common Room dashboard sections (home, segments, search, contacts, etc.). Requires COMMONROOM_BASE_URL in .env file.",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_member_activity_url",
+          "description": "Get URL for individual Common Room member activity page (more detailed than overview)",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_member_url",
+          "description": "Get URL for individual Common Room member page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_organization_url",
+          "description": "Get URL for individual Common Room organization page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_segment_url",
+          "description": "Get URL for individual Common Room segment page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_segments",
+          "description": "Get all Common Room audience segments for targeting and analysis",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_sources_url",
+          "description": "Get URL for Common Room sources configuration page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_tags",
+          "description": "Get all Common Room tags used for categorizing activities and users",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_user",
+          "description": "Get Common Room user profile and activity data by email address",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
           "name": "test_tool",
           "description": "Test tool to verify MCP connection",
           "required_params": [],
@@ -38478,7 +38318,7 @@
           "risk": "read"
         }
       ],
-      "mcp_tool_count": 1,
+      "mcp_tool_count": 15,
       "mcp_tools_evidence": "source",
       "mcp_tools_repo": "chris-trag/commonroom-mcp",
       "mcp_tools_repo_party": "third-party",
@@ -42157,42 +41997,14 @@
       "docs_digest": null,
       "docs_last_crawled": null,
       "submission": null,
-      "mcp_tools": [
-        {
-          "name": "Endpoint",
-          "description": "Method",
-          "required_params": [],
-          "evidence": "readme",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "Layer",
-          "description": "What you get",
-          "required_params": [],
-          "evidence": "readme",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        },
-        {
-          "name": "Operation",
-          "description": "Cost",
-          "required_params": [],
-          "evidence": "readme",
-          "repo_party": "third-party",
-          "source_party": null,
-          "risk": "read"
-        }
-      ],
-      "mcp_tool_count": 3,
-      "mcp_tools_evidence": "readme",
-      "mcp_tools_repo": "bcharleson/trigify-cli",
-      "mcp_tools_repo_party": "third-party",
-      "mcp_catalog_shape": "fixed",
+      "mcp_tools": [],
+      "mcp_tool_count": 0,
+      "mcp_tools_evidence": null,
+      "mcp_tools_repo": null,
+      "mcp_tools_repo_party": null,
+      "mcp_catalog_shape": null,
       "mcp_catalog_note": null,
-      "mcp_tools_fetched_on": "2026-09-11",
+      "mcp_tools_fetched_on": null,
       "cli_status": "official",
       "cli_party": "first",
       "cli_binary": "trigify",
@@ -51038,7 +50850,7 @@
         {
           "kind": "npm",
           "package": "@zapier/zapier-sdk-cli",
-          "version": "0.82.2",
+          "version": "0.83.0",
           "party": "first",
           "url": "https://www.npmjs.com/package/@zapier/zapier-sdk-cli"
         }
@@ -52001,7 +51813,7 @@
           "fetched_on": "2026-09-11"
         }
       ],
-      "cli_login": "composio login",
+      "cli_login": "composio login --agent",
       "cli_commands_seen": [
         "dev",
         "execute",
@@ -60507,7 +60319,7 @@
         },
         {
           "name": "ask_pipeworx_beta",
-          "description": "Beta version of ask_pipeworx: identical universal router (same 5,953 tools, same arguments, same response shape) with candidate routing improvements enabled live whenever one is under test. No candidate is active right now (the last was ret",
+          "description": "Beta version of ask_pipeworx: identical universal router (same 5,957 tools, same arguments, same response shape) with candidate routing improvements enabled live whenever one is under test. No candidate is active right now (the last was ret",
           "required_params": [
             "question"
           ],
@@ -60518,7 +60330,7 @@
         },
         {
           "name": "ask_pipeworx_grounded",
-          "description": "Hallucination-resistant answer mode for high-stakes reads. Same routing as ask_pipeworx — picks the right tool from 5,953 across 1551 sources, fills arguments, fetches the data — then EXTRACTS the answer using ONLY what the tool result cont",
+          "description": "Hallucination-resistant answer mode for high-stakes reads. Same routing as ask_pipeworx — picks the right tool from 5,957 across 1552 sources, fills arguments, fetches the data — then EXTRACTS the answer using ONLY what the tool result cont",
           "required_params": [
             "question"
           ],
@@ -65249,6 +65061,35 @@
         {
           "name": "china_lpr_latest",
           "description": "China's most recent PBOC Loan Prime Rate (贷款市场报价利率一年期/五年期, LPR 1Y/5Y) print only — a cheap single-row call for just the current 1-year and 5-year rates and their official reference/announcement date, without the 12-month history. Use china_",
+          "required_params": [],
+          "evidence": "live-list",
+          "repo_party": null,
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "china_news_article",
+          "description": "Look up one indexed China/Hong Kong/Taiwan news article by its URL and return everything known about it: publisher, headline, publication time, GDELT theme tags, average article tone and the places it mentions. Pass a url exactly as china_n",
+          "required_params": [
+            "url"
+          ],
+          "evidence": "live-list",
+          "repo_party": null,
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "china_news_outlets",
+          "description": "List the Chinese, Hong Kong, Taiwanese and overseas-Chinese news publishers Pipeworx has audited — 106 of them — with each one's jurisdiction, publishing language, how its content is reachable, whether china_news_search can actually search ",
+          "required_params": [],
+          "evidence": "live-list",
+          "repo_party": null,
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "china_news_search",
+          "description": "Search recent news coverage from Chinese, Hong Kong, Taiwanese and overseas-Chinese publishers — Xinhua, China Daily, Global Times, People's Daily, South China Morning Post, CNA Taiwan, CGTN, Caixin and 20 more — by keyword, publisher, juri",
           "required_params": [],
           "evidence": "live-list",
           "repo_party": null,
@@ -75427,6 +75268,15 @@
           "required_params": [
             "query"
           ],
+          "evidence": "live-list",
+          "repo_party": null,
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "epstein_flight_log_search",
+          "description": "Structured search over Epstein's pilot flight logbook (Government Exhibit 662-RR, USA v. Ghislaine Maxwell, 20-cr-330, S.D.N.Y.) — date, aircraft, tail number, route and the pilot's own passenger/remarks entry for each leg. Passenger initia",
+          "required_params": [],
           "evidence": "live-list",
           "repo_party": null,
           "source_party": null,
@@ -118233,12 +118083,12 @@
           "risk": "read"
         }
       ],
-      "mcp_tool_count": 5989,
+      "mcp_tool_count": 5993,
       "mcp_tools_evidence": "live-list",
       "mcp_tools_repo": "pipeworx-io/pipeworx",
       "mcp_tools_repo_party": "first-party",
       "mcp_catalog_shape": "gateway",
-      "mcp_catalog_note": "lists 5989 tools, which is a gateway re-exposing other vendors rather than one vendor's own surface; counted separately from the catalogue total",
+      "mcp_catalog_note": "lists 5993 tools, which is a gateway re-exposing other vendors rather than one vendor's own surface; counted separately from the catalogue total",
       "mcp_tools_fetched_on": "2026-09-11",
       "cli_status": "official",
       "cli_party": "first",
@@ -119380,7 +119230,7 @@
         {
           "kind": "npm",
           "package": "@zapier/zapier-sdk-cli",
-          "version": "0.82.2",
+          "version": "0.83.0",
           "party": "first",
           "url": "https://www.npmjs.com/package/@zapier/zapier-sdk-cli"
         }
@@ -138602,6 +138452,132 @@
       "submission": null,
       "mcp_tools": [
         {
+          "name": "commonroom_add_activity",
+          "description": "Add a new activity record to Common Room (blog post, webinar, conference talk, etc.)",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "write"
+        },
+        {
+          "name": "commonroom_add_user",
+          "description": "Add or update a user profile in Common Room",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "write"
+        },
+        {
+          "name": "commonroom_get_activity_types",
+          "description": "Get all available Common Room activity types (article, webinar, presentation, etc.)",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_api_sources_url",
+          "description": "Get URL for Common Room API sources configuration page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_api_tokens_url",
+          "description": "Get URL for Common Room API tokens configuration page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_dashboard_urls",
+          "description": "Get URLs for all Common Room dashboard sections (home, segments, search, contacts, etc.). Requires COMMONROOM_BASE_URL in .env file.",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_member_activity_url",
+          "description": "Get URL for individual Common Room member activity page (more detailed than overview)",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_member_url",
+          "description": "Get URL for individual Common Room member page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_organization_url",
+          "description": "Get URL for individual Common Room organization page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_segment_url",
+          "description": "Get URL for individual Common Room segment page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_segments",
+          "description": "Get all Common Room audience segments for targeting and analysis",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_sources_url",
+          "description": "Get URL for Common Room sources configuration page",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_tags",
+          "description": "Get all Common Room tags used for categorizing activities and users",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
+          "name": "commonroom_get_user",
+          "description": "Get Common Room user profile and activity data by email address",
+          "required_params": [],
+          "evidence": "source",
+          "repo_party": "third-party",
+          "source_party": null,
+          "risk": "read"
+        },
+        {
           "name": "test_tool",
           "description": "Test tool to verify MCP connection",
           "required_params": [],
@@ -138611,7 +138587,7 @@
           "risk": "read"
         }
       ],
-      "mcp_tool_count": 1,
+      "mcp_tool_count": 15,
       "mcp_tools_evidence": "source",
       "mcp_tools_repo": "chris-trag/commonroom-mcp",
       "mcp_tools_repo_party": "third-party",
@@ -140511,6 +140487,6 @@
       "display_rank": 190
     }
   ],
-  "content_sha256": "dfeec7828b8472aec9fb04198dd969534567a8d9b7f3023ddf013a6701cefb88",
+  "content_sha256": "22cdf28bc8267f6fccad63351ab1aa6ed4d8a72c3f50a133ae15409d94350a21",
   "source_sha256": "c4736c4873d844d6f5a59e9661fc4a7644e84a6e0a7b25036dad508dcd4447b4"
 }

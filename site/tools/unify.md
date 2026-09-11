@@ -59,7 +59,7 @@ https://github.com/footcarts/unify-mcp
 
 **What this server exposes**
 
-- **Tools named**: 45
+- **Tools named**: 13
 - **Strongest evidence**: in the server source
 - **Harvested**: 2026-09-11
 - **Repo read**: footcarts/unify-mcp
@@ -70,81 +70,29 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
 
-- **add_to_unify_list** Add one or more people/companies to a List. Pass the List evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **check_unify_enrollment_reply** Whether a given enrollment has received a reply. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **count_unify_enrollments_for_action** Dry-run: count how many enrollments would be affected by a bulk action (use before unenroll). excludeStatuses defaults to [ evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **create_unify_task** Create a follow-up task on a Unify person. Type is the task category (PHONE_CALL, EMAIL, etc), priority is HIGH/MEDIUM/LOW, dueAt is an ISO timestamp. evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **get_unify_audience** Fetch an audience definition with its filter tree (personFiltersV2 / companyFiltersV2) and linked plays. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **get_unify_audience_people_count** Total number of people currently matching an audience. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
 - **get_unify_company** Fetch a Unify company by id or domain. Returns full record: address, industry, description, revenue, employeeCount, intent, recordOwner, social links, plus all custom fields. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
 - **get_unify_current_user** Identity of the logged-in user (id, email, role, tenant, full permission flags). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **get_unify_enrollment_steps** Per-step execution history for a single enrollment (one entry per step with status/startedAt/endedAt). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **get_unify_object_record** Fetch one record by id from any object type. Returns full attributes including custom fields. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **get_unify_person** Fetch a Unify person by id or email. Returns the full record (id, name, email, phones, title, status, recordOwner, lastWebsiteActivityAt, lead_source, company link, plus all custom fields). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **get_unify_person_draft_note** Get the current draft note (if any) for a Unify person. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
 - **get_unify_play** Fetch a play definition (publishedObjectType, owner, isPaused, settings, retrigger config). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **get_unify_sequence** Fetch a sequence definition with ordered steps and version metadata. By default step bodies (email HTML) are stripped; pass full=true to get raw output. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **get_unify_sequence_metrics** Funnel breakdown for a sequence: total/inProgress/finished (subdivided by completed/replied/bounced/optedOut/excluded). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **get_unify_unseen_task_count** Number of unseen tasks for the current user. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_audience_companies** List companies currently matching an audience filter, paginated. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_audience_people** List people currently matching an audience filter, paginated. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_audiences** List audiences (filter-based dynamic groups) in the workspace. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_background_actions** Status of recent bulk actions (UNENROLL/REASSIGN/UPGRADE/REFRESH/RESTART). Filter by sequenceId, status[], startedWithinHours. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
 - **list_unify_folders** List folder tree for an entity type (LIST, AUDIENCE, SEQUENCE). Use to navigate organization structure. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **list_unify_list_company_entries** List companies in a Company-list. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_list_person_entries** List people in a Person-list. Each entry has its own membership id (selectedEntryIds for removal). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_lists** List static-membership Lists. objectModel is evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **list_unify_mailboxes** List sending mailboxes (id, emailAddress, displayName, primaryUser, provider, isPaused, isUnauthorized). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **list_unify_object_records** Page through records of an object type. Optionally filter with a free-text search. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_object_types** List the Unify object types this MCP can introspect. Each type has dedicated search/get/sample tools. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_person_exclusions** List exclusion (suppression) rules currently affecting a Unify person. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_person_lists** List all Lists with a membership flag (objectEntryId is set when this person is in the list). evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_person_notes** List published + draft notes for a Unify person, paginated. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_person_opportunities** List CRM opportunities associated with a Unify person. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_person_sequence_enrollments** List all sequence enrollments (active + finished) for a Unify person, including step-level execution history. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
 - **list_unify_plays** List plays. Filter by objectType to get only PERSON-targeting or COMPANY-targeting plays. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_sequence_enrollments** List enrollments for a sequence with status, displayStatus, substatuses (isReplied/isBounced/etc), person, mailbox, and per-step executions. Paginated. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **list_unify_sequences** List sequences in the workspace. Returns summarized rows (id/name/owner/etc); pass full=true for raw API output (large - includes full step bodies). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
 - **list_unify_snippets** List snippets (reusable content blocks for emails, including SMART snippets with AI prompts). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
 - **post_unify_person_note** Publish a note on a Unify person record. Reuses an existing draft if one is open for the current user; otherwise creates+publishes. The body is HTML - wrap text content in
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

@@ -119,71 +119,71 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.pulsemcp.com/servers?q=enrow)</p><ul><li><a href="https://github.com/EnrowAPI/enrow-mcp" rel="noopener nofollow">https://github.com/EnrowAPI/enrow-mcp</a></li><li><a href="https://www.pulsemcp.com/servers?q=enrow" rel="noopener nofollow">https://www.pulsemcp.com/servers?q=enrow</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">13</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-11</div></div><div><div class="bk">Repo read</div><div class="bv mono">EnrowAPI/enrow-mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.pulsemcp.com/servers?q=enrow)</p><ul><li><a href="https://github.com/EnrowAPI/enrow-mcp" rel="noopener nofollow">https://github.com/EnrowAPI/enrow-mcp</a></li><li><a href="https://www.pulsemcp.com/servers?q=enrow" rel="noopener nofollow">https://www.pulsemcp.com/servers?q=enrow</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">13</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in a README table</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-11</div></div><div><div class="bk">Repo read</div><div class="bv mono">EnrowAPI/enrow-mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
 <div class="tn"><b>find_email</b></div>
-<div class="td">Find a professional email address from a name and a company domain or name. At least one of company_domain or company_name is required. Asynchronous: returns a search id, then poll get_email_result.</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Find a professional email from a name + company</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_emails_bulk</b></div>
-<div class="td">Find multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_emails_bulk_result.</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Find up to 5,000 emails in one batch</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_phone</b></div>
-<div class="td">Find a mobile phone number from a LinkedIn URL (recommended) or first name + last name + company. Asynchronous: returns a search id, then poll get_phone_result.</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Find a phone number from LinkedIn or name + company</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_phones_bulk</b></div>
-<div class="td">Find multiple phone numbers in bulk (up to 3,000 per batch). Asynchronous: returns a batch id, then poll get_phones_bulk_result.</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Find up to 3,000 phone numbers in one batch</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_account_info</b></div>
-<div class="td">Get your Enrow account info (credit balance and registered webhooks)</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Check credit balance and webhooks</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_email_result</b></div>
-<div class="td">Retrieve the result of a previously launched email search</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Retrieve an email search result</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_emails_bulk_result</b></div>
-<div class="td">Retrieve results of a bulk email search</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Retrieve bulk email results</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_phone_result</b></div>
-<div class="td">Retrieve the result of a previously launched phone search</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Retrieve a phone search result</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_phones_bulk_result</b></div>
-<div class="td">Retrieve results of a bulk phone search</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Retrieve bulk phone results</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_verification_result</b></div>
-<div class="td">Retrieve the result of a previously launched email verification</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Retrieve a verification result</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_verifications_bulk_result</b></div>
-<div class="td">Retrieve results of a bulk email verification</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Retrieve bulk verification results</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>verify_email</b></div>
-<div class="td">Verify if an email address is deliverable. Works on catch-all domains. Asynchronous: returns a verification id, then poll get_verification_result.</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
+<div class="td">Verify if an email is deliverable (works on catch-all)</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>verify_emails_bulk</b></div>
-<div class="td">Verify multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_verifications_bulk_result.</div>
-<div class="tm">evidence: in the server source &middot; calling it reads</div>
-</li></ul><p class="note">121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<div class="td">Verify up to 5,000 emails in one batch</div>
+<div class="tm">evidence: in a README table &middot; calling it reads</div>
+</li></ul><p class="note">120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -209,9 +209,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
-    <p>8,512 tool names harvested on 2026-09-11 from
-    121 of those 225 servers.
-    104 are unmeasured, which is not the same as empty.</p>
+    <p>8,509 tool names harvested on 2026-09-11 from
+    120 of those 225 servers.
+    105 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>

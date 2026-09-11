@@ -82,13 +82,13 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 
 **Command line**
 
-### [MadKudu](../tools/madkudu.md) mct-vulnerator official CLI
+### [MadKudu](../tools/madkudu.md) mct-split official CLI
 
 ```
-npm install -g @madkudu-core-tools/vulnerator
+npm install -g @madkudu-core-tools/split
 ```
 
-quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/split](https://www.npmjs.com/package/@madkudu-core-tools/split) on 2026-09-11, via npm
 
 1 more install command, harvested 2026-09-11, all on the [tool page](../tools/madkudu.md).
 

@@ -18,7 +18,7 @@ MadKudu
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: mct-vulnerator
+CLI: mct-split
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -100,11 +100,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **madkudu-value-prop** Retrieve tenant-specific value propositions and persona-based messaging for sales and marketing outreach customization. evidence: answered tools/list · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: mct-vulnerator
+- **Binary**: mct-split
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
 - **Harvested**: 2026-09-11
@@ -112,21 +112,21 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 Install, as the source shows it:
 
 ```
-npm install -g @madkudu-core-tools/vulnerator
-```
-
-quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-11, via npm
-
-```
 npm install -g @madkudu-core-tools/split
 ```
 
 quoted from [https://www.npmjs.com/package/@madkudu-core-tools/split](https://www.npmjs.com/package/@madkudu-core-tools/split) on 2026-09-11, via npm
 
+```
+npm install -g @madkudu-core-tools/vulnerator
+```
+
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-11, via npm
+
 Packages seen, with the version on 2026-09-11:
 
-- [npm: @madkudu-core-tools/vulnerator 2.1.0](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator)
 - [npm: @madkudu-core-tools/split 1.2.0](https://www.npmjs.com/package/@madkudu-core-tools/split)
+- [npm: @madkudu-core-tools/vulnerator 2.1.0](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator)
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 

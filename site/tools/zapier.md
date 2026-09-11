@@ -68,7 +68,7 @@ Recorded by the harvest: every tool is one of the customer's own connected Zaps
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -104,7 +104,7 @@ handles auth
 Packages seen, with the version on 2026-09-11:
 
 - [npm: zapier-platform-cli 19.1.0](https://www.npmjs.com/package/zapier-platform-cli)
-- [npm: @zapier/zapier-sdk-cli 0.82.2](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
+- [npm: @zapier/zapier-sdk-cli 0.83.0](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
 
 Where it was documented:
 

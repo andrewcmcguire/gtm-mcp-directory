@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-11. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,347 tools catalogued across their servers, gateways excluded, harvested 2026-09-11. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-11. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,326 tools catalogued across their servers, gateways excluded, harvested 2026-09-11. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 336 entries in the whole directory are bench tested.
 
@@ -102,7 +102,7 @@ C
 | [Close (Close CRM)](close-com.md) | close.com | 1 | 1 | 0 | 116 |
 | [Cognism](cognism-com.md) | cognism.com | 1 | 0 | 0 | 0 |
 | [Common Paper](commonpaper-com.md) | commonpaper.com | 1 | 1 | 0 | 0 |
-| [Common Room](commonroom-io.md) | commonroom.io | 1 | 1 | 0 | 1 |
+| [Common Room](commonroom-io.md) | commonroom.io | 1 | 1 | 0 | 15 |
 | [Commsor](commsor-com.md) | commsor.com | 1 | 0 | 0 | 0 |
 | [Composio](composio-dev.md) | composio.dev | 1 | 1 | 0 | 6 |
 | [Continu](continu-com.md) | continu.com | 1 | 0 | 0 | 0 |
@@ -410,7 +410,7 @@ T
 | [Trainual](trainual-com.md) | trainual.com | 1 | 1 | 0 | 11 |
 | [Trellus AI](trellus-ai.md) | trellus.ai | 1 | 0 | 0 | 0 |
 | [Trevor AI](trevorai-com.md) | trevorai.com | 1 | 0 | 0 | 0 |
-| [Trigify (Trigify.io)](trigify-io.md) | trigify.io | 1 | 0 | 0 | 3 |
+| [Trigify (Trigify.io)](trigify-io.md) | trigify.io | 1 | 0 | 0 | 0 |
 | [Trumpet (sendtrumpet.com)](sendtrumpet-com.md) | sendtrumpet.com | 1 | 1 | 0 | 0 |
 | [Typeform](typeform-com.md) | typeform.com | 1 | 1 | 0 | 0 |
 
@@ -419,7 +419,7 @@ U
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
 | [Ultimate.ai (Ultimate)](getultimate-ai.md) | getultimate.ai | 1 | 0 | 0 | 0 |
-| [Unify](unifygtm-com.md) | unifygtm.com | 1 | 0 | 0 | 45 |
+| [Unify](unifygtm-com.md) | unifygtm.com | 1 | 0 | 0 | 13 |
 | [UpLead](uplead-com.md) | uplead.com | 1 | 0 | 0 | 0 |
 | [usefulapi.io](usefulapi-io.md) | usefulapi.io | 1 | 1 | 0 | 20 |
 | [UserGems](usergems-com.md) | usergems.com | 1 | 1 | 0 | 0 |

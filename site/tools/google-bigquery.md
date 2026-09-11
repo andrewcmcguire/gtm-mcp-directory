@@ -80,7 +80,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **list_table_ids** List table ids in a BigQuery dataset or BigLake namespace. Supports pagination. Use `page_size` to limit results and `page_token` to retrieve next page. evidence: answered tools/list · calling it reads · required: datasetId, projectId
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

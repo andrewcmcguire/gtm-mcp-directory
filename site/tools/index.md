@@ -15,7 +15,7 @@
 
 320 unique products. The directory holds 336 entries in total; the extra 16 are the same products listed a second time in another category and each one folds into its canonical page here.
 
-Looking for the tools inside the servers rather than the products themselves? The [tools index](../tools-index.md) lists every one of the 8,512 tool names harvested from 121 of the 225 servers, with the server each one belongs to.
+Looking for the tools inside the servers rather than the products themselves? The [tools index](../tools-index.md) lists every one of the 8,509 tool names harvested from 120 of the 225 servers, with the server each one belongs to.
 
 [A](#A)[B](#B)[C](#C)[D](#D)[E](#E)[F](#F)[G](#G)[H](#H)[I](#I)[J](#J)[K](#K)[L](#L)[M](#M)[N](#N)[O](#O)[P](#P)[Q](#Q)[R](#R)[S](#S)[T](#T)[U](#U)[V](#V)[W](#W)[X](#X)[Z](#Z)[#](#num)
 A
@@ -132,7 +132,7 @@ C
 
 - [Clay](../tools/clay.md) clay.com A spreadsheet-style workflow/orchestration tool that runs lead and company records through "waterfall" lookups across 100-200+ third-party data providers (Apollo, Lusha, Clearbit, etc.) and chains automation... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: hs
 
 - [Clearbit Reveal (rebranded: HubSpot Breeze Intelligence)](../tools/clearbit-reveal.md) clearbit.com Identifies companies visiting a website via IP-to-company matching, then enriches contact/company CRM records with firmographic data (employee count, revenue, tech stack, location) and surfaces buying-intent... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -374,7 +374,7 @@ L
 - [Luster](../tools/luster.md) luster.ai "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call signal analysis to flag rep skill gaps before they show up in real deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 M
 
-- [MadKudu](../tools/madkudu.md) madkudu.com Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears folded into HG Insights' "HG Sales Copilot" (AI-automated scoring, account research,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: mct-vulnerator
+- [MadKudu](../tools/madkudu.md) madkudu.com Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears folded into HG Insights' "HG Sales Copilot" (AI-automated scoring, account research,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: mct-split
 
 - [Maildoso](../tools/maildoso.md) maildoso.ai Cold-outreach mailbox and domain infrastructure provider - sells pre-configured SMTP mailboxes and Google Workspace accounts (with SPF/DKIM/DMARC already set up) built specifically for cold email sending,... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 

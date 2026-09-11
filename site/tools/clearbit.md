@@ -18,6 +18,7 @@ Clearbit (now HubSpot Breeze Intelligence)
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-02
+CLI: hs
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,24 @@ The mcp_url field is empty on this entry. 17 of 336 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+- **Binary**: hs
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-11
+
+Install, as the source shows it:
+
+```
+npm install -g @hubspot/cli
+```
+
+quoted from [https://www.npmjs.com/package/@hubspot/cli](https://www.npmjs.com/package/@hubspot/cli) on 2026-09-11, via npm
+
+Packages seen, with the version on 2026-09-11:
+
+- [npm: @hubspot/cli 8.14.0](https://www.npmjs.com/package/@hubspot/cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 

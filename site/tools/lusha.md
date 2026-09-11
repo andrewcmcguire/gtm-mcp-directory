@@ -85,7 +85,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **personBulkLookup** Look up multiple or single persons information from Lusha API. REQUIREMENTS: Each person body must have a combination of: 1. LinkedIn URL, 2. full name + company domain/name, or 3. email address. evidence: in the server source · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

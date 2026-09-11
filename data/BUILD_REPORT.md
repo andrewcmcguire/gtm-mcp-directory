@@ -69,9 +69,9 @@ last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-
 ### Capability layer (what each server exposes, from merge_capabilities.py)
 
 null
-- servers with a recorded tool list: **121** of 225 that claim a server
-- tools recorded in total: **8512**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
-- by evidence: `{"live-list": 6094, "source": 1155, "docs": 983, "readme": 280}`
+- servers with a recorded tool list: **120** of 225 that claim a server
+- tools recorded in total: **8509**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
+- by evidence: `{"live-list": 6098, "source": 1138, "docs": 983, "readme": 290}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
@@ -282,7 +282,7 @@ None.
 
 ## Integrity
 
-- content sha256: `dfeec7828b8472aec9fb04198dd969534567a8d9b7f3023ddf013a6701cefb88`
+- content sha256: `22cdf28bc8267f6fccad63351ab1aa6ed4d8a72c3f50a133ae15409d94350a21`
 - source sha256: `c4736c4873d844d6f5a59e9661fc4a7644e84a6e0a7b25036dad508dcd4447b4`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`

@@ -14,13 +14,13 @@ Directory
 
 Every GTM tool your agent can use, and which one does the job.
 
-**336 tools** counted · **200 official MCP servers** · **8,512 tools those servers name** · generated **2026-09-11** by build_directory.py (phase 1) · reconciled against tools_recount.py
+**336 tools** counted · **200 official MCP servers** · **8,509 tools those servers name** · generated **2026-09-11** by build_directory.py (phase 1) · reconciled against tools_recount.py
 
 - **tools counted**: 336
 
 - **official MCP servers**: 200
 
-- **tools those servers name**: 8,512
+- **tools those servers name**: 8,509
 
 - **community MCP**: 25
 
@@ -32,13 +32,13 @@ Every GTM tool your agent can use, and which one does the job.
 
 - **bench tested**: 1
 
-- **ship a CLI (official) as of 2026-09-11**: 54
+- **ship a CLI (official) as of 2026-09-11**: 55
 
 Entry facts were pulled by hand: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07. The generated date above is only the date this site was baked. Both dates ship because both rot. 320 of the 336 entries are unique products; 16 are the same product listed in a second category and counted once here.
 
-The tool count is the capability layer, harvested 2026-09-11: 121 of the 225 entries that record an official or community MCP server have a harvested tool list, and it names 8,512 tools. 2,523 of those belong to the GTM tools themselves; 5,989 belong to one gateway that re-exposes other vendors and are counted apart. The remaining 104 servers are **unmeasured, not empty**: nobody has read their tool list yet, and their pages say exactly that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is still 1 across the whole directory.
+The tool count is the capability layer, harvested 2026-09-11: 120 of the 225 entries that record an official or community MCP server have a harvested tool list, and it names 8,509 tools. 2,516 of those belong to the GTM tools themselves; 5,993 belong to one gateway that re-exposes other vendors and are counted apart. The remaining 105 servers are **unmeasured, not empty**: nobody has read their tool list yet, and their pages say exactly that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is still 1 across the whole directory.
 
-The command-line layer was harvested 2026-09-11 across vendor docs, npm, PyPI, Homebrew and GitHub: 54 of the 336 entries ship a CLI the vendor publishes, 37 have only a third party's, and 245 came back none found, which is a probe result on that date and not proof of absence. Each tool page quotes the install command with the URL it came from.
+The command-line layer was harvested 2026-09-11 across vendor docs, npm, PyPI, Homebrew and GitHub: 55 of the 336 entries ship a CLI the vendor publishes, 37 have only a third party's, and 244 came back none found, which is a probe result on that date and not proof of absence. Each tool page quotes the install command with the URL it came from.
 
 - [Search by capability](#search)
 

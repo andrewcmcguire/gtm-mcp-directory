@@ -34,7 +34,7 @@ Vendor domain: [pipeworx.io](https://pipeworx.io) · vendor page id pipeworx-io
 
 - **Docs only**: 0 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 0 named across 1 measured server, harvested 2026-09-11. A further 5,989 sit behind a gateway server and are counted separately, because a gateway re-exposes other vendors
+- **Tools catalogued**: 0 named across 1 measured server, harvested 2026-09-11. A further 5,993 sit behind a gateway server and are counted separately, because a gateway re-exposes other vendors
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 5989 named, harvested 2026-09-11, catalogue gateway, counted apart from the vendor total
+- **Tools catalogued**: 5993 named, harvested 2026-09-11, catalogue gateway, counted apart from the vendor total
 
 - **last_checked**: 2026-09-07
 

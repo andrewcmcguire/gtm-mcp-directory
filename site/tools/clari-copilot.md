@@ -77,7 +77,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **clari_insights_search** Search insights, action items, and risks across calls. evidence: in the vendor docs · calling it reads · read off scalekit, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 

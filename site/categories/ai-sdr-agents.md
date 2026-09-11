@@ -52,7 +52,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 50ad3dbcb89d3177... · counts
 
 - [Clari (+ Salesloft agents)](../tools/clari.md) clari.com Primarily a revenue-intelligence/forecasting platform (deal inspection, pipeline forecasting) with an AI Copilot for conversation coaching; following Clari's merger with Salesloft, the combined product line... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · Cross listed, canonical home is Conversation Intel
 
-- [MadKudu](../tools/madkudu.md) madkudu.com Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears folded into HG Insights' "HG Sales Copilot" (AI-automated scoring, account research,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: mct-vulnerator
+- [MadKudu](../tools/madkudu.md) madkudu.com Historically a lead-scoring/qualification product; the vendor domain now redirects to HG Insights, and MadKudu appears folded into HG Insights' "HG Sales Copilot" (AI-automated scoring, account research,... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: mct-split
 
 - [Unify](../tools/unify.md) unifygtm.com A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and run multi-channel sequences triggered by intent signals... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: unify-cli (community)
 

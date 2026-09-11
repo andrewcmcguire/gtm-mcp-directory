@@ -93,7 +93,7 @@ npm install -g @cli4ai/fireflies
 
 quoted from [https://www.npmjs.com/package/@cli4ai/fireflies](https://www.npmjs.com/package/@cli4ai/fireflies) on 2026-09-11, via npm, a third party source
 
-3 more install commands, harvested 2026-09-11, all on the [tool page](../tools/fireflies-ai.md).
+2 more install commands, harvested 2026-09-11, all on the [tool page](../tools/fireflies-ai.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 

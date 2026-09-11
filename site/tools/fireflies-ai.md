@@ -72,7 +72,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get_user** Returns your user profile info evidence: in the vendor docs · calling it reads
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -92,12 +92,6 @@ npm install -g @cli4ai/fireflies
 quoted from [https://www.npmjs.com/package/@cli4ai/fireflies](https://www.npmjs.com/package/@cli4ai/fireflies) on 2026-09-11, via npm, a third party source
 
 ```
-npm install -g fireflies-export
-```
-
-quoted from [https://www.npmjs.com/package/fireflies-export](https://www.npmjs.com/package/fireflies-export) on 2026-09-11, via npm, a third party source
-
-```
 npm install -g fireflies-cli
 ```
 
@@ -112,7 +106,6 @@ quoted from [https://pypi.org/project/fireflies-cli/](https://pypi.org/project/f
 Packages seen, with the version on 2026-09-11:
 
 - [npm: @cli4ai/fireflies 1.0.11, third party](https://www.npmjs.com/package/@cli4ai/fireflies)
-- [npm: fireflies-export 0.1.6, third party](https://www.npmjs.com/package/fireflies-export)
 - [npm: fireflies-cli 0.1.0, third party](https://www.npmjs.com/package/fireflies-cli)
 - [pypi: fireflies-cli 0.1.0, third party](https://pypi.org/project/fireflies-cli/)
 - [pypi: fireflies-cli 0.1.0, third party](https://pypi.org/project/fireflies-cli/)

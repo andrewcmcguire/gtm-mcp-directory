@@ -1,6 +1,6 @@
 # Common Room: products, MCP servers and connect URLs, one vendor page
 
-> Common Room (commonroom.io): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 1 tools catalogued. Data baked 2026-09-11.
+> Common Room (commonroom.io): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 15 tools catalogued. Data baked 2026-09-11.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -34,7 +34,7 @@ Vendor domain: [commonroom.io](https://commonroom.io) · vendor page id commonro
 
 - **Docs only**: 1 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 1 named across 1 measured server, harvested 2026-09-11
+- **Tools catalogued**: 15 named across 1 measured server, harvested 2026-09-11
 
 - **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://www.commonroom.io/docs/using-common-room/mcp-server/](https://www.commonroom.io/docs/using-common-room/mcp-server/) (docs page)
 
-- **Tools catalogued**: 1 named, harvested 2026-09-11, catalogue fixed
+- **Tools catalogued**: 15 named, harvested 2026-09-11, catalogue fixed
 
 - **last_checked**: 2026-08-24
 
