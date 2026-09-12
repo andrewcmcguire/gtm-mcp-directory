@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [turbomcp.ai (mcp.run now 301-redirects here)](https://turbomcp.ai (mcp.run now 301-redirects here)) · entry id 07-mcp-run-turbomcp · source 07-mcp-infrastructure.md line 79
+Vendor: [turbomcp.ai (mcp.run now 301-redirects here)](https://turbomcp.ai (mcp.run now 301-redirects here)) · entry id 07-mcp-run-turbomcp · source 07-mcp-infrastructure.md line 80
 
 **What it does**
 An enterprise self-hosted MCP gateway and management platform - a trusted, admin-curated registry plus RBAC-controlled deployment of MCP servers across a team's own infrastructure (K8s, PaaS, VMs).
@@ -61,7 +61,7 @@ https://github.com/dylibso/mcp.run-servlets ; https://turbomcp.ai
 
 - **Tools named**: 55
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: dylibso/mcp.run-servlets
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -180,11 +180,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **wp_tag_list** List all WordPress tags evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -249,12 +249,12 @@ mcp.run - originally a lightweight community MCP server registry - now redirects
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 79
+- **Source line**: 80
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [openprisetech.com](https://openprisetech.com) · entry id 06-openprise · source 06-revops-infra.md line 241
+Vendor: [openprisetech.com](https://openprisetech.com) · entry id 06-openprise · source 06-revops-infra.md line 243
 
 **What it does**
 A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack.
@@ -52,7 +52,7 @@ none-found
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -125,12 +125,12 @@ Checked homepage, /docs (404), /platform, and /resources specifically for "MCP" 
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 241
+- **Source line**: 243
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

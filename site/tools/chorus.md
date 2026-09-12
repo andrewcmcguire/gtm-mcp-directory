@@ -61,7 +61,7 @@ https://github.com/opensourceops/chorus-mcp-server (unofficial; its README state
 
 - **Tools named**: 39
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: opensourceops/chorus-mcp-server
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -148,14 +148,14 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **chorus_upload_recording** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: gtm
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -163,13 +163,13 @@ Install, as the source shows it:
 npm install -g @zoominfo/gtm-ai-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@zoominfo/gtm-ai-cli](https://www.npmjs.com/package/@zoominfo/gtm-ai-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@zoominfo/gtm-ai-cli](https://www.npmjs.com/package/@zoominfo/gtm-ai-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @zoominfo/gtm-ai-cli 1.1.0](https://www.npmjs.com/package/@zoominfo/gtm-ai-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -255,6 +255,6 @@ https://www.zoominfo.com/products/chorus, https://api-docs.chorus.ai/, https://w
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

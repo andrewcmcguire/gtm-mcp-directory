@@ -1,6 +1,6 @@
 # Enterprise gated GTM tools: 87 an agent cannot reach without a contract
 
-> 79 enterprise only entries plus 8 enterprise leaning. 41 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-11.
+> 79 enterprise only entries plus 8 enterprise leaning. 41 of them ship an official MCP server that most readers of this page still cannot call. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -193,4 +193,4 @@ vareto.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No
 | [Varicent](../tools/varicent.md)
 varicent.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory... |
 
-Counted 2026-09-11 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

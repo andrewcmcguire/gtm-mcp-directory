@@ -1,6 +1,6 @@
 # Which GTM MCP servers use OAuth? The auth split across every server, counted
 
-> Of the 225 GTM tools with an MCP server, 137 document an OAuth flow and 121 document an API key. Why the difference matters, and the full breakdown. Counted 2026-09-11.
+> Of the 225 GTM tools with an MCP server, 137 document an OAuth flow and 121 document an API key. Why the difference matters, and the full breakdown. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -32,7 +32,7 @@ Neither is wrong. Knowing which one you are about to wire in is not optional, pa
 | [Third party platform auth](../lists/auth-third-party.md) | 7 | Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives... |
 | [Auth not recorded](../lists/auth-unrecorded.md) | 28 | The mcp_auth field on the entry is blank, or says unknown. Published as blank rather than guessed. |
 
-Counted 2026-09-11 across the 225 entries with a server. The bucket is a keyword match over the mcp_auth field, run at build time and disclosed as such; the verbatim field is printed beside every row on [the auth pages](../lists/auth-types.md) so you can check the parse yourself. 331 of 336 entries record an auth value at all.
+Counted 2026-09-12 across the 225 entries with a server. The bucket is a keyword match over the mcp_auth field, run at build time and disclosed as such; the verbatim field is printed beside every row on [the auth pages](../lists/auth-types.md) so you can check the parse yourself. 331 of 336 entries record an auth value at all.
 
 ## What the OAuth entries have in common
 
@@ -48,7 +48,7 @@ Where a vendor offers both, take OAuth for anything running on a machine you do 
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-11. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

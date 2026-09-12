@@ -60,7 +60,7 @@ https://mcp.pipedream.com
 
 - **Tools named**: 1
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -69,11 +69,11 @@ Recorded by the harvest: the tools are the customer's own connected accounts and
 
 - **CONFIGURE_COMPONENT** Retrieve configuration values for dynamic properties of a component. evidence: in the vendor docs · calling it reads · required: key, propName · read off pipedream, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -96,6 +96,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/PipedreamHQ/mcp-chat](https://github.com/PipedreamHQ/mcp-chat)
 
 **On GitHub**
 
@@ -130,13 +134,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 
 - [https://mcp.pipedream.com](https://mcp.pipedream.com)
 - [https://pipedream.com/docs/connect/mcp](https://pipedream.com/docs/connect/mcp)
+- [https://github.com/PipedreamHQ/mcp-chat](https://github.com/PipedreamHQ/mcp-chat)
 
-2 source URLs. Raw sources field, verbatim:
+3 source URLs. Raw sources field, verbatim:
 
-https://mcp.pipedream.com, https://pipedream.com/docs/connect/mcp
+https://mcp.pipedream.com, https://pipedream.com/docs/connect/mcp, https://github.com/PipedreamHQ/mcp-chat
 
 **Notes, verbatim from the file**
-Pipedream is custodial like Composio - it stores end-user credentials server-side rather than passing them through. Could not confirm exact production-tier pricing numbers in this pass (pricing docs page 404'd); marked unknown rather than guessed. GTM apps (Salesforce, HubSpot) were not explicitly named in the fetched docs, only implied by the "3,000+ apps" breadth claim.
+Pipedream is custodial like Composio - it stores end-user credentials server-side rather than passing them through. Could not confirm exact production-tier pricing numbers in this pass (pricing docs page 404'd); marked unknown rather than guessed. GTM apps (Salesforce, HubSpot) were not explicitly named in the fetched docs, only implied by the "3,000+ apps" breadth claim. 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/PipedreamHQ/mcp-chat, the org PipedreamHQ (profile site pipedream.com), 192 stars, last push 2026-05-08. It is NOT the server source: the README describes an open-source reference chat app built on Pipedream's MCP server. The npm package @pipedream/mcp ("Pipedream stdio and SSE MCP servers") declares no repository, and a contents read of the PipedreamHQ/pipedream monorepo on 2026-09-09 found no modelcontextprotocol directory under the root or under packages/, so no public server source was found.
 
 **Provenance**
 
@@ -150,6 +155,6 @@ Pipedream is custodial like Composio - it stores end-user credentials server-sid
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -22,7 +22,7 @@ CLI: apideck
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [apideck.com](https://apideck.com) · entry id 07-apideck · source 07-mcp-infrastructure.md line 272
+Vendor: [apideck.com](https://apideck.com) · entry id 07-apideck · source 07-mcp-infrastructure.md line 273
 
 **What it does**
 A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file storage and issue tracking.
@@ -62,7 +62,7 @@ https://github.com/apideck-libraries/mcp (docs: https://developers.apideck.com/m
 
 - **Tools named**: 22
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: apideck-libraries/mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -113,14 +113,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **x-apideck-consumer-id** The end-user / customer ID in your app (**optional** - see below) evidence: in a README table · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: apideck
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -128,19 +128,19 @@ Install, as the source shows it:
 brew install apideck-libraries/tap/apideck
 ```
 
-quoted from [https://www.apideck.com/cli](https://www.apideck.com/cli) on 2026-09-11, via brew
+quoted from [https://www.apideck.com/cli](https://www.apideck.com/cli) on 2026-09-12, via brew
 
 ```
 go install github.com/apideck-libraries/cli/cmd/apideck@latest
 ```
 
-quoted from [https://developers.apideck.com/cli](https://developers.apideck.com/cli) on 2026-09-11, via go
+quoted from [https://developers.apideck.com/cli](https://developers.apideck.com/cli) on 2026-09-12, via go
 
 ```
 docker run apideck/cli
 ```
 
-quoted from [https://developers.apideck.com/cli](https://developers.apideck.com/cli) on 2026-09-11, via docker
+quoted from [https://developers.apideck.com/cli](https://developers.apideck.com/cli) on 2026-09-12, via docker
 
 Login or key hint seen on the page:
 
@@ -154,7 +154,7 @@ Where it was documented:
 
 - [https://www.apideck.com/cli](https://www.apideck.com/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -232,12 +232,12 @@ Added 2026-08-25 in the coverage sweep. CAVEAT ON THE ENDPOINT: two different ho
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 272
+- **Source line**: 273
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

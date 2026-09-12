@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [klavis.ai](https://klavis.ai) · entry id 07-klavis-ai · source 07-mcp-infrastructure.md line 224
+Vendor: [klavis.ai](https://klavis.ai) · entry id 07-klavis-ai · source 07-mcp-infrastructure.md line 225
 
 **What it does**
 Primarily an AI-agent training-data company - it builds "live environments for training AI agents" (long-horizon coding tasks and agentic tool-use scenarios), and separately mentions "production MCP servers" and "600+ real tools and SaaS apps" as part of that training-data infrastructure.
@@ -62,7 +62,7 @@ https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted S
 
 - **Tools named**: 25
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: Klavis-AI/klavis
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -119,11 +119,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **shopify_update_product** Update an existing product evidence: in the server source · calling it writes
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -206,12 +206,12 @@ Included per the research brief's seed list, but the public-facing material foun
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 224
+- **Source line**: 225
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -23,7 +23,7 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **MCP unknown**: 2
 - **No MCP found**: 6
 
-- **ship a CLI (official) as of 2026-09-11**: 6
+- **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 1
 - **Paid, self-serve**: 23

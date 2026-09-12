@@ -22,7 +22,7 @@ CLI: superblocks
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [superblocks.com](https://superblocks.com) · entry id 06-superblocks · source 06-revops-infra.md line 426
+Vendor: [superblocks.com](https://superblocks.com) · entry id 06-superblocks · source 06-revops-infra.md line 428
 
 **What it does**
 A platform for building - and more distinctively, governing - AI-generated internal apps: lets business teams build apps (including importing prototypes from Claude, Lovable, or Replit) while giving IT/Security a control layer over integrations, permissions, and auditing.
@@ -62,14 +62,14 @@ https://api.superblocks.com/mcp ; https://superblocks.com/blog/superblocks-mcp
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: superblocks
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -77,27 +77,27 @@ Install, as the source shows it:
 npm install -g @superblocksteam/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@superblocksteam/cli](https://www.npmjs.com/package/@superblocksteam/cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@superblocksteam/cli](https://www.npmjs.com/package/@superblocksteam/cli) on 2026-09-12, via npm
 
 ```
 npm install -g superblocks-cli
 ```
 
-quoted from [https://www.npmjs.com/package/superblocks-cli](https://www.npmjs.com/package/superblocks-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/superblocks-cli](https://www.npmjs.com/package/superblocks-cli) on 2026-09-12, via npm
 
 ```
 npm install -g @superblocksteam/cli-ephemeral
 ```
 
-quoted from [https://www.npmjs.com/package/@superblocksteam/cli-ephemeral](https://www.npmjs.com/package/@superblocksteam/cli-ephemeral) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@superblocksteam/cli-ephemeral](https://www.npmjs.com/package/@superblocksteam/cli-ephemeral) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @superblocksteam/cli 1.14.4](https://www.npmjs.com/package/@superblocksteam/cli)
 - [npm: superblocks-cli 0.0.4](https://www.npmjs.com/package/superblocks-cli)
 - [npm: @superblocksteam/cli-ephemeral 2.0.43](https://www.npmjs.com/package/@superblocksteam/cli-ephemeral)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -170,12 +170,12 @@ Superblocks MCP is a different category of MCP than the rest of this file - it i
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 426
+- **Source line**: 428
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

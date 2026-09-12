@@ -62,7 +62,7 @@ https://mcp.supersend.io/mcp ; https://docs.supersend.io/docs/mcp-server (endpoi
 
 - **Tools named**: 45
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -157,14 +157,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **verify_email** Standalone email verification evidence: in the vendor docs · calling it reads · required: email
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: supersendtx
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -172,13 +172,13 @@ Install, as the source shows it:
 npm install -g supersendtx-cli
 ```
 
-quoted from [https://www.npmjs.com/package/supersendtx-cli](https://www.npmjs.com/package/supersendtx-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/supersendtx-cli](https://www.npmjs.com/package/supersendtx-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: supersendtx-cli 0.15.5](https://www.npmjs.com/package/supersendtx-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -246,6 +246,6 @@ Vendor's own MCP docs state the MCP server is a paid service with no free tier. 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

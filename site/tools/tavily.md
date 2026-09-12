@@ -60,14 +60,14 @@ https://mcp.tavily.com/mcp/ (docs: https://docs.tavily.com/documentation/mcp)
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: tavily-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -75,9 +75,9 @@ Install, as the source shows it:
 pip install tavily-cli
 ```
 
-quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-11, via pypi
+quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-12, via pypi
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @renxqoo/tavily-cli 1.0.3, third party](https://www.npmjs.com/package/@renxqoo/tavily-cli)
 - [npm: tavily-cli 0.1.2, third party](https://www.npmjs.com/package/tavily-cli)
@@ -85,7 +85,7 @@ Packages seen, with the version on 2026-09-11:
 - [pypi: tavily 1.1.0, third party](https://pypi.org/project/tavily/)
 - [pypi: tavily-cli 0.1.8](https://pypi.org/project/tavily-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -108,6 +108,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp)
 
 **On GitHub**
 
@@ -141,13 +145,14 @@ No job tag on this entry.
 - [https://docs.tavily.com/documentation/mcp](https://docs.tavily.com/documentation/mcp)
 - [https://www.tavily.com/pricing](https://www.tavily.com/pricing)
 - [https://mcp.tavily.com/mcp/](https://mcp.tavily.com/mcp/)
+- [https://github.com/tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://docs.tavily.com/documentation/mcp, https://www.tavily.com/pricing, https://mcp.tavily.com/mcp/
+https://docs.tavily.com/documentation/mcp, https://www.tavily.com/pricing, https://mcp.tavily.com/mcp/, https://github.com/tavily-ai/tavily-mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.tavily.com/mcp/ returned HTTP 401 with an empty body; the control POST to /zzz-not-a-route returned 404 "Not Found". Live first-party auth-gated server. The docs put the API key in the URL query string as the primary example; a key in a URL ends up in client logs and config files, which is worth saying before anyone pastes it on camera. The endpoint carries a trailing slash. 2026-09-07: https://mcp.tavily.com/mcp/ returned 401 to an MCP initialize POST (https://mcp.tavily.com/mcp/).
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.tavily.com/mcp/ returned HTTP 401 with an empty body; the control POST to /zzz-not-a-route returned 404 "Not Found". Live first-party auth-gated server. The docs put the API key in the URL query string as the primary example; a key in a URL ends up in client logs and config files, which is worth saying before anyone pastes it on camera. The endpoint carries a trailing slash. 2026-09-07: https://mcp.tavily.com/mcp/ returned 401 to an MCP initialize POST (https://mcp.tavily.com/mcp/). 2026-09-09 (P6-04 repo sweep): first-party server source recorded at https://github.com/tavily-ai/tavily-mcp, 2,376 stars, not archived, last push 2026-09-03. Evidence that it is Tavily's own: the official MCP registry entry io.github.tavily-ai/tavily-mcp carries that repository URL, the npm package tavily-mcp declares the same repository, and the org tavily-ai lists tavily.com as its site.
 
 **Provenance**
 
@@ -161,6 +166,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.tavily.com/mcp/ re
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
 # Scrape a web page for facts: 6 GTM tools, 5 with an official MCP server
 
-> Fetch and structure an arbitrary public page. The general-purpose fallback when no structured provider has the record. 5 of the 6 entries tagged with this job carry an MCP server of some kind, 5 of them official. Counted 2026-09-11 from the directory data.
+> Fetch and structure an arbitrary public page. The general-purpose fallback when no structured provider has the record. 5 of the 6 entries tagged with this job carry an MCP server of some kind, 5 of them official. Counted 2026-09-12 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Fetch and structure an arbitrary public page. The general-purpose fallback when 
 - **no MCP found**: 1
 - **solo reachable**: 5
 
-5 of the 6 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 6 tagged entries are distinct products. 1 have been bench tested. Counted 2026-09-11 from directory.json.
+5 of the 6 entries tagged with this job carry an MCP server of some kind, 5 of them official. All 6 tagged entries are distinct products. 1 have been bench tested. Counted 2026-09-12 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -49,7 +49,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Exa](../tools/exa.md) exa.ai A search API that returns web pages and structured results ranked by semantic/meaning similarity to a query (embeddings-based) rather than keyword matching, plus tools to fetch page contents and get... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: exa-cli (community)
 
-- [Bright Data](../tools/bright-data.md) brightdata.com A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation, structured scraping APIs) that GTM engineers repurpose to pull LinkedIn, company-site, and directory data... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Bright Data](../tools/bright-data.md) brightdata.com A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation, structured scraping APIs) that GTM engineers repurpose to pull LinkedIn, company-site, and directory data... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: bdata
 
 - [Clay](../tools/clay.md) clay.com A spreadsheet-style workflow/orchestration tool that runs lead and company records through "waterfall" lookups across 100-200+ third-party data providers (Apollo, Lusha, Clearbit, etc.) and chains automation... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-11",
+  "generated_on": "2026-09-12",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
   "entries_parsed": 336,
@@ -238,11 +238,11 @@
     "mcp_url_with_parseable_url": 243,
     "mcp_url_pointing_at_github": 83,
     "mcp_auth_present": 331,
-    "github_candidates_any": 98,
+    "github_candidates_any": 108,
     "sources_zero_urls": 0,
     "sources_one_url": 13,
     "sources_two_or_more_urls": 323,
-    "sources_url_total": 1457,
+    "sources_url_total": 1468,
     "sources_with_annotations": 12,
     "entries_with_extra_fields": 0,
     "mcp_status": {
@@ -285,14 +285,14 @@
     },
     "official_with_live_endpoint": 27,
     "official_docs_only": 88,
-    "mcp_tool_count_total": 8509,
-    "servers_with_a_tool_list": 120,
+    "mcp_tool_count_total": 8507,
+    "servers_with_a_tool_list": 119,
     "servers_claiming_a_server": 225,
     "tools_by_evidence": {
       "live-list": 6098,
-      "source": 1138,
+      "source": 1149,
       "docs": 983,
-      "readme": 290
+      "readme": 277
     },
     "endpoint_probe_date": "2026-09-04",
     "jobs_tagged": 271,
@@ -1934,6 +1934,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "22cdf28bc8267f6fccad63351ab1aa6ed4d8a72c3f50a133ae15409d94350a21",
-  "source_sha256": "c4736c4873d844d6f5a59e9661fc4a7644e84a6e0a7b25036dad508dcd4447b4"
+  "content_sha256": "d1c00d241bb39276cdaa252d6cc792e4b3b0642f1ff62d3a97aed1d85797b356",
+  "source_sha256": "9e7e0bc8005b3275b0119fd1404ef0908f961a84b7fe8659eef9d11968ec6090"
 }

@@ -1,6 +1,6 @@
 # Sales engagement and outbound tools with MCP servers: 25 of 33, counted
 
-> 25 of the 33 engagement & outbound tools in this directory have an MCP server: 23 official and 2 community. The list with server URLs and access gates. Counted 2026-09-11.
+> 25 of the 33 engagement & outbound tools in this directory have an MCP server: 23 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -106,7 +106,7 @@ Multi-channel sales engagement platform (email, phone, social, SMS) with an AI S
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
 | [Gate unknown](../gates/unknown.md) | 1 |
 
-Counted 2026-09-11. Source file 02-engagement-outbound.md, content sha256 85d06b78cc69e2e6...
+Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 85d06b78cc69e2e6...
 
 ## Sources
 
@@ -114,7 +114,7 @@ Counted 2026-09-11. Source file 02-engagement-outbound.md, content sha256 85d06b
 - [Engagement & Outbound tools with MCP servers](../lists/mcp-engagement-outbound.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-11. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

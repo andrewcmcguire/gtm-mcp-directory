@@ -24,7 +24,7 @@ Tools that sit on the receiving end of demand - website chat that qualifies and 
 - **MCP not applicable**: 1
 - **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-11**: 3
+- **ship a CLI (official) as of 2026-09-12**: 3
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6

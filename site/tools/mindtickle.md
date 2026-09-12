@@ -55,7 +55,7 @@ n/a (two first-party surfaces name MCP with no endpoint or docs: https://www.min
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -136,6 +136,6 @@ Searched GitHub, mcp.so, glama.ai, and pulsemcp.com - no Mindtickle MCP server f
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

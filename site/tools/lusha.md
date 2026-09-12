@@ -60,36 +60,13 @@ https://github.com/lusha-oss/lusha-public-api-mcp (also https://github.com/lusha
 
 **What this server exposes**
 
-- **Tools named**: 8
-- **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
-- **Repo read**: lusha-oss/lusha-public-api-mcp
-- **Whose repo**: first-party
-- **Catalogue shape**: a fixed catalogue the vendor publishes
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
-
-- **companyBulkLookup** Look up multiple or single companies information from Lusha API. REQUIREMENTS: Each company must provide at least one of: 1. Company name, 2. Company domain, 3. Fully qualified domain name (fqdn), or evidence: in the server source · calling it reads
-
-- **companyEnrich** Get detailed company information from search results. WARNING: CHARGES CREDITS - always ask user first! REQUIREMENTS: - requestId: from prospectingCompany search response - companiesIds: array of company IDs evidence: in the server source · calling it reads
-
-- **companyFilters** Get available filter options for company prospecting. No credits charged. FILTER TYPES: - names, industries, sizes, revenues, sics, naics, intentTopics - locations, technologies (require searchText parameter evidence: in the server source · calling it reads
-
-- **companySearch** Search for companies using advanced filters via Lusha evidence: in the server source · calling it reads
-
-- **contactEnrich** Enrich contacts from search results. This is step 3 of the prospecting process. IMPORTANT: - The requestId parameter MUST be the exact UUID received from the contactSearch response - ALWAYS ask the user which specif evidence: in the server source · calling it reads
-
-- **contactFilters** Get available filter values for contact search. Supports: 1. departments - List of available departments 2. seniority - List of available seniority levels 3. existing_data_points - List of available data points evidence: in the server source · calling it reads
-
-- **contactSearch** Search for contacts using various filters in Lusha API. This is step 2 of the prospecting process. IMPORTANT: - After returning search results, ALWAYS ask the user if they want to enrich specific contacts - evidence: in the server source · calling it reads
-
-- **personBulkLookup** Look up multiple or single persons information from Lusha API. REQUIREMENTS: Each person body must have a combination of: 1. LinkedIn URL, 2. full name + company domain/name, or 3. email address. evidence: in the server source · calling it reads
-
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -181,6 +158,6 @@ Per Lusha's own docs, every user gets an API key by default on every plan includ
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -60,14 +60,14 @@ https://mcp.apify.com (docs: https://docs.apify.com/platform/integrations/mcp; r
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: actor
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -75,20 +75,20 @@ Install, as the source shows it:
 npm install -g apify-cli
 ```
 
-quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-12, via npm
 
 ```
 brew install apify-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-11, via brew
+quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-12, via brew
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: apify-cli 1.10.0](https://www.npmjs.com/package/apify-cli)
 - [brew: apify-cli 1.10.0](https://formulae.brew.sh/formula/apify-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -111,6 +111,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/apify/apify-mcp-server](https://github.com/apify/apify-mcp-server)
 
 **On GitHub**
 
@@ -144,13 +148,14 @@ No job tag on this entry.
 - [https://docs.apify.com/platform/integrations/mcp](https://docs.apify.com/platform/integrations/mcp)
 - [https://apify.com/pricing](https://apify.com/pricing)
 - [https://mcp.apify.com](https://mcp.apify.com)
+- [https://github.com/apify/apify-mcp-server](https://github.com/apify/apify-mcp-server)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://docs.apify.com/platform/integrations/mcp, https://apify.com/pricing, https://mcp.apify.com
+https://docs.apify.com/platform/integrations/mcp, https://apify.com/pricing, https://mcp.apify.com, https://github.com/apify/apify-mcp-server
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.apify.com returned HTTP 401 with JSON reading "Missing or invalid access token. Pass an Apify API token in the Authorization: Bearer <token> header"; the control POST to /zzz-not-a-route returned 404 with a body that begins "There is nothing at route POST /zzz-not-a-route. This Model Context Protocol (MCP) server supports the Streamable HTTP transport", which is the server identifying itself on its own 404 page. Live first-party auth-gated server. STANDING CATEGORY RISK: many store Actors scrape LinkedIn and other sites whose terms prohibit automation; the account-ban and legal exposure sits with the operator, not the platform. The pricing page states free-plan usage credits "expire at the end of the billing cycle". 2026-09-07: https://mcp.apify.com returned 401 to an MCP initialize POST (https://mcp.apify.com).
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.apify.com returned HTTP 401 with JSON reading "Missing or invalid access token. Pass an Apify API token in the Authorization: Bearer <token> header"; the control POST to /zzz-not-a-route returned 404 with a body that begins "There is nothing at route POST /zzz-not-a-route. This Model Context Protocol (MCP) server supports the Streamable HTTP transport", which is the server identifying itself on its own 404 page. Live first-party auth-gated server. STANDING CATEGORY RISK: many store Actors scrape LinkedIn and other sites whose terms prohibit automation; the account-ban and legal exposure sits with the operator, not the platform. The pricing page states free-plan usage credits "expire at the end of the billing cycle". 2026-09-07: https://mcp.apify.com returned 401 to an MCP initialize POST (https://mcp.apify.com). 2026-09-09 (P6-04 repo sweep): first-party server source recorded at https://github.com/apify/apify-mcp-server, 6,493 stars, not archived, last push 2026-09-09. Evidence that it is Apify's own: the official MCP registry entry com.apify/apify-mcp-server (a DNS-verified apify.com namespace) carries that repository URL, the npm package @apify/actors-mcp-server declares the same repository, and the repo owner is the org apify whose profile site is apify.com.
 
 **Provenance**
 
@@ -164,6 +169,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.apify.com returned
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

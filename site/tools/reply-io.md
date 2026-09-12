@@ -61,7 +61,7 @@ https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp
 
 - **Tools named**: 71
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: reply-team/reply-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -210,14 +210,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **reply_update_reply_handler** Patch a reply handler evidence: in the vendor docs · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: reply
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -225,13 +225,13 @@ Install, as the source shows it:
 npm install -g reply-cli
 ```
 
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-11, via npm
+quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-12, via npm
 
 ```
 npx -y reply-cli
 ```
 
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-11, via npx
+quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-12, via npx
 
 Login or key hint seen on the page:
 
@@ -245,7 +245,7 @@ Where it was documented:
 
 - [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -352,6 +352,6 @@ Vendor states API/webhook access is included across all pricing tiers starting a
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

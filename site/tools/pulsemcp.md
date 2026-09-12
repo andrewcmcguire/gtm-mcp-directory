@@ -22,7 +22,7 @@ CLI: air
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [pulsemcp.com](https://pulsemcp.com) · entry id 07-pulsemcp · source 07-mcp-infrastructure.md line 142
+Vendor: [pulsemcp.com](https://pulsemcp.com) · entry id 07-pulsemcp · source 07-mcp-infrastructure.md line 143
 
 **What it does**
 A community-run browsable directory and news hub for the MCP ecosystem (servers, clients, use cases, and a newsletter called "The Agentic Loop") that links out to third-party servers rather than hosting them.
@@ -58,7 +58,7 @@ https://www.pulsemcp.com
 - **Binary**: air
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -66,13 +66,13 @@ Install, as the source shows it:
 npm install -g @pulsemcp/air-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@pulsemcp/air-cli](https://www.npmjs.com/package/@pulsemcp/air-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @pulsemcp/air-cli 0.13.1](https://www.npmjs.com/package/@pulsemcp/air-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -142,12 +142,12 @@ As of this check, PulseMCP stated new server submissions and listing changes wer
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 142
+- **Source line**: 143
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

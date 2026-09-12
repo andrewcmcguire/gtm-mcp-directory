@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [claude.com/partners/mcp](https://claude.com/partners/mcp) · entry id 07-claude-anthropic-mcp-connector-directory · source 07-mcp-infrastructure.md line 203
+Vendor: [claude.com/partners/mcp](https://claude.com/partners/mcp) · entry id 07-claude-anthropic-mcp-connector-directory · source 07-mcp-infrastructure.md line 204
 
 **What it does**
 Anthropic's own curated, in-product directory of MCP connectors that Claude users can browse and one-click-connect to, filterable by use case (sales, marketing, data, etc.) and by capability (read / read-write / interactive).
@@ -54,7 +54,7 @@ https://claude.com/connectors (redirect correction 2026-08-28: the address previ
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -112,12 +112,12 @@ Because each connector is built and operated by its own third-party developer (n
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 203
+- **Source line**: 204
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

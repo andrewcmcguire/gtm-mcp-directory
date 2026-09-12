@@ -22,7 +22,7 @@ CLI: cargo
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [getcargo.ai](https://getcargo.ai) · entry id 06-cargo · source 06-revops-infra.md line 194
+Vendor: [getcargo.ai](https://getcargo.ai) · entry id 06-cargo · source 06-revops-infra.md line 195
 
 **What it does**
 A GTM/RevOps engineering platform (YC S23) that lets revenue teams define, version, and automate go-to-market logic - lead sourcing, enrichment, scoring, routing, CRM sync - as code, run by AI agents.
@@ -65,14 +65,14 @@ Recorded by the harvest: the customer's own Cargo workflows become the tools
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: cargo
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -80,13 +80,13 @@ Install, as the source shows it:
 npm install -g @cargo-ai/cli
 ```
 
-quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-11, via npm
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-12, via npm
 
 ```
 npx @cargo-ai/cli
 ```
 
-quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-11, via npx
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-12, via npx
 
 Login or key hint seen on the page:
 
@@ -97,7 +97,7 @@ Where it was documented:
 
 - [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -124,6 +124,7 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
 
 - [https://github.com/getcargohq](https://github.com/getcargohq)
+- [https://github.com/getcargohq/cargo-skills](https://github.com/getcargohq/cargo-skills)
 
 **On GitHub**
 
@@ -165,13 +166,14 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 - [https://www.getcargo.ai/pricing](https://www.getcargo.ai/pricing)
 - [https://docs.getcargo.ai/](https://docs.getcargo.ai/)
 - [https://github.com/getcargohq](https://github.com/getcargohq)
+- [https://github.com/getcargohq/cargo-skills](https://github.com/getcargohq/cargo-skills)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.ycombinator.com/companies/cargo, https://www.getcargo.ai/, https://www.getcargo.ai/pricing, https://docs.getcargo.ai/, https://github.com/getcargohq
+https://www.ycombinator.com/companies/cargo, https://www.getcargo.ai/, https://www.getcargo.ai/pricing, https://docs.getcargo.ai/, https://github.com/getcargohq, https://github.com/getcargohq/cargo-skills
 
 **Notes, verbatim from the file**
-DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multiple direct fetch attempts). The real company matching this brief (YC S23, founders ex-Spendesk) is at getcargo.ai / getcargo.io. Cargo's GitHub org (github.com/getcargohq) has 5 public repos but no standalone "MCP server" repo - MCP is a feature inside the core product/docs, not a separate open-source connector. 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. What the official claim actually rests on: defineMcpServer inside Cargo's own CDK, a framework feature documented at docs.getcargo.ai, not a separate repo or a callable endpoint. The finder searched GitHub (owners getcargo, getcargo-ai, cargo-ai), npm, PyPI and the official registry and probed https://mcp.getcargo.ai/ and /mcp with no result. A human should decide whether official survives law 1.
+DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multiple direct fetch attempts). The real company matching this brief (YC S23, founders ex-Spendesk) is at getcargo.ai / getcargo.io. Cargo's GitHub org (github.com/getcargohq) has 5 public repos but no standalone "MCP server" repo - MCP is a feature inside the core product/docs, not a separate open-source connector. 2026-09-07: LAW 1 FLAG, NOT DOWNGRADED. What the official claim actually rests on: defineMcpServer inside Cargo's own CDK, a framework feature documented at docs.getcargo.ai, not a separate repo or a callable endpoint. The finder searched GitHub (owners getcargo, getcargo-ai, cargo-ai), npm, PyPI and the official registry and probed https://mcp.getcargo.ai/ and /mcp with no result. A human should decide whether official survives law 1. 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/getcargohq/cargo-skills, the org getcargohq, 17 stars, last push 2026-09-05. Its README names the hosted-MCP-server skill cargo-mcp and calls MCP the hosted server, the one surface that is not the CLI, so the repo documents and wires the hosted server rather than containing its source. No public server source was found.
 
 **Provenance**
 
@@ -179,12 +181,12 @@ DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multipl
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 194
+- **Source line**: 195
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

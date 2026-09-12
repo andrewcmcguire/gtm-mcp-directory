@@ -22,7 +22,7 @@ CLI: metorial
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [metorial.com](https://metorial.com) · entry id 07-metorial · source 07-mcp-infrastructure.md line 250
+Vendor: [metorial.com](https://metorial.com) · entry id 07-metorial · source 07-mcp-infrastructure.md line 251
 
 **What it does**
 A hosted MCP gateway that gives AI agents/"AI employees" centralized, governed access to a company's SaaS tools (Google Workspace, Microsoft 365, GitHub, Jira, Slack, Teams, Stripe, Salesforce, Zendesk, and custom internal systems) through one integration point.
@@ -62,7 +62,7 @@ https://github.com/metorial/metorial ; https://metorial.com
 
 - **Tools named**: 9
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: metorial/metorial
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -87,14 +87,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **XAI** `@metorial/xai` evidence: in a README table · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: metorial
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -102,7 +102,7 @@ Install, as the source shows it:
 npm install -g @metorial/cli
 ```
 
-quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-11, via npm
+quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-12, via npm
 
 Login or key hint seen on the page:
 
@@ -112,7 +112,7 @@ Where it was documented:
 
 - [https://metorial.com/cli](https://metorial.com/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -188,12 +188,12 @@ Metorial is explicitly and fully custodial of OAuth tokens across every connecte
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 250
+- **Source line**: 251
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

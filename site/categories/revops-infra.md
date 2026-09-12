@@ -22,13 +22,13 @@ The systems of record, the pipes between them, and the low-code layer a GTM engi
 - **MCP unknown**: 1
 - **No MCP found**: 1
 
-- **ship a CLI (official) as of 2026-09-11**: 9
+- **ship a CLI (official) as of 2026-09-12**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
 
-Source file: 06-revops-infra.md · content sha256 b642afdaa81f349c... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 92bc241926874ea0... · counts reconciled against tools_recount.py at build time.
 
 - [The 29 with an MCP server](../lists/mcp-revops-infra.md)
 

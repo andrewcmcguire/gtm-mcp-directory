@@ -61,7 +61,7 @@ https://github.com/apolloio/apollo-mcp-plugin (hosted server at https://mcp.apol
 
 - **Tools named**: 20
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: apolloio/apollo-mcp-plugin
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -108,11 +108,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **server.json** Official MCP Registry metadata (name, version, transport, endpoint). evidence: in a README table · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -196,6 +196,6 @@ Included here as its own entry (rather than folded into Apollo's data-enrichment
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [glama.ai](https://glama.ai) · entry id 07-glama · source 07-mcp-infrastructure.md line 121
+Vendor: [glama.ai](https://glama.ai) · entry id 07-glama · source 07-mcp-infrastructure.md line 122
 
 **What it does**
 A large searchable registry/catalog of open-source MCP servers (77,000+ listed as of this check), filterable by language, hosting type (remote/local/hybrid), capability, and category; also offers separate hosting services.
@@ -54,7 +54,7 @@ https://glama.ai/mcp/servers
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -125,12 +125,12 @@ Glama's emphasis on local-first/self-hosted servers makes it a better fit for pr
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 121
+- **Source line**: 122
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

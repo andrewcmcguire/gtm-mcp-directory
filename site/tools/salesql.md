@@ -60,11 +60,11 @@ https://mcp.salesql.com/mcp (docs: https://salesql.com/docs/mcp; product page: h
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -87,6 +87,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/salesql/claude-plugin](https://github.com/salesql/claude-plugin)
 
 **On GitHub**
 
@@ -118,13 +122,14 @@ No job tag on this entry.
 - [https://salesql.com/pricing](https://salesql.com/pricing)
 - [https://salesql.com/](https://salesql.com/)
 - [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp)
+- [https://github.com/salesql/claude-plugin](https://github.com/salesql/claude-plugin)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://salesql.com/mcp, https://salesql.com/docs/mcp, https://salesql.com/pricing, https://salesql.com/, https://mcp.salesql.com/mcp
+https://salesql.com/mcp, https://salesql.com/docs/mcp, https://salesql.com/pricing, https://salesql.com/, https://mcp.salesql.com/mcp, https://github.com/salesql/claude-plugin
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.salesql.com/mcp returned HTTP 401 with an invalid_token error, confirming a live auth-gated server, and the endpoint, transport (Streamable HTTP) and auth model are all printed on the vendor's own docs page rather than inferred. Named tools seen on the vendor pages include search_people, enrich_person and enrich_person_bulk, the last documented as accepting up to 100 profiles in one call. The free-search, paid-reveal split deserves a line in any write-up: it is the inverse of the usual MCP failure mode, where an agent burns credits exploring. The MCP shares one credit balance with the REST API, so an agent and a script compete for the same pool. Vendor claims of 800,000+ users and a 4.8 average across 917 reviews are marketing figures and are recorded as claims, not findings. 2026-09-07: Official MCP registry carries com.salesql/salesql (DNS-verified salesql.com namespace) with remote https://mcp.salesql.com/mcp; that URL returned 401 to an MCP initialize (https://mcp.salesql.com/mcp).
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.salesql.com/mcp returned HTTP 401 with an invalid_token error, confirming a live auth-gated server, and the endpoint, transport (Streamable HTTP) and auth model are all printed on the vendor's own docs page rather than inferred. Named tools seen on the vendor pages include search_people, enrich_person and enrich_person_bulk, the last documented as accepting up to 100 profiles in one call. The free-search, paid-reveal split deserves a line in any write-up: it is the inverse of the usual MCP failure mode, where an agent burns credits exploring. The MCP shares one credit balance with the REST API, so an agent and a script compete for the same pool. Vendor claims of 800,000+ users and a 4.8 average across 917 reviews are marketing figures and are recorded as claims, not findings. 2026-09-07: Official MCP registry carries com.salesql/salesql (DNS-verified salesql.com namespace) with remote https://mcp.salesql.com/mcp; that URL returned 401 to an MCP initialize (https://mcp.salesql.com/mcp). 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/salesql/claude-plugin, the org salesql (profile site salesql.com), last push 2026-08-25. It is NOT the server source. Its README reads "Official SalesQL plugin for Claude Code" and it wires the hosted SalesQL MCP server; the server itself is closed and hosted at the endpoint in mcp_url, which the official registry entry com.salesql/salesql (DNS-verified salesql.com namespace) also lists as a remote with no repository field. No public server source was found.
 
 **Provenance**
 
@@ -138,6 +143,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.salesql.com/mcp re
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

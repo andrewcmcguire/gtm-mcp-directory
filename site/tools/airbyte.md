@@ -22,7 +22,7 @@ CLI: airbyte-config (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [airbyte.com](https://airbyte.com) · entry id 06-airbyte · source 06-revops-infra.md line 332
+Vendor: [airbyte.com](https://airbyte.com) · entry id 06-airbyte · source 06-revops-infra.md line 334
 
 **What it does**
 Open-source/cloud ELT platform with 600+ connectors moving data from SaaS tools and databases into warehouses; increasingly positions itself as a context layer for AI agents via a hosted Context Store.
@@ -62,7 +62,7 @@ https://mcp.airbyte.ai/mcp ; https://docs.airbyte.com/ai-agents/interfaces/mcp
 
 - **Tools named**: 4
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -75,7 +75,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search_skills** search through available skills evidence: in the vendor docs · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -84,7 +84,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: airbyte-config
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -92,13 +92,13 @@ Install, as the source shows it:
 npm install -g airbyte-config-cli
 ```
 
-quoted from [https://www.npmjs.com/package/airbyte-config-cli](https://www.npmjs.com/package/airbyte-config-cli) on 2026-09-11, via npm, a third party source
+quoted from [https://www.npmjs.com/package/airbyte-config-cli](https://www.npmjs.com/package/airbyte-config-cli) on 2026-09-12, via npm, a third party source
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: airbyte-config-cli 1.0.0, third party](https://www.npmjs.com/package/airbyte-config-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -158,12 +158,12 @@ One of the more clearly "official and productized" MCP implementations in this f
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 332
+- **Source line**: 334
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

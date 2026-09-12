@@ -106,7 +106,7 @@ The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a 
 cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note">Vendor: <a href="https://syncari.com" rel="noopener nofollow">syncari.com</a>
 &middot; entry id 06-syncari &middot; source
-06-revops-infra.md line 264</p>
+06-revops-infra.md line 266</p>
 </div><div class="fields"><div class="field"><div class="k">What it does</div><div class="v ">An &quot;agentic master data management&quot; (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to both humans (dashboards/BI) and AI agents.</div></div><div class="field"><div class="k">AI features, separated from automation with an AI label on it</div><div class="v ">Markets agentic MDM with autonomous policy enforcement, bias detection, anomaly detection, and data-lineage tracking, plus a &quot;Master MCP Server&quot; that explicitly lets LLM agents (names Claude, Gemini, and OpenAI SDKs specifically) reason/decide/act on live governed data rather than just read it, with entity/field-level access control and audit-ready logs - a more substantive, specific AI-agent integration claim than Openprise&#x27;s, though the site still doesn&#x27;t disclose model/architecture internals.</div></div><div class="field"><div class="k">RevOps role</div><div class="v ">Sits underneath the whole GTM stack as the master-data/unification layer (similar niche to Openprise but positioned more toward enterprise MDM/data governance), now also serving as a data-access layer for other AI agents across the org.</div></div><div class="field"><div class="k">MCP server</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Status bucket</div><div class="bv">Official MCP</div></div>
 <div><div class="bk">Auth</div><div class="bv">unknown - the MCP server page describes real-time, entity/field-level access control and audit logging but does not state whether connection auth is API key, OAuth, or SSO-only.</div></div>
@@ -116,7 +116,7 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL served a documentation page, not an MCP endpoint. That is where to read about the server, not where to connect to it. An agent needs the second.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.syncari.com/mcp ; https://syncari.com/mcp-server/</p><ul><li><a href="https://mcp.syncari.com/mcp" rel="noopener nofollow">https://mcp.syncari.com/mcp</a></li><li><a href="https://syncari.com/mcp-server/" rel="noopener nofollow">https://syncari.com/mcp-server/</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><p class="v empty">Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.</p><p class="note">120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://mcp.syncari.com/mcp ; https://syncari.com/mcp-server/</p><ul><li><a href="https://mcp.syncari.com/mcp" rel="noopener nofollow">https://mcp.syncari.com/mcp</a></li><li><a href="https://syncari.com/mcp-server/" rel="noopener nofollow">https://syncari.com/mcp-server/</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><p class="v empty">Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.</p><p class="note">119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Enterprise only</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not without a contract</div></div>
 </div>
@@ -124,10 +124,10 @@ The status was established by hand on 2026-09-07. On 2026-09-04 the recorded URL
 <p>enterprise-only - no published tiers or self-serve signup; a single &quot;Simple, Predictable Pricing&quot; plan is gated entirely behind a sales demo/call.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">307 of 336 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p></div></div><div class="field"><div class="k">On GitHub</div><div class="v "><p class="v">No GitHub organisation could be tied to syncari.com with evidence on 2026-09-08.</p><p class="note">Recorded by the harvest: github candidates were seen but none passed the evidence rules.</p><p class="note">1 candidate account seen and rejected by the evidence rules: Syncaris. A name match alone is never accepted; the account has to point at the vendor domain.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/sync-records-between-systems">Sync records between systems</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://syncari.com" rel="noopener nofollow">https://syncari.com</a></li><li><a href="https://syncari.com/mcp-server/" rel="noopener nofollow">https://syncari.com/mcp-server/</a></li><li><a href="https://syncari.com/pricing" rel="noopener nofollow">https://syncari.com/pricing</a></li><li><a href="https://mcp.syncari.com/mcp" rel="noopener nofollow">https://mcp.syncari.com/mcp</a></li></ul><p class="note">4 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://syncari.com, https://syncari.com/mcp-server/, https://syncari.com/pricing, https://mcp.syncari.com/mcp</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">help.syncari.com does not resolve - no separate public help-center subdomain found; all documentation lives on the main marketing domain. 2026-09-07: https://mcp.syncari.com/mcp returned 401 {&quot;error&quot;: &quot;invalid_token&quot;, &quot;error_description&quot;: &quot;Authentication required&quot;} to an MCP initialize POST (https://mcp.syncari.com/mcp).</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">06-syncari</div></div>
 <div><div class="bk">Source file</div><div class="bv">06-revops-infra.md</div></div>
-<div><div class="bk">Source line</div><div class="bv">264</div></div>
+<div><div class="bk">Source line</div><div class="bv">266</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-09-11</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-12</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -142,9 +142,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
-    <p>8,509 tool names harvested on 2026-09-11 from
-    120 of those 225 servers.
-    105 are unmeasured, which is not the same as empty.</p>
+    <p>8,507 tool names harvested on 2026-09-12 from
+    119 of those 225 servers.
+    106 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     65 carry none and say why.</p>
@@ -189,7 +189,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-11 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-12 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 336 vs recount
 336.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

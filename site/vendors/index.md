@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 310 vendors with their MCP servers
 
-> All 310 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-11.
+> All 310 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-11. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,326 tools catalogued across their servers, gateways excluded, harvested 2026-09-11. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+310 vendors behind 320 unique products, grouped by vendor domain, data baked 2026-09-12. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 336, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,324 tools catalogued across their servers, gateways excluded, harvested 2026-09-12. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 336 entries in the whole directory are bench tested.
 
@@ -142,7 +142,7 @@ E
 |---|---|---|---|---|---|
 | [Ebsta](ebsta-com.md) | ebsta.com | 1 | 0 | 0 | 0 |
 | [Endgame](endgame-io.md) | endgame.io | 1 | 1 | 0 | 26 |
-| [Enrow](enrow-io.md) | enrow.io | 1 | 1 | 0 | 13 |
+| [Enrow](enrow-io.md) | enrow.io | 1 | 1 | 0 | 0 |
 | [Exa](exa-ai.md) | exa.ai | 1 | 1 | 0 | 11 |
 | [Expandi](expandi-io.md) | expandi.io | 1 | 0 | 0 | 0 |
 | [Exploding Topics (Exploding Topics Pro)](explodingtopics-com.md) | explodingtopics.com | 1 | 0 | 0 | 0 |
@@ -245,14 +245,14 @@ L
 | [Lead411](lead411-com.md) | lead411.com | 1 | 1 | 1 | 0 |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](leadfeeder-com.md) | leadfeeder.com | 1 | 1 | 0 | 0 |
 | [LeadIQ](leadiq-com.md) | leadiq.com | 1 | 1 | 0 | 0 |
-| [LeadMagic](leadmagic-io.md) | leadmagic.io | 1 | 1 | 0 | 0 |
+| [LeadMagic](leadmagic-io.md) | leadmagic.io | 1 | 1 | 0 | 19 |
 | [LeanData](leandata-com.md) | leandata.com | 1 | 0 | 0 | 0 |
 | [lemlist](lemlist-com.md) | lemlist.com | 1 | 1 | 0 | 0 |
 | [Live Data Technologies](livedatatechnologies-com.md) | livedatatechnologies.com | 1 | 0 | 0 | 0 |
 | [Loom](loom-com.md) | loom.com | 1 | 0 | 0 | 60 |
 | [Loopio](loopio-com.md) | loopio.com | 1 | 0 | 0 | 16 |
 | [Luru](luru-app.md) | luru.app | 1 | 0 | 0 | 0 |
-| [Lusha](lusha-com.md) | lusha.com | 1 | 1 | 0 | 8 |
+| [Lusha](lusha-com.md) | lusha.com | 1 | 1 | 0 | 0 |
 | [Luster](luster-ai.md) | luster.ai | 1 | 0 | 0 | 0 |
 
 M

@@ -22,7 +22,7 @@ CLI: para
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [useparagon.com](https://useparagon.com) · entry id 07-paragon · source 07-mcp-infrastructure.md line 337
+Vendor: [useparagon.com](https://useparagon.com) · entry id 07-paragon · source 07-mcp-infrastructure.md line 338
 
 **What it does**
 An embedded integration platform for SaaS products, whose ActionKit product exposes a stated 1,000-plus actions across 130-plus third-party applications through one API and one MCP server, with Paragon handling the OAuth prompts inside the customer's own product.
@@ -60,7 +60,7 @@ https://github.com/useparagon/paragon-mcp (product page: https://www.useparagon.
 
 - **Tools named**: 1
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: useparagon/paragon-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -69,14 +69,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **CALL_API_REQUEST** Call an API if no tool is available for an integration that matches the user evidence: in the server source · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: para
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -84,22 +84,22 @@ Install, as the source shows it:
 npm install -g @useparagon/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@useparagon/cli](https://www.npmjs.com/package/@useparagon/cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@useparagon/cli](https://www.npmjs.com/package/@useparagon/cli) on 2026-09-12, via npm
 
 ```
 npm install -g @useparagon/whiskers-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@useparagon/whiskers-cli](https://www.npmjs.com/package/@useparagon/whiskers-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@useparagon/whiskers-cli](https://www.npmjs.com/package/@useparagon/whiskers-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @useparagon/cli 1.1.15](https://www.npmjs.com/package/@useparagon/cli)
 - [npm: @useparagon/whiskers-cli 2026.5.12](https://www.npmjs.com/package/@useparagon/whiskers-cli)
 - [npm: @polarityinc/paragon 0.1.4, third party](https://www.npmjs.com/package/@polarityinc/paragon)
 - [pypi: paragon 1.0.0, third party](https://pypi.org/project/paragon/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -173,12 +173,12 @@ Verified 2026-09-07 from the vendor's own MCP page. NOT A HOSTED ENDPOINT: unlik
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 337
+- **Source line**: 338
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [mcp.so](https://mcp.so) · entry id 07-mcp-so · source 07-mcp-infrastructure.md line 162
+Vendor: [mcp.so](https://mcp.so) · entry id 07-mcp-so · source 07-mcp-infrastructure.md line 163
 
 **What it does**
 A community MCP server/client directory (per its public reputation as one of the earlier MCP catalog sites) - could not independently re-verify current content in this research pass.
@@ -52,7 +52,7 @@ none-found
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -113,12 +113,12 @@ Per the two-tier honesty rule and the "no invented facts" law, this entry is int
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 162
+- **Source line**: 163
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

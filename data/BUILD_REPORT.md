@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-11 by `build_directory.py`. Zero network calls.
+Generated 2026-09-12 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -55,8 +55,8 @@ api_gate, recount: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78,
 - mcp_auth non-empty: **331 of 336**
 - docs_url present: **29 of 336**
 - api_gate `unknown`: **33 of 336**
-- entries with at least one github.com URL anywhere (phase 6 seed): **98**
-- sources: 1457 URLs total; 323 entries with 2+, 13 with exactly 1, 0 with none
+- entries with at least one github.com URL anywhere (phase 6 seed): **108**
+- sources: 1468 URLs total; 323 entries with 2+, 13 with exactly 1, 0 with none
 - sources carrying a non-URL annotation (preserved, not dropped): **12**
 - solo-reachable (official or community MCP AND gate free or paid): **168**
 - BENCH-TESTED: **1**. This stays 0 until Andrew runs something.
@@ -69,9 +69,9 @@ last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-
 ### Capability layer (what each server exposes, from merge_capabilities.py)
 
 null
-- servers with a recorded tool list: **120** of 225 that claim a server
-- tools recorded in total: **8509**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
-- by evidence: `{"live-list": 6098, "source": 1138, "docs": 983, "readme": 290}`
+- servers with a recorded tool list: **119** of 225 that claim a server
+- tools recorded in total: **8507**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
+- by evidence: `{"live-list": 6098, "source": 1149, "docs": 983, "readme": 277}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
@@ -282,8 +282,8 @@ None.
 
 ## Integrity
 
-- content sha256: `22cdf28bc8267f6fccad63351ab1aa6ed4d8a72c3f50a133ae15409d94350a21`
-- source sha256: `c4736c4873d844d6f5a59e9661fc4a7644e84a6e0a7b25036dad508dcd4447b4`
+- content sha256: `d1c00d241bb39276cdaa252d6cc792e4b3b0642f1ff62d3a97aed1d85797b356`
+- source sha256: `9e7e0bc8005b3275b0119fd1404ef0908f961a84b7fe8659eef9d11968ec6090`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
 - network calls made: 0 (the socket module is disarmed at import)

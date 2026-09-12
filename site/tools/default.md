@@ -21,7 +21,7 @@ Checked 2026-09-02
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [default.com](https://default.com) · entry id 06-default · source 06-revops-infra.md line 218
+Vendor: [default.com](https://default.com) · entry id 06-default · source 06-revops-infra.md line 220
 
 **What it does**
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling.
@@ -54,7 +54,7 @@ n/a (marketing pages only: https://www.default.com/solutions/default-mcp names a
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -138,12 +138,12 @@ Confirmed this is default.com the lead-routing SaaS, not a generic dev-tooling r
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 218
+- **Source line**: 220
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

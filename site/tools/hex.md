@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [hex.tech](https://hex.tech) · entry id 06-hex · source 06-revops-infra.md line 665
+Vendor: [hex.tech](https://hex.tech) · entry id 06-hex · source 06-revops-infra.md line 667
 
 **What it does**
 A collaborative data workspace (SQL and Python notebooks, published apps, a conversational "Threads" analysis mode) used by data and RevOps teams to answer questions on top of the warehouse.
@@ -59,11 +59,11 @@ https://app.hex.tech/mcp (docs: https://learn.hex.tech/docs/api-integrations/mcp
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -86,6 +86,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/hex-inc/hex-cursor-plugin](https://github.com/hex-inc/hex-cursor-plugin)
 
 **On GitHub**
 
@@ -119,13 +123,14 @@ No job tag on this entry.
 - [https://learn.hex.tech/docs/api-integrations/mcp-server](https://learn.hex.tech/docs/api-integrations/mcp-server)
 - [https://hex.tech/pricing](https://hex.tech/pricing)
 - [https://app.hex.tech/mcp](https://app.hex.tech/mcp)
+- [https://github.com/hex-inc/hex-cursor-plugin](https://github.com/hex-inc/hex-cursor-plugin)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://learn.hex.tech/docs/api-integrations/mcp-server, https://hex.tech/pricing, https://app.hex.tech/mcp
+https://learn.hex.tech/docs/api-integrations/mcp-server, https://hex.tech/pricing, https://app.hex.tech/mcp, https://github.com/hex-inc/hex-cursor-plugin
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://app.hex.tech/mcp returned HTTP 401 with the text "Unauthorized"; the control POST to /zzz-not-a-route returned 404 with an Express-style "Cannot POST" page. Live first-party auth-gated server. The plan gate is unusually explicit for this directory: the vendor names the two plans that can use the MCP on the MCP page itself, which is the behaviour SCHEMA law 4 asks every vendor for. Team is $75 per editor per month, so the cheapest MCP-capable Hex seat is $900 a year. 2026-09-07: https://app.hex.tech/mcp returned 401 to an MCP initialize POST (https://app.hex.tech/mcp).
+Verified 2026-09-07: POST of an MCP initialize to https://app.hex.tech/mcp returned HTTP 401 with the text "Unauthorized"; the control POST to /zzz-not-a-route returned 404 with an Express-style "Cannot POST" page. Live first-party auth-gated server. The plan gate is unusually explicit for this directory: the vendor names the two plans that can use the MCP on the MCP page itself, which is the behaviour SCHEMA law 4 asks every vendor for. Team is $75 per editor per month, so the cheapest MCP-capable Hex seat is $900 a year. 2026-09-07: https://app.hex.tech/mcp returned 401 to an MCP initialize POST (https://app.hex.tech/mcp). 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/hex-inc/hex-cursor-plugin, the org hex-inc, last push 2026-06-23. Its README opens "Hex MCP Plugin: connect Cursor to your Hex workspace through the Model Context Protocol" and adds that the Hex MCP Server "is currently in beta and requires a Hex Team or Enterprise plan". Client wiring plus a plan gate, not the server source. No public server source was found.
 
 **Provenance**
 
@@ -133,12 +138,12 @@ Verified 2026-09-07: POST of an MCP initialize to https://app.hex.tech/mcp retur
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 665
+- **Source line**: 667
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

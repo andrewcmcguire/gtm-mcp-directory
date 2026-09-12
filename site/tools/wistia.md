@@ -60,14 +60,14 @@ https://api.wistia.com/mcp/api (docs: https://docs.wistia.com/docs/mcp-server-gu
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: wistia
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -75,13 +75,13 @@ Install, as the source shows it:
 npm install -g @wistia/wistia-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@wistia/wistia-cli](https://www.npmjs.com/package/@wistia/wistia-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@wistia/wistia-cli](https://www.npmjs.com/package/@wistia/wistia-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @wistia/wistia-cli 2026.5.1](https://www.npmjs.com/package/@wistia/wistia-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -104,6 +104,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/wistia/agent-plugins](https://github.com/wistia/agent-plugins)
 
 **On GitHub**
 
@@ -138,13 +142,14 @@ No job tag on this entry.
 - [https://wistia.com/pricing](https://wistia.com/pricing)
 - [https://docs.wistia.com/docs/making-api-requests](https://docs.wistia.com/docs/making-api-requests)
 - [https://api.wistia.com/mcp/api](https://api.wistia.com/mcp/api)
+- [https://github.com/wistia/agent-plugins](https://github.com/wistia/agent-plugins)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://docs.wistia.com/docs/mcp-server-guide, https://wistia.com/pricing, https://docs.wistia.com/docs/making-api-requests, https://api.wistia.com/mcp/api
+https://docs.wistia.com/docs/mcp-server-guide, https://wistia.com/pricing, https://docs.wistia.com/docs/making-api-requests, https://api.wistia.com/mcp/api, https://github.com/wistia/agent-plugins
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://api.wistia.com/mcp/api returned HTTP 401 with JSON reading "unauthorized"; the control POST to /zzz-not-a-route returned 403 with an empty body. The statuses differ, so the 401 is specific to the MCP route rather than a blanket wall, but the control did not return 404, so this is recorded as a live auth-gated server on the vendor's host with a weaker control than the standard 404. The plan names in the MCP guide (Free, Pro, Max, Team) do not match the plan names on the current pricing page (Free, Business, Business + Lead gen, Enterprise); the guide is older than the price list. Like Vidyard in this file, Wistia is a hosting platform with a sales use case, not a purpose-built prospecting-video tool, which keeps headline finding 6 in INDEX.md intact. 2026-09-07: https://api.wistia.com/mcp/api returned 401 to an MCP initialize POST (https://api.wistia.com/mcp/api).
+Verified 2026-09-07: POST of an MCP initialize to https://api.wistia.com/mcp/api returned HTTP 401 with JSON reading "unauthorized"; the control POST to /zzz-not-a-route returned 403 with an empty body. The statuses differ, so the 401 is specific to the MCP route rather than a blanket wall, but the control did not return 404, so this is recorded as a live auth-gated server on the vendor's host with a weaker control than the standard 404. The plan names in the MCP guide (Free, Pro, Max, Team) do not match the plan names on the current pricing page (Free, Business, Business + Lead gen, Enterprise); the guide is older than the price list. Like Vidyard in this file, Wistia is a hosting platform with a sales use case, not a purpose-built prospecting-video tool, which keeps headline finding 6 in INDEX.md intact. 2026-09-07: https://api.wistia.com/mcp/api returned 401 to an MCP initialize POST (https://api.wistia.com/mcp/api). 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/wistia/agent-plugins, the org wistia (profile site wistia.com), last push 2026-09-02. Its README states the plugins connect an agent to Wistia through Wistia's hosted MCP server, so this is the vendor's own client-side wiring, not the server source. The official registry entry io.github.wistia/wistia-api-mcp lists the remote https://api.wistia.com/mcp/api and no repository. No public server source was found.
 
 **Provenance**
 
@@ -158,6 +163,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://api.wistia.com/mcp/api
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

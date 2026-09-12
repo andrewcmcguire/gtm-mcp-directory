@@ -22,7 +22,7 @@ CLI: stackone
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [stackone.com](https://stackone.com) · entry id 07-stackone · source 07-mcp-infrastructure.md line 383
+Vendor: [stackone.com](https://stackone.com) · entry id 07-stackone · source 07-mcp-infrastructure.md line 384
 
 **What it does**
 A unified-API vendor that publishes a stated 518 managed MCP servers exposing 31,928 tools across HR, CRM, IT and finance applications, reachable through one endpoint with per-account routing, plus dynamic tool discovery so an agent loads only the tools a task needs.
@@ -65,14 +65,14 @@ Recorded by the harvest: a unified API gateway; its tools are the vendors it wra
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: stackone
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -80,13 +80,13 @@ Install, as the source shows it:
 npm install -g @stackone/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@stackone/cli](https://www.npmjs.com/package/@stackone/cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@stackone/cli](https://www.npmjs.com/package/@stackone/cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
-- [npm: @stackone/cli 1.47.2](https://www.npmjs.com/package/@stackone/cli)
+- [npm: @stackone/cli 1.47.3](https://www.npmjs.com/package/@stackone/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -109,6 +109,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/StackOneHQ/stackone-plugin](https://github.com/StackOneHQ/stackone-plugin)
 
 **On GitHub**
 
@@ -144,13 +148,14 @@ No job tag on this entry.
 - [https://api.stackone.com/mcp](https://api.stackone.com/mcp)
 - [https://docs.stackone.com/mcp](https://docs.stackone.com/mcp)
 - [https://mcp.stackone.com/mcp](https://mcp.stackone.com/mcp)
+- [https://github.com/StackOneHQ/stackone-plugin](https://github.com/StackOneHQ/stackone-plugin)
 
-5 source URLs. Raw sources field, verbatim:
+6 source URLs. Raw sources field, verbatim:
 
-https://www.stackone.com/platform/mcp/, https://www.stackone.com/pricing/, https://api.stackone.com/mcp, https://docs.stackone.com/mcp, https://mcp.stackone.com/mcp
+https://www.stackone.com/platform/mcp/, https://www.stackone.com/pricing/, https://api.stackone.com/mcp, https://docs.stackone.com/mcp, https://mcp.stackone.com/mcp, https://github.com/StackOneHQ/stackone-plugin
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp returned HTTP 401 with {"statusCode":401,"message":"Unauthorized"}, confirming a live auth-gated server. NAME COLLISION INSIDE ONE VENDOR, worth recording because it will catch an automated verifier: https://docs.stackone.com/mcp is also a live MCP server, but it is a Mintlify documentation server whose tools are search_stackone and query_docs_filesystem_stackone over StackOne's own docs, and it is read-only and scoped to published site content. It is not the unified-API server and must not be recorded as the product endpoint. The vendor's positioning line is a direct swipe at this directory's own subject matter and is quotable: "First-party MCPs weren't built for production. StackOne's are." GTM connectors the research surfaced on StackOne include Salesloft, JustCall, Dialpad, Help Scout, RingCentral and Aircall, which means several vendors in this directory can be reached either directly or through StackOne, and a buyer should compare rather than assume the wrapper is worse. Vendor also advertises automated creation of new MCP servers, which would make the 518 figure a moving number. 2026-09-07: Official MCP registry carries com.stackone/mcp (DNS-verified stackone.com namespace) with remote https://mcp.stackone.com/mcp; that URL returned 401 to an MCP initialize, as did https://api.stackone.com/mcp (https://mcp.stackone.com/mcp).
+Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp returned HTTP 401 with {"statusCode":401,"message":"Unauthorized"}, confirming a live auth-gated server. NAME COLLISION INSIDE ONE VENDOR, worth recording because it will catch an automated verifier: https://docs.stackone.com/mcp is also a live MCP server, but it is a Mintlify documentation server whose tools are search_stackone and query_docs_filesystem_stackone over StackOne's own docs, and it is read-only and scoped to published site content. It is not the unified-API server and must not be recorded as the product endpoint. The vendor's positioning line is a direct swipe at this directory's own subject matter and is quotable: "First-party MCPs weren't built for production. StackOne's are." GTM connectors the research surfaced on StackOne include Salesloft, JustCall, Dialpad, Help Scout, RingCentral and Aircall, which means several vendors in this directory can be reached either directly or through StackOne, and a buyer should compare rather than assume the wrapper is worse. Vendor also advertises automated creation of new MCP servers, which would make the 518 figure a moving number. 2026-09-07: Official MCP registry carries com.stackone/mcp (DNS-verified stackone.com namespace) with remote https://mcp.stackone.com/mcp; that URL returned 401 to an MCP initialize, as did https://api.stackone.com/mcp (https://mcp.stackone.com/mcp). 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/StackOneHQ/stackone-plugin, the org StackOneHQ (profile site stackone.com), homepage docs.stackone.com, last push 2026-08-22. It is NOT the server source: the README says the plugin connects an agent to StackOne's HOSTED MCP server. The official registry entry com.stackone/mcp (DNS-verified stackone.com namespace) lists only the remote https://mcp.stackone.com/mcp and no repository, so no public server source was found.
 
 **Provenance**
 
@@ -158,12 +163,12 @@ Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp r
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 383
+- **Source line**: 384
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

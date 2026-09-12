@@ -22,7 +22,7 @@ CLI: mapps
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [monday.com/crm](https://monday.com/crm) · entry id 06-monday-com · source 06-revops-infra.md line 550
+Vendor: [monday.com/crm](https://monday.com/crm) · entry id 06-monday-com · source 06-revops-infra.md line 552
 
 **What it does**
 A work-management platform whose CRM product runs pipelines, contacts, accounts and deal activity as boards and items, with a first-party remote MCP server that lets an AI client read and update that data on the user's behalf.
@@ -62,7 +62,7 @@ https://mcp.monday.com/mcp for the remote server (product page: https://monday.c
 
 - **Tools named**: 5
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: mondaycom/mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -79,14 +79,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get_type_details** Retrieve detailed information about specific GraphQL types evidence: in a README table · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: mapps
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -94,13 +94,13 @@ Install, as the source shows it:
 npm install -g @mondaycom/apps-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @mondaycom/apps-cli 4.10.8](https://www.npmjs.com/package/@mondaycom/apps-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -176,12 +176,12 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.monday.com/mcp ret
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 550
+- **Source line**: 552
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

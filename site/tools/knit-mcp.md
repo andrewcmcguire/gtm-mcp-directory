@@ -22,7 +22,7 @@ CLI: knit-mcp (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [getknit.dev](https://getknit.dev) · entry id 07-knit-mcp · source 07-mcp-infrastructure.md line 292
+Vendor: [getknit.dev](https://getknit.dev) · entry id 07-knit-mcp · source 07-mcp-infrastructure.md line 293
 
 **What it does**
 A unified-API vendor that publishes hosted, serverless MCP servers for individual SaaS applications across CRM, ATS, HRIS, ticketing, accounting, calendar, email and e-sign, alongside its unified REST APIs and an LLM-tools surface for the same catalogue.
@@ -64,7 +64,7 @@ Recorded by the harvest: a gateway that re-exposes many other vendors' MCP serve
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -73,7 +73,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: knit-mcp
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -81,13 +81,13 @@ Install, as the source shows it:
 pip install knit-mcp
 ```
 
-quoted from [https://pypi.org/project/knit-mcp/](https://pypi.org/project/knit-mcp/) on 2026-09-11, via pypi, a third party source
+quoted from [https://pypi.org/project/knit-mcp/](https://pypi.org/project/knit-mcp/) on 2026-09-12, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [pypi: knit-mcp 0.1.1, third party](https://pypi.org/project/knit-mcp/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -143,12 +143,12 @@ Verified 2026-09-07 from the vendor's own catalogue and pricing pages. NO ENDPOI
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 292
+- **Source line**: 293
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

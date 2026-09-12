@@ -60,7 +60,7 @@ https://developers.hubspot.com/ai-tools/mcp
 
 - **Tools named**: 25
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -115,14 +115,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **tool_guidance** Retrieve usage instructions and guidance for one or more HubSpot MCP tools evidence: in the vendor docs · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: hs
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -130,13 +130,13 @@ Install, as the source shows it:
 npm install -g @hubspot/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@hubspot/cli](https://www.npmjs.com/package/@hubspot/cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@hubspot/cli](https://www.npmjs.com/package/@hubspot/cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @hubspot/cli 8.14.0](https://www.npmjs.com/package/@hubspot/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -159,6 +159,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/HubSpot/hubspot-mcp-plugins](https://github.com/HubSpot/hubspot-mcp-plugins)
 
 **On GitHub**
 
@@ -220,13 +224,14 @@ What that listing says it does: HubSpot's forecasting tool inside Sales Hub/Serv
 - [https://developers.hubspot.com/ai-tools/mcp](https://developers.hubspot.com/ai-tools/mcp)
 - [https://knowledge.hubspot.com/ai-tools/use-breeze-ai](https://knowledge.hubspot.com/ai-tools/use-breeze-ai)
 - [https://developers.hubspot.com/docs/api/usage-details](https://developers.hubspot.com/docs/api/usage-details)
+- [https://github.com/HubSpot/hubspot-mcp-plugins](https://github.com/HubSpot/hubspot-mcp-plugins)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://developers.hubspot.com/ai-tools/mcp, https://knowledge.hubspot.com/ai-tools/use-breeze-ai, https://developers.hubspot.com/docs/api/usage-details
+https://developers.hubspot.com/ai-tools/mcp, https://knowledge.hubspot.com/ai-tools/use-breeze-ai, https://developers.hubspot.com/docs/api/usage-details, https://github.com/HubSpot/hubspot-mcp-plugins
 
 **Notes, verbatim from the file**
-HubSpot runs two official MCP servers (Remote hosted + local Developer/CLI); numerous unofficial community HubSpot MCP servers also exist (e.g. axonops/hubspot-mcp) and should not be confused with the official one linked above.
+HubSpot runs two official MCP servers (Remote hosted + local Developer/CLI); numerous unofficial community HubSpot MCP servers also exist (e.g. axonops/hubspot-mcp) and should not be confused with the official one linked above. 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/HubSpot/hubspot-mcp-plugins, the org HubSpot, last push 2026-09-08. Its README reads "Repo containing the configuration for the HubSpot MCP Server to be added to Claude Code", so it carries the server's client configuration, not the server source. The org also owns https://github.com/HubSpot/mcp-server, described "MCP Server for HubSpot", but a contents read on 2026-09-09 returned an EMPTY repository, so it is named here and deliberately not recorded as a source.
 
 **Provenance**
 
@@ -240,6 +245,6 @@ HubSpot runs two official MCP servers (Remote hosted + local Developer/CLI); num
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

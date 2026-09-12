@@ -62,14 +62,14 @@ https://mcp.relevanceai.com/ ; https://relevanceai.com/docs/get-started/core-con
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: relevanceai
 - **Status**: official CLI, first party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -77,13 +77,13 @@ Install, as the source shows it:
 pip install relevanceai
 ```
 
-quoted from [https://pypi.org/project/relevanceai/](https://pypi.org/project/relevanceai/) on 2026-09-11, via pypi
+quoted from [https://pypi.org/project/relevanceai/](https://pypi.org/project/relevanceai/) on 2026-09-12, via pypi
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [pypi: relevanceai 10.2.2](https://pypi.org/project/relevanceai/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -106,6 +106,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/RelevanceAI/cc-plugin](https://github.com/RelevanceAI/cc-plugin)
 
 **On GitHub**
 
@@ -142,13 +146,14 @@ Reason recorded by the tagging pass: thin. Tagged nothing. It is a build-your-ow
 - [https://marketplace.relevanceai.com/](https://marketplace.relevanceai.com/)
 - [https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins](https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins)
 - [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/)
+- [https://github.com/RelevanceAI/cc-plugin](https://github.com/RelevanceAI/cc-plugin)
 
-4 source URLs. Raw sources field, verbatim:
+5 source URLs. Raw sources field, verbatim:
 
-https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins, https://mcp.relevanceai.com/
+https://relevanceai.com, https://marketplace.relevanceai.com/, https://relevanceai.com/docs/get-started/core-concepts/mcp-plugins, https://mcp.relevanceai.com/, https://github.com/RelevanceAI/cc-plugin
 
 **Notes, verbatim from the file**
-The seed list named this tool's SDR agent "Bosh" - that name could not be found anywhere on the current site or marketplace (agent templates found instead: "Outbound Prospector," "Sales Researcher," "Perfect 5 Leads," etc.). Either renamed, deprecated, or misremembered - flag as unconfirmed. This is one of the very few tools in this category with a confirmed, solo-operator-accessible official MCP - a strong bench-test candidate. 2026-09-07: https://mcp.relevanceai.com/ returned 401 {"error":"invalid_token","error_description":"Missing Authorization header"} to an MCP initialize POST (https://mcp.relevanceai.com/).
+The seed list named this tool's SDR agent "Bosh" - that name could not be found anywhere on the current site or marketplace (agent templates found instead: "Outbound Prospector," "Sales Researcher," "Perfect 5 Leads," etc.). Either renamed, deprecated, or misremembered - flag as unconfirmed. This is one of the very few tools in this category with a confirmed, solo-operator-accessible official MCP - a strong bench-test candidate. 2026-09-07: https://mcp.relevanceai.com/ returned 401 {"error":"invalid_token","error_description":"Missing Authorization header"} to an MCP initialize POST (https://mcp.relevanceai.com/). 2026-09-09 (P6-04 repo sweep): first-party repository recorded at https://github.com/RelevanceAI/cc-plugin, the org RelevanceAI (profile site relevanceai.com), last push 2026-07-27. It is NOT the server source: the README describes a Claude Code plugin of skills plus MCP wiring for Relevance AI. The npm package @relevanceai/relevanceai-mcp-server exists under the vendor's own scope but declares no repository, so no public server source was found.
 
 **Provenance**
 
@@ -162,6 +167,6 @@ The seed list named this tool's SDR agent "Bosh" - that name could not be found 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

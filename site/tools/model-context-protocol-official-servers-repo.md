@@ -21,7 +21,7 @@ Checked 2026-08-24
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · entry id 07-model-context-protocol-official-servers-repo · source 07-mcp-infrastructure.md line 183
+Vendor: [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · entry id 07-model-context-protocol-official-servers-repo · source 07-mcp-infrastructure.md line 184
 
 **What it does**
 The official reference-implementation repository for MCP, "managed by Anthropic, but built together with the community" - ships a small set of maintained example servers (Everything, Fetch, Filesystem, Git, Memory, Sequential Thinking, Time) intended as educational references, not production integrations.
@@ -60,7 +60,7 @@ https://github.com/modelcontextprotocol/servers
 
 - **Tools named**: 24
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: modelcontextprotocol/servers
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -115,11 +115,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **write_file** No description was recorded with the name. evidence: in the server source · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -193,12 +193,12 @@ Worth flagging plainly for anyone assuming this repo is a live GTM connector cat
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 183
+- **Source line**: 184
 
 - **Tier**: RESEARCHED
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

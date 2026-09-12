@@ -60,7 +60,7 @@ https://mcp.browserbase.com/mcp (docs: https://docs.browserbase.com/integrations
 
 - **Tools named**: 6
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -77,14 +77,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **start** Create or reuse a Browserbase session evidence: answered tools/list · calling it writes
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: bb9
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -92,13 +92,13 @@ Install, as the source shows it:
 npm install -g browse
 ```
 
-quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-11, via npm
+quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-12, via npm
 
 ```
 npm install -g @browserbasehq/bb9
 ```
 
-quoted from [https://www.npmjs.com/package/@browserbasehq/bb9](https://www.npmjs.com/package/@browserbasehq/bb9) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@browserbasehq/bb9](https://www.npmjs.com/package/@browserbasehq/bb9) on 2026-09-12, via npm
 
 Login or key hint seen on the page:
 
@@ -109,7 +109,7 @@ expand to read them
 
 back, click, cloud, fill, functions, open, screenshot, skills, snapshot, status, stop, topics, workflows
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @browserbasehq/bb9 1.2.20](https://www.npmjs.com/package/@browserbasehq/bb9)
 
@@ -117,7 +117,7 @@ Where it was documented:
 
 - [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -140,6 +140,10 @@ No documentation URL recorded.
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)
 
 **On GitHub**
 
@@ -173,13 +177,14 @@ No job tag on this entry.
 - [https://docs.browserbase.com/integrations/mcp/setup](https://docs.browserbase.com/integrations/mcp/setup)
 - [https://www.browserbase.com/pricing](https://www.browserbase.com/pricing)
 - [https://mcp.browserbase.com/mcp](https://mcp.browserbase.com/mcp)
+- [https://github.com/browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)
 
-3 source URLs. Raw sources field, verbatim:
+4 source URLs. Raw sources field, verbatim:
 
-https://docs.browserbase.com/integrations/mcp/setup, https://www.browserbase.com/pricing, https://mcp.browserbase.com/mcp
+https://docs.browserbase.com/integrations/mcp/setup, https://www.browserbase.com/pricing, https://mcp.browserbase.com/mcp, https://github.com/browserbase/mcp-server-browserbase
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://mcp.browserbase.com/mcp with no key returned HTTP 200 with a JSON-RPC result, serverInfo name "stagehand-api" (protocolVersion 2025-03-26); the control POST to /zzz-not-a-route returned 404. Initialize succeeds keyless and, per the docs, the key is enforced at tool-call time. The candidate row's proposed alternative category was mcp-infrastructure; it lands here because its GTM use is data collection, the same reasoning as Bright Data. One browser hour a month on Free is a demo allowance, not a working allowance. 2026-09-07: https://mcp.browserbase.com/mcp returned 200 with a JSON-RPC initialize result to an MCP initialize POST (https://mcp.browserbase.com/mcp).
+Verified 2026-09-07: POST of an MCP initialize to https://mcp.browserbase.com/mcp with no key returned HTTP 200 with a JSON-RPC result, serverInfo name "stagehand-api" (protocolVersion 2025-03-26); the control POST to /zzz-not-a-route returned 404. Initialize succeeds keyless and, per the docs, the key is enforced at tool-call time. The candidate row's proposed alternative category was mcp-infrastructure; it lands here because its GTM use is data collection, the same reasoning as Bright Data. One browser hour a month on Free is a demo allowance, not a working allowance. 2026-09-07: https://mcp.browserbase.com/mcp returned 200 with a JSON-RPC initialize result to an MCP initialize POST (https://mcp.browserbase.com/mcp). 2026-09-09 (P6-04 repo sweep): first-party server source recorded at https://github.com/browserbase/mcp-server-browserbase, 3,404 stars. GitHub reports the repository ARCHIVED with its last push on 2026-07-20, so the source is readable but frozen; the hosted endpoint in mcp_url is the live surface. Evidence that it is Browserbase's own: the official MCP registry entry io.github.browserbase/mcp-server-browserbase carries that repository URL, npm @browserbasehq/mcp declares the same repository, and the org browserbase lists browserbase.com as its site.
 
 **Provenance**
 
@@ -193,6 +198,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.browserbase.com/mc
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-11
+- **Data baked**: 2026-09-12
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

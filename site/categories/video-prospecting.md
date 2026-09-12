@@ -23,7 +23,7 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **MCP unknown**: 1
 - **No MCP found**: 4
 
-- **ship a CLI (official) as of 2026-09-11**: 3
+- **ship a CLI (official) as of 2026-09-12**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 6
@@ -31,7 +31,7 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **Enterprise only**: 2
 - **Gate unknown**: 3
 
-Source file: 08-video-prospecting.md · content sha256 2d319620894dbaff... · counts reconciled against tools_recount.py at build time.
+Source file: 08-video-prospecting.md · content sha256 1e52b0a1b8e49a11... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-video-prospecting.md)
 
