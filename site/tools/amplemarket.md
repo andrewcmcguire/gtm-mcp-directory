@@ -62,7 +62,7 @@ https://mcp.amplemarket.com/mcp ; https://knowledge.amplemarket.com/articles/802
 
 - **Tools named**: 52
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -171,11 +171,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **update_sequence_stage** Edit the content of an existing step in a draft sequence. evidence: in the vendor docs · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -191,7 +191,7 @@ enterprise-leaning (any customer can self-generate a key at Settings > API, but 
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -235,7 +235,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -255,7 +255,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: An all-in-one sales platform (lead gen + multichannel engagement + deliverability) with an AI agent layer ("Duo Copilot") that detects buying signals, writes and A/B-tests email copy (including AI voice-cloned voice notes), runs multichannel sequences, and suggests meeting follow-ups.
 
-16 of the 374 entries are cross listed like this. They are why the entry count is 374 and the unique product count is 358. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 422 entries are cross listed like this. They are why the entry count is 422 and the unique product count is 406. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

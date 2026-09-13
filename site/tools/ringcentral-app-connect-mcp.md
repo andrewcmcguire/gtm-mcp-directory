@@ -61,7 +61,7 @@ https://unified-crm-extension.labs.ringcentral.com/mcp (docs: https://mcp.labs.r
 
 - **Tools named**: 14
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -94,11 +94,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **updateAppointment** ⚠️ REQUIRES CRM CONNECTION. | Update or reschedule an existing appointment or event in the CRM platform. Provide only the fields you want to change alongside the appointmentId. evidence: answered tools/list · calling it writes · required: appointmentId
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -114,7 +114,7 @@ paid - a RingCentral subscription is required and the Labs MCP servers carry no 
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -151,7 +151,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

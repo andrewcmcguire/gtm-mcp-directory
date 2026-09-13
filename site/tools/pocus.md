@@ -56,7 +56,7 @@ none
 - **Binary**: pocus
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 npm install -g @pocus/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@pocus/cli](https://www.npmjs.com/package/@pocus/cli) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@pocus/cli](https://www.npmjs.com/package/@pocus/cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @pocus/cli 0.1.1](https://www.npmjs.com/package/@pocus/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -86,7 +86,7 @@ n/a - no longer sold as a standalone product (see notes).
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -111,7 +111,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Absorbed into a competitor; the entry says features could not be meaningfully evaluated post-acquisition.
 
-103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

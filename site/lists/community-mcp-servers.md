@@ -1,6 +1,6 @@
-# Community MCP servers: 25 GTM tools with a third party server
+# Community MCP servers: 39 GTM tools with a third party server
 
-> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-12 across 374 directory entries.
+> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-12 across 422 directory entries.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 25 GTM tools with a community MCP server
+[The lists](index.md) / The 39 GTM tools with a community MCP server
 
-**List · 25 of 374**
+**List · 39 of 422**
 
-## The 25 GTM tools with a community MCP server
+## The 39 GTM tools with a community MCP server
 
 A community server is a real server. It is also a server that can be abandoned without the vendor noticing, which is the single most useful thing to know before you write one into a workflow. The repo health rail that would date stamp each one has not been run, so no staleness claim is made here.
 
@@ -93,5 +93,47 @@ OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) aga
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Enablement & Coaching](../categories/enablement-coaching.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
+| [Anyquery](../tools/anyquery.md)
+anyquery.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/julien040/anyquery](https://github.com/julien040/anyquery) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/baryhuang/mcp-hubspot](https://github.com/baryhuang/mcp-hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LinkedGrow](../tools/linkedgrow.md)
+linkedgrow.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://github.com/DigiHold/LinkedGrow](https://github.com/DigiHold/LinkedGrow) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MCP-Salesforce by smn2gnt](../tools/mcp-salesforce-by-smn2gnt.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/smn2gnt/MCP-Salesforce](https://github.com/smn2gnt/MCP-Salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Morphed](../tools/morphed.md)
+morphed.io | [RevOps Infra](../categories/revops-infra.md) | [https://morphed.io/mcp](https://morphed.io/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by advancedcommunities](../tools/salesforce-mcp-by-advancedcommunities.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/advancedcommunities/salesforce-mc...](https://github.com/advancedcommunities/salesforce-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by jaworjar95](../tools/salesforce-mcp-by-jaworjar95.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/jaworjar95/salesforce-mcp-server](https://github.com/jaworjar95/salesforce-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by kablewy](../tools/salesforce-mcp-by-kablewy.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/kablewy/salesforce-mcp-server](https://github.com/kablewy/salesforce-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by SurajAdsul](../tools/salesforce-mcp-by-surajadsul.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/SurajAdsul/mcp-server-salesforce](https://github.com/SurajAdsul/mcp-server-salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md)
+context7.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/Damecek/salesforce-mcp-lib](https://github.com/Damecek/salesforce-mcp-lib) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Twenty CRM MCP](../tools/twenty-crm-mcp.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/mhenry3164/twenty-crm-mcp-server](https://github.com/mhenry3164/twenty-crm-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Vibe Prospecting MCP](../tools/vibe-prospecting-mcp.md)
+vibeprospecting.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/explorium-ai/vibeprospecting-mcp](https://github.com/explorium-ai/vibeprospecting-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 422 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

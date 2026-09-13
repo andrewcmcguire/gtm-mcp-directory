@@ -60,7 +60,7 @@ https://mcp.pipedream.com
 
 - **Tools named**: 1
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -69,11 +69,11 @@ Recorded by the harvest: the tools are the customer's own connected accounts and
 
 - **CONFIGURE_COMPONENT** Retrieve configuration values for dynamic properties of a component. evidence: in the vendor docs · calling it reads · required: key, propName · read off pipedream, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -89,7 +89,7 @@ paid (free for personal use and development; a paid plan is required once you de
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -128,7 +128,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

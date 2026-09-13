@@ -1,6 +1,6 @@
-# Proposals & Deals: 18 tools, 8 with an official MCP server
+# Proposals & Deals: 19 tools, 8 with an official MCP server
 
-> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 18 tools counted, 8 with an official MCP server and 4 free to start.
+> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 19 tools counted, 8 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor.
 
-- **entries in this file**: 18
+- **entries in this file**: 19
 
 - **Official MCP**: 8
 - **Community MCP**: 2
-- **No MCP found**: 8
+- **No MCP found**: 9
 
-- **ship a CLI (official) as of 2026-09-11**: 1
+- **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Free to start**: 4
 - **Paid, self-serve**: 7
 - **Enterprise only**: 3
-- **Gate unknown**: 3
+- **Gate unknown**: 4
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 d81ee377228bfeb2... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 d3bb0fb091200cdc... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-proposals-deals.md)
 
@@ -72,5 +72,7 @@ Source file: 13-proposals-deals.md · content sha256 d81ee377228bfeb2... · coun
 - [Minoa](../tools/minoa.md) minoa.io Minoa is the value intelligence layer that puts a consistent, CFO-defensible business case on every deal, and proves the value at renewal. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PDF Butler](../tools/pdf-butler.md) pdfbutler.com The native Salesforce document automation platform. Generate any type of document individually or at scale and accelerate your revenue with PDF Butler. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Wolfia](../tools/wolfia.md) wolfia.com Wolfia answers security questionnaires, DDQs, and RFPs, reviews and redlines contracts, fills vendor portals, and runs your trust center. Cited answers from your own docs, 10x faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Aligned (alignedup.com)](../tools/aligned.md) alignedup.com Digital sales room platform for buyer collaboration, mutual action plans, and centralized deal content, competing directly with Trumpet and Recapped.io in the same product category. [No MCP found](../mcp/none-found.md) · [Gate not applicable](../gates/n-a.md)

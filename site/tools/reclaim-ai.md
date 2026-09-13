@@ -61,7 +61,7 @@ https://mcp.reclaim.ai (endpoint confirmed live - returns HTTP 401 Unauthorized,
 
 - **Tools named**: 6
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: universalamateur/reclaim-mcp-server
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -82,7 +82,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **standard** 32 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -91,7 +91,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: reclaim-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -99,14 +99,14 @@ Install, as the source shows it:
 pip install reclaim-cli
 ```
 
-quoted from [https://pypi.org/project/reclaim-cli/](https://pypi.org/project/reclaim-cli/) on 2026-09-11, via pypi, a third party source
+quoted from [https://pypi.org/project/reclaim-cli/](https://pypi.org/project/reclaim-cli/) on 2026-09-12, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [pypi: reclaim-cli 0.2.3, third party](https://pypi.org/project/reclaim-cli/)
 - [pypi: reclaim-cli 0.2.3, third party](https://pypi.org/project/reclaim-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -118,13 +118,13 @@ api_gate, verbatim from the file:
 
 unknown for general REST API tier-gating - a developer API-key settings page exists (app.reclaim.ai/settings/developer) suggesting broad availability, but no page found states whether API access itself is free-tier-eligible. Confirmed paid-gated: webhooks are Business/Enterprise-only per reclaim.ai/pricing (not on Lite/Starter). MCP support itself is listed as included across multiple pricing tiers.
 
-71 of 374 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+119 of 422 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -161,7 +161,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

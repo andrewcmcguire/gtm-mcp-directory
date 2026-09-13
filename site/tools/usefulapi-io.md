@@ -61,7 +61,7 @@ https://pipedrive.usefulapi.io/mcp ; https://.usefulapi.io/mcp, one subdomain pe
 
 - **Tools named**: 20
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: m190/usefulapi-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
@@ -112,11 +112,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **pipedrive_search_persons** Search persons (contacts) by term across selected fields. Pipedrive REST: GET /api/v2/persons/search. evidence: answered tools/list · calling it reads · required: term
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -132,7 +132,7 @@ free - every server page publishes the same two tiers, "Free 100 tool calls / mo
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -156,7 +156,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 No job tag on this entry.
 
-103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

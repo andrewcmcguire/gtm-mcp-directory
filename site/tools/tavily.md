@@ -60,14 +60,14 @@ https://mcp.tavily.com/mcp/ (docs: https://docs.tavily.com/documentation/mcp)
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: tavily-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -75,9 +75,9 @@ Install, as the source shows it:
 pip install tavily-cli
 ```
 
-quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-11, via pypi
+quoted from [https://pypi.org/project/tavily-cli/](https://pypi.org/project/tavily-cli/) on 2026-09-12, via pypi
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @renxqoo/tavily-cli 1.0.3, third party](https://www.npmjs.com/package/@renxqoo/tavily-cli)
 - [npm: tavily-cli 0.1.2, third party](https://www.npmjs.com/package/tavily-cli)
@@ -85,7 +85,7 @@ Packages seen, with the version on 2026-09-11:
 - [pypi: tavily 1.1.0, third party](https://pypi.org/project/tavily/)
 - [pypi: tavily-cli 0.1.8](https://pypi.org/project/tavily-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -101,7 +101,7 @@ free - the pricing page lists a Researcher tier at $0/month with "1,000 API cred
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -138,7 +138,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

@@ -59,46 +59,13 @@ https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.puls
 
 **What this server exposes**
 
-- **Tools named**: 13
-- **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
-- **Repo read**: EnrowAPI/enrow-mcp
-- **Whose repo**: first-party
-- **Catalogue shape**: a fixed catalogue the vendor publishes
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
-
-- **find_email** Find a professional email from a name + company evidence: in a README table · calling it reads
-
-- **find_emails_bulk** Find up to 5,000 emails in one batch evidence: in a README table · calling it reads
-
-- **find_phone** Find a phone number from LinkedIn or name + company evidence: in a README table · calling it reads
-
-- **find_phones_bulk** Find up to 3,000 phone numbers in one batch evidence: in a README table · calling it reads
-
-- **get_account_info** Check credit balance and webhooks evidence: in a README table · calling it reads
-
-- **get_email_result** Retrieve an email search result evidence: in a README table · calling it reads
-
-- **get_emails_bulk_result** Retrieve bulk email results evidence: in a README table · calling it reads
-
-- **get_phone_result** Retrieve a phone search result evidence: in a README table · calling it reads
-
-- **get_phones_bulk_result** Retrieve bulk phone results evidence: in a README table · calling it reads
-
-- **get_verification_result** Retrieve a verification result evidence: in a README table · calling it reads
-
-- **get_verifications_bulk_result** Retrieve bulk verification results evidence: in a README table · calling it reads
-
-- **verify_email** Verify if an email is deliverable (works on catch-all) evidence: in a README table · calling it reads
-
-- **verify_emails_bulk** Verify up to 5,000 emails in one batch evidence: in a README table · calling it reads
-
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -155,7 +122,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

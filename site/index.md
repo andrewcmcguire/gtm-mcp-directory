@@ -1,6 +1,6 @@
 # The GTM MCP Directory
 
-> 374 GTM tools counted, 200 with an official MCP server. Which tools an agent can actually call, and which ones a solo operator can reach without a procurement cycle.
+> 422 GTM tools counted, 200 with an official MCP server. Which tools an agent can actually call, and which ones a solo operator can reach without a procurement cycle.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -14,17 +14,17 @@ Directory
 
 Every GTM tool your agent can use, and which one does the job.
 
-**374 tools** counted · **200 official MCP servers** · **8,509 tools those servers name** · generated **2026-09-12** by build_directory.py (phase 1) · reconciled against tools_recount.py
+**422 tools** counted · **200 official MCP servers** · **8,507 tools those servers name** · generated **2026-09-12** by build_directory.py (phase 1) · reconciled against tools_recount.py
 
-- **tools counted**: 374
+- **tools counted**: 422
 
 - **official MCP servers**: 200
 
-- **tools those servers name**: 8,509
+- **tools those servers name**: 8,507
 
-- **community MCP**: 25
+- **community MCP**: 39
 
-- **no MCP found**: 125
+- **no MCP found**: 159
 
 - **enterprise gated**: 79
 
@@ -32,13 +32,13 @@ Every GTM tool your agent can use, and which one does the job.
 
 - **bench tested**: 1
 
-- **ship a CLI (official) as of 2026-09-11**: 55
+- **ship a CLI (official) as of 2026-09-12**: 55
 
-Entry facts were pulled by hand: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07, 38 on 2026-09-12. The generated date above is only the date this site was baked. Both dates ship because both rot. 358 of the 374 entries are unique products; 16 are the same product listed in a second category and counted once here.
+Entry facts were pulled by hand: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07, 86 on 2026-09-12. The generated date above is only the date this site was baked. Both dates ship because both rot. 406 of the 422 entries are unique products; 16 are the same product listed in a second category and counted once here.
 
-The tool count is the capability layer, harvested 2026-09-11: 120 of the 225 entries that record an official or community MCP server have a harvested tool list, and it names 8,509 tools. 2,516 of those belong to the GTM tools themselves; 5,993 belong to one gateway that re-exposes other vendors and are counted apart. The remaining 105 servers are **unmeasured, not empty**: nobody has read their tool list yet, and their pages say exactly that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is still 1 across the whole directory.
+The tool count is the capability layer, harvested 2026-09-12: 119 of the 239 entries that record an official or community MCP server have a harvested tool list, and it names 8,507 tools. 2,514 of those belong to the GTM tools themselves; 5,993 belong to one gateway that re-exposes other vendors and are counted apart. The remaining 120 servers are **unmeasured, not empty**: nobody has read their tool list yet, and their pages say exactly that. None of these tools has been called. Bench tested, meaning somebody actually ran it, is still 1 across the whole directory.
 
-The command-line layer was harvested 2026-09-11 across vendor docs, npm, PyPI, Homebrew and GitHub: 55 of the 374 entries ship a CLI the vendor publishes, 37 have only a third party's, and 244 came back none found, which is a probe result on that date and not proof of absence. Each tool page quotes the install command with the URL it came from.
+The command-line layer was harvested 2026-09-12 across vendor docs, npm, PyPI, Homebrew and GitHub: 55 of the 422 entries ship a CLI the vendor publishes, 37 have only a third party's, and 244 came back none found, which is a probe result on that date and not proof of absence. Each tool page quotes the install command with the URL it came from.
 
 - [Search by capability](#search)
 
@@ -60,43 +60,43 @@ Official MCPCommunity MCPMCP unknownMCP not applicableNo MCP found
 Free to startPaid, self-serveEnterprise leaningEnterprise onlyGate unknownGate not applicable
 Ships a CLI
 
-Ordering is fixed and published, never tuned and never purchasable. official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable. With a query typed, matches are banded by relevance first and the rule above breaks every tie. An exact name match pins to the top and nothing else is boosted. The filters above run over the 358 unique products, so their totals sit below the 374 entry totals used by the [MCP status](mcp/index.md) and [gate](gates/index.md) views. Both numbers are correct and the difference is the 16 cross listings.
+Ordering is fixed and published, never tuned and never purchasable. official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable. With a query typed, matches are banded by relevance first and the rule above breaks every tie. An exact name match pins to the top and nothing else is boosted. The filters above run over the 406 unique products, so their totals sit below the 422 entry totals used by the [MCP status](mcp/index.md) and [gate](gates/index.md) views. Both numbers are correct and the difference is the 16 cross listings.
 
 **The inversion**
 
 ## The tools sold as agents are the least usable by agents.
 
-Conversation Intel is 21 of 25 reachable by an agent. Forecasting & Revenue is 3 of 18. Gold is an official server, green is a community one. Every ratio below is read straight out of the category blocks in directory.json.
+MCP Layer is 26 of 31 reachable by an agent. Enablement & Coaching is 3 of 21. Gold is an official server, green is a community one. Every ratio below is read straight out of the category blocks in directory.json.
 
-- [Conversation Intel](categories/conversation-intel.md)**21** of 25 reachable
+- [MCP Layer](categories/mcp-infrastructure.md)**26** of 31 reachable
 
-- [RevOps Infra](categories/revops-infra.md)**29** of 37 reachable
+- [Conversation Intel](categories/conversation-intel.md)**21** of 26 reachable
 
-- [Data & Enrichment](categories/data-enrichment.md)**44** of 57 reachable
+- [RevOps Infra](categories/revops-infra.md)**30** of 42 reachable
 
-- [MCP Layer](categories/mcp-infrastructure.md)**14** of 19 reachable
+- [Data & Enrichment](categories/data-enrichment.md)**44** of 65 reachable
 
-- [Engagement & Outbound](categories/engagement-outbound.md)**25** of 38 reachable
-
-- [Signals & Intent](categories/signals-intent-abm.md)**21** of 32 reachable
+- [Signals & Intent](categories/signals-intent-abm.md)**21** of 33 reachable
 
 - [Video Prospecting](categories/video-prospecting.md)**10** of 16 reachable
 
-- [Proposals & Deals](categories/proposals-deals.md)**10** of 18 reachable
-
 - [Community & Dark Social](categories/community-dark-social.md)**11** of 20 reachable
+
+- [Engagement & Outbound](categories/engagement-outbound.md)**26** of 48 reachable
+
+- [Proposals & Deals](categories/proposals-deals.md)**10** of 19 reachable
 
 - [Inbound & PLG Chat](categories/inbound-plg-chat.md)**13** of 25 reachable
 
 - [Scheduling & Routing](categories/scheduling-routing.md)**7** of 15 reachable
 
-- [AI SDRs](categories/ai-sdr-agents.md)**10** of 25 reachable
+- [AI SDRs](categories/ai-sdr-agents.md)**10** of 28 reachable
 
-- [Email Deliverability](categories/email-deliverability.md)**4** of 13 reachable
+- [Email Deliverability](categories/email-deliverability.md)**4** of 14 reachable
 
-- [Enablement & Coaching](categories/enablement-coaching.md)**3** of 16 reachable
+- [Forecasting & Revenue](categories/forecasting-revenue.md)**3** of 19 reachable
 
-- [Forecasting & Revenue](categories/forecasting-revenue.md)**3** of 18 reachable
+- [Enablement & Coaching](categories/enablement-coaching.md)**3** of 21 reachable
 
 **Install the MCP server**
 
@@ -168,7 +168,7 @@ Every field on one entry, sources in full, plus the cross reference when the sam
 
 ### whats_mcpd
 
-The stat block. 374 entries, 200 official, 25 community, 125 none found, and 1 bench tested, scoped to a category when you ask for one.
+The stat block. 422 entries, 200 official, 39 community, 159 none found, and 1 bench tested, scoped to a category when you ask for one.
 
 **What it answers**
 
@@ -214,8 +214,8 @@ The questions people actually ask about GTM tools, MCP servers and agents, answe
 
 ## 1 bench tested, and that number is on the front page.
 
-Every entry is RESEARCHED: facts from public sources with URLs, no usage claims, nobody has run the tool. BENCH-TESTED means Andrew personally ran it on a stated date. There are 1 of those, the number is published rather than hidden, and it is the proof the tier means something. 71 entries carry an access gate of unknown, 328 have no documentation URL recorded, and the 13 thinly sourced entries are named on the methodology page rather than quietly padded.
+Every entry is RESEARCHED: facts from public sources with URLs, no usage claims, nobody has run the tool. BENCH-TESTED means Andrew personally ran it on a stated date. There are 1 of those, the number is published rather than hidden, and it is the proof the tier means something. 119 entries carry an access gate of unknown, 347 have no documentation URL recorded, and the 13 thinly sourced entries are named on the methodology page rather than quietly padded.
 
 - [How an entry is made](methodology.md)
 
-- [Browse all 358 products](tools/index.md)
+- [Browse all 406 products](tools/index.md)

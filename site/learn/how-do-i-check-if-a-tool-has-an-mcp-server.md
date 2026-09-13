@@ -20,11 +20,11 @@ Check five places in this order: this directory, the vendor's own developer docu
 
 ## The five places, in order
 
-- **This directory.** 374 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
+- **This directory.** 422 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
 
-- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 46 of 374 entries here record a documentation URL, which tells you something in itself about the other 328.
+- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 75 of 422 entries here record a documentation URL, which tells you something in itself about the other 347.
 
-- **Their GitHub organisation.** 118 entries here already carry a github.com URL somewhere in their fields and 93 of those are in the mcp_url field itself, which usually means a local server you run yourself.
+- **Their GitHub organisation.** 131 entries here already carry a github.com URL somewhere in their fields and 106 of those are in the mcp_url field itself, which usually means a local server you run yourself.
 
 - **The protocol's reference repository**, which is where a large number of community servers are catalogued.
 
@@ -36,7 +36,7 @@ This directory's own rule, applied to every submission: a 200 passes. A 401 pass
 
 ## The distinction most people miss
 
-Ask who built it before you ask whether it works. A wrapper published by an integration platform is a real, working server and it is not the vendor's. This directory records that as community, and 25 entries are in that bucket against 200 official.
+Ask who built it before you ask whether it works. A wrapper published by an integration platform is a real, working server and it is not the vendor's. This directory records that as community, and 39 entries are in that bucket against 200 official.
 
 ## When the honest answer is unknown
 

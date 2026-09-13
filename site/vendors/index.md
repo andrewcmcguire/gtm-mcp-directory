@@ -1,6 +1,6 @@
-# Every GTM vendor, A to Z: 348 vendors with their MCP servers
+# Every GTM vendor, A to Z: 387 vendors with their MCP servers
 
-> All 348 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-12.
+> All 387 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,11 +13,11 @@
 
 ## Every vendor in the directory.
 
-348 vendors behind 358 unique products, grouped by vendor domain, data baked 2026-09-12. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 374, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,326 tools catalogued across their servers, gateways excluded, harvested 2026-09-11. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+387 vendors behind 406 unique products, grouped by vendor domain, data baked 2026-09-12. Between them: 189 products with an official MCP server as recorded by hand (the directory's entry count is 200 of 422, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,324 tools catalogued across their servers, gateways excluded, harvested 2026-09-12. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
-Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 374 entries in the whole directory are bench tested.
+Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 422 entries in the whole directory are bench tested.
 
-### Multi product vendors, 9
+### Multi product vendors, 10
 
 Vendors with more than one product in the directory, each product on its own tool page.
 
@@ -28,6 +28,7 @@ Vendors with more than one product in the directory, each product on its own too
 - [HubSpot](hubspot-com.md) (hubspot.com), 3 products: [HubSpot](../tools/hubspot.md), [HubSpot Breeze (AI Prospecting Agent)](../tools/hubspot-breeze.md), [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md)
 - [Salesforce](salesforce-com.md) (salesforce.com), 2 products: [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md), [Salesforce Einstein Forecasting](../tools/salesforce-einstein-forecasting.md)
 - [Terret](terret-ai.md) (terret.ai), 2 products: [BoostUp (rebranded: Terret)](../tools/boostup.md), [Terret (BoostUp)](../tools/terret.md)
+- [Twenty CRM MCP](github-com.md) (github.com), 10 products: [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md), [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md), [MCP-Salesforce by smn2gnt](../tools/mcp-salesforce-by-smn2gnt.md), [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md), [Salesforce MCP by advancedcommunities](../tools/salesforce-mcp-by-advancedcommunities.md), [Salesforce MCP by jaworjar95](../tools/salesforce-mcp-by-jaworjar95.md), [Salesforce MCP by kablewy](../tools/salesforce-mcp-by-kablewy.md), [Salesforce MCP by SurajAdsul](../tools/salesforce-mcp-by-surajadsul.md), [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md), [Twenty CRM MCP](../tools/twenty-crm-mcp.md)
 - [Zapier](zapier-com.md) (zapier.com), 2 products: [Zapier](../tools/zapier.md), [Zapier MCP](../tools/zapier-mcp.md)
 - [ZoomInfo](zoominfo-com.md) (zoominfo.com), 2 products: [ZoomInfo](../tools/zoominfo.md), [Chorus](../tools/chorus.md)
 
@@ -36,11 +37,15 @@ A
 
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
+| [Abstrakt](abstrakt-ai.md) | abstrakt.ai | 1 | 0 | 0 | 0 |
+| [ActiveCampaign](activecampaign-com.md) | activecampaign.com | 1 | 0 | 0 | 0 |
 | [Actively](actively-ai.md) | actively.ai | 1 | 1 | 0 | 0 |
 | [Ada](ada-cx.md) | ada.cx | 1 | 1 | 0 | 1 |
 | [Affinity](affinity-co.md) | affinity.co | 1 | 1 | 0 | 52 |
+| [AgentMail](agentmail-to.md) | agentmail.to | 1 | 0 | 0 | 0 |
 | [Airbyte](airbyte-com.md) | airbyte.com | 1 | 1 | 0 | 4 |
 | [Aircall](aircall-io.md) | aircall.io | 1 | 0 | 0 | 81 |
+| [Aircover](aircover-ai.md) | aircover.ai | 1 | 0 | 0 | 0 |
 | [Airspeed (formerly Glyphic)](goairspeed-com.md) | goairspeed.com | 1 | 1 | 1 | 0 |
 | [AiSDR](aisdr-com.md) | aisdr.com | 1 | 0 | 0 | 0 |
 | [Albacross](albacross-com.md) | albacross.com | 1 | 0 | 0 | 0 |
@@ -51,6 +56,7 @@ A
 | [Amplemarket](amplemarket-com.md) | amplemarket.com | 1 | 1 | 0 | 52 |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](anaplan-com.md) | anaplan.com | 1 | 1 | 0 | 70 |
 | [Anymail Finder](anymailfinder-com.md) | anymailfinder.com | 1 | 1 | 1 | 0 |
+| [Anyquery](anyquery-dev.md) | anyquery.dev | 1 | 0 | 0 | 0 |
 | [Apideck](apideck-com.md) | apideck.com | 1 | 1 | 0 | 22 |
 | [Apify](apify-com.md) | apify.com | 1 | 1 | 0 | 0 |
 | [Apollo.io](apollo-io.md) | apollo.io | 2 | 2 | 0 | 40 |
@@ -71,6 +77,7 @@ B
 | [BetterContact](bettercontact-rocks.md) | bettercontact.rocks | 1 | 0 | 0 | 0 |
 | [Bevy](bevy-com.md) | bevy.com | 1 | 0 | 0 | 0 |
 | [Bigtincan Readiness (formerly Brainshark)](bigtincan-com.md) | bigtincan.com | 1 | 0 | 0 | 0 |
+| [Birdie](getbirdie-io.md) | getbirdie.io | 1 | 0 | 0 | 0 |
 | [Blackthorn Events](blackthorn-io.md) | blackthorn.io | 1 | 0 | 0 | 0 |
 | [BombBomb](bombbomb-com.md) | bombbomb.com | 1 | 0 | 0 | 4 |
 | [Bombora (Company Surge)](bombora-com.md) | bombora.com | 1 | 0 | 0 | 0 |
@@ -114,6 +121,7 @@ C
 | [Common Room](commonroom-io.md) | commonroom.io | 1 | 1 | 0 | 15 |
 | [Commsor](commsor-com.md) | commsor.com | 1 | 0 | 0 | 0 |
 | [Company Url Finder](companyurlfinder-com.md) | companyurlfinder.com | 1 | 0 | 0 | 0 |
+| [CompanyEnrich](companyenrich-com.md) | companyenrich.com | 1 | 0 | 0 | 0 |
 | [Composio](composio-dev.md) | composio.dev | 1 | 1 | 0 | 6 |
 | [Conga](conga-com.md) | conga.com | 1 | 0 | 0 | 0 |
 | [Continu](continu-com.md) | continu.com | 1 | 0 | 0 | 0 |
@@ -156,7 +164,8 @@ E
 | [Ebsta](ebsta-com.md) | ebsta.com | 1 | 0 | 0 | 0 |
 | [Endgame](endgame-io.md) | endgame.io | 1 | 1 | 0 | 26 |
 | [Enrich-CRM](enrich-crm-com.md) | enrich-crm.com | 1 | 0 | 0 | 0 |
-| [Enrow](enrow-io.md) | enrow.io | 1 | 1 | 0 | 13 |
+| [Enrichley](enrichley-io.md) | enrichley.io | 1 | 0 | 0 | 0 |
+| [Enrow](enrow-io.md) | enrow.io | 1 | 1 | 0 | 0 |
 | [Exa](exa-ai.md) | exa.ai | 1 | 1 | 0 | 11 |
 | [Expandi](expandi-io.md) | expandi.io | 1 | 0 | 0 | 0 |
 | [Exploding Topics (Exploding Topics Pro)](explodingtopics-com.md) | explodingtopics.com | 1 | 0 | 0 | 0 |
@@ -196,6 +205,7 @@ G
 | [Grain](grain-com.md) | grain.com | 1 | 1 | 0 | 15 |
 | [Granola](granola-ai.md) | granola.ai | 1 | 1 | 0 | 0 |
 | [Groove](groove-co.md) | groove.co | 1 | 0 | 0 | 0 |
+| [GTM Buddy](gtmbuddy-ai.md) | gtmbuddy.ai | 1 | 0 | 0 | 0 |
 | [GummySearch](gummysearch-com.md) | gummysearch.com | 1 | 0 | 0 | 0 |
 
 H
@@ -262,17 +272,19 @@ L
 | [Lavender](lavender-ai.md) | lavender.ai | 1 | 0 | 0 | 0 |
 | [Lead411](lead411-com.md) | lead411.com | 1 | 1 | 1 | 0 |
 | [Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)](leadfeeder-com.md) | leadfeeder.com | 1 | 1 | 0 | 0 |
+| [Leadinfo](leadinfo-com.md) | leadinfo.com | 1 | 0 | 0 | 0 |
 | [LeadIQ](leadiq-com.md) | leadiq.com | 1 | 1 | 0 | 0 |
-| [LeadMagic](leadmagic-io.md) | leadmagic.io | 1 | 1 | 0 | 0 |
+| [LeadMagic](leadmagic-io.md) | leadmagic.io | 1 | 1 | 0 | 19 |
 | [Leadspace](leadspace-com.md) | leadspace.com | 1 | 0 | 0 | 0 |
 | [LeanData](leandata-com.md) | leandata.com | 1 | 0 | 0 | 0 |
 | [lemlist](lemlist-com.md) | lemlist.com | 1 | 1 | 0 | 0 |
+| [LinkedGrow](linkedgrow-ai.md) | linkedgrow.ai | 1 | 0 | 0 | 0 |
 | [LinkPoint Connect](linkpoint360-com.md) | linkpoint360.com | 1 | 0 | 0 | 0 |
 | [Live Data Technologies](livedatatechnologies-com.md) | livedatatechnologies.com | 1 | 0 | 0 | 0 |
 | [Loom](loom-com.md) | loom.com | 1 | 0 | 0 | 60 |
 | [Loopio](loopio-com.md) | loopio.com | 1 | 0 | 0 | 16 |
 | [Luru](luru-app.md) | luru.app | 1 | 0 | 0 | 0 |
-| [Lusha](lusha-com.md) | lusha.com | 1 | 1 | 0 | 8 |
+| [Lusha](lusha-com.md) | lusha.com | 1 | 1 | 0 | 0 |
 | [Luster](luster-ai.md) | luster.ai | 1 | 0 | 0 | 0 |
 
 M
@@ -301,10 +313,10 @@ M
 | [Mindtickle](mindtickle-com.md) | mindtickle.com | 1 | 0 | 0 | 0 |
 | [Minoa](minoa-io.md) | minoa.io | 1 | 0 | 0 | 0 |
 | [Mixmax](mixmax-com.md) | mixmax.com | 1 | 1 | 0 | 0 |
-| [Model Context Protocol - official servers repo](github-com.md) | github.com | 1 | 1 | 0 | 24 |
 | [Mogli](mogli-com.md) | mogli.com | 1 | 0 | 0 | 0 |
 | [Momentum](momentum-io.md) | momentum.io | 1 | 0 | 0 | 0 |
 | [monday.com (monday CRM)](monday-com.md) | monday.com | 1 | 1 | 0 | 5 |
+| [Morphed](morphed-io.md) | morphed.io | 1 | 0 | 0 | 0 |
 | [Motion](usemotion-com.md) | usemotion.com | 1 | 0 | 0 | 34 |
 
 N
@@ -322,9 +334,12 @@ O
 |---|---|---|---|---|---|
 | [Ocean.io](ocean-io.md) | ocean.io | 1 | 1 | 0 | 0 |
 | [Octave](octavehq-com.md) | octavehq.com | 1 | 1 | 0 | 7 |
+| [Octolane AI](octolane-com.md) | octolane.com | 1 | 0 | 0 | 0 |
 | [Offorte](offorte-com.md) | offorte.com | 1 | 1 | 0 | 15 |
 | [OneMob](onemob-com.md) | onemob.com | 1 | 0 | 0 | 0 |
+| [OneUp Sales](oneupsales-co-uk.md) | oneupsales.co.uk | 1 | 0 | 0 | 0 |
 | [Openprise](openprisetech-com.md) | openprisetech.com | 1 | 0 | 0 | 0 |
+| [Orange Slice](orangeslice-ai.md) | orangeslice.ai | 1 | 0 | 0 | 0 |
 | [Orbit](orbit-love.md) | orbit.love | 1 | 0 | 0 | 0 |
 | [Ortto](ortto-com.md) | ortto.com | 1 | 1 | 0 | 0 |
 | [Orum](orum-com.md) | orum.com | 1 | 0 | 0 | 0 |
@@ -337,6 +352,7 @@ P
 
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
+| [PaletteHQ](palettehq-com.md) | palettehq.com | 1 | 0 | 0 | 0 |
 | [PandaDoc](pandadoc-com.md) | pandadoc.com | 1 | 1 | 0 | 0 |
 | [Paragon (ActionKit MCP)](useparagon-com.md) | useparagon.com | 1 | 1 | 0 | 1 |
 | [PDF Butler](pdfbutler-com.md) | pdfbutler.com | 1 | 0 | 0 | 0 |
@@ -351,6 +367,7 @@ P
 | [Potion](sendpotion-com.md) | sendpotion.com | 1 | 0 | 0 | 0 |
 | [PredictLeads](predictleads-com.md) | predictleads.com | 1 | 1 | 1 | 0 |
 | [Proposify](proposify-com.md) | proposify.com | 1 | 0 | 0 | 0 |
+| [Prospect](tryprospect-com.md) | tryprospect.com | 1 | 0 | 0 | 0 |
 | [Prospeo](prospeo-io.md) | prospeo.io | 1 | 1 | 0 | 8 |
 | [PulseMCP](pulsemcp-com.md) | pulsemcp.com | 1 | 0 | 0 | 0 |
 | [Pylon](usepylon-com.md) | usepylon.com | 1 | 1 | 1 | 0 |
@@ -363,6 +380,7 @@ Q
 | [Quantified](quantified-ai.md) | quantified.ai | 1 | 0 | 0 | 0 |
 | [QuickMail](quickmail-com.md) | quickmail.com | 1 | 0 | 0 | 0 |
 | [Quickpage](quickpage-io.md) | quickpage.io | 1 | 0 | 0 | 0 |
+| [Quotain](quotain-com.md) | quotain.com | 1 | 0 | 0 | 0 |
 | [Qwilr](qwilr-com.md) | qwilr.com | 1 | 0 | 0 | 0 |
 
 R
@@ -373,16 +391,20 @@ R
 | [Recapped.io](recapped-io.md) | recapped.io | 1 | 0 | 0 | 0 |
 | [Reclaim.ai](reclaim-ai.md) | reclaim.ai | 1 | 1 | 0 | 6 |
 | [Regie.ai](regie-ai.md) | regie.ai | 1 | 0 | 0 | 0 |
+| [Relate](relate-so.md) | relate.so | 1 | 0 | 0 | 0 |
 | [Relevance AI](relevanceai-com.md) | relevanceai.com | 1 | 1 | 0 | 0 |
+| [Reltio](reltio-com.md) | reltio.com | 1 | 0 | 0 | 0 |
 | [Reply.io](reply-io.md) | reply.io | 1 | 1 | 0 | 71 |
 | [Responsive (formerly RFPIO)](responsive-io.md) | responsive.io | 1 | 1 | 0 | 0 |
 | [Retool](retool-com.md) | retool.com | 1 | 1 | 0 | 50 |
 | [Revenue Grid](revenuegrid-com.md) | revenuegrid.com | 1 | 0 | 0 | 0 |
 | [Revenue.io](revenue-io.md) | revenue.io | 1 | 0 | 0 | 0 |
+| [RevenueBase](revenuebase-ai.md) | revenuebase.ai | 1 | 0 | 0 | 0 |
 | [RevenueHero](revenuehero-io.md) | revenuehero.io | 1 | 1 | 0 | 0 |
 | [Rilla](rilla-com.md) | rilla.com | 1 | 0 | 0 | 0 |
 | [RingCentral App Connect MCP](ringcentral-com.md) | ringcentral.com | 1 | 1 | 0 | 14 |
 | [RocketReach](rocketreach-co.md) | rocketreach.co | 1 | 1 | 0 | 0 |
+| [RocketSDR](rocketsdr-ai.md) | rocketsdr.ai | 1 | 0 | 0 | 0 |
 | [Rox](rox-com.md) | rox.com | 1 | 0 | 0 | 0 |
 
 S
@@ -390,7 +412,9 @@ S
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
 | [Salesforce](salesforce-com.md) | salesforce.com | 2 | 1 | 0 | 17 |
+| [Salesforce MCP Lib by Damecek](context7-com.md) | context7.com | 1 | 0 | 0 | 0 |
 | [Salesforge](salesforge-ai.md) | salesforge.ai | 1 | 1 | 0 | 109 |
+| [Salesgraph](salesgraph-com.md) | salesgraph.com | 1 | 0 | 0 | 0 |
 | [Saleshandy](saleshandy-com.md) | saleshandy.com | 1 | 1 | 0 | 0 |
 | [Salesloft](salesloft-com.md) | salesloft.com | 1 | 1 | 0 | 0 |
 | [SalesQL](salesql-com.md) | salesql.com | 1 | 1 | 0 | 0 |
@@ -400,9 +424,11 @@ S
 | [Seamless.AI](seamless-ai.md) | seamless.ai | 1 | 1 | 0 | 54 |
 | [Second Nature](secondnature-ai.md) | secondnature.ai | 1 | 0 | 0 | 0 |
 | [Seismic](seismic-com.md) | seismic.com | 1 | 1 | 0 | 20 |
+| [Sendblue](sendblue-com.md) | sendblue.com | 1 | 0 | 0 | 0 |
 | [Sendspark](sendspark-com.md) | sendspark.com | 1 | 0 | 0 | 9 |
 | [Showpad](showpad-com.md) | showpad.com | 1 | 1 | 0 | 12 |
 | [SigParser](sigparser-com.md) | sigparser.com | 1 | 1 | 0 | 0 |
+| [SilkChart](silkchart-com.md) | silkchart.com | 1 | 0 | 0 | 0 |
 | [Similarweb](similarweb-com.md) | similarweb.com | 1 | 1 | 0 | 0 |
 | [Skyp.ai](skyp-ai.md) | skyp.ai | 1 | 1 | 0 | 0 |
 | [Smartlead](smartlead-ai.md) | smartlead.ai | 1 | 1 | 0 | 116 |
@@ -415,6 +441,9 @@ S
 | [Spekit](spekit-com.md) | spekit.com | 1 | 0 | 0 | 0 |
 | [Spinify](spinify-com.md) | spinify.com | 1 | 0 | 0 | 0 |
 | [StackOne](stackone-com.md) | stackone.com | 1 | 1 | 0 | 0 |
+| [Store Leads](storeleads-app.md) | storeleads.app | 1 | 0 | 0 | 0 |
+| [Streak](streak-com.md) | streak.com | 1 | 0 | 0 | 0 |
+| [Suger](suger-io.md) | suger.io | 1 | 0 | 0 | 0 |
 | [Sumble](sumble-com.md) | sumble.com | 1 | 1 | 0 | 34 |
 | [Super Send](supersend-io.md) | supersend.io | 1 | 1 | 0 | 45 |
 | [Superblocks](superblocks-com.md) | superblocks.com | 1 | 1 | 0 | 0 |
@@ -438,15 +467,20 @@ T
 | [Terret](terret-ai.md) | terret.ai | 2 | 0 | 0 | 0 |
 | [The Swarm](theswarm-com.md) | theswarm.com | 1 | 1 | 0 | 0 |
 | [TheirStack](theirstack-com.md) | theirstack.com | 1 | 1 | 0 | 0 |
+| [throxy](throxy-com.md) | throxy.com | 1 | 0 | 0 | 0 |
 | [Tidio](tidio-com.md) | tidio.com | 1 | 1 | 0 | 4 |
 | [tl;dv](tldv-io.md) | tldv.io | 1 | 1 | 0 | 4 |
 | [Tofu](tofuhq-com.md) | tofuhq.com | 1 | 0 | 0 | 0 |
 | [Toplyne](toplyne-io.md) | toplyne.io | 1 | 0 | 0 | 0 |
+| [Topo](topo-io.md) | topo.io | 1 | 0 | 0 | 0 |
 | [Trainual](trainual-com.md) | trainual.com | 1 | 1 | 0 | 11 |
+| [Tray.ai](tray-ai.md) | tray.ai | 1 | 0 | 0 | 0 |
 | [Trellus AI](trellus-ai.md) | trellus.ai | 1 | 0 | 0 | 0 |
 | [Trevor AI](trevorai-com.md) | trevorai.com | 1 | 0 | 0 | 0 |
 | [Trigify (Trigify.io)](trigify-io.md) | trigify.io | 1 | 0 | 0 | 0 |
 | [Trumpet (sendtrumpet.com)](sendtrumpet-com.md) | sendtrumpet.com | 1 | 1 | 0 | 0 |
+| [Twain](twain-ai.md) | twain.ai | 1 | 0 | 0 | 0 |
+| [Twenty CRM MCP](github-com.md) | github.com | 10 | 1 | 0 | 24 |
 | [Typeform](typeform-com.md) | typeform.com | 1 | 1 | 0 | 0 |
 
 U
@@ -455,6 +489,7 @@ U
 |---|---|---|---|---|---|
 | [Ultimate.ai (Ultimate)](getultimate-ai.md) | getultimate.ai | 1 | 0 | 0 | 0 |
 | [Unify](unifygtm-com.md) | unifygtm.com | 1 | 0 | 0 | 13 |
+| [Upcall](upcall-com.md) | upcall.com | 1 | 0 | 0 | 0 |
 | [UpLead](uplead-com.md) | uplead.com | 1 | 0 | 0 | 0 |
 | [usefulapi.io](usefulapi-io.md) | usefulapi.io | 1 | 1 | 0 | 20 |
 | [UserGems](usergems-com.md) | usergems.com | 1 | 1 | 0 | 0 |
@@ -468,8 +503,10 @@ V
 | [Varicent](varicent-com.md) | varicent.com | 1 | 0 | 0 | 0 |
 | [Vayne](vayne-io.md) | vayne.io | 1 | 1 | 0 | 0 |
 | [Vector (vector.co)](vector-co.md) | vector.co | 1 | 0 | 0 | 0 |
+| [Venta AI](getventa-ai.md) | getventa.ai | 1 | 0 | 0 | 0 |
 | [Versium REACH](versium-com.md) | versium.com | 1 | 1 | 1 | 0 |
 | [Vertify](vertify-com.md) | vertify.com | 1 | 0 | 0 | 0 |
+| [Vibe Prospecting MCP](vibeprospecting-ai.md) | vibeprospecting.ai | 1 | 0 | 0 | 0 |
 | [Vidyard](vidyard-com.md) | vidyard.com | 1 | 0 | 0 | 0 |
 
 W
@@ -484,6 +521,7 @@ W
 | [WhatsApp Business](business-whatsapp-com.md) | business.whatsapp.com | 1 | 0 | 0 | 0 |
 | [Wistia](wistia-com.md) | wistia.com | 1 | 1 | 0 | 0 |
 | [Wiza](wiza-co.md) | wiza.co | 1 | 1 | 1 | 0 |
+| [Wolfia](wolfia-com.md) | wolfia.com | 1 | 0 | 0 | 0 |
 | [Woodpecker](woodpecker-co.md) | woodpecker.co | 1 | 1 | 0 | 34 |
 | [WorkRamp](workramp-com.md) | workramp.com | 1 | 0 | 0 | 31 |
 
@@ -498,6 +536,8 @@ Z
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
 | [Zapier](zapier-com.md) | zapier.com | 2 | 2 | 0 | 15 |
+| [Zeliq](zeliq-com.md) | zeliq.com | 1 | 0 | 0 | 0 |
+| [ZeroBounce](zerobounce-net.md) | zerobounce.net | 1 | 0 | 0 | 0 |
 | [ZINFI](zinfi-com.md) | zinfi.com | 1 | 0 | 0 | 0 |
 | [Zoho CRM](zoho-com.md) | zoho.com | 1 | 1 | 0 | 0 |
 | [Zoom Revenue Accelerator](zoom-com.md) | zoom.com | 1 | 1 | 0 | 1 |

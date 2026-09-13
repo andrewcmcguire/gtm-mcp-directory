@@ -34,11 +34,11 @@ Vendor domain: [metorial.com](https://metorial.com) · vendor page id metorial-c
 
 - **Docs only**: 1 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 9 named across 1 measured server, harvested 2026-09-11
+- **Tools catalogued**: 9 named across 1 measured server, harvested 2026-09-12
 
-- **Bench tested**: 0 of 1 here, 1 of 374 across the directory
+- **Bench tested**: 0 of 1 here, 1 of 422 across the directory
 
-- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-11
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-12
 
 - **GitHub organisation**: [github.com/metorial](https://github.com/metorial), tied to the domain with evidence 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://metorial.com](https://metorial.com) (docs page)
 
-- **Tools catalogued**: 9 named, harvested 2026-09-11, catalogue fixed
+- **Tools catalogued**: 9 named, harvested 2026-09-12, catalogue fixed
 
 - **last_checked**: 2026-09-07
 
@@ -88,11 +88,11 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 npm install -g @metorial/cli
 ```
 
-quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-11, via npm
+quoted from [https://metorial.com/cli](https://metorial.com/cli) on 2026-09-12, via npm
 
 Login or key hint: Easy setup
 
-harvested 2026-09-11, all on the [tool page](../tools/metorial.md).
+harvested 2026-09-12, all on the [tool page](../tools/metorial.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -119,6 +119,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 374 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 422 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

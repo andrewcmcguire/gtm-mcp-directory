@@ -60,7 +60,7 @@ https://github.com/fredericboyer/loopio-mcp (unofficial)
 
 - **Tools named**: 16
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: fredericboyer/loopio-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -87,11 +87,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **LOOPIO_HTTP_ALLOWED_HOSTS** `127.0.0.1:
 
-,localhost:` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_HOST** `0.0.0.0` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_PORT** `3000` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_MAX_RESULTS** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_READ_ONLY** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_SCOPES** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_TRUST_PROXY_AUTH** `false` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **Variable** Required evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+,localhost:` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_HOST** `0.0.0.0` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_HTTP_PORT** `3000` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_MAX_RESULTS** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_READ_ONLY** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_SCOPES** No evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **LOOPIO_TRUST_PROXY_AUTH** `false` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface - **Variable** Required evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -107,7 +107,7 @@ enterprise-only. Loopio does not publish pricing; third-party procurement data (
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -133,7 +133,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

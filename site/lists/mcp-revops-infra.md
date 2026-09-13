@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 29 of 37, counted
+# RevOps infrastructure tools with MCP servers: 30 of 42, counted
 
-> 29 of the 37 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 30 of the 42 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 29 of 374**
+**List · 30 of 422**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 29 of 37 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 30 of 42 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -105,8 +105,11 @@ OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every M
 | [Syncari](../tools/syncari.md)
 syncari.com | [Official MCP](../mcp/official.md) | [https://mcp.syncari.com/mcp](https://mcp.syncari.com/mcp) +1 more | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
+| [Morphed](../tools/morphed.md)
+morphed.io | [Community MCP](../mcp/community.md) | [https://morphed.io/mcp](https://morphed.io/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 8 in this category
+### The other 12 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -126,6 +129,14 @@ cloudfiles.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 databox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [LinkPoint Connect](../tools/linkpoint-connect.md)
 linkpoint360.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Relate](../tools/relate.md)
+relate.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Streak](../tools/streak.md)
+streak.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Suger](../tools/suger.md)
+suger.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Tray.ai](../tools/tray-ai.md)
+tray.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Vertify](../tools/vertify.md)
 vertify.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
@@ -140,4 +151,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 422 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

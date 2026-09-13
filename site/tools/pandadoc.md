@@ -63,7 +63,7 @@ https://mcp.pandadoc.com/v1/mcp ; https://developers.pandadoc.com/docs/how-to-us
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -72,7 +72,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: pandadoc
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -80,13 +80,13 @@ Install, as the source shows it:
 pip install pandadoc
 ```
 
-quoted from [https://pypi.org/project/pandadoc/](https://pypi.org/project/pandadoc/) on 2026-09-11, via pypi, a third party source
+quoted from [https://pypi.org/project/pandadoc/](https://pypi.org/project/pandadoc/) on 2026-09-12, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [pypi: pandadoc 0.1.0, third party](https://pypi.org/project/pandadoc/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -102,7 +102,7 @@ free (limited). PandaDoc's Free plan now includes API access with both a sandbox
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -142,7 +142,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

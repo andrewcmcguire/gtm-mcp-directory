@@ -34,11 +34,11 @@ Vendor domain: [zapier.com](https://zapier.com) · vendor page id zapier-com
 
 - **Docs only**: 2 of 2: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 15 named across 2 measured servers, harvested 2026-09-11
+- **Tools catalogued**: 15 named across 2 measured servers, harvested 2026-09-12
 
-- **Bench tested**: 0 of 2 here, 1 of 374 across the directory
+- **Bench tested**: 0 of 2 here, 1 of 422 across the directory
 
-- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-11
+- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-12
 
 - **GitHub organisation**: [github.com/zapier](https://github.com/zapier), tied to the domain with evidence 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://zapier.com/mcp](https://zapier.com/mcp) (docs page)
 
-- **Tools catalogued**: 0 named, harvested 2026-09-11, catalogue dynamic, the server exposes the customer's own workspace
+- **Tools catalogued**: 0 named, harvested 2026-09-12, catalogue dynamic, the server exposes the customer's own workspace
 
 - **last_checked**: 2026-09-07
 
@@ -74,7 +74,7 @@ RESEARCHED
 
 - **Connect URL**: [https://mcp.zapier.com/login?redirectTo=%2Fmcp](https://mcp.zapier.com/login?redirectTo=%2Fmcp) (docs page)
 
-- **Tools catalogued**: 15 named, harvested 2026-09-11, catalogue dynamic, the server exposes the customer's own workspace
+- **Tools catalogued**: 15 named, harvested 2026-09-12, catalogue dynamic, the server exposes the customer's own workspace
 
 - **last_checked**: 2026-09-07
 
@@ -107,11 +107,11 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 npx zapier
 ```
 
-quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-11, via npx
+quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-12, via npx
 
 Login or key hint: handles auth
 
-2 more install commands, harvested 2026-09-11, all on the [tool page](../tools/zapier.md).
+2 more install commands, harvested 2026-09-12, all on the [tool page](../tools/zapier.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -138,6 +138,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 374 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 422 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

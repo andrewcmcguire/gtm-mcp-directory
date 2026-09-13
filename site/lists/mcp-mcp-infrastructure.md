@@ -1,6 +1,6 @@
-# MCP Layer tools with MCP servers: 14 of 19, counted
+# MCP Layer tools with MCP servers: 26 of 31, counted
 
-> 14 of the 19 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 26 of the 31 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 12 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / MCP Layer tools with an MCP server
 
-**List · 14 of 374**
+**List · 26 of 422**
 
 ## MCP Layer tools with an MCP server
 
-The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 14 of 19 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
+The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 26 of 31 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 12 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -60,6 +60,42 @@ Integrates with a team's own OIDC-compatible identity provider; handles OAuth an
 | [Klavis AI](../tools/klavis-ai.md)
 klavis.ai | [Official MCP](../mcp/official.md) | [https://www.klavis.ai/docs/concepts/strata.md](https://www.klavis.ai/docs/concepts/strata.md) +2 more | OAuth or an API key
 Klavis API key as an HTTP Bearer token on the management API that creates a per-user... | [Gate unknown](../gates/unknown.md) |
+| [Anyquery](../tools/anyquery.md)
+anyquery.dev | [Community MCP](../mcp/community.md) | [https://github.com/julien040/anyquery](https://github.com/julien040/anyquery) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/baryhuang/mcp-hubspot](https://github.com/baryhuang/mcp-hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MCP-Salesforce by smn2gnt](../tools/mcp-salesforce-by-smn2gnt.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/smn2gnt/MCP-Salesforce](https://github.com/smn2gnt/MCP-Salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by advancedcommunities](../tools/salesforce-mcp-by-advancedcommunities.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/advancedcommunities/salesforce-mc...](https://github.com/advancedcommunities/salesforce-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by jaworjar95](../tools/salesforce-mcp-by-jaworjar95.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/jaworjar95/salesforce-mcp-server](https://github.com/jaworjar95/salesforce-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by kablewy](../tools/salesforce-mcp-by-kablewy.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/kablewy/salesforce-mcp-server](https://github.com/kablewy/salesforce-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by SurajAdsul](../tools/salesforce-mcp-by-surajadsul.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/SurajAdsul/mcp-server-salesforce](https://github.com/SurajAdsul/mcp-server-salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md)
+context7.com | [Community MCP](../mcp/community.md) | [https://github.com/Damecek/salesforce-mcp-lib](https://github.com/Damecek/salesforce-mcp-lib) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Twenty CRM MCP](../tools/twenty-crm-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/mhenry3164/twenty-crm-mcp-server](https://github.com/mhenry3164/twenty-crm-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Vibe Prospecting MCP](../tools/vibe-prospecting-mcp.md)
+vibeprospecting.ai | [Community MCP](../mcp/community.md) | [https://github.com/explorium-ai/vibeprospecting-mcp](https://github.com/explorium-ai/vibeprospecting-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
 ### The other 5 in this category
 
@@ -87,4 +123,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Read CRM records](../jobs/read-crm-records.md)
 - [Write CRM records](../jobs/write-crm-records.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 422 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

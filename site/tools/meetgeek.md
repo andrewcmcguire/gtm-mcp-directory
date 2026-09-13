@@ -63,7 +63,7 @@ https://mcp.meetgeek.ai/mcp (cloud; docs https://support.meetgeek.ai/en/articles
 
 - **Tools named**: 6
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Repo read**: meetgeekai/meetgeek-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -82,7 +82,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **transcript** No description was recorded with the name. evidence: in the server source · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -91,7 +91,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: meetgeek
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -99,13 +99,13 @@ Install, as the source shows it:
 npm install -g meetgeek-cli
 ```
 
-quoted from [https://www.npmjs.com/package/meetgeek-cli](https://www.npmjs.com/package/meetgeek-cli) on 2026-09-11, via npm, a third party source
+quoted from [https://www.npmjs.com/package/meetgeek-cli](https://www.npmjs.com/package/meetgeek-cli) on 2026-09-12, via npm, a third party source
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: meetgeek-cli 0.1.2, third party](https://www.npmjs.com/package/meetgeek-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -161,7 +161,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

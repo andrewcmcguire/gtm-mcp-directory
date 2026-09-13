@@ -16,7 +16,7 @@
 
 **The short answer**
 
-A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 374 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
+A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 422 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
 
 Most stack diagrams are drawn by category because that is how software is sold. An agent does not experience it that way. It experiences a chain of doors, and the chain is only as good as its locked link.
 
@@ -24,27 +24,27 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 
 | Layer | Tools | Official MCP | Community | Reachable |
 |---|---|---|---|---|
-| [Conversation Intel](../categories/conversation-intel.md) | 25 | 19 | 2 | 84% |
-| [RevOps Infra](../categories/revops-infra.md) | 37 | 29 | 0 | 78% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 57 | 42 | 2 | 77% |
-| [MCP Layer](../categories/mcp-infrastructure.md) | 19 | 14 | 0 | 74% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 38 | 23 | 2 | 66% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 32 | 20 | 1 | 66% |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 31 | 14 | 12 | 84% |
+| [Conversation Intel](../categories/conversation-intel.md) | 26 | 19 | 2 | 81% |
+| [RevOps Infra](../categories/revops-infra.md) | 42 | 29 | 1 | 71% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 65 | 42 | 2 | 68% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 33 | 20 | 1 | 64% |
 | [Video Prospecting](../categories/video-prospecting.md) | 16 | 4 | 6 | 62% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 18 | 8 | 2 | 56% |
 | [Community & Dark Social](../categories/community-dark-social.md) | 20 | 8 | 3 | 55% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 48 | 23 | 3 | 54% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 19 | 8 | 2 | 53% |
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 25 | 11 | 2 | 52% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 15 | 5 | 2 | 47% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 25 | 8 | 2 | 40% |
-| [Email Deliverability](../categories/email-deliverability.md) | 13 | 4 | 0 | 31% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 16 | 2 | 1 | 19% |
-| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 18 | 3 | 0 | 17% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 28 | 8 | 2 | 36% |
+| [Email Deliverability](../categories/email-deliverability.md) | 14 | 4 | 0 | 29% |
+| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 19 | 3 | 0 | 16% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 21 | 2 | 1 | 14% |
 
-Counted 2026-09-12. Totals sum to 374 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-12. Totals sum to 422 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
-The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 25.
+The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 28.
 
 If you are assembling a stack an agent can drive, build it from the top of that table down. The bottom is where you will still be writing glue, or clicking.
 

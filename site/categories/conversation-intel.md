@@ -1,6 +1,6 @@
-# Conversation Intel: 25 tools, 19 with an official MCP server
+# Conversation Intel: 26 tools, 19 with an official MCP server
 
-> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 25 tools counted, 19 with an official MCP server and 3 free to start.
+> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 26 tools counted, 19 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface.
 
-- **entries in this file**: 25
+- **entries in this file**: 26
 
 - **Official MCP**: 19
 - **Community MCP**: 2
-- **No MCP found**: 4
+- **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-11**: 2
+- **ship a CLI (official) as of 2026-09-12**: 2
 
 - **Free to start**: 3
 - **Paid, self-serve**: 9
 - **Enterprise leaning**: 2
 - **Enterprise only**: 8
-- **Gate unknown**: 3
+- **Gate unknown**: 4
 
-Source file: 03-conversation-intel.md · content sha256 5992b9e011b4621d... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 4a95ad3dd379f2c1... · counts reconciled against tools_recount.py at build time.
 
 - [The 21 with an MCP server](../lists/mcp-conversation-intel.md)
 
@@ -84,6 +84,8 @@ Source file: 03-conversation-intel.md · content sha256 5992b9e011b4621d... · c
 - [Momentum](../tools/momentum.md) momentum.io Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration"). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: momentum-cli (community)
 
 - [Rilla](../tools/rilla.md) rilla.com AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile app rather than video-call bots. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Abstrakt](../tools/abstrakt.md) abstrakt.ai Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and streamlining operations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clozd](../tools/clozd.md) clozd.com Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

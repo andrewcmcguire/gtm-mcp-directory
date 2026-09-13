@@ -1,6 +1,6 @@
 # API access gates: free, paid, or a procurement cycle before your agent starts
 
-> An access gate is what stands between you and an API key. Across 374 GTM tools: 78 free to start, 132 paid self serve, 79 enterprise only.
+> An access gate is what stands between you and an API key. Across 422 GTM tools: 78 free to start, 132 paid self serve, 79 enterprise only.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -28,13 +28,13 @@ This is the second column nobody else publishes, and in practice it decides more
 | [Paid, self serve](../gates/paid.md) | 132 | A credit card is enough. Still no sales call. |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 8 | Self serve on paper, gated in practice. |
 | [Enterprise only](../gates/enterprise-only.md) | 79 | Contract, seat minimum or procurement. A solo operator is out. |
-| [Unknown](../gates/unknown.md) | 71 | The gate could not be established from public sources and is published as unknown rather than guessed. |
+| [Unknown](../gates/unknown.md) | 119 | The gate could not be established from public sources and is published as unknown rather than guessed. |
 
-6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-09-12 across 374 entries.
+6 further entries record n/a, where an API gate is not a meaningful question. Counted 2026-09-12 across 422 entries.
 
 ## Why unknown is such a large number
 
-71 entries carry an unknown gate, and that is itself the finding. A vendor who does not publish whether you can buy API access, at what tier, is telling you something about how they expect you to buy. Unknown is a legal answer in this directory and it ships as unknown rather than being rounded into whichever bucket looks tidier.
+119 entries carry an unknown gate, and that is itself the finding. A vendor who does not publish whether you can buy API access, at what tier, is telling you something about how they expect you to buy. Unknown is a legal answer in this directory and it ships as unknown rather than being rounded into whichever bucket looks tidier.
 
 ## The intersection that matters
 

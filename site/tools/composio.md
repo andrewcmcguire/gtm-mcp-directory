@@ -63,7 +63,7 @@ https://connect.composio.dev/mcp ; https://docs.composio.dev/docs/single-toolkit
 
 - **Tools named**: 6
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: the customer's own workspace, not a fixed catalogue
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -82,14 +82,14 @@ Recorded by the harvest: a small fixed meta-tool set plus the customer's own con
 
 - **COMPOSIO_SEARCH_TOOLS** Processes structured English search queries to discover and return relevant tools from Composio's toolkit ecosystem in parallel. evidence: in the vendor docs · calling it reads · required: queries, session · read off composio, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: composio
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -97,19 +97,19 @@ Install, as the source shows it:
 curl -fsSL https://composio.dev/install | bash
 ```
 
-quoted from [https://composio.dev/cli](https://composio.dev/cli) on 2026-09-11, via shell
+quoted from [https://composio.dev/cli](https://composio.dev/cli) on 2026-09-12, via shell
 
 ```
 curl -fsSL https://composio.dev/install | sh
 ```
 
-quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/cli) on 2026-09-11, via shell
+quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/cli) on 2026-09-12, via shell
 
 ```
 curl -fsSL https://composio.dev/install | sh -s -- @composio/cli@0.3.1
 ```
 
-quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/cli) on 2026-09-11, via shell
+quoted from [https://docs.composio.dev/docs/cli](https://docs.composio.dev/docs/cli) on 2026-09-12, via shell
 
 Login or key hint seen on the page:
 
@@ -123,7 +123,7 @@ Where it was documented:
 
 - [https://composio.dev/cli](https://composio.dev/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -139,7 +139,7 @@ free (100K tool calls/mo, 50K trigger events/mo, unlimited connections on the Fr
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -178,7 +178,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

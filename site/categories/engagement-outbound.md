@@ -1,6 +1,6 @@
-# Engagement & Outbound: 38 tools, 23 with an official MCP server
+# Engagement & Outbound: 48 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 38 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 48 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,24 +16,24 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 38
+- **entries in this file**: 48
 
 - **Official MCP**: 23
-- **Community MCP**: 2
+- **Community MCP**: 3
 - **MCP unknown**: 2
-- **No MCP found**: 11
+- **No MCP found**: 20
 
-- **ship a CLI (official) as of 2026-09-11**: 6
+- **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 1
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 6
+- **Gate unknown**: 16
 
-Source file: 02-engagement-outbound.md · content sha256 d736cf994c415c48... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 86f2799bb7fc9716... · counts reconciled against tools_recount.py at build time.
 
-- [The 25 with an MCP server](../lists/mcp-engagement-outbound.md)
+- [The 26 with an MCP server](../lists/mcp-engagement-outbound.md)
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
@@ -90,6 +90,8 @@ Source file: 02-engagement-outbound.md · content sha256 d736cf994c415c48... · 
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: overloop (community)
 
+- [LinkedGrow](../tools/linkedgrow.md) linkedgrow.ai Lead generation on LinkedIn, run by an agent that finds your leads, sends the invitation and opens the conversation, inside limits that keep your account safe. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Expandi](../tools/expandi.md) expandi.io Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account. [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Groove](../tools/groove.md) groove.co Salesforce-native sales engagement and prospecting platform - multichannel outbound automation and activity capture - operated as a module of the Clari revenue platform since its 2023 acquisition. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: groove (community)
@@ -104,6 +106,12 @@ Source file: 02-engagement-outbound.md · content sha256 d736cf994c415c48... · 
 
 - [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [ActiveCampaign](../tools/activecampaign.md) activecampaign.com Go beyond marketing automation with ActiveCampaign's autonomous marketing platform. Your team of AI agents handles email, SMS, WhatsApp and more for you, backed by billions of data points. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [AgentMail](../tools/agentmail.md) agentmail.to AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Birdie](../tools/birdie.md) getbirdie.io AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Mailchimp](../tools/mailchimp.md) mailchimp.com Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mogli](../tools/mogli.md) mogli.com Streamline text messaging and transform engagement with Mogli's Salesforce SMS App. Discover our 5-star solution that makes texting from Salesforce easy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -112,6 +120,18 @@ Source file: 02-engagement-outbound.md · content sha256 d736cf994c415c48... · 
 
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Salesgraph](../tools/salesgraph.md) salesgraph.com Salesgraph builds the context layer and revenue agents that carry work across enterprise deal cycles and learn from reviewed commercial outcomes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Sendblue](../tools/sendblue.md) sendblue.com Send iMessage, SMS, and RCS from your CRM or via REST API. 2-3x higher response rates than SMS. No A2P registration. SOC 2 certified. Used by 20,000+ businesses. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [SMS-Magic](../tools/sms-magic.md) sms-magic.com SMS-Magic's business text messaging platform is top rated for Marketing, Sales, Support. Turn CRMs like Salesforce & Zoho into powerful conversational messaging app. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [throxy](../tools/throxy.md) throxy.com Outbound partner for complex industries like manufacturing, education, and healthcare. Throxy runs your outbound with custom tech to book qualified sales meetings. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Twain](../tools/twain.md) twain.ai Better pipeline comes from accurate messaging. Twain researches prospects in real-time so your outreach leads with relevant signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Upcall](../tools/upcall.md) upcall.com Upcall is an omnichannel outreach platform powered by real people-not robots. Our U.S.-based team connects with your leads through phone, email, and SMS, qualifying prospects and engaging customers with smart... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Venta AI](../tools/venta-ai.md) getventa.ai Find and qualify companies, reach the right decision-makers and reactivate cold deals - in one platform. Developed in the EU, hosted in Germany. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [WhatsApp Business](../tools/whatsapp-business.md) business.whatsapp.com Grow customer engagement, marketing, sales and customer service success with business messaging on the platform with more than 2 billion users around the world. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

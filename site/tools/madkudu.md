@@ -18,7 +18,7 @@ MadKudu
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: mct-split
+CLI: mct-vulnerator
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,7 +63,7 @@ https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min (endp
 
 - **Tools named**: 16
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -100,35 +100,35 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **madkudu-value-prop** Retrieve tenant-specific value propositions and persona-based messaging for sales and marketing outreach customization. evidence: answered tools/list · calling it reads
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: mct-split
+- **Binary**: mct-vulnerator
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
-
-```
-npm install -g @madkudu-core-tools/split
-```
-
-quoted from [https://www.npmjs.com/package/@madkudu-core-tools/split](https://www.npmjs.com/package/@madkudu-core-tools/split) on 2026-09-11, via npm
 
 ```
 npm install -g @madkudu-core-tools/vulnerator
 ```
 
-quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-11, via npm
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/vulnerator](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-11:
+```
+npm install -g @madkudu-core-tools/split
+```
 
-- [npm: @madkudu-core-tools/split 1.2.0](https://www.npmjs.com/package/@madkudu-core-tools/split)
+quoted from [https://www.npmjs.com/package/@madkudu-core-tools/split](https://www.npmjs.com/package/@madkudu-core-tools/split) on 2026-09-12, via npm
+
+Packages seen, with the version on 2026-09-12:
+
 - [npm: @madkudu-core-tools/vulnerator 2.1.0](https://www.npmjs.com/package/@madkudu-core-tools/vulnerator)
+- [npm: @madkudu-core-tools/split 1.2.0](https://www.npmjs.com/package/@madkudu-core-tools/split)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -144,7 +144,7 @@ enterprise-only (madkudu.com/pricing 301s to hginsights.com after the HG Insight
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -169,7 +169,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -64,7 +64,7 @@ Recorded by the harvest: a gateway that re-exposes many other vendors' MCP serve
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
+119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -73,7 +73,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: knit-mcp
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-11
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -81,13 +81,13 @@ Install, as the source shows it:
 pip install knit-mcp
 ```
 
-quoted from [https://pypi.org/project/knit-mcp/](https://pypi.org/project/knit-mcp/) on 2026-09-11, via pypi, a third party source
+quoted from [https://pypi.org/project/knit-mcp/](https://pypi.org/project/knit-mcp/) on 2026-09-12, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-11:
+Packages seen, with the version on 2026-09-12:
 
 - [pypi: knit-mcp 0.1.1, third party](https://pypi.org/project/knit-mcp/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -103,7 +103,7 @@ free - the MCP tab of the vendor's pricing page publishes a "Launchpad" tier at 
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -123,7 +123,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 No job tag on this entry.
 
-103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

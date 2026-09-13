@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [conga.com](https://conga.com) · entry id 13-conga · source 13-proposals-deals.md line 450
+Vendor: [conga.com](https://conga.com) · entry id 13-conga · source 13-proposals-deals.md line 472
 
 **What it does**
 Drive commerce excellence with the Conga platform. Align pricing, CPQ, CLM, and document automation with purpose-built AI to scale your enterprise growth.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 55 of 374 entries are.
+The mcp_url field is empty on this entry. 89 of 422 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-71 of 374 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+119 of 422 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-328 of 374 entries are in the same position. Blank is legal and it is published as blank.
+347 of 422 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -104,7 +104,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 13-proposals-deals.md
 
-- **Source line**: 450
+- **Source line**: 472
 
 - **Tier**: RESEARCHED
 

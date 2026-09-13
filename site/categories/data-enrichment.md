@@ -1,6 +1,6 @@
-# Data & Enrichment: 57 tools, 42 with an official MCP server
+# Data & Enrichment: 65 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 57 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 65 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 57
+- **entries in this file**: 65
 
 - **Official MCP**: 42
 - **Community MCP**: 2
-- **No MCP found**: 13
+- **No MCP found**: 21
 
-- **ship a CLI (official) as of 2026-09-11**: 8
+- **ship a CLI (official) as of 2026-09-12**: 8
 
 - **Free to start**: 21
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 8
+- **Gate unknown**: 16
 
-Source file: 01-data-enrichment.md · content sha256 42032fcae99e057d... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 6574d106619d2b2f... · counts reconciled against tools_recount.py at build time.
 
 - [The 44 with an MCP server](../lists/mcp-data-enrichment.md)
 
@@ -75,7 +75,7 @@ Source file: 01-data-enrichment.md · content sha256 42032fcae99e057d... · coun
 
 - [Apollo.io](../tools/apollo-io.md) apollo.io A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing, and contact/organization enrichment. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Bright Data](../tools/bright-data.md) brightdata.com A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation, structured scraping APIs) that GTM engineers repurpose to pull LinkedIn, company-site, and directory data... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+- [Bright Data](../tools/bright-data.md) brightdata.com A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation, structured scraping APIs) that GTM engineers repurpose to pull LinkedIn, company-site, and directory data... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI: bdata
 
 - [Clay](../tools/clay.md) clay.com A spreadsheet-style workflow/orchestration tool that runs lead and company records through "waterfall" lookups across 100-200+ third-party data providers (Apollo, Lusha, Clearbit, etc.) and chains automation... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -133,7 +133,7 @@ Source file: 01-data-enrichment.md · content sha256 42032fcae99e057d... · coun
 
 - [Findymail](../tools/findymail.md) findymail.com An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or LinkedIn profile URL, verifies deliverability, and can also retrieve a phone number from a LinkedIn... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · CLI: findymail (community)
 
-- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: hs
+- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
@@ -143,12 +143,28 @@ Source file: 01-data-enrichment.md · content sha256 42032fcae99e057d... · coun
 
 - [Company Url Finder](../tools/company-url-finder.md) companyurlfinder.com Transform company names into verified website URLs in bulk. Trusted API, Google Sheets add-on, and instant domain lookup for sales teams and data enrichment. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [CompanyEnrich](../tools/companyenrich.md) companyenrich.com CompanyEnrich is a B2B data API platform covering 33M+ verified companies and 193M+ professional profiles. Platforms, AI agents, and GTM teams use it for company enrichment, lookalike discovery, and people... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Enrich-CRM](../tools/enrich-crm.md) enrich-crm.com Verified emails, direct phones, job changes & buying signals - real-time CRM enrichment, not a stale database. GDPR-native, EU servers. Free plan, from €29/month. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Enrichley](../tools/enrichley.md) enrichley.io Enrichley finds the companies that look like your best customers, the decision-makers inside them, and verified emails to reach them, on one platform from target account to outreach. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Integrate](../tools/integrate.md) integrate.com Integrate's lead management platform makes every lead clean, compliant, and actionable, so B2B marketers can focus on generating revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Leadspace](../tools/leadspace.md) leadspace.com Replace static GTM data with real-time intelligence. Unify profiles, activate signals, and keep routing, scoring, and targeting accurate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Orange Slice](../tools/orange-slice.md) orangeslice.ai Build go-to-market workflows with AI. Prospect, enrich, qualify, and automate GTM execution in Orange Slice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Prospect](../tools/prospect.md) tryprospect.com Find verified emails and mobile numbers for your buyers, right inside your browser. Neuron's contact data plugs into your CRM and outbound stack. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Reltio](../tools/reltio.md) reltio.com Unify siloed data into trusted 360 views with Reltio. Power AI, improve operations, and drive growth with real-time context intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [RevenueBase](../tools/revenuebase.md) revenuebase.ai RevenueBase is a B2B data infrastructure company that delivers production-ready data, cleans and enriches your existing records, and helps you discover what's missing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Store Leads](../tools/store-leads.md) storeleads.app The most comprehensive list of ecommerce stores including 13,727,714 active stores across 409 platforms including Shopify, WooCommerce and Square Online. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Supermetrics](../tools/supermetrics.md) supermetrics.com Supermetrics is a Marketing Intelligence Platform for agencies and brands that allows you to connect, manage, analyze, and activate your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Zeliq](../tools/zeliq.md) zeliq.com Zeliq centralizes prospecting, data enrichment, and multi-channel outreach. Find qualified leads, contact them, and manage your pipeline in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
