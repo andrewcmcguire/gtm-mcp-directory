@@ -30,7 +30,7 @@ The client connects to a URL the vendor hosts. Nothing is installed, the vendor 
 
 ## Which one the GTM tools ship
 
-Both, and the entries say which. Of the 740 servers found in this directory, 758 carry a parseable URL in their mcp_url field and 431 of those URLs point at a GitHub repository rather than a hosted endpoint, which is a strong hint the install is a local one you run yourself. The transport is recorded verbatim on the tool page wherever the vendor documents it, including one entry where the vendor's own registry record and a third party directory disagree about the transport and both are printed rather than one being picked.
+Both, and the entries say which. Of the 225 servers found in this directory, 243 carry a parseable URL in their mcp_url field and 83 of those URLs point at a GitHub repository rather than a hosted endpoint, which is a strong hint the install is a local one you run yourself. The transport is recorded verbatim on the tool page wherever the vendor documents it, including one entry where the vendor's own registry record and a third party directory disagree about the transport and both are printed rather than one being picked.
 
 ## The practical rule
 
@@ -42,7 +42,7 @@ If the setup asks for a command, it is local and your machine is the boundary. I
 - [Model Context Protocol, connect an MCP server to a client](https://modelcontextprotocol.io/quickstart/user) https://modelcontextprotocol.io/quickstart/user
 - [Model Context Protocol, official documentation](https://modelcontextprotocol.io) https://modelcontextprotocol.io
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

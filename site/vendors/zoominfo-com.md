@@ -1,6 +1,6 @@
 # ZoomInfo: products, MCP servers and connect URLs, one vendor page
 
-> ZoomInfo (zoominfo.com): 2 products in The GTM MCP Directory, 1 with an official MCP server, 1 answering a live handshake, 56 tools catalogued. Data baked 2026-09-12.
+> ZoomInfo (zoominfo.com): 2 products in The GTM MCP Directory, 1 with an official MCP server, 1 answering a live handshake, 56 tools catalogued. Data baked 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ ZoomInfo
 2 products in the directory
 1 official MCP server
 1 live handshake
-Data baked 2026-09-12
+Data baked 2026-09-13
 
 Vendor domain: [zoominfo.com](https://zoominfo.com) · vendor page id zoominfo-com
 
@@ -34,11 +34,11 @@ Vendor domain: [zoominfo.com](https://zoominfo.com) · vendor page id zoominfo-c
 
 - **Docs only**: 0 of 2: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 56 named across 2 measured servers, harvested 2026-09-12
+- **Tools catalogued**: 56 named across 2 measured servers, harvested 2026-09-13
 
-- **Bench tested**: 0 of 2 here, 1 of 1,251 across the directory
+- **Bench tested**: 0 of 2 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-12
+- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-13
 
 - **GitHub organisation**: [github.com/Zoominfo](https://github.com/Zoominfo), tied to the domain with evidence 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://mcp.zoominfo.com/mcp](https://mcp.zoominfo.com/mcp) (endpoint)
 
-- **Tools catalogued**: 17 named, harvested 2026-09-12, catalogue fixed
+- **Tools catalogued**: 17 named, harvested 2026-09-13, catalogue fixed
 
 - **last_checked**: 2026-09-03
 
@@ -74,7 +74,7 @@ RESEARCHED
 
 - **Connect URL**: [https://github.com/opensourceops/chorus-mcp-server](https://github.com/opensourceops/chorus-mcp-server) (docs page)
 
-- **Tools catalogued**: 39 named, harvested 2026-09-12, catalogue fixed
+- **Tools catalogued**: 39 named, harvested 2026-09-13, catalogue fixed
 
 - **last_checked**: 2026-09-02
 
@@ -116,11 +116,11 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 npm install -g @zoominfo/gtm-ai-cli
 ```
 
-quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-12, via npm
+quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-13, via npm
 
 Login or key hint: gtm auth
 
-1 more install command, 4 subcommands seen, harvested 2026-09-12, all on the [tool page](../tools/zoominfo.md).
+1 more install command, 4 subcommands seen, harvested 2026-09-13, all on the [tool page](../tools/zoominfo.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -147,6 +147,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,251 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-13 by build_directory.py (phase 1).

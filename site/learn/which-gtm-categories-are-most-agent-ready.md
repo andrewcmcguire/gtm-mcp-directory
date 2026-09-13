@@ -1,6 +1,6 @@
 # Which GTM categories are most agent reachable? The 15 layers, ranked by coverage
 
-> MCP Layer leads at 98% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-12.
+> RevOps Infra leads at 94% MCP coverage. Forecasting & Revenue is last. The full ranking across 15 categories, counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,33 +16,33 @@
 
 **The short answer**
 
-MCP Layer is the most agent reachable category at 261 of 266 entries with a server. Enablement & Coaching is the least at 7 of 62. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
+RevOps Infra is the most agent reachable category at 29 of 31 entries with a server. Forecasting & Revenue is the least at 3 of 17. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
 
 ## The ranking
 
 | # | Category | Reachable | Official | Community | Of |
 |---|---|---|---|---|---|
-| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 98% | 14 | 247 | 266 |
-| 2 | [Data & Enrichment](../categories/data-enrichment.md) | 69% | 42 | 121 | 235 |
-| 3 | [Signals & Intent](../categories/signals-intent-abm.md) | 53% | 20 | 25 | 85 |
-| 4 | [Community & Dark Social](../categories/community-dark-social.md) | 52% | 8 | 3 | 21 |
-| 5 | [RevOps Infra](../categories/revops-infra.md) | 52% | 29 | 24 | 102 |
-| 6 | [Conversation Intel](../categories/conversation-intel.md) | 49% | 19 | 6 | 51 |
-| 7 | [Scheduling & Routing](../categories/scheduling-routing.md) | 47% | 5 | 4 | 19 |
-| 8 | [Engagement & Outbound](../categories/engagement-outbound.md) | 47% | 23 | 58 | 173 |
-| 9 | [Proposals & Deals](../categories/proposals-deals.md) | 43% | 8 | 5 | 30 |
-| 10 | [Video Prospecting](../categories/video-prospecting.md) | 42% | 4 | 6 | 24 |
-| 11 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 39% | 3 | 10 | 33 |
-| 12 | [Email Deliverability](../categories/email-deliverability.md) | 36% | 4 | 6 | 28 |
-| 13 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 33% | 11 | 8 | 57 |
-| 14 | [AI SDRs](../categories/ai-sdr-agents.md) | 31% | 8 | 12 | 65 |
-| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 11% | 2 | 5 | 62 |
+| 1 | [RevOps Infra](../categories/revops-infra.md) | 94% | 29 | 0 | 31 |
+| 2 | [Data & Enrichment](../categories/data-enrichment.md) | 90% | 42 | 2 | 49 |
+| 3 | [Conversation Intel](../categories/conversation-intel.md) | 88% | 19 | 2 | 24 |
+| 4 | [Engagement & Outbound](../categories/engagement-outbound.md) | 76% | 23 | 2 | 33 |
+| 5 | [MCP Layer](../categories/mcp-infrastructure.md) | 74% | 14 | 0 | 19 |
+| 6 | [Signals & Intent](../categories/signals-intent-abm.md) | 70% | 20 | 1 | 30 |
+| 7 | [Video Prospecting](../categories/video-prospecting.md) | 67% | 4 | 6 | 15 |
+| 8 | [Proposals & Deals](../categories/proposals-deals.md) | 67% | 8 | 2 | 15 |
+| 9 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 65% | 11 | 2 | 20 |
+| 10 | [Community & Dark Social](../categories/community-dark-social.md) | 58% | 8 | 3 | 19 |
+| 11 | [Scheduling & Routing](../categories/scheduling-routing.md) | 50% | 5 | 2 | 14 |
+| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 43% | 8 | 2 | 23 |
+| 13 | [Email Deliverability](../categories/email-deliverability.md) | 31% | 4 | 0 | 13 |
+| 14 | [Enablement & Coaching](../categories/enablement-coaching.md) | 21% | 2 | 1 | 14 |
+| 15 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 18% | 3 | 0 | 17 |
 
-Counted 2026-09-12 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
+Counted 2026-09-13 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 65 entries. Enablement & Coaching is at 2 of 62. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 102.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 23 entries. Enablement & Coaching is at 2 of 14. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 31.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 
@@ -59,7 +59,7 @@ Build the agent driven parts of a stack from the top of that table, and expect t
 - [The GTM MCP Directory, by category](../categories/index.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,6 +1,6 @@
-# Email Deliverability tools with MCP servers: 10 of 28, counted
+# Email Deliverability tools with MCP servers: 4 of 13, counted
 
-> 10 of the 28 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 4 of the 13 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Email Deliverability tools with an MCP server
 
-**List · 10 of 1,251**
+**List · 4 of 336**
 
 ## Email Deliverability tools with an MCP server
 
-Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps cold-outbound infrastructure out of spam. Standing risk worth flagging once here rather than per entry: automated warmup - seed inboxes auto-opening/replying/starring your mail to fake engagement - sits in real tension with mailbox-provider ToS. Google banned automated email warm-up services for Gmail accounts in a January 2023 policy change, and Google/Yahoo/Microsoft jointly enforce bulk-sender rules (sub-0.3% spam complaints, sub-2% bounce) as of May 2025; GMass shut its own warm-up feature down as a result. Several vendors below (InboxAlly explicitly) market themselves as the safer alternative to network-based/bot-driven warmup for exactly this reason. 10 of 28 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Warm up an inbox. [See the full category page](../categories/email-deliverability.md).
+Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps cold-outbound infrastructure out of spam. Standing risk worth flagging once here rather than per entry: automated warmup - seed inboxes auto-opening/replying/starring your mail to fake engagement - sits in real tension with mailbox-provider ToS. Google banned automated email warm-up services for Gmail accounts in a January 2023 policy change, and Google/Yahoo/Microsoft jointly enforce bulk-sender rules (sub-0.3% spam complaints, sub-2% bounce) as of May 2025; GMass shut its own warm-up feature down as a result. Several vendors below (InboxAlly explicitly) market themselves as the safer alternative to network-based/bot-driven warmup for exactly this reason. 4 of 13 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Warm up an inbox. [See the full category page](../categories/email-deliverability.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -30,26 +30,8 @@ unknown - described only as "API and MCP access" bundled into every plan, withou
 | [Mailforge](../tools/mailforge.md)
 mailforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/mcp](https://mcp.salesforge.ai/mcp) | API key
 API key, generated from the Mailforge dashboard. | [Paid, self-serve](../gates/paid.md) |
-| [AnchoredIP](../tools/anchoredip.md)
-api.anchoredip.com | [Community MCP](../mcp/community.md) | [https://api.anchoredip.com/api/mcp](https://api.anchoredip.com/api/mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Mailcannon](../tools/mailcannon.md)
-thinkandautomate.dev | [Community MCP](../mcp/community.md) | [https://github.com/AinaLuc/mailcannon](https://github.com/AinaLuc/mailcannon) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Mamba Domain Deliverability MCP](../tools/mamba-domain-deliverability-mcp.md)
-github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-domain-deliverab...](https://github.com/mambalabsdev/mcp-domain-deliverability-checker) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Outreach Deliverability MCP by closermethod](../tools/outreach-deliverability-mcp-by-closermethod.md)
-github.com | [Community MCP](../mcp/community.md) | [https://github.com/closermethod/outreach-deliverabil...](https://github.com/closermethod/outreach-deliverability-mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Resend](../tools/resend.md)
-resend.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Volanea](../tools/volanea.md)
-volanea.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 18 in this category
+### The other 9 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -71,26 +53,8 @@ mailgenius.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../ga
 mailreach.co | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Warmy.io](../tools/warmy-io.md)
 warmy.io | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
-| [BounceBan](../tools/bounceban.md)
-bounceban.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Debounce](../tools/debounce.md)
-debounce.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Emailable](../tools/emailable.md)
-emailable.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Folderly](../tools/folderly.md)
 folderly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Lightmeter](../tools/lightmeter.md)
-lightmeter.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Listmint](../tools/listmint.md)
-listmint.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Mailwarm](../tools/mailwarm.md)
-mailwarm.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Meer](../tools/meer.md)
-meerapi.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [No2bounce](../tools/no2bounce.md)
-no2bounce.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [ZeroBounce](../tools/zerobounce.md)
-zerobounce.net | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -101,4 +65,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Check inbox placement](../jobs/check-inbox-placement.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

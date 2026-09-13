@@ -56,7 +56,7 @@ none
 - **Binary**: pocus
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 npm install -g @pocus/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@pocus/cli](https://www.npmjs.com/package/@pocus/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@pocus/cli](https://www.npmjs.com/package/@pocus/cli) on 2026-09-13, via npm
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [npm: @pocus/cli 0.1.1](https://www.npmjs.com/package/@pocus/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -86,7 +86,7 @@ n/a - no longer sold as a standalone product (see notes).
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -111,13 +111,13 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Absorbed into a competitor; the entry says features could not be meaningfully evaluated post-acquisition.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
 - [https://pocus.com](https://pocus.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 100 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 13 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://pocus.com
 
@@ -136,6 +136,6 @@ STATUS FLAG - CONFIRMED ACQUIRED. Pocus.com's homepage carries a banner reading 
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

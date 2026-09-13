@@ -1,6 +1,6 @@
-# Inbound & PLG Chat: 57 tools, 11 with an official MCP server
+# Inbound & PLG Chat: 20 tools, 11 with an official MCP server
 
-> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 57 tools counted, 11 with an official MCP server and 4 free to start.
+> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 20 tools counted, 11 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,25 +16,25 @@
 
 Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed.
 
-- **entries in this file**: 57
+- **entries in this file**: 20
 
 - **Official MCP**: 11
-- **Community MCP**: 8
+- **Community MCP**: 2
 - **MCP unknown**: 1
 - **MCP not applicable**: 1
-- **No MCP found**: 36
+- **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-12**: 3
+- **ship a CLI (official) as of 2026-09-13**: 3
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
 - **Enterprise only**: 3
-- **Gate unknown**: 40
+- **Gate unknown**: 3
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 a098697f3a487f48... · counts reconciled against tools_recount.py at build time.
 
-- [The 19 with an MCP server](../lists/mcp-inbound-plg-chat.md)
+- [The 13 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 - [Book a meeting](../jobs/book-a-meeting.md)
@@ -67,87 +67,13 @@ Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · cou
 
 - [Chatbase](../tools/chatbase.md) chatbase.co No-code AI agent builder for deploying chat/voice/email support-and-sales bots across a website widget and channels like WhatsApp and Slack. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: chatbase
 
-- [Crisp MCP](../tools/crisp-mcp.md) api.mcp.ai Customer support, live chat, CRM and helpdesk on Crisp with the full official REST API v1 (api.crisp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [My AskAI](../tools/my-askai.md) myaskai.com Deflect support requests by 75% with an AI customer service agent. Add to your existing live chat providers, like Intercom, Zendesk or Freshdesk. And start saving your team & customers time. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Open for Agents](../tools/open-for-agents.md) openforagents.com Connect a compatible AI app to Open for Agents for read-only public website visibility checks and recent-result comparison. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Ora](../tools/ora.md) ora.ai Scan any site, watch real agents try to use it, and fix what turns them away. Ora is the standard for optimizing your site so agents can actually use and recommend you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Perspective AI](../tools/perspective-ai.md) getperspective.ai Rigid forms cause drop-off, weaken qualification, and strip away context. Perspective uses adaptive AI to turn forms into conversations that capture structured data and trigger automation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [ReplayPilot](../tools/replaypilot.md) replaypilot.com Session replay, heatmaps, click maps, and AI session summaries that flag errors and let you search sessions in plain English, without the $247/mo tax other tools charge. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
 - [Forethought (now "Forethought AI Agents by Zendesk")](../tools/forethought.md) forethought.ai Omnichannel AI agent ("Solve") that resolves customer support and pre-sales issues across chat, email, voice, and a headless API, trained on a company's past tickets and help-center content. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Pocus](../tools/pocus.md) pocus.com Was a PLG/product-usage-signal platform - AI agents for account prioritization, an "intelligent inbox" for reps, and intent-signal enrichment aimed at turning free-trial/self-serve activity into sales-ready... [MCP not applicable](../mcp/n-a.md) · [Gate not applicable](../gates/n-a.md) · CLI: pocus
 
 - [Qualified](../tools/qualified.md) qualified.com Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR agent engages known target-account visitors in real time, qualifies them, and books meetings, then... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Abbot](../tools/abbot.md) ab.bot Your Customer Success Co-Pilot [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Breadcrumbs](../tools/breadcrumbs.md) breadcrumbs.io Optimize your entire funnel, and achieve up to 30% increase from MQL to Opp for Sales-Assisted and PLG motions with Breadcrumbs. Enterprise-Grade Lead Scoring Made for Everyone. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Candu](../tools/candu.md) candu.ai Candu lets product and growth teams build, launch, and iterate in-app onboarding & engagement flows-without engineering. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Chameleon](../tools/chameleon.md) chameleon.io Chameleon builds context on your product, identifies friction, creates in-app guidance, and monitors outcomes, so your product keeps getting better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [ClickFunnels](../tools/clickfunnels.md) clickfunnels.com ClickFunnels gives you everything you need to market, sell, and deliver your products and services online! Without having to hire or rely on a tech team! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Customer.io](../tools/customer-io.md) customer.io Customer.io is a customer engagement platform for creating personalized journeys and better business outcomes across email, push, SMS, and in-app messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Dittofeed](../tools/dittofeed.md) dittofeed.com The open-source, embeddable customer engagement platform for automating email, SMS, mobile push, WhatsApp, & more. Low-code customer segmentation, message templates, and a simple drag-and-drop journey builder. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
 - [Drift](../tools/drift.md) drift.com Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered the "buyer-intent chatbot" category before being acquired. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Fixture](../tools/fixture.md) fixture.app Fixture is customer engagement for the AI era. Sign up for early access. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [FormAssembly](../tools/formassembly.md) formassembly.com Collect clean, compliant data with FormAssembly's secure web forms. Validated data flows straight into Salesforce and your systems. Trusted by 5,500+ teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Formstack](../tools/formstack.md) formstack.com Formstack for Salesforce automates data collection, document generation, and approvals natively in Salesforce. Reduce manual work and improve data quality. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Fullstory](../tools/fullstory.md) fullstory.com Turn your data from a rear-view mirror into a forward-facing guidance system. Fullstory captures complete user behavioral context so your AI stack can see, act, and improve in near real time. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Gravity Forms](../tools/gravity-forms.md) gravityforms.com Create custom forms on WordPress with Gravity Forms, the easiest-to-use, secure, and reliable WordPress form builder plugin for your website. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Instapage](../tools/instapage.md) instapage.com Build high-converting landing pages with the best landing page creator and software. Drag-and-drop builder, 250+ templates, AI content, A/B testing, and personalization tools. Start your 14-day free trial. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Intellimize](../tools/intellimize.md) intellimize.com Webflow Optimize brings A/B testing and personalization to your website, on any CMS. Leverage AI-driven optimization to maximize conversions. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Laudable](../tools/laudable.md) laudable.com Get hundreds of customer testimonials, quotes, 5*G2 reviews, and advocates, in 80% less time, with Laudable's AI. Mine the data you already have in Gong and Chorus call recordings for customer evidence and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Laudspeaker](../tools/laudspeaker.md) laudspeaker.com Open source mobile marketing platform; alternative to Appcues-style product messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [LeadPages](../tools/leadpages.md) leadpages.com AI landing pages with built-in A/B testing, Smart Traffic, and heatmaps. Create pages in 60 seconds. Optimize automatically. No traffic caps. Starting at $99/mo. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Liferay](../tools/liferay.md) liferay.com Digital Experience Platform designed for complexity. Integrates with everything: CMS ✓ DAM ✓ Commerce ✓ AI ✓ Low Code ✓ Search ✓ and more! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Maintouch](../tools/maintouch.md) maintouch.com Maintouch tracks AI and Google visibility, creates and refreshes content, and helps brands earn the backlinks and mentions that drive search growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Mutiny](../tools/mutiny.md) mutinyhq.com Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Nara](../tools/nara.md) trynara.com Answer 70% of your support and sales questions. Instantly [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Netomi](../tools/netomi.md) netomi.com Netomi powers intelligent experiences for the world [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [ngrow.ai](../tools/ngrow-ai.md) ngrow.ai First smart No-SDK customer engagement platfrom. Best tool for Push, Email campaigns powered by generative AI [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Olark](../tools/olark.md) olark.com Built for the marketer doing five jobs at once - Olark's AI agent answers questions, qualifies visitors, and knows exactly when to bring in a human. Trained on your own site in under a minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Pendo](../tools/pendo.md) pendo.io Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts, and drive adoption and revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Positional](../tools/positional.md) positional.com sunbeam is the autonomous SEO agent that runs research, content, and technical fixes end-to-end. Start winning SEO from day one. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [SurveyMonkey](../tools/surveymonkey.md) surveymonkey.com Easily create surveys and forms with AI and templates for employee and customer feedback, market research, event registrations and more. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Survicate](../tools/survicate.md) survicate.com A customer feedback platform that lets you survey every channel, automate feedback flows, and uncover customer insights from multiple sources [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Unbounce](../tools/unbounce.md) unbounce.com Grow your leads and sales with Unbounce. Easily create, test, and optimize landing pages, and boost conversions using AI insights-start turning traffic into customers today! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Uplane](../tools/uplane.md) uplane.com uplane makes hundreds of on-brand ads and matching landing pages, runs them across Meta, Google, and TikTok, and steers budget to whatever performs. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [VWO](../tools/vwo.md) vwo.com VWO is the market-leading digital experience optimization solution that fast-growing companies use for experimentation & conversion rate optimization. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Correlated](../tools/correlated.md) correlated.ai unknown in current form - per the seed list and general market classification, Correlated was a product-usage/PLG-signal tool for identifying product-qualified leads (PQLs); this description could not be... [No MCP found](../mcp/none-found.md) · [Gate not applicable](../gates/n-a.md)
 

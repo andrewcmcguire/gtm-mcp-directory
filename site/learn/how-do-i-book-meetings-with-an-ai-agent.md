@@ -62,14 +62,14 @@ Prospect-facing scheduling/booking-page tool (Calendly competitor) built around 
 
 ## Where scheduling coverage actually sits
 
-Scheduling & Routing has 5 official servers and 4 community across 19 entries, with 11 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
+Scheduling & Routing has 5 official servers and 2 community across 14 entries, with 6 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
 
 ## Sources
 
 - [The GTM MCP Directory, Scheduling and Routing](../categories/scheduling-routing.md) this site
 - [The GTM MCP Directory, book a meeting](../jobs/book-a-meeting.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 20 of 65, counted
+# AI SDR tools with MCP servers: 10 of 23, counted
 
-> 20 of the 65 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 12 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 10 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / AI SDR tools with an MCP server
 
-**List · 20 of 1,251**
+**List · 10 of 336**
 
 ## AI SDR tools with an MCP server
 
-This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 20 of 65 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 12 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
+This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 10 of 23 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 relevanceai.com | [Official MCP](../mcp/official.md) | [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/) +1 more | OAuth
 OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project... | [Free to start](../gates/free.md) |
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
-amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | Auth not recorded
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +1 more | Auth not recorded
 Account sign-in (no API key needed) - "sign in with your Amplemarket account when... | [Paid, self-serve](../gates/paid.md) |
 | [Klenty](../tools/klenty.md)
 klenty.com | [Official MCP](../mcp/official.md) | [https://api.klenty.com/mcp](https://api.klenty.com/mcp) +2 more | Third party platform auth
@@ -48,38 +48,8 @@ Auth0 browser sign-in (auth.unifygtm.com); MCP caches the session cookie (~30-da
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
 API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
-| [D50 AI](../tools/d50-ai.md)
-app.d50.ai | [Community MCP](../mcp/community.md) | [https://app.d50.ai/api/mcp](https://app.d50.ai/api/mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [DingDawg Sales Agent MCP](../tools/dingdawg-sales-agent-mcp.md)
-github.com | [Community MCP](../mcp/community.md) | [https://github.com/dingdawg/dingdawg-agent-1](https://github.com/dingdawg/dingdawg-agent-1) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md)
-github.com | [Community MCP](../mcp/community.md) | [https://github.com/gcarreno-dev/elizabeth-ai-agent](https://github.com/gcarreno-dev/elizabeth-ai-agent) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [GenPark Sales Agent MCP](../tools/genpark-sales-agent-mcp.md)
-github.com | [Community MCP](../mcp/community.md) | [https://github.com/alphaparkinc/genpark-sales-agent](https://github.com/alphaparkinc/genpark-sales-agent) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [KaiCalls](../tools/kaicalls.md)
-kaicalls.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=dialer](https://registry.smithery.ai/servers?q=dialer) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Leaderra](../tools/leaderra.md)
-leaderra.ai | [Community MCP](../mcp/community.md) | [https://leaderra.ai](https://leaderra.ai) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Plyto](../tools/plyto.md)
-plyto.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [PropelAgent Studio](../tools/propelagent-studio.md)
-propelagent.studio | [Community MCP](../mcp/community.md) | [https://github.com/contacto291/propelagentstudio](https://github.com/contacto291/propelagentstudio) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Squad](../tools/squad.md)
-meetsquad.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Vruum](../tools/vruum.md)
-vruum.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 45 in this category
+### The other 13 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -105,76 +75,12 @@ salesforce.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gat
 terret.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Tofu](../tools/tofu.md)
 tofuhq.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
-| [Alysio](../tools/alysio.md)
-alysio.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [ApexGTM](../tools/apexgtm.md)
-github.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Athean](../tools/athean.md)
-athean.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [AviaryAI](../tools/aviaryai.md)
-helloaviary.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Buzz](../tools/buzz.md)
-buzz.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Cardinal](../tools/cardinal.md)
-trycardinal.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Coldreach](../tools/coldreach.md)
-coldreach.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Dench](../tools/dench.md)
-dench.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Echo](../tools/echo.md)
-echothat.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [FINNY AI](../tools/finny-ai.md)
-finny.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [FirstQuadrant](../tools/firstquadrant.md)
-firstquadrant.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Floworks](../tools/floworks.md)
-floworks.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Frontrunner](../tools/frontrunner.md)
-usefr.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Gojiberry AI](../tools/gojiberry-ai.md)
-gojiberry.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [item](../tools/item.md)
-item.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Kanava AI](../tools/kanava-ai.md)
-kanava.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Luru](../tools/luru.md)
 luru.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Nex](../tools/nex.md)
-nex.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Octolane AI](../tools/octolane-ai.md)
-octolane.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [OutRival](../tools/outrival.md)
-outrival.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Penguin AI](../tools/penguin-ai.md)
-penguinai.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Revnu](../tools/revnu.md)
-revnu.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [RocketSDR](../tools/rocketsdr.md)
-rocketsdr.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Rox](../tools/rox.md)
 rox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Saleswhale](../tools/saleswhale.md)
-saleswhale.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Sameday](../tools/sameday.md)
-gosameday.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Scribe](../tools/scribe.md)
-tryscribe.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Simple AI](../tools/simple-ai.md)
-usesimple.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Soff](../tools/soff.md)
-soff.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Struct](../tools/struct.md)
-struct.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Topo](../tools/topo.md)
-topo.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Trellus AI](../tools/trellus-ai.md)
 trellus.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Truva](../tools/truva.md)
-truva.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Verbiflow](../tools/verbiflow.md)
-verbiflow.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Vogent](../tools/vogent.md)
-vogent.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -187,4 +93,4 @@ The jobs most often tagged on the 22 tagged entries in this category.
 - [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md)
 - [Place an outbound call](../jobs/place-outbound-call.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

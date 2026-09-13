@@ -52,7 +52,7 @@ n/a
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -68,7 +68,7 @@ paid
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -107,7 +107,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -127,7 +127,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after sales conversations ("Action AI").
 
-16 of the 1251 entries are cross listed like this. They are why the entry count is 1251 and the unique product count is 1235. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 336 entries are cross listed like this. They are why the entry count is 336 and the unique product count is 320. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 
@@ -153,6 +153,6 @@ API access ("API Connections") is included starting at the Starter tier ($50/mo)
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

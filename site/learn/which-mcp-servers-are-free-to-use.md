@@ -1,6 +1,6 @@
 # Which GTM MCP servers are free to use? 62 products, counted
 
-> 62 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-12.
+> 62 products in this directory have an MCP server and a free to start access gate, so one person can connect an agent without paying or talking to anyone. The list, counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -149,7 +149,7 @@ A raw person/company data API that returns profile records (name, job history, e
 
 ## What this directory does and does not track about money
 
-- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 78 entries are free to start, 132 paid self serve, 79 enterprise only, 948 unknown.
+- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 78 entries are free to start, 132 paid self serve, 79 enterprise only, 33 unknown.
 
 - **Not tracked:** prices, credit costs, quota sizes, rate limits, overage behaviour, or what happens to your data on a free tier. None of those should be inferred from anything here.
 
@@ -162,7 +162,7 @@ If you want a chain rather than a single tool, the free and reachable jobs with 
 - [The GTM MCP Directory, free API tiers](../lists/free-api-tiers.md) this site
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

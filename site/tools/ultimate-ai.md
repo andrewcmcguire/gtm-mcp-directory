@@ -52,7 +52,7 @@ none
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -68,7 +68,7 @@ n/a - not sold as a standalone product.
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -86,7 +86,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agents; no standalone surface to evaluate.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -96,7 +96,7 @@ Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agent
 - 2024
 - referenced via the newsroom listing
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 100 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 13 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.zendesk.com/newsroom/press-releases/ (press release "Zendesk to Acquire Ultimate," dated March 13, 2024, referenced via the newsroom listing)
 
@@ -115,6 +115,6 @@ STATUS FLAG - CONFIRMED ACQUIRED, integration outcome not independently confirme
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

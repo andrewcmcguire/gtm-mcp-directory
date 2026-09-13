@@ -46,11 +46,11 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 417 of 1251 entries are.
+The mcp_url field is empty on this entry. 17 of 336 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -66,7 +66,7 @@ paid, self-serve - $900/month (billed quarterly), unlimited seats, credit-based 
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -96,13 +96,13 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
 - [https://aisdr.com](https://aisdr.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 100 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 13 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://aisdr.com
 
@@ -121,6 +121,6 @@ One of the few entries in this pass with transparent public pricing - useful dat
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

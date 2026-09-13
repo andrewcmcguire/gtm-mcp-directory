@@ -24,7 +24,7 @@ In sales the loop usually looks like this: read a trigger, research the account,
 
 ## Which doors are open
 
-Across 1,251 tools, 740 are callable through MCP and 168 are reachable by one person without a contract. By job, the loop above currently looks like this:
+Across 336 tools, 225 are callable through MCP and 168 are reachable by one person without a contract. By job, the loop above currently looks like this:
 
 | Step | Job | Tools tagged | Official MCP | Solo reachable |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ Across 1,251 tools, 740 are callable through MCP and 168 are reachable by one pe
 | Send the sequence | [run an email sequence](../jobs/run-email-sequence.md) | 45 | 27 | 23 |
 | Write it back to the CRM | [write crm records](../jobs/write-crm-records.md) | 28 | 19 | 14 |
 
-Counted 2026-09-12. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
+Counted 2026-09-13. Official MCP counts entries, and an entry can be cross listed in a second category, which is why these numbers are entry counts rather than product counts.
 
 ## The honest limit
 
@@ -48,7 +48,7 @@ Nobody has run these tools for this directory. 1 are bench tested. Every number 
 - [The GTM MCP Directory, by job](../jobs/index.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

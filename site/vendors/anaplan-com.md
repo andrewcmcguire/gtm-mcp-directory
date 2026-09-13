@@ -1,6 +1,6 @@
 # Anaplan (PlanIQ / Anaplan Forecaster): products, MCP servers and connect URLs, one vendor page
 
-> Anaplan (PlanIQ / Anaplan Forecaster) (anaplan.com): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 70 tools catalogued. Data baked 2026-09-12.
+> Anaplan (PlanIQ / Anaplan Forecaster) (anaplan.com): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 70 tools catalogued. Data baked 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Anaplan (PlanIQ / Anaplan Forecaster)
 1 product in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-12
+Data baked 2026-09-13
 
 Vendor domain: [anaplan.com](https://anaplan.com) · vendor page id anaplan-com
 
@@ -34,11 +34,11 @@ Vendor domain: [anaplan.com](https://anaplan.com) · vendor page id anaplan-com
 
 - **Docs only**: 1 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 70 named across 1 measured server, harvested 2026-09-12
+- **Tools catalogued**: 70 named across 1 measured server, harvested 2026-09-13
 
-- **Bench tested**: 0 of 1 here, 1 of 1,251 across the directory
+- **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-13
 
 - **GitHub organisation**: none tied to anaplan.com with evidence on 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) (docs page)
 
-- **Tools catalogued**: 70 named, harvested 2026-09-12, catalogue fixed
+- **Tools catalogued**: 70 named, harvested 2026-09-13, catalogue fixed
 
 - **last_checked**: 2026-09-07
 
@@ -83,7 +83,7 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -95,6 +95,6 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,251 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-13 by build_directory.py (phase 1).

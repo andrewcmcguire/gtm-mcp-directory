@@ -58,7 +58,7 @@ https://smithery.ai
 - **Binary**: smithery
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -66,28 +66,28 @@ Install, as the source shows it:
 npm install -g @smithery/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@smithery/cli](https://www.npmjs.com/package/@smithery/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@smithery/cli](https://www.npmjs.com/package/@smithery/cli) on 2026-09-13, via npm
 
 ```
 npm install -g @deploya/smithery-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@deploya/smithery-cli](https://www.npmjs.com/package/@deploya/smithery-cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@deploya/smithery-cli](https://www.npmjs.com/package/@deploya/smithery-cli) on 2026-09-13, via npm
 
 ```
 brew install smithery-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/smithery-cli](https://formulae.brew.sh/formula/smithery-cli) on 2026-09-12, via brew
+quoted from [https://formulae.brew.sh/formula/smithery-cli](https://formulae.brew.sh/formula/smithery-cli) on 2026-09-13, via brew
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [npm: @smithery/cli 4.11.1](https://www.npmjs.com/package/@smithery/cli)
 - [npm: @deploya/smithery-cli 0.0.1](https://www.npmjs.com/package/@deploya/smithery-cli)
 - [pypi: smithery 0.4.4, third party](https://pypi.org/project/smithery/)
 - [brew: smithery-cli 4.11.1](https://formulae.brew.sh/formula/smithery-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -103,7 +103,7 @@ free to browse; some individual listed servers charge per-call (e.g. one listed 
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -128,13 +128,13 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
 - [https://smithery.ai](https://smithery.ai)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 100 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 13 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://smithery.ai
 
@@ -153,6 +153,6 @@ Smithery lists 17,000+ MCP servers by its own count. Because Smithery's agent.pw
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

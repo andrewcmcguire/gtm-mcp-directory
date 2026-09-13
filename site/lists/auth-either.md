@@ -1,6 +1,6 @@
 # GTM MCP servers that accept OAuth or an API key: 68 tools, counted
 
-> 68 of the 740 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-12.
+> 68 of the 225 GTM tools with an MCP server use OAuth or an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that accept OAuth or an API key
 
-**List · 68 of 1,251**
+**List · 68 of 336**
 
 ## GTM MCP servers that accept OAuth or an API key
 
@@ -41,7 +41,7 @@ fireflies.ai | [Official MCP](../mcp/official.md) | [https://api.fireflies.ai/mc
 | [Google BigQuery](../tools/google-bigquery.md)
 cloud.google.com | [Official MCP](../mcp/official.md) | [https://bigquery.googleapis.com/mcp](https://bigquery.googleapis.com/mcp) +1 more | oauth. The docs state the server uses the "OAuth 2.0 protocol with IAM for authentication and authorization", supports "all Google Cloud identities"... | [Free to start](../gates/free.md) |
 | [Jotform](../tools/jotform.md)
-jotform.com | [Official MCP](../mcp/official.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +2 more | oauth only. The vendor's MCP page states "Bearer-token access is not supported; OAuth 2.0 is required for all connections." Rate limits by plan: "60... | [Free to start](../gates/free.md) |
+jotform.com | [Official MCP](../mcp/official.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +1 more | oauth only. The vendor's MCP page states "Bearer-token access is not supported; OAuth 2.0 is required for all connections." Rate limits by plan: "60... | [Free to start](../gates/free.md) |
 | [LeadMagic](../tools/leadmagic.md)
 leadmagic.io | [Official MCP](../mcp/official.md) | [https://github.com/LeadMagic/leadmagic-mcp](https://github.com/LeadMagic/leadmagic-mcp) +1 more | api key for local/self-hosted install (LEADMAGIC_API_KEY env var); OAuth Bearer token (Clerk-issued) for the hosted remote MCP - hosted version does... | [Free to start](../gates/free.md) |
 | [MeetGeek](../tools/meetgeek.md)
@@ -107,7 +107,7 @@ pipedream.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedream.com]
 | [Reply.io (Jason AI)](../tools/reply-io.md)
 reply.io | [Official MCP](../mcp/official.md) | [https://reply.io/mcp/](https://reply.io/mcp/) +2 more | Personal API key (vendor-recommended, sent as a Bearer token, scoped to the permissions the key allows) or OAuth (used by the Claude connector;... | [Paid, self-serve](../gates/paid.md) |
 | [Saleshandy](../tools/saleshandy.md)
-saleshandy.com | [Official MCP](../mcp/official.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +3 more | oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses OAuth for authentication - no API key needed for most clients" and... | [Paid, self-serve](../gates/paid.md) |
+saleshandy.com | [Official MCP](../mcp/official.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +2 more | oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses OAuth for authentication - no API key needed for most clients" and... | [Paid, self-serve](../gates/paid.md) |
 | [SalesQL](../tools/salesql.md)
 salesql.com | [Official MCP](../mcp/official.md) | [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp) +2 more | oauth. The vendor's docs record "Auth OAuth 2.1" with an MCP key as the fallback for clients that cannot carry the OAuth flow. | [Paid, self-serve](../gates/paid.md) |
 | [Skyp.ai](../tools/skyp-ai.md)
@@ -155,4 +155,4 @@ bombbomb.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bo
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp) +3 more | Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own OAuth layer. | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

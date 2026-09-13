@@ -61,7 +61,7 @@ https://github.com/footcarts/unify-mcp
 
 - **Tools named**: 13
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Repo read**: footcarts/unify-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -92,7 +92,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **post_unify_person_note** Publish a note on a Unify person record. Reuses an existing draft if one is open for the current user; otherwise creates+publishes. The body is HTML - wrap text content in
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -101,7 +101,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: unify-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -109,14 +109,14 @@ Install, as the source shows it:
 pip install unify-cli
 ```
 
-quoted from [https://pypi.org/project/unify-cli/](https://pypi.org/project/unify-cli/) on 2026-09-12, via pypi, a third party source
+quoted from [https://pypi.org/project/unify-cli/](https://pypi.org/project/unify-cli/) on 2026-09-13, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [pypi: unify-cli 3.6.2, third party](https://pypi.org/project/unify-cli/)
 - [pypi: unify-cli 3.6.2, third party](https://pypi.org/project/unify-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -132,7 +132,7 @@ paid, self-serve for the app (Free/$0, Base $20/seat/mo, Pro $60/seat/mo); "Open
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -178,7 +178,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -205,6 +205,6 @@ The MCP is an unaffiliated, community-maintained repo (0 stars, ~12 commits as o
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

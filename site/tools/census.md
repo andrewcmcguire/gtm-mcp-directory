@@ -60,7 +60,7 @@ https://github.com/fivetran/fivetran-mcp
 
 - **Tools named**: 2
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Repo read**: fivetran/fivetran-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -73,11 +73,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **list_endpoints** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -93,7 +93,7 @@ free - the Fivetran REST API, which now covers Activations, is available on all 
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -119,7 +119,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Entry states the standalone product no longer operates and now lives inside Fivetran as Activations. Tags belong on Fivetran, which has sync-records-between-systems.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -148,6 +148,6 @@ This is worth flagging plainly - anyone still citing "Census" as an independent 
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

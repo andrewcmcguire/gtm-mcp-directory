@@ -1,6 +1,6 @@
-# Scheduling & Routing tools with MCP servers: 9 of 19, counted
+# Scheduling & Routing tools with MCP servers: 7 of 14, counted
 
-> 9 of the 19 scheduling & routing tools in The GTM MCP Directory have an MCP server: 5 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 7 of the 14 scheduling & routing tools in The GTM MCP Directory have an MCP server: 5 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Scheduling & Routing tools with an MCP server
 
-**List · 9 of 1,251**
+**List · 7 of 336**
 
 ## Scheduling & Routing tools with an MCP server
 
-The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar, instantly and to the right person, then keeping that rep's own calendar sane. Three sub-lanes live in this file - prospect-facing booking pages (Calendly, Cal.com, SavvyCal), inbound lead-routing/handoff engines (Chili Piper, Default, RevenueHero, Kronologic, LeanData), and personal calendar-intelligence tools for reps/AEs (Motion, Reclaim.ai, Clockwise, Trevor AI) - plus two adjacent discovery finds (Clara, Doodle). MCP maturity here splits the same way category-06 does: the open-source/API-first booking tools (Cal.com, Calendly) shipped clean official servers, while most routing engines and personal-calendar apps have none or only community ones. 9 of 19 entries in this category are reachable by an agent: 5 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Read calendar availability. [See the full category page](../categories/scheduling-routing.md).
+The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar, instantly and to the right person, then keeping that rep's own calendar sane. Three sub-lanes live in this file - prospect-facing booking pages (Calendly, Cal.com, SavvyCal), inbound lead-routing/handoff engines (Chili Piper, Default, RevenueHero, Kronologic, LeanData), and personal calendar-intelligence tools for reps/AEs (Motion, Reclaim.ai, Clockwise, Trevor AI) - plus two adjacent discovery finds (Clara, Doodle). MCP maturity here splits the same way category-06 does: the open-source/API-first booking tools (Cal.com, Calendly) shipped clean official servers, while most routing engines and personal-calendar apps have none or only community ones. 7 of 14 entries in this category are reachable by an agent: 5 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Read calendar availability. [See the full category page](../categories/scheduling-routing.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -39,14 +39,8 @@ API key (MOTION_API_KEY from Motion Settings -> API), per community repos. Rate 
 | [SavvyCal](../tools/savvycal.md)
 savvycal.com | [Community MCP](../mcp/community.md) | [https://github.com/arturkoter/savvycal-mcp-server](https://github.com/arturkoter/savvycal-mcp-server) | API key
 API key (SAVVYCAL_API_KEY env var, a personal access token from SavvyCal's Developer... | [Paid, self-serve](../gates/paid.md) |
-| [Coordinalo](../tools/coordinalo.md)
-coordinalo.com | [Community MCP](../mcp/community.md) | [https://coordinalo.com/api/mcp](https://coordinalo.com/api/mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [CrispHive MCP](../tools/crisphive-mcp.md)
-docs.crisphive.com | [Community MCP](../mcp/community.md) | [https://github.com/crisphive/crisphive-mcp](https://github.com/crisphive/crisphive-mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 10 in this category
+### The other 7 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -60,16 +54,10 @@ leandata.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/ent
 getclockwise.com | [MCP not applicable](../mcp/n-a.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Clara (Clara Labs)](../tools/clara.md)
 claralabs.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
-| [Circa](../tools/circa.md)
-circa.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Doodle](../tools/doodle.md)
 doodle.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Kronologic](../tools/kronologic.md)
 kronologic.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Kubaru](../tools/kubaru.md)
-kubaru.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Rift](../tools/rift.md)
-rift.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Trevor AI](../tools/trevor-ai.md)
 trevorai.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 
@@ -84,4 +72,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 - [Summarize a meeting](../jobs/summarize-meeting.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

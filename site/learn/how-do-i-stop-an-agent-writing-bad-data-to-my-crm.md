@@ -40,7 +40,7 @@ A CRM note is text a stranger may have written. If your agent reads notes and ca
 
 ## What to check on the tool page before you start
 
-The verbatim auth field, whether the vendor offers OAuth, and whether the credential can be scoped. 137 of the 740 servers here document an OAuth flow, which is the shape you want for anything that writes.
+The verbatim auth field, whether the vendor offers OAuth, and whether the credential can be scoped. 137 of the 225 servers here document an OAuth flow, which is the shape you want for anything that writes.
 
 ## Sources
 
@@ -48,7 +48,7 @@ The verbatim auth field, whether the vendor offers OAuth, and whether the creden
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [The GTM MCP Directory, servers by auth type](../lists/auth-types.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

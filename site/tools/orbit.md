@@ -52,7 +52,7 @@ none
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -64,13 +64,13 @@ api_gate, verbatim from the file:
 
 unknown - cannot confirm; the product appears non-operational (see notes)
 
-948 of 1251 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+33 of 336 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -110,7 +110,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Community analytics platform, past tense in the entry.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -144,6 +144,6 @@ STATUS FLAG - as of 2026-08-24, every page checked on orbit.love (homepage, /blo
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,6 +1,6 @@
-# Signals & Intent: 85 tools, 20 with an official MCP server
+# Signals & Intent: 30 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 85 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 30 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,24 +16,24 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 85
+- **entries in this file**: 30
 
 - **Official MCP**: 20
-- **Community MCP**: 25
+- **Community MCP**: 1
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 37
+- **No MCP found**: 6
 
-- **ship a CLI (official) as of 2026-09-12**: 2
+- **ship a CLI (official) as of 2026-09-13**: 2
 
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 56
+- **Gate unknown**: 1
 
-Source file: 05-signals-intent-abm.md · content sha256 ac10f1e6ff053541... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 e510b3f0628d810d... · counts reconciled against tools_recount.py at build time.
 
-- [The 45 with an MCP server](../lists/mcp-signals-intent-abm.md)
+- [The 21 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md)
@@ -82,54 +82,6 @@ Source file: 05-signals-intent-abm.md · content sha256 ac10f1e6ff053541... · c
 
 - [Trigify (Trigify.io)](../tools/trigify.md) trigify.io Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions and engagement (likes, comments, shares, job changes), mapping who engaged with that content into an "engagement graph" filtered... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: trigify
 
-- [abm.dev](../tools/abm-dev.md) abm.dev The account-based marketing API for AI agents: Search, Enrich, and Create across B2B people and companies, every field cited with a source and a confidence score. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Dropwatch Research Intel MCP](../tools/dropwatch-research-intel-mcp.md) research.dropwatchhq.com Research GTM triggers: new NIH grants by PI/institution and new clinical trials by sponsor/phase. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Fintent Signals MCP](../tools/fintent-signals-mcp.md) app.fintent.ai Predictive Signals, Company Search, Sector Trends and Contacts for PEs, IBs, M&A dealmakers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [IntentLink](../tools/intentlink.md) intentlink.io IntentLink is the commercial intent network for the AI agent era - developers monetize conversations via MCP and Skills; advertisers reach high-intent buyers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Klarix Intelligence Engine](../tools/klarix-intelligence-engine.md) mcp.klarix.ai Cited competitive intelligence: prospect scoring, battlecards, SWOT, and tech-stack teardowns. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Lead Intelligence by Saifs](../tools/lead-intelligence-by-saifs.md) lead-scoring-mcp.saifs.ai Analyze and score leads to identify high-potential prospects and prioritize sales outreach. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md) github.com Daily job-change trigger for Claude Code. Detects changes the day they happen via LinkedIn MCP (Zevari) - not 30-90 days later like Apollo/Clay. Pipedrive + Instantly + Slack. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [LION Trend Intent MCP](../tools/lion-trend-intent-mcp.md) gleaming-cassata-d41682.netlify.app Read-only x402-paid trend-intent MCP tools for JSON and CSV signals. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md) github.com MCP server for GTM Hiring Signal Scraper. Detects GTM hiring activity from company career pages via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-hiring-signal-scraper [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Mamba GTM Signals Aggregator MCP](../tools/mamba-gtm-signals-aggregator-mcp.md) github.com MCP server for GTM Signals Aggregator. Combines hiring and tech stack detection into one composite GTM score via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-signals-aggregator [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Mamba Job Board Keyword Signal Scanner MCP](../tools/mamba-job-board-keyword-signal-scanner-mcp.md) github.com MCP server for Job Board Keyword Signal Scanner. Scans Greenhouse, Lever, Ashby, Workday, and Rippling for roles in any category via Apify. Clay-ready output. - mambalabsdev/mcp-job-board-keyword-signal-scanner [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Mamba Public Company Reporting Window MCP](../tools/mamba-public-company-reporting-window-mcp.md) github.com Contribute to mambalabsdev/mcp-public-company-reporting-window-finder development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Markifact](../tools/markifact.md) markifact.com Markifact helps marketers use AI agents, workflows, and MCP to create campaigns, analyze performance, and automate reporting across Google Ads, Meta Ads, GA4, TikTok Ads, and more. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Master Metrics](../tools/master-metrics.md) mcp.mastermetrics.com Connect any MCP-compatible AI client (Claude, Cursor, Copilot, n8n, Power Automate) to Master Metrics and query advertising data from Meta, Google, LinkedIn, TikTok and more using natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [NirmahGTM](../tools/nirmahgtm.md) github.com AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with calibrated LLMs, outputs evidence-backed openers/hooks/CRM sync governed, cached, evaluated. - AnjaliPPal/NirmahGTM [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Opus Growth](../tools/opus-growth.md) opus-growth.com The connector for Claude and ChatGPT: run Google, Meta, Microsoft, TikTok and LinkedIn ads from one chat. Safe writes with preview and approval. Free with 75… [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Parse Brand Visibility MCP](../tools/parse-brand-visibility-mcp.md) parse.gl Look up how any brand surfaces in ChatGPT and Google AI Overviews. The Parse public dataset, served as an MCP server. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Parsley](../tools/parsley.md) parsley.id Query buyer intent signals, MEDDIC qualifications, and lead scores from Parsley. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [PrimeRFP SCOUT](../tools/primerfp-scout.md) scout.primerfp.com Intelligence for Federal & Commercial Market Opportunities - Discover with visualization [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Red String](../tools/red-string.md) redstringapp.xyz MCP-native revenue research. Connect once. Research everything. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Say Ur Intent MCP](../tools/say-ur-intent-mcp.md) github.com Local-first MCP toolkit for Sui DeFi intents: turn a natural-language ask into verified on-chain evidence and a human-reviewable transaction you sign in your own wallet. No custody, no autonomous execution. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [TeloSignal](../tools/telosignal.md) telosignal.com TeloSignal tracks demand signals across 11,909 n8n templates - AI adoption, complexity trends, weekly intelligence. Know what to build. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Tracklution](../tools/tracklution.md) tracklution.com Server-side tracking made unbelievably simple. Improve conversion tracking by 34.2% without writing code. Connect to Google Ads, Meta, TikTok & more in minutes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Yandex Audience MCP](../tools/yandex-audience-mcp.md) github.com MCP-сервер для Яндекс Аудиторий - создавать CRM- и LAL-сегменты, управлять пикселями и доступами из AI-приложения - A1-x-Tech/mcp-yandex-audience [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · CLI: cm-i (community)
 
 - [Vector (vector.co)](../tools/vector.md) vector.co Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks their behavior (job changes, CRM activity, ad engagement)... [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md) · CLI: vector_cli (community)
@@ -147,65 +99,3 @@ Source file: 05-signals-intent-abm.md · content sha256 ac10f1e6ff053541... · c
 - [Bombora (Company Surge)](../tools/bombora.md) bombora.com Detects which companies are actively researching specific B2B topics by aggregating content-consumption data (article reads, downloads) across a co-op of 5,000+ B2B publisher sites, then measures spikes in a... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Champify](../tools/champify.md) champify.io Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost opportunities for re-engagement, integrated directly into Salesforce. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
-
-- [AthenaHQ](../tools/athenahq.md) athenahq.ai AthenaHQ is a leading AEO & GEO platform trusted by commercial & enterprise businesses to become the answer AI gives and the brand AI trusts. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Avina](../tools/avina.md) avina.io Avina is an AI-powered go-to-market platform that helps B2B sales teams find, prioritize, and engage high-intent prospects using real-time buying signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Channel99](../tools/channel99.md) channel99.com B2B marketing attribution software that uses AI to recommend ways to improve campaign ROI and increase pipeline [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [ClearBrain](../tools/clearbrain.md) clearbrain.com Causal analytics for growth teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [CustomerOS](../tools/customeros.md) customeros.ai CustomerOS uncovers hidden pipeline that actually converts. It [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [DemandSphere](../tools/demandsphere.md) demandsphere.com Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [eBrandValue](../tools/ebrandvalue.md) ebrandvalue.com eBrandValue enables you to track the value of your brand in real-time. Social Media Analytics, Sales Prediction, Influencer Studies, Crisis & Reputation Support 24/7. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Epicbrief](../tools/epicbrief.md) epicbrief.com The intelligence layer beneath GTM AI agents. Epicbrief - the architecture, the decisions, and what it unlocks across the org. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Gauge](../tools/gauge.md) withgauge.com Track, analyze, and improve your brand's presence across ChatGPT, Gemini, Perplexity, and AI search. Complete toolkit for AI visibility and GEO optimization. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [HockeyStack](../tools/hockeystack.md) hockeystack.com HockeyStack is an AI powered B2B Revenue Data Platform unifying marketing, product, and sales data, bridging PLG and sales led with attribution and AI predictive insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Influ2](../tools/influ2.md) influ2.com Reach named buyers at every stage of the buying journey. Revenue follows focus. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Influencer Club](../tools/influencer-club.md) influencers.club Access 340M creators with verified emails, full social graph & 40+ data points. Enrich or discover via dashboard, API & integrations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Leadinfo](../tools/leadinfo.md) leadinfo.com Grow your sales funnel and generate better leads. Start identifying B2B website visitors and reach out to them within Leadinfo's all-in-one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Letterdrop](../tools/letterdrop.md) letterdrop.com Find contacts starting sales cycles with your competitors [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Lift AI](../tools/lift-ai.md) lift-ai.com Lift AI scores the behavioral context of every website visitor - anonymous or identified - with a real-time buyer probability score. 85%+ accuracy. One score feeds your entire GTM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [LiftIQ](../tools/liftiq.md) liftiq.com Qualified leads and calls with pay-per-performance pricing. Owned properties, in-house DSP, and strategic partnerships delivering $100M+ annually. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [MiQ](../tools/miq.md) wearemiq.com Do more with your data to reach new customers, in new ways, wherever they are. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Modash](../tools/modash.md) modash.io High performing marketing teams use Modash to find, analyze and monitor influencers at scale all over the world. Join them today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [NetLine](../tools/netline.md) netline.com Promote your B2B content with the largest B2B-specific content syndication lead generation network, using performance-based lead generation solutions to meet your demand generation goals. Identify and capture... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Octane11](../tools/octane11.md) octane11.com Octane11 connects B2B marketing signals to real accounts and pipeline. Account-level analytics powered by AI. Set up in minutes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Permutive](../tools/permutive.md) permutive.com Discover how Permutive triples addressability, delivering more efficient and effective campaigns for advertisers and publishers. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Propensity](../tools/propensity.md) propensity.com Run ABM, contextual, and geofencing campaigns to identify real buyers, generate contact-level insights, and send high-intent leads to sales. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Pubrio](../tools/pubrio.md) pubrio.com Pubrio turns expansion signals across 200+ markets into one live graph, so revenue teams see which companies are entering new markets, and act on the timing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [RollWorks](../tools/rollworks.md) rollworks.com AdRoll ABM: Precision B2B targeting meets multi-channel advertising. Drive pipeline & revenue with intelligent campaigns that reach the right buyers, every time. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [SE Ranking](../tools/se-ranking.md) seranking.com SE Ranking is a trusted AI SEO tool that pays for itself. Get accurate data, actionable insights, and automated reports. Powerful tools, simple execution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Semrush](../tools/semrush.md) semrush.com Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Sitefire](../tools/sitefire.md) sitefire.ai Sitefire helps brands market their products to AI agents. Track AI visibility, identify what gets cited, and ship brand-aware content that ranks in generative answers. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Syncly](../tools/syncly.md) syncly.app Syncly is the AI-native social intelligence built for fast-moving brands. Listen across every platform, discover the right creators, and turn them into revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [TechniQ ABM](../tools/techniq-abm.md) techniqabm.com TechniQ helps B2B teams uncover the best way into their most important accounts and turns that intelligence into messaging and ready-to-use Sales & Marketing assets. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Terminus](../tools/terminus.md) terminus.com DemandScience helps B2B teams identify winnable accounts and activate them across channels-generating more pipeline without legacy ABM platform complexity. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [ZINFI](../tools/zinfi.md) zinfi.com ZINFI's Unified Partner Management (UPM) platform automates partner onboarding, MDF, co-sell, incentives, and channel marketing for enterprise technology and manufacturing leaders. G2 Leader. 24 modules.... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

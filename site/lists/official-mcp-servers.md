@@ -1,6 +1,6 @@
 # Official MCP servers list: 200 GTM tools, with links
 
-> The full list of 200 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-12.
+> The full list of 200 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the auth model and the access gate for each. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / The 200 GTM tools with an official MCP server
 
-**List · 200 of 1,251**
+**List · 200 of 336**
 
 ## The 200 GTM tools with an official MCP server
 
@@ -103,7 +103,7 @@ OAuth 2.0 for the hosted Remote MCP Server (migrating to OAuth 2.1 with PKCE +..
 hunter.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://hunter.io/api-documentation#mcp](https://hunter.io/api-documentation#mcp) | API key
 api key (HUNTER_API_KEY) | [Free to start](../gates/free.md) |
 | [Jotform](../tools/jotform.md)
-jotform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +2 more | OAuth or an API key
+jotform.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +1 more | OAuth or an API key
 oauth only. The vendor's MCP page states "Bearer-token access is not supported; OAuth 2.0... | [Free to start](../gates/free.md) |
 | [Knit MCP](../tools/knit-mcp.md)
 getknit.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.getknit.dev/mcp-servers](https://www.getknit.dev/mcp-servers) +1 more | OAuth
@@ -154,7 +154,7 @@ OAuth 2.0 for the hosted server (auto-handled by Claude.ai/Desktop via the MCP..
 relevanceai.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/) +1 more | OAuth
 OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project... | [Free to start](../gates/free.md) |
 | [Retool](../tools/retool.md)
-retool.com | [RevOps Infra](../categories/revops-infra.md) | [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp) +2 more | OAuth
+retool.com | [RevOps Infra](../categories/revops-infra.md) | [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp) +1 more | OAuth
 OAuth 2.0. Endpoint pattern https:///mcp over HTTP. | [Free to start](../gates/free.md) |
 | [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md)
 snowflake.com | [RevOps Infra](../categories/revops-infra.md) | [https://docs.snowflake.com/en/user-guide/snowflake-c...](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp) +1 more | OAuth
@@ -214,7 +214,7 @@ Airspeed API key passed as an X-API-Key header. | [Paid, self-serve](../gates/pa
 allegrow.co | [Email Deliverability](../categories/email-deliverability.md) | [https://mcp.allegrow.co/mcp](https://mcp.allegrow.co/mcp) +1 more | OAuth
 OAuth - connects through Claude's standard connector authorization flow; user logs into... | [Paid, self-serve](../gates/paid.md) |
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
-amplemarket.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | Auth not recorded
+amplemarket.com | [AI SDRs](../categories/ai-sdr-agents.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +1 more | Auth not recorded
 Account sign-in (no API key needed) - "sign in with your Amplemarket account when... | [Paid, self-serve](../gates/paid.md) |
 | [Apollo.io](../tools/apollo-io.md)
 apollo.io | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) | OAuth
@@ -235,7 +235,7 @@ OAuth; the help article states "MCP access is available to Brand24 subscribers. 
 brightdata.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | API key
 api key (Bright Data API token) | [Paid, self-serve](../gates/paid.md) |
 | [CatchIntent](../tools/catchintent.md)
-catchintent.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp) +3 more | OAuth
+catchintent.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp) +2 more | OAuth
 oauth. The vendor's MCP page states "One-time OAuth 2.1 authorization. Your MCP client... | [Paid, self-serve](../gates/paid.md) |
 | [Chili Piper](../tools/chili-piper.md)
 chilipiper.com | [Scheduling & Routing](../categories/scheduling-routing.md) | [https://www.chilipiper.com/products/mcp](https://www.chilipiper.com/products/mcp) +3 more | OAuth or an API key
@@ -292,7 +292,7 @@ OAuth via Clerk on the v3 endpoint; x-api-key header on the v2 and legacy endpoi
 front.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://mcp.frontapp.com/mcp](https://mcp.frontapp.com/mcp) +1 more | OAuth
 OAuth 2.1 with PKCE, per teammate. Front's docs state the server does not support Dynamic... | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
-grain.com | [Conversation Intel](../categories/conversation-intel.md) | [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp) +2 more | OAuth
+grain.com | [Conversation Intel](../categories/conversation-intel.md) | [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp) +1 more | OAuth
 OAuth via the native Claude integration, or manual server-URL setup for other MCP... | [Paid, self-serve](../gates/paid.md) |
 | [Granola](../tools/granola.md)
 granola.ai | [Conversation Intel](../categories/conversation-intel.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth
@@ -409,7 +409,7 @@ api key via HTTP header (X-Salesforge-Key) | [Paid, self-serve](../gates/paid.md
 salesforge.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://mcp.salesforge.ai/mcp](https://mcp.salesforge.ai/mcp) +2 more | Auth not recorded
 unknown specifics (help article confirms an official MCP server "to connect with AI... | [Paid, self-serve](../gates/paid.md) |
 | [Saleshandy](../tools/saleshandy.md)
-saleshandy.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +3 more | OAuth or an API key
+saleshandy.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +2 more | OAuth or an API key
 oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses OAuth for... | [Paid, self-serve](../gates/paid.md) |
 | [SalesQL](../tools/salesql.md)
 salesql.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://mcp.salesql.com/mcp](https://mcp.salesql.com/mcp) +2 more | OAuth or an API key
@@ -430,7 +430,7 @@ OAuth - user reviews and approves the connection through their Snov.io account; 
 sparktoro.com | [Community & Dark Social](../categories/community-dark-social.md) | [https://sparktoro.com/mcp](https://sparktoro.com/mcp) +1 more | OAuth
 OAuth (one-click sign-in with an existing SparkToro account); documented to work with... | [Paid, self-serve](../gates/paid.md) |
 | [Sumble](../tools/sumble.md)
-sumble.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://mcp.sumble.com/](https://mcp.sumble.com/) +3 more | Auth not recorded
+sumble.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://mcp.sumble.com/](https://mcp.sumble.com/) +2 more | Auth not recorded
 unknown - the MCP overview page documents one-click install from the Claude and ChatGPT... | [Paid, self-serve](../gates/paid.md) |
 | [Super Send](../tools/super-send.md)
 supersend.io | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://mcp.supersend.io/mcp](https://mcp.supersend.io/mcp) +1 more | API key
@@ -472,7 +472,7 @@ hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Wo
 zoho.com | [RevOps Infra](../categories/revops-infra.md) | [https://www.zoho.com/crm/developer/mcp.html](https://www.zoho.com/crm/developer/mcp.html) | OAuth
 oauth. The vendor's page describes a four-step setup ending in "Authenticate via OAuth.... | [Paid, self-serve](../gates/paid.md) |
 | [Amplemarket](../tools/amplemarket.md)
-amplemarket.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +3 more | OAuth
+amplemarket.com | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | OAuth
 OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Clari](../tools/clari.md)
 clari.com | [Conversation Intel](../categories/conversation-intel.md) | [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp) +1 more | Auth not recorded
@@ -496,7 +496,7 @@ Browser-based sign-in / OAuth on first connection from an MCP client such as Cla
 6sense.com | [Signals & Intent](../categories/signals-intent-abm.md) | [https://6sense.com/platform/mcp-server/](https://6sense.com/platform/mcp-server/) +1 more | OAuth
 OAuth using existing 6sense platform login (no separate API key setup per vendor docs) | [Enterprise only](../gates/enterprise-only.md) |
 | [Ada](../tools/ada.md)
-ada.cx | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) +1 more | Auth not recorded
+ada.cx | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
 none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](../tools/anaplan.md)
 anaplan.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.anaplan.com/platform/intelligence/](https://www.anaplan.com/platform/intelligence/) +1 more | OAuth or an API key
@@ -562,7 +562,7 @@ unknown - exact auth mechanism not confirmed in public sources; framed under "Ot
 outreach.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://api.outreach.io/mcp/](https://api.outreach.io/mcp/) +1 more | OAuth
 OAuth 2.1 with Dynamic Client Registration; also requires the org-level "Amplify" add-on... | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
-pigment.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +2 more | Auth not recorded
+pigment.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | Auth not recorded
 A workspace admin enables MCP under Settings > Integrations, generating a per-workspace... | [Enterprise only](../gates/enterprise-only.md) |
 | [Salesforce (core CRM/platform) + Agentforce](../tools/salesforce-agentforce.md)
 salesforce.com | [RevOps Infra](../categories/revops-infra.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) +2 more | OAuth
@@ -619,4 +619,4 @@ OAuth 2.0 - vendor help-center doc confirms "Authenticate via trumpet (OAuth 2.0
 zoom.com | [Conversation Intel](../categories/conversation-intel.md) | [https://news.zoom.com/zoom-revenue-accelerator-mcp-c...](https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/) +1 more | OAuth or an API key
 OAuth - Zoom user-level OAuth access token (env var... | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -20,11 +20,11 @@ Check five places in this order: this directory, the vendor's own developer docu
 
 ## The five places, in order
 
-- **This directory.** 1,251 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
+- **This directory.** 336 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
 
-- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 524 of 1,251 entries here record a documentation URL, which tells you something in itself about the other 727.
+- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 29 of 336 entries here record a documentation URL, which tells you something in itself about the other 307.
 
-- **Their GitHub organisation.** 469 entries here already carry a github.com URL somewhere in their fields and 431 of those are in the mcp_url field itself, which usually means a local server you run yourself.
+- **Their GitHub organisation.** 108 entries here already carry a github.com URL somewhere in their fields and 83 of those are in the mcp_url field itself, which usually means a local server you run yourself.
 
 - **The protocol's reference repository**, which is where a large number of community servers are catalogued.
 
@@ -36,7 +36,7 @@ This directory's own rule, applied to every submission: a 200 passes. A 401 pass
 
 ## The distinction most people miss
 
-Ask who built it before you ask whether it works. A wrapper published by an integration platform is a real, working server and it is not the vendor's. This directory records that as community, and 540 entries are in that bucket against 200 official.
+Ask who built it before you ask whether it works. A wrapper published by an integration platform is a real, working server and it is not the vendor's. This directory records that as community, and 25 entries are in that bucket against 200 official.
 
 ## When the honest answer is unknown
 
@@ -49,7 +49,7 @@ Ask who built it before you ask whether it works. A wrapper published by an inte
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 - [The GTM MCP Directory, submit a tool](../submit.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

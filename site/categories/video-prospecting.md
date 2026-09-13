@@ -1,6 +1,6 @@
-# Video Prospecting: 24 tools, 4 with an official MCP server
+# Video Prospecting: 15 tools, 4 with an official MCP server
 
-> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 24 tools counted, 4 with an official MCP server and 3 free to start.
+> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 15 tools counted, 4 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server.
 
-- **entries in this file**: 24
+- **entries in this file**: 15
 
 - **Official MCP**: 4
 - **Community MCP**: 6
 - **MCP unknown**: 1
-- **No MCP found**: 13
+- **No MCP found**: 4
 
-- **ship a CLI (official) as of 2026-09-12**: 3
+- **ship a CLI (official) as of 2026-09-13**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 6
 - **Enterprise leaning**: 1
 - **Enterprise only**: 2
-- **Gate unknown**: 12
+- **Gate unknown**: 3
 
-Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · counts reconciled against tools_recount.py at build time.
+Source file: 08-video-prospecting.md · content sha256 1e52b0a1b8e49a11... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-video-prospecting.md)
 
@@ -66,24 +66,6 @@ Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · co
 
 - [Hippo Video](../tools/hippo-video.md) hippovideo.io Video engagement platform for sales teams to record, automate, and personalize video outreach at scale, merging prospect variables into template videos and chaining them into "Video Flows" inside sequences. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md)
 
-- [ClearMix](../tools/clearmix.md) clearmix.com On-Demand, Fully-Remote Marketing and Sales Video Production Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Golpo](../tools/golpo.md) video.golpoai.com Make AI whiteboard animation videos free in 2 minutes. Turn a prompt, script, or document into a whiteboard explainer - no design skills needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Kite](../tools/kite.md) kite.video Create professional app demo videos in minutes. Auto cursor follow, zooms, text scenes, 3D mockups, AI voiceover, music, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Midrender](../tools/midrender.md) midrender.com Create motion animations in collaboration with AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Milk Video](../tools/milk-video.md) milkvideo.com Create video testimonials with a link. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [OneMob](../tools/onemob.md) onemob.com Create personalized video microsites, track prospect engagement in real-time, and convert more deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
 - [Potion](../tools/potion.md) sendpotion.com AI video-personalization tool for outbound sales - record one template video, and Potion overlays a personalized version per prospect (dynamic name/logo/background) for cold email and LinkedIn outreach at... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: qp (community)
-
-- [Tolstoy](../tools/tolstoy.md) gotolstoy.com Tolstoy is the Shopify shoppable video and UGC app used by 5,000+ brands. Create AI video, publish on product pages, add virtual try-on. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Vidu](../tools/vidu.md) vidu.io Automatically generated, AI personalized videos for your sales team's outreach [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

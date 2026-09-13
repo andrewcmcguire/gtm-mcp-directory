@@ -1,6 +1,6 @@
-# Conversation Intel tools with MCP servers: 25 of 51, counted
+# Conversation Intel tools with MCP servers: 21 of 24, counted
 
-> 25 of the 51 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 21 of the 24 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Conversation Intel tools with an MCP server
 
-**List · 25 of 1,251**
+**List · 21 of 336**
 
 ## Conversation Intel tools with an MCP server
 
-Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 25 of 51 entries in this category are reachable by an agent: 19 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
+Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 21 of 24 entries in this category are reachable by an agent: 19 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -46,7 +46,7 @@ Scalekit-hosted connector uses per-user delegated OAuth-style authorization in S
 fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https://fellow.app/mcp) +1 more | OAuth
 OAuth, with OAuth 2.0 dynamic discovery supported. | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
-grain.com | [Official MCP](../mcp/official.md) | [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp) +2 more | OAuth
+grain.com | [Official MCP](../mcp/official.md) | [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp) +1 more | OAuth
 OAuth via the native Claude integration, or manual server-URL setup for other MCP... | [Paid, self-serve](../gates/paid.md) |
 | [Granola](../tools/granola.md)
 granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth
@@ -81,20 +81,8 @@ Community server: Chorus API key in the CHORUS_API_KEY environment variable (std
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp) +3 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
-| [Backengine MCP](../tools/backengine-mcp.md)
-mcp.backengine.ai | [Community MCP](../mcp/community.md) | [https://github.com/BackEngine-ai/backengine-mcp](https://github.com/BackEngine-ai/backengine-mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Gong.io MCP by JustinBeckwith](../tools/gong-io-mcp-by-justinbeckwith.md)
-github.com | [Community MCP](../mcp/community.md) | [https://github.com/JustinBeckwith/gongio-mcp](https://github.com/JustinBeckwith/gongio-mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [RecordX](../tools/recordx.md)
-recordx.io | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=revops](https://registry.smithery.ai/servers?q=revops) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Voibe](../tools/voibe.md)
-getvoibe.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=outreach](https://registry.smithery.ai/servers?q=outreach) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 26 in this category
+### The other 3 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -104,54 +92,8 @@ No server found, or the check could not settle it. Same category, not reachable 
 momentum.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Rilla](../tools/rilla.md)
 rilla.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
-| [Abstrakt](../tools/abstrakt.md)
-abstrakt.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Bearworks](../tools/bearworks.md)
-bearworks.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Caretta](../tools/caretta.md)
-caretta.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Cedar](../tools/cedar.md)
-mail.cedarcopilot.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Clozd](../tools/clozd.md)
-clozd.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Cuckoo Labs](../tools/cuckoo-labs.md)
-cuckoo.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Demodesk](../tools/demodesk.md)
-demodesk.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Ergo](../tools/ergo.md)
-joinergo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [ExecVision](../tools/execvision.md)
-execvision.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Fabius](../tools/fabius.md)
-fabius.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Karumi](../tools/karumi.md)
-karumi.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Modus](../tools/modus.md)
-himodus.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Nomi](../tools/nomi.md)
-nomi.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Observe.AI](../tools/observe-ai.md)
-observe.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [People.ai](../tools/people-ai.md)
-people.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Peppr AI](../tools/peppr-ai.md)
-usepeppr.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Phonic](../tools/phonic.md)
-phonic.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Rafiki](../tools/rafiki.md)
-getrafiki.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Read AI](../tools/read-ai.md)
-read.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Salesken](../tools/salesken.md)
-salesken.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Salesroom](../tools/salesroom.md)
 salesroom.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Speck](../tools/speck.md)
-speck.sh | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Voiceops](../tools/voiceops.md)
-voiceops.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [VOIQ](../tools/voiq.md)
-voiq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -164,4 +106,4 @@ The jobs most often tagged on the 24 tagged entries in this category.
 - [Score rep performance](../jobs/score-rep-performance.md)
 - [Search across recorded calls](../jobs/search-call-library.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

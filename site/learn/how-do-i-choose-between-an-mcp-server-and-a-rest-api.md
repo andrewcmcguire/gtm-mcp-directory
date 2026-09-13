@@ -16,7 +16,7 @@
 
 **The short answer**
 
-Use the MCP server when it exists and exposes what you need: it is faster to wire, and any client can use it. Use the REST API when you need something the server does not expose, when you want tight control over rate limits and error handling, or when there is no server at all, which is the case for 487 of 1,251 entries here.
+Use the MCP server when it exists and exposes what you need: it is faster to wire, and any client can use it. Use the REST API when you need something the server does not expose, when you want tight control over rate limits and error handling, or when there is no server at all, which is the case for 87 of 336 entries here.
 
 ## What each one gives you
 
@@ -27,7 +27,7 @@ Use the MCP server when it exists and exposes what you need: it is faster to wir
 | Reuse across clients | Any MCP client | Whatever you wrote it for |
 | Rate limit and retry control | Whatever the server does | Yours |
 | Breaks when | The vendor changes the server | The vendor changes the API |
-| Available for | 740 of 1,251 entries here | Most of the rest, if they document one |
+| Available for | 225 of 336 entries here | Most of the rest, if they document one |
 
 ## The honest default
 
@@ -39,9 +39,9 @@ Start with the server if there is one. The whole point of a protocol is that you
 
 - **You need volume.** Batch and pagination behaviour is where an agent oriented server and a data pipeline part company.
 
-- **The server is community built and you cannot carry the risk.** 540 entries here are in that position.
+- **The server is community built and you cannot carry the risk.** 25 entries here are in that position.
 
-- **There is no server.** 487 entries, and 727 of 1,251 entries have no documentation URL recorded either, which is its own kind of answer.
+- **There is no server.** 87 entries, and 307 of 336 entries have no documentation URL recorded either, which is its own kind of answer.
 
 ## The thing that decides it more often than either
 
@@ -53,7 +53,7 @@ The access gate. 79 entries need a contract before you get any credential at all
 - [The GTM MCP Directory, by MCP status](../mcp/index.md) this site
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

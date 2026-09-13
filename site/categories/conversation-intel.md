@@ -1,6 +1,6 @@
-# Conversation Intel: 51 tools, 19 with an official MCP server
+# Conversation Intel: 24 tools, 19 with an official MCP server
 
-> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 51 tools counted, 19 with an official MCP server and 3 free to start.
+> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 24 tools counted, 19 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,23 +16,23 @@
 
 Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface.
 
-- **entries in this file**: 51
+- **entries in this file**: 24
 
 - **Official MCP**: 19
-- **Community MCP**: 6
-- **No MCP found**: 26
+- **Community MCP**: 2
+- **No MCP found**: 3
 
-- **ship a CLI (official) as of 2026-09-12**: 2
+- **ship a CLI (official) as of 2026-09-13**: 2
 
 - **Free to start**: 3
 - **Paid, self-serve**: 9
 - **Enterprise leaning**: 2
 - **Enterprise only**: 8
-- **Gate unknown**: 29
+- **Gate unknown**: 2
 
-Source file: 03-conversation-intel.md · content sha256 8e8051ddd4cd08bd... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 b029e32f980d38b3... · counts reconciled against tools_recount.py at build time.
 
-- [The 25 with an MCP server](../lists/mcp-conversation-intel.md)
+- [The 21 with an MCP server](../lists/mcp-conversation-intel.md)
 
 - [Summarize a meeting](../jobs/summarize-meeting.md)
 - [Fetch a call transcript](../jobs/fetch-call-transcript.md)
@@ -81,62 +81,8 @@ Source file: 03-conversation-intel.md · content sha256 8e8051ddd4cd08bd... · c
 
 - [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Backengine MCP](../tools/backengine-mcp.md) mcp.backengine.ai Surface customer & prospect context from Slack, email, transcripts and tickets in any MCP client. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Gong.io MCP by JustinBeckwith](../tools/gong-io-mcp-by-justinbeckwith.md) github.com MCP server for Gong.io - access calls, transcripts, and users - JustinBeckwith/gongio-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [RecordX](../tools/recordx.md) recordx.io Take meeting notes automatically. RecordX records Zoom, Google Meet, in-person, and uploaded audio, then delivers transcripts, summaries, and action items. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
-- [Voibe](../tools/voibe.md) getvoibe.com Give your AI agents ears. Send audio, get JSON back: who spoke, when they spoke, and a summary your agent can act on. Or connect Claude through MCP. 15 free minutes, no card. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
-
 - [Momentum](../tools/momentum.md) momentum.io Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration"). [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: momentum-cli (community)
 
 - [Rilla](../tools/rilla.md) rilla.com AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile app rather than video-call bots. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Abstrakt](../tools/abstrakt.md) abstrakt.ai Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and streamlining operations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Bearworks](../tools/bearworks.md) bearworks.com Unlock your sales potential. Transform your team through Bearworks' AI-powered Sales Conversation Platform for unparalleled productivity, with a parallel dialer, live salesfloor, and personalized voicemails. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Caretta](../tools/caretta.md) caretta.so Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Cedar](../tools/cedar.md) mail.cedarcopilot.com Cedar analyses your sales calls, email and CRM to map out a winning playbook - then drafts the context-aware follow-ups that keep every deal moving. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Clozd](../tools/clozd.md) clozd.com Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Cuckoo Labs](../tools/cuckoo-labs.md) cuckoo.so Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and languages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Demodesk](../tools/demodesk.md) demodesk.com Record every sales call, update your CRM, coach reps, and draft follow-ups automatically. GDPR-native, built in Germany. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Ergo](../tools/ergo.md) joinergo.com Ergo turns conversations into automatic follow-ups, CRM updates, coaching, and forecasting. Reps spend less time on admin work, deals stop slipping. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [ExecVision](../tools/execvision.md) execvision.io ExecVision is the only conversation intelligence platform designed to deliver measurable results through human behavior change. Learn how it can help your organization. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Fabius](../tools/fabius.md) fabius.io AI to improve Sales Calls [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Karumi](../tools/karumi.md) karumi.ai Karumi is an AI-powered product expert that joins your video calls to deliver live product demos, answer questions, and guide customers in real time. Transform sales, support, and internal training with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Modus](../tools/modus.md) himodus.com Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From predicting attrition to underperformance, Modus lets you act... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Nomi](../tools/nomi.md) nomi.so Nomi is the real-time AI sales copilot that guides reps during live calls. Get instant battle cards, objection handling, and coaching when you need it. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Observe.AI](../tools/observe-ai.md) observe.ai Observe.AI brings AI agents for customer experience into one platform. Automate customer service with Voice AI, assist frontline teams in real time, analyze conversations, improve QA, and orchestrate voice and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [People.ai](../tools/people-ai.md) people.ai Backstory is AI for sales teams that goes beyond dashboards. Get direct answers to your hardest pipeline questions - which deals are real, which are at risk, and what to do next. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Peppr AI](../tools/peppr-ai.md) usepeppr.ai Peppr listens to your calls and surfaces the right answer before your customer finishes asking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Phonic](../tools/phonic.md) phonic.ai Build voice agents as natural as humans. 750ms latency, 50+ languages, audio-native AI. Trusted by teams shipping voice in production. Try free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Rafiki](../tools/rafiki.md) getrafiki.ai Rafiki AI is an AI-powered sales intelligence platform that analyzes every sales conversation, coaches reps, and surfaces deals that need attention. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Read AI](../tools/read-ai.md) read.ai Read AI, the fastest growing AI meeting assistant, ever, delivers real-time transcription, smart summaries, and enables AI search and discovery across all your content including meeting, messages, emails, CRM,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Salesken](../tools/salesken.md) salesken.ai Discover Salesken.ai: Revolutionizing sales with AI-powered insights, real-time assistance, and advanced analytics to boost your team's performance. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
 - [Salesroom](../tools/salesroom.md) salesroom.com Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Speck](../tools/speck.md) speck.sh AI notetaker that records meetings, automates research workflows, and performs follow-up actions for sales teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [Voiceops](../tools/voiceops.md) voiceops.com Build a more intelligent business on Voiceops. Most data tells you what happened. Your customer conversations tell you why. Voiceops turns those conversations into a live signal every team can run on. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
-
-- [VOIQ](../tools/voiq.md) voiq.com Conversational AI VoiceBots for Business [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

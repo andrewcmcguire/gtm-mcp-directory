@@ -58,16 +58,69 @@ https://mcp.apify.com (docs: https://docs.apify.com/platform/integrations/mcp; r
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 23
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-13
+- **Repo read**: apify/apify-mcp-server
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **abort-actor-run** runs evidence: in a README table · calling it reads
+
+- **call-actor** actors evidence: in a README table · calling it reads
+
+- **create-actor-task** tasks evidence: in a README table · calling it writes
+
+- **fetch-actor-details** actors evidence: in a README table · calling it reads
+
+- **fetch-apify-docs** docs evidence: in a README table · calling it reads
+
+- **get-actor-log** runs evidence: in a README table · calling it reads
+
+- **get-actor-run** runs evidence: in a README table · calling it reads
+
+- **get-actor-run-list** runs evidence: in a README table · calling it reads
+
+- **get-actor-task** tasks evidence: in a README table · calling it reads
+
+- **get-dataset** storage evidence: in a README table · calling it reads
+
+- **get-dataset-items** storage evidence: in a README table · calling it reads
+
+- **get-dataset-list** storage evidence: in a README table · calling it reads
+
+- **get-dataset-schema** storage evidence: in a README table · calling it reads
+
+- **get-key-value-store** storage evidence: in a README table · calling it reads
+
+- **get-key-value-store-keys** storage evidence: in a README table · calling it reads
+
+- **get-key-value-store-list** storage evidence: in a README table · calling it reads
+
+- **get-key-value-store-record** storage evidence: in a README table · calling it reads
+
+- **publish-actor-task** tasks evidence: in a README table · calling it reads
+
+- **report-problem** dev evidence: in a README table · calling it reads
+
+- **search-actors** actors evidence: in a README table · calling it reads
+
+- **search-apify-docs** docs evidence: in a README table · calling it reads
+
+- **unpublish-actor-task** tasks evidence: in a README table · calling it reads
+
+- **update-actor-task** tasks evidence: in a README table · calling it writes
+
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: actor
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -75,20 +128,20 @@ Install, as the source shows it:
 npm install -g apify-cli
 ```
 
-quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-13, via npm
 
 ```
 brew install apify-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-12, via brew
+quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-13, via brew
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [npm: apify-cli 1.10.0](https://www.npmjs.com/package/apify-cli)
 - [brew: apify-cli 1.10.0](https://formulae.brew.sh/formula/apify-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -104,7 +157,7 @@ free - the pricing page lists Free at $0/month with "$5" of monthly prepaid plat
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -141,7 +194,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -169,6 +222,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.apify.com returned
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

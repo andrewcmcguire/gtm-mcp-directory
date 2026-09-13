@@ -62,7 +62,7 @@ https://www.pulsemcp.com/servers/granola (official server at https://mcp.granola
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -71,7 +71,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: granola
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -79,42 +79,42 @@ Install, as the source shows it:
 npm install -g granola-cli
 ```
 
-quoted from [https://www.npmjs.com/package/granola-cli](https://www.npmjs.com/package/granola-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/granola-cli](https://www.npmjs.com/package/granola-cli) on 2026-09-13, via npm, a third party source
 
 ```
 npm install -g granola-to-minutes
 ```
 
-quoted from [https://www.npmjs.com/package/granola-to-minutes](https://www.npmjs.com/package/granola-to-minutes) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/granola-to-minutes](https://www.npmjs.com/package/granola-to-minutes) on 2026-09-13, via npm, a third party source
 
 ```
 npm install -g @toolittlecakes/granola-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@toolittlecakes/granola-cli](https://www.npmjs.com/package/@toolittlecakes/granola-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@toolittlecakes/granola-cli](https://www.npmjs.com/package/@toolittlecakes/granola-cli) on 2026-09-13, via npm, a third party source
 
 ```
-npm install -g @0xraduan/granola-cli
+npm install -g @doist/granola-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@0xraduan/granola-cli](https://www.npmjs.com/package/@0xraduan/granola-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@doist/granola-cli](https://www.npmjs.com/package/@doist/granola-cli) on 2026-09-13, via npm, a third party source
 
 ```
 pip install granola-cli
 ```
 
-quoted from [https://pypi.org/project/granola-cli/](https://pypi.org/project/granola-cli/) on 2026-09-12, via pypi, a third party source
+quoted from [https://pypi.org/project/granola-cli/](https://pypi.org/project/granola-cli/) on 2026-09-13, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [npm: granola-cli 0.2.0, third party](https://www.npmjs.com/package/granola-cli)
 - [npm: granola-to-minutes 0.5.3, third party](https://www.npmjs.com/package/granola-to-minutes)
 - [npm: @toolittlecakes/granola-cli 0.2.6, third party](https://www.npmjs.com/package/@toolittlecakes/granola-cli)
-- [npm: @0xraduan/granola-cli 0.1.7, third party](https://www.npmjs.com/package/@0xraduan/granola-cli)
+- [npm: @doist/granola-cli 1.0.0, third party](https://www.npmjs.com/package/@doist/granola-cli)
 - [pypi: granola-cli 0.1.0, third party](https://pypi.org/project/granola-cli/)
 - [pypi: granola-cli 0.1.0, third party](https://pypi.org/project/granola-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -130,7 +130,7 @@ paid (API access and MCP integration start on the Business plan at $14/user/mo; 
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -159,7 +159,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -188,6 +188,6 @@ Included per the seed list, but flagged clearly: Granola is a horizontal notetak
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

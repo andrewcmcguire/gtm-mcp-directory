@@ -63,7 +63,7 @@ https://mcp.jiminny.com/mcp ; https://glama.ai/mcp/servers/fzheng0222/jiminny-mc
 
 - **Tools named**: 3
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Repo read**: fzheng0222/jiminny-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -78,11 +78,11 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **jiminny_list_conversations** Lists recorded calls (paginated, newest first) evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -98,7 +98,7 @@ enterprise-only (no pricing page exists on any path and neither the site nor the
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -140,7 +140,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -171,6 +171,6 @@ Added as an expansion beyond the seed list - a second mid-market Gong/Chorus com
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -62,7 +62,7 @@ https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted S
 
 - **Tools named**: 25
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Repo read**: Klavis-AI/klavis
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -119,11 +119,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **shopify_update_product** Update an existing product evidence: in the server source · calling it writes
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -135,13 +135,13 @@ api_gate, verbatim from the file:
 
 unknown - pricing page referenced but not disclosed in the fetched content
 
-948 of 1251 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+33 of 336 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -180,7 +180,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: unclear. The entry states the product is agent-training-data infrastructure and explicitly flags the mismatch with Composio/Pipedream. proxy-tool-calls-to-saas is plausible from the "600+ real tools" line and unsupported by everything else on the page.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -212,6 +212,6 @@ Included per the research brief's seed list, but the public-facing material foun
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

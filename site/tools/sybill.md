@@ -61,7 +61,7 @@ https://mcp.sybill.ai/mcp ; https://api.sybill.ai/docs/mcp.html (server https://
 
 - **Tools named**: 8
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -82,11 +82,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **list_deals** List CRM deals available to the signed-in user evidence: in the vendor docs · calling it reads
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -102,7 +102,7 @@ enterprise-leaning (API and MCP access appear only on Business at $90/user/mo an
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -126,7 +126,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -155,6 +155,6 @@ None. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

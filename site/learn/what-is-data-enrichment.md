@@ -1,6 +1,6 @@
 # What is data enrichment? The definition, and which vendors an agent can call
 
-> Data enrichment turns a thin identifier into a full record. 235 enrichment tools are counted here and 42 ship an official MCP server.
+> Data enrichment turns a thin identifier into a full record. 49 enrichment tools are counted here and 42 ship an official MCP server.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -29,11 +29,11 @@ Enrichment vendors differ mostly in where the data comes from and how fresh it i
 | A name and a company | [find a work email address](../jobs/find-work-email.md) | 29 | 22 | 12 |
 | An email address | [reverse-look-up a person from an email](../jobs/reverse-lookup-person-from-email.md) | 1 | 0 | 1 |
 
-Counted 2026-09-12. Entry counts, not product counts: a tool listed in two categories is counted in both.
+Counted 2026-09-13. Entry counts, not product counts: a tool listed in two categories is counted in both.
 
 ## Why this category is the exception
 
-Data & Enrichment is the most agent reachable category in this directory: 42 official servers and 121 community across 235 entries, with 21 free to start. That is not an accident. These vendors already sold an API as the product, so exposing it through a second protocol was a small step rather than a strategy change.
+Data & Enrichment is the most agent reachable category in this directory: 42 official servers and 2 community across 49 entries, with 21 free to start. That is not an accident. These vendors already sold an API as the product, so exposing it through a second protocol was a small step rather than a strategy change.
 
 Compare that with categories whose product is a user interface. When the interface is the product, the API is a cost, and the MCP server is a cost on top of a cost.
 
@@ -46,7 +46,7 @@ Credits. Enrichment is metered, and an agent in a loop is very good at spending 
 - [The GTM MCP Directory, Data and Enrichment](../categories/data-enrichment.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

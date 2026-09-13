@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 20 of 65, counted
+# AI SDR tools with MCP servers: 10 of 23, counted
 
-> 20 of the 65 ai sdrs tools in this directory have an MCP server: 8 official and 12 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 10 of the 23 ai sdrs tools in this directory have an MCP server: 8 official and 2 community. The list with server URLs and access gates. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-20 of the 65 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 12 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
+10 of the 23 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 2 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
 
 This is the inversion in one table. A category sold entirely on autonomous software is the least callable by anybody else's autonomous software, and the gap is not close.
 
@@ -44,30 +44,10 @@ Historically a lead-scoring/qualification product; the vendor domain now redirec
 A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and...
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) Community MCP · Enterprise only
 Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound...
-- [D50 AI](../tools/d50-ai.md) Community MCP · Gate unknown
-246 tools to run sales, marketing & hiring: CRM, leads, AI calling, content, recruiting & SEO.
-- [DingDawg Sales Agent MCP](../tools/dingdawg-sales-agent-mcp.md) Community MCP · Gate unknown
-DingDawg Agent 1 - Governance receipts for AI agents. Deploy governed AI agents with signed audit trails. EU AI Act + Colorado AI Act compliant....
-- [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md) Community MCP · Gate unknown
-Fully autonomous AI sales agent on WhatsApp Business API. Groq LLM · Firebase Cloud Functions · Firestore · Google Sheets ETL · MCP server ·...
-- [GenPark Sales Agent MCP](../tools/genpark-sales-agent-mcp.md) Community MCP · Gate unknown
-Autonomous outbound B2B sales development representative. - alphaparkinc/genpark-sales-agent
-- [KaiCalls](../tools/kaicalls.md) Community MCP · Gate unknown
-KaiCalls is a phone service with a built-in secretary. Your number can answer, route, text, follow up, and brief you starting at $10/month.
-- [Leaderra](../tools/leaderra.md) Community MCP · Gate unknown
-Leaderra is an AI appointment setter for the leads you already have - inbound, CRM and old lists. It answers in seconds and follows up for weeks...
-- [Plyto](../tools/plyto.md) Community MCP · Gate unknown
-Plyto is a CRM powered by an AI agent. Describe what you want and it captures leads, runs ads, closes deals, and ties every dollar to revenue, or run...
-- [PropelAgent Studio](../tools/propelagent-studio.md) Community MCP · Gate unknown
-AI agent platform: manage leads, conversations, bots, calendar and CRM via MCP.
-- [Squad](../tools/squad.md) Community MCP · Gate unknown
-Squad AI is an AI-driven product discovery, strategy, and roadmapping tool for building user-centric products. Align your team and ship outcomes...
-- [Vruum](../tools/vruum.md) Community MCP · Gate unknown
-The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it...
 
 ## The rest of the category
 
-45 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+13 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Landbase](../tools/landbase.md) No MCP found · Free to start
 A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous...
@@ -89,12 +69,12 @@ A cloud CRM/platform for managing sales, service, and marketing records via a da
 A revenue-intelligence platform ("answer-to-action" engine) that analyzes call recordings and deal data to find winning patterns, generates sales...
 - [Tofu](../tools/tofu.md) No MCP found · Enterprise only
 A campaign-automation platform ("Agentic GTM") that runs always-on, personalized outbound/nurture/re-engagement campaigns inside an existing CRM and...
-- [Alysio](../tools/alysio.md) No MCP found · Gate unknown
-Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, HubSpot and Gong using MCP and deploy revenue automation agents in...
-- [ApexGTM](../tools/apexgtm.md) No MCP found · Gate unknown
-🚀 Autonomous GTM Engineer AI Platform - Multi-agent system that replaces 80-90% of manual GTM work. Combines Clay + Apollo + ZoomInfo + HubSpot + n8n...
+- [Luru](../tools/luru.md) No MCP found · Gate unknown
+An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn,...
+- [Rox](../tools/rox.md) No MCP found · Gate unknown
+An AI-powered revenue automation platform for enterprise sales teams, positioned as an autonomous SDR-style agent handling pipeline generation, lead...
 
-33 more are on the linked page. The cut is the display limit, not a ranking.
+1 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -103,9 +83,9 @@ Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, 
 | [Free to start](../gates/free.md) | 2 |
 | [Paid, self-serve](../gates/paid.md) | 8 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 45 |
+| [Gate unknown](../gates/unknown.md) | 3 |
 
-Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 c64c51121c2e0984...
+Counted 2026-09-13. Source file 04-ai-sdr-agents.md, content sha256 38a615f00933b4cd...
 
 ## Sources
 
@@ -113,7 +93,7 @@ Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 c64c51121c2e
 - [AI SDRs tools with MCP servers](../lists/mcp-ai-sdr-agents.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

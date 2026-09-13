@@ -123,18 +123,83 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established by hand on 2026-09-03. On 2026-09-04 the recorded URL was a reachable repository or package: a server you install and run on your own machine over stdio. Callable after an install, not a remote endpoint.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/lusha-oss/lusha-public-api-mcp (also https://github.com/lusha-oss/lusha-mcp-plugin; docs: https://docs.lusha.com/mcp-docs)</p><ul><li><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">https://github.com/lusha-oss/lusha-public-api-mcp</a></li><li><a href="https://github.com/lusha-oss/lusha-mcp-plugin" rel="noopener nofollow">https://github.com/lusha-oss/lusha-mcp-plugin</a></li><li><a href="https://docs.lusha.com/mcp-docs" rel="noopener nofollow">https://docs.lusha.com/mcp-docs</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><p class="v empty">Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.</p><p class="note">119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/lusha-oss/lusha-public-api-mcp (also https://github.com/lusha-oss/lusha-mcp-plugin; docs: https://docs.lusha.com/mcp-docs)</p><ul><li><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">https://github.com/lusha-oss/lusha-public-api-mcp</a></li><li><a href="https://github.com/lusha-oss/lusha-mcp-plugin" rel="noopener nofollow">https://github.com/lusha-oss/lusha-mcp-plugin</a></li><li><a href="https://docs.lusha.com/mcp-docs" rel="noopener nofollow">https://docs.lusha.com/mcp-docs</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">8</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-13</div></div><div><div class="bk">Repo read</div><div class="bv mono">lusha-oss/lusha-public-api-mcp</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><ul class="caplist"><li>
+<div class="tn"><b>companyBulkLookup</b></div>
+<div class="td">Look up multiple or single companies information from Lusha API.
+        REQUIREMENTS: Each company must provide at least one of:
+        1. Company name,
+        2. Company domain,
+        3. Fully qualified domain name (fqdn), or</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>companyEnrich</b></div>
+<div class="td">Get detailed company information from search results. WARNING: CHARGES CREDITS - always ask user first!
+        
+        REQUIREMENTS:
+        - requestId: from prospectingCompany search response
+        - companiesIds: array of company IDs</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>companyFilters</b></div>
+<div class="td">Get available filter options for company prospecting. No credits charged.
+        
+        FILTER TYPES:
+        - names, industries, sizes, revenues, sics, naics, intentTopics
+        - locations, technologies (require searchText parameter</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>companySearch</b></div>
+<div class="td">Search for companies using advanced filters via Lusha</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>contactEnrich</b></div>
+<div class="td">Enrich contacts from search results. This is step 3 of the prospecting process.
+        IMPORTANT: 
+        - The requestId parameter MUST be the exact UUID received from the contactSearch response
+        - ALWAYS ask the user which specif</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>contactFilters</b></div>
+<div class="td">Get available filter values for contact search. Supports:
+        1. departments - List of available departments
+        2. seniority - List of available seniority levels
+        3. existing_data_points - List of available data points</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>contactSearch</b></div>
+<div class="td">Search for contacts using various filters in Lusha API.
+        This is step 2 of the prospecting process.
+        IMPORTANT: 
+        - After returning search results, ALWAYS ask the user if they want to enrich specific contacts
+        -</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>personBulkLookup</b></div>
+<div class="td">Look up multiple or single persons information from Lusha API. 
+        REQUIREMENTS: Each person body must have a combination of: 
+        1. LinkedIn URL, 
+        2. full name + company domain/name, or 
+        3. email address.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads</div>
+</li></ul><p class="note">121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>free</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">727 of 1251 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/lusha-oss/lusha-mcp-plugin" rel="noopener nofollow">https://github.com/lusha-oss/lusha-mcp-plugin</a></li><li><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">https://github.com/lusha-oss/lusha-public-api-mcp</a></li></ul></div></div><div class="field"><div class="k">On GitHub</div><div class="v "><p class="v"><a href="https://github.com/lusha-oss" rel="noopener nofollow">github.com/lusha-oss</a> <span class="note">tied to the vendor by rule 1, account website https://www.lusha.com/ has the vendor&#x27;s domain, confidence strong</span></p><div class="blockgrid" style="margin-top:12px"><div><div class="bk">Public repositories</div><div class="bv">4, forks excluded, as read on 2026-09-08</div></div><div><div class="bk">Mention MCP</div><div class="bv">3 of them</div></div><div><div class="bk">Look like CLIs</div><div class="bv">0 of them</div></div><div><div class="bk">Latest push</div><div class="bv">2026-09-03</div></div></div><p class="note" style="margin-top:14px">The five most recently pushed, on 2026-09-08:</p><div class="scroller orgtable"><table class="datatable"><thead><tr><th>Repository</th><th>Kind</th><th>Description</th><th>Stars</th><th>Pushed</th><th>Latest release</th></tr></thead><tbody><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/lusha-mcp-talent-sourcing-plugin" rel="noopener nofollow">lusha-mcp-talent-sourcing-plugin</a></td><td class="n" data-l="Kind">MCP server</td><td data-l="Description">Lusha HR MCP plugin</td><td class="n" data-l="Stars">0</td><td class="n" data-l="Pushed">2026-09-03</td><td class="n" data-l="Latest release"></td></tr><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/n8n-nodes-lusha" rel="noopener nofollow">n8n-nodes-lusha</a></td><td class="n" data-l="Kind">plugin or integration</td><td data-l="Description">Complete Lusha API integration for n8n</td><td class="n" data-l="Stars">4</td><td class="n" data-l="Pushed">2026-09-01</td><td class="n" data-l="Latest release">v1.2.2</td></tr><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/lusha-mcp-plugin" rel="noopener nofollow">lusha-mcp-plugin</a></td><td class="n" data-l="Kind">MCP server</td><td data-l="Description"></td><td class="n" data-l="Stars">4</td><td class="n" data-l="Pushed">2026-08-06</td><td class="n" data-l="Latest release">v0.1.1</td></tr><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">lusha-public-api-mcp</a></td><td class="n" data-l="Kind">MCP server</td><td data-l="Description"></td><td class="n" data-l="Stars">6</td><td class="n" data-l="Pushed">2026-03-04</td><td class="n" data-l="Latest release"></td></tr></tbody></table></div><p class="note">Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/search-people-by-criteria">Search people by criteria</a></li><li><a href="../jobs/enrich-person-from-linkedin-url">Enrich a person from a LinkedIn URL</a></li><li><a href="../jobs/enrich-company-from-domain">Enrich a company from a domain</a></li><li><a href="../jobs/find-linkedin-url-from-name-and-company">Find a person&#x27;s LinkedIn URL from a name and company</a></li><li><a href="../jobs/find-work-email">Find a work email address</a></li><li><a href="../jobs/find-phone-number">Find a phone number</a></li><li><a href="../jobs/draft-personalized-outreach">Draft personalized outreach</a></li><li><a href="../jobs/score-and-prioritize-leads">Score and prioritize leads</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">https://github.com/lusha-oss/lusha-public-api-mcp</a></li><li><a href="https://docs.lusha.com/mcp-docs" rel="noopener nofollow">https://docs.lusha.com/mcp-docs</a></li><li><a href="https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api" rel="noopener nofollow">https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api</a></li><li><a href="https://www.vendr.com/marketplace/lusha" rel="noopener nofollow">https://www.vendr.com/marketplace/lusha</a></li><li><a href="https://www.saleshandy.com/blog/lusha-pricing/" rel="noopener nofollow">https://www.saleshandy.com/blog/lusha-pricing/</a></li><li><a href="https://docs.lusha.com/apis/openapi/person-api" rel="noopener nofollow">https://docs.lusha.com/apis/openapi/person-api</a></li></ul><p class="note">6 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://github.com/lusha-oss/lusha-public-api-mcp, https://docs.lusha.com/mcp-docs, https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api, https://www.vendr.com/marketplace/lusha, https://www.saleshandy.com/blog/lusha-pricing/, https://docs.lusha.com/apis/openapi/person-api</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Per Lusha&#x27;s own docs, every user gets an API key by default on every plan including Free, with rate limits scaling by tier (Free/Starter: 40 req/min, 100/day; Premium: 300/min, 18,000/day). This contradicts some third-party pricing blogs claiming Free/Starter have no API access - the official docs were treated as authoritative. Self-serve seat purchasing tops out at 5 seats; beyond that, a Scale plan requires a sales quote. 2026-09-03: vendor docs state the Search Contacts endpoint (POST /v3/contacts/search) looks up contacts by &quot;firstName + lastName + companyName or companyDomain&quot; and returns a non-PII preview that includes linkedinUrl (https://docs.lusha.com/apis/openapi/person-api); MCP tool contacts_search is described as &quot;Enrich contact data using email, LinkedIn URL, or name + company&quot; (https://docs.lusha.com/mcp-docs); the docs state it is charged per successful result via the api_search action, with no unit price stated.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>free</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p class="v empty">No documentation URL recorded.</p><p class="note">307 of 336 entries are in the same position. Blank is legal and it is published as blank.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/lusha-oss/lusha-mcp-plugin" rel="noopener nofollow">https://github.com/lusha-oss/lusha-mcp-plugin</a></li><li><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">https://github.com/lusha-oss/lusha-public-api-mcp</a></li></ul></div></div><div class="field"><div class="k">On GitHub</div><div class="v "><p class="v"><a href="https://github.com/lusha-oss" rel="noopener nofollow">github.com/lusha-oss</a> <span class="note">tied to the vendor by rule 1, account website https://www.lusha.com/ has the vendor&#x27;s domain, confidence strong</span></p><div class="blockgrid" style="margin-top:12px"><div><div class="bk">Public repositories</div><div class="bv">4, forks excluded, as read on 2026-09-08</div></div><div><div class="bk">Mention MCP</div><div class="bv">3 of them</div></div><div><div class="bk">Look like CLIs</div><div class="bv">0 of them</div></div><div><div class="bk">Latest push</div><div class="bv">2026-09-03</div></div></div><p class="note" style="margin-top:14px">The five most recently pushed, on 2026-09-08:</p><div class="scroller orgtable"><table class="datatable"><thead><tr><th>Repository</th><th>Kind</th><th>Description</th><th>Stars</th><th>Pushed</th><th>Latest release</th></tr></thead><tbody><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/lusha-mcp-talent-sourcing-plugin" rel="noopener nofollow">lusha-mcp-talent-sourcing-plugin</a></td><td class="n" data-l="Kind">MCP server</td><td data-l="Description">Lusha HR MCP plugin</td><td class="n" data-l="Stars">0</td><td class="n" data-l="Pushed">2026-09-03</td><td class="n" data-l="Latest release"></td></tr><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/n8n-nodes-lusha" rel="noopener nofollow">n8n-nodes-lusha</a></td><td class="n" data-l="Kind">plugin or integration</td><td data-l="Description">Complete Lusha API integration for n8n</td><td class="n" data-l="Stars">4</td><td class="n" data-l="Pushed">2026-09-01</td><td class="n" data-l="Latest release">v1.2.2</td></tr><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/lusha-mcp-plugin" rel="noopener nofollow">lusha-mcp-plugin</a></td><td class="n" data-l="Kind">MCP server</td><td data-l="Description"></td><td class="n" data-l="Stars">4</td><td class="n" data-l="Pushed">2026-08-06</td><td class="n" data-l="Latest release">v0.1.1</td></tr><tr><td data-l="Repository"><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">lusha-public-api-mcp</a></td><td class="n" data-l="Kind">MCP server</td><td data-l="Description"></td><td class="n" data-l="Stars">6</td><td class="n" data-l="Pushed">2026-03-04</td><td class="n" data-l="Latest release"></td></tr></tbody></table></div><p class="note">Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><ul><li><a href="../jobs/search-people-by-criteria">Search people by criteria</a></li><li><a href="../jobs/enrich-person-from-linkedin-url">Enrich a person from a LinkedIn URL</a></li><li><a href="../jobs/enrich-company-from-domain">Enrich a company from a domain</a></li><li><a href="../jobs/find-linkedin-url-from-name-and-company">Find a person&#x27;s LinkedIn URL from a name and company</a></li><li><a href="../jobs/find-work-email">Find a work email address</a></li><li><a href="../jobs/find-phone-number">Find a phone number</a></li><li><a href="../jobs/draft-personalized-outreach">Draft personalized outreach</a></li><li><a href="../jobs/score-and-prioritize-leads">Score and prioritize leads</a></li></ul><p class='note'>A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p><p class='note'>Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://github.com/lusha-oss/lusha-public-api-mcp" rel="noopener nofollow">https://github.com/lusha-oss/lusha-public-api-mcp</a></li><li><a href="https://docs.lusha.com/mcp-docs" rel="noopener nofollow">https://docs.lusha.com/mcp-docs</a></li><li><a href="https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api" rel="noopener nofollow">https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api</a></li><li><a href="https://www.vendr.com/marketplace/lusha" rel="noopener nofollow">https://www.vendr.com/marketplace/lusha</a></li><li><a href="https://www.saleshandy.com/blog/lusha-pricing/" rel="noopener nofollow">https://www.saleshandy.com/blog/lusha-pricing/</a></li><li><a href="https://docs.lusha.com/apis/openapi/person-api" rel="noopener nofollow">https://docs.lusha.com/apis/openapi/person-api</a></li></ul><p class="note">6 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://github.com/lusha-oss/lusha-public-api-mcp, https://docs.lusha.com/mcp-docs, https://docs.lusha.com/user-guide/lushas-api/all-there-is-to-know-about-lushas-api, https://www.vendr.com/marketplace/lusha, https://www.saleshandy.com/blog/lusha-pricing/, https://docs.lusha.com/apis/openapi/person-api</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">Per Lusha&#x27;s own docs, every user gets an API key by default on every plan including Free, with rate limits scaling by tier (Free/Starter: 40 req/min, 100/day; Premium: 300/min, 18,000/day). This contradicts some third-party pricing blogs claiming Free/Starter have no API access - the official docs were treated as authoritative. Self-serve seat purchasing tops out at 5 seats; beyond that, a Scale plan requires a sales quote. 2026-09-03: vendor docs state the Search Contacts endpoint (POST /v3/contacts/search) looks up contacts by &quot;firstName + lastName + companyName or companyDomain&quot; and returns a non-PII preview that includes linkedinUrl (https://docs.lusha.com/apis/openapi/person-api); MCP tool contacts_search is described as &quot;Enrich contact data using email, LinkedIn URL, or name + company&quot; (https://docs.lusha.com/mcp-docs); the docs state it is charged per successful result via the api_search action, with no unit price stated.</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">01-lusha</div></div>
 <div><div class="bk">Source file</div><div class="bv">01-data-enrichment.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">84</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-09-03</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-09-12</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-13</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -143,18 +208,18 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>1,251 directory entries across 15 category files.
-    1,235 unique products, 16 of them cross listed
+    <p>336 directory entries across 15 category files.
+    320 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
     <p>200 official MCP servers,
-    540 community.
+    25 community.
     1 bench tested.</p>
-    <p>8,507 tool names harvested on 2026-09-12 from
-    119 of those 740 servers.
-    621 are unmeasured, which is not the same as empty.</p>
+    <p>8,545 tool names harvested on 2026-09-13 from
+    121 of those 225 servers.
+    104 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    980 carry none and say why.</p>
+    65 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -196,9 +261,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-12 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 1,251 vs recount
-1,251.<br>
+Generated 2026-09-13 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 336 vs recount
+336.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

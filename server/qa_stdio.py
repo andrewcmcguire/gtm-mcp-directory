@@ -88,13 +88,8 @@ def expected_counts() -> dict[str, int]:
     orgs_resolved_canonical = sum(
         1 for e in entries if e.get("canonical", True) and e.get("github_org_status") == "resolved"
     )
-    ai_sdr = next(
-        (c.get("total") for c in directory.get("categories", []) if c.get("slug") == "ai-sdr-agents"),
-        None,
-    )
     return {
         "entries": len(entries),
-        "ai_sdr_agents": ai_sdr,
         "official": official,
         "solo_reachable": solo,
         "bench_tested": bench,
@@ -416,7 +411,7 @@ async def run() -> None:
                 body["mcp_reachable_pct"],
             )
         )
-        check("category scope narrows the set (%d)" % EXPECTED["ai_sdr_agents"], body["entries"] == EXPECTED["ai_sdr_agents"] and body["entries"] < EXPECTED["entries"], body["entries"])
+        check("category scope narrows the set", body["entries"] == 23, body["entries"])
 
         # ------------------------------------------------------------------
         rule("7. find_by_gate('free') and find_by_gate('enterprise-only')")

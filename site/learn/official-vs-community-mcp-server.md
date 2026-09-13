@@ -1,6 +1,6 @@
 # Official vs community MCP servers: what the difference actually costs you
 
-> Official means the vendor ships and maintains the server. Community means somebody else does. 200 against 540 across 1,251 GTM tools.
+> Official means the vendor ships and maintains the server. Community means somebody else does. 200 against 25 across 336 GTM tools.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -28,19 +28,19 @@ Official means first party and nothing else. A server built by a third party int
 
 ## The split across this directory
 
-200 entries are official. 540 are community. 487 had no server found at all, and 15 could not be settled either way and are published as unknown rather than guessed into a bucket.
+200 entries are official. 25 are community. 87 had no server found at all, and 15 could not be settled either way and are published as unknown rather than guessed into a bucket.
 
-Community servers cluster. Video Prospecting alone accounts for 6 of the 540, against 4 official servers in that category, which is the one place in this data where the community outbuilt the vendors.
+Community servers cluster. Video Prospecting alone accounts for 6 of the 25, against 4 official servers in that category, which is the one place in this data where the community outbuilt the vendors.
 
 ## What to check before depending on a community server
 
-- When the repo last moved. This directory does not publish that yet: the repo health rail has not been run, and a star count without the date it was taken is a lie, so nothing is shown rather than something stale. 469 entries already carry a github.com URL somewhere in their fields, which is the seed for that work.
+- When the repo last moved. This directory does not publish that yet: the repo health rail has not been run, and a star count without the date it was taken is a lie, so nothing is shown rather than something stale. 108 entries already carry a github.com URL somewhere in their fields, which is the seed for that work.
 
 - Whether the vendor acknowledges it anywhere in their own docs.
 
 - What credential it wants, and how much of your account that credential can touch.
 
-The 540 community servers in this directory are listed with their URLs and their auth models, and every one links to the entry it came from.
+The 25 community servers in this directory are listed with their URLs and their auth models, and every one links to the entry it came from.
 
 ## Sources
 
@@ -48,7 +48,7 @@ The 540 community servers in this directory are listed with their URLs and their
 - [Model Context Protocol, official documentation](https://modelcontextprotocol.io) https://modelcontextprotocol.io
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

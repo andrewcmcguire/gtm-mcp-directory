@@ -24,9 +24,9 @@ The clearest way to see the role is by what lands on the desk. A rep asks for a 
 
 ## What the tooling data says about the job right now
 
-1,251 go to market tools were checked for this directory. Of them, 200 ship an official MCP server, so an agent a GTM engineer builds can call them without custom glue. 487 had none found, which means the glue still has to be written by hand. And 79 are enterprise gated: API access needs a contract, a seat count or a procurement cycle, so a solo operator or a small team is locked out regardless of how good the tool is.
+336 go to market tools were checked for this directory. Of them, 200 ship an official MCP server, so an agent a GTM engineer builds can call them without custom glue. 87 had none found, which means the glue still has to be written by hand. And 79 are enterprise gated: API access needs a contract, a seat count or a procurement cycle, so a solo operator or a small team is locked out regardless of how good the tool is.
 
-The unflattering cut is by category. AI SDRs, a category sold entirely on autonomy, has 8 official servers across 65 entries. RevOps Infra, the unglamorous plumbing layer, has 29 of 102. The tools sold as agents are the least usable by agents, and that is a fact about the market a GTM engineer runs into on their first afternoon.
+The unflattering cut is by category. AI SDRs, a category sold entirely on autonomy, has 8 official servers across 23 entries. RevOps Infra, the unglamorous plumbing layer, has 29 of 31. The tools sold as agents are the least usable by agents, and that is a fact about the market a GTM engineer runs into on their first afternoon.
 
 ## Related titles
 
@@ -38,7 +38,7 @@ Titles vary and are not settled. Agent operator, GTM systems engineer, growth en
 - [Sophie Buonassisi, The Agent Operator: The New Emerging Role, GTMnow, May 2026](https://thegtmnewsletter.substack.com/p/agent-operator-gtm-role) https://thegtmnewsletter.substack.com/p/agent-operator-gtm-r...
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

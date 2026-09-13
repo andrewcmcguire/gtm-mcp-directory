@@ -66,14 +66,14 @@ Two guardrails. Make the agent cite the source of every claimed fact in its draf
 
 ## What this directory will not tell you
 
-Which tool writes better copy. There is no tool versus tool verdict anywhere on this site, and 1 of 1,251 entries have been run by anybody here.
+Which tool writes better copy. There is no tool versus tool verdict anywhere on this site, and 1 of 336 entries have been run by anybody here.
 
 ## Sources
 
 - [The GTM MCP Directory, draft personalized outreach](../jobs/draft-personalized-outreach.md) this site
 - [The GTM MCP Directory, Engagement and Outbound](../categories/engagement-outbound.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

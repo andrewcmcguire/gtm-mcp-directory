@@ -1,6 +1,6 @@
 # Vayne: products, MCP servers and connect URLs, one vendor page
 
-> Vayne (vayne.io): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
+> Vayne (vayne.io): 1 product in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Vayne
 1 product in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-12
+Data baked 2026-09-13
 
 Vendor domain: [vayne.io](https://vayne.io) · vendor page id vayne-io
 
@@ -36,9 +36,9 @@ Vendor domain: [vayne.io](https://vayne.io) · vendor page id vayne-io
 
 - **Tools catalogued**: not measured on any product of this vendor
 
-- **Bench tested**: 0 of 1 here, 1 of 1,251 across the directory
+- **Bench tested**: 0 of 1 here, 1 of 336 across the directory
 
-- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-12
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-13
 
 - **GitHub organisation**: none tied to vayne.io with evidence on 2026-09-08
 
@@ -86,9 +86,9 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 npm install -g @vayne/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@vayne/cli](https://www.npmjs.com/package/@vayne/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@vayne/cli](https://www.npmjs.com/package/@vayne/cli) on 2026-09-13, via npm
 
-harvested 2026-09-12, all on the [tool page](../tools/vayne.md).
+harvested 2026-09-13, all on the [tool page](../tools/vayne.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -102,6 +102,6 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,251 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-13 by build_directory.py (phase 1).

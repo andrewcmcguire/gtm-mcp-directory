@@ -1,6 +1,6 @@
 # How do I connect Claude to my CRM? The MCP route, step by step
 
-> Connect an AI assistant to your CRM through an MCP server. Which CRM and RevOps tools have one (29 official of 102), what to check first, and the order to do it in.
+> Connect an AI assistant to your CRM through an MCP server. Which CRM and RevOps tools have one (29 official of 31), what to check first, and the order to do it in.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -20,7 +20,7 @@ If your CRM ships an MCP server, you add it to your client's server configuratio
 
 ## 1. Find out whether a server exists
 
-RevOps Infra is the best covered layer in this directory: 29 official servers and 24 community across 102 entries, with only 48 where none was found. Check your specific system on [the RevOps tools with MCP servers list](../lists/mcp-revops-infra.md), and read the auth field on its page before anything else.
+RevOps Infra is the best covered layer in this directory: 29 official servers and 0 community across 31 entries, with only 1 where none was found. Check your specific system on [the RevOps tools with MCP servers list](../lists/mcp-revops-infra.md), and read the auth field on its page before anything else.
 
 ## 2. Decide what the credential is allowed to do
 
@@ -68,7 +68,7 @@ A CRM connection on its own is a search box. The value shows up when the assista
 - [Model Context Protocol, connect an MCP server to a client](https://modelcontextprotocol.io/quickstart/user) https://modelcontextprotocol.io/quickstart/user
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

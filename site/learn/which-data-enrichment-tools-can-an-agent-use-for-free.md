@@ -1,6 +1,6 @@
 # Which data enrichment tools can an AI agent use for free? 21 counted
 
-> 21 of the 235 data enrichment tools in this directory are free to start, and 18 of those also have an MCP server. The list, with what each one does. Counted 2026-09-12.
+> 21 of the 49 data enrichment tools in this directory are free to start, and 18 of those also have an MCP server. The list, with what each one does. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 235 data enrichment tools counted here are free to start, meaning a solo operator can get API access without paying and without talking to anyone. 18 of those also ship an MCP server, so an agent can call them without any glue code.
+21 of the 49 data enrichment tools counted here are free to start, meaning a solo operator can get API access without paying and without talking to anyone. 18 of those also ship an MCP server, so an agent can call them without any glue code.
 
 Free to start is a gate, not a price. It means the door opens without a sales call. Every one of these vendors meters something, and this directory does not track credits, quotas or rate limits, so read the vendor's own pricing page before pointing a loop at one.
 
@@ -70,7 +70,7 @@ An email finder and verifier that locates a person's work email from a name+doma
 
 ## Why enrichment is the exception
 
-Data & Enrichment is the most agent reachable category in the whole directory: 42 official servers and 121 community across 235 entries, with only 72 where none was found. These vendors were selling an API before MCP existed, so exposing it through one more protocol was a small step.
+Data & Enrichment is the most agent reachable category in the whole directory: 42 official servers and 2 community across 49 entries, with only 5 where none was found. These vendors were selling an API before MCP existed, so exposing it through one more protocol was a small step.
 
 ## What to check before you wire one in
 
@@ -88,7 +88,7 @@ Nobody here has run any of these. 1 tools in this directory are bench tested, so
 - [The GTM MCP Directory, free API tiers](../lists/free-api-tiers.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

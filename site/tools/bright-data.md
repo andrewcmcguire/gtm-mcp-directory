@@ -61,7 +61,7 @@ https://github.com/brightdata/brightdata-mcp
 
 - **Tools named**: 19
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Repo read**: brightdata/brightdata-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -106,14 +106,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **web_scraping_strategy** Decision tree for picking the right Bright Data tool. evidence: in the server source · calling it reads
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: bdata
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -121,13 +121,13 @@ Install, as the source shows it:
 npm install -g @brightdata/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@brightdata/cli](https://www.npmjs.com/package/@brightdata/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@brightdata/cli](https://www.npmjs.com/package/@brightdata/cli) on 2026-09-13, via npm
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [npm: @brightdata/cli 0.3.6](https://www.npmjs.com/package/@brightdata/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -143,7 +143,7 @@ paid
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -182,7 +182,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -209,6 +209,6 @@ Broader-scope than a purpose-built contact-enrichment vendor - it's web-data inf
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -22,19 +22,19 @@ This site does not use agent ready as a rating, because a rating nobody can repr
 
 ## The four checks
 
-- **Is there a server at all.** 200 of 1,251 entries have an official one, 540 have a community one, 487 had none found on the date checked, and 15 could not be settled.
+- **Is there a server at all.** 200 of 336 entries have an official one, 25 have a community one, 87 had none found on the date checked, and 15 could not be settled.
 
 - **Who maintains it.** Official means first party. A wrapper built by a third party integration platform does not count here no matter how well it works, because the failure mode is different: a community server can be abandoned without the vendor ever noticing.
 
 - **How does it authenticate.** OAuth with a scoped, revocable token is a different security conversation from an API key in a config file. [The split across every server here is published.](../lists/auth-types.md)
 
-- **Can you get in.** 210 of 1,251 entries are free to start or paid self serve, and 79 need a contract. Cross that with the server column and 168 entries pass both tests. An official MCP server behind a procurement cycle is not agent ready for most of the people reading this.
+- **Can you get in.** 210 of 336 entries are free to start or paid self serve, and 79 need a contract. Cross that with the server column and 168 entries pass both tests. An official MCP server behind a procurement cycle is not agent ready for most of the people reading this.
 
 ## The trap in the phrase
 
 An impressive number of tools describe themselves as built for agents while shipping nothing an external agent can call. The two claims live in different places: one on the homepage, one in the developer docs. The directory records the second and cites it.
 
-The reverse trap is real too. A tool with no MCP server and a clean, documented REST API is often more usable to an agent than a tool with a thin server and no docs. 727 of 1,251 entries have no documentation URL recorded at all, which is its own signal.
+The reverse trap is real too. A tool with no MCP server and a clean, documented REST API is often more usable to an agent than a tool with a thin server and no docs. 307 of 336 entries have no documentation URL recorded at all, which is its own signal.
 
 ## The phrase itself
 
@@ -46,7 +46,7 @@ Agent ready is in active commercial use as product language by at least one larg
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [The GTM MCP Directory, by access gate](../gates/index.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

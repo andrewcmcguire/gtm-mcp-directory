@@ -1,6 +1,6 @@
-# Conversation intelligence tools with MCP servers: 25 of 51, counted
+# Conversation intelligence tools with MCP servers: 21 of 24, counted
 
-> 25 of the 51 conversation intel tools in this directory have an MCP server: 19 official and 6 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 21 of the 24 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-25 of the 51 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 6 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
+21 of the 24 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
 
 Call recordings are the richest unstructured data a revenue team owns, and the only place most of what a buyer actually said is written down. Whether an agent can read them decides whether it can prepare for a call or only summarise a CRM field.
 
@@ -66,45 +66,17 @@ Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meeti
 Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM.
 - [Jiminny](../tools/jiminny.md) Community MCP · Enterprise only
 Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM.
-- [Backengine MCP](../tools/backengine-mcp.md) Community MCP · Gate unknown
-Surface customer & prospect context from Slack, email, transcripts and tickets in any MCP client.
-- [Gong.io MCP by JustinBeckwith](../tools/gong-io-mcp-by-justinbeckwith.md) Community MCP · Gate unknown
-MCP server for Gong.io - access calls, transcripts, and users - JustinBeckwith/gongio-mcp
-- [RecordX](../tools/recordx.md) Community MCP · Gate unknown
-Take meeting notes automatically. RecordX records Zoom, Google Meet, in-person, and uploaded audio, then delivers transcripts, summaries, and action...
-- [Voibe](../tools/voibe.md) Community MCP · Gate unknown
-Give your AI agents ears. Send audio, get JSON back: who spoke, when they spoke, and a summary your agent can act on. Or connect Claude through MCP....
 
 ## The rest of the category
 
-26 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+3 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Momentum](../tools/momentum.md) No MCP found · Enterprise only
 Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration").
 - [Rilla](../tools/rilla.md) No MCP found · Enterprise only
 AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile...
-- [Abstrakt](../tools/abstrakt.md) No MCP found · Gate unknown
-Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and...
-- [Bearworks](../tools/bearworks.md) No MCP found · Gate unknown
-Unlock your sales potential. Transform your team through Bearworks' AI-powered Sales Conversation Platform for unparalleled productivity, with a...
-- [Caretta](../tools/caretta.md) No MCP found · Gate unknown
-Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting.
-- [Cedar](../tools/cedar.md) No MCP found · Gate unknown
-Cedar analyses your sales calls, email and CRM to map out a winning playbook - then drafts the context-aware follow-ups that keep every deal moving.
-- [Clozd](../tools/clozd.md) No MCP found · Gate unknown
-Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain...
-- [Cuckoo Labs](../tools/cuckoo-labs.md) No MCP found · Gate unknown
-Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and...
-- [Demodesk](../tools/demodesk.md) No MCP found · Gate unknown
-Record every sales call, update your CRM, coach reps, and draft follow-ups automatically. GDPR-native, built in Germany. Start free.
-- [Ergo](../tools/ergo.md) No MCP found · Gate unknown
-Ergo turns conversations into automatic follow-ups, CRM updates, coaching, and forecasting. Reps spend less time on admin work, deals stop slipping.
-- [ExecVision](../tools/execvision.md) No MCP found · Gate unknown
-ExecVision is the only conversation intelligence platform designed to deliver measurable results through human behavior change. Learn how it can help...
-- [Fabius](../tools/fabius.md) No MCP found · Gate unknown
-AI to improve Sales Calls
-
-14 more are on the linked page. The cut is the display limit, not a ranking.
+- [Salesroom](../tools/salesroom.md) No MCP found · Gate unknown
+Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the...
 
 ## The gate, which is the second question
 
@@ -114,9 +86,9 @@ AI to improve Sales Calls
 | [Paid, self-serve](../gates/paid.md) | 9 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 8 |
-| [Gate unknown](../gates/unknown.md) | 29 |
+| [Gate unknown](../gates/unknown.md) | 2 |
 
-Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 8e8051ddd4cd08bd...
+Counted 2026-09-13. Source file 03-conversation-intel.md, content sha256 b029e32f980d38b3...
 
 ## Sources
 
@@ -124,7 +96,7 @@ Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 8e8051d
 - [Conversation Intel tools with MCP servers](../lists/mcp-conversation-intel.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

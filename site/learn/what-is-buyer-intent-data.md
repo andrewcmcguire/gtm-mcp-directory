@@ -30,7 +30,7 @@ Intent is sold as one thing and is at least four. Knowing which one you are buyi
 
 ## What an agent can actually fetch
 
-30 entries are tagged [fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md). Of those, 20 have an official MCP server, 7 have none found, and 13 are reachable by a solo operator without a contract. The category they mostly live in, Signals & Intent, carries 10 enterprise only entries out of 85, the second highest enterprise gate share in this directory.
+30 entries are tagged [fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md). Of those, 20 have an official MCP server, 7 have none found, and 13 are reachable by a solo operator without a contract. The category they mostly live in, Signals & Intent, carries 10 enterprise only entries out of 30, the second highest enterprise gate share in this directory.
 
 That combination is the honest summary of intent data as a category: technically callable, often commercially closed.
 
@@ -64,7 +64,7 @@ Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions
 - [The GTM MCP Directory, Signals and Intent](../categories/signals-intent-abm.md) this site
 - [The GTM MCP Directory, fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

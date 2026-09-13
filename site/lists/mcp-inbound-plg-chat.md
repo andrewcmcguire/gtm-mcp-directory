@@ -1,6 +1,6 @@
-# Inbound & PLG Chat tools with MCP servers: 19 of 57, counted
+# Inbound & PLG Chat tools with MCP servers: 13 of 20, counted
 
-> 19 of the 57 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 11 official and 8 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 13 of the 20 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 11 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,16 +10,16 @@
 [Directory](../index.md) /
 [The lists](index.md) / Inbound & PLG Chat tools with an MCP server
 
-**List · 19 of 1,251**
+**List · 13 of 336**
 
 ## Inbound & PLG Chat tools with an MCP server
 
-Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed. 19 of 57 entries in this category are reachable by an agent: 11 through a server the vendor maintains and 8 through one somebody else built. The category is tagged most often with Answer an inbound chat or call. [See the full category page](../categories/inbound-plg-chat.md).
+Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed. 13 of 20 entries in this category are reachable by an agent: 11 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Answer an inbound chat or call. [See the full category page](../categories/inbound-plg-chat.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
 | [Jotform](../tools/jotform.md)
-jotform.com | [Official MCP](../mcp/official.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +2 more | OAuth or an API key
+jotform.com | [Official MCP](../mcp/official.md) | [https://mcp.jotform.com](https://mcp.jotform.com) +1 more | OAuth or an API key
 oauth only. The vendor's MCP page states "Bearer-token access is not supported; OAuth 2.0... | [Free to start](../gates/free.md) |
 | [Tally](../tools/tally.md)
 tally.so | [Official MCP](../mcp/official.md) | [https://api.tally.so/mcp](https://api.tally.so/mcp) +2 more | OAuth or an API key
@@ -43,7 +43,7 @@ OAuth (browser-based, recommended) or a Bearer token using an Intercom API token
 typeform.com | [Official MCP](../mcp/official.md) | [https://api.typeform.com/mcp](https://api.typeform.com/mcp) +2 more | OAuth
 oauth. The docs state "Authorization is OAuth 2.0, and your client is prompted on first... | [Paid, self-serve](../gates/paid.md) |
 | [Ada](../tools/ada.md)
-ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) +1 more | Auth not recorded
+ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | Auth not recorded
 none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
 | [Endgame](../tools/endgame.md)
 endgame.io | [Official MCP](../mcp/official.md) | [https://app.endgame.io/api/v1/mcp](https://app.endgame.io/api/v1/mcp) +1 more | OAuth or an API key
@@ -57,26 +57,8 @@ The operator's own Landbot API key stored with Composio; the Zapier connector ri
 | [Chatbase](../tools/chatbase.md)
 chatbase.co | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/chatbase](https://zapier.com/mcp/chatbase) | Third party platform auth
 Rides Zapier's hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP... | [Paid, self-serve](../gates/paid.md) |
-| [Crisp MCP](../tools/crisp-mcp.md)
-api.mcp.ai | [Community MCP](../mcp/community.md) | [https://github.com/mcp-dir/crisp-mcp](https://github.com/mcp-dir/crisp-mcp) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [My AskAI](../tools/my-askai.md)
-myaskai.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Open for Agents](../tools/open-for-agents.md)
-openforagents.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=revops](https://registry.smithery.ai/servers?q=revops) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Ora](../tools/ora.md)
-ora.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [Perspective AI](../tools/perspective-ai.md)
-getperspective.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
-| [ReplayPilot](../tools/replaypilot.md)
-replaypilot.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=revops](https://registry.smithery.ai/servers?q=revops) | Auth not recorded
-blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 38 in this category
+### The other 7 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -88,70 +70,8 @@ forethought.ai | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/e
 pocus.com | [MCP not applicable](../mcp/n-a.md) | [Gate not applicable](../gates/n-a.md) | 2026-09-02 |
 | [Qualified](../tools/qualified.md)
 qualified.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
-| [Abbot](../tools/abbot.md)
-ab.bot | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Breadcrumbs](../tools/breadcrumbs.md)
-breadcrumbs.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Candu](../tools/candu.md)
-candu.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Chameleon](../tools/chameleon.md)
-chameleon.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [ClickFunnels](../tools/clickfunnels.md)
-clickfunnels.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Customer.io](../tools/customer-io.md)
-customer.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Dittofeed](../tools/dittofeed.md)
-dittofeed.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Drift](../tools/drift.md)
 drift.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
-| [Fixture](../tools/fixture.md)
-fixture.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [FormAssembly](../tools/formassembly.md)
-formassembly.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Formstack](../tools/formstack.md)
-formstack.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Fullstory](../tools/fullstory.md)
-fullstory.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Gravity Forms](../tools/gravity-forms.md)
-gravityforms.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Instapage](../tools/instapage.md)
-instapage.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Intellimize](../tools/intellimize.md)
-intellimize.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Laudable](../tools/laudable.md)
-laudable.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Laudspeaker](../tools/laudspeaker.md)
-laudspeaker.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [LeadPages](../tools/leadpages.md)
-leadpages.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Liferay](../tools/liferay.md)
-liferay.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Maintouch](../tools/maintouch.md)
-maintouch.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Mutiny](../tools/mutiny.md)
-mutinyhq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Nara](../tools/nara.md)
-trynara.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Netomi](../tools/netomi.md)
-netomi.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [ngrow.ai](../tools/ngrow-ai.md)
-ngrow.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Olark](../tools/olark.md)
-olark.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Pendo](../tools/pendo.md)
-pendo.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Positional](../tools/positional.md)
-positional.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [SurveyMonkey](../tools/surveymonkey.md)
-surveymonkey.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Survicate](../tools/survicate.md)
-survicate.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Unbounce](../tools/unbounce.md)
-unbounce.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [Uplane](../tools/uplane.md)
-uplane.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
-| [VWO](../tools/vwo.md)
-vwo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Correlated](../tools/correlated.md)
 correlated.ai | [No MCP found](../mcp/none-found.md) | [Gate not applicable](../gates/n-a.md) | 2026-09-02 |
 | [Toplyne](../tools/toplyne.md)
@@ -170,4 +90,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-13 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

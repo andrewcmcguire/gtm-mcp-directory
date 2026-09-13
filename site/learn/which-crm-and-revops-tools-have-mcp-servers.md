@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 53 of 102, counted
+# CRM and RevOps tools with MCP servers: 29 of 31, counted
 
-> 53 of the 102 revops infra tools in this directory have an MCP server: 29 official and 24 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 29 of the 31 revops infra tools in this directory have an MCP server: 29 official and 0 community. The list with server URLs and access gates. Counted 2026-09-13.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-53 of the 102 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 24 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+29 of the 31 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 0 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -82,85 +82,15 @@ Google Cloud's governed BI platform (LookML semantic model, explores, Looks, das
 A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on...
 - [Syncari](../tools/syncari.md) Official MCP · Enterprise only
 An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to...
-- [3Bids Contractor](../tools/3bids-contractor.md) Community MCP · Gate unknown
-CRM, communications, AI, closing, dispatch, and operating intelligence for contractors.
-- [Agentled](../tools/agentled.md) Community MCP · Gate unknown
-Discover how Agentled can revolutionize your business operations with AI-driven solutions that optimize sales, marketing, customer success, and more....
-- [ATLASS OS](../tools/atlass-os.md) Community MCP · Gate unknown
-195 working MCP tools as of September 7, 2026 - CRM, scheduling, banking, payables, payroll and real double-entry books, driveable by your own AI...
-- [Commercient Data Lake](../tools/commercient-data-lake.md) Community MCP · Gate unknown
-Commercient Data Lake is a backend-as-a-service built on Microsoft SQL Server: your ERP, CRM, and database data in one governed database per...
-- [FounderStack CRM](../tools/founderstack-crm.md) Community MCP · Gate unknown
-FounderStack keeps your sales conversations, follow-ups, and client context in one place-without pipelines, setup, or CRM overhead. Built for...
-- [FrazzleCRM](../tools/frazzlecrm.md) Community MCP · Gate unknown
-FrazzleCRM - the CRM where the funnel map IS the automation. Map it. Automate it.
-- [Hecher CRM](../tools/hecher-crm.md) Community MCP · Gate unknown
-Hecher by Grow Gelt is the donor management platform built for Chabad Shluchim. Part of the Grow Gelt Solutions family.
-- [Helm AI](../tools/helm-ai.md) Community MCP · Gate unknown
-Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your...
-- [iri CRM](../tools/iri-crm.md) Community MCP · Gate unknown
-Designed for service businesses, agencies, clinics, and e-commerce. WhatsApp, Instagram, ads, and all your tools fully integrated with autonomous AI...
-- [Kaanha AI](../tools/kaanha-ai.md) Community MCP · Gate unknown
-Kaanha AI connects your conversations, customer data, applications and AI agents into workflows you build once and run across every channel - with...
-- [Kash](../tools/kash.md) Community MCP · Gate unknown
-Free POS software for shops & restaurants. Manage sales, inventory and customers in one simple system. Start in 2 minutes.
-- [Kenva](../tools/kenva.md) Community MCP · Gate unknown
-Kenva is a personal CRM that gives Claude a memory for the people in your life. Tell it who you met and what happened, and it
-- [Kordic CRM](../tools/kordic-crm.md) Community MCP · Gate unknown
-A sales CRM for teams of 5 to 50. Visual pipeline, WhatsApp and Gmail in one place, invoicing and payment tracking. From $4.99 a user. 3-month free...
-- [Ledger Botje Exact Online MCP](../tools/ledger-botje-exact-online-mcp.md) Community MCP · Gate unknown
-Ledger Botje koppelt Exact Online via MCP aan ChatGPT, Copilot, Claude en Gemini. Automatiseer orders, voorraad en boekhouding in gewone taal. 14...
-- [Measure Tech PRO](../tools/measure-tech-pro.md) Community MCP · Gate unknown
-Measure Tech PRO is a full CRM for contractors - jobs, customers, estimates, proposals, native e-signatures, invoicing, Stripe payments, QuickBooks...
-- [Morphed](../tools/morphed.md) Community MCP · Gate unknown
-Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30...
-- [Noto CRM](../tools/noto-crm.md) Community MCP · Gate unknown
-Parle à ton agent IA: leads, relances et deals se mettent à jour automatiquement. Noto est un CRM minimaliste pour freelances et solopreneurs....
-- [numbrU Client Compass](../tools/numbru-client-compass.md) Community MCP · Gate unknown
-Type a name. Get a brief on how someone is wired - what they need, how they decide, how to show up. For the moments that decide. $5 per compass,...
-- [OnePageCRM](../tools/onepagecrm.md) Community MCP · Gate unknown
-OnePageCRM is a small business CRM system. Stay organized, track follow-ups, and manage contacts-all from this fast and simple CRM app.
-- [OpsDoctor](../tools/opsdoctor.md) Community MCP · Gate unknown
-Get a free AI-powered diagnostic of your CRM and operational workflows, scored across four dimensions with a branded PDF report. 38 CRM platforms. 8...
-- [PILLAR GTM OS](../tools/pillar-gtm-os.md) Community MCP · Gate unknown
-AI-native GTM OS for B2B SaaS - account health, pipeline, renewals, territories, and benchmarks.
-- [Summit53 CRM](../tools/summit53-crm.md) Community MCP · Gate unknown
-Summit53 LLM control center
-- [Well](../tools/well.md) Community MCP · Gate unknown
-Well is the business context layer that captures your data, enriches it, and closes your books, so you can ask your business anything. Try Well free...
-- [Zetadeck](../tools/zetadeck.md) Community MCP · Gate unknown
-Tasks, CRM, docs, and finance in one workspace on one database. Runway computed live from your real bank balance. Free for up to 5 people, no card.
 
 ## The rest of the category
 
-49 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+2 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [Openprise](../tools/openprise.md) No MCP found · Enterprise only
 A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment,...
-- [AgencyAnalytics](../tools/agencyanalytics.md) No MCP found · Gate unknown
-Run your agency on one reliable data foundation. Automated reporting, performance monitoring, and client results, built for marketing agencies....
-- [Ambral](../tools/ambral.md) No MCP found · Gate unknown
-AI for account management and revenue growth.
-- [Apsona](../tools/apsona.md) No MCP found · Gate unknown
-All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside...
-- [Boomi](../tools/boomi.md) No MCP found · Gate unknown
-Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents.
-- [Breakcold](../tools/breakcold.md) No MCP found · Gate unknown
-Breakcold is the AI-Native CRM for sales teams & AI agents that sell via email, calling, LinkedIn, Telegram & WhatsApp with MCP for Claude & more.
-- [BuyerCaddy](../tools/buyercaddy.md) No MCP found · Gate unknown
-Your platform for cost savings, optimization and tech stack benchmarking. Find redundant products. Track utilization. Deepen integrations.
-- [Clarm](../tools/clarm.md) No MCP found · Gate unknown
-Build AI coworkers for recurring operational work from building blocks pre-approved by IT and compliance. Start with one manual workflow and deploy...
-- [CloudFiles](../tools/cloudfiles.md) No MCP found · Gate unknown
-CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce....
-- [Cotera](../tools/cotera.md) No MCP found · Gate unknown
-Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain English, no flowcharts, no MCP kitchen-sink. Just reliable agents that...
-- [crmCopilot](../tools/crmcopilot.md) No MCP found · Gate unknown
-Give Salesforce the AI upgrade it deserves
-
-37 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -169,9 +99,8 @@ Give Salesforce the AI upgrade it deserves
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 71 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 20f5941948b77436...
+Counted 2026-09-13. Source file 06-revops-infra.md, content sha256 92bc241926874ea0...
 
 ## Sources
 
@@ -179,7 +108,7 @@ Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 20f5941948b77
 - [RevOps Infra tools with MCP servers](../lists/mcp-revops-infra.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-12. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-13. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

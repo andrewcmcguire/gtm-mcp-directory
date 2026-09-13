@@ -63,7 +63,7 @@ https://mcp.firecrawl.dev/v2/mcp (docs: https://docs.firecrawl.dev/mcp-server; r
 
 - **Tools named**: 13
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 - **Repo read**: firecrawl/firecrawl-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -96,14 +96,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search** Web search for info evidence: in a README table · calling it reads
 
-119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: firecrawl
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-13
 
 Install, as the source shows it:
 
@@ -111,13 +111,13 @@ Install, as the source shows it:
 npm install -g firecrawl-cli
 ```
 
-quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-12, via npm
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-13, via npm
 
 ```
 npx -y firecrawl-cli@latest
 ```
 
-quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-12, via npx
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-13, via npx
 
 Login or key hint seen on the page:
 
@@ -128,7 +128,7 @@ expand to read them
 
 agent, browser, config, crawl, credit-usage, developer, init, interact, login, logout, map, monitor, scrape, search, version, view-config
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-13:
 
 - [npm: firecrawl-cli 1.23.3](https://www.npmjs.com/package/firecrawl-cli)
 
@@ -136,7 +136,7 @@ Where it was documented:
 
 - [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
 
 **Access gate**
 
@@ -152,7 +152,7 @@ free - the vendor's pricing page states "Firecrawl gives you 1,000 free credits 
 
 No documentation URL recorded.
 
-727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
+307 of 336 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -189,7 +189,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -217,6 +217,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.firecrawl.dev/v2/m
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-12
+- **Data baked**: 2026-09-13
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
