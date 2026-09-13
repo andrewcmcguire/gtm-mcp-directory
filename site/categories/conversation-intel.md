@@ -1,6 +1,6 @@
-# Conversation Intel: 26 tools, 19 with an official MCP server
+# Conversation Intel: 30 tools, 19 with an official MCP server
 
-> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 26 tools counted, 19 with an official MCP server and 3 free to start.
+> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 30 tools counted, 19 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface.
 
-- **entries in this file**: 26
+- **entries in this file**: 30
 
 - **Official MCP**: 19
 - **Community MCP**: 2
-- **No MCP found**: 5
+- **No MCP found**: 9
 
 - **ship a CLI (official) as of 2026-09-12**: 2
 
@@ -28,9 +28,9 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Paid, self-serve**: 9
 - **Enterprise leaning**: 2
 - **Enterprise only**: 8
-- **Gate unknown**: 4
+- **Gate unknown**: 8
 
-Source file: 03-conversation-intel.md · content sha256 4a95ad3dd379f2c1... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 b42c4a6beef2a799... · counts reconciled against tools_recount.py at build time.
 
 - [The 21 with an MCP server](../lists/mcp-conversation-intel.md)
 
@@ -88,5 +88,13 @@ Source file: 03-conversation-intel.md · content sha256 4a95ad3dd379f2c1... · c
 - [Abstrakt](../tools/abstrakt.md) abstrakt.ai Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and streamlining operations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clozd](../tools/clozd.md) clozd.com Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Demodesk](../tools/demodesk.md) demodesk.com Record every sales call, update your CRM, coach reps, and draft follow-ups automatically. GDPR-native, built in Germany. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Ergo](../tools/ergo.md) joinergo.com Ergo turns conversations into automatic follow-ups, CRM updates, coaching, and forecasting. Reps spend less time on admin work, deals stop slipping. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Modus](../tools/modus.md) himodus.com Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From predicting attrition to underperformance, Modus lets you act... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Nomi](../tools/nomi.md) nomi.so Nomi is the real-time AI sales copilot that guides reps during live calls. Get instant battle cards, objection handling, and coaching when you need it. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Salesroom](../tools/salesroom.md) salesroom.com Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

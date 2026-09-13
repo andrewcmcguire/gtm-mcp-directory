@@ -1,6 +1,6 @@
-# Twenty CRM MCP: products, MCP servers and connect URLs, one vendor page
+# Insaight: products, MCP servers and connect URLs, one vendor page
 
-> Twenty CRM MCP (github.com): 10 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
+> Insaight (github.com): 17 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -9,11 +9,11 @@
 ---
 [Directory](../index.md) /
 [Vendors](../vendors/index.md) /
-Twenty CRM MCP
+Insaight
 
-# Twenty CRM MCP
+# Insaight
 
-10 products in the directory
+17 products in the directory
 1 official MCP server
 0 live handshakes
 Data baked 2026-09-12
@@ -22,29 +22,29 @@ Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
 **The rollup**
 
-- **Products**: 10, facts checked by hand 2026-08-24, 2026-09-12
+- **Products**: 17, facts checked by hand 2026-08-24, 2026-09-12
 
-- **Official MCP servers**: 1 of 10, as recorded on 2026-08-24, 2026-09-12
+- **Official MCP servers**: 1 of 17, as recorded on 2026-08-24, 2026-09-12
 
-- **Community MCP servers**: 9 of 10
+- **Community MCP servers**: 16 of 17
 
-- **Live handshake**: 0 of 10 answered an MCP initialize, 1 probed, 2026-09-04
+- **Live handshake**: 0 of 17 answered an MCP initialize, 1 probed, 2026-09-04
 
-- **Repo local**: 1 of 10: a server you install and run yourself
+- **Repo local**: 1 of 17: a server you install and run yourself
 
-- **Docs only**: 0 of 10: the recorded URL is a page about the server, not the server
+- **Docs only**: 0 of 17: the recorded URL is a page about the server, not the server
 
 - **Tools catalogued**: 24 named across 1 measured server, harvested 2026-09-12
 
-- **Bench tested**: 0 of 10 here, 1 of 422 across the directory
+- **Bench tested**: 0 of 17 here, 1 of 468 across the directory
 
-- **Ships a CLI**: 0 of 10 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 17 official, 0 community only, 1 none found, harvested 2026-09-12
 
 - **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
-**Products, 10**
+**Products, 17**
 
 ### [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 
@@ -62,9 +62,73 @@ RESEARCHED
 
 - **last_checked**: 2026-08-24
 
+### [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md)
+
+Apex SDK for building Model Context Protocol (MCP) servers natively in Salesforce - bfmvsa/mcp-apex-sdk
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
 
 A Model Context Protocol (MCP) server that enables AI assistants to interact with HubSpot CRM data, providing built-in vector storage and caching mechanisms help overcome HubSpot API limitations while improving response times. - baryhuang/mcp-hubspot
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [IN2 Agent MCP](../tools/in2-agent-mcp.md)
+
+IN2 MCP stdio server: turns Campfire Salesforce requirements into verified org changes, driven by a Claude Code supervisor.
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Insaight](../tools/insaight.md)
+
+LinkedIn prospect intelligence inside Claude - MCP server + 8 skills that research people, companies and comment threads, draft outreach, and learn what gets replies. - spirosbax/insaight
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [MCP Force by RapidoCloud](../tools/mcp-force-by-rapidocloud.md)
+
+An MCP server to expose Salesforce APIs as tools for AI Agents - RapidoCloud/mcp-force
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -94,9 +158,41 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Pipedrive MCP by comma-compliance](../tools/pipedrive-mcp-by-comma-compliance.md)
+
+Pipedrive CRM server for the Model Context Protocol (MCP). 75 tools covering full CRUD, custom field resolution, and shortcut tools for common CRM workflows. - comma-compliance/pipedrive-mcp
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md)
 
 MCP Server for interacting with Salesforce instances - salesforcecli/mcp
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Salesforce Docs MCP by Sanket](../tools/salesforce-docs-mcp-by-sanket.md)
+
+A local-first MCP server for searching Salesforce Developer Documentation. Search 360+ official Salesforce PDF docs from VS Code or Claude Desktop. - SalesforceDiariesBySanket/salesforce-docs-mcp
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -174,6 +270,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Salesforce MCP by timescale](../tools/salesforce-mcp-by-timescale.md)
+
+API wrapped around our salesforce database. Contribute to timescale/tiger-salesforce-mcp-server development by creating an account on GitHub.
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md)
 
 Salesforce MCP Server. Contribute to tsmztech/mcp-server-salesforce development by creating an account on GitHub.
@@ -208,7 +320,7 @@ RESEARCHED
 
 **The gates, in plain words**
 
-1 of 10 free to start, a solo operator gets API access without talking to anyone. 9 of 10 gate unknown, not established from public sources and published as unknown.
+1 of 17 free to start, a solo operator gets API access without talking to anyone. 16 of 17 gate unknown, not established from public sources and published as unknown.
 
 The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
 
@@ -251,6 +363,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 422 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 10 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 468 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 17 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

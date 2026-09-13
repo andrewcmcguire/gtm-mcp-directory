@@ -1,6 +1,6 @@
-# What percentage of GTM tools can an AI agent reach? 57%, and less once you count the gate
+# What percentage of GTM tools can an AI agent reach? 54%, and less once you count the gate
 
-> 57% of 422 GTM tools have an MCP server. Once the access gate is applied the reachable number drops again. The arithmetic, counted 2026-09-12.
+> 54% of 468 GTM tools have an MCP server. Once the access gate is applied the reachable number drops again. The arithmetic, counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,17 +16,17 @@
 
 **The short answer**
 
-57% of the 422 go to market tools counted here have an MCP server of any kind. Applying the second filter, that you can actually get an account without a contract, 168 entries pass both tests, which is 40% of the directory.
+54% of the 468 go to market tools counted here have an MCP server of any kind. Applying the second filter, that you can actually get an account without a contract, 168 entries pass both tests, which is 36% of the directory.
 
 ## The funnel
 
-| Filter | Entries left | Share of 422 |
+| Filter | Entries left | Share of 468 |
 |---|---|---|
-| Every tool counted | 422 | 100% |
-| Has a server of any kind | 239 | 57% |
-| Server is first party | 200 | 47% |
-| Server, and free or paid self serve | 168 | 40% |
-| Server, first party, and free to start | 62 | 15% |
+| Every tool counted | 468 | 100% |
+| Has a server of any kind | 251 | 54% |
+| Server is first party | 200 | 43% |
+| Server, and free or paid self serve | 168 | 36% |
+| Server, first party, and free to start | 62 | 13% |
 | And somebody here has actually run it | 1 | 0% |
 
 Counted 2026-09-12 from directory.json. The last row is the honest floor of this whole exercise and it is published on the front page rather than buried here.
@@ -37,7 +37,7 @@ Every percentage above the last two is a documentation reading. It says a vendor
 
 ## The direction of travel
 
-Do not read 57% as a permanent state. It is a reading taken on 2026-09-12 from 422 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25, 2026-09-02, 2026-09-03, 2026-09-07, 2026-09-12. The point of stamping every number with a date is that the next reading is comparable to this one.
+Do not read 54% as a permanent state. It is a reading taken on 2026-09-12 from 468 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25, 2026-09-02, 2026-09-03, 2026-09-07, 2026-09-12. The point of stamping every number with a date is that the next reading is comparable to this one.
 
 ## Sources
 

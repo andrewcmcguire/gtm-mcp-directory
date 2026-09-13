@@ -1,6 +1,6 @@
-# MCP Layer tools with MCP servers: 26 of 31, counted
+# MCP Layer tools with MCP servers: 38 of 43, counted
 
-> 26 of the 31 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 12 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 38 of the 43 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 24 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / MCP Layer tools with an MCP server
 
-**List · 26 of 422**
+**List · 38 of 468**
 
 ## MCP Layer tools with an MCP server
 
-The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 26 of 31 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 12 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
+The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 38 of 43 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 24 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -63,14 +63,47 @@ Klavis API key as an HTTP Bearer token on the management API that creates a per-
 | [Anyquery](../tools/anyquery.md)
 anyquery.dev | [Community MCP](../mcp/community.md) | [https://github.com/julien040/anyquery](https://github.com/julien040/anyquery) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Apex Log MCP by Certinia](../tools/apex-log-mcp-by-certinia.md)
+npmjs.com | [Community MCP](../mcp/community.md) | [https://github.com/certinia/debug-log-analyzer-mcp](https://github.com/certinia/debug-log-analyzer-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/bfmvsa/mcp-apex-sdk](https://github.com/bfmvsa/mcp-apex-sdk) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Flipfactory CRM MCP](../tools/flipfactory-crm-mcp.md)
+npmjs.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/baryhuang/mcp-hubspot](https://github.com/baryhuang/mcp-hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [IN2 Agent MCP](../tools/in2-agent-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Insaight](../tools/insaight.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/spirosbax/insaight](https://github.com/spirosbax/insaight) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MCP Force by RapidoCloud](../tools/mcp-force-by-rapidocloud.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/RapidoCloud/mcp-force](https://github.com/RapidoCloud/mcp-force) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [MCP-Salesforce by smn2gnt](../tools/mcp-salesforce-by-smn2gnt.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/smn2gnt/MCP-Salesforce](https://github.com/smn2gnt/MCP-Salesforce) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Mesh](../tools/mesh.md)
+me.sh | [Community MCP](../mcp/community.md) | [https://github.com/mesh/mesh-mcp](https://github.com/mesh/mesh-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Munin](../tools/munin.md)
+getmunin.com | [Community MCP](../mcp/community.md) | [https://github.com/getmunin/munin](https://github.com/getmunin/munin) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Pipedrive MCP by comma-compliance](../tools/pipedrive-mcp-by-comma-compliance.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/comma-compliance/pipedrive-mcp](https://github.com/comma-compliance/pipedrive-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [S.C.A.L.A.](../tools/s-c-a-l-a.md)
+get-scala.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce Docs MCP by Sanket](../tools/salesforce-docs-mcp-by-sanket.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/SalesforceDiariesBySanket/salesfo...](https://github.com/SalesforceDiariesBySanket/salesforce-docs-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by advancedcommunities](../tools/salesforce-mcp-by-advancedcommunities.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/advancedcommunities/salesforce-mc...](https://github.com/advancedcommunities/salesforce-mcp-server) | Auth not recorded
@@ -83,6 +116,9 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/kablewy/
 blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by SurajAdsul](../tools/salesforce-mcp-by-surajadsul.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/SurajAdsul/mcp-server-salesforce](https://github.com/SurajAdsul/mcp-server-salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by timescale](../tools/salesforce-mcp-by-timescale.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/timescale/tiger-salesforce-mcp-se...](https://github.com/timescale/tiger-salesforce-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce) | Auth not recorded
@@ -123,4 +159,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Read CRM records](../jobs/read-crm-records.md)
 - [Write CRM records](../jobs/write-crm-records.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 422 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 468 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

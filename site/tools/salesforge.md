@@ -286,7 +286,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **warmforge_list_workspaces** No description was recorded with the name. evidence: in the server source · calling it reads
 
-119 of the 239 entries that record an official or community MCP server carry a harvested tool list. The other 120 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 251 entries that record an official or community MCP server carry a harvested tool list. The other 132 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -323,7 +323,7 @@ paid
 
 No documentation URL recorded.
 
-347 of 422 entries are in the same position. Blank is legal and it is published as blank.
+374 of 468 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -363,7 +363,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 422 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 468 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -383,7 +383,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: An AI agent ("Agent Frank") that prospects, writes tailored outreach, sends across email and LinkedIn, manages follow-up sequences, and books meetings - positioned to either join a human team or fully replace one rep.
 
-16 of the 422 entries are cross listed like this. They are why the entry count is 422 and the unique product count is 406. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 468 entries are cross listed like this. They are why the entry count is 468 and the unique product count is 452. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

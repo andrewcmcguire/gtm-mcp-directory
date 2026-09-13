@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 44 of 65, counted
+# Data & Enrichment tools with MCP servers: 44 of 70, counted
 
-> 44 of the 65 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 44 of the 70 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 44 of 422**
+**List · 44 of 468**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 44 of 65 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 44 of 70 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -151,7 +151,7 @@ api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
 uplead.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/uplead](https://zapier.com/mcp/uplead) +1 more | OAuth or an API key
 Handled through the Zapier/Pipedream platform's own connector auth (API key entered into... | [Paid, self-serve](../gates/paid.md) |
 
-### The other 21 in this category
+### The other 26 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -169,6 +169,8 @@ hubspot.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/
 cognism.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Catch-all Verifier](../tools/catch-all-verifier.md)
 catchallverifier.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Ciro](../tools/ciro.md)
+ciro.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Cloudingo](../tools/cloudingo.md)
 cloudingo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Company Url Finder](../tools/company-url-finder.md)
@@ -181,8 +183,12 @@ dealroom.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unk
 enrich-crm.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enrichley](../tools/enrichley.md)
 enrichley.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [iCapture](../tools/icapture.md)
+cvent.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Integrate](../tools/integrate.md)
 integrate.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [LeadGenius](../tools/leadgenius.md)
+leadgenius.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Leadspace](../tools/leadspace.md)
 leadspace.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Orange Slice](../tools/orange-slice.md)
@@ -197,8 +203,12 @@ revenuebase.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/
 storeleads.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Supermetrics](../tools/supermetrics.md)
 supermetrics.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [The Org](../tools/the-org.md)
+theorg.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Zeliq](../tools/zeliq.md)
 zeliq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [ZenRows](../tools/zenrows.md)
+zenrows.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -211,4 +221,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 422 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 468 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

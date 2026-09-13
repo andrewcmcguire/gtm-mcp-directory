@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 30 of 42, counted
+# CRM and RevOps tools with MCP servers: 30 of 46, counted
 
-> 30 of the 42 revops infra tools in this directory have an MCP server: 29 official and 1 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 30 of the 46 revops infra tools in this directory have an MCP server: 29 official and 1 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-30 of the 42 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 1 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+30 of the 46 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 1 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -87,7 +87,7 @@ Morphed defines what your CRM must do, audits the source against it, then builds
 
 ## The rest of the category
 
-12 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+16 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
@@ -101,6 +101,8 @@ Turn complexity into endless possibility with Boomi, a single platform that inte
 CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce....
 - [Databox](../tools/databox.md) No MCP found · Gate unknown
 Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act...
+- [Glean](../tools/glean.md) No MCP found · Gate unknown
+Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you!
 - [LinkPoint Connect](../tools/linkpoint-connect.md) No MCP found · Gate unknown
 LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption...
 - [Relate](../tools/relate.md) No MCP found · Gate unknown
@@ -109,10 +111,10 @@ Relate is a modern sales CRM platform that lets you bring your entire team toget
 Manage sales and customer relationships directly inside Gmail. Streak is the CRM your team will actually use-integrated, smart, and loved by 750,000+...
 - [Suger](../tools/suger.md) No MCP found · Gate unknown
 Suger automates cloud GTM for ISVs selling on AWS, GCP, and Azure Marketplace. Streamline co-sell, private offers, metering, and CRM sync in one...
-- [Tray.ai](../tools/tray-ai.md) No MCP found · Gate unknown
-Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps - orchestration...
-- [Vertify](../tools/vertify.md) No MCP found · Gate unknown
-Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to insights.
+- [Superglue](../tools/superglue.md) No MCP found · Gate unknown
+Superglue lets you set up automations that guide your partner and sales teams through each step of the co-selling process.
+
+4 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -121,9 +123,9 @@ Unlock the full potential of your data with our enterprise data integration plat
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 11 |
+| [Gate unknown](../gates/unknown.md) | 15 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 1bf804b8ceb75116...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 2f911a2e5bcf7c88...
 
 ## Sources
 

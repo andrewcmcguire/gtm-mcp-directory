@@ -68,7 +68,7 @@ n/a
 
 No documentation URL recorded.
 
-347 of 422 entries are in the same position. Blank is legal and it is published as blank.
+374 of 468 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -93,7 +93,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Entry records the current form as unknown.
 
-151 of 422 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+197 of 468 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

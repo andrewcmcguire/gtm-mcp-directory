@@ -1,6 +1,6 @@
-# AI SDRs: 28 tools, 8 with an official MCP server
+# AI SDRs: 33 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 28 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 33 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 28
+- **entries in this file**: 33
 
 - **Official MCP**: 8
 - **Community MCP**: 2
-- **No MCP found**: 18
+- **No MCP found**: 23
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 8
+- **Gate unknown**: 13
 
-Source file: 04-ai-sdr-agents.md · content sha256 8cca3145d6d33b3f... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 a41f32d146f27738... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -82,7 +82,17 @@ Source file: 04-ai-sdr-agents.md · content sha256 8cca3145d6d33b3f... · counts
 
 - [Athean](../tools/athean.md) athean.com One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Floworks](../tools/floworks.md) floworks.ai Floworks AI deploys autonomous AI agents - Alisha, Jesse, Linda & Sam - that prospect, personalise emails, handle replies and book meetings so your team can focus on closing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Frontrunner](../tools/frontrunner.md) usefr.com AI agents for GTM. Frontrunner connects your GTM stack, gives agents the context to act, and keeps your team running in the same direction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [item](../tools/item.md) item.app item is the AI-native system that understands your business, knows your customers, and does the work - Designed to replace your CRM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Luru](../tools/luru.md) luru.app An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Nex](../tools/nex.md) nex.ai Nex automates complex, high-volume GTM plays like prospecting, outbound, CRM clean up, and revenue recovery, that general purpose agents struggle with. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Octolane AI](../tools/octolane-ai.md) octolane.com Octolane runs an AI agent on every account, trained on how your best revenue teams think and act. Human judgment, deployed at scale, and it's yours to keep. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

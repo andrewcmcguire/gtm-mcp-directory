@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 26 of 48, counted
+# Sales engagement and outbound tools with MCP servers: 26 of 54, counted
 
-> 26 of the 48 engagement & outbound tools in this directory have an MCP server: 23 official and 3 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 26 of the 54 engagement & outbound tools in this directory have an MCP server: 23 official and 3 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-26 of the 48 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 3 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+26 of the 54 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 3 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -79,7 +79,7 @@ Lead generation on LinkedIn, run by an agent that finds your leads, sends the in
 
 ## The rest of the category
 
-22 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+28 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Expandi](../tools/expandi.md) MCP unknown · Paid, self-serve
 Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account.
@@ -101,12 +101,12 @@ Go beyond marketing automation with ActiveCampaign's autonomous marketing platfo
 AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic...
 - [Birdie](../tools/birdie.md) No MCP found · Gate unknown
 AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups.
-- [Mailchimp](../tools/mailchimp.md) No MCP found · Gate unknown
-Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!
-- [Mogli](../tools/mogli.md) No MCP found · Gate unknown
-Streamline text messaging and transform engagement with Mogli's Salesforce SMS App. Discover our 5-star solution that makes texting from Salesforce...
+- [Fuse AI](../tools/fuse-ai.md) No MCP found · Gate unknown
+Fuse AI is sales superintelligence for modern revenue teams. Find the right prospects, automate outbound, uncover buyer signals, and close more deals.
+- [Kular](../tools/kular.md) No MCP found · Gate unknown
+Kular AI helps businesses generate qualified leads through AI-driven outreach solutions. Pay only for results with a simple setup and personalized...
 
-10 more are on the linked page. The cut is the display limit, not a ranking.
+16 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -116,9 +116,9 @@ Streamline text messaging and transform engagement with Mogli's Salesforce SMS A
 | [Paid, self-serve](../gates/paid.md) | 23 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
-| [Gate unknown](../gates/unknown.md) | 16 |
+| [Gate unknown](../gates/unknown.md) | 22 |
 
-Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 86f2799bb7fc9716...
+Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 6861131df9b8b1b1...
 
 ## Sources
 
