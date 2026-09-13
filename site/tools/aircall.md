@@ -231,7 +231,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **aircall_update_webhook** Update webhook evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 415 entries that record an official or community MCP server carry a harvested tool list. The other 296 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 437 entries that record an official or community MCP server carry a harvested tool list. The other 318 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -270,7 +270,7 @@ paid - the vendor's pricing page lists "250+ integrations and API access" on the
 
 No documentation URL recorded.
 
-582 of 884 entries are in the same position. Blank is legal and it is published as blank.
+604 of 934 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -307,7 +307,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-613 of 884 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

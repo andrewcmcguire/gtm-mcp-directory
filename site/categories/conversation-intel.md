@@ -1,6 +1,6 @@
-# Conversation Intel: 43 tools, 19 with an official MCP server
+# Conversation Intel: 46 tools, 19 with an official MCP server
 
-> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 43 tools counted, 19 with an official MCP server and 3 free to start.
+> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 46 tools counted, 19 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface.
 
-- **entries in this file**: 43
+- **entries in this file**: 46
 
 - **Official MCP**: 19
 - **Community MCP**: 2
-- **No MCP found**: 22
+- **No MCP found**: 25
 
 - **ship a CLI (official) as of 2026-09-12**: 2
 
@@ -28,9 +28,9 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Paid, self-serve**: 9
 - **Enterprise leaning**: 2
 - **Enterprise only**: 8
-- **Gate unknown**: 21
+- **Gate unknown**: 24
 
-Source file: 03-conversation-intel.md · content sha256 34f12c2fcd75766d... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 5a67919593ebccb1... · counts reconciled against tools_recount.py at build time.
 
 - [The 21 with an MCP server](../lists/mcp-conversation-intel.md)
 
@@ -87,6 +87,8 @@ Source file: 03-conversation-intel.md · content sha256 34f12c2fcd75766d... · c
 
 - [Abstrakt](../tools/abstrakt.md) abstrakt.ai Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and streamlining operations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Bearworks](../tools/bearworks.md) bearworks.com Unlock your sales potential. Transform your team through Bearworks' AI-powered Sales Conversation Platform for unparalleled productivity, with a parallel dialer, live salesfloor, and personalized voicemails. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Caretta](../tools/caretta.md) caretta.so Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Cedar](../tools/cedar.md) mail.cedarcopilot.com Cedar analyses your sales calls, email and CRM to map out a winning playbook - then drafts the context-aware follow-ups that keep every deal moving. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -115,6 +117,8 @@ Source file: 03-conversation-intel.md · content sha256 34f12c2fcd75766d... · c
 
 - [Peppr AI](../tools/peppr-ai.md) usepeppr.ai Peppr listens to your calls and surfaces the right answer before your customer finishes asking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Phonic](../tools/phonic.md) phonic.ai Build voice agents as natural as humans. 750ms latency, 50+ languages, audio-native AI. Trusted by teams shipping voice in production. Try free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Rafiki](../tools/rafiki.md) getrafiki.ai Rafiki AI is an AI-powered sales intelligence platform that analyzes every sales conversation, coaches reps, and surfaces deals that need attention. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Read AI](../tools/read-ai.md) read.ai Read AI, the fastest growing AI meeting assistant, ever, delivers real-time transcription, smart summaries, and enables AI search and discovery across all your content including meeting, messages, emails, CRM,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -124,3 +128,5 @@ Source file: 03-conversation-intel.md · content sha256 34f12c2fcd75766d... · c
 - [Salesroom](../tools/salesroom.md) salesroom.com Real-time AI video-conferencing platform for sales calls that coaches reps live against playbooks (MEDDIC, Challenger, BANT, Sandler) during the meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Voiceops](../tools/voiceops.md) voiceops.com Build a more intelligent business on Voiceops. Most data tells you what happened. Your customer conversations tell you why. Voiceops turns those conversations into a live signal every team can run on. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [VOIQ](../tools/voiq.md) voiq.com Conversational AI VoiceBots for Business [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

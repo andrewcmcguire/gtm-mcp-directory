@@ -1,6 +1,6 @@
-# Forecasting & Revenue: 22 tools, 3 with an official MCP server
+# Forecasting & Revenue: 23 tools, 3 with an official MCP server
 
-> Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast... 22 tools counted, 3 with an official MCP server and 1 free to start.
+> Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast... 23 tools counted, 3 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast engines (BoostUp/Terret, Aviso, Kluster) sold sales-led and quote-only, incentive-comp platforms that tie forecast risk to rep behavior (Xactly, Varicent), FP&A tools that model revenue top-down as one planning use case among several (Vareto, Cube Software, Pigment, Anaplan), and forecasting bolted onto core CRMs for free (Salesforce, HubSpot). The tension: almost every vendor in this category quotes a specific forecast-accuracy percentage with no published methodology behind a demo-request wall, and a real, self-serve MCP server is the exception rather than the rule - Pigment and Cube Software are the only two found here with one.
 
-- **entries in this file**: 22
+- **entries in this file**: 23
 
 - **Official MCP**: 3
 - **MCP unknown**: 1
-- **No MCP found**: 18
+- **No MCP found**: 19
 
 - **ship a CLI (official) as of 2026-09-12**: 3
 
 - **Free to start**: 1
 - **Paid, self-serve**: 3
 - **Enterprise only**: 13
-- **Gate unknown**: 5
+- **Gate unknown**: 6
 
-Source file: 12-forecasting-revenue.md · content sha256 1debf56069f169fe... · counts reconciled against tools_recount.py at build time.
+Source file: 12-forecasting-revenue.md · content sha256 a8fd3824bbbffcc4... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-forecasting-revenue.md)
 
@@ -71,6 +71,8 @@ Source file: 12-forecasting-revenue.md · content sha256 1debf56069f169fe... · 
 - [Vareto](../tools/vareto.md) vareto.com FP&A / financial-planning platform for finance teams (budgeting, headcount planning, driver-based modeling, cash-flow forecasting) that lists "Sales Revenue Forecasting" and "Capacity Planning" as one of... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Varicent](../tools/varicent.md) varicent.com Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory design, pipeline management, and revenue forecasting in one suite. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Compgun](../tools/compgun.md) compgun.com Sales commission software that grows revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Forecastable](../tools/forecastable.md) forecastable.com Forecastable transforms partnerships into co-sell engines your CRO can forecast, your CFO can defend, and your CEO can scale. Live in 30 days. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

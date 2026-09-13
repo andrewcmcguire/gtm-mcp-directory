@@ -40,7 +40,7 @@ A CRM note is text a stranger may have written. If your agent reads notes and ca
 
 ## What to check on the tool page before you start
 
-The verbatim auth field, whether the vendor offers OAuth, and whether the credential can be scoped. 137 of the 415 servers here document an OAuth flow, which is the shape you want for anything that writes.
+The verbatim auth field, whether the vendor offers OAuth, and whether the credential can be scoped. 137 of the 437 servers here document an OAuth flow, which is the shape you want for anything that writes.
 
 ## Sources
 

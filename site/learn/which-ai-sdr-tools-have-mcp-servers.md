@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 12 of 52, counted
+# AI SDR tools with MCP servers: 12 of 55, counted
 
-> 12 of the 52 ai sdrs tools in this directory have an MCP server: 8 official and 4 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 12 of the 55 ai sdrs tools in this directory have an MCP server: 8 official and 4 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-12 of the 52 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 4 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
+12 of the 55 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 4 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
 
 This is the inversion in one table. A category sold entirely on autonomous software is the least callable by anybody else's autonomous software, and the gap is not close.
 
@@ -51,7 +51,7 @@ The AI SDR alternative: the revenue orchestration layer for marketing, research,
 
 ## The rest of the category
 
-40 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+43 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Landbase](../tools/landbase.md) No MCP found · Free to start
 A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous...
@@ -78,7 +78,7 @@ Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, 
 - [ApexGTM](../tools/apexgtm.md) No MCP found · Gate unknown
 🚀 Autonomous GTM Engineer AI Platform - Multi-agent system that replaces 80-90% of manual GTM work. Combines Clay + Apollo + ZoomInfo + HubSpot + n8n...
 
-28 more are on the linked page. The cut is the display limit, not a ranking.
+31 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -87,9 +87,9 @@ Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, 
 | [Free to start](../gates/free.md) | 2 |
 | [Paid, self-serve](../gates/paid.md) | 8 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 32 |
+| [Gate unknown](../gates/unknown.md) | 35 |
 
-Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 219ee7b454bb1ca0...
+Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 05afb707461f6799...
 
 ## Sources
 

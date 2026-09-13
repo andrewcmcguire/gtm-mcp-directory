@@ -62,7 +62,7 @@ https://api.superblocks.com/mcp ; https://superblocks.com/blog/superblocks-mcp
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 415 entries that record an official or community MCP server carry a harvested tool list. The other 296 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 437 entries that record an official or community MCP server carry a harvested tool list. The other 318 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -113,7 +113,7 @@ paid - no free tier; cheapest self-serve entry is the Teams plan at $100/mo annu
 
 No documentation URL recorded.
 
-582 of 884 entries are in the same position. Blank is legal and it is published as blank.
+604 of 934 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -148,7 +148,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: no-job-fits. Internal-app building and AI-app governance. run-automation-workflow is not what it does and there is no app-builder job.
 
-613 of 884 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

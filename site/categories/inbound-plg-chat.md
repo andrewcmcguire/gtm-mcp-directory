@@ -1,6 +1,6 @@
-# Inbound & PLG Chat: 47 tools, 11 with an official MCP server
+# Inbound & PLG Chat: 50 tools, 11 with an official MCP server
 
-> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 47 tools counted, 11 with an official MCP server and 4 free to start.
+> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 50 tools counted, 11 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,23 +16,23 @@
 
 Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed.
 
-- **entries in this file**: 47
+- **entries in this file**: 50
 
 - **Official MCP**: 11
 - **Community MCP**: 2
 - **MCP unknown**: 1
 - **MCP not applicable**: 1
-- **No MCP found**: 32
+- **No MCP found**: 35
 
 - **ship a CLI (official) as of 2026-09-12**: 3
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
 - **Enterprise only**: 3
-- **Gate unknown**: 30
+- **Gate unknown**: 33
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 0bab857b6aba26a0... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 bd27a2590bc6b4fb... · counts reconciled against tools_recount.py at build time.
 
 - [The 13 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 
@@ -73,6 +73,10 @@ Source file: 14-inbound-plg-chat.md · content sha256 0bab857b6aba26a0... · cou
 
 - [Qualified](../tools/qualified.md) qualified.com Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR agent engages known target-account visitors in real time, qualifies them, and books meetings, then... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Abbot](../tools/abbot.md) ab.bot Your Customer Success Co-Pilot [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Breadcrumbs](../tools/breadcrumbs.md) breadcrumbs.io Optimize your entire funnel, and achieve up to 30% increase from MQL to Opp for Sales-Assisted and PLG motions with Breadcrumbs. Enterprise-Grade Lead Scoring Made for Everyone. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Candu](../tools/candu.md) candu.ai Candu lets product and growth teams build, launch, and iterate in-app onboarding & engagement flows-without engineering. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Chameleon](../tools/chameleon.md) chameleon.io Chameleon builds context on your product, identifies friction, creates in-app guidance, and monitors outcomes, so your product keeps getting better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -108,6 +112,8 @@ Source file: 14-inbound-plg-chat.md · content sha256 0bab857b6aba26a0... · cou
 - [Maintouch](../tools/maintouch.md) maintouch.com Maintouch tracks AI and Google visibility, creates and refreshes content, and helps brands earn the backlinks and mentions that drive search growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mutiny](../tools/mutiny.md) mutinyhq.com Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Nara](../tools/nara.md) trynara.com Answer 70% of your support and sales questions. Instantly [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Netomi](../tools/netomi.md) netomi.com Netomi powers intelligent experiences for the world [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

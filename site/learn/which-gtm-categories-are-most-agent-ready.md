@@ -16,33 +16,33 @@
 
 **The short answer**
 
-MCP Layer is the most agent reachable category at 151 of 156 entries with a server. Enablement & Coaching is the least at 3 of 54. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
+MCP Layer is the most agent reachable category at 173 of 178 entries with a server. Enablement & Coaching is the least at 3 of 57. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
 
 ## The ranking
 
 | # | Category | Reachable | Official | Community | Of |
 |---|---|---|---|---|---|
-| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 97% | 14 | 137 | 156 |
+| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 97% | 14 | 159 | 178 |
 | 2 | [Community & Dark Social](../categories/community-dark-social.md) | 52% | 8 | 3 | 21 |
-| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 51% | 42 | 28 | 137 |
-| 4 | [Conversation Intel](../categories/conversation-intel.md) | 49% | 19 | 2 | 43 |
-| 5 | [RevOps Infra](../categories/revops-infra.md) | 47% | 29 | 11 | 85 |
-| 6 | [Scheduling & Routing](../categories/scheduling-routing.md) | 44% | 5 | 2 | 16 |
-| 7 | [Video Prospecting](../categories/video-prospecting.md) | 43% | 4 | 6 | 23 |
-| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 40% | 20 | 5 | 63 |
-| 9 | [Proposals & Deals](../categories/proposals-deals.md) | 38% | 8 | 2 | 26 |
-| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 29% | 23 | 11 | 116 |
-| 11 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 28% | 11 | 2 | 47 |
-| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 23% | 8 | 4 | 52 |
+| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 50% | 42 | 28 | 141 |
+| 4 | [Conversation Intel](../categories/conversation-intel.md) | 46% | 19 | 2 | 46 |
+| 5 | [RevOps Infra](../categories/revops-infra.md) | 45% | 29 | 11 | 88 |
+| 6 | [Video Prospecting](../categories/video-prospecting.md) | 43% | 4 | 6 | 23 |
+| 7 | [Scheduling & Routing](../categories/scheduling-routing.md) | 41% | 5 | 2 | 17 |
+| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 39% | 20 | 5 | 64 |
+| 9 | [Proposals & Deals](../categories/proposals-deals.md) | 37% | 8 | 2 | 27 |
+| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 28% | 23 | 11 | 121 |
+| 11 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 26% | 11 | 2 | 50 |
+| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 22% | 8 | 4 | 55 |
 | 13 | [Email Deliverability](../categories/email-deliverability.md) | 22% | 4 | 1 | 23 |
-| 14 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 14% | 3 | 0 | 22 |
-| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 6% | 2 | 1 | 54 |
+| 14 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 13% | 3 | 0 | 23 |
+| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 5% | 2 | 1 | 57 |
 
 Counted 2026-09-12 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 52 entries. Enablement & Coaching is at 2 of 54. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 85.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 55 entries. Enablement & Coaching is at 2 of 57. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 88.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 

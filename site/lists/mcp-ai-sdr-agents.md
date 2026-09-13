@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 12 of 52, counted
+# AI SDR tools with MCP servers: 12 of 55, counted
 
-> 12 of the 52 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 12 of the 55 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / AI SDR tools with an MCP server
 
-**List · 12 of 884**
+**List · 12 of 934**
 
 ## AI SDR tools with an MCP server
 
-This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 12 of 52 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
+This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 12 of 55 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -55,7 +55,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 vruum.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 40 in this category
+### The other 43 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -97,6 +97,8 @@ trycardinal.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates
 coldreach.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Dench](../tools/dench.md)
 dench.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Echo](../tools/echo.md)
+echothat.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [FINNY AI](../tools/finny-ai.md)
 finny.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [FirstQuadrant](../tools/firstquadrant.md)
@@ -109,6 +111,8 @@ usefr.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkno
 gojiberry.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [item](../tools/item.md)
 item.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Kanava AI](../tools/kanava-ai.md)
+kanava.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Luru](../tools/luru.md)
 luru.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Nex](../tools/nex.md)
@@ -139,6 +143,8 @@ soff.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown
 topo.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Trellus AI](../tools/trellus-ai.md)
 trellus.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
+| [Truva](../tools/truva.md)
+truva.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Verbiflow](../tools/verbiflow.md)
 verbiflow.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
@@ -153,4 +159,4 @@ The jobs most often tagged on the 22 tagged entries in this category.
 - [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md)
 - [Place an outbound call](../jobs/place-outbound-call.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 884 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

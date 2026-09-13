@@ -69,7 +69,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **CALL_API_REQUEST** Call an API if no tool is available for an integration that matches the user evidence: in the server source · calling it reads
 
-119 of the 415 entries that record an official or community MCP server carry a harvested tool list. The other 296 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 437 entries that record an official or community MCP server carry a harvested tool list. The other 318 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -115,7 +115,7 @@ enterprise-leaning - Paragon publishes no prices. Its pricing page prices by "Co
 
 No documentation URL recorded.
 
-582 of 884 entries are in the same position. Blank is legal and it is published as blank.
+604 of 934 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -152,7 +152,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-613 of 884 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

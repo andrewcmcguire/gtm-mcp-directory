@@ -101,7 +101,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **test_tool** Test tool to verify MCP connection evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 415 entries that record an official or community MCP server carry a harvested tool list. The other 296 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 437 entries that record an official or community MCP server carry a harvested tool list. The other 318 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -138,7 +138,7 @@ enterprise-only
 
 No documentation URL recorded.
 
-582 of 884 entries are in the same position. Blank is legal and it is published as blank.
+604 of 934 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -178,7 +178,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 884 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 934 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -198,7 +198,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: See the full RESEARCHED entry in 05-signals-intent-abm.md (Common Room is filed there as its canonical home in this directory) - aggregates Slack, Discord, GitHub, product-usage, and third-party intent signals into unified contact/organization profiles.
 
-16 of the 884 entries are cross listed like this. They are why the entry count is 884 and the unique product count is 868. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 934 entries are cross listed like this. They are why the entry count is 934 and the unique product count is 918. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

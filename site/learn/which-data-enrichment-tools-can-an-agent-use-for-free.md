@@ -1,6 +1,6 @@
 # Which data enrichment tools can an AI agent use for free? 21 counted
 
-> 21 of the 137 data enrichment tools in this directory are free to start, and 18 of those also have an MCP server. The list, with what each one does. Counted 2026-09-12.
+> 21 of the 141 data enrichment tools in this directory are free to start, and 18 of those also have an MCP server. The list, with what each one does. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 137 data enrichment tools counted here are free to start, meaning a solo operator can get API access without paying and without talking to anyone. 18 of those also ship an MCP server, so an agent can call them without any glue code.
+21 of the 141 data enrichment tools counted here are free to start, meaning a solo operator can get API access without paying and without talking to anyone. 18 of those also ship an MCP server, so an agent can call them without any glue code.
 
 Free to start is a gate, not a price. It means the door opens without a sales call. Every one of these vendors meters something, and this directory does not track credits, quotas or rate limits, so read the vendor's own pricing page before pointing a loop at one.
 
@@ -70,7 +70,7 @@ An email finder and verifier that locates a person's work email from a name+doma
 
 ## Why enrichment is the exception
 
-Data & Enrichment is the most agent reachable category in the whole directory: 42 official servers and 28 community across 137 entries, with only 67 where none was found. These vendors were selling an API before MCP existed, so exposing it through one more protocol was a small step.
+Data & Enrichment is the most agent reachable category in the whole directory: 42 official servers and 28 community across 141 entries, with only 71 where none was found. These vendors were selling an API before MCP existed, so exposing it through one more protocol was a small step.
 
 ## What to check before you wire one in
 

@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 40 of 85, counted
+# CRM and RevOps tools with MCP servers: 40 of 88, counted
 
-> 40 of the 85 revops infra tools in this directory have an MCP server: 29 official and 11 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 40 of the 88 revops infra tools in this directory have an MCP server: 29 official and 11 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-40 of the 85 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 11 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+40 of the 88 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 11 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -107,7 +107,7 @@ Tasks, CRM, docs, and finance in one workspace on one database. Runway computed 
 
 ## The rest of the category
 
-45 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+48 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
@@ -134,7 +134,7 @@ Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain Eng
 - [crmCopilot](../tools/crmcopilot.md) No MCP found · Gate unknown
 Give Salesforce the AI upgrade it deserves
 
-33 more are on the linked page. The cut is the display limit, not a ranking.
+36 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -143,9 +143,9 @@ Give Salesforce the AI upgrade it deserves
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 54 |
+| [Gate unknown](../gates/unknown.md) | 57 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 129e8d9169a2307c...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 01eadf28129c7d29...
 
 ## Sources
 

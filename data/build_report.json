@@ -2,7 +2,7 @@
   "generated_on": "2026-09-12",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
-  "entries_parsed": 884,
+  "entries_parsed": 934,
   "files_parsed": 15,
   "reconciliation": {
     "authority": "tools_recount.py",
@@ -10,44 +10,44 @@
     "per_file": [
       {
         "file": "01-data-enrichment.md",
-        "build_entries": 137,
-        "recount_entries": 137,
+        "build_entries": 141,
+        "recount_entries": 141,
         "ok": true
       },
       {
         "file": "02-engagement-outbound.md",
-        "build_entries": 116,
-        "recount_entries": 116,
+        "build_entries": 121,
+        "recount_entries": 121,
         "ok": true
       },
       {
         "file": "03-conversation-intel.md",
-        "build_entries": 43,
-        "recount_entries": 43,
+        "build_entries": 46,
+        "recount_entries": 46,
         "ok": true
       },
       {
         "file": "04-ai-sdr-agents.md",
-        "build_entries": 52,
-        "recount_entries": 52,
+        "build_entries": 55,
+        "recount_entries": 55,
         "ok": true
       },
       {
         "file": "05-signals-intent-abm.md",
-        "build_entries": 63,
-        "recount_entries": 63,
+        "build_entries": 64,
+        "recount_entries": 64,
         "ok": true
       },
       {
         "file": "06-revops-infra.md",
-        "build_entries": 85,
-        "recount_entries": 85,
+        "build_entries": 88,
+        "recount_entries": 88,
         "ok": true
       },
       {
         "file": "07-mcp-infrastructure.md",
-        "build_entries": 156,
-        "recount_entries": 156,
+        "build_entries": 178,
+        "recount_entries": 178,
         "ok": true
       },
       {
@@ -64,32 +64,32 @@
       },
       {
         "file": "10-scheduling-routing.md",
-        "build_entries": 16,
-        "recount_entries": 16,
+        "build_entries": 17,
+        "recount_entries": 17,
         "ok": true
       },
       {
         "file": "11-enablement-coaching.md",
-        "build_entries": 54,
-        "recount_entries": 54,
+        "build_entries": 57,
+        "recount_entries": 57,
         "ok": true
       },
       {
         "file": "12-forecasting-revenue.md",
-        "build_entries": 22,
-        "recount_entries": 22,
+        "build_entries": 23,
+        "recount_entries": 23,
         "ok": true
       },
       {
         "file": "13-proposals-deals.md",
-        "build_entries": 26,
-        "recount_entries": 26,
+        "build_entries": 27,
+        "recount_entries": 27,
         "ok": true
       },
       {
         "file": "14-inbound-plg-chat.md",
-        "build_entries": 47,
-        "recount_entries": 47,
+        "build_entries": 50,
+        "recount_entries": 50,
         "ok": true
       },
       {
@@ -99,19 +99,19 @@
         "ok": true
       }
     ],
-    "build_total": 884,
-    "recount_total": 884,
+    "build_total": 934,
+    "recount_total": 934,
     "build_mcp_status": {
-      "community": 215,
+      "community": 237,
       "n-a": 9,
-      "none-found": 445,
+      "none-found": 473,
       "official": 200,
       "unknown": 15
     },
     "recount_mcp_status": {
-      "community": 215,
+      "community": 237,
       "n-a": 9,
-      "none-found": 445,
+      "none-found": 473,
       "official": 200,
       "unknown": 15
     },
@@ -121,7 +121,7 @@
       "free": 78,
       "n-a": 6,
       "paid": 132,
-      "unknown": 581
+      "unknown": 631
     },
     "recount_api_gate": {
       "enterprise-leaning": 8,
@@ -129,7 +129,7 @@
       "free": 78,
       "n-a": 6,
       "paid": 132,
-      "unknown": 581
+      "unknown": 631
     },
     "duplicate_names_build": [
       "amplemarket",
@@ -172,83 +172,83 @@
     "reconciled": true
   },
   "coverage": {
-    "total_entries": 884,
+    "total_entries": 934,
     "schema_fields": {
       "name": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "vendor_url": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "category": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "what_it_does": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "ai_features": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "mcp_status": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "mcp_url": {
-        "present": 509,
-        "missing": 375
+        "present": 531,
+        "missing": 403
       },
       "mcp_auth": {
         "present": 331,
-        "missing": 553
+        "missing": 603
       },
       "api_gate": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "revops_role": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "tier": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "last_checked": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "sources": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       },
       "notes": {
-        "present": 884,
+        "present": 934,
         "missing": 0
       }
     },
-    "docs_url_present": 302,
-    "docs_url_missing": 582,
-    "mcp_url_present": 509,
-    "mcp_url_missing": 375,
-    "mcp_url_with_parseable_url": 433,
-    "mcp_url_pointing_at_github": 227,
+    "docs_url_present": 330,
+    "docs_url_missing": 604,
+    "mcp_url_present": 531,
+    "mcp_url_missing": 403,
+    "mcp_url_with_parseable_url": 455,
+    "mcp_url_pointing_at_github": 247,
     "mcp_auth_present": 331,
-    "github_candidates_any": 263,
+    "github_candidates_any": 283,
     "sources_zero_urls": 0,
-    "sources_one_url": 39,
-    "sources_two_or_more_urls": 845,
-    "sources_url_total": 3063,
+    "sources_one_url": 51,
+    "sources_two_or_more_urls": 883,
+    "sources_url_total": 3188,
     "sources_with_annotations": 12,
     "entries_with_extra_fields": 0,
     "mcp_status": {
-      "community": 215,
+      "community": 237,
       "n-a": 9,
-      "none-found": 445,
+      "none-found": 473,
       "official": 200,
       "unknown": 15
     },
@@ -258,12 +258,12 @@
       "free": 78,
       "n-a": 6,
       "paid": 132,
-      "unknown": 581
+      "unknown": 631
     },
-    "api_gate_unknown": 581,
+    "api_gate_unknown": 631,
     "tier": {
       "BENCH-TESTED": 1,
-      "RESEARCHED": 883
+      "RESEARCHED": 933
     },
     "last_checked": {
       "2026-08-24": 71,
@@ -271,7 +271,7 @@
       "2026-09-02": 121,
       "2026-09-03": 15,
       "2026-09-07": 107,
-      "2026-09-12": 548
+      "2026-09-12": 598
     },
     "bench_tested": 1,
     "endpoint_status": {
@@ -281,14 +281,14 @@
       "repo-local": 34,
       "docs-only": 97,
       "unreachable": 15,
-      "not-probed": 234,
-      "not-applicable": 469
+      "not-probed": 256,
+      "not-applicable": 497
     },
     "official_with_live_endpoint": 27,
     "official_docs_only": 88,
     "mcp_tool_count_total": 8507,
     "servers_with_a_tool_list": 119,
-    "servers_claiming_a_server": 415,
+    "servers_claiming_a_server": 437,
     "tools_by_evidence": {
       "live-list": 6098,
       "source": 1149,
@@ -297,35 +297,35 @@
     },
     "endpoint_probe_date": "2026-09-04",
     "jobs_tagged": 271,
-    "jobs_untagged": 613,
+    "jobs_untagged": 663,
     "jobs_assignments": 849,
     "jobs_tagged_by": {
-      "(untagged)": 613,
+      "(untagged)": 663,
       "machine-pass": 271
     },
     "unmeasured_spec_fields": {
-      "github_url": 884,
-      "github_stars": 884,
-      "github_last_commit": 884,
-      "github_archived": 884,
-      "github_fetched_on": 884,
-      "docs_digest": 884,
-      "docs_last_crawled": 884,
-      "submission": 884
+      "github_url": 934,
+      "github_stars": 934,
+      "github_last_commit": 934,
+      "github_archived": 934,
+      "github_fetched_on": 934,
+      "docs_digest": 934,
+      "docs_last_crawled": 934,
+      "submission": 934
     },
     "solo_reachable": 168
   },
   "jobs": {
     "vocabulary_size": 56,
     "tags_keys": 255,
-    "entries_total": 884,
+    "entries_total": 934,
     "entries_tagged": 271,
-    "entries_untagged": 613,
+    "entries_untagged": 663,
     "products_tagged": 255,
-    "products_untagged": 613,
+    "products_untagged": 663,
     "tag_assignments": 849,
     "tags_per_entry": {
-      "0": 613,
+      "0": 663,
       "1": 71,
       "2": 54,
       "3": 52,
@@ -437,6 +437,10 @@
       "01-lead-radar",
       "01-vsyble",
       "01-infona",
+      "01-stacklead",
+      "01-salessift",
+      "01-mattermark",
+      "01-convex",
       "01-cloudingo",
       "02-dialpad",
       "02-justcall",
@@ -524,6 +528,11 @@
       "02-connectandsell",
       "02-copyfactory",
       "02-linkednav",
+      "02-phonesys",
+      "02-hatch",
+      "02-coffeeai",
+      "02-callhippo",
+      "02-alyce",
       "02-sms-magic",
       "02-natterbox",
       "02-mogli",
@@ -546,6 +555,9 @@
       "03-cedar",
       "03-execvision",
       "03-fabius",
+      "03-voiq",
+      "03-phonic",
+      "03-bearworks",
       "04-relevance-ai",
       "04-alysio",
       "04-athean",
@@ -576,6 +588,9 @@
       "04-finny-ai",
       "04-dench",
       "04-soff",
+      "04-kanava-ai",
+      "04-echo",
+      "04-truva",
       "05-koala",
       "05-catchintent",
       "05-actively",
@@ -611,6 +626,7 @@
       "05-nirmahgtm",
       "05-athenahq",
       "05-epicbrief",
+      "05-customeros",
       "05-zinfi",
       "06-census",
       "06-superblocks",
@@ -673,6 +689,9 @@
       "06-kordic-crm",
       "06-kenva",
       "06-well",
+      "06-vessel",
+      "06-interstate-analytics",
+      "06-partnerstack",
       "06-linkpoint-connect",
       "06-apsona",
       "06-cloudfiles",
@@ -822,6 +841,28 @@
       "07-fundz-agent-examples",
       "07-customer-intelligence-hub",
       "07-zavora-sales-operations-skill",
+      "07-ez-work-mcp",
+      "07-magpipe",
+      "07-fluent-mcp-servers",
+      "07-hubspot-mcp-by-djmoore-projects",
+      "07-max-mcp-by-digital-crew",
+      "07-zoho-crm-mcp-by-devart",
+      "07-salesforce-marketing-cloud-mcp-by-devart",
+      "07-salesforce-mcp-by-devart",
+      "07-hubspot-mcp-by-devart",
+      "07-salesforce-pardot-mcp-by-daniilmai",
+      "07-planhat-mcp-by-da-troll",
+      "07-linkedin-outreach-mcp-by-meok",
+      "07-crm-ai-mcp-by-meok",
+      "07-apollo-mcp-by-maxmulvey",
+      "07-clay-to-instantly-smartlead-mcp",
+      "07-blitz-api-open-source",
+      "07-apollo-mcp-by-kingler",
+      "07-linkedin-icp-discovery-mcp",
+      "07-n47vc-mcp-suite",
+      "07-indraft",
+      "07-guapu",
+      "07-civicrm-mcp-by-yogiadhik",
       "08-wistia",
       "08-onemob",
       "08-vidu",
@@ -843,6 +884,7 @@
       "09-bounceban",
       "10-clockwise",
       "10-circa",
+      "10-rift",
       "10-kubaru",
       "11-workramp",
       "11-continu",
@@ -886,11 +928,15 @@
       "11-luthor",
       "11-getcrux",
       "11-corporate-visions",
+      "11-prelay",
+      "11-demo-gorilla",
+      "11-buzzboard-connect",
       "11-spinify",
       "12-palettehq",
       "12-forecastable",
       "12-quadsci",
       "12-lysto",
+      "12-compgun",
       "12-revenue-grid",
       "13-offorte",
       "13-minoa",
@@ -902,6 +948,7 @@
       "13-sameplan",
       "13-journey",
       "13-docsend",
+      "13-manatee",
       "13-conga",
       "13-pdf-butler",
       "14-drift",
@@ -939,6 +986,9 @@
       "14-positional",
       "14-maintouch",
       "14-laudspeaker",
+      "14-nara",
+      "14-breadcrumbs",
+      "14-abbot",
       "14-formstack",
       "14-formassembly",
       "15-orbit",
@@ -1939,11 +1989,26 @@
     },
     "thin_sourcing": {
       "rule": "SPEC 6.3 item 8: at least two independent sources. These entries carry fewer than two source URLs.",
-      "count": 39,
+      "count": 51,
       "entries": [
+        {
+          "id": "01-salessift",
+          "name": "SalesSift",
+          "source_urls": 1
+        },
+        {
+          "id": "01-stacklead",
+          "name": "StackLead",
+          "source_urls": 1
+        },
         {
           "id": "01-unhaze",
           "name": "Unhaze",
+          "source_urls": 1
+        },
+        {
+          "id": "02-alyce",
+          "name": "Alyce",
           "source_urls": 1
         },
         {
@@ -1954,6 +2019,16 @@
         {
           "id": "02-bluebirds",
           "name": "Bluebirds",
+          "source_urls": 1
+        },
+        {
+          "id": "02-coffeeai",
+          "name": "CoffeeAI",
+          "source_urls": 1
+        },
+        {
+          "id": "02-phonesys",
+          "name": "PhoneSys",
           "source_urls": 1
         },
         {
@@ -1997,6 +2072,11 @@
           "source_urls": 1
         },
         {
+          "id": "04-truva",
+          "name": "Truva",
+          "source_urls": 1
+        },
+        {
           "id": "05-intently",
           "name": "Intently (getintently.com)",
           "source_urls": 1
@@ -2024,6 +2104,11 @@
         {
           "id": "07-flipfactory-crm-mcp",
           "name": "Flipfactory CRM MCP",
+          "source_urls": 1
+        },
+        {
+          "id": "07-guapu",
+          "name": "Guapu",
           "source_urls": 1
         },
         {
@@ -2087,8 +2172,18 @@
           "source_urls": 1
         },
         {
+          "id": "11-prelay",
+          "name": "Prelay",
+          "source_urls": 1
+        },
+        {
           "id": "11-resonance",
           "name": "Resonance",
+          "source_urls": 1
+        },
+        {
+          "id": "12-compgun",
+          "name": "Compgun",
           "source_urls": 1
         },
         {
@@ -2107,13 +2202,28 @@
           "source_urls": 1
         },
         {
+          "id": "13-manatee",
+          "name": "Manatee",
+          "source_urls": 1
+        },
+        {
           "id": "13-sameplan",
           "name": "Sameplan",
           "source_urls": 1
         },
         {
+          "id": "14-abbot",
+          "name": "Abbot",
+          "source_urls": 1
+        },
+        {
           "id": "14-laudspeaker",
           "name": "Laudspeaker",
+          "source_urls": 1
+        },
+        {
+          "id": "14-nara",
+          "name": "Nara",
           "source_urls": 1
         },
         {
@@ -2140,7 +2250,7 @@
     },
     "api_gate_unknown": {
       "rule": "SCHEMA law 4: api_gate is the single most useful column for a solo operator. INDEX.md already calls this the directory's biggest remaining quality problem.",
-      "count": 581,
+      "count": 631,
       "entry_ids": [
         "01-anglera",
         "01-apollo-mcp-by-louis030195",
@@ -2162,6 +2272,7 @@
         "01-company-url-finder",
         "01-companyenrich",
         "01-contactout",
+        "01-convex",
         "01-data-legion",
         "01-datanyze",
         "01-dealroom",
@@ -2191,6 +2302,7 @@
         "01-mamba-gtm-job-discovery-mcp",
         "01-mamba-gtm-suite-mcp",
         "01-mamba-tech-stack-signal-mcp",
+        "01-mattermark",
         "01-mixrank",
         "01-namecard-ai",
         "01-openmart",
@@ -2205,6 +2317,7 @@
         "01-revenuebase",
         "01-reversecontact",
         "01-salesintel",
+        "01-salessift",
         "01-scrapemagic",
         "01-scrapercity",
         "01-screenshotone",
@@ -2213,6 +2326,7 @@
         "01-smarte",
         "01-social-profile-enrichment-api",
         "01-sparklane",
+        "01-stacklead",
         "01-store-leads",
         "01-supermetrics",
         "01-technology-stack-detection-api",
@@ -2233,13 +2347,16 @@
         "02-act-on",
         "02-activecampaign",
         "02-agentmail",
+        "02-alyce",
         "02-atlog",
         "02-banabo",
         "02-birdie",
         "02-blaze",
         "02-bluebirds",
         "02-brevo",
+        "02-callhippo",
         "02-cience",
+        "02-coffeeai",
         "02-cohesive",
         "02-connectandsell",
         "02-copyfactory",
@@ -2250,6 +2367,7 @@
         "02-emelia",
         "02-frontspin",
         "02-fuse-ai",
+        "02-hatch",
         "02-hive",
         "02-imagine-ai",
         "02-instaagent",
@@ -2278,6 +2396,7 @@
         "02-persana-ai",
         "02-persuadioai",
         "02-phoneburner",
+        "02-phonesys",
         "02-pinnacle",
         "02-plai",
         "02-popsy",
@@ -2315,6 +2434,7 @@
         "02-whatsapp-business",
         "02-zaymo",
         "03-abstrakt",
+        "03-bearworks",
         "03-caretta",
         "03-cedar",
         "03-clozd",
@@ -2329,11 +2449,13 @@
         "03-observe-ai",
         "03-people-ai",
         "03-peppr-ai",
+        "03-phonic",
         "03-rafiki",
         "03-read-ai",
         "03-salesken",
         "03-salesroom",
         "03-voiceops",
+        "03-voiq",
         "03-zoom-revenue-accelerator",
         "04-alysio",
         "04-apexgtm",
@@ -2343,6 +2465,7 @@
         "04-cardinal",
         "04-coldreach",
         "04-dench",
+        "04-echo",
         "04-elizabeth-ai-agent",
         "04-finny-ai",
         "04-firstquadrant",
@@ -2350,6 +2473,7 @@
         "04-frontrunner",
         "04-gojiberry-ai",
         "04-item",
+        "04-kanava-ai",
         "04-luru",
         "04-nex",
         "04-octolane-ai",
@@ -2365,6 +2489,7 @@
         "04-soff",
         "04-topo",
         "04-trellus-ai",
+        "04-truva",
         "04-verbiflow",
         "04-vruum",
         "05-abm-dev",
@@ -2372,6 +2497,7 @@
         "05-athenahq",
         "05-avina",
         "05-channel99",
+        "05-customeros",
         "05-demandsphere",
         "05-ebrandvalue",
         "05-epicbrief",
@@ -2426,6 +2552,7 @@
         "06-gradient-works",
         "06-helm-ai",
         "06-insycle",
+        "06-interstate-analytics",
         "06-introw",
         "06-kaanha-ai",
         "06-kenva",
@@ -2437,6 +2564,7 @@
         "06-opsdoctor",
         "06-partnered",
         "06-partneros",
+        "06-partnerstack",
         "06-power-my-analytics",
         "06-recurrency",
         "06-relate",
@@ -2450,6 +2578,7 @@
         "06-torchlite",
         "06-tray-ai",
         "06-vertify",
+        "06-vessel",
         "06-well",
         "06-whalesync",
         "06-windsor-ai",
@@ -2467,26 +2596,34 @@
         "07-apollo-mcp-by-blockchainrev",
         "07-apollo-mcp-by-eden-anthony",
         "07-apollo-mcp-by-inferensys",
+        "07-apollo-mcp-by-kingler",
+        "07-apollo-mcp-by-maxmulvey",
         "07-apollo-mcp-by-shariqriazz",
         "07-apollo-mcp-plugin-by-apolloio",
         "07-attio-mcp-by-hmk",
         "07-bd-desk-mcp-by-iaj6",
         "07-bitrix24-mcp-by-john7ross",
+        "07-blitz-api-open-source",
         "07-bni-mcp-by-alexaltovate",
         "07-capsule-crm-mcp-by-monadsag",
         "07-capsule-crm-mcp-by-soil-dev",
+        "07-civicrm-mcp-by-yogiadhik",
+        "07-clay-to-instantly-smartlead-mcp",
         "07-clint-crm-mcp-by-franky-neto",
         "07-close-crm-mcp-by-pipeworx",
         "07-coldforge",
         "07-coldstart",
         "07-conduyt",
+        "07-crm-ai-mcp-by-meok",
         "07-crm-bridge-mcp",
         "07-crm-solid-mcp",
         "07-curtis-linkedin-mcp",
         "07-customer-intelligence-hub",
         "07-dolibarr-mcp-by-sachitha7",
+        "07-ez-work-mcp",
         "07-favcrm",
         "07-flipfactory-crm-mcp",
+        "07-fluent-mcp-servers",
         "07-follow-up-boss-mcp",
         "07-fundz-agent-examples",
         "07-glama",
@@ -2496,12 +2633,16 @@
         "07-gtm-alpha-mcp",
         "07-gtm-copilot-by-archanakrishnan",
         "07-gtmos-mcp-by-kai8karma",
+        "07-guapu",
         "07-hiresignal-mcp",
         "07-hubspot-mcp-by-baryhuang",
+        "07-hubspot-mcp-by-devart",
+        "07-hubspot-mcp-by-djmoore-projects",
         "07-hubspot-mcp-by-mindstone-engineering",
         "07-hubspot-mcp-by-pipeworx",
         "07-hubspot-mcp-by-rfoxes",
         "07-in2-agent-mcp",
+        "07-indraft",
         "07-infosys-ai-crm-by-ffred1962",
         "07-insaight",
         "07-iridium-linkedin-agent",
@@ -2511,18 +2652,23 @@
         "07-leadcraft-mcp",
         "07-leadgen-mcp-by-koolninad",
         "07-leadzaar",
+        "07-linkedin-icp-discovery-mcp",
         "07-linkedin-outreach-mcp-by-hfarazul",
+        "07-linkedin-outreach-mcp-by-meok",
         "07-little-green-light-mcp",
         "07-livespace-crm-mcp",
         "07-lookaberry-gtm-mcp",
         "07-maasy",
         "07-magellan-mcp-by-sorrek",
+        "07-magpipe",
+        "07-max-mcp-by-digital-crew",
         "07-mcp-force-by-rapidocloud",
         "07-mcp-salesforce-by-smn2gnt",
         "07-mcp-so",
         "07-mcpcloud-cli",
         "07-mesh",
         "07-munin",
+        "07-n47vc-mcp-suite",
         "07-nevent-mcp",
         "07-nimbus",
         "07-nuph",
@@ -2536,6 +2682,7 @@
         "07-perfex-crm-mcp",
         "07-pipedrive-mcp-by-comma-compliance",
         "07-pipedrive-mcp-by-teapot-agency",
+        "07-planhat-mcp-by-da-troll",
         "07-plixana",
         "07-ploomes-mcp-by-victorbenazzi",
         "07-prospecting-agent-by-b-kirb",
@@ -2553,6 +2700,7 @@
         "07-salesforce-data-cloud-mcp-by-rishiganesh25",
         "07-salesforce-docs-mcp-by-sanket",
         "07-salesforce-hosted-custom-mcp-by-sanket",
+        "07-salesforce-marketing-cloud-mcp-by-devart",
         "07-salesforce-marketing-cloud-mcp-by-salesforcebob",
         "07-salesforce-marketing-cloud-mcp-by-vinkius-labs",
         "07-salesforce-mcp-auto-auth-by-kugamon",
@@ -2561,6 +2709,7 @@
         "07-salesforce-mcp-by-aiondadotcom",
         "07-salesforce-mcp-by-alfe",
         "07-salesforce-mcp-by-boejucci",
+        "07-salesforce-mcp-by-devart",
         "07-salesforce-mcp-by-imazhar101",
         "07-salesforce-mcp-by-jaworjar95",
         "07-salesforce-mcp-by-kablewy",
@@ -2577,6 +2726,7 @@
         "07-salesforce-mcp-by-tsmztech",
         "07-salesforce-mcp-by-vinkius-labs",
         "07-salesforce-mcp-lib-by-damecek",
+        "07-salesforce-pardot-mcp-by-daniilmai",
         "07-salesforce-remote-mcp-by-tsmztech",
         "07-seldonframe",
         "07-serviceagent",
@@ -2595,6 +2745,7 @@
         "07-yg3",
         "07-youspot",
         "07-zavora-sales-operations-skill",
+        "07-zoho-crm-mcp-by-devart",
         "08-clearmix",
         "08-consensus",
         "08-golpo",
@@ -2624,12 +2775,14 @@
         "10-kubaru",
         "10-reclaim-ai",
         "10-revenuehero",
+        "10-rift",
         "10-trevor-ai",
         "11-accord",
         "11-aircover",
         "11-ambition",
         "11-bigtincan-readiness",
         "11-blitziq",
+        "11-buzzboard-connect",
         "11-cast-app",
         "11-ceros",
         "11-clok",
@@ -2638,6 +2791,7 @@
         "11-corporate-visions",
         "11-criya",
         "11-degreed",
+        "11-demo-gorilla",
         "11-dialworks",
         "11-enable-us",
         "11-enablism",
@@ -2661,6 +2815,7 @@
         "11-paperflite",
         "11-pathfactory",
         "11-peerbound",
+        "11-prelay",
         "11-quantified",
         "11-quotain",
         "11-resonance",
@@ -2672,6 +2827,7 @@
         "11-spinify",
         "11-tday",
         "11-tiled",
+        "12-compgun",
         "12-forecastable",
         "12-lysto",
         "12-palettehq",
@@ -2682,12 +2838,15 @@
         "13-dropbox-sign",
         "13-inventive-ai",
         "13-journey",
+        "13-manatee",
         "13-mercura",
         "13-minoa",
         "13-pdf-butler",
         "13-sameplan",
         "13-veles",
         "13-wolfia",
+        "14-abbot",
+        "14-breadcrumbs",
         "14-candu",
         "14-chameleon",
         "14-clickfunnels",
@@ -2707,6 +2866,7 @@
         "14-liferay",
         "14-maintouch",
         "14-mutiny",
+        "14-nara",
         "14-netomi",
         "14-ngrow-ai",
         "14-olark",
@@ -2727,7 +2887,7 @@
     },
     "docs_url_missing": {
       "rule": "SPEC 3.4: docs_url is blank-legal, but it is the seed for the whole docs intel layer (phase 6b/6c).",
-      "count": 582,
+      "count": 604,
       "entry_ids": [
         "01-apify",
         "01-apollo-io",
@@ -2744,6 +2904,7 @@
         "01-company-url-finder",
         "01-companyenrich",
         "01-contactout",
+        "01-convex",
         "01-coresignal",
         "01-crunchbase",
         "01-crustdata",
@@ -2789,10 +2950,12 @@
         "01-rocketreach",
         "01-salesintel",
         "01-salesql",
+        "01-salessift",
         "01-scrapemagic",
         "01-seamless-ai",
         "01-sigparser",
         "01-snov-io",
+        "01-stacklead",
         "01-tavily",
         "01-the-hog",
         "01-the-swarm",
@@ -2807,6 +2970,7 @@
         "01-zeliq",
         "02-act-on",
         "02-aircall",
+        "02-alyce",
         "02-amplemarket",
         "02-apollo-io-sequences",
         "02-atlog",
@@ -2815,6 +2979,7 @@
         "02-bluebirds",
         "02-brevo",
         "02-cience",
+        "02-coffeeai",
         "02-cohesive",
         "02-connectandsell",
         "02-copyfactory",
@@ -2826,6 +2991,7 @@
         "02-frontspin",
         "02-fuse-ai",
         "02-groove",
+        "02-hatch",
         "02-heyreach",
         "02-hive",
         "02-imagine-ai",
@@ -2855,6 +3021,7 @@
         "02-persana-ai",
         "02-persuadioai",
         "02-phantombuster",
+        "02-phonesys",
         "02-pinnacle",
         "02-plai",
         "02-popsy",
@@ -2891,6 +3058,7 @@
         "03-abstrakt",
         "03-attention",
         "03-avoma",
+        "03-bearworks",
         "03-chorus",
         "03-clari",
         "03-clari-copilot",
@@ -2914,6 +3082,7 @@
         "03-otter-ai",
         "03-people-ai",
         "03-peppr-ai",
+        "03-phonic",
         "03-rafiki",
         "03-read-ai",
         "03-rilla",
@@ -2965,6 +3134,7 @@
         "04-tofu",
         "04-topo",
         "04-trellus-ai",
+        "04-truva",
         "04-unify",
         "05-6sense",
         "05-actively",
@@ -2979,6 +3149,7 @@
         "05-clearbit-reveal",
         "05-common-room",
         "05-crustdata",
+        "05-customeros",
         "05-demandbase",
         "05-demandsphere",
         "05-ebrandvalue",
@@ -3040,6 +3211,7 @@
         "06-hightouch",
         "06-hubspot",
         "06-insycle",
+        "06-interstate-analytics",
         "06-introw",
         "06-kenva",
         "06-kordic-crm",
@@ -3055,6 +3227,7 @@
         "06-openprise",
         "06-partnered",
         "06-partneros",
+        "06-partnerstack",
         "06-pipedrive",
         "06-recurrency",
         "06-retape",
@@ -3068,6 +3241,7 @@
         "06-syncari",
         "06-torchlite",
         "06-vertify",
+        "06-vessel",
         "06-whalesync",
         "06-zapier",
         "06-zoho-crm",
@@ -3085,10 +3259,12 @@
         "07-gohighlevel-mcp-by-nightsquawk",
         "07-gtm-alpha-mcp",
         "07-gtmos-mcp-by-kai8karma",
+        "07-guapu",
         "07-hubspot-mcp-by-rfoxes",
         "07-klavis-ai",
         "07-knit-mcp",
         "07-maasy",
+        "07-max-mcp-by-digital-crew",
         "07-mcp-run-turbomcp",
         "07-mcp-so",
         "07-mcpcloud-cli",
@@ -3170,6 +3346,7 @@
         "10-motion",
         "10-reclaim-ai",
         "10-revenuehero",
+        "10-rift",
         "10-savvycal",
         "10-trevor-ai",
         "11-accord",
@@ -3205,6 +3382,7 @@
         "11-paperflite",
         "11-pathfactory",
         "11-peerbound",
+        "11-prelay",
         "11-quantified",
         "11-quotain",
         "11-resonance",
@@ -3220,6 +3398,7 @@
         "12-anaplan",
         "12-aviso",
         "12-boostup",
+        "12-compgun",
         "12-cube-software",
         "12-ebsta",
         "12-forecastable",
@@ -3248,6 +3427,7 @@
         "13-ironclad",
         "13-journey",
         "13-loopio",
+        "13-manatee",
         "13-mercura",
         "13-offorte",
         "13-pandadoc",
@@ -3260,6 +3440,7 @@
         "13-trumpet",
         "13-veles",
         "13-wolfia",
+        "14-abbot",
         "14-ada",
         "14-candu",
         "14-chatbase",
@@ -3278,6 +3459,7 @@
         "14-landbot",
         "14-laudspeaker",
         "14-mutiny",
+        "14-nara",
         "14-ngrow-ai",
         "14-pocus",
         "14-positional",
@@ -3436,6 +3618,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "84af6549f3b38c3174434bfb134e0bf1d4315fdfc55335954ca9fa258720abb8",
-  "source_sha256": "6df9b74828d29127a6164ff1f15e0ff6e539dea91c15d656b7cdb2008e7d1c4f"
+  "content_sha256": "19d3e347ed45e182848f91131f158f8c44a45daa6b521774b924929cad98b15e",
+  "source_sha256": "0628d65cbb4f508a8c6e9917c6905d784de0e950fbba6e52e8f3b2e27ccebc79"
 }

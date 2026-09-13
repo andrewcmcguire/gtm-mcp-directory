@@ -1,6 +1,6 @@
-# Enablement & Coaching: 54 tools, 2 with an official MCP server
+# Enablement & Coaching: 57 tools, 2 with an official MCP server
 
-> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 54 tools counted, 2 with an official MCP server and 0 free to start.
+> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 57 tools counted, 2 with an official MCP server and 0 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here.
 
-- **entries in this file**: 54
+- **entries in this file**: 57
 
 - **Official MCP**: 2
 - **Community MCP**: 1
 - **MCP unknown**: 3
-- **No MCP found**: 48
+- **No MCP found**: 51
 
 - **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
-- **Gate unknown**: 47
+- **Gate unknown**: 50
 
-Source file: 11-enablement-coaching.md · content sha256 4da123d8d5460f8d... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 e599a8e580b941e1... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -62,6 +62,8 @@ Source file: 11-enablement-coaching.md · content sha256 4da123d8d5460f8d... · 
 
 - [BlitzIQ](../tools/blitziq.md) blitziq.com Note taking workspace for B2B sales teams [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [BuzzBoard Connect](../tools/buzzboard-connect.md) buzzboard.com Sell, launch, and manage multi‑channel programs-ads, social posts, emails, SEO content-for thousands of SMB customers. Double revenue without adding headcount. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Cast.app](../tools/cast-app.md) cast.app Present, Engage, Educate, Answer Ad-hoc Questions, and Influence Every User & Decision-maker at Every Customer Account - Without Intermediaries or Adding Even One Headcount. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Ceros](../tools/ceros.md) ceros.com Create no-code interactive content that earns attention and drives action. Ceros helps marketers and designers build immersive digital experiences that convert. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -77,6 +79,8 @@ Source file: 11-enablement-coaching.md · content sha256 4da123d8d5460f8d... · 
 - [Criya](../tools/criya.md) criya.co AI that builds GTM assets in seconds [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Degreed](../tools/degreed.md) degreed.com It's time to rethink AI-powered learning. Degreed is your upskilling platform partner with end-to-end learning, targeted skill-building, & real-time data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Demo Gorilla](../tools/demo-gorilla.md) demogorilla.com Demo Gorilla is a browser extension that tells your sales team exactly what to say to sell your product. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dialworks](../tools/dialworks.md) dialworks.io Sales and support training platform running mock calls, simulated training scenarios, AI call assessment, and analytics/reporting for rep readiness. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -123,6 +127,8 @@ Source file: 11-enablement-coaching.md · content sha256 4da123d8d5460f8d... · 
 - [PathFactory](../tools/pathfactory.md) pathfactory.com PathFactory is the content intelligence platform that turns content and buyer data into personalized experiences and first-party signals that drive revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Peerbound](../tools/peerbound.md) peerbound.com Centralize all customer proof, uncover advocates and insights, and empower sales to win deals. Trusted by aspirational companies like Canva, Gong and Lattice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Prelay](../tools/prelay.md) prelay.com Team Selling Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

@@ -1,6 +1,6 @@
-# GTM MCP servers with no auth model recorded: 218 tools, counted
+# GTM MCP servers with no auth model recorded: 240 tools, counted
 
-> 218 of the 415 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-09-12.
+> 240 of the 437 GTM tools with an MCP server use an auth model that is not recorded. The verbatim auth field for each one is printed beside it. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers with no auth model recorded
 
-**List · 218 of 884**
+**List · 240 of 934**
 
 ## GTM MCP servers with no auth model recorded
 
@@ -102,8 +102,12 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/Blockcha
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Eden-Anthony/apollo-mcp](https://github.com/Eden-Anthony/apollo-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by Inferensys](../tools/apollo-mcp-by-inferensys.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Inferensys/apollo-io-mcp](https://github.com/Inferensys/apollo-io-mcp) | blank | [Gate unknown](../gates/unknown.md) |
+| [Apollo MCP by kingler](../tools/apollo-mcp-by-kingler.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/kingler/apollo-io-mcp-server](https://github.com/kingler/apollo-io-mcp-server) | blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | blank | [Gate unknown](../gates/unknown.md) |
+| [Apollo MCP by maxmulvey](../tools/apollo-mcp-by-maxmulvey.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/maxmulvey/apollo-mcp](https://github.com/maxmulvey/apollo-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by mayanksingh09](../tools/apollo-mcp-by-mayanksingh09.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mayanksingh09/apollo-io-mcp-serve...](https://github.com/mayanksingh09/apollo-io-mcp-server) | blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by shariqriazz](../tools/apollo-mcp-by-shariqriazz.md)
@@ -118,14 +122,20 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/iaj6/bd-desk](https://github.com/iaj6/bd-desk) | blank | [Gate unknown](../gates/unknown.md) |
 | [Bitrix24 MCP by john7ross](../tools/bitrix24-mcp-by-john7ross.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/john7ross/BitrixMCP](https://github.com/john7ross/BitrixMCP) | blank | [Gate unknown](../gates/unknown.md) |
+| [Blitz API Open Source](../tools/blitz-api-open-source.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/malharlakdawala/blitzapi-opensour...](https://github.com/malharlakdawala/blitzapi-opensource) | blank | [Gate unknown](../gates/unknown.md) |
 | [BNI MCP by alexaltovate](../tools/bni-mcp-by-alexaltovate.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/alexaltovate/bni-mcp](https://github.com/alexaltovate/bni-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Capsule CRM MCP by MonadsAG](../tools/capsule-crm-mcp-by-monadsag.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | blank | [Gate unknown](../gates/unknown.md) |
 | [Capsule CRM MCP by soil-dev](../tools/capsule-crm-mcp-by-soil-dev.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | blank | [Gate unknown](../gates/unknown.md) |
+| [CiviCRM MCP by YogiAdhik](../tools/civicrm-mcp-by-yogiadhik.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/YogiAdhik/civicrm-mcp](https://github.com/YogiAdhik/civicrm-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Clay MCP by shanefirek](../tools/clay-mcp-by-shanefirek.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/shanefirek/clay-mcp-public](https://github.com/shanefirek/clay-mcp-public) | blank | [Gate unknown](../gates/unknown.md) |
+| [Clay to Instantly/Smartlead MCP](../tools/clay-to-instantly-smartlead-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-clay-to-instantl...](https://github.com/mambalabsdev/mcp-clay-to-instantly-smartlead-push) | blank | [Gate unknown](../gates/unknown.md) |
 | [Clint CRM MCP by Franky-Neto](../tools/clint-crm-mcp-by-franky-neto.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Franky-Neto/mcp-clint-crm](https://github.com/Franky-Neto/mcp-clint-crm) | blank | [Gate unknown](../gates/unknown.md) |
 | [Close CRM MCP by pipeworx](../tools/close-crm-mcp-by-pipeworx.md)
@@ -140,6 +150,8 @@ coldstart.so | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/sea
 commercient.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20hubspot](https://www.npmjs.com/search?q=mcp%20hubspot) | blank | [Gate unknown](../gates/unknown.md) |
 | [Conduyt](../tools/conduyt.md)
 conduyt.app | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | blank | [Gate unknown](../gates/unknown.md) |
+| [CRM AI MCP by MEOK](../tools/crm-ai-mcp-by-meok.md)
+meok.ai | [Community MCP](../mcp/community.md) | [https://github.com/CSOAI-ORG/crm-ai-mcp](https://github.com/CSOAI-ORG/crm-ai-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [CRM Bridge MCP](../tools/crm-bridge-mcp.md)
 npmjs.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20hubspot](https://www.npmjs.com/search?q=mcp-server%20hubspot) | blank | [Gate unknown](../gates/unknown.md) |
 | [CRM Solid MCP](../tools/crm-solid-mcp.md)
@@ -154,10 +166,14 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/sachitha
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/gcarreno-dev/elizabeth-ai-agent](https://github.com/gcarreno-dev/elizabeth-ai-agent) | blank | [Gate unknown](../gates/unknown.md) |
 | [Emelia](../tools/emelia.md)
 emelia.io | [Community MCP](../mcp/community.md) | [https://github.com/emelia-io/claude-outreach](https://github.com/emelia-io/claude-outreach) | blank | [Gate unknown](../gates/unknown.md) |
+| [EZ@Work MCP](../tools/ez-work-mcp.md)
+ezatwork.com | [Community MCP](../mcp/community.md) | [https://github.com/eranfinish/ezatwork-mcp](https://github.com/eranfinish/ezatwork-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [FavCRM](../tools/favcrm.md)
 favcrm.io | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | blank | [Gate unknown](../gates/unknown.md) |
 | [Flipfactory CRM MCP](../tools/flipfactory-crm-mcp.md)
 npmjs.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | blank | [Gate unknown](../gates/unknown.md) |
+| [Fluent MCP Servers](../tools/fluent-mcp-servers.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/Dominotypist3077/fluent-mcp-serve...](https://github.com/Dominotypist3077/fluent-mcp-servers) | blank | [Gate unknown](../gates/unknown.md) |
 | [Follow Up Boss MCP](../tools/follow-up-boss-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/theperrygroup/Follow-Up-Boss-MCP](https://github.com/theperrygroup/Follow-Up-Boss-MCP) | blank | [Gate unknown](../gates/unknown.md) |
 | [FounderStack CRM](../tools/founderstack-crm.md)
@@ -176,12 +192,18 @@ gtmalpha.netlify.app | [Community MCP](../mcp/community.md) | [https://www.npmjs
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/archanakrishnan094-max/AI-GTM-Cop...](https://github.com/archanakrishnan094-max/AI-GTM-Copilot-End-to-End-GTM-Intelligence-CRM-Automation) | blank | [Gate unknown](../gates/unknown.md) |
 | [GTMos MCP by Kai8karma](../tools/gtmos-mcp-by-kai8karma.md)
 kai8karma.github.io | [Community MCP](../mcp/community.md) | [https://github.com/Kai8karma/gtmos-mcp](https://github.com/Kai8karma/gtmos-mcp) | blank | [Gate unknown](../gates/unknown.md) |
+| [Guapu](../tools/guapu.md)
+guapu.io | [Community MCP](../mcp/community.md) | [https://guapu.io/conecta-tu-ia](https://guapu.io/conecta-tu-ia) | blank | [Gate unknown](../gates/unknown.md) |
 | [Helm AI](../tools/helm-ai.md)
 gethelm.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | blank | [Gate unknown](../gates/unknown.md) |
 | [HireSignal MCP](../tools/hiresignal-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/iusmuchandra/hiresignal-mcp](https://github.com/iusmuchandra/hiresignal-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/baryhuang/mcp-hubspot](https://github.com/baryhuang/mcp-hubspot) | blank | [Gate unknown](../gates/unknown.md) |
+| [HubSpot MCP by Devart](../tools/hubspot-mcp-by-devart.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/devart-ai-connectivity/devart-mcp...](https://github.com/devart-ai-connectivity/devart-mcp-server-hubspot) | blank | [Gate unknown](../gates/unknown.md) |
+| [HubSpot MCP by djmoore-projects](../tools/hubspot-mcp-by-djmoore-projects.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/djmoore-projects/hubspot-mcp-serv...](https://github.com/djmoore-projects/hubspot-mcp-server) | blank | [Gate unknown](../gates/unknown.md) |
 | [HubSpot MCP by mindstone-engineering](../tools/hubspot-mcp-by-mindstone-engineering.md)
 github.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20hubspot](https://www.npmjs.com/search?q=mcp-server%20hubspot) | blank | [Gate unknown](../gates/unknown.md) |
 | [HubSpot MCP by pipeworx](../tools/hubspot-mcp-by-pipeworx.md)
@@ -190,6 +212,8 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/pipeworx
 npmjs.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20hubspot](https://www.npmjs.com/search?q=mcp-server%20hubspot) | blank | [Gate unknown](../gates/unknown.md) |
 | [IN2 Agent MCP](../tools/in2-agent-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | blank | [Gate unknown](../gates/unknown.md) |
+| [Indraft](../tools/indraft.md)
+indraft.io | [Community MCP](../mcp/community.md) | [https://indraft.io](https://indraft.io) | blank | [Gate unknown](../gates/unknown.md) |
 | [Infona](../tools/infona.md)
 infona.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20enrichment](https://www.npmjs.com/search?q=mcp%20enrichment) | blank | [Gate unknown](../gates/unknown.md) |
 | [Infosys AI CRM by ffred1962](../tools/infosys-ai-crm-by-ffred1962.md)
@@ -224,12 +248,16 @@ leadhoundapi.com | [Community MCP](../mcp/community.md) | [https://leadhoundapi.
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Techthos/leadzaar](https://github.com/Techthos/leadzaar) | blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedGrow](../tools/linkedgrow.md)
 linkedgrow.ai | [Community MCP](../mcp/community.md) | [https://github.com/DigiHold/LinkedGrow](https://github.com/DigiHold/LinkedGrow) | blank | [Gate unknown](../gates/unknown.md) |
+| [LinkedIn ICP Discovery MCP](../tools/linkedin-icp-discovery-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/jpeslar1/linkedin-mcp-icp-discove...](https://github.com/jpeslar1/linkedin-mcp-icp-discovery) | blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/jpeslar1/linkedin-mcp-job-change-...](https://github.com/jpeslar1/linkedin-mcp-job-change-trigger) | blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedIn MCP by gtm-api](../tools/linkedin-mcp-by-gtm-api.md)
 gtm-api.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedIn Outreach MCP by hfarazul](../tools/linkedin-outreach-mcp-by-hfarazul.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/hfarazul/linkedin-outreach-mcp](https://github.com/hfarazul/linkedin-outreach-mcp) | blank | [Gate unknown](../gates/unknown.md) |
+| [LinkedIn Outreach MCP by MEOK](../tools/linkedin-outreach-mcp-by-meok.md)
+meok.ai | [Community MCP](../mcp/community.md) | [https://github.com/CSOAI-ORG/linkedin-outreach-mcp](https://github.com/CSOAI-ORG/linkedin-outreach-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedNav](../tools/linkednav.md)
 linkednav.com | [Community MCP](../mcp/community.md) | [https://github.com/linglistack/linkednav-mcp](https://github.com/linglistack/linkednav-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Little Green Light MCP](../tools/little-green-light-mcp.md)
@@ -242,6 +270,8 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/lucasmar
 maasy.co | [Community MCP](../mcp/community.md) | [https://github.com/Jbelieve/mcp-server](https://github.com/Jbelieve/mcp-server) | blank | [Gate unknown](../gates/unknown.md) |
 | [Magellan MCP by sorrek](../tools/magellan-mcp-by-sorrek.md)
 magellandata.io | [Community MCP](../mcp/community.md) | [https://github.com/sorrek/mcp](https://github.com/sorrek/mcp) | blank | [Gate unknown](../gates/unknown.md) |
+| [Magpipe](../tools/magpipe.md)
+magpipe.ai | [Community MCP](../mcp/community.md) | [https://github.com/elagerway/magpipe](https://github.com/elagerway/magpipe) | blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Domain Deliverability MCP](../tools/mamba-domain-deliverability-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-domain-deliverab...](https://github.com/mambalabsdev/mcp-domain-deliverability-checker) | blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Firmographic Enricher MCP](../tools/mamba-firmographic-enricher-mcp.md)
@@ -254,6 +284,8 @@ mambabuilt.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/s
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Tech Stack Signal MCP](../tools/mamba-tech-stack-signal-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-gtm-tech-stack-s...](https://github.com/mambalabsdev/mcp-gtm-tech-stack-signal-scraper) | blank | [Gate unknown](../gates/unknown.md) |
+| [Max MCP by Digital Crew](../tools/max-mcp-by-digital-crew.md)
+max-mcp-server.vercel.app | [Community MCP](../mcp/community.md) | [https://github.com/Digital-Crew-Technologies/max-mcp...](https://github.com/Digital-Crew-Technologies/max-mcp-server) | blank | [Gate unknown](../gates/unknown.md) |
 | [MCP Force by RapidoCloud](../tools/mcp-force-by-rapidocloud.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/RapidoCloud/mcp-force](https://github.com/RapidoCloud/mcp-force) | blank | [Gate unknown](../gates/unknown.md) |
 | [MCP-Salesforce by smn2gnt](../tools/mcp-salesforce-by-smn2gnt.md)
@@ -268,6 +300,8 @@ misarreach.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/s
 morphed.io | [Community MCP](../mcp/community.md) | [https://morphed.io/mcp](https://morphed.io/mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Munin](../tools/munin.md)
 getmunin.com | [Community MCP](../mcp/community.md) | [https://github.com/getmunin/munin](https://github.com/getmunin/munin) | blank | [Gate unknown](../gates/unknown.md) |
+| [n47vc MCP Suite](../tools/n47vc-mcp-suite.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/n47vc/mcp](https://github.com/n47vc/mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Nevent MCP](../tools/nevent-mcp.md)
 nevent.ai | [Community MCP](../mcp/community.md) | [https://github.com/nevent-dev/mcp-nevent](https://github.com/nevent-dev/mcp-nevent) | blank | [Gate unknown](../gates/unknown.md) |
 | [Nimbus](../tools/nimbus.md)
@@ -300,6 +334,8 @@ persuadioai.com | [Community MCP](../mcp/community.md) | [https://github.com/man
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/comma-compliance/pipedrive-mcp](https://github.com/comma-compliance/pipedrive-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Pipedrive MCP by Teapot-Agency](../tools/pipedrive-mcp-by-teapot-agency.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Teapot-Agency/mcp_pipedrive](https://github.com/Teapot-Agency/mcp_pipedrive) | blank | [Gate unknown](../gates/unknown.md) |
+| [Planhat MCP by da-troll](../tools/planhat-mcp-by-da-troll.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/da-troll/Planhat-MCP](https://github.com/da-troll/Planhat-MCP) | blank | [Gate unknown](../gates/unknown.md) |
 | [Plixana](../tools/plixana.md)
 plixana.com | [Community MCP](../mcp/community.md) | [https://plixana.com/conecta-tu-ia](https://plixana.com/conecta-tu-ia) | blank | [Gate unknown](../gates/unknown.md) |
 | [Ploomes MCP by victorbenazzi](../tools/ploomes-mcp-by-victorbenazzi.md)
@@ -342,6 +378,8 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/rishigan
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/SalesforceDiariesBySanket/salesfo...](https://github.com/SalesforceDiariesBySanket/salesforce-docs-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Hosted Custom MCP by Sanket](../tools/salesforce-hosted-custom-mcp-by-sanket.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/SalesforceDiariesBySanket/Salesfo...](https://github.com/SalesforceDiariesBySanket/Salesforce-Hosted-Custom-Mcp-Server) | blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce Marketing Cloud MCP by Devart](../tools/salesforce-marketing-cloud-mcp-by-devart.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/devart-ai-connectivity/devart-mcp...](https://github.com/devart-ai-connectivity/devart-mcp-server-salesforce-marketing-cloud) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Marketing Cloud MCP by salesforcebob](../tools/salesforce-marketing-cloud-mcp-by-salesforcebob.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/salesforcebob/Salesforce-Marketin...](https://github.com/salesforcebob/Salesforce-Marketing-Cloud-Engagement-MCP) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Marketing Cloud MCP by vinkius-labs](../tools/salesforce-marketing-cloud-mcp-by-vinkius-labs.md)
@@ -358,6 +396,8 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/AiondaDo
 alfe.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20salesforce](https://www.npmjs.com/search?q=mcp%20salesforce) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by boejucci](../tools/salesforce-mcp-by-boejucci.md)
 github.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by Devart](../tools/salesforce-mcp-by-devart.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/devart-ai-connectivity/devart-mcp...](https://github.com/devart-ai-connectivity/devart-mcp-server-salesforce) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by imazhar101](../tools/salesforce-mcp-by-imazhar101.md)
 github.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by jaworjar95](../tools/salesforce-mcp-by-jaworjar95.md)
@@ -390,6 +430,8 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/tsmztech
 vinkius.com | [Community MCP](../mcp/community.md) | [https://github.com/vinkius-labs/salesforce-mcp](https://github.com/vinkius-labs/salesforce-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md)
 context7.com | [Community MCP](../mcp/community.md) | [https://github.com/Damecek/salesforce-mcp-lib](https://github.com/Damecek/salesforce-mcp-lib) | blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce Pardot MCP by DaniilMai](../tools/salesforce-pardot-mcp-by-daniilmai.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/DaniilMai/salesforce-pardot-mcp](https://github.com/DaniilMai/salesforce-pardot-mcp) | blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Remote MCP by tsmztech](../tools/salesforce-remote-mcp-by-tsmztech.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/tsmztech/salesforce-remote-mcp-cl...](https://github.com/tsmztech/salesforce-remote-mcp-cloudflare) | blank | [Gate unknown](../gates/unknown.md) |
 | [ScraperCity](../tools/scrapercity.md)
@@ -452,7 +494,9 @@ youspot.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/zavora-ai/skill-sales-operations](https://github.com/zavora-ai/skill-sales-operations) | blank | [Gate unknown](../gates/unknown.md) |
 | [Zetadeck](../tools/zetadeck.md)
 zetadeck.com | [Community MCP](../mcp/community.md) | [https://zetadeck.com](https://zetadeck.com) | blank | [Gate unknown](../gates/unknown.md) |
+| [Zoho CRM MCP by Devart](../tools/zoho-crm-mcp-by-devart.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/devart-ai-connectivity/devart-mcp...](https://github.com/devart-ai-connectivity/devart-mcp-server-zoho-crm) | blank | [Gate unknown](../gates/unknown.md) |
 | [ZOOQ](../tools/zooq.md)
 zooq.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | blank | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 884 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

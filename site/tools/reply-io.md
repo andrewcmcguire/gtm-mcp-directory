@@ -210,7 +210,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **reply_update_reply_handler** Patch a reply handler evidence: in the vendor docs · calling it reads
 
-119 of the 415 entries that record an official or community MCP server carry a harvested tool list. The other 296 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 437 entries that record an official or community MCP server carry a harvested tool list. The other 318 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -261,7 +261,7 @@ paid
 
 No documentation URL recorded.
 
-582 of 884 entries are in the same position. Blank is legal and it is published as blank.
+604 of 934 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -305,7 +305,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 884 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 934 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -325,7 +325,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks.
 
-16 of the 884 entries are cross listed like this. They are why the entry count is 884 and the unique product count is 868. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 934 entries are cross listed like this. They are why the entry count is 934 and the unique product count is 918. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

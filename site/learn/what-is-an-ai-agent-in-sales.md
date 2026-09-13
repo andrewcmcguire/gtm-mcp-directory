@@ -24,7 +24,7 @@ In sales the loop usually looks like this: read a trigger, research the account,
 
 ## Which doors are open
 
-Across 884 tools, 415 are callable through MCP and 168 are reachable by one person without a contract. By job, the loop above currently looks like this:
+Across 934 tools, 437 are callable through MCP and 168 are reachable by one person without a contract. By job, the loop above currently looks like this:
 
 | Step | Job | Tools tagged | Official MCP | Solo reachable |
 |---|---|---|---|---|

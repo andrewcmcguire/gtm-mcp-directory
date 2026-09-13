@@ -1,6 +1,6 @@
-# RevOps Infra: 85 tools, 29 with an official MCP server
+# RevOps Infra: 88 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 85 tools counted, 29 with an official MCP server and 14 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 88 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 85
+- **entries in this file**: 88
 
 - **Official MCP**: 29
 - **Community MCP**: 11
 - **MCP unknown**: 1
-- **No MCP found**: 44
+- **No MCP found**: 47
 
 - **ship a CLI (official) as of 2026-09-12**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
-- **Gate unknown**: 54
+- **Gate unknown**: 57
 
-Source file: 06-revops-infra.md · content sha256 129e8d9169a2307c... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 01eadf28129c7d29... · counts reconciled against tools_recount.py at build time.
 
 - [The 40 with an MCP server](../lists/mcp-revops-infra.md)
 
@@ -165,6 +165,8 @@ Source file: 06-revops-infra.md · content sha256 129e8d9169a2307c... · counts 
 
 - [Insycle](../tools/insycle.md) insycle.com Define how CRM data should work, enforce it across your CRMs, and monitor coverage and drift so people, automation, and AI act on reliable context. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Interstate Analytics](../tools/interstate-analytics.md) interstateanalytics.com Multi-Touch Marketing Analytics [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Introw](../tools/introw.md) introw.io Welcome to #1 agentic partnership management platform. Connect your CRM, launch your partner portal & start driving revenue on autopilot. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Laserfocus](../tools/laserfocus.md) laserfocus.io Laserfocus makes your Salesforce process as simple as possible, but not simpler. Made for data-driven GTM teams who don't want to sacrifice efficiency. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -176,6 +178,8 @@ Source file: 06-revops-infra.md · content sha256 129e8d9169a2307c... · counts 
 - [Partnered](../tools/partnered.md) partnered.com Discover how Crossbeam's Ecosystem Revenue Platform empowers sales, marketing, and partnerships to unlock new growth opportunities, close deals faster, and drive revenue with actionable ecosystem insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PartnerOS](../tools/partneros.md) partneros.ai Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [PartnerStack](../tools/partnerstack.md) partnerstack.com Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners - from affiliates to referral and reseller partners. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Power My Analytics](../tools/power-my-analytics.md) powermyanalytics.com Use data connectors to retrieve key metrics and integrate them with your favorite reporting, dashboard, and spreadsheet tools. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -202,6 +206,8 @@ Source file: 06-revops-infra.md · content sha256 129e8d9169a2307c... · counts 
 - [Tray.ai](../tools/tray-ai.md) tray.ai Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps - orchestration for data… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Vertify](../tools/vertify.md) vertify.com Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Vessel](../tools/vessel.md) vessel.dev The developer-first, native integration platform for GTM tools. Integrate quickly and deeply with our solutions fitted for your complex needs. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Whalesync](../tools/whalesync.md) whalesync.com Sync Airtable, Notion, HubSpot, Webflow, and more with real-time two-way data sync. Edit in one app and watch changes appear everywhere, no code needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

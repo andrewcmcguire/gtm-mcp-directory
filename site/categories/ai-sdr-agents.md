@@ -1,6 +1,6 @@
-# AI SDRs: 52 tools, 8 with an official MCP server
+# AI SDRs: 55 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 52 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 55 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 52
+- **entries in this file**: 55
 
 - **Official MCP**: 8
 - **Community MCP**: 4
-- **No MCP found**: 40
+- **No MCP found**: 43
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 32
+- **Gate unknown**: 35
 
-Source file: 04-ai-sdr-agents.md · content sha256 219ee7b454bb1ca0... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 05afb707461f6799... · counts reconciled against tools_recount.py at build time.
 
 - [The 12 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -98,6 +98,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 219ee7b454bb1ca0... · counts
 
 - [Dench](../tools/dench.md) dench.com Workspace for AI agents to find, reach, and close customers, replacing fragmented CRM/GTM tool stacks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Echo](../tools/echo.md) echothat.ai Founder-led sales co-pilot for B2B startups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [FINNY AI](../tools/finny-ai.md) finny.com From hello to close, FINNY is the AI growth officer for financial advisors - guiding every step of the way, from building your brand to closing your next client. We've got your growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [FirstQuadrant](../tools/firstquadrant.md) firstquadrant.ai FirstQuadrant helps founders and revenue teams move faster, stay organized, and close more deals, by streamlining the behind-the-scenes work so nothing ever slips through the cracks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -109,6 +111,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 219ee7b454bb1ca0... · counts
 - [Gojiberry AI](../tools/gojiberry-ai.md) gojiberry.ai Gojiberry AI detects warm leads from 15+ buying and social signals, filters them by your ICP, and runs personalized outreach to book qualified demos automatically. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [item](../tools/item.md) item.app item is the AI-native system that understands your business, knows your customers, and does the work - Designed to replace your CRM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Kanava AI](../tools/kanava-ai.md) kanava.ai Lovable Generated Project [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Luru](../tools/luru.md) luru.app An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -139,5 +143,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 219ee7b454bb1ca0... · counts
 - [Topo](../tools/topo.md) topo.io Topo is the AI sales platform that runs outbound for you: find in-market buyers, personalize outreach at scale, and book more meetings. See how it works. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Truva](../tools/truva.md) truva.ai Sell more. Grind less with AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Verbiflow](../tools/verbiflow.md) verbiflow.com Meet Mochi, your AI coworker for GTM engineering and operations. Prepare for calls, follow up on deals, and build pipeline with your team in Slack. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

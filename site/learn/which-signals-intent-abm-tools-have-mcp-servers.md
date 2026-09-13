@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 25 of 63, counted
+# Signal and intent tools with MCP servers: 25 of 64, counted
 
-> 25 of the 63 signals & intent tools in this directory have an MCP server: 20 official and 5 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 25 of the 64 signals & intent tools in this directory have an MCP server: 20 official and 5 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-25 of the 63 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 5 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+25 of the 64 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 5 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -77,7 +77,7 @@ AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with cal
 
 ## The rest of the category
 
-38 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+39 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
@@ -104,7 +104,7 @@ Avina is an AI-powered go-to-market platform that helps B2B sales teams find, pr
 - [Channel99](../tools/channel99.md) No MCP found · Gate unknown
 B2B marketing attribution software that uses AI to recommend ways to improve campaign ROI and increase pipeline
 
-26 more are on the linked page. The cut is the display limit, not a ranking.
+27 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -113,9 +113,9 @@ B2B marketing attribution software that uses AI to recommend ways to improve cam
 | [Free to start](../gates/free.md) | 6 |
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 34 |
+| [Gate unknown](../gates/unknown.md) | 35 |
 
-Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 363e5787f15443a2...
+Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 85e12521e0c6e590...
 
 ## Sources
 

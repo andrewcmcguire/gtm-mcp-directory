@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 34 of 116, counted
+# Sales engagement and outbound tools with MCP servers: 34 of 121, counted
 
-> 34 of the 116 engagement & outbound tools in this directory have an MCP server: 23 official and 11 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 34 of the 121 engagement & outbound tools in this directory have an MCP server: 23 official and 11 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-34 of the 116 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 11 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+34 of the 121 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 11 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -95,7 +95,7 @@ Run your outreach on autopilot with AI agents: cold email, email warmup, LinkedI
 
 ## The rest of the category
 
-82 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+87 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Expandi](../tools/expandi.md) MCP unknown · Paid, self-serve
 Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account.
@@ -117,12 +117,10 @@ Act-On offers agile, AI-driven marketing automation to create, measure, and refi
 Go beyond marketing automation with ActiveCampaign's autonomous marketing platform. Your team of AI agents handles email, SMS, WhatsApp and more for...
 - [AgentMail](../tools/agentmail.md) No MCP found · Gate unknown
 AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic...
-- [Atlog](../tools/atlog.md) No MCP found · Gate unknown
-Atlog is TCPA-compliant voice AI for collections and customer service. Automate outbound calls, recover payments, and stay legally protected. Backed...
-- [Banabo](../tools/banabo.md) No MCP found · Gate unknown
-Run content programs. See what's actually working.
+- [Alyce](../tools/alyce.md) No MCP found · Gate unknown
+Could not fully document product behavior from a live vendor homepage this pass (fetch status=None error=URLError:
 
-70 more are on the linked page. The cut is the display limit, not a ranking.
+75 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -132,9 +130,9 @@ Run content programs. See what's actually working.
 | [Paid, self-serve](../gates/paid.md) | 23 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
-| [Gate unknown](../gates/unknown.md) | 84 |
+| [Gate unknown](../gates/unknown.md) | 89 |
 
-Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 5a5684ee7abc72a6...
+Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 7743706ee66f1fdf...
 
 ## Sources
 

@@ -1,6 +1,6 @@
-# Engagement & Outbound: 116 tools, 23 with an official MCP server
+# Engagement & Outbound: 121 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 116 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 121 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,12 +16,12 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 116
+- **entries in this file**: 121
 
 - **Official MCP**: 23
 - **Community MCP**: 11
 - **MCP unknown**: 2
-- **No MCP found**: 80
+- **No MCP found**: 85
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
@@ -29,9 +29,9 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 84
+- **Gate unknown**: 89
 
-Source file: 02-engagement-outbound.md · content sha256 5a5684ee7abc72a6... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · counts reconciled against tools_recount.py at build time.
 
 - [The 34 with an MCP server](../lists/mcp-engagement-outbound.md)
 
@@ -128,6 +128,8 @@ Source file: 02-engagement-outbound.md · content sha256 5a5684ee7abc72a6... · 
 
 - [AgentMail](../tools/agentmail.md) agentmail.to AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Alyce](../tools/alyce.md) alyce.com Could not fully document product behavior from a live vendor homepage this pass (fetch status=None error=URLError: ). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Atlog](../tools/atlog.md) atlog.ai Atlog is TCPA-compliant voice AI for collections and customer service. Automate outbound calls, recover payments, and stay legally protected. Backed by Y Combinator. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Banabo](../tools/banabo.md) banabo.io Run content programs. See what's actually working. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -140,7 +142,11 @@ Source file: 02-engagement-outbound.md · content sha256 5a5684ee7abc72a6... · 
 
 - [Brevo](../tools/brevo.md) brevo.com Brevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [CallHippo](../tools/callhippo.md) callhippo.com Automate customer engagement with AI. Scale conversations, personalize messaging, and activate global communication in minutes [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [CIENCE](../tools/cience.md) cience.com CIENCE builds qualified sales meetings through managed SDR teams, audience data, outbound campaigns, inbound qualification, and AI-supported GTM execution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [CoffeeAI](../tools/coffeeai.md) get-coffee.ai Instant, hyper-personalized, AI-powered outreach messages [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Cohesive](../tools/cohesive.md) getcohesiveai.com Cohesive automates prospecting, outreach, follow-up, and lead management for companies selling to local businesses, property owners, and commercial facilities. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -159,6 +165,8 @@ Source file: 02-engagement-outbound.md · content sha256 5a5684ee7abc72a6... · 
 - [FrontSpin](../tools/frontspin.md) frontspin.com FrontSpin is a cloud-based sales communication tool that helps you reach up to 3x more prospects and close more deals. Learn more now. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Fuse AI](../tools/fuse-ai.md) fuseai.com Fuse AI is sales superintelligence for modern revenue teams. Find the right prospects, automate outbound, uncover buyer signals, and close more deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Hatch](../tools/hatch.md) usehatch.ai The Hatch AI communications platform answers every call, text, and email, 24/7, with Voice AI powered by OpenAI's GPT-Live-1. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Hive](../tools/hive.md) hive.co Elevate your event marketing with Hive - the custom-built platform for live events. Automate campaigns, measure success, and sell more tickets effortlessly. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -205,6 +213,8 @@ Source file: 02-engagement-outbound.md · content sha256 5a5684ee7abc72a6... · 
 - [Persana AI](../tools/persana-ai.md) persana.ai Find, enrich, and personalize outbound at scale - all in seconds, and book more meetings. Find and target your ideal customer persona at scale. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PhoneBurner](../tools/phoneburner.md) phoneburner.com Dial leads up to 4X faster. Increase answer rates and multiply quality conversations with our sales dialer. Boost sales rep productivity and maximize revenue! Try PhoneBurner today! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [PhoneSys](../tools/phonesys.md) pingm.net The Phone System for Sales Teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Pinnacle](../tools/pinnacle.md) pinnacle.sh One API for RCS, iMessage, MMS, and SMS. Build, test, and scale every channel - send your first message in minutes, not weeks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

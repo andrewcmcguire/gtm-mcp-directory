@@ -16,7 +16,7 @@
 
 **The short answer**
 
-A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 884 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
+A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 934 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
 
 Most stack diagrams are drawn by category because that is how software is sold. An agent does not experience it that way. It experiences a chain of doors, and the chain is only as good as its locked link.
 
@@ -24,27 +24,27 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 
 | Layer | Tools | Official MCP | Community | Reachable |
 |---|---|---|---|---|
-| [MCP Layer](../categories/mcp-infrastructure.md) | 156 | 14 | 137 | 97% |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 178 | 14 | 159 | 97% |
 | [Community & Dark Social](../categories/community-dark-social.md) | 21 | 8 | 3 | 52% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 137 | 42 | 28 | 51% |
-| [Conversation Intel](../categories/conversation-intel.md) | 43 | 19 | 2 | 49% |
-| [RevOps Infra](../categories/revops-infra.md) | 85 | 29 | 11 | 47% |
-| [Scheduling & Routing](../categories/scheduling-routing.md) | 16 | 5 | 2 | 44% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 141 | 42 | 28 | 50% |
+| [Conversation Intel](../categories/conversation-intel.md) | 46 | 19 | 2 | 46% |
+| [RevOps Infra](../categories/revops-infra.md) | 88 | 29 | 11 | 45% |
 | [Video Prospecting](../categories/video-prospecting.md) | 23 | 4 | 6 | 43% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 63 | 20 | 5 | 40% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 26 | 8 | 2 | 38% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 116 | 23 | 11 | 29% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 47 | 11 | 2 | 28% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 52 | 8 | 4 | 23% |
+| [Scheduling & Routing](../categories/scheduling-routing.md) | 17 | 5 | 2 | 41% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 64 | 20 | 5 | 39% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 27 | 8 | 2 | 37% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 121 | 23 | 11 | 28% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 50 | 11 | 2 | 26% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 55 | 8 | 4 | 22% |
 | [Email Deliverability](../categories/email-deliverability.md) | 23 | 4 | 1 | 22% |
-| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 22 | 3 | 0 | 14% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 54 | 2 | 1 | 6% |
+| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 23 | 3 | 0 | 13% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 57 | 2 | 1 | 5% |
 
-Counted 2026-09-12. Totals sum to 884 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-12. Totals sum to 934 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
-The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 52.
+The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 55.
 
 If you are assembling a stack an agent can drive, build it from the top of that table down. The bottom is where you will still be writing glue, or clicking.
 

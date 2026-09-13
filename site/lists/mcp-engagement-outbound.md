@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 34 of 116, counted
+# Engagement & Outbound tools with MCP servers: 34 of 121, counted
 
-> 34 of the 116 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 11 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 34 of the 121 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 11 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 34 of 884**
+**List · 34 of 934**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 34 of 116 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 11 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 34 of 121 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 11 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -121,7 +121,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 warmysender.com | [Community MCP](../mcp/community.md) | [https://warmysender.com](https://warmysender.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 82 in this category
+### The other 87 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -147,6 +147,8 @@ act-on.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkn
 activecampaign.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [AgentMail](../tools/agentmail.md)
 agentmail.to | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Alyce](../tools/alyce.md)
+alyce.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Atlog](../tools/atlog.md)
 atlog.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Banabo](../tools/banabo.md)
@@ -159,8 +161,12 @@ withblaze.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 bluebirds.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Brevo](../tools/brevo.md)
 brevo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [CallHippo](../tools/callhippo.md)
+callhippo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CIENCE](../tools/cience.md)
 cience.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [CoffeeAI](../tools/coffeeai.md)
+get-coffee.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Cohesive](../tools/cohesive.md)
 getcohesiveai.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [ConnectAndSell](../tools/connectandsell.md)
@@ -179,6 +185,8 @@ emailchaser.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates
 frontspin.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Fuse AI](../tools/fuse-ai.md)
 fuseai.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Hatch](../tools/hatch.md)
+usehatch.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Hive](../tools/hive.md)
 hive.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Imagine AI](../tools/imagine-ai.md)
@@ -225,6 +233,8 @@ pavoot.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkn
 persana.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [PhoneBurner](../tools/phoneburner.md)
 phoneburner.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [PhoneSys](../tools/phonesys.md)
+pingm.net | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Pinnacle](../tools/pinnacle.md)
 pinnacle.sh | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Plai](../tools/plai.md)
@@ -303,4 +313,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 884 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# Data & Enrichment: 137 tools, 42 with an official MCP server
+# Data & Enrichment: 141 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 137 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 141 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 137
+- **entries in this file**: 141
 
 - **Official MCP**: 42
 - **Community MCP**: 28
-- **No MCP found**: 67
+- **No MCP found**: 71
 
 - **ship a CLI (official) as of 2026-09-12**: 8
 
@@ -28,9 +28,9 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 88
+- **Gate unknown**: 92
 
-Source file: 01-data-enrichment.md · content sha256 8f9c0dbe611f39ac... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 742893c36b306fc8... · counts reconciled against tools_recount.py at build time.
 
 - [The 70 with an MCP server](../lists/mcp-data-enrichment.md)
 
@@ -219,6 +219,8 @@ Source file: 01-data-enrichment.md · content sha256 8f9c0dbe611f39ac... · coun
 
 - [ContactOut](../tools/contactout.md) contactout.com Most accurate email finder for personal and work email outreach. Email lookup, campaign tool, and AI writer. Get 10 credits free - no credit card required. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Convex](../tools/convex.md) convex.com The only sales intelligence platform built for commercial services teams to reach decision-makers and win more deals across 5.9 M+ properties. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Datanyze](../tools/datanyze.md) datanyze.com Find and connect with cold sales prospects within minutes using affordable, accurate contact information from Datanyze. We're revolutionizing B2B data! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -259,6 +261,8 @@ Source file: 01-data-enrichment.md · content sha256 8f9c0dbe611f39ac... · coun
 
 - [Magellan Data](../tools/magellan-data.md) magellandata.io Parent companies, PE ownership, corporate families, and portfolio siblings - delivered as a hosted MCP server your AI agent calls mid-task. No login, no CSV, no tabs. Prefer a file? Spotlight, our web app,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Mattermark](../tools/mattermark.md) mattermark.com Mattermark lets you search for companies & investors to effortlessly create actionable lists for leads. Enrich your company data with customer intelligence from the industry leader of identity resolution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Mixrank](../tools/mixrank.md) mixrank.com MixRank curates the world's most updated feed of people, companies, and technographic datasets. Receive data updates at hourly rates. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Namecard.ai](../tools/namecard-ai.md) namecard.ai Find and connect with 1M+ professionals through warm introductions. 60% response rate. Get matched in 3 days. AI-powered networking for B2B, partnerships, and conferences. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -281,6 +285,8 @@ Source file: 01-data-enrichment.md · content sha256 8f9c0dbe611f39ac... · coun
 
 - [SalesIntel](../tools/salesintel.md) salesintel.io Turn B2B buying signals into pipeline with 200M AI + Human-verified contacts and AI-agents powering GTM workflows for sales, marketing, and RevOps teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [SalesSift](../tools/salessift.md) salessift.com Intelligent Lead Sourcing [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [ScrapeMagic](../tools/scrapemagic.md) scrapemagic.xyz Scrape any website or document just by describing what you want. Natural Language Scraping & Data Extraction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [ScreenshotOne](../tools/screenshotone.md) screenshotone.com Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API. Start free with ScreenshotOne. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -292,6 +298,8 @@ Source file: 01-data-enrichment.md · content sha256 8f9c0dbe611f39ac... · coun
 - [SMARTe](../tools/smarte.md) smarte.pro Actionable Sales Intelligence built over 289M+ global B2B contacts. Access verified mobile numbers and business emails for prospecting, trusted by Sales Leaders. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Sparklane](../tools/sparklane.md) sparklane-group.com Ciblages, recommandations, contacts... Découvrez la meilleure solution de génération de leads et de ciblages marketing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [StackLead](../tools/stacklead.md) stacklead.com Lead intelligence as a service. We want to be your personal lead… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Store Leads](../tools/store-leads.md) storeleads.app The most comprehensive list of ecommerce stores including 13,727,714 active stores across 409 platforms including Shopify, WooCommerce and Square Online. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [sms-magic.com](https://sms-magic.com) · entry id 02-sms-magic · source 02-engagement-outbound.md line 2355
+Vendor: [sms-magic.com](https://sms-magic.com) · entry id 02-sms-magic · source 02-engagement-outbound.md line 2457
 
 **What it does**
 SMS-Magic's business text messaging platform is top rated for Marketing, Sales, Support. Turn CRMs like Salesforce & Zoho into powerful conversational messaging app.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 375 of 884 entries are.
+The mcp_url field is empty on this entry. 403 of 934 entries are.
 
 **Command line**
 
@@ -62,7 +62,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-581 of 884 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+631 of 934 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-613 of 884 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -106,7 +106,7 @@ API mentioned on https://api.sms-magic.com/doc/; pricing/gate not inferred from 
 
 - **Source file**: 02-engagement-outbound.md
 
-- **Source line**: 2355
+- **Source line**: 2457
 
 - **Tier**: RESEARCHED
 
