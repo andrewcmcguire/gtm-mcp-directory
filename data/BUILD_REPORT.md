@@ -8,68 +8,68 @@ Generated 2026-09-12 by `build_directory.py`. Zero network calls.
 
 | File | Build | tools_recount | |
 |---|---|---|---|
-| 01-data-enrichment.md | 99 | 99 | OK |
-| 02-engagement-outbound.md | 86 | 86 | OK |
-| 03-conversation-intel.md | 38 | 38 | OK |
-| 04-ai-sdr-agents.md | 39 | 39 | OK |
-| 05-signals-intent-abm.md | 52 | 52 | OK |
-| 06-revops-infra.md | 59 | 59 | OK |
-| 07-mcp-infrastructure.md | 88 | 88 | OK |
+| 01-data-enrichment.md | 109 | 109 | OK |
+| 02-engagement-outbound.md | 92 | 92 | OK |
+| 03-conversation-intel.md | 41 | 41 | OK |
+| 04-ai-sdr-agents.md | 41 | 41 | OK |
+| 05-signals-intent-abm.md | 55 | 55 | OK |
+| 06-revops-infra.md | 64 | 64 | OK |
+| 07-mcp-infrastructure.md | 97 | 97 | OK |
 | 08-video-prospecting.md | 18 | 18 | OK |
-| 09-email-deliverability.md | 16 | 16 | OK |
+| 09-email-deliverability.md | 19 | 19 | OK |
 | 10-scheduling-routing.md | 16 | 16 | OK |
-| 11-enablement-coaching.md | 37 | 37 | OK |
+| 11-enablement-coaching.md | 39 | 39 | OK |
 | 12-forecasting-revenue.md | 21 | 21 | OK |
-| 13-proposals-deals.md | 21 | 21 | OK |
+| 13-proposals-deals.md | 23 | 23 | OK |
 | 14-inbound-plg-chat.md | 39 | 39 | OK |
 | 15-community-dark-social.md | 20 | 20 | OK |
-| **Total** | **649** | **649** | **OK** |
+| **Total** | **694** | **694** | **OK** |
 
-mcp_status, build: `{"community": 119, "n-a": 9, "none-found": 306, "official": 200, "unknown": 15}`
-mcp_status, recount: `{"community": 119, "n-a": 9, "none-found": 306, "official": 200, "unknown": 15}`
+mcp_status, build: `{"community": 137, "n-a": 9, "none-found": 333, "official": 200, "unknown": 15}`
+mcp_status, recount: `{"community": 137, "n-a": 9, "none-found": 333, "official": 200, "unknown": 15}`
 
-api_gate, build: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78, "n-a": 6, "paid": 132, "unknown": 346}`
-api_gate, recount: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78, "n-a": 6, "paid": 132, "unknown": 346}`
+api_gate, build: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78, "n-a": 6, "paid": 132, "unknown": 391}`
+api_gate, recount: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78, "n-a": 6, "paid": 132, "unknown": 391}`
 
-## Field coverage, all 649 entries
+## Field coverage, all 694 entries
 
 | Field | Present | Missing |
 |---|---|---|
-| name | 649 | 0 |
-| vendor_url | 649 | 0 |
-| category | 649 | 0 |
-| what_it_does | 649 | 0 |
-| ai_features | 649 | 0 |
-| mcp_status | 649 | 0 |
-| mcp_url | 413 | 236 |
-| mcp_auth | 331 | 318 |
-| api_gate | 649 | 0 |
-| revops_role | 649 | 0 |
-| tier | 649 | 0 |
-| last_checked | 649 | 0 |
-| sources | 649 | 0 |
-| notes | 649 | 0 |
-| docs_url | 178 | 471 |
+| name | 694 | 0 |
+| vendor_url | 694 | 0 |
+| category | 694 | 0 |
+| what_it_does | 694 | 0 |
+| ai_features | 694 | 0 |
+| mcp_status | 694 | 0 |
+| mcp_url | 431 | 263 |
+| mcp_auth | 331 | 363 |
+| api_gate | 694 | 0 |
+| revops_role | 694 | 0 |
+| tier | 694 | 0 |
+| last_checked | 694 | 0 |
+| sources | 694 | 0 |
+| notes | 694 | 0 |
+| docs_url | 200 | 494 |
 
-- mcp_url non-empty: **413 of 649** (337 parse to at least one URL, 156 point at github.com)
-- mcp_auth non-empty: **331 of 649**
-- docs_url present: **178 of 649**
-- api_gate `unknown`: **346 of 649**
-- entries with at least one github.com URL anywhere (phase 6 seed): **185**
-- sources: 2385 URLs total; 629 entries with 2+, 20 with exactly 1, 0 with none
+- mcp_url non-empty: **431 of 694** (355 parse to at least one URL, 170 point at github.com)
+- mcp_auth non-empty: **331 of 694**
+- docs_url present: **200 of 694**
+- api_gate `unknown`: **391 of 694**
+- entries with at least one github.com URL anywhere (phase 6 seed): **200**
+- sources: 2519 URLs total; 673 entries with 2+, 21 with exactly 1, 0 with none
 - sources carrying a non-URL annotation (preserved, not dropped): **12**
 - solo-reachable (official or community MCP AND gate free or paid): **168**
 - BENCH-TESTED: **1**. This stays 0 until Andrew runs something.
 
-mcp_status: `{"community": 119, "n-a": 9, "none-found": 306, "official": 200, "unknown": 15}`
-api_gate: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78, "n-a": 6, "paid": 132, "unknown": 346}`
-tier: `{"BENCH-TESTED": 1, "RESEARCHED": 648}`
-last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-03": 15, "2026-09-07": 107, "2026-09-12": 313}`
+mcp_status: `{"community": 137, "n-a": 9, "none-found": 333, "official": 200, "unknown": 15}`
+api_gate: `{"enterprise-leaning": 8, "enterprise-only": 79, "free": 78, "n-a": 6, "paid": 132, "unknown": 391}`
+tier: `{"BENCH-TESTED": 1, "RESEARCHED": 693}`
+last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-03": 15, "2026-09-07": 107, "2026-09-12": 358}`
 
 ### Capability layer (what each server exposes, from merge_capabilities.py)
 
 null
-- servers with a recorded tool list: **119** of 319 that claim a server
+- servers with a recorded tool list: **119** of 337 that claim a server
 - tools recorded in total: **8507**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
 - by evidence: `{"live-list": 6098, "source": 1149, "docs": 983, "readme": 277}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
@@ -90,21 +90,21 @@ null
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
 - probe run used: `2026-09-04`
-- endpoint_status: `{"live": 1, "live-auth-gated": 26, "auth-wall": 8, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 138, "not-applicable": 330}`
+- endpoint_status: `{"live": 1, "live-auth-gated": 26, "auth-wall": 8, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 156, "not-applicable": 357}`
 - official entries whose recorded URL answered as an MCP server (live or auth-gated): **27**
 - official entries whose recorded URL is a docs page, not an endpoint: **88**
 - docs-only is not wrong under SCHEMA law 1; it records where to read, not where to connect. Agents need the second.
 
 ### SPEC 2.3 fields present in the shape, unmeasured everywhere
 
-- `github_url`: null or empty on all 649 entries
-- `github_stars`: null or empty on all 649 entries
-- `github_last_commit`: null or empty on all 649 entries
-- `github_archived`: null or empty on all 649 entries
-- `github_fetched_on`: null or empty on all 649 entries
-- `docs_digest`: null or empty on all 649 entries
-- `docs_last_crawled`: null or empty on all 649 entries
-- `submission`: null or empty on all 649 entries
+- `github_url`: null or empty on all 694 entries
+- `github_stars`: null or empty on all 694 entries
+- `github_last_commit`: null or empty on all 694 entries
+- `github_archived`: null or empty on all 694 entries
+- `github_fetched_on`: null or empty on all 694 entries
+- `docs_digest`: null or empty on all 694 entries
+- `docs_last_crawled`: null or empty on all 694 entries
+- `submission`: null or empty on all 694 entries
 
 ## Job tagging (phase 2)
 
@@ -114,12 +114,12 @@ Source files: `data/jobs.yaml` (the closed vocabulary) and `data/tags.yaml` (the
 
 - vocabulary: **56 jobs** in **10 families**, status `closed`
 - tags.yaml keys (products): **255**, tagged on 2026-08-25 by `machine-pass`
-- entries tagged: **271 of 649**; untagged: **378**
-- canonical products tagged: **255**; untagged: **378**
+- entries tagged: **271 of 694**; untagged: **423**
+- canonical products tagged: **255**; untagged: **423**
 - total tag assignments: **849**, mean **3.13** per tagged entry, max **9**
 - flagged needs-review in tags.yaml: **49**
 
-Tags per entry: `{"0": 378, "1": 71, "2": 54, "3": 52, "4": 26, "5": 30, "6": 18, "7": 10, "8": 8, "9": 2}`
+Tags per entry: `{"0": 423, "1": 71, "2": 54, "3": 52, "4": 26, "5": 30, "6": 18, "7": 10, "8": 8, "9": 2}`
 
 ### Supply per job, as computed
 
@@ -268,9 +268,9 @@ A job with almost no supply is a finding, not a hole. These counts ship exactly 
 Editorial, not build failures. The markdown is the source of truth; the build reports these and ships.
 
 - SCHEMA law 1 risk (official or community with no parseable mcp_url): **1** 13-arphie
-- Thin sourcing (fewer than 2 source URLs): **20**
-- api_gate unknown: **346**
-- docs_url missing: **471**
+- Thin sourcing (fewer than 2 source URLs): **21**
+- api_gate unknown: **391**
+- docs_url missing: **494**
 
 ## Source file fixes made by this build
 
@@ -282,8 +282,8 @@ None.
 
 ## Integrity
 
-- content sha256: `84cbcf59365d25cc34cd570aa6462b69d974b0b6fb3c1e65af6ce183cee76461`
-- source sha256: `a657ff1e46d79c858392758c7867305234fc6450a52b825a62d34acfacf9dae4`
+- content sha256: `c0b9ea2cb7e2eb937805643cbe80844462456fba26c3b6f11993530b202a1f5b`
+- source sha256: `cca0768d9a8d6ed5d189ac0b08e5d6c3d20642ec2f75299363612f5d9b851261`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
 - network calls made: 0 (the socket module is disarmed at import)

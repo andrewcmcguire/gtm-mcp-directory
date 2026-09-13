@@ -1,6 +1,6 @@
-# Conversation intelligence tools with MCP servers: 21 of 38, counted
+# Conversation intelligence tools with MCP servers: 21 of 41, counted
 
-> 21 of the 38 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 21 of the 41 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 38 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
+21 of the 41 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
 
 Call recordings are the richest unstructured data a revenue team owns, and the only place most of what a buyer actually said is written down. Whether an agent can read them decides whether it can prepare for a call or only summarise a CRM field.
 
@@ -69,7 +69,7 @@ Records, transcribes, and scores sales calls, syncing action items and summaries
 
 ## The rest of the category
 
-17 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+20 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Momentum](../tools/momentum.md) No MCP found · Enterprise only
 Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration").
@@ -79,24 +79,24 @@ AI speech-analytics platform for field/in-person sales (home services, insurance
 Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and...
 - [Caretta](../tools/caretta.md) No MCP found · Gate unknown
 Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting.
+- [Cedar](../tools/cedar.md) No MCP found · Gate unknown
+Cedar analyses your sales calls, email and CRM to map out a winning playbook - then drafts the context-aware follow-ups that keep every deal moving.
 - [Clozd](../tools/clozd.md) No MCP found · Gate unknown
 Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain...
+- [Cuckoo Labs](../tools/cuckoo-labs.md) No MCP found · Gate unknown
+Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and...
 - [Demodesk](../tools/demodesk.md) No MCP found · Gate unknown
 Record every sales call, update your CRM, coach reps, and draft follow-ups automatically. GDPR-native, built in Germany. Start free.
 - [Ergo](../tools/ergo.md) No MCP found · Gate unknown
 Ergo turns conversations into automatic follow-ups, CRM updates, coaching, and forecasting. Reps spend less time on admin work, deals stop slipping.
+- [Karumi](../tools/karumi.md) No MCP found · Gate unknown
+Karumi is an AI-powered product expert that joins your video calls to deliver live product demos, answer questions, and guide customers in real time....
 - [Modus](../tools/modus.md) No MCP found · Gate unknown
 Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From...
 - [Nomi](../tools/nomi.md) No MCP found · Gate unknown
 Nomi is the real-time AI sales copilot that guides reps during live calls. Get instant battle cards, objection handling, and coaching when you need...
-- [Observe.AI](../tools/observe-ai.md) No MCP found · Gate unknown
-Observe.AI brings AI agents for customer experience into one platform. Automate customer service with Voice AI, assist frontline teams in real time,...
-- [People.ai](../tools/people-ai.md) No MCP found · Gate unknown
-Backstory is AI for sales teams that goes beyond dashboards. Get direct answers to your hardest pipeline questions - which deals are real, which are...
-- [Peppr AI](../tools/peppr-ai.md) No MCP found · Gate unknown
-Peppr listens to your calls and surfaces the right answer before your customer finishes asking.
 
-5 more are on the linked page. The cut is the display limit, not a ranking.
+8 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -106,9 +106,9 @@ Peppr listens to your calls and surfaces the right answer before your customer f
 | [Paid, self-serve](../gates/paid.md) | 9 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 8 |
-| [Gate unknown](../gates/unknown.md) | 16 |
+| [Gate unknown](../gates/unknown.md) | 19 |
 
-Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 a3c77c67a8dc096b...
+Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 8331875bfc82e252...
 
 ## Sources
 

@@ -1,6 +1,6 @@
-# Conversation Intel tools with MCP servers: 21 of 38, counted
+# Conversation Intel tools with MCP servers: 21 of 41, counted
 
-> 21 of the 38 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 21 of the 41 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Conversation Intel tools with an MCP server
 
-**List · 21 of 649**
+**List · 21 of 694**
 
 ## Conversation Intel tools with an MCP server
 
-Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 21 of 38 entries in this category are reachable by an agent: 19 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
+Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 21 of 41 entries in this category are reachable by an agent: 19 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -82,7 +82,7 @@ Community server: Chorus API key in the CHORUS_API_KEY environment variable (std
 jiminny.com | [Community MCP](../mcp/community.md) | [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp) +3 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 17 in this category
+### The other 20 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -96,12 +96,18 @@ rilla.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/en
 abstrakt.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Caretta](../tools/caretta.md)
 caretta.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Cedar](../tools/cedar.md)
+mail.cedarcopilot.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Clozd](../tools/clozd.md)
 clozd.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Cuckoo Labs](../tools/cuckoo-labs.md)
+cuckoo.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Demodesk](../tools/demodesk.md)
 demodesk.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Ergo](../tools/ergo.md)
 joinergo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Karumi](../tools/karumi.md)
+karumi.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Modus](../tools/modus.md)
 himodus.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Nomi](../tools/nomi.md)
@@ -134,4 +140,4 @@ The jobs most often tagged on the 24 tagged entries in this category.
 - [Score rep performance](../jobs/score-rep-performance.md)
 - [Search across recorded calls](../jobs/search-call-library.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 649 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 694 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# Which GTM tools have no MCP server? 306 of 649, and what that means
+# Which GTM tools have no MCP server? 333 of 694, and what that means
 
-> 306 of 649 GTM tools had no MCP server found on the date they were checked. The list, the categories it clusters in, and why none found is not the same as none exists.
+> 333 of 694 GTM tools had no MCP server found on the date they were checked. The list, the categories it clusters in, and why none found is not the same as none exists.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-306 of the 649 entries in this directory had no MCP server found at the time of the check. That is a statement about a search on a stated date, not a claim that no server exists, and every entry carries the date its facts were pulled.
+333 of the 694 entries in this directory had no MCP server found at the time of the check. That is a statement about a search on a stated date, not a claim that no server exists, and every entry carries the date its facts were pulled.
 
 The list matters more than it looks. If a tool your team depends on is on it, that is the work item: either an API and some glue, or a case to the vendor, or a decision to route around it.
 
@@ -24,17 +24,17 @@ The list matters more than it looks. If a tool your team depends on is on it, th
 
 | Category | No server | Of total | Share |
 |---|---|---|---|
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 31 | 37 | 84% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 33 | 39 | 85% |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 21 | 81% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 28 | 39 | 72% |
-| [Email Deliverability](../categories/email-deliverability.md) | 11 | 16 | 69% |
+| [Email Deliverability](../categories/email-deliverability.md) | 14 | 19 | 74% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 30 | 41 | 73% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 57 | 92 | 62% |
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 24 | 39 | 62% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 52 | 86 | 60% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 11 | 21 | 52% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 27 | 52 | 52% |
-| [RevOps Infra](../categories/revops-infra.md) | 27 | 59 | 46% |
-| [Conversation Intel](../categories/conversation-intel.md) | 17 | 38 | 45% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 41 | 99 | 41% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 13 | 23 | 57% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 29 | 55 | 53% |
+| [Conversation Intel](../categories/conversation-intel.md) | 20 | 41 | 49% |
+| [RevOps Infra](../categories/revops-infra.md) | 30 | 64 | 47% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 46 | 109 | 42% |
 | [Video Prospecting](../categories/video-prospecting.md) | 7 | 18 | 39% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 6 | 16 | 38% |
 | [Community & Dark Social](../categories/community-dark-social.md) | 7 | 20 | 35% |
@@ -80,9 +80,9 @@ Identifies companies visiting a website via IP-to-company matching, then enriche
 - [Dubb](../tools/dubb.md) No MCP found · Paid, self-serve
 Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via email, SMS, LinkedIn,...
 
-290 more are on the linked page. The cut is the display limit, not a ranking.
+317 more are on the linked page. The cut is the display limit, not a ranking.
 
-[The full list of 306 is here](../lists/no-mcp-server.md), each row carrying the date its entry was last checked. If you know one of them shipped a server, that correction is the most valuable thing anyone can send this directory.
+[The full list of 333 is here](../lists/no-mcp-server.md), each row carrying the date its entry was last checked. If you know one of them shipped a server, that correction is the most valuable thing anyone can send this directory.
 
 ## Sources
 

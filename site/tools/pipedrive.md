@@ -130,7 +130,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **updatePerson** Edit an existing contact evidence: in the vendor docs · calling it reads
 
-119 of the 319 entries that record an official or community MCP server carry a harvested tool list. The other 200 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 337 entries that record an official or community MCP server carry a harvested tool list. The other 218 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -150,7 +150,7 @@ free (for MCP access) - Pipedrive states the MCP server is available on all plan
 
 No documentation URL recorded.
 
-471 of 649 entries are in the same position. Blank is legal and it is published as blank.
+494 of 694 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -187,7 +187,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 649 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 694 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -207,7 +207,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: Pipedrive's built-in AI-driven forecasting layer - not a separately branded "Insights" product, but the CRM's AI Sales Assistant plus probability-weighted pipeline forecasting math. See 06-revops-infra.md for Pipedrive's full CRM entry (general MCP server, OAuth, free-on-all-plans MCP access) - this entry covers only...
 
-16 of the 649 entries are cross listed like this. They are why the entry count is 649 and the unique product count is 633. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 694 entries are cross listed like this. They are why the entry count is 694 and the unique product count is 678. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

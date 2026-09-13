@@ -1,6 +1,6 @@
 # How many GTM tools here have been bench tested? 1. That is the honest answer
 
-> 1 of 649 tools in this directory have been bench tested. What the two honesty tiers mean, why the number is on the front page, and what it takes to change it.
+> 1 of 694 tools in this directory have been bench tested. What the two honesty tiers mean, why the number is on the front page, and what it takes to change it.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 **The short answer**
 
-1. Every one of the 649 entries in this directory is RESEARCHED tier, meaning facts from public sources with URLs and no usage claims. Nobody here has run these tools. That number is printed on the front page rather than hidden, because it is what makes the other tier mean something.
+1. Every one of the 694 entries in this directory is RESEARCHED tier, meaning facts from public sources with URLs and no usage claims. Nobody here has run these tools. That number is printed on the front page rather than hidden, because it is what makes the other tier mean something.
 
 ## The two tiers, and only two
 
-- **RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 648 entries in this build are this tier.
+- **RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 693 entries in this build are this tier.
 
 - **BENCH-TESTED.** Andrew personally ran it on a stated date. Cannot be bought. There are 1 of them.
 
@@ -32,15 +32,15 @@ Every capability list here answers one question: what does the vendor say this t
 
 ## The other places this build is thin, named
 
-- 20 entries carry fewer than two independent source URLs. They are named on the methodology page rather than quietly padded.
+- 21 entries carry fewer than two independent source URLs. They are named on the methodology page rather than quietly padded.
 
-- 346 entries have an unknown access gate.
+- 391 entries have an unknown access gate.
 
-- 471 have no documentation URL recorded.
+- 494 have no documentation URL recorded.
 
 - 1 entry claims an MCP server with no parseable URL anywhere in the entry.
 
-- github_url, github_stars, github_last_commit and github_archived are null on all 649 entries. No repo health claim is made anywhere.
+- github_url, github_stars, github_last_commit and github_archived are null on all 694 entries. No repo health claim is made anywhere.
 
 ## What would change the number
 

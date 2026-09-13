@@ -1,0 +1,109 @@
+# Magellan Data: products, MCP servers and connect URLs, one vendor page
+
+> Magellan Data (magellandata.io): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
+
+*Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
+
+*Maintained by Andrew McGuire (https://andrewcmcguire.com), who also publishes https://gtmsignals.co and https://justsaid.ai.*
+
+---
+[Directory](../index.md) /
+[Vendors](../vendors/index.md) /
+Magellan Data
+
+# Magellan Data
+
+2 products in the directory
+0 official MCP servers
+0 live handshakes
+Data baked 2026-09-12
+
+Vendor domain: [magellandata.io](https://magellandata.io) · vendor page id magellandata-io
+
+**The rollup**
+
+- **Products**: 2, facts checked by hand 2026-09-12
+
+- **Official MCP servers**: 0 of 2, as recorded on 2026-09-12
+
+- **Community MCP servers**: 1 of 2
+
+- **Live handshake**: 0 of 2 answered an MCP initialize, 0 probed, no date
+
+- **Repo local**: 0 of 2: a server you install and run yourself
+
+- **Docs only**: 0 of 2: the recorded URL is a page about the server, not the server
+
+- **Tools catalogued**: not measured on any product of this vendor
+
+- **Bench tested**: 0 of 2 here, 1 of 694 across the directory
+
+- **Ships a CLI**: not measured on this build
+
+- **GitHub organisation**: not measured on this build
+
+A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
+
+**Products, 2**
+
+### [Magellan MCP by sorrek](../tools/magellan-mcp-by-sorrek.md)
+
+Parent companies, PE ownership, corporate families, and portfolio siblings - delivered as a hosted MCP server your AI agent calls mid-task. No login, no CSV, no tabs. Prefer a file? Spotlight, our web app, runs on the same data and credits.
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Magellan Data](../tools/magellan-data.md)
+
+Parent companies, PE ownership, corporate families, and portfolio siblings - delivered as a hosted MCP server your AI agent calls mid-task. No login, no CSV, no tabs. Prefer a file? Spotlight, our web app, runs on the same data and credits.
+
+[No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: n/a, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+**The gates, in plain words**
+
+2 of 2 gate unknown, not established from public sources and published as unknown.
+
+The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
+
+**Jobs the vendor says its products do**
+
+No job tag on any product of this vendor.
+
+An empty list means nobody has tagged these entries, not that the tools do nothing.
+
+**Connect URLs**
+
+No product of this vendor records an MCP endpoint or docs URL that the probe could classify.
+
+**Command line**
+
+The CLI layer has not been measured on this build.
+
+**On GitHub**
+
+The GitHub organisation layer has not been measured on this build.
+
+**What this page does not claim**
+
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 694 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
+
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).
