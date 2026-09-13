@@ -171,7 +171,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **update_sequence_stage** Edit the content of an existing step in a draft sequence. evidence: in the vendor docs · calling it reads
 
-119 of the 281 entries that record an official or community MCP server carry a harvested tool list. The other 162 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 303 entries that record an official or community MCP server carry a harvested tool list. The other 184 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -191,7 +191,7 @@ enterprise-leaning (any customer can self-generate a key at Settings > API, but 
 
 No documentation URL recorded.
 
-428 of 559 entries are in the same position. Blank is legal and it is published as blank.
+449 of 604 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -235,7 +235,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 559 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 604 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -255,7 +255,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: An all-in-one sales platform (lead gen + multichannel engagement + deliverability) with an AI agent layer ("Duo Copilot") that detects buying signals, writes and A/B-tests email copy (including AI voice-cloned voice notes), runs multichannel sequences, and suggests meeting follow-ups.
 
-16 of the 559 entries are cross listed like this. They are why the entry count is 559 and the unique product count is 543. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 604 entries are cross listed like this. They are why the entry count is 604 and the unique product count is 588. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

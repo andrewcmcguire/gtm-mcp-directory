@@ -61,7 +61,7 @@ https://mcp.usepylon.com ; https://www.pulsemcp.com/servers/pylon (a separate co
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 281 entries that record an official or community MCP server carry a harvested tool list. The other 162 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 303 entries that record an official or community MCP server carry a harvested tool list. The other 184 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -77,13 +77,13 @@ api_gate, verbatim from the file:
 
 unknown. No public pricing page was found; the pricing route is a demo-booking form ("Schedule a personalized 30-minute demo"), consistent with a sales-led model, but no explicit enterprise-only statement was found either.
 
-256 of 559 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+301 of 604 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-428 of 559 entries are in the same position. Blank is legal and it is published as blank.
+449 of 604 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -105,7 +105,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 559 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 604 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

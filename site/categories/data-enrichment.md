@@ -1,6 +1,6 @@
-# Data & Enrichment: 82 tools, 42 with an official MCP server
+# Data & Enrichment: 94 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 82 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 94 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 82
+- **entries in this file**: 94
 
 - **Official MCP**: 42
-- **Community MCP**: 7
-- **No MCP found**: 33
+- **Community MCP**: 14
+- **No MCP found**: 38
 
 - **ship a CLI (official) as of 2026-09-12**: 8
 
@@ -28,11 +28,11 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 33
+- **Gate unknown**: 45
 
-Source file: 01-data-enrichment.md · content sha256 c1bd5830ffc168b2... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 6a996f57d1b941e0... · counts reconciled against tools_recount.py at build time.
 
-- [The 49 with an MCP server](../lists/mcp-data-enrichment.md)
+- [The 56 with an MCP server](../lists/mcp-data-enrichment.md)
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
@@ -127,11 +127,25 @@ Source file: 01-data-enrichment.md · content sha256 c1bd5830ffc168b2... · coun
 
 - [UpLead](../tools/uplead.md) uplead.com A B2B contact database and prospecting tool (vendor claims 160M+ contacts, 95% data accuracy) for building lead lists with verified emails, direct dials, and firmographic/technographic filters, with a browser... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md) github.com let AGI print dollars for you. Contribute to louis030195/apollo-io-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Clay MCP by shanefirek](../tools/clay-mcp-by-shanefirek.md) github.com 73-tool MCP server for Clay. 1,100+ enrichment providers, waterfall sequences, CRM sync. - shanefirek/clay-mcp-public [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Codex Data MCP](../tools/codex-data-mcp.md) github.com A Model Context Protocol server for the Codex API. Contribute to Codex-Data/codex-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [JobDataLake MCP](../tools/jobdatalake-mcp.md) github.com MCP server for JobDataLake - search 1M+ enriched job listings from AI tools - echojobsio/jdl-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Potarix Enricher](../tools/potarix-enricher.md) github.com MCP server for Potarix Enricher company and email lookup tools - Potarix/potarix-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Prism Enrichment](../tools/prism-enrichment.md) enrich.gocreativeai.com Prism returns company, web search, scrape, places and contact data for any domain in one keyless call - about 12x cheaper than buying each category separately. Pay per call in USDC on Base or Solana. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Social Profile Enrichment API](../tools/social-profile-enrichment-api.md) github.com Enrich social profiles from handle or URL -- Twitter/X, GitHub, LinkedIn, YouTube. Followers, bio, verification. -- x402 micropayment API + MCP server for AI agents - Br0ski777/social-profile-x402 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Technology Stack Detection API](../tools/technology-stack-detection-api.md) github.com Detect 50+ technologies on any website. CMS, JS frameworks, analytics, hosting, CDN, payments. Confidence scores and evidence. -- x402 micropayment API + MCP server for AI agents -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Tomba](../tools/tomba.md) tomba.io Find verified B2B email addresses from any company. 280M+ contacts, 81% coverage, 98% delivery rate. Trusted by 150,000+ sales teams. Start free today. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Vinkius Lead Gen Agents](../tools/vinkius-lead-gen-agents.md) vinkius.com Vinkius connects your AI to 8,239+ apps and real-world capabilities. One link works in ChatGPT, Claude, Gemini and more, with your connections managed in one place. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Wokelo](../tools/wokelo.md) wokelo.ai Company and market intelligence, news, enrichment, and agentic workflows for dealmakers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -146,6 +160,8 @@ Source file: 01-data-enrichment.md · content sha256 c1bd5830ffc168b2... · coun
 - [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [B2B IQ](../tools/b2b-iq.md) b2b-iq.com B2B IQ is a trusted B2B data and Intelligence & solutions provider helping Global 1000 enterprises and their agencies fuel demand & growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Catch-all Verifier](../tools/catch-all-verifier.md) catchallverifier.com Catch All Verifier is real-time risky email verification platforms that can verify all your catch all (accept-all), even unknown emails as well. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -163,6 +179,8 @@ Source file: 01-data-enrichment.md · content sha256 c1bd5830ffc168b2... · coun
 
 - [Enrichley](../tools/enrichley.md) enrichley.io Enrichley finds the companies that look like your best customers, the decision-makers inside them, and verified emails to reach them, on one platform from target account to outreach. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Fusable](../tools/fusable.md) fusable.com Stronger data. Smarter decisions. Greater impact. Buy, sell, finance, and insure with greater speed and intelligence.Explore Fusable Why Fusable?Specialized data meets decades of industry experience. We help... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [iCapture](../tools/icapture.md) cvent.com Cvent provides software to planners for event management, marketing and attendee engagement, and also helps hotels win business through our sourcing platforms. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Integrate](../tools/integrate.md) integrate.com Integrate's lead management platform makes every lead clean, compliant, and actionable, so B2B marketers can focus on generating revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -179,6 +197,10 @@ Source file: 01-data-enrichment.md · content sha256 c1bd5830ffc168b2... · coun
 
 - [RevenueBase](../tools/revenuebase.md) revenuebase.ai RevenueBase is a B2B data infrastructure company that delivers production-ready data, cleans and enriches your existing records, and helps you discover what's missing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [ReverseContact](../tools/reversecontact.md) reversecontact.com Search, enrich, and look up any person or company through one B2B data API. 800M+ profiles, 80%+ match rate, GDPR-ready. Start for free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [SalesIntel](../tools/salesintel.md) salesintel.io Turn B2B buying signals into pipeline with 200M AI + Human-verified contacts and AI-agents powering GTM workflows for sales, marketing, and RevOps teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [ScrapeMagic](../tools/scrapemagic.md) scrapemagic.xyz Scrape any website or document just by describing what you want. Natural Language Scraping & Data Extraction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [ScreenshotOne](../tools/screenshotone.md) screenshotone.com Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API. Start free with ScreenshotOne. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -192,6 +214,8 @@ Source file: 01-data-enrichment.md · content sha256 c1bd5830ffc168b2... · coun
 - [Store Leads](../tools/store-leads.md) storeleads.app The most comprehensive list of ecommerce stores including 13,727,714 active stores across 409 platforms including Shopify, WooCommerce and Square Online. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Supermetrics](../tools/supermetrics.md) supermetrics.com Supermetrics is a Marketing Intelligence Platform for agencies and brands that allows you to connect, manage, analyze, and activate your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Terrakotta](../tools/terrakotta.md) terrakotta.ai Accelerate your commercial real estate prospecting with Terrakotta's AI-powered data and dialing platform. Source leads, make calls, and deliver personalized AI voicemails all in one solution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [The Hog](../tools/the-hog.md) thehog.ai One API to give your AI agents the freshest context across people, companies, social, and the open web. No subscription. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

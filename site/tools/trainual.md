@@ -90,7 +90,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **update-document** Update a collaborative document with new content evidence: in the server source · calling it writes
 
-119 of the 281 entries that record an official or community MCP server carry a harvested tool list. The other 162 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 303 entries that record an official or community MCP server carry a harvested tool list. The other 184 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -110,7 +110,7 @@ paid - Trainual's Grow (top/custom-priced) tier explicitly includes API access a
 
 No documentation URL recorded.
 
-428 of 559 entries are in the same position. Blank is legal and it is published as blank.
+449 of 604 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -149,7 +149,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: no-job-fits. SOP and process documentation, explicitly described as not sales-specific.
 
-288 of 559 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+333 of 604 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

@@ -1,6 +1,6 @@
 # MCP unknown: 15 GTM tools, counted
 
-> 15 of 559 GTM tools in this directory are mcp unknown. The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed.
+> 15 of 604 GTM tools in this directory are mcp unknown. The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed.
 
-15 of 559 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+15 of 604 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: cm-i (community)
 

@@ -1,6 +1,6 @@
-# Enablement & Coaching: 34 tools, 2 with an official MCP server
+# Enablement & Coaching: 36 tools, 2 with an official MCP server
 
-> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 34 tools counted, 2 with an official MCP server and 0 free to start.
+> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 36 tools counted, 2 with an official MCP server and 0 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here.
 
-- **entries in this file**: 34
+- **entries in this file**: 36
 
 - **Official MCP**: 2
 - **Community MCP**: 1
 - **MCP unknown**: 3
-- **No MCP found**: 28
+- **No MCP found**: 30
 
 - **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
-- **Gate unknown**: 27
+- **Gate unknown**: 29
 
-Source file: 11-enablement-coaching.md · content sha256 b17f42d00f436839... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 a3c181701762309e... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -59,6 +59,8 @@ Source file: 11-enablement-coaching.md · content sha256 b17f42d00f436839... · 
 - [Ambition](../tools/ambition.md) ambition.com Drive revenue predictability through structured coaching, AI-powered revenue insights, and operationalized productivity. Learn more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md) bigtincan.com Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content management, on-demand training/coaching, and AI-driven practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Cast.app](../tools/cast-app.md) cast.app Present, Engage, Educate, Answer Ad-hoc Questions, and Influence Every User & Decision-maker at Every Customer Account - Without Intermediaries or Adding Even One Headcount. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Ceros](../tools/ceros.md) ceros.com Create no-code interactive content that earns attention and drives action. Ceros helps marketers and designers build immersive digital experiences that convert. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -99,6 +101,8 @@ Source file: 11-enablement-coaching.md · content sha256 b17f42d00f436839... · 
 - [Second Nature](../tools/second-nature.md) secondnature.ai AI roleplay platform for enterprise sales teams that generates AI buyer personas from a text description or uploaded content and runs 1:1, group, or chat-based practice conversations, then scores and gives... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [SilkChart](../tools/silkchart.md) silkchart.com SilkChart analyzes sales calls and measures how well playbooks are executed. It proactively surfaces coaching opportunities to managers, and provides reps with actionable feedback to drive better conversations... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [SizzleKick](../tools/sizzlekick.md) sizzlekick.com SizzleKick delivers daily AI sales coaching that helps every rep build stronger habits, improve skills and sell more consistently. Designed for sales leaders who want predictable, repeatable performance across... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Spinify](../tools/spinify.md) spinify.com Turn CRM data into predictable sales performance with real-time visibility, automated competitions and AI coaching across every team. Book a demo. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

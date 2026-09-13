@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 22 of 47, counted
+# Signal and intent tools with MCP servers: 22 of 49, counted
 
-> 22 of the 47 signals & intent tools in this directory have an MCP server: 20 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 22 of the 49 signals & intent tools in this directory have an MCP server: 20 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-22 of the 47 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 2 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+22 of the 49 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 2 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -71,7 +71,7 @@ The account-based marketing API for AI agents: Search, Enrich, and Create across
 
 ## The rest of the category
 
-25 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+27 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
@@ -93,12 +93,12 @@ Detects which companies are actively researching specific B2B topics by aggregat
 Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost opportunities for...
 - [Avina](../tools/avina.md) No MCP found · Gate unknown
 Avina is an AI-powered go-to-market platform that helps B2B sales teams find, prioritize, and engage high-intent prospects using real-time buying...
+- [Channel99](../tools/channel99.md) No MCP found · Gate unknown
+B2B marketing attribution software that uses AI to recommend ways to improve campaign ROI and increase pipeline
 - [DemandSphere](../tools/demandsphere.md) No MCP found · Gate unknown
 Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more.
-- [eBrandValue](../tools/ebrandvalue.md) No MCP found · Gate unknown
-eBrandValue enables you to track the value of your brand in real-time. Social Media Analytics, Sales Prediction, Influencer Studies, Crisis &...
 
-13 more are on the linked page. The cut is the display limit, not a ranking.
+15 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -107,9 +107,9 @@ eBrandValue enables you to track the value of your brand in real-time. Social Me
 | [Free to start](../gates/free.md) | 6 |
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 18 |
+| [Gate unknown](../gates/unknown.md) | 20 |
 
-Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 698eb765796f6fed...
+Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 9c9f3875cca1db1d...
 
 ## Sources
 

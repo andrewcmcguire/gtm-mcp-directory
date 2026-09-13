@@ -1,6 +1,6 @@
-# Signals & Intent tools with MCP servers: 22 of 47, counted
+# Signals & Intent tools with MCP servers: 22 of 49, counted
 
-> 22 of the 47 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 22 of the 49 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Signals & Intent tools with an MCP server
 
-**List · 22 of 559**
+**List · 22 of 604**
 
 ## Signals & Intent tools with an MCP server
 
-Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 22 of 47 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
+Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 22 of 49 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -85,7 +85,7 @@ api key (from app.trigify.io/settings; via `trigify login --api-key`, env var...
 abm.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 25 in this category
+### The other 27 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -111,6 +111,8 @@ bombora.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/
 champify.io | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Avina](../tools/avina.md)
 avina.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Channel99](../tools/channel99.md)
+channel99.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [DemandSphere](../tools/demandsphere.md)
 demandsphere.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [eBrandValue](../tools/ebrandvalue.md)
@@ -129,6 +131,8 @@ wearemiq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 netline.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Octane11](../tools/octane11.md)
 octane11.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Pubrio](../tools/pubrio.md)
+pubrio.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SE Ranking](../tools/se-ranking.md)
 seranking.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Semrush](../tools/semrush.md)
@@ -153,4 +157,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 559 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 604 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

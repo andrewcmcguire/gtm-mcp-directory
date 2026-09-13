@@ -1,6 +1,6 @@
-# Engagement & Outbound: 71 tools, 23 with an official MCP server
+# Engagement & Outbound: 77 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 71 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 77 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,12 +16,12 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 71
+- **entries in this file**: 77
 
 - **Official MCP**: 23
-- **Community MCP**: 5
+- **Community MCP**: 6
 - **MCP unknown**: 2
-- **No MCP found**: 41
+- **No MCP found**: 46
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
@@ -29,11 +29,11 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 39
+- **Gate unknown**: 45
 
-Source file: 02-engagement-outbound.md · content sha256 a25e34dc37a3f8be... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 951266440476c59e... · counts reconciled against tools_recount.py at build time.
 
-- [The 28 with an MCP server](../lists/mcp-engagement-outbound.md)
+- [The 29 with an MCP server](../lists/mcp-engagement-outbound.md)
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
@@ -94,6 +94,8 @@ Source file: 02-engagement-outbound.md · content sha256 a25e34dc37a3f8be... · 
 
 - [LinkedGrow](../tools/linkedgrow.md) linkedgrow.ai Lead generation on LinkedIn, run by an agent that finds your leads, sends the invitation and opens the conversation, inside limits that keep your account safe. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [RepScale](../tools/repscale.md) repscale.ai Stop editing what AI wrote for 30 minutes. RepScale researches prospects, writes outreach, and preps meetings in one connected workflow. Free tier, no credit card. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [WarmySender](../tools/warmysender.md) warmysender.com Run your outreach on autopilot with AI agents: cold email, email warmup, LinkedIn, Instagram and multichannel campaigns plus real-time email verification. Claude, ChatGPT, Cursor, Codex, OpenClaw, Hermes Agent... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Expandi](../tools/expandi.md) expandi.io Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account. [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md)
@@ -110,9 +112,13 @@ Source file: 02-engagement-outbound.md · content sha256 a25e34dc37a3f8be... · 
 
 - [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Act-On](../tools/act-on.md) act-on.com Act-On offers agile, AI-driven marketing automation to create, measure, and refine campaigns faster, backed by world-class support. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [ActiveCampaign](../tools/activecampaign.md) activecampaign.com Go beyond marketing automation with ActiveCampaign's autonomous marketing platform. Your team of AI agents handles email, SMS, WhatsApp and more for you, backed by billions of data points. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [AgentMail](../tools/agentmail.md) agentmail.to AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Banabo](../tools/banabo.md) banabo.io Run content programs. See what's actually working. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Birdie](../tools/birdie.md) getbirdie.io AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -144,7 +150,11 @@ Source file: 02-engagement-outbound.md · content sha256 a25e34dc37a3f8be... · 
 
 - [Postscript](../tools/postscript.md) postscript.io Engage with customers wherever they are. Postscript helps you build strong customer relationships across the entire buying experience. Start your free trial today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Quo](../tools/quo.md) quo.com Quo brings your calls, texts, and contacts together in one AI-powered shared space. Keep your team aligned, respond faster, and ensure every customer feels valued. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Ranla](../tools/ranla.md) ranla.ai Ranla is a lifecycle and transactional email platform for PLG SaaS. Automations and audiences from product behavior, and a built-in agent that drafts and asks before it sends. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [ReachInbox](../tools/reachinbox.md) reachinbox.ai Use AI to find prospects that need you, automatically craft personalized cold emails for each, and scale effortlessly [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Resquared](../tools/resquared.md) re2.ai 14M+ verified local businesses, AI-handwritten outreach that learns from every campaign, and a built-in email delivery system. All in one tool. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -167,6 +177,8 @@ Source file: 02-engagement-outbound.md · content sha256 a25e34dc37a3f8be... · 
 - [SureConnect](../tools/sureconnect.md) sureconnect.ai SureConnect identifies 'Likely to answer' contacts on your list, helping you increase connect rates and saving you from voicemails, gatekeepers, and dead numbers [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Surface](../tools/surface.md) withsurface.com Surface combines AI agents, buyer intelligence, and campaign execution so revenue teams can launch faster, convert more demand, and grow pipeline. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Synthio Labs](../tools/synthio-labs.md) synthiolabs.com The intelligence layer behind modern life sciences engagement, enabling compliant, continuous conversations across HCPs, patients, and field teams [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [throxy](../tools/throxy.md) throxy.com Outbound partner for complex industries like manufacturing, education, and healthcare. Throxy runs your outbound with custom tech to book qualified sales meetings. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

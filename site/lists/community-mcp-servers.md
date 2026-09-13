@@ -1,6 +1,6 @@
-# Community MCP servers: 81 GTM tools with a third party server
+# Community MCP servers: 103 GTM tools with a third party server
 
-> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-12 across 559 directory entries.
+> Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-12 across 604 directory entries.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 81 GTM tools with a community MCP server
+[The lists](index.md) / The 103 GTM tools with a community MCP server
 
-**List · 81 of 559**
+**List · 103 of 604**
 
-## The 81 GTM tools with a community MCP server
+## The 103 GTM tools with a community MCP server
 
 A community server is a real server. It is also a server that can be abandoned without the vendor noticing, which is the single most useful thing to know before you write one into a workflow. The repo health rail that would date stamp each one has not been run, so no staleness claim is made here.
 
@@ -105,11 +105,23 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/bfmvsa/mcp-apex-sdk](https://github.com/bfmvsa/mcp-apex-sdk) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md)
+github.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Attio MCP by hmk](../tools/attio-mcp-by-hmk.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Capsule CRM MCP by MonadsAG](../tools/capsule-crm-mcp-by-monadsag.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Capsule CRM MCP by soil-dev](../tools/capsule-crm-mcp-by-soil-dev.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Clay MCP by shanefirek](../tools/clay-mcp-by-shanefirek.md)
+github.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/shanefirek/clay-mcp-public](https://github.com/shanefirek/clay-mcp-public) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Codex Data MCP](../tools/codex-data-mcp.md)
+github.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Coldstart](../tools/coldstart.md)
 coldstart.so | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp%20outreach](https://www.npmjs.com/search?q=mcp%20outreach) | Auth not recorded
@@ -132,17 +144,26 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/baryhuang/mcp-hubspot](https://github.com/baryhuang/mcp-hubspot) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [HubSpot MCP by rfoxes](../tools/hubspot-mcp-by-rfoxes.md)
+npmjs.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp-server%20hubspot](https://www.npmjs.com/search?q=mcp-server%20hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [IN2 Agent MCP](../tools/in2-agent-mcp.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Insaight](../tools/insaight.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/spirosbax/insaight](https://github.com/spirosbax/insaight) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [JobDataLake MCP](../tools/jobdatalake-mcp.md)
+github.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Keepsake MCP by nicolascroce](../tools/keepsake-mcp-by-nicolascroce.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedGrow](../tools/linkedgrow.md)
 linkedgrow.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://github.com/DigiHold/LinkedGrow](https://github.com/DigiHold/LinkedGrow) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Little Green Light MCP](../tools/little-green-light-mcp.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/WillHeadlee/Little-Green-Light-MC...](https://github.com/WillHeadlee/Little-Green-Light-MCP-Server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [MCP Force by RapidoCloud](../tools/mcp-force-by-rapidocloud.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/RapidoCloud/mcp-force](https://github.com/RapidoCloud/mcp-force) | Auth not recorded
@@ -162,8 +183,26 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Nimbus](../tools/nimbus.md)
 testnimbus.dev | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/nimbus-solution/nimbus](https://github.com/nimbus-solution/nimbus) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Nuph](../tools/nuph.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/teslaeas/nuph-mcp-server](https://github.com/teslaeas/nuph-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Outreacher](../tools/outreacher.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/technicallypete/outreacher](https://github.com/technicallypete/outreacher) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Pipedrive MCP by comma-compliance](../tools/pipedrive-mcp-by-comma-compliance.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/comma-compliance/pipedrive-mcp](https://github.com/comma-compliance/pipedrive-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Potarix Enricher](../tools/potarix-enricher.md)
+github.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/Potarix/potarix-mcp](https://github.com/Potarix/potarix-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Prism Enrichment](../tools/prism-enrichment.md)
+enrich.gocreativeai.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://enrich.gocreativeai.com](https://enrich.gocreativeai.com) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Relm CRM](../tools/relm-crm.md)
+relmcrm.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://relmcrm.com](https://relmcrm.com) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [RepScale](../tools/repscale.md)
+repscale.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | [https://repscale.ai](https://repscale.ai) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [RevOps Eval](../tools/revops-eval.md)
 revopseval.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/elijeangilles/revops-skills](https://github.com/elijeangilles/revops-skills) | Auth not recorded
@@ -180,11 +219,20 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Commerce Cloud MCP by brinzl](../tools/salesforce-commerce-cloud-mcp-by-brinzl.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/brinzl/commercecloud-mcp-server](https://github.com/brinzl/commercecloud-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce Commerce Cloud MCP by vinkius-labs](../tools/salesforce-commerce-cloud-mcp-by-vinkius-labs.md)
+vinkius.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/vinkius-labs/salesforce-commerce-...](https://github.com/vinkius-labs/salesforce-commerce-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Docs MCP by Sanket](../tools/salesforce-docs-mcp-by-sanket.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/SalesforceDiariesBySanket/salesfo...](https://github.com/SalesforceDiariesBySanket/salesforce-docs-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce Hosted Custom MCP by Sanket](../tools/salesforce-hosted-custom-mcp-by-sanket.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/SalesforceDiariesBySanket/Salesfo...](https://github.com/SalesforceDiariesBySanket/Salesforce-Hosted-Custom-Mcp-Server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Marketing Cloud MCP by salesforcebob](../tools/salesforce-marketing-cloud-mcp-by-salesforcebob.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/salesforcebob/Salesforce-Marketin...](https://github.com/salesforcebob/Salesforce-Marketing-Cloud-Engagement-MCP) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce Marketing Cloud MCP by vinkius-labs](../tools/salesforce-marketing-cloud-mcp-by-vinkius-labs.md)
+vinkius.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/vinkius-labs/salesforce-marketing...](https://github.com/vinkius-labs/salesforce-marketing-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by advancedcommunities](../tools/salesforce-mcp-by-advancedcommunities.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/advancedcommunities/salesforce-mc...](https://github.com/advancedcommunities/salesforce-mcp-server) | Auth not recorded
@@ -198,6 +246,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by kablewy](../tools/salesforce-mcp-by-kablewy.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/kablewy/salesforce-mcp-server](https://github.com/kablewy/salesforce-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by rohithvemulapally](../tools/salesforce-mcp-by-rohithvemulapally.md)
+npmjs.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by starcatmeow](../tools/salesforce-mcp-by-starcatmeow.md)
 npmjs.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp-server%20salesfor...](https://www.npmjs.com/search?q=mcp-server%20salesforce) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -207,11 +258,20 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by timescale](../tools/salesforce-mcp-by-timescale.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/timescale/tiger-salesforce-mcp-se...](https://github.com/timescale/tiger-salesforce-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by tomnagengast](../tools/salesforce-mcp-by-tomnagengast.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/tomnagengast/mcp-server-salesforc...](https://github.com/tomnagengast/mcp-server-salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP by vinkius-labs](../tools/salesforce-mcp-by-vinkius-labs.md)
+vinkius.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/vinkius-labs/salesforce-mcp](https://github.com/vinkius-labs/salesforce-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md)
 context7.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/Damecek/salesforce-mcp-lib](https://github.com/Damecek/salesforce-mcp-lib) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [SeldonFrame](../tools/seldonframe.md)
+seldonframe.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [ServiceAgent](../tools/serviceagent.md)
 serviceagent.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [https://serviceagent.ai](https://serviceagent.ai) | Auth not recorded
@@ -234,11 +294,17 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Twenty CRM MCP](../tools/twenty-crm-mcp.md)
 github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/mhenry3164/twenty-crm-mcp-server](https://github.com/mhenry3164/twenty-crm-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [UGC VZ MCP](../tools/ugc-vz-mcp.md)
+github.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/ugcvz/ugc-vz-mcp](https://github.com/ugcvz/ugc-vz-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Vesxo Connect](../tools/vesxo-connect.md)
 npmjs.com | [MCP Layer](../categories/mcp-infrastructure.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Vibe Prospecting MCP](../tools/vibe-prospecting-mcp.md)
 vibeprospecting.ai | [MCP Layer](../categories/mcp-infrastructure.md) | [https://github.com/explorium-ai/vibeprospecting-mcp](https://github.com/explorium-ai/vibeprospecting-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Vinkius Lead Gen Agents](../tools/vinkius-lead-gen-agents.md)
+vinkius.com | [Data & Enrichment](../categories/data-enrichment.md) | [https://github.com/vinkius-labs/crewai-mcp-lead-gen-...](https://github.com/vinkius-labs/crewai-mcp-lead-gen-agents) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Vruum](../tools/vruum.md)
 vruum.ai | [AI SDRs](../categories/ai-sdr-agents.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
@@ -262,4 +328,4 @@ blank | [Gate unknown](../gates/unknown.md) |
 zooq.dev | [Data & Enrichment](../categories/data-enrichment.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 559 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 604 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

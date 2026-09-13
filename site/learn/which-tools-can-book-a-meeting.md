@@ -24,7 +24,7 @@ Booking is where an agent stops being a research tool and starts holding somebod
 
 | Measure | Count | Of what |
 |---|---|---|
-| Entries tagged book-a-meeting | 26 | of 559 directory entries |
+| Entries tagged book-a-meeting | 26 | of 604 directory entries |
 | Distinct products | 23 | the rest are cross listings |
 | Official MCP server | 10 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |

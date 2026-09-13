@@ -1,6 +1,6 @@
-# AI SDRs: 35 tools, 8 with an official MCP server
+# AI SDRs: 36 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 35 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 36 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 35
+- **entries in this file**: 36
 
 - **Official MCP**: 8
 - **Community MCP**: 3
-- **No MCP found**: 24
+- **No MCP found**: 25
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 15
+- **Gate unknown**: 16
 
-Source file: 04-ai-sdr-agents.md · content sha256 4274fbda33dfc8d5... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 bb46e83785e1e652... · counts reconciled against tools_recount.py at build time.
 
 - [The 11 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -107,3 +107,5 @@ Source file: 04-ai-sdr-agents.md · content sha256 4274fbda33dfc8d5... · counts
 - [Topo](../tools/topo.md) topo.io Topo is the AI sales platform that runs outbound for you: find in-market buyers, personalize outreach at scale, and book more meetings. See how it works. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Verbiflow](../tools/verbiflow.md) verbiflow.com Meet Mochi, your AI coworker for GTM engineering and operations. Prepare for calls, follow up on deals, and build pipeline with your team in Slack. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

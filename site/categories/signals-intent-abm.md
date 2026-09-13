@@ -1,6 +1,6 @@
-# Signals & Intent: 47 tools, 20 with an official MCP server
+# Signals & Intent: 49 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 47 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 49 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 47
+- **entries in this file**: 49
 
 - **Official MCP**: 20
 - **Community MCP**: 2
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 22
+- **No MCP found**: 24
 
 - **ship a CLI (official) as of 2026-09-12**: 2
 
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 18
+- **Gate unknown**: 20
 
-Source file: 05-signals-intent-abm.md · content sha256 698eb765796f6fed... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 9c9f3875cca1db1d... · counts reconciled against tools_recount.py at build time.
 
 - [The 22 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
@@ -104,6 +104,8 @@ Source file: 05-signals-intent-abm.md · content sha256 698eb765796f6fed... · c
 
 - [Avina](../tools/avina.md) avina.io Avina is an AI-powered go-to-market platform that helps B2B sales teams find, prioritize, and engage high-intent prospects using real-time buying signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Channel99](../tools/channel99.md) channel99.com B2B marketing attribution software that uses AI to recommend ways to improve campaign ROI and increase pipeline [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [DemandSphere](../tools/demandsphere.md) demandsphere.com Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [eBrandValue](../tools/ebrandvalue.md) ebrandvalue.com eBrandValue enables you to track the value of your brand in real-time. Social Media Analytics, Sales Prediction, Influencer Studies, Crisis & Reputation Support 24/7. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -121,6 +123,8 @@ Source file: 05-signals-intent-abm.md · content sha256 698eb765796f6fed... · c
 - [NetLine](../tools/netline.md) netline.com Promote your B2B content with the largest B2B-specific content syndication lead generation network, using performance-based lead generation solutions to meet your demand generation goals. Identify and capture... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Octane11](../tools/octane11.md) octane11.com Octane11 connects B2B marketing signals to real accounts and pipeline. Account-level analytics powered by AI. Set up in minutes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Pubrio](../tools/pubrio.md) pubrio.com Pubrio turns expansion signals across 200+ markets into one live graph, so revenue teams see which companies are entering new markets, and act on the timing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [SE Ranking](../tools/se-ranking.md) seranking.com SE Ranking is a trusted AI SEO tool that pays for itself. Get accurate data, actionable insights, and automated reports. Powerful tools, simple execution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

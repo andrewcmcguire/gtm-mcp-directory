@@ -1,6 +1,6 @@
-# RevOps Infra: 53 tools, 29 with an official MCP server
+# RevOps Infra: 55 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 53 tools counted, 29 with an official MCP server and 14 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 55 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 53
+- **entries in this file**: 55
 
 - **Official MCP**: 29
 - **Community MCP**: 2
 - **MCP unknown**: 1
-- **No MCP found**: 21
+- **No MCP found**: 23
 
 - **ship a CLI (official) as of 2026-09-12**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
-- **Gate unknown**: 22
+- **Gate unknown**: 24
 
-Source file: 06-revops-infra.md · content sha256 793bb238e5f16c81... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 fe3c1ef42e6ed01a... · counts reconciled against tools_recount.py at build time.
 
 - [The 31 with an MCP server](../lists/mcp-revops-infra.md)
 
@@ -125,6 +125,8 @@ Source file: 06-revops-infra.md · content sha256 793bb238e5f16c81... · counts 
 
 - [PartnerOS](../tools/partneros.md) partneros.ai Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Power My Analytics](../tools/power-my-analytics.md) powermyanalytics.com Use data connectors to retrieve key metrics and integrate them with your favorite reporting, dashboard, and spreadsheet tools. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Relate](../tools/relate.md) relate.so Relate is a modern sales CRM platform that lets you bring your entire team together to collaborate on sales. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Skyvern](../tools/skyvern.md) skyvern.com Skyvern automates browser workflows with AI. No brittle selectors, no maintenance. Automate logins, form fills, data extraction, and more across any website. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -142,5 +144,7 @@ Source file: 06-revops-infra.md · content sha256 793bb238e5f16c81... · counts 
 - [Tray.ai](../tools/tray-ai.md) tray.ai Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps - orchestration for data… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Vertify](../tools/vertify.md) vertify.com Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Workato](../tools/workato.md) workato.com Workato connects apps, data, workflows, and AI agents on one enterprise platform to securely orchestrate, automate, and govern work. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

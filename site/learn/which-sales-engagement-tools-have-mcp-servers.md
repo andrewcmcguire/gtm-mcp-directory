@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 28 of 71, counted
+# Sales engagement and outbound tools with MCP servers: 29 of 77, counted
 
-> 28 of the 71 engagement & outbound tools in this directory have an MCP server: 23 official and 5 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 29 of the 77 engagement & outbound tools in this directory have an MCP server: 23 official and 6 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-28 of the 71 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 5 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+29 of the 77 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 6 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -78,12 +78,14 @@ Sales engagement and lead-gen platform for finding, verifying, and contacting B2
 Emelia simplifies LinkedIn and email prospecting, helping you find future clients with an easy-to-use platform and advanced technology.
 - [LinkedGrow](../tools/linkedgrow.md) Community MCP · Gate unknown
 Lead generation on LinkedIn, run by an agent that finds your leads, sends the invitation and opens the conversation, inside limits that keep your...
+- [RepScale](../tools/repscale.md) Community MCP · Gate unknown
+Stop editing what AI wrote for 30 minutes. RepScale researches prospects, writes outreach, and preps meetings in one connected workflow. Free tier,...
 - [WarmySender](../tools/warmysender.md) Community MCP · Gate unknown
 Run your outreach on autopilot with AI agents: cold email, email warmup, LinkedIn, Instagram and multichannel campaigns plus real-time email...
 
 ## The rest of the category
 
-43 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+48 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Expandi](../tools/expandi.md) MCP unknown · Paid, self-serve
 Cloud-based LinkedIn (+ email) outreach automation tool that runs connection/message sequences from a dedicated cloud IP per LinkedIn account.
@@ -99,18 +101,18 @@ Sales engagement platform for automated email outreach campaigns with CRM integr
 Cold email and LinkedIn outreach automation tool sent from users' own mailboxes, with inbox rotation and reply management.
 - [Orum](../tools/orum.md) No MCP found · Enterprise only
 AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers.
+- [Act-On](../tools/act-on.md) No MCP found · Gate unknown
+Act-On offers agile, AI-driven marketing automation to create, measure, and refine campaigns faster, backed by world-class support.
 - [ActiveCampaign](../tools/activecampaign.md) No MCP found · Gate unknown
 Go beyond marketing automation with ActiveCampaign's autonomous marketing platform. Your team of AI agents handles email, SMS, WhatsApp and more for...
 - [AgentMail](../tools/agentmail.md) No MCP found · Gate unknown
 AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic...
+- [Banabo](../tools/banabo.md) No MCP found · Gate unknown
+Run content programs. See what's actually working.
 - [Birdie](../tools/birdie.md) No MCP found · Gate unknown
 AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups.
-- [FrontSpin](../tools/frontspin.md) No MCP found · Gate unknown
-FrontSpin is a cloud-based sales communication tool that helps you reach up to 3x more prospects and close more deals. Learn more now.
-- [Fuse AI](../tools/fuse-ai.md) No MCP found · Gate unknown
-Fuse AI is sales superintelligence for modern revenue teams. Find the right prospects, automate outbound, uncover buyer signals, and close more deals.
 
-31 more are on the linked page. The cut is the display limit, not a ranking.
+36 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -120,9 +122,9 @@ Fuse AI is sales superintelligence for modern revenue teams. Find the right pros
 | [Paid, self-serve](../gates/paid.md) | 23 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
-| [Gate unknown](../gates/unknown.md) | 39 |
+| [Gate unknown](../gates/unknown.md) | 45 |
 
-Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 a25e34dc37a3f8be...
+Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 951266440476c59e...
 
 ## Sources
 

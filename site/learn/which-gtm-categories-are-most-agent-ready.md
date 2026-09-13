@@ -1,6 +1,6 @@
 # Which GTM categories are most agent reachable? The 15 layers, ranked by coverage
 
-> MCP Layer leads at 92% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-12.
+> MCP Layer leads at 94% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,33 +16,33 @@
 
 **The short answer**
 
-MCP Layer is the most agent reachable category at 58 of 63 entries with a server. Enablement & Coaching is the least at 3 of 34. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
+MCP Layer is the most agent reachable category at 72 of 77 entries with a server. Enablement & Coaching is the least at 3 of 36. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
 
 ## The ranking
 
 | # | Category | Reachable | Official | Community | Of |
 |---|---|---|---|---|---|
-| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 92% | 14 | 44 | 63 |
-| 2 | [Conversation Intel](../categories/conversation-intel.md) | 68% | 19 | 2 | 31 |
-| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 60% | 42 | 7 | 82 |
-| 4 | [RevOps Infra](../categories/revops-infra.md) | 58% | 29 | 2 | 53 |
+| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 94% | 14 | 58 | 77 |
+| 2 | [Conversation Intel](../categories/conversation-intel.md) | 62% | 19 | 2 | 34 |
+| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 60% | 42 | 14 | 94 |
+| 4 | [RevOps Infra](../categories/revops-infra.md) | 56% | 29 | 2 | 55 |
 | 5 | [Video Prospecting](../categories/video-prospecting.md) | 56% | 4 | 6 | 18 |
 | 6 | [Community & Dark Social](../categories/community-dark-social.md) | 55% | 8 | 3 | 20 |
-| 7 | [Proposals & Deals](../categories/proposals-deals.md) | 53% | 8 | 2 | 19 |
-| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 47% | 20 | 2 | 47 |
+| 7 | [Proposals & Deals](../categories/proposals-deals.md) | 50% | 8 | 2 | 20 |
+| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 45% | 20 | 2 | 49 |
 | 9 | [Scheduling & Routing](../categories/scheduling-routing.md) | 44% | 5 | 2 | 16 |
-| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 39% | 23 | 5 | 71 |
-| 11 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 37% | 11 | 2 | 35 |
-| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 31% | 8 | 3 | 35 |
+| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 38% | 23 | 6 | 77 |
+| 11 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 35% | 11 | 2 | 37 |
+| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 31% | 8 | 3 | 36 |
 | 13 | [Email Deliverability](../categories/email-deliverability.md) | 27% | 4 | 0 | 15 |
 | 14 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 15% | 3 | 0 | 20 |
-| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 9% | 2 | 1 | 34 |
+| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 8% | 2 | 1 | 36 |
 
 Counted 2026-09-12 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 35 entries. Enablement & Coaching is at 2 of 34. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 53.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 36 entries. Enablement & Coaching is at 2 of 36. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 55.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 

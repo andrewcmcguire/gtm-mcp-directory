@@ -1,6 +1,6 @@
 # How do I connect Claude to my CRM? The MCP route, step by step
 
-> Connect an AI assistant to your CRM through an MCP server. Which CRM and RevOps tools have one (29 official of 53), what to check first, and the order to do it in.
+> Connect an AI assistant to your CRM through an MCP server. Which CRM and RevOps tools have one (29 official of 55), what to check first, and the order to do it in.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -20,7 +20,7 @@ If your CRM ships an MCP server, you add it to your client's server configuratio
 
 ## 1. Find out whether a server exists
 
-RevOps Infra is the best covered layer in this directory: 29 official servers and 2 community across 53 entries, with only 21 where none was found. Check your specific system on [the RevOps tools with MCP servers list](../lists/mcp-revops-infra.md), and read the auth field on its page before anything else.
+RevOps Infra is the best covered layer in this directory: 29 official servers and 2 community across 55 entries, with only 23 where none was found. Check your specific system on [the RevOps tools with MCP servers list](../lists/mcp-revops-infra.md), and read the auth field on its page before anything else.
 
 ## 2. Decide what the credential is allowed to do
 

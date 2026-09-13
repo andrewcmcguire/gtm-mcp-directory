@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / Video Prospecting tools with an MCP server
 
-**List · 10 of 559**
+**List · 10 of 604**
 
 ## Video Prospecting tools with an MCP server
 
@@ -82,4 +82,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 - [Create a digital sales room](../jobs/create-digital-sales-room.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 559 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 604 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

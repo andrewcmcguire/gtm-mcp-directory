@@ -36,7 +36,7 @@ Contact name, role and email are collected and never published. They are used to
 
 1. The vendor URL is fetched live and has to resolve, return 200, and describe the product.
 
-2. The product is checked against all 559 existing entries by normalised name, because 16 deliberate cross listings already exist.
+2. The product is checked against all 604 existing entries by normalised name, because 16 deliberate cross listings already exist.
 
 3. If an MCP is claimed, the URL is fetched. A 200 passes. A 401 passes, because an auth gated live endpoint is still a live endpoint. A 403 is inconclusive and gets re-checked by hand. A 404 means the claim fails and the entry is recorded none-found, not official.
 
@@ -62,6 +62,6 @@ Target turnaround is 14 days.
 
 **If your tool is already listed and something is wrong**
 
-Open an issue on the same repo naming the entry and the field. A correction is the most valuable thing anyone can send. The whole reason this is free and public is that other operators correct it faster than one person can re-check 559 entries.
+Open an issue on the same repo naming the entry and the field. A correction is the most valuable thing anyone can send. The whole reason this is free and public is that other operators correct it faster than one person can re-check 604 entries.
 
 If you would rather not be crawled, say so and you are removed from the crawl. The entry keeps its documentation URL and a note. It does not get delisted, because delisting for asking would be a punishment and this directory does not punish.
