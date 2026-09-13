@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 33 of 64, counted
+# RevOps infrastructure tools with MCP servers: 34 of 68, counted
 
-> 33 of the 64 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 34 of the 68 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 5 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 33 of 694**
+**List · 34 of 739**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 33 of 64 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 34 of 68 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 5 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -105,6 +105,9 @@ OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every M
 | [Syncari](../tools/syncari.md)
 syncari.com | [Official MCP](../mcp/official.md) | [https://mcp.syncari.com/mcp](https://mcp.syncari.com/mcp) +1 more | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
+| [Helm AI](../tools/helm-ai.md)
+gethelm.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Kaanha AI](../tools/kaanha-ai.md)
 kaanha.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -118,7 +121,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 zetadeck.com | [Community MCP](../mcp/community.md) | [https://zetadeck.com](https://zetadeck.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 31 in this category
+### The other 34 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -130,6 +133,8 @@ default.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/ente
 openprisetech.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [AgencyAnalytics](../tools/agencyanalytics.md)
 agencyanalytics.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Ambral](../tools/ambral.md)
+ambral.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Apsona](../tools/apsona.md)
 apsona.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Boomi](../tools/boomi.md)
@@ -144,6 +149,8 @@ getdex.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkn
 drymerge.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Dust](../tools/dust.md)
 dust.tt | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Flowla](../tools/flowla.md)
+flowla.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Glean](../tools/glean.md)
 glean.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [GoLinks](../tools/golinks.md)
@@ -182,6 +189,8 @@ torchlite.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 tray.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Vertify](../tools/vertify.md)
 vertify.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Whalesync](../tools/whalesync.md)
+whalesync.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Windsor.ai](../tools/windsor-ai.md)
 windsor.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Workato](../tools/workato.md)
@@ -198,4 +207,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 694 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 739 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [natterbox.com](https://natterbox.com) · entry id 02-natterbox · source 02-engagement-outbound.md line 1886
+Vendor: [natterbox.com](https://natterbox.com) · entry id 02-natterbox · source 02-engagement-outbound.md line 2008
 
 **What it does**
 Voice AI That Actually Works Curious to hear what an AI Agent would sound like for your business? Fill in the form below to create an AI Agent for your company in seconds. Deploy AI in minutes not months You don't need a data transformation project to start using AI in your contact center. With […]
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 263 of 694 entries are.
+The mcp_url field is empty on this entry. 286 of 739 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-391 of 694 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+436 of 739 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-494 of 694 entries are in the same position. Blank is legal and it is published as blank.
+510 of 739 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-423 of 694 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+468 of 739 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -104,7 +104,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 02-engagement-outbound.md
 
-- **Source line**: 1886
+- **Source line**: 2008
 
 - **Tier**: RESEARCHED
 

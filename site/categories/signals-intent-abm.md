@@ -1,6 +1,6 @@
-# Signals & Intent: 55 tools, 20 with an official MCP server
+# Signals & Intent: 58 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 55 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 58 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,24 +16,24 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 55
+- **entries in this file**: 58
 
 - **Official MCP**: 20
-- **Community MCP**: 3
+- **Community MCP**: 4
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 29
+- **No MCP found**: 31
 
 - **ship a CLI (official) as of 2026-09-12**: 2
 
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 26
+- **Gate unknown**: 29
 
-Source file: 05-signals-intent-abm.md · content sha256 2ab88b1bb2b070a4... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 f4f1163e0ffb3b8d... · counts reconciled against tools_recount.py at build time.
 
-- [The 23 with an MCP server](../lists/mcp-signals-intent-abm.md)
+- [The 24 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md)
@@ -86,6 +86,8 @@ Source file: 05-signals-intent-abm.md · content sha256 2ab88b1bb2b070a4... · c
 
 - [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md) github.com Daily job-change trigger for Claude Code. Detects changes the day they happen via LinkedIn MCP (Zevari) - not 30-90 days later like Apollo/Clay. Pipedrive + Instantly + Slack. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md) github.com MCP server for GTM Hiring Signal Scraper. Detects GTM hiring activity from company career pages via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-hiring-signal-scraper [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · CLI: cm-i (community)
 
 - [Vector (vector.co)](../tools/vector.md) vector.co Identifies named individual buyers (not just companies) by resolving anonymous website visitors and ad-click engagement to real contacts, then tracks their behavior (job changes, CRM activity, ad engagement)... [MCP unknown](../mcp/unknown.md) · [Paid, self-serve](../gates/paid.md) · CLI: vector_cli (community)
@@ -124,6 +126,8 @@ Source file: 05-signals-intent-abm.md · content sha256 2ab88b1bb2b070a4... · c
 
 - [Lift AI](../tools/lift-ai.md) lift-ai.com Lift AI scores the behavioral context of every website visitor - anonymous or identified - with a real-time buyer probability score. 85%+ accuracy. One score feeds your entire GTM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [LiftIQ](../tools/liftiq.md) liftiq.com Qualified leads and calls with pay-per-performance pricing. Owned properties, in-house DSP, and strategic partnerships delivering $100M+ annually. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [MiQ](../tools/miq.md) wearemiq.com Do more with your data to reach new customers, in new ways, wherever they are. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Modash](../tools/modash.md) modash.io High performing marketing teams use Modash to find, analyze and monitor influencers at scale all over the world. Join them today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -143,6 +147,8 @@ Source file: 05-signals-intent-abm.md · content sha256 2ab88b1bb2b070a4... · c
 - [Semrush](../tools/semrush.md) semrush.com Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Sitefire](../tools/sitefire.md) sitefire.ai Sitefire helps brands market their products to AI agents. Track AI visibility, identify what gets cited, and ship brand-aware content that ranks in generative answers. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Syncly](../tools/syncly.md) syncly.app Syncly is the AI-native social intelligence built for fast-moving brands. Listen across every platform, discover the right creators, and turn them into revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [TechniQ ABM](../tools/techniq-abm.md) techniqabm.com TechniQ helps B2B teams uncover the best way into their most important accounts and turns that intelligence into messaging and ready-to-use Sales & Marketing assets. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

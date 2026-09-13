@@ -1,6 +1,6 @@
-# Data & Enrichment: 109 tools, 42 with an official MCP server
+# Data & Enrichment: 118 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 109 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 118 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 109
+- **entries in this file**: 118
 
 - **Official MCP**: 42
-- **Community MCP**: 21
-- **No MCP found**: 46
+- **Community MCP**: 24
+- **No MCP found**: 52
 
 - **ship a CLI (official) as of 2026-09-12**: 8
 
@@ -28,11 +28,11 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 60
+- **Gate unknown**: 69
 
-Source file: 01-data-enrichment.md · content sha256 d4bcc7713e9dd0f0... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 9b1fe010e0a7978b... · counts reconciled against tools_recount.py at build time.
 
-- [The 63 with an MCP server](../lists/mcp-data-enrichment.md)
+- [The 66 with an MCP server](../lists/mcp-data-enrichment.md)
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
@@ -139,15 +139,21 @@ Source file: 01-data-enrichment.md · content sha256 d4bcc7713e9dd0f0... · coun
 
 - [JobDataLake MCP](../tools/jobdatalake-mcp.md) github.com MCP server for JobDataLake - search 1M+ enriched job listings from AI tools - echojobsio/jdl-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [LinkedIn MCP by gtm-api](../tools/linkedin-mcp-by-gtm-api.md) gtm-api.com A LinkedIn MCP server lets an AI agent search, connect, message and enrich on LinkedIn. The agent-native one is gtm-api.com: add one key to Claude, Cursor or ChatGPT. Across 20,000+ accounts, gtm-api.com... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Mamba Firmographic Enricher MCP](../tools/mamba-firmographic-enricher-mcp.md) github.com MCP server for the Mamba Labs Company Firmographic Enricher actor: employees, industry, HQ, founded, revenue, logo from a domain. Clay-ready. - mambalabsdev/mcp-company-firmographic-enricher [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mamba GTM Job Discovery MCP](../tools/mamba-gtm-job-discovery-mcp.md) mambabuilt.com Developer tools for GTM data enrichment. Apify actors and MCP servers for hiring signals, tech stack detection, ICP scoring, firmographics, deliverability, and company intelligence. Pay per result, flat JSON... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Mamba GTM Suite MCP](../tools/mamba-gtm-suite-mcp.md) github.com MCP server for the full Mamba Labs GTM Suite. All six GTM actors as tools in one server via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-suite [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mamba Tech Stack Signal MCP](../tools/mamba-tech-stack-signal-mcp.md) github.com MCP server for GTM Tech Stack Signal Enrichment. Detects CRM, sequencer, and marketing automation tools from a company's public website via Apify. Clay-ready output. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Potarix Enricher](../tools/potarix-enricher.md) github.com MCP server for Potarix Enricher company and email lookup tools - Potarix/potarix-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Prism Enrichment](../tools/prism-enrichment.md) enrich.gocreativeai.com Prism returns company, web search, scrape, places and contact data for any domain in one keyless call - about 12x cheaper than buying each category separately. Pay per call in USDC on Base or Solana. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Prospector MCP by dremnik](../tools/prospector-mcp-by-dremnik.md) github.com Clay-as-an-MCP-server - B2B sales intelligence. Contribute to dremnik/prospector development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [ScraperCity](../tools/scrapercity.md) github.com ScraperCity CLI & MCP Server - B2B lead generation for AI agents. 20+ scrapers accessible via CLI, MCP, or direct API. - scrapercity/scrapercity-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -175,6 +181,8 @@ Source file: 01-data-enrichment.md · content sha256 d4bcc7713e9dd0f0... · coun
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Anglera](../tools/anglera.md) anglera.com Anglera automatically enriches product data for retailers and distributors. Transform messy data into a structured catalog optimized for discovery. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [B2B IQ](../tools/b2b-iq.md) b2b-iq.com B2B IQ is a trusted B2B data and Intelligence & solutions provider helping Global 1000 enterprises and their agencies fuel demand & growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Catch-all Verifier](../tools/catch-all-verifier.md) catchallverifier.com Catch All Verifier is real-time risky email verification platforms that can verify all your catch all (accept-all), even unknown emails as well. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -191,13 +199,23 @@ Source file: 01-data-enrichment.md · content sha256 d4bcc7713e9dd0f0... · coun
 
 - [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Enrich-CRM](../tools/enrich-crm.md) enrich-crm.com Verified emails, direct phones, job changes & buying signals - real-time CRM enrichment, not a stale database. GDPR-native, EU servers. Free plan, from €29/month. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Enrichley](../tools/enrichley.md) enrichley.io Enrichley finds the companies that look like your best customers, the decision-makers inside them, and verified emails to reach them, on one platform from target account to outreach. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Firmable](../tools/firmable.md) firmable.com Firmable's AI-native platform maps 15m+ companies and 135m+ contacts across the US, Canada and APAC. We don't just give you data, we give you direction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Forager](../tools/forager.md) forager.ai Access 200M+ verified mobile numbers and 800M+ person & company records. Real-time contact intelligence with 99% accuracy. Integrate with HubSpot, Salesforce & more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Fusable](../tools/fusable.md) fusable.com Stronger data. Smarter decisions. Greater impact. Buy, sell, finance, and insure with greater speed and intelligence.Explore Fusable Why Fusable?Specialized data meets decades of industry experience. We help... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [HitHorizons](../tools/hithorizons.md) hithorizons.com Database of 80M+ European companies. Company statistics, profiles, industry data, sales information, number of employees. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [iCapture](../tools/icapture.md) cvent.com Cvent provides software to planners for event management, marketing and attendee engagement, and also helps hotels win business through our sourcing platforms. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Icypeas](../tools/icypeas.md) icypeas.com Icypeas helps B2B teams find and verify professional email addresses, enrich leads with accurate data, and identify LinkedIn profiles at scale - via web app or fast API. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Integrate](../tools/integrate.md) integrate.com Integrate's lead management platform makes every lead clean, compliant, and actionable, so B2B marketers can focus on generating revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

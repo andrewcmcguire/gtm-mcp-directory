@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 63 of 109, counted
+# Data & Enrichment tools with MCP servers: 66 of 118, counted
 
-> 63 of the 109 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 21 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 66 of the 118 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 24 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 63 of 694**
+**List · 66 of 739**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 63 of 109 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 21 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 66 of 118 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 24 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -168,11 +168,17 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [JobDataLake MCP](../tools/jobdatalake-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [LinkedIn MCP by gtm-api](../tools/linkedin-mcp-by-gtm-api.md)
+gtm-api.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Firmographic Enricher MCP](../tools/mamba-firmographic-enricher-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba GTM Job Discovery MCP](../tools/mamba-gtm-job-discovery-mcp.md)
 mambabuilt.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Mamba GTM Suite MCP](../tools/mamba-gtm-suite-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Tech Stack Signal MCP](../tools/mamba-tech-stack-signal-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-gtm-tech-stack-s...](https://github.com/mambalabsdev/mcp-gtm-tech-stack-signal-scraper) | Auth not recorded
@@ -182,6 +188,9 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/Potarix/
 blank | [Gate unknown](../gates/unknown.md) |
 | [Prism Enrichment](../tools/prism-enrichment.md)
 enrich.gocreativeai.com | [Community MCP](../mcp/community.md) | [https://enrich.gocreativeai.com](https://enrich.gocreativeai.com) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Prospector MCP by dremnik](../tools/prospector-mcp-by-dremnik.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/dremnik/prospector](https://github.com/dremnik/prospector) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [ScraperCity](../tools/scrapercity.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
@@ -208,7 +217,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 zooq.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 46 in this category
+### The other 52 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -224,6 +233,8 @@ findymail.com | [No MCP found](../mcp/none-found.md) | [Free to start](../gates/
 hubspot.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Cognism](../tools/cognism.md)
 cognism.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Anglera](../tools/anglera.md)
+anglera.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [B2B IQ](../tools/b2b-iq.md)
 b2b-iq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Catch-all Verifier](../tools/catch-all-verifier.md)
@@ -240,14 +251,24 @@ companyurlfinder.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../
 companyenrich.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Dealroom](../tools/dealroom.md)
 dealroom.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Enigma](../tools/enigma.md)
+enigma.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enrich-CRM](../tools/enrich-crm.md)
 enrich-crm.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enrichley](../tools/enrichley.md)
 enrichley.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Firmable](../tools/firmable.md)
+firmable.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Forager](../tools/forager.md)
+forager.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Fusable](../tools/fusable.md)
 fusable.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [HitHorizons](../tools/hithorizons.md)
+hithorizons.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [iCapture](../tools/icapture.md)
 cvent.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Icypeas](../tools/icypeas.md)
+icypeas.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Integrate](../tools/integrate.md)
 integrate.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Leadbay](../tools/leadbay.md)
@@ -318,4 +339,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 694 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 739 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

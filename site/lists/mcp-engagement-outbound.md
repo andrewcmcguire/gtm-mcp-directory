@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 33 of 92, counted
+# Engagement & Outbound tools with MCP servers: 33 of 98, counted
 
-> 33 of the 92 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 10 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 33 of the 98 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 10 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 33 of 694**
+**List · 33 of 739**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 33 of 92 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 10 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 33 of 98 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 10 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -118,7 +118,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 warmysender.com | [Community MCP](../mcp/community.md) | [https://warmysender.com](https://warmysender.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 59 in this category
+### The other 65 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -144,6 +144,8 @@ act-on.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkn
 activecampaign.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [AgentMail](../tools/agentmail.md)
 agentmail.to | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Atlog](../tools/atlog.md)
+atlog.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Banabo](../tools/banabo.md)
 banabo.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Birdie](../tools/birdie.md)
@@ -154,6 +156,10 @@ withblaze.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 brevo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Cohesive](../tools/cohesive.md)
 getcohesiveai.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [EmailBison](../tools/emailbison.md)
+emailbison.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Emailchaser](../tools/emailchaser.md)
+emailchaser.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [FrontSpin](../tools/frontspin.md)
 frontspin.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Fuse AI](../tools/fuse-ai.md)
@@ -166,6 +172,8 @@ imagineai.me | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 instaagent.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [JustAI](../tools/justai.md)
 getjust.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [KrispCall](../tools/krispcall.md)
+krispcall.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Kular](../tools/kular.md)
 kular.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Kuli](../tools/kuli.md)
@@ -216,6 +224,8 @@ sendblue.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 sendoso.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SharpSpring](../tools/sharpspring.md)
 sharpspring.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Smobi](../tools/smobi.md)
+smobi.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SMS-Magic](../tools/sms-magic.md)
 sms-magic.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Sprites](../tools/sprites.md)
@@ -242,6 +252,8 @@ upcall.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkn
 getventa.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [WhatsApp Business](../tools/whatsapp-business.md)
 business.whatsapp.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Zaymo](../tools/zaymo.md)
+zaymo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -254,4 +266,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 694 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 739 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

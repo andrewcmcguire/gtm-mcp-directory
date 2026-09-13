@@ -1,6 +1,6 @@
-# Engagement & Outbound: 92 tools, 23 with an official MCP server
+# Engagement & Outbound: 98 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 92 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 98 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,12 +16,12 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 92
+- **entries in this file**: 98
 
 - **Official MCP**: 23
 - **Community MCP**: 10
 - **MCP unknown**: 2
-- **No MCP found**: 57
+- **No MCP found**: 63
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
@@ -29,9 +29,9 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 60
+- **Gate unknown**: 66
 
-Source file: 02-engagement-outbound.md · content sha256 93b93987f95bce20... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 f895ea48de3bea75... · counts reconciled against tools_recount.py at build time.
 
 - [The 33 with an MCP server](../lists/mcp-engagement-outbound.md)
 
@@ -126,6 +126,8 @@ Source file: 02-engagement-outbound.md · content sha256 93b93987f95bce20... · 
 
 - [AgentMail](../tools/agentmail.md) agentmail.to AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Atlog](../tools/atlog.md) atlog.ai Atlog is TCPA-compliant voice AI for collections and customer service. Automate outbound calls, recover payments, and stay legally protected. Backed by Y Combinator. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Banabo](../tools/banabo.md) banabo.io Run content programs. See what's actually working. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Birdie](../tools/birdie.md) getbirdie.io AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -135,6 +137,10 @@ Source file: 02-engagement-outbound.md · content sha256 93b93987f95bce20... · 
 - [Brevo](../tools/brevo.md) brevo.com Brevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Cohesive](../tools/cohesive.md) getcohesiveai.com Cohesive automates prospecting, outreach, follow-up, and lead management for companies selling to local businesses, property owners, and commercial facilities. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [EmailBison](../tools/emailbison.md) emailbison.com Email sequencing, private warmup, API, webhooks, and unlimited lead storage [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Emailchaser](../tools/emailchaser.md) emailchaser.com Emailchaser is all-in-one cold email software: find and verify leads, connect unlimited inboxes and automate follow-ups for one flat rate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [FrontSpin](../tools/frontspin.md) frontspin.com FrontSpin is a cloud-based sales communication tool that helps you reach up to 3x more prospects and close more deals. Learn more now. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -147,6 +153,8 @@ Source file: 02-engagement-outbound.md · content sha256 93b93987f95bce20... · 
 - [InstaAgent](../tools/instaagent.md) instaagent.com Scale social marketing across hundreds of personas [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [JustAI](../tools/justai.md) getjust.ai An AI-first modern enterprise marketing stack that sets you in an always-on, set-and-forget motion. Increase your experimentation velocity and keep your team lean! Say goodbye to manual campaign management. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [KrispCall](../tools/krispcall.md) krispcall.com Manage calls, SMS, and customer conversations across 100+ countries with AI-powered tools and CRM integrations. Trusted by 9,000+ businesses worldwide. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Kular](../tools/kular.md) kular.ai Kular AI helps businesses generate qualified leads through AI-driven outreach solutions. Pay only for results with a simple setup and personalized campaigns. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -198,6 +206,8 @@ Source file: 02-engagement-outbound.md · content sha256 93b93987f95bce20... · 
 
 - [SharpSpring](../tools/sharpspring.md) sharpspring.com Fuel your growth & drive more leads with SharpSpring's sales, marketing automation, & CRM features in an all-in-one, affordable Revenue Growth Platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Smobi](../tools/smobi.md) smobi.com Smobi is an AI-powered RCS & SMS marketing platform: branded, interactive texts with carousels, surveys, AI agents, built-in compliance, and SMS fallback. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [SMS-Magic](../tools/sms-magic.md) sms-magic.com SMS-Magic's business text messaging platform is top rated for Marketing, Sales, Support. Turn CRMs like Salesforce & Zoho into powerful conversational messaging app. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Sprites](../tools/sprites.md) sprites.ai Sprites runs your ads on autopilot: Google, Meta, LinkedIn, TikTok, Reddit, ChatGPT. Get better ROI and cut the agency retainer. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -223,3 +233,5 @@ Source file: 02-engagement-outbound.md · content sha256 93b93987f95bce20... · 
 - [Venta AI](../tools/venta-ai.md) getventa.ai Find and qualify companies, reach the right decision-makers and reactivate cold deals - in one platform. Developed in the EU, hosted in Germany. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [WhatsApp Business](../tools/whatsapp-business.md) business.whatsapp.com Grow customer engagement, marketing, sales and customer service success with business messaging on the platform with more than 2 billion users around the world. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Zaymo](../tools/zaymo.md) zaymo.com Interactivity converts. Embed interactive, shoppable checkout in your emails. No redirect, no friction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

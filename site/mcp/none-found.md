@@ -1,6 +1,6 @@
-# No MCP found: 333 GTM tools, counted
+# No MCP found: 356 GTM tools, counted
 
-> 333 of 694 GTM tools in this directory are no mcp found. No server was found at the time of the check. That is a statement about the search, not a promise that none...
+> 356 of 739 GTM tools in this directory are no mcp found. No server was found at the time of the check. That is a statement about the search, not a promise that none...
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 No server was found at the time of the check. That is a statement about the search, not a promise that none exists.
 
-333 of 694 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+356 of 739 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [BetterContact](../tools/bettercontact.md) bettercontact.rocks A waterfall enrichment orchestrator that queries 20+ third-party email/phone data providers in sequence for a given contact, stopping once a verified match is found, rather than sourcing its own proprietary... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -160,9 +160,17 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [Ambition](../tools/ambition.md) ambition.com Drive revenue predictability through structured coaching, AI-powered revenue insights, and operationalized productivity. Learn more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
+- [Ambral](../tools/ambral.md) ambral.com AI for account management and revenue growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Anglera](../tools/anglera.md) anglera.com Anglera automatically enriches product data for retailers and distributors. Transform messy data into a structured catalog optimized for discovery. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Apsona](../tools/apsona.md) apsona.com All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside Salesforce and saves hours every week. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
 - [Athean](../tools/athean.md) athean.com One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
+- [Atlog](../tools/atlog.md) atlog.ai Atlog is TCPA-compliant voice AI for collections and customer service. Automate outbound calls, recover payments, and stay legally protected. Backed by Y Combinator. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [AviaryAI](../tools/aviaryai.md) helloaviary.ai AviaryAI builds AI voice agents for credit unions, banks, and insurance providers. Automate outbound calls at scale - collections, onboarding, loan servicing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Avina](../tools/avina.md) avina.io Avina is an AI-powered go-to-market platform that helps B2B sales teams find, prioritize, and engage high-intent prospects using real-time buying signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -258,7 +266,15 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [eBrandValue](../tools/ebrandvalue.md) ebrandvalue.com eBrandValue enables you to track the value of your brand in real-time. Social Media Analytics, Sales Prediction, Influencer Studies, Crisis & Reputation Support 24/7. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [Emailable](../tools/emailable.md) emailable.com Emailable is the email verification service trusted by 300,000+ businesses to confirm addresses are real and safe to send to, with a 99% deliverability guarantee. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
+
+- [EmailBison](../tools/emailbison.md) emailbison.com Email sequencing, private warmup, API, webhooks, and unlimited lead storage [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Emailchaser](../tools/emailchaser.md) emailchaser.com Emailchaser is all-in-one cold email software: find and verify leads, connect unlimited inboxes and automate follow-ups for one flat rate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Enablism](../tools/enablism.md) enablism.com AI-powered value enablement platform that helps GTM & CS teams build, share, and track interactive value models across the entire customer journey. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+
+- [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Enrich-CRM](../tools/enrich-crm.md) enrich-crm.com Verified emails, direct phones, job changes & buying signals - real-time CRM enrichment, not a stale database. GDPR-native, EU servers. Free plan, from €29/month. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -266,13 +282,19 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [Ergo](../tools/ergo.md) joinergo.com Ergo turns conversations into automatic follow-ups, CRM updates, coaching, and forecasting. Reps spend less time on admin work, deals stop slipping. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [Firmable](../tools/firmable.md) firmable.com Firmable's AI-native platform maps 15m+ companies and 135m+ contacts across the US, Canada and APAC. We don't just give you data, we give you direction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Fixture](../tools/fixture.md) fixture.app Fixture is customer engagement for the AI era. Sign up for early access. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Flockjay](../tools/flockjay.md) flockjay.com Flockjay is a knowledge-sharing platform for the growth and development of sales teams. Our goal is to help sales leaders capture and share top reps' best practices so the entire team can do their best work. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
+- [Flowla](../tools/flowla.md) flowla.com Flowla is the execution layer your revenue stack feeds into. It turns your best rep's instincts into a system that reads every signal and runs the next move. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+
 - [Floworks](../tools/floworks.md) floworks.ai Floworks AI deploys autonomous AI agents - Alisha, Jesse, Linda & Sam - that prospect, personalise emails, handle replies and book meetings so your team can focus on closing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md) · CLI: folderly (community)
+
+- [Forager](../tools/forager.md) forager.ai Access 200M+ verified mobile numbers and 800M+ person & company records. Real-time contact intelligence with 99% accuracy. Integrate with HubSpot, Salesforce & more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Forecastable](../tools/forecastable.md) forecastable.com Forecastable transforms partnerships into co-sell engines your CRO can forecast, your CFO can defend, and your CEO can scale. Live in 30 days. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
@@ -283,6 +305,8 @@ No server was found at the time of the check. That is a statement about the sear
 - [Frontrunner](../tools/frontrunner.md) usefr.com AI agents for GTM. Frontrunner connects your GTM stack, gives agents the context to act, and keeps your team running in the same direction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [FrontSpin](../tools/frontspin.md) frontspin.com FrontSpin is a cloud-based sales communication tool that helps you reach up to 3x more prospects and close more deals. Learn more now. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Fullstory](../tools/fullstory.md) fullstory.com Turn your data from a rear-view mirror into a forward-facing guidance system. Fullstory captures complete user behavioral context so your AI stack can see, act, and improve in near real time. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Fusable](../tools/fusable.md) fusable.com Stronger data. Smarter decisions. Greater impact. Buy, sell, finance, and insure with greater speed and intelligence.Explore Fusable Why Fusable?Specialized data meets decades of industry experience. We help... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -300,6 +324,8 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [Hindsight](../tools/hindsight.md) usehindsight.com Hindsight builds a verified memory of every opportunity, finds what worked in comparable deals, and applies that experience across your team and GTM agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
+- [HitHorizons](../tools/hithorizons.md) hithorizons.com Database of 80M+ European companies. Company statistics, profiles, industry data, sales information, number of employees. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Hive](../tools/hive.md) hive.co Elevate your event marketing with Hive - the custom-built platform for live events. Automate campaigns, measure success, and sell more tickets effortlessly. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [HockeyStack](../tools/hockeystack.md) hockeystack.com HockeyStack is an AI powered B2B Revenue Data Platform unifying marketing, product, and sales data, bridging PLG and sales led with attribution and AI predictive insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
@@ -307,6 +333,8 @@ No server was found at the time of the check. That is a statement about the sear
 - [Hyperbound](../tools/hyperbound.md) hyperbound.ai AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI buyer in minutes, covering cold calls, discovery, demos, and post-sale conversations, with call scoring... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [iCapture](../tools/icapture.md) cvent.com Cvent provides software to planners for event management, marketing and attendee engagement, and also helps hotels win business through our sourcing platforms. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Icypeas](../tools/icypeas.md) icypeas.com Icypeas helps B2B teams find and verify professional email addresses, enrich leads with accurate data, and identify LinkedIn profiles at scale - via web app or fast API. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Imagine AI](../tools/imagine-ai.md) imagineai.me Imagine AI is a content agent built to generate revenue at high-growth companies. It creates coordinated content precisely for your ICP and maps your content to your pipeline and closed revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -336,6 +364,8 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [Karumi](../tools/karumi.md) karumi.ai Karumi is an AI-powered product expert that joins your video calls to deliver live product demos, answer questions, and guide customers in real time. Transform sales, support, and internal training with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
+- [KrispCall](../tools/krispcall.md) krispcall.com Manage calls, SMS, and customer conversations across 100+ countries with AI-powered tools and CRM integrations. Trusted by 9,000+ businesses worldwide. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [Kronologic](../tools/kronologic.md) kronologic.com Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's behalf and negotiates meeting times over email, aimed mainly at customer-expansion motions (renewals,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
 - [Kubaru](../tools/kubaru.md) kubaru.io Are you looking for a better way to assign leads, cases, and other objects in Salesforce? Kubaru is the most popular assignment app on the AppExchange. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
@@ -364,6 +394,8 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [Lift AI](../tools/lift-ai.md) lift-ai.com Lift AI scores the behavioral context of every website visitor - anonymous or identified - with a real-time buyer probability score. 85%+ accuracy. One score feeds your entire GTM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [LiftIQ](../tools/liftiq.md) liftiq.com Qualified leads and calls with pay-per-performance pricing. Owned properties, in-house DSP, and strategic partnerships delivering $100M+ annually. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+
 - [Lightmeter](../tools/lightmeter.md) lightmeter.io Managed Sales Email Delivery For Cold Outreach [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Limadata](../tools/limadata.md) limadata.com Connect your AI agents to real-time web intelligence, B2B data, and live signals through one unified API. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -387,6 +419,8 @@ No server was found at the time of the check. That is a statement about the sear
 - [Matik](../tools/matik.md) matik.io Matik's AI automates the creation of personalized presentations, documents, and reports directly from your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Meer](../tools/meer.md) meerapi.com Automatically screen your lead data against Do Not Call lists to avoid penalties and improve rep performance. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
+
+- [MeetRecord](../tools/meetrecord.md) meetrecord.com Outdoo is the enterprise AI roleplay and training platform for customer-facing teams, connecting AI Tutor-led learning to roleplay practice and real conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Memoir](../tools/memoir.md) trymemoir.ai Software ships faster than teams can explain it. Memoir closes the gap. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -520,7 +554,11 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [ReverseContact](../tools/reversecontact.md) reversecontact.com Search, enrich, and look up any person or company through one B2B data API. 800M+ profiles, 80%+ match rate, GDPR-ready. Start for free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
 - [Ringover](../tools/ringover.md) ringover.com Connect your teams, clients and partners no matter where they are through quality calling, messaging and collaboration enriched by AI. Ringover consolidates all communication and collaboration tools into a... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Rivia.AI](../tools/rivia-ai.md) rivia.ai Show, onboard, and grow your product with interactive demos, smart onboarding, and AI-powered insights. All in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [RocketSDR](../tools/rocketsdr.md) rocketsdr.ai Deploy AI agents that find perfect prospects, engage authentically, and book meetings while you focus on closing deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
@@ -572,6 +610,8 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [SMARTe](../tools/smarte.md) smarte.pro Actionable Sales Intelligence built over 289M+ global B2B contacts. Access verified mobile numbers and business emails for prospecting, trusted by Sales Leaders. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [Smobi](../tools/smobi.md) smobi.com Smobi is an AI-powered RCS & SMS marketing platform: branded, interactive texts with carousels, surveys, AI agents, built-in compliance, and SMS fallback. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
 - [SMS-Magic](../tools/sms-magic.md) sms-magic.com SMS-Magic's business text messaging platform is top rated for Marketing, Sales, Support. Turn CRMs like Salesforce & Zoho into powerful conversational messaging app. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Sparklane](../tools/sparklane.md) sparklane-group.com Ciblages, recommandations, contacts... Découvrez la meilleure solution de génération de leads et de ciblages marketing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
@@ -601,6 +641,8 @@ No server was found at the time of the check. That is a statement about the sear
 - [SurveyMonkey](../tools/surveymonkey.md) surveymonkey.com Easily create surveys and forms with AI and templates for employee and customer feedback, market research, event registrations and more. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [Survicate](../tools/survicate.md) survicate.com A customer feedback platform that lets you survey every channel, automate feedback flows, and uncover customer insights from multiple sources [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+
+- [Syncly](../tools/syncly.md) syncly.app Syncly is the AI-native social intelligence built for fast-moving brands. Listen across every platform, discover the right creators, and turn them into revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Synthio Labs](../tools/synthio-labs.md) synthiolabs.com The intelligence layer behind modern life sciences engagement, enabling compliant, continuous conversations across HCPs, patients, and field teams [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -660,6 +702,8 @@ No server was found at the time of the check. That is a statement about the sear
 
 - [VWO](../tools/vwo.md) vwo.com VWO is the market-leading digital experience optimization solution that fast-growing companies use for experimentation & conversion rate optimization. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
+- [Whalesync](../tools/whalesync.md) whalesync.com Sync Airtable, Notion, HubSpot, Webflow, and more with real-time two-way data sync. Edit in one app and watch changes appear everywhere, no code needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+
 - [WhatsApp Business](../tools/whatsapp-business.md) business.whatsapp.com Grow customer engagement, marketing, sales and customer service success with business messaging on the platform with more than 2 billion users around the world. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
@@ -667,6 +711,8 @@ No server was found at the time of the check. That is a statement about the sear
 - [Wolfia](../tools/wolfia.md) wolfia.com Wolfia answers security questionnaires, DDQs, and RFPs, reviews and redlines contracts, fills vendor portals, and runs your trust center. Cited answers from your own docs, 10x faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
 - [Workato](../tools/workato.md) workato.com Workato connects apps, data, workflows, and AI agents on one enterprise platform to securely orchestrate, automate, and govern work. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+
+- [Zaymo](../tools/zaymo.md) zaymo.com Interactivity converts. Embed interactive, shoppable checkout in your emails. No redirect, no friction. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Zeliq](../tools/zeliq.md) zeliq.com Zeliq centralizes prospecting, data enrichment, and multi-channel outreach. Find qualified leads, contact them, and manage your pipeline in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 

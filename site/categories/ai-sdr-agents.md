@@ -1,6 +1,6 @@
-# AI SDRs: 41 tools, 8 with an official MCP server
+# AI SDRs: 44 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 41 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 44 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 41
+- **entries in this file**: 44
 
 - **Official MCP**: 8
-- **Community MCP**: 3
-- **No MCP found**: 30
+- **Community MCP**: 4
+- **No MCP found**: 32
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 21
+- **Gate unknown**: 24
 
-Source file: 04-ai-sdr-agents.md · content sha256 97495844180e11a4... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 88f352129f682cc1... · counts reconciled against tools_recount.py at build time.
 
-- [The 11 with an MCP server](../lists/mcp-ai-sdr-agents.md)
+- [The 12 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 - [Run an email sequence](../jobs/run-email-sequence.md)
@@ -57,6 +57,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 97495844180e11a4... · counts
 - [Unify](../tools/unify.md) unifygtm.com A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and run multi-channel sequences triggered by intent signals... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: unify-cli (community)
 
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md) github.com Fully autonomous AI sales agent on WhatsApp Business API. Groq LLM · Firebase Cloud Functions · Firestore · Google Sheets ETL · MCP server · finite-state lead pipeline from cold outreach to qualified handoff -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -84,6 +86,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 97495844180e11a4... · counts
 
 - [Athean](../tools/athean.md) athean.com One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [AviaryAI](../tools/aviaryai.md) helloaviary.ai AviaryAI builds AI voice agents for credit unions, banks, and insurance providers. Automate outbound calls at scale - collections, onboarding, loan servicing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Buzz](../tools/buzz.md) buzz.ai AI Employee for outbound - email, LinkedIn, call [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Cardinal](../tools/cardinal.md) trycardinal.com Revenue agents for high-growth companies [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -105,6 +109,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 97495844180e11a4... · counts
 - [Octolane AI](../tools/octolane-ai.md) octolane.com Octolane runs an AI agent on every account, trained on how your best revenue teams think and act. Human judgment, deployed at scale, and it's yours to keep. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [OutRival](../tools/outrival.md) outrival.com Build conversational AI agents with OutRival's no-code platform to enhance customer interactions, solve real problems, and drive revenue. Book a demo today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [RocketSDR](../tools/rocketsdr.md) rocketsdr.ai Deploy AI agents that find perfect prospects, engage authentically, and book meetings while you focus on closing deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

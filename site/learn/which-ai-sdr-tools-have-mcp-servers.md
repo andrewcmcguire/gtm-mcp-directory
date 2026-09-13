@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 11 of 41, counted
+# AI SDR tools with MCP servers: 12 of 44, counted
 
-> 11 of the 41 ai sdrs tools in this directory have an MCP server: 8 official and 3 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 12 of the 44 ai sdrs tools in this directory have an MCP server: 8 official and 4 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-11 of the 41 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 3 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
+12 of the 44 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 4 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
 
 This is the inversion in one table. A category sold entirely on autonomous software is the least callable by anybody else's autonomous software, and the gap is not close.
 
@@ -44,12 +44,14 @@ Historically a lead-scoring/qualification product; the vendor domain now redirec
 A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and...
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) Community MCP · Enterprise only
 Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound...
+- [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md) Community MCP · Gate unknown
+Fully autonomous AI sales agent on WhatsApp Business API. Groq LLM · Firebase Cloud Functions · Firestore · Google Sheets ETL · MCP server ·...
 - [Vruum](../tools/vruum.md) Community MCP · Gate unknown
 The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it...
 
 ## The rest of the category
 
-30 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+32 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Landbase](../tools/landbase.md) No MCP found · Free to start
 A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous...
@@ -76,7 +78,7 @@ Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, 
 - [Athean](../tools/athean.md) No MCP found · Gate unknown
 One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface.
 
-18 more are on the linked page. The cut is the display limit, not a ranking.
+20 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -85,9 +87,9 @@ One AI for all of go-to-market. Hook up your data, configure your agents, and ex
 | [Free to start](../gates/free.md) | 2 |
 | [Paid, self-serve](../gates/paid.md) | 8 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 21 |
+| [Gate unknown](../gates/unknown.md) | 24 |
 
-Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 97495844180e11a4...
+Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 88f352129f682cc1...
 
 ## Sources
 

@@ -64,13 +64,13 @@ api_gate, verbatim from the file:
 
 unknown - no API or MCP mentioned anywhere on the public site; integration is limited to connecting existing calendar/task-manager accounts, not a developer-facing API.
 
-391 of 694 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+436 of 739 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-494 of 694 entries are in the same position. Blank is legal and it is published as blank.
+510 of 739 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -92,7 +92,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 694 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 739 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

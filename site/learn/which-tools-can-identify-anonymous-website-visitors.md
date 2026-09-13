@@ -26,7 +26,7 @@ Check your own jurisdiction and your own privacy notice before wiring any of the
 
 | Measure | Count | Of what |
 |---|---|---|
-| Entries tagged identify-anonymous-website-visitor | 11 | of 694 directory entries |
+| Entries tagged identify-anonymous-website-visitor | 11 | of 739 directory entries |
 | Distinct products | 10 | the rest are cross listings |
 | Official MCP server | 8 | vendor built and maintained |
 | Community MCP server | 0 | built by somebody else |

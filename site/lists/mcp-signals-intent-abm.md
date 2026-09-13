@@ -1,6 +1,6 @@
-# Signals & Intent tools with MCP servers: 23 of 55, counted
+# Signals & Intent tools with MCP servers: 24 of 58, counted
 
-> 23 of the 55 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 24 of the 58 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Signals & Intent tools with an MCP server
 
-**List · 23 of 694**
+**List · 24 of 739**
 
 ## Signals & Intent tools with an MCP server
 
-Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 23 of 55 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 3 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
+Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 24 of 58 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -87,8 +87,11 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/jpeslar1/linkedin-mcp-job-change-...](https://github.com/jpeslar1/linkedin-mcp-job-change-trigger) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 32 in this category
+### The other 34 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -132,6 +135,8 @@ leadinfo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 letterdrop.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Lift AI](../tools/lift-ai.md)
 lift-ai.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [LiftIQ](../tools/liftiq.md)
+liftiq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [MiQ](../tools/miq.md)
 wearemiq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Modash](../tools/modash.md)
@@ -152,6 +157,8 @@ seranking.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 semrush.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Sitefire](../tools/sitefire.md)
 sitefire.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Syncly](../tools/syncly.md)
+syncly.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [TechniQ ABM](../tools/techniq-abm.md)
 techniqabm.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Terminus](../tools/terminus.md)
@@ -170,4 +177,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 694 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 739 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

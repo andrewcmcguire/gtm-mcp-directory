@@ -1,6 +1,6 @@
-# Enablement & Coaching: 39 tools, 2 with an official MCP server
+# Enablement & Coaching: 41 tools, 2 with an official MCP server
 
-> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 39 tools counted, 2 with an official MCP server and 0 free to start.
+> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 41 tools counted, 2 with an official MCP server and 0 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here.
 
-- **entries in this file**: 39
+- **entries in this file**: 41
 
 - **Official MCP**: 2
 - **Community MCP**: 1
 - **MCP unknown**: 3
-- **No MCP found**: 33
+- **No MCP found**: 35
 
 - **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
-- **Gate unknown**: 32
+- **Gate unknown**: 34
 
-Source file: 11-enablement-coaching.md · content sha256 ddeb63de5e21ecd5... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 e7fa2605155533ba... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -88,6 +88,8 @@ Source file: 11-enablement-coaching.md · content sha256 ddeb63de5e21ecd5... · 
 
 - [Matik](../tools/matik.md) matik.io Matik's AI automates the creation of personalized presentations, documents, and reports directly from your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [MeetRecord](../tools/meetrecord.md) meetrecord.com Outdoo is the enterprise AI roleplay and training platform for customer-facing teams, connecting AI Tutor-led learning to roleplay practice and real conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Memoir](../tools/memoir.md) trymemoir.ai Software ships faster than teams can explain it. Memoir closes the gap. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [OneUp Sales](../tools/oneup-sales.md) oneupsales.co.uk Drive 43% more placements and 25% more revenue with OneUp Sales. Our sales acceleration platform for recruitment teams unifies all your data in real-time. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -101,6 +103,8 @@ Source file: 11-enablement-coaching.md · content sha256 ddeb63de5e21ecd5... · 
 - [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Quotain](../tools/quotain.md) quotain.com Quotain turns sales playbooks and real-call evidence into AI buyer simulations, scorecards, and focused practice for revenue teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Rivia.AI](../tools/rivia-ai.md) rivia.ai Show, onboard, and grow your product with interactive demos, smart onboarding, and AI-powered insights. All in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [SalesHood](../tools/saleshood.md) saleshood.com Build Winning Revenue Teams. Develop sellers, guide buyers, and drive faster execution with AI built for GTM teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

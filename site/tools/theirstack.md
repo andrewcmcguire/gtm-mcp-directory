@@ -74,7 +74,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **technographics** Your AI assistant calls the technographics tool to get any company's full technology stack, categorized by type, with detection dates and confidence signals. evidence: in the vendor docs · calling it reads
 
-119 of the 337 entries that record an official or community MCP server carry a harvested tool list. The other 218 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 359 entries that record an official or community MCP server carry a harvested tool list. The other 240 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -94,7 +94,7 @@ free (limited)
 
 No documentation URL recorded.
 
-494 of 694 entries are in the same position. Blank is legal and it is published as blank.
+510 of 739 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -118,7 +118,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 694 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 739 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -138,7 +138,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A job-postings and technographic-data API that tracks live job listings and the tech stack/hiring signals behind them across 195 countries (claims 223M+ jobs, 352K+ sources), queryable for GTM timing/intent signals.
 
-16 of the 694 entries are cross listed like this. They are why the entry count is 694 and the unique product count is 678. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 739 entries are cross listed like this. They are why the entry count is 739 and the unique product count is 723. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

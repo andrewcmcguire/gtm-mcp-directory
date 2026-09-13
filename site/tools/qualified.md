@@ -97,7 +97,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 694 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 739 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -117,7 +117,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A conversational AI agent ("Piper") that engages inbound website visitors in real time (text/voice/video chat), sends follow-up nurture emails, and books meetings for qualified visitors.
 
-16 of the 694 entries are cross listed like this. They are why the entry count is 694 and the unique product count is 678. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 739 entries are cross listed like this. They are why the entry count is 739 and the unique product count is 723. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

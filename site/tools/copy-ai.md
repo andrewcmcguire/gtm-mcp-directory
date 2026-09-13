@@ -60,7 +60,7 @@ https://github.com/anhuaxiang/copy-ai-mcp
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 337 entries that record an official or community MCP server carry a harvested tool list. The other 218 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 359 entries that record an official or community MCP server carry a harvested tool list. The other 240 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -80,7 +80,7 @@ enterprise-only (API Access and Bulk Workflow Runs appear only in the Enterprise
 
 No documentation URL recorded.
 
-494 of 694 entries are in the same position. Blank is legal and it is published as blank.
+510 of 739 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -108,7 +108,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 694 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 739 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

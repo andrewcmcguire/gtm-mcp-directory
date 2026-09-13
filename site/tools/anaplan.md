@@ -210,7 +210,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **write_cells** Write values to specific cells. Supports both ID-based and name-based targeting: use lineItemName/dimensionName/itemName instead of IDs to skip the dimension resolution chain. For ID-based writes, use show_lineitem_dimensions then show_dime evidence: in the server source · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 337 entries that record an official or community MCP server carry a harvested tool list. The other 218 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 359 entries that record an official or community MCP server carry a harvested tool list. The other 240 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -230,7 +230,7 @@ enterprise-only (/pricing resolves to a contact form promising an Anaplan expert
 
 No documentation URL recorded.
 
-494 of 694 entries are in the same position. Blank is legal and it is published as blank.
+510 of 739 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -257,7 +257,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 694 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 739 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -1,6 +1,6 @@
-# RevOps Infra: 64 tools, 29 with an official MCP server
+# RevOps Infra: 68 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 64 tools counted, 29 with an official MCP server and 14 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 68 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,23 +16,23 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 64
+- **entries in this file**: 68
 
 - **Official MCP**: 29
-- **Community MCP**: 4
+- **Community MCP**: 5
 - **MCP unknown**: 1
-- **No MCP found**: 30
+- **No MCP found**: 33
 
 - **ship a CLI (official) as of 2026-09-12**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
-- **Gate unknown**: 33
+- **Gate unknown**: 37
 
-Source file: 06-revops-infra.md · content sha256 41452a203a4186bd... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 1a1c78c5ba65c51c... · counts reconciled against tools_recount.py at build time.
 
-- [The 33 with an MCP server](../lists/mcp-revops-infra.md)
+- [The 34 with an MCP server](../lists/mcp-revops-infra.md)
 
 - [Run an automation workflow](../jobs/run-automation-workflow.md)
 - [Sync records between systems](../jobs/sync-records-between-systems.md)
@@ -97,6 +97,8 @@ Source file: 06-revops-infra.md · content sha256 41452a203a4186bd... · counts 
 
 - [Syncari](../tools/syncari.md) syncari.com An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to both humans (dashboards/BI) and AI agents. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Helm AI](../tools/helm-ai.md) gethelm.ai Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your business do more with less. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Kaanha AI](../tools/kaanha-ai.md) kaanha.ai Kaanha AI connects your conversations, customer data, applications and AI agents into workflows you build once and run across every channel - with human approvals and full auditability built in. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Morphed](../tools/morphed.md) morphed.io Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30 days. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -111,6 +113,8 @@ Source file: 06-revops-infra.md · content sha256 41452a203a4186bd... · counts 
 
 - [AgencyAnalytics](../tools/agencyanalytics.md) agencyanalytics.com Run your agency on one reliable data foundation. Automated reporting, performance monitoring, and client results, built for marketing agencies. 14-day free trial. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Ambral](../tools/ambral.md) ambral.com AI for account management and revenue growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Apsona](../tools/apsona.md) apsona.com All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside Salesforce and saves hours every week. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Boomi](../tools/boomi.md) boomi.com Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -124,6 +128,8 @@ Source file: 06-revops-infra.md · content sha256 41452a203a4186bd... · counts 
 - [DryMerge](../tools/drymerge.md) drymerge.com AI agents that constantly monitor your email, calendar, and calls to keep your CRM updated with every detail. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dust](../tools/dust.md) dust.tt Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use different models for different tasks, with people in control. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Flowla](../tools/flowla.md) flowla.com Flowla is the execution layer your revenue stack feeds into. It turns your best rep's instincts into a system that reads every signal and runs the next move. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Glean](../tools/glean.md) glean.com Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -162,6 +168,8 @@ Source file: 06-revops-infra.md · content sha256 41452a203a4186bd... · counts 
 - [Tray.ai](../tools/tray-ai.md) tray.ai Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps - orchestration for data… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Vertify](../tools/vertify.md) vertify.com Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Whalesync](../tools/whalesync.md) whalesync.com Sync Airtable, Notion, HubSpot, Webflow, and more with real-time two-way data sync. Edit in one app and watch changes appear everywhere, no code needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
