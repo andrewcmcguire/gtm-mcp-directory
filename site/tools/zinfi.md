@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [zinfi.com](https://zinfi.com) · entry id 05-zinfi · source 05-signals-intent-abm.md line 978
+Vendor: [zinfi.com](https://zinfi.com) · entry id 05-zinfi · source 05-signals-intent-abm.md line 1160
 
 **What it does**
 ZINFI's Unified Partner Management (UPM) platform automates partner onboarding, MDF, co-sell, incentives, and channel marketing for enterprise technology and manufacturing leaders. G2 Leader. 24 modules. 90-day deployment.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 156 of 514 entries are.
+The mcp_url field is empty on this entry. 184 of 559 entries are.
 
 **Command line**
 
@@ -62,7 +62,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-211 of 514 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+256 of 559 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-243 of 514 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+288 of 559 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -106,7 +106,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 05-signals-intent-abm.md
 
-- **Source line**: 978
+- **Source line**: 1160
 
 - **Tier**: RESEARCHED
 

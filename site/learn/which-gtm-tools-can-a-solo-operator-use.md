@@ -1,6 +1,6 @@
 # Which GTM tools can a solo operator use with an agent? 162 products
 
-> 210 of 514 GTM tools are free to start or paid self serve, and 168 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-12.
+> 210 of 559 GTM tools are free to start or paid self serve, and 168 of those also have an MCP server. The list one person with a credit card can build on. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-210 of the 514 entries here are free to start or paid self serve, so one person can get API access without a contract. 168 of those also have an MCP server, which comes to 162 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
+210 of the 559 entries here are free to start or paid self serve, so one person can get API access without a contract. 168 of those also have an MCP server, which comes to 162 unique products and is the list that matters if you are building an agent alone rather than inside a company with a procurement department.
 
 Two columns have to be true at once. The tool has to be callable, and you have to be able to get in. This directory publishes both separately on purpose, because plenty of tools pass one test and fail the other.
 
@@ -26,13 +26,13 @@ Two columns have to be true at once. The tool has to be callable, and you have t
 
 - 132 are paid self serve: a credit card is enough.
 
-- Together, 210 of 514 entries, or 41%, pass the gate test.
+- Together, 210 of 559 entries, or 38%, pass the gate test.
 
 - Cross that with the MCP column and 168 entries pass both. That intersection is what this site calls solo reachable, and it is the number in the front page stat row.
 
 - 79 are enterprise only and 8 enterprise leaning. Those are closed doors for one person.
 
-- 211 do not publish enough for the gate to be established at all, and are recorded as unknown rather than guessed.
+- 256 do not publish enough for the gate to be established at all, and are recorded as unknown rather than guessed.
 
 ## Callable and reachable, both
 

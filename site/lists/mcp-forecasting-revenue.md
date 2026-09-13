@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / Forecasting & Revenue tools with an MCP server
 
-**List · 3 of 514**
+**List · 3 of 559**
 
 ## Forecasting & Revenue tools with an MCP server
 
@@ -80,4 +80,4 @@ The jobs most often tagged on the 17 tagged entries in this category.
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 - [Read CRM records](../jobs/read-crm-records.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 514 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 559 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

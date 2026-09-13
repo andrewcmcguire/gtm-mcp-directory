@@ -1,6 +1,6 @@
-# Scheduling & Routing: 15 tools, 5 with an official MCP server
+# Scheduling & Routing: 16 tools, 5 with an official MCP server
 
-> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 15 tools counted, 5 with an official MCP server and 2 free to start.
+> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 16 tools counted, 5 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar, instantly and to the right person, then keeping that rep's own calendar sane. Three sub-lanes live in this file - prospect-facing booking pages (Calendly, Cal.com, SavvyCal), inbound lead-routing/handoff engines (Chili Piper, Default, RevenueHero, Kronologic, LeanData), and personal calendar-intelligence tools for reps/AEs (Motion, Reclaim.ai, Clockwise, Trevor AI) - plus two adjacent discovery finds (Clara, Doodle). MCP maturity here splits the same way category-06 does: the open-source/API-first booking tools (Cal.com, Calendly) shipped clean official servers, while most routing engines and personal-calendar apps have none or only community ones.
 
-- **entries in this file**: 15
+- **entries in this file**: 16
 
 - **Official MCP**: 5
 - **Community MCP**: 2
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 5
+- **No MCP found**: 6
 
 - **ship a CLI (official) as of 2026-09-12**: 0
 
 - **Free to start**: 2
 - **Paid, self-serve**: 4
 - **Enterprise only**: 2
-- **Gate unknown**: 7
+- **Gate unknown**: 8
 
-Source file: 10-scheduling-routing.md · content sha256 0dbee69e46945f84... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 44263a98b7a74de0... · counts reconciled against tools_recount.py at build time.
 
 - [The 7 with an MCP server](../lists/mcp-scheduling-routing.md)
 
@@ -61,6 +61,8 @@ Source file: 10-scheduling-routing.md · content sha256 0dbee69e46945f84... · c
 - [Clockwise](../tools/clockwise.md) getclockwise.com Historical - team-calendar optimization app that auto-scheduled/rescheduled meetings across a team, defended Focus Time, and blocked task time factoring in each person's working hours/preferences. THE PRODUCT... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clara (Clara Labs)](../tools/clara.md) claralabs.com AI scheduling assistant reached by CC'ing "Clara" on an email thread - it reads the thread, proposes times, handles replies, and confirms meetings across Google Workspace, Outlook, Zoom, and Teams without a... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Circa](../tools/circa.md) circa.co For planners with tens to thousands of events. Boost your efficiency. Comprehensive and effective. Trusted by event planners worldwide. Free trial. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Doodle](../tools/doodle.md) doodle.com General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1 booking pages - used more broadly than GTM specifically (events, recruiting, ops)... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

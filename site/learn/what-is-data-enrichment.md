@@ -1,6 +1,6 @@
 # What is data enrichment? The definition, and which vendors an agent can call
 
-> Data enrichment turns a thin identifier into a full record. 76 enrichment tools are counted here and 42 ship an official MCP server.
+> Data enrichment turns a thin identifier into a full record. 82 enrichment tools are counted here and 42 ship an official MCP server.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -33,7 +33,7 @@ Counted 2026-09-12. Entry counts, not product counts: a tool listed in two categ
 
 ## Why this category is the exception
 
-Data & Enrichment is the most agent reachable category in this directory: 42 official servers and 4 community across 76 entries, with 21 free to start. That is not an accident. These vendors already sold an API as the product, so exposing it through a second protocol was a small step rather than a strategy change.
+Data & Enrichment is the most agent reachable category in this directory: 42 official servers and 7 community across 82 entries, with 21 free to start. That is not an accident. These vendors already sold an API as the product, so exposing it through a second protocol was a small step rather than a strategy change.
 
 Compare that with categories whose product is a user interface. When the interface is the product, the API is a cost, and the MCP server is a cost on top of a cost.
 

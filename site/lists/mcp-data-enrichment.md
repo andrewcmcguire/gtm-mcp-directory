@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 46 of 76, counted
+# Data & Enrichment tools with MCP servers: 49 of 82, counted
 
-> 46 of the 76 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 49 of the 82 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 7 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 46 of 514**
+**List · 49 of 559**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 46 of 76 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 49 of 82 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 7 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -150,14 +150,23 @@ api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
 | [UpLead](../tools/uplead.md)
 uplead.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/uplead](https://zapier.com/mcp/uplead) +1 more | OAuth or an API key
 Handled through the Zapier/Pipedream platform's own connector auth (API key entered into... | [Paid, self-serve](../gates/paid.md) |
+| [Social Profile Enrichment API](../tools/social-profile-enrichment-api.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/Br0ski777/social-profile-x402](https://github.com/Br0ski777/social-profile-x402) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Technology Stack Detection API](../tools/technology-stack-detection-api.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/Br0ski777/tech-enrichment-x402](https://github.com/Br0ski777/tech-enrichment-x402) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Tomba](../tools/tomba.md)
 tomba.io | [Community MCP](../mcp/community.md) | [https://github.com/tomba-io/tomba-mcp-server](https://github.com/tomba-io/tomba-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Wokelo](../tools/wokelo.md)
 wokelo.ai | [Community MCP](../mcp/community.md) | [https://github.com/Wokelo-AI/Wokelo-MCP-Server](https://github.com/Wokelo-AI/Wokelo-MCP-Server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [ZOOQ](../tools/zooq.md)
+zooq.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 30 in this category
+### The other 33 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -205,10 +214,16 @@ tryprospect.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates
 reltio.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [RevenueBase](../tools/revenuebase.md)
 revenuebase.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [ScrapeMagic](../tools/scrapemagic.md)
+scrapemagic.xyz | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [ScreenshotOne](../tools/screenshotone.md)
+screenshotone.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Signaliz](../tools/signaliz.md)
 signaliz.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SMARTe](../tools/smarte.md)
 smarte.pro | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Sparklane](../tools/sparklane.md)
+sparklane-group.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Store Leads](../tools/store-leads.md)
 storeleads.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Supermetrics](../tools/supermetrics.md)
@@ -235,4 +250,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 514 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 559 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / Email Deliverability tools with an MCP server
 
-**List · 4 of 514**
+**List · 4 of 559**
 
 ## Email Deliverability tools with an MCP server
 
@@ -69,4 +69,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Check inbox placement](../jobs/check-inbox-placement.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 514 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 559 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
 # Insaight: products, MCP servers and connect URLs, one vendor page
 
-> Insaight (github.com): 21 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
+> Insaight (github.com): 26 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@ Insaight
 
 # Insaight
 
-21 products in the directory
+26 products in the directory
 1 official MCP server
 0 live handshakes
 Data baked 2026-09-12
@@ -22,29 +22,29 @@ Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
 **The rollup**
 
-- **Products**: 21, facts checked by hand 2026-08-24, 2026-09-12
+- **Products**: 26, facts checked by hand 2026-08-24, 2026-09-12
 
-- **Official MCP servers**: 1 of 21, as recorded on 2026-08-24, 2026-09-12
+- **Official MCP servers**: 1 of 26, as recorded on 2026-08-24, 2026-09-12
 
-- **Community MCP servers**: 20 of 21
+- **Community MCP servers**: 25 of 26
 
-- **Live handshake**: 0 of 21 answered an MCP initialize, 1 probed, 2026-09-04
+- **Live handshake**: 0 of 26 answered an MCP initialize, 1 probed, 2026-09-04
 
-- **Repo local**: 1 of 21: a server you install and run yourself
+- **Repo local**: 1 of 26: a server you install and run yourself
 
-- **Docs only**: 0 of 21: the recorded URL is a page about the server, not the server
+- **Docs only**: 0 of 26: the recorded URL is a page about the server, not the server
 
 - **Tools catalogued**: 24 named across 1 measured server, harvested 2026-09-12
 
-- **Bench tested**: 0 of 21 here, 1 of 514 across the directory
+- **Bench tested**: 0 of 26 here, 1 of 559 across the directory
 
-- **Ships a CLI**: 0 of 21 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 26 official, 0 community only, 1 none found, harvested 2026-09-12
 
 - **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
-**Products, 21**
+**Products, 26**
 
 ### [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 
@@ -65,6 +65,22 @@ RESEARCHED
 ### [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md)
 
 Apex SDK for building Model Context Protocol (MCP) servers natively in Salesforce - bfmvsa/mcp-apex-sdk
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Capsule CRM MCP by MonadsAG](../tools/capsule-crm-mcp-by-monadsag.md)
+
+Contribute to MonadsAG/capsulecrm-mcp development by creating an account on GitHub.
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -129,6 +145,22 @@ RESEARCHED
 ### [Insaight](../tools/insaight.md)
 
 LinkedIn prospect intelligence inside Claude - MCP server + 8 skills that research people, companies and comment threads, draft outreach, and learn what gets replies. - spirosbax/insaight
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Keepsake MCP by nicolascroce](../tools/keepsake-mcp-by-nicolascroce.md)
+
+MCP server for Keepsake personal CRM - connect your AI agent to your contacts, tasks, notes, and more - nicolascroce/keepsake-mcp
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -209,6 +241,22 @@ RESEARCHED
 ### [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md)
 
 MCP Server for interacting with Salesforce instances - salesforcecli/mcp
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Salesforce Commerce Cloud MCP by brinzl](../tools/salesforce-commerce-cloud-mcp-by-brinzl.md)
+
+🤖 An MCP server that helps connect your AI applications with your Salesforce Commerce Cloud instance - brinzl/commercecloud-mcp-server
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -366,6 +414,38 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Social Profile Enrichment API](../tools/social-profile-enrichment-api.md)
+
+Enrich social profiles from handle or URL -- Twitter/X, GitHub, LinkedIn, YouTube. Followers, bio, verification. -- x402 micropayment API + MCP server for AI agents - Br0ski777/social-profile-x402
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Technology Stack Detection API](../tools/technology-stack-detection-api.md)
+
+Detect 50+ technologies on any website. CMS, JS frameworks, analytics, hosting, CDN, payments. Confidence scores and evidence. -- x402 micropayment API + MCP server for AI agents - Br0ski777/tech-enrichment-x402
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Twenty CRM MCP](../tools/twenty-crm-mcp.md)
 
 A Model Context Protocol (MCP) server for Twenty CRM integration. Enables natural language interactions with your CRM data through Claude and other AI assistants. Supports CRUD operations, dynamic schema discovery, and advanced search across people,...
@@ -384,7 +464,7 @@ RESEARCHED
 
 **The gates, in plain words**
 
-1 of 21 free to start, a solo operator gets API access without talking to anyone. 20 of 21 gate unknown, not established from public sources and published as unknown.
+1 of 26 free to start, a solo operator gets API access without talking to anyone. 25 of 26 gate unknown, not established from public sources and published as unknown.
 
 The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
 
@@ -427,6 +507,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 514 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 21 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 559 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 26 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

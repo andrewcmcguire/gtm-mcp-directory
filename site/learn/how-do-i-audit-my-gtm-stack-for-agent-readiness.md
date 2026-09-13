@@ -34,7 +34,7 @@ A stack audit by category tells you what you bought. An audit by job tells you w
 
 ## The three numbers to write at the top
 
-- **Reachable share.** How many of your tools an agent can call at all. The directory wide figure is 51%, so anything above that is a good stack for this.
+- **Reachable share.** How many of your tools an agent can call at all. The directory wide figure is 50%, so anything above that is a good stack for this.
 
 - **The broken link.** The one job in your critical chain with no coverage. There is almost always exactly one, and it is worth more attention than the other nine.
 

@@ -26,7 +26,7 @@ What it can tell you is which ones an agent can call without you writing a clien
 
 | Measure | Count | Of what |
 |---|---|---|
-| Entries tagged find-work-email | 29 | of 514 directory entries |
+| Entries tagged find-work-email | 29 | of 559 directory entries |
 | Distinct products | 29 | the rest are cross listings |
 | Official MCP server | 22 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |

@@ -1,6 +1,6 @@
-# AI SDRs: 34 tools, 8 with an official MCP server
+# AI SDRs: 35 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 34 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 35 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 34
+- **entries in this file**: 35
 
 - **Official MCP**: 8
-- **Community MCP**: 2
+- **Community MCP**: 3
 - **No MCP found**: 24
 
 - **ship a CLI (official) as of 2026-09-12**: 6
@@ -27,11 +27,11 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 14
+- **Gate unknown**: 15
 
-Source file: 04-ai-sdr-agents.md · content sha256 632862468c227b4b... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 4274fbda33dfc8d5... · counts reconciled against tools_recount.py at build time.
 
-- [The 10 with an MCP server](../lists/mcp-ai-sdr-agents.md)
+- [The 11 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 - [Run an email sequence](../jobs/run-email-sequence.md)
@@ -57,6 +57,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 632862468c227b4b... · counts
 - [Unify](../tools/unify.md) unifygtm.com A hybrid signals-plus-agent platform: AI agents build targeted account/prospect lists from 40+ data sources, write personalized outbound copy, and run multi-channel sequences triggered by intent signals... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: unify-cli (community)
 
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
 

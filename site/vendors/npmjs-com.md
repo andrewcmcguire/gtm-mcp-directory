@@ -1,6 +1,6 @@
-# Flipfactory CRM MCP: products, MCP servers and connect URLs, one vendor page
+# Siftable: products, MCP servers and connect URLs, one vendor page
 
-> Flipfactory CRM MCP (npmjs.com): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
+> Siftable (npmjs.com): 5 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -9,11 +9,11 @@
 ---
 [Directory](../index.md) /
 [Vendors](../vendors/index.md) /
-Flipfactory CRM MCP
+Siftable
 
-# Flipfactory CRM MCP
+# Siftable
 
-2 products in the directory
+5 products in the directory
 0 official MCP servers
 0 live handshakes
 Data baked 2026-09-12
@@ -22,21 +22,21 @@ Vendor domain: [npmjs.com](https://npmjs.com) · vendor page id npmjs-com
 
 **The rollup**
 
-- **Products**: 2, facts checked by hand 2026-09-12
+- **Products**: 5, facts checked by hand 2026-09-12
 
-- **Official MCP servers**: 0 of 2, as recorded on 2026-09-12
+- **Official MCP servers**: 0 of 5, as recorded on 2026-09-12
 
-- **Community MCP servers**: 2 of 2
+- **Community MCP servers**: 5 of 5
 
-- **Live handshake**: 0 of 2 answered an MCP initialize, 0 probed, no date
+- **Live handshake**: 0 of 5 answered an MCP initialize, 0 probed, no date
 
-- **Repo local**: 0 of 2: a server you install and run yourself
+- **Repo local**: 0 of 5: a server you install and run yourself
 
-- **Docs only**: 0 of 2: the recorded URL is a page about the server, not the server
+- **Docs only**: 0 of 5: the recorded URL is a page about the server, not the server
 
 - **Tools catalogued**: not measured on any product of this vendor
 
-- **Bench tested**: 0 of 2 here, 1 of 514 across the directory
+- **Bench tested**: 0 of 5 here, 1 of 559 across the directory
 
 - **Ships a CLI**: not measured on this build
 
@@ -44,7 +44,7 @@ Vendor domain: [npmjs.com](https://npmjs.com) · vendor page id npmjs-com
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
-**Products, 2**
+**Products, 5**
 
 ### [Apex Log MCP by Certinia](../tools/apex-log-mcp-by-certinia.md)
 
@@ -78,9 +78,57 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Salesforce MCP by starcatmeow](../tools/salesforce-mcp-by-starcatmeow.md)
+
+A Salesforce connector MCP Server. Forked from @tsmztech/mcp-server-salesforce
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Siftable](../tools/siftable.md)
+
+Siftable MCP server - human planning tasks, executable agent work queues, knowledge, code context, and automation tools
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Vesxo Connect](../tools/vesxo-connect.md)
+
+Secure, AI-compatible Model Context Protocol (MCP) server for connecting AI agents to Vesxo SaaS ecosystem (Gmail, HubSpot, Slack, etc.)
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 **The gates, in plain words**
 
-2 of 2 gate unknown, not established from public sources and published as unknown.
+5 of 5 gate unknown, not established from public sources and published as unknown.
 
 The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
 
@@ -104,6 +152,6 @@ The GitHub organisation layer has not been measured on this build.
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 514 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 559 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 5 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).
