@@ -1,6 +1,6 @@
-# Proposals & Deals tools with MCP servers: 10 of 20, counted
+# Proposals & Deals tools with MCP servers: 10 of 21, counted
 
-> 10 of the 20 proposals & deals tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 10 of the 21 proposals & deals tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Proposals & Deals tools with an MCP server
 
-**List · 10 of 604**
+**List · 10 of 649**
 
 ## Proposals & Deals tools with an MCP server
 
-Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 10 of 20 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
+Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 10 of 21 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -49,7 +49,7 @@ unknown - stdio transport run locally against the customer's own DealHub instanc
 loopio.com | [Community MCP](../mcp/community.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth
 OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 10 in this category
+### The other 11 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -65,6 +65,8 @@ proposify.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gat
 qwilr.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Conga](../tools/conga.md)
 conga.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Dropbox Sign](../tools/dropbox-sign.md)
+sign.dropbox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Minoa](../tools/minoa.md)
 minoa.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [PDF Butler](../tools/pdf-butler.md)
@@ -87,4 +89,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Draft an RFP or questionnaire response](../jobs/draft-rfp-response.md)
 - [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 604 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 649 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

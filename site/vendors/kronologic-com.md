@@ -36,7 +36,7 @@ Vendor domain: [kronologic.com](https://kronologic.com) · vendor page id kronol
 
 - **Tools catalogued**: not measured on any product of this vendor
 
-- **Bench tested**: 0 of 1 here, 1 of 604 across the directory
+- **Bench tested**: 0 of 1 here, 1 of 649 across the directory
 
 - **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-12
 
@@ -94,6 +94,6 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 604 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 649 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

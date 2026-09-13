@@ -1,6 +1,6 @@
-# Forecasting & Revenue: 20 tools, 3 with an official MCP server
+# Forecasting & Revenue: 21 tools, 3 with an official MCP server
 
-> Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast... 20 tools counted, 3 with an official MCP server and 1 free to start.
+> Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast... 21 tools counted, 3 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast engines (BoostUp/Terret, Aviso, Kluster) sold sales-led and quote-only, incentive-comp platforms that tie forecast risk to rep behavior (Xactly, Varicent), FP&A tools that model revenue top-down as one planning use case among several (Vareto, Cube Software, Pigment, Anaplan), and forecasting bolted onto core CRMs for free (Salesforce, HubSpot). The tension: almost every vendor in this category quotes a specific forecast-accuracy percentage with no published methodology behind a demo-request wall, and a real, self-serve MCP server is the exception rather than the rule - Pigment and Cube Software are the only two found here with one.
 
-- **entries in this file**: 20
+- **entries in this file**: 21
 
 - **Official MCP**: 3
 - **MCP unknown**: 1
-- **No MCP found**: 16
+- **No MCP found**: 17
 
 - **ship a CLI (official) as of 2026-09-12**: 3
 
 - **Free to start**: 1
 - **Paid, self-serve**: 3
 - **Enterprise only**: 13
-- **Gate unknown**: 3
+- **Gate unknown**: 4
 
-Source file: 12-forecasting-revenue.md · content sha256 2a31801e40a53f95... · counts reconciled against tools_recount.py at build time.
+Source file: 12-forecasting-revenue.md · content sha256 9cc6c8f72a3b48ad... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-forecasting-revenue.md)
 
@@ -75,5 +75,7 @@ Source file: 12-forecasting-revenue.md · content sha256 2a31801e40a53f95... · 
 - [Forecastable](../tools/forecastable.md) forecastable.com Forecastable transforms partnerships into co-sell engines your CRO can forecast, your CFO can defend, and your CEO can scale. Live in 30 days. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PaletteHQ](../tools/palettehq.md) palettehq.com Palette automates your sales commissions. Save time and reduce errors. Get full visibility on commissions. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [QuadSci](../tools/quadsci.md) quadsci.ai Customer Intelligence AI that predicts churn and growth from product telemetry, CRM data and conversational signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Revenue Grid](../tools/revenue-grid.md) revenuegrid.com Revenue Intelligence platform that automatically captures sales activities to help you identify and fix revenue leaks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

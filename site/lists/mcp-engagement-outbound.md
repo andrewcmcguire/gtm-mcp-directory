@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 29 of 77, counted
+# Engagement & Outbound tools with MCP servers: 32 of 86, counted
 
-> 29 of the 77 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 32 of the 86 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 9 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 29 of 604**
+**List · 32 of 649**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 29 of 77 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 32 of 86 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 9 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -99,14 +99,23 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedGrow](../tools/linkedgrow.md)
 linkedgrow.ai | [Community MCP](../mcp/community.md) | [https://github.com/DigiHold/LinkedGrow](https://github.com/DigiHold/LinkedGrow) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Misarreach](../tools/misarreach.md)
+misarreach.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20outreach](https://www.npmjs.com/search?q=mcp%20outreach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [PersuadioAI](../tools/persuadioai.md)
+persuadioai.com | [Community MCP](../mcp/community.md) | [https://github.com/mannyfernandezvc/persuadioai-plat...](https://github.com/mannyfernandezvc/persuadioai-platform) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [RepScale](../tools/repscale.md)
 repscale.ai | [Community MCP](../mcp/community.md) | [https://repscale.ai](https://repscale.ai) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Toflow](../tools/toflow.md)
+toflow.ai | [Community MCP](../mcp/community.md) | [https://github.com/toflow-ai/toflow-mcp](https://github.com/toflow-ai/toflow-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [WarmySender](../tools/warmysender.md)
 warmysender.com | [Community MCP](../mcp/community.md) | [https://warmysender.com](https://warmysender.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 48 in this category
+### The other 54 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -136,6 +145,8 @@ agentmail.to | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 banabo.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Birdie](../tools/birdie.md)
 getbirdie.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Brevo](../tools/brevo.md)
+brevo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [FrontSpin](../tools/frontspin.md)
 frontspin.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Fuse AI](../tools/fuse-ai.md)
@@ -156,10 +167,16 @@ mailchimp.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 mogli.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Natterbox](../tools/natterbox.md)
 natterbox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [OneLocal](../tools/onelocal.md)
+onelocal.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Origami](../tools/origami.md)
+origami.chat | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Outplay](../tools/outplay.md)
 outplay.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [OwnLocal](../tools/ownlocal.md)
 ownlocal.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [PhoneBurner](../tools/phoneburner.md)
+phoneburner.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Postal](../tools/postal.md)
 postal.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Postscript](../tools/postscript.md)
@@ -168,10 +185,14 @@ postscript.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 quo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Ranla](../tools/ranla.md)
 ranla.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Reachdesk](../tools/reachdesk.md)
+reachdesk.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [ReachInbox](../tools/reachinbox.md)
 reachinbox.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Resquared](../tools/resquared.md)
 re2.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Ringover](../tools/ringover.md)
+ringover.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Salesgraph](../tools/salesgraph.md)
 salesgraph.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Scribeless](../tools/scribeless.md)
@@ -220,4 +241,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 604 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 649 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

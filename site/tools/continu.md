@@ -68,7 +68,7 @@ enterprise-only (full REST API and real-time event webhooks appear on the Enterp
 
 No documentation URL recorded.
 
-449 of 604 entries are in the same position. Blank is legal and it is published as blank.
+471 of 649 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -103,7 +103,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: no-job-fits. Corporate LMS. retrieve-sales-content is about approved sales collateral, not training courses. A learning-content job may be worth adding once file 11 is looked at as a set.
 
-333 of 604 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+378 of 649 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

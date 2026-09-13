@@ -86,7 +86,7 @@ n/a - no longer sold as a standalone product (see notes).
 
 No documentation URL recorded.
 
-449 of 604 entries are in the same position. Blank is legal and it is published as blank.
+471 of 649 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -111,7 +111,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Absorbed into a competitor; the entry says features could not be meaningfully evaluated post-acquisition.
 
-333 of 604 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+378 of 649 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

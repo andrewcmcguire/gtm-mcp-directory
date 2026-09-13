@@ -72,7 +72,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **list_tools** Lists the available Crustdata data tools evidence: in the vendor docs · calling it reads
 
-119 of the 303 entries that record an official or community MCP server carry a harvested tool list. The other 184 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 319 entries that record an official or community MCP server carry a harvested tool list. The other 200 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -92,7 +92,7 @@ free (free sandbox key advertised on the vendor homepage, self-serve signup; pai
 
 No documentation URL recorded.
 
-449 of 604 entries are in the same position. Blank is legal and it is published as blank.
+471 of 649 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -119,7 +119,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 604 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 649 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -139,7 +139,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: Aggregates real-time company and people data (250+ data points per company from 15+ sources - funding, headcount, web signals, social, reviews) plus a "Watcher API" for near-real-time hiring/funding/event alerts, covering 60M companies and 1B+ people.
 
-16 of the 604 entries are cross listed like this. They are why the entry count is 604 and the unique product count is 588. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 649 entries are cross listed like this. They are why the entry count is 649 and the unique product count is 633. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

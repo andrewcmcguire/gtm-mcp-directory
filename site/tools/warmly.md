@@ -71,7 +71,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **list_warm_visitors** Identified people who visited your site, with full context. evidence: in the vendor docs · calling it reads
 
-119 of the 303 entries that record an official or community MCP server carry a harvested tool list. The other 184 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 319 entries that record an official or community MCP server carry a harvested tool list. The other 200 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -91,7 +91,7 @@ free (limited)
 
 No documentation URL recorded.
 
-449 of 604 entries are in the same position. Blank is legal and it is published as blank.
+471 of 649 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -129,7 +129,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 604 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 649 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -149,7 +149,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A website-visitor de-anonymization and intent platform that identifies companies (and increasingly named individuals) visiting a customer's site from IP/behavioral signals, then enriches those visitor records with firmographic and contact data for follow-up.
 
-16 of the 604 entries are cross listed like this. They are why the entry count is 604 and the unique product count is 588. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 649 entries are cross listed like this. They are why the entry count is 649 and the unique product count is 633. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

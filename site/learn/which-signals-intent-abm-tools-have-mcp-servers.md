@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 22 of 49, counted
+# Signal and intent tools with MCP servers: 22 of 52, counted
 
-> 22 of the 49 signals & intent tools in this directory have an MCP server: 20 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 22 of the 52 signals & intent tools in this directory have an MCP server: 20 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-22 of the 49 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 2 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+22 of the 52 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 2 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -71,7 +71,7 @@ The account-based marketing API for AI agents: Search, Enrich, and Create across
 
 ## The rest of the category
 
-27 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+30 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
@@ -98,7 +98,7 @@ B2B marketing attribution software that uses AI to recommend ways to improve cam
 - [DemandSphere](../tools/demandsphere.md) No MCP found · Gate unknown
 Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more.
 
-15 more are on the linked page. The cut is the display limit, not a ranking.
+18 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -107,9 +107,9 @@ Global SERP and AI search analytics platform for in-house and agency teams. Trac
 | [Free to start](../gates/free.md) | 6 |
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 20 |
+| [Gate unknown](../gates/unknown.md) | 23 |
 
-Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 9c9f3875cca1db1d...
+Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 9d71ea93b6580d73...
 
 ## Sources
 

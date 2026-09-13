@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 207 of 604 entries are.
+The mcp_url field is empty on this entry. 236 of 649 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown - no public pricing/API docs found on this pass
 
-301 of 604 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+346 of 649 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-449 of 604 entries are in the same position. Blank is legal and it is published as blank.
+471 of 649 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -97,7 +97,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 604 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 649 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

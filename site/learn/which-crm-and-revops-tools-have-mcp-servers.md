@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 31 of 55, counted
+# CRM and RevOps tools with MCP servers: 31 of 59, counted
 
-> 31 of the 55 revops infra tools in this directory have an MCP server: 29 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 31 of the 59 revops infra tools in this directory have an MCP server: 29 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-31 of the 55 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 2 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+31 of the 59 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 2 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -89,12 +89,14 @@ Tasks, CRM, docs, and finance in one workspace on one database. Runway computed 
 
 ## The rest of the category
 
-24 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+28 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [Openprise](../tools/openprise.md) No MCP found · Enterprise only
 A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment,...
+- [AgencyAnalytics](../tools/agencyanalytics.md) No MCP found · Gate unknown
+Run your agency on one reliable data foundation. Automated reporting, performance monitoring, and client results, built for marketing agencies....
 - [Apsona](../tools/apsona.md) No MCP found · Gate unknown
 All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside...
 - [Boomi](../tools/boomi.md) No MCP found · Gate unknown
@@ -109,14 +111,12 @@ Dust connects your company knowledge, tools, and teams so you can create, share,
 Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you!
 - [GoLinks](../tools/golinks.md) No MCP found · Gate unknown
 GoLinks® revolutionizes information access & sharing through secure, intuitive short links called go/links. It's knowledge discovery powered by...
+- [Insycle](../tools/insycle.md) No MCP found · Gate unknown
+Define how CRM data should work, enforce it across your CRMs, and monitor coverage and drift so people, automation, and AI act on reliable context.
 - [Introw](../tools/introw.md) No MCP found · Gate unknown
 Welcome to #1 agentic partnership management platform. Connect your CRM, launch your partner portal & start driving revenue on autopilot.
-- [LinkPoint Connect](../tools/linkpoint-connect.md) No MCP found · Gate unknown
-LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption...
-- [PartnerOS](../tools/partneros.md) No MCP found · Gate unknown
-Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption.
 
-12 more are on the linked page. The cut is the display limit, not a ranking.
+16 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -125,9 +125,9 @@ Your AI Partner Operating System designed to grow partner sourced revenue, net r
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 24 |
+| [Gate unknown](../gates/unknown.md) | 28 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 fe3c1ef42e6ed01a...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 6d005892db1fd2b8...
 
 ## Sources
 

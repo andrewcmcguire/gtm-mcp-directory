@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / Community & Dark Social tools with an MCP server
 
-**List · 11 of 604**
+**List · 11 of 649**
 
 ## Community & Dark Social tools with an MCP server
 
@@ -85,4 +85,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 604 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 649 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
