@@ -119,7 +119,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **shopify_update_product** Update an existing product evidence: in the server source · calling it writes
 
-119 of the 359 entries that record an official or community MCP server carry a harvested tool list. The other 240 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 380 entries that record an official or community MCP server carry a harvested tool list. The other 261 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -135,13 +135,13 @@ api_gate, verbatim from the file:
 
 unknown - pricing page referenced but not disclosed in the fetched content
 
-436 of 739 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+481 of 784 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-510 of 739 entries are in the same position. Blank is legal and it is published as blank.
+528 of 784 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -180,7 +180,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: unclear. The entry states the product is agent-training-data infrastructure and explicitly flags the mismatch with Composio/Pipedream. proxy-tool-calls-to-saas is plausible from the "600+ real tools" line and unsupported by everything else on the page.
 
-468 of 739 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+513 of 784 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

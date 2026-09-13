@@ -64,13 +64,13 @@ api_gate, verbatim from the file:
 
 unknown - no pricing or tier information published at all; site routes all interest to "Get Started"/"Get in Touch" contact forms.
 
-436 of 739 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+481 of 784 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-510 of 739 entries are in the same position. Blank is legal and it is published as blank.
+528 of 784 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -96,7 +96,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 739 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 784 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -1,6 +1,6 @@
-# Email Deliverability: 20 tools, 4 with an official MCP server
+# Email Deliverability: 21 tools, 4 with an official MCP server
 
-> Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps... 20 tools counted, 4 with an official MCP server and 2 free to start.
+> Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps... 21 tools counted, 4 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,19 +16,19 @@
 
 Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps cold-outbound infrastructure out of spam. Standing risk worth flagging once here rather than per entry: automated warmup - seed inboxes auto-opening/replying/starring your mail to fake engagement - sits in real tension with mailbox-provider ToS. Google banned automated email warm-up services for Gmail accounts in a January 2023 policy change, and Google/Yahoo/Microsoft jointly enforce bulk-sender rules (sub-0.3% spam complaints, sub-2% bounce) as of May 2025; GMass shut its own warm-up feature down as a result. Several vendors below (InboxAlly explicitly) market themselves as the safer alternative to network-based/bot-driven warmup for exactly this reason.
 
-- **entries in this file**: 20
+- **entries in this file**: 21
 
 - **Official MCP**: 4
 - **MCP unknown**: 1
-- **No MCP found**: 15
+- **No MCP found**: 16
 
 - **ship a CLI (official) as of 2026-09-12**: 0
 
 - **Free to start**: 2
 - **Paid, self-serve**: 10
-- **Gate unknown**: 8
+- **Gate unknown**: 9
 
-Source file: 09-email-deliverability.md · content sha256 43390fafd167e07f... · counts reconciled against tools_recount.py at build time.
+Source file: 09-email-deliverability.md · content sha256 34fa52fc1bdf6d4d... · counts reconciled against tools_recount.py at build time.
 
 - [The 4 with an MCP server](../lists/mcp-email-deliverability.md)
 
@@ -60,6 +60,8 @@ Source file: 09-email-deliverability.md · content sha256 43390fafd167e07f... ·
 - [Mailreach](../tools/mailreach.md) mailreach.co Email warmup and deliverability platform - automates inbox-to-inbox warmup conversations, tracks a "Heat Score" reputation metric, and monitors blacklist/authentication status across Gmail, Outlook, and any... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Warmy.io](../tools/warmy-io.md) warmy.io Email warmup and deliverability platform with an "AI-driven engagement engine" - customizable warm-up topic/language selection, works across Gmail, Outlook, Zoho, and Amazon SES, with a real-time... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Debounce](../tools/debounce.md) debounce.io Validate emails before you send - clean bulk lists, block bad signups in real time, and reduce catch-all uncertainty without overclaiming accuracy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Emailable](../tools/emailable.md) emailable.com Emailable is the email verification service trusted by 300,000+ businesses to confirm addresses are real and safe to send to, with a 99% deliverability guarantee. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

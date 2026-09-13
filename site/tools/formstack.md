@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://www.formstack.com/products/formstack-for-salesforce](https://www.formstack.com/products/formstack-for-salesforce) · entry id 14-formstack · source 14-inbound-plg-chat.md line 882
+Vendor: [https://www.formstack.com/products/formstack-for-salesforce](https://www.formstack.com/products/formstack-for-salesforce) · entry id 14-formstack · source 14-inbound-plg-chat.md line 944
 
 **What it does**
 Formstack for Salesforce automates data collection, document generation, and approvals natively in Salesforce. Reduce manual work and improve data quality.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 286 of 739 entries are.
+The mcp_url field is empty on this entry. 310 of 784 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-436 of 739 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+481 of 784 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-510 of 739 entries are in the same position. Blank is legal and it is published as blank.
+528 of 784 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-468 of 739 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+513 of 784 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -106,7 +106,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 14-inbound-plg-chat.md
 
-- **Source line**: 882
+- **Source line**: 944
 
 - **Tier**: RESEARCHED
 

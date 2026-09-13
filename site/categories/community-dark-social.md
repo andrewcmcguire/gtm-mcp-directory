@@ -1,6 +1,6 @@
-# Community & Dark Social: 20 tools, 8 with an official MCP server
+# Community & Dark Social: 21 tools, 8 with an official MCP server
 
-> Tools that surface what's happening in the channels a CRM and normal web analytics can't see -... 20 tools counted, 8 with an official MCP server and 3 free to start.
+> Tools that surface what's happening in the channels a CRM and normal web analytics can't see -... 21 tools counted, 8 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Tools that surface what's happening in the channels a CRM and normal web analytics can't see - Slack and Discord communities, Reddit threads, X posts, newsletters, GitHub activity, and forum comments - the raw material of community-led growth and "dark social" signal-driven outbound. The tension: a handful of tools here (SparkToro, Syften, Common Room) build genuinely for solo operators and AI agents, with real free tiers or paid-but-reachable MCP servers, while the legacy media-monitoring incumbents (Brandwatch, Meltwater, Talkwalker) remain enterprise-sales-gated dashboards with no self-serve path at all - and this category has an unusually high mortality rate: two of the tools researched here (Orbit, GummySearch) turned out to be dead or shut down mid-research.
 
-- **entries in this file**: 20
+- **entries in this file**: 21
 
 - **Official MCP**: 8
 - **Community MCP**: 3
 - **MCP not applicable**: 2
-- **No MCP found**: 7
+- **No MCP found**: 8
 
 - **ship a CLI (official) as of 2026-09-12**: 2
 
 - **Free to start**: 3
 - **Paid, self-serve**: 7
 - **Enterprise only**: 5
-- **Gate unknown**: 4
+- **Gate unknown**: 5
 - **Gate not applicable**: 1
 
-Source file: 15-community-dark-social.md · content sha256 8a163a654fe0f09a... · counts reconciled against tools_recount.py at build time.
+Source file: 15-community-dark-social.md · content sha256 df2d2dc25764ecdf... · counts reconciled against tools_recount.py at build time.
 
 - [The 11 with an MCP server](../lists/mcp-community-dark-social.md)
 
@@ -76,5 +76,7 @@ Source file: 15-community-dark-social.md · content sha256 8a163a654fe0f09a... �
 - [Blackthorn Events](../tools/blackthorn-events.md) blackthorn.io Plan & manage events entirely inside Salesforce. Blackthorn is a Salesforce event management software that connects your event and business data in one place - no imports, no syncing delays. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Champion](../tools/champion.md) championhq.com Identifies and scores which existing customers are most engaged or most at risk, builds rich profiles of their expertise/preferences, and matches them to sales/CS deal contexts for reference requests, case... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [InEvent](../tools/inevent.md) inevent.com All-in-One Event Management Solution for Virtual, Hybrid & In-Person Events. Fully customize all your events with InEvent. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Orbit](../tools/orbit.md) orbit.love Was a community-analytics platform that aggregated activity across Discord, Slack, GitHub, and social channels into a unified per-person engagement score ("Orbit Level") to identify a community's most valuable... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

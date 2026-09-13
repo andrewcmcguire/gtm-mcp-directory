@@ -1,6 +1,6 @@
-# Data & Enrichment: 118 tools, 42 with an official MCP server
+# Data & Enrichment: 121 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 118 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 121 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 118
+- **entries in this file**: 121
 
 - **Official MCP**: 42
 - **Community MCP**: 24
-- **No MCP found**: 52
+- **No MCP found**: 55
 
 - **ship a CLI (official) as of 2026-09-12**: 8
 
@@ -28,9 +28,9 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 69
+- **Gate unknown**: 72
 
-Source file: 01-data-enrichment.md · content sha256 9b1fe010e0a7978b... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 d4f4d5bb58580572... · counts reconciled against tools_recount.py at build time.
 
 - [The 66 with an MCP server](../lists/mcp-data-enrichment.md)
 
@@ -189,6 +189,8 @@ Source file: 01-data-enrichment.md · content sha256 9b1fe010e0a7978b... · coun
 
 - [Ciro](../tools/ciro.md) ciro.io Ciro finds your best accounts, deeply qualifies each contact, runs a contact data waterfall, and writes signal-based outbound. All pushed directly into your existing sales tools. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [ClearoutPhone](../tools/clearoutphone.md) clearoutphone.io Reliable Phone Validator for bulk phone number validation & API. Check carrier type, line type, location & format with our free phone validation tool. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [CLODO](../tools/clodo.md) clodo.ai Find and reach your next customers at the speed of thought. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Cloudingo](../tools/cloudingo.md) cloudingo.com Eliminate duplicates in Salesforce, improve data quality, and better manage your Salesforce org with Cloudingo. Try the Salesforce data cleansing app FREE! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -196,6 +198,10 @@ Source file: 01-data-enrichment.md · content sha256 9b1fe010e0a7978b... · coun
 - [Company Url Finder](../tools/company-url-finder.md) companyurlfinder.com Transform company names into verified website URLs in bulk. Trusted API, Google Sheets add-on, and instant domain lookup for sales teams and data enrichment. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [CompanyEnrich](../tools/companyenrich.md) companyenrich.com CompanyEnrich is a B2B data API platform covering 33M+ verified companies and 193M+ professional profiles. Platforms, AI agents, and GTM teams use it for company enrichment, lookalike discovery, and people... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [ContactOut](../tools/contactout.md) contactout.com Most accurate email finder for personal and work email outreach. Email lookup, campaign tool, and AI writer. Get 10 credits free - no credit card required. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

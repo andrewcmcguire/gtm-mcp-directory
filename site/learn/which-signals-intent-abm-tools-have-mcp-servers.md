@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 24 of 58, counted
+# Signal and intent tools with MCP servers: 25 of 61, counted
 
-> 24 of the 58 signals & intent tools in this directory have an MCP server: 20 official and 4 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 25 of the 61 signals & intent tools in this directory have an MCP server: 20 official and 5 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-24 of the 58 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 4 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+25 of the 61 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 5 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -72,10 +72,12 @@ The account-based marketing API for AI agents: Search, Enrich, and Create across
 Daily job-change trigger for Claude Code. Detects changes the day they happen via LinkedIn MCP (Zevari) - not 30-90 days later like Apollo/Clay....
 - [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md) Community MCP · Gate unknown
 MCP server for GTM Hiring Signal Scraper. Detects GTM hiring activity from company career pages via Apify. Clay-ready output. -...
+- [NirmahGTM](../tools/nirmahgtm.md) Community MCP · Gate unknown
+AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with calibrated LLMs, outputs evidence-backed openers/hooks/CRM sync...
 
 ## The rest of the category
 
-34 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+36 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
@@ -102,7 +104,7 @@ B2B marketing attribution software that uses AI to recommend ways to improve cam
 - [DemandSphere](../tools/demandsphere.md) No MCP found · Gate unknown
 Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more.
 
-22 more are on the linked page. The cut is the display limit, not a ranking.
+24 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -111,9 +113,9 @@ Global SERP and AI search analytics platform for in-house and agency teams. Trac
 | [Free to start](../gates/free.md) | 6 |
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 29 |
+| [Gate unknown](../gates/unknown.md) | 32 |
 
-Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 f4f1163e0ffb3b8d...
+Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 365df5eaa7a3e0ba...
 
 ## Sources
 

@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 34 of 68, counted
+# CRM and RevOps tools with MCP servers: 37 of 73, counted
 
-> 34 of the 68 revops infra tools in this directory have an MCP server: 29 official and 5 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 37 of the 73 revops infra tools in this directory have an MCP server: 29 official and 8 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-34 of the 68 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 5 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+37 of the 73 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 8 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -82,6 +82,12 @@ Google Cloud's governed BI platform (LookML semantic model, explores, Looks, das
 A cloud CRM/platform for managing sales, service, and marketing records via a database, APIs, and a low-code app layer, with Agentforce as a layer on...
 - [Syncari](../tools/syncari.md) Official MCP · Enterprise only
 An "agentic master data management" (MDM) platform that unifies data across CRM/ERP/warehouse systems in real time and exposes that unified data to...
+- [Agentled](../tools/agentled.md) Community MCP · Gate unknown
+Discover how Agentled can revolutionize your business operations with AI-driven solutions that optimize sales, marketing, customer success, and more....
+- [Commercient Data Lake](../tools/commercient-data-lake.md) Community MCP · Gate unknown
+Commercient Data Lake is a backend-as-a-service built on Microsoft SQL Server: your ERP, CRM, and database data in one governed database per...
+- [FounderStack CRM](../tools/founderstack-crm.md) Community MCP · Gate unknown
+FounderStack keeps your sales conversations, follow-ups, and client context in one place-without pipelines, setup, or CRM overhead. Built for...
 - [Helm AI](../tools/helm-ai.md) Community MCP · Gate unknown
 Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your...
 - [Kaanha AI](../tools/kaanha-ai.md) Community MCP · Gate unknown
@@ -95,7 +101,7 @@ Tasks, CRM, docs, and finance in one workspace on one database. Runway computed 
 
 ## The rest of the category
 
-34 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+36 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
@@ -122,7 +128,7 @@ Dust connects your company knowledge, tools, and teams so you can create, share,
 - [Flowla](../tools/flowla.md) No MCP found · Gate unknown
 Flowla is the execution layer your revenue stack feeds into. It turns your best rep's instincts into a system that reads every signal and runs the...
 
-22 more are on the linked page. The cut is the display limit, not a ranking.
+24 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -131,9 +137,9 @@ Flowla is the execution layer your revenue stack feeds into. It turns your best 
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 37 |
+| [Gate unknown](../gates/unknown.md) | 42 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 1a1c78c5ba65c51c...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 e61a1d1c9f6b1e2e...
 
 ## Sources
 

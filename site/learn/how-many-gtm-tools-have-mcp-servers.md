@@ -1,6 +1,6 @@
-# How many GTM tools have MCP servers? 359 of 739 checked
+# How many GTM tools have MCP servers? 380 of 784 checked
 
-> 359 of 739 go to market tools have an MCP server: 200 official, 159 community. The rest, and what none found actually means. Counted 2026-09-12.
+> 380 of 784 go to market tools have an MCP server: 200 official, 180 community. The rest, and what none found actually means. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,31 +16,31 @@
 
 **The short answer**
 
-359 of the 739 go to market tools counted in this directory have an MCP server of some kind: 200 official and 159 community. 356 had none found on the date they were checked and 15 could not be settled either way.
+380 of the 784 go to market tools counted in this directory have an MCP server of some kind: 200 official and 180 community. 380 had none found on the date they were checked and 15 could not be settled either way.
 
 ## The whole distribution
 
 | Status | Entries | Share | What it means |
 |---|---|---|---|
-| [Official MCP](../mcp/official.md) | 200 | 27% | The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not... |
-| [Community MCP](../mcp/community.md) | 159 | 22% | A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. |
+| [Official MCP](../mcp/official.md) | 200 | 26% | The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not... |
+| [Community MCP](../mcp/community.md) | 180 | 23% | A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing. |
 | [MCP unknown](../mcp/unknown.md) | 15 | 2% | The check could not settle it either way. Unknown is a legal answer and it is published rather than guessed. |
 | [MCP not applicable](../mcp/n-a.md) | 9 | 1% | An MCP server is not a meaningful question for this entry. |
-| [No MCP found](../mcp/none-found.md) | 356 | 48% | No server was found at the time of the check. That is a statement about the search, not a promise that none exists. |
+| [No MCP found](../mcp/none-found.md) | 380 | 48% | No server was found at the time of the check. That is a statement about the search, not a promise that none exists. |
 
-Counted 2026-09-12. Total: 739 entries across 15 category files, of which 723 are unique products and 16 are the same product listed in a second category.
+Counted 2026-09-12. Total: 784 entries across 15 category files, of which 768 are unique products and 16 are the same product listed in a second category.
 
 ## What none found does not mean
 
-356 entries are none found. That is a statement about a search made on a date, and every entry carries the date its facts were pulled: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07, 403 on 2026-09-12. A vendor who shipped a server the week after their entry was checked is recorded as none found until the next pass. It is not a claim that no server exists.
+380 entries are none found. That is a statement about a search made on a date, and every entry carries the date its facts were pulled: 71 on 2026-08-24, 22 on 2026-08-25, 121 on 2026-09-02, 15 on 2026-09-03, 107 on 2026-09-07, 448 on 2026-09-12. A vendor who shipped a server the week after their entry was checked is recorded as none found until the next pass. It is not a claim that no server exists.
 
 ## Why the number is not higher
 
-Adoption is not evenly spread and it is not random. Vendors whose product was already an API shipped servers early: Data & Enrichment is at 42 official of 118, RevOps Infra at 29 of 68. Vendors whose product is a user interface are at the bottom: Enablement & Coaching at 2 of 41 and Forecasting & Revenue at 3 of 21.
+Adoption is not evenly spread and it is not random. Vendors whose product was already an API shipped servers early: Data & Enrichment is at 42 official of 121, RevOps Infra at 29 of 73. Vendors whose product is a user interface are at the bottom: Enablement & Coaching at 2 of 44 and Forecasting & Revenue at 3 of 21.
 
 ## The number to watch
 
-This directory rebuilds from source files and republishes the counts each time, so the honest way to read 359 is as a reading taken on 2026-09-12, not a permanent state of the market. The same question asked six months from now will have a different answer, and the point of publishing the date on every number is that you can tell the difference.
+This directory rebuilds from source files and republishes the counts each time, so the honest way to read 380 is as a reading taken on 2026-09-12, not a permanent state of the market. The same question asked six months from now will have a different answer, and the point of publishing the date on every number is that you can tell the difference.
 
 ## Sources
 

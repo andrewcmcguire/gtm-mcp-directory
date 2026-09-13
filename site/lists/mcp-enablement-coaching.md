@@ -1,6 +1,6 @@
-# Enablement & Coaching tools with MCP servers: 3 of 41, counted
+# Enablement & Coaching tools with MCP servers: 3 of 44, counted
 
-> 3 of the 41 enablement & coaching tools in The GTM MCP Directory have an MCP server: 2 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 3 of the 44 enablement & coaching tools in The GTM MCP Directory have an MCP server: 2 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Enablement & Coaching tools with an MCP server
 
-**List · 3 of 739**
+**List · 3 of 784**
 
 ## Enablement & Coaching tools with an MCP server
 
-Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here. 3 of 41 entries in this category are reachable by an agent: 2 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Score rep performance. [See the full category page](../categories/enablement-coaching.md).
+Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here. 3 of 44 entries in this category are reachable by an agent: 2 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Score rep performance. [See the full category page](../categories/enablement-coaching.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -28,7 +28,7 @@ OAuth; the docs say each end user authenticates with their own Showpad credentia
 workramp.com | [Community MCP](../mcp/community.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Third party platform auth
 Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 38 in this category
+### The other 41 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -62,8 +62,12 @@ getcoach.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 dialworks.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Enablism](../tools/enablism.md)
 enablism.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [EveryoneSocial](../tools/everyonesocial.md)
+everyonesocial.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Flockjay](../tools/flockjay.md)
 flockjay.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Gamifier](../tools/gamifier.md)
+gamifier.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [GTM Buddy](../tools/gtm-buddy.md)
 gtmbuddy.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Hindsight](../tools/hindsight.md)
@@ -82,6 +86,8 @@ matik.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknow
 meetrecord.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Memoir](../tools/memoir.md)
 trymemoir.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Navattic](../tools/navattic.md)
+navattic.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [OneUp Sales](../tools/oneup-sales.md)
 oneupsales.co.uk | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Paperflite](../tools/paperflite.md)
@@ -120,4 +126,4 @@ The jobs most often tagged on the 11 tagged entries in this category.
 - [Retrieve sales content](../jobs/retrieve-sales-content.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 739 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 784 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
