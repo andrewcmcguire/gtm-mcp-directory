@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [revenuegrid.com](https://revenuegrid.com) · entry id 12-revenue-grid · source 12-forecasting-revenue.md line 578
+Vendor: [revenuegrid.com](https://revenuegrid.com) · entry id 12-revenue-grid · source 12-forecasting-revenue.md line 600
 
 **What it does**
 Revenue Intelligence platform that automatically captures sales activities to help you identify and fix revenue leaks.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 403 of 934 entries are.
+The mcp_url field is empty on this entry. 417 of 982 entries are.
 
 **Command line**
 
@@ -62,7 +62,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-631 of 934 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+679 of 982 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+711 of 982 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -106,7 +106,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 12-forecasting-revenue.md
 
-- **Source line**: 578
+- **Source line**: 600
 
 - **Tier**: RESEARCHED
 

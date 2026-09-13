@@ -1,6 +1,6 @@
-# AI SDRs: 55 tools, 8 with an official MCP server
+# AI SDRs: 57 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 55 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 57 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 55
+- **entries in this file**: 57
 
 - **Official MCP**: 8
 - **Community MCP**: 4
-- **No MCP found**: 43
+- **No MCP found**: 45
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 35
+- **Gate unknown**: 37
 
-Source file: 04-ai-sdr-agents.md · content sha256 05afb707461f6799... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 f83f11ef6aba8501... · counts reconciled against tools_recount.py at build time.
 
 - [The 12 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -140,6 +140,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 05afb707461f6799... · counts
 
 - [Soff](../tools/soff.md) soff.ai AI Agents for Distributors [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Struct](../tools/struct.md) struct.app Multi-lingual AI voice agents for business workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Topo](../tools/topo.md) topo.io Topo is the AI sales platform that runs outbound for you: find in-market buyers, personalize outreach at scale, and book more meetings. See how it works. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -147,3 +149,5 @@ Source file: 04-ai-sdr-agents.md · content sha256 05afb707461f6799... · counts
 - [Truva](../tools/truva.md) truva.ai Sell more. Grind less with AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Verbiflow](../tools/verbiflow.md) verbiflow.com Meet Mochi, your AI coworker for GTM engineering and operations. Prepare for calls, follow up on deals, and build pipeline with your team in Slack. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Vogent](../tools/vogent.md) vogent.ai Vogent is the all-in-one platform to build, test, and deploy AI voice agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

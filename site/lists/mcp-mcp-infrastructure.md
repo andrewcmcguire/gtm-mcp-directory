@@ -1,6 +1,6 @@
-# MCP Layer tools with MCP servers: 173 of 178, counted
+# MCP Layer tools with MCP servers: 196 of 201, counted
 
-> 173 of the 178 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 159 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 196 of the 201 mcp layer tools in The GTM MCP Directory have an MCP server: 14 official and 182 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / MCP Layer tools with an MCP server
 
-**List · 173 of 934**
+**List · 196 of 982**
 
 ## MCP Layer tools with an MCP server
 
-The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 173 of 178 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 159 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
+The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent. 196 of 201 entries in this category are reachable by an agent: 14 through a server the vendor maintains and 182 through one somebody else built. The category is tagged most often with Proxy tool calls to SaaS apps. [See the full category page](../categories/mcp-infrastructure.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -87,6 +87,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Apify Actors MCP](../tools/apify-actors-mcp.md)
 mcp.apify.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Apollo Agent CLI by bcharleson](../tools/apollo-agent-cli-by-bcharleson.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/bcharleson/apollo-agent-cli](https://github.com/bcharleson/apollo-agent-cli) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by BlockchainRev](../tools/apollo-mcp-by-blockchainrev.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/BlockchainRev/apollo-mcp-server](https://github.com/BlockchainRev/apollo-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -107,6 +110,15 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/shariqri
 blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP Plugin by apolloio](../tools/apollo-mcp-plugin-by-apolloio.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/apolloio/apollo-mcp-plugin](https://github.com/apolloio/apollo-mcp-plugin) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Apollo.io CLI by dipankar](../tools/apollo-io-cli-by-dipankar.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/dipankar/apollo-io-cli](https://github.com/dipankar/apollo-io-cli) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Artefact MCP](../tools/artefact-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/artefactventures/artefact-mcp-ser...](https://github.com/artefactventures/artefact-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Attio MCP by Arkel-ai](../tools/attio-mcp-by-arkel-ai.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/Arkel-ai/attio-mcp-server](https://github.com/Arkel-ai/attio-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Attio MCP by hmk](../tools/attio-mcp-by-hmk.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
@@ -129,6 +141,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Capsule CRM MCP by soil-dev](../tools/capsule-crm-mcp-by-soil-dev.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Chatflow](../tools/chatflow.md)
+chatflow.biz | [Community MCP](../mcp/community.md) | [https://github.com/Yersat/chatflow-mcp](https://github.com/Yersat/chatflow-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [CiviCRM MCP by YogiAdhik](../tools/civicrm-mcp-by-yogiadhik.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/YogiAdhik/civicrm-mcp](https://github.com/YogiAdhik/civicrm-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -140,6 +155,18 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/Franky-N
 blank | [Gate unknown](../gates/unknown.md) |
 | [Close CRM MCP by pipeworx](../tools/close-crm-mcp-by-pipeworx.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/pipeworx-io/mcp-close-crm](https://github.com/pipeworx-io/mcp-close-crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Cognis Coldforge MCP](../tools/cognis-coldforge-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/cognis-digital/coldforge](https://github.com/cognis-digital/coldforge) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Cognis CRM Sync MCP](../tools/cognis-crm-sync-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/cognis-digital/crmsync](https://github.com/cognis-digital/crmsync) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Cognis Dealflow MCP](../tools/cognis-dealflow-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/cognis-digital/dealflow](https://github.com/cognis-digital/dealflow) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Cognis Leadforge MCP](../tools/cognis-leadforge-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/cognis-digital/leadforge](https://github.com/cognis-digital/leadforge) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Coldforge](../tools/coldforge.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Makeph/coldforge](https://github.com/Makeph/coldforge) | Auth not recorded
@@ -168,6 +195,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Dolibarr MCP by sachitha7](../tools/dolibarr-mcp-by-sachitha7.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/sachitha7/mcp-server-dolibarr](https://github.com/sachitha7/mcp-server-dolibarr) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Everything Civi MCP](../tools/everything-civi-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/ananda-callhub/everything-civi](https://github.com/ananda-callhub/everything-civi) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [EZ@Work MCP](../tools/ez-work-mcp.md)
 ezatwork.com | [Community MCP](../mcp/community.md) | [https://github.com/eranfinish/ezatwork-mcp](https://github.com/eranfinish/ezatwork-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -186,6 +216,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Fundz Agent Examples](../tools/fundz-agent-examples.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Fund-z/agent-examples](https://github.com/Fund-z/agent-examples) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Gmail Outreach MCP by brandononchain](../tools/gmail-outreach-mcp-by-brandononchain.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/brandononchain/gmail-mcp-agent](https://github.com/brandononchain/gmail-mcp-agent) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [GoHighLevel MCP by elitedcs](../tools/gohighlevel-mcp-by-elitedcs.md)
 elitedcs.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -201,6 +234,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [GTM Copilot by archanakrishnan](../tools/gtm-copilot-by-archanakrishnan.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/archanakrishnan094-max/AI-GTM-Cop...](https://github.com/archanakrishnan094-max/AI-GTM-Copilot-End-to-End-GTM-Intelligence-CRM-Automation) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [GTM MCP by aleprieto790](../tools/gtm-mcp-by-aleprieto790.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/aleprieto790-alt/gtm-mcp](https://github.com/aleprieto790-alt/gtm-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [GTMos MCP by Kai8karma](../tools/gtmos-mcp-by-kai8karma.md)
 kai8karma.github.io | [Community MCP](../mcp/community.md) | [https://github.com/Kai8karma/gtmos-mcp](https://github.com/Kai8karma/gtmos-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -209,6 +245,9 @@ guapu.io | [Community MCP](../mcp/community.md) | [https://guapu.io/conecta-tu-i
 blank | [Gate unknown](../gates/unknown.md) |
 | [HireSignal MCP](../tools/hiresignal-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/iusmuchandra/hiresignal-mcp](https://github.com/iusmuchandra/hiresignal-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [HubSpot MCP by amin-ale](../tools/hubspot-mcp-by-amin-ale.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/amin-ale/hubspot-mcp-server](https://github.com/amin-ale/hubspot-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/baryhuang/mcp-hubspot](https://github.com/baryhuang/mcp-hubspot) | Auth not recorded
@@ -273,6 +312,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Livespace CRM MCP](../tools/livespace-crm-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/proAutomator/livespace-crm-mcp](https://github.com/proAutomator/livespace-crm-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Local MCP CRM](../tools/local-mcp-crm.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/bhairavaa/local-mcp-crm](https://github.com/bhairavaa/local-mcp-crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Lookaberry GTM MCP](../tools/lookaberry-gtm-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/lucasmartins-ai/lookaberry](https://github.com/lucasmartins-ai/lookaberry) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -300,6 +342,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Mesh](../tools/mesh.md)
 me.sh | [Community MCP](../mcp/community.md) | [https://github.com/mesh/mesh-mcp](https://github.com/mesh/mesh-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Method CRM MCP](../tools/method-crm-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/avisangle/method-crm-mcp-workers](https://github.com/avisangle/method-crm-mcp-workers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Munin](../tools/munin.md)
 getmunin.com | [Community MCP](../mcp/community.md) | [https://github.com/getmunin/munin](https://github.com/getmunin/munin) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -321,8 +366,14 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Odoo MCP by pipeworx](../tools/odoo-mcp-by-pipeworx.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/pipeworx-io/mcp-odoo](https://github.com/pipeworx-io/mcp-odoo) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Oisha OS](../tools/oisha-os.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/baxtiyorjongaziyev/oisha-os](https://github.com/baxtiyorjongaziyev/oisha-os) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Open Sales Stack MCP by ekas](../tools/open-sales-stack-mcp-by-ekas.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Outbound Engine MCP by closermethod](../tools/outbound-engine-mcp-by-closermethod.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/closermethod/outbound-engine-mcp](https://github.com/closermethod/outbound-engine-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Outreach MCP by CData](../tools/outreach-mcp-by-cdata.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/CDataSoftware/outreach.io-mcp-ser...](https://github.com/CDataSoftware/outreach.io-mcp-server-by-cdata) | Auth not recorded
@@ -366,6 +417,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Relm CRM](../tools/relm-crm.md)
 relmcrm.com | [Community MCP](../mcp/community.md) | [https://relmcrm.com](https://relmcrm.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [RetailCRM MCP](../tools/retailcrm-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/theYahia/retailcrm-mcp](https://github.com/theYahia/retailcrm-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [RevOps Eval](../tools/revops-eval.md)
 revopseval.com | [Community MCP](../mcp/community.md) | [https://github.com/elijeangilles/revops-skills](https://github.com/elijeangilles/revops-skills) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -374,6 +428,9 @@ get-scala.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/se
 blank | [Gate unknown](../gates/unknown.md) |
 | [Sales Enablement Plugin by jbalbu01](../tools/sales-enablement-plugin-by-jbalbu01.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/jbalbu01/sales-enablement-plugin](https://github.com/jbalbu01/sales-enablement-plugin) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Sales Intelligence MCP by Aria Agentworks](../tools/sales-intelligence-mcp-by-aria-agentworks.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/aria-agentworks/sales-intelligenc...](https://github.com/aria-agentworks/sales-intelligence-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Salesbot LinkedIn MCP](../tools/salesbot-linkedin-mcp.md)
 salesbot.cz | [Community MCP](../mcp/community.md) | [https://github.com/Kubis010/linkedin-mcp-server-sale...](https://github.com/Kubis010/linkedin-mcp-server-salesbot) | Auth not recorded
@@ -477,6 +534,9 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md)
 context7.com | [Community MCP](../mcp/community.md) | [https://github.com/Damecek/salesforce-mcp-lib](https://github.com/Damecek/salesforce-mcp-lib) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Salesforce MCP Security Toolkit](../tools/salesforce-mcp-security-toolkit.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/ccmalcom/SFDC-MCP-Security-Toolki...](https://github.com/ccmalcom/SFDC-MCP-Security-Toolkit) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Salesforce Pardot MCP by DaniilMai](../tools/salesforce-pardot-mcp-by-daniilmai.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/DaniilMai/salesforce-pardot-mcp](https://github.com/DaniilMai/salesforce-pardot-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -510,8 +570,14 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Synapse CRM MCP by NimbleBrain](../tools/synapse-crm-mcp-by-nimblebrain.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/NimbleBrainInc/synapse-crm](https://github.com/NimbleBrainInc/synapse-crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Teamleader MCP by BoostU](../tools/teamleader-mcp-by-boostu.md)
+teamleader-mcp.boostu.be | [Community MCP](../mcp/community.md) | [https://github.com/boostuagency/boostu-teamleader-mc...](https://github.com/boostuagency/boostu-teamleader-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Twenty CRM MCP](../tools/twenty-crm-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mhenry3164/twenty-crm-mcp-server](https://github.com/mhenry3164/twenty-crm-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Twenty MCP Suite](../tools/twenty-mcp-suite.md)
+andrewmarconi.github.io | [Community MCP](../mcp/community.md) | [https://github.com/andrewmarconi/twenty-mcp-suite](https://github.com/andrewmarconi/twenty-mcp-suite) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [UGC VZ MCP](../tools/ugc-vz-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/ugcvz/ugc-vz-mcp](https://github.com/ugcvz/ugc-vz-mcp) | Auth not recorded
@@ -521,6 +587,9 @@ npmjs.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search
 blank | [Gate unknown](../gates/unknown.md) |
 | [Vibe Prospecting MCP](../tools/vibe-prospecting-mcp.md)
 vibeprospecting.ai | [Community MCP](../mcp/community.md) | [https://github.com/explorium-ai/vibeprospecting-mcp](https://github.com/explorium-ai/vibeprospecting-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Wapiworld](../tools/wapiworld.md)
+app.wapiworld.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Whatcanido](../tools/whatcanido.md)
 whatcanido.dev | [Community MCP](../mcp/community.md) | [https://whatcanido.dev/agents](https://whatcanido.dev/agents) | Auth not recorded
@@ -564,4 +633,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Read CRM records](../jobs/read-crm-records.md)
 - [Write CRM records](../jobs/write-crm-records.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

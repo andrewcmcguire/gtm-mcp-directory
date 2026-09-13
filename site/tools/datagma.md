@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 403 of 934 entries are.
+The mcp_url field is empty on this entry. 417 of 982 entries are.
 
 **Command line**
 
@@ -66,7 +66,7 @@ free
 
 No documentation URL recorded.
 
-604 of 934 entries are in the same position. Blank is legal and it is published as blank.
+629 of 982 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -96,7 +96,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 934 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 982 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

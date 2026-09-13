@@ -1,6 +1,6 @@
-# RevOps Infra: 88 tools, 29 with an official MCP server
+# RevOps Infra: 89 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 88 tools counted, 29 with an official MCP server and 14 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 89 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 88
+- **entries in this file**: 89
 
 - **Official MCP**: 29
 - **Community MCP**: 11
 - **MCP unknown**: 1
-- **No MCP found**: 47
+- **No MCP found**: 48
 
 - **ship a CLI (official) as of 2026-09-12**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
-- **Gate unknown**: 57
+- **Gate unknown**: 58
 
-Source file: 06-revops-infra.md · content sha256 01eadf28129c7d29... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 8a201340788486a8... · counts reconciled against tools_recount.py at build time.
 
 - [The 40 with an MCP server](../lists/mcp-revops-infra.md)
 
@@ -162,6 +162,8 @@ Source file: 06-revops-infra.md · content sha256 01eadf28129c7d29... · counts 
 - [GoLinks](../tools/golinks.md) golinks.io GoLinks® revolutionizes information access & sharing through secure, intuitive short links called go/links. It's knowledge discovery powered by generative AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Gradient Works](../tools/gradient-works.md) gradient.works Gradient Works is the territory planning and dynamic books platform for RevOps. Build fair territories in minutes. Keep books balanced all year. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Huddlefire](../tools/huddlefire.md) huddlefire.com Turbocharge customer acquisition through exclusive SaaS partnerships. Founded in 2020, Huddlefire has 2 employees based in San Francisco. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Insycle](../tools/insycle.md) insycle.com Define how CRM data should work, enforce it across your CRMs, and monitor coverage and drift so people, automation, and AI act on reliable context. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [linkpoint360.com](https://linkpoint360.com) · entry id 06-linkpoint-connect · source 06-revops-infra.md line 1899
+Vendor: [linkpoint360.com](https://linkpoint360.com) · entry id 06-linkpoint-connect · source 06-revops-infra.md line 1921
 
 **What it does**
 LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption today.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 403 of 934 entries are.
+The mcp_url field is empty on this entry. 417 of 982 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-631 of 934 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+679 of 982 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-604 of 934 entries are in the same position. Blank is legal and it is published as blank.
+629 of 982 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+711 of 982 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -105,7 +105,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 1899
+- **Source line**: 1921
 
 - **Tier**: RESEARCHED
 

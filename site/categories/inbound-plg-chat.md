@@ -1,6 +1,6 @@
-# Inbound & PLG Chat: 50 tools, 11 with an official MCP server
+# Inbound & PLG Chat: 51 tools, 11 with an official MCP server
 
-> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 50 tools counted, 11 with an official MCP server and 4 free to start.
+> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 51 tools counted, 11 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,23 +16,23 @@
 
 Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed.
 
-- **entries in this file**: 50
+- **entries in this file**: 51
 
 - **Official MCP**: 11
 - **Community MCP**: 2
 - **MCP unknown**: 1
 - **MCP not applicable**: 1
-- **No MCP found**: 35
+- **No MCP found**: 36
 
 - **ship a CLI (official) as of 2026-09-12**: 3
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
 - **Enterprise only**: 3
-- **Gate unknown**: 33
+- **Gate unknown**: 34
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 bd27a2590bc6b4fb... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 4d59441600ff9022... · counts reconciled against tools_recount.py at build time.
 
 - [The 13 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 
@@ -102,6 +102,8 @@ Source file: 14-inbound-plg-chat.md · content sha256 bd27a2590bc6b4fb... · cou
 - [Instapage](../tools/instapage.md) instapage.com Build high-converting landing pages with the best landing page creator and software. Drag-and-drop builder, 250+ templates, AI content, A/B testing, and personalization tools. Start your 14-day free trial. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Intellimize](../tools/intellimize.md) intellimize.com Webflow Optimize brings A/B testing and personalization to your website, on any CMS. Leverage AI-driven optimization to maximize conversions. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Laudable](../tools/laudable.md) laudable.com Get hundreds of customer testimonials, quotes, 5*G2 reviews, and advocates, in 80% less time, with Laudable's AI. Mine the data you already have in Gong and Chorus call recordings for customer evidence and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Laudspeaker](../tools/laudspeaker.md) laudspeaker.com Open source mobile marketing platform; alternative to Appcues-style product messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

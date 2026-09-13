@@ -1,6 +1,6 @@
-# Video Prospecting: 23 tools, 4 with an official MCP server
+# Video Prospecting: 24 tools, 4 with an official MCP server
 
-> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 23 tools counted, 4 with an official MCP server and 3 free to start.
+> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 24 tools counted, 4 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,12 +16,12 @@
 
 Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server.
 
-- **entries in this file**: 23
+- **entries in this file**: 24
 
 - **Official MCP**: 4
 - **Community MCP**: 6
 - **MCP unknown**: 1
-- **No MCP found**: 12
+- **No MCP found**: 13
 
 - **ship a CLI (official) as of 2026-09-12**: 3
 
@@ -29,9 +29,9 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **Paid, self-serve**: 6
 - **Enterprise leaning**: 1
 - **Enterprise only**: 2
-- **Gate unknown**: 11
+- **Gate unknown**: 12
 
-Source file: 08-video-prospecting.md · content sha256 c83c2b459efd0cb8... · counts reconciled against tools_recount.py at build time.
+Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-video-prospecting.md)
 
@@ -75,6 +75,8 @@ Source file: 08-video-prospecting.md · content sha256 c83c2b459efd0cb8... · co
 - [Kite](../tools/kite.md) kite.video Create professional app demo videos in minutes. Auto cursor follow, zooms, text scenes, 3D mockups, AI voiceover, music, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Midrender](../tools/midrender.md) midrender.com Create motion animations in collaboration with AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Milk Video](../tools/milk-video.md) milkvideo.com Create video testimonials with a link. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [OneMob](../tools/onemob.md) onemob.com Create personalized video microsites, track prospect engagement in real-time, and convert more deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

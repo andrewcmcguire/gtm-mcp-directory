@@ -1,6 +1,6 @@
-# Signals & Intent: 64 tools, 20 with an official MCP server
+# Signals & Intent: 65 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 64 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 65 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 64
+- **entries in this file**: 65
 
 - **Official MCP**: 20
 - **Community MCP**: 5
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 36
+- **No MCP found**: 37
 
 - **ship a CLI (official) as of 2026-09-12**: 2
 
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 35
+- **Gate unknown**: 36
 
-Source file: 05-signals-intent-abm.md · content sha256 85e12521e0c6e590... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 1125cce3180e9b8f... · counts reconciled against tools_recount.py at build time.
 
 - [The 25 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
@@ -113,6 +113,8 @@ Source file: 05-signals-intent-abm.md · content sha256 85e12521e0c6e590... · c
 - [Avina](../tools/avina.md) avina.io Avina is an AI-powered go-to-market platform that helps B2B sales teams find, prioritize, and engage high-intent prospects using real-time buying signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Channel99](../tools/channel99.md) channel99.com B2B marketing attribution software that uses AI to recommend ways to improve campaign ROI and increase pipeline [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [ClearBrain](../tools/clearbrain.md) clearbrain.com Causal analytics for growth teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [CustomerOS](../tools/customeros.md) customeros.ai CustomerOS uncovers hidden pipeline that actually converts. It [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

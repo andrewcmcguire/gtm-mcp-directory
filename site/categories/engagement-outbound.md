@@ -1,6 +1,6 @@
-# Engagement & Outbound: 121 tools, 23 with an official MCP server
+# Engagement & Outbound: 127 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 121 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 127 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,12 +16,12 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 121
+- **entries in this file**: 127
 
 - **Official MCP**: 23
-- **Community MCP**: 11
+- **Community MCP**: 12
 - **MCP unknown**: 2
-- **No MCP found**: 85
+- **No MCP found**: 90
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
@@ -29,11 +29,11 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 89
+- **Gate unknown**: 95
 
-Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 af4ebe7a4f6f1e88... · counts reconciled against tools_recount.py at build time.
 
-- [The 34 with an MCP server](../lists/mcp-engagement-outbound.md)
+- [The 35 with an MCP server](../lists/mcp-engagement-outbound.md)
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
@@ -90,6 +90,8 @@ Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · 
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: overloop (community)
 
+- [Crevideo Reach](../tools/crevideo-reach.md) crevideo.com Scale TikTok Shop affiliate outreach with Crevideo Reach. Find affiliate creators, automate outreach, track ROI, and manage TikTok Shop creator partnerships from one platform. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Emelia](../tools/emelia.md) emelia.io Emelia simplifies LinkedIn and email prospecting, helping you find future clients with an easy-to-use platform and advanced technology. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Intent Outreach](../tools/intent-outreach.md) demos.intentsolutions.io Intent Outreach runs outbound prospecting inside Claude Code: research, enrichment, and drafted outreach over your own provider accounts, with a typed validation gate in front of storage and a per-campaign... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -144,6 +146,8 @@ Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · 
 
 - [CallHippo](../tools/callhippo.md) callhippo.com Automate customer engagement with AI. Scale conversations, personalize messaging, and activate global communication in minutes [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Castled.io](../tools/castled-io.md) castled.io Customer Engagement software on top of BigQuery/Snowflake [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [CIENCE](../tools/cience.md) cience.com CIENCE builds qualified sales meetings through managed SDR teams, audience data, outbound campaigns, inbound qualification, and AI-supported GTM execution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [CoffeeAI](../tools/coffeeai.md) get-coffee.ai Instant, hyper-personalized, AI-powered outreach messages [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -168,6 +172,8 @@ Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · 
 
 - [Hatch](../tools/hatch.md) usehatch.ai The Hatch AI communications platform answers every call, text, and email, 24/7, with Voice AI powered by OpenAI's GPT-Live-1. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Hilos](../tools/hilos.md) hilos.io Perfila leads, automatiza seguimientos e integra con tus herramientas favoritas para aumentar tu conversión. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Hive](../tools/hive.md) hive.co Elevate your event marketing with Hive - the custom-built platform for live events. Automate campaigns, measure success, and sell more tickets effortlessly. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Imagine AI](../tools/imagine-ai.md) imagineai.me Imagine AI is a content agent built to generate revenue at high-growth companies. It creates coordinated content precisely for your ICP and maps your content to your pipeline and closed revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -186,6 +192,8 @@ Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · 
 
 - [Lob](../tools/lob.md) lob.com Automate and personalize direct mail at scale while our nationwide print network speeds delivery, controls postage costs, and keeps every send compliant. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Locent](../tools/locent.md) locent.com Automated messaging platform for companies. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Loops](../tools/loops.md) loops.so Loops is email marketing software for SaaS teams to send marketing, lifecycle, and transactional email from one product. Free to start. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mailchimp](../tools/mailchimp.md) mailchimp.com Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -197,6 +205,8 @@ Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · 
 - [Mogli](../tools/mogli.md) mogli.com Streamline text messaging and transform engagement with Mogli's Salesforce SMS App. Discover our 5-star solution that makes texting from Salesforce easy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Natterbox](../tools/natterbox.md) natterbox.com Voice AI That Actually Works Curious to hear what an AI Agent would sound like for your business? Fill in the form below to create an AI Agent for your company in seconds. Deploy AI in minutes not months You... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Naytev](../tools/naytev.md) naytev.com Naytev's social media management and automation software empowers elite content teams to win on Facebook, Instagram, Twitter, LinkedIn, and Pinterest. Improve performance on social. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [OneLocal](../tools/onelocal.md) onelocal.com OneLocal helps local businesses win more calls and book more jobs with marketing that runs itself. Book a free demo today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -219,6 +229,8 @@ Source file: 02-engagement-outbound.md · content sha256 7743706ee66f1fdf... · 
 - [Pinnacle](../tools/pinnacle.md) pinnacle.sh One API for RCS, iMessage, MMS, and SMS. Build, test, and scale every channel - send your first message in minutes, not weeks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Plai](../tools/plai.md) plai.io Manage Facebook Ads and Google Ads across multiple clients with automation, templates, reporting, billing, and white-labeled access. Built for agencies. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [PlayAbly](../tools/playably.md) playably.ai Gamified rebates for ecommerce brands. Shoppers pay full price for a real shot at 100% cashback when the moment hits. You keep the margin, we take the risk. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Popsy](../tools/popsy.md) popsy.ai AI tool that finds you leads on Reddit and sends them hyper… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

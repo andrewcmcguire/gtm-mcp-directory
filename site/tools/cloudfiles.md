@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [https://www.cloudfiles.io/salesforce?utm_medium=web&utm_source=appex&utm_content=company](https://www.cloudfiles.io/salesforce?utm_medium=web&utm_source=appex&utm_content=company) · entry id 06-cloudfiles · source 06-revops-infra.md line 1937
+Vendor: [https://www.cloudfiles.io/salesforce?utm_medium=web&utm_source=appex&utm_content=company](https://www.cloudfiles.io/salesforce?utm_medium=web&utm_source=appex&utm_content=company) · entry id 06-cloudfiles · source 06-revops-infra.md line 1959
 
 **What it does**
 CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with enterprise-grade security and compliance.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 403 of 934 entries are.
+The mcp_url field is empty on this entry. 417 of 982 entries are.
 
 **Command line**
 
@@ -62,7 +62,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-631 of 934 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+679 of 982 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+711 of 982 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -106,7 +106,7 @@ API mentioned on https://help.cloudfiles.io/; pricing/gate not inferred from pre
 
 - **Source file**: 06-revops-infra.md
 
-- **Source line**: 1937
+- **Source line**: 1959
 
 - **Tier**: RESEARCHED
 

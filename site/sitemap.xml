@@ -1171,6 +1171,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-agent-cli-by-bcharleson</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-io-cli-by-dipankar</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-io-sequences</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -1187,6 +1197,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-mcp-by-eden-anthony</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-mcp-by-fuzzylabs</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1221,6 +1236,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-mcp-by-wmarceau</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/apollo-mcp-plugin-by-apolloio</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -1232,6 +1252,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/arphie</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/artefact-mcp</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1257,6 +1282,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/attention</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/attio-mcp-by-arkel-ai</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1501,6 +1531,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/canopy-labs</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/capix</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -1532,6 +1567,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/cast-app</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/castled-io</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1587,6 +1627,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/chatbase</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/chatflow</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1651,6 +1696,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/clay-mcp-by-bpw-civic</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/clay-mcp-by-shanefirek</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -1677,6 +1727,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/clearbit</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/clearbrain</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1761,6 +1816,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/cognis-coldforge-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/cognis-crm-sync-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/cognis-dealflow-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/cognis-leadforge-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/cognism</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -1812,6 +1887,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/companyenrich</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/compcode-mcp</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1897,6 +1977,16 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/covideo</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/crevideo-reach</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/crisphive-mcp</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -2246,6 +2336,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/everything-civi-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/exa</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -2506,6 +2601,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/gluetrail</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/gmail-outreach-mcp-by-brandononchain</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/gohighlevel-mcp-by-elitedcs</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -2591,6 +2696,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/gtm-mcp-by-aleprieto790</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/gtmos-mcp-by-kai8karma</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -2661,6 +2771,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/hilos</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/hindsight</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -2701,6 +2816,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/hubspot-mcp-by-amin-ale</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/hubspot-mcp-by-baryhuang</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -2732,6 +2852,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/hubspot</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/huddlefire</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3046,12 +3171,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/laudable</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/laudspeaker</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/lavender</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/lead-enrich-mcp-by-carsonlabs</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3117,6 +3252,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/leadpages</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/leadpipe-mcp</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3216,6 +3356,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/linkupapi-linkedin-skills</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/listmint</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -3242,6 +3387,16 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/lob</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/local-mcp-crm</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/locent</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3496,6 +3651,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/method-crm-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/meticulate</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -3517,6 +3677,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/midrender</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/milk-video</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3636,6 +3801,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/naytev</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/netline</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -3706,6 +3876,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/ocean-io-agent-cli</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/ocean-io</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -3732,6 +3907,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/offorte</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/oisha-os</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3811,7 +3991,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/outbound-engine-mcp-by-closermethod</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/outplay</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/outreach-deliverability-mcp-by-closermethod</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -4017,6 +4207,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/planhat-mcp-by-da-troll</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/playably</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -4286,6 +4481,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/retailcrm-mcp</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/retape</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -4382,6 +4582,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/sales-enablement-plugin-by-jbalbu01</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/sales-intelligence-mcp-by-aria-agentworks</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -4562,6 +4767,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/salesforce-mcp-lib-by-damecek</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/salesforce-mcp-security-toolkit</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -4881,6 +5091,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/speck</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/spekit</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -4922,6 +5137,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/streak</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/struct</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -5042,6 +5262,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/tday</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/teamleader-mcp-by-boostu</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -5201,6 +5426,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/twenty-mcp-suite</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/typeform</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -5341,6 +5571,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/vogent</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/voiceops</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -5367,6 +5602,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/tools/waalaxy</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/tools/wapiworld</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -5701,6 +5941,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/andrewmarconi-github-io</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/anglera-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -5727,6 +5972,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/apollo-io</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/app-wapiworld-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -5966,6 +6216,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/canopylabs-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/capix-ai</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -5977,6 +6232,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/cast-app</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/castled-io</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -6022,6 +6282,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/chatbase-co</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/chatflow-biz</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -6077,6 +6342,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/clearbit-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/clearbrain-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -6176,6 +6446,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/compcode-ai</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/compgun-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -6257,6 +6532,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/covideo-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/crevideo-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -6417,6 +6697,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/dittofeed-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/docs-crisphive-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -6911,6 +7196,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/gluetrail-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/goairspeed-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -7046,6 +7336,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/hilos-io</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/himodus-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -7077,6 +7372,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/hubspot-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/huddlefire-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -7351,6 +7651,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/laudable-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/laudspeaker-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -7476,6 +7781,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/linkupapi-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/listmint-io</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -7487,6 +7797,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/lob-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/locent-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -7711,6 +8026,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/milkvideo-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/mindtickle-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -7787,6 +8107,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/navattic-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/naytev-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -8107,6 +8432,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/plai-io</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/playably-ai</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -8696,6 +9026,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/speck-sh</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/spekit-com</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
@@ -8732,6 +9067,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/streak-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/struct-app</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -8842,6 +9182,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/tday-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/teamleader-mcp-boostu-be</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>
@@ -9197,6 +9542,11 @@
   </url>
   <url>
     <loc>https://andrewcmcguire.com/gtm-directory/vendors/vinkius-com</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://andrewcmcguire.com/gtm-directory/vendors/vogent-ai</loc>
     <lastmod>2026-09-12</lastmod>
     <priority>0.7</priority>
   </url>

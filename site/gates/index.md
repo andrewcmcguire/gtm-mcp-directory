@@ -13,11 +13,11 @@
 
 ## The second column nobody else publishes. Can a solo operator get in without a procurement cycle.
 
-Buckets are the vocabulary in the source markdown, normalised by the build and never invented. The counts below sum to 934 and are reconciled against tools_recount.py.
+Buckets are the vocabulary in the source markdown, normalised by the build and never invented. The counts below sum to 982 and are reconciled against tools_recount.py.
 
-- [Free to start](free.md) - 78 of 934 entries. A solo operator can get API access without talking to anyone.
-- [Paid, self-serve](paid.md) - 132 of 934 entries. A solo operator can get API access by paying, still without a sales call.
-- [Enterprise leaning](enterprise-leaning.md) - 8 of 934 entries. Self-serve on paper, gated in practice. One entry sits here.
-- [Enterprise only](enterprise-only.md) - 79 of 934 entries. API access needs a contract, a seat count, or a procurement cycle. A solo operator is out.
-- [Gate unknown](unknown.md) - 631 of 934 entries. The gate could not be established from public sources. Published as unknown rather than guessed.
-- [Gate not applicable](n-a.md) - 6 of 934 entries. An API gate is not a meaningful question for this entry.
+- [Free to start](free.md) - 78 of 982 entries. A solo operator can get API access without talking to anyone.
+- [Paid, self-serve](paid.md) - 132 of 982 entries. A solo operator can get API access by paying, still without a sales call.
+- [Enterprise leaning](enterprise-leaning.md) - 8 of 982 entries. Self-serve on paper, gated in practice. One entry sits here.
+- [Enterprise only](enterprise-only.md) - 79 of 982 entries. API access needs a contract, a seat count, or a procurement cycle. A solo operator is out.
+- [Gate unknown](unknown.md) - 679 of 982 entries. The gate could not be established from public sources. Published as unknown rather than guessed.
+- [Gate not applicable](n-a.md) - 6 of 982 entries. An API gate is not a meaningful question for this entry.

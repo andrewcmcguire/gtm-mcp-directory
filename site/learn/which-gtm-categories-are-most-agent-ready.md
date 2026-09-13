@@ -1,6 +1,6 @@
 # Which GTM categories are most agent reachable? The 15 layers, ranked by coverage
 
-> MCP Layer leads at 97% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-12.
+> MCP Layer leads at 98% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,33 +16,33 @@
 
 **The short answer**
 
-MCP Layer is the most agent reachable category at 173 of 178 entries with a server. Enablement & Coaching is the least at 3 of 57. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
+MCP Layer is the most agent reachable category at 196 of 201 entries with a server. Enablement & Coaching is the least at 3 of 58. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
 
 ## The ranking
 
 | # | Category | Reachable | Official | Community | Of |
 |---|---|---|---|---|---|
-| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 97% | 14 | 159 | 178 |
+| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 98% | 14 | 182 | 201 |
 | 2 | [Community & Dark Social](../categories/community-dark-social.md) | 52% | 8 | 3 | 21 |
-| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 50% | 42 | 28 | 141 |
-| 4 | [Conversation Intel](../categories/conversation-intel.md) | 46% | 19 | 2 | 46 |
-| 5 | [RevOps Infra](../categories/revops-infra.md) | 45% | 29 | 11 | 88 |
-| 6 | [Video Prospecting](../categories/video-prospecting.md) | 43% | 4 | 6 | 23 |
-| 7 | [Scheduling & Routing](../categories/scheduling-routing.md) | 41% | 5 | 2 | 17 |
-| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 39% | 20 | 5 | 64 |
+| 3 | [Data & Enrichment](../categories/data-enrichment.md) | 52% | 42 | 35 | 149 |
+| 4 | [RevOps Infra](../categories/revops-infra.md) | 45% | 29 | 11 | 89 |
+| 5 | [Conversation Intel](../categories/conversation-intel.md) | 45% | 19 | 2 | 47 |
+| 6 | [Scheduling & Routing](../categories/scheduling-routing.md) | 44% | 5 | 3 | 18 |
+| 7 | [Video Prospecting](../categories/video-prospecting.md) | 42% | 4 | 6 | 24 |
+| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 38% | 20 | 5 | 65 |
 | 9 | [Proposals & Deals](../categories/proposals-deals.md) | 37% | 8 | 2 | 27 |
-| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 28% | 23 | 11 | 121 |
-| 11 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 26% | 11 | 2 | 50 |
-| 12 | [AI SDRs](../categories/ai-sdr-agents.md) | 22% | 8 | 4 | 55 |
-| 13 | [Email Deliverability](../categories/email-deliverability.md) | 22% | 4 | 1 | 23 |
-| 14 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 13% | 3 | 0 | 23 |
-| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 5% | 2 | 1 | 57 |
+| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 28% | 23 | 12 | 127 |
+| 11 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 25% | 11 | 2 | 51 |
+| 12 | [Email Deliverability](../categories/email-deliverability.md) | 25% | 4 | 2 | 24 |
+| 13 | [AI SDRs](../categories/ai-sdr-agents.md) | 21% | 8 | 4 | 57 |
+| 14 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17% | 3 | 1 | 24 |
+| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 5% | 2 | 1 | 58 |
 
 Counted 2026-09-12 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 55 entries. Enablement & Coaching is at 2 of 57. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 88.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 57 entries. Enablement & Coaching is at 2 of 58. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 89.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 

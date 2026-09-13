@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 34 of 121, counted
+# Engagement & Outbound tools with MCP servers: 35 of 127, counted
 
-> 34 of the 121 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 11 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 35 of the 127 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 12 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 34 of 934**
+**List · 35 of 982**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 34 of 121 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 11 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 35 of 127 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 12 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -93,6 +93,9 @@ api key. The community server takes an Aircall API ID and API token, which the p
 | [Overloop](../tools/overloop.md)
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | API key
 api key via OVERLOOP_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
+| [Crevideo Reach](../tools/crevideo-reach.md)
+crevideo.com | [Community MCP](../mcp/community.md) | [https://github.com/crevideo/crevideo-reach](https://github.com/crevideo/crevideo-reach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Emelia](../tools/emelia.md)
 emelia.io | [Community MCP](../mcp/community.md) | [https://github.com/emelia-io/claude-outreach](https://github.com/emelia-io/claude-outreach) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -121,7 +124,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 warmysender.com | [Community MCP](../mcp/community.md) | [https://warmysender.com](https://warmysender.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 87 in this category
+### The other 92 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -163,6 +166,8 @@ bluebirds.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/un
 brevo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CallHippo](../tools/callhippo.md)
 callhippo.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Castled.io](../tools/castled-io.md)
+castled.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CIENCE](../tools/cience.md)
 cience.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CoffeeAI](../tools/coffeeai.md)
@@ -187,6 +192,8 @@ frontspin.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 fuseai.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Hatch](../tools/hatch.md)
 usehatch.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Hilos](../tools/hilos.md)
+hilos.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Hive](../tools/hive.md)
 hive.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Imagine AI](../tools/imagine-ai.md)
@@ -205,6 +212,8 @@ kuli.one | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknow
 lemonlime.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Lob](../tools/lob.md)
 lob.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Locent](../tools/locent.md)
+locent.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Loops](../tools/loops.md)
 loops.so | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Mailchimp](../tools/mailchimp.md)
@@ -217,6 +226,8 @@ meticulate.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 mogli.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Natterbox](../tools/natterbox.md)
 natterbox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Naytev](../tools/naytev.md)
+naytev.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [OneLocal](../tools/onelocal.md)
 onelocal.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [OneSignal](../tools/onesignal.md)
@@ -239,6 +250,8 @@ pingm.net | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkno
 pinnacle.sh | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Plai](../tools/plai.md)
 plai.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [PlayAbly](../tools/playably.md)
+playably.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Popsy](../tools/popsy.md)
 popsy.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Postal](../tools/postal.md)
@@ -313,4 +326,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

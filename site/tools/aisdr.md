@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 403 of 934 entries are.
+The mcp_url field is empty on this entry. 417 of 982 entries are.
 
 **Command line**
 
@@ -66,7 +66,7 @@ paid, self-serve - $900/month (billed quarterly), unlimited seats, credit-based 
 
 No documentation URL recorded.
 
-604 of 934 entries are in the same position. Blank is legal and it is published as blank.
+629 of 982 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -96,13 +96,13 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 934 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 982 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
 - [https://aisdr.com](https://aisdr.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 51 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 57 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://aisdr.com
 

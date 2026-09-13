@@ -1,6 +1,6 @@
-# GTM tools with no MCP server: 473 of 934 checked
+# GTM tools with no MCP server: 487 of 982 checked
 
-> 473 of 934 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-12.
+> 487 of 982 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 473 GTM tools with no MCP server found
+[The lists](index.md) / The 487 GTM tools with no MCP server found
 
-**List · 473 of 934**
+**List · 487 of 982**
 
-## The 473 GTM tools with no MCP server found
+## The 487 GTM tools with no MCP server found
 
 None found is a statement about a search on a date, not a promise that no server exists. Each row carries the date its entry was last checked. A vendor who shipped a server the week after that date is recorded here until the next pass, which is exactly why every entry ships its own last_checked stamp instead of one site wide date.
 
@@ -161,4 +161,4 @@ aircover.ai | [Enablement & Coaching](../categories/enablement-coaching.md) | Ai
 | [Alyce](../tools/alyce.md)
 alyce.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Could not fully document product behavior from a live vendor homepage this pass (fetch status=None error=URLError:
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

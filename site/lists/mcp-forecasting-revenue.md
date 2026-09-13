@@ -1,6 +1,6 @@
-# Forecasting & Revenue tools with MCP servers: 3 of 23, counted
+# Forecasting & Revenue tools with MCP servers: 4 of 24, counted
 
-> 3 of the 23 forecasting & revenue tools in The GTM MCP Directory have an MCP server: 3 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 4 of the 24 forecasting & revenue tools in The GTM MCP Directory have an MCP server: 3 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Forecasting & Revenue tools with an MCP server
 
-**List · 3 of 934**
+**List · 4 of 982**
 
 ## Forecasting & Revenue tools with an MCP server
 
-Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast engines (BoostUp/Terret, Aviso, Kluster) sold sales-led and quote-only, incentive-comp platforms that tie forecast risk to rep behavior (Xactly, Varicent), FP&A tools that model revenue top-down as one planning use case among several (Vareto, Cube Software, Pigment, Anaplan), and forecasting bolted onto core CRMs for free (Salesforce, HubSpot). The tension: almost every vendor in this category quotes a specific forecast-accuracy percentage with no published methodology behind a demo-request wall, and a real, self-serve MCP server is the exception rather than the rule - Pigment and Cube Software are the only two found here with one. 3 of 23 entries in this category are reachable by an agent: 3 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Read the pipeline forecast. [See the full category page](../categories/forecasting-revenue.md).
+Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast engines (BoostUp/Terret, Aviso, Kluster) sold sales-led and quote-only, incentive-comp platforms that tie forecast risk to rep behavior (Xactly, Varicent), FP&A tools that model revenue top-down as one planning use case among several (Vareto, Cube Software, Pigment, Anaplan), and forecasting bolted onto core CRMs for free (Salesforce, HubSpot). The tension: almost every vendor in this category quotes a specific forecast-accuracy percentage with no published methodology behind a demo-request wall, and a real, self-serve MCP server is the exception rather than the rule - Pigment and Cube Software are the only two found here with one. 4 of 24 entries in this category are reachable by an agent: 3 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Read the pipeline forecast. [See the full category page](../categories/forecasting-revenue.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -27,6 +27,9 @@ unknown - described only as a "governed MCP connection" with permission/audit co
 | [Pigment](../tools/pigment.md)
 pigment.com | [Official MCP](../mcp/official.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +2 more | Auth not recorded
 A workspace admin enables MCP under Settings > Integrations, generating a per-workspace... | [Enterprise only](../gates/enterprise-only.md) |
+| [CompCode MCP](../tools/compcode-mcp.md)
+compcode.ai | [Community MCP](../mcp/community.md) | [https://github.com/compcode-ai/mcp](https://github.com/compcode-ai/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
 ### The other 20 in this category
 
@@ -86,4 +89,4 @@ The jobs most often tagged on the 17 tagged entries in this category.
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 - [Read CRM records](../jobs/read-crm-records.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# Inbound & PLG Chat tools with MCP servers: 13 of 50, counted
+# Inbound & PLG Chat tools with MCP servers: 13 of 51, counted
 
-> 13 of the 50 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 11 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 13 of the 51 inbound & plg chat tools in The GTM MCP Directory have an MCP server: 11 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Inbound & PLG Chat tools with an MCP server
 
-**List · 13 of 934**
+**List · 13 of 982**
 
 ## Inbound & PLG Chat tools with an MCP server
 
-Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed. 13 of 50 entries in this category are reachable by an agent: 11 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Answer an inbound chat or call. [See the full category page](../categories/inbound-plg-chat.md).
+Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed. 13 of 51 entries in this category are reachable by an agent: 11 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Answer an inbound chat or call. [See the full category page](../categories/inbound-plg-chat.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -58,7 +58,7 @@ The operator's own Landbot API key stored with Composio; the Zapier connector ri
 chatbase.co | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/chatbase](https://zapier.com/mcp/chatbase) | Third party platform auth
 Rides Zapier's hosted-connector auth at mcp.zapier.com, not a Chatbase-issued MCP... | [Paid, self-serve](../gates/paid.md) |
 
-### The other 37 in this category
+### The other 38 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -100,6 +100,8 @@ gravityforms.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gate
 instapage.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Intellimize](../tools/intellimize.md)
 intellimize.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Laudable](../tools/laudable.md)
+laudable.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Laudspeaker](../tools/laudspeaker.md)
 laudspeaker.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [LeadPages](../tools/leadpages.md)
@@ -150,4 +152,4 @@ The jobs most often tagged on the 10 tagged entries in this category.
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

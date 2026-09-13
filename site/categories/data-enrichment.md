@@ -1,6 +1,6 @@
-# Data & Enrichment: 141 tools, 42 with an official MCP server
+# Data & Enrichment: 149 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 141 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 149 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 141
+- **entries in this file**: 149
 
 - **Official MCP**: 42
-- **Community MCP**: 28
-- **No MCP found**: 71
+- **Community MCP**: 35
+- **No MCP found**: 72
 
 - **ship a CLI (official) as of 2026-09-12**: 8
 
@@ -28,11 +28,11 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 92
+- **Gate unknown**: 100
 
-Source file: 01-data-enrichment.md · content sha256 742893c36b306fc8... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 2553104751182944... · counts reconciled against tools_recount.py at build time.
 
-- [The 70 with an MCP server](../lists/mcp-data-enrichment.md)
+- [The 77 with an MCP server](../lists/mcp-data-enrichment.md)
 
 - [Find a work email address](../jobs/find-work-email.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
@@ -127,11 +127,17 @@ Source file: 01-data-enrichment.md · content sha256 742893c36b306fc8... · coun
 
 - [UpLead](../tools/uplead.md) uplead.com A B2B contact database and prospecting tool (vendor claims 160M+ contacts, 95% data accuracy) for building lead lists with verified emails, direct dials, and firmographic/technographic filters, with a browser... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
+- [Apollo MCP by fuzzylabs](../tools/apollo-mcp-by-fuzzylabs.md) github.com MCP server for Apollo.io integration - enables AI assistants to search accounts, enrich contacts, and access sales intelligence data through natural language. - fuzzylabs/apollo-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md) github.com let AGI print dollars for you. Contribute to louis030195/apollo-io-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Apollo MCP by mayanksingh09](../tools/apollo-mcp-by-mayanksingh09.md) github.com MCP server that enables AI assistants to draft personalized sales emails through Apollo.io. Search prospects, enrich contact data, and automatically generate tailored outreach messages based on recipient... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Apollo MCP by wmarceau](../tools/apollo-mcp-by-wmarceau.md) github.com Apollo.io lead enrichment and prospecting via MCP [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [B2B Enrichment MCP by Aleksey-Panf](../tools/b2b-enrichment-mcp-by-aleksey-panf.md) github.com Unified MCP server combining Hunter.io and Apollo for B2B lead enrichment - Aleksey-Panf/b2b-enrichment-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Clay MCP by bpw-civic](../tools/clay-mcp-by-bpw-civic.md) github.com MCP server for Clay.com API - people and company enrichment - bpw-civic/clay-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clay MCP by shanefirek](../tools/clay-mcp-by-shanefirek.md) github.com 73-tool MCP server for Clay. 1,100+ enrichment providers, waterfall sequences, CRM sync. - shanefirek/clay-mcp-public [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -141,11 +147,17 @@ Source file: 01-data-enrichment.md · content sha256 742893c36b306fc8... · coun
 
 - [JobDataLake MCP](../tools/jobdatalake-mcp.md) github.com MCP server for JobDataLake - search 1M+ enriched job listings from AI tools - echojobsio/jdl-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Lead Enrich MCP by carsonlabs](../tools/lead-enrich-mcp-by-carsonlabs.md) github.com MCP server for waterfall lead enrichment - cascades Apollo, Clearbit, and Hunter for maximum data coverage - carsonlabs/leadenrich-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Lead Radar](../tools/lead-radar.md) lead-radar.fr Détectez toutes les entreprises d'une zone géographique (données Google Maps), extrayez leurs coordonnées et enrichissez avec des emails de contact. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Leadhound API](../tools/leadhound-api.md) leadhoundapi.com leadhoundapi reads a city [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Leadpipe MCP](../tools/leadpipe-mcp.md) github.com AI-powered lead qualification engine for MCP. Ingest, enrich, score, and export leads to your CRM. - automatiabcn/leadpipe-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [LinkedIn MCP by gtm-api](../tools/linkedin-mcp-by-gtm-api.md) gtm-api.com A LinkedIn MCP server lets an AI agent search, connect, message and enrich on LinkedIn. The agent-native one is gtm-api.com: add one key to Claude, Cursor or ChatGPT. Across 20,000+ accounts, gtm-api.com... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LinkupAPI LinkedIn Skills](../tools/linkupapi-linkedin-skills.md) linkupapi.com Claude Skills for LinkedIn outreach, high-intent leads, feed engagement, and profile enrichment via LinkupAPI MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mamba Firmographic Enricher MCP](../tools/mamba-firmographic-enricher-mcp.md) github.com MCP server for the Mamba Labs Company Firmographic Enricher actor: employees, industry, HQ, founded, revenue, logo from a domain. Clay-ready. - mambalabsdev/mcp-company-firmographic-enricher [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -154,6 +166,8 @@ Source file: 01-data-enrichment.md · content sha256 742893c36b306fc8... · coun
 - [Mamba GTM Suite MCP](../tools/mamba-gtm-suite-mcp.md) github.com MCP server for the full Mamba Labs GTM Suite. All six GTM actors as tools in one server via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-suite [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mamba Tech Stack Signal MCP](../tools/mamba-tech-stack-signal-mcp.md) github.com MCP server for GTM Tech Stack Signal Enrichment. Detects CRM, sequencer, and marketing automation tools from a company's public website via Apify. Clay-ready output. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Ocean.io Agent CLI](../tools/ocean-io-agent-cli.md) ocean.io CLI and MCP server for the Ocean.io API ΓÇö search companies & people, enrich profiles, reveal emails/phones. Built for humans and AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Potarix Enricher](../tools/potarix-enricher.md) github.com MCP server for Potarix Enricher company and email lookup tools - Potarix/potarix-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -198,6 +212,8 @@ Source file: 01-data-enrichment.md · content sha256 742893c36b306fc8... · coun
 - [BuiltWith](../tools/builtwith.md) builtwith.com Vendor homepage fetched at https://builtwith.com; meta description not present. Thin public homepage copy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Bytemine](../tools/bytemine.md) bytemine.ai B2B data platform & APIs for sales, GTM, and AI agents. Access 135M+ contacts, 80M+ mobiles, and 10M+ companies via REST and MCP. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Canopy Labs](../tools/canopy-labs.md) canopylabs.com Canopy Labs automates customer analytics for small and medium-sized… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Capix](../tools/capix.md) capix.ai Capix uses AI to instantly find and aggregate accurate, up-to-date private company data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

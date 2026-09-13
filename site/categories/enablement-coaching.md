@@ -1,6 +1,6 @@
-# Enablement & Coaching: 57 tools, 2 with an official MCP server
+# Enablement & Coaching: 58 tools, 2 with an official MCP server
 
-> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 57 tools counted, 2 with an official MCP server and 0 free to start.
+> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 58 tools counted, 2 with an official MCP server and 0 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here.
 
-- **entries in this file**: 57
+- **entries in this file**: 58
 
 - **Official MCP**: 2
 - **Community MCP**: 1
 - **MCP unknown**: 3
-- **No MCP found**: 51
+- **No MCP found**: 52
 
 - **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
-- **Gate unknown**: 50
+- **Gate unknown**: 51
 
-Source file: 11-enablement-coaching.md · content sha256 e599a8e580b941e1... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 c199102707cbab38... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -97,6 +97,8 @@ Source file: 11-enablement-coaching.md · content sha256 e599a8e580b941e1... · 
 - [Gamifier](../tools/gamifier.md) gamifier.co Gamifier turns CRM activity into goals, challenges, leaderboards, rewards, and feedback for sales and support teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [GetCrux](../tools/getcrux.md) getcrux.ai A self-improving system for performance creatives. Crux connects ad data, competitor insight and your brand kit to go from insight to creative in minutes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Gluetrail](../tools/gluetrail.md) gluetrail.com Create step by step articles with screenshots and videos 10x faster [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [GTM Buddy](../tools/gtm-buddy.md) gtmbuddy.ai Activate reps who think, adapt, and close with autonomy. GTM Buddy turns enablement into a revenue activation engine with real-time deal guidance. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

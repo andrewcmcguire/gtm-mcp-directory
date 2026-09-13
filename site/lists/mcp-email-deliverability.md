@@ -1,6 +1,6 @@
-# Email Deliverability tools with MCP servers: 5 of 23, counted
+# Email Deliverability tools with MCP servers: 6 of 24, counted
 
-> 5 of the 23 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 1 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 6 of the 24 email deliverability tools in The GTM MCP Directory have an MCP server: 4 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Email Deliverability tools with an MCP server
 
-**List · 5 of 934**
+**List · 6 of 982**
 
 ## Email Deliverability tools with an MCP server
 
-Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps cold-outbound infrastructure out of spam. Standing risk worth flagging once here rather than per entry: automated warmup - seed inboxes auto-opening/replying/starring your mail to fake engagement - sits in real tension with mailbox-provider ToS. Google banned automated email warm-up services for Gmail accounts in a January 2023 policy change, and Google/Yahoo/Microsoft jointly enforce bulk-sender rules (sub-0.3% spam complaints, sub-2% bounce) as of May 2025; GMass shut its own warm-up feature down as a result. Several vendors below (InboxAlly explicitly) market themselves as the safer alternative to network-based/bot-driven warmup for exactly this reason. 5 of 23 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 1 through one somebody else built. The category is tagged most often with Warm up an inbox. [See the full category page](../categories/email-deliverability.md).
+Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling that keeps cold-outbound infrastructure out of spam. Standing risk worth flagging once here rather than per entry: automated warmup - seed inboxes auto-opening/replying/starring your mail to fake engagement - sits in real tension with mailbox-provider ToS. Google banned automated email warm-up services for Gmail accounts in a January 2023 policy change, and Google/Yahoo/Microsoft jointly enforce bulk-sender rules (sub-0.3% spam complaints, sub-2% bounce) as of May 2025; GMass shut its own warm-up feature down as a result. Several vendors below (InboxAlly explicitly) market themselves as the safer alternative to network-based/bot-driven warmup for exactly this reason. 6 of 24 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Warm up an inbox. [See the full category page](../categories/email-deliverability.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -32,6 +32,9 @@ mailforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/m
 API key, generated from the Mailforge dashboard. | [Paid, self-serve](../gates/paid.md) |
 | [Mamba Domain Deliverability MCP](../tools/mamba-domain-deliverability-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-domain-deliverab...](https://github.com/mambalabsdev/mcp-domain-deliverability-checker) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Outreach Deliverability MCP by closermethod](../tools/outreach-deliverability-mcp-by-closermethod.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/closermethod/outreach-deliverabil...](https://github.com/closermethod/outreach-deliverability-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
 ### The other 18 in this category
@@ -86,4 +89,4 @@ The jobs most often tagged on the 13 tagged entries in this category.
 - [Check inbox placement](../jobs/check-inbox-placement.md)
 - [Verify an email is deliverable](../jobs/verify-email-deliverable.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

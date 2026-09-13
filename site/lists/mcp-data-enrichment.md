@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 70 of 141, counted
+# Data & Enrichment tools with MCP servers: 77 of 149, counted
 
-> 70 of the 141 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 28 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 77 of the 149 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 35 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 70 of 934**
+**List · 77 of 982**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 70 of 141 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 28 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 77 of 149 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 35 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -150,14 +150,23 @@ api key (PDL_API_KEY environment variable) | [Free to start](../gates/free.md) |
 | [UpLead](../tools/uplead.md)
 uplead.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/uplead](https://zapier.com/mcp/uplead) +1 more | OAuth or an API key
 Handled through the Zapier/Pipedream platform's own connector auth (API key entered into... | [Paid, self-serve](../gates/paid.md) |
+| [Apollo MCP by fuzzylabs](../tools/apollo-mcp-by-fuzzylabs.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/fuzzylabs/apollo-mcp](https://github.com/fuzzylabs/apollo-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Apollo MCP by mayanksingh09](../tools/apollo-mcp-by-mayanksingh09.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mayanksingh09/apollo-io-mcp-serve...](https://github.com/mayanksingh09/apollo-io-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Apollo MCP by wmarceau](../tools/apollo-mcp-by-wmarceau.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/MarceauSolutions/dev-sandbox](https://github.com/MarceauSolutions/dev-sandbox) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [B2B Enrichment MCP by Aleksey-Panf](../tools/b2b-enrichment-mcp-by-aleksey-panf.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Clay MCP by bpw-civic](../tools/clay-mcp-by-bpw-civic.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/bpw-civic/clay-mcp-server](https://github.com/bpw-civic/clay-mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Clay MCP by shanefirek](../tools/clay-mcp-by-shanefirek.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/shanefirek/clay-mcp-public](https://github.com/shanefirek/clay-mcp-public) | Auth not recorded
@@ -171,14 +180,23 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [JobDataLake MCP](../tools/jobdatalake-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Lead Enrich MCP by carsonlabs](../tools/lead-enrich-mcp-by-carsonlabs.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/carsonlabs/leadenrich-mcp](https://github.com/carsonlabs/leadenrich-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Lead Radar](../tools/lead-radar.md)
 lead-radar.fr | [Community MCP](../mcp/community.md) | [https://lead-radar.fr](https://lead-radar.fr) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Leadhound API](../tools/leadhound-api.md)
 leadhoundapi.com | [Community MCP](../mcp/community.md) | [https://leadhoundapi.com](https://leadhoundapi.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Leadpipe MCP](../tools/leadpipe-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/automatiabcn/leadpipe-mcp](https://github.com/automatiabcn/leadpipe-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedIn MCP by gtm-api](../tools/linkedin-mcp-by-gtm-api.md)
 gtm-api.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LinkupAPI LinkedIn Skills](../tools/linkupapi-linkedin-skills.md)
+linkupapi.com | [Community MCP](../mcp/community.md) | [https://github.com/claude-dev-code/claude-skills-lin...](https://github.com/claude-dev-code/claude-skills-linkedin) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Firmographic Enricher MCP](../tools/mamba-firmographic-enricher-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
@@ -191,6 +209,9 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye
 blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba Tech Stack Signal MCP](../tools/mamba-tech-stack-signal-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-gtm-tech-stack-s...](https://github.com/mambalabsdev/mcp-gtm-tech-stack-signal-scraper) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Ocean.io Agent CLI](../tools/ocean-io-agent-cli.md)
+ocean.io | [Community MCP](../mcp/community.md) | [https://github.com/bcharleson/ocean-agent-cli](https://github.com/bcharleson/ocean-agent-cli) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Potarix Enricher](../tools/potarix-enricher.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/Potarix/potarix-mcp](https://github.com/Potarix/potarix-mcp) | Auth not recorded
@@ -229,7 +250,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 zooq.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 71 in this category
+### The other 72 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -255,6 +276,8 @@ beauhurst.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 builtwith.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Bytemine](../tools/bytemine.md)
 bytemine.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Canopy Labs](../tools/canopy-labs.md)
+canopylabs.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Capix](../tools/capix.md)
 capix.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Catch-all Verifier](../tools/catch-all-verifier.md)
@@ -389,4 +412,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 934 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

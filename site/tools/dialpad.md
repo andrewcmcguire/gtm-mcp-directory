@@ -61,7 +61,7 @@ https://mcp-public.us.karehq.com/mcp for United States tenants and https://mcp-p
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 437 entries that record an official or community MCP server carry a harvested tool list. The other 318 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 471 entries that record an official or community MCP server carry a harvested tool list. The other 352 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -81,7 +81,7 @@ enterprise-leaning - the MCP server is gated by an Early Access Program, not by 
 
 No documentation URL recorded.
 
-604 of 934 entries are in the same position. Blank is legal and it is published as blank.
+629 of 982 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -114,7 +114,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-663 of 934 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+711 of 982 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
