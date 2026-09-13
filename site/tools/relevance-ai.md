@@ -62,7 +62,7 @@ https://mcp.relevanceai.com/ ; https://relevanceai.com/docs/get-started/core-con
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 380 entries that record an official or community MCP server carry a harvested tool list. The other 261 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 396 entries that record an official or community MCP server carry a harvested tool list. The other 277 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -99,7 +99,7 @@ free - the MCP server and Claude Code plugin are free to connect; usage (agent r
 
 No documentation URL recorded.
 
-528 of 784 entries are in the same position. Blank is legal and it is published as blank.
+555 of 834 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -138,7 +138,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: thin. Tagged nothing. It is a build-your-own-agent platform and the entry says the agentic depth depends entirely on what the operator configures. Its listed specialist agents (prospecting, scheduling, deal review, proposal building) would each be a tag, but tagging a builder with its example templates would inflate the supply count for six jobs at once.
 
-513 of 784 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+563 of 834 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

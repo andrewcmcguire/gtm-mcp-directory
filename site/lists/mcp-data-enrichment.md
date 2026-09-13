@@ -1,6 +1,6 @@
-# Data & Enrichment tools with MCP servers: 66 of 121, counted
+# Data & Enrichment tools with MCP servers: 66 of 128, counted
 
-> 66 of the 121 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 24 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 66 of the 128 data & enrichment tools in The GTM MCP Directory have an MCP server: 42 official and 24 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Data & Enrichment tools with an MCP server
 
-**List · 66 of 784**
+**List · 66 of 834**
 
 ## Data & Enrichment tools with an MCP server
 
-B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 66 of 121 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 24 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
+B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated. 66 of 128 entries in this category are reachable by an agent: 42 through a server the vendor maintains and 24 through one somebody else built. The category is tagged most often with Find a work email address. [See the full category page](../categories/data-enrichment.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -217,7 +217,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 zooq.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 55 in this category
+### The other 62 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -237,10 +237,18 @@ cognism.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/
 anglera.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [B2B IQ](../tools/b2b-iq.md)
 b2b-iq.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Beauhurst](../tools/beauhurst.md)
+beauhurst.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [BuiltWith](../tools/builtwith.md)
+builtwith.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Bytemine](../tools/bytemine.md)
+bytemine.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Catch-all Verifier](../tools/catch-all-verifier.md)
 catchallverifier.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Ciro](../tools/ciro.md)
 ciro.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Clay Workbench](../tools/clay-workbench.md)
+github.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [ClearoutPhone](../tools/clearoutphone.md)
 clearoutphone.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CLODO](../tools/clodo.md)
@@ -257,6 +265,8 @@ contactout.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/
 datalegion.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Dealroom](../tools/dealroom.md)
 dealroom.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [eCore](../tools/ecore.md)
+ecoreservice.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enigma](../tools/enigma.md)
 enigma.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enrich-CRM](../tools/enrich-crm.md)
@@ -311,6 +321,8 @@ salesintel.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 scrapemagic.xyz | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [ScreenshotOne](../tools/screenshotone.md)
 screenshotone.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Signal Prospector](../tools/signal-prospector.md)
+github.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Signaliz](../tools/signaliz.md)
 signaliz.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SMARTe](../tools/smarte.md)
@@ -327,6 +339,8 @@ terrakotta.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/u
 thehog.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [The Org](../tools/the-org.md)
 theorg.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Unhaze](../tools/unhaze.md)
+unhaze.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [upcell](../tools/upcell.md)
 upcell.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Zeliq](../tools/zeliq.md)
@@ -345,4 +359,4 @@ The jobs most often tagged on the 38 tagged entries in this category.
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 - [Search companies by firmographics](../jobs/search-companies-by-firmographics.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 784 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 834 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

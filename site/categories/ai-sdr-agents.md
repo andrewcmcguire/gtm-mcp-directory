@@ -1,6 +1,6 @@
-# AI SDRs: 44 tools, 8 with an official MCP server
+# AI SDRs: 49 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 44 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 49 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 44
+- **entries in this file**: 49
 
 - **Official MCP**: 8
 - **Community MCP**: 4
-- **No MCP found**: 32
+- **No MCP found**: 37
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 24
+- **Gate unknown**: 29
 
-Source file: 04-ai-sdr-agents.md · content sha256 88f352129f682cc1... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 6b08c5bc66d8cbc9... · counts reconciled against tools_recount.py at build time.
 
 - [The 12 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -84,6 +84,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 88f352129f682cc1... · counts
 
 - [Alysio](../tools/alysio.md) alysio.ai Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, HubSpot and Gong using MCP and deploy revenue automation agents in plain English. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [ApexGTM](../tools/apexgtm.md) github.com 🚀 Autonomous GTM Engineer AI Platform - Multi-agent system that replaces 80-90% of manual GTM work. Combines Clay + Apollo + ZoomInfo + HubSpot + n8n into one AI-powered platform. Built with n8n workflows,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Athean](../tools/athean.md) athean.com One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [AviaryAI](../tools/aviaryai.md) helloaviary.ai AviaryAI builds AI voice agents for credit unions, banks, and insurance providers. Automate outbound calls at scale - collections, onboarding, loan servicing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -93,6 +95,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 88f352129f682cc1... · counts
 - [Cardinal](../tools/cardinal.md) trycardinal.com Revenue agents for high-growth companies [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [FirstQuadrant](../tools/firstquadrant.md) firstquadrant.ai FirstQuadrant helps founders and revenue teams move faster, stay organized, and close more deals, by streamlining the behind-the-scenes work so nothing ever slips through the cracks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Floworks](../tools/floworks.md) floworks.ai Floworks AI deploys autonomous AI agents - Alisha, Jesse, Linda & Sam - that prospect, personalise emails, handle replies and book meetings so your team can focus on closing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -110,13 +114,19 @@ Source file: 04-ai-sdr-agents.md · content sha256 88f352129f682cc1... · counts
 
 - [OutRival](../tools/outrival.md) outrival.com Build conversational AI agents with OutRival's no-code platform to enhance customer interactions, solve real problems, and drive revenue. Book a demo today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Penguin AI](../tools/penguin-ai.md) penguinai.app AI Sales Rep for Website Intent Signals [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [RocketSDR](../tools/rocketsdr.md) rocketsdr.ai Deploy AI agents that find perfect prospects, engage authentically, and book meetings while you focus on closing deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Rox](../tools/rox.md) rox.com An AI-powered revenue automation platform for enterprise sales teams, positioned as an autonomous SDR-style agent handling pipeline generation, lead qualification, meeting booking, deal management, and account... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Saleswhale](../tools/saleswhale.md) saleswhale.com Saleswhale is an automated sales assistant that follows up with your… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Sameday](../tools/sameday.md) gosameday.com Transform customer calls with our AI answering service. Maximize ROI, streamline operations, and schedule appointments with our superior AI phone agent. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Scribe](../tools/scribe.md) tryscribe.com Scribe is an AI based Sales Development Representative that you can… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Simple AI](../tools/simple-ai.md) usesimple.ai Deploy enterprise-ready voice AI powered phone agents in days, not weeks. Handle thousands of calls simultaneously with human-like conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

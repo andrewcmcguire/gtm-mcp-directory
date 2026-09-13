@@ -1,6 +1,6 @@
-# RevOps Infra: 73 tools, 29 with an official MCP server
+# RevOps Infra: 79 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 73 tools counted, 29 with an official MCP server and 14 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 79 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 73
+- **entries in this file**: 79
 
 - **Official MCP**: 29
 - **Community MCP**: 8
 - **MCP unknown**: 1
-- **No MCP found**: 35
+- **No MCP found**: 41
 
 - **ship a CLI (official) as of 2026-09-12**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
-- **Gate unknown**: 42
+- **Gate unknown**: 48
 
-Source file: 06-revops-infra.md · content sha256 e61a1d1c9f6b1e2e... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 3e6e068bcaec2428... · counts reconciled against tools_recount.py at build time.
 
 - [The 37 with an MCP server](../lists/mcp-revops-infra.md)
 
@@ -125,11 +125,19 @@ Source file: 06-revops-infra.md · content sha256 e61a1d1c9f6b1e2e... · counts 
 
 - [Boomi](../tools/boomi.md) boomi.com Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Breakcold](../tools/breakcold.md) breakcold.com Breakcold is the AI-Native CRM for sales teams & AI agents that sell via email, calling, LinkedIn, Telegram & WhatsApp with MCP for Claude & more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [BuyerCaddy](../tools/buyercaddy.md) buyercaddy.com Your platform for cost savings, optimization and tech stack benchmarking. Find redundant products. Track utilization. Deepen integrations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [CloudFiles](../tools/cloudfiles.md) cloudfiles.io CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [crmCopilot](../tools/crmcopilot.md) crmcopilot.co Give Salesforce the AI upgrade it deserves [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Databox](../tools/databox.md) databox.com Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dex](../tools/dex.md) getdex.com Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Dooly](../tools/dooly.md) dooly.ai Dooly helps revenue teams win more deals by improving CRM hygiene, running a winning sales process, and eliminating low value work. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [DryMerge](../tools/drymerge.md) drymerge.com AI agents that constantly monitor your email, calendar, and calls to keep your CRM updated with every detail. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -149,9 +157,13 @@ Source file: 06-revops-infra.md · content sha256 e61a1d1c9f6b1e2e... · counts 
 
 - [Introw](../tools/introw.md) introw.io Welcome to #1 agentic partnership management platform. Connect your CRM, launch your partner portal & start driving revenue on autopilot. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Laserfocus](../tools/laserfocus.md) laserfocus.io Laserfocus makes your Salesforce process as simple as possible, but not simpler. Made for data-driven GTM teams who don't want to sacrifice efficiency. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [LinkPoint Connect](../tools/linkpoint-connect.md) linkpoint360.com LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Minerva](../tools/minerva.md) minerva.io Minerva helps marketers create time to do the work they love, while delegating operational work to AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Partnered](../tools/partnered.md) partnered.com Discover how Crossbeam's Ecosystem Revenue Platform empowers sales, marketing, and partnerships to unlock new growth opportunities, close deals faster, and drive revenue with actionable ecosystem insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PartnerOS](../tools/partneros.md) partneros.ai Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

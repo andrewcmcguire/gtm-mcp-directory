@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 37 of 73, counted
+# CRM and RevOps tools with MCP servers: 37 of 79, counted
 
-> 37 of the 73 revops infra tools in this directory have an MCP server: 29 official and 8 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 37 of the 79 revops infra tools in this directory have an MCP server: 29 official and 8 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-37 of the 73 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 8 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+37 of the 79 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 8 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -101,7 +101,7 @@ Tasks, CRM, docs, and finance in one workspace on one database. Runway computed 
 
 ## The rest of the category
 
-36 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+42 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
@@ -115,20 +115,20 @@ AI for account management and revenue growth.
 All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside...
 - [Boomi](../tools/boomi.md) No MCP found · Gate unknown
 Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents.
+- [Breakcold](../tools/breakcold.md) No MCP found · Gate unknown
+Breakcold is the AI-Native CRM for sales teams & AI agents that sell via email, calling, LinkedIn, Telegram & WhatsApp with MCP for Claude & more.
+- [BuyerCaddy](../tools/buyercaddy.md) No MCP found · Gate unknown
+Your platform for cost savings, optimization and tech stack benchmarking. Find redundant products. Track utilization. Deepen integrations.
 - [CloudFiles](../tools/cloudfiles.md) No MCP found · Gate unknown
 CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce....
+- [crmCopilot](../tools/crmcopilot.md) No MCP found · Gate unknown
+Give Salesforce the AI upgrade it deserves
 - [Databox](../tools/databox.md) No MCP found · Gate unknown
 Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act...
 - [Dex](../tools/dex.md) No MCP found · Gate unknown
 Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows.
-- [DryMerge](../tools/drymerge.md) No MCP found · Gate unknown
-AI agents that constantly monitor your email, calendar, and calls to keep your CRM updated with every detail.
-- [Dust](../tools/dust.md) No MCP found · Gate unknown
-Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use different models for...
-- [Flowla](../tools/flowla.md) No MCP found · Gate unknown
-Flowla is the execution layer your revenue stack feeds into. It turns your best rep's instincts into a system that reads every signal and runs the...
 
-24 more are on the linked page. The cut is the display limit, not a ranking.
+30 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -137,9 +137,9 @@ Flowla is the execution layer your revenue stack feeds into. It turns your best 
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 42 |
+| [Gate unknown](../gates/unknown.md) | 48 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 e61a1d1c9f6b1e2e...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 3e6e068bcaec2428...
 
 ## Sources
 

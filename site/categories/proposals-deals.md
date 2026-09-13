@@ -1,6 +1,6 @@
-# Proposals & Deals: 23 tools, 8 with an official MCP server
+# Proposals & Deals: 25 tools, 8 with an official MCP server
 
-> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 23 tools counted, 8 with an official MCP server and 4 free to start.
+> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 25 tools counted, 8 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor.
 
-- **entries in this file**: 23
+- **entries in this file**: 25
 
 - **Official MCP**: 8
 - **Community MCP**: 2
-- **No MCP found**: 13
+- **No MCP found**: 15
 
 - **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Free to start**: 4
 - **Paid, self-serve**: 7
 - **Enterprise only**: 3
-- **Gate unknown**: 8
+- **Gate unknown**: 10
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 47a9f8440b1fcf0d... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 97b601e6db306d56... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-proposals-deals.md)
 
@@ -73,11 +73,15 @@ Source file: 13-proposals-deals.md · content sha256 47a9f8440b1fcf0d... · coun
 
 - [Inventive AI](../tools/inventive-ai.md) inventive.ai Inventive AI helps sales teams respond to RFPs 90% faster, with 95% accuracy. Easy setup, one-click integrations. Start winning more deals from day one. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Journey](../tools/journey.md) journey.io Package your pitch deck, case studies, and follow-up docs into one branded page your buyer can forward to decision-makers. Track engagement and close faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Mercura](../tools/mercura.md) mercura.ai Mercura automates sales request processes for distributors & manufacturers with AI, so you can save time and money and increase your sales success. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Minoa](../tools/minoa.md) minoa.io Minoa is the value intelligence layer that puts a consistent, CFO-defensible business case on every deal, and proves the value at renewal. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PDF Butler](../tools/pdf-butler.md) pdfbutler.com The native Salesforce document automation platform. Generate any type of document individually or at scale and accelerate your revenue with PDF Butler. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Sameplan](../tools/sameplan.md) sameplan.com Customer-facing plans for sales teams and their prospects. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Veles](../tools/veles.md) getveles.com Veles is the MCP-native Deal Execution Platform. Manage your entire deal lifecycle with Conversation to Contract optimization built for RevOps and sales leaders. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

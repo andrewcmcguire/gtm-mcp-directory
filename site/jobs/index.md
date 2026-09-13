@@ -1,6 +1,6 @@
 # By job: 56 things a GTM agent asks for - The GTM MCP Directory
 
-> 56 jobs in 10 families, tagged across 271 of 784 directory entries. Which tools carry each job and how many of them an agent can actually call.
+> 56 jobs in 10 families, tagged across 271 of 834 directory entries. Which tools carry each job and how many of them an agent can actually call.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## How an agent asks.
 
-An agent does not think it needs a data enrichment tool. It thinks it has a LinkedIn URL and needs a job title. This view is the closed vocabulary of 56 jobs in 10 families, each one a verb plus an object, phrased from the agent's side. 849 tags are assigned across 271 of 784 entries. 513 entries carry no tag at all and each one records why.
+An agent does not think it needs a data enrichment tool. It thinks it has a LinkedIn URL and needs a job title. This view is the closed vocabulary of 56 jobs in 10 families, each one a verb plus an object, phrased from the agent's side. 849 tags are assigned across 271 of 834 entries. 563 entries carry no tag at all and each one records why.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records. Tagged by machine-pass on 2026-08-25. Tier is RESEARCHED and bench_tested is still 1.
 

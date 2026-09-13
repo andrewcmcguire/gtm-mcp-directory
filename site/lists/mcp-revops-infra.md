@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 37 of 73, counted
+# RevOps infrastructure tools with MCP servers: 37 of 79, counted
 
-> 37 of the 73 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 8 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 37 of the 79 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 8 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 37 of 784**
+**List · 37 of 834**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 37 of 73 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 8 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 37 of 79 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 8 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -130,7 +130,7 @@ blank | [Gate unknown](../gates/unknown.md) |
 zetadeck.com | [Community MCP](../mcp/community.md) | [https://zetadeck.com](https://zetadeck.com) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
-### The other 36 in this category
+### The other 42 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -148,12 +148,20 @@ ambral.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unkn
 apsona.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Boomi](../tools/boomi.md)
 boomi.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Breakcold](../tools/breakcold.md)
+breakcold.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [BuyerCaddy](../tools/buyercaddy.md)
+buyercaddy.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CloudFiles](../tools/cloudfiles.md)
 cloudfiles.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [crmCopilot](../tools/crmcopilot.md)
+crmcopilot.co | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Databox](../tools/databox.md)
 databox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Dex](../tools/dex.md)
 getdex.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Dooly](../tools/dooly.md)
+dooly.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [DryMerge](../tools/drymerge.md)
 drymerge.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Dust](../tools/dust.md)
@@ -172,10 +180,14 @@ gradient.works | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/
 insycle.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Introw](../tools/introw.md)
 introw.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Laserfocus](../tools/laserfocus.md)
+laserfocus.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [LinkPoint Connect](../tools/linkpoint-connect.md)
 linkpoint360.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Minerva](../tools/minerva.md)
 minerva.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Partnered](../tools/partnered.md)
+partnered.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [PartnerOS](../tools/partneros.md)
 partneros.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Power My Analytics](../tools/power-my-analytics.md)
@@ -220,4 +232,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 784 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 834 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

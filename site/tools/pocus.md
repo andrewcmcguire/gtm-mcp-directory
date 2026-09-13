@@ -86,7 +86,7 @@ n/a - no longer sold as a standalone product (see notes).
 
 No documentation URL recorded.
 
-528 of 784 entries are in the same position. Blank is legal and it is published as blank.
+555 of 834 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -111,13 +111,13 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Absorbed into a competitor; the entry says features could not be meaningfully evaluated post-acquisition.
 
-513 of 784 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+563 of 834 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
 - [https://pocus.com](https://pocus.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 23 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://pocus.com
 

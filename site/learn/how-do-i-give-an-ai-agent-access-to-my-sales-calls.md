@@ -26,7 +26,7 @@ A transcript contains other people's words, captured under a notice that almost 
 
 - **The recorder's own MCP server.** Cleanest, and the most common: 16 of the tagged entries have one.
 
-- **The recorder's REST API with a thin wrapper.** Fine, and about an afternoon of work if the API is documented. 256 of 784 entries in this directory record a documentation URL.
+- **The recorder's REST API with a thin wrapper.** Fine, and about an afternoon of work if the API is documented. 279 of 834 entries in this directory record a documentation URL.
 
 - **A proxy platform.** 9 entries are tagged [proxy tool calls to saas apps](../jobs/proxy-tool-calls-to-saas.md). Fastest, and it puts a third party between your agent and your recordings, which for call data is a bigger decision than it is for firmographics.
 

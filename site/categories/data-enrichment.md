@@ -1,6 +1,6 @@
-# Data & Enrichment: 121 tools, 42 with an official MCP server
+# Data & Enrichment: 128 tools, 42 with an official MCP server
 
-> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 121 tools counted, 42 with an official MCP server and 21 free to start.
+> B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that... 128 tools counted, 42 with an official MCP server and 21 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,11 +16,11 @@
 
 B2B contact and company data providers - the databases, waterfall aggregators, and lookup APIs that fill in names, emails, phones, and firmographics before outreach starts. The split that matters most here is access: self-serve API vs. enterprise-sales-gated.
 
-- **entries in this file**: 121
+- **entries in this file**: 128
 
 - **Official MCP**: 42
 - **Community MCP**: 24
-- **No MCP found**: 55
+- **No MCP found**: 62
 
 - **ship a CLI (official) as of 2026-09-12**: 8
 
@@ -28,9 +28,9 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Paid, self-serve**: 21
 - **Enterprise leaning**: 2
 - **Enterprise only**: 5
-- **Gate unknown**: 72
+- **Gate unknown**: 79
 
-Source file: 01-data-enrichment.md · content sha256 d4f4d5bb58580572... · counts reconciled against tools_recount.py at build time.
+Source file: 01-data-enrichment.md · content sha256 267c077596c7504c... · counts reconciled against tools_recount.py at build time.
 
 - [The 66 with an MCP server](../lists/mcp-data-enrichment.md)
 
@@ -185,9 +185,17 @@ Source file: 01-data-enrichment.md · content sha256 d4f4d5bb58580572... · coun
 
 - [B2B IQ](../tools/b2b-iq.md) b2b-iq.com B2B IQ is a trusted B2B data and Intelligence & solutions provider helping Global 1000 enterprises and their agencies fuel demand & growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Beauhurst](../tools/beauhurst.md) beauhurst.com Discover data on every private company in the UK and Germany. Powered by smart tech and even smarter people. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [BuiltWith](../tools/builtwith.md) builtwith.com Vendor homepage fetched at https://builtwith.com; meta description not present. Thin public homepage copy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Bytemine](../tools/bytemine.md) bytemine.ai B2B data platform & APIs for sales, GTM, and AI agents. Access 135M+ contacts, 80M+ mobiles, and 10M+ companies via REST and MCP. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Catch-all Verifier](../tools/catch-all-verifier.md) catchallverifier.com Catch All Verifier is real-time risky email verification platforms that can verify all your catch all (accept-all), even unknown emails as well. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Ciro](../tools/ciro.md) ciro.io Ciro finds your best accounts, deeply qualifies each contact, runs a contact data waterfall, and writes signal-based outbound. All pushed directly into your existing sales tools. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Clay Workbench](../tools/clay-workbench.md) github.com Build, debug, and run Clay.com workbooks end-to-end via Claude Code. Hybrid router skill with 6 sub-skills: ABM lists, enrichment waterfalls, ICP scoring, outbound, inbound routing, troubleshooting. MCP-first... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [ClearoutPhone](../tools/clearoutphone.md) clearoutphone.io Reliable Phone Validator for bulk phone number validation & API. Check carrier type, line type, location & format with our free phone validation tool. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -204,6 +212,8 @@ Source file: 01-data-enrichment.md · content sha256 d4f4d5bb58580572... · coun
 - [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [eCore](../tools/ecore.md) ecoreservice.com Validation-first GTM data quality. eCore validates, enriches, maintains, and operationalizes contact and account data so sales, marketing, RevOps, and AI systems can act with confidence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -259,6 +269,8 @@ Source file: 01-data-enrichment.md · content sha256 d4f4d5bb58580572... · coun
 
 - [ScreenshotOne](../tools/screenshotone.md) screenshotone.com Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API. Start free with ScreenshotOne. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Signal Prospector](../tools/signal-prospector.md) github.com A signal-based B2B prospecting engine on free infra: 8 buying-signal detectors, an explainable ICP scorer, free MX-validated email enrichment and AI outreach - via CLI, Flask and an MCP server. -... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Signaliz](../tools/signaliz.md) signaliz.com Discover verified companies from any market signal, keep target accounts under watch, verify contacts, and turn dated evidence into outreach with Signaliz. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [SMARTe](../tools/smarte.md) smarte.pro Actionable Sales Intelligence built over 289M+ global B2B contacts. Access verified mobile numbers and business emails for prospecting, trusted by Sales Leaders. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -274,6 +286,8 @@ Source file: 01-data-enrichment.md · content sha256 d4f4d5bb58580572... · coun
 - [The Hog](../tools/the-hog.md) thehog.ai One API to give your AI agents the freshest context across people, companies, social, and the open web. No subscription. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [The Org](../tools/the-org.md) theorg.com Explore the world's biggest network of public org charts. Search for relevant people across companies, follow companies to stay updated on team changes, and access company data via API or in your CRM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Unhaze](../tools/unhaze.md) unhaze.ai The right leads at the right time for B2B sales [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [upcell](../tools/upcell.md) upcell.io Consolidate your sales data tools in one browser extension, lower software costs, and book a tailored walkthrough. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

@@ -1,6 +1,6 @@
-# Engagement & Outbound: 105 tools, 23 with an official MCP server
+# Engagement & Outbound: 109 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 105 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 109 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,12 +16,12 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 105
+- **entries in this file**: 109
 
 - **Official MCP**: 23
 - **Community MCP**: 10
 - **MCP unknown**: 2
-- **No MCP found**: 70
+- **No MCP found**: 74
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
@@ -29,9 +29,9 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 73
+- **Gate unknown**: 77
 
-Source file: 02-engagement-outbound.md · content sha256 87cca1d11bc319bb... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 aee4726672ae74de... · counts reconciled against tools_recount.py at build time.
 
 - [The 33 with an MCP server](../lists/mcp-engagement-outbound.md)
 
@@ -134,6 +134,8 @@ Source file: 02-engagement-outbound.md · content sha256 87cca1d11bc319bb... · 
 
 - [Blaze](../tools/blaze.md) withblaze.app Marketing automation for the modern world [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Bluebirds](../tools/bluebirds.md) bluebirds.ai Automate outbound with signals [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Brevo](../tools/brevo.md) brevo.com Brevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Cohesive](../tools/cohesive.md) getcohesiveai.com Cohesive automates prospecting, outreach, follow-up, and lead management for companies selling to local businesses, property owners, and commercial facilities. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -188,6 +190,8 @@ Source file: 02-engagement-outbound.md · content sha256 87cca1d11bc319bb... · 
 
 - [Pavoot](../tools/pavoot.md) pavoot.com Pavoot is the YC-backed AI agent for events. Source the right attendees, personalize every invite, and turn every event into pipeline, all in one workflow. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Persana AI](../tools/persana-ai.md) persana.ai Find, enrich, and personalize outbound at scale - all in seconds, and book more meetings. Find and target your ideal customer persona at scale. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [PhoneBurner](../tools/phoneburner.md) phoneburner.com Dial leads up to 4X faster. Increase answer rates and multiply quality conversations with our sales dialer. Boost sales rep productivity and maximize revenue! Try PhoneBurner today! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Plai](../tools/plai.md) plai.io Manage Facebook Ads and Google Ads across multiple clients with automation, templates, reporting, billing, and white-labeled access. Built for agencies. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -216,9 +220,13 @@ Source file: 02-engagement-outbound.md · content sha256 87cca1d11bc319bb... · 
 
 - [Sendblue](../tools/sendblue.md) sendblue.com Send iMessage, SMS, and RCS from your CRM or via REST API. 2-3x higher response rates than SMS. No A2P registration. SOC 2 certified. Used by 20,000+ businesses. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Sendoff](../tools/sendoff.md) github.com Self-hosted AI that writes and sends your sales outreach in your voice. Not a CRM. Mountable Rails engine: LLM drafter with voice + hallucination critics, send-safety, Gmail, and an MCP server. Data plugs in... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Sendoso](../tools/sendoso.md) sendoso.com Automate personalized gifting campaigns to drive revenue. Sendoso's AI-Enhanced Gifting and Direct Mail Automation Platform is data-backed by 100k+ users and 10's of millions of gifts sent. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [SharpSpring](../tools/sharpspring.md) sharpspring.com Fuel your growth & drive more leads with SharpSpring's sales, marketing automation, & CRM features in an all-in-one, affordable Revenue Growth Platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Slik](../tools/slik.md) slik.ai Slik enables the long tail to use email outreach. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Smobi](../tools/smobi.md) smobi.com Smobi is an AI-powered RCS & SMS marketing platform: branded, interactive texts with carousels, surveys, AI agents, built-in compliance, and SMS fallback. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

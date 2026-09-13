@@ -58,7 +58,7 @@ https://www.npmjs.com/search?q=mcp-server%20salesforce
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 380 entries that record an official or community MCP server carry a harvested tool list. The other 261 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 396 entries that record an official or community MCP server carry a harvested tool list. The other 277 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -74,13 +74,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-481 of 784 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+531 of 834 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-528 of 784 entries are in the same position. Blank is legal and it is published as blank.
+555 of 834 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -96,13 +96,13 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-513 of 784 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+563 of 834 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
 - [https://www.npmjs.com/search?q=mcp-server%20salesforce](https://www.npmjs.com/search?q=mcp-server%20salesforce)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 23 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.npmjs.com/search?q=mcp-server%20salesforce
 

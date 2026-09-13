@@ -1,6 +1,6 @@
 # Nuph: products, MCP servers and connect URLs, one vendor page
 
-> Nuph (github.com): 87 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
+> Nuph (github.com): 100 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@ Nuph
 
 # Nuph
 
-87 products in the directory
+100 products in the directory
 1 official MCP server
 0 live handshakes
 Data baked 2026-09-12
@@ -22,29 +22,29 @@ Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
 **The rollup**
 
-- **Products**: 87, facts checked by hand 2026-08-24, 2026-09-12
+- **Products**: 100, facts checked by hand 2026-08-24, 2026-09-12
 
-- **Official MCP servers**: 1 of 87, as recorded on 2026-08-24, 2026-09-12
+- **Official MCP servers**: 1 of 100, as recorded on 2026-08-24, 2026-09-12
 
-- **Community MCP servers**: 86 of 87
+- **Community MCP servers**: 95 of 100
 
-- **Live handshake**: 0 of 87 answered an MCP initialize, 1 probed, 2026-09-04
+- **Live handshake**: 0 of 100 answered an MCP initialize, 1 probed, 2026-09-04
 
-- **Repo local**: 1 of 87: a server you install and run yourself
+- **Repo local**: 1 of 100: a server you install and run yourself
 
-- **Docs only**: 0 of 87: the recorded URL is a page about the server, not the server
+- **Docs only**: 0 of 100: the recorded URL is a page about the server, not the server
 
 - **Tools catalogued**: 24 named across 1 measured server, harvested 2026-09-12
 
-- **Bench tested**: 0 of 87 here, 1 of 784 across the directory
+- **Bench tested**: 0 of 100 here, 1 of 834 across the directory
 
-- **Ships a CLI**: 0 of 87 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 100 official, 0 community only, 1 none found, harvested 2026-09-12
 
 - **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
-**Products, 87**
+**Products, 100**
 
 ### [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 
@@ -209,6 +209,22 @@ RESEARCHED
 ### [BD Desk MCP by iaj6](../tools/bd-desk-mcp-by-iaj6.md)
 
 An end-to-end BD pipeline on Claude Managed Agents - lead sourcing, research, outreach drafting, and a deployable CRM. The system researches and drafts; a human always sends. - iaj6/bd-desk
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Bitrix24 MCP by john7ross](../tools/bitrix24-mcp-by-john7ross.md)
+
+Universal, full-featured, portable MCP server for the Bitrix24 REST API (CRM, tasks, scrum, calendar, disk, users, messaging) - read and write. - john7ross/BitrixMCP
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -446,6 +462,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [HireSignal MCP](../tools/hiresignal-mcp.md)
+
+Hiring-intent signals for B2B sales/GTM - an MCP server that turns live job postings into buying signals your AI agent can act on. Free demo key inside. - iusmuchandra/hiresignal-mcp
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md)
 
 A Model Context Protocol (MCP) server that enables AI assistants to interact with HubSpot CRM data, providing built-in vector storage and caching mechanisms help overcome HubSpot API limitations while improving response times. - baryhuang/mcp-hubspot
@@ -574,6 +606,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Leadcraft MCP](../tools/leadcraft-mcp.md)
+
+Turn your AI coding agent into a sales copilot. Find clients on the open web, draft personalized cold email, track the pipeline all from slash commands. - Lakshya330-sudo/leadcraft
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Leadgen MCP by koolninad](../tools/leadgen-mcp-by-koolninad.md)
 
 MCP Server for AI-powered lead generation - scans websites, crawls platforms, and sends personalized outreach emails - koolninad/leadgen-mcp
@@ -654,12 +702,44 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Livespace CRM MCP](../tools/livespace-crm-mcp.md)
+
+Unofficial MCP server for Livespace CRM with safe, intent-shaped read and write tools. - proAutomator/livespace-crm-mcp
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Lookaberry GTM MCP](../tools/lookaberry-gtm-mcp.md)
 
 Autonomous, headless AI Go-to-Market (GTM) outbound engine & MCP Server powered by PostgreSQL 16 + pgvector. - lucasmartins-ai/lookaberry
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Mamba Domain Deliverability MCP](../tools/mamba-domain-deliverability-mcp.md)
+
+MCP server for the Mamba Labs Domain Deliverability Checker actor: SPF, DKIM, DMARC, MX, blacklist, catch-all, domain age. Clay-ready. - mambalabsdev/mcp-domain-deliverability-checker
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[Email Deliverability](../categories/email-deliverability.md)
 RESEARCHED
 
 - **Endpoint probe**: not probed yet, not probed
@@ -1006,6 +1086,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Salesforce Cloud MCP by aaronsb](../tools/salesforce-cloud-mcp-by-aaronsb.md)
+
+MCP server providing AI-powered Salesforce tools for opportunity intelligence, conversation analysis, business case generation, and CRUD operations with natural language interaction. - aaronsb/salesforce-cloud
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Salesforce Commerce Cloud MCP by brinzl](../tools/salesforce-commerce-cloud-mcp-by-brinzl.md)
 
 🤖 An MCP server that helps connect your AI applications with your Salesforce Commerce Cloud instance - brinzl/commercecloud-mcp-server
@@ -1073,6 +1169,22 @@ RESEARCHED
 ### [Salesforce Marketing Cloud MCP by salesforcebob](../tools/salesforce-marketing-cloud-mcp-by-salesforcebob.md)
 
 MCP Server for SF MCE, supporting REST & SOAP. Contribute to salesforcebob/Salesforce-Marketing-Cloud-Engagement-MCP development by creating an account on GitHub.
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Salesforce MCP by aaron-pienza](../tools/salesforce-mcp-by-aaron-pienza.md)
+
+Salesforce MCP Server. Contribute to aaron-pienza/mcp-server-salesforce development by creating an account on GitHub.
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -1169,6 +1281,22 @@ RESEARCHED
 ### [Salesforce MCP by kablewy](../tools/salesforce-mcp-by-kablewy.md)
 
 Model Context Protocol server for Salesforce REST API integration - kablewy/salesforce-mcp-server
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Salesforce MCP by KirtiJha](../tools/salesforce-mcp-by-kirtijha.md)
+
+Comprehensive Salesforce MCP Server with 61+ specialized tools for complete Salesforce ecosystem management - from data operations to advanced DevOps workflows. Supports stdio + HT
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -1374,6 +1502,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Stacks AI](../tools/stacks-ai.md)
+
+The universal board for AI agents - one Kanban for tasks, bugs, support, CRM & roadmap, operated by humans and agents via a built-in MCP server. Open-source, self-hostable (Next.js 16, Prisma 7, Auth.js v5). - jentrix-au/stacks-ai
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Synapse CRM MCP by NimbleBrain](../tools/synapse-crm-mcp-by-nimblebrain.md)
 
 Lightweight CRM with contact management, deal pipeline, and agent-driven follow-ups ΓÇö Synapse app for NimbleBrain
@@ -1438,9 +1582,73 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [ApexGTM](../tools/apexgtm.md)
+
+🚀 Autonomous GTM Engineer AI Platform - Multi-agent system that replaces 80-90% of manual GTM work. Combines Clay + Apollo + ZoomInfo + HubSpot + n8n into one AI-powered platform. Built with n8n workflows, LangGraph agents, GraphRAG, and MCP servers. -...
+
+[No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+[AI SDRs](../categories/ai-sdr-agents.md)
+RESEARCHED
+
+- **Endpoint probe**: n/a, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Clay Workbench](../tools/clay-workbench.md)
+
+Build, debug, and run Clay.com workbooks end-to-end via Claude Code. Hybrid router skill with 6 sub-skills: ABM lists, enrichment waterfalls, ICP scoring, outbound, inbound routing, troubleshooting. MCP-first execution. Mandatory credit pre-flight. 8 Global...
+
+[No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: n/a, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Sendoff](../tools/sendoff.md)
+
+Self-hosted AI that writes and sends your sales outreach in your voice. Not a CRM. Mountable Rails engine: LLM drafter with voice + hallucination critics, send-safety, Gmail, and an MCP server. Data plugs in via adapters. - bborn/sendoff
+
+[No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+[Engagement & Outbound](../categories/engagement-outbound.md)
+RESEARCHED
+
+- **Endpoint probe**: n/a, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Signal Prospector](../tools/signal-prospector.md)
+
+A signal-based B2B prospecting engine on free infra: 8 buying-signal detectors, an explainable ICP scorer, free MX-validated email enrichment and AI outreach - via CLI, Flask and an MCP server. - thomasproject-stack/signal-prospector
+
+[No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+[Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: n/a, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 **The gates, in plain words**
 
-1 of 87 free to start, a solo operator gets API access without talking to anyone. 86 of 87 gate unknown, not established from public sources and published as unknown.
+1 of 100 free to start, a solo operator gets API access without talking to anyone. 99 of 100 gate unknown, not established from public sources and published as unknown.
 
 The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
 
@@ -1483,6 +1691,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 784 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 87 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 834 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 100 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

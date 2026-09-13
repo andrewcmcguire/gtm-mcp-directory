@@ -118,7 +118,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **verified_sources** Display a verified-source footer alongside an answer evidence: in the vendor docs · calling it reads
 
-119 of the 380 entries that record an official or community MCP server carry a harvested tool list. The other 261 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 396 entries that record an official or community MCP server carry a harvested tool list. The other 277 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -134,13 +134,13 @@ api_gate, verbatim from the file:
 
 unknown/mixed. A self-serve "/signup" flow exists alongside "Get a demo" CTAs, and the docs note "rate limits ... may vary depending on your plan" without publishing any plan or pricing details - could not confirm whether MCP/API access is available below a paid or enterprise tier.
 
-481 of 784 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+531 of 834 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-528 of 784 entries are in the same position. Blank is legal and it is published as blank.
+555 of 834 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -162,7 +162,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 784 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 834 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

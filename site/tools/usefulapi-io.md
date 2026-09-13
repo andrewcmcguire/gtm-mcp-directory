@@ -112,7 +112,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **pipedrive_search_persons** Search persons (contacts) by term across selected fields. Pipedrive REST: GET /api/v2/persons/search. evidence: answered tools/list · calling it reads · required: term
 
-119 of the 380 entries that record an official or community MCP server carry a harvested tool list. The other 261 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 396 entries that record an official or community MCP server carry a harvested tool list. The other 277 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -132,7 +132,7 @@ free - every server page publishes the same two tiers, "Free 100 tool calls / mo
 
 No documentation URL recorded.
 
-528 of 784 entries are in the same position. Blank is legal and it is published as blank.
+555 of 834 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -156,7 +156,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 No job tag on this entry.
 
-513 of 784 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+563 of 834 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

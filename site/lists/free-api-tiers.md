@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / The 78 GTM tools a solo operator can call for free
 
-**List · 78 of 784**
+**List · 78 of 834**
 
 ## The 78 GTM tools a solo operator can call for free
 
@@ -175,4 +175,4 @@ scaledmail.com | [Email Deliverability](../categories/email-deliverability.md) |
 | [Warmup Inbox](../tools/warmup-inbox.md)
 warmupinbox.com | [Email Deliverability](../categories/email-deliverability.md) | [No MCP found](../mcp/none-found.md) | [Warm up an inbox](../jobs/warm-up-inbox.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 784 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 834 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

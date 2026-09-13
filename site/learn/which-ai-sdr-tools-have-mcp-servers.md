@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 12 of 44, counted
+# AI SDR tools with MCP servers: 12 of 49, counted
 
-> 12 of the 44 ai sdrs tools in this directory have an MCP server: 8 official and 4 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 12 of the 49 ai sdrs tools in this directory have an MCP server: 8 official and 4 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-12 of the 44 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 4 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
+12 of the 49 ai sdrs entries in this directory have an MCP server: 8 built and maintained by the vendor and 4 built by somebody else. 2 are free to start and 10 need a contract before anybody gets an API key.
 
 This is the inversion in one table. A category sold entirely on autonomous software is the least callable by anybody else's autonomous software, and the gap is not close.
 
@@ -51,7 +51,7 @@ The AI SDR alternative: the revenue orchestration layer for marketing, research,
 
 ## The rest of the category
 
-32 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+37 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Landbase](../tools/landbase.md) No MCP found · Free to start
 A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous...
@@ -75,10 +75,10 @@ A revenue-intelligence platform ("answer-to-action" engine) that analyzes call r
 A campaign-automation platform ("Agentic GTM") that runs always-on, personalized outbound/nurture/re-engagement campaigns inside an existing CRM and...
 - [Alysio](../tools/alysio.md) No MCP found · Gate unknown
 Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, HubSpot and Gong using MCP and deploy revenue automation agents in...
-- [Athean](../tools/athean.md) No MCP found · Gate unknown
-One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface.
+- [ApexGTM](../tools/apexgtm.md) No MCP found · Gate unknown
+🚀 Autonomous GTM Engineer AI Platform - Multi-agent system that replaces 80-90% of manual GTM work. Combines Clay + Apollo + ZoomInfo + HubSpot + n8n...
 
-20 more are on the linked page. The cut is the display limit, not a ranking.
+25 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -87,9 +87,9 @@ One AI for all of go-to-market. Hook up your data, configure your agents, and ex
 | [Free to start](../gates/free.md) | 2 |
 | [Paid, self-serve](../gates/paid.md) | 8 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 24 |
+| [Gate unknown](../gates/unknown.md) | 29 |
 
-Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 88f352129f682cc1...
+Counted 2026-09-12. Source file 04-ai-sdr-agents.md, content sha256 6b08c5bc66d8cbc9...
 
 ## Sources
 
