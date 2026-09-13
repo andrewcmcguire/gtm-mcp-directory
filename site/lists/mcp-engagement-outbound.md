@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 38 of 130, counted
+# Engagement & Outbound tools with MCP servers: 81 of 173, counted
 
-> 38 of the 130 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 15 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 81 of the 173 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 58 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 38 of 1,032**
+**List · 81 of 1,251**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 38 of 130 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 15 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 81 of 173 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 58 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -93,17 +93,62 @@ api key. The community server takes an Aircall API ID and API token, which the p
 | [Overloop](../tools/overloop.md)
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | API key
 api key via OVERLOOP_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
+| [ACA Automated Client Acquisition](../tools/aca-automated-client-acquisition.md)
+automatedclientacquisition.com | [Community MCP](../mcp/community.md) | [https://github.com/seguelaCedric/screenshot-perfect](https://github.com/seguelaCedric/screenshot-perfect) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Agent Cold Email MCP (Coldrig)](../tools/agent-cold-email-mcp.md)
+coldrig.dev | [Community MCP](../mcp/community.md) | [https://github.com/YS-projectcalc/agent-cold-email](https://github.com/YS-projectcalc/agent-cold-email) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Bavlio](../tools/bavlio.md)
 bavlio.com | [Community MCP](../mcp/community.md) | [https://github.com/Bavlio/bavlio-mcp](https://github.com/Bavlio/bavlio-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Bird MCP by UsefulAPI](../tools/bird-mcp-by-usefulapi.md)
+bird.usefulapi.io | [Community MCP](../mcp/community.md) | [https://github.com/m190/usefulapi-mcp](https://github.com/m190/usefulapi-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [CampaignStack](../tools/campaignstack.md)
+campaignstack.io | [Community MCP](../mcp/community.md) | [https://campaignstack.io](https://campaignstack.io) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [ContentStudio](../tools/contentstudio.md)
+contentstudio.io | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Crevideo Reach](../tools/crevideo-reach.md)
 crevideo.com | [Community MCP](../mcp/community.md) | [https://github.com/crevideo/crevideo-reach](https://github.com/crevideo/crevideo-reach) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Email Outreach by OpenHelm](../tools/email-outreach-by-openhelm.md)
+openhelm.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Emelia](../tools/emelia.md)
 emelia.io | [Community MCP](../mcp/community.md) | [https://github.com/emelia-io/claude-outreach](https://github.com/emelia-io/claude-outreach) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Fintalio LinkedIn MCP](../tools/fintalio-linkedin-mcp.md)
+fintalio.com | [Community MCP](../mcp/community.md) | [https://github.com/saybil-lab/mnareach](https://github.com/saybil-lab/mnareach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [FirstTouch](../tools/firsttouch.md)
+firsttouch.com | [Community MCP](../mcp/community.md) | [https://github.com/First-Touch-Inc/mcp](https://github.com/First-Touch-Inc/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [GetDialer](../tools/getdialer.md)
+getdialer.app | [Community MCP](../mcp/community.md) | [https://getdialer.app/mcp](https://getdialer.app/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [GramClaw](../tools/gramclaw.md)
+gramclaw.com | [Community MCP](../mcp/community.md) | [https://github.com/liquiden/grmcw](https://github.com/liquiden/grmcw) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [HeyLead - Autonomous LinkedIn SDR](../tools/heylead-autonomous-linkedin-sdr.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/D4umak/heylead](https://github.com/D4umak/heylead) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [ICT Dialer MCP](../tools/ict-dialer-mcp.md)
+ictdialer.com | [Community MCP](../mcp/community.md) | [https://github.com/ictinnovations/ictdialer-mcp](https://github.com/ictinnovations/ictdialer-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Intent Outreach](../tools/intent-outreach.md)
 demos.intentsolutions.io | [Community MCP](../mcp/community.md) | [https://github.com/jeremylongshore/intent-outreach](https://github.com/jeremylongshore/intent-outreach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Kairon](../tools/kairon.md)
+heykairon.com | [Community MCP](../mcp/community.md) | [https://heykairon.com/mcp](https://heykairon.com/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LeadSleuth MCP](../tools/leadsleuth-mcp.md)
+leads.zalize.com | [Community MCP](../mcp/community.md) | [https://github.com/wookat/leadsleuth](https://github.com/wookat/leadsleuth) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LeadSmarts](../tools/leadsmarts.md)
+bjmsxprjidjdyquiroxy.supabase.co | [Community MCP](../mcp/community.md) | [https://bjmsxprjidjdyquiroxy.supabase.co/functions/v...](https://bjmsxprjidjdyquiroxy.supabase.co/functions/v1/mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedGrow](../tools/linkedgrow.md)
 linkedgrow.ai | [Community MCP](../mcp/community.md) | [https://github.com/DigiHold/LinkedGrow](https://github.com/DigiHold/LinkedGrow) | Auth not recorded
@@ -111,20 +156,104 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedNav](../tools/linkednav.md)
 linkednav.com | [Community MCP](../mcp/community.md) | [https://github.com/linglistack/linkednav-mcp](https://github.com/linglistack/linkednav-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Linkly](../tools/linkly.md)
+linklyhq.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LoomaScale for Google Ads](../tools/loomascale-for-google-ads.md)
+ai.loomascale.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=gtm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MachFive Cold Email MCP](../tools/machfive-cold-email-mcp.md)
+help.machfive.io | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=outreach](https://registry.smithery.ai/servers?q=outreach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MailerLite MCP by UsefulAPI](../tools/mailerlite-mcp-by-usefulapi.md)
+mailerlite.usefulapi.io | [Community MCP](../mcp/community.md) | [https://github.com/m190/usefulapi-mcp](https://github.com/m190/usefulapi-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Mailrith](../tools/mailrith.md)
+mailrith.com | [Community MCP](../mcp/community.md) | [https://github.com/anrawool/mailrith-agent-platform](https://github.com/anrawool/mailrith-agent-platform) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Mamba Clay to Instantly/Smartlead Push MCP](../tools/mamba-clay-to-instantly-smartlead-push-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-clay-to-instantl...](https://github.com/mambalabsdev/mcp-clay-to-instantly-smartlead-push) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Marvenn MCP](../tools/marvenn-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/marvennai/mcp-server](https://github.com/marvennai/mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MCP Emails](../tools/mcp-emails.md)
+mcpemails.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MentionAgent](../tools/mentionagent.md)
+mentionagent.ai | [Community MCP](../mcp/community.md) | [https://github.com/BuildsbyMatt/mentionagent-claude-...](https://github.com/BuildsbyMatt/mentionagent-claude-skill) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MisarMail MCP](../tools/misarmail-mcp.md)
+misarmail.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Misarreach](../tools/misarreach.md)
 misarreach.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20outreach](https://www.npmjs.com/search?q=mcp%20outreach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Moltline Outbound](../tools/moltline-outbound.md)
+moltlinestudio.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [MuntuAI MCP](../tools/muntuai-mcp.md)
+api.muntuai.com | [Community MCP](../mcp/community.md) | [https://github.com/design-smith/MuntuAI-MCP](https://github.com/design-smith/MuntuAI-MCP) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Nitrosend](../tools/nitrosend.md)
+nitrosend.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Omnflow](../tools/omnflow.md)
+omnflow.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Onsa](../tools/onsa.md)
+api.onsa.ai | [Community MCP](../mcp/community.md) | [https://api.onsa.ai/api/mcp](https://api.onsa.ai/api/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [OpenHelm Email Outreach MCP](../tools/openhelm-email-outreach-mcp.md)
+mcp.openhelm.ai | [Community MCP](../mcp/community.md) | [https://mcp.openhelm.ai/email/mcp](https://mcp.openhelm.ai/email/mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [PersuadioAI](../tools/persuadioai.md)
 persuadioai.com | [Community MCP](../mcp/community.md) | [https://github.com/mannyfernandezvc/persuadioai-plat...](https://github.com/mannyfernandezvc/persuadioai-platform) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Phos Sales Engine](../tools/phos-sales-engine.md)
+se.phos.nz | [Community MCP](../mcp/community.md) | [https://se.phos.nz/mcp](https://se.phos.nz/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Phos Sales Engine MCP](../tools/phos-sales-engine-mcp.md)
+sales.phos.nz | [Community MCP](../mcp/community.md) | [https://github.com/albermm/sales-engine](https://github.com/albermm/sales-engine) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [PitchPilot Outreach](../tools/pitchpilot-outreach.md)
+aioutreachkit.surge.sh | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=enrich](https://registry.smithery.ai/servers?q=enrich) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [PLOTT](../tools/plott.md)
+plott.uk | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=outreach](https://registry.smithery.ai/servers?q=outreach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Podcast Guest CRM](../tools/podcast-guest-crm.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/RudrenduPaul/podcast-guest-crm](https://github.com/RudrenduPaul/podcast-guest-crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Pro Reach](../tools/pro-reach.md)
+proreach.ai | [Community MCP](../mcp/community.md) | [https://proreach.ai/api/mcp](https://proreach.ai/api/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [RD Station Marketing MCP](../tools/rd-station-marketing-mcp.md)
+mcp.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Reach MCP](../tools/reach-mcp.md)
+reachmcp.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [RepScale](../tools/repscale.md)
 repscale.ai | [Community MCP](../mcp/community.md) | [https://repscale.ai](https://repscale.ai) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [SalesEQ Plugins](../tools/saleseq-plugins.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/SalesEQ/plugins](https://github.com/SalesEQ/plugins) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [SalesTouch](../tools/salestouch.md)
+salestouch.io | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [SendPulse](../tools/sendpulse.md)
+sendpulse.com | [Community MCP](../mcp/community.md) | [https://github.com/sendpulse/mcp-server](https://github.com/sendpulse/mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Sequenzy MCP](../tools/sequenzy-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/signal-found/sf-mcp](https://github.com/signal-found/sf-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [SoundGTM](../tools/soundgtm.md)
+soundgtm.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Toflow](../tools/toflow.md)
 toflow.ai | [Community MCP](../mcp/community.md) | [https://github.com/toflow-ai/toflow-mcp](https://github.com/toflow-ai/toflow-mcp) | Auth not recorded
@@ -335,4 +464,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

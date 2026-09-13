@@ -1,6 +1,6 @@
-# Scheduling & Routing: 18 tools, 5 with an official MCP server
+# Scheduling & Routing: 19 tools, 5 with an official MCP server
 
-> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 18 tools counted, 5 with an official MCP server and 2 free to start.
+> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 19 tools counted, 5 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar, instantly and to the right person, then keeping that rep's own calendar sane. Three sub-lanes live in this file - prospect-facing booking pages (Calendly, Cal.com, SavvyCal), inbound lead-routing/handoff engines (Chili Piper, Default, RevenueHero, Kronologic, LeanData), and personal calendar-intelligence tools for reps/AEs (Motion, Reclaim.ai, Clockwise, Trevor AI) - plus two adjacent discovery finds (Clara, Doodle). MCP maturity here splits the same way category-06 does: the open-source/API-first booking tools (Cal.com, Calendly) shipped clean official servers, while most routing engines and personal-calendar apps have none or only community ones.
 
-- **entries in this file**: 18
+- **entries in this file**: 19
 
 - **Official MCP**: 5
-- **Community MCP**: 3
+- **Community MCP**: 4
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
 - **No MCP found**: 7
@@ -29,11 +29,11 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 - **Free to start**: 2
 - **Paid, self-serve**: 4
 - **Enterprise only**: 2
-- **Gate unknown**: 10
+- **Gate unknown**: 11
 
-Source file: 10-scheduling-routing.md · content sha256 addd1eb548b4f169... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 839eddeddc20c270... · counts reconciled against tools_recount.py at build time.
 
-- [The 8 with an MCP server](../lists/mcp-scheduling-routing.md)
+- [The 9 with an MCP server](../lists/mcp-scheduling-routing.md)
 
 - [Read calendar availability](../jobs/read-calendar-availability.md)
 - [Book a meeting](../jobs/book-a-meeting.md)
@@ -53,6 +53,8 @@ Source file: 10-scheduling-routing.md · content sha256 addd1eb548b4f169... · c
 - [Motion](../tools/motion.md) usemotion.com AI-driven work-management app that auto-schedules a user's tasks, projects, and meetings onto their calendar around priorities and deadlines, bundled with note-taking and document tools. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
 - [SavvyCal](../tools/savvycal.md) savvycal.com Prospect-facing scheduling/booking-page tool (Calendly competitor) built around letting invitees overlay their own calendar on the organizer's availability, with Collective/Round-Robin/Group team-scheduling... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
+
+- [Coordinalo](../tools/coordinalo.md) coordinalo.com Scheduling, availability, clients, billing and CRM for appointment-based services. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [CrispHive MCP](../tools/crisphive-mcp.md) docs.crisphive.com The scheduling & dispatch API for field-service teams. Create bookings, preview emergency cascades, and map technicians to service boundaries. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [testnimbus.dev](https://testnimbus.dev) · entry id 07-nimbus · source 07-mcp-infrastructure.md line 1019
+Vendor: [testnimbus.dev](https://testnimbus.dev) · entry id 07-nimbus · source 07-mcp-infrastructure.md line 1018
 
 **What it does**
 Run real Salesforce Apex locally - no org, no Docker - then ship through the same tool: gated deploys, Salesforce validation, release receipts. A typical test runs in tens of milliseconds.
@@ -58,7 +58,7 @@ https://github.com/nimbus-solution/nimbus
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 521 entries that record an official or community MCP server carry a harvested tool list. The other 402 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -74,7 +74,7 @@ api_gate, verbatim from the file:
 
 unknown
 
-729 of 1032 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+948 of 1251 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
@@ -100,7 +100,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -122,7 +122,7 @@ API mentioned on https://testnimbus.dev/docs; pricing/gate not inferred from pre
 
 - **Source file**: 07-mcp-infrastructure.md
 
-- **Source line**: 1019
+- **Source line**: 1018
 
 - **Tier**: RESEARCHED
 

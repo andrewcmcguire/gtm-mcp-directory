@@ -1,6 +1,6 @@
-# Signals & Intent tools with MCP servers: 26 of 66, counted
+# Signals & Intent tools with MCP servers: 45 of 85, counted
 
-> 26 of the 66 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 45 of the 85 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 25 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Signals & Intent tools with an MCP server
 
-**List · 26 of 1,032**
+**List · 45 of 1,251**
 
 ## Signals & Intent tools with an MCP server
 
-Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 26 of 66 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
+Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 45 of 85 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 25 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -84,17 +84,74 @@ api key (from app.trigify.io/settings; via `trigify login --api-key`, env var...
 | [abm.dev](../tools/abm-dev.md)
 abm.dev | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Dropwatch Research Intel MCP](../tools/dropwatch-research-intel-mcp.md)
+research.dropwatchhq.com | [Community MCP](../mcp/community.md) | [https://research.dropwatchhq.com/mcp](https://research.dropwatchhq.com/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Fintent Signals MCP](../tools/fintent-signals-mcp.md)
+app.fintent.ai | [Community MCP](../mcp/community.md) | [https://app.fintent.ai/api/v2/mcp](https://app.fintent.ai/api/v2/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [IntentLink](../tools/intentlink.md)
+intentlink.io | [Community MCP](../mcp/community.md) | [https://github.com/whalefuntech/intentlink_docs](https://github.com/whalefuntech/intentlink_docs) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Klarix Intelligence Engine](../tools/klarix-intelligence-engine.md)
+mcp.klarix.ai | [Community MCP](../mcp/community.md) | [https://mcp.klarix.ai/mcp](https://mcp.klarix.ai/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Lead Intelligence by Saifs](../tools/lead-intelligence-by-saifs.md)
+lead-scoring-mcp.saifs.ai | [Community MCP](../mcp/community.md) | [https://lead-scoring-mcp.saifs.ai/mcp](https://lead-scoring-mcp.saifs.ai/mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/jpeslar1/linkedin-mcp-job-change-...](https://github.com/jpeslar1/linkedin-mcp-job-change-trigger) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LION Trend Intent MCP](../tools/lion-trend-intent-mcp.md)
+gleaming-cassata-d41682.netlify.app | [Community MCP](../mcp/community.md) | [https://gleaming-cassata-d41682.netlify.app/api/mcp](https://gleaming-cassata-d41682.netlify.app/api/mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Mamba GTM Signals Aggregator MCP](../tools/mamba-gtm-signals-aggregator-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-gtm-signals-aggr...](https://github.com/mambalabsdev/mcp-gtm-signals-aggregator) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Mamba Job Board Keyword Signal Scanner MCP](../tools/mamba-job-board-keyword-signal-scanner-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-job-board-keywor...](https://github.com/mambalabsdev/mcp-job-board-keyword-signal-scanner) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Mamba Public Company Reporting Window MCP](../tools/mamba-public-company-reporting-window-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/mambalabsdev/mcp-public-company-r...](https://github.com/mambalabsdev/mcp-public-company-reporting-window-finder) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Markifact](../tools/markifact.md)
+markifact.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=salesforce](https://registry.smithery.ai/servers?q=salesforce) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Master Metrics](../tools/master-metrics.md)
+mcp.mastermetrics.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [NirmahGTM](../tools/nirmahgtm.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/AnjaliPPal/NirmahGTM](https://github.com/AnjaliPPal/NirmahGTM) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Opus Growth](../tools/opus-growth.md)
+opus-growth.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=gtm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Parse Brand Visibility MCP](../tools/parse-brand-visibility-mcp.md)
+parse.gl | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Parsley](../tools/parsley.md)
+parsley.id | [Community MCP](../mcp/community.md) | [https://github.com/peterjduffy/parsley-mcp](https://github.com/peterjduffy/parsley-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [PrimeRFP SCOUT](../tools/primerfp-scout.md)
+scout.primerfp.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Red String](../tools/red-string.md)
+redstringapp.xyz | [Community MCP](../mcp/community.md) | [https://redstringapp.xyz](https://redstringapp.xyz) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Say Ur Intent MCP](../tools/say-ur-intent-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/stelis-dev/say-ur-intent](https://github.com/stelis-dev/say-ur-intent) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [TeloSignal](../tools/telosignal.md)
 telosignal.com | [Community MCP](../mcp/community.md) | [https://github.com/patrick-creates/telosignal-workfl...](https://github.com/patrick-creates/telosignal-workflow-vault) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Tracklution](../tools/tracklution.md)
+tracklution.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=hubspot](https://registry.smithery.ai/servers?q=hubspot) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Yandex Audience MCP](../tools/yandex-audience-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/A1-x-Tech/mcp-yandex-audience](https://github.com/A1-x-Tech/mcp-yandex-audience) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
 ### The other 40 in this category
@@ -195,4 +252,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

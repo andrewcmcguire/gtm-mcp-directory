@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [popsy.ai](https://popsy.ai) · entry id 02-popsy · source 02-engagement-outbound.md line 1898
+Vendor: [popsy.ai](https://popsy.ai) · entry id 02-popsy · source 02-engagement-outbound.md line 1897
 
 **What it does**
 AI tool that finds you leads on Reddit and sends them hyper…
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 417 of 1032 entries are.
+The mcp_url field is empty on this entry. 417 of 1251 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-729 of 1032 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+948 of 1251 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -84,13 +84,13 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
 - [https://yc-oss.github.io/api/industries/marketing.json](https://yc-oss.github.io/api/industries/marketing.json)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 58 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 100 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://yc-oss.github.io/api/industries/marketing.json
 
@@ -103,7 +103,7 @@ Homepage fetch failed (HTTPError 404); what_it_does used YC/source one_liner. mc
 
 - **Source file**: 02-engagement-outbound.md
 
-- **Source line**: 1898
+- **Source line**: 1897
 
 - **Tier**: RESEARCHED
 

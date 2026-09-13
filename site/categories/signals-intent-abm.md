@@ -1,6 +1,6 @@
-# Signals & Intent: 66 tools, 20 with an official MCP server
+# Signals & Intent: 85 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 66 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 85 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 66
+- **entries in this file**: 85
 
 - **Official MCP**: 20
-- **Community MCP**: 6
+- **Community MCP**: 25
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
 - **No MCP found**: 37
@@ -29,11 +29,11 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 37
+- **Gate unknown**: 56
 
-Source file: 05-signals-intent-abm.md · content sha256 e48ce2cbe2291020... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 ac10f1e6ff053541... · counts reconciled against tools_recount.py at build time.
 
-- [The 26 with an MCP server](../lists/mcp-signals-intent-abm.md)
+- [The 45 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md)
@@ -84,13 +84,51 @@ Source file: 05-signals-intent-abm.md · content sha256 e48ce2cbe2291020... · c
 
 - [abm.dev](../tools/abm-dev.md) abm.dev The account-based marketing API for AI agents: Search, Enrich, and Create across B2B people and companies, every field cited with a source and a confidence score. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Dropwatch Research Intel MCP](../tools/dropwatch-research-intel-mcp.md) research.dropwatchhq.com Research GTM triggers: new NIH grants by PI/institution and new clinical trials by sponsor/phase. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Fintent Signals MCP](../tools/fintent-signals-mcp.md) app.fintent.ai Predictive Signals, Company Search, Sector Trends and Contacts for PEs, IBs, M&A dealmakers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [IntentLink](../tools/intentlink.md) intentlink.io IntentLink is the commercial intent network for the AI agent era - developers monetize conversations via MCP and Skills; advertisers reach high-intent buyers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Klarix Intelligence Engine](../tools/klarix-intelligence-engine.md) mcp.klarix.ai Cited competitive intelligence: prospect scoring, battlecards, SWOT, and tech-stack teardowns. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Lead Intelligence by Saifs](../tools/lead-intelligence-by-saifs.md) lead-scoring-mcp.saifs.ai Analyze and score leads to identify high-potential prospects and prioritize sales outreach. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md) github.com Daily job-change trigger for Claude Code. Detects changes the day they happen via LinkedIn MCP (Zevari) - not 30-90 days later like Apollo/Clay. Pipedrive + Instantly + Slack. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LION Trend Intent MCP](../tools/lion-trend-intent-mcp.md) gleaming-cassata-d41682.netlify.app Read-only x402-paid trend-intent MCP tools for JSON and CSV signals. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md) github.com MCP server for GTM Hiring Signal Scraper. Detects GTM hiring activity from company career pages via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-hiring-signal-scraper [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Mamba GTM Signals Aggregator MCP](../tools/mamba-gtm-signals-aggregator-mcp.md) github.com MCP server for GTM Signals Aggregator. Combines hiring and tech stack detection into one composite GTM score via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-signals-aggregator [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Mamba Job Board Keyword Signal Scanner MCP](../tools/mamba-job-board-keyword-signal-scanner-mcp.md) github.com MCP server for Job Board Keyword Signal Scanner. Scans Greenhouse, Lever, Ashby, Workday, and Rippling for roles in any category via Apify. Clay-ready output. - mambalabsdev/mcp-job-board-keyword-signal-scanner [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Mamba Public Company Reporting Window MCP](../tools/mamba-public-company-reporting-window-mcp.md) github.com Contribute to mambalabsdev/mcp-public-company-reporting-window-finder development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Markifact](../tools/markifact.md) markifact.com Markifact helps marketers use AI agents, workflows, and MCP to create campaigns, analyze performance, and automate reporting across Google Ads, Meta Ads, GA4, TikTok Ads, and more. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Master Metrics](../tools/master-metrics.md) mcp.mastermetrics.com Connect any MCP-compatible AI client (Claude, Cursor, Copilot, n8n, Power Automate) to Master Metrics and query advertising data from Meta, Google, LinkedIn, TikTok and more using natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [NirmahGTM](../tools/nirmahgtm.md) github.com AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with calibrated LLMs, outputs evidence-backed openers/hooks/CRM sync governed, cached, evaluated. - AnjaliPPal/NirmahGTM [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Opus Growth](../tools/opus-growth.md) opus-growth.com The connector for Claude and ChatGPT: run Google, Meta, Microsoft, TikTok and LinkedIn ads from one chat. Safe writes with preview and approval. Free with 75… [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Parse Brand Visibility MCP](../tools/parse-brand-visibility-mcp.md) parse.gl Look up how any brand surfaces in ChatGPT and Google AI Overviews. The Parse public dataset, served as an MCP server. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Parsley](../tools/parsley.md) parsley.id Query buyer intent signals, MEDDIC qualifications, and lead scores from Parsley. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [PrimeRFP SCOUT](../tools/primerfp-scout.md) scout.primerfp.com Intelligence for Federal & Commercial Market Opportunities - Discover with visualization [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Red String](../tools/red-string.md) redstringapp.xyz MCP-native revenue research. Connect once. Research everything. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Say Ur Intent MCP](../tools/say-ur-intent-mcp.md) github.com Local-first MCP toolkit for Sui DeFi intents: turn a natural-language ask into verified on-chain evidence and a human-reviewable transaction you sign in your own wallet. No custody, no autonomous execution. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [TeloSignal](../tools/telosignal.md) telosignal.com TeloSignal tracks demand signals across 11,909 n8n templates - AI adoption, complexity trends, weekly intelligence. Know what to build. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Tracklution](../tools/tracklution.md) tracklution.com Server-side tracking made unbelievably simple. Improve conversion tracking by 34.2% without writing code. Connect to Google Ads, Meta, TikTok & more in minutes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Yandex Audience MCP](../tools/yandex-audience-mcp.md) github.com MCP-сервер для Яндекс Аудиторий - создавать CRM- и LAL-сегменты, управлять пикселями и доступами из AI-приложения - A1-x-Tech/mcp-yandex-audience [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · CLI: cm-i (community)
 

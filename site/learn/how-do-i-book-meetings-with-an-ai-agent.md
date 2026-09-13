@@ -62,7 +62,7 @@ Prospect-facing scheduling/booking-page tool (Calendly competitor) built around 
 
 ## Where scheduling coverage actually sits
 
-Scheduling & Routing has 5 official servers and 3 community across 18 entries, with 10 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
+Scheduling & Routing has 5 official servers and 4 community across 19 entries, with 11 entries whose access gate could not be established from public sources. It is a middling category by coverage, which is worth knowing before you design a flow that assumes the booking step is the easy one.
 
 ## Sources
 

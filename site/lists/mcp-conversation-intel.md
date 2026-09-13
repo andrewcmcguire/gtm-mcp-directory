@@ -1,6 +1,6 @@
-# Conversation Intel tools with MCP servers: 22 of 48, counted
+# Conversation Intel tools with MCP servers: 25 of 51, counted
 
-> 22 of the 48 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 3 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 25 of the 51 conversation intel tools in The GTM MCP Directory have an MCP server: 19 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Conversation Intel tools with an MCP server
 
-**List · 22 of 1,032**
+**List · 25 of 1,251**
 
 ## Conversation Intel tools with an MCP server
 
-Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 22 of 48 entries in this category are reachable by an agent: 19 through a server the vendor maintains and 3 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
+Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface. 25 of 51 entries in this category are reachable by an agent: 19 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Summarize a meeting. [See the full category page](../categories/conversation-intel.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -81,6 +81,15 @@ Community server: Chorus API key in the CHORUS_API_KEY environment variable (std
 | [Jiminny](../tools/jiminny.md)
 jiminny.com | [Community MCP](../mcp/community.md) | [https://mcp.jiminny.com/mcp](https://mcp.jiminny.com/mcp) +3 more | OAuth or an API key
 Community server: JIMINNY_TOKEN API token. Zapier's hosted connector uses Zapier's own... | [Enterprise only](../gates/enterprise-only.md) |
+| [Backengine MCP](../tools/backengine-mcp.md)
+mcp.backengine.ai | [Community MCP](../mcp/community.md) | [https://github.com/BackEngine-ai/backengine-mcp](https://github.com/BackEngine-ai/backengine-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Gong.io MCP by JustinBeckwith](../tools/gong-io-mcp-by-justinbeckwith.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/JustinBeckwith/gongio-mcp](https://github.com/JustinBeckwith/gongio-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [RecordX](../tools/recordx.md)
+recordx.io | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=revops](https://registry.smithery.ai/servers?q=revops) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Voibe](../tools/voibe.md)
 getvoibe.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=outreach](https://registry.smithery.ai/servers?q=outreach) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -155,4 +164,4 @@ The jobs most often tagged on the 24 tagged entries in this category.
 - [Score rep performance](../jobs/score-rep-performance.md)
 - [Search across recorded calls](../jobs/search-call-library.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

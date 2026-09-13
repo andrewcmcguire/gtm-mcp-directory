@@ -79,7 +79,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get_type_details** Retrieve detailed information about specific GraphQL types evidence: in a README table · calling it reads
 
-119 of the 521 entries that record an official or community MCP server carry a harvested tool list. The other 402 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -116,7 +116,7 @@ free - the vendor's MCP page states "MCP is currently available for all monday.c
 
 No documentation URL recorded.
 
-635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -153,7 +153,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

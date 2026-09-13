@@ -82,7 +82,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **standard** 32 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 521 entries that record an official or community MCP server carry a harvested tool list. The other 402 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -118,13 +118,13 @@ api_gate, verbatim from the file:
 
 unknown for general REST API tier-gating - a developer API-key settings page exists (app.reclaim.ai/settings/developer) suggesting broad availability, but no page found states whether API access itself is free-tier-eligible. Confirmed paid-gated: webhooks are Business/Enterprise-only per reclaim.ai/pricing (not on Lite/Starter). MCP support itself is listed as included across multiple pricing tiers.
 
-729 of 1032 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+948 of 1251 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -161,7 +161,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,032 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,251 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

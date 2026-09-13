@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 40 of 89, counted
+# RevOps infrastructure tools with MCP servers: 53 of 102, counted
 
-> 40 of the 89 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 11 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 53 of the 102 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 24 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 40 of 1,032**
+**List · 53 of 1,251**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 40 of 89 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 11 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 53 of 102 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 24 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -105,8 +105,14 @@ OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every M
 | [Syncari](../tools/syncari.md)
 syncari.com | [Official MCP](../mcp/official.md) | [https://mcp.syncari.com/mcp](https://mcp.syncari.com/mcp) +1 more | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
+| [3Bids Contractor](../tools/3bids-contractor.md)
+3bids.io | [Community MCP](../mcp/community.md) | [https://3bids.io](https://3bids.io) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Agentled](../tools/agentled.md)
 agentled.app | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20outreach](https://www.npmjs.com/search?q=mcp%20outreach) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [ATLASS OS](../tools/atlass-os.md)
+app.atlass-os.com | [Community MCP](../mcp/community.md) | [https://app.atlass-os.com/mcp](https://app.atlass-os.com/mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Commercient Data Lake](../tools/commercient-data-lake.md)
 commercient.com | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20hubspot](https://www.npmjs.com/search?q=mcp%20hubspot) | Auth not recorded
@@ -114,11 +120,23 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [FounderStack CRM](../tools/founderstack-crm.md)
 crm-landing-three.vercel.app | [Community MCP](../mcp/community.md) | [https://github.com/Othunderlight/FounderStackCRM-ope...](https://github.com/Othunderlight/FounderStackCRM-open) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [FrazzleCRM](../tools/frazzlecrm.md)
+frazzlecrm.com | [Community MCP](../mcp/community.md) | [https://frazzlecrm.com](https://frazzlecrm.com) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Hecher CRM](../tools/hecher-crm.md)
+hecher.app | [Community MCP](../mcp/community.md) | [https://github.com/growgeltsolutions/hecher-mcp](https://github.com/growgeltsolutions/hecher-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Helm AI](../tools/helm-ai.md)
 gethelm.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [iri CRM](../tools/iri-crm.md)
+iricrm.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Kaanha AI](../tools/kaanha-ai.md)
 kaanha.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20crm](https://www.npmjs.com/search?q=mcp%20crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Kash](../tools/kash.md)
+kash.click | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Kenva](../tools/kenva.md)
 kenva.app | [Community MCP](../mcp/community.md) | [https://kenva.app](https://kenva.app) | Auth not recorded
@@ -126,11 +144,32 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [Kordic CRM](../tools/kordic-crm.md)
 kordic.io | [Community MCP](../mcp/community.md) | [https://github.com/meelad-diggit/kordic-modelcontext...](https://github.com/meelad-diggit/kordic-modelcontextprotocol.git) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Ledger Botje Exact Online MCP](../tools/ledger-botje-exact-online-mcp.md)
+ledgerbotje.nl | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Measure Tech PRO](../tools/measure-tech-pro.md)
+measuretechpro.com | [Community MCP](../mcp/community.md) | [https://measuretechpro.com](https://measuretechpro.com) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Morphed](../tools/morphed.md)
 morphed.io | [Community MCP](../mcp/community.md) | [https://morphed.io/mcp](https://morphed.io/mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Noto CRM](../tools/noto-crm.md)
+no-to.fr | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=sales) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [numbrU Client Compass](../tools/numbru-client-compass.md)
+numbru.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=2&pageSize...](https://registry.smithery.ai/servers?page=2&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [OnePageCRM](../tools/onepagecrm.md)
+onepagecrm.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [OpsDoctor](../tools/opsdoctor.md)
 opsdoctor.app | [Community MCP](../mcp/community.md) | [https://github.com/jhicks935-lab/resolution-ai](https://github.com/jhicks935-lab/resolution-ai) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [PILLAR GTM OS](../tools/pillar-gtm-os.md)
+app.pillargtm.com | [Community MCP](../mcp/community.md) | [https://github.com/pillargtm/pillar-mcp-server](https://github.com/pillargtm/pillar-mcp-server) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Summit53 CRM](../tools/summit53-crm.md)
+summit53.io | [Community MCP](../mcp/community.md) | [https://github.com/Summit53/mcp-server](https://github.com/Summit53/mcp-server) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Well](../tools/well.md)
 wellapp.ai | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm) | Auth not recorded
@@ -255,4 +294,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -1,6 +1,6 @@
-# Enablement & Coaching: 58 tools, 2 with an official MCP server
+# Enablement & Coaching: 62 tools, 2 with an official MCP server
 
-> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 58 tools counted, 2 with an official MCP server and 0 free to start.
+> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 62 tools counted, 2 with an official MCP server and 0 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here.
 
-- **entries in this file**: 58
+- **entries in this file**: 62
 
 - **Official MCP**: 2
-- **Community MCP**: 1
+- **Community MCP**: 5
 - **MCP unknown**: 3
 - **No MCP found**: 52
 
@@ -27,11 +27,11 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
-- **Gate unknown**: 51
+- **Gate unknown**: 55
 
-Source file: 11-enablement-coaching.md · content sha256 c199102707cbab38... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 5be068842eedb90d... · counts reconciled against tools_recount.py at build time.
 
-- [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
+- [The 7 with an MCP server](../lists/mcp-enablement-coaching.md)
 
 - [Score rep performance](../jobs/score-rep-performance.md)
 - [Run a sales roleplay practice](../jobs/run-sales-roleplay-practice.md)
@@ -43,6 +43,14 @@ Source file: 11-enablement-coaching.md · content sha256 c199102707cbab38... · 
 - [Showpad](../tools/showpad.md) showpad.com Revenue effectiveness platform combining sales content management, buyer engagement tracking, and AI-driven coaching/roleplay under a unified "Showpad Genie" AI layer. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: showpad
 
 - [WorkRamp](../tools/workramp.md) workramp.com Corporate learning and training platform ("Business Academy") for employee onboarding, sales enablement, and customer education content, with AI-assisted content creation. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [MarketCore MCP](../tools/marketcore-mcp.md) mcp.marketcore.ai Create on-brand marketing deliverables and GTM docs with AI-powered blueprints and brand guidelines. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [PitchIQ MCP](../tools/pitchiq-mcp.md) chuhching.com Chuhching is the agent-native business platform: CRM, outreach, scheduling, community, and automation that you and your AI agents run together. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [SmarterDeck AI](../tools/smarterdeck-ai.md) smarterdeck.com Generate McKinsey-caliber presentations, interactive D3.js neural maps, and local Obsidian wikis from confidential PDFs and Excel files with Zero-Retention security. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [StoriesOnBoard](../tools/storiesonboard.md) storiesonboard.com StoriesOnBoard helps Business Analysts and Product Owners create and manage product specifications and requirements during a software project with the power of User Story Mapping. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Allego](../tools/allego.md) allego.com Revenue enablement platform combining learning/onboarding, content management, video-based coaching, and "Enablement AI" content/recommendation features for sales teams. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 

@@ -1,6 +1,6 @@
-# Inbound & PLG Chat: 51 tools, 11 with an official MCP server
+# Inbound & PLG Chat: 57 tools, 11 with an official MCP server
 
-> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 51 tools counted, 11 with an official MCP server and 4 free to start.
+> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 57 tools counted, 11 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed.
 
-- **entries in this file**: 51
+- **entries in this file**: 57
 
 - **Official MCP**: 11
-- **Community MCP**: 2
+- **Community MCP**: 8
 - **MCP unknown**: 1
 - **MCP not applicable**: 1
 - **No MCP found**: 36
@@ -29,12 +29,12 @@ Tools that sit on the receiving end of demand - website chat that qualifies and 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
 - **Enterprise only**: 3
-- **Gate unknown**: 34
+- **Gate unknown**: 40
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 4d59441600ff9022... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · counts reconciled against tools_recount.py at build time.
 
-- [The 13 with an MCP server](../lists/mcp-inbound-plg-chat.md)
+- [The 19 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 - [Book a meeting](../jobs/book-a-meeting.md)
@@ -66,6 +66,18 @@ Source file: 14-inbound-plg-chat.md · content sha256 4d59441600ff9022... · cou
 - [Landbot](../tools/landbot.md) landbot.io No-code visual builder for chatbots deployed on websites, WhatsApp, and Messenger, blending rule-based flows with LLM-powered conversation. [Community MCP](../mcp/community.md) · [Free to start](../gates/free.md)
 
 - [Chatbase](../tools/chatbase.md) chatbase.co No-code AI agent builder for deploying chat/voice/email support-and-sales bots across a website widget and channels like WhatsApp and Slack. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: chatbase
+
+- [Crisp MCP](../tools/crisp-mcp.md) api.mcp.ai Customer support, live chat, CRM and helpdesk on Crisp with the full official REST API v1 (api.crisp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [My AskAI](../tools/my-askai.md) myaskai.com Deflect support requests by 75% with an AI customer service agent. Add to your existing live chat providers, like Intercom, Zendesk or Freshdesk. And start saving your team & customers time. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Open for Agents](../tools/open-for-agents.md) openforagents.com Connect a compatible AI app to Open for Agents for read-only public website visibility checks and recent-result comparison. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Ora](../tools/ora.md) ora.ai Scan any site, watch real agents try to use it, and fix what turns them away. Ora is the standard for optimizing your site so agents can actually use and recommend you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Perspective AI](../tools/perspective-ai.md) getperspective.ai Rigid forms cause drop-off, weaken qualification, and strip away context. Perspective uses adaptive AI to turn forms into conversations that capture structured data and trigger automation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ReplayPilot](../tools/replaypilot.md) replaypilot.com Session replay, heatmaps, click maps, and AI session summaries that flag errors and let you search sessions in plain English, without the $247/mo tax other tools charge. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Forethought (now "Forethought AI Agents by Zendesk")](../tools/forethought.md) forethought.ai Omnichannel AI agent ("Solve") that resolves customer support and pre-sales issues across chat, email, voice, and a headless API, trained on a company's past tickets and help-center content. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 

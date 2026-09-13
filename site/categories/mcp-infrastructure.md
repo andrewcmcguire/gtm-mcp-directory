@@ -1,6 +1,6 @@
-# MCP Layer: 212 tools, 14 with an official MCP server
+# MCP Layer: 266 tools, 14 with an official MCP server
 
-> The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on:... 212 tools counted, 14 with an official MCP server and 12 free to start.
+> The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on:... 266 tools counted, 14 with an official MCP server and 12 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 The layer that sits between an AI agent and the hundred SaaS apps a GTM team actually runs on: registries that just list servers, and aggregators that host/broker them. The load-bearing question for every entry below is who holds the OAuth tokens when you connect - read `notes` before you wire anything into a production agent.
 
-- **entries in this file**: 212
+- **entries in this file**: 266
 
 - **Official MCP**: 14
-- **Community MCP**: 193
+- **Community MCP**: 247
 - **MCP unknown**: 1
 - **MCP not applicable**: 4
 
@@ -29,11 +29,11 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 - **Paid, self-serve**: 2
 - **Enterprise leaning**: 1
 - **Enterprise only**: 1
-- **Gate unknown**: 196
+- **Gate unknown**: 250
 
-Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · counts reconciled against tools_recount.py at build time.
+Source file: 07-mcp-infrastructure.md · content sha256 c56f442fee4aab24... · counts reconciled against tools_recount.py at build time.
 
-- [The 207 with an MCP server](../lists/mcp-mcp-infrastructure.md)
+- [The 261 with an MCP server](../lists/mcp-mcp-infrastructure.md)
 
 - [Proxy tool calls to SaaS apps](../jobs/proxy-tool-calls-to-saas.md)
 - [Discover MCP servers](../jobs/discover-mcp-servers.md)
@@ -72,6 +72,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Accelo MCP by Selerity](../tools/accelo-mcp-by-selerity.md) github.com Unofficial MCP server for the Accelo CRM platform. Contribute to Selerity/accelo-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Accordo Agent CRM MCP](../tools/accordo-agent-crm-mcp.md) accordo.dev The open-source framework your coding agent - Claude Code, Codex, Gemini CLI - uses to build a custom CRM as code you own, with deterministic policy and audit. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [ActiveCampaign MCP by pipeworx](../tools/activecampaign-mcp-by-pipeworx.md) github.com ActiveCampaign MCP Pack - email marketing + CRM (API v3). - pipeworx-io/mcp-activecampaign [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Adrata](../tools/adrata.md) adrata.com The strategy and intelligence layer for enterprise deals. Adrata understands the full buying group, buyer-side AI, evidence, and route to the next move. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -104,13 +106,19 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Apollo MCP Plugin by apolloio](../tools/apollo-mcp-plugin-by-apolloio.md) github.com Connect Claude Code + Cowork to Apollo MCP via this plugin - apolloio/apollo-mcp-plugin [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Apollo-Salesforce Mapper MCP](../tools/apollo-salesforce-mapper-mcp.md) cf-worker.selbyventurecap.workers.dev Apollo->Salesforce Lead mapper. No LLM. Strict-fail required fields. PASS/REPAIR/FAIL verdict. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Apollo.io CLI by dipankar](../tools/apollo-io-cli-by-dipankar.md) github.com A powerful command-line interface for the Apollo.io API, designed for both humans and AI agents. - dipankar/apollo-io-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Artefact MCP](../tools/artefact-mcp.md) github.com Revenue intelligence MCP server: RFM analysis, 14.5-point ICP scoring, pipeline health scoring. Embeds Artefact Formula methodology. HubSpot integration. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Ascend GTM Gateway](../tools/ascend-gtm-gateway.md) ascend-gateway-v5.ascendgtm.workers.dev 34-tool GTM gateway: CRMs, ad platforms, analytics, Google Workspace, AWS, and LLM orchestration. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Attio MCP by Arkel-ai](../tools/attio-mcp-by-arkel-ai.md) github.com Community MCP server for Attio CRM so agents can work pipeline and account data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Attio MCP by hmk](../tools/attio-mcp-by-hmk.md) github.com Contribute to hmk/attio-mcp-server development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Autostackup Sales MCP](../tools/autostackup-sales-mcp.md) github.com Contribute to Autostackup/autostackup development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [BD Desk MCP by iaj6](../tools/bd-desk-mcp-by-iaj6.md) github.com An end-to-end BD pipeline on Claude Managed Agents - lead sourcing, research, outreach drafting, and a deployable CRM. The system researches and drafts; a human always sends. - iaj6/bd-desk [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -122,15 +130,23 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [BNI MCP by alexaltovate](../tools/bni-mcp-by-alexaltovate.md) github.com MCP server for BNI member search in Germany & Austria - find members, analyze chapter gaps, prepare 1:1 outreach - alexaltovate/bni-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Buildforce Agentic Ops](../tools/buildforce-agentic-ops.md) buildforce.io AI platform manager that automates Salesforce, HubSpot, and ServiceNow operations. 200+ continuous health checks, AI consulting in your stack, and CI/CD automation - replacing $7K/month managed-services... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Capsule CRM MCP by MonadsAG](../tools/capsule-crm-mcp-by-monadsag.md) github.com Contribute to MonadsAG/capsulecrm-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Capsule CRM MCP by soil-dev](../tools/capsule-crm-mcp-by-soil-dev.md) github.com Capsule CRM tools for Claude. Local install via npx, org-wide via Custom Connectors. - soil-dev/capsulemcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Cavyro](../tools/cavyro.md) ai.cavyro.com Telegram-native CRM for agents: contacts, deals, pipelines, campaigns, docs and reports. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Chatflow](../tools/chatflow.md) chatflow.biz WhatsApp CRM for AI agents: search contacts, read chats, manage the sales pipeline, send messages. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Cirra AI Salesforce Admin MCP](../tools/cirra-ai-salesforce-admin-mcp.md) mcp.cirra.ai Comprehensive Salesforce administration and data management capabilities [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [CiviCRM MCP by YogiAdhik](../tools/civicrm-mcp-by-yogiadhik.md) github.com Model Context Protocol server for CiviCRM - AuthX-first, schema-introspected, write-gated. - YogiAdhik/civicrm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clay to Instantly/Smartlead MCP](../tools/clay-to-instantly-smartlead-mcp.md) github.com MCP server for the Mamba Labs Sequencer Lead Push actor on Apify. Push enriched leads into an Instantly or Smartlead campaign. - mambalabsdev/mcp-clay-to-instantly-smartlead-push [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Clay-CXD by xprooket](../tools/clay-cxd-by-xprooket.md) github.com Contextual Memory Intelligence for AI Systems - Persistent memory, cognitive tools, and adaptive reasoning capabilities for LLMs Experimental memory system for LLMs (see MemMimic for optimized version) -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clint CRM MCP by Franky-Neto](../tools/clint-crm-mcp-by-franky-neto.md) github.com Clint CRM MCP Server. This is a non oficial MCP Server for Clint CRM. - Franky-Neto/mcp-clint-crm [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -144,11 +160,15 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Cognis Leadforge MCP](../tools/cognis-leadforge-mcp.md) github.com Lightweight MCP-native CRM pipeline with email sequences. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Coherence MCP](../tools/coherence-mcp.md) getcoherence.io Coherence is the agentic customer operations platform that connects CRM data, email, campaigns, websites, workflows, and AI agents in one shared context. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Coldforge](../tools/coldforge.md) github.com Honest, local-first cold outreach toolkit: research, personalize, sequence, send, follow. CLI + MCP server, no SaaS, no required API keys. - Makeph/coldforge [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Coldstart](../tools/coldstart.md) coldstart.so Type one sentence about your business. Coldstart searches the live web, finds companies that fit, verifies their emails, and drafts your first outreach. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Conduyt](../tools/conduyt.md) conduyt.app The CRM built for teams that move fast. Pipeline, messaging, and data. No middleman. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Craft GTM MCP](../tools/craft-gtm-mcp.md) github.com 8 strategic GTM execution tools - PMF, Launch, Retention, Partners, Crisis, Competitive Intel - shashwatgtm/craft-gtm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [CRM AI MCP by MEOK](../tools/crm-ai-mcp-by-meok.md) meok.ai ≡ƒöî Exposes Customer relationship management toolkit: lead scoring, deal stage prediction, follow-up scheduling, customer health scoring, and churn prediction. By MEOK AI Labs. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -164,6 +184,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Dolibarr MCP by sachitha7](../tools/dolibarr-mcp-by-sachitha7.md) github.com MCP server for Dolibarr ERP/CRM - manage thirdparties, proposals, contracts and invoices from Claude or any MCP client - sachitha7/mcp-server-dolibarr [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Eutexa CRM](../tools/eutexa-crm.md) api.eutexa.com Search contacts, track deals, create tasks and log notes in your Eutexa CRM workspace. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Everything Civi MCP](../tools/everything-civi-mcp.md) github.com MCP server for complete CiviCRM operations ΓÇö 28 tools for contacts, contributions, memberships, events, cases, SearchKit, bulk import, and all 150+ entities [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [EZ@Work MCP](../tools/ez-work-mcp.md) ezatwork.com Connect EZ@Work to Claude (Claude.ai, Claude Desktop, Claude Code). Manage clients, projects, invoices, and time entries through natural conversation. OAuth 2.1, scoped tokens, full audit log. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -174,7 +196,11 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Fluent MCP Servers](../tools/fluent-mcp-servers.md) github.com Connect AI agents to the Fluent WordPress ecosystem using standardized MCP servers for CRM, support, boards, community, and affiliate management. - Dominotypist3077/fluent-mcp-servers [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Flusia CRM](../tools/flusia-crm.md) flusia.it Connect Flusia to Claude and ChatGPT: ask in plain words and your CRM answers with your own data. Set up in a minute, nothing to install. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Follow Up Boss MCP](../tools/follow-up-boss-mcp.md) github.com Connect the Follow Up Boss real estate CRM to ChatGPT, Claude, Cursor, and other AI assistants with one hosted MCP URL. OAuth-enabled server and typed Python SDK. - theperrygroup/Follow-Up-Boss-MCP [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Forency](../tools/forency.md) forency.io Investigate any website's tech stack. Forency detects the CMS, frameworks, analytics, payments, CRM and 100+ technologies that matter - via REST API and MCP server, built for AI agents first. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Fundz Agent Examples](../tools/fundz-agent-examples.md) github.com Working examples for the Fundz Agent API - buying signals, SEC 8-K and Form D funding evidence for GTM agents and AI SDRs. - Fund-z/agent-examples [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -188,17 +214,25 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [GoHighLevel MCP by rockurbusinesscs](../tools/gohighlevel-mcp-by-rockurbusinesscs.md) github.com A small, readable MCP server for GoHighLevel API v2. Six tools, dry-run writes, and the API gotchas documented. MIT. - rockurbusinesscs-ship-it/gohighlevel-mcp-starter [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [GTM Alpha Consultant](../tools/gtm-alpha-consultant.md) github.com Structured data for Shashwat Ghosh - GTM Expert. Contribute to shashwatgtm/gtm-expert-schema development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [GTM Alpha MCP](../tools/gtm-alpha-mcp.md) gtmalpha.netlify.app Best AI GTM and Fractional CMO in India, APAC and US region. Professional MCP server by Shashwat Ghosh, Top 30 PLG Creator Worldwide. EPIC framework-powered AI consulting for B2B tech and ITES companies. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [GTM Alpha MCP Server](../tools/gtm-alpha-mcp-server.md) github.com Structured data for Shashwat Ghosh - GTM Expert. Contribute to shashwatgtm/gtm-expert-schema development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [GTM Copilot by archanakrishnan](../tools/gtm-copilot-by-archanakrishnan.md) github.com AI-powered GTM intelligence, lead scoring, personalized outreach, and HubSpot CRM automation built with n8n, Apollo MCP, Firecrawl, and Groq AI. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [GTM MCP by aleprieto790](../tools/gtm-mcp-by-aleprieto790.md) github.com Run B2B cold outreach in Claude Code: find companies, verify fit, extract contacts, write sequences, and launch campaigns locally - aleprieto790-alt/gtm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [GTM Tools MCP](../tools/gtm-tools-mcp.md) gcwmjfotygqnlsyfhiyq.supabase.co A read-only verified record of agent-operable GTM tools: search, fetch, compare, track changes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [GTMos MCP by Kai8karma](../tools/gtmos-mcp-by-kai8karma.md) kai8karma.github.io Recover the revenue trapped in your broken CRM. A tested, deterministic GTM engine, run on your data, in your environment. No new vendor touches your data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Guapu](../tools/guapu.md) guapu.io CRM AI-native para PYMEs de LATAM: contactos, ventas, cotizaciones, WhatsApp y métricas vía MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [HireSignal MCP](../tools/hiresignal-mcp.md) github.com Hiring-intent signals for B2B sales/GTM - an MCP server that turns live job postings into buying signals your AI agent can act on. Free demo key inside. - iusmuchandra/hiresignal-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Holded MCP](../tools/holded-mcp.md) github.com MCP server for Holded - invoicing, accounting, CRM, projects, and team [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [HubSpot MCP by amin-ale](../tools/hubspot-mcp-by-amin-ale.md) github.com HubSpot MCP server for contacts, deals, and pipelines with idempotent writes and a PII-redacted audit trail. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -214,7 +248,15 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [HubSpot MCP by rfoxes](../tools/hubspot-mcp-by-rfoxes.md) npmjs.com An MCP (Model Context Protocol) server implementation that integrates Claude with HubSpot. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [HumanHours](../tools/humanhours.md) humanhours.dev HumanHours runs a hosted [Model Context Protocol](https://modelcontextprotocol.io) server, so any MCP client can log agent ROI and ask about a workspace in p... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ICT Contact MCP](../tools/ict-contact-mcp.md) ictcontact.com ICTContact is AI-powered contact center software with builtin CRM, Omnichannel support, WhatsApp integration, progressive dialer, preview dialer, IVR studio, and CRM buisness automation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ICT CRM MCP](../tools/ict-crm-mcp.md) ictcrm.com ICTCRM is a CRM with a full contact center inside: auto dialer, campaigns, AI voice agent, and a timeline that logs every call, text and email automatically. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [IN2 Agent MCP](../tools/in2-agent-mcp.md) github.com IN2 MCP stdio server: turns Campfire Salesforce requirements into verified org changes, driven by a Claude Code supervisor. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Incwo MCP](../tools/incwo-mcp.md) incwo.com incwo réunit CRM, devis, factures, achats, stocks et caisse - avec iris, l’assistante IA intégrée qui répond et prépare vos actions. Certifié NF, prêt pour 2026. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Indraft](../tools/indraft.md) indraft.io A canonical CRM designed to be read and written by AI agents through MCP and REST, with safe writes, full attribution, and a human interface for inspection and correction. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -222,13 +264,27 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Insaight](../tools/insaight.md) github.com LinkedIn prospect intelligence inside Claude - MCP server + 8 skills that research people, companies and comment threads, draft outreach, and learn what gets replies. - spirosbax/insaight [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Intelligence Aeternum](../tools/intelligence-aeternum.md) iaeternum.ai High-fidelity, provenance-verified training data for the next generation of AI. 4,000+ tokens per image. C2PA certified. Available now on HuggingFace. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Intent Engineering MCP by seanwinslow](../tools/intent-engineering-mcp-by-seanwinslow.md) github.com This repo contains the MCP server for agentic intent engineering workflows - GitHub - seanwinslow28/sw-mcp-intent-engineering: This repo contains the MCP server for agentic intent engineering workflows [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Investor Relations MCP by adelaidasofia](../tools/investor-relations-mcp-by-adelaidasofia.md) github.com FastMCP seed raise pipeline tracker - syncs from Obsidian CRM, generates meeting prep, tracks follow-up compliance - adelaidasofia/investor-relations-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Iridium LinkedIn Agent](../tools/iridium-linkedin-agent.md) iridiumhqmcp.com An MCP server that gives AI agents live LinkedIn data and the ability to act: commenting, outreach, messaging, with every action logged and human approval before anything posts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [JackTrade CRM](../tools/jacktrade-crm.md) frostsa2.ed1.jacktrade.xyz Search customers, manage quotes, work orders, action items, and calendar events for your business [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Keepsake MCP by nicolascroce](../tools/keepsake-mcp-by-nicolascroce.md) github.com MCP server for Keepsake personal CRM - connect your AI agent to your contacts, tasks, notes, and more - nicolascroce/keepsake-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Kommo MCP](../tools/kommo-mcp.md) api.mcp.ai Kommo CRM (formerly amoCRM), the conversation-first sales CRM (WhatsApp, Instagram, Telegram) used b [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Kylas CRM MCP](../tools/kylas-crm-mcp.md) github.com Contribute to akshaykylas94/MCP development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [LeadConnector MCP by pipeworx](../tools/leadconnector-mcp-by-pipeworx.md) github.com LeadConnector / GoHighLevel MCP Pack - wraps the GoHighLevel CRM for AI agents. - pipeworx-io/mcp-leadconnector [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Leadcraft MCP](../tools/leadcraft-mcp.md) github.com Turn your AI coding agent into a sales copilot. Find clients on the open web, draft personalized cold email, track the pipeline all from slash commands. - Lakshya330-sudo/leadcraft [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LeadDelta MCP](../tools/leaddelta-mcp.md) mcp.leaddelta.com MCP server for LeadDelta - manage LinkedIn connections and CRM data via AI assistants. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Leadgen MCP by koolninad](../tools/leadgen-mcp-by-koolninad.md) github.com MCP Server for AI-powered lead generation - scans websites, crawls platforms, and sends personalized outreach emails - koolninad/leadgen-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -248,6 +304,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Local MCP CRM](../tools/local-mcp-crm.md) github.com Local-first CRM built on the Model Context Protocol (MCP) - customer/project management exposed as MCP tools, usable from a custom LlamaIndex agent or directly in Claude Code or any other applications... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [LocalTry AI CRM](../tools/localtry-ai-crm.md) localtry.com We built LocalTry after years of CRM hopping and a $20,000-plus custom-build estimate. Start with a complete CRM, then shape the workspace around your business. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Lookaberry GTM MCP](../tools/lookaberry-gtm-mcp.md) github.com Autonomous, headless AI Go-to-Market (GTM) outbound engine & MCP Server powered by PostgreSQL 16 + pgvector. - lucasmartins-ai/lookaberry [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Maasy](../tools/maasy.md) maasy.co AI marketing copilot: brand intelligence, campaigns, content, CRM, SEO, and skills for Claude. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -255,6 +313,10 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 - [Magellan MCP by sorrek](../tools/magellan-mcp-by-sorrek.md) magellandata.io Parent companies, PE ownership, corporate families, and portfolio siblings - delivered as a hosted MCP server your AI agent calls mid-task. No login, no CSV, no tabs. Prefer a file? Spotlight, our web app,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Magpipe](../tools/magpipe.md) magpipe.ai Omni-channel AI communications platform. Voice, SMS, email, and chat - handled by intelligent AI agents 24/7. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ManyContacts npm MCP](../tools/manycontacts-npm-mcp.md) npmjs.com # ManyContacts MCP Server MCP (Model Context Protocol) server for [ManyContacts](https://manycontacts.com) - the WhatsApp Business CRM. Enables AI agents (Claude, Cursor, Windsurf, etc.) to manage contacts,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ManyContacts WhatsApp Business CRM MCP](../tools/manycontacts-whatsapp-business-crm-mcp.md) github.com ManyContacts MCP. Contribute to ManyContacts/mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Max MCP by Digital Crew](../tools/max-mcp-by-digital-crew.md) max-mcp-server.vercel.app Model Context Protocol (MCP) server for Max, Digital Crew's AI sales agent. Exposes workspace profile tools via Streamable HTTP for Digital Crew integrations. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -268,6 +330,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Method CRM MCP](../tools/method-crm-mcp.md) github.com MCP server for Method CRM on Cloudflare Workers - 22 tools, OAuth 2.1, multi-tenant - avisangle/method-crm-mcp-workers [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Moltlines Studio Outbound](../tools/moltlines-studio-outbound.md) moltlinestudio.com 138 production AI agent skills, persona bundles, and 22 MCP servers with free tiers. One $19 All-Access license unlocks every premium tool. Pay with crypto. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Munin](../tools/munin.md) getmunin.com The customer platform for the agentic era. MCP-first, open source, self-hostable. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [myOPC](../tools/myopc.md) myopc.io All-in-one AI business platform with 28+ modules: CRM, inventory, accounting, sales orders, quotations, HR, payroll, tax compliance & e-invoicing. Bring your own AI key (BYOK) from 13 providers and connect AI... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -278,17 +342,23 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Nex MCP](../tools/nex-mcp.md) github.com Organizational context and memory for AI agents; connect 100+ tools into one knowledge graph. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [NexaLink](../tools/nexalink.md) nexalink.co NexaLink digital business card & personal CRM - edit your card and capture contacts via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Nimbus](../tools/nimbus.md) testnimbus.dev Run real Salesforce Apex locally - no org, no Docker - then ship through the same tool: gated deploys, Salesforce validation, release receipts. A typical test runs in tens of milliseconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Nuph](../tools/nuph.md) github.com Official MCP server for nuph.ai - LinkedIn outreach, lead search, AI messages, and pipeline management from Claude, Cursor, and any MCP-compatible AI agent - teslaeas/nuph-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Nynch MCP](../tools/nynch-mcp.md) nynch.com Nynch developer resources for AI agents. Nynch API docs, Nynch OpenAPI specification, Nynch MCP server, authentication, and example requests for the Nynch AI CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Obriym CRM MCP](../tools/obriym-crm-mcp.md) obriym-crm.com Підключіть Obriym CRM до Claude, ChatGPT, Gemini чи Cursor через OAuth із явним підтвердженням акаунта або scoped API-токен. Асистент знаходить застійні ліди, угоди й замовлення та виконує лише дозволені дії. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Odoo MCP by pipeworx](../tools/odoo-mcp-by-pipeworx.md) github.com Odoo MCP Pack - ERP/CRM via Odoo's external JSON-RPC API. - pipeworx-io/mcp-odoo [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Oisha OS](../tools/oisha-os.md) github.com Autonomous Multi-Agent Operating System for Modern Agency Operations, CRM & Financial Intelligence [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Open Sales Stack MCP by ekas](../tools/open-sales-stack-mcp-by-ekas.md) github.com MCP and tools for various tasks related to ekas. Contribute to ekas-io/open-sales-stack development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Orbiads](../tools/orbiads.md) orbiads.com The most complete MCP server for Google Ad Manager. Drive GAM from your AI agents, deploy in 5 minutes, 50 MCP tools. Saga-pattern for zero errors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Outbound Engine MCP by closermethod](../tools/outbound-engine-mcp-by-closermethod.md) github.com Outbound Engine MCP for AI agents and creators. One cold-outreach engine, any target: brand deals, UGC, newsletter sponsorships, jobs, podcasts. HOOK/BRIDGE/SOFT-ASK structuring, message auditing, follow-up... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -306,6 +376,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Pipedrive MCP by Teapot-Agency](../tools/pipedrive-mcp-by-teapot-agency.md) github.com MCP server for Pipedrive CRM - Full CRUD operations (36 tools) for deals, persons, organizations, activities, notes & leads. Built-in rate limiting, safety confirmations, and soft delete recovery. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Pipedrive MCP by UsefulAPI](../tools/pipedrive-mcp-by-usefulapi.md) pipedrive.usefulapi.io Read deals, persons, organizations, activities and pipelines; create and update CRM records. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Planhat MCP by da-troll](../tools/planhat-mcp-by-da-troll.md) github.com Unofficial local MCP server for Planhat CRM: 60 tools for Claude Desktop and any MCP client. - da-troll/Planhat-MCP [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Plixana](../tools/plixana.md) plixana.com Opera tu CRM Plixana desde Claude, ChatGPT, Cursor, n8n o tu propio agente. Crear y enviar cotizaciones, mover deals, responder WhatsApp y leer métricas - vía MCP, GPT Actions o la API REST. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -314,15 +386,27 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Prospecting Agent by B-Kirb](../tools/prospecting-agent-by-b-kirb.md) github.com Stateless, cost-capped prospecting agent that turns an intent-data signal into one qualified contact per account. Python - focused on agent reliability: determinism, hard cost caps, no guessing. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Provar MCP](../tools/provar-mcp.md) github.com Provar DX CLI. Contribute to ProvarTesting/provardx-cli development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [PulseAgent MCP](../tools/pulseagent-mcp.md) github.com MCP server for PulseAgent - let Claude Code, Cursor, and Codex interact with your AI digital workers, CRM, and pipeline - iPythoning/pulseagent-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [RadiusOS CRM](../tools/radiusos-crm.md) radiusos.ai 34-tool CRM server - contacts, pipeline, quotes, invoices, scheduling, email, and AI scoring. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [RaiseKit](../tools/raisekit.md) raisekit.co CRM for VC fundraising. Pipeline, Gmail drafts, deck signals, VC intel - from your AI. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [RapidStart CRM MCP](../tools/rapidstart-crm-mcp.md) github.com MCP server for RapidStart CRM - enables AI assistants to discover and recommend RapidStart CRM - forceworks/rapidstart-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [RD Station CRM MCP](../tools/rd-station-crm-mcp.md) github.com Contribute to fernandoludvig/rdstation-crm-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Relaticle](../tools/relaticle.md) mcp.relaticle.com Open-source CRM your AI agents can write to: 32 MCP tools for companies, people, deals, and tasks. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Relm CRM](../tools/relm-crm.md) relmcrm.com Relm is an API-first CRM built for LLMs and AI agents. Connect Claude, ChatGPT, or any agent - OAuth sign-in or an API key - and it reads and writes contacts, companies, deals and activities over REST or... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [RetailCRM MCP](../tools/retailcrm-mcp.md) github.com MCP server for RetailCRM - orders, customers, e-commerce analytics (Russia) - theYahia/retailcrm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [RevOps Eval](../tools/revops-eval.md) revopseval.com An evaluation benchmark for AI agents on Revenue Operations tasks. Public leaderboard. Open methodology. Real workflows. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [RevOrbit CRM](../tools/revorbit-crm.md) help.revorbit.com Connect Claude and other AI assistants to your CRM with the built-in MCP server. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [S.C.A.L.A.](../tools/s-c-a-l-a.md) get-scala.com S.C.A.L.A. is the AI operating system for businesses. CRM, financial analysis, SARA WhatsApp AI, Process Analyzer and 20 business verticals. Try it free. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -349,6 +433,8 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 - [Salesforce Intelligence MCP](../tools/salesforce-intelligence-mcp.md) github.com Salesforce Org Intelligence for AI agents - a read-only, offline, source-available MCP server and CLI answering metadata, dependency, permission, Apex and Flow questions grounded in real retrieved org... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Salesforce Marketing Cloud MCP by Devart](../tools/salesforce-marketing-cloud-mcp-by-devart.md) github.com Self-hosted MCP server for secure AI access to Salesforce Marketing Cloud. - devart-ai-connectivity/devart-mcp-server-salesforce-marketing-cloud [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Salesforce Marketing Cloud MCP by Inefavel](../tools/salesforce-marketing-cloud-mcp-by-inefavel.md) github.com MCP Server para Salesforce Marketing Cloud - valide queries do Automation Studio antes de rodar, explore Data Extensions e consulte registros direto do Claude. - Inefavel/sfmc-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Salesforce Marketing Cloud MCP by salesforcebob](../tools/salesforce-marketing-cloud-mcp-by-salesforcebob.md) github.com MCP Server for SF MCE, supporting REST & SOAP. Contribute to salesforcebob/Salesforce-Marketing-Cloud-Engagement-MCP development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -408,9 +494,13 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Salesforce Remote MCP by tsmztech](../tools/salesforce-remote-mcp-by-tsmztech.md) github.com Self-hosted remote MCP server for Salesforce on Cloudflare Workers - use as a Claude custom connector with OAuth login, exposing 15 Salesforce tools (SOQL, DML, Apex, metadata) -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Samarth GTM MCP](../tools/samarth-gtm-mcp.md) github.com MCP server for Samarth Analytics Google Tag Manager operations - samarthanalytics-sj/samarth-analytics-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [SeldonFrame](../tools/seldonframe.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [SeldonFrame MCP](../tools/seldonframe-mcp.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Serpent Salesforce DevOps MCP](../tools/serpent-salesforce-devops-mcp.md) mcp.serpent.cloud Plan Salesforce deploys, open pull requests and trigger pipelines from your AI client. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [ServiceAgent](../tools/serviceagent.md) serviceagent.ai Discover ServiceAgent, the AI platform running your front and back office. Handle calls, CRM, scheduling, billing, and marketing in one place. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -424,15 +514,23 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Snov.io MCP by narkov](../tools/snov-io-mcp-by-narkov.md) github.com MCP server for Snov.io API - 43 tools for email finder, verifier, drip campaigns, prospect management, and LinkedIn enrichment - narkov/snov-io-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Spala MCP](../tools/spala-mcp.md) docs.spala.ai Use the public Spala MCP for discovery, account setup, project handoff, and the Project MCP operating contract. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Stacks AI](../tools/stacks-ai.md) github.com The universal board for AI agents - one Kanban for tasks, bugs, support, CRM & roadmap, operated by humans and agents via a built-in MCP server. Open-source, self-hostable (Next.js 16, Prisma 7, Auth.js v5). -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [StrataBook MCP](../tools/stratabook-mcp.md) stratabook.org MCP - official Strata developer documentation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Studiomeyer CRM](../tools/studiomeyer-crm.md) studiomeyer.io AI-native CRM with 37 MCP tools. Companies, deals, pipeline, leads, follow-ups, managed by AI. Connect in 30 seconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [SuiteCRM MCP by Anirudhx7](../tools/suitecrm-mcp-by-anirudhx7.md) anirudh.social Open-source MCP server for SuiteCRM. Connect Claude, Cursor, or any AI agent to your CRM in 5 minutes. 24 tools, OAuth2, Prometheus. MIT licensed. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Synapse CRM MCP by NimbleBrain](../tools/synapse-crm-mcp-by-nimblebrain.md) github.com Lightweight CRM with contact management, deal pipeline, and agent-driven follow-ups ΓÇö Synapse app for NimbleBrain [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Teamleader MCP by BoostU](../tools/teamleader-mcp-by-boostu.md) teamleader-mcp.boostu.be De Teamleader MCP van BoostU brengt Teamleader Focus in Claude. Werk via je AI-assistent met de Teamleader Claude-koppeling op basis van het Model Context Protocol. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Twenty CRM MCP](../tools/twenty-crm-mcp.md) github.com A Model Context Protocol (MCP) server for Twenty CRM integration. Enables natural language interactions with your CRM data through Claude and other AI assistants. Supports CRUD operations, dynamic schema... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Twenty MCP by UsefulAPI](../tools/twenty-mcp-by-usefulapi.md) twenty.usefulapi.io Read people, companies, opportunities, notes and tasks; create and update records in Twenty CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Twenty MCP Suite](../tools/twenty-mcp-suite.md) andrewmarconi.github.io Version-resilient MCP server suite for self-hosted Twenty CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -444,13 +542,23 @@ Source file: 07-mcp-infrastructure.md · content sha256 3b4cea1fa47e586f... · c
 
 - [Wapiworld](../tools/wapiworld.md) app.wapiworld.com Inspect WhatsApp sender and webhook health, and send explicitly confirmed WhatsApp text via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Wazion MCP Server](../tools/wazion-mcp-server.md) github.com WAzion MCP Server - Connect AI agents to WhatsApp via WAzion API. Smart copilot, 24/7 automation, mass marketing. - wazionapps/mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Whatcanido](../tools/whatcanido.md) whatcanido.dev Most software was built for humans clicking. We build the version the agent can use directly. One install, typed contracts, live conformance against real backends, MIT-licensed open spec. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [x402 Data Gateway MCP](../tools/x402-data-gateway-mcp.md) x402-url-extractor-production.up.railway.app 25 deterministic pay-per-call tools accepting x402 and native MPP with Base USDC settlement. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [xaffinity MCP](../tools/xaffinity-mcp.md) github.com Unofficial strongly-typed Python SDK for the Affinity CRM API - full read/write coverage, Pydantic v2, MCP server included. For when you need more than Affinity's official MCP - affinity-sdk/mcp at main ·... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Yadulink](../tools/yadulink.md) app.yadulink.com Configure le serveur MCP Yadulink pour piloter tes recherches LinkedIn, listes, priorités, séquences et analytics depuis Claude, ChatGPT ou un assistant compatible. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [YG3](../tools/yg3.md) yg3.ai Provision a YG3 marketing workspace from any autonomous agent - no signup. Bearer-token MCP with 200+ tools for content, SEO, outbound, LinkedIn, and paid ads. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [YouSpot](../tools/youspot.md) youspot.com A personal CRM for AI-native, connected professionals. It remembers everyone you know, and answers in plain English. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Zavora Sales Operations Skill](../tools/zavora-sales-operations-skill.md) github.com Enterprise sales skill - proposals, CPQ, sequences, e-signatures, forecasting via mcp-sales (PandaDoc, Apollo, Calendly, Stripe) - zavora-ai/skill-sales-operations [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Zevari](../tools/zevari.md) mcp.zevari.ai Controlled LinkedIn and GTM MCP server with review-gated prospecting and outreach workflows. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Zoho CRM MCP by Devart](../tools/zoho-crm-mcp-by-devart.md) github.com Self-hosted MCP server for secure AI access to Zoho CRM data. - devart-ai-connectivity/devart-mcp-server-zoho-crm [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

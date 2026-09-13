@@ -1,6 +1,6 @@
-# Conversation Intel: 48 tools, 19 with an official MCP server
+# Conversation Intel: 51 tools, 19 with an official MCP server
 
-> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 48 tools counted, 19 with an official MCP server and 3 free to start.
+> Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals -... 51 tools counted, 19 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-writeback signals - the category where "AI" ranges from real ML deal scoring to a transcript with a sentiment label glued on. Gong's enterprise sales-gated API next to Fireflies' and Fathom's open, self-serve API is the exact contrast this directory exists to surface.
 
-- **entries in this file**: 48
+- **entries in this file**: 51
 
 - **Official MCP**: 19
-- **Community MCP**: 3
+- **Community MCP**: 6
 - **No MCP found**: 26
 
 - **ship a CLI (official) as of 2026-09-12**: 2
@@ -28,11 +28,11 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Paid, self-serve**: 9
 - **Enterprise leaning**: 2
 - **Enterprise only**: 8
-- **Gate unknown**: 26
+- **Gate unknown**: 29
 
-Source file: 03-conversation-intel.md · content sha256 6165e065f51267f4... · counts reconciled against tools_recount.py at build time.
+Source file: 03-conversation-intel.md · content sha256 8e8051ddd4cd08bd... · counts reconciled against tools_recount.py at build time.
 
-- [The 22 with an MCP server](../lists/mcp-conversation-intel.md)
+- [The 25 with an MCP server](../lists/mcp-conversation-intel.md)
 
 - [Summarize a meeting](../jobs/summarize-meeting.md)
 - [Fetch a call transcript](../jobs/fetch-call-transcript.md)
@@ -80,6 +80,12 @@ Source file: 03-conversation-intel.md · content sha256 6165e065f51267f4... · c
 - [Chorus](../tools/chorus.md) zoominfo.com Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: gtm
 
 - [Jiminny](../tools/jiminny.md) jiminny.com Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Backengine MCP](../tools/backengine-mcp.md) mcp.backengine.ai Surface customer & prospect context from Slack, email, transcripts and tickets in any MCP client. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Gong.io MCP by JustinBeckwith](../tools/gong-io-mcp-by-justinbeckwith.md) github.com MCP server for Gong.io - access calls, transcripts, and users - JustinBeckwith/gongio-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [RecordX](../tools/recordx.md) recordx.io Take meeting notes automatically. RecordX records Zoom, Google Meet, in-person, and uploaded audio, then delivers transcripts, summaries, and action items. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Voibe](../tools/voibe.md) getvoibe.com Give your AI agents ears. Send audio, get JSON back: who spoke, when they spoke, and a summary your agent can act on. Or connect Claude through MCP. 15 free minutes, no card. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

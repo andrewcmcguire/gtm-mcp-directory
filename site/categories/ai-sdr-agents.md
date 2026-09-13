@@ -1,6 +1,6 @@
-# AI SDRs: 58 tools, 8 with an official MCP server
+# AI SDRs: 65 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 58 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 65 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 58
+- **entries in this file**: 65
 
 - **Official MCP**: 8
-- **Community MCP**: 5
+- **Community MCP**: 12
 - **No MCP found**: 45
 
 - **ship a CLI (official) as of 2026-09-12**: 6
@@ -27,11 +27,11 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 38
+- **Gate unknown**: 45
 
-Source file: 04-ai-sdr-agents.md · content sha256 86207457966d3659... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts reconciled against tools_recount.py at build time.
 
-- [The 13 with an MCP server](../lists/mcp-ai-sdr-agents.md)
+- [The 20 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 - [Run an email sequence](../jobs/run-email-sequence.md)
@@ -58,9 +58,23 @@ Source file: 04-ai-sdr-agents.md · content sha256 86207457966d3659... · counts
 
 - [Copy.ai (GTM AI Platform)](../tools/copy-ai.md) copy.ai Pivoted from an AI copywriting tool to a workflow-building platform ("Copy Agents") that automates GTM tasks - prospecting/lead research, inbound enrichment, content generation, deal analysis - via user-built... [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [D50 AI](../tools/d50-ai.md) app.d50.ai 246 tools to run sales, marketing & hiring: CRM, leads, AI calling, content, recruiting & SEO. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [DingDawg Sales Agent MCP](../tools/dingdawg-sales-agent-mcp.md) github.com DingDawg Agent 1 - Governance receipts for AI agents. Deploy governed AI agents with signed audit trails. EU AI Act + Colorado AI Act compliant. Open-core platform. - dingdawg/dingdawg-agent-1 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md) github.com Fully autonomous AI sales agent on WhatsApp Business API. Groq LLM · Firebase Cloud Functions · Firestore · Google Sheets ETL · MCP server · finite-state lead pipeline from cold outreach to qualified handoff -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [GenPark Sales Agent MCP](../tools/genpark-sales-agent-mcp.md) github.com Autonomous outbound B2B sales development representative. - alphaparkinc/genpark-sales-agent [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [KaiCalls](../tools/kaicalls.md) kaicalls.com KaiCalls is a phone service with a built-in secretary. Your number can answer, route, text, follow up, and brief you starting at $10/month. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Leaderra](../tools/leaderra.md) leaderra.ai Leaderra is an AI appointment setter for the leads you already have - inbound, CRM and old lists. It answers in seconds and follows up for weeks across email, phone, WhatsApp, iMessage and SMS, then books the... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Plyto](../tools/plyto.md) plyto.ai Plyto is a CRM powered by an AI agent. Describe what you want and it captures leads, runs ads, closes deals, and ties every dollar to revenue, or run the whole CRM from your own AI (Claude, Cursor, any MCP... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [PropelAgent Studio](../tools/propelagent-studio.md) propelagent.studio AI agent platform: manage leads, conversations, bots, calendar and CRM via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Squad](../tools/squad.md) meetsquad.ai Squad AI is an AI-driven product discovery, strategy, and roadmapping tool for building user-centric products. Align your team and ship outcomes faster. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

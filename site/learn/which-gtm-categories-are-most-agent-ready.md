@@ -16,33 +16,33 @@
 
 **The short answer**
 
-MCP Layer is the most agent reachable category at 207 of 212 entries with a server. Enablement & Coaching is the least at 3 of 58. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
+MCP Layer is the most agent reachable category at 261 of 266 entries with a server. Enablement & Coaching is the least at 7 of 62. The pattern is that categories which already sold an API adopted MCP, and categories whose product is a screen did not.
 
 ## The ranking
 
 | # | Category | Reachable | Official | Community | Of |
 |---|---|---|---|---|---|
-| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 98% | 14 | 193 | 212 |
-| 2 | [Data & Enrichment](../categories/data-enrichment.md) | 60% | 42 | 66 | 180 |
-| 3 | [Community & Dark Social](../categories/community-dark-social.md) | 52% | 8 | 3 | 21 |
-| 4 | [Conversation Intel](../categories/conversation-intel.md) | 46% | 19 | 3 | 48 |
-| 5 | [RevOps Infra](../categories/revops-infra.md) | 45% | 29 | 11 | 89 |
-| 6 | [Scheduling & Routing](../categories/scheduling-routing.md) | 44% | 5 | 3 | 18 |
-| 7 | [Video Prospecting](../categories/video-prospecting.md) | 42% | 4 | 6 | 24 |
-| 8 | [Signals & Intent](../categories/signals-intent-abm.md) | 39% | 20 | 6 | 66 |
-| 9 | [Proposals & Deals](../categories/proposals-deals.md) | 37% | 8 | 2 | 27 |
-| 10 | [Engagement & Outbound](../categories/engagement-outbound.md) | 29% | 23 | 15 | 130 |
-| 11 | [Email Deliverability](../categories/email-deliverability.md) | 28% | 4 | 3 | 25 |
-| 12 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 25% | 11 | 2 | 51 |
-| 13 | [AI SDRs](../categories/ai-sdr-agents.md) | 22% | 8 | 5 | 58 |
-| 14 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 20% | 3 | 2 | 25 |
-| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 5% | 2 | 1 | 58 |
+| 1 | [MCP Layer](../categories/mcp-infrastructure.md) | 98% | 14 | 247 | 266 |
+| 2 | [Data & Enrichment](../categories/data-enrichment.md) | 69% | 42 | 121 | 235 |
+| 3 | [Signals & Intent](../categories/signals-intent-abm.md) | 53% | 20 | 25 | 85 |
+| 4 | [Community & Dark Social](../categories/community-dark-social.md) | 52% | 8 | 3 | 21 |
+| 5 | [RevOps Infra](../categories/revops-infra.md) | 52% | 29 | 24 | 102 |
+| 6 | [Conversation Intel](../categories/conversation-intel.md) | 49% | 19 | 6 | 51 |
+| 7 | [Scheduling & Routing](../categories/scheduling-routing.md) | 47% | 5 | 4 | 19 |
+| 8 | [Engagement & Outbound](../categories/engagement-outbound.md) | 47% | 23 | 58 | 173 |
+| 9 | [Proposals & Deals](../categories/proposals-deals.md) | 43% | 8 | 5 | 30 |
+| 10 | [Video Prospecting](../categories/video-prospecting.md) | 42% | 4 | 6 | 24 |
+| 11 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 39% | 3 | 10 | 33 |
+| 12 | [Email Deliverability](../categories/email-deliverability.md) | 36% | 4 | 6 | 28 |
+| 13 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 33% | 11 | 8 | 57 |
+| 14 | [AI SDRs](../categories/ai-sdr-agents.md) | 31% | 8 | 12 | 65 |
+| 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 11% | 2 | 5 | 62 |
 
 Counted 2026-09-12 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
 
 ## The inversion
 
-The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 58 entries. Enablement & Coaching is at 2 of 58. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 89.
+The categories sold hardest on artificial intelligence are the least usable by anybody else's artificial intelligence. AI SDRs sits at 8 official servers across 65 entries. Enablement & Coaching is at 2 of 62. Meanwhile the plumbing layer, RevOps Infra, is at 29 of 102.
 
 The explanation is commercial rather than technical. If your product is an API, a server is a weekend of work and a new distribution channel. If your product is a seat somebody logs into, a server is a way for customers to stop logging in.
 

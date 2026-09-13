@@ -21,7 +21,7 @@ Checked 2026-09-07
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [skyp.ai](https://skyp.ai) · entry id 02-skyp-ai · source 02-engagement-outbound.md line 619
+Vendor: [skyp.ai](https://skyp.ai) · entry id 02-skyp-ai · source 02-engagement-outbound.md line 618
 
 **What it does**
 A cold-email outreach platform (campaigns, contacts, per-prospect AI-written emails, tracking, webhooks) that markets itself on being driven by AI agents through a native MCP server and REST API rather than through a UI.
@@ -61,7 +61,7 @@ https://api.skyp.ai/mcp (vendor pages: https://skyp.ai/email-mcp-server and http
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 521 entries that record an official or community MCP server carry a harvested tool list. The other 402 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 740 entries that record an official or community MCP server carry a harvested tool list. The other 621 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -81,7 +81,7 @@ paid - the vendor states "MCP access is included on every paid plan, Pro, Team, 
 
 No documentation URL recorded.
 
-635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -104,7 +104,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -127,7 +127,7 @@ Verified 2026-09-07: POST of an MCP initialize to https://api.skyp.ai/mcp return
 
 - **Source file**: 02-engagement-outbound.md
 
-- **Source line**: 619
+- **Source line**: 618
 
 - **Tier**: RESEARCHED
 

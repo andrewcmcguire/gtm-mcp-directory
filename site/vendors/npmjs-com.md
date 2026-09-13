@@ -1,6 +1,6 @@
 # Siftable: products, MCP servers and connect URLs, one vendor page
 
-> Siftable (npmjs.com): 9 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
+> Siftable (npmjs.com): 10 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@ Siftable
 
 # Siftable
 
-9 products in the directory
+10 products in the directory
 0 official MCP servers
 0 live handshakes
 Data baked 2026-09-12
@@ -22,21 +22,21 @@ Vendor domain: [npmjs.com](https://npmjs.com) · vendor page id npmjs-com
 
 **The rollup**
 
-- **Products**: 9, facts checked by hand 2026-09-12
+- **Products**: 10, facts checked by hand 2026-09-12
 
-- **Official MCP servers**: 0 of 9, as recorded on 2026-09-12
+- **Official MCP servers**: 0 of 10, as recorded on 2026-09-12
 
-- **Community MCP servers**: 9 of 9
+- **Community MCP servers**: 10 of 10
 
-- **Live handshake**: 0 of 9 answered an MCP initialize, 0 probed, no date
+- **Live handshake**: 0 of 10 answered an MCP initialize, 0 probed, no date
 
-- **Repo local**: 0 of 9: a server you install and run yourself
+- **Repo local**: 0 of 10: a server you install and run yourself
 
-- **Docs only**: 0 of 9: the recorded URL is a page about the server, not the server
+- **Docs only**: 0 of 10: the recorded URL is a page about the server, not the server
 
 - **Tools catalogued**: not measured on any product of this vendor
 
-- **Bench tested**: 0 of 9 here, 1 of 1,032 across the directory
+- **Bench tested**: 0 of 10 here, 1 of 1,251 across the directory
 
 - **Ships a CLI**: not measured on this build
 
@@ -44,7 +44,7 @@ Vendor domain: [npmjs.com](https://npmjs.com) · vendor page id npmjs-com
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
-**Products, 9**
+**Products, 10**
 
 ### [Apex Log MCP by Certinia](../tools/apex-log-mcp-by-certinia.md)
 
@@ -97,6 +97,22 @@ RESEARCHED
 ### [HubSpot MCP by rfoxes](../tools/hubspot-mcp-by-rfoxes.md)
 
 An MCP (Model Context Protocol) server implementation that integrates Claude with HubSpot.
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [ManyContacts npm MCP](../tools/manycontacts-npm-mcp.md)
+
+# ManyContacts MCP Server MCP (Model Context Protocol) server for [ManyContacts](https://manycontacts.com) - the WhatsApp Business CRM. Enables AI agents (Claude, Cursor, Windsurf, etc.) to manage contacts, send WhatsApp messages, run campaigns, configure AI...
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -192,7 +208,7 @@ RESEARCHED
 
 **The gates, in plain words**
 
-9 of 9 gate unknown, not established from public sources and published as unknown.
+10 of 10 gate unknown, not established from public sources and published as unknown.
 
 The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
 
@@ -216,6 +232,6 @@ The GitHub organisation layer has not been measured on this build.
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,032 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 9 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,251 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 10 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

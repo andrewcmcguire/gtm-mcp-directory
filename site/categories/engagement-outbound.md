@@ -1,6 +1,6 @@
-# Engagement & Outbound: 130 tools, 23 with an official MCP server
+# Engagement & Outbound: 173 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 130 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 173 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 130
+- **entries in this file**: 173
 
 - **Official MCP**: 23
-- **Community MCP**: 15
+- **Community MCP**: 58
 - **MCP unknown**: 2
 - **No MCP found**: 90
 
@@ -29,11 +29,11 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 98
+- **Gate unknown**: 141
 
-Source file: 02-engagement-outbound.md · content sha256 b9178a3e302d4102... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 52328a36a775e7f5... · counts reconciled against tools_recount.py at build time.
 
-- [The 38 with an MCP server](../lists/mcp-engagement-outbound.md)
+- [The 81 with an MCP server](../lists/mcp-engagement-outbound.md)
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
@@ -90,27 +90,113 @@ Source file: 02-engagement-outbound.md · content sha256 b9178a3e302d4102... · 
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: overloop (community)
 
+- [ACA Automated Client Acquisition](../tools/aca-automated-client-acquisition.md) automatedclientacquisition.com AI content generation, lead management, and multi-channel outreach campaigns. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Agent Cold Email MCP (Coldrig)](../tools/agent-cold-email-mcp.md) coldrig.dev Coldrig gives Codex, Claude Code, Cursor, and other AI agents one API and MCP surface for cold-email domains, mailboxes, warmup, campaigns, replies, and enforced sending guardrails. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Bavlio](../tools/bavlio.md) bavlio.com Bavlio is an AI-powered sales outreach platform that researches every lead and writes personalized cold email and LinkedIn campaigns for your team. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Bird MCP by UsefulAPI](../tools/bird-mcp-by-usefulapi.md) bird.usefulapi.io Read SMS, WhatsApp, email, contacts and audiences from your Bird workspace, plus safe CRM writes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [CampaignStack](../tools/campaignstack.md) campaignstack.io LinkedIn outreach for lead-gen agencies, built around the accounts: per-account daily budgets, warm-up ramps, business-hours sends, review before each send. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ContentStudio](../tools/contentstudio.md) contentstudio.io AI social media manager that never sleeps. It knows your brand, creates and publishes on-brand content and learns what works. Review on run on autopilot. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Crevideo Reach](../tools/crevideo-reach.md) crevideo.com Scale TikTok Shop affiliate outreach with Crevideo Reach. Find affiliate creators, automate outreach, track ROI, and manage TikTok Shop creator partnerships from one platform. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Email Outreach by OpenHelm](../tools/email-outreach-by-openhelm.md) openhelm.ai An email outreach MCP server for AI agents: research a recipient, draft and send a personalised email to accomplish an objective, then triage and reply to inbound responses automatically. Unlike an email inbox... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Emelia](../tools/emelia.md) emelia.io Emelia simplifies LinkedIn and email prospecting, helping you find future clients with an easy-to-use platform and advanced technology. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Fintalio LinkedIn MCP](../tools/fintalio-linkedin-mcp.md) fintalio.com LinkedIn outreach MCP server - 19 tools for AI agents to prospect, sequence, and manage contacts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [FirstTouch](../tools/firsttouch.md) firsttouch.com One MCP connection gives Claude, Cursor, Codex, and ChatGPT real hands in FirstTouch: build audiences, launch flows, discover prospects, and track pipeline. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [GetDialer](../tools/getdialer.md) getdialer.app An MCP server that provides your you make outbound phone calls using your own phone number [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [GramClaw](../tools/gramclaw.md) gramclaw.com Connect Telegram to Claude, Cursor, and any MCP client with the GramClaw Telegram MCP server. Search chats, send messages, run broadcasts, and launch campaigns in natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [HeyLead - Autonomous LinkedIn SDR](../tools/heylead-autonomous-linkedin-sdr.md) github.com AI-powered LinkedIn SDR: voice-matched outreach, ICP generation, drip sequences, and analytics. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [ICT Dialer MCP](../tools/ict-dialer-mcp.md) ictdialer.com ICTDialer is a cloud-based call center and contact center platform that supports Voice, SMS, and Fax communications technologies. You need internet and a web [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Intent Outreach](../tools/intent-outreach.md) demos.intentsolutions.io Intent Outreach runs outbound prospecting inside Claude Code: research, enrichment, and drafted outreach over your own provider accounts, with a typed validation gate in front of storage and a per-campaign... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Kairon](../tools/kairon.md) heykairon.com How to connect Kairon to Claude, Claude Code or Cursor over MCP, and the full list of the 120 tools an assistant can use once it is connected. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LeadSleuth MCP](../tools/leadsleuth-mcp.md) leads.zalize.com Connect AI agents to your LeadSleuth leads via the Model Context Protocol: step-by-step setup for Claude Desktop, Claude Code, ChatGPT and Cursor with copy-paste configs. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LeadSmarts](../tools/leadsmarts.md) bjmsxprjidjdyquiroxy.supabase.co Qualify B2B leads: live-web research, Hot/Warm/Cold verdicts with evidence, and outreach drafts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [LinkedGrow](../tools/linkedgrow.md) linkedgrow.ai Lead generation on LinkedIn, run by an agent that finds your leads, sends the invitation and opens the conversation, inside limits that keep your account safe. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [LinkedNav](../tools/linkednav.md) linkednav.com LinkedNav detects LinkedIn buying signals and sends personalized outreach you approve. Built for founders and lead-gen agencies. Free 7-day trial. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Linkly](../tools/linkly.md) linklyhq.com Could not fully document product behavior from a live vendor homepage this pass (fetch status=429 error=HTTPError 429). [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LoomaScale for Google Ads](../tools/loomascale-for-google-ads.md) ai.loomascale.com An AI ad operator for Google Ads. Brief it in ChatGPT - it builds, monitors, and improves your campaigns. Nothing goes live without your approval. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [MachFive Cold Email MCP](../tools/machfive-cold-email-mcp.md) help.machfive.io Learn how to connect your AI assistant to MachFive using the Model Context Protocol (MCP) for automated cold email generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [MailerLite MCP by UsefulAPI](../tools/mailerlite-mcp-by-usefulapi.md) mailerlite.usefulapi.io Read subscribers, groups, campaigns, fields, segments, automations, webhooks; safe additive writes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Mailrith](../tools/mailrith.md) mailrith.com Connect Mailrith from Claude [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Mamba Clay to Instantly/Smartlead Push MCP](../tools/mamba-clay-to-instantly-smartlead-push-mcp.md) github.com MCP server for the Mamba Labs Sequencer Lead Push actor on Apify. Push enriched leads into an Instantly or Smartlead campaign. - mambalabsdev/mcp-clay-to-instantly-smartlead-push [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Marvenn MCP](../tools/marvenn-mcp.md) github.com Connect AI agents to Marvenn for outbound growth via email, voice, and LinkedIn. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [MCP Emails](../tools/mcp-emails.md) mcpemails.com Connect Gmail, Fastmail, iCloud, Yahoo, Zoho, Yandex, or IMAP email to Claude, Cursor, ChatGPT, and any MCP client. Read, search, draft, approve, and send email live with provider-aware controls. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [MentionAgent](../tools/mentionagent.md) mentionagent.ai Link building outreach from your agent: review drafts, send the batch, answer publisher replies. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [MisarMail MCP](../tools/misarmail-mcp.md) misarmail.com Free AI email marketing: send bulk campaigns, automate flows, manage a shared inbox, and use your own domain or a free @misar.io address. No card needed. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Misarreach](../tools/misarreach.md) misarreach.com AI-powered multi-channel outreach and lead generation - cold email, LinkedIn automation, a multi-source lead finder, and a built-in CRM. DPDP/GDPR-compliant. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Moltline Outbound](../tools/moltline-outbound.md) moltlinestudio.com 138 production AI agent skills, persona bundles, and 22 MCP servers with free tiers. One $19 All-Access license unlocks every premium tool. Pay with crypto. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [MuntuAI MCP](../tools/muntuai-mcp.md) api.muntuai.com Hosted MCP server for MuntuAI outreach campaigns, leads, senders, domains, and analytics. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Nitrosend](../tools/nitrosend.md) nitrosend.com Nitrosend is built MCP-first. Connect Claude, ChatGPT, Codex, Cursor, Gemini, Windsurf, VS Code, or Zed and control your entire email stack with natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Omnflow](../tools/omnflow.md) omnflow.com Public MCP server for Omnflow. Repurpose content into Twitter, LinkedIn, Instagram, TikTok and email - plus Voice DNA analysis - directly inside Claude Desktop, Cursor, Claude Code and n8n. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Onsa](../tools/onsa.md) api.onsa.ai Find scored B2B leads, read campaign replies and send approved LinkedIn outreach. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [OpenHelm Email Outreach MCP](../tools/openhelm-email-outreach-mcp.md) mcp.openhelm.ai Goal-directed email outreach: research, draft, send, triage replies. Real data, never fabricated. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [PersuadioAI](../tools/persuadioai.md) persuadioai.com Turn more seller leads into real conversations. PersuadioAI follows up by text, email, and AI voice calls, handles replies, and alerts your acquisitions team when someone is ready to talk. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Phos Sales Engine](../tools/phos-sales-engine.md) se.phos.nz B2B lead generation - prospect discovery, ICP scoring, outreach, and pipeline management. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Phos Sales Engine MCP](../tools/phos-sales-engine-mcp.md) sales.phos.nz AI sales - prospect discovery, ICP scoring, outreach generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [PitchPilot Outreach](../tools/pitchpilot-outreach.md) aioutreachkit.surge.sh PitchPilot AI Outreach Kit - 50 fill-in-the-blank AI prompts, 15 outreach templates and 4 follow-up sequences for freelancers and agencies. $19, pay in BTC / ETH / USDT, instant PDF download. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [PLOTT](../tools/plott.md) plott.uk Turn open UK planning applications into signed contracts. 3D maps, applicant enrichment, AI-drafted letter and email outreach, and saved-search digests for UK construction and property teams. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Podcast Guest CRM](../tools/podcast-guest-crm.md) github.com AI-native CRM for podcast guest booking: lifecycle pipeline, AI outreach drafting, and a real CLI - RudrenduPaul/podcast-guest-crm [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Pro Reach](../tools/pro-reach.md) proreach.ai Plan and run LinkedIn outreach: templates, leads, confirmation-gated launch, metrics, replies. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [RD Station Marketing MCP](../tools/rd-station-marketing-mcp.md) mcp.ai RD Station Marketing, contatos/leads (buscar, criar/atualizar, funil), eventos de conversão e webhooks via API oficial (OAuth 2.0). Você cria o aplicativo na sua conta RD Station e autoriza com OAuth. (v1:... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Reach MCP](../tools/reach-mcp.md) reachmcp.com Reach MCP connects your real LinkedIn account to Claude, ChatGPT, Cursor or n8n. Six ready playbooks: post reactions, profile viewers, cold conversations, Sales Navigator search. Every playbook previews before... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [RepScale](../tools/repscale.md) repscale.ai Stop editing what AI wrote for 30 minutes. RepScale researches prospects, writes outreach, and preps meetings in one connected workflow. Free tier, no credit card. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [SalesEQ Plugins](../tools/saleseq-plugins.md) github.com Official SalesEQ plugin for Claude Code, Cursor, and Codex - your meetings as agent context. - SalesEQ/plugins [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [SalesTouch](../tools/salestouch.md) salestouch.io Make LinkedIn callable from Claude, Codex, ChatGPT, or any MCP-compatible AI agent. Search, read, message, follow up, and publish through one controlled endpoint. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [SendPulse](../tools/sendpulse.md) sendpulse.com Bring MCP into your SendPulse workflows and let an AI agent handle your email marketing, chatbots, and CRM. Courses, students, and assignment grading... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Sequenzy MCP](../tools/sequenzy-mcp.md) github.com MCP server for AI agents to operate Sequenzy lifecycle, campaign, and transactional email workflows. - Sequenzy/mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md) github.com Arm your agent with the ability to send 1000s of dm's on Reddit a day, selling while you sleep. - signal-found/sf-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [SoundGTM](../tools/soundgtm.md) soundgtm.com Most partner-driven revenue never gets tracked. SoundGTM shows the deals your partners influence and tells you what to do next. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Toflow](../tools/toflow.md) toflow.ai toflow.ai is a LinkedIn automation tool for sales teams, agencies, and GTM experts. Run automated LinkedIn outreach, enrich contacts, and sequence across email and WhatsApp, just by chatting with AI. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

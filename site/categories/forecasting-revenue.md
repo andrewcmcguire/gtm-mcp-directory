@@ -1,6 +1,6 @@
-# Forecasting & Revenue: 25 tools, 3 with an official MCP server
+# Forecasting & Revenue: 33 tools, 3 with an official MCP server
 
-> Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast... 25 tools counted, 3 with an official MCP server and 1 free to start.
+> Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast... 33 tools counted, 3 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Tools that try to answer "how much will we actually close this quarter" - CRM-native ML forecast engines (BoostUp/Terret, Aviso, Kluster) sold sales-led and quote-only, incentive-comp platforms that tie forecast risk to rep behavior (Xactly, Varicent), FP&A tools that model revenue top-down as one planning use case among several (Vareto, Cube Software, Pigment, Anaplan), and forecasting bolted onto core CRMs for free (Salesforce, HubSpot). The tension: almost every vendor in this category quotes a specific forecast-accuracy percentage with no published methodology behind a demo-request wall, and a real, self-serve MCP server is the exception rather than the rule - Pigment and Cube Software are the only two found here with one.
 
-- **entries in this file**: 25
+- **entries in this file**: 33
 
 - **Official MCP**: 3
-- **Community MCP**: 2
+- **Community MCP**: 10
 - **MCP unknown**: 1
 - **No MCP found**: 19
 
@@ -28,11 +28,11 @@ Tools that try to answer "how much will we actually close this quarter" - CRM-na
 - **Free to start**: 1
 - **Paid, self-serve**: 3
 - **Enterprise only**: 13
-- **Gate unknown**: 8
+- **Gate unknown**: 16
 
-Source file: 12-forecasting-revenue.md · content sha256 45915f59052ab7ee... · counts reconciled against tools_recount.py at build time.
+Source file: 12-forecasting-revenue.md · content sha256 c397e36d8d02fca9... · counts reconciled against tools_recount.py at build time.
 
-- [The 5 with an MCP server](../lists/mcp-forecasting-revenue.md)
+- [The 13 with an MCP server](../lists/mcp-forecasting-revenue.md)
 
 - [Read the pipeline forecast](../jobs/read-pipeline-forecast.md)
 - [Model a revenue plan](../jobs/model-revenue-plan.md)
@@ -45,9 +45,25 @@ Source file: 12-forecasting-revenue.md · content sha256 45915f59052ab7ee... · 
 
 - [Pigment](../tools/pigment.md) pigment.com AI-native enterprise business-planning (EPM) platform used across finance, sales, HR, and supply chain; GTM-relevant use cases include capacity, territory, and quota planning and revenue-growth-management... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Andru Revenue Intelligence](../tools/andru-revenue-intelligence.md) andru.ai Revenue intelligence for SaaS founders: ICP scoring, persona profiling, competitive positioning. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Artefact Revenue Intelligence MCP](../tools/artefact-revenue-intelligence-mcp.md) github.com Revenue intelligence MCP server: RFM analysis, 14.5-point ICP scoring, pipeline health scoring. Embeds Artefact Formula methodology. HubSpot integration. - artefactventures/artefact-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [CompCode MCP](../tools/compcode-mcp.md) compcode.ai The first commission platform where plans are created, modified, and versioned via API. Statements your team trusts. Plan changes in minutes, not weeks. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Data Parrot AI Revenue Analyst](../tools/data-parrot-ai-revenue-analyst.md) api-v3.dataparrot.ai Data Parrot brings AI revenue analysis of your HubSpot data into your AI tools. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [GenPark Deal Velocity Skill](../tools/genpark-deal-velocity-skill.md) genpark.ai Conversational B2B deal velocity scoring engine skill for AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [OneHQ Commissions Calculator](../tools/onehq-commissions-calculator.md) onehq.com OneHQ brings CRM, commissions, case management, and reporting together in one place, so insurance teams can reduce busy work, help more clients, and scale. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Phos Analytics Engine](../tools/phos-analytics-engine.md) ae.phos.nz Sales analytics, ML forecasting, customer segmentation, and trend analysis. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Phos Analytics Engine MCP](../tools/phos-analytics-engine-mcp.md) analytics.phos.nz AI analytics - sales analysis, ML forecasting, customer segmentation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [RevenueOS by unempyd](../tools/revenueos-by-unempyd.md) unempyd.github.io RevenueOS finds opportunities, executes approved revenue work, and measures what happened. Self-hosted, MIT-licensed, and proven on a real business run - see the evidence. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [StratoForce AI Revenue Intelligence](../tools/stratoforce-ai-revenue-intelligence.md) stratoforce-mcp.stratoforce.workers.dev 15 AI revenue intelligence tools for Salesforce - pipeline, deals, coaching, competitors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Xactly](../tools/xactly.md) xactlycorp.com Revenue platform combining incentive-compensation management (Xactly Incent) with pipeline/revenue forecasting (Xactly Forecast), using compensation-plan and rep-behavior data as a forecasting input. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 

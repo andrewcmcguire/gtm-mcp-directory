@@ -64,13 +64,13 @@ api_gate, verbatim from the file:
 
 unknown - cannot confirm; the product appears non-operational (see notes)
 
-729 of 1032 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+948 of 1251 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1251 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -110,7 +110,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Community analytics platform, past tense in the entry.
 
-761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+980 of 1,251 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

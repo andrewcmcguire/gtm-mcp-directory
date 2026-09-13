@@ -1,6 +1,6 @@
-# Proposals & Deals: 27 tools, 8 with an official MCP server
+# Proposals & Deals: 30 tools, 8 with an official MCP server
 
-> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 27 tools counted, 8 with an official MCP server and 4 free to start.
+> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 30 tools counted, 8 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor.
 
-- **entries in this file**: 27
+- **entries in this file**: 30
 
 - **Official MCP**: 8
-- **Community MCP**: 2
+- **Community MCP**: 5
 - **No MCP found**: 17
 
 - **ship a CLI (official) as of 2026-09-12**: 1
@@ -27,12 +27,12 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 - **Free to start**: 4
 - **Paid, self-serve**: 7
 - **Enterprise only**: 3
-- **Gate unknown**: 12
+- **Gate unknown**: 15
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 3da589a72763505b... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 190e373c95209b03... · counts reconciled against tools_recount.py at build time.
 
-- [The 10 with an MCP server](../lists/mcp-proposals-deals.md)
+- [The 13 with an MCP server](../lists/mcp-proposals-deals.md)
 
 - [Send a document for signature](../jobs/send-document-for-signature.md)
 - [Generate a proposal or quote](../jobs/generate-proposal-or-quote.md)
@@ -58,6 +58,12 @@ Source file: 13-proposals-deals.md · content sha256 3da589a72763505b... · coun
 - [DealHub (DealHub AI)](../tools/dealhub.md) dealhub.io CPQ (configure-price-quote) and quote-to-revenue platform generating guided, dynamic sales proposals with real-time pricing logic, plus optional CLM and subscription-billing modules. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Loopio](../tools/loopio.md) loopio.com RFP/RFI response-management platform with a searchable content library, AI-assisted answer drafting, and collaborative proposal workflows for larger bid teams. [Community MCP](../mcp/community.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Dealboard](../tools/dealboard.md) getdealboard.com A visual deal tracker for founders and small teams who would rather close deals than configure software. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [LowRiskQuotes Monte Carlo](../tools/lowriskquotes-monte-carlo.md) lowriskquotes.com Monte Carlo simulation tools for uncertain estimates: three-point cost estimation for quotes and budgets (triangular sampling, P10-P90 percentiles) and an educational retirement dr [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [SalesBuildr MCP by WYRE-AI](../tools/salesbuildr-mcp-by-wyre-ai.md) conduit.wyre.ai Manage quotes, proposals, and sales workflows in SalesBuildr. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Recapped.io](../tools/recapped-io.md) recapped.io Digital sales room and customer-onboarding collaboration platform for tracking mutual action plans, content sharing, and buyer engagement through the deal and post-sale handoff. [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
 

@@ -1,6 +1,6 @@
-# Proposals & Deals tools with MCP servers: 10 of 27, counted
+# Proposals & Deals tools with MCP servers: 13 of 30, counted
 
-> 10 of the 27 proposals & deals tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 13 of the 30 proposals & deals tools in The GTM MCP Directory have an MCP server: 8 official and 5 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Proposals & Deals tools with an MCP server
 
-**List · 10 of 1,032**
+**List · 13 of 1,251**
 
 ## Proposals & Deals tools with an MCP server
 
-Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 10 of 27 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
+Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor. 13 of 30 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 5 through one somebody else built. The category is tagged most often with Send a document for signature. [See the full category page](../categories/proposals-deals.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -48,6 +48,15 @@ unknown - stdio transport run locally against the customer's own DealHub instanc
 | [Loopio](../tools/loopio.md)
 loopio.com | [Community MCP](../mcp/community.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth
 OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the... | [Enterprise only](../gates/enterprise-only.md) |
+| [Dealboard](../tools/dealboard.md)
+getdealboard.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?page=1&pageSize...](https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [LowRiskQuotes Monte Carlo](../tools/lowriskquotes-monte-carlo.md)
+lowriskquotes.com | [Community MCP](../mcp/community.md) | [https://registry.smithery.ai/servers?q=forecast](https://registry.smithery.ai/servers?q=forecast) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [SalesBuildr MCP by WYRE-AI](../tools/salesbuildr-mcp-by-wyre-ai.md)
+conduit.wyre.ai | [Community MCP](../mcp/community.md) | [https://github.com/WYRE-AI/salesbuildr-mcp](https://github.com/WYRE-AI/salesbuildr-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 
 ### The other 17 in this category
 
@@ -101,4 +110,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Draft an RFP or questionnaire response](../jobs/draft-rfp-response.md)
 - [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,251 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
