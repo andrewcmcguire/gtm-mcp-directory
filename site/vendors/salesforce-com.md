@@ -34,11 +34,11 @@ Vendor domain: [salesforce.com](https://salesforce.com) · [Public company brief
 
 - **Docs only**: 0 of 2: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 17 named across 1 measured server, harvested 2026-09-12
+- **Tools catalogued**: 17 named across 1 measured server, harvested 2026-09-11
 
-- **Bench tested**: 0 of 2 here, 1 of 336 across the directory
+- **Bench tested**: 0 of 2 here, 1 of 374 across the directory
 
-- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-12
+- **Ships a CLI**: 2 of 2 official, 0 community only, 0 none found, harvested 2026-09-11
 
 - **GitHub organisation**: [github.com/salesforcecli](https://github.com/salesforcecli), [github.com/salesforce](https://github.com/salesforce), tied to the domain with evidence 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://github.com/salesforcecli/mcp](https://github.com/salesforcecli/mcp) (docs page)
 
-- **Tools catalogued**: 17 named, harvested 2026-09-12, catalogue fixed
+- **Tools catalogued**: 17 named, harvested 2026-09-11, catalogue fixed
 
 - **last_checked**: 2026-08-24
 
@@ -109,9 +109,9 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 npm install -g @salesforce/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@salesforce/cli](https://www.npmjs.com/package/@salesforce/cli) on 2026-09-11, via npm
 
-harvested 2026-09-12, all on the [tool page](../tools/salesforce-agentforce.md).
+harvested 2026-09-11, all on the [tool page](../tools/salesforce-agentforce.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -161,6 +161,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 374 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

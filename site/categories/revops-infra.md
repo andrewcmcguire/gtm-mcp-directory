@@ -1,6 +1,6 @@
-# RevOps Infra: 31 tools, 29 with an official MCP server
+# RevOps Infra: 37 tools, 29 with an official MCP server
 
-> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 31 tools counted, 29 with an official MCP server and 14 free to start.
+> The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top.... 37 tools counted, 29 with an official MCP server and 14 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,19 +16,20 @@
 
 The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one.
 
-- **entries in this file**: 31
+- **entries in this file**: 37
 
 - **Official MCP**: 29
 - **MCP unknown**: 1
-- **No MCP found**: 1
+- **No MCP found**: 7
 
-- **ship a CLI (official) as of 2026-09-12**: 9
+- **ship a CLI (official) as of 2026-09-11**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
 - **Enterprise only**: 5
+- **Gate unknown**: 6
 
-Source file: 06-revops-infra.md · content sha256 92bc241926874ea0... · counts reconciled against tools_recount.py at build time.
+Source file: 06-revops-infra.md · content sha256 3937710adc079916... · counts reconciled against tools_recount.py at build time.
 
 - [The 29 with an MCP server](../lists/mcp-revops-infra.md)
 
@@ -98,3 +99,15 @@ Source file: 06-revops-infra.md · content sha256 92bc241926874ea0... · counts 
 - [Default](../tools/default.md) default.com An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification, and meeting scheduling. [MCP unknown](../mcp/unknown.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Openprise](../tools/openprise.md) openprisetech.com A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment, scoring/segmentation, and lead routing across the marketing/sales stack. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [Apsona](../tools/apsona.md) apsona.com All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside Salesforce and saves hours every week. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Boomi](../tools/boomi.md) boomi.com Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [CloudFiles](../tools/cloudfiles.md) cloudfiles.io CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Databox](../tools/databox.md) databox.com Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [LinkPoint Connect](../tools/linkpoint-connect.md) linkpoint360.com LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Vertify](../tools/vertify.md) vertify.com Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

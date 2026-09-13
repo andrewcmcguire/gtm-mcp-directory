@@ -52,7 +52,7 @@ You give the client a URL, it connects over HTTP, and auth is usually a browser 
 
 ## Where to find the right block
 
-Every tool page here prints the vendor's mcp_url and mcp_auth verbatim, exactly as recorded, plus a link to the vendor's own documentation where one is published. 243 entries carry a parseable URL and 29 carry a documentation URL. No install snippet is reproduced anywhere on this site, because a snippet copied from a directory is a snippet that goes stale without anybody noticing.
+Every tool page here prints the vendor's mcp_url and mcp_auth verbatim, exactly as recorded, plus a link to the vendor's own documentation where one is published. 243 entries carry a parseable URL and 46 carry a documentation URL. No install snippet is reproduced anywhere on this site, because a snippet copied from a directory is a snippet that goes stale without anybody noticing.
 
 ## Sources
 

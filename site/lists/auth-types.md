@@ -16,7 +16,7 @@
 
 Auth is the difference between an agent your security team will allow and an agent it will not. OAuth hands the server a scoped token the vendor can revoke. An API key pasted into a config file is as powerful as whatever the vendor scoped it to, lives in plain text on the machine running the agent, and is revoked by rotating it. Both are normal. Knowing which one you are about to wire in is not optional.
 
-225 of 336 entries have a server of any kind (200 official, 25 community). The buckets below are a keyword match over the mcp_auth field, disclosed as such, with the verbatim field printed on every row of every page.
+225 of 374 entries have a server of any kind (200 official, 25 community). The buckets below are a keyword match over the mcp_auth field, disclosed as such, with the verbatim field printed on every row of every page.
 
 - [OAuth](auth-oauth.md)**69** of 225 servers
 - [API key](auth-api-key.md)**53** of 225 servers

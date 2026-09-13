@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GTM tools by GitHub repo health: not measured yet, and why</title>
-<meta name="description" content="Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 108 entries carry a github.com URL as a seed.">
+<meta name="description" content="Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 118 entries carry a github.com URL as a seed.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/github/">
@@ -61,7 +61,7 @@
 <p class="note"></p>
 <div class="warn"><b>Nothing measured yet</b>
 github_url, github_stars, github_last_commit, github_archived and github_fetched_on are null on all
-336 entries. The refresh rail in SPEC section 7.2 has
+374 entries. The refresh rail in SPEC section 7.2 has
 not been run. A star count without the date it was taken is a lie, so no number is shown at all.</div>
 <p class="sub">When the rail runs, every repo lands in one of five bands and every band ships with
 the date it was measured: active under 90 days, slowing 90 to 180, quiet 180 to 365, dormant over a
@@ -70,8 +70,8 @@ need commits. But an agent about to write a community MCP wrapper into a workflo
 the repo has been silent for eight months first, and this directory already has the receipts that
 the category churns.</p>
 <h3 style="margin-top:34px">The seed, which is a fact and not a measurement</h3>
-<p class="sub">108 of 336 entries already carry a
-github.com URL somewhere in their fields, and 83 of those sit in
+<p class="sub">118 of 374 entries already carry a
+github.com URL somewhere in their fields, and 93 of those sit in
 the mcp_url field. Those repos are free to measure when the rail runs. Nothing below says anything
 about whether a repo is healthy.</p>
 <ul class="rows">
@@ -166,6 +166,12 @@ about whether a repo is healthy.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a></div>
 </li>
 <li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/jotform">Jotform</a>
+<span class="dom">jotform.com</span></div>
+<div class="desc">An online form builder (forms, approvals, tables, e-sign, payment collection and conversational &quot;AI Agents&quot;) with a REST API and a hosted MCP server.</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/inbound-plg-chat">Inbound &amp; PLG Chat</a></div>
+</li>
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/leadfeeder">Leadfeeder (product line rebranded/merged under Dealfront; dealfront.com redirects to leadfeeder.com)</a>
 <span class="dom">leadfeeder.com</span></div>
 <div class="desc">Identifies companies visiting a website via IP-to-company matching, tracks page-level visit behavior, and surfaces intent signals plus verified contact data for those companies.</div>
@@ -243,6 +249,12 @@ about whether a repo is healthy.</p>
 <div class="desc">A platform for building and deploying specialist AI agents (research/enrichment, outbound prospecting, meeting scheduling, deal review, proposal building) that teams configure and progress toward autonomous...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/ai-sdr-agents">AI SDRs</a><span class="badge teal flat">CLI: relevanceai</span></div>
 </li>
+<li class="row" data-cli="community">
+<div class="top"><a class="nm" href="../tools/retool">Retool</a>
+<span class="dom">retool.com</span></div>
+<div class="desc">A low-code platform for building internal tools/dashboards/admin panels on top of databases and APIs; in a GTM context, used to build custom RevOps tooling - lead-routing consoles, deal-desk approval apps,...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/revops-infra">RevOps Infra</a><span class="badge gold flat">CLI: retool (community)</span></div>
+</li>
 <li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/snowflake">Snowflake (Cortex AI, as GTM/RevOps warehouse layer)</a>
 <span class="dom">snowflake.com</span></div>
@@ -304,6 +316,12 @@ about whether a repo is healthy.</p>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge teal" href="../gates/free">Free to start</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a><span class="badge teal flat">CLI: gtm</span></div>
 </li>
 <li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/amplemarket">Amplemarket (Duo Copilot)</a>
+<span class="dom">amplemarket.com</span></div>
+<div class="desc">An all-in-one sales platform (lead gen + multichannel engagement + deliverability) with an AI agent layer (&quot;Duo Copilot&quot;) that detects buying signals, writes and A/B-tests email copy (including AI voice-cloned...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/ai-sdr-agents">AI SDRs</a><span class="badge xref flat">Cross listed, canonical home is Engagement &amp; Outbound</span></div>
+</li>
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/apollo-io">Apollo.io</a>
 <span class="dom">apollo.io</span></div>
 <div class="desc">A combined B2B contact database (265M+ contacts) and sales engagement platform in one product - prospect search/filtering, email and call sequencing, and contact/organization enrichment.</div>
@@ -315,11 +333,17 @@ about whether a repo is healthy.</p>
 <div class="desc">Captures, transcribes, and analyzes sales and customer conversations, automatically syncing structured insights to the CRM.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/conversation-intel">Conversation Intel</a></div>
 </li>
-<li class="row" data-cli="official">
+<li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/bright-data">Bright Data</a>
 <span class="dom">brightdata.com</span></div>
 <div class="desc">A general-purpose web-scraping/proxy infrastructure platform (residential proxies, browser automation, structured scraping APIs) that GTM engineers repurpose to pull LinkedIn, company-site, and directory data...</div>
-<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a><span class="badge teal flat">CLI: bdata</span></div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a></div>
+</li>
+<li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/catchintent">CatchIntent</a>
+<span class="dom">catchintent.com</span></div>
+<div class="desc">A B2B intent tool that monitors social and web sources for buying signals, ranks the people behind them by warmth, enriches the profiles and drafts personalised openers, then pushes leads to a CRM or outreach...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/signals-intent-abm">Signals &amp; Intent</a></div>
 </li>
 <li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/chili-piper">Chili Piper</a>
@@ -368,6 +392,12 @@ about whether a repo is healthy.</p>
 <span class="dom">fiber.ai</span></div>
 <div class="desc">B2B search and enrichment APIs for finding companies and people by structured filters or natural language, then revealing work emails and phone numbers with live LinkedIn data.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/data-enrichment">Data &amp; Enrichment</a></div>
+</li>
+<li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/grain">Grain</a>
+<span class="dom">grain.com</span></div>
+<div class="desc">AI meeting notetaker that records and transcribes calls and builds a searchable, cross-meeting library synced to the CRM.</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/conversation-intel">Conversation Intel</a></div>
 </li>
 <li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/granola">Granola</a>
@@ -477,6 +507,12 @@ about whether a repo is healthy.</p>
 <div class="desc">An AI agent (&quot;Agent Frank&quot;) that prospects, writes tailored outreach, sends across email and LinkedIn, manages follow-up sequences, and books meetings - positioned to either join a human team or fully replace...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/ai-sdr-agents">AI SDRs</a><span class="badge xref flat">Cross listed, canonical home is Engagement &amp; Outbound</span><span class="badge teal flat">CLI: forge</span></div>
 </li>
+<li class="row" data-cli="official">
+<div class="top"><a class="nm" href="../tools/saleshandy">Saleshandy</a>
+<span class="dom">saleshandy.com</span></div>
+<div class="desc">A cold-email outreach platform with sequences, sender rotation, email warm-up and deliverability tooling, plus a Lead Finder contact database, exposed to AI clients through an MCP server that can create...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a><span class="badge teal flat">CLI: saleshandy</span></div>
+</li>
 <li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/salesql">SalesQL</a>
 <span class="dom">salesql.com</span></div>
@@ -494,6 +530,12 @@ about whether a repo is healthy.</p>
 <span class="dom">sparktoro.com</span></div>
 <div class="desc">Audience-research tool that shows what a defined audience (by keyword, website, social account, or podcast) reads, watches, listens to, and follows, by combining social-graph, search, and web-crawl data.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/community-dark-social">Community &amp; Dark Social</a></div>
+</li>
+<li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/sumble">Sumble</a>
+<span class="dom">sumble.com</span></div>
+<div class="desc">Builds an account-intelligence knowledge graph by continuously scanning tens of millions of public sources (job boards, company sites, social media, regulatory filings) to map org structure, tech stack, and...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/signals-intent-abm">Signals &amp; Intent</a></div>
 </li>
 <li class="row" data-cli="community">
 <div class="top"><a class="nm" href="../tools/tl-dv">tl;dv</a>
@@ -519,11 +561,23 @@ about whether a repo is healthy.</p>
 <div class="desc">Cold email and LinkedIn outreach automation tool with inbox rotation, adaptive sending, and centralized reply management.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge gold" href="../gates/paid">Paid, self-serve</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a><span class="badge teal flat">CLI: woodpecker</span></div>
 </li>
+<li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/amplemarket">Amplemarket</a>
+<span class="dom">amplemarket.com</span></div>
+<div class="desc">An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability.</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-leaning">Enterprise leaning</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a></div>
+</li>
 <li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/paragon">Paragon (ActionKit MCP)</a>
 <span class="dom">useparagon.com</span></div>
 <div class="desc">An embedded integration platform for SaaS products, whose ActionKit product exposes a stated 1,000-plus actions across 130-plus third-party applications through one API and one MCP server, with Paragon...</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-leaning">Enterprise leaning</a><a class="badge mute flat" href="../categories/mcp-infrastructure">MCP Layer</a><span class="badge teal flat">CLI: para</span></div>
+</li>
+<li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/ada">Ada</a>
+<span class="dom">ada.cx</span></div>
+<div class="desc">Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales conversations end-to-end.</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><a class="badge mute flat" href="../categories/inbound-plg-chat">Inbound &amp; PLG Chat</a></div>
 </li>
 <li class="row" data-cli="none-found">
 <div class="top"><a class="nm" href="../tools/anaplan">Anaplan (PlanIQ / Anaplan Forecaster)</a>
@@ -584,6 +638,12 @@ about whether a repo is healthy.</p>
 <span class="dom">nooks.ai</span></div>
 <div class="desc">AI parallel dialer and &quot;virtual salesfloor&quot; combining multi-line dialing, live manager coaching, and prospecting assistance for SDR teams.</div>
 <div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><a class="badge mute flat" href="../categories/engagement-outbound">Engagement &amp; Outbound</a></div>
+</li>
+<li class="row" data-cli="none-found">
+<div class="top"><a class="nm" href="../tools/pigment">Pigment</a>
+<span class="dom">pigment.com</span></div>
+<div class="desc">AI-native enterprise business-planning (EPM) platform used across finance, sales, HR, and supply chain; GTM-relevant use cases include capacity, territory, and quota planning and revenue-growth-management...</div>
+<div class="badges"><a class="badge gold" href="../mcp/official">Official MCP</a><a class="badge copper" href="../gates/enterprise-only">Enterprise only</a><a class="badge mute flat" href="../categories/forecasting-revenue">Forecasting &amp; Revenue</a></div>
 </li>
 <li class="row" data-cli="official">
 <div class="top"><a class="nm" href="../tools/salesforce-agentforce">Salesforce (core CRM/platform) + Agentforce</a>
@@ -730,18 +790,18 @@ about whether a repo is healthy.</p>
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>336 directory entries across 15 category files.
-    320 unique products, 16 of them cross listed
+    <p>374 directory entries across 15 category files.
+    358 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
-    <p>8,507 tool names harvested on 2026-09-12 from
-    119 of those 225 servers.
-    106 are unmeasured, which is not the same as empty.</p>
+    <p>8,509 tool names harvested on 2026-09-11 from
+    120 of those 225 servers.
+    105 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    65 carry none and say why.</p>
+    103 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -784,8 +844,8 @@ about whether a repo is healthy.</p>
 </div>
 <div class="legal">
 Generated 2026-09-12 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 336 vs recount
-336.<br>
+Reconciled: build 374 vs recount
+374.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

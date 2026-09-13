@@ -1,6 +1,6 @@
-# Video Prospecting tools with MCP servers: 10 of 15, counted
+# Video Prospecting tools with MCP servers: 10 of 16, counted
 
-> 10 of the 15 video prospecting tools in The GTM MCP Directory have an MCP server: 4 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 10 of the 16 video prospecting tools in The GTM MCP Directory have an MCP server: 4 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Video Prospecting tools with an MCP server
 
-**List · 10 of 336**
+**List · 10 of 374**
 
 ## Video Prospecting tools with an MCP server
 
-Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server. 10 of 15 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Create and send a prospecting video. [See the full category page](../categories/video-prospecting.md).
+Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server. 10 of 16 entries in this category are reachable by an agent: 4 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Create and send a prospecting video. [See the full category page](../categories/video-prospecting.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -49,7 +49,7 @@ Zapier-mediated connection. | [Paid, self-serve](../gates/paid.md) |
 bombbomb.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bombbombcom](https://zapier.com/mcp/bombbombcom) | OAuth or an API key
 Rides Zapier's own OAuth/API-key connection to BombBomb; not a native BombBomb MCP auth... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 5 in this category
+### The other 6 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -61,6 +61,8 @@ covideo.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/ente
 dubb.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Hippo Video](../tools/hippo-video.md)
 hippovideo.io | [No MCP found](../mcp/none-found.md) | [Enterprise leaning](../gates/enterprise-leaning.md) | 2026-09-02 |
+| [OneMob](../tools/onemob.md)
+onemob.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Potion](../tools/potion.md)
 sendpotion.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Quickpage](../tools/quickpage.md)
@@ -76,4 +78,4 @@ The jobs most often tagged on the 14 tagged entries in this category.
 - [Answer an inbound chat or call](../jobs/answer-inbound-chat.md)
 - [Create a digital sales room](../jobs/create-digital-sales-room.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

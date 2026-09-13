@@ -1,6 +1,6 @@
-# Inbound & PLG Chat: 20 tools, 11 with an official MCP server
+# Inbound & PLG Chat: 25 tools, 11 with an official MCP server
 
-> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 20 tools counted, 11 with an official MCP server and 4 free to start.
+> Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor... 25 tools counted, 11 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,23 +16,23 @@
 
 Tools that sit on the receiving end of demand - website chat that qualifies and books a visitor before a human ever joins, in-app signal tools that turn free-trial usage into a sales-ready account, and the newer wave of AI-SDR-for-inbound entrants trying to do both. The defining tension: this category has an unusually high mortality rate. Of the ten seed tools researched for this file, three (Pocus, Correlated, Toplyne) are confirmed dead or absorbed and two more (Drift, Ultimate.ai) are folded into an acquirer's platform rather than sold standalone - suggesting "PLG signal tool" and "chat widget" were never durable categories on their own, just features that bigger platforms eventually swallowed.
 
-- **entries in this file**: 20
+- **entries in this file**: 25
 
 - **Official MCP**: 11
 - **Community MCP**: 2
 - **MCP unknown**: 1
 - **MCP not applicable**: 1
-- **No MCP found**: 5
+- **No MCP found**: 10
 
-- **ship a CLI (official) as of 2026-09-12**: 3
+- **ship a CLI (official) as of 2026-09-11**: 3
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
 - **Enterprise only**: 3
-- **Gate unknown**: 3
+- **Gate unknown**: 8
 - **Gate not applicable**: 4
 
-Source file: 14-inbound-plg-chat.md · content sha256 a098697f3a487f48... · counts reconciled against tools_recount.py at build time.
+Source file: 14-inbound-plg-chat.md · content sha256 096b8d5e248bd47d... · counts reconciled against tools_recount.py at build time.
 
 - [The 13 with an MCP server](../lists/mcp-inbound-plg-chat.md)
 
@@ -74,6 +74,16 @@ Source file: 14-inbound-plg-chat.md · content sha256 a098697f3a487f48... · cou
 - [Qualified](../tools/qualified.md) qualified.com Website chat/pipeline-generation platform built for account-based and inbound motions - its "Piper" AI SDR agent engages known target-account visitors in real time, qualifies them, and books meetings, then... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Drift](../tools/drift.md) drift.com Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered the "buyer-intent chatbot" category before being acquired. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [FormAssembly](../tools/formassembly.md) formassembly.com Collect clean, compliant data with FormAssembly's secure web forms. Validated data flows straight into Salesforce and your systems. Trusted by 5,500+ teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Formstack](../tools/formstack.md) formstack.com Formstack for Salesforce automates data collection, document generation, and approvals natively in Salesforce. Reduce manual work and improve data quality. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Pendo](../tools/pendo.md) pendo.io Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts, and drive adoption and revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [SurveyMonkey](../tools/surveymonkey.md) surveymonkey.com Easily create surveys and forms with AI and templates for employee and customer feedback, market research, event registrations and more. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Survicate](../tools/survicate.md) survicate.com A customer feedback platform that lets you survey every channel, automate feedback flows, and uncover customer insights from multiple sources [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Correlated](../tools/correlated.md) correlated.ai unknown in current form - per the seed list and general market classification, Correlated was a product-usage/PLG-signal tool for identifying product-qualified leads (PQLs); this description could not be... [No MCP found](../mcp/none-found.md) · [Gate not applicable](../gates/n-a.md)
 

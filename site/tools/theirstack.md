@@ -61,7 +61,7 @@ https://api.theirstack.com/mcp/ ; https://theirstack.com/en/job-posting-mcp (als
 
 - **Tools named**: 3
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 The harvest recorded this server against the cross listing **TheirStack** in Data & Enrichment. It is the same server, so the list is shown here rather than left blank.
@@ -74,11 +74,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **technographics** Your AI assistant calls the technographics tool to get any company's full technology stack, categorized by type, with detection dates and confidence signals. evidence: in the vendor docs · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -94,7 +94,7 @@ free (limited)
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -118,7 +118,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -138,7 +138,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A job-postings and technographic-data API that tracks live job listings and the tech stack/hiring signals behind them across 195 countries (claims 223M+ jobs, 352K+ sources), queryable for GTM timing/intent signals.
 
-16 of the 336 entries are cross listed like this. They are why the entry count is 336 and the unique product count is 320. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 374 entries are cross listed like this. They are why the entry count is 374 and the unique product count is 358. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

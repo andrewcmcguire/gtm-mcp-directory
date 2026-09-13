@@ -38,7 +38,7 @@ Meeting-capture and AI-searchable knowledge layer with direct, official MCP acce
 
 - **Auth**: OAuth via the native Claude integration, or manual server-URL setup for other MCP clients. Deal and coaching-feedback tools specifically require a Business or Enterprise plan.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
@@ -51,16 +51,17 @@ official
 
 mcp_url, verbatim from the file:
 
-https://api.grain.com/_/mcp ; https://developers.grain.com/mcp (server endpoint https://api.grain.com/_/mcp)
+https://api.grain.com/_/mcp ; https://developers.grain.com/mcp (server endpoint https://api.grain.com/_/mcp) ; repo https://github.com/grain-team/grain-meeting-memory-plugin
 
 - [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp)
 - [https://developers.grain.com/mcp](https://developers.grain.com/mcp)
+- [https://github.com/grain-team/grain-meeting-memory-plugin](https://github.com/grain-team/grain-meeting-memory-plugin)
 
 **What this server exposes**
 
 - **Tools named**: 15
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -95,11 +96,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search_persons** Search for meeting participants when filtering evidence: in the vendor docs · calling it reads · required: search_string
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -115,13 +116,17 @@ paid. The Free plan has no API access; Personal API access (via a Personal Acces
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/grain-team/grain-meeting-memory-plugin](https://github.com/grain-team/grain-meeting-memory-plugin)
 
 **On GitHub**
 
@@ -155,7 +160,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -169,7 +174,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://developers.grain.com/mcp, https://support.grain.com/en/articles/15507288-grain-api, https://grain.com/pricing, https://api.grain.com/_/mcp
 
 **Notes, verbatim from the file**
-An unofficial third-party server (https://github.com/eadm/grain-mcp-server) also exists - prefer the official one. 2026-09-07: https://api.grain.com/_/mcp returned 401 to an MCP initialize POST (https://api.grain.com/_/mcp).
+An unofficial third-party server (https://github.com/eadm/grain-mcp-server) also exists - prefer the official one. 2026-09-07: https://api.grain.com/_/mcp returned 401 to an MCP initialize POST (https://api.grain.com/_/mcp). 2026-09-12 (P6-04 repo sweep): first-party repository recorded at https://github.com/grain-team/grain-meeting-memory-plugin - first-party Claude plugin that wires the hosted server, NOT the server source. Evidence: the org grain-team, tied to grain.com by harvest_orgs.py domain evidence, and the repo's .mcp.json declares an http server at https://api.grain.com/_/mcp, which is the endpoint this entry already records.
 
 **Provenance**
 

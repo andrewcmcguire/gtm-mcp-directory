@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers behind a third party connector platform
 
-**List · 7 of 336**
+**List · 7 of 374**
 
 ## GTM MCP servers behind a third party connector platform
 
@@ -33,4 +33,4 @@ weezly.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/weez
 | [WorkRamp](../tools/workramp.md)
 workramp.com | [Community MCP](../mcp/community.md) | [https://app.workramp.com/mcp](https://app.workramp.com/mcp) +3 more | Rides Zapier's/viaSocket's own hosted-connector auth (their MCP gateway at mcp.zapier.com), not a WorkRamp-issued credential. | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

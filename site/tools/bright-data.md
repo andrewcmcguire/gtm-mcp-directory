@@ -18,7 +18,6 @@ Bright Data
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-08-24
-CLI: bdata
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,7 +60,7 @@ https://github.com/brightdata/brightdata-mcp
 
 - **Tools named**: 19
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Repo read**: brightdata/brightdata-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -106,28 +105,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **web_scraping_strategy** Decision tree for picking the right Bright Data tool. evidence: in the server source · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: bdata
-- **Status**: official CLI, first party
-- **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
-
-Install, as the source shows it:
-
-```
-npm install -g @brightdata/cli
-```
-
-quoted from [https://www.npmjs.com/package/@brightdata/cli](https://www.npmjs.com/package/@brightdata/cli) on 2026-09-12, via npm
-
-Packages seen, with the version on 2026-09-12:
-
-- [npm: @brightdata/cli 0.3.6](https://www.npmjs.com/package/@brightdata/cli)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -143,7 +125,7 @@ paid
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -182,7 +164,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

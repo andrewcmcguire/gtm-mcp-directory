@@ -1,6 +1,6 @@
-# Signals & Intent: 30 tools, 20 with an official MCP server
+# Signals & Intent: 32 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 30 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 32 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 30
+- **entries in this file**: 32
 
 - **Official MCP**: 20
 - **Community MCP**: 1
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 6
+- **No MCP found**: 8
 
-- **ship a CLI (official) as of 2026-09-12**: 2
+- **ship a CLI (official) as of 2026-09-11**: 2
 
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 1
+- **Gate unknown**: 3
 
-Source file: 05-signals-intent-abm.md · content sha256 e510b3f0628d810d... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 cf45b6221e13ccbb... · counts reconciled against tools_recount.py at build time.
 
 - [The 21 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
@@ -99,3 +99,7 @@ Source file: 05-signals-intent-abm.md · content sha256 e510b3f0628d810d... · c
 - [Bombora (Company Surge)](../tools/bombora.md) bombora.com Detects which companies are actively researching specific B2B topics by aggregating content-consumption data (article reads, downloads) across a co-op of 5,000+ B2B publisher sites, then measures spikes in a... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
 - [Champify](../tools/champify.md) champify.io Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost opportunities for re-engagement, integrated directly into Salesforce. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+
+- [TechniQ ABM](../tools/techniq-abm.md) techniqabm.com TechniQ helps B2B teams uncover the best way into their most important accounts and turns that intelligence into messaging and ready-to-use Sales & Marketing assets. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [ZINFI](../tools/zinfi.md) zinfi.com ZINFI's Unified Partner Management (UPM) platform automates partner onboarding, MDF, co-sell, incentives, and channel marketing for enterprise technology and manufacturing leaders. G2 Leader. 24 modules.... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

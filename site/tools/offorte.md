@@ -60,7 +60,7 @@ https://github.com/offorte/offorte-mcp-server (vendor pages: https://www.offorte
 
 - **Tools named**: 15
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Repo read**: offorte/offorte-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -97,11 +97,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **send_proposal** Send a proposal to its assigned contacts evidence: in the server source · calling it writes
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -117,7 +117,7 @@ paid - the pricing page states "A technical API is available with which programm
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -151,7 +151,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

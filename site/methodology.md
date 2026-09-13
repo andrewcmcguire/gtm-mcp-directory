@@ -1,6 +1,6 @@
 # Methodology: how an entry is made and where this build is thin
 
-> The five laws an entry survives, the two honesty tiers (1 bench tested of 336), the counting authority, and every thin spot named rather than padded.
+> The five laws an entry survives, the two honesty tiers (1 bench tested of 374), the counting authority, and every thin spot named rather than padded.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -13,11 +13,11 @@
 
 ## The verification is the product.
 
-The list is not the moat. Anyone can copy 336 rows. What is hard to copy is that every answer carries its honesty tier and the date it was measured, and that the awkward numbers are on the page instead of in a drawer.
+The list is not the moat. Anyone can copy 374 rows. What is hard to copy is that every answer carries its honesty tier and the date it was measured, and that the awkward numbers are on the page instead of in a drawer.
 
 **The two tiers**
 
-**RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 335 entries in this build are RESEARCHED.
+**RESEARCHED.** Facts from public sources with URLs. No usage claims. Nobody has run this tool. All 373 entries in this build are RESEARCHED.
 
 **BENCH-TESTED.** Andrew personally ran it on a stated date. Cannot be bought. There are 1 of them. That number is on the front page. It stays at 1 until Andrew actually runs something, and a vendor offering access buys a test, never a verdict.
 
@@ -25,7 +25,7 @@ The list is not the moat. Anyone can copy 336 rows. What is hard to copy is that
 
 1. An MCP claim needs a URL. A claim without one is not accepted.
 
-2. Unknown is a legal answer. 33 entries carry an unknown access gate and they are published as unknown rather than guessed into a bucket.
+2. Unknown is a legal answer. 71 entries carry an unknown access gate and they are published as unknown rather than guessed into a bucket.
 
 3. Vendor copy is a source for what the vendor says, not for what the tool can do. Every what_it_does on this site was rewritten in plain language.
 
@@ -35,17 +35,17 @@ The list is not the moat. Anyone can copy 336 rows. What is hard to copy is that
 
 **What none-found does and does not mean**
 
-87 entries are none-found. That is a statement about the search, made on the date in the entry, and it is not a promise that no server exists. A vendor who shipped one the week after the check is recorded as none-found until the next pass, which is exactly why the weekly diff exists and why every entry ships its last_checked date.
+125 entries are none-found. That is a statement about the search, made on the date in the entry, and it is not a promise that no server exists. A vendor who shipped one the week after the check is recorded as none-found until the next pass, which is exactly why the weekly diff exists and why every entry ships its last_checked date.
 
 **The counting authority**
 
-tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 336 against 336, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
+tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 374 against 374, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-12 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 d1c00d241bb39276cdaa252d...
+Data baked 2026-09-12 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 8340c3627d129ac9cab38516...
 
 **The duplicates, and why two counts exist**
 
-336 entries, 320 unique products. The difference is 16 products that are deliberately listed in two category files because a reader browsing either one should find them. The canonical home for each is declared in INDEX.md and not chosen by the parser. Category and status views count all 336 entries, because that is what the source files hold. Tool pages count 320, because that is how many products there are.
+374 entries, 358 unique products. The difference is 16 products that are deliberately listed in two category files because a reader browsing either one should find them. The canonical home for each is declared in INDEX.md and not chosen by the parser. Category and status views count all 374 entries, because that is what the source files hold. Tool pages count 358, because that is how many products there are.
 
 - [Amplemarket](tools/amplemarket.md) 02-amplemarket + 04-amplemarket
 - [Chili Piper](tools/chili-piper.md) 10-chili-piper + 14-chili-piper
@@ -86,26 +86,26 @@ Data baked 2026-09-12 by build_directory.py (phase 1). Network calls made during
 - [BuzzSumo](tools/buzzsumo.md) 15-buzzsumo
 - [F5Bot](tools/f5bot.md) 15-f5bot
 
-**33 entries have an unknown access gate** and **307 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
+**71 entries have an unknown access gate** and **328 have no documentation URL.** Both are legal and both are published as blank. Every one of them is visible on its own tool page.
 
 **What has not been measured at all**
 
 The following fields exist in the schema, are present on every entry, and are empty on every entry. Nothing about them is inferred anywhere on this site.
 
-- docs_digest: empty on 336 of 336 entries
-- docs_last_crawled: empty on 336 of 336 entries
-- github_archived: empty on 336 of 336 entries
-- github_fetched_on: empty on 336 of 336 entries
-- github_last_commit: empty on 336 of 336 entries
-- github_stars: empty on 336 of 336 entries
-- github_url: empty on 336 of 336 entries
-- submission: empty on 336 of 336 entries
+- docs_digest: empty on 374 of 374 entries
+- docs_last_crawled: empty on 374 of 374 entries
+- github_archived: empty on 374 of 374 entries
+- github_fetched_on: empty on 374 of 374 entries
+- github_last_commit: empty on 374 of 374 entries
+- github_stars: empty on 374 of 374 entries
+- github_url: empty on 374 of 374 entries
+- submission: empty on 374 of 374 entries
 
 That is why the GitHub view shows seeds instead of star counts. An empty field is published as empty.
 
 **The jobs field, which is now measured**
 
-jobs[] used to be on the list above. It is not any more. As of 2026-08-25 the vocabulary is closed at 56 jobs in 10 families, and 849 tags are assigned across 271 of 336 entries. 65 entries carry no tag at all, each one for a recorded reason that is printed on its own tool page.
+jobs[] used to be on the list above. It is not any more. As of 2026-08-25 the vocabulary is closed at 56 jobs in 10 families, and 849 tags are assigned across 271 of 374 entries. 103 entries carry no tag at all, each one for a recorded reason that is printed on its own tool page.
 
 **What a tag means, exactly.** A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records. It was derived from the entry's own what_it_does, ai_features and revops_role text, which is itself RESEARCHED tier. Tagged by machine-pass, tier RESEARCHED, and bench_tested is still 1. 49 entries were flagged for human review by that pass and are the first thing a second reader should look at.
 

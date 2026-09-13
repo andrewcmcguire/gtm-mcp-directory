@@ -61,11 +61,11 @@ https://mcp.clari.com/mcp ; https://www.clari.com/press/clari-salesloft-forecast
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -81,7 +81,7 @@ enterprise-leaning, not self-serve. Clari's core v4 API requires a paid subscrip
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -114,7 +114,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -134,7 +134,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: Primarily a revenue-intelligence/forecasting platform (deal inspection, pipeline forecasting) with an AI Copilot for conversation coaching; following Clari's merger with Salesloft, the combined product line adds "Revenue AI Agents" for deal inspection/forecast automation and (via Salesloft) outbound execution.
 
-16 of the 336 entries are cross listed like this. They are why the entry count is 336 and the unique product count is 320. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 374 entries are cross listed like this. They are why the entry count is 374 and the unique product count is 358. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

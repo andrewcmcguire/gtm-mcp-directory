@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 21 of 30, counted
+# Signal and intent tools with MCP servers: 21 of 32, counted
 
-> 21 of the 30 signals & intent tools in this directory have an MCP server: 20 official and 1 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 21 of the 32 signals & intent tools in this directory have an MCP server: 20 official and 1 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 30 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 1 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+21 of the 32 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 1 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -69,7 +69,7 @@ Monitors LinkedIn, X/Twitter, Reddit, YouTube, and podcasts for keyword mentions
 
 ## The rest of the category
 
-9 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+11 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Centralize](../tools/centralize.md) MCP unknown · Free to start
 A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their...
@@ -89,6 +89,10 @@ Tracks real-time job changes and employment history for ~80M white-collar profes
 Detects which companies are actively researching specific B2B topics by aggregating content-consumption data (article reads, downloads) across a...
 - [Champify](../tools/champify.md) No MCP found · Enterprise only
 Tracks job changes of a company's past customers and champions as they move to new roles/companies, and flags closed-lost opportunities for...
+- [TechniQ ABM](../tools/techniq-abm.md) No MCP found · Gate unknown
+TechniQ helps B2B teams uncover the best way into their most important accounts and turns that intelligence into messaging and ready-to-use Sales &...
+- [ZINFI](../tools/zinfi.md) No MCP found · Gate unknown
+ZINFI's Unified Partner Management (UPM) platform automates partner onboarding, MDF, co-sell, incentives, and channel marketing for enterprise...
 
 ## The gate, which is the second question
 
@@ -97,9 +101,9 @@ Tracks job changes of a company's past customers and champions as they move to n
 | [Free to start](../gates/free.md) | 6 |
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 1 |
+| [Gate unknown](../gates/unknown.md) | 3 |
 
-Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 e510b3f0628d810d...
+Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 cf45b6221e13ccbb...
 
 ## Sources
 

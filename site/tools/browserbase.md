@@ -60,7 +60,7 @@ https://mcp.browserbase.com/mcp (docs: https://docs.browserbase.com/integrations
 
 - **Tools named**: 6
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -77,14 +77,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **start** Create or reuse a Browserbase session evidence: answered tools/list · calling it writes
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: bb9
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -92,13 +92,13 @@ Install, as the source shows it:
 npm install -g browse
 ```
 
-quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-12, via npm
+quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-11, via npm
 
 ```
 npm install -g @browserbasehq/bb9
 ```
 
-quoted from [https://www.npmjs.com/package/@browserbasehq/bb9](https://www.npmjs.com/package/@browserbasehq/bb9) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@browserbasehq/bb9](https://www.npmjs.com/package/@browserbasehq/bb9) on 2026-09-11, via npm
 
 Login or key hint seen on the page:
 
@@ -109,7 +109,7 @@ expand to read them
 
 back, click, cloud, fill, functions, open, screenshot, skills, snapshot, status, stop, topics, workflows
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @browserbasehq/bb9 1.2.20](https://www.npmjs.com/package/@browserbasehq/bb9)
 
@@ -117,7 +117,7 @@ Where it was documented:
 
 - [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -133,7 +133,7 @@ free - the pricing page lists Free at $0/mo with "1 browser hour", 3 concurrent 
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -170,7 +170,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

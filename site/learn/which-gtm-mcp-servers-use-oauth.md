@@ -32,7 +32,7 @@ Neither is wrong. Knowing which one you are about to wire in is not optional, pa
 | [Third party platform auth](../lists/auth-third-party.md) | 7 | Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives... |
 | [Auth not recorded](../lists/auth-unrecorded.md) | 28 | The mcp_auth field on the entry is blank, or says unknown. Published as blank rather than guessed. |
 
-Counted 2026-09-12 across the 225 entries with a server. The bucket is a keyword match over the mcp_auth field, run at build time and disclosed as such; the verbatim field is printed beside every row on [the auth pages](../lists/auth-types.md) so you can check the parse yourself. 331 of 336 entries record an auth value at all.
+Counted 2026-09-12 across the 225 entries with a server. The bucket is a keyword match over the mcp_auth field, run at build time and disclosed as such; the verbatim field is printed beside every row on [the auth pages](../lists/auth-types.md) so you can check the parse yourself. 331 of 374 entries record an auth value at all.
 
 ## What the OAuth entries have in common
 

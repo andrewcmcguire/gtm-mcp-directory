@@ -39,7 +39,7 @@ The app layer for RevOps - builds custom internal UIs on top of the warehouse/CR
 
 - **Auth**: OAuth 2.0. Endpoint pattern https:///mcp over HTTP.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL**: [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)
@@ -53,16 +53,17 @@ official (public beta)
 
 mcp_url, verbatim from the file:
 
-https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server
+https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server ; repo https://github.com/tryretool/agent-plugins
 
 - [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp)
 - [https://retool.com/blog/retool-mcp-server](https://retool.com/blog/retool-mcp-server)
+- [https://github.com/tryretool/agent-plugins](https://github.com/tryretool/agent-plugins)
 
 **What this server exposes**
 
 - **Tools named**: 50
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -167,7 +168,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **retool_update_resource** Update an existing resource by name. evidence: in the vendor docs · calling it writes
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -176,7 +177,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: retool
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -184,13 +185,13 @@ Install, as the source shows it:
 npm install -g retool-cli
 ```
 
-quoted from [https://www.npmjs.com/package/retool-cli](https://www.npmjs.com/package/retool-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/retool-cli](https://www.npmjs.com/package/retool-cli) on 2026-09-11, via npm, a third party source
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: retool-cli 1.0.29, third party](https://www.npmjs.com/package/retool-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -206,13 +207,17 @@ free - the Free plan is self-serve with no sales conversation (unlimited apps, 5
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/tryretool/agent-plugins](https://github.com/tryretool/agent-plugins)
 
 **On GitHub**
 
@@ -242,7 +247,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -256,7 +261,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://retool.com/pricing, https://retool.com/products/ai, https://retool.com/blog/retool-mcp-server, https://mcp.retool.com/mcp
 
 **Notes, verbatim from the file**
-The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries, bulk user invites, access audits, resource enumeration) - an admin/dev-ops-facing MCP rather than an end-user data MCP. Available to both cloud and self-hosted customers per the announcement. 2026-09-07: https://mcp.retool.com/mcp returned 401 {"error":"Missing Authorization: Bearer <token> header"} to an MCP initialize POST; https://app.retool.com/mcp answers identically (https://mcp.retool.com/mcp).
+The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries, bulk user invites, access audits, resource enumeration) - an admin/dev-ops-facing MCP rather than an end-user data MCP. Available to both cloud and self-hosted customers per the announcement. 2026-09-07: https://mcp.retool.com/mcp returned 401 {"error":"Missing Authorization: Bearer <token> header"} to an MCP initialize POST; https://app.retool.com/mcp answers identically (https://mcp.retool.com/mcp). 2026-09-12 (P6-04 repo sweep): first-party repository recorded at https://github.com/tryretool/agent-plugins - first-party agent plugins for Claude Code, Cowork, ChatGPT and Codex that wire the hosted server, NOT the server source. Evidence: the org tryretool, tied to retool.com by harvest_orgs.py domain evidence, and claude/retool/.mcp.json declares an http MCP server at ${user_config.retool_url}/mcp.
 
 **Provenance**
 

@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 25 of 33, counted
+# Engagement & Outbound tools with MCP servers: 25 of 38, counted
 
-> 25 of the 33 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 25 of the 38 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 25 of 336**
+**List · 25 of 374**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 25 of 33 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 25 of 38 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -52,7 +52,7 @@ oauth plus a second, separate CRM link. The docs describe a two-layer model: Rin
 salesforge.ai | [Official MCP](../mcp/official.md) | [https://github.com/SalesforgeAI/forge-mcp](https://github.com/SalesforgeAI/forge-mcp) | API key
 api key via HTTP header (X-Salesforge-Key) | [Paid, self-serve](../gates/paid.md) |
 | [Saleshandy](../tools/saleshandy.md)
-saleshandy.com | [Official MCP](../mcp/official.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +2 more | OAuth or an API key
+saleshandy.com | [Official MCP](../mcp/official.md) | [https://mcp.saleshandy.com/mcp](https://mcp.saleshandy.com/mcp) +3 more | OAuth or an API key
 oauth, with an api key fallback. The developer docs state "Saleshandy MCP uses OAuth for... | [Paid, self-serve](../gates/paid.md) |
 | [Skyp.ai](../tools/skyp-ai.md)
 skyp.ai | [Official MCP](../mcp/official.md) | [https://api.skyp.ai/mcp](https://api.skyp.ai/mcp) +3 more | OAuth or an API key
@@ -70,7 +70,7 @@ user-based OAuth 2.1 via magic-link sign-in; vendor docs explicitly state bearer
 woodpecker.co | [Official MCP](../mcp/official.md) | [https://github.com/Woodpeckerco/woodpecker-mcp-serve...](https://github.com/Woodpeckerco/woodpecker-mcp-server) +2 more | OAuth or an API key
 hosted OAuth-style flow (Claude-specific) or self-hosted Docker setup using a Woodpecker... | [Paid, self-serve](../gates/paid.md) |
 | [Amplemarket](../tools/amplemarket.md)
-amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | OAuth
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +3 more | OAuth
 OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Dialpad](../tools/dialpad.md)
 dialpad.com | [Official MCP](../mcp/official.md) | [https://mcp-public.us.karehq.com/mcp](https://mcp-public.us.karehq.com/mcp) +3 more | OAuth
@@ -94,7 +94,7 @@ api key. The community server takes an Aircall API ID and API token, which the p
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | API key
 api key via OVERLOOP_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
 
-### The other 8 in this category
+### The other 13 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -114,8 +114,18 @@ mailshake.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gat
 quickmail.com | [No MCP found](../mcp/none-found.md) | [Paid, self-serve](../gates/paid.md) | 2026-09-02 |
 | [Orum](../tools/orum.md)
 orum.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Mailchimp](../tools/mailchimp.md)
+mailchimp.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Mogli](../tools/mogli.md)
+mogli.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Natterbox](../tools/natterbox.md)
+natterbox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Outplay](../tools/outplay.md)
 outplay.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
+| [SMS-Magic](../tools/sms-magic.md)
+sms-magic.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [WhatsApp Business](../tools/whatsapp-business.md)
+business.whatsapp.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -128,4 +138,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

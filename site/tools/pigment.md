@@ -38,7 +38,7 @@ Enterprise capacity/territory/quota-planning layer, notable for one of the more 
 
 - **Auth**: A workspace admin enables MCP under Settings > Integrations, generating a per-workspace endpoint; individual users then connect with their existing Pigment login/permissions (no separate MCP-specific key). Only Number/Integer/Boolean-type Metrics are queryable via MCP; admins can wall off sensitive data Blocks from AI/MCP access.
 
-- **Parsed URLs**: 2 found in the mcp_url field
+- **Parsed URLs**: 3 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL**: [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server)
@@ -52,16 +52,17 @@ official
 
 mcp_url, verbatim from the file:
 
-https://www.pigment.com/ai/mcp-server (developed in partnership with Anthropic); setup docs at https://kb.pigment.com/docs/mcp-server-1
+https://www.pigment.com/ai/mcp-server (developed in partnership with Anthropic); setup docs at https://kb.pigment.com/docs/mcp-server-1 ; repo https://github.com/gopigment/ai-plugins
 
 - [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server)
 - [https://kb.pigment.com/docs/mcp-server-1](https://kb.pigment.com/docs/mcp-server-1)
+- [https://github.com/gopigment/ai-plugins](https://github.com/gopigment/ai-plugins)
 
 **What this server exposes**
 
 - **Tools named**: 6
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -78,11 +79,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search** Scan and understand the entire Application logic. Advanced mode only; exposes Block metadata. evidence: in the vendor docs · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -98,13 +99,17 @@ enterprise-only in practice - no public pricing page exists (pigment.com/pricing
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/gopigment/ai-plugins](https://github.com/gopigment/ai-plugins)
 
 **On GitHub**
 
@@ -130,7 +135,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -146,7 +151,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.pigment.com, https://www.pigment.com/ai/mcp-server, https://kb.pigment.com/docs/mcp-server-1, https://www.pigment.com/use-case/revenue-growth-management, https://www.pigment.com/ai-info-about-pigment, https://www.pulsemcp.com/servers?q=pigment
 
 **Notes, verbatim from the file**
-Gong is a named Pigment customer using it for GTM capacity/RevOps planning - a useful "who actually uses this" data point given Gong's own entry elsewhere in this directory.
+Gong is a named Pigment customer using it for GTM capacity/RevOps planning - a useful "who actually uses this" data point given Gong's own entry elsewhere in this directory. 2026-09-12 (P6-04 repo sweep): first-party repository recorded at https://github.com/gopigment/ai-plugins - first-party plugins that bundle the Pigment MCP server alongside domain-knowledge skills, NOT the server source. Evidence: the org gopigment, the repo homepage kb.pigment.com/docs/mcp-server, and the README reads "These plugins bundle the Pigment MCP server".
 
 **Provenance**
 

@@ -63,7 +63,7 @@ https://mcp.zoominfo.com/mcp (server card at https://gtm.ai/.well-known/mcp/serv
 
 - **Tools named**: 17
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Repo read**: Zoominfo/zoominfo-mcp-plugin
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -104,14 +104,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **tech-stack-snapshot** Summarize detected technologies, displacement angles, and integration plays evidence: in a README table · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: gtm
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -119,13 +119,13 @@ Install, as the source shows it:
 npm install -g @zoominfo/gtm-ai-cli
 ```
 
-quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-12, via npm
+quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-11, via npm
 
 ```
 brew install zoominfo/gtm-ai/gtm-ai-cli
 ```
 
-quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-12, via brew
+quoted from [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) on 2026-09-11, via brew
 
 Login or key hint seen on the page:
 
@@ -135,7 +135,7 @@ Subcommands seen with the binary:
 
 auth, cli, companies, contacts
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @zoominfo/gtm-ai-cli 1.1.0](https://www.npmjs.com/package/@zoominfo/gtm-ai-cli)
 
@@ -143,7 +143,7 @@ Where it was documented:
 
 - [https://gtm.ai/docs/cli](https://gtm.ai/docs/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -206,7 +206,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

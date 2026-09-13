@@ -1,6 +1,6 @@
-# Which GTM tools have no MCP server? 87 of 336, and what that means
+# Which GTM tools have no MCP server? 125 of 374, and what that means
 
-> 87 of 336 GTM tools had no MCP server found on the date they were checked. The list, the categories it clusters in, and why none found is not the same as none exists.
+> 125 of 374 GTM tools had no MCP server found on the date they were checked. The list, the categories it clusters in, and why none found is not the same as none exists.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-87 of the 336 entries in this directory had no MCP server found at the time of the check. That is a statement about a search on a stated date, not a claim that no server exists, and every entry carries the date its facts were pulled.
+125 of the 374 entries in this directory had no MCP server found at the time of the check. That is a statement about a search on a stated date, not a claim that no server exists, and every entry carries the date its facts were pulled.
 
 The list matters more than it looks. If a tool your team depends on is on it, that is the work item: either an API and some glue, or a case to the vendor, or a decision to route around it.
 
@@ -24,20 +24,20 @@ The list matters more than it looks. If a tool your team depends on is on it, th
 
 | Category | No server | Of total | Share |
 |---|---|---|---|
-| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 13 | 17 | 76% |
+| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 14 | 18 | 78% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 10 | 16 | 62% |
 | [Email Deliverability](../categories/email-deliverability.md) | 8 | 13 | 62% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 8 | 14 | 57% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 13 | 23 | 57% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 5 | 15 | 33% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 6 | 19 | 32% |
-| [Scheduling & Routing](../categories/scheduling-routing.md) | 4 | 14 | 29% |
-| [Video Prospecting](../categories/video-prospecting.md) | 4 | 15 | 27% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 5 | 20 | 25% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 6 | 30 | 20% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 33 | 18% |
-| [Conversation Intel](../categories/conversation-intel.md) | 3 | 24 | 12% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 49 | 10% |
-| [RevOps Infra](../categories/revops-infra.md) | 1 | 31 | 3% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 15 | 25 | 60% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 8 | 18 | 44% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 10 | 25 | 40% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 7 | 20 | 35% |
+| [Scheduling & Routing](../categories/scheduling-routing.md) | 5 | 15 | 33% |
+| [Video Prospecting](../categories/video-prospecting.md) | 5 | 16 | 31% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 11 | 38 | 29% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 8 | 32 | 25% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 13 | 57 | 23% |
+| [RevOps Infra](../categories/revops-infra.md) | 7 | 37 | 19% |
+| [Conversation Intel](../categories/conversation-intel.md) | 4 | 25 | 16% |
 
 ## What none found does not mean
 
@@ -80,9 +80,9 @@ Identifies companies visiting a website via IP-to-company matching, then enriche
 - [Dubb](../tools/dubb.md) No MCP found · Paid, self-serve
 Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via email, SMS, LinkedIn,...
 
-71 more are on the linked page. The cut is the display limit, not a ranking.
+109 more are on the linked page. The cut is the display limit, not a ranking.
 
-[The full list of 87 is here](../lists/no-mcp-server.md), each row carrying the date its entry was last checked. If you know one of them shipped a server, that correction is the most valuable thing anyone can send this directory.
+[The full list of 125 is here](../lists/no-mcp-server.md), each row carrying the date its entry was last checked. If you know one of them shipped a server, that correction is the most valuable thing anyone can send this directory.
 
 ## Sources
 

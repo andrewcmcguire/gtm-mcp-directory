@@ -1,6 +1,6 @@
-# Scheduling & Routing: 14 tools, 5 with an official MCP server
+# Scheduling & Routing: 15 tools, 5 with an official MCP server
 
-> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 14 tools counted, 5 with an official MCP server and 2 free to start.
+> The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar,... 15 tools counted, 5 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 The last mile of a GTM motion: turning a qualified lead into a meeting on a rep's calendar, instantly and to the right person, then keeping that rep's own calendar sane. Three sub-lanes live in this file - prospect-facing booking pages (Calendly, Cal.com, SavvyCal), inbound lead-routing/handoff engines (Chili Piper, Default, RevenueHero, Kronologic, LeanData), and personal calendar-intelligence tools for reps/AEs (Motion, Reclaim.ai, Clockwise, Trevor AI) - plus two adjacent discovery finds (Clara, Doodle). MCP maturity here splits the same way category-06 does: the open-source/API-first booking tools (Cal.com, Calendly) shipped clean official servers, while most routing engines and personal-calendar apps have none or only community ones.
 
-- **entries in this file**: 14
+- **entries in this file**: 15
 
 - **Official MCP**: 5
 - **Community MCP**: 2
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
-- **No MCP found**: 4
+- **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-12**: 0
+- **ship a CLI (official) as of 2026-09-11**: 0
 
 - **Free to start**: 2
 - **Paid, self-serve**: 4
 - **Enterprise only**: 2
-- **Gate unknown**: 6
+- **Gate unknown**: 7
 
-Source file: 10-scheduling-routing.md · content sha256 06987a2092768ed5... · counts reconciled against tools_recount.py at build time.
+Source file: 10-scheduling-routing.md · content sha256 0dbee69e46945f84... · counts reconciled against tools_recount.py at build time.
 
 - [The 7 with an MCP server](../lists/mcp-scheduling-routing.md)
 
@@ -65,5 +65,7 @@ Source file: 10-scheduling-routing.md · content sha256 06987a2092768ed5... · c
 - [Doodle](../tools/doodle.md) doodle.com General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1 booking pages - used more broadly than GTM specifically (events, recruiting, ops)... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Kronologic](../tools/kronologic.md) kronologic.com Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's behalf and negotiates meeting times over email, aimed mainly at customer-expansion motions (renewals,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Kubaru](../tools/kubaru.md) kubaru.io Are you looking for a better way to assign leads, cases, and other objects in Salesforce? Kubaru is the most popular assignment app on the AppExchange. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Trevor AI](../tools/trevor-ai.md) trevorai.com AI planning app that merges task management and calendar scheduling - connects task lists (Todoist, Google Tasks, Microsoft To-Do) and calendars (Google, Outlook, Microsoft 365) into one auto-scheduled daily... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

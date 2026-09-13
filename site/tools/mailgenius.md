@@ -58,7 +58,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: genius
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -66,20 +66,20 @@ Install, as the source shows it:
 npm install -g mailgenius-cli
 ```
 
-quoted from [https://www.npmjs.com/package/mailgenius-cli](https://www.npmjs.com/package/mailgenius-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/mailgenius-cli](https://www.npmjs.com/package/mailgenius-cli) on 2026-09-11, via npm, a third party source
 
 ```
 pip install mailgenius
 ```
 
-quoted from [https://pypi.org/project/mailgenius/](https://pypi.org/project/mailgenius/) on 2026-09-12, via pypi, a third party source
+quoted from [https://pypi.org/project/mailgenius/](https://pypi.org/project/mailgenius/) on 2026-09-11, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: mailgenius-cli 0.1.0, third party](https://www.npmjs.com/package/mailgenius-cli)
 - [pypi: mailgenius 0.1.0, third party](https://pypi.org/project/mailgenius/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -95,7 +95,7 @@ paid - a whitelabel/API tier exists but requires applying for access (mailgenius
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -117,7 +117,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

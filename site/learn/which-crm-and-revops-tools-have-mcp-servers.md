@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 29 of 31, counted
+# CRM and RevOps tools with MCP servers: 29 of 37, counted
 
-> 29 of the 31 revops infra tools in this directory have an MCP server: 29 official and 0 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 29 of the 37 revops infra tools in this directory have an MCP server: 29 official and 0 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-29 of the 31 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 0 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+29 of the 37 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 0 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -85,12 +85,24 @@ An "agentic master data management" (MDM) platform that unifies data across CRM/
 
 ## The rest of the category
 
-2 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+8 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
 - [Openprise](../tools/openprise.md) No MCP found · Enterprise only
 A no-code RevOps data-orchestration platform automating GTM data workflows - list loading, cleansing, deduplication, enrichment,...
+- [Apsona](../tools/apsona.md) No MCP found · Gate unknown
+All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works natively inside...
+- [Boomi](../tools/boomi.md) No MCP found · Gate unknown
+Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents.
+- [CloudFiles](../tools/cloudfiles.md) No MCP found · Gate unknown
+CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce....
+- [Databox](../tools/databox.md) No MCP found · Gate unknown
+Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act...
+- [LinkPoint Connect](../tools/linkpoint-connect.md) No MCP found · Gate unknown
+LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption...
+- [Vertify](../tools/vertify.md) No MCP found · Gate unknown
+Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to insights.
 
 ## The gate, which is the second question
 
@@ -99,8 +111,9 @@ A no-code RevOps data-orchestration platform automating GTM data workflows - lis
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
+| [Gate unknown](../gates/unknown.md) | 6 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 92bc241926874ea0...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 3937710adc079916...
 
 ## Sources
 

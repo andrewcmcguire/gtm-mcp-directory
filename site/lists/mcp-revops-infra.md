@@ -1,6 +1,6 @@
-# RevOps infrastructure tools with MCP servers: 29 of 31, counted
+# RevOps infrastructure tools with MCP servers: 29 of 37, counted
 
-> 29 of the 31 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 29 of the 37 revops infra tools in The GTM MCP Directory have an MCP server: 29 official and 0 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / RevOps infrastructure tools with an MCP server
 
-**List · 29 of 336**
+**List · 29 of 374**
 
 ## RevOps infrastructure tools with an MCP server
 
-The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 29 of 31 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
+The systems of record, the pipes between them, and the low-code layer a GTM engineer builds on top. Most of category has genuine AI now in one specific corner of the product - Agentforce, Breeze, AI Agent nodes - bolted onto a much larger base of plain rules-based automation. This file tries to draw that line honestly for each one. 29 of 37 entries in this category are reachable by an agent: 29 through a server the vendor maintains and 0 through one somebody else built. The category is tagged most often with Run an automation workflow. [See the full category page](../categories/revops-infra.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -52,7 +52,7 @@ MCP Server Trigger supports Bearer or Header auth to secure the exposed endpoint
 pipedrive.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedrive.com/mcp](https://mcp.pipedrive.com/mcp) +1 more | OAuth
 OAuth - "Connect in minutes through secure OAuth. No coding, no API development, no... | [Free to start](../gates/free.md) |
 | [Retool](../tools/retool.md)
-retool.com | [Official MCP](../mcp/official.md) | [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp) +1 more | OAuth
+retool.com | [Official MCP](../mcp/official.md) | [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp) +2 more | OAuth
 OAuth 2.0. Endpoint pattern https:///mcp over HTTP. | [Free to start](../gates/free.md) |
 | [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md)
 snowflake.com | [Official MCP](../mcp/official.md) | [https://docs.snowflake.com/en/user-guide/snowflake-c...](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp) +1 more | OAuth
@@ -106,7 +106,7 @@ OAuth + PKCE via an External Client App (scopes mcp_api, refresh_token); every M
 syncari.com | [Official MCP](../mcp/official.md) | [https://mcp.syncari.com/mcp](https://mcp.syncari.com/mcp) +1 more | OAuth or an API key
 unknown - the MCP server page describes real-time, entity/field-level access control and... | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 2 in this category
+### The other 8 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -116,6 +116,18 @@ No server found, or the check could not settle it. Same category, not reachable 
 default.com | [MCP unknown](../mcp/unknown.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Openprise](../tools/openprise.md)
 openprisetech.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Apsona](../tools/apsona.md)
+apsona.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Boomi](../tools/boomi.md)
+boomi.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [CloudFiles](../tools/cloudfiles.md)
+cloudfiles.io | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Databox](../tools/databox.md)
+databox.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [LinkPoint Connect](../tools/linkpoint-connect.md)
+linkpoint360.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Vertify](../tools/vertify.md)
+vertify.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 
 ### What this category is asked for
 
@@ -128,4 +140,4 @@ The jobs most often tagged on the 21 tagged entries in this category.
 - [Score and prioritize leads](../jobs/score-and-prioritize-leads.md)
 - [Enrich a company from a domain](../jobs/enrich-company-from-domain.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -62,7 +62,7 @@ https://mcp.monday.com/mcp for the remote server (product page: https://monday.c
 
 - **Tools named**: 5
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Repo read**: mondaycom/mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -79,14 +79,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get_type_details** Retrieve detailed information about specific GraphQL types evidence: in a README table · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: mapps
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -94,13 +94,13 @@ Install, as the source shows it:
 npm install -g @mondaycom/apps-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@mondaycom/apps-cli](https://www.npmjs.com/package/@mondaycom/apps-cli) on 2026-09-11, via npm
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @mondaycom/apps-cli 4.10.8](https://www.npmjs.com/package/@mondaycom/apps-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -116,7 +116,7 @@ free - the vendor's MCP page states "MCP is currently available for all monday.c
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -153,7 +153,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

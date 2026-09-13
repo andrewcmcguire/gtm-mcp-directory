@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 10 of 23, counted
+# AI SDR tools with MCP servers: 10 of 25, counted
 
-> 10 of the 23 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 10 of the 25 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 2 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / AI SDR tools with an MCP server
 
-**List · 10 of 336**
+**List · 10 of 374**
 
 ## AI SDR tools with an MCP server
 
-This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 10 of 23 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
+This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 10 of 25 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 2 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 relevanceai.com | [Official MCP](../mcp/official.md) | [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/) +1 more | OAuth
 OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project... | [Free to start](../gates/free.md) |
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
-amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +1 more | Auth not recorded
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | Auth not recorded
 Account sign-in (no API key needed) - "sign in with your Amplemarket account when... | [Paid, self-serve](../gates/paid.md) |
 | [Klenty](../tools/klenty.md)
 klenty.com | [Official MCP](../mcp/official.md) | [https://api.klenty.com/mcp](https://api.klenty.com/mcp) +2 more | Third party platform auth
@@ -49,7 +49,7 @@ Auth0 browser sign-in (auth.unifygtm.com); MCP caches the session cookie (~30-da
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key
 API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
-### The other 13 in this category
+### The other 15 in this category
 
 No server found, or the check could not settle it. Same category, not reachable by an agent today.
 
@@ -75,6 +75,10 @@ salesforce.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gat
 terret.ai | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Tofu](../tools/tofu.md)
 tofuhq.com | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
+| [Alysio](../tools/alysio.md)
+alysio.ai | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Athean](../tools/athean.md)
+athean.com | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Luru](../tools/luru.md)
 luru.app | [No MCP found](../mcp/none-found.md) | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Rox](../tools/rox.md)
@@ -93,4 +97,4 @@ The jobs most often tagged on the 22 tagged entries in this category.
 - [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md)
 - [Place an outbound call](../jobs/place-outbound-call.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

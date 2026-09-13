@@ -24,7 +24,7 @@ Domain to company is the most common single call in a GTM agent's loop, because 
 
 | Measure | Count | Of what |
 |---|---|---|
-| Entries tagged enrich-company-from-domain | 34 | of 336 directory entries |
+| Entries tagged enrich-company-from-domain | 34 | of 374 directory entries |
 | Distinct products | 31 | the rest are cross listings |
 | Official MCP server | 24 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |

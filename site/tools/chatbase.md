@@ -61,21 +61,21 @@ https://zapier.com/mcp/chatbase (Zapier-hosted; viaSocket, Activepieces and Pipe
 
 - **Tools named**: 1
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
 - **Send Prompt** Send a prompt to your chatbot. evidence: in the vendor docs · calling it writes · required: message, Chatbot ID · read off zapier, an aggregator wrapping the vendor's API rather than the vendor's own server
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: chatbase
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -83,13 +83,13 @@ Install, as the source shows it:
 npm install -g chatbase
 ```
 
-quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-12, via npm
+quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-11, via npm
 
 ```
 npx chatbase
 ```
 
-quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-12, via npx
+quoted from [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) on 2026-09-11, via npx
 
 Login or key hint seen on the page:
 
@@ -99,7 +99,7 @@ Subcommands seen with the binary:
 
 agents, auth, chat, config
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: chatbase 0.5.0](https://www.npmjs.com/package/chatbase)
 
@@ -107,7 +107,7 @@ Where it was documented:
 
 - [https://www.chatbase.co/docs/cli/overview](https://www.chatbase.co/docs/cli/overview) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -123,7 +123,7 @@ paid (limited free tier). Free plan: $0/mo, 50 message credits, inactive agents 
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -145,7 +145,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

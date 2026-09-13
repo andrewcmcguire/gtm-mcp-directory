@@ -60,54 +60,9 @@ https://github.com/LeadMagic/leadmagic-mcp (hosted endpoint: https://mcp.leadmag
 
 **What this server exposes**
 
-- **Tools named**: 19
-- **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
-- **Repo read**: LeadMagic/leadmagic-mcp
-- **Whose repo**: first-party
-- **Catalogue shape**: a fixed catalogue the vendor publishes
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
-
-- **email_to_profile** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **find_email** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **find_employees** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **find_jobs** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **find_mobile** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **find_personal_email** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **find_role** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **get_b2b_ad_details** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **get_company_funding** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **get_credits** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **get_job_countries** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **get_job_types** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **search_b2b_ads** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **search_company** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **search_google_ads** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **search_meta_ads** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **search_profile** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **social_to_work_email** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **validate_email** No description was recorded with the name. evidence: in the server source · calling it reads
-
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -116,7 +71,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: leadmagic
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -124,20 +79,20 @@ Install, as the source shows it:
 npm install -g leadmagic-agent-cli
 ```
 
-quoted from [https://www.npmjs.com/package/leadmagic-agent-cli](https://www.npmjs.com/package/leadmagic-agent-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/leadmagic-agent-cli](https://www.npmjs.com/package/leadmagic-agent-cli) on 2026-09-11, via npm, a third party source
 
 ```
 npm install -g leadmagic-cli
 ```
 
-quoted from [https://www.npmjs.com/package/leadmagic-cli](https://www.npmjs.com/package/leadmagic-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/leadmagic-cli](https://www.npmjs.com/package/leadmagic-cli) on 2026-09-11, via npm, a third party source
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: leadmagic-agent-cli 1.0.3, third party](https://www.npmjs.com/package/leadmagic-agent-cli)
 - [npm: leadmagic-cli 0.1.0, third party](https://www.npmjs.com/package/leadmagic-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -153,7 +108,7 @@ free
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -196,7 +151,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

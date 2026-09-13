@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use OAuth
 
-**List · 69 of 336**
+**List · 69 of 374**
 
 ## GTM MCP servers that use OAuth
 
@@ -39,7 +39,7 @@ pipedrive.com | [Official MCP](../mcp/official.md) | [https://mcp.pipedrive.com/
 | [Relevance AI](../tools/relevance-ai.md)
 relevanceai.com | [Official MCP](../mcp/official.md) | [https://mcp.relevanceai.com/](https://mcp.relevanceai.com/) +1 more | OAuth (tokens may expire after inactivity; re-auth via login flow); Viewer/Chat project roles get restricted read-only access automatically | [Free to start](../gates/free.md) |
 | [Retool](../tools/retool.md)
-retool.com | [Official MCP](../mcp/official.md) | [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp) +1 more | OAuth 2.0. Endpoint pattern https:///mcp over HTTP. | [Free to start](../gates/free.md) |
+retool.com | [Official MCP](../mcp/official.md) | [https://mcp.retool.com/mcp](https://mcp.retool.com/mcp) +2 more | OAuth 2.0. Endpoint pattern https:///mcp over HTTP. | [Free to start](../gates/free.md) |
 | [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](../tools/snowflake.md)
 snowflake.com | [Official MCP](../mcp/official.md) | [https://docs.snowflake.com/en/user-guide/snowflake-c...](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp) +1 more | Snowflake OAuth 2.0 by default, or External OAuth (Okta, Microsoft Entra ID); hardcoded PATs/tokens are explicitly discouraged. Exposes Cortex Agent,... | [Free to start](../gates/free.md) |
 | [Tidio](../tools/tidio.md)
@@ -57,7 +57,7 @@ apollo.io | [Official MCP](../mcp/official.md) | [https://github.com/apolloio/ap
 | [Brand24](../tools/brand24.md)
 brand24.com | [Official MCP](../mcp/official.md) | [https://mcp.brand24.com/v1/mcp](https://mcp.brand24.com/v1/mcp) +1 more | OAuth; the help article states "MCP access is available to Brand24 subscribers. The data available in MCP reflects what's in your active projects." | [Paid, self-serve](../gates/paid.md) |
 | [CatchIntent](../tools/catchintent.md)
-catchintent.com | [Official MCP](../mcp/official.md) | [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp) +2 more | oauth. The vendor's MCP page states "One-time OAuth 2.1 authorization. Your MCP client opens a browser, you sign into CatchIntent, pick the... | [Paid, self-serve](../gates/paid.md) |
+catchintent.com | [Official MCP](../mcp/official.md) | [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp) +3 more | oauth. The vendor's MCP page states "One-time OAuth 2.1 authorization. Your MCP client opens a browser, you sign into CatchIntent, pick the... | [Paid, self-serve](../gates/paid.md) |
 | [Circleback](../tools/circleback.md)
 circleback.ai | [Official MCP](../mcp/official.md) | [https://circleback.ai/api/mcp](https://circleback.ai/api/mcp) +2 more | OAuth with dynamic client registration, compliant with the authenticated remote MCP spec. Centrally hosted and managed by Circleback. | [Paid, self-serve](../gates/paid.md) |
 | [Coresignal](../tools/coresignal.md)
@@ -71,7 +71,7 @@ fellow.ai | [Official MCP](../mcp/official.md) | [https://fellow.app/mcp](https:
 | [Front](../tools/front.md)
 front.com | [Official MCP](../mcp/official.md) | [https://mcp.frontapp.com/mcp](https://mcp.frontapp.com/mcp) +1 more | OAuth 2.1 with PKCE, per teammate. Front's docs state the server does not support Dynamic Client Registration, so the AI client must be able to send... | [Paid, self-serve](../gates/paid.md) |
 | [Grain](../tools/grain.md)
-grain.com | [Official MCP](../mcp/official.md) | [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp) +1 more | OAuth via the native Claude integration, or manual server-URL setup for other MCP clients. Deal and coaching-feedback tools specifically require a... | [Paid, self-serve](../gates/paid.md) |
+grain.com | [Official MCP](../mcp/official.md) | [https://api.grain.com/_/mcp](https://api.grain.com/_/mcp) +2 more | OAuth via the native Claude integration, or manual server-URL setup for other MCP clients. Deal and coaching-feedback tools specifically require a... | [Paid, self-serve](../gates/paid.md) |
 | [Granola](../tools/granola.md)
 granola.ai | [Official MCP](../mcp/official.md) | [https://www.pulsemcp.com/servers/granola](https://www.pulsemcp.com/servers/granola) +2 more | OAuth - no manual API key required. | [Paid, self-serve](../gates/paid.md) |
 | [Help Scout](../tools/help-scout.md)
@@ -111,7 +111,7 @@ versium.com | [Official MCP](../mcp/official.md) | [https://app.versium.com/mcp/
 | [Zoho CRM](../tools/zoho-crm.md)
 zoho.com | [Official MCP](../mcp/official.md) | [https://www.zoho.com/crm/developer/mcp.html](https://www.zoho.com/crm/developer/mcp.html) | oauth. The vendor's page describes a four-step setup ending in "Authenticate via OAuth. Connect your Zoho CRM account. Your agent inherits your... | [Paid, self-serve](../gates/paid.md) |
 | [Amplemarket](../tools/amplemarket.md)
-amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says no API keys are needed. Rate limit 100 requests per minute... | [Enterprise leaning](../gates/enterprise-leaning.md) |
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +3 more | OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says no API keys are needed. Rate limit 100 requests per minute... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Dialpad](../tools/dialpad.md)
 dialpad.com | [Official MCP](../mcp/official.md) | [https://mcp-public.us.karehq.com/mcp](https://mcp-public.us.karehq.com/mcp) +3 more | oauth. The docs state the server is hosted by Dialpad, supports Dynamic Client Registration so clients register themselves on first connect, acts on... | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Paragon (ActionKit MCP)](../tools/paragon.md)
@@ -157,4 +157,4 @@ bonjoro.com | [Community MCP](../mcp/community.md) | [https://zapier.com/mcp/bon
 | [Loopio](../tools/loopio.md)
 loopio.com | [Community MCP](../mcp/community.md) | [https://github.com/fredericboyer/loopio-mcp](https://github.com/fredericboyer/loopio-mcp) | OAuth2 client credentials (Client ID and Secret from the Loopio admin panel) against the Loopio Data API v2, per the repo README; runs locally over... | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

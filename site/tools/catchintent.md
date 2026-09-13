@@ -38,7 +38,7 @@ A signal-to-outreach layer for small teams: social-listening intent in, ranked w
 
 - **Auth**: oauth. The vendor's MCP page states "One-time OAuth 2.1 authorization. Your MCP client opens a browser, you sign into CatchIntent, pick the workspace, and approve the requested scopes."
 
-- **Parsed URLs**: 3 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: not probed yet
 
@@ -50,17 +50,18 @@ official
 
 mcp_url, verbatim from the file:
 
-https://engine.catchintent.com/mcp (vendor page: https://catchintent.com/mcp; changelog v3.0.0 dated 2026-05-13: https://catchintent.com/changelog/)
+https://engine.catchintent.com/mcp (vendor page: https://catchintent.com/mcp; changelog v3.0.0 dated 2026-05-13: https://catchintent.com/changelog/) ; repo https://github.com/CatchIntent/skills
 
 - [https://engine.catchintent.com/mcp](https://engine.catchintent.com/mcp)
 - [https://catchintent.com/mcp](https://catchintent.com/mcp)
 - [https://catchintent.com/changelog/](https://catchintent.com/changelog/)
+- [https://github.com/CatchIntent/skills](https://github.com/CatchIntent/skills)
 
 **What this server exposes**
 
 - **Tools named**: 14
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -93,11 +94,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **workspace_usage** Current workspace usage vs plan limits: leads delivered this billing period, team members, products, AI compute budget, daily/monthly caps. evidence: answered tools/list · calling it spends money
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -113,13 +114,17 @@ paid - the vendor's MCP page states "MCP access is included on every plan, Growt
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/CatchIntent/skills](https://github.com/CatchIntent/skills)
 
 **On GitHub**
 
@@ -142,7 +147,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+103 of 374 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -156,7 +161,7 @@ No job tag on this entry.
 https://catchintent.com/mcp, https://catchintent.com/changelog/, https://catchintent.com/pricing, https://engine.catchintent.com/mcp
 
 **Notes, verbatim from the file**
-Verified 2026-09-07: POST of an MCP initialize to https://engine.catchintent.com/mcp with no credentials returned HTTP 200 with a JSON-RPC result, serverInfo name "catchintent" version "2.0.0"; the control POST to /zzz-not-a-route returned 404 with a JSON body reading "Cannot POST /zzz-not-a-route". Live first-party server; initialize is open and the OAuth gate sits at tool-call time. The vendor's own MCP page says "28+ typed tools across six surfaces" while the v3.0.0 changelog line says "27 typed tools"; both vendor figures are recorded as found, not reconciled. The pricing page publishes plan sizes but no plan prices, so the api_gate is paid on the vendor's own statement that every plan is paid, with the amount unknown. The catchintent.com/mcp page is not linked from the homepage; it was reached via the registry listing that named the endpoint. 2026-09-07: https://engine.catchintent.com/mcp returned 200 with a JSON-RPC initialize result to an MCP initialize POST (https://engine.catchintent.com/mcp).
+Verified 2026-09-07: POST of an MCP initialize to https://engine.catchintent.com/mcp with no credentials returned HTTP 200 with a JSON-RPC result, serverInfo name "catchintent" version "2.0.0"; the control POST to /zzz-not-a-route returned 404 with a JSON body reading "Cannot POST /zzz-not-a-route". Live first-party server; initialize is open and the OAuth gate sits at tool-call time. The vendor's own MCP page says "28+ typed tools across six surfaces" while the v3.0.0 changelog line says "27 typed tools"; both vendor figures are recorded as found, not reconciled. The pricing page publishes plan sizes but no plan prices, so the api_gate is paid on the vendor's own statement that every plan is paid, with the amount unknown. The catchintent.com/mcp page is not linked from the homepage; it was reached via the registry listing that named the endpoint. 2026-09-07: https://engine.catchintent.com/mcp returned 200 with a JSON-RPC initialize result to an MCP initialize POST (https://engine.catchintent.com/mcp). 2026-09-12 (P6-04 repo sweep): first-party repository recorded at https://github.com/CatchIntent/skills - first-party agent skills that wire the hosted server, NOT the server source. Evidence: the org CatchIntent, whose profile site is catchintent.com, and whose README install line is "claude mcp add catchintent --transport http https://engine.catchintent.com/mcp", which is the endpoint this entry already records.
 
 **Provenance**
 

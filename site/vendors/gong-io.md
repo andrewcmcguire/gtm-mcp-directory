@@ -34,11 +34,11 @@ Vendor domain: [gong.io](https://gong.io) · vendor page id gong-io
 
 - **Docs only**: 1 of 2: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 1 named across 1 measured server, harvested 2026-09-12
+- **Tools catalogued**: 1 named across 1 measured server, harvested 2026-09-11
 
-- **Bench tested**: 0 of 2 here, 1 of 336 across the directory
+- **Bench tested**: 0 of 2 here, 1 of 374 across the directory
 
-- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-11
 
 - **GitHub organisation**: none tied to gong.io with evidence on 2026-09-08
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://help.gong.io/docs/about-gong-mcp](https://help.gong.io/docs/about-gong-mcp) (docs page)
 
-- **Tools catalogued**: 1 named, harvested 2026-09-12, catalogue fixed
+- **Tools catalogued**: 1 named, harvested 2026-09-11, catalogue fixed
 
 - **last_checked**: 2026-08-24
 
@@ -102,7 +102,7 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -114,6 +114,6 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 374 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

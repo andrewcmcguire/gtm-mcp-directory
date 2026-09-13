@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Every tool the MCP servers name: 2,327 tools across 112 GTM servers</title>
-<meta name="description" content="Every tool name harvested from the MCP servers in The GTM MCP Directory, with the server it belongs to, the evidence behind the name and its harvest date. 119 of 225 servers measured on 2026-09-12. None of these tools has been run.">
+<title>Every tool the MCP servers name: 2,329 tools across 113 GTM servers</title>
+<meta name="description" content="Every tool name harvested from the MCP servers in The GTM MCP Directory, with the server it belongs to, the evidence behind the name and its harvest date. 120 of 225 servers measured on 2026-09-11. None of these tools has been run.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/tools-index">
@@ -61,22 +61,22 @@
 <p class="sub">A category tells you what a vendor sells. This tells you what its MCP server puts
 in front of an agent, tool by tool, with the evidence behind every name and the date it was read.
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p>
-<div class="stats"><div class="stat is-gold"><div class="n">2,327</div><div class="k">tool names</div></div>
-<div class="stat is-gold"><div class="n">112</div><div class="k">GTM servers measured</div></div>
-<div class="stat is-copper"><div class="n">106</div><div class="k">servers unmeasured</div></div>
+<div class="stats"><div class="stat is-gold"><div class="n">2,329</div><div class="k">tool names</div></div>
+<div class="stat is-gold"><div class="n">113</div><div class="k">GTM servers measured</div></div>
+<div class="stat is-copper"><div class="n">105</div><div class="k">servers unmeasured</div></div>
 <div class="stat is-teal"><div class="n">12</div><div class="k">answered tools/list</div></div>
 <div class="stat is-mute"><div class="n">5,993</div><div class="k">gateway tools, counted apart</div></div>
 <div class="stat is-mute"><div class="n">1</div><div class="k">bench tested</div></div></div>
 <p class="note">Coverage, stated as it is rather than as a percentage that flatters it:
-119 of the 225 entries that record an
+120 of the 225 entries that record an
 official or community MCP server carry a harvested tool list, read on
-2026-09-12. The other 106 are
+2026-09-11. The other 105 are
 <b>unmeasured, not empty</b>: nobody has read their tool list, so the directory says nothing about
 what they expose, and their tool pages say so in those words. Most of them are hosted endpoints
 behind an auth wall or vendors with no server repo on file.</p>
-<p class="note">Those 119 entries are 113 unique products,
+<p class="note">Those 120 entries are 114 unique products,
 because a product listed in two categories is harvested once per listing.
-8,507 tool records were harvested and 8,320 survive as distinct
+8,509 tool records were harvested and 8,322 survive as distinct
 product-and-tool pairs; the 187 merged are a cross listing repeating a name
 already recorded against the same product. Every name below is on a server this directory tracks,
 and clicking the server takes you to its entry, its gate and its endpoint probe.</p>
@@ -1997,6 +1997,38 @@ Best for: Learning about a company</div>
 <div class="tm"><a href="tools/autobound">Autobound</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>companyBulkLookup</b></div>
+<div class="td">Look up multiple or single companies information from Lusha API.
+        REQUIREMENTS: Each company must provide at least one of:
+        1. Company name,
+        2. Company domain,
+        3. Fully...</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>companyEnrich</b></div>
+<div class="td">Get detailed company information from search results. WARNING: CHARGES CREDITS - always ask user first!
+        
+        REQUIREMENTS:
+        - requestId: from prospectingCompany search response
+   ...</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>companyFilters</b></div>
+<div class="td">Get available filter options for company prospecting. No credits charged.
+        
+        FILTER TYPES:
+        - names, industries, sizes, revenues, sics, naics, intentTopics
+        - locations,...</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>companySearch</b></div>
+<div class="td">Search for companies using advanced filters via Lusha</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>competitor-analysis</b></div>
 <div class="td">Create fact-led competitor briefs using ZoomInfo data plus public context</div>
 <div class="tm"><a href="tools/zoominfo">ZoomInfo</a> &middot; in a README table &middot; calling it writes</div>
@@ -2079,6 +2111,30 @@ Best for: Learning about a company</div>
 <div class="tn"><b>contact_timeline</b></div>
 <div class="td">Full signal timeline for a contact by email. Batch endpoint available for multiple contacts in one call.</div>
 <div class="tm"><a href="tools/autobound">Autobound</a> &middot; in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>contactEnrich</b></div>
+<div class="td">Enrich contacts from search results. This is step 3 of the prospecting process.
+        IMPORTANT: 
+        - The requestId parameter MUST be the exact UUID received from the contactSearch response
+ ...</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>contactFilters</b></div>
+<div class="td">Get available filter values for contact search. Supports:
+        1. departments - List of available departments
+        2. seniority - List of available seniority levels
+        3....</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>contactSearch</b></div>
+<div class="td">Search for contacts using various filters in Lusha API.
+        This is step 2 of the prospecting process.
+        IMPORTANT: 
+        - After returning search results, ALWAYS ask the user if they...</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>convertLeadToDeal</b></div>
@@ -3191,10 +3247,6 @@ Best for: Complex research questions needing deep analysis and...</div>
 <div class="tm"><a href="tools/rb2b">RB2B</a> &middot; in the vendor docs &middot; calling it reads &middot; read off npmjs</div>
 </li>
 <li>
-<div class="tn"><b>email_to_profile</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>email_verifier</b></div>
 <div class="tm"><a href="tools/hunter-io">Hunter.io</a> &middot; in the server source &middot; calling it reads</div>
 </li>
@@ -3664,7 +3716,8 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 </li>
 <li>
 <div class="tn"><b>find_email</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
+<div class="td">Find a professional email from a name + company</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_email_templates</b></div>
@@ -3672,8 +3725,9 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 <div class="tm"><a href="tools/close">Close (Close CRM)</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
-<div class="tn"><b>find_employees</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
+<div class="tn"><b>find_emails_bulk</b></div>
+<div class="td">Find up to 5,000 emails in one batch</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_forms</b></div>
@@ -3694,10 +3748,6 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 <div class="tn"><b>find_invoices</b></div>
 <div class="td">Find the organization&#x27;s billing invoices, newest first.</div>
 <div class="tm"><a href="tools/close">Close (Close CRM)</a> &middot; in the vendor docs &middot; calling it spends money</div>
-</li>
-<li>
-<div class="tn"><b>find_jobs</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_lead_custom_fields</b></div>
@@ -3725,10 +3775,6 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 <div class="tm"><a href="tools/close">Close (Close CRM)</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
-<div class="tn"><b>find_mobile</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>find_notes</b></div>
 <div class="td">Find notes based on various filters.</div>
 <div class="tm"><a href="tools/close">Close (Close CRM)</a> &middot; in the vendor docs &middot; calling it reads</div>
@@ -3744,17 +3790,19 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 <div class="tm"><a href="tools/close">Close (Close CRM)</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
-<div class="tn"><b>find_personal_email</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
+<div class="tn"><b>find_phone</b></div>
+<div class="td">Find a phone number from LinkedIn or name + company</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>find_phones_bulk</b></div>
+<div class="td">Find up to 3,000 phone numbers in one batch</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_pipelines_and_opportunity_statuses</b></div>
 <div class="td">List all opportunity pipelines and their opportunity statuses in the organization.</div>
 <div class="tm"><a href="tools/close">Close (Close CRM)</a> &middot; in the vendor docs &middot; calling it reads</div>
-</li>
-<li>
-<div class="tn"><b>find_role</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>find_scheduling_links</b></div>
@@ -4047,6 +4095,11 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 </li>
 <li>
 <div class="tn"><b>get_account_info</b></div>
+<div class="td">Check credit balance and webhooks</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_account_info</b></div>
 <div class="td">Get current account information including subscription plan, account ID, and capabilities. This tool should be called first to understand account limitations and determine which alert creation tools...</div>
 <div class="tm"><a href="tools/mention">Mention</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
 </li>
@@ -4134,10 +4187,6 @@ This tool is restricted to only `SELECT` statements. `INSERT`, `UPDATE`, and...<
 <div class="tn"><b>get_automation_sets</b></div>
 <div class="td">Lists automation sets which are used as an optional input to create a new proposal</div>
 <div class="tm"><a href="tools/offorte">Offorte</a> &middot; in the server source &middot; calling it writes</div>
-</li>
-<li>
-<div class="tn"><b>get_b2b_ad_details</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_backlinks</b></div>
@@ -4241,10 +4290,6 @@ Returns: Relevant code and...</div>
 <li>
 <div class="tn"><b>get_comments</b></div>
 <div class="tm"><a href="tools/loom">Loom</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
-</li>
-<li>
-<div class="tn"><b>get_company_funding</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_company_hierarchy</b></div>
@@ -4356,10 +4401,6 @@ Returns: Relevant code and...</div>
 </li>
 <li>
 <div class="tn"><b>get_credits</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
-<div class="tn"><b>get_credits</b></div>
 <div class="td">Current credit balance and usage.</div>
 <div class="tm"><a href="tools/seamless-ai">Seamless.AI</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
@@ -4427,9 +4468,19 @@ Returns: Relevant code and...</div>
 <div class="tm"><a href="tools/seamless-ai">Seamless.AI</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>get_email_result</b></div>
+<div class="td">Retrieve an email search result</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>get_email_templates</b></div>
 <div class="td">Lists available email templates which are used to send proposals</div>
 <div class="tm"><a href="tools/offorte">Offorte</a> &middot; in the server source &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>get_emails_bulk_result</b></div>
+<div class="td">Retrieve bulk email results</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_entities_attached_to_note</b></div>
@@ -4532,14 +4583,6 @@ Returns: Relevant code and...</div>
 <div class="tn"><b>get_initial_context</b></div>
 <div class="td">IMPORTANT: This tool must be called before using any other tools. It will get usage instructions &amp; Offorte context for this MCP server.</div>
 <div class="tm"><a href="tools/offorte">Offorte</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
-<div class="tn"><b>get_job_countries</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
-<div class="tn"><b>get_job_types</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_key_takeaways</b></div>
@@ -4754,6 +4797,16 @@ Returns: Relevant code and...</div>
 <div class="tn"><b>get_persona</b></div>
 <div class="td">Get details of a specific persona</div>
 <div class="tm"><a href="tools/tavus">Tavus</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
+</li>
+<li>
+<div class="tn"><b>get_phone_result</b></div>
+<div class="td">Retrieve a phone search result</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_phones_bulk_result</b></div>
+<div class="td">Retrieve bulk phone results</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_product_attribute</b></div>
@@ -5075,6 +5128,16 @@ Use this tool ONLY when:
 <div class="tn"><b>get_vendor_information</b></div>
 <div class="td">Vendor Information</div>
 <div class="tm"><a href="tools/hg-insights">HG Insights (Phoenix platform)</a> &middot; in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_verification_result</b></div>
+<div class="td">Retrieve a verification result</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>get_verifications_bulk_result</b></div>
+<div class="td">Retrieve bulk verification results</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_video</b></div>
@@ -7366,6 +7429,14 @@ Returns: Profile...</div>
 <div class="tm"><a href="tools/zoominfo">ZoomInfo</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>personBulkLookup</b></div>
+<div class="td">Look up multiple or single persons information from Lusha API. 
+        REQUIREMENTS: Each person body must have a combination of: 
+        1. LinkedIn URL, 
+        2. full name + company...</div>
+<div class="tm"><a href="tools/lusha">Lusha</a> &middot; in the server source &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>phantombuster_delete_agent</b></div>
 <div class="td">Delete a PhantomBuster agent permanently</div>
 <div class="tm"><a href="tools/phantombuster">PhantomBuster</a> &middot; in the server source &middot; calling it writes &middot; third party repo</div>
@@ -8774,10 +8845,6 @@ Returns: Profile...</div>
 <div class="tm"><a href="tools/affinity">Affinity</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
-<div class="tn"><b>search_b2b_ads</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>search_blog</b></div>
 <div class="td">Search Artisan&#x27;s blog (B2B prospecting, outbound, deliverability, AI in sales) by keyword. Returns matching posts with titles, URLs, and descriptions.</div>
 <div class="tm"><a href="tools/artisan-ai">Artisan AI (Ava)</a> &middot; answered tools/list &middot; calling it reads</div>
@@ -8820,10 +8887,6 @@ Returns: Profile...</div>
 <div class="tn"><b>search_companies_top_matches</b></div>
 <div class="td">Search for companies using natural language, structured filters, or both</div>
 <div class="tm"><a href="tools/affinity">Affinity</a> &middot; in the vendor docs &middot; calling it reads</div>
-</li>
-<li>
-<div class="tn"><b>search_company</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>search_company</b></div>
@@ -8904,10 +8967,6 @@ Returns: Profile...</div>
 <div class="tm"><a href="tools/loom">Loom</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
 </li>
 <li>
-<div class="tn"><b>search_google_ads</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>search_gov_opportunities</b></div>
 <div class="td">Search Gov Opportunities</div>
 <div class="tm"><a href="tools/hg-insights">HG Insights (Phoenix platform)</a> &middot; in the vendor docs &middot; calling it reads</div>
@@ -8958,10 +9017,6 @@ Returns: Profile...</div>
 <div class="tm"><a href="tools/grain">Grain</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li>
 <li>
-<div class="tn"><b>search_meta_ads</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>search_nodes</b></div>
 <div class="tm"><a href="tools/model-context-protocol-official-servers-repo">Model Context Protocol - official servers repo</a> &middot; in the server source &middot; calling it reads</div>
 </li>
@@ -9004,10 +9059,6 @@ Returns: Profile...</div>
 <div class="tn"><b>search_persons</b></div>
 <div class="td">Search for meeting participants when filtering</div>
 <div class="tm"><a href="tools/grain">Grain</a> &middot; in the vendor docs &middot; calling it reads</div>
-</li>
-<li>
-<div class="tn"><b>search_profile</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>search_properties</b></div>
@@ -10177,10 +10228,6 @@ Returns: Profile...</div>
 <div class="tm"><a href="tools/smartlead">Smartlead</a> &middot; in the server source &middot; calling it reads &middot; third party repo</div>
 </li>
 <li>
-<div class="tn"><b>social_to_work_email</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>standard</b></div>
 <div class="td">32</div>
 <div class="tm"><a href="tools/reclaim-ai">Reclaim.ai</a> &middot; in a README table &middot; calling it reads &middot; third party repo</div>
@@ -10851,10 +10898,6 @@ Returns: Profile...</div>
 <div class="td">Get a specific user by UUID</div>
 <div class="tm"><a href="tools/calendly">Calendly</a> &middot; in the vendor docs &middot; calling it reads</div>
 </li></ul><div class="alpha" id="V">V</div><ul class="caplist"><li>
-<div class="tn"><b>validate_email</b></div>
-<div class="tm"><a href="tools/leadmagic">LeadMagic</a> &middot; in the server source &middot; calling it reads</div>
-</li>
-<li>
 <div class="tn"><b>Variable</b></div>
 <div class="td">Required</div>
 <div class="tm"><a href="tools/loopio">Loopio</a> &middot; in a README table &middot; calling it reads &middot; third party repo</div>
@@ -10871,8 +10914,18 @@ Returns: Profile...</div>
 </li>
 <li>
 <div class="tn"><b>verify_email</b></div>
+<div class="td">Verify if an email is deliverable (works on catch-all)</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>verify_email</b></div>
 <div class="td">Standalone email verification</div>
 <div class="tm"><a href="tools/super-send">Super Send</a> &middot; in the vendor docs &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>verify_emails_bulk</b></div>
+<div class="td">Verify up to 5,000 emails in one batch</div>
+<div class="tm"><a href="tools/enrow">Enrow</a> &middot; in a README table &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>Version</b></div>
@@ -11212,7 +11265,7 @@ Not...</div>
 <h2>The gateway.</h2>
 <p class="sub">Pipeworx re-exposes other vendors' servers through one endpoint,
 so its 5,993 tools are other people's tools. They are listed here in full and kept
-out of the 2,327 above, because folding them in would make the directory look like
+out of the 2,329 above, because folding them in would make the directory look like
 it had catalogued five thousand GTM capabilities when it had catalogued one gateway.</p>
 <ul class="caplist"><li>
 <div class="tn"><b>19hz_events</b></div>
@@ -29200,18 +29253,18 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>336 directory entries across 15 category files.
-    320 unique products, 16 of them cross listed
+    <p>374 directory entries across 15 category files.
+    358 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
     <p>200 official MCP servers,
     25 community.
     1 bench tested.</p>
-    <p>8,507 tool names harvested on 2026-09-12 from
-    119 of those 225 servers.
-    106 are unmeasured, which is not the same as empty.</p>
+    <p>8,509 tool names harvested on 2026-09-11 from
+    120 of those 225 servers.
+    105 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    65 carry none and say why.</p>
+    103 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -29254,8 +29307,8 @@ it had catalogued five thousand GTM capabilities when it had catalogued one gate
 </div>
 <div class="legal">
 Generated 2026-09-12 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 336 vs recount
-336.<br>
+Reconciled: build 374 vs recount
+374.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

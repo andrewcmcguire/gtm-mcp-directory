@@ -1,6 +1,6 @@
-# Engagement & Outbound: 33 tools, 23 with an official MCP server
+# Engagement & Outbound: 38 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 33 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 38 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 33
+- **entries in this file**: 38
 
 - **Official MCP**: 23
 - **Community MCP**: 2
 - **MCP unknown**: 2
-- **No MCP found**: 6
+- **No MCP found**: 11
 
-- **ship a CLI (official) as of 2026-09-12**: 6
+- **ship a CLI (official) as of 2026-09-11**: 6
 
 - **Free to start**: 1
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 1
+- **Gate unknown**: 6
 
-Source file: 02-engagement-outbound.md · content sha256 85d06b78cc69e2e6... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 d736cf994c415c48... · counts reconciled against tools_recount.py at build time.
 
 - [The 25 with an MCP server](../lists/mcp-engagement-outbound.md)
 
@@ -104,4 +104,14 @@ Source file: 02-engagement-outbound.md · content sha256 85d06b78cc69e2e6... · 
 
 - [Orum](../tools/orum.md) orum.com AI-powered parallel dialer ("Calling Performance System") that dials up to 10 numbers simultaneously and bridges reps only to live human answers. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
+- [Mailchimp](../tools/mailchimp.md) mailchimp.com Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Mogli](../tools/mogli.md) mogli.com Streamline text messaging and transform engagement with Mogli's Salesforce SMS App. Discover our 5-star solution that makes texting from Salesforce easy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Natterbox](../tools/natterbox.md) natterbox.com Voice AI That Actually Works Curious to hear what an AI Agent would sound like for your business? Fill in the form below to create an AI Agent for your company in seconds. Deploy AI in minutes not months You... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [SMS-Magic](../tools/sms-magic.md) sms-magic.com SMS-Magic's business text messaging platform is top rated for Marketing, Sales, Support. Turn CRMs like Salesforce & Zoho into powerful conversational messaging app. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [WhatsApp Business](../tools/whatsapp-business.md) business.whatsapp.com Grow customer engagement, marketing, sales and customer service success with business messaging on the platform with more than 2 billion users around the world. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

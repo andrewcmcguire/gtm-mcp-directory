@@ -38,7 +38,7 @@ Outbound execution layer (sequencing, deliverability, unified inbox) that would 
 
 - **Auth**: OAuth 2.0 sign-in with the Amplemarket account in the browser; the knowledge article says no API keys are needed. Rate limit 100 requests per minute per user.
 
-- **Parsed URLs**: 3 found in the mcp_url field
+- **Parsed URLs**: 4 found in the mcp_url field
 
 - **Endpoint probe**: did not answer
 - **Probed**: 2026-09-04, HTTP None
@@ -51,17 +51,18 @@ official
 
 mcp_url, verbatim from the file:
 
-https://mcp.amplemarket.com/mcp ; https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server (endpoint https://mcp.amplemarket.com/mcp; product page https://www.amplemarket.com/mcp)
+https://mcp.amplemarket.com/mcp ; https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server (endpoint https://mcp.amplemarket.com/mcp; product page https://www.amplemarket.com/mcp) ; repo https://github.com/amplemarket/skills
 
 - [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp)
 - [https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server](https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server)
 - [https://www.amplemarket.com/mcp](https://www.amplemarket.com/mcp)
+- [https://github.com/amplemarket/skills](https://github.com/amplemarket/skills)
 
 **What this server exposes**
 
 - **Tools named**: 52
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -170,11 +171,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **update_sequence_stage** Edit the content of an existing step in a draft sequence. evidence: in the vendor docs · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -190,13 +191,17 @@ enterprise-leaning (any customer can self-generate a key at Settings > API, but 
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/amplemarket/skills](https://github.com/amplemarket/skills)
 
 **On GitHub**
 
@@ -230,7 +235,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -250,7 +255,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: An all-in-one sales platform (lead gen + multichannel engagement + deliverability) with an AI agent layer ("Duo Copilot") that detects buying signals, writes and A/B-tests email copy (including AI voice-cloned voice notes), runs multichannel sequences, and suggests meeting follow-ups.
 
-16 of the 336 entries are cross listed like this. They are why the entry count is 336 and the unique product count is 320. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 374 entries are cross listed like this. They are why the entry count is 374 and the unique product count is 358. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 
@@ -266,7 +271,7 @@ What that listing says it does: An all-in-one sales platform (lead gen + multich
 https://www.amplemarket.com/, https://glama.ai/mcp/servers?query=amplemarket, https://www.amplemarket.com/pricing, https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server, https://www.amplemarket.com/mcp, https://mcp.amplemarket.com/mcp
 
 **Notes, verbatim from the file**
-No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual. 2026-09-02: mcp_status none-found -> official, reconciled with the Amplemarket (Duo Copilot) entry in 04-ai-sdr-agents.md, which already recorded it. The help-center subdomain is reachable now: https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server returned 200 and documents the endpoint https://mcp.amplemarket.com/mcp (OAuth 2.0 sign-in, no API keys; Claude, ChatGPT, Claude Code, Cursor and any remote-capable client; prospect search, enrichment, sequences, lead lists, workflows, analytics; enrichment via MCP costs 0.5 credits). The endpoint answered 401 with a Bearer challenge today, which is the expected behaviour of an OAuth-gated MCP server. https://www.amplemarket.com/mcp links to the same guide. 2026-09-07: https://mcp.amplemarket.com/mcp returned 401 "Jwt is missing" to an MCP initialize POST. Vendor-owned mcp. subdomain (https://mcp.amplemarket.com/mcp).
+No public API/developer-docs page was found (an /api path 404'd, help-center subdomain unreachable) - could not confirm whether a general-purpose API exists at all. The one MCP hit indexed under Amplemarket's name (glama.ai/mcp/servers/artem-amplemarket/amplemarket-pylon-mcp) only searches Amplemarket's Pylon-hosted help-center articles, not the sales platform - not counted as a product MCP. [api_gate 2026-08-25] Reclassified unknown -> enterprise-leaning from the vendor's own page (https://www.amplemarket.com/pricing): any customer can self-generate a key at Settings > API, but there is no card checkout - every tier's CTA is a sales form and the lowest published tier is Startup at $600/mo annual. 2026-09-02: mcp_status none-found -> official, reconciled with the Amplemarket (Duo Copilot) entry in 04-ai-sdr-agents.md, which already recorded it. The help-center subdomain is reachable now: https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server returned 200 and documents the endpoint https://mcp.amplemarket.com/mcp (OAuth 2.0 sign-in, no API keys; Claude, ChatGPT, Claude Code, Cursor and any remote-capable client; prospect search, enrichment, sequences, lead lists, workflows, analytics; enrichment via MCP costs 0.5 credits). The endpoint answered 401 with a Bearer challenge today, which is the expected behaviour of an OAuth-gated MCP server. https://www.amplemarket.com/mcp links to the same guide. 2026-09-07: https://mcp.amplemarket.com/mcp returned 401 "Jwt is missing" to an MCP initialize POST. Vendor-owned mcp. subdomain (https://mcp.amplemarket.com/mcp). 2026-09-12 (P6-04 repo sweep): first-party repository recorded at https://github.com/amplemarket/skills - first-party agent skills for the hosted Amplemarket MCP, NOT the server source. Evidence: the org amplemarket, whose repo homepage is amplemarket.com/skills, and whose README reads "Sales skills for AI agents, designed to be used with the Amplemarket MCP".
 
 **Provenance**
 

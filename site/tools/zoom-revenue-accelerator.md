@@ -61,7 +61,7 @@ https://news.zoom.com/zoom-revenue-accelerator-mcp-connector/ ; https://github.c
 
 - **Tools named**: 1
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Repo read**: zoom/zoom-plugin
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -70,11 +70,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **Workflow** Description evidence: in a README table · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -86,13 +86,13 @@ api_gate, verbatim from the file:
 
 unknown/enterprise-leaning. Zoom Revenue Accelerator ships as an add-on to Zoom's paid meeting plans; explicit self-serve pricing for a single-seat/solo API user was not found in this research.
 
-33 of 336 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+71 of 374 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -133,7 +133,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -62,7 +62,7 @@ https://mcp.showpad.com/mcp/v1 ; https://developer.showpad.com/docs/integrations
 
 - **Tools named**: 12
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -91,14 +91,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **showpad_whoami** Returns the current user's identity: name, email, and account type. evidence: in the vendor docs · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: showpad
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -106,20 +106,20 @@ Install, as the source shows it:
 npm install -g @showpad/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@showpad/cli](https://www.npmjs.com/package/@showpad/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@showpad/cli](https://www.npmjs.com/package/@showpad/cli) on 2026-09-11, via npm
 
 ```
 npm install -g @showpad/experience-app-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@showpad/experience-app-cli](https://www.npmjs.com/package/@showpad/experience-app-cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@showpad/experience-app-cli](https://www.npmjs.com/package/@showpad/experience-app-cli) on 2026-09-11, via npm
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-11:
 
 - [npm: @showpad/cli 1.0.7](https://www.npmjs.com/package/@showpad/cli)
 - [npm: @showpad/experience-app-cli 3.1.1](https://www.npmjs.com/package/@showpad/experience-app-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -135,7 +135,7 @@ enterprise-only (the Developer Bundle (API/SDK, webhooks, reporting API) is bund
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -162,7 +162,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

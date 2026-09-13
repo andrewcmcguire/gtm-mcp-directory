@@ -1,6 +1,6 @@
 # What is an MCP server? A plain definition, plus how many GTM tools have one
 
-> An MCP server is a small program that exposes one system's capabilities to an AI agent in a standard shape. 200 of 336 GTM tools ship one officially. Counted 2026-09-12.
+> An MCP server is a small program that exposes one system's capabilities to an AI agent in a standard shape. 200 of 374 GTM tools ship one officially. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -26,7 +26,7 @@ Two things an MCP server is not. It is not a hosted service you sign up for, nec
 
 ## How many GTM tools actually have one
 
-This directory checked 336 go to market tools and found **200 with an official server**, the vendor's own, plus 25 where somebody outside the vendor built one. That is 67% of the entries reachable by an agent through MCP at all. 87 had no server found on the date they were checked, and 15 could not be settled either way.
+This directory checked 374 go to market tools and found **200 with an official server**, the vendor's own, plus 25 where somebody outside the vendor built one. That is 60% of the entries reachable by an agent through MCP at all. 125 had no server found on the date they were checked, and 15 could not be settled either way.
 
 The gap between those two numbers is the whole reason this directory exists. A category can be sold entirely on the language of AI and still have almost nothing an agent can call.
 

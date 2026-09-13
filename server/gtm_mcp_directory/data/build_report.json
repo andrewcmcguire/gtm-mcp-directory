@@ -2,7 +2,7 @@
   "generated_on": "2026-09-12",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
-  "entries_parsed": 336,
+  "entries_parsed": 374,
   "files_parsed": 15,
   "reconciliation": {
     "authority": "tools_recount.py",
@@ -10,38 +10,38 @@
     "per_file": [
       {
         "file": "01-data-enrichment.md",
-        "build_entries": 49,
-        "recount_entries": 49,
+        "build_entries": 57,
+        "recount_entries": 57,
         "ok": true
       },
       {
         "file": "02-engagement-outbound.md",
-        "build_entries": 33,
-        "recount_entries": 33,
+        "build_entries": 38,
+        "recount_entries": 38,
         "ok": true
       },
       {
         "file": "03-conversation-intel.md",
-        "build_entries": 24,
-        "recount_entries": 24,
+        "build_entries": 25,
+        "recount_entries": 25,
         "ok": true
       },
       {
         "file": "04-ai-sdr-agents.md",
-        "build_entries": 23,
-        "recount_entries": 23,
+        "build_entries": 25,
+        "recount_entries": 25,
         "ok": true
       },
       {
         "file": "05-signals-intent-abm.md",
-        "build_entries": 30,
-        "recount_entries": 30,
+        "build_entries": 32,
+        "recount_entries": 32,
         "ok": true
       },
       {
         "file": "06-revops-infra.md",
-        "build_entries": 31,
-        "recount_entries": 31,
+        "build_entries": 37,
+        "recount_entries": 37,
         "ok": true
       },
       {
@@ -52,8 +52,8 @@
       },
       {
         "file": "08-video-prospecting.md",
-        "build_entries": 15,
-        "recount_entries": 15,
+        "build_entries": 16,
+        "recount_entries": 16,
         "ok": true
       },
       {
@@ -64,54 +64,54 @@
       },
       {
         "file": "10-scheduling-routing.md",
-        "build_entries": 14,
-        "recount_entries": 14,
-        "ok": true
-      },
-      {
-        "file": "11-enablement-coaching.md",
-        "build_entries": 14,
-        "recount_entries": 14,
-        "ok": true
-      },
-      {
-        "file": "12-forecasting-revenue.md",
-        "build_entries": 17,
-        "recount_entries": 17,
-        "ok": true
-      },
-      {
-        "file": "13-proposals-deals.md",
         "build_entries": 15,
         "recount_entries": 15,
         "ok": true
       },
       {
+        "file": "11-enablement-coaching.md",
+        "build_entries": 16,
+        "recount_entries": 16,
+        "ok": true
+      },
+      {
+        "file": "12-forecasting-revenue.md",
+        "build_entries": 18,
+        "recount_entries": 18,
+        "ok": true
+      },
+      {
+        "file": "13-proposals-deals.md",
+        "build_entries": 18,
+        "recount_entries": 18,
+        "ok": true
+      },
+      {
         "file": "14-inbound-plg-chat.md",
-        "build_entries": 20,
-        "recount_entries": 20,
+        "build_entries": 25,
+        "recount_entries": 25,
         "ok": true
       },
       {
         "file": "15-community-dark-social.md",
-        "build_entries": 19,
-        "recount_entries": 19,
+        "build_entries": 20,
+        "recount_entries": 20,
         "ok": true
       }
     ],
-    "build_total": 336,
-    "recount_total": 336,
+    "build_total": 374,
+    "recount_total": 374,
     "build_mcp_status": {
       "community": 25,
       "n-a": 9,
-      "none-found": 87,
+      "none-found": 125,
       "official": 200,
       "unknown": 15
     },
     "recount_mcp_status": {
       "community": 25,
       "n-a": 9,
-      "none-found": 87,
+      "none-found": 125,
       "official": 200,
       "unknown": 15
     },
@@ -121,7 +121,7 @@
       "free": 78,
       "n-a": 6,
       "paid": 132,
-      "unknown": 33
+      "unknown": 71
     },
     "recount_api_gate": {
       "enterprise-leaning": 8,
@@ -129,7 +129,7 @@
       "free": 78,
       "n-a": 6,
       "paid": 132,
-      "unknown": 33
+      "unknown": 71
     },
     "duplicate_names_build": [
       "amplemarket",
@@ -172,83 +172,83 @@
     "reconciled": true
   },
   "coverage": {
-    "total_entries": 336,
+    "total_entries": 374,
     "schema_fields": {
       "name": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "vendor_url": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "category": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "what_it_does": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "ai_features": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "mcp_status": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "mcp_url": {
         "present": 319,
-        "missing": 17
+        "missing": 55
       },
       "mcp_auth": {
         "present": 331,
-        "missing": 5
+        "missing": 43
       },
       "api_gate": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "revops_role": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "tier": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "last_checked": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "sources": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       },
       "notes": {
-        "present": 336,
+        "present": 374,
         "missing": 0
       }
     },
-    "docs_url_present": 29,
-    "docs_url_missing": 307,
+    "docs_url_present": 46,
+    "docs_url_missing": 328,
     "mcp_url_present": 319,
-    "mcp_url_missing": 17,
+    "mcp_url_missing": 55,
     "mcp_url_with_parseable_url": 243,
-    "mcp_url_pointing_at_github": 83,
+    "mcp_url_pointing_at_github": 93,
     "mcp_auth_present": 331,
-    "github_candidates_any": 108,
+    "github_candidates_any": 118,
     "sources_zero_urls": 0,
     "sources_one_url": 13,
-    "sources_two_or_more_urls": 323,
-    "sources_url_total": 1468,
+    "sources_two_or_more_urls": 361,
+    "sources_url_total": 1587,
     "sources_with_annotations": 12,
     "entries_with_extra_fields": 0,
     "mcp_status": {
       "community": 25,
       "n-a": 9,
-      "none-found": 87,
+      "none-found": 125,
       "official": 200,
       "unknown": 15
     },
@@ -258,19 +258,20 @@
       "free": 78,
       "n-a": 6,
       "paid": 132,
-      "unknown": 33
+      "unknown": 71
     },
-    "api_gate_unknown": 33,
+    "api_gate_unknown": 71,
     "tier": {
       "BENCH-TESTED": 1,
-      "RESEARCHED": 335
+      "RESEARCHED": 373
     },
     "last_checked": {
       "2026-08-24": 71,
       "2026-08-25": 22,
       "2026-09-02": 121,
       "2026-09-03": 15,
-      "2026-09-07": 107
+      "2026-09-07": 107,
+      "2026-09-12": 38
     },
     "bench_tested": 1,
     "endpoint_status": {
@@ -281,50 +282,50 @@
       "docs-only": 97,
       "unreachable": 15,
       "not-probed": 44,
-      "not-applicable": 111
+      "not-applicable": 149
     },
     "official_with_live_endpoint": 27,
     "official_docs_only": 88,
-    "mcp_tool_count_total": 8507,
-    "servers_with_a_tool_list": 119,
+    "mcp_tool_count_total": 8509,
+    "servers_with_a_tool_list": 120,
     "servers_claiming_a_server": 225,
     "tools_by_evidence": {
       "live-list": 6098,
-      "source": 1149,
+      "source": 1138,
       "docs": 983,
-      "readme": 277
+      "readme": 290
     },
     "endpoint_probe_date": "2026-09-04",
     "jobs_tagged": 271,
-    "jobs_untagged": 65,
+    "jobs_untagged": 103,
     "jobs_assignments": 849,
     "jobs_tagged_by": {
-      "(untagged)": 65,
+      "(untagged)": 103,
       "machine-pass": 271
     },
     "unmeasured_spec_fields": {
-      "github_url": 336,
-      "github_stars": 336,
-      "github_last_commit": 336,
-      "github_archived": 336,
-      "github_fetched_on": 336,
-      "docs_digest": 336,
-      "docs_last_crawled": 336,
-      "submission": 336
+      "github_url": 374,
+      "github_stars": 374,
+      "github_last_commit": 374,
+      "github_archived": 374,
+      "github_fetched_on": 374,
+      "docs_digest": 374,
+      "docs_last_crawled": 374,
+      "submission": 374
     },
     "solo_reachable": 168
   },
   "jobs": {
     "vocabulary_size": 56,
     "tags_keys": 255,
-    "entries_total": 336,
+    "entries_total": 374,
     "entries_tagged": 271,
-    "entries_untagged": 65,
+    "entries_untagged": 103,
     "products_tagged": 255,
-    "products_untagged": 65,
+    "products_untagged": 103,
     "tag_assignments": 849,
     "tags_per_entry": {
-      "0": 65,
+      "0": 103,
       "1": 71,
       "2": 54,
       "3": 52,
@@ -349,16 +350,34 @@
       "01-apify",
       "01-tavily",
       "01-browserbase",
+      "01-enrich-crm",
+      "01-dealroom",
+      "01-catch-all-verifier",
+      "01-company-url-finder",
+      "01-leadspace",
+      "01-integrate",
+      "01-supermetrics",
+      "01-cloudingo",
       "02-dialpad",
       "02-justcall",
       "02-ringcentral-app-connect-mcp",
       "02-saleshandy",
       "02-aircall",
       "02-skyp-ai",
+      "02-mailchimp",
+      "02-whatsapp-business",
+      "02-sms-magic",
+      "02-natterbox",
+      "02-mogli",
+      "03-clozd",
       "04-relevance-ai",
+      "04-alysio",
+      "04-athean",
       "05-koala",
       "05-catchintent",
       "05-actively",
+      "05-techniq-abm",
+      "05-zinfi",
       "06-census",
       "06-superblocks",
       "06-microsoft-dynamics-365-sales",
@@ -369,6 +388,12 @@
       "06-dbt",
       "06-hex",
       "06-looker",
+      "06-vertify",
+      "06-boomi",
+      "06-databox",
+      "06-linkpoint-connect",
+      "06-apsona",
+      "06-cloudfiles",
       "07-mcp-so",
       "07-model-context-protocol-official-servers-repo",
       "07-klavis-ai",
@@ -379,11 +404,19 @@
       "07-stackone",
       "07-usefulapi-io",
       "08-wistia",
+      "08-onemob",
       "10-clockwise",
+      "10-kubaru",
       "11-workramp",
       "11-continu",
       "11-trainual",
+      "11-matik",
+      "11-spinify",
+      "12-revenue-grid",
       "13-offorte",
+      "13-minoa",
+      "13-conga",
+      "13-pdf-butler",
       "14-drift",
       "14-pocus",
       "14-correlated",
@@ -394,6 +427,11 @@
       "14-typeform",
       "14-jotform",
       "14-tally",
+      "14-survicate",
+      "14-pendo",
+      "14-surveymonkey",
+      "14-formstack",
+      "14-formassembly",
       "15-orbit",
       "15-sparktoro",
       "15-gummysearch",
@@ -402,7 +440,8 @@
       "15-bevy",
       "15-buffer",
       "15-hootsuite",
-      "15-metricool"
+      "15-metricool",
+      "15-blackthorn-events"
     ],
     "needs_review_count": 49,
     "needs_review": [
@@ -1461,18 +1500,43 @@
     },
     "api_gate_unknown": {
       "rule": "SCHEMA law 4: api_gate is the single most useful column for a solo operator. INDEX.md already calls this the directory's biggest remaining quality problem.",
-      "count": 33,
+      "count": 71,
       "entry_ids": [
+        "01-catch-all-verifier",
+        "01-cloudingo",
+        "01-company-url-finder",
+        "01-dealroom",
+        "01-enrich-crm",
+        "01-integrate",
+        "01-leadspace",
+        "01-supermetrics",
+        "02-mailchimp",
+        "02-mogli",
+        "02-natterbox",
         "02-outplay",
+        "02-sms-magic",
+        "02-whatsapp-business",
+        "03-clozd",
         "03-salesroom",
         "03-zoom-revenue-accelerator",
+        "04-alysio",
+        "04-athean",
         "04-luru",
         "04-rox",
         "04-trellus-ai",
         "05-actively",
+        "05-techniq-abm",
+        "05-zinfi",
+        "06-apsona",
+        "06-boomi",
+        "06-cloudfiles",
+        "06-databox",
+        "06-linkpoint-connect",
+        "06-vertify",
         "07-glama",
         "07-klavis-ai",
         "07-mcp-so",
+        "08-onemob",
         "08-potion",
         "08-quickpage",
         "08-trumpet",
@@ -1480,6 +1544,7 @@
         "10-clockwise",
         "10-doodle",
         "10-kronologic",
+        "10-kubaru",
         "10-reclaim-ai",
         "10-revenuehero",
         "10-trevor-ai",
@@ -1488,11 +1553,23 @@
         "11-hyperbound",
         "11-lavender",
         "11-luster",
+        "11-matik",
         "11-quantified",
         "11-second-nature",
+        "11-spinify",
+        "12-revenue-grid",
+        "13-conga",
+        "13-minoa",
+        "13-pdf-butler",
         "14-drift",
         "14-endgame",
+        "14-formassembly",
+        "14-formstack",
+        "14-pendo",
         "14-pylon",
+        "14-surveymonkey",
+        "14-survicate",
+        "15-blackthorn-events",
         "15-champion",
         "15-commsor",
         "15-orbit"
@@ -1500,16 +1577,18 @@
     },
     "docs_url_missing": {
       "rule": "SPEC 3.4: docs_url is blank-legal, but it is the seed for the whole docs intel layer (phase 6b/6c).",
-      "count": 307,
+      "count": 328,
       "entry_ids": [
         "01-apify",
         "01-apollo-io",
         "01-bettercontact",
         "01-bright-data",
         "01-browserbase",
+        "01-catch-all-verifier",
         "01-clay",
         "01-clearbit",
         "01-cognism",
+        "01-company-url-finder",
         "01-coresignal",
         "01-crunchbase",
         "01-crustdata",
@@ -1524,8 +1603,10 @@
         "01-fullenrich",
         "01-harmonic",
         "01-hunter-io",
+        "01-integrate",
         "01-leadiq",
         "01-leadmagic",
+        "01-leadspace",
         "01-lusha",
         "01-ocean-io",
         "01-people-data-labs",
@@ -1555,6 +1636,8 @@
         "02-la-growth-machine",
         "02-lemlist",
         "02-mailshake",
+        "02-mogli",
+        "02-natterbox",
         "02-orum",
         "02-outplay",
         "02-outreach",
@@ -1576,6 +1659,7 @@
         "03-chorus",
         "03-clari",
         "03-clari-copilot",
+        "03-clozd",
         "03-fathom",
         "03-fireflies-ai",
         "03-gong",
@@ -1593,8 +1677,10 @@
         "03-zoom-revenue-accelerator",
         "04-11x",
         "04-aisdr",
+        "04-alysio",
         "04-amplemarket",
         "04-artisan-ai",
+        "04-athean",
         "04-clari",
         "04-conversica",
         "04-copy-ai",
@@ -1636,6 +1722,7 @@
         "05-rb2b",
         "05-snitcher",
         "05-sumble",
+        "05-techniq-abm",
         "05-theirstack",
         "05-trigify",
         "05-usergems",
@@ -1643,9 +1730,11 @@
         "05-warmly",
         "06-airbyte",
         "06-attio",
+        "06-boomi",
         "06-cargo",
         "06-census",
         "06-close",
+        "06-databox",
         "06-dbt",
         "06-default",
         "06-fivetran",
@@ -1653,6 +1742,7 @@
         "06-hex",
         "06-hightouch",
         "06-hubspot",
+        "06-linkpoint-connect",
         "06-looker",
         "06-make",
         "06-microsoft-dynamics-365-sales",
@@ -1666,6 +1756,7 @@
         "06-snowflake",
         "06-superblocks",
         "06-syncari",
+        "06-vertify",
         "06-zapier",
         "06-zoho-crm",
         "07-claude-anthropic-mcp-connector-directory",
@@ -1733,6 +1824,7 @@
         "11-dialworks",
         "11-hyperbound",
         "11-luster",
+        "11-matik",
         "11-mindtickle",
         "11-quantified",
         "11-second-nature",
@@ -1760,6 +1852,7 @@
         "13-aligned",
         "13-arphie",
         "13-common-paper",
+        "13-conga",
         "13-dealhub",
         "13-docusign",
         "13-getaccept",
@@ -1767,6 +1860,7 @@
         "13-loopio",
         "13-offorte",
         "13-pandadoc",
+        "13-pdf-butler",
         "13-proposify",
         "13-qwilr",
         "13-recapped-io",
@@ -1778,6 +1872,7 @@
         "14-drift",
         "14-endgame",
         "14-forethought",
+        "14-formstack",
         "14-front",
         "14-help-scout",
         "14-intercom",
@@ -1785,12 +1880,15 @@
         "14-landbot",
         "14-pocus",
         "14-pylon",
+        "14-surveymonkey",
+        "14-survicate",
         "14-tally",
         "14-tidio",
         "14-toplyne",
         "14-typeform",
         "14-ultimate-ai",
         "15-bevy",
+        "15-blackthorn-events",
         "15-brand24",
         "15-brandwatch",
         "15-buffer",
@@ -1934,6 +2032,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "d1c00d241bb39276cdaa252d6cc792e4b3b0642f1ff62d3a97aed1d85797b356",
-  "source_sha256": "9e7e0bc8005b3275b0119fd1404ef0908f961a84b7fe8659eef9d11968ec6090"
+  "content_sha256": "8340c3627d129ac9cab38516e1ef7d34b4333dfe185040f3d182cf7f5ecd509c",
+  "source_sha256": "4db6759604aac0c46b55a20fe652e0a6aefad3af324018065533618553476405"
 }

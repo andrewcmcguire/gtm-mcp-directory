@@ -22,7 +22,7 @@ The layer that sits between an AI agent and the hundred SaaS apps a GTM team act
 - **MCP unknown**: 1
 - **MCP not applicable**: 4
 
-- **ship a CLI (official) as of 2026-09-12**: 9
+- **ship a CLI (official) as of 2026-09-11**: 9
 
 - **Free to start**: 12
 - **Paid, self-serve**: 2

@@ -61,7 +61,7 @@ https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp
 
 - **Tools named**: 71
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Repo read**: reply-team/reply-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -210,14 +210,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **reply_update_reply_handler** Patch a reply handler evidence: in the vendor docs · calling it reads
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: reply
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 
 Install, as the source shows it:
 
@@ -225,13 +225,13 @@ Install, as the source shows it:
 npm install -g reply-cli
 ```
 
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-12, via npm
+quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-11, via npm
 
 ```
 npx -y reply-cli
 ```
 
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-12, via npx
+quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-11, via npx
 
 Login or key hint seen on the page:
 
@@ -245,7 +245,7 @@ Where it was documented:
 
 - [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-11.
 
 **Access gate**
 
@@ -261,7 +261,7 @@ paid
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -305,7 +305,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -325,7 +325,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks.
 
-16 of the 336 entries are cross listed like this. They are why the entry count is 336 and the unique product count is 320. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 374 entries are cross listed like this. They are why the entry count is 374 and the unique product count is 358. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

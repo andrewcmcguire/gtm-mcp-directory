@@ -60,13 +60,36 @@ https://github.com/lusha-oss/lusha-public-api-mcp (also https://github.com/lusha
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 8
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-11
+- **Repo read**: lusha-oss/lusha-public-api-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **companyBulkLookup** Look up multiple or single companies information from Lusha API. REQUIREMENTS: Each company must provide at least one of: 1. Company name, 2. Company domain, 3. Fully qualified domain name (fqdn), or evidence: in the server source · calling it reads
+
+- **companyEnrich** Get detailed company information from search results. WARNING: CHARGES CREDITS - always ask user first! REQUIREMENTS: - requestId: from prospectingCompany search response - companiesIds: array of company IDs evidence: in the server source · calling it reads
+
+- **companyFilters** Get available filter options for company prospecting. No credits charged. FILTER TYPES: - names, industries, sizes, revenues, sics, naics, intentTopics - locations, technologies (require searchText parameter evidence: in the server source · calling it reads
+
+- **companySearch** Search for companies using advanced filters via Lusha evidence: in the server source · calling it reads
+
+- **contactEnrich** Enrich contacts from search results. This is step 3 of the prospecting process. IMPORTANT: - The requestId parameter MUST be the exact UUID received from the contactSearch response - ALWAYS ask the user which specif evidence: in the server source · calling it reads
+
+- **contactFilters** Get available filter values for contact search. Supports: 1. departments - List of available departments 2. seniority - List of available seniority levels 3. existing_data_points - List of available data points evidence: in the server source · calling it reads
+
+- **contactSearch** Search for contacts using various filters in Lusha API. This is step 2 of the prospecting process. IMPORTANT: - After returning search results, ALWAYS ask the user if they want to enrich specific contacts - evidence: in the server source · calling it reads
+
+- **personBulkLookup** Look up multiple or single persons information from Lusha API. REQUIREMENTS: Each person body must have a combination of: 1. LinkedIn URL, 2. full name + company domain/name, or 3. email address. evidence: in the server source · calling it reads
+
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -82,7 +105,7 @@ free
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -128,7 +151,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -38,7 +38,7 @@ Enterprise inbound AI agent platform for CX teams; notable in this category for 
 
 - **Auth**: none documented - connects over HTTP with no credential requirement described in the docs.
 
-- **Parsed URLs**: 1 found in the mcp_url field
+- **Parsed URLs**: 2 found in the mcp_url field
 
 - **Endpoint probe**: docs page, not an endpoint
 - **Docs URL**: [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server)
@@ -52,26 +52,27 @@ official (docs-only)
 
 mcp_url, verbatim from the file:
 
-https://docs.ada.cx/_mcp/server
+https://docs.ada.cx/_mcp/server ; repo https://github.com/AdaSupport/ada-skills
 
 - [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server)
+- [https://github.com/AdaSupport/ada-skills](https://github.com/AdaSupport/ada-skills)
 
 **What this server exposes**
 
 - **Tools named**: 1
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-11
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
 - **searchDocs** Search the documentation at https://docs.ada.cx. Returns relevant doc passages with source URLs. evidence: answered tools/list · calling it reads · required: query
 
-119 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 106 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+120 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 105 are unmeasured, which is not the same as empty. Harvest last run 2026-09-11. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-11 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -87,13 +88,17 @@ enterprise-only (/pricing is a demo-booking landing page with no tiers or prices
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+328 of 374 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
 Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.
 
 The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.
+
+A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:
+
+- [https://github.com/AdaSupport/ada-skills](https://github.com/AdaSupport/ada-skills)
 
 **On GitHub**
 
@@ -109,7 +114,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 374 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
@@ -123,7 +128,7 @@ Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 o
 https://www.ada.cx, https://docs.ada.cx, https://docs.ada.cx/_mcp/server, https://www.ada.cx/pricing/
 
 **Notes, verbatim from the file**
-IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search over the documentation") and only lets an AI client search Ada's own help docs; it is not an MCP for querying or acting on a customer's live Ada account data (conversations, contacts, etc.). Listed as official because the URL is real and vendor-hosted, but do not conflate this with a full product-data MCP like Intercom's or Pylon's. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ada.cx/pricing/): /pricing is a demo-booking landing page with no tiers or prices; docs.ada.cx publishes a public API reference but states no plan or package requirement for access. 2026-09-07: https://docs.ada.cx/_mcp/server answered an MCP initialize with HTTP 200 and a jsonrpc result - a live, unauthenticated MCP server on the vendor domain (https://docs.ada.cx/_mcp/server).
+IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search over the documentation") and only lets an AI client search Ada's own help docs; it is not an MCP for querying or acting on a customer's live Ada account data (conversations, contacts, etc.). Listed as official because the URL is real and vendor-hosted, but do not conflate this with a full product-data MCP like Intercom's or Pylon's. [api_gate 2026-08-25] Reclassified unknown -> enterprise-only from the vendor's own page (https://www.ada.cx/pricing/): /pricing is a demo-booking landing page with no tiers or prices; docs.ada.cx publishes a public API reference but states no plan or package requirement for access. 2026-09-07: https://docs.ada.cx/_mcp/server answered an MCP initialize with HTTP 200 and a jsonrpc result - a live, unauthenticated MCP server on the vendor domain (https://docs.ada.cx/_mcp/server). 2026-09-12 (P6-04 repo sweep): first-party repository recorded at https://github.com/AdaSupport/ada-skills - first-party agent skills for the Ada MCP Server, NOT the server source. Evidence: the org AdaSupport, whose GitHub profile name is Ada and whose profile site is ada.cx, the vendor domain on this entry, and whose repo description reads "Agent Skills for the Ada MCP Server".
 
 **Provenance**
 

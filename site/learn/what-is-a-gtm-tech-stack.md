@@ -16,7 +16,7 @@
 
 **The short answer**
 
-A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 336 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
+A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 374 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
 
 Most stack diagrams are drawn by category because that is how software is sold. An agent does not experience it that way. It experiences a chain of doors, and the chain is only as good as its locked link.
 
@@ -24,27 +24,27 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 
 | Layer | Tools | Official MCP | Community | Reachable |
 |---|---|---|---|---|
-| [RevOps Infra](../categories/revops-infra.md) | 31 | 29 | 0 | 94% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 49 | 42 | 2 | 90% |
-| [Conversation Intel](../categories/conversation-intel.md) | 24 | 19 | 2 | 88% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 33 | 23 | 2 | 76% |
+| [Conversation Intel](../categories/conversation-intel.md) | 25 | 19 | 2 | 84% |
+| [RevOps Infra](../categories/revops-infra.md) | 37 | 29 | 0 | 78% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 57 | 42 | 2 | 77% |
 | [MCP Layer](../categories/mcp-infrastructure.md) | 19 | 14 | 0 | 74% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 30 | 20 | 1 | 70% |
-| [Video Prospecting](../categories/video-prospecting.md) | 15 | 4 | 6 | 67% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 15 | 8 | 2 | 67% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 20 | 11 | 2 | 65% |
-| [Community & Dark Social](../categories/community-dark-social.md) | 19 | 8 | 3 | 58% |
-| [Scheduling & Routing](../categories/scheduling-routing.md) | 14 | 5 | 2 | 50% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 23 | 8 | 2 | 43% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 38 | 23 | 2 | 66% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 32 | 20 | 1 | 66% |
+| [Video Prospecting](../categories/video-prospecting.md) | 16 | 4 | 6 | 62% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 18 | 8 | 2 | 56% |
+| [Community & Dark Social](../categories/community-dark-social.md) | 20 | 8 | 3 | 55% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 25 | 11 | 2 | 52% |
+| [Scheduling & Routing](../categories/scheduling-routing.md) | 15 | 5 | 2 | 47% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 25 | 8 | 2 | 40% |
 | [Email Deliverability](../categories/email-deliverability.md) | 13 | 4 | 0 | 31% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 14 | 2 | 1 | 21% |
-| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 17 | 3 | 0 | 18% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 16 | 2 | 1 | 19% |
+| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 18 | 3 | 0 | 17% |
 
-Counted 2026-09-12. Totals sum to 336 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-12. Totals sum to 374 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
-The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 23.
+The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 25.
 
 If you are assembling a stack an agent can drive, build it from the top of that table down. The bottom is where you will still be writing glue, or clicking.
 

@@ -1,6 +1,6 @@
-# Video Prospecting: 15 tools, 4 with an official MCP server
+# Video Prospecting: 16 tools, 4 with an official MCP server
 
-> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 15 tools counted, 4 with an official MCP server and 3 free to start.
+> Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name,... 16 tools counted, 4 with an official MCP server and 3 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,22 +16,22 @@
 
 Personalized video for outbound - a rep records one clip, and the tool inserts the prospect's name, company, or website into it (either simple templated overlay or genuine AI voice-clone/avatar generation), then tracks opens inside an email or sequence. MCP maturity here is close to zero: the only two official servers found (Tavus, HeyGen) belong to general-purpose AI-avatar platforms that happen to have a sales use case, not the dedicated video-prospecting vendors, which have shipped nothing publishable yet - several rely on generic Zapier MCP gateways instead of a first-party server.
 
-- **entries in this file**: 15
+- **entries in this file**: 16
 
 - **Official MCP**: 4
 - **Community MCP**: 6
 - **MCP unknown**: 1
-- **No MCP found**: 4
+- **No MCP found**: 5
 
-- **ship a CLI (official) as of 2026-09-12**: 3
+- **ship a CLI (official) as of 2026-09-11**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 6
 - **Enterprise leaning**: 1
 - **Enterprise only**: 2
-- **Gate unknown**: 3
+- **Gate unknown**: 4
 
-Source file: 08-video-prospecting.md · content sha256 1e52b0a1b8e49a11... · counts reconciled against tools_recount.py at build time.
+Source file: 08-video-prospecting.md · content sha256 cb258c333deca1c1... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-video-prospecting.md)
 
@@ -65,6 +65,8 @@ Source file: 08-video-prospecting.md · content sha256 1e52b0a1b8e49a11... · co
 - [Dubb](../tools/dubb.md) dubb.com Video sales-messaging platform with a built-in lightweight CRM - record/send personalized prospecting and follow-up videos via email, SMS, LinkedIn, iMessage, or QR code, with trackable video landing pages. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Hippo Video](../tools/hippo-video.md) hippovideo.io Video engagement platform for sales teams to record, automate, and personalize video outreach at scale, merging prospect variables into template videos and chaining them into "Video Flows" inside sequences. [No MCP found](../mcp/none-found.md) · [Enterprise leaning](../gates/enterprise-leaning.md)
+
+- [OneMob](../tools/onemob.md) onemob.com Create personalized video microsites, track prospect engagement in real-time, and convert more deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Potion](../tools/potion.md) sendpotion.com AI video-personalization tool for outbound sales - record one template video, and Potion overlays a personalized version per prospect (dynamic name/logo/background) for cold email and LinkedIn outreach at... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

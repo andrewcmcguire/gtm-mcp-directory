@@ -1,6 +1,6 @@
-# Enablement & Coaching: 14 tools, 2 with an official MCP server
+# Enablement & Coaching: 16 tools, 2 with an official MCP server
 
-> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 14 tools counted, 2 with an official MCP server and 0 free to start.
+> Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a... 16 tools counted, 2 with an official MCP server and 0 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainual) sit alongside a newer cluster of purpose-built AI roleplay tools (Second Nature, Hyperbound, Quantified, Luster, Dialworks) where the AI *is* the product - dynamic AI buyer personas that argue back, not scripted branching trees. Highspot and Seismic are covered in 03-conversation-intel.md (their conversation-intelligence/call-analysis modules qualify them there); not duplicated here.
 
-- **entries in this file**: 14
+- **entries in this file**: 16
 
 - **Official MCP**: 2
 - **Community MCP**: 1
 - **MCP unknown**: 3
-- **No MCP found**: 8
+- **No MCP found**: 10
 
-- **ship a CLI (official) as of 2026-09-12**: 1
+- **ship a CLI (official) as of 2026-09-11**: 1
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
-- **Gate unknown**: 7
+- **Gate unknown**: 9
 
-Source file: 11-enablement-coaching.md · content sha256 6e5000999d3c4bc4... · counts reconciled against tools_recount.py at build time.
+Source file: 11-enablement-coaching.md · content sha256 66cceb22c6d16eeb... · counts reconciled against tools_recount.py at build time.
 
 - [The 3 with an MCP server](../lists/mcp-enablement-coaching.md)
 
@@ -62,6 +62,10 @@ Source file: 11-enablement-coaching.md · content sha256 6e5000999d3c4bc4... · 
 
 - [Luster](../tools/luster.md) luster.ai "Predictive Enablement" platform combining AI cold-call/objection-handling roleplay drills with live-call signal analysis to flag rep skill gaps before they show up in real deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Matik](../tools/matik.md) matik.io Matik's AI automates the creation of personalized presentations, documents, and reports directly from your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [Quantified](../tools/quantified.md) quantified.ai AI roleplay and coaching platform aimed at regulated-industry (life sciences, pharma, financial services) sales teams, using photorealistic avatar personas for compliance-scored practice conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Second Nature](../tools/second-nature.md) secondnature.ai AI roleplay platform for enterprise sales teams that generates AI buyer personas from a text description or uploaded content and runs 1:1, group, or chat-based practice conversations, then scores and gives... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Spinify](../tools/spinify.md) spinify.com Turn CRM data into predictable sales performance with real-time visibility, automated competitions and AI coaching across every team. Book a demo. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

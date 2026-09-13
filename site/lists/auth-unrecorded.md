@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers with no auth model recorded
 
-**List · 28 of 336**
+**List · 28 of 374**
 
 ## GTM MCP servers with no auth model recorded
 
@@ -29,7 +29,7 @@ pipeworx.io | [Official MCP](../mcp/official.md) | [https://gateway.pipeworx.io/
 | [TheirStack](../tools/theirstack.md)
 theirstack.com | [Official MCP](../mcp/official.md) | [https://api.theirstack.com/mcp/](https://api.theirstack.com/mcp/) +1 more | unknown - page references a "How does authentication work?" FAQ but the answer wasn't visible in the fetched content; requires free signup/login to... | [Free to start](../gates/free.md) |
 | [Amplemarket (Duo Copilot)](../tools/amplemarket.md)
-amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +1 more | Account sign-in (no API key needed) - "sign in with your Amplemarket account when prompted" | [Paid, self-serve](../gates/paid.md) |
+amplemarket.com | [Official MCP](../mcp/official.md) | [https://mcp.amplemarket.com/mcp](https://mcp.amplemarket.com/mcp) +2 more | Account sign-in (no API key needed) - "sign in with your Amplemarket account when prompted" | [Paid, self-serve](../gates/paid.md) |
 | [Arphie](../tools/arphie.md)
 arphie.ai | [Official MCP](../mcp/official.md) | referenced via pricing/product pages describing an "Arphie... | unknown | [Paid, self-serve](../gates/paid.md) |
 | [Maildoso](../tools/maildoso.md)
@@ -45,11 +45,11 @@ salesforge.ai | [Official MCP](../mcp/official.md) | [https://mcp.salesforge.ai/
 | [Snitcher](../tools/snitcher.md)
 snitcher.com | [Official MCP](../mcp/official.md) | [https://app.snitcher.com/mcp/snitcher](https://app.snitcher.com/mcp/snitcher) +1 more | unknown - vendor changelog points to docs.snitcher.com for authentication specifics, not independently confirmed. | [Paid, self-serve](../gates/paid.md) |
 | [Sumble](../tools/sumble.md)
-sumble.com | [Official MCP](../mcp/official.md) | [https://mcp.sumble.com/](https://mcp.sumble.com/) +2 more | unknown - the MCP overview page documents one-click install from the Claude and ChatGPT app directories and a custom MCP connection for Cursor,... | [Paid, self-serve](../gates/paid.md) |
+sumble.com | [Official MCP](../mcp/official.md) | [https://mcp.sumble.com/](https://mcp.sumble.com/) +3 more | unknown - the MCP overview page documents one-click install from the Claude and ChatGPT app directories and a custom MCP connection for Cursor,... | [Paid, self-serve](../gates/paid.md) |
 | [Clari](../tools/clari.md)
 clari.com | [Official MCP](../mcp/official.md) | [https://mcp.clari.com/mcp](https://mcp.clari.com/mcp) +1 more | unknown / not disclosed publicly | [Enterprise leaning](../gates/enterprise-leaning.md) |
 | [Ada](../tools/ada.md)
-ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) | none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
+ada.cx | [Official MCP](../mcp/official.md) | [https://docs.ada.cx/_mcp/server](https://docs.ada.cx/_mcp/server) +1 more | none documented - connects over HTTP with no credential requirement described in the docs. | [Enterprise only](../gates/enterprise-only.md) |
 | [Artisan AI (Ava)](../tools/artisan-ai.md)
 artisan.co | [Official MCP](../mcp/official.md) | [https://www.artisan.co/mcp](https://www.artisan.co/mcp) | none required - a JSON-RPC initialize POST to the endpoint with no credentials answered HTTP 200 on 2026-09-02 (serverInfo name "artisan-content",... | [Enterprise only](../gates/enterprise-only.md) |
 | [Clari (+ Salesloft agents)](../tools/clari.md)
@@ -65,7 +65,7 @@ ironcladapp.com | [Official MCP](../mcp/official.md) | [https://support.ironclad
 | [Otter.ai](../tools/otter-ai.md)
 otter.ai | [Official MCP](../mcp/official.md) | [https://mcp.otter.ai/mcp](https://mcp.otter.ai/mcp) +3 more | unknown - exact auth mechanism not confirmed in public sources; framed under "Otter for Enterprise" with a demo-request CTA. | [Enterprise only](../gates/enterprise-only.md) |
 | [Pigment](../tools/pigment.md)
-pigment.com | [Official MCP](../mcp/official.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +1 more | A workspace admin enables MCP under Settings > Integrations, generating a per-workspace endpoint; individual users then connect with their existing... | [Enterprise only](../gates/enterprise-only.md) |
+pigment.com | [Official MCP](../mcp/official.md) | [https://www.pigment.com/ai/mcp-server](https://www.pigment.com/ai/mcp-server) +2 more | A workspace admin enables MCP under Settings > Integrations, generating a per-workspace endpoint; individual users then connect with their existing... | [Enterprise only](../gates/enterprise-only.md) |
 | [Talkwalker (rebranded: Lumen by Talkwalker)](../tools/talkwalker.md)
 talkwalker.com | [Official MCP](../mcp/official.md) | [https://mcp.hootsuite.com/lumen](https://mcp.hootsuite.com/lumen) +1 more | Sign in with a Hootsuite workspace when prompted; the Hootsuite MCP page says authorization is one-time. | [Enterprise only](../gates/enterprise-only.md) |
 | [Unify](../tools/unify.md)
@@ -75,4 +75,4 @@ brandwatch.com | [Community MCP](../mcp/community.md) | [https://github.com/ambo
 | [DealHub (DealHub AI)](../tools/dealhub.md)
 dealhub.io | [Community MCP](../mcp/community.md) | [https://www.pulsemcp.com/servers/vishvick-dealhub-ad...](https://www.pulsemcp.com/servers/vishvick-dealhub-admin) | unknown - stdio transport run locally against the customer's own DealHub instance per the npm description; credential mechanism not read | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 374 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

@@ -20,11 +20,11 @@ Check five places in this order: this directory, the vendor's own developer docu
 
 ## The five places, in order
 
-- **This directory.** 336 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
+- **This directory.** 374 entries, each with an MCP status, the vendor's own mcp_url and mcp_auth printed verbatim, and the date the check was made.
 
-- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 29 of 336 entries here record a documentation URL, which tells you something in itself about the other 307.
+- **The vendor's developer documentation.** Not the homepage. Marketing pages say AI powered; developer docs say what the endpoint is. 46 of 374 entries here record a documentation URL, which tells you something in itself about the other 328.
 
-- **Their GitHub organisation.** 108 entries here already carry a github.com URL somewhere in their fields and 83 of those are in the mcp_url field itself, which usually means a local server you run yourself.
+- **Their GitHub organisation.** 118 entries here already carry a github.com URL somewhere in their fields and 93 of those are in the mcp_url field itself, which usually means a local server you run yourself.
 
 - **The protocol's reference repository**, which is where a large number of community servers are catalogued.
 

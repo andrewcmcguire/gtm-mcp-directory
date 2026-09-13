@@ -36,9 +36,9 @@ Vendor domain: [lemlist.com](https://lemlist.com) · vendor page id lemlist-com
 
 - **Tools catalogued**: not measured on any product of this vendor
 
-- **Bench tested**: 0 of 1 here, 1 of 336 across the directory
+- **Bench tested**: 0 of 1 here, 1 of 374 across the directory
 
-- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-11
 
 - **GitHub organisation**: none tied to lemlist.com with evidence on 2026-09-08
 
@@ -97,9 +97,9 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 npm install -g @lemlist-official/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@lemlist-official/cli](https://www.npmjs.com/package/@lemlist-official/cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@lemlist-official/cli](https://www.npmjs.com/package/@lemlist-official/cli) on 2026-09-11, via npm, a third party source
 
-harvested 2026-09-12, all on the [tool page](../tools/lemlist.md).
+harvested 2026-09-11, all on the [tool page](../tools/lemlist.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -113,6 +113,6 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 336 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 374 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

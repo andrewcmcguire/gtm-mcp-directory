@@ -22,7 +22,7 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 - **MCP unknown**: 1
 - **No MCP found**: 8
 
-- **ship a CLI (official) as of 2026-09-12**: 0
+- **ship a CLI (official) as of 2026-09-11**: 0
 
 - **Free to start**: 2
 - **Paid, self-serve**: 10
