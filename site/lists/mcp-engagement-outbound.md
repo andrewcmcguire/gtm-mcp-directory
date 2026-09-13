@@ -1,6 +1,6 @@
-# Engagement & Outbound tools with MCP servers: 35 of 127, counted
+# Engagement & Outbound tools with MCP servers: 38 of 130, counted
 
-> 35 of the 127 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 12 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 38 of the 130 engagement & outbound tools in The GTM MCP Directory have an MCP server: 23 official and 15 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Engagement & Outbound tools with an MCP server
 
-**List · 35 of 982**
+**List · 38 of 1,032**
 
 ## Engagement & Outbound tools with an MCP server
 
-The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 35 of 127 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 12 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
+The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none. 38 of 130 entries in this category are reachable by an agent: 23 through a server the vendor maintains and 15 through one somebody else built. The category is tagged most often with Run an email sequence. [See the full category page](../categories/engagement-outbound.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -93,6 +93,9 @@ api key. The community server takes an Aircall API ID and API token, which the p
 | [Overloop](../tools/overloop.md)
 overloop.com | [Community MCP](../mcp/community.md) | [https://github.com/sortlist/overloop-mcp](https://github.com/sortlist/overloop-mcp) | API key
 api key via OVERLOOP_API_KEY environment variable | [Paid, self-serve](../gates/paid.md) |
+| [Bavlio](../tools/bavlio.md)
+bavlio.com | [Community MCP](../mcp/community.md) | [https://github.com/Bavlio/bavlio-mcp](https://github.com/Bavlio/bavlio-mcp) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [Crevideo Reach](../tools/crevideo-reach.md)
 crevideo.com | [Community MCP](../mcp/community.md) | [https://github.com/crevideo/crevideo-reach](https://github.com/crevideo/crevideo-reach) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
@@ -114,8 +117,14 @@ blank | [Gate unknown](../gates/unknown.md) |
 | [PersuadioAI](../tools/persuadioai.md)
 persuadioai.com | [Community MCP](../mcp/community.md) | [https://github.com/mannyfernandezvc/persuadioai-plat...](https://github.com/mannyfernandezvc/persuadioai-platform) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
+| [Podcast Guest CRM](../tools/podcast-guest-crm.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/RudrenduPaul/podcast-guest-crm](https://github.com/RudrenduPaul/podcast-guest-crm) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
 | [RepScale](../tools/repscale.md)
 repscale.ai | [Community MCP](../mcp/community.md) | [https://repscale.ai](https://repscale.ai) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/signal-found/sf-mcp](https://github.com/signal-found/sf-mcp) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Toflow](../tools/toflow.md)
 toflow.ai | [Community MCP](../mcp/community.md) | [https://github.com/toflow-ai/toflow-mcp](https://github.com/toflow-ai/toflow-mcp) | Auth not recorded
@@ -326,4 +335,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Warm up an inbox](../jobs/warm-up-inbox.md)
 - [Search people by criteria](../jobs/search-people-by-criteria.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

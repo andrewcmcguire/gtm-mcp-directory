@@ -1,6 +1,6 @@
 # Enterprise leaning: 8 GTM tools, counted
 
-> 8 of 982 GTM tools in this directory are enterprise leaning. Self-serve on paper, gated in practice. One entry sits here.
+> 8 of 1,032 GTM tools in this directory are enterprise leaning. Self-serve on paper, gated in practice. One entry sits here.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 Self-serve on paper, gated in practice. One entry sits here.
 
-8 of 982 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+8 of 1,032 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Amplemarket](../tools/amplemarket.md) amplemarket.com An all-in-one sales engagement platform that finds leads, runs multichannel outbound sequences (email/social/phone/voice), and optimizes email deliverability. [Official MCP](../mcp/official.md) · [Enterprise leaning](../gates/enterprise-leaning.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 

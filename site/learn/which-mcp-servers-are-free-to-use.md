@@ -149,7 +149,7 @@ A raw person/company data API that returns profile records (name, job history, e
 
 ## What this directory does and does not track about money
 
-- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 78 entries are free to start, 132 paid self serve, 79 enterprise only, 679 unknown.
+- **Tracked:** whether a solo operator can get API access at all, in four buckets, with a source. 78 entries are free to start, 132 paid self serve, 79 enterprise only, 729 unknown.
 
 - **Not tracked:** prices, credit costs, quota sizes, rate limits, overage behaviour, or what happens to your data on a free tier. None of those should be inferred from anything here.
 

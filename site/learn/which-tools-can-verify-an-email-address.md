@@ -24,7 +24,7 @@ Verification is the step between finding an address and sending to it, and skipp
 
 | Measure | Count | Of what |
 |---|---|---|
-| Entries tagged verify-email-deliverable | 15 | of 982 directory entries |
+| Entries tagged verify-email-deliverable | 15 | of 1,032 directory entries |
 | Distinct products | 15 | the rest are cross listings |
 | Official MCP server | 12 | vendor built and maintained |
 | Community MCP server | 2 | built by somebody else |

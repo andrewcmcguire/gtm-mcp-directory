@@ -1,6 +1,6 @@
-# Which GTM tools have official MCP servers? 200 of 982, counted
+# Which GTM tools have official MCP servers? 200 of 1032, counted
 
-> 200 of 982 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-12.
+> 200 of 1,032 go to market tools ship an MCP server their own vendor builds and maintains. The full list by category, with server URLs and auth. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-200 of the 982 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 271 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
+200 of the 1,032 go to market tools in this directory ship an official MCP server, meaning the vendor builds and maintains it. A further 321 have a community built server. The heaviest concentrations are in enrichment, RevOps infrastructure and signals.
 
 Official is a strict test here. The vendor has to ship and maintain the server itself. A wrapper built by Zapier, Composio, viaSocket or any other integration platform is recorded as community no matter how well it works, because when the underlying API changes, only one of those two has a team whose job it is to notice.
 
@@ -24,27 +24,27 @@ Official is a strict test here. The vendor has to ship and maintain the server i
 
 | Category | Official | Community | Of total | The list |
 |---|---|---|---|---|
-| [Data & Enrichment](../categories/data-enrichment.md) | 42 | 35 | 149 | [open](../lists/mcp-data-enrichment.md) |
+| [Data & Enrichment](../categories/data-enrichment.md) | 42 | 66 | 180 | [open](../lists/mcp-data-enrichment.md) |
 | [RevOps Infra](../categories/revops-infra.md) | 29 | 11 | 89 | [open](../lists/mcp-revops-infra.md) |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 23 | 12 | 127 | [open](../lists/mcp-engagement-outbound.md) |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 20 | 5 | 65 | [open](../lists/mcp-signals-intent-abm.md) |
-| [Conversation Intel](../categories/conversation-intel.md) | 19 | 2 | 47 | [open](../lists/mcp-conversation-intel.md) |
-| [MCP Layer](../categories/mcp-infrastructure.md) | 14 | 182 | 201 | [open](../lists/mcp-mcp-infrastructure.md) |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 23 | 15 | 130 | [open](../lists/mcp-engagement-outbound.md) |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 20 | 6 | 66 | [open](../lists/mcp-signals-intent-abm.md) |
+| [Conversation Intel](../categories/conversation-intel.md) | 19 | 3 | 48 | [open](../lists/mcp-conversation-intel.md) |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 14 | 193 | 212 | [open](../lists/mcp-mcp-infrastructure.md) |
 | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 11 | 2 | 51 | [open](../lists/mcp-inbound-plg-chat.md) |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 8 | 4 | 57 | [open](../lists/mcp-ai-sdr-agents.md) |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 8 | 5 | 58 | [open](../lists/mcp-ai-sdr-agents.md) |
 | [Proposals & Deals](../categories/proposals-deals.md) | 8 | 2 | 27 | [open](../lists/mcp-proposals-deals.md) |
 | [Community & Dark Social](../categories/community-dark-social.md) | 8 | 3 | 21 | [open](../lists/mcp-community-dark-social.md) |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 5 | 3 | 18 | [open](../lists/mcp-scheduling-routing.md) |
 | [Video Prospecting](../categories/video-prospecting.md) | 4 | 6 | 24 | [open](../lists/mcp-video-prospecting.md) |
-| [Email Deliverability](../categories/email-deliverability.md) | 4 | 2 | 24 | [open](../lists/mcp-email-deliverability.md) |
-| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 3 | 1 | 24 | [open](../lists/mcp-forecasting-revenue.md) |
+| [Email Deliverability](../categories/email-deliverability.md) | 4 | 3 | 25 | [open](../lists/mcp-email-deliverability.md) |
+| [Forecasting & Revenue](../categories/forecasting-revenue.md) | 3 | 2 | 25 | [open](../lists/mcp-forecasting-revenue.md) |
 | [Enablement & Coaching](../categories/enablement-coaching.md) | 2 | 1 | 58 | [open](../lists/mcp-enablement-coaching.md) |
 
 Counted 2026-09-12 from directory.json, reconciled against tools_recount.py. Entry counts: 16 products appear in two categories and are counted in both here.
 
 ## The full list
 
-All 200 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 489 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
+All 200 are published on one page with the server URL, the auth model and the access gate for each: [the official MCP servers list](../lists/official-mcp-servers.md). 539 entries across the directory carry a parseable server URL; where a vendor claims a server in prose without one, that is recorded as a risk on the methodology page rather than quietly cleaned up.
 
 ## The first fifteen, in the published order
 

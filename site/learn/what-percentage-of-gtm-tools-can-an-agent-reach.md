@@ -1,6 +1,6 @@
-# What percentage of GTM tools can an AI agent reach? 48%, and less once you count the gate
+# What percentage of GTM tools can an AI agent reach? 50%, and less once you count the gate
 
-> 48% of 982 GTM tools have an MCP server. Once the access gate is applied the reachable number drops again. The arithmetic, counted 2026-09-12.
+> 50% of 1,032 GTM tools have an MCP server. Once the access gate is applied the reachable number drops again. The arithmetic, counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,16 +16,16 @@
 
 **The short answer**
 
-48% of the 982 go to market tools counted here have an MCP server of any kind. Applying the second filter, that you can actually get an account without a contract, 168 entries pass both tests, which is 17% of the directory.
+50% of the 1,032 go to market tools counted here have an MCP server of any kind. Applying the second filter, that you can actually get an account without a contract, 168 entries pass both tests, which is 16% of the directory.
 
 ## The funnel
 
-| Filter | Entries left | Share of 982 |
+| Filter | Entries left | Share of 1,032 |
 |---|---|---|
-| Every tool counted | 982 | 100% |
-| Has a server of any kind | 471 | 48% |
-| Server is first party | 200 | 20% |
-| Server, and free or paid self serve | 168 | 17% |
+| Every tool counted | 1,032 | 100% |
+| Has a server of any kind | 521 | 50% |
+| Server is first party | 200 | 19% |
+| Server, and free or paid self serve | 168 | 16% |
 | Server, first party, and free to start | 62 | 6% |
 | And somebody here has actually run it | 1 | 0% |
 
@@ -37,7 +37,7 @@ Every percentage above the last two is a documentation reading. It says a vendor
 
 ## The direction of travel
 
-Do not read 48% as a permanent state. It is a reading taken on 2026-09-12 from 982 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25, 2026-09-02, 2026-09-03, 2026-09-07, 2026-09-12. The point of stamping every number with a date is that the next reading is comparable to this one.
+Do not read 50% as a permanent state. It is a reading taken on 2026-09-12 from 1,032 entries whose facts were pulled by hand on 2026-08-24, 2026-08-25, 2026-09-02, 2026-09-03, 2026-09-07, 2026-09-12. The point of stamping every number with a date is that the next reading is comparable to this one.
 
 ## Sources
 

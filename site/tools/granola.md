@@ -62,7 +62,7 @@ https://www.pulsemcp.com/servers/granola (official server at https://mcp.granola
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 471 entries that record an official or community MCP server carry a harvested tool list. The other 352 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 521 entries that record an official or community MCP server carry a harvested tool list. The other 402 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -130,7 +130,7 @@ paid (API access and MCP integration start on the Business plan at $14/user/mo; 
 
 No documentation URL recorded.
 
-629 of 982 entries are in the same position. Blank is legal and it is published as blank.
+635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -159,7 +159,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 982 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,032 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -1,6 +1,6 @@
-# AI SDR tools with MCP servers: 12 of 57, counted
+# AI SDR tools with MCP servers: 13 of 58, counted
 
-> 12 of the 57 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 4 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 13 of the 58 ai sdrs tools in The GTM MCP Directory have an MCP server: 8 official and 5 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / AI SDR tools with an MCP server
 
-**List · 12 of 982**
+**List · 13 of 1,032**
 
 ## AI SDR tools with an MCP server
 
-This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 12 of 57 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 4 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
+This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic. 13 of 58 entries in this category are reachable by an agent: 8 through a server the vendor maintains and 5 through one somebody else built. The category is tagged most often with Draft personalized outreach. [See the full category page](../categories/ai-sdr-agents.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -50,6 +50,9 @@ copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/
 API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 | [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/gcarreno-dev/elizabeth-ai-agent](https://github.com/gcarreno-dev/elizabeth-ai-agent) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [GenPark Sales Agent MCP](../tools/genpark-sales-agent-mcp.md)
+github.com | [Community MCP](../mcp/community.md) | [https://github.com/alphaparkinc/genpark-sales-agent](https://github.com/alphaparkinc/genpark-sales-agent) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 | [Vruum](../tools/vruum.md)
 vruum.ai | [Community MCP](../mcp/community.md) | [https://www.npmjs.com/search?q=mcp%20gtm](https://www.npmjs.com/search?q=mcp%20gtm) | Auth not recorded
@@ -163,4 +166,4 @@ The jobs most often tagged on the 22 tagged entries in this category.
 - [Send a LinkedIn message or connection request](../jobs/send-linkedin-message.md)
 - [Place an outbound call](../jobs/place-outbound-call.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

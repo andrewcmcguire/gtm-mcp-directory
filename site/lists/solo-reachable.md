@@ -1,6 +1,6 @@
 # GTM tools a solo operator can reach: 168 with a server and no procurement cycle
 
-> 168 of 982 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-12.
+> 168 of 1,032 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid self serve. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / The 168 GTM tools an agent can call and a solo operator can pay for
 
-**List · 168 of 982**
+**List · 168 of 1,032**
 
 ## The 168 GTM tools an agent can call and a solo operator can pay for
 
-Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 210 entries pass the gate test on its own (78 free to start plus 132 paid self serve) and 471 pass the server test on its own. 168 pass both. Paying is allowed; a procurement cycle is not.
+Solo reachable is the intersection of the two columns this directory publishes, and it is the strictest useful filter here. A server has to exist, and the door has to open without a contract. 210 entries pass the gate test on its own (78 free to start plus 132 paid self serve) and 521 pass the server test on its own. 168 pass both. Paying is allowed; a procurement cycle is not.
 
 | Tool | Category | Gate | MCP status | Jobs it is tagged with |
 |---|---|---|---|---|
@@ -355,4 +355,4 @@ vidyard.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, s
 | [Weezly](../tools/weezly.md)
 weezly.com | [Video Prospecting](../categories/video-prospecting.md) | [Paid, self-serve](../gates/paid.md) | [Community MCP](../mcp/community.md) | [Create and send a prospecting video](../jobs/create-and-send-prospecting-video.md) [Book a meeting](../jobs/book-a-meeting.md) |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

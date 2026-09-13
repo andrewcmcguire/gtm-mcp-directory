@@ -1,6 +1,6 @@
 # GTM tools by GitHub repo health: not measured yet, and why
 
-> Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 316 entries carry a github.com URL as a seed.
+> Repo staleness for every tool with a public repo, stamped with the date it was measured. Nothing is measured in this build: 362 entries carry a github.com URL as a seed.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,13 +13,13 @@
 
 ## Is the thing you are about to depend on still moving.
 
-> **Nothing measured yet** github_url, github_stars, github_last_commit, github_archived and github_fetched_on are null on all 982 entries. The refresh rail in SPEC section 7.2 has not been run. A star count without the date it was taken is a lie, so no number is shown at all.
+> **Nothing measured yet** github_url, github_stars, github_last_commit, github_archived and github_fetched_on are null on all 1,032 entries. The refresh rail in SPEC section 7.2 has not been run. A star count without the date it was taken is a lie, so no number is shown at all.
 
 When the rail runs, every repo lands in one of five bands and every band ships with the date it was measured: active under 90 days, slowing 90 to 180, quiet 180 to 365, dormant over a year, and archived. The band is descriptive and never a verdict. A stable server genuinely may not need commits. But an agent about to write a community MCP wrapper into a workflow deserves to know the repo has been silent for eight months first, and this directory already has the receipts that the category churns.
 
 ### The seed, which is a fact and not a measurement
 
-316 of 982 entries already carry a github.com URL somewhere in their fields, and 280 of those sit in the mcp_url field. Those repos are free to measure when the rail runs. Nothing below says anything about whether a repo is healthy.
+362 of 1,032 entries already carry a github.com URL somewhere in their fields, and 326 of those sit in the mcp_url field. Those repos are free to measure when the rail runs. Nothing below says anything about whether a repo is healthy.
 
 - [Apideck](../tools/apideck.md) apideck.com A unified API that normalises 200+ SaaS connectors into single data models, exposed as one MCP endpoint covering CRM, accounting, HRIS, ATS, file storage and issue tracking. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: apideck
 
@@ -257,6 +257,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [ActiveCampaign MCP by pipeworx](../tools/activecampaign-mcp-by-pipeworx.md) github.com ActiveCampaign MCP Pack - email marketing + CRM (API v3). - pipeworx-io/mcp-activecampaign [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [amoCRM MCP by theYahia](../tools/amocrm-mcp-by-theyahia.md) github.com MCP server for amoCRM - leads, contacts, pipelines, tasks (Russia) - theYahia/amocrm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [AmpUp GTM Chat](../tools/ampup-gtm-chat.md) chat.ampup.ai Chat over your CRM, meetings, and knowledge base. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Anyquery](../tools/anyquery.md) anyquery.dev Run SQL on GitHub, Notion, Spotify, Gmail, Airtable, Google Sheets, CSVs, Parquet, logs - and 40+ more. One binary, one dialect. Then hand it to an LLM over MCP. Open source, AGPL-3.0. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
@@ -266,6 +268,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 - [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md) github.com Apex SDK for building Model Context Protocol (MCP) servers natively in Salesforce - bfmvsa/mcp-apex-sdk [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Apollo Agent CLI by bcharleson](../tools/apollo-agent-cli-by-bcharleson.md) github.com Agent-native CLI and MCP server for Apollo.io REST API - bcharleson/apollo-agent-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Apollo MCP by AgenTeam](../tools/apollo-mcp-by-agenteam.md) github.com An open-source, MIT Licensed, custom MCP server for Apollo.io - AgenTeam-AI-2026/mcp-apollo [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Apollo MCP by BlockchainRev](../tools/apollo-mcp-by-blockchainrev.md) github.com MCP server for Apollo.io sales engagement platform - 34+ tools for prospecting, outreach automation, and pipeline management - BlockchainRev/apollo-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -293,19 +297,31 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Artefact MCP](../tools/artefact-mcp.md) github.com Revenue intelligence MCP server: RFM analysis, 14.5-point ICP scoring, pipeline health scoring. Embeds Artefact Formula methodology. HubSpot integration. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [AstroFabric MCP](../tools/astrofabric-mcp.md) astrofabric.ai Build with AstroFabric's autonomous intelligence platform using REST, MCP and CLI across datasets, enrichment, signals, audiences and governed delivery. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Attio MCP by Arkel-ai](../tools/attio-mcp-by-arkel-ai.md) github.com Community MCP server for Attio CRM so agents can work pipeline and account data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Attio MCP by hmk](../tools/attio-mcp-by-hmk.md) github.com Contribute to hmk/attio-mcp-server development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [AU BizIntel MCP](../tools/au-bizintel-mcp.md) github.com Australian Business Intelligence MCP Server - ABN lookup, business search, AI prospect intelligence for AI agents - ljdigital/au-bizintel-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [B2B Enrichment MCP by Aleksey-Panf](../tools/b2b-enrichment-mcp-by-aleksey-panf.md) github.com Unified MCP server combining Hunter.io and Apollo for B2B lead enrichment - Aleksey-Panf/b2b-enrichment-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Bavlio](../tools/bavlio.md) bavlio.com Bavlio is an AI-powered sales outreach platform that researches every lead and writes personalized cold email and LinkedIn campaigns for your team. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [BD Desk MCP by iaj6](../tools/bd-desk-mcp-by-iaj6.md) github.com An end-to-end BD pipeline on Claude Managed Agents - lead sourcing, research, outreach drafting, and a deployable CRM. The system researches and drafts; a human always sends. - iaj6/bd-desk [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Bitrix24 MCP by john7ross](../tools/bitrix24-mcp-by-john7ross.md) github.com Universal, full-featured, portable MCP server for the Bitrix24 REST API (CRM, tasks, scrum, calendar, disk, users, messaging) - read and write. - john7ross/BitrixMCP [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [Bitrix24 MCP by theYahia](../tools/bitrix24-mcp-by-theyahia.md) github.com MCP server for Bitrix24 - CRM, deals, contacts, tasks (Russia) - theYahia/bitrix24-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [Blitz API Open Source](../tools/blitz-api-open-source.md) github.com Open-source Apollo.io-style lead-sourcing UI powered by the Blitz API - malharlakdawala/blitzapi-opensource [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [BNI MCP by alexaltovate](../tools/bni-mcp-by-alexaltovate.md) github.com MCP server for BNI member search in Germany & Austria - find members, analyze chapter gaps, prepare 1:1 outreach - alexaltovate/bni-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Brand Intel MCP](../tools/brand-intel-mcp.md) github.com Domain & brand intelligence for AI agents - company enrichment, domain intelligence, tech stack detection, brand research. MCP + x402. - FoundryNet/brand-intel-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Bytemine MCP](../tools/bytemine-mcp.md) github.com Bytemine MCP Server - Search 130M+ B2B contacts and enrich profiles with verified emails & phone numbers directly from Claude, Cursor, and other AI assistants via the Model Context Protocol. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Capsule CRM MCP by MonadsAG](../tools/capsule-crm-mcp-by-monadsag.md) github.com Contribute to MonadsAG/capsulecrm-mcp development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -333,9 +349,13 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Cognis Dealflow MCP](../tools/cognis-dealflow-mcp.md) github.com Model a sales pipeline as a YAML state machine and compute conversion rates, stage velocity, and weighted forecasts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [Cognis Enrichr MCP](../tools/cognis-enrichr-mcp.md) cognis.digital Enrich a leads CSV with firmographic data via Cognis Digital tooling. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Cognis Leadforge MCP](../tools/cognis-leadforge-mcp.md) github.com Lightweight MCP-native CRM pipeline with email sequences. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Coldforge](../tools/coldforge.md) github.com Honest, local-first cold outreach toolkit: research, personalize, sequence, send, follow. CLI + MCP server, no SaaS, no required API keys. - Makeph/coldforge [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Company Enrichment MCP by sercanmetalore](../tools/company-enrichment-mcp-by-sercanmetalore.md) github.com Firmographic profile, NACE/NAICS categorization, and contact extraction from a company domain. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [CompCode MCP](../tools/compcode-mcp.md) compcode.ai The first commission platform where plans are created, modified, and versioned via API. Statements your team trusts. Plan changes in minutes, not weeks. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
@@ -349,11 +369,19 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Customer Intelligence Hub](../tools/customer-intelligence-hub.md) github.com Customer Intelligence Hub: AI Agents for CRM Analytics, Slack & Marketing Automation | LangGraph & MCP - Gabrielm3/customer-intelligence-hub [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [DataLayer.sh MCP](../tools/datalayer-sh-mcp.md) datalayer.sh B2B enrichment API with 60M companies and 300M verified contacts. Enrich by domain or email - get intent signals, technographics, funding data, and verified contacts in one API call. MCP-native for AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Decern CRM MCP](../tools/decern-crm-mcp.md) github.com MCP server for Decern CRM: contacts, deals, pipelines, tasks, and approvals. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Diffbot MCP by pipeworx](../tools/diffbot-mcp-by-pipeworx.md) github.com Diffbot MCP - Knowledge Graph company enrichment + web content extraction (diffbot.com) - pipeworx-io/mcp-diffbot [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Dolibarr MCP by sachitha7](../tools/dolibarr-mcp-by-sachitha7.md) github.com MCP server for Dolibarr ERP/CRM - manage thirdparties, proposals, contracts and invoices from Claude or any MCP client - sachitha7/mcp-server-dolibarr [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md) github.com Fully autonomous AI sales agent on WhatsApp Business API. Groq LLM · Firebase Cloud Functions · Firestore · Google Sheets ETL · MCP server · finite-state lead pipeline from cold outreach to qualified handoff -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Emelia](../tools/emelia.md) emelia.io Emelia simplifies LinkedIn and email prospecting, helping you find future clients with an easy-to-use platform and advanced technology. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+
+- [Entity Enricher MCP](../tools/entity-enricher-mcp.md) entityenricher.ai Use Entity Enricher directly from claude.ai, Claude Desktop, Claude Code, Cursor, and other MCP clients. Embedded Model Context Protocol server with 29 tools, 2 resources, OAuth 2.1 or X-API-Key auth, and... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Everything Civi MCP](../tools/everything-civi-mcp.md) github.com MCP server for complete CiviCRM operations ΓÇö 28 tools for contacts, contributions, memberships, events, cases, SearchKit, bulk import, and all 150+ entities [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -365,13 +393,35 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [FounderStack CRM](../tools/founderstack-crm.md) crm-landing-three.vercel.app FounderStack keeps your sales conversations, follow-ups, and client context in one place-without pipelines, setup, or CRM overhead. Built for founders who sell via WhatsApp, email, and DMs. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
+- [FullEnrich Skills](../tools/fullenrich-skills.md) github.com List of skills.md for Claude. Usage for Claude, MCP and Plugin - FullEnrich/fullenrich-skills [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Fundz Agent Examples](../tools/fundz-agent-examples.md) github.com Working examples for the Fundz Agent API - buying signals, SEC 8-K and Form D funding evidence for GTM agents and AI SDRs. - Fund-z/agent-examples [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [GenPark B2B Lead Waterfall Skill](../tools/genpark-b2b-lead-waterfall-skill.md) genpark.ai B2B lead waterfall enrichment cascade skill for AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [GenPark Deal Velocity Skill](../tools/genpark-deal-velocity-skill.md) genpark.ai Conversational B2B deal velocity scoring engine skill for AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
+
+- [GenPark Lead Scoring Skill](../tools/genpark-lead-scoring-skill.md) genpark.ai B2B lead scoring and buyer intent data enricher skill for AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [GenPark Leads Enrichment Skill](../tools/genpark-leads-enrichment-skill.md) github.com Automated Leads Enrichment Agent Skill. Performs lookups on corporate attributes and drafts targeted B2B sales development emails. - alphaparkinc/genpark-automated-leads-enrichment-skill [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [GenPark Sales Agent MCP](../tools/genpark-sales-agent-mcp.md) github.com Autonomous outbound B2B sales development representative. - alphaparkinc/genpark-sales-agent [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+
+- [GenPark Waterfall Intent Scoring Skill](../tools/genpark-waterfall-intent-scoring-skill.md) genpark.ai Waterfall B2B lead enrichment with intent scoring skill for AI agents. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [GlobalSearchData Enrich MCP](../tools/globalsearchdata-enrich-mcp.md) github.com Free -> no API key required. Domain or company name -> company intelligence for AI agents. Look up company name, country, contacts, and social profiles from any MCP-compatible client. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Gmail Outreach MCP by brandononchain](../tools/gmail-outreach-mcp-by-brandononchain.md) github.com MCP Agent for Gmail outreach and lead nurturing. . Contribute to brandononchain/gmail-mcp-agent development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [GoHighLevel MCP by NightSquawk](../tools/gohighlevel-mcp-by-nightsquawk.md) github.com We handle all your technical problems so you can focus on growing your business. Managed IT services including help desk, cybersecurity, cloud services, and network monitoring. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [GoHighLevel MCP by northrosetech](../tools/gohighlevel-mcp-by-northrosetech.md) github.com A comprehensive Model Context Protocol (MCP) server that connects AI assistants directly to your GoHighLevel CRM. Supports **60+ tools** across contacts, conversations, calendars, pipelines, payments,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [GoHighLevel MCP by rockurbusinesscs](../tools/gohighlevel-mcp-by-rockurbusinesscs.md) github.com A small, readable MCP server for GoHighLevel API v2. Six tools, dry-run writes, and the API gotchas documented. MIT. - rockurbusinesscs-ship-it/gohighlevel-mcp-starter [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Google Maps Email Extractor MCP](../tools/google-maps-email-extractor-mcp.md) github.com Google Maps businesses to leads with a verified contact email. Search by keyword or enrich a website list. No proxy. - the-ai-entrepreneur-ai-hub/google-maps-email-extractor [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Google Maps Extractor MCP by dppalukuri](../tools/google-maps-extractor-mcp-by-dppalukuri.md) github.com MCP server for Google Maps lead generation - search businesses, enrich with emails/phones/socials, score leads, export CSV. Free, no API keys needed. - dppalukuri/mcp-google-maps-extractor [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [GTM Copilot by archanakrishnan](../tools/gtm-copilot-by-archanakrishnan.md) github.com AI-powered GTM intelligence, lead scoring, personalized outreach, and HubSpot CRM automation built with n8n, Apollo MCP, Firecrawl, and Groq AI. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -392,6 +442,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 - [HubSpot MCP by mindstone-engineering](../tools/hubspot-mcp-by-mindstone-engineering.md) github.com Production-ready MCP connectors for popular SaaS tools. Works with Claude Desktop, Cursor, Rebel, and any MCP host. - mcp-servers/connectors/hubspot at main · mindstone/mcp-servers [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [HubSpot MCP by pipeworx](../tools/hubspot-mcp-by-pipeworx.md) github.com HubSpot MCP Pack. Contribute to pipeworx-io/mcp-hubspot development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Hunter MCP by scalably](../tools/hunter-mcp-by-scalably.md) scalably.io Hunter.io MCP: domain search, email finder and verifier, enrichment, discovery, leads. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [IN2 Agent MCP](../tools/in2-agent-mcp.md) github.com IN2 MCP stdio server: turns Campfire Salesforce requirements into verified org changes, driven by a Claude Code supervisor. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -417,7 +469,13 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Leadgen MCP by koolninad](../tools/leadgen-mcp-by-koolninad.md) github.com MCP Server for AI-powered lead generation - scans websites, crawls platforms, and sends personalized outreach emails - koolninad/leadgen-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [LeadMagic MCP](../tools/leadmagic-mcp.md) leadmagic.io Local TypeScript MCP server for the LeadMagic API: email finder, email validation, company enrichment, and research tools over stdio. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [LeadOracle MCP](../tools/leadoracle-mcp.md) tooloracle.io LeadOracle ΓÇö B2B Lead Intelligence MCP Server | 7 tools | Company lookup, domain enrichment, email finder | Part of ToolOracle [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Leadpipe MCP](../tools/leadpipe-mcp.md) github.com AI-powered lead qualification engine for MCP. Ingest, enrich, score, and export leads to your CRM. - automatiabcn/leadpipe-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [LeadScout MCP](../tools/leadscout-mcp.md) chenagent.dev MCP server for LeadScout Spanish B2B lead generation for PyMEs. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Leadzaar](../tools/leadzaar.md) github.com Local-first, single-user sales CRM in one self-contained Go binary - tview TUI + MCP stdio server over an embedded bbolt store - Techthos/leadzaar [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -427,13 +485,19 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md) github.com Daily job-change trigger for Claude Code. Detects changes the day they happen via LinkedIn MCP (Zevari) - not 30-90 days later like Apollo/Clay. Pipedrive + Instantly + Slack. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
+- [LinkedIn Marketing MCP by 1036007003-wq](../tools/linkedin-marketing-mcp-by-1036007003-wq.md) github.com LinkedIn B2B marketing MCP Server - profile search, company analysis, outreach message drafting. - 1036007003-wq/linkedin-marketing-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [LinkedIn Outreach MCP by hfarazul](../tools/linkedin-outreach-mcp-by-hfarazul.md) github.com LinkedIn outreach automation MCP server for Claude Code - search, connect, and message prospects with rate limiting - hfarazul/linkedin-outreach-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [LinkedIn Outreach MCP by MEOK](../tools/linkedin-outreach-mcp-by-meok.md) meok.ai ≡ƒöî Exposes linkedin outreach tools over MCP (MEOK AI Labs) [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [LinkedNav](../tools/linkednav.md) linkednav.com LinkedNav detects LinkedIn buying signals and sends personalized outreach you approve. Built for founders and lead-gen agencies. Free 7-day trial. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
+- [LinkMCP](../tools/linkmcp.md) app.linkmcp.io The LinkedIn access layer for AI agents. Search, message, and enrich LinkedIn from Claude, ChatGPT, Cursor, n8n, or your own agent - 31 tools over MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [LinkupAPI LinkedIn Skills](../tools/linkupapi-linkedin-skills.md) linkupapi.com Claude Skills for LinkedIn outreach, high-intent leads, feed engagement, and profile enrichment via LinkupAPI MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [ListSignal MCP](../tools/listsignal-mcp.md) listsignal.com Query 14M+ online businesses by tech stack, revenue, and hiring signals. REST API + MCP server for AI agents. Free tier: 1,000 lookups/month, no card required. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Little Green Light MCP](../tools/little-green-light-mcp.md) github.com A direct, secure, and high-fidelity Model Context Protocol (MCP) Server for the Little Green Light CRM database. - WillHeadlee/Little-Green-Light-MCP-Server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -471,9 +535,13 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Munin](../tools/munin.md) getmunin.com The customer platform for the agentic era. MCP-first, open source, self-hostable. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [myOPC](../tools/myopc.md) myopc.io All-in-one AI business platform with 28+ modules: CRM, inventory, accounting, sales orders, quotations, HR, payroll, tax compliance & e-invoicing. Bring your own AI key (BYOK) from 13 providers and connect AI... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [n47vc MCP Suite](../tools/n47vc-mcp-suite.md) github.com Deploy MCP servers to Vercel in minutes. Includes Gmail, Google Drive, and Apollo.io servers with pluggable OAuth authentication. - n47vc/mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Nevent MCP](../tools/nevent-mcp.md) nevent.ai Connect Nevent to Claude, ChatGPT and other LLMs via MCP. Ask, analyze, segment and launch event campaigns from chat, using real data from your CRM. Age... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Nex MCP](../tools/nex-mcp.md) github.com Organizational context and memory for AI agents; connect 100+ tools into one knowledge graph. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Nimbus](../tools/nimbus.md) testnimbus.dev Run real Salesforce Apex locally - no org, no Docker - then ship through the same tool: gated deploys, Salesforce validation, release receipts. A typical test runs in tens of milliseconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -489,7 +557,11 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Oisha OS](../tools/oisha-os.md) github.com Autonomous Multi-Agent Operating System for Modern Agency Operations, CRM & Financial Intelligence [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [Opafex MCP Suite](../tools/opafex-mcp-suite.md) github.com Open-source MCP servers for entity enrichment, file processing, web research, and more - usable with Claude Code, Claude Desktop, Cursor, and any MCP-compatible client. - Opafex/opafex-mcps [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Open Sales Stack MCP by ekas](../tools/open-sales-stack-mcp-by-ekas.md) github.com MCP and tools for various tasks related to ekas. Contribute to ekas-io/open-sales-stack development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [OpenDirectories MCP](../tools/opendirectories-mcp.md) github.com MCP server for 12M+ verified businesses across 10 countries. Government-sourced, Google Maps enriched. 6 tools for search, verification, competitor analysis, and market research. - BigJai/opendirectories-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [OpsDoctor](../tools/opsdoctor.md) opsdoctor.app Get a free AI-powered diagnostic of your CRM and operational workflows, scored across four dimensions with a branded PDF report. 38 CRM platforms. 8 industry verticals. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -505,6 +577,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [PaidSync MCP](../tools/paidsync-mcp.md) paidsync.ai The MCP server that runs Google, Meta, LinkedIn, TikTok ads from Claude, ChatGPT, and Gemini. 470+ tools, 14 platforms, approval-gated. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [People Data Labs MCP by pipeworx](../tools/people-data-labs-mcp-by-pipeworx.md) github.com People Data Labs MCP - wraps the PDL person/company enrichment API - pipeworx-io/mcp-peopledatalabs [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
 - [Perfex CRM MCP](../tools/perfex-crm-mcp.md) themesic.com Connect Perfex CRM to AI agents, automation platforms and any third-party app with a flexible, fully-documented REST API and a built-in MCP server. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [PersuadioAI](../tools/persuadioai.md) persuadioai.com Turn more seller leads into real conversations. PersuadioAI follows up by text, email, and AI voice calls, handles replies, and alerts your acquisitions team when someone is ready to talk. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
@@ -516,6 +590,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 - [Planhat MCP by da-troll](../tools/planhat-mcp-by-da-troll.md) github.com Unofficial local MCP server for Planhat CRM: 60 tools for Claude Desktop and any MCP client. - da-troll/Planhat-MCP [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Ploomes MCP by victorbenazzi](../tools/ploomes-mcp-by-victorbenazzi.md) github.com Unofficial Model Context Protocol server that connects AI agents to the Ploomes CRM REST API - victorbenazzi/ploomes-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Podcast Guest CRM](../tools/podcast-guest-crm.md) github.com AI-native CRM for podcast guest booking: lifecycle pipeline, AI outreach drafting, and a real CLI - RudrenduPaul/podcast-guest-crm [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Potarix Enricher](../tools/potarix-enricher.md) github.com MCP server for Potarix Enricher company and email lookup tools - Potarix/potarix-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -550,6 +626,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 - [Salesforce Docs MCP by Sanket](../tools/salesforce-docs-mcp-by-sanket.md) github.com A local-first MCP server for searching Salesforce Developer Documentation. Search 360+ official Salesforce PDF docs from VS Code or Claude Desktop. - SalesforceDiariesBySanket/salesforce-docs-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Salesforce Hosted Custom MCP by Sanket](../tools/salesforce-hosted-custom-mcp-by-sanket.md) github.com Salesforce Hosted Custom MCP Server - MCP Server Definitions, External Service Registrations, and Related Apex Classes - SalesforceDiariesBySanket/Salesforce-Hosted-Custom-Mcp-Server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Salesforce Intelligence MCP](../tools/salesforce-intelligence-mcp.md) github.com Salesforce Org Intelligence for AI agents - a read-only, offline, source-available MCP server and CLI answering metadata, dependency, permission, Apex and Flow questions grounded in real retrieved org... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Salesforce Marketing Cloud MCP by Devart](../tools/salesforce-marketing-cloud-mcp-by-devart.md) github.com Self-hosted MCP server for secure AI access to Salesforce Marketing Cloud. - devart-ai-connectivity/devart-mcp-server-salesforce-marketing-cloud [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -597,13 +675,21 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 
 - [Salesforce MCP Security Toolkit](../tools/salesforce-mcp-security-toolkit.md) github.com **Adversarial MCP integration testing toolkit for Salesforce ΓÇö seeds ~270 records across Account, Contact, Case, and Outreach Log with 14 attack payload categories including prom [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
+- [Salesforce Metadata MCP by semwalajay83](../tools/salesforce-metadata-mcp-by-semwalajay83.md) github.com MCP server with 228 tools for Salesforce: metadata, flows, Apex, LWC, Agentforce, OmniStudio, reports, permissions, impact analysis and more. Manage your org from Claude in natural language. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [Salesforce Pardot MCP by DaniilMai](../tools/salesforce-pardot-mcp-by-daniilmai.md) github.com MCP server for Salesforce CRM and Pardot (Marketing Cloud Account Engagement) - DaniilMai/salesforce-pardot-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Salesforce Remote MCP by tsmztech](../tools/salesforce-remote-mcp-by-tsmztech.md) github.com Self-hosted remote MCP server for Salesforce on Cloudflare Workers - use as a Claude custom connector with OAuth login, exposing 15 Salesforce tools (SOQL, DML, Apex, metadata) -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [ScraperCity](../tools/scrapercity.md) github.com ScraperCity CLI & MCP Server - B2B lead generation for AI agents. 20+ scrapers accessible via CLI, MCP, or direct API. - scrapercity/scrapercity-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
+- [SeldonFrame MCP](../tools/seldonframe-mcp.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
 - [Setu Email MCP by gitmanhimanshu](../tools/setu-email-mcp-by-gitmanhimanshu.md) setu.mimanasa.online Setu is an AI-powered Model Context Protocol (MCP) server that lets Claude, ChatGPT, and Cursor automate email outreach and follow-ups directly from your Gmail. Built for job seekers, recruiters, and... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [SFCC Dev MCP by taurgis](../tools/sfcc-dev-mcp-by-taurgis.md) github.com Supercharge your Salesforce B2C Commerce Cloud development with AI-powered documentation access, real-time log analysis, and intelligent best practices guidance - taurgis/sfcc-dev-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md) github.com Arm your agent with the ability to send 1000s of dm's on Reddit a day, selling while you sleep. - signal-found/sf-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Snov.io MCP by narkov](../tools/snov-io-mcp-by-narkov.md) github.com MCP server for Snov.io API - 43 tools for email finder, verifier, drip campaigns, prospect management, and LinkedIn enrichment - narkov/snov-io-mcp-server [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -618,6 +704,10 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 - [Teamleader MCP by BoostU](../tools/teamleader-mcp-by-boostu.md) teamleader-mcp.boostu.be De Teamleader MCP van BoostU brengt Teamleader Focus in Claude. Werk via je AI-assistent met de Teamleader Claude-koppeling op basis van het Model Context Protocol. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Technology Stack Detection API](../tools/technology-stack-detection-api.md) github.com Detect 50+ technologies on any website. CMS, JS frameworks, analytics, hosting, CDN, payments. Confidence scores and evidence. -- x402 micropayment API + MCP server for AI agents -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [Techtenstein LinkedIn MCP](../tools/techtenstein-linkedin-mcp.md) github.com Enrich LinkedIn profiles, companies, and prospect searches for sales, recruiting, and B2B. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+
+- [TeloSignal](../tools/telosignal.md) telosignal.com TeloSignal tracks demand signals across 11,909 n8n templates - AI adoption, complexity trends, weekly intelligence. Know what to build. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
 - [Toflow](../tools/toflow.md) toflow.ai toflow.ai is a LinkedIn automation tool for sales teams, agencies, and GTM experts. Run automated LinkedIn outreach, enrich contacts, and sequence across email and WhatsApp, just by chatting with AI. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -636,6 +726,8 @@ When the rail runs, every repo lands in one of five bands and every band ships w
 - [Wokelo](../tools/wokelo.md) wokelo.ai Company and market intelligence, news, enrichment, and agentic workflows for dealmakers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [YG3](../tools/yg3.md) yg3.ai Provision a YG3 marketing workspace from any autonomous agent - no signup. Bearer-token MCP with 200+ tools for content, SEO, outbound, LinkedIn, and paid ads. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+
+- [YourICP MCP](../tools/youricp-mcp.md) app.youricp.com Official open-source MCP server for YourICP contact enrichment & B2B data cleaning. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Zavora Sales Operations Skill](../tools/zavora-sales-operations-skill.md) github.com Enterprise sales skill - proposals, CPQ, sequences, e-signatures, forecasting via mcp-sales (PandaDoc, Apollo, Calendly, Stripe) - zavora-ai/skill-sales-operations [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 

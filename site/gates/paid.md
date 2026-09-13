@@ -1,6 +1,6 @@
 # Paid, self-serve: 132 GTM tools, counted
 
-> 132 of 982 GTM tools in this directory are paid, self-serve. A solo operator can get API access by paying, still without a sales call.
+> 132 of 1,032 GTM tools in this directory are paid, self-serve. A solo operator can get API access by paying, still without a sales call.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 A solo operator can get API access by paying, still without a sales call.
 
-132 of 982 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+132 of 1,032 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [Affinity](../tools/affinity.md) affinity.co A relationship-intelligence CRM for deal teams that auto-builds the contact graph from email and calendar activity and scores relationship strength, rather than relying on reps to log activity. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [RevOps Infra](../categories/revops-infra.md)
 

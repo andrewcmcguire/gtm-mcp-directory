@@ -1,6 +1,6 @@
-# Sales engagement and outbound tools with MCP servers: 35 of 127, counted
+# Sales engagement and outbound tools with MCP servers: 38 of 130, counted
 
-> 35 of the 127 engagement & outbound tools in this directory have an MCP server: 23 official and 12 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 38 of the 130 engagement & outbound tools in this directory have an MCP server: 23 official and 15 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-35 of the 127 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 12 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
+38 of the 130 engagement & outbound entries in this directory have an MCP server: 23 built and maintained by the vendor and 15 built by somebody else. 1 are free to start and 6 need a contract before anybody gets an API key.
 
 Sequencers sit at the point where an agent stops reading and starts sending, which makes their coverage the most consequential number on this page and their approval settings the most important thing in your client.
 
@@ -74,6 +74,8 @@ Sales engagement platform (merged with Clari in Dec 2025) for multichannel outbo
 A cloud phone system and call centre for sales and support teams (numbers, dialer campaigns, call recording, SMS, CRM integrations) with a public...
 - [Overloop](../tools/overloop.md) Community MCP · Paid, self-serve
 Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns.
+- [Bavlio](../tools/bavlio.md) Community MCP · Gate unknown
+Bavlio is an AI-powered sales outreach platform that researches every lead and writes personalized cold email and LinkedIn campaigns for your team.
 - [Crevideo Reach](../tools/crevideo-reach.md) Community MCP · Gate unknown
 Scale TikTok Shop affiliate outreach with Crevideo Reach. Find affiliate creators, automate outreach, track ROI, and manage TikTok Shop creator...
 - [Emelia](../tools/emelia.md) Community MCP · Gate unknown
@@ -88,8 +90,12 @@ LinkedNav detects LinkedIn buying signals and sends personalized outreach you ap
 AI-powered multi-channel outreach and lead generation - cold email, LinkedIn automation, a multi-source lead finder, and a built-in CRM....
 - [PersuadioAI](../tools/persuadioai.md) Community MCP · Gate unknown
 Turn more seller leads into real conversations. PersuadioAI follows up by text, email, and AI voice calls, handles replies, and alerts your...
+- [Podcast Guest CRM](../tools/podcast-guest-crm.md) Community MCP · Gate unknown
+AI-native CRM for podcast guest booking: lifecycle pipeline, AI outreach drafting, and a real CLI - RudrenduPaul/podcast-guest-crm
 - [RepScale](../tools/repscale.md) Community MCP · Gate unknown
 Stop editing what AI wrote for 30 minutes. RepScale researches prospects, writes outreach, and preps meetings in one connected workflow. Free tier,...
+- [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md) Community MCP · Gate unknown
+Arm your agent with the ability to send 1000s of dm's on Reddit a day, selling while you sleep. - signal-found/sf-mcp
 - [Toflow](../tools/toflow.md) Community MCP · Gate unknown
 toflow.ai is a LinkedIn automation tool for sales teams, agencies, and GTM experts. Run automated LinkedIn outreach, enrich contacts, and sequence...
 - [WarmySender](../tools/warmysender.md) Community MCP · Gate unknown
@@ -132,9 +138,9 @@ Could not fully document product behavior from a live vendor homepage this pass 
 | [Paid, self-serve](../gates/paid.md) | 23 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 6 |
-| [Gate unknown](../gates/unknown.md) | 95 |
+| [Gate unknown](../gates/unknown.md) | 98 |
 
-Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 af4ebe7a4f6f1e88...
+Counted 2026-09-12. Source file 02-engagement-outbound.md, content sha256 b9178a3e302d4102...
 
 ## Sources
 

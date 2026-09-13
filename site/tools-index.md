@@ -1,6 +1,6 @@
 # Every tool the MCP servers name: 2,327 tools across 112 GTM servers
 
-> Every tool name harvested from the MCP servers in The GTM MCP Directory, with the server it belongs to, the evidence behind the name and its harvest date. 119 of 471 servers measured on 2026-09-12. None of these tools has been run.
+> Every tool name harvested from the MCP servers in The GTM MCP Directory, with the server it belongs to, the evidence behind the name and its harvest date. 119 of 521 servers measured on 2026-09-12. None of these tools has been run.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -19,7 +19,7 @@ A category tells you what a vendor sells. This tells you what its MCP server put
 
 - **GTM servers measured**: 112
 
-- **servers unmeasured**: 352
+- **servers unmeasured**: 402
 
 - **answered tools/list**: 12
 
@@ -27,7 +27,7 @@ A category tells you what a vendor sells. This tells you what its MCP server put
 
 - **bench tested**: 1
 
-Coverage, stated as it is rather than as a percentage that flatters it: 119 of the 471 entries that record an official or community MCP server carry a harvested tool list, read on 2026-09-12. The other 352 are **unmeasured, not empty**: nobody has read their tool list, so the directory says nothing about what they expose, and their tool pages say so in those words. Most of them are hosted endpoints behind an auth wall or vendors with no server repo on file.
+Coverage, stated as it is rather than as a percentage that flatters it: 119 of the 521 entries that record an official or community MCP server carry a harvested tool list, read on 2026-09-12. The other 402 are **unmeasured, not empty**: nobody has read their tool list, so the directory says nothing about what they expose, and their tool pages say so in those words. Most of them are hosted endpoints behind an auth wall or vendors with no server repo on file.
 
 Those 119 entries are 113 unique products, because a product listed in two categories is harvested once per listing. 8,507 tool records were harvested and 8,320 survive as distinct product-and-tool pairs; the 187 merged are a cross listing repeating a name already recorded against the same product. Every name below is on a server this directory tracks, and clicking the server takes you to its entry, its gate and its endpoint probe.
 

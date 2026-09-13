@@ -1,6 +1,6 @@
-# Signal and intent tools with MCP servers: 25 of 65, counted
+# Signal and intent tools with MCP servers: 26 of 66, counted
 
-> 25 of the 65 signals & intent tools in this directory have an MCP server: 20 official and 5 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 26 of the 66 signals & intent tools in this directory have an MCP server: 20 official and 6 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-25 of the 65 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 5 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
+26 of the 66 signals & intent entries in this directory have an MCP server: 20 built and maintained by the vendor and 6 built by somebody else. 6 are free to start and 10 need a contract before anybody gets an API key.
 
 Signals are the trigger layer: the thing that starts an agent's loop rather than something it calls halfway through. Coverage here is decent and the access gate is the harder problem.
 
@@ -74,6 +74,8 @@ Daily job-change trigger for Claude Code. Detects changes the day they happen vi
 MCP server for GTM Hiring Signal Scraper. Detects GTM hiring activity from company career pages via Apify. Clay-ready output. -...
 - [NirmahGTM](../tools/nirmahgtm.md) Community MCP · Gate unknown
 AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with calibrated LLMs, outputs evidence-backed openers/hooks/CRM sync...
+- [TeloSignal](../tools/telosignal.md) Community MCP · Gate unknown
+TeloSignal tracks demand signals across 11,909 n8n templates - AI adoption, complexity trends, weekly intelligence. Know what to build.
 
 ## The rest of the category
 
@@ -113,9 +115,9 @@ B2B marketing attribution software that uses AI to recommend ways to improve cam
 | [Free to start](../gates/free.md) | 6 |
 | [Paid, self-serve](../gates/paid.md) | 13 |
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
-| [Gate unknown](../gates/unknown.md) | 36 |
+| [Gate unknown](../gates/unknown.md) | 37 |
 
-Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 1125cce3180e9b8f...
+Counted 2026-09-12. Source file 05-signals-intent-abm.md, content sha256 e48ce2cbe2291020...
 
 ## Sources
 

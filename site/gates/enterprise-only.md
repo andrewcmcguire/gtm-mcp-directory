@@ -1,6 +1,6 @@
 # Enterprise only: 79 GTM tools, counted
 
-> 79 of 982 GTM tools in this directory are enterprise only. API access needs a contract, a seat count, or a procurement cycle. A solo operator is out.
+> 79 of 1,032 GTM tools in this directory are enterprise only. API access needs a contract, a seat count, or a procurement cycle. A solo operator is out.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 API access needs a contract, a seat count, or a procurement cycle. A solo operator is out.
 
-79 of 982 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+79 of 1,032 entries. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
 - [6sense](../tools/6sense.md) 6sense.com Detects B2B buying intent by combining IP-based website deanonymization, a proprietary third-party intent/content-consumption network ("Signalverse"), and first-party CRM/MAP/product data to flag in-market... [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 

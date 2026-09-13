@@ -1,6 +1,6 @@
-# Conversation intelligence tools with MCP servers: 21 of 47, counted
+# Conversation intelligence tools with MCP servers: 22 of 48, counted
 
-> 21 of the 47 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 22 of the 48 conversation intel tools in this directory have an MCP server: 19 official and 3 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 47 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
+22 of the 48 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 3 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
 
 Call recordings are the richest unstructured data a revenue team owns, and the only place most of what a buyer actually said is written down. Whether an agent can read them decides whether it can prepare for a call or only summarise a CRM field.
 
@@ -66,6 +66,8 @@ Zoom's built-in conversation/revenue-intelligence layer that analyzes Zoom Meeti
 Records, transcribes, and analyzes sales calls, meetings, and emails, and syncs the resulting insights into the CRM.
 - [Jiminny](../tools/jiminny.md) Community MCP · Enterprise only
 Records, transcribes, and scores sales calls, syncing action items and summaries into the CRM.
+- [Voibe](../tools/voibe.md) Community MCP · Gate unknown
+Give your AI agents ears. Send audio, get JSON back: who spoke, when they spoke, and a summary your agent can act on. Or connect Claude through MCP....
 
 ## The rest of the category
 
@@ -106,9 +108,9 @@ AI to improve Sales Calls
 | [Paid, self-serve](../gates/paid.md) | 9 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 8 |
-| [Gate unknown](../gates/unknown.md) | 25 |
+| [Gate unknown](../gates/unknown.md) | 26 |
 
-Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 8fae6f58db44655a...
+Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 6165e065f51267f4...
 
 ## Sources
 

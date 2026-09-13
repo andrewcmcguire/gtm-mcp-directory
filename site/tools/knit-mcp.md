@@ -64,7 +64,7 @@ Recorded by the harvest: a gateway that re-exposes many other vendors' MCP serve
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-119 of the 471 entries that record an official or community MCP server carry a harvested tool list. The other 352 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 521 entries that record an official or community MCP server carry a harvested tool list. The other 402 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -103,7 +103,7 @@ free - the MCP tab of the vendor's pricing page publishes a "Launchpad" tier at 
 
 No documentation URL recorded.
 
-629 of 982 entries are in the same position. Blank is legal and it is published as blank.
+635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -123,7 +123,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 No job tag on this entry.
 
-711 of 982 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

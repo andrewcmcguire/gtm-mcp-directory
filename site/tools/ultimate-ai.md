@@ -68,7 +68,7 @@ n/a - not sold as a standalone product.
 
 No documentation URL recorded.
 
-629 of 982 entries are in the same position. Blank is legal and it is published as blank.
+635 of 1032 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -86,7 +86,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agents; no standalone surface to evaluate.
 
-711 of 982 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+761 of 1,032 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -96,7 +96,7 @@ Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agent
 - 2024
 - referenced via the newsroom listing
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 57 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 58 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://www.zendesk.com/newsroom/press-releases/ (press release "Zendesk to Acquire Ultimate," dated March 13, 2024, referenced via the newsroom listing)
 

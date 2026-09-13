@@ -1,6 +1,6 @@
-# Engagement & Outbound: 127 tools, 23 with an official MCP server
+# Engagement & Outbound: 130 tools, 23 with an official MCP server
 
-> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 127 tools counted, 23 with an official MCP server and 1 free to start.
+> The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put... 130 tools counted, 23 with an official MCP server and 1 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 The execution layer - sequencers, parallel dialers, and LinkedIn automation tools that actually put messages and calls in front of prospects. MCP maturity here is split sharply: the big sales-engagement platforms (Salesloft, Outreach, lemlist) and several LinkedIn tools have shipped real official servers in 2026, while most parallel dialers and mid-market cold-email tools have none.
 
-- **entries in this file**: 127
+- **entries in this file**: 130
 
 - **Official MCP**: 23
-- **Community MCP**: 12
+- **Community MCP**: 15
 - **MCP unknown**: 2
 - **No MCP found**: 90
 
@@ -29,11 +29,11 @@ The execution layer - sequencers, parallel dialers, and LinkedIn automation tool
 - **Paid, self-serve**: 23
 - **Enterprise leaning**: 2
 - **Enterprise only**: 6
-- **Gate unknown**: 95
+- **Gate unknown**: 98
 
-Source file: 02-engagement-outbound.md · content sha256 af4ebe7a4f6f1e88... · counts reconciled against tools_recount.py at build time.
+Source file: 02-engagement-outbound.md · content sha256 b9178a3e302d4102... · counts reconciled against tools_recount.py at build time.
 
-- [The 35 with an MCP server](../lists/mcp-engagement-outbound.md)
+- [The 38 with an MCP server](../lists/mcp-engagement-outbound.md)
 
 - [Run an email sequence](../jobs/run-email-sequence.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
@@ -90,6 +90,8 @@ Source file: 02-engagement-outbound.md · content sha256 af4ebe7a4f6f1e88... · 
 
 - [Overloop](../tools/overloop.md) overloop.com Sales engagement and lead-gen platform for finding, verifying, and contacting B2B prospects via automated email and LinkedIn campaigns. [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md) · CLI: overloop (community)
 
+- [Bavlio](../tools/bavlio.md) bavlio.com Bavlio is an AI-powered sales outreach platform that researches every lead and writes personalized cold email and LinkedIn campaigns for your team. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [Crevideo Reach](../tools/crevideo-reach.md) crevideo.com Scale TikTok Shop affiliate outreach with Crevideo Reach. Find affiliate creators, automate outreach, track ROI, and manage TikTok Shop creator partnerships from one platform. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Emelia](../tools/emelia.md) emelia.io Emelia simplifies LinkedIn and email prospecting, helping you find future clients with an easy-to-use platform and advanced technology. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
@@ -104,7 +106,11 @@ Source file: 02-engagement-outbound.md · content sha256 af4ebe7a4f6f1e88... · 
 
 - [PersuadioAI](../tools/persuadioai.md) persuadioai.com Turn more seller leads into real conversations. PersuadioAI follows up by text, email, and AI voice calls, handles replies, and alerts your acquisitions team when someone is ready to talk. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
+- [Podcast Guest CRM](../tools/podcast-guest-crm.md) github.com AI-native CRM for podcast guest booking: lifecycle pipeline, AI outreach drafting, and a real CLI - RudrenduPaul/podcast-guest-crm [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
 - [RepScale](../tools/repscale.md) repscale.ai Stop editing what AI wrote for 30 minutes. RepScale researches prospects, writes outreach, and preps meetings in one connected workflow. Free tier, no credit card. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md) github.com Arm your agent with the ability to send 1000s of dm's on Reddit a day, selling while you sleep. - signal-found/sf-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Toflow](../tools/toflow.md) toflow.ai toflow.ai is a LinkedIn automation tool for sales teams, agencies, and GTM experts. Run automated LinkedIn outreach, enrich contacts, and sequence across email and WhatsApp, just by chatting with AI. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

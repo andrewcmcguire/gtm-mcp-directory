@@ -1,6 +1,6 @@
-# Signals & Intent tools with MCP servers: 25 of 65, counted
+# Signals & Intent tools with MCP servers: 26 of 66, counted
 
-> 25 of the 65 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 5 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
+> 26 of the 66 signals & intent tools in The GTM MCP Directory have an MCP server: 20 official and 6 community. The server URL, auth model and access gate for each. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,11 +10,11 @@
 [Directory](../index.md) /
 [The lists](index.md) / Signals & Intent tools with an MCP server
 
-**List · 25 of 982**
+**List · 26 of 1,032**
 
 ## Signals & Intent tools with an MCP server
 
-Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 25 of 65 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 5 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
+Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers. 26 of 66 entries in this category are reachable by an agent: 20 through a server the vendor maintains and 6 through one somebody else built. The category is tagged most often with Fetch buyer intent signals. [See the full category page](../categories/signals-intent-abm.md).
 
 | Tool | MCP status | Server URL | Auth | Gate |
 |---|---|---|---|---|
@@ -92,6 +92,9 @@ github.com | [Community MCP](../mcp/community.md) | [https://github.com/punkpeye
 blank | [Gate unknown](../gates/unknown.md) |
 | [NirmahGTM](../tools/nirmahgtm.md)
 github.com | [Community MCP](../mcp/community.md) | [https://github.com/AnjaliPPal/NirmahGTM](https://github.com/AnjaliPPal/NirmahGTM) | Auth not recorded
+blank | [Gate unknown](../gates/unknown.md) |
+| [TeloSignal](../tools/telosignal.md)
+telosignal.com | [Community MCP](../mcp/community.md) | [https://github.com/patrick-creates/telosignal-workfl...](https://github.com/patrick-creates/telosignal-workflow-vault) | Auth not recorded
 blank | [Gate unknown](../gates/unknown.md) |
 
 ### The other 40 in this category
@@ -192,4 +195,4 @@ The jobs most often tagged on the 27 tagged entries in this category.
 - [Track job changes](../jobs/track-job-changes.md)
 - [Find a work email address](../jobs/find-work-email.md)
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 982 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,032 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

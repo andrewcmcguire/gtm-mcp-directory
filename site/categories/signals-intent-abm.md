@@ -1,6 +1,6 @@
-# Signals & Intent: 65 tools, 20 with an official MCP server
+# Signals & Intent: 66 tools, 20 with an official MCP server
 
-> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 65 tools counted, 20 with an official MCP server and 6 free to start.
+> Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly... 66 tools counted, 20 with an official MCP server and 6 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,10 +16,10 @@
 
 Tools that try to answer "who is about to buy, and how do you know." The category splits cleanly into two eras: the legacy enterprise intent-data incumbents (6sense, Demandbase, Bombora, HG Insights) sold on annual contracts with no self-serve path, and a newer wave of visitor-ID/job-change/ API-first tools (RB2B, Warmly, Crustdata, TheirStack, PredictLeads) built for solo operators with free tiers and documented MCP servers.
 
-- **entries in this file**: 65
+- **entries in this file**: 66
 
 - **Official MCP**: 20
-- **Community MCP**: 5
+- **Community MCP**: 6
 - **MCP unknown**: 2
 - **MCP not applicable**: 1
 - **No MCP found**: 37
@@ -29,11 +29,11 @@ Tools that try to answer "who is about to buy, and how do you know." The categor
 - **Free to start**: 6
 - **Paid, self-serve**: 13
 - **Enterprise only**: 10
-- **Gate unknown**: 36
+- **Gate unknown**: 37
 
-Source file: 05-signals-intent-abm.md · content sha256 1125cce3180e9b8f... · counts reconciled against tools_recount.py at build time.
+Source file: 05-signals-intent-abm.md · content sha256 e48ce2cbe2291020... · counts reconciled against tools_recount.py at build time.
 
-- [The 25 with an MCP server](../lists/mcp-signals-intent-abm.md)
+- [The 26 with an MCP server](../lists/mcp-signals-intent-abm.md)
 
 - [Fetch buyer intent signals](../jobs/fetch-buyer-intent-signals.md)
 - [Identify an anonymous website visitor](../jobs/identify-anonymous-website-visitor.md)
@@ -89,6 +89,8 @@ Source file: 05-signals-intent-abm.md · content sha256 1125cce3180e9b8f... · c
 - [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md) github.com MCP server for GTM Hiring Signal Scraper. Detects GTM hiring activity from company career pages via Apify. Clay-ready output. - mambalabsdev/mcp-gtm-hiring-signal-scraper [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [NirmahGTM](../tools/nirmahgtm.md) github.com AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with calibrated LLMs, outputs evidence-backed openers/hooks/CRM sync governed, cached, evaluated. - AnjaliPPal/NirmahGTM [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+
+- [TeloSignal](../tools/telosignal.md) telosignal.com TeloSignal tracks demand signals across 11,909 n8n templates - AI adoption, complexity trends, weekly intelligence. Know what to build. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Centralize](../tools/centralize.md) usecentralize.com A relationship-intelligence and account-mapping tool that builds org charts and buying-committee maps for a rep's accounts automatically from their own CRM, email, calendar, and call data, then flags coverage... [MCP unknown](../mcp/unknown.md) · [Free to start](../gates/free.md) · CLI: cm-i (community)
 
