@@ -1,6 +1,6 @@
 # Nuph: products, MCP servers and connect URLs, one vendor page
 
-> Nuph (github.com): 100 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
+> Nuph (github.com): 110 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@ Nuph
 
 # Nuph
 
-100 products in the directory
+110 products in the directory
 1 official MCP server
 0 live handshakes
 Data baked 2026-09-12
@@ -22,29 +22,29 @@ Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
 **The rollup**
 
-- **Products**: 100, facts checked by hand 2026-08-24, 2026-09-12
+- **Products**: 110, facts checked by hand 2026-08-24, 2026-09-12
 
-- **Official MCP servers**: 1 of 100, as recorded on 2026-08-24, 2026-09-12
+- **Official MCP servers**: 1 of 110, as recorded on 2026-08-24, 2026-09-12
 
-- **Community MCP servers**: 95 of 100
+- **Community MCP servers**: 105 of 110
 
-- **Live handshake**: 0 of 100 answered an MCP initialize, 1 probed, 2026-09-04
+- **Live handshake**: 0 of 110 answered an MCP initialize, 1 probed, 2026-09-04
 
-- **Repo local**: 1 of 100: a server you install and run yourself
+- **Repo local**: 1 of 110: a server you install and run yourself
 
-- **Docs only**: 0 of 100: the recorded URL is a page about the server, not the server
+- **Docs only**: 0 of 110: the recorded URL is a page about the server, not the server
 
 - **Tools catalogued**: 24 named across 1 measured server, harvested 2026-09-12
 
-- **Bench tested**: 0 of 100 here, 1 of 834 across the directory
+- **Bench tested**: 0 of 110 here, 1 of 884 across the directory
 
-- **Ships a CLI**: 0 of 100 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 110 official, 0 community only, 1 none found, harvested 2026-09-12
 
 - **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
-**Products, 100**
+**Products, 110**
 
 ### [Model Context Protocol - official servers repo](../tools/model-context-protocol-official-servers-repo.md)
 
@@ -142,6 +142,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Apollo MCP by Inferensys](../tools/apollo-mcp-by-inferensys.md)
+
+MCP server for Apollo.io, search leads, enrich contacts, manage sequences & CRM from Claude Code, Cursor, or any MCP client. 27 tools covering the full Apollo.io API. - Inferensys/apollo-io-mcp
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md)
 
 let AGI print dollars for you. Contribute to louis030195/apollo-io-mcp development by creating an account on GitHub.
@@ -164,6 +180,38 @@ MCP server that enables AI assistants to draft personalized sales emails through
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Apollo MCP by shariqriazz](../tools/apollo-mcp-by-shariqriazz.md)
+
+MCP server for Apollo.io lead search, contact enrichment, account data, sequences, and engagement reporting. - shariqriazz/apollo-io-mcp-server
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Apollo MCP Plugin by apolloio](../tools/apollo-mcp-plugin-by-apolloio.md)
+
+Connect Claude Code + Cowork to Apollo MCP via this plugin - apolloio/apollo-mcp-plugin
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 
 - **Endpoint probe**: not probed yet, not probed
@@ -302,6 +350,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Clint CRM MCP by Franky-Neto](../tools/clint-crm-mcp-by-franky-neto.md)
+
+Clint CRM MCP Server. This is a non oficial MCP Server for Clint CRM. - Franky-Neto/mcp-clint-crm
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Close CRM MCP by pipeworx](../tools/close-crm-mcp-by-pipeworx.md)
 
 Close CRM MCP Pack - wraps the Close (close.com) API v1. - pipeworx-io/mcp-close-crm
@@ -366,6 +430,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Customer Intelligence Hub](../tools/customer-intelligence-hub.md)
+
+Customer Intelligence Hub: AI Agents for CRM Analytics, Slack & Marketing Automation | LangGraph & MCP - Gabrielm3/customer-intelligence-hub
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [Dolibarr MCP by sachitha7](../tools/dolibarr-mcp-by-sachitha7.md)
 
 MCP server for Dolibarr ERP/CRM - manage thirdparties, proposals, contracts and invoices from Claude or any MCP client - sachitha7/mcp-server-dolibarr
@@ -401,6 +481,22 @@ RESEARCHED
 ### [Follow Up Boss MCP](../tools/follow-up-boss-mcp.md)
 
 Connect the Follow Up Boss real estate CRM to ChatGPT, Claude, Cursor, and other AI assistants with one hosted MCP URL. OAuth-enabled server and typed Python SDK. - theperrygroup/Follow-Up-Boss-MCP
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Fundz Agent Examples](../tools/fundz-agent-examples.md)
+
+Working examples for the Fundz Agent API - buying signals, SEC 8-K and Form D funding evidence for GTM agents and AI SDRs. - Fund-z/agent-examples
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -529,6 +625,22 @@ RESEARCHED
 ### [IN2 Agent MCP](../tools/in2-agent-mcp.md)
 
 IN2 MCP stdio server: turns Campfire Salesforce requirements into verified org changes, driven by a Claude Code supervisor.
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [Infosys AI CRM by ffred1962](../tools/infosys-ai-crm-by-ffred1962.md)
+
+AI based CRM system for small business . Contribute to ffred1962/infosys development by creating an account on GitHub.
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [MCP Layer](../categories/mcp-infrastructure.md)
@@ -1044,6 +1156,38 @@ Clay-as-an-MCP-server - B2B sales intelligence. Contribute to dremnik/prospector
 
 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 [Data & Enrichment](../categories/data-enrichment.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [PulseAgent MCP](../tools/pulseagent-mcp.md)
+
+MCP server for PulseAgent - let Claude Code, Cursor, and Codex interact with your AI digital workers, CRM, and pipeline - iPythoning/pulseagent-mcp-server
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
+### [RapidStart CRM MCP](../tools/rapidstart-crm-mcp.md)
+
+MCP server for RapidStart CRM - enables AI assistants to discover and recommend RapidStart CRM - forceworks/rapidstart-mcp-server
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 
 - **Endpoint probe**: not probed yet, not probed
@@ -1582,6 +1726,22 @@ RESEARCHED
 
 - **last_checked**: 2026-09-12
 
+### [Zavora Sales Operations Skill](../tools/zavora-sales-operations-skill.md)
+
+Enterprise sales skill - proposals, CPQ, sequences, e-signatures, forecasting via mcp-sales (PandaDoc, Apollo, Calendly, Stripe) - zavora-ai/skill-sales-operations
+
+[Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+[MCP Layer](../categories/mcp-infrastructure.md)
+RESEARCHED
+
+- **Endpoint probe**: not probed yet, not probed
+
+- **Connect URL**: no connect URL recorded
+
+- **Tools catalogued**: not measured
+
+- **last_checked**: 2026-09-12
+
 ### [ApexGTM](../tools/apexgtm.md)
 
 🚀 Autonomous GTM Engineer AI Platform - Multi-agent system that replaces 80-90% of manual GTM work. Combines Clay + Apollo + ZoomInfo + HubSpot + n8n into one AI-powered platform. Built with n8n workflows, LangGraph agents, GraphRAG, and MCP servers. -...
@@ -1648,7 +1808,7 @@ RESEARCHED
 
 **The gates, in plain words**
 
-1 of 100 free to start, a solo operator gets API access without talking to anyone. 99 of 100 gate unknown, not established from public sources and published as unknown.
+1 of 110 free to start, a solo operator gets API access without talking to anyone. 109 of 110 gate unknown, not established from public sources and published as unknown.
 
 The gate is the api_gate field on each product entry, established by hand on the last_checked date shown above. It records whether a solo operator can get API access without a contract. Money is not tracked.
 
@@ -1691,6 +1851,6 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 834 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 100 products are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 884 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 110 products are among them. There is no verdict here on whether this vendor is better than another.
 
 Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).

@@ -1,6 +1,6 @@
-# CRM and RevOps tools with MCP servers: 37 of 79, counted
+# CRM and RevOps tools with MCP servers: 40 of 85, counted
 
-> 37 of the 79 revops infra tools in this directory have an MCP server: 29 official and 8 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 40 of the 85 revops infra tools in this directory have an MCP server: 29 official and 11 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-37 of the 79 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 8 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
+40 of the 85 revops infra entries in this directory have an MCP server: 29 built and maintained by the vendor and 11 built by somebody else. 14 are free to start and 5 need a contract before anybody gets an API key.
 
 This is the layer an agent has to reach before anything else matters. A GTM agent that cannot read and write the system of record is a research assistant, not an operator. It is also, by some distance, the best covered layer in this directory.
 
@@ -92,16 +92,22 @@ FounderStack keeps your sales conversations, follow-ups, and client context in o
 Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your...
 - [Kaanha AI](../tools/kaanha-ai.md) Community MCP · Gate unknown
 Kaanha AI connects your conversations, customer data, applications and AI agents into workflows you build once and run across every channel - with...
+- [Kenva](../tools/kenva.md) Community MCP · Gate unknown
+Kenva is a personal CRM that gives Claude a memory for the people in your life. Tell it who you met and what happened, and it
+- [Kordic CRM](../tools/kordic-crm.md) Community MCP · Gate unknown
+A sales CRM for teams of 5 to 50. Visual pipeline, WhatsApp and Gmail in one place, invoicing and payment tracking. From $4.99 a user. 3-month free...
 - [Morphed](../tools/morphed.md) Community MCP · Gate unknown
 Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30...
 - [OpsDoctor](../tools/opsdoctor.md) Community MCP · Gate unknown
 Get a free AI-powered diagnostic of your CRM and operational workflows, scored across four dimensions with a branded PDF report. 38 CRM platforms. 8...
+- [Well](../tools/well.md) Community MCP · Gate unknown
+Well is the business context layer that captures your data, enriches it, and closes your books, so you can ask your business anything. Try Well free...
 - [Zetadeck](../tools/zetadeck.md) Community MCP · Gate unknown
 Tasks, CRM, docs, and finance in one workspace on one database. Runway computed live from your real bank balance. Free for up to 5 people, no card.
 
 ## The rest of the category
 
-42 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+45 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Default](../tools/default.md) MCP unknown · Enterprise only
 An inbound go-to-market platform unifying revenue-stack data (a "Tables" data layer) with AI-agent-built workflows for lead routing, qualification,...
@@ -119,16 +125,16 @@ Turn complexity into endless possibility with Boomi, a single platform that inte
 Breakcold is the AI-Native CRM for sales teams & AI agents that sell via email, calling, LinkedIn, Telegram & WhatsApp with MCP for Claude & more.
 - [BuyerCaddy](../tools/buyercaddy.md) No MCP found · Gate unknown
 Your platform for cost savings, optimization and tech stack benchmarking. Find redundant products. Track utilization. Deepen integrations.
+- [Clarm](../tools/clarm.md) No MCP found · Gate unknown
+Build AI coworkers for recurring operational work from building blocks pre-approved by IT and compliance. Start with one manual workflow and deploy...
 - [CloudFiles](../tools/cloudfiles.md) No MCP found · Gate unknown
 CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce....
+- [Cotera](../tools/cotera.md) No MCP found · Gate unknown
+Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain English, no flowcharts, no MCP kitchen-sink. Just reliable agents that...
 - [crmCopilot](../tools/crmcopilot.md) No MCP found · Gate unknown
 Give Salesforce the AI upgrade it deserves
-- [Databox](../tools/databox.md) No MCP found · Gate unknown
-Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act...
-- [Dex](../tools/dex.md) No MCP found · Gate unknown
-Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows.
 
-30 more are on the linked page. The cut is the display limit, not a ranking.
+33 more are on the linked page. The cut is the display limit, not a ranking.
 
 ## The gate, which is the second question
 
@@ -137,9 +143,9 @@ Dex is a personal CRM that brings your relationships into one place with reminde
 | [Free to start](../gates/free.md) | 14 |
 | [Paid, self-serve](../gates/paid.md) | 12 |
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
-| [Gate unknown](../gates/unknown.md) | 48 |
+| [Gate unknown](../gates/unknown.md) | 54 |
 
-Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 3e6e068bcaec2428...
+Counted 2026-09-12. Source file 06-revops-infra.md, content sha256 129e8d9169a2307c...
 
 ## Sources
 

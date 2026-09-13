@@ -30,7 +30,7 @@ The client connects to a URL the vendor hosts. Nothing is installed, the vendor 
 
 ## Which one the GTM tools ship
 
-Both, and the entries say which. Of the 396 servers found in this directory, 414 carry a parseable URL in their mcp_url field and 215 of those URLs point at a GitHub repository rather than a hosted endpoint, which is a strong hint the install is a local one you run yourself. The transport is recorded verbatim on the tool page wherever the vendor documents it, including one entry where the vendor's own registry record and a third party directory disagree about the transport and both are printed rather than one being picked.
+Both, and the entries say which. Of the 415 servers found in this directory, 433 carry a parseable URL in their mcp_url field and 227 of those URLs point at a GitHub repository rather than a hosted endpoint, which is a strong hint the install is a local one you run yourself. The transport is recorded verbatim on the tool page wherever the vendor documents it, including one entry where the vendor's own registry record and a third party directory disagree about the transport and both are printed rather than one being picked.
 
 ## The practical rule
 

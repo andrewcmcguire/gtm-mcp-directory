@@ -1,6 +1,6 @@
-# Proposals & Deals: 25 tools, 8 with an official MCP server
+# Proposals & Deals: 26 tools, 8 with an official MCP server
 
-> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 25 tools counted, 8 with an official MCP server and 4 free to start.
+> Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP... 26 tools counted, 8 with an official MCP server and 4 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,21 +16,21 @@
 
 Late-stage sales tooling - proposal/quote generation, e-signature, digital deal rooms, RFP response, and contract lifecycle management. This is the category where MCP adoption is oddly ahead of the rest of the directory: PandaDoc, DocuSign, Ironclad, Common Paper, Trumpet, and even RFP tools like Responsive and Arphie all shipped official servers within months of each other in 2026, several with near-identical "$50/mo + per-answer usage" pricing - worth watching whether that's convergent design or a shared backend vendor.
 
-- **entries in this file**: 25
+- **entries in this file**: 26
 
 - **Official MCP**: 8
 - **Community MCP**: 2
-- **No MCP found**: 15
+- **No MCP found**: 16
 
 - **ship a CLI (official) as of 2026-09-12**: 1
 
 - **Free to start**: 4
 - **Paid, self-serve**: 7
 - **Enterprise only**: 3
-- **Gate unknown**: 10
+- **Gate unknown**: 11
 - **Gate not applicable**: 1
 
-Source file: 13-proposals-deals.md · content sha256 97b601e6db306d56... · counts reconciled against tools_recount.py at build time.
+Source file: 13-proposals-deals.md · content sha256 a40cfe3c85863cde... · counts reconciled against tools_recount.py at build time.
 
 - [The 10 with an MCP server](../lists/mcp-proposals-deals.md)
 
@@ -68,6 +68,8 @@ Source file: 13-proposals-deals.md · content sha256 97b601e6db306d56... · coun
 - [Qwilr](../tools/qwilr.md) qwilr.com Interactive, web-page-style proposal and quote builder with embedded pricing tables and e-signature, aimed at replacing static PDF proposals. [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md)
 
 - [Conga](../tools/conga.md) conga.com Drive commerce excellence with the Conga platform. Align pricing, CPQ, CLM, and document automation with purpose-built AI to scale your enterprise growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [DocSend](../tools/docsend.md) docsend.com Secure document sharing and analytics for sales collateral and deal documents (Dropbox DocSend). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Dropbox Sign](../tools/dropbox-sign.md) sign.dropbox.com Dropbox Sign (formerly HelloSign) is the easiest way to send, receive and manage legally binding electronic signatures. Try it free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

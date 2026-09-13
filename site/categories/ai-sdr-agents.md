@@ -1,6 +1,6 @@
-# AI SDRs: 49 tools, 8 with an official MCP server
+# AI SDRs: 52 tools, 8 with an official MCP server
 
-> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 49 tools counted, 8 with an official MCP server and 2 free to start.
+> This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine... 52 tools counted, 8 with an official MCP server and 2 free to start.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,20 +16,20 @@
 
 This is the hypest category in the directory - "AI SDR" gets stamped on everything from a genuine multi-step research-and-write agent to a rules-based email sequencer with a mascot name. Read `ai_features` before you read `what_it_does`; that's where the vendor copy gets separated from what's actually agentic.
 
-- **entries in this file**: 49
+- **entries in this file**: 52
 
 - **Official MCP**: 8
 - **Community MCP**: 4
-- **No MCP found**: 37
+- **No MCP found**: 40
 
 - **ship a CLI (official) as of 2026-09-12**: 6
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
 - **Enterprise only**: 10
-- **Gate unknown**: 29
+- **Gate unknown**: 32
 
-Source file: 04-ai-sdr-agents.md · content sha256 6b08c5bc66d8cbc9... · counts reconciled against tools_recount.py at build time.
+Source file: 04-ai-sdr-agents.md · content sha256 219ee7b454bb1ca0... · counts reconciled against tools_recount.py at build time.
 
 - [The 12 with an MCP server](../lists/mcp-ai-sdr-agents.md)
 
@@ -96,6 +96,10 @@ Source file: 04-ai-sdr-agents.md · content sha256 6b08c5bc66d8cbc9... · counts
 
 - [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
+- [Dench](../tools/dench.md) dench.com Workspace for AI agents to find, reach, and close customers, replacing fragmented CRM/GTM tool stacks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [FINNY AI](../tools/finny-ai.md) finny.com From hello to close, FINNY is the AI growth officer for financial advisors - guiding every step of the way, from building your brand to closing your next client. We've got your growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
 - [FirstQuadrant](../tools/firstquadrant.md) firstquadrant.ai FirstQuadrant helps founders and revenue teams move faster, stay organized, and close more deals, by streamlining the behind-the-scenes work so nothing ever slips through the cracks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Floworks](../tools/floworks.md) floworks.ai Floworks AI deploys autonomous AI agents - Alisha, Jesse, Linda & Sam - that prospect, personalise emails, handle replies and book meetings so your team can focus on closing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
@@ -129,6 +133,8 @@ Source file: 04-ai-sdr-agents.md · content sha256 6b08c5bc66d8cbc9... · counts
 - [Scribe](../tools/scribe.md) tryscribe.com Scribe is an AI based Sales Development Representative that you can… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Simple AI](../tools/simple-ai.md) usesimple.ai Deploy enterprise-ready voice AI powered phone agents in days, not weeks. Handle thousands of calls simultaneously with human-like conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+
+- [Soff](../tools/soff.md) soff.ai AI Agents for Distributors [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Topo](../tools/topo.md) topo.io Topo is the AI sales platform that runs outbound for you: find in-market buyers, personalize outreach at scale, and book more meetings. See how it works. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

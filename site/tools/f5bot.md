@@ -68,7 +68,7 @@ free (limited) - a $0/mo "free forever" tier exists with no credit card required
 
 No documentation URL recorded.
 
-555 of 834 entries are in the same position. Blank is legal and it is published as blank.
+582 of 884 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -86,13 +86,13 @@ The entry carried no github.com URL and the organisation search returned nothing
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 834 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 884 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 
 - [https://f5bot.com](https://f5bot.com)
 
-1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 32 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
+1 source URL. Thin. The standing rule is at least two independent sources with the vendor's own site unable to be both of them, and this entry does not meet it. 39 entries are in the same state and they are listed on the methodology page. Raw sources field, verbatim:
 
 https://f5bot.com
 

@@ -77,7 +77,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **derrick_upgrade** No description was recorded with the name. evidence: in the server source · calling it reads
 
-119 of the 396 entries that record an official or community MCP server carry a harvested tool list. The other 277 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 415 entries that record an official or community MCP server carry a harvested tool list. The other 296 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -97,7 +97,7 @@ paid - the vendor's MCP page states that API keys "unlock from the PLUS plan" an
 
 No documentation URL recorded.
 
-555 of 834 entries are in the same position. Blank is legal and it is published as blank.
+582 of 884 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -131,7 +131,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 No job tag on this entry.
 
-563 of 834 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+613 of 884 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

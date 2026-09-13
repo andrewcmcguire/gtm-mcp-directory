@@ -21,7 +21,7 @@ Checked 2026-09-12
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
-Vendor: [pdfbutler.com](https://pdfbutler.com) · entry id 13-pdf-butler · source 13-proposals-deals.md line 619
+Vendor: [pdfbutler.com](https://pdfbutler.com) · entry id 13-pdf-butler · source 13-proposals-deals.md line 641
 
 **What it does**
 The native Salesforce document automation platform. Generate any type of document individually or at scale and accelerate your revenue with PDF Butler.
@@ -46,7 +46,7 @@ mcp_status, verbatim from the file:
 
 none-found
 
-The mcp_url field is empty on this entry. 344 of 834 entries are.
+The mcp_url field is empty on this entry. 375 of 884 entries are.
 
 **Command line**
 
@@ -62,13 +62,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-531 of 834 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+581 of 884 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-555 of 834 entries are in the same position. Blank is legal and it is published as blank.
+582 of 884 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -84,7 +84,7 @@ The GitHub organisation layer has not been measured on this build.
 
 No job tag on this entry.
 
-563 of 834 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+613 of 884 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
@@ -105,7 +105,7 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **Source file**: 13-proposals-deals.md
 
-- **Source line**: 619
+- **Source line**: 641
 
 - **Tier**: RESEARCHED
 

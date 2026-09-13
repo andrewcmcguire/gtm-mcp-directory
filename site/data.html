@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The data: directory.json, published in full</title>
-<meta name="description" content="The whole GTM MCP Directory as JSON: 834 entries, 200 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-12.">
+<meta name="description" content="The whole GTM MCP Directory as JSON: 884 entries, 200 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-12.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/data">
@@ -17,7 +17,7 @@
   "@type": "Dataset",
   "name": "The GTM MCP Directory",
   "alternateName": "GTM tools by MCP server status and API access gate",
-  "description": "834 go to market software entries across 15 categories, each recording whether an MCP server exists and who maintains it, whether a solo operator can get API access, what the tool does in plain language, the jobs it is tagged with, and the source URLs the facts came from. 200 entries have an official MCP server.",
+  "description": "884 go to market software entries across 15 categories, each recording whether an MCP server exists and who maintains it, whether a solo operator can get API access, what the tool does in plain language, the jobs it is tagged with, and the source URLs the facts came from. 200 entries have an official MCP server.",
   "url": "https://andrewcmcguire.com/gtm-directory/data",
   "sameAs": "https://github.com/andrewcmcguire/gtm-mcp-directory",
   "keywords": [
@@ -120,14 +120,14 @@ you are a person building something, this is the fastest path to it.</p>
 <a class="btn ghost" href="llms.txt">llms.txt</a>
 </div>
 <div class="stats" style="margin-top:30px">
-<div class="stat is-gold"><div class="n">834</div><div class="k">entries</div></div>
-<div class="stat"><div class="n">818</div>
+<div class="stat is-gold"><div class="n">884</div><div class="k">entries</div></div>
+<div class="stat"><div class="n">868</div>
 <div class="k">unique products</div></div>
 <div class="stat is-gold"><div class="n">200</div>
 <div class="k">official MCP servers</div></div>
 <div class="stat is-teal"><div class="n">849</div>
 <div class="k">job tags</div></div>
-<div class="stat"><div class="n">2,928</div>
+<div class="stat"><div class="n">3,063</div>
 <div class="k">source URLs</div></div>
 <div class="stat is-copper"><div class="n">1</div>
 <div class="k">bench tested</div></div>
@@ -137,16 +137,16 @@ you are a person building something, this is the fastest path to it.</p>
 <div class="scroller"><table class="datatable"><thead><tr><th>File</th><th>Bytes</th>
 <th>What it is</th></tr></thead><tbody>
 <tr><td><a href="data/directory.json">data/directory.json</a></td>
-<td class="n">7,809,447</td>
+<td class="n">7,992,377</td>
 <td>Every entry with every field, the 15 category blocks, the closed
 56 job vocabulary with its per job counts, the duplicate groups, and the counts block the
 whole site renders from.</td></tr>
 <tr><td><a href="data/build_report.json">data/build_report.json</a></td>
-<td class="n">92,095</td>
+<td class="n">96,036</td>
 <td>The counting authority's report: per file reconciliation, field coverage, every place this build
 is thin, and the 49 entries the tagging pass flagged for human
 review.</td></tr>
-<tr><td><a href="search-index.json">search-index.json</a></td><td class="n">803,476</td>
+<tr><td><a href="search-index.json">search-index.json</a></td><td class="n">843,558</td>
 <td>One compact record per unique product, which is what the on page search runs over.</td></tr>
 <tr><td><a href="llms.txt">llms.txt</a></td><td class="n">text</td>
 <td>The map, for agents and crawlers. Every section of the site with a one line description.</td></tr>
@@ -159,8 +159,8 @@ review.</td></tr>
 </div></div>
 
 <div class="field"><div class="k">How to read it without getting it wrong</div><div class="v">
-<p><b>Two counts exist and both are correct.</b> 834 entries,
-818 unique products. The difference is 16
+<p><b>Two counts exist and both are correct.</b> 884 entries,
+868 unique products. The difference is 16
 products deliberately listed in two categories. Filter on <code>canonical</code> for products, count
 everything for entries.</p>
 <p style="margin-top:10px"><b>Buckets are normalised, verbatim fields are not.</b> Every bucket has a
@@ -170,7 +170,7 @@ when a human pulled that entry's facts. <code>generated_on</code> is only when t
 <code>jobs_tagged_on</code> is when the tags were written. Do not use one for another.</p>
 <p style="margin-top:10px"><b>A job tag is not a test.</b> A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool&#x27;s MCP server, and not proof it is available on the gate this entry records.</p>
 <p style="margin-top:10px"><b>Null means unmeasured, not zero.</b> Every github_* field and
-docs_digest is null on all 834 entries because the
+docs_digest is null on all 884 entries because the
 rail that would fill them has not run.</p>
 </div></div>
 
@@ -196,7 +196,7 @@ wrong, <a href="submit">the correction path is the same one everybody else uses<
 <div class="bv">tools_recount.py</div></div>
 <div><div class="bk">Network calls during the build</div>
 <div class="bv">0</div></div>
-<div><div class="bk">Content sha256</div><div class="bv">243d5272a49cf69a89d09990...</div></div>
+<div><div class="bk">Content sha256</div><div class="bv">84af6549f3b38c3174434bfb...</div></div>
 </div>
 <p class="note">The canonical base URL used by the sitemap, the canonical tags and llms.txt is
 https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the
@@ -208,18 +208,18 @@ https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27.
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>834 directory entries across 15 category files.
-    818 unique products, 16 of them cross listed
+    <p>884 directory entries across 15 category files.
+    868 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
     <p>200 official MCP servers,
-    196 community.
+    215 community.
     1 bench tested.</p>
     <p>8,507 tool names harvested on 2026-09-12 from
-    119 of those 396 servers.
-    277 are unmeasured, which is not the same as empty.</p>
+    119 of those 415 servers.
+    296 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    563 carry none and say why.</p>
+    613 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -262,8 +262,8 @@ https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27.
 </div>
 <div class="legal">
 Generated 2026-09-12 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 834 vs recount
-834.<br>
+Reconciled: build 884 vs recount
+884.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

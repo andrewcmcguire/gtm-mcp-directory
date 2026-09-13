@@ -70,7 +70,7 @@ A profile URL is rarely the end state. The usual sequence is profile to person r
 
 ## The honest limit of this page
 
-Nobody here has run any of these tools. 1 of 834 entries are bench tested, so treat this as a shortlist to test rather than a result.
+Nobody here has run any of these tools. 1 of 884 entries are bench tested, so treat this as a shortlist to test rather than a result.
 
 ## Sources
 

@@ -1,6 +1,6 @@
-# How many GTM tools are enterprise gated? 79 of 834, counted
+# How many GTM tools are enterprise gated? 79 of 884, counted
 
-> 79 of 834 GTM tools need a contract before anybody gets API access, and 39 of those ship an official MCP server most people cannot call. Counted 2026-09-12.
+> 79 of 884 GTM tools need a contract before anybody gets API access, and 39 of those ship an official MCP server most people cannot call. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-79 of the 834 entries in this directory are enterprise only: API access needs a contract, a seat count or a procurement cycle. One more is enterprise leaning. 39 of them ship an official MCP server that a solo operator still cannot reach.
+79 of the 884 entries in this directory are enterprise only: API access needs a contract, a seat count or a procurement cycle. One more is enterprise leaning. 39 of them ship an official MCP server that a solo operator still cannot reach.
 
 Enterprise gated with no public documentation is the single most useful fact a directory like this can publish, so it is surfaced rather than hidden. It is also the fact vendors are least happy to see counted.
 
@@ -25,21 +25,21 @@ Enterprise gated with no public documentation is the single most useful fact a d
 | Category | Enterprise only | Of total | Share |
 |---|---|---|---|
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 13 | 22 | 59% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 10 | 49 | 20% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 10 | 52 | 19% |
 | [Signals & Intent](../categories/signals-intent-abm.md) | 10 | 63 | 16% |
 | [Conversation Intel](../categories/conversation-intel.md) | 8 | 43 | 19% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 109 | 6% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 6 | 49 | 12% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 128 | 4% |
-| [RevOps Infra](../categories/revops-infra.md) | 5 | 79 | 6% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 6 | 116 | 5% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 6 | 54 | 11% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 5 | 137 | 4% |
+| [RevOps Infra](../categories/revops-infra.md) | 5 | 85 | 6% |
 | [Community & Dark Social](../categories/community-dark-social.md) | 5 | 21 | 24% |
-| [Proposals & Deals](../categories/proposals-deals.md) | 3 | 25 | 12% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 3 | 43 | 7% |
-| [Video Prospecting](../categories/video-prospecting.md) | 2 | 19 | 11% |
+| [Proposals & Deals](../categories/proposals-deals.md) | 3 | 26 | 12% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 3 | 47 | 6% |
+| [Video Prospecting](../categories/video-prospecting.md) | 2 | 23 | 9% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 2 | 16 | 12% |
-| [MCP Layer](../categories/mcp-infrastructure.md) | 1 | 145 | 1% |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 1 | 156 | 1% |
 
-Counted 2026-09-12. 531 further entries do not publish enough for the gate to be established at all and are recorded as unknown rather than guessed into a bucket.
+Counted 2026-09-12. 581 further entries do not publish enough for the gate to be established at all and are recorded as unknown rather than guessed into a bucket.
 
 ## The cruel intersection
 
