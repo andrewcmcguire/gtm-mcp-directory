@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / The 87 GTM tools that need a contract before an agent can touch them
 
-**List · 87 of 468**
+**List · 87 of 514**
 
 ## The 87 GTM tools that need a contract before an agent can touch them
 
@@ -193,4 +193,4 @@ vareto.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No
 | [Varicent](../tools/varicent.md)
 varicent.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | [No MCP found](../mcp/none-found.md) | [Enterprise only](../gates/enterprise-only.md) | Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory... |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 468 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 514 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

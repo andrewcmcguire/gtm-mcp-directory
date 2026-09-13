@@ -16,7 +16,7 @@
 
 **The short answer**
 
-A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 468 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
+A GTM tech stack is every system a revenue team sells through, from the data that starts a conversation to the document that closes it. In this directory it is 15 layers and 514 tools, and the interesting question about a stack is no longer what is in it but how much of it anything can call.
 
 Most stack diagrams are drawn by category because that is how software is sold. An agent does not experience it that way. It experiences a chain of doors, and the chain is only as good as its locked link.
 
@@ -24,27 +24,27 @@ Most stack diagrams are drawn by category because that is how software is sold. 
 
 | Layer | Tools | Official MCP | Community | Reachable |
 |---|---|---|---|---|
-| [MCP Layer](../categories/mcp-infrastructure.md) | 43 | 14 | 24 | 88% |
-| [Conversation Intel](../categories/conversation-intel.md) | 30 | 19 | 2 | 70% |
-| [RevOps Infra](../categories/revops-infra.md) | 46 | 29 | 1 | 65% |
-| [Data & Enrichment](../categories/data-enrichment.md) | 70 | 42 | 2 | 63% |
-| [Video Prospecting](../categories/video-prospecting.md) | 16 | 4 | 6 | 62% |
-| [Signals & Intent](../categories/signals-intent-abm.md) | 34 | 20 | 1 | 62% |
+| [MCP Layer](../categories/mcp-infrastructure.md) | 52 | 14 | 33 | 90% |
+| [Conversation Intel](../categories/conversation-intel.md) | 31 | 19 | 2 | 68% |
+| [Data & Enrichment](../categories/data-enrichment.md) | 76 | 42 | 4 | 61% |
+| [RevOps Infra](../categories/revops-infra.md) | 52 | 29 | 2 | 60% |
+| [Video Prospecting](../categories/video-prospecting.md) | 17 | 4 | 6 | 59% |
+| [Signals & Intent](../categories/signals-intent-abm.md) | 38 | 20 | 1 | 55% |
 | [Community & Dark Social](../categories/community-dark-social.md) | 20 | 8 | 3 | 55% |
 | [Proposals & Deals](../categories/proposals-deals.md) | 19 | 8 | 2 | 53% |
-| [Engagement & Outbound](../categories/engagement-outbound.md) | 54 | 23 | 3 | 48% |
 | [Scheduling & Routing](../categories/scheduling-routing.md) | 15 | 5 | 2 | 47% |
-| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 28 | 11 | 2 | 46% |
-| [AI SDRs](../categories/ai-sdr-agents.md) | 33 | 8 | 2 | 30% |
+| [Engagement & Outbound](../categories/engagement-outbound.md) | 61 | 23 | 4 | 44% |
+| [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | 32 | 11 | 2 | 41% |
+| [AI SDRs](../categories/ai-sdr-agents.md) | 34 | 8 | 2 | 29% |
 | [Email Deliverability](../categories/email-deliverability.md) | 15 | 4 | 0 | 27% |
 | [Forecasting & Revenue](../categories/forecasting-revenue.md) | 20 | 3 | 0 | 15% |
-| [Enablement & Coaching](../categories/enablement-coaching.md) | 25 | 2 | 1 | 12% |
+| [Enablement & Coaching](../categories/enablement-coaching.md) | 32 | 2 | 1 | 9% |
 
-Counted 2026-09-12. Totals sum to 468 entries, which includes 16 products deliberately listed in two categories.
+Counted 2026-09-12. Totals sum to 514 entries, which includes 16 products deliberately listed in two categories.
 
 ## What the ordering tells you
 
-The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 33.
+The top of that table is the infrastructure and data layers, where the API was always the product. The bottom is where the interface is the product: enablement, forecasting, community. The category sold hardest on autonomy, AI SDRs, sits well down it with 8 official servers out of 34.
 
 If you are assembling a stack an agent can drive, build it from the top of that table down. The bottom is where you will still be writing glue, or clicking.
 

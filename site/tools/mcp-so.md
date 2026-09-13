@@ -64,13 +64,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-165 of 468 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+211 of 514 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-374 of 468 entries are in the same position. Blank is legal and it is published as blank.
+400 of 514 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -92,7 +92,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: unclear. The entry could not verify current content. discover-mcp-servers is the obvious tag and there is no fetched evidence for it.
 
-197 of 468 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+243 of 514 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

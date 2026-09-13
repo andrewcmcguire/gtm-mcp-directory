@@ -76,7 +76,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **tidio_status** Check if Tidio is connected and get the current public key and embed code. Use this to see your connection status. evidence: in the server source · calling it reads
 
-119 of the 251 entries that record an official or community MCP server carry a harvested tool list. The other 132 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 264 entries that record an official or community MCP server carry a harvested tool list. The other 145 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -96,7 +96,7 @@ free (limited). Self-serve, no-card-required free tier exists; a "Premium Plan" 
 
 No documentation URL recorded.
 
-374 of 468 entries are in the same position. Blank is legal and it is published as blank.
+400 of 514 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -135,7 +135,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 468 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 514 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

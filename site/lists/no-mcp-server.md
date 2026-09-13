@@ -1,6 +1,6 @@
-# GTM tools with no MCP server: 193 of 468 checked
+# GTM tools with no MCP server: 226 of 514 checked
 
-> 193 of 468 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-12.
+> 226 of 514 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean. Checked through 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -8,11 +8,11 @@
 
 ---
 [Directory](../index.md) /
-[The lists](index.md) / The 193 GTM tools with no MCP server found
+[The lists](index.md) / The 226 GTM tools with no MCP server found
 
-**List · 193 of 468**
+**List · 226 of 514**
 
-## The 193 GTM tools with no MCP server found
+## The 226 GTM tools with no MCP server found
 
 None found is a statement about a search on a date, not a promise that no server exists. Each row carries the date its entry was last checked. A vendor who shipped a server the week after that date is recorded here until the next pass, which is exactly why every entry ships its own last_checked stamp instead of one site wide date.
 
@@ -144,6 +144,8 @@ vareto.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | FP&
 varicent.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | Enterprise sales-performance-management (SPM) platform covering incentive compensation, quota setting, territory design, pipeline... | [Enterprise only](../gates/enterprise-only.md) | 2026-09-02 |
 | [Abstrakt](../tools/abstrakt.md)
 abstrakt.ai | [Conversation Intel](../categories/conversation-intel.md) | Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Accord](../tools/accord.md)
+inaccord.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Transform sales best practices into unavoidable playbooks. Empower reps to win like top sellers with AI-powered revenue... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [ActiveCampaign](../tools/activecampaign.md)
 activecampaign.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Go beyond marketing automation with ActiveCampaign's autonomous marketing platform. Your team of AI agents handles email, SMS,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [AgentMail](../tools/agentmail.md)
@@ -152,10 +154,14 @@ agentmail.to | [Engagement & Outbound](../categories/engagement-outbound.md) | A
 aircover.ai | [Enablement & Coaching](../categories/enablement-coaching.md) | Aircover gives your reps a virtual sales engineer, real-time coaching, and automatic CRM updates - on every call. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Alysio](../tools/alysio.md)
 alysio.ai | [AI SDRs](../categories/ai-sdr-agents.md) | Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, HubSpot and Gong using MCP and deploy revenue... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Ambition](../tools/ambition.md)
+ambition.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Drive revenue predictability through structured coaching, AI-powered revenue insights, and operationalized productivity. Learn... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Apsona](../tools/apsona.md)
 apsona.com | [RevOps Infra](../categories/revops-infra.md) | All-in-one Salesforce data management-run reports, merge documents, clean records, and update data with no code. Apsona works... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Athean](../tools/athean.md)
 athean.com | [AI SDRs](../categories/ai-sdr-agents.md) | One AI for all of go-to-market. Hook up your data, configure your agents, and execute every GTM motion in one surface. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Avina](../tools/avina.md)
+avina.io | [Signals & Intent](../categories/signals-intent-abm.md) | Avina is an AI-powered go-to-market platform that helps B2B sales teams find, prioritize, and engage high-intent prospects using... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md)
 bigtincan.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Birdie](../tools/birdie.md)
@@ -164,12 +170,22 @@ getbirdie.io | [Engagement & Outbound](../categories/engagement-outbound.md) | A
 blackthorn.io | [Community & Dark Social](../categories/community-dark-social.md) | Plan & manage events entirely inside Salesforce. Blackthorn is a Salesforce event management software that connects your event... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Boomi](../tools/boomi.md)
 boomi.com | [RevOps Infra](../categories/revops-infra.md) | Turn complexity into endless possibility with Boomi, a single platform that integrates applications, APIs, data, and AI agents. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Buzz](../tools/buzz.md)
+buzz.ai | [AI SDRs](../categories/ai-sdr-agents.md) | AI Employee for outbound - email, LinkedIn, call | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Candu](../tools/candu.md)
+candu.ai | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Candu lets product and growth teams build, launch, and iterate in-app onboarding & engagement flows-without engineering. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Caretta](../tools/caretta.md)
+caretta.so | [Conversation Intel](../categories/conversation-intel.md) | Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Catch-all Verifier](../tools/catch-all-verifier.md)
 catchallverifier.com | [Data & Enrichment](../categories/data-enrichment.md) | Catch All Verifier is real-time risky email verification platforms that can verify all your catch all (accept-all), even unknown... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Ceros](../tools/ceros.md)
+ceros.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Create no-code interactive content that earns attention and drives action. Ceros helps marketers and designers build immersive... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Champion](../tools/champion.md)
 championhq.com | [Community & Dark Social](../categories/community-dark-social.md) | Identifies and scores which existing customers are most engaged or most at risk, builds rich profiles of their... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Ciro](../tools/ciro.md)
 ciro.io | [Data & Enrichment](../categories/data-enrichment.md) | Ciro finds your best accounts, deeply qualifies each contact, runs a contact data waterfall, and writes signal-based outbound.... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Clok](../tools/clok.md)
+clok.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Sales enablement, interactive experiences and training tools for complex products. We help teams explain products more clearly,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [CloudFiles](../tools/cloudfiles.md)
 cloudfiles.io | [RevOps Infra](../categories/revops-infra.md) | CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Cloudingo](../tools/cloudingo.md)
@@ -198,6 +214,10 @@ dialworks.io | [Enablement & Coaching](../categories/enablement-coaching.md) | S
 doodle.com | [Scheduling & Routing](../categories/scheduling-routing.md) | General-purpose group-scheduling tool - polls for finding a time that works across many participants, sign-up sheets, and 1:1... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Drift](../tools/drift.md)
 drift.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
+| [Dust](../tools/dust.md)
+dust.tt | [RevOps Infra](../categories/revops-infra.md) | Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Enablism](../tools/enablism.md)
+enablism.com | [Enablement & Coaching](../categories/enablement-coaching.md) | AI-powered value enablement platform that helps GTM & CS teams build, share, and track interactive value models across the entire... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enrich-CRM](../tools/enrich-crm.md)
 enrich-crm.com | [Data & Enrichment](../categories/data-enrichment.md) | Verified emails, direct phones, job changes & buying signals - real-time CRM enrichment, not a stale database. GDPR-native, EU... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Enrichley](../tools/enrichley.md)
@@ -224,6 +244,8 @@ usefr.com | [AI SDRs](../categories/ai-sdr-agents.md) | AI agents for GTM. Front
 fuseai.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Fuse AI is sales superintelligence for modern revenue teams. Find the right prospects, automate outbound, uncover buyer signals,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Glean](../tools/glean.md)
 glean.com | [RevOps Infra](../categories/revops-infra.md) | Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [GoLinks](../tools/golinks.md)
+golinks.io | [RevOps Infra](../categories/revops-infra.md) | GoLinks® revolutionizes information access & sharing through secure, intuitive short links called go/links. It's knowledge... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [GTM Buddy](../tools/gtm-buddy.md)
 gtmbuddy.ai | [Enablement & Coaching](../categories/enablement-coaching.md) | Activate reps who think, adapt, and close with autonomy. GTM Buddy turns enablement into a revenue activation engine with... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Hindsight](../tools/hindsight.md)
@@ -234,10 +256,16 @@ hockeystack.com | [Signals & Intent](../categories/signals-intent-abm.md) | Hock
 hyperbound.ai | [Enablement & Coaching](../categories/enablement-coaching.md) | AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI buyer in minutes,... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [iCapture](../tools/icapture.md)
 cvent.com | [Data & Enrichment](../categories/data-enrichment.md) | Cvent provides software to planners for event management, marketing and attendee engagement, and also helps hotels win business... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Instapage](../tools/instapage.md)
+instapage.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Build high-converting landing pages with the best landing page creator and software. Drag-and-drop builder, 250+ templates, AI... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Integrate](../tools/integrate.md)
 integrate.com | [Data & Enrichment](../categories/data-enrichment.md) | Integrate's lead management platform makes every lead clean, compliant, and actionable, so B2B marketers can focus on generating... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Introw](../tools/introw.md)
+introw.io | [RevOps Infra](../categories/revops-infra.md) | Welcome to #1 agentic partnership management platform. Connect your CRM, launch your partner portal & start driving revenue on... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [item](../tools/item.md)
 item.app | [AI SDRs](../categories/ai-sdr-agents.md) | item is the AI-native system that understands your business, knows your customers, and does the work - Designed to replace your... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [KAON Interactive](../tools/kaon-interactive.md)
+kaon.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Kaon creates simple, interactive applications for B2B buyers to explore your complex value story. These omnichannel solutions... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Kronologic](../tools/kronologic.md)
 kronologic.com | [Scheduling & Routing](../categories/scheduling-routing.md) | Automated meeting-booking platform that sends calendar invites directly (not just booking links) on a rep's behalf and negotiates... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Kubaru](../tools/kubaru.md)
@@ -250,8 +278,12 @@ lavender.ai | [Enablement & Coaching](../categories/enablement-coaching.md) | A 
 leadgenius.com | [Data & Enrichment](../categories/data-enrichment.md) | LeadGenius delivers real-time, compliant B2B contact data and buyer intelligence worldwide. Find decision-makers, activate leads,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Leadinfo](../tools/leadinfo.md)
 leadinfo.com | [Signals & Intent](../categories/signals-intent-abm.md) | Grow your sales funnel and generate better leads. Start identifying B2B website visitors and reach out to them within Leadinfo's... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [LeadPages](../tools/leadpages.md)
+leadpages.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | AI landing pages with built-in A/B testing, Smart Traffic, and heatmaps. Create pages in 60 seconds. Optimize automatically. No... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Leadspace](../tools/leadspace.md)
 leadspace.com | [Data & Enrichment](../categories/data-enrichment.md) | Replace static GTM data with real-time intelligence. Unify profiles, activate signals, and keep routing, scoring, and targeting... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Lift AI](../tools/lift-ai.md)
+lift-ai.com | [Signals & Intent](../categories/signals-intent-abm.md) | Lift AI scores the behavioral context of every website visitor - anonymous or identified - with a real-time buyer probability... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Lightmeter](../tools/lightmeter.md)
 lightmeter.io | [Email Deliverability](../categories/email-deliverability.md) | Managed Sales Email Delivery For Cold Outreach | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [LinkPoint Connect](../tools/linkpoint-connect.md)
@@ -276,6 +308,8 @@ natterbox.com | [Engagement & Outbound](../categories/engagement-outbound.md) | 
 nex.ai | [AI SDRs](../categories/ai-sdr-agents.md) | Nex automates complex, high-volume GTM plays like prospecting, outbound, CRM clean up, and revenue recovery, that general purpose... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Nomi](../tools/nomi.md)
 nomi.so | [Conversation Intel](../categories/conversation-intel.md) | Nomi is the real-time AI sales copilot that guides reps during live calls. Get instant battle cards, objection handling, and... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Octane11](../tools/octane11.md)
+octane11.com | [Signals & Intent](../categories/signals-intent-abm.md) | Octane11 connects B2B marketing signals to real accounts and pipeline. Account-level analytics powered by AI. Set up in minutes. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Octolane AI](../tools/octolane-ai.md)
 octolane.com | [AI SDRs](../categories/ai-sdr-agents.md) | Octolane runs an AI agent on every account, trained on how your best revenue teams think and act. Human judgment, deployed at... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [OneMob](../tools/onemob.md)
@@ -290,12 +324,16 @@ orbit.love | [Community & Dark Social](../categories/community-dark-social.md) |
 outplay.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [PaletteHQ](../tools/palettehq.md)
 palettehq.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | Palette automates your sales commissions. Save time and reduce errors. Get full visibility on commissions. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [PartnerOS](../tools/partneros.md)
+partneros.ai | [RevOps Infra](../categories/revops-infra.md) | Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [PathFactory](../tools/pathfactory.md)
 pathfactory.com | [Enablement & Coaching](../categories/enablement-coaching.md) | PathFactory is the content intelligence platform that turns content and buyer data into personalized experiences and first-party... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [PDF Butler](../tools/pdf-butler.md)
 pdfbutler.com | [Proposals & Deals](../categories/proposals-deals.md) | The native Salesforce document automation platform. Generate any type of document individually or at scale and accelerate your... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Pendo](../tools/pendo.md)
 pendo.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Postal](../tools/postal.md)
+postal.io | [Engagement & Outbound](../categories/engagement-outbound.md) | Postal is the leading intelligent gifting platform that helps thousands of businesses increase their pipeline, retain customers,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Potion](../tools/potion.md)
 sendpotion.com | [Video Prospecting](../categories/video-prospecting.md) | AI video-personalization tool for outbound sales - record one template video, and Potion overlays a personalized version per... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Prospect](../tools/prospect.md)
@@ -310,6 +348,8 @@ quotain.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Qu
 relate.so | [RevOps Infra](../categories/revops-infra.md) | Relate is a modern sales CRM platform that lets you bring your entire team together to collaborate on sales. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Reltio](../tools/reltio.md)
 reltio.com | [Data & Enrichment](../categories/data-enrichment.md) | Unify siloed data into trusted 360 views with Reltio. Power AI, improve operations, and drive growth with real-time context... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Resquared](../tools/resquared.md)
+re2.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | 14M+ verified local businesses, AI-handwritten outreach that learns from every campaign, and a built-in email delivery system.... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Revenue Grid](../tools/revenue-grid.md)
 revenuegrid.com | [Forecasting & Revenue](../categories/forecasting-revenue.md) | Revenue Intelligence platform that automatically captures sales activities to help you identify and fix revenue leaks. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [RevenueBase](../tools/revenuebase.md)
@@ -328,12 +368,24 @@ secondnature.ai | [Enablement & Coaching](../categories/enablement-coaching.md) 
 sendblue.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Send iMessage, SMS, and RCS from your CRM or via REST API. 2-3x higher response rates than SMS. No A2P registration. SOC 2... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Sendoso](../tools/sendoso.md)
 sendoso.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Automate personalized gifting campaigns to drive revenue. Sendoso's AI-Enhanced Gifting and Direct Mail Automation Platform is... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [SharpSpring](../tools/sharpspring.md)
+sharpspring.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Fuel your growth & drive more leads with SharpSpring's sales, marketing automation, & CRM features in an all-in-one, affordable... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Signaliz](../tools/signaliz.md)
+signaliz.com | [Data & Enrichment](../categories/data-enrichment.md) | Discover verified companies from any market signal, keep target accounts under watch, verify contacts, and turn dated evidence... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SilkChart](../tools/silkchart.md)
 silkchart.com | [Enablement & Coaching](../categories/enablement-coaching.md) | SilkChart analyzes sales calls and measures how well playbooks are executed. It proactively surfaces coaching opportunities to... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Sitefire](../tools/sitefire.md)
+sitefire.ai | [Signals & Intent](../categories/signals-intent-abm.md) | Sitefire helps brands market their products to AI agents. Track AI visibility, identify what gets cited, and ship brand-aware... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Skyvern](../tools/skyvern.md)
+skyvern.com | [RevOps Infra](../categories/revops-infra.md) | Skyvern automates browser workflows with AI. No brittle selectors, no maintenance. Automate logins, form fills, data extraction,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [SMARTe](../tools/smarte.md)
+smarte.pro | [Data & Enrichment](../categories/data-enrichment.md) | Actionable Sales Intelligence built over 289M+ global B2B contacts. Access verified mobile numbers and business emails for... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SMS-Magic](../tools/sms-magic.md)
 sms-magic.com | [Engagement & Outbound](../categories/engagement-outbound.md) | SMS-Magic's business text messaging platform is top rated for Marketing, Sales, Support. Turn CRMs like Salesforce & Zoho into... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Spinify](../tools/spinify.md)
 spinify.com | [Enablement & Coaching](../categories/enablement-coaching.md) | Turn CRM data into predictable sales performance with real-time visibility, automated competitions and AI coaching across every... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Sprites](../tools/sprites.md)
+sprites.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | Sprites runs your ads on autopilot: Google, Meta, LinkedIn, TikTok, Reddit, ChatGPT. Get better ROI and cut the agency retainer. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Store Leads](../tools/store-leads.md)
 storeleads.app | [Data & Enrichment](../categories/data-enrichment.md) | The most comprehensive list of ecommerce stores including 13,727,714 active stores across 409 platforms including Shopify,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Streak](../tools/streak.md)
@@ -348,12 +400,18 @@ superhuman.com | [Engagement & Outbound](../categories/engagement-outbound.md) |
 supermetrics.com | [Data & Enrichment](../categories/data-enrichment.md) | Supermetrics is a Marketing Intelligence Platform for agencies and brands that allows you to connect, manage, analyze, and... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SureConnect](../tools/sureconnect.md)
 sureconnect.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | SureConnect identifies 'Likely to answer' contacts on your list, helping you increase connect rates and saving you from... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Surface](../tools/surface.md)
+withsurface.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Surface combines AI agents, buyer intelligence, and campaign execution so revenue teams can launch faster, convert more demand,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [SurveyMonkey](../tools/surveymonkey.md)
 surveymonkey.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Easily create surveys and forms with AI and templates for employee and customer feedback, market research, event registrations... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Survicate](../tools/survicate.md)
 survicate.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | A customer feedback platform that lets you survey every channel, automate feedback flows, and uncover customer insights from... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [tday](../tools/tday.md)
+tday.com | [Enablement & Coaching](../categories/enablement-coaching.md) | tday is the brand-aware design partner that already knows your colors, fonts, and voice. Type the brief, pick the format, ship... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [TechniQ ABM](../tools/techniq-abm.md)
 techniqabm.com | [Signals & Intent](../categories/signals-intent-abm.md) | TechniQ helps B2B teams uncover the best way into their most important accounts and turns that intelligence into messaging and... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [The Hog](../tools/the-hog.md)
+thehog.ai | [Data & Enrichment](../categories/data-enrichment.md) | One API to give your AI agents the freshest context across people, companies, social, and the open web. No subscription. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [The Org](../tools/the-org.md)
 theorg.com | [Data & Enrichment](../categories/data-enrichment.md) | Explore the world's biggest network of public org charts. Search for relevant people across companies, follow companies to stay... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [throxy](../tools/throxy.md)
@@ -366,6 +424,8 @@ topo.io | [AI SDRs](../categories/ai-sdr-agents.md) | Topo is the AI sales platf
 torchlite.com | [RevOps Infra](../categories/revops-infra.md) | Channel & Partner Management; Onboard, Track, & Pay referrals, deals, affiliates, and strategic partners. Drive revenue and grow. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Tray.ai](../tools/tray-ai.md)
 tray.ai | [RevOps Infra](../categories/revops-infra.md) | Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Treble](../tools/treble.md)
+treble.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | Conoce Treble.ai, la mejor solución de IA para WhatsApp adaptada a cualquier empresa. Llega a más clientes con WhatsApp... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Trellus AI](../tools/trellus-ai.md)
 trellus.ai | [AI SDRs](../categories/ai-sdr-agents.md) | A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps,... | [Gate unknown](../gates/unknown.md) | 2026-09-02 |
 | [Trevor AI](../tools/trevor-ai.md)
@@ -376,10 +436,16 @@ twain.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | Bette
 unbounce.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | Grow your leads and sales with Unbounce. Easily create, test, and optimize landing pages, and boost conversions using AI... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Upcall](../tools/upcall.md)
 upcall.com | [Engagement & Outbound](../categories/engagement-outbound.md) | Upcall is an omnichannel outreach platform powered by real people-not robots. Our U.S.-based team connects with your leads... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [upcell](../tools/upcell.md)
+upcell.io | [Data & Enrichment](../categories/data-enrichment.md) | Consolidate your sales data tools in one browser extension, lower software costs, and book a tailored walkthrough. | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Uplane](../tools/uplane.md)
+uplane.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | uplane makes hundreds of on-brand ads and matching landing pages, runs them across Meta, Google, and TikTok, and steers budget to... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Venta AI](../tools/venta-ai.md)
 getventa.ai | [Engagement & Outbound](../categories/engagement-outbound.md) | Find and qualify companies, reach the right decision-makers and reactivate cold deals - in one platform. Developed in the EU,... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [Vertify](../tools/vertify.md)
 vertify.com | [RevOps Infra](../categories/revops-infra.md) | Unlock the full potential of your data with our enterprise data integration platform. Streamline data management and access to... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
+| [Vidu](../tools/vidu.md)
+vidu.io | [Video Prospecting](../categories/video-prospecting.md) | Automatically generated, AI personalized videos for your sales team's outreach | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [VWO](../tools/vwo.md)
 vwo.com | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | VWO is the market-leading digital experience optimization solution that fast-growing companies use for experimentation &... | [Gate unknown](../gates/unknown.md) | 2026-09-12 |
 | [WhatsApp Business](../tools/whatsapp-business.md)
@@ -405,4 +471,4 @@ toplyne.io | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | unknown i
 | [Ultimate.ai (Ultimate)](../tools/ultimate-ai.md)
 getultimate.ai | [Inbound & PLG Chat](../categories/inbound-plg-chat.md) | unknown in current standalone form - was an AI customer-service-automation platform (chatbot/agent resolving support tickets)... | [Gate not applicable](../gates/n-a.md) | 2026-09-02 |
 
-Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 468 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-12 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 514 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

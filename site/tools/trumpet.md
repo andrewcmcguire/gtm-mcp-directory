@@ -60,7 +60,7 @@ https://www.sendtrumpet.com/blog-posts/introducing-trumpet-mcp
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 251 entries that record an official or community MCP server carry a harvested tool list. The other 132 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+119 of the 264 entries that record an official or community MCP server carry a harvested tool list. The other 145 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -80,7 +80,7 @@ free (generous). Trumpet is free to get started for everyone with no credit card
 
 No documentation URL recorded.
 
-374 of 468 entries are in the same position. Blank is legal and it is published as blank.
+400 of 514 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -104,7 +104,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 468 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 514 entries carry at least one tag; 849 tags are assigned in total.
 
 **Also listed in another category**
 
@@ -124,7 +124,7 @@ This page is the canonical home. The listing below is the same product, counted 
 
 What that listing says it does: Digital-sales-room / buyer-facing microsite platform ("Pods") for revenue teams, with a built-in webcam/screen-recording tool for sellers to send personalized welcome and post-demo recap videos embedded in the buyer's deal microsite, plus mutual action plans and engagement analytics.
 
-16 of the 468 entries are cross listed like this. They are why the entry count is 468 and the unique product count is 452. The canonical home is declared in INDEX.md, not chosen by the parser.
+16 of the 514 entries are cross listed like this. They are why the entry count is 514 and the unique product count is 498. The canonical home is declared in INDEX.md, not chosen by the parser.
 
 **Sources**
 

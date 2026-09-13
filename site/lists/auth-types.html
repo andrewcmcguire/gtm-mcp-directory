@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GTM tools by MCP auth type: OAuth, API key or neither</title>
-<meta name="description" content="How the 251 GTM tools with an MCP server authenticate. OAuth, API key, both, or not recorded, with the verbatim auth field on every row. Counted 2026-09-12.">
+<meta name="description" content="How the 264 GTM tools with an MCP server authenticate. OAuth, API key, both, or not recorded, with the verbatim auth field on every row. Counted 2026-09-12.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/lists/auth-types">
@@ -113,30 +113,30 @@ will not. OAuth hands the server a scoped token the vendor can revoke. An API ke
 config file is as powerful as whatever the vendor scoped it to, lives in plain text on the machine
 running the agent, and is revoked by rotating it. Both are normal. Knowing which one you are about
 to wire in is not optional.</p>
-<p class="note">251 of 468 entries have a server of any kind
-(200 official, 51 community). The buckets
+<p class="note">264 of 514 entries have a server of any kind
+(200 official, 64 community). The buckets
 below are a keyword match over the mcp_auth field, disclosed as such, with the verbatim field
 printed on every row of every page.</p>
-<ul class="cov"><li><div class="lab"><a href="auth-oauth">OAuth</a><span class="r"><b>69</b> of 251 servers</span></div><div class="bar"><i class="o" style="width:27.4900%"></i></div></li><li><div class="lab"><a href="auth-api-key">API key</a><span class="r"><b>53</b> of 251 servers</span></div><div class="bar"><i class="o" style="width:21.1155%"></i></div></li><li><div class="lab"><a href="auth-either">OAuth or an API key</a><span class="r"><b>68</b> of 251 servers</span></div><div class="bar"><i class="o" style="width:27.0916%"></i></div></li><li><div class="lab"><a href="auth-third-party">Third party platform auth</a><span class="r"><b>7</b> of 251 servers</span></div><div class="bar"><i class="o" style="width:2.7888%"></i></div></li><li><div class="lab"><a href="auth-unrecorded">Auth not recorded</a><span class="r"><b>54</b> of 251 servers</span></div><div class="bar"><i class="o" style="width:21.5139%"></i></div></li></ul>
+<ul class="cov"><li><div class="lab"><a href="auth-oauth">OAuth</a><span class="r"><b>69</b> of 264 servers</span></div><div class="bar"><i class="o" style="width:26.1364%"></i></div></li><li><div class="lab"><a href="auth-api-key">API key</a><span class="r"><b>53</b> of 264 servers</span></div><div class="bar"><i class="o" style="width:20.0758%"></i></div></li><li><div class="lab"><a href="auth-either">OAuth or an API key</a><span class="r"><b>68</b> of 264 servers</span></div><div class="bar"><i class="o" style="width:25.7576%"></i></div></li><li><div class="lab"><a href="auth-third-party">Third party platform auth</a><span class="r"><b>7</b> of 264 servers</span></div><div class="bar"><i class="o" style="width:2.6515%"></i></div></li><li><div class="lab"><a href="auth-unrecorded">Auth not recorded</a><span class="r"><b>67</b> of 264 servers</span></div><div class="bar"><i class="o" style="width:25.3788%"></i></div></li></ul>
 <div class="viewgrid" style="margin-top:28px"><a class="viewcard" href="auth-oauth">
 <div class="vt">OAuth</div>
-<div class="vn">69 of 251 servers</div>
+<div class="vn">69 of 264 servers</div>
 <div class="vd">The server takes the user through a browser sign in and holds a scoped token. Nothing is pasted into a config file, and access can be...</div>
 </a><a class="viewcard" href="auth-api-key">
 <div class="vt">API key</div>
-<div class="vn">53 of 251 servers</div>
+<div class="vn">53 of 264 servers</div>
 <div class="vd">The server authenticates with a key or token the operator generates and pastes in. Simple to wire, and the key is as powerful as whatever...</div>
 </a><a class="viewcard" href="auth-either">
 <div class="vt">OAuth or an API key</div>
-<div class="vn">68 of 251 servers</div>
+<div class="vn">68 of 264 servers</div>
 <div class="vd">Both paths are documented. Usually OAuth for a hosted server and a key for the self hosted or legacy endpoint.</div>
 </a><a class="viewcard" href="auth-third-party">
 <div class="vt">Third party platform auth</div>
-<div class="vn">7 of 251 servers</div>
+<div class="vn">7 of 264 servers</div>
 <div class="vd">Auth is handled by a connector platform sitting between the agent and the vendor, so the credential lives with the platform rather than...</div>
 </a><a class="viewcard" href="auth-unrecorded">
 <div class="vt">Auth not recorded</div>
-<div class="vn">54 of 251 servers</div>
+<div class="vn">67 of 264 servers</div>
 <div class="vd">The mcp_auth field on the entry is blank, or says unknown. Published as blank rather than guessed.</div>
 </a></div>
 </section></div><footer class="foot">
@@ -144,18 +144,18 @@ printed on every row of every page.</p>
 <div class="cols">
   <div>
     <div class="ft">The count</div>
-    <p>468 directory entries across 15 category files.
-    452 unique products, 16 of them cross listed
+    <p>514 directory entries across 15 category files.
+    498 unique products, 16 of them cross listed
     in a second category and counted once here.</p>
     <p>200 official MCP servers,
-    51 community.
+    64 community.
     1 bench tested.</p>
     <p>8,507 tool names harvested on 2026-09-12 from
-    119 of those 251 servers.
-    132 are unmeasured, which is not the same as empty.</p>
+    119 of those 264 servers.
+    145 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
-    197 carry none and say why.</p>
+    243 carry none and say why.</p>
   </div>
   <div>
     <div class="ft">Views</div>
@@ -198,8 +198,8 @@ printed on every row of every page.</p>
 </div>
 <div class="legal">
 Generated 2026-09-12 by build_directory.py (phase 1) from tools_recount.py.
-Reconciled: build 468 vs recount
-468.<br>
+Reconciled: build 514 vs recount
+514.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
 The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
 Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>

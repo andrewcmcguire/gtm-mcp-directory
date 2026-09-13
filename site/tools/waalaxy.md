@@ -82,7 +82,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **get_prospects** Get prospects from a campaign or list evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-119 of the 251 entries that record an official or community MCP server carry a harvested tool list. The other 132 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 264 entries that record an official or community MCP server carry a harvested tool list. The other 145 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -102,7 +102,7 @@ paid
 
 No documentation URL recorded.
 
-374 of 468 entries are in the same position. Blank is legal and it is published as blank.
+400 of 514 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -131,7 +131,7 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 468 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 514 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

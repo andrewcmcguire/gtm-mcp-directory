@@ -1,6 +1,6 @@
-# Conversation intelligence tools with MCP servers: 21 of 30, counted
+# Conversation intelligence tools with MCP servers: 21 of 31, counted
 
-> 21 of the 30 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
+> 21 of the 31 conversation intel tools in this directory have an MCP server: 19 official and 2 community. The list with server URLs and access gates. Counted 2026-09-12.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@
 
 **The short answer**
 
-21 of the 30 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
+21 of the 31 conversation intel entries in this directory have an MCP server: 19 built and maintained by the vendor and 2 built by somebody else. 3 are free to start and 8 need a contract before anybody gets an API key.
 
 Call recordings are the richest unstructured data a revenue team owns, and the only place most of what a buyer actually said is written down. Whether an agent can read them decides whether it can prepare for a call or only summarise a CRM field.
 
@@ -69,7 +69,7 @@ Records, transcribes, and scores sales calls, syncing action items and summaries
 
 ## The rest of the category
 
-9 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
+10 entries here had no server found, or the check could not settle it. That is not a verdict on the tools. It is a statement about what an agent can reach today.
 
 - [Momentum](../tools/momentum.md) No MCP found · Enterprise only
 Turns sales call and CRM activity into automatic Slack deal-channel updates, deal-risk alerts, and CRM field updates ("revenue orchestration").
@@ -77,6 +77,8 @@ Turns sales call and CRM activity into automatic Slack deal-channel updates, dea
 AI speech-analytics platform for field/in-person sales (home services, insurance) that records and analyzes face-to-face conversations via a mobile...
 - [Abstrakt](../tools/abstrakt.md) No MCP found · Gate unknown
 Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and...
+- [Caretta](../tools/caretta.md) No MCP found · Gate unknown
+Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting.
 - [Clozd](../tools/clozd.md) No MCP found · Gate unknown
 Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain...
 - [Demodesk](../tools/demodesk.md) No MCP found · Gate unknown
@@ -98,9 +100,9 @@ Real-time AI video-conferencing platform for sales calls that coaches reps live 
 | [Paid, self-serve](../gates/paid.md) | 9 |
 | [Enterprise leaning](../gates/enterprise-leaning.md) | 2 |
 | [Enterprise only](../gates/enterprise-only.md) | 8 |
-| [Gate unknown](../gates/unknown.md) | 8 |
+| [Gate unknown](../gates/unknown.md) | 9 |
 
-Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 b42c4a6beef2a799...
+Counted 2026-09-12. Source file 03-conversation-intel.md, content sha256 dc0a5413c1c6456c...
 
 ## Sources
 

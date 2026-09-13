@@ -68,7 +68,7 @@ n/a - not sold as a standalone product.
 
 No documentation URL recorded.
 
-374 of 468 entries are in the same position. Blank is legal and it is published as blank.
+400 of 514 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -86,7 +86,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: dead. Presumed folded into Zendesk AI Agents; no standalone surface to evaluate.
 
-197 of 468 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+243 of 514 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 
