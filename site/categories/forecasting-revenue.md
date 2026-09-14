@@ -22,7 +22,7 @@ Tools that try to answer "how much will we actually close this quarter" - CRM-na
 - **MCP unknown**: 1
 - **No MCP found**: 13
 
-- **ship a CLI (official) as of 2026-09-13**: 3
+- **ship a CLI (official) as of 2026-09-14**: 3
 
 - **Free to start**: 1
 - **Paid, self-serve**: 3

@@ -61,7 +61,7 @@ https://github.com/footcarts/unify-mcp
 
 - **Tools named**: 13
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-13
+- **Harvested**: 2026-09-14
 - **Repo read**: footcarts/unify-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -92,7 +92,7 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **post_unify_person_note** Publish a note on a Unify person record. Reuses an existing draft if one is open for the current user; otherwise creates+publishes. The body is HTML - wrap text content in
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-14. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -101,7 +101,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: unify-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-13
+- **Harvested**: 2026-09-14
 
 Install, as the source shows it:
 
@@ -109,14 +109,14 @@ Install, as the source shows it:
 pip install unify-cli
 ```
 
-quoted from [https://pypi.org/project/unify-cli/](https://pypi.org/project/unify-cli/) on 2026-09-13, via pypi, a third party source
+quoted from [https://pypi.org/project/unify-cli/](https://pypi.org/project/unify-cli/) on 2026-09-14, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-13:
+Packages seen, with the version on 2026-09-14:
 
 - [pypi: unify-cli 3.6.2, third party](https://pypi.org/project/unify-cli/)
 - [pypi: unify-cli 3.6.2, third party](https://pypi.org/project/unify-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-14.
 
 **Access gate**
 
@@ -205,6 +205,6 @@ The MCP is an unaffiliated, community-maintained repo (0 stars, ~12 commits as o
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-13
+- **Data baked**: 2026-09-14
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

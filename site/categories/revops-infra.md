@@ -22,7 +22,7 @@ The systems of record, the pipes between them, and the low-code layer a GTM engi
 - **MCP unknown**: 1
 - **No MCP found**: 1
 
-- **ship a CLI (official) as of 2026-09-13**: 9
+- **ship a CLI (official) as of 2026-09-14**: 9
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12

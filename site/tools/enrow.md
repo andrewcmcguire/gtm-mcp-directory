@@ -59,13 +59,46 @@ https://github.com/EnrowAPI/enrow-mcp (npm @enrow/mcp; listing: https://www.puls
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 13
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-14
+- **Repo read**: EnrowAPI/enrow-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **find_email** Find a professional email address from a name and a company domain or name. At least one of company_domain or company_name is required. Asynchronous: returns a search id, then poll get_email_result. evidence: in the server source · calling it reads
+
+- **find_emails_bulk** Find multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_emails_bulk_result. evidence: in the server source · calling it reads
+
+- **find_phone** Find a mobile phone number from a LinkedIn URL (recommended) or first name + last name + company. Asynchronous: returns a search id, then poll get_phone_result. evidence: in the server source · calling it reads
+
+- **find_phones_bulk** Find multiple phone numbers in bulk (up to 3,000 per batch). Asynchronous: returns a batch id, then poll get_phones_bulk_result. evidence: in the server source · calling it reads
+
+- **get_account_info** Get your Enrow account info (credit balance and registered webhooks) evidence: in the server source · calling it reads
+
+- **get_email_result** Retrieve the result of a previously launched email search evidence: in the server source · calling it reads
+
+- **get_emails_bulk_result** Retrieve results of a bulk email search evidence: in the server source · calling it reads
+
+- **get_phone_result** Retrieve the result of a previously launched phone search evidence: in the server source · calling it reads
+
+- **get_phones_bulk_result** Retrieve results of a bulk phone search evidence: in the server source · calling it reads
+
+- **get_verification_result** Retrieve the result of a previously launched email verification evidence: in the server source · calling it reads
+
+- **get_verifications_bulk_result** Retrieve results of a bulk email verification evidence: in the server source · calling it reads
+
+- **verify_email** Verify if an email address is deliverable. Works on catch-all domains. Asynchronous: returns a verification id, then poll get_verification_result. evidence: in the server source · calling it reads
+
+- **verify_emails_bulk** Verify multiple email addresses in bulk (up to 5,000 per batch). Asynchronous: returns a batch id, then poll get_verifications_bulk_result. evidence: in the server source · calling it reads
+
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-14. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-13 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-14 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -152,6 +185,6 @@ Added 2026-08-25, closing a named warm lead from this file's previous sweep note
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-09-13
+- **Data baked**: 2026-09-14
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

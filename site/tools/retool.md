@@ -62,7 +62,7 @@ https://mcp.retool.com/mcp ; https://retool.com/blog/retool-mcp-server
 
 - **Tools named**: 50
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-13
+- **Harvested**: 2026-09-14
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -167,7 +167,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **retool_update_resource** Update an existing resource by name. evidence: in the vendor docs · calling it writes
 
-121 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 104 are unmeasured, which is not the same as empty. Harvest last run 2026-09-13. Every name across every server is on the [tools index](../tools-index.md).
+122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-14. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -176,7 +176,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: retool
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-13
+- **Harvested**: 2026-09-14
 
 Install, as the source shows it:
 
@@ -184,13 +184,13 @@ Install, as the source shows it:
 npm install -g retool-cli
 ```
 
-quoted from [https://www.npmjs.com/package/retool-cli](https://www.npmjs.com/package/retool-cli) on 2026-09-13, via npm, a third party source
+quoted from [https://www.npmjs.com/package/retool-cli](https://www.npmjs.com/package/retool-cli) on 2026-09-14, via npm, a third party source
 
-Packages seen, with the version on 2026-09-13:
+Packages seen, with the version on 2026-09-14:
 
 - [npm: retool-cli 1.0.29, third party](https://www.npmjs.com/package/retool-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-13.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-14.
 
 **Access gate**
 
@@ -270,6 +270,6 @@ The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-13
+- **Data baked**: 2026-09-14
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
