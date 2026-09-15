@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-14",
+  "generated_on": "2026-09-15",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
   "entries_parsed": 1252,
@@ -277,24 +277,24 @@
     "bench_tested": 1,
     "endpoint_status": {
       "live": 1,
-      "live-auth-gated": 26,
-      "auth-wall": 8,
+      "live-auth-gated": 27,
+      "auth-wall": 7,
       "repo-local": 34,
       "docs-only": 97,
       "unreachable": 15,
       "not-probed": 560,
       "not-applicable": 511
     },
-    "official_with_live_endpoint": 27,
+    "official_with_live_endpoint": 28,
     "official_docs_only": 88,
-    "mcp_tool_count_total": 8507,
-    "servers_with_a_tool_list": 119,
+    "mcp_tool_count_total": 9108,
+    "servers_with_a_tool_list": 138,
     "servers_claiming_a_server": 741,
     "tools_by_evidence": {
-      "live-list": 6098,
-      "source": 1149,
+      "live-list": 6380,
+      "source": 1394,
       "docs": 983,
-      "readme": 277
+      "readme": 351
     },
     "endpoint_probe_date": "2026-09-04",
     "jobs_tagged": 271,
@@ -4623,6 +4623,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "031944b7194b24feeb856475d0dc999e70d4703d056510beb279703dcc0d264b",
+  "content_sha256": "ee86b7a4c94fdfe4e69ec24da678c50ddd36c575655d3ab54540c6d3c8177693",
   "source_sha256": "1954f40ab7c506697f46eb8c9b93b74ed98fb3502a36cc6304d37983589cc093"
 }

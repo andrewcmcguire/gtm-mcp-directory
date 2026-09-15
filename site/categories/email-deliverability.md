@@ -23,7 +23,7 @@ Inbox-placement testing, warmup, and DNS-authentication (SPF/DKIM/DMARC) tooling
 - **MCP unknown**: 1
 - **No MCP found**: 17
 
-- **ship a CLI (official) as of 2026-09-12**: 0
+- **ship a CLI (official) as of 2026-09-15**: 1
 
 - **Free to start**: 2
 - **Paid, self-serve**: 10
@@ -54,7 +54,7 @@ Source file: 09-email-deliverability.md · content sha256 4188fcff3bd86f88... ·
 
 - [Outreach Deliverability MCP by closermethod](../tools/outreach-deliverability-mcp-by-closermethod.md) github.com Outreach Deliverability MCP for AI agents. Channel-safety layer for cold outreach on email, LinkedIn, Instagram DM, X DM: volume limits, SPF/DKIM/DMARC sender setup, spam-trigger auditing, benchmark... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Resend](../tools/resend.md) resend.com The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Resend](../tools/resend.md) resend.com The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: resend
 
 - [Volanea](../tools/volanea.md) volanea.com Transactional email, campaigns, and automation on one contact graph. Start with 1,000 free credits every month, then $5/mo for 7,500 emails. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 

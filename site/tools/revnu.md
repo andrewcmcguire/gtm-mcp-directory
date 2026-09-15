@@ -18,6 +18,7 @@ Revnu
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: revnu-setup
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,31 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+- **Binary**: revnu-setup
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-15
+
+Install, as the source shows it:
+
+```
+npm install -g @revnu/setup
+```
+
+quoted from [https://www.npmjs.com/package/@revnu/setup](https://www.npmjs.com/package/@revnu/setup) on 2026-09-15, via npm
+
+```
+npm install -g @revnu/cli
+```
+
+quoted from [https://www.npmjs.com/package/@revnu/cli](https://www.npmjs.com/package/@revnu/cli) on 2026-09-15, via npm
+
+Packages seen, with the version on 2026-09-15:
+
+- [npm: @revnu/setup 0.3.0](https://www.npmjs.com/package/@revnu/setup)
+- [npm: @revnu/cli 0.1.0](https://www.npmjs.com/package/@revnu/cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -78,7 +103,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to revnu.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -111,6 +138,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

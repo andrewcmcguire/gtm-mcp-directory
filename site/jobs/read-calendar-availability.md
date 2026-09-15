@@ -1,6 +1,6 @@
 # Read calendar availability: 12 GTM tools, 6 with an official MCP server
 
-> Return open slots, availability rules or existing bookings without necessarily writing anything. 8 of the 12 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-14 from the directory data.
+> Return open slots, availability rules or existing bookings without necessarily writing anything. 8 of the 12 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-15 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Return open slots, availability rules or existing bookings without necessarily w
 - **no MCP found**: 4
 - **solo reachable**: 6
 
-8 of the 12 entries tagged with this job carry an MCP server of some kind, 6 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-14 from directory.json.
+8 of the 12 entries tagged with this job carry an MCP server of some kind, 6 of them official. 11 of the 12 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-15 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -46,7 +46,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Cal.com](../tools/cal-com.md) cal.com Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source product and as hosted SaaS. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
-- [Calendly](../tools/calendly.md) calendly.com Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · CLI: calendly-axi (community)
+- [Calendly](../tools/calendly.md) calendly.com Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
 - [Chili Piper](../tools/chili-piper.md) chilipiper.com Inbound lead-routing and instant meeting-booking platform ("Concierge") that qualifies web-form leads and books them directly onto the right rep's calendar in real time. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 

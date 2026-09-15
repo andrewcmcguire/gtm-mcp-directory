@@ -50,7 +50,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -78,7 +78,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to wolfia.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -111,6 +113,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

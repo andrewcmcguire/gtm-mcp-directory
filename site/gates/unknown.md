@@ -40,7 +40,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [3Bids Contractor](../tools/3bids-contractor.md) 3bids.io CRM, communications, AI, closing, dispatch, and operating intelligence for contractors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [abm.dev](../tools/abm-dev.md) abm.dev The account-based marketing API for AI agents: Search, Enrich, and Create across B2B people and companies, every field cited with a source and a confidence score. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [abm.dev](../tools/abm-dev.md) abm.dev The account-based marketing API for AI agents: Search, Enrich, and Create across B2B people and companies, every field cited with a source and a confidence score. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: abm-dev
 
 - [ACA Automated Client Acquisition](../tools/aca-automated-client-acquisition.md) automatedclientacquisition.com AI content generation, lead management, and multi-channel outreach campaigns. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -50,33 +50,33 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [ActiveCampaign MCP by pipeworx](../tools/activecampaign-mcp-by-pipeworx.md) github.com ActiveCampaign MCP Pack - email marketing + CRM (API v3). - pipeworx-io/mcp-activecampaign [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Acuris Geo MCP](../tools/acuris-geo-mcp.md) api.acuris-geo.com Address validation & geocoding for AI agents: 240+ countries, UK PAF, free US/CA enrichment [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Acuris Geo MCP](../tools/acuris-geo-mcp.md) api.acuris-geo.com Address validation & geocoding for AI agents: 240+ countries, UK PAF, free US/CA enrichment [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: acuris-geo
 
 - [Adrata](../tools/adrata.md) adrata.com The strategy and intelligence layer for enterprise deals. Adrata understands the full buying group, buyer-side AI, evidence, and route to the next move. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Agent Cold Email MCP (Coldrig)](../tools/agent-cold-email-mcp.md) coldrig.dev Coldrig gives Codex, Claude Code, Cursor, and other AI agents one API and MCP surface for cold-email domains, mailboxes, warmup, campaigns, replies, and enforced sending guardrails. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Agent Cold Email MCP (Coldrig)](../tools/agent-cold-email-mcp.md) coldrig.dev Coldrig gives Codex, Claude Code, Cursor, and other AI agents one API and MCP surface for cold-email domains, mailboxes, warmup, campaigns, replies, and enforced sending guardrails. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: agent-cold-email
 
-- [Agent Utility API](../tools/agent-utility-api.md) agent-api-production-169b.up.railway.app x402 pay-per-call tools: company enrichment, PDF extraction, Amazon/KDP data, YouTube transcripts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Agent Utility API](../tools/agent-utility-api.md) agent-api-production-169b.up.railway.app x402 pay-per-call tools: company enrichment, PDF extraction, Amazon/KDP data, YouTube transcripts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: railway
 
-- [Agentled](../tools/agentled.md) agentled.app Discover how Agentled can revolutionize your business operations with AI-driven solutions that optimize sales, marketing, customer success, and more. Scale smarter and grow faster with our cutting-edge... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Agentled](../tools/agentled.md) agentled.app Discover how Agentled can revolutionize your business operations with AI-driven solutions that optimize sales, marketing, customer success, and more. Scale smarter and grow faster with our cutting-edge... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: agentled
 
 - [AlphaAI](../tools/alphaai.md) alphai.io Financial news MCP server for ChatGPT, Claude, Gemini, Cursor, VS Code, Windsurf and any spec-compliant client. Relevance-scored feed, OAuth 2.1, 13 tools. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [amoCRM MCP by theYahia](../tools/amocrm-mcp-by-theyahia.md) github.com MCP server for amoCRM - leads, contacts, pipelines, tasks (Russia) - theYahia/amocrm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [AmpUp GTM Chat](../tools/ampup-gtm-chat.md) chat.ampup.ai Chat over your CRM, meetings, and knowledge base. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [AmpUp GTM Chat](../tools/ampup-gtm-chat.md) chat.ampup.ai Chat over your CRM, meetings, and knowledge base. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: ampup (community)
 
 - [AnchoredIP](../tools/anchoredip.md) api.anchoredip.com Dedicated static outbound IPv4 over WireGuard. Free 7-day trial, no card, no sales call. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 - [Andru Revenue Intelligence](../tools/andru-revenue-intelligence.md) andru.ai Revenue intelligence for SaaS founders: ICP scoring, persona profiling, competitive positioning. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
-- [Anyquery](../tools/anyquery.md) anyquery.dev Run SQL on GitHub, Notion, Spotify, Gmail, Airtable, Google Sheets, CSVs, Parquet, logs - and 40+ more. One binary, one dialect. Then hand it to an LLM over MCP. Open source, AGPL-3.0. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Anyquery](../tools/anyquery.md) anyquery.dev Run SQL on GitHub, Notion, Spotify, Gmail, Airtable, Google Sheets, CSVs, Parquet, logs - and 40+ more. One binary, one dialect. Then hand it to an LLM over MCP. Open source, AGPL-3.0. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: anyquery
 
 - [Apex Log MCP by Certinia](../tools/apex-log-mcp-by-certinia.md) npmjs.com Apex Log MCP Server - AI-powered Salesforce Apex debug log analysis. Find performance bottlenecks, slow methods, SOQL bottlenecks, and governor limit issues. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
 - [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md) github.com Apex SDK for building Model Context Protocol (MCP) servers natively in Salesforce - bfmvsa/mcp-apex-sdk [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Apify Actors MCP](../tools/apify-actors-mcp.md) mcp.apify.com Connect Claude, Cursor, and your AI agents with thousands of web scraping and automation tools. Run Actors, access results, and search Apify documentation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Apify Actors MCP](../tools/apify-actors-mcp.md) mcp.apify.com Connect Claude, Cursor, and your AI agents with thousands of web scraping and automation tools. Run Actors, access results, and search Apify documentation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: actor
 
 - [Apollo Agent CLI by bcharleson](../tools/apollo-agent-cli-by-bcharleson.md) github.com Agent-native CLI and MCP server for Apollo.io REST API - bcharleson/apollo-agent-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -118,7 +118,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Ascend GTM Gateway](../tools/ascend-gtm-gateway.md) ascend-gateway-v5.ascendgtm.workers.dev 34-tool GTM gateway: CRMs, ad platforms, analytics, Google Workspace, AWS, and LLM orchestration. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [AstroFabric MCP](../tools/astrofabric-mcp.md) astrofabric.ai Build with AstroFabric's autonomous intelligence platform using REST, MCP and CLI across datasets, enrichment, signals, audiences and governed delivery. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [AstroFabric MCP](../tools/astrofabric-mcp.md) astrofabric.ai Build with AstroFabric's autonomous intelligence platform using REST, MCP and CLI across datasets, enrichment, signals, audiences and governed delivery. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: af
 
 - [ATLASS OS](../tools/atlass-os.md) app.atlass-os.com 195 working MCP tools as of September 7, 2026 - CRM, scheduling, banking, payables, payroll and real double-entry books, driveable by your own AI through one audited surface with scoped, in-app-minted tokens. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -202,9 +202,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Coldforge](../tools/coldforge.md) github.com Honest, local-first cold outreach toolkit: research, personalize, sequence, send, follow. CLI + MCP server, no SaaS, no required API keys. - Makeph/coldforge [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Coldstart](../tools/coldstart.md) coldstart.so Type one sentence about your business. Coldstart searches the live web, finds companies that fit, verifies their emails, and drafts your first outreach. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Coldstart](../tools/coldstart.md) coldstart.so Type one sentence about your business. Coldstart searches the live web, finds companies that fit, verifies their emails, and drafts your first outreach. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: coldstart (community)
 
-- [Commercient Data Lake](../tools/commercient-data-lake.md) commercient.com Commercient Data Lake is a backend-as-a-service built on Microsoft SQL Server: your ERP, CRM, and database data in one governed database per customer, with instant REST and GraphQL APIs, row-level security,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Commercient Data Lake](../tools/commercient-data-lake.md) commercient.com Commercient Data Lake is a backend-as-a-service built on Microsoft SQL Server: your ERP, CRM, and database data in one governed database per customer, with instant REST and GraphQL APIs, row-level security,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: dlake
 
 - [Company Enrichment API by Br0ski777](../tools/company-enrichment-api-by-br0ski777.md) github.com Company enrichment from any domain. Firmographics, socials, tech stack, contact info, address. Built for sales prospecting and CRM. -- x402 micropayment API + MCP server for AI agents -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -214,11 +214,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Compelling](../tools/compelling.md) mcp.compelling.ai AI-native B2B sales research, ranking, and CRM enrichment. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Conduyt](../tools/conduyt.md) conduyt.app The CRM built for teams that move fast. Pipeline, messaging, and data. No middleman. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Conduyt](../tools/conduyt.md) conduyt.app The CRM built for teams that move fast. Pipeline, messaging, and data. No middleman. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: conduyt
 
 - [ContactAPI](../tools/contactapi.md) contactapi.dev An open-source API to save contacts with a single POST and manage them with simple CRUD. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [ContentStudio](../tools/contentstudio.md) contentstudio.io AI social media manager that never sleeps. It knows your brand, creates and publishes on-brand content and learns what works. Review on run on autopilot. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [ContentStudio](../tools/contentstudio.md) contentstudio.io AI social media manager that never sleeps. It knows your brand, creates and publishes on-brand content and learns what works. Review on run on autopilot. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: contentstudio
 
 - [Coordinalo](../tools/coordinalo.md) coordinalo.com Scheduling, availability, clients, billing and CRM for appointment-based services. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
@@ -256,7 +256,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Dealboard](../tools/dealboard.md) getdealboard.com A visual deal tracker for founders and small teams who would rather close deals than configure software. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [DealMachine](../tools/dealmachine.md) mcp.dealmachine.com Search and enrich US property, owner, people, and company data for sales and lead generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [DealMachine](../tools/dealmachine.md) mcp.dealmachine.com Search and enrich US property, owner, people, and company data for sales and lead generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: dm
 
 - [Decern CRM MCP](../tools/decern-crm-mcp.md) github.com MCP server for Decern CRM: contacts, deals, pipelines, tasks, and approvals. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -290,7 +290,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [EZ@Work MCP](../tools/ez-work-mcp.md) ezatwork.com Connect EZ@Work to Claude (Claude.ai, Claude Desktop, Claude Code). Manage clients, projects, invoices, and time entries through natural conversation. OAuth 2.1, scoped tokens, full audit log. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [FavCRM](../tools/favcrm.md) favcrm.io FavCRM 是為香港服務業而設的 CRM：預約系統、會員系統、客戶管理、WhatsApp 跟進與收款放喺同一處。AI 幫你整理同草擬，重要動作由你審批。 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [FavCRM](../tools/favcrm.md) favcrm.io FavCRM 是為香港服務業而設的 CRM：預約系統、會員系統、客戶管理、WhatsApp 跟進與收款放喺同一處。AI 幫你整理同草擬，重要動作由你審批。 [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: favcrm
 
 - [Fintalio LinkedIn MCP](../tools/fintalio-linkedin-mcp.md) fintalio.com LinkedIn outreach MCP server - 19 tools for AI agents to prospect, sequence, and manage contacts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -350,7 +350,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Google Maps Extractor MCP by dppalukuri](../tools/google-maps-extractor-mcp-by-dppalukuri.md) github.com MCP server for Google Maps lead generation - search businesses, enrich with emails/phones/socials, score leads, export CSV. Free, no API keys needed. - dppalukuri/mcp-google-maps-extractor [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Google Maps Lead MCP by NextGenData](../tools/google-maps-lead-mcp-by-nextgendata.md) apify.com MCP server for AI agents: search local businesses on Google Maps, generate leads and validate emails. For Claude and Cursor. Pay-per-event. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Google Maps Lead MCP by NextGenData](../tools/google-maps-lead-mcp-by-nextgendata.md) apify.com MCP server for AI agents: search local businesses on Google Maps, generate leads and validate emails. For Claude and Cursor. Pay-per-event. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: actor
 
 - [GramClaw](../tools/gramclaw.md) gramclaw.com Connect Telegram to Claude, Cursor, and any MCP client with the GramClaw Telegram MCP server. Search chats, send messages, run broadcasts, and launch campaigns in natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -374,7 +374,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Hecher CRM](../tools/hecher-crm.md) hecher.app Hecher by Grow Gelt is the donor management platform built for Chabad Shluchim. Part of the Grow Gelt Solutions family. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Helm AI](../tools/helm-ai.md) gethelm.ai Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your business do more with less. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Helm AI](../tools/helm-ai.md) gethelm.ai Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your business do more with less. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: helm-ai
 
 - [HeyLead - Autonomous LinkedIn SDR](../tools/heylead-autonomous-linkedin-sdr.md) github.com AI-powered LinkedIn SDR: voice-matched outreach, ICP generation, drip sequences, and analytics. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -412,7 +412,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Indraft](../tools/indraft.md) indraft.io A canonical CRM designed to be read and written by AI agents through MCP and REST, with safe writes, full attribution, and a human interface for inspection and correction. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Infona](../tools/infona.md) infona.ai A self-maintaining data layer. Infona holds one reconciled record of what is actually the case, re-verifies its own facts, de-dupes and enriches them, and carries the source for every claim. Open source,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Infona](../tools/infona.md) infona.ai A self-maintaining data layer. Infona holds one reconciled record of what is actually the case, re-verifies its own facts, de-dupes and enriches them, and carries the source for every claim. Open source,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: infona
 
 - [Infosys AI CRM by ffred1962](../tools/infosys-ai-crm-by-ffred1962.md) github.com AI based CRM system for small business . Contribute to ffred1962/infosys development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -424,9 +424,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Intent Engineering MCP by seanwinslow](../tools/intent-engineering-mcp-by-seanwinslow.md) github.com This repo contains the MCP server for agentic intent engineering workflows - GitHub - seanwinslow28/sw-mcp-intent-engineering: This repo contains the MCP server for agentic intent engineering workflows [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Intent Outreach](../tools/intent-outreach.md) demos.intentsolutions.io Intent Outreach runs outbound prospecting inside Claude Code: research, enrichment, and drafted outreach over your own provider accounts, with a typed validation gate in front of storage and a per-campaign... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Intent Outreach](../tools/intent-outreach.md) demos.intentsolutions.io Intent Outreach runs outbound prospecting inside Claude Code: research, enrichment, and drafted outreach over your own provider accounts, with a typed validation gate in front of storage and a per-campaign... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: j-rig
 
-- [IntentLink](../tools/intentlink.md) intentlink.io IntentLink is the commercial intent network for the AI agent era - developers monetize conversations via MCP and Skills; advertisers reach high-intent buyers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [IntentLink](../tools/intentlink.md) intentlink.io IntentLink is the commercial intent network for the AI agent era - developers monetize conversations via MCP and Skills; advertisers reach high-intent buyers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: intentlink (community)
 
 - [Interzoid MCP](../tools/interzoid-mcp.md) mcp.interzoid.com 58 AI data quality, data matching, and data enrichment APIs for better data ROI [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -444,7 +444,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [KaiCalls](../tools/kaicalls.md) kaicalls.com KaiCalls is a phone service with a built-in secretary. Your number can answer, route, text, follow up, and brief you starting at $10/month. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Kairon](../tools/kairon.md) heykairon.com How to connect Kairon to Claude, Claude Code or Cursor over MCP, and the full list of the 120 tools an assistant can use once it is connected. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Kairon](../tools/kairon.md) heykairon.com How to connect Kairon to Claude, Claude Code or Cursor over MCP, and the full list of the 120 tools an assistant can use once it is connected. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: kairon
 
 - [Kash](../tools/kash.md) kash.click Free POS software for shops & restaurants. Manage sales, inventory and customers in one simple system. Start in 2 minutes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -528,7 +528,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [LinkedNav](../tools/linkednav.md) linkednav.com LinkedNav detects LinkedIn buying signals and sends personalized outreach you approve. Built for founders and lead-gen agencies. Free 7-day trial. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Linkly](../tools/linkly.md) linklyhq.com Could not fully document product behavior from a live vendor homepage this pass (fetch status=429 error=HTTPError 429). [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Linkly](../tools/linkly.md) linklyhq.com Could not fully document product behavior from a live vendor homepage this pass (fetch status=429 error=HTTPError 429). [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: linkly
 
 - [LinkMCP](../tools/linkmcp.md) app.linkmcp.io The LinkedIn access layer for AI agents. Search, message, and enrich LinkedIn from Claude, ChatGPT, Cursor, n8n, or your own agent - 31 tools over MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -554,7 +554,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [LowRiskQuotes Monte Carlo](../tools/lowriskquotes-monte-carlo.md) lowriskquotes.com Monte Carlo simulation tools for uncertain estimates: three-point cost estimation for quotes and budgets (triangular sampling, P10-P90 percentiles) and an educational retirement dr [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
-- [Maasy](../tools/maasy.md) maasy.co AI marketing copilot: brand intelligence, campaigns, content, CRM, SEO, and skills for Claude. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Maasy](../tools/maasy.md) maasy.co AI marketing copilot: brand intelligence, campaigns, content, CRM, SEO, and skills for Claude. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: maasy (community)
 
 - [MachFive Cold Email MCP](../tools/machfive-cold-email-mcp.md) help.machfive.io Learn how to connect your AI assistant to MachFive using the Model Context Protocol (MCP) for automated cold email generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -566,7 +566,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [MailerLite MCP by UsefulAPI](../tools/mailerlite-mcp-by-usefulapi.md) mailerlite.usefulapi.io Read subscribers, groups, campaigns, fields, segments, automations, webhooks; safe additive writes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Mailrith](../tools/mailrith.md) mailrith.com Connect Mailrith from Claude [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Mailrith](../tools/mailrith.md) mailrith.com Connect Mailrith from Claude [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: mailrith
 
 - [Mamba B2B Prospect Engine MCP](../tools/mamba-b2b-prospect-engine-mcp.md) github.com MCP server for the Mamba Labs Prospect Engine actor on Apify - mambalabsdev/mcp-b2b-prospect-engine [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -634,15 +634,15 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Moltlines Studio Outbound](../tools/moltlines-studio-outbound.md) moltlinestudio.com 138 production AI agent skills, persona bundles, and 22 MCP servers with free tiers. One $19 All-Access license unlocks every premium tool. Pay with crypto. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Morphed](../tools/morphed.md) morphed.io Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30 days. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Morphed](../tools/morphed.md) morphed.io Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30 days. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: agent-hook
 
-- [Munin](../tools/munin.md) getmunin.com The customer platform for the agentic era. MCP-first, open source, self-hostable. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Munin](../tools/munin.md) getmunin.com The customer platform for the agentic era. MCP-first, open source, self-hostable. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: munin (community)
 
 - [MuntuAI MCP](../tools/muntuai-mcp.md) api.muntuai.com Hosted MCP server for MuntuAI outreach campaigns, leads, senders, domains, and analytics. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [My AskAI](../tools/my-askai.md) myaskai.com Deflect support requests by 75% with an AI customer service agent. Add to your existing live chat providers, like Intercom, Zendesk or Freshdesk. And start saving your team & customers time. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
-- [myOPC](../tools/myopc.md) myopc.io All-in-one AI business platform with 28+ modules: CRM, inventory, accounting, sales orders, quotations, HR, payroll, tax compliance & e-invoicing. Bring your own AI key (BYOK) from 13 providers and connect AI... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [myOPC](../tools/myopc.md) myopc.io All-in-one AI business platform with 28+ modules: CRM, inventory, accounting, sales orders, quotations, HR, payroll, tax compliance & e-invoicing. Bring your own AI key (BYOK) from 13 providers and connect AI... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: myopc (community)
 
 - [n47vc MCP Suite](../tools/n47vc-mcp-suite.md) github.com Deploy MCP servers to Vercel in minutes. Includes Gmail, Google Drive, and Apollo.io servers with pluggable OAuth authentication. - n47vc/mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -652,11 +652,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [NexaLink](../tools/nexalink.md) nexalink.co NexaLink digital business card & personal CRM - edit your card and capture contacts via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Nimbus](../tools/nimbus.md) testnimbus.dev Run real Salesforce Apex locally - no org, no Docker - then ship through the same tool: gated deploys, Salesforce validation, release receipts. A typical test runs in tens of milliseconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Nimbus](../tools/nimbus.md) testnimbus.dev Run real Salesforce Apex locally - no org, no Docker - then ship through the same tool: gated deploys, Salesforce validation, release receipts. A typical test runs in tens of milliseconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: cli (community)
 
 - [NirmahGTM](../tools/nirmahgtm.md) github.com AI reasoning engine for Clay: auto-detects 5 GTM buying signals, scores with calibrated LLMs, outputs evidence-backed openers/hooks/CRM sync governed, cached, evaluated. - AnjaliPPal/NirmahGTM [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Nitrosend](../tools/nitrosend.md) nitrosend.com Nitrosend is built MCP-first. Connect Claude, ChatGPT, Codex, Cursor, Gemini, Windsurf, VS Code, or Zed and control your entire email stack with natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Nitrosend](../tools/nitrosend.md) nitrosend.com Nitrosend is built MCP-first. Connect Claude, ChatGPT, Codex, Cursor, Gemini, Windsurf, VS Code, or Zed and control your entire email stack with natural language. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: nitrosend
 
 - [Noto CRM](../tools/noto-crm.md) no-to.fr Parle à ton agent IA: leads, relances et deals se mettent à jour automatiquement. Noto est un CRM minimaliste pour freelances et solopreneurs. Gratuit pour commencer. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
@@ -698,9 +698,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Opus Growth](../tools/opus-growth.md) opus-growth.com The connector for Claude and ChatGPT: run Google, Meta, Microsoft, TikTok and LinkedIn ads from one chat. Safe writes with preview and approval. Free with 75… [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Ora](../tools/ora.md) ora.ai Scan any site, watch real agents try to use it, and fix what turns them away. Ora is the standard for optimizing your site so agents can actually use and recommend you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Ora](../tools/ora.md) ora.ai Scan any site, watch real agents try to use it, and fix what turns them away. Ora is the standard for optimizing your site so agents can actually use and recommend you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · CLI: ora
 
-- [Orbiads](../tools/orbiads.md) orbiads.com The most complete MCP server for Google Ad Manager. Drive GAM from your AI agents, deploy in 5 minutes, 50 MCP tools. Saga-pattern for zero errors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Orbiads](../tools/orbiads.md) orbiads.com The most complete MCP server for Google Ad Manager. Drive GAM from your AI agents, deploy in 5 minutes, 50 MCP tools. Saga-pattern for zero errors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: orbiads-cli
 
 - [Outbound Engine MCP by closermethod](../tools/outbound-engine-mcp-by-closermethod.md) github.com Outbound Engine MCP for AI agents and creators. One cold-outreach engine, any target: brand deals, UGC, newsletter sponsorships, jobs, podcasts. HOOK/BRIDGE/SOFT-ASK structuring, message auditing, follow-up... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -712,7 +712,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Outreacher](../tools/outreacher.md) github.com Boilerplate AI MCP+SaaS LLM foundation with use-case as an AI-powered lead management CRM system with an MCP server for Claude Desktop and a Next.js SaaS frontend. - technicallypete/outreacher [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Outscraper MCP Server](../tools/outscraper-mcp-server.md) mcp.outscraper.com Outscraper MCP business discovery, Maps intelligence, enrichment, reviews, and contact data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Outscraper MCP Server](../tools/outscraper-mcp-server.md) mcp.outscraper.com Outscraper MCP business discovery, Maps intelligence, enrichment, reviews, and contact data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: outscraper
 
 - [OutSend](../tools/outsend.md) outsend.xyz Lancez un vrai scrape Google Maps depuis la page d [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -724,7 +724,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Parsley](../tools/parsley.md) parsley.id Query buyer intent signals, MEDDIC qualifications, and lead scores from Parsley. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Particle](../tools/particle.md) particle.pro Real-time news, company, and podcast intelligence APIs for developers - every story, every public company, and every episode, structured and ready to query. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Particle](../tools/particle.md) particle.pro Real-time news, company, and podcast intelligence APIs for developers - every story, every public company, and every episode, structured and ready to query. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: particle (community)
 
 - [People Data Labs MCP by pipeworx](../tools/people-data-labs-mcp-by-pipeworx.md) github.com People Data Labs MCP - wraps the PDL person/company enrichment API - pipeworx-io/mcp-peopledatalabs [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -756,7 +756,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [PitchIQ MCP](../tools/pitchiq-mcp.md) chuhching.com Chuhching is the agent-native business platform: CRM, outreach, scheduling, community, and automation that you and your AI agents run together. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [PitchPilot Outreach](../tools/pitchpilot-outreach.md) aioutreachkit.surge.sh PitchPilot AI Outreach Kit - 50 fill-in-the-blank AI prompts, 15 outreach templates and 4 follow-up sequences for freelancers and agencies. $19, pay in BTC / ETH / USDT, instant PDF download. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [PitchPilot Outreach](../tools/pitchpilot-outreach.md) aioutreachkit.surge.sh PitchPilot AI Outreach Kit - 50 fill-in-the-blank AI prompts, 15 outreach templates and 4 follow-up sequences for freelancers and agencies. $19, pay in BTC / ETH / USDT, instant PDF download. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: surge
 
 - [Planhat MCP by da-troll](../tools/planhat-mcp-by-da-troll.md) github.com Unofficial local MCP server for Planhat CRM: 60 tools for Claude Desktop and any MCP client. - da-troll/Planhat-MCP [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -816,13 +816,13 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Relaticle](../tools/relaticle.md) mcp.relaticle.com Open-source CRM your AI agents can write to: 32 MCP tools for companies, people, deals, and tasks. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Relm CRM](../tools/relm-crm.md) relmcrm.com Relm is an API-first CRM built for LLMs and AI agents. Connect Claude, ChatGPT, or any agent - OAuth sign-in or an API key - and it reads and writes contacts, companies, deals and activities over REST or... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Relm CRM](../tools/relm-crm.md) relmcrm.com Relm is an API-first CRM built for LLMs and AI agents. Connect Claude, ChatGPT, or any agent - OAuth sign-in or an API key - and it reads and writes contacts, companies, deals and activities over REST or... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: relmcrm
 
 - [ReplayPilot](../tools/replaypilot.md) replaypilot.com Session replay, heatmaps, click maps, and AI session summaries that flag errors and let you search sessions in plain English, without the $247/mo tax other tools charge. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
 - [RepScale](../tools/repscale.md) repscale.ai Stop editing what AI wrote for 30 minutes. RepScale researches prospects, writes outreach, and preps meetings in one connected workflow. Free tier, no credit card. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Resend](../tools/resend.md) resend.com The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
+- [Resend](../tools/resend.md) resend.com The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md) · CLI: resend
 
 - [RetailCRM MCP](../tools/retailcrm-mcp.md) github.com MCP server for RetailCRM - orders, customers, e-commerce analytics (Russia) - theYahia/retailcrm-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -838,7 +838,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Sales Intelligence MCP by Aria Agentworks](../tools/sales-intelligence-mcp-by-aria-agentworks.md) github.com Open-source MCP toolkit for company research, lead scoring, outreach automation, and CRM sync. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Sales Intelligence MCP by NextGenData](../tools/sales-intelligence-mcp-by-nextgendata.md) apify.com MCP server with 10 B2B lead-gen tools for AI agents: emails, enrichment, lead discovery, hiring signals, tech stack, LinkedIn jobs. Claude Desktop, Curs... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Sales Intelligence MCP by NextGenData](../tools/sales-intelligence-mcp-by-nextgendata.md) apify.com MCP server with 10 B2B lead-gen tools for AI agents: emails, enrichment, lead discovery, hiring signals, tech stack, LinkedIn jobs. Claude Desktop, Curs... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: actor
 
 - [Salesbot LinkedIn MCP](../tools/salesbot-linkedin-mcp.md) salesbot.cz LinkedIn automatizace s AI personalizací a MCP serverem. 590 Kč měsíčně nebo 500 Kč/měsíc při roční platbě 6 000 Kč. Bez DPH, 14 dní zdarma. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -878,7 +878,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Salesforce MCP by AiondaDotCom](../tools/salesforce-mcp-by-aiondadotcom.md) github.com 🚀 Complete MCP (Model Context Protocol) server for Salesforce integration with Claude Desktop. Provides seamless OAuth authentication, universal CRUD operations on any Salesforce object. -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Salesforce MCP by alfe](../tools/salesforce-mcp-by-alfe.md) alfe.ai Alfe gives your business an always-on AI agent that can answer customers, follow up leads, coordinate work, and use the tools your team already relies on. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Salesforce MCP by alfe](../tools/salesforce-mcp-by-alfe.md) alfe.ai Alfe gives your business an always-on AI agent that can answer customers, follow up leads, coordinate work, and use the tools your team already relies on. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: alfe
 
 - [Salesforce MCP by boejucci](../tools/salesforce-mcp-by-boejucci.md) github.com Salesforce MCP Server. Contribute to boejucci/mcp-server-salesforce development by creating an account on GitHub. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -914,7 +914,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Salesforce MCP by vinkius-labs](../tools/salesforce-mcp-by-vinkius-labs.md) vinkius.com Vinkius Edge enterprise Model Context Protocol (MCP) server for Salesforce CRM standard objects and SOQL. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md) context7.com Salesforce MCP Library is a local stdio bridge for Salesforce MCP endpoints using OAuth client credentials, featuring a reusable Apex MCP library and JSON-RPC 2.0 core. - Latest version [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Salesforce MCP Lib by Damecek](../tools/salesforce-mcp-lib-by-damecek.md) context7.com Salesforce MCP Library is a local stdio bridge for Salesforce MCP endpoints using OAuth client credentials, featuring a reusable Apex MCP library and JSON-RPC 2.0 core. - Latest version [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: ctx7
 
 - [Salesforce MCP Security Toolkit](../tools/salesforce-mcp-security-toolkit.md) github.com **Adversarial MCP integration testing toolkit for Salesforce ΓÇö seeds ~270 records across Account, Contact, Case, and Outreach Log with 14 attack payload categories including prom [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -924,7 +924,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Salesforce Remote MCP by tsmztech](../tools/salesforce-remote-mcp-by-tsmztech.md) github.com Self-hosted remote MCP server for Salesforce on Cloudflare Workers - use as a Claude custom connector with OAuth login, exposing 15 Salesforce tools (SOQL, DML, Apex, metadata) -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [SalesTouch](../tools/salestouch.md) salestouch.io Make LinkedIn callable from Claude, Codex, ChatGPT, or any MCP-compatible AI agent. Search, read, message, follow up, and publish through one controlled endpoint. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [SalesTouch](../tools/salestouch.md) salestouch.io Make LinkedIn callable from Claude, Codex, ChatGPT, or any MCP-compatible AI agent. Search, read, message, follow up, and publish through one controlled endpoint. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: salestouch
 
 - [Samarth GTM MCP](../tools/samarth-gtm-mcp.md) github.com MCP server for Samarth Analytics Google Tag Manager operations - samarthanalytics-sj/samarth-analytics-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -932,9 +932,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [ScraperCity](../tools/scrapercity.md) github.com ScraperCity CLI & MCP Server - B2B lead generation for AI agents. 20+ scrapers accessible via CLI, MCP, or direct API. - scrapercity/scrapercity-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [SeldonFrame](../tools/seldonframe.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [SeldonFrame](../tools/seldonframe.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: seldonframe
 
-- [SeldonFrame MCP](../tools/seldonframe-mcp.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [SeldonFrame MCP](../tools/seldonframe-mcp.md) seldonframe.com SeldonFrame is the agent-native, open-source alternative to GoHighLevel for agencies selling AI front offices to local businesses. Build a branded website, booking flow, CRM, intake, and AI agent for every... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: seldonframe
 
 - [SendPulse](../tools/sendpulse.md) sendpulse.com Bring MCP into your SendPulse workflows and let an AI agent handle your email marketing, chatbots, and CRM. Courses, students, and assignment grading... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -942,7 +942,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Serpent Salesforce DevOps MCP](../tools/serpent-salesforce-devops-mcp.md) mcp.serpent.cloud Plan Salesforce deploys, open pull requests and trigger pipelines from your AI client. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [ServiceAgent](../tools/serviceagent.md) serviceagent.ai Discover ServiceAgent, the AI platform running your front and back office. Handle calls, CRM, scheduling, billing, and marketing in one place. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [ServiceAgent](../tools/serviceagent.md) serviceagent.ai Discover ServiceAgent, the AI platform running your front and back office. Handle calls, CRM, scheduling, billing, and marketing in one place. Free to start. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: serviceagent
 
 - [Setu Email MCP by gitmanhimanshu](../tools/setu-email-mcp-by-gitmanhimanshu.md) setu.mimanasa.online Setu is an AI-powered Model Context Protocol (MCP) server that lets Claude, ChatGPT, and Cursor automate email outreach and follow-ups directly from your Gmail. Built for job seekers, recruiters, and... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -952,7 +952,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md) github.com Arm your agent with the ability to send 1000s of dm's on Reddit a day, selling while you sleep. - signal-found/sf-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [SIMOSphere](../tools/simosphere.md) simosphereai.com European AI orchestration platform - connects CRM, ERP, documents with LLMs. GDPR-compliant, EU-hosted, MCP-native. 4 tools: search_documents, query_database, create_record, send_notification. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [SIMOSphere](../tools/simosphere.md) simosphereai.com European AI orchestration platform - connects CRM, ERP, documents with LLMs. GDPR-compliant, EU-hosted, MCP-native. 4 tools: search_documents, query_database, create_record, send_notification. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: simosphere
 
 - [SmarterDeck AI](../tools/smarterdeck-ai.md) smarterdeck.com Generate McKinsey-caliber presentations, interactive D3.js neural maps, and local Obsidian wikis from confidential PDFs and Excel files with Zero-Retention security. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -968,7 +968,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [SpiderIQ Leads MCP](../tools/spideriq-leads-mcp.md) github.com SpiderIQ Leads: lead-gen MCP (jobs, campaigns, IDAP, Maps, People, Verify, company intel, spiderPR) [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Squad](../tools/squad.md) meetsquad.ai Squad AI is an AI-driven product discovery, strategy, and roadmapping tool for building user-centric products. Align your team and ship outcomes faster. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Squad](../tools/squad.md) meetsquad.ai Squad AI is an AI-driven product discovery, strategy, and roadmapping tool for building user-centric products. Align your team and ship outcomes faster. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: squad
 
 - [Stacks AI](../tools/stacks-ai.md) github.com The universal board for AI agents - one Kanban for tasks, bugs, support, CRM & roadmap, operated by humans and agents via a built-in MCP server. Open-source, self-hostable (Next.js 16, Prisma 7, Auth.js v5). -... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -978,7 +978,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [StratoForce AI Revenue Intelligence](../tools/stratoforce-ai-revenue-intelligence.md) stratoforce-mcp.stratoforce.workers.dev 15 AI revenue intelligence tools for Salesforce - pipeline, deals, coaching, competitors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Forecasting & Revenue](../categories/forecasting-revenue.md)
 
-- [Studiomeyer CRM](../tools/studiomeyer-crm.md) studiomeyer.io AI-native CRM with 37 MCP tools. Companies, deals, pipeline, leads, follow-ups, managed by AI. Connect in 30 seconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Studiomeyer CRM](../tools/studiomeyer-crm.md) studiomeyer.io AI-native CRM with 37 MCP tools. Companies, deals, pipeline, leads, follow-ups, managed by AI. Connect in 30 seconds. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: agent-fleet
 
 - [SuiteCRM MCP by Anirudhx7](../tools/suitecrm-mcp-by-anirudhx7.md) anirudh.social Open-source MCP server for SuiteCRM. Connect Claude, Cursor, or any AI agent to your CRM in 5 minutes. 24 tools, OAuth2, Prometheus. MIT licensed. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -998,9 +998,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Toflow](../tools/toflow.md) toflow.ai toflow.ai is a LinkedIn automation tool for sales teams, agencies, and GTM experts. Run automated LinkedIn outreach, enrich contacts, and sequence across email and WhatsApp, just by chatting with AI. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Tomba](../tools/tomba.md) tomba.io Find verified B2B email addresses from any company. 280M+ contacts, 81% coverage, 98% delivery rate. Trusted by 150,000+ sales teams. Start free today. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Tomba](../tools/tomba.md) tomba.io Find verified B2B email addresses from any company. 280M+ contacts, 81% coverage, 98% delivery rate. Trusted by 150,000+ sales teams. Start free today. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: tomba
 
-- [Tracklution](../tools/tracklution.md) tracklution.com Server-side tracking made unbelievably simple. Improve conversion tracking by 34.2% without writing code. Connect to Google Ads, Meta, TikTok & more in minutes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Tracklution](../tools/tracklution.md) tracklution.com Server-side tracking made unbelievably simple. Improve conversion tracking by 34.2% without writing code. Connect to Google Ads, Meta, TikTok & more in minutes. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: tracklution-cli
 
 - [Twenty CRM MCP](../tools/twenty-crm-mcp.md) github.com A Model Context Protocol (MCP) server for Twenty CRM integration. Enables natural language interactions with your CRM data through Claude and other AI assistants. Supports CRUD operations, dynamic schema... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -1020,11 +1020,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Volanea](../tools/volanea.md) volanea.com Transactional email, campaigns, and automation on one contact graph. Start with 1,000 free credits every month, then $5/mo for 7,500 emails. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: vruum
 
-- [Vsyble](../tools/vsyble.md) vsyble.com Official Vsyble client, CLI, and MCP server for people search, company search, and enrichment. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Vsyble](../tools/vsyble.md) vsyble.com Official Vsyble client, CLI, and MCP server for people search, company search, and enrichment. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: vsyble
 
-- [Wapiworld](../tools/wapiworld.md) app.wapiworld.com Inspect WhatsApp sender and webhook health, and send explicitly confirmed WhatsApp text via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Wapiworld](../tools/wapiworld.md) app.wapiworld.com Inspect WhatsApp sender and webhook health, and send explicitly confirmed WhatsApp text via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: wapiworld
 
 - [WarmySender](../tools/warmysender.md) warmysender.com Run your outreach on autopilot with AI agents: cold email, email warmup, LinkedIn, Instagram and multichannel campaigns plus real-time email verification. Claude, ChatGPT, Cursor, Codex, OpenClaw, Hermes Agent... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1036,15 +1036,15 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Wokelo](../tools/wokelo.md) wokelo.ai Company and market intelligence, news, enrichment, and agentic workflows for dealmakers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [x402 Data Gateway MCP](../tools/x402-data-gateway-mcp.md) x402-url-extractor-production.up.railway.app 25 deterministic pay-per-call tools accepting x402 and native MPP with Base USDC settlement. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [x402 Data Gateway MCP](../tools/x402-data-gateway-mcp.md) x402-url-extractor-production.up.railway.app 25 deterministic pay-per-call tools accepting x402 and native MPP with Base USDC settlement. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: railway
 
 - [xaffinity MCP](../tools/xaffinity-mcp.md) github.com Unofficial strongly-typed Python SDK for the Affinity CRM API - full read/write coverage, Pydantic v2, MCP server included. For when you need more than Affinity's official MCP - affinity-sdk/mcp at main ·... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
-- [xpay Lead Gen](../tools/xpay-lead-gen.md) lead-gen.mcp.xpay.sh 50+ lead gen tools. Apollo, Hunter, Nyne, Tomba, Sixtyfour, Fiber, Exa. Pay-per-use via x402. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [xpay Lead Gen](../tools/xpay-lead-gen.md) lead-gen.mcp.xpay.sh 50+ lead gen tools. Apollo, Hunter, Nyne, Tomba, Sixtyfour, Fiber, Exa. Pay-per-use via x402. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: xpay
 
 - [Xverum](../tools/xverum.md) ask.xverum.com Plain-English B2B data search across 1B+ records. Describe who or what you [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Yadulink](../tools/yadulink.md) app.yadulink.com Configure le serveur MCP Yadulink pour piloter tes recherches LinkedIn, listes, priorités, séquences et analytics depuis Claude, ChatGPT ou un assistant compatible. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Yadulink](../tools/yadulink.md) app.yadulink.com Configure le serveur MCP Yadulink pour piloter tes recherches LinkedIn, listes, priorités, séquences et analytics depuis Claude, ChatGPT ou un assistant compatible. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: yadulink
 
 - [Yandex Audience MCP](../tools/yandex-audience-mcp.md) github.com MCP-сервер для Яндекс Аудиторий - создавать CRM- и LAL-сегменты, управлять пикселями и доступами из AI-приложения - A1-x-Tech/mcp-yandex-audience [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -1052,7 +1052,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [YourICP MCP](../tools/youricp-mcp.md) app.youricp.com Official open-source MCP server for YourICP contact enrichment & B2B data cleaning. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [YouSpot](../tools/youspot.md) youspot.com A personal CRM for AI-native, connected professionals. It remembers everyone you know, and answers in plain English. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [YouSpot](../tools/youspot.md) youspot.com A personal CRM for AI-native, connected professionals. It remembers everyone you know, and answers in plain English. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: youspot
 
 - [Zavora Sales Operations Skill](../tools/zavora-sales-operations-skill.md) github.com Enterprise sales skill - proposals, CPQ, sequences, e-signatures, forecasting via mcp-sales (PandaDoc, Apollo, Calendly, Stripe) - zavora-ai/skill-sales-operations [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
 
@@ -1078,7 +1078,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Abstrakt](../tools/abstrakt.md) abstrakt.ai Abstrakt fills the gap between call center agents and supervisors with real-time agent assist and post-call AI, increasing call quality and streamlining operations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Accord](../tools/accord.md) inaccord.com Transform sales best practices into unavoidable playbooks. Empower reps to win like top sellers with AI-powered revenue execution. Increase deal size by +40%. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [Accord](../tools/accord.md) inaccord.com Transform sales best practices into unavoidable playbooks. Empower reps to win like top sellers with AI-powered revenue execution. Increase deal size by +40%. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI: accord-cms (community)
 
 - [Act-On](../tools/act-on.md) act-on.com Act-On offers agile, AI-driven marketing automation to create, measure, and refine campaigns faster, backed by world-class support. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1086,11 +1086,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [AgencyAnalytics](../tools/agencyanalytics.md) agencyanalytics.com Run your agency on one reliable data foundation. Automated reporting, performance monitoring, and client results, built for marketing agencies. 14-day free trial. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [AgentMail](../tools/agentmail.md) agentmail.to AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [AgentMail](../tools/agentmail.md) agentmail.to AgentMail gives AI agents real email inboxes. Create, send, receive, and search messages via REST API - built for autonomous agents and agentic workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: agentmail
 
-- [Aircover](../tools/aircover.md) aircover.ai Aircover gives your reps a virtual sales engineer, real-time coaching, and automatic CRM updates - on every call. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [Aircover](../tools/aircover.md) aircover.ai Aircover gives your reps a virtual sales engineer, real-time coaching, and automatic CRM updates - on every call. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI: aircover-pipeline
 
-- [Alyce](../tools/alyce.md) alyce.com Could not fully document product behavior from a live vendor homepage this pass (fetch status=None error=URLError: ). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Alyce](../tools/alyce.md) alyce.com Could not fully document product behavior from a live vendor homepage this pass (fetch status=None error=URLError: ). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: ALYCE (community)
 
 - [Alysio](../tools/alysio.md) alysio.ai Alysio is the GTM AI Workspace powered by a Context Engine. Connect Salesforce, HubSpot and Gong using MCP and deploy revenue automation agents in plain English. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
@@ -1124,7 +1124,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Bigtincan Readiness (formerly Brainshark)](../tools/bigtincan-readiness.md) bigtincan.com Revenue enablement platform (Bigtincan acquired Brainshark in 2021 and folded it in as "Bigtincan Readiness") spanning content management, on-demand training/coaching, and AI-driven practice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Birdie](../tools/birdie.md) getbirdie.io AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Birdie](../tools/birdie.md) getbirdie.io AI Copilot for social sellers. Use Birdie's AI to research leads, generate hyper-personalized copy, and schedule timely follow-ups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: butils (community)
 
 - [Blackthorn Events](../tools/blackthorn-events.md) blackthorn.io Plan & manage events entirely inside Salesforce. Blackthorn is a Salesforce event management software that connects your event and business data in one place - no imports, no syncing delays. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
@@ -1142,7 +1142,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Breakcold](../tools/breakcold.md) breakcold.com Breakcold is the AI-Native CRM for sales teams & AI agents that sell via email, calling, LinkedIn, Telegram & WhatsApp with MCP for Claude & more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Brevo](../tools/brevo.md) brevo.com Brevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Brevo](../tools/brevo.md) brevo.com Brevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: brevo
 
 - [BuiltWith](../tools/builtwith.md) builtwith.com Vendor homepage fetched at https://builtwith.com; meta description not present. Thin public homepage copy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1160,11 +1160,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Canopy Labs](../tools/canopy-labs.md) canopylabs.com Canopy Labs automates customer analytics for small and medium-sized… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Capix](../tools/capix.md) capix.ai Capix uses AI to instantly find and aggregate accurate, up-to-date private company data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Capix](../tools/capix.md) capix.ai Capix uses AI to instantly find and aggregate accurate, up-to-date private company data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: capix (community)
 
-- [Cardinal](../tools/cardinal.md) trycardinal.com Revenue agents for high-growth companies [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Cardinal](../tools/cardinal.md) trycardinal.com Revenue agents for high-growth companies [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: cardinal (community)
 
-- [Caretta](../tools/caretta.md) caretta.so Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Caretta](../tools/caretta.md) caretta.so Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md) · CLI: caretta (community)
 
 - [Cast.app](../tools/cast-app.md) cast.app Present, Engage, Educate, Answer Ad-hoc Questions, and Influence Every User & Decision-maker at Every Customer Account - Without Intermediaries or Adding Even One Headcount. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1204,21 +1204,21 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Clok](../tools/clok.md) clok.com Sales enablement, interactive experiences and training tools for complex products. We help teams explain products more clearly, improve understanding and support better customer conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [CloudFiles](../tools/cloudfiles.md) cloudfiles.io CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [CloudFiles](../tools/cloudfiles.md) cloudfiles.io CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: cfmgr (community)
 
 - [Cloudingo](../tools/cloudingo.md) cloudingo.com Eliminate duplicates in Salesforce, improve data quality, and better manage your Salesforce org with Cloudingo. Try the Salesforce data cleansing app FREE! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Clozd](../tools/clozd.md) clozd.com Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [COACH](../tools/coach.md) getcoach.com AI Coach gives every field sales rep personalized coaching after every meeting, helps managers prioritize coaching opportunities, and turns customer conversations into actionable sales intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [COACH](../tools/coach.md) getcoach.com AI Coach gives every field sales rep personalized coaching after every meeting, helps managers prioritize coaching opportunities, and turns customer conversations into actionable sales intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI: rt-claude-coach (community)
 
-- [Coast](../tools/coast.md) trycoast.com The first AI-powered demo platform designed to sell, market and implement technical products with ease. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [Coast](../tools/coast.md) trycoast.com The first AI-powered demo platform designed to sell, market and implement technical products with ease. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI: coast-fire-calculator-cli (community)
 
 - [CoffeeAI](../tools/coffeeai.md) get-coffee.ai Instant, hyper-personalized, AI-powered outreach messages [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
 - [Cohesive](../tools/cohesive.md) getcohesiveai.com Cohesive automates prospecting, outreach, follow-up, and lead management for companies selling to local businesses, property owners, and commercial facilities. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: coldreach (community)
 
 - [Company Url Finder](../tools/company-url-finder.md) companyurlfinder.com Transform company names into verified website URLs in bulk. Trusted API, Google Sheets add-on, and instant domain lookup for sales teams and data enrichment. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1230,9 +1230,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [ConnectAndSell](../tools/connectandsell.md) connectandsell.com Sales Acceleration & AI-Powered Dialing | ConnectAndSell - ConnectAndSell combines human expertise with AI-driven automation to accelerate sales outreach, engage decision-makers, and drive pipeline growth.... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md) · CLI: consensus-fix (community)
 
-- [ContactOut](../tools/contactout.md) contactout.com Most accurate email finder for personal and work email outreach. Email lookup, campaign tool, and AI writer. Get 10 credits free - no credit card required. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [ContactOut](../tools/contactout.md) contactout.com Most accurate email finder for personal and work email outreach. Email lookup, campaign tool, and AI writer. Get 10 credits free - no credit card required. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: contactout (community)
 
 - [Convex](../tools/convex.md) convex.com The only sales intelligence platform built for commercial services teams to reach decision-makers and win more deals across 5.9 M+ properties. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1240,25 +1240,25 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Corporate Visions](../tools/corporate-visions.md) corporatevisions.com Corporate Visions provides evidence-based sales training, messaging, and enablement solutions for B2B revenue teams. Use scientific research, buyer decision data, and precision skills assessments to improve... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Cotera](../tools/cotera.md) cotera.co Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain English, no flowcharts, no MCP kitchen-sink. Just reliable agents that take real action on real data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Cotera](../tools/cotera.md) cotera.co Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain English, no flowcharts, no MCP kitchen-sink. Just reliable agents that take real action on real data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: cli
 
 - [Criya](../tools/criya.md) criya.co AI that builds GTM assets in seconds [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [crmCopilot](../tools/crmcopilot.md) crmcopilot.co Give Salesforce the AI upgrade it deserves [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Cuckoo Labs](../tools/cuckoo-labs.md) cuckoo.so Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and languages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Cuckoo Labs](../tools/cuckoo-labs.md) cuckoo.so Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and languages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md) · CLI: cuckoo
 
-- [Customer.io](../tools/customer-io.md) customer.io Customer.io is a customer engagement platform for creating personalized journeys and better business outcomes across email, push, SMS, and in-app messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Customer.io](../tools/customer-io.md) customer.io Customer.io is a customer engagement platform for creating personalized journeys and better business outcomes across email, push, SMS, and in-app messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · CLI: customerio
 
 - [CustomerOS](../tools/customeros.md) customeros.ai CustomerOS uncovers hidden pipeline that actually converts. It [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: datalegion-cli
 
-- [Databox](../tools/databox.md) databox.com Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Databox](../tools/databox.md) databox.com Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: databox
 
 - [Datanyze](../tools/datanyze.md) datanyze.com Find and connect with cold sales prospects within minutes using affordable, accurate contact information from Datanyze. We're revolutionizing B2B data! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: ax-dealroom (community)
 
 - [Debounce](../tools/debounce.md) debounce.io Validate emails before you send - clean bulk lists, block bad signups in real time, and reduce catch-all uncertainty without overclaiming accuracy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
@@ -1270,9 +1270,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Demodesk](../tools/demodesk.md) demodesk.com Record every sales call, update your CRM, coach reps, and draft follow-ups automatically. GDPR-native, built in Germany. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Dench](../tools/dench.md) dench.com Workspace for AI agents to find, reach, and close customers, replacing fragmented CRM/GTM tool stacks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Dench](../tools/dench.md) dench.com Workspace for AI agents to find, reach, and close customers, replacing fragmented CRM/GTM tool stacks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: dench
 
-- [Dex](../tools/dex.md) getdex.com Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Dex](../tools/dex.md) getdex.com Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: dex
 
 - [Dialworks](../tools/dialworks.md) dialworks.io Sales and support training platform running mock calls, simulated training scenarios, AI call assessment, and analytics/reporting for rep readiness. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1288,11 +1288,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Drift](../tools/drift.md) drift.com Conversational-marketing/chat platform (real-time website visitor engagement, lead qualification, meeting booking) that pioneered the "buyer-intent chatbot" category before being acquired. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
-- [Dropbox Sign](../tools/dropbox-sign.md) sign.dropbox.com Dropbox Sign (formerly HelloSign) is the easiest way to send, receive and manage legally binding electronic signatures. Try it free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [Dropbox Sign](../tools/dropbox-sign.md) sign.dropbox.com Dropbox Sign (formerly HelloSign) is the easiest way to send, receive and manage legally binding electronic signatures. Try it free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md) · CLI: pontx-dropbox-sign (community)
 
 - [DryMerge](../tools/drymerge.md) drymerge.com AI agents that constantly monitor your email, calendar, and calls to keep your CRM updated with every detail. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Dust](../tools/dust.md) dust.tt Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use different models for different tasks, with people in control. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Dust](../tools/dust.md) dust.tt Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use different models for different tasks, with people in control. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: dust
 
 - [Dyspatch](../tools/dyspatch.md) dyspatch.io Build, collaborate on, and localize on-brand email templates without code. Trusted by Canva, Culture Amp, and 300+ global teams. See how it works. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1304,7 +1304,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Emailable](../tools/emailable.md) emailable.com Emailable is the email verification service trusted by 300,000+ businesses to confirm addresses are real and safe to send to, with a 99% deliverability guarantee. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [EmailBison](../tools/emailbison.md) emailbison.com Email sequencing, private warmup, API, webhooks, and unlimited lead storage [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [EmailBison](../tools/emailbison.md) emailbison.com Email sequencing, private warmup, API, webhooks, and unlimited lead storage [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: bison (community)
 
 - [Emailchaser](../tools/emailchaser.md) emailchaser.com Emailchaser is all-in-one cold email software: find and verify leads, connect unlimited inboxes and automate follow-ups for one flat rate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1314,7 +1314,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Enablix](../tools/enablix.md) enablix.com Enablix equips reps with deal-specific Enablement Briefs from first touch to close - fed by deal data, enablement content, and your proven sales methodology [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: enigma (community)
 
 - [Enrich-CRM](../tools/enrich-crm.md) enrich-crm.com Verified emails, direct phones, job changes & buying signals - real-time CRM enrichment, not a stale database. GDPR-native, EU servers. Free plan, from €29/month. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1368,11 +1368,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Gamifier](../tools/gamifier.md) gamifier.co Gamifier turns CRM activity into goals, challenges, leaderboards, rewards, and feedback for sales and support teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Gauge](../tools/gauge.md) withgauge.com Track, analyze, and improve your brand's presence across ChatGPT, Gemini, Perplexity, and AI search. Complete toolkit for AI visibility and GEO optimization. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Gauge](../tools/gauge.md) withgauge.com Track, analyze, and improve your brand's presence across ChatGPT, Gemini, Perplexity, and AI search. Complete toolkit for AI visibility and GEO optimization. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: gauge
 
 - [GetCrux](../tools/getcrux.md) getcrux.ai A self-improving system for performance creatives. Crux connects ad data, competitor insight and your brand kit to go from insight to creative in minutes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Glean](../tools/glean.md) glean.com Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Glean](../tools/glean.md) glean.com Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: glean-auth
 
 - [Gluetrail](../tools/gluetrail.md) gluetrail.com Create step by step articles with screenshots and videos 10x faster [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1388,11 +1388,11 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [GTM Buddy](../tools/gtm-buddy.md) gtmbuddy.ai Activate reps who think, adapt, and close with autonomy. GTM Buddy turns enablement into a revenue activation engine with real-time deal guidance. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Hatch](../tools/hatch.md) usehatch.ai The Hatch AI communications platform answers every call, text, and email, 24/7, with Voice AI powered by OpenAI's GPT-Live-1. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Hatch](../tools/hatch.md) usehatch.ai The Hatch AI communications platform answers every call, text, and email, 24/7, with Voice AI powered by OpenAI's GPT-Live-1. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: hatch-cli (community)
 
 - [Hilos](../tools/hilos.md) hilos.io Perfila leads, automatiza seguimientos e integra con tus herramientas favoritas para aumentar tu conversión. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Hindsight](../tools/hindsight.md) usehindsight.com Hindsight builds a verified memory of every opportunity, finds what worked in comparable deals, and applies that experience across your team and GTM agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [Hindsight](../tools/hindsight.md) usehindsight.com Hindsight builds a verified memory of every opportunity, finds what worked in comparable deals, and applies that experience across your team and GTM agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI: hindsight-antigravity-hook (community)
 
 - [HitHorizons](../tools/hithorizons.md) hithorizons.com Database of 80M+ European companies. Company statistics, profiles, industry data, sales information, number of employees. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1460,13 +1460,13 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Laudable](../tools/laudable.md) laudable.com Get hundreds of customer testimonials, quotes, 5*G2 reviews, and advocates, in 80% less time, with Laudable's AI. Mine the data you already have in Gong and Chorus call recordings for customer evidence and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
-- [Laudspeaker](../tools/laudspeaker.md) laudspeaker.com Open source mobile marketing platform; alternative to Appcues-style product messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Laudspeaker](../tools/laudspeaker.md) laudspeaker.com Open source mobile marketing platform; alternative to Appcues-style product messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · CLI: clickhouse-migrations
 
 - [Lavender](../tools/lavender.md) lavender.ai A Chrome extension and browser sidebar that sits inside Gmail, Outlook, and sales engagement tools and scores a rep's email draft 1-100 in real time while suggesting rewrites, with a team dashboard that turns... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
 - [Leadbay](../tools/leadbay.md) leadbay.ai Constant flow of skills, widgets, and qualified leads delivered into the apps your team and agents use daily - Claude, ChatGPT, and Copilot. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [LeadGenius](../tools/leadgenius.md) leadgenius.com LeadGenius delivers real-time, compliant B2B contact data and buyer intelligence worldwide. Find decision-makers, activate leads, and scale revenue with precision. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [LeadGenius](../tools/leadgenius.md) leadgenius.com LeadGenius delivers real-time, compliant B2B contact data and buyer intelligence worldwide. Find decision-makers, activate leads, and scale revenue with precision. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: lgp (community)
 
 - [Leadinfo](../tools/leadinfo.md) leadinfo.com Grow your sales funnel and generate better leads. Start identifying B2B website visitors and reach out to them within Leadinfo's all-in-one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -1478,7 +1478,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Letterdrop](../tools/letterdrop.md) letterdrop.com Find contacts starting sales cycles with your competitors [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Liferay](../tools/liferay.md) liferay.com Digital Experience Platform designed for complexity. Integrates with everything: CMS ✓ DAM ✓ Commerce ✓ AI ✓ Low Code ✓ Search ✓ and more! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Liferay](../tools/liferay.md) liferay.com Digital Experience Platform designed for complexity. Integrates with everything: CMS ✓ DAM ✓ Commerce ✓ AI ✓ Low Code ✓ Search ✓ and more! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · CLI: liferay-npm-bundler
 
 - [Lift AI](../tools/lift-ai.md) lift-ai.com Lift AI scores the behavioral context of every website visitor - anonymous or identified - with a real-time buyer probability score. 85%+ accuracy. One score feeds your entire GTM. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -1498,7 +1498,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Locent](../tools/locent.md) locent.com Automated messaging platform for companies. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Loops](../tools/loops.md) loops.so Loops is email marketing software for SaaS teams to send marketing, lifecycle, and transactional email from one product. Free to start. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Loops](../tools/loops.md) loops.so Loops is email marketing software for SaaS teams to send marketing, lifecycle, and transactional email from one product. Free to start. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: loops
 
 - [Luru](../tools/luru.md) luru.app An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
@@ -1510,15 +1510,15 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Magellan Data](../tools/magellan-data.md) magellandata.io Parent companies, PE ownership, corporate families, and portfolio siblings - delivered as a hosted MCP server your AI agent calls mid-task. No login, no CSV, no tabs. Prefer a file? Spotlight, our web app,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Mailchimp](../tools/mailchimp.md) mailchimp.com Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Mailchimp](../tools/mailchimp.md) mailchimp.com Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: mailchimp (community)
 
-- [Mailmodo](../tools/mailmodo.md) mailmodo.com Try this AI email marketing tool to create emails, automate journeys, and add interactivity to drive better conversions. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Mailmodo](../tools/mailmodo.md) mailmodo.com Try this AI email marketing tool to create emails, automate journeys, and add interactivity to drive better conversions. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: mailmodo
 
 - [Mailwarm](../tools/mailwarm.md) mailwarm.com Email warmup tool to avoid the spam folder and improve inbox placement. Since 2020, Mailwarm's deliverability team builds sender reputation so emails reach the inbox. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Maintouch](../tools/maintouch.md) maintouch.com Maintouch tracks AI and Google visibility, creates and refreshes content, and helps brands earn the backlinks and mentions that drive search growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Maintouch](../tools/maintouch.md) maintouch.com Maintouch tracks AI and Google visibility, creates and refreshes content, and helps brands earn the backlinks and mentions that drive search growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · CLI: maintouch
 
-- [Manatee](../tools/manatee.md) trymanatee.com DocSend for demos. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
+- [Manatee](../tools/manatee.md) trymanatee.com DocSend for demos. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md) · CLI: manatee (community)
 
 - [Matik](../tools/matik.md) matik.io Matik's AI automates the creation of personalized presentations, documents, and reports directly from your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1528,7 +1528,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [MeetRecord](../tools/meetrecord.md) meetrecord.com Outdoo is the enterprise AI roleplay and training platform for customer-facing teams, connecting AI Tutor-led learning to roleplay practice and real conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Memoir](../tools/memoir.md) trymemoir.ai Software ships faster than teams can explain it. Memoir closes the gap. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
+- [Memoir](../tools/memoir.md) trymemoir.ai Software ships faster than teams can explain it. Memoir closes the gap. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md) · CLI: memoir (community)
 
 - [Mercura](../tools/mercura.md) mercura.ai Mercura automates sales request processes for distributors & manufacturers with AI, so you can save time and money and increase your sales success. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
@@ -1538,7 +1538,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Milk Video](../tools/milk-video.md) milkvideo.com Create video testimonials with a link. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
 
-- [Minerva](../tools/minerva.md) minerva.io Minerva helps marketers create time to do the work they love, while delegating operational work to AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Minerva](../tools/minerva.md) minerva.io Minerva helps marketers create time to do the work they love, while delegating operational work to AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: minerva-cli (community)
 
 - [Minoa](../tools/minoa.md) minoa.io Minoa is the value intelligence layer that puts a consistent, CFO-defensible business case on every deal, and proves the value at renewal. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
@@ -1548,9 +1548,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Modash](../tools/modash.md) modash.io High performing marketing teams use Modash to find, analyze and monitor influencers at scale all over the world. Join them today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Modus](../tools/modus.md) himodus.com Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From predicting attrition to underperformance, Modus lets you act... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Modus](../tools/modus.md) himodus.com Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From predicting attrition to underperformance, Modus lets you act... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md) · CLI: modus-wc (community)
 
-- [Mogli](../tools/mogli.md) mogli.com Streamline text messaging and transform engagement with Mogli's Salesforce SMS App. Discover our 5-star solution that makes texting from Salesforce easy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Mogli](../tools/mogli.md) mogli.com Streamline text messaging and transform engagement with Mogli's Salesforce SMS App. Discover our 5-star solution that makes texting from Salesforce easy. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: mogli (community)
 
 - [Mutiny](../tools/mutiny.md) mutinyhq.com Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
@@ -1568,7 +1568,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Netomi](../tools/netomi.md) netomi.com Netomi powers intelligent experiences for the world [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
-- [Nex](../tools/nex.md) nex.ai Nex automates complex, high-volume GTM plays like prospecting, outbound, CRM clean up, and revenue recovery, that general purpose agents struggle with. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Nex](../tools/nex.md) nex.ai Nex automates complex, high-volume GTM plays like prospecting, outbound, CRM clean up, and revenue recovery, that general purpose agents struggle with. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: nex
 
 - [ngrow.ai](../tools/ngrow-ai.md) ngrow.ai First smart No-SDK customer engagement platfrom. Best tool for Push, Email campaigns powered by generative AI [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
@@ -1578,7 +1578,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Observe.AI](../tools/observe-ai.md) observe.ai Observe.AI brings AI agents for customer experience into one platform. Automate customer service with Voice AI, assist frontline teams in real time, analyze conversations, improve QA, and orchestrate voice and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Octane11](../tools/octane11.md) octane11.com Octane11 connects B2B marketing signals to real accounts and pipeline. Account-level analytics powered by AI. Set up in minutes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Octane11](../tools/octane11.md) octane11.com Octane11 connects B2B marketing signals to real accounts and pipeline. Account-level analytics powered by AI. Set up in minutes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: dotenv
 
 - [Octolane AI](../tools/octolane-ai.md) octolane.com Octolane runs an AI agent on every account, trained on how your best revenue teams think and act. Human judgment, deployed at scale, and it's yours to keep. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
@@ -1598,7 +1598,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Orbit](../tools/orbit.md) orbit.love Was a community-analytics platform that aggregated activity across Discord, Slack, GitHub, and social channels into a unified per-person engagement score ("Orbit Level") to identify a community's most valuable... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
-- [Origami](../tools/origami.md) origami.chat Enter your website. Origami finds the best ways to get you customers. Approve with a click, and Origami runs the campaigns for you. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Origami](../tools/origami.md) origami.chat Enter your website. Origami finds the best ways to get you customers. Approve with a click, and Origami runs the campaigns for you. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: ori (community)
 
 - [Outplay](../tools/outplay.md) outplay.ai Multi-channel sales engagement platform (email, phone, social, SMS) with an AI SDR product layered on top. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1614,7 +1614,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [PartnerOS](../tools/partneros.md) partneros.ai Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [PartnerStack](../tools/partnerstack.md) partnerstack.com Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners - from affiliates to referral and reseller partners. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [PartnerStack](../tools/partnerstack.md) partnerstack.com Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners - from affiliates to referral and reseller partners. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: partnerstack (community)
 
 - [PathFactory](../tools/pathfactory.md) pathfactory.com PathFactory is the content intelligence platform that turns content and buyer data into personalized experiences and first-party signals that drive revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1624,7 +1624,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Peerbound](../tools/peerbound.md) peerbound.com Centralize all customer proof, uncover advocates and insights, and empower sales to win deals. Trusted by aspirational companies like Canva, Gong and Lattice. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Pendo](../tools/pendo.md) pendo.io Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts, and drive adoption and revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
+- [Pendo](../tools/pendo.md) pendo.io Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts, and drive adoption and revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md) · CLI: novus
 
 - [Penguin AI](../tools/penguin-ai.md) penguinai.app AI Sales Rep for Website Intent Signals [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
@@ -1640,9 +1640,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [PhoneSys](../tools/phonesys.md) pingm.net The Phone System for Sales Teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Phonic](../tools/phonic.md) phonic.ai Build voice agents as natural as humans. 750ms latency, 50+ languages, audio-native AI. Trusted by teams shipping voice in production. Try free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
+- [Phonic](../tools/phonic.md) phonic.ai Build voice agents as natural as humans. 750ms latency, 50+ languages, audio-native AI. Trusted by teams shipping voice in production. Try free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md) · CLI: phonic
 
-- [Pinnacle](../tools/pinnacle.md) pinnacle.sh One API for RCS, iMessage, MMS, and SMS. Build, test, and scale every channel - send your first message in minutes, not weeks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Pinnacle](../tools/pinnacle.md) pinnacle.sh One API for RCS, iMessage, MMS, and SMS. Build, test, and scale every channel - send your first message in minutes, not weeks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: pinnacle-cli (community)
 
 - [Plai](../tools/plai.md) plai.io Manage Facebook Ads and Google Ads across multiple clients with automation, templates, reporting, billing, and white-labeled access. Built for agencies. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1654,7 +1654,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Positional](../tools/positional.md) positional.com sunbeam is the autonomous SEO agent that runs research, content, and technical fixes end-to-end. Start winning SEO from day one. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
-- [Postal](../tools/postal.md) postal.io Postal is the leading intelligent gifting platform that helps thousands of businesses increase their pipeline, retain customers, and reward employees. The platform and its global marketplace enable customers... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Postal](../tools/postal.md) postal.io Postal is the leading intelligent gifting platform that helps thousands of businesses increase their pipeline, retain customers, and reward employees. The platform and its global marketplace enable customers... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: postalcli (community)
 
 - [Postscript](../tools/postscript.md) postscript.io Engage with customers wherever they are. Postscript helps you build strong customer relationships across the entire buying experience. Start your free trial today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1664,7 +1664,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Prelay](../tools/prelay.md) prelay.com Team Selling Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [PromptLoop](../tools/promptloop.md) promptloop.com AI platform for GTM & B2B Sales: Automate web scraping, Deep Research, and CRM data enrichment for accurate B2B insights. 10x faster B2B research. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [PromptLoop](../tools/promptloop.md) promptloop.com AI platform for GTM & B2B Sales: Automate web scraping, Deep Research, and CRM data enrichment for accurate B2B insights. 10x faster B2B research. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: promptloop
 
 - [Propensity](../tools/propensity.md) propensity.com Run ABM, contextual, and geofencing campaigns to identify real buyers, generate contact-level insights, and send high-intent leads to sales. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
@@ -1684,7 +1684,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Rafiki](../tools/rafiki.md) getrafiki.ai Rafiki AI is an AI-powered sales intelligence platform that analyzes every sales conversation, coaches reps, and surfaces deals that need attention. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Conversation Intel](../categories/conversation-intel.md)
 
-- [Ranla](../tools/ranla.md) ranla.ai Ranla is a lifecycle and transactional email platform for PLG SaaS. Automations and audiences from product behavior, and a built-in agent that drafts and asks before it sends. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Ranla](../tools/ranla.md) ranla.ai Ranla is a lifecycle and transactional email platform for PLG SaaS. Automations and audiences from product behavior, and a built-in agent that drafts and asks before it sends. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: ranla
 
 - [Reachdesk](../tools/reachdesk.md) reachdesk.com Send personalized gifts and branded swag globally with Reachdesk. Drive ROI, build relationships, and boost pipeline with one powerful platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1696,7 +1696,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Relate](../tools/relate.md) relate.so Relate is a modern sales CRM platform that lets you bring your entire team together to collaborate on sales. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Reltio](../tools/reltio.md) reltio.com Unify siloed data into trusted 360 views with Reltio. Power AI, improve operations, and drive growth with real-time context intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Reltio](../tools/reltio.md) reltio.com Unify siloed data into trusted 360 views with Reltio. Power AI, improve operations, and drive growth with real-time context intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: app
 
 - [Resonance](../tools/resonance.md) useresonance.com Self-improving content bank for marketing teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1710,7 +1710,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [ReverseContact](../tools/reversecontact.md) reversecontact.com Search, enrich, and look up any person or company through one B2B data API. 800M+ profiles, 80%+ match rate, GDPR-ready. Start for free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: revnu-setup
 
 - [Rift](../tools/rift.md) rift.com B2B lead routing made simple [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
@@ -1748,7 +1748,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [ScreenshotOne](../tools/screenshotone.md) screenshotone.com Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API. Start free with ScreenshotOne. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Scribe](../tools/scribe.md) tryscribe.com Scribe is an AI based Sales Development Representative that you can… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Scribe](../tools/scribe.md) tryscribe.com Scribe is an AI based Sales Development Representative that you can… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: scribe (community)
 
 - [Scribeless](../tools/scribeless.md) scribeless.co The leading handwritten notes service. Find & retain customers with handwritten mail, letters & postcards, that are personalized, automated & measurable. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1756,9 +1756,9 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Second Nature](../tools/second-nature.md) secondnature.ai AI roleplay platform for enterprise sales teams that generates AI buyer personas from a text description or uploaded content and runs 1:1, group, or chat-based practice conversations, then scores and gives... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
-- [Semrush](../tools/semrush.md) semrush.com Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Semrush](../tools/semrush.md) semrush.com Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: semrush-cli (community)
 
-- [Sendblue](../tools/sendblue.md) sendblue.com Send iMessage, SMS, and RCS from your CRM or via REST API. 2-3x higher response rates than SMS. No A2P registration. SOC 2 certified. Used by 20,000+ businesses. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Sendblue](../tools/sendblue.md) sendblue.com Send iMessage, SMS, and RCS from your CRM or via REST API. 2-3x higher response rates than SMS. No A2P registration. SOC 2 certified. Used by 20,000+ businesses. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: sendblue
 
 - [Sendoff](../tools/sendoff.md) github.com Self-hosted AI that writes and sends your sales outreach in your voice. Not a CRM. Mountable Rails engine: LLM drafter with voice + hallucination critics, send-safety, Gmail, and an MCP server. Data plugs in... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
@@ -1768,7 +1768,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Signal Prospector](../tools/signal-prospector.md) github.com A signal-based B2B prospecting engine on free infra: 8 buying-signal detectors, an explainable ICP scorer, free MX-validated email enrichment and AI outreach - via CLI, Flask and an MCP server. -... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Signaliz](../tools/signaliz.md) signaliz.com Discover verified companies from any market signal, keep target accounts under watch, verify contacts, and turn dated evidence into outreach with Signaliz. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [Signaliz](../tools/signaliz.md) signaliz.com Discover verified companies from any market signal, keep target accounts under watch, verify contacts, and turn dated evidence into outreach with Signaliz. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: signaliz
 
 - [SilkChart](../tools/silkchart.md) silkchart.com SilkChart analyzes sales calls and measures how well playbooks are executed. It proactively surfaces coaching opportunities to managers, and provides reps with actionable feedback to drive better conversations... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Enablement & Coaching](../categories/enablement-coaching.md)
 
@@ -1804,15 +1804,15 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Store Leads](../tools/store-leads.md) storeleads.app The most comprehensive list of ecommerce stores including 13,727,714 active stores across 409 platforms including Shopify, WooCommerce and Square Online. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Streak](../tools/streak.md) streak.com Manage sales and customer relationships directly inside Gmail. Streak is the CRM your team will actually use-integrated, smart, and loved by 750,000+ users. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Streak](../tools/streak.md) streak.com Manage sales and customer relationships directly inside Gmail. Streak is the CRM your team will actually use-integrated, smart, and loved by 750,000+ users. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: rollodeqc-gh-user-streak (community)
 
 - [Struct](../tools/struct.md) struct.app Multi-lingual AI voice agents for business workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
-- [Suger](../tools/suger.md) suger.io Suger automates cloud GTM for ISVs selling on AWS, GCP, and Azure Marketplace. Streamline co-sell, private offers, metering, and CRM sync in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Suger](../tools/suger.md) suger.io Suger automates cloud GTM for ISVs selling on AWS, GCP, and Azure Marketplace. Streamline co-sell, private offers, metering, and CRM sync in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: suger (community)
 
-- [Superglue](../tools/superglue.md) superglue.io Superglue lets you set up automations that guide your partner and sales teams through each step of the co-selling process. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Superglue](../tools/superglue.md) superglue.io Superglue lets you set up automations that guide your partner and sales teams through each step of the co-selling process. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: sg
 
-- [Superhuman](../tools/superhuman.md) superhuman.com Superhuman is the AI productivity suite that gives you superpowers everywhere you work. So you can be more creative, strategic, and impactful. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Superhuman](../tools/superhuman.md) superhuman.com Superhuman is the AI productivity suite that gives you superpowers everywhere you work. So you can be more creative, strategic, and impactful. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: superhuman (community)
 
 - [Supermetrics](../tools/supermetrics.md) supermetrics.com Supermetrics is a Marketing Intelligence Platform for agencies and brands that allows you to connect, manage, analyze, and activate your data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1832,7 +1832,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [TechniQ ABM](../tools/techniq-abm.md) techniqabm.com TechniQ helps B2B teams uncover the best way into their most important accounts and turns that intelligence into messaging and ready-to-use Sales & Marketing assets. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Terminus](../tools/terminus.md) terminus.com DemandScience helps B2B teams identify winnable accounts and activate them across channels-generating more pipeline without legacy ABM platform complexity. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md)
+- [Terminus](../tools/terminus.md) terminus.com DemandScience helps B2B teams identify winnable accounts and activate them across channels-generating more pipeline without legacy ABM platform complexity. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Signals & Intent](../categories/signals-intent-abm.md) · CLI: tcpb (community)
 
 - [Terrakotta](../tools/terrakotta.md) terrakotta.ai Accelerate your commercial real estate prospecting with Terrakotta's AI-powered data and dialing platform. Source leads, make calls, and deliver personalized AI voicemails all in one solution. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
@@ -1846,7 +1846,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [TimelinesAI](../tools/timelinesai.md) timelines.ai Connect both WhatsApp Business API and personal numbers to your CRM. Sync every conversation, work from one shared team inbox, and automate with AI workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Tolstoy](../tools/tolstoy.md) gotolstoy.com Tolstoy is the Shopify shoppable video and UGC app used by 5,000+ brands. Create AI video, publish on product pages, add virtual try-on. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md)
+- [Tolstoy](../tools/tolstoy.md) gotolstoy.com Tolstoy is the Shopify shoppable video and UGC app used by 5,000+ brands. Create AI video, publish on product pages, add virtual try-on. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Video Prospecting](../categories/video-prospecting.md) · CLI: tolstoy
 
 - [Topo](../tools/topo.md) topo.io Topo is the AI sales platform that runs outbound for you: find in-market buyers, personalize outreach at scale, and book more meetings. See how it works. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
@@ -1854,15 +1854,15 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Tray.ai](../tools/tray-ai.md) tray.ai Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps - orchestration for data… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
 
-- [Treble](../tools/treble.md) treble.ai Conoce Treble.ai, la mejor solución de IA para WhatsApp adaptada a cualquier empresa. Llega a más clientes con WhatsApp automatizado. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Treble](../tools/treble.md) treble.ai Conoce Treble.ai, la mejor solución de IA para WhatsApp adaptada a cualquier empresa. Llega a más clientes con WhatsApp automatizado. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: treble (community)
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
 
 - [Trevor AI](../tools/trevor-ai.md) trevorai.com AI planning app that merges task management and calendar scheduling - connects task lists (Todoist, Google Tasks, Microsoft To-Do) and calendars (Google, Outlook, Microsoft 365) into one auto-scheduled daily... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
-- [Truva](../tools/truva.md) truva.ai Sell more. Grind less with AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md)
+- [Truva](../tools/truva.md) truva.ai Sell more. Grind less with AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [AI SDRs](../categories/ai-sdr-agents.md) · CLI: truva (community)
 
-- [Twain](../tools/twain.md) twain.ai Better pipeline comes from accurate messaging. Twain researches prospects in real-time so your outreach leads with relevant signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
+- [Twain](../tools/twain.md) twain.ai Better pipeline comes from accurate messaging. Twain researches prospects in real-time so your outreach leads with relevant signals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: twain-md (community)
 
 - [Unbounce](../tools/unbounce.md) unbounce.com Grow your leads and sales with Unbounce. Easily create, test, and optimize landing pages, and boost conversions using AI insights-start turning traffic into customers today! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Inbound & PLG Chat](../categories/inbound-plg-chat.md)
 
@@ -1898,7 +1898,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [WhatsApp Business](../tools/whatsapp-business.md) business.whatsapp.com Grow customer engagement, marketing, sales and customer service success with business messaging on the platform with more than 2 billion users around the world. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md)
+- [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: windsor-ai (community)
 
 - [Wolfia](../tools/wolfia.md) wolfia.com Wolfia answers security questionnaires, DDQs, and RFPs, reviews and redlines contracts, fills vendor portals, and runs your trust center. Cited answers from your own docs, 10x faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Proposals & Deals](../categories/proposals-deals.md)
 
@@ -1908,7 +1908,7 @@ The gate could not be established from public sources. Published as unknown rath
 
 - [Zeliq](../tools/zeliq.md) zeliq.com Zeliq centralizes prospecting, data enrichment, and multi-channel outreach. Find qualified leads, contact them, and manage your pipeline in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [ZenRows](../tools/zenrows.md) zenrows.com AI web data infrastructure for agents, applications, and data teams. Fetch, extract, batch, and operate the live web, including protected pages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md)
+- [ZenRows](../tools/zenrows.md) zenrows.com AI web data infrastructure for agents, applications, and data teams. Fetch, extract, batch, and operate the live web, including protected pages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: zenrows
 
 - [ZeroBounce](../tools/zerobounce.md) zerobounce.net Optimize your email strategy with ZeroBounce. We offer top-tier email validation, list cleaning, and address verification to reduce spam traps and enhance deliverability. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 

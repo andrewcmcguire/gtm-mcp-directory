@@ -18,6 +18,7 @@ Nimbus
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: cli (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -58,11 +59,30 @@ https://github.com/nimbus-solution/nimbus
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: cli
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-15
+
+Install, as the source shows it:
+
+```
+npm install -g @nimbus-sh/cli
+```
+
+quoted from [https://www.npmjs.com/package/@nimbus-sh/cli](https://www.npmjs.com/package/@nimbus-sh/cli) on 2026-09-15, via npm, a third party source
+
+Packages seen, with the version on 2026-09-15:
+
+- [npm: @nimbus-sh/cli 0.1.8, third party](https://www.npmjs.com/package/@nimbus-sh/cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -94,7 +114,9 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to testnimbus.dev with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -128,6 +150,6 @@ API mentioned on https://testnimbus.dev/docs; pricing/gate not inferred from pre
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

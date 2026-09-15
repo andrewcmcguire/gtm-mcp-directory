@@ -56,13 +56,44 @@ https://api.onsa.ai/api/mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 13
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-15
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **continue_campaign** Sends an instruction to the agent inside an existing campaign and returns a jobId to read with fetch_leads. This is the tool that grows or steers a cohort in place - 'find 5 more like these', 'look at Singapore and the Gulf instead of US in evidence: answered tools/list · calling it reads · required: campaignId, message
+
+- **fetch_leads** Returns the status and any results of a find_leads job, by jobId. Status values: "pending" - the search is still running, though `leads` may already hold a partial list; "completed" - the agent delivered a batch, which is not a guarantee th evidence: answered tools/list · calling it reads · required: jobId
+
+- **find_leads** Starts a live B2B lead search with Onsa's agent, matching real people (with LinkedIn profiles) against the workspace's ICP. Takes a natural-language brief - titles, company type, geography, e.g. 'find 5 fintech founders in NYC'. Returns a j evidence: answered tools/list · calling it reads · required: query
+
+- **get_campaign** Returns one campaign's ICP - the ideal-customer profile the agent derived and scores leads against - plus its outreach template and settings. The ICP comes back exactly as stored, in snake_case: `perfect_lead` and `reachable_market` are one evidence: answered tools/list · calling it reads · required: campaignId
+
+- **get_campaign_leads** Returns the leads of any campaign by campaignId, with the same fields as fetch_leads, including score and scoreExplanation. It covers campaigns not started in this session, which fetch_leads cannot reach because fetch_leads requires a jobId evidence: answered tools/list · calling it reads · required: campaignId
+
+- **get_campaign_stats** Returns the outreach funnel for one campaign: invites sent, invites accepted, messages sent, and replies split into positive / negative / other by sentiment. LinkedIn and email are merged, as on Onsa's Overview page. These count leads rathe evidence: answered tools/list · calling it reads · required: campaignId
+
+- **get_lead_memo** Returns the research memo Onsa's agent wrote about one lead: role history, company size and stage, what they have said publicly, and the angle on them. It is usually far richer than scoreExplanation, and it is the source material for outrea evidence: answered tools/list · calling it reads · required: leadId
+
+- **list_campaigns** Lists the campaigns (past lead searches) in this workspace that the user takes part in, newest first. Returns the newest `limit` of them, default 50; `returned` against `total` shows whether older campaigns were omitted. Each entry has id, evidence: answered tools/list · calling it reads
+
+- **list_next_steps** Returns what this campaign still needs from a human, as a ranked to-do list: people who replied, people who accepted an invite but were never messaged, drafts waiting for approval, leads found but never contacted, and setup that is missing. evidence: answered tools/list · calling it reads · required: campaignId
+
+- **list_pending_outreach** Lists outreach messages the agent has drafted that are waiting for a human to approve - the 'a message for X is ready' queue. Each entry carries the draft text, the lead it is for, and why that lead scored as it did. Omitting campaignId cov evidence: answered tools/list · calling it reads
+
+- **list_replies** Returns the text of what prospects replied, for every lead in the campaign that answered, paired with the outbound message it answers. get_campaign_stats counts replies and labels them; this returns the words. `sentiment` is Onsa's own labe evidence: answered tools/list · calling it reads · required: campaignId
+
+- **rewrite_outreach** Replaces the text of an outreach draft that is waiting for approval. The current draft and the lead's scoreExplanation come from list_pending_outreach; get_lead_memo carries the richer research on that person. The rewritten draft stays in t evidence: answered tools/list · calling it reads · required: leadId, text
+
+- **send_outreach** Queues one already-approved outreach draft for delivery to a real person on LinkedIn. It requires `confirmText`, the draft body character-for-character as stored, and `confirmName`, the recipient's name: drafts are often near-identical betw evidence: answered tools/list · calling it reads · required: leadId, confirmText, confirmName
+
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -90,7 +121,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to api.onsa.ai with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -121,6 +154,6 @@ Homepage fetch failed (HTTPError 401); what_it_does used staging desc. mcp_statu
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

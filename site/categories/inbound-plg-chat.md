@@ -24,7 +24,7 @@ Tools that sit on the receiving end of demand - website chat that qualifies and 
 - **MCP not applicable**: 1
 - **No MCP found**: 36
 
-- **ship a CLI (official) as of 2026-09-12**: 3
+- **ship a CLI (official) as of 2026-09-15**: 9
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
@@ -73,7 +73,7 @@ Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · cou
 
 - [Open for Agents](../tools/open-for-agents.md) openforagents.com Connect a compatible AI app to Open for Agents for read-only public website visibility checks and recent-result comparison. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Ora](../tools/ora.md) ora.ai Scan any site, watch real agents try to use it, and fix what turns them away. Ora is the standard for optimizing your site so agents can actually use and recommend you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Ora](../tools/ora.md) ora.ai Scan any site, watch real agents try to use it, and fix what turns them away. Ora is the standard for optimizing your site so agents can actually use and recommend you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: ora
 
 - [Perspective AI](../tools/perspective-ai.md) getperspective.ai Rigid forms cause drop-off, weaken qualification, and strip away context. Perspective uses adaptive AI to turn forms into conversations that capture structured data and trigger automation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -95,7 +95,7 @@ Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · cou
 
 - [ClickFunnels](../tools/clickfunnels.md) clickfunnels.com ClickFunnels gives you everything you need to market, sell, and deliver your products and services online! Without having to hire or rely on a tech team! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Customer.io](../tools/customer-io.md) customer.io Customer.io is a customer engagement platform for creating personalized journeys and better business outcomes across email, push, SMS, and in-app messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Customer.io](../tools/customer-io.md) customer.io Customer.io is a customer engagement platform for creating personalized journeys and better business outcomes across email, push, SMS, and in-app messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: customerio
 
 - [Dittofeed](../tools/dittofeed.md) dittofeed.com The open-source, embeddable customer engagement platform for automating email, SMS, mobile push, WhatsApp, & more. Low-code customer segmentation, message templates, and a simple drag-and-drop journey builder. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -117,13 +117,13 @@ Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · cou
 
 - [Laudable](../tools/laudable.md) laudable.com Get hundreds of customer testimonials, quotes, 5*G2 reviews, and advocates, in 80% less time, with Laudable's AI. Mine the data you already have in Gong and Chorus call recordings for customer evidence and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Laudspeaker](../tools/laudspeaker.md) laudspeaker.com Open source mobile marketing platform; alternative to Appcues-style product messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Laudspeaker](../tools/laudspeaker.md) laudspeaker.com Open source mobile marketing platform; alternative to Appcues-style product messaging. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: clickhouse-migrations
 
 - [LeadPages](../tools/leadpages.md) leadpages.com AI landing pages with built-in A/B testing, Smart Traffic, and heatmaps. Create pages in 60 seconds. Optimize automatically. No traffic caps. Starting at $99/mo. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Liferay](../tools/liferay.md) liferay.com Digital Experience Platform designed for complexity. Integrates with everything: CMS ✓ DAM ✓ Commerce ✓ AI ✓ Low Code ✓ Search ✓ and more! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Liferay](../tools/liferay.md) liferay.com Digital Experience Platform designed for complexity. Integrates with everything: CMS ✓ DAM ✓ Commerce ✓ AI ✓ Low Code ✓ Search ✓ and more! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: liferay-npm-bundler
 
-- [Maintouch](../tools/maintouch.md) maintouch.com Maintouch tracks AI and Google visibility, creates and refreshes content, and helps brands earn the backlinks and mentions that drive search growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Maintouch](../tools/maintouch.md) maintouch.com Maintouch tracks AI and Google visibility, creates and refreshes content, and helps brands earn the backlinks and mentions that drive search growth. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: maintouch
 
 - [Mutiny](../tools/mutiny.md) mutinyhq.com Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -135,7 +135,7 @@ Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · cou
 
 - [Olark](../tools/olark.md) olark.com Built for the marketer doing five jobs at once - Olark's AI agent answers questions, qualifies visitors, and knows exactly when to bring in a human. Trained on your own site in under a minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Pendo](../tools/pendo.md) pendo.io Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts, and drive adoption and revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Pendo](../tools/pendo.md) pendo.io Pendo feeds product context to the apps and AI agents you build or buy, so you can understand your users, act where it counts, and drive adoption and revenue. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: novus
 
 - [Positional](../tools/positional.md) positional.com sunbeam is the autonomous SEO agent that runs research, content, and technical fixes end-to-end. Start winning SEO from day one. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

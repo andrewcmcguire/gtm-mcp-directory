@@ -18,6 +18,7 @@ Squad
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: squad
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -58,11 +59,49 @@ https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+- **Binary**: squad
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-15
+
+Install, as the source shows it:
+
+```
+npm install -g @squadai/cli
+```
+
+quoted from [https://docs.meetsquad.ai/cli/overview](https://docs.meetsquad.ai/cli/overview) on 2026-09-15, via npm
+
+```
+npm install -g @squadai/cli@0.3.x
+```
+
+quoted from [https://docs.meetsquad.ai/cli/overview](https://docs.meetsquad.ai/cli/overview) on 2026-09-15, via npm
+
+Login or key hint seen on the page:
+
+squad auth
+
+Subcommands seen with the binary:
+
+auth, workspace
+
+Packages seen, with the version on 2026-09-15:
+
+- [npm: @bradygaster/squad-cli 0.13.1, third party](https://www.npmjs.com/package/@bradygaster/squad-cli)
+- [npm: squad-hub 0.5.0, third party](https://www.npmjs.com/package/squad-hub)
+- [npm: @mightybs/squad-hub 0.5.0, third party](https://www.npmjs.com/package/@mightybs/squad-hub)
+- [npm: claude-squad 0.1.24, third party](https://www.npmjs.com/package/claude-squad)
+
+Where it was documented:
+
+- [https://docs.meetsquad.ai/cli/overview](https://docs.meetsquad.ai/cli/overview) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -90,7 +129,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to meetsquad.ai with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -123,6 +164,6 @@ mcp_status=community from smithery listing; not an invented official vendor MCP.
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

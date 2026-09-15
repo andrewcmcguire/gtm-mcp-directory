@@ -56,13 +56,34 @@ https://api.anchoredip.com/api/mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 8
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-15
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **create_tunnel** Provision a peer and return its WireGuard configuration. Three routing modes, and the right one depends on the machine. source (the default) sends only traffic from the leased address through us and leaves the default route alone - but it evidence: answered tools/list · calling it reads · required: access_token
+
+- **lease_status** Everything about one lease: whether it is active, which addresses it holds, its tunnels and when it renews. evidence: answered tools/list · calling it reads · required: access_token
+
+- **list_plans** The published catalogue with live prices and which payment methods each plan accepts. Prices are never hardcoded; read them here. evidence: answered tools/list · calling it spends money
+
+- **order_lease** Place an order. The trial plan is free and activates immediately; paid plans return payment details and stay pending until settled. No account or card is needed to order. A second trial for the same billing email is refused - order a paid... evidence: answered tools/list · calling it spends money · required: plan, organization_name, country, billing_email
+
+- **renew_lease** Raise an invoice for another term and keep the same addresses. This is how a trial becomes a paying customer: the address does not change, so whatever the customer's partner has already allowlisted goes on working. A trial cannot renew into evidence: answered tools/list · calling it reads · required: access_token
+
+- **revoke_tunnel** Retire a peer and hand its slot back to the plan's allowance. An agent that provisions a tunnel per short-lived worker and never revokes one exhausts the allowance and then cannot bring the next machine up. Revoking the peer that holds the evidence: answered tools/list · calling it reads · required: access_token, tunnel_id
+
+- **set_autorenew** Stop this lease charging the customer's card again, or start it again. Only a card subscription can be stopped - a bank transfer is a payment the customer sends us, so there is nothing of ours to cancel. Stopping is not a cancellation: the evidence: answered tools/list · calling it spends money · required: access_token, enabled
+
+- **set_reverse_dns** Publish a PTR record for an address on the lease. Live within a second; an empty hostname removes it. evidence: answered tools/list · calling it reads · required: access_token, address, hostname
+
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -90,7 +111,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to api.anchoredip.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -123,6 +146,6 @@ Homepage fetch failed (HTTPError 405); what_it_does used staging desc. API menti
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

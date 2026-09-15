@@ -1,6 +1,6 @@
 # Pinnacle: products, MCP servers and connect URLs, one vendor page
 
-> Pinnacle (pinnacle.sh): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-14.
+> Pinnacle (pinnacle.sh): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-15.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Pinnacle
 1 product in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-14
+Data baked 2026-09-15
 
 Vendor domain: [pinnacle.sh](https://pinnacle.sh) · vendor page id pinnacle-sh
 
@@ -38,9 +38,9 @@ Vendor domain: [pinnacle.sh](https://pinnacle.sh) · vendor page id pinnacle-sh
 
 - **Bench tested**: 0 of 1 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: not measured on this build
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-15
 
-- **GitHub organisation**: not measured on this build
+- **GitHub organisation**: none tied to pinnacle.sh with evidence on 2026-09-15
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
@@ -80,14 +80,28 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+### [Pinnacle](../tools/pinnacle.md) pinnacle-cli community CLI
+
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+```
+pip install pinnacle-cli
+```
+
+quoted from [https://pypi.org/project/pinnacle-cli/](https://pypi.org/project/pinnacle-cli/) on 2026-09-15, via pypi, a third party source
+
+harvested 2026-09-15, all on the [tool page](../tools/pinnacle.md).
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to pinnacle.sh with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **What this page does not claim**
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-14 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-15 by build_directory.py (phase 1).

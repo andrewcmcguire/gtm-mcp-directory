@@ -56,13 +56,28 @@ https://gleaming-cassata-d41682.netlify.app/api/mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 5
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-15
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **lion_adaptive_data_query** LION Adaptive Data Fabric: ONE typed x402 query endpoint that adapts to any agent request over live Base on-chain data, covering multiple verticals from one call. Query params: source (base_dex | token_risk | defi_yields), token (0x address evidence: answered tools/list · calling it spends money
+
+- **lion_base_dex_signals_json** Live Base (eip155:8453) DEX market-data feed for trading and research agents. Returns a fresh ranked snapshot of active Base tokens with raw on-chain metrics: price_usd, liquidity_usd, volume_h24, volume_m5, price_change_h1/h24, pair_age_ho evidence: answered tools/list · calling it spends money
+
+- **lion_payment_attempt_readiness_audit** Pre-spend payment-term trust check for x402 endpoints. Before your agent signs a Payment-Signature, call this with a target x402/MCP service URL: LION extracts the target live 402 payment terms (payTo, amount, asset, network, scheme), cross evidence: answered tools/list · calling it spends money · required: url
+
+- **lion_trend_intent_signal_csv** Hardware-wallet buyer-intent + self-custody onboarding-friction intelligence as flat CSV. Same column set as the JSON variant: Ledger vs Trezor comparison demand, Bitcoin-only wallet research, under-$100 wallet shopper queries, DeFi hardwar evidence: answered tools/list · calling it spends money
+
+- **lion_trend_intent_signal_json** Hardware-wallet buyer-intent + self-custody onboarding-friction intelligence as JSON. Non-PII public-signal feed covering: Ledger vs Trezor comparison demand, Bitcoin-only wallet research, under-$100 wallet shopper queries, DeFi hardware-wa evidence: answered tools/list · calling it spends money
+
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -90,7 +105,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to gleaming-cassata-d41682.netlify.app with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -122,6 +139,6 @@ Homepage fetch failed (HTTPError 405); what_it_does used staging desc. API menti
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

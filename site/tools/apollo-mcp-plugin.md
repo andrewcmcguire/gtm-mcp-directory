@@ -56,13 +56,62 @@ https://github.com/apolloio/apollo-mcp-plugin
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 20
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-15
+- **Repo read**: apolloio/apollo-mcp-plugin
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **Endpoint** `https://mcp.apollo.io/mcp` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Need** Where to go evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Path** Purpose evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Skill** What it does evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Symptom** What to check evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Transport** Streamable HTTP evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **Version** `0.1.1` evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_analytics_sync_report** Retrieve sales analytics metrics and breakdowns. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_contacts_create** Create a contact in the Apollo workspace. evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_email_accounts_index** List connected email/sending accounts. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_emailer_campaigns_add_contact_ids** Add contacts to an outreach sequence. evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_emailer_campaigns_search** Find outreach sequences by name. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_mixed_companies_search** Search Apollo's organization database by industry, size, location, and keywords. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_mixed_people_api_search** Search Apollo's people database by title, seniority, location, and company filters. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_organizations_bulk_enrich** Enrich multiple organizations in one call. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_organizations_enrich** Enrich a single organization. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_people_bulk_match** Match and enrich multiple people in one call. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **apollo_people_match** Match and enrich a single person from available identifiers. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **glama.json** Glama MCP directory metadata. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **server.json** Official MCP Registry metadata (name, version, transport, endpoint). evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -96,7 +145,9 @@ A github.com URL already appears somewhere in this entry, which is a seed for th
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to github.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -129,6 +180,6 @@ mcp_status=community from official-mcp-registry listing; not an invented officia
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

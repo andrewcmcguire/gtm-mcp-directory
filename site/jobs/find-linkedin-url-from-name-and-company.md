@@ -1,6 +1,6 @@
 # Find a person's LinkedIn URL from a name and company: 22 GTM tools, 18 with an official MCP server
 
-> Hand it a person's name plus a company name or domain and get the LinkedIn profile URL back. The inverse of enrich-person-from-linkedin-url, which needs the URL as input. Added 2026-09-03 by the owner; see the header. 20 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. Counted 2026-09-14 from the directory data.
+> Hand it a person's name plus a company name or domain and get the LinkedIn profile URL back. The inverse of enrich-person-from-linkedin-url, which needs the URL as input. Added 2026-09-03 by the owner; see the header. 20 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. Counted 2026-09-15 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Hand it a person's name plus a company name or domain and get the LinkedIn profi
 - **no MCP found**: 2
 - **solo reachable**: 19
 
-20 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. 21 of the 22 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-14 from directory.json.
+20 of the 22 entries tagged with this job carry an MCP server of some kind, 18 of them official. 21 of the 22 tagged entries are distinct products; the other 1 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-15 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -70,7 +70,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Lusha](../tools/lusha.md) lusha.com A B2B contact and company database (300M+ profiles) accessed via a browser extension, web prospecting platform, and bulk CSV/API enrichment for finding direct dials, emails, and company data. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: prospeo (community)
+- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [ZoomInfo](../tools/zoominfo.md) zoominfo.com A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human researchers, used for prospecting, account research, and lead... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: gtm
 

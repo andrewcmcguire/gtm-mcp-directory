@@ -115,18 +115,1132 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">A working server exists but somebody other than the vendor built it. It can be abandoned without the vendor noticing.
 The status was established on 2026-09-12 and the MCP URL has not been probed live yet.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/codespar/mcp-dev-latam</p><ul><li><a href="https://github.com/codespar/mcp-dev-latam" rel="noopener nofollow">https://github.com/codespar/mcp-dev-latam</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><p class="v empty">Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.</p><p class="note">119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v empty">The CLI layer has not been measured on this build.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+<p class="v mono">community</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://github.com/codespar/mcp-dev-latam</p><ul><li><a href="https://github.com/codespar/mcp-dev-latam" rel="noopener nofollow">https://github.com/codespar/mcp-dev-latam</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">223</div></div><div><div class="bk">Strongest evidence</div><div class="bv">in the server source</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-15</div></div><div><div class="bk">Repo read</div><div class="bv mono">codespar/mcp-dev-latam</div></div><div><div class="bk">Whose repo</div><div class="bv">third-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a fixed catalogue the vendor publishes</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.</p><ul class="caplist"><li>
+<div class="tn"><b>add_opt_out</b></div>
+<div class="td">Add a phone number to the opt-out list (suppresses future messages)</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>address_validation</b></div>
+<div class="td">Address normalization + validation against CORREIOS + IBGE  - canonical address, CEP, neighborhood, city, state, geocode. POST /v1/datasets/addresses.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>antifraud_score</b></div>
+<div class="td">Compute Certta</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>authorize_transaction</b></div>
+<div class="td">Authorize a purchase (POST /api.authorization/v3/authorization/ecommerce/{merchantId}). Pass the transactionToken the Niubiz checkout form returned after the customer entered the card, plus your purchaseNumber and the amount.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>biometrics_face_match</b></div>
+<div class="td">Compare a selfie against a document photo (RG / CNH front). Returns match_score (0..1) and liveness verdict. POST /v1/biometrics/face-match.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>biometrics_liveness</b></div>
+<div class="td">Passive liveness check on a selfie (no document). Returns liveness_score (0..1) + spoofing_indicators. POST /v1/biometrics/liveness.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>calculate_freight</b></div>
+<div class="td">Calculate shipping rates across multiple carriers (PAC, SEDEX, JadLog, Loggi, Mini Envios). Returns pricing, delivery time, and carrier details for each available service.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_all_orders</b></div>
+<div class="td">Cancel all open orders for a symbol</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_freight</b></div>
+<div class="td">Cancel a freight order. Provide the order ID and a reason for cancellation.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_order</b></div>
+<div class="td">Cancel an open order</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_payment</b></div>
+<div class="td">Attempt to cancel a payment that has not yet settled. Iniciador endpoint: POST /payments/{id}/cancel.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_subscription</b></div>
+<div class="td">Cancel a subscription (DELETE /card/v1/subscriptions/{subscriptionId}, private merchant id). Stops all future charges.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>cancel_transaction</b></div>
+<div class="td">Cancel a transaction. Only valid while status is</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>capture_preauthorization</b></div>
+<div class="td">Two-step charge, step 2: capture a previous preauthorization (POST /card/v1/capture, private merchant id). Amount may be lower than the preauth (partial capture).</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>charge_card</b></div>
+<div class="td">Charge a tokenized card (POST /payment/v1/charge/create). Amounts in COP unless currency says otherwise. Test mode is controlled by EPAYCO_TEST.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>checkout_freight</b></div>
+<div class="td">Purchase/checkout freight orders. Pays for the orders and generates shipping labels. Returns tracking numbers and label print URLs.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>companies_lookup</b></div>
+<div class="td">CNPJ lookup  - razão social, fantasia, founding date, paid-in capital, partners, address, CNAE. POST /v1/datasets/companies.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>company_check</b></div>
+<div class="td">KYB  - validate a CNPJ, return corporate profile, QSA, regularity, sanctions. POST /v1/checks/company.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>confirm_payment</b></div>
+<div class="td">Confirm (capture) a previously authorized payment in the two-step auth + capture flow (PUT /payments/{id}). Uses the PRIVATE apikey.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_account</b></div>
+<div class="td">Create an account in a ledger (POST /v1/organizations/{org}/ledgers/{ledger}/accounts). Accounts hold balances per asset code (e.g. BRL, USD, USDC).</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_card</b></div>
+<div class="td">Issue a card for a user (POST /cards/v1). card_type VIRTUAL is usable immediately; PHYSICAL enters embossing/shipping and must be activated on receipt. affinity_group_id selects the card program (BIN, art, limits) configured with Pomelo.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_card_payment_link</b></div>
+<div class="td">Convenience wrapper: create a Bold payment link restricted to cards (payment_methods=[\</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_cash_charge</b></div>
+<div class="td">Cash payment reference (POST /cash/v1/charges, private merchant id). Generates a voucher/reference the customer pays at a cash network (OXXO-style). Returns reference + expiry.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_cash_payment</b></div>
+<div class="td">Create a cash payment voucher on a Colombian cash network (POST /restpagos/v2/efectivo/{network} on secure.payco.co). The payer takes the voucher code to a physical point to pay.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_charge</b></div>
+<div class="td">One-step card charge (POST /card/v1/charges, private merchant id). Pass the token from tokenize_card plus the amount object. Supports metadata, months (MX installments) and deferred (installment plans).</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_connect_token</b></div>
+<div class="td">Mint a connect token for embedding the Pluggy Connect widget on the client. Pluggy endpoint: POST /connect_token.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_consent</b></div>
+<div class="td">Create a payment consent that the payer will authorize at their bank. Iniciador endpoint: POST /consents.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_contact</b></div>
+<div class="td">Create a contact in the contact base</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_counterparty</b></div>
+<div class="td">Register a counterparty (beneficiary) to pay out to (POST /v1/counterparties). Pass the counterparty object in Cobre</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_customer</b></div>
+<div class="td">Create an individual or business customer (KYC mother). Business customers require date_of_incorporation; both types use 3-letter ISO country codes (BRA/USA/MEX). Returns { id, status:</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_external_account</b></div>
+<div class="td">Register a fiat receiver account (BRL Pix, USD wire, EUR SEPA, MXN SPEI). Skippable for BRL Pix payouts  - pass pix_key + document directly on /payout instead.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_freight</b></div>
+<div class="td">Create a freight/label order. Returns the order ID, price, protocol, and tracking code. For commercial shipments, invoice details are required.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_item</b></div>
+<div class="td">Create a new bank connection (item) for a connector. Pluggy endpoint: POST /items.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_money_movement</b></div>
+<div class="td">Create an outbound money movement (POST /v1/money_movements): source account/balance, destination counterparty, amount and currency. Runs over Colombia</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_order</b></div>
+<div class="td">Create an order / request a payment (POST /order/add, form-urlencoded). payment_type selects the method (pix | boleto | creditcard). Returns XML: for Pix it carries pix_code (copy-paste) and pix_image; for boleto, the bar code and PDF URL.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payin</b></div>
+<div class="td">Create a fiat → stablecoin pay-in referencing a quote_id. Sandbox min: 150 BRL / payout-side equivalents. Response carries { id, status:</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payment</b></div>
+<div class="td">Initiate a Pix transfer once a consent has been authorized. Iniciador endpoint: POST /payments.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payment_by_email</b></div>
+<div class="td">Create a collection order Flow emails to the customer (POST /payment/createEmail). Same shape as create_payment but Flow delivers the payment link by email  - no checkout redirect needed.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payment_intent</b></div>
+<div class="td">Create a payment intent for Pluggy Payments (PISP). Pluggy endpoint: POST /payments/intents.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payment_link</b></div>
+<div class="td">Create a hosted checkout / payment link (POST /v2/checkout). The buyer opens the returned payment_request_url and pays with card, Clip account or other enabled MX methods. Amount is in MXN pesos (decimal, e.g. 150.00).</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payment_source_using_token</b></div>
+<div class="td">Attach a payment source to a customer using a gateway token (e.g. from Chargebee JS / Stripe.js / Adyen tokenization)</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_payout</b></div>
+<div class="td">Create a stablecoin → fiat payout referencing a quote_id. customer_id is REQUIRED at the top level (404</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_paywall</b></div>
+<div class="td">Create a x402 paywall configuration for an endpoint. When requests hit this endpoint, they receive HTTP 402 with payment instructions.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_preauthorization</b></div>
+<div class="td">Two-step charge, step 1: hold funds on the card (POST /card/v1/preAuthorization, private merchant id). Returns a ticketNumber to capture later.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_pse_payment</b></div>
+<div class="td">Create a PSE bank-debit payment (POST /restpagos/pagos/debitos.json on secure.payco.co). Returns a bank redirect URL the payer must open to authorize the debit.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_pse_payment_link</b></div>
+<div class="td">Convenience wrapper: create a Bold payment link restricted to PSE bank debit (payment_methods=[\</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_quote</b></div>
+<div class="td">Lock an FX + fee quote for a 5-minute TTL. Same endpoint for both on_ramp (fiat → stablecoin) and off_ramp (stablecoin → fiat). Pass amount on EITHER sender or receiver, not both. Response carries { id, expires_at, commercial_quotation, fee</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_refund</b></div>
+<div class="td">Create a refund order (POST /refund/create). Refund a received payment fully or partially; Flow notifies urlCallBack when the refund resolves.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_session_token</b></div>
+<div class="td">Create a checkout session (POST /api.ecommerce/v2/ecommerce/token/session/{merchantId}). Returns the sessionKey the Niubiz checkout form needs. Send the purchase amount and the customer</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_subscription</b></div>
+<div class="td">Create a webhook subscription for message events</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_token</b></div>
+<div class="td">Tokenize sensitive card data (PAN, expiry, CVV, cardholder, document) into a single-use payment token (POST /tokens). Uses the PUBLIC apikey. Returns a token id consumed by create_payment, plus the card bin.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_transaction</b></div>
+<div class="td">Post a balanced double-entry transaction (POST /v1/organizations/{org}/ledgers/{ledger}/transactions/json). The send block debits source accounts and credits distribute targets; amounts must balance. Accounts are referenced by id or @alias.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_transfer_charge</b></div>
+<div class="td">Bank transfer-in charge with a transfer token (POST /transfer/v1/init, private merchant id). Returns the bank redirect URL the customer authorizes at.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_transfer_token</b></div>
+<div class="td">Token for a bank-transfer-in (POST /transfer/v1/tokens, public merchant id). PSE in Colombia, SPEI in Mexico, bank transfer in Chile/Peru. Feeds create_transfer_charge.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_user</b></div>
+<div class="td">Create a card-holder identity (POST /users/v1). The user is the person or business the card is issued to. Pass the Pomelo user shape for the target country (name, surname, identification_type/value, birthdate, address, email, phone).</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_wallet</b></div>
+<div class="td">Create a stablecoin wallet under an APPROVED customer. blockchain selects the network (solana → USDC; ethereum/polygon → USDC/USDT; tron → USDT). Customer must be</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>create_webhook</b></div>
+<div class="td">Create a new webhook to receive notifications about order events.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_contact</b></div>
+<div class="td">Delete a contact by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_item</b></div>
+<div class="td">Delete a bank connection (revokes credentials, removes accounts/transactions). Pluggy endpoint: DELETE /items/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_payment_source</b></div>
+<div class="td">Delete a payment source</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_paywall</b></div>
+<div class="td">Remove a x402 paywall from an endpoint</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_subscription</b></div>
+<div class="td">Delete a webhook subscription by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>delete_webhook</b></div>
+<div class="td">Delete a webhook by ID.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>document_check</b></div>
+<div class="td">Document validation  - OCR + authenticity check on RG / CNH / passport / proof of residence. Returns structured fields + authenticity_score. POST /v1/checks/document.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>documents_ocr</b></div>
+<div class="td">OCR a Brazilian ID document (RG / CNH / CRLV / proof of residence / passport). Returns extracted structured fields per document type. POST /v1/documents/ocr.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>employment_data</b></div>
+<div class="td">Employment profile for a CPF  - current employer, history, monthly income, professional category. POST /v1/datasets/persons.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>face_authentication</b></div>
+<div class="td">Face authentication against a base image (typically the document photo). Returns match_score + liveness verdict + spoofing indicators. POST /v1/biometrics/face.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>financial_data</b></div>
+<div class="td">Credit + financial profile for a CPF/CNPJ  - income, score, declared assets, banking, default history. POST /v1/datasets/persons.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>generate_checkout_signature</b></div>
+<div class="td">Generate the SHA-256 integrity signature Bold</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_account</b></div>
+<div class="td">Get a single account by id. Pluggy endpoint: GET /accounts/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_authorization_url</b></div>
+<div class="td">Build the URL where the payer authorizes a consent at their bank. This is a helper  - it does not call Iniciador. Returns the standard OFB authorization URL using the consent id + redirect URI.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_badlar_rate</b></div>
+<div class="td">Get BADLAR rate (tasa de plazos fijos &gt;1M ARS, bancos privados)  - used as benchmark for many financial products</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_balance</b></div>
+<div class="td">Read an account</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_banks</b></div>
+<div class="td">List all Brazilian banks with codes and names</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_candles</b></div>
+<div class="td">Get candlestick/OHLCV data for a trading pair</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_card</b></div>
+<div class="td">Fetch a card by id (GET /cards/v1/{id}). Returns masked PAN, status, type and program data  - never full card credentials.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cep</b></div>
+<div class="td">Look up address by CEP (Brazilian postal code)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cep_v1</b></div>
+<div class="td">Look up address by CEP using BrasilAPI v1 (single-provider, often faster than v2)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_check_result</b></div>
+<div class="td">Retrieve a previously-run check by ID (person, company, or document). Useful for replay + auditing without re-querying datasources. GET /v1/checks/{check_id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cnpj</b></div>
+<div class="td">Look up company information by CNPJ</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_connector</b></div>
+<div class="td">Get a single connector definition by id. Pluggy endpoint: GET /connectors/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_consent</b></div>
+<div class="td">Fetch a payment consent and its current authorization status. Iniciador endpoint: GET /consents/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_corretora</b></div>
+<div class="td">Look up a single CVM-registered brokerage by CNPJ</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_corretoras</b></div>
+<div class="td">List all CVM-registered Brazilian brokerages (corretoras)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_counterparty</b></div>
+<div class="td">Get one counterparty by id (GET /v1/counterparties/{id}).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cptec_airport_weather</b></div>
+<div class="td">Get current airport weather (METAR) by ICAO code from CPTEC/INPE</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cptec_capitals_weather</b></div>
+<div class="td">Get current weather conditions for all Brazilian state capitals</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cptec_cities</b></div>
+<div class="td">Search CPTEC/INPE cities by name for weather forecasts</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cptec_ocean_forecast</b></div>
+<div class="td">Get ocean/wave forecast for a coastal city (CPTEC/INPE)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_cptec_weather</b></div>
+<div class="td">Get weather forecast for a city (CPTEC/INPE)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_currency_history</b></div>
+<div class="td">Get historical quotes for a currency over a date range</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_ddd</b></div>
+<div class="td">Get state and cities for a DDD (area code)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_domain_info</b></div>
+<div class="td">Look up .br domain registration info</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_exchange_rates</b></div>
+<div class="td">Get official exchange rates snapshot for a date (USD, EUR, BRL, etc.)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_fees</b></div>
+<div class="td">Query trading fees (maker/taker) for a symbol</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_fipe_brands</b></div>
+<div class="td">List vehicle brands by type from FIPE table</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_fipe_price</b></div>
+<div class="td">Get vehicle price from FIPE table by code</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_fipe_tables</b></div>
+<div class="td">List FIPE reference tables (months/years available for FIPE queries)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_fipe_vehicles</b></div>
+<div class="td">List vehicle models for a given FIPE brand code and vehicle type</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_freight</b></div>
+<div class="td">Get detailed information about a freight order including status, tracking, addresses, pricing, and label print URL.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_holidays</b></div>
+<div class="td">List national holidays for a given year</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_ibge_municipalities</b></div>
+<div class="td">List all municipalities for a Brazilian state (IBGE data)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_ibge_states</b></div>
+<div class="td">List all Brazilian states/UFs with IBGE codes and metadata</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_inflation</b></div>
+<div class="td">Get inflation data (IPC nivel general  - variación mensual)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_interest_rates</b></div>
+<div class="td">Get reference interest rates (tasas de interés de referencia)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_isbn</b></div>
+<div class="td">Look up book information by ISBN</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_item</b></div>
+<div class="td">Fetch a single bank connection by id. Pluggy endpoint: GET /items/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_leliq_rate</b></div>
+<div class="td">Get monetary policy rate (ex-LELIQ / tasa de política monetaria)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_message_status</b></div>
+<div class="td">Get message delivery status by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_monetary_base</b></div>
+<div class="td">Get monetary base data (base monetaria)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_money_movement</b></div>
+<div class="td">Get a money movement and its status by id (GET /v1/money_movements/{id}).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_ncm</b></div>
+<div class="td">Look up NCM tax classification code</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_official_rate</b></div>
+<div class="td">Get the official BCRA quote for a single currency on a specific date</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_order</b></div>
+<div class="td">Request information about an order (POST /order/get). Returns the same XML order shape as create_order, including current payment status  - poll this to detect Pix/boleto settlement.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_payment</b></div>
+<div class="td">Fetch a payment by id (status, E2E id, error reason if rejected). Iniciador endpoint: GET /payments/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_payment_intent</b></div>
+<div class="td">Fetch the current status of a payment intent. Pluggy endpoint: GET /payments/intents/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_payment_link</b></div>
+<div class="td">Fetch a checkout / payment link by id (GET /v2/checkout/{id})  - status, amount, payment outcome.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_payment_status</b></div>
+<div class="td">Get a payment order</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_payment_status_by_commerce_id</b></div>
+<div class="td">Get a payment order</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_payment_status_by_flow_order</b></div>
+<div class="td">Get a payment order</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_paywall</b></div>
+<div class="td">Get paywall configuration for a specific URL</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_pix_participants</b></div>
+<div class="td">List Pix participant institutions (PSPs/banks enrolled in Pix)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_pse_transaction</b></div>
+<div class="td">Get a PSE transaction</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_refund_status</b></div>
+<div class="td">Get a refund order</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_report_entries</b></div>
+<div class="td">Get message report entries within a date range</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_reserves</b></div>
+<div class="td">Get international reserves data (reservas internacionales)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_security_token</b></div>
+<div class="td">Fetch the Niubiz API bearer token (POST /api.security/v1/security, Basic auth). Other tools fetch and cache this automatically  - call it explicitly only to verify credentials or force a refresh.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_services</b></div>
+<div class="td">Get available shipping services with detailed restrictions (min/max weight, dimensions) and carrier information.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_supported_networks</b></div>
+<div class="td">List supported blockchain networks, tokens, and facilitators for x402 payments</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_tax_rates</b></div>
+<div class="td">Get current Brazilian tax/economic rates (Selic, CDI, IPCA)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_ticker</b></div>
+<div class="td">Get ticker data for a trading pair (price, volume, etc.)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_tm20_rate</b></div>
+<div class="td">Get TM20 rate (tasa de plazos fijos &gt;20M ARS, bancos privados)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_transaction</b></div>
+<div class="td">Fetch a transaction with its operations (GET /v1/organizations/{org}/ledgers/{ledger}/transactions/{id}).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_user</b></div>
+<div class="td">Fetch a user by id (GET /users/v1/{id}).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_user_addresses</b></div>
+<div class="td">List all saved addresses for the authenticated user.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_user_info</b></div>
+<div class="td">Get authenticated user information including name, email, document (CPF/CNPJ), account balance, and shipment limits.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_uva_value</b></div>
+<div class="td">Get UVA (Unidad de Valor Adquisitivo)  - used for inflation-adjusted mortgage calculations</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_variable_history</b></div>
+<div class="td">Get the historical series for any monetary variable by id, with optional date range. Use list_variables to discover ids.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_verification_details</b></div>
+<div class="td">Poll the KYC verification state for a customer. Returns { customer_status:</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>get_withdrawal</b></div>
+<div class="td">Get withdrawal details by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>kyb_lookup_cnpj</b></div>
+<div class="td">Validate a CNPJ and return company profile  - corporate name, fantasia, address, partners (QSA), CNAE, share capital, regularity status. POST /v1/kyb/cnpj.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>kyc_lookup_cpf</b></div>
+<div class="td">Validate a CPF against Receita Federal + SPC / Serasa. Returns name, DOB, regularity status, restrictions, risk score. POST /v1/kyc/cpf.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_account_trades</b></div>
+<div class="td">List authenticated account fills/trades for a symbol</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_accounts</b></div>
+<div class="td">List a ledger</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_assets</b></div>
+<div class="td">List supported assets/coins on the exchange</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_balances</b></div>
+<div class="td">List the balances of every account visible to this credential (GET /v1/balances).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_cards</b></div>
+<div class="td">List cards (GET /cards/v1), filterable by user and status. Paginated.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_categories</b></div>
+<div class="td">List Pluggy</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_channels</b></div>
+<div class="td">List available messaging channels</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_cheque_entities</b></div>
+<div class="td">List the catalog of financial entities with their cheque codes  - use the código to validate cheques</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_connectors</b></div>
+<div class="td">Lists supported Brazilian banks (connectors). Pluggy endpoint: GET /connectors. Optional filters: name, types (e.g. PERSONAL_BANK, BUSINESS_BANK), countries (BR), sandbox.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_contacts</b></div>
+<div class="td">List contacts from the contact base</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_counterparties</b></div>
+<div class="td">List registered counterparties (GET /v1/counterparties).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_currencies</b></div>
+<div class="td">List the master catalog of currencies (divisas) tracked by BCRA</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_customers</b></div>
+<div class="td">List customers under the operator</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_datasources</b></div>
+<div class="td">List the datasources available to your Caf account (varies per subscription tier). GET /v1/datasources.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_deposits</b></div>
+<div class="td">List deposits (crypto + fiat) for the authenticated account</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_events</b></div>
+<div class="td">List webhook events. Useful for auditing or backfilling missed webhooks.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_external_accounts</b></div>
+<div class="td">List external accounts under the operator</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_identities</b></div>
+<div class="td">Fetch identity data (legal name, document, address) for an item. Pluggy endpoint: GET /identity?itemId=...</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_institutions</b></div>
+<div class="td">List Brazilian banks supported for Pix payment initiation. Iniciador endpoint: GET /institutions.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_invoices</b></div>
+<div class="td">List invoices with optional filters</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_items</b></div>
+<div class="td">List bank connections (items) owned by the application. Pluggy endpoint: GET /items.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_money_movements</b></div>
+<div class="td">List money movements (GET /v1/money_movements).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_networks</b></div>
+<div class="td">List supported blockchain networks for a given asset</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_orderbook</b></div>
+<div class="td">Get order book (bids and asks) for a trading pair</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_orders</b></div>
+<div class="td">List orders with optional filters</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_payment_methods</b></div>
+<div class="td">List the payment methods enabled for this merchant (GET /online/link/v1/payment_methods).</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_payments</b></div>
+<div class="td">List payments in a date range with optional filters. Iniciador endpoint: GET /payments.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_paywalls</b></div>
+<div class="td">List all configured x402 paywalls</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_positions</b></div>
+<div class="td">List open margin/futures positions (if applicable to the account)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_pse_banks</b></div>
+<div class="td">List PSE banks available for bank debit (GET /restpagos/pse/bancos.json on secure.payco.co).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_subscriptions</b></div>
+<div class="td">List all webhook subscriptions</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_symbols</b></div>
+<div class="td">List available trading symbols (pairs) on the exchange</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_templates</b></div>
+<div class="td">List approved message templates (WhatsApp/SMS/RCS)</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_trades</b></div>
+<div class="td">List executed trades for a trading pair</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_transactions</b></div>
+<div class="td">List transactions for an account in a date range. Pluggy endpoint: GET /transactions?accountId=&amp;from=&amp;to=.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_variables</b></div>
+<div class="td">List the catalog of monetary variables (id, descripción, categoría)  - use this to discover variable ids for get_variable_history</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_wallets</b></div>
+<div class="td">List wallets under the operator</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_webhooks</b></div>
+<div class="td">List all configured webhooks for the account.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>list_withdrawals</b></div>
+<div class="td">List withdrawals (crypto + fiat) for the authenticated account</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>liveness_check</b></div>
+<div class="td">Passive liveness on a selfie (no comparison image). Returns liveness_score + spoofing signals. POST /v1/biometrics/liveness.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>onboarding_process_create</b></div>
+<div class="td">Kick off an orchestrated onboarding pipeline that chains KYC + biometrics + signature in one call. Returns process_id; track via onboarding_process_get. POST /v1/onboarding/processes.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>onboarding_process_get</b></div>
+<div class="td">Get status + results of an onboarding process. Each step (KYC, biometrics, signature) reports its own verdict. GET /v1/onboarding/processes/{process_id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>pay_request</b></div>
+<div class="td">Pay for a 402-protected resource. Sends USDC payment via x402 protocol and returns the resource content. The agent automatically handles the 402 handshake.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>person_check</b></div>
+<div class="td">KYC  - validate a CPF, return name + DOB + restrictions + risk indicators. POST /v1/checks/person.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>persons_lookup</b></div>
+<div class="td">CPF lookup  - name, DOB, mother</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>properties_lookup</b></div>
+<div class="td">Real-estate lookup by address or registration  - property type, area, owner history, market value estimate. POST /v1/datasets/properties.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>reactivate_subscription</b></div>
+<div class="td">Reactivate a cancelled or paused subscription</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>refund_order</b></div>
+<div class="td">Request a refund for a settled order (POST /order/refund). Pass amount_brl for a partial refund; omit for a full refund.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>refund_payment</b></div>
+<div class="td">Refund a payment (POST /payments/{id}/refund). Omit amount for a full refund; pass it for a partial refund in MXN.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>retrieve_customer</b></div>
+<div class="td">Retrieve a customer by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>retrieve_invoice</b></div>
+<div class="td">Retrieve an invoice by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>retrieve_subscription</b></div>
+<div class="td">Retrieve a subscription by ID</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>reverse_transaction</b></div>
+<div class="td">Reverse (void) an authorization (POST /api.authorization/v3/reverse/ecommerce/{merchantId}). Same-day undo of an authorized transaction by transactionId or purchaseNumber.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>revoke_consent</b></div>
+<div class="td">Revoke a payment consent before it is exercised. Iniciador endpoint: DELETE /consents/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>sanctions_check</b></div>
+<div class="td">Sanctions + PEP screening (OFAC / UN / EU / BR PEP / CNJ / INSS / IBAMA) for a CPF or CNPJ. POST /v1/datasets/persons.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_email</b></div>
+<div class="td">Send a transactional email</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_facebook_message</b></div>
+<div class="td">Send a Facebook Messenger message</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_rcs</b></div>
+<div class="td">Send an RCS (Rich Communication Services) message</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_sms</b></div>
+<div class="td">Send an SMS message</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_template</b></div>
+<div class="td">Send a WhatsApp template message (pre-approved)</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_voice</b></div>
+<div class="td">Send a voice message via TTS or pre-recorded audio URL</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>send_whatsapp</b></div>
+<div class="td">Send a WhatsApp message</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>signature_electronic_create</b></div>
+<div class="td">Create a GoCertta electronic signature envelope (e-signature without ICP-Brasil cert  - lower legal weight, faster UX). POST /v1/signature/electronic/envelopes.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>signature_get_envelope</b></div>
+<div class="td">Get status + signer responses for a signature envelope. GET /v1/signature/envelopes/{envelope_id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>signature_icp_create</b></div>
+<div class="td">Create an ICP-Brasil digital signature envelope for one or more documents. Returns envelope_id + signers</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>social_signals</b></div>
+<div class="td">Social-presence enrichment for a CPF (Instagram / LinkedIn / Twitter / Facebook handles + follower counts). POST /v1/datasets/persons.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>tokenize_card</b></div>
+<div class="td">Exchange raw card data for a single-use token (POST /card/v1/tokens, public merchant id). The token feeds create_charge / create_preauthorization / create_subscription. Card data never touches your backend.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>trust_platform_get</b></div>
+<div class="td">Get the status + step-by-step verdicts of a Trust Platform flow. GET /v1/trust/flows/{flow_id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>trust_platform_start</b></div>
+<div class="td">Start a Trust Platform onboarding flow  - orchestrated pipeline chaining person/company checks + biometrics + document validation per a dashboard template. Returns flow_id + hosted onboarding URL. POST /v1/trust/flows.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_card_status</b></div>
+<div class="td">Change a card</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_customer</b></div>
+<div class="td">Update a customer. Accepts any customer fields.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_item</b></div>
+<div class="td">Refresh / update credentials for an existing bank connection. Pluggy endpoint: PATCH /items/{id}.</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_subscription</b></div>
+<div class="td">Update a subscription. Accepts any Chargebee subscription fields (plan_id, plan_quantity, coupon_ids, addons, billing_cycles, etc.)</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>update_user</b></div>
+<div class="td">Patch a user (PATCH /users/v1/{id}). Pass only the fields to change (e.g. status ACTIVE | BLOCKED, email, phone, address).</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>validate_cheque</b></div>
+<div class="td">Check whether a cheque has been reported as stolen/lost (denunciado) by entity code and cheque number</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>validate_webhook_signature</b></div>
+<div class="td">Verify the HMAC-SHA256 signature of a Bold webhook notification against BOLD_SECRET_KEY. Pass the raw request body string and the signature header value. Accepts hex or base64 encodings. Runs locally.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>vehicles_lookup</b></div>
+<div class="td">Vehicle lookup by plate / chassis / RENAVAM  - make, model, year, color, fuel, FIPE price, ownership history, restrictions. POST /v1/datasets/vehicles.</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>verify_customer</b></div>
+<div class="td">Trigger the KYC verification check for a customer. Sandbox auto-progresses business customers through the hosted KYC flow once documents are uploaded. Idempotent  - returns 422</div>
+<div class="tm">evidence: in the server source &middot; calling it reads &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>verify_payment</b></div>
+<div class="td">Verify if a x402 payment was received and settled on-chain</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>void_charge</b></div>
+<div class="td">Void / refund a card charge (DELETE /card/v1/charges/{ticketNumber}, private merchant id). Same-day = void; settled = refund. Optional partial amount where the acquirer supports it.</div>
+<div class="tm">evidence: in the server source &middot; calling it spends money &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li>
+<li>
+<div class="tn"><b>withdraw</b></div>
+<div class="td">Create a withdrawal request</div>
+<div class="tm">evidence: in the server source &middot; calling it writes &middot; from a third party repo, so these are that author&#x27;s tools, not the vendor&#x27;s published surface</div>
+</li></ul><p class="note">138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><p class="v">No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Gate unknown</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Not established</div></div>
 </div>
 <p class="note" style="margin-top:14px">api_gate, verbatim from the file:</p>
-<p>unknown</p><p class="note">949 of 1252 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p><a href="https://github.com/docs" rel="noopener nofollow">https://github.com/docs</a></p><p class="note">No documentation text is reproduced anywhere on this site. Read the vendor page for the prose. The structured docs digest specced in SPEC section 3 has not been built or crawled: docs_digest is null on every entry in this build.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/codespar/mcp-dev-latam" rel="noopener nofollow">https://github.com/codespar/mcp-dev-latam</a></li><li><a href="https://github.com/developers" rel="noopener nofollow">https://github.com/developers</a></li><li><a href="https://github.com/docs" rel="noopener nofollow">https://github.com/docs</a></li></ul></div></div><div class="field"><div class="k">On GitHub</div><div class="v "><p class="v empty">The GitHub organisation layer has not been measured on this build.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">981 of 1,252 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://github.com/codespar/mcp-dev-latam" rel="noopener nofollow">https://github.com/codespar/mcp-dev-latam</a></li><li><a href="https://github.com/docs" rel="noopener nofollow">https://github.com/docs</a></li><li><a href="https://github.com/developers" rel="noopener nofollow">https://github.com/developers</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://github.com/codespar/mcp-dev-latam, https://github.com/docs, https://github.com/developers</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">mcp_status=community from official-mcp-registry listing; not an invented official vendor MCP. mcp_url is the registry/listing or product MCP URL from staging. api_gate unknown with dated probe 2026-09-12; free/paid not inferred from HTTP status alone. Promote wave R 2026-09-12: canonical name BigDataCorp MCP (draft listed as io.github.codespar/mcp-bigdatacorp).</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
+<p>unknown</p><p class="note">949 of 1252 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.</p></div></div><div class="field"><div class="k">API documentation</div><div class="v "><p><a href="https://github.com/docs" rel="noopener nofollow">https://github.com/docs</a></p><p class="note">No documentation text is reproduced anywhere on this site. Read the vendor page for the prose. The structured docs digest specced in SPEC section 3 has not been built or crawled: docs_digest is null on every entry in this build.</p></div></div><div class="field"><div class="k">GitHub health</div><div class="v "><p class="v empty">Not measured. github_url, github_stars, github_last_commit and github_archived are null on every entry in this build.</p><p class="note">The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star count is a lie, so nothing is shown rather than something stale.</p><p class="note" style="margin-top:14px">A github.com URL already appears somewhere in this entry, which is a seed for that rail and not a measurement of repo health:</p><ul><li><a href="https://github.com/codespar/mcp-dev-latam" rel="noopener nofollow">https://github.com/codespar/mcp-dev-latam</a></li><li><a href="https://github.com/developers" rel="noopener nofollow">https://github.com/developers</a></li><li><a href="https://github.com/docs" rel="noopener nofollow">https://github.com/docs</a></li></ul></div></div><div class="field"><div class="k">On GitHub</div><div class="v "><p class="v">No GitHub organisation could be tied to github.com with evidence on 2026-09-15.</p><p class="note">Recorded by the harvest: not checked: gh CLI missing or not logged in.</p></div></div><div class="field"><div class="k">Jobs it can do</div><div class="v "><p class="v empty">No job tag on this entry.</p><p class="note">981 of 1,252 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.</p></div></div><div class="field"><div class="k">Sources</div><div class="v "><ul><li><a href="https://github.com/codespar/mcp-dev-latam" rel="noopener nofollow">https://github.com/codespar/mcp-dev-latam</a></li><li><a href="https://github.com/docs" rel="noopener nofollow">https://github.com/docs</a></li><li><a href="https://github.com/developers" rel="noopener nofollow">https://github.com/developers</a></li></ul><p class="note">3 source URLs. Raw sources field, verbatim: </p><p class="v mono">https://github.com/codespar/mcp-dev-latam, https://github.com/docs, https://github.com/developers</p></div></div><div class="field"><div class="k">Notes, verbatim from the file</div><div class="v ">mcp_status=community from official-mcp-registry listing; not an invented official vendor MCP. mcp_url is the registry/listing or product MCP URL from staging. api_gate unknown with dated probe 2026-09-12; free/paid not inferred from HTTP status alone. Promote wave R 2026-09-12: canonical name BigDataCorp MCP (draft listed as io.github.codespar/mcp-bigdatacorp).</div></div><div class="field"><div class="k">Provenance</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Entry id</div><div class="bv">01-bigdatacorp-mcp</div></div>
 <div><div class="bk">Source file</div><div class="bv">01-data-enrichment.md</div></div>
 <div><div class="bk">Source line</div><div class="bv">4438</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-09-12</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-09-14</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-15</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -141,9 +1255,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>201 official MCP servers,
     540 community.
     1 bench tested.</p>
-    <p>8,507 tool names harvested on 2026-09-12 from
-    119 of those 741 servers.
-    622 are unmeasured, which is not the same as empty.</p>
+    <p>9,108 tool names harvested on 2026-09-15 from
+    138 of those 741 servers.
+    603 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     981 carry none and say why.</p>
@@ -188,7 +1302,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-14 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-15 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 1,252 vs recount
 1,252.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

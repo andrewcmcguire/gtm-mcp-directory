@@ -56,13 +56,28 @@ https://research.dropwatchhq.com/mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 5
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-15
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **delta_digest** New grants + new trials in a filter over the last N days (the weekly-digest payload). Best for BD teams. evidence: answered tools/list · calling it reads
+
+- **entity_watch** Recent funding/trial events for one institution, PI, sponsor, or topic. Use to enrich an account or check a competitor. evidence: answered tools/list · calling it reads · required: type, value
+
+- **new_funding** THE GTM-trigger tool. Return the newest NIH grants and newly-registered clinical trials in a territory - the highest-intent buying signal in life-sciences sales (a newly-funded lab has budget and is choosing vendors now). Filter by... evidence: answered tools/list · calling it reads
+
+- **search_records** Ad-hoc search/enrichment over snapshotted grants + trials by any filter (keyword, sponsorClass, topic, $ range). evidence: answered tools/list · calling it reads
+
+- **whats_changed_since** Return grants/trials that are NEW or MODIFIED since a cursor token (cursor = your bookmark / CRM-sync point). Pass the cursor from a prior call to get only changes since then. Same filters as new_funding. evidence: answered tools/list · calling it reads
+
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -90,7 +105,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to research.dropwatchhq.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -123,6 +140,6 @@ what_it_does used staging desc because homepage meta description was empty. API 
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

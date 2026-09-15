@@ -18,6 +18,7 @@ Sendblue
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: sendblue
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,37 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+- **Binary**: sendblue
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-15
+
+Install, as the source shows it:
+
+```
+npm install -g @sendblue/cli
+```
+
+quoted from [https://www.sendblue.com/api](https://www.sendblue.com/api) on 2026-09-15, via npm
+
+Login or key hint seen on the page:
+
+const client = new SendblueAPI ({ apiKey: 'API_KEY' , apiSecret: 'API_SECRET' });
+
+16 subcommands seen with the binary in the docs or README:
+expand to read them
+
+add-contact, binary, contacts, help, lines, login, messages, send, send-group, setup, show-keys, status, totp, typing, webhooks, whoami
+
+Packages seen, with the version on 2026-09-15:
+
+- [npm: @sendblue/cli 0.10.0](https://www.npmjs.com/package/@sendblue/cli)
+
+Where it was documented:
+
+- [https://www.sendblue.com/api](https://www.sendblue.com/api) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -78,7 +109,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to sendblue.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -112,6 +145,6 @@ API mentioned on https://www.sendblue.com/api; pricing/gate not inferred from pr
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

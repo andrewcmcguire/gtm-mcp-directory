@@ -56,13 +56,48 @@ https://mcp.klarix.ai/mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 15
+- **Strongest evidence**: answered tools/list
+- **Harvested**: 2026-09-15
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **analyze_head_to_head** Compare YOUR company against a specific competitor or incumbent you want to displace. Researches both sides on the live public web, then returns asymmetric advantages (where you win structurally), their defensive moats (where to stop arguin evidence: answered tools/list · calling it reads · required: target_domain
+
+- **detect_account_triggers** Detect recent account inflection points (leadership changes, funding, hiring surges, product updates, regulatory events) within a timeframe. evidence: answered tools/list · calling it reads · required: target_domain
+
+- **find_matched_prospects** Build a first-pass candidate list from hundreds of thousands of pre-profiled B2B companies using Voyage 4 semantic vector embeddings. Ranks accounts by topical similarity to an ICP description, tech stack, business model, and vertical, then evidence: answered tools/list · calling it reads · required: icp_or_query
+
+- **generate_displacement_playbook** Generate an end-to-end competitive displacement playbook with switching cost mitigations, POC blueprints, and migration timelines. evidence: answered tools/list · calling it reads · required: target_domain
+
+- **generate_outreach_sequence** Write cold outreach that opens on a researched, dated insight about the prospect rather than a pleasantry. Supports a 3-step email sequence, a 3-step LinkedIn sequence, or 6 multivariant openers. Enforces the Klarix voice contract (banned A evidence: answered tools/list · calling it writes · required: prospect_company, target_title, value_prop, channel
+
+- **generate_swot_analysis** Deep multi-source web crawl into a four-quadrant SWOT matrix for a company: internal strengths (moat, proprietary tech, distribution lock) and weaknesses (pricing friction, customer complaints, legacy tech), plus external opportunities (unt evidence: answered tools/list · calling it reads · required: domain
+
+- **get_buying_committee** Map the internal buying committee (Economic Buyer, Champion, Technical Evaluator, Procurement) for an account with title patterns, pain points, objections, and multi-threading strategy. evidence: answered tools/list · calling it reads · required: target_domain
+
+- **get_company_intelligence** Synthesize an executive one-pager on a company from live public web sources: snapshot, findings per requested focus area, dated buying signals, deal risks, and stated unknowns. Every claim carries a source URL. Focus areas include pricing, evidence: answered tools/list · calling it reads · required: domain
+
+- **get_competitor_battlecard** Build a live sales battlecard for a competitor domain: SWOT from their point of view, the gap between their marketing claims and buyer-reported reality, and concrete landmines with spoken talk tracks. Every claim cites a public source. Opti evidence: answered tools/list · calling it reads · required: competitor_domain
+
+- **get_deep_research** Exhaustive intelligence probe on a company across five dimensions: firmographic and corporate evolution (funding, revenue tier, team growth), product and technology teardown (stack, API presence, core capabilities), leadership and organizat evidence: answered tools/list · calling it reads · required: domain
+
+- **get_market_landscape** Map a competitive landscape for an industry or vertical from live public sources: Tier-1 incumbents against emerging disruptors, category positioning quadrants with the white space in each, published pricing models and price bands, and the evidence: answered tools/list · calling it reads · required: industry_or_vertical
+
+- **score_prospect_fit** Score a company against your ICP on five weighted axes - Strategic Fit, Tech Alignment, Buyer Persona Readiness, Growth Triggers, and Landmine Risk - each 1-10, with a weighted overall and a 7+/10 pursue threshold. Uses live public web... evidence: answered tools/list · calling it reads · required: company_name, domain
+
+- **search_scientific_evidence** Retrieve verifiable academic and engineering literature for a technical topic so a claim can cite a resolvable DOI instead of a vendor blog post. Queries Semantic Scholar (citation graph, abstracts, open-access PDFs) and the arXiv preprint evidence: answered tools/list · calling it reads · required: topic
+
+- **teardown_product_spec** Deconstruct a physical hardware device, battery pack, medical system, or software API into an institutional-grade technical specification table with exact units, tolerances, verified images/diagrams, datasheet links, certifications, and dis evidence: answered tools/list · calling it reads · required: target_domain
+
+- **teardown_tech_stack** Deconstruct an account's technical infrastructure, dev tools, cloud providers, AI/data stack, and identify displacement vulnerabilities. evidence: answered tools/list · calling it reads · required: target_domain
+
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -90,7 +125,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to mcp.klarix.ai with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -121,6 +158,6 @@ Homepage fetch failed (HTTPError 405); what_it_does used staging desc. mcp_statu
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

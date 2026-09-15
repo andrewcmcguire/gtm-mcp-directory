@@ -18,6 +18,7 @@ Dench
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: dench
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,62 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+- **Binary**: dench
+- **Status**: official CLI, first party
+- **Strongest evidence**: vendor-docs
+- **Harvested**: 2026-09-15
+
+Install, as the source shows it:
+
+```
+npx -y -p @dench.com/cli
+```
+
+quoted from [https://www.dench.com/docs](https://www.dench.com/docs) on 2026-09-15, via npx
+
+```
+npx because
+```
+
+quoted from [https://www.dench.com/docs/cli/overview](https://www.dench.com/docs/cli/overview) on 2026-09-15, via npx
+
+```
+npm install -g @dench.com/cli
+```
+
+quoted from [https://www.npmjs.com/package/@dench.com/cli](https://www.npmjs.com/package/@dench.com/cli) on 2026-09-15, via npm
+
+```
+npm install -g dench-cli
+```
+
+quoted from [https://www.npmjs.com/package/dench-cli](https://www.npmjs.com/package/dench-cli) on 2026-09-15, via npm
+
+```
+npm install -g @denchhq/cli
+```
+
+quoted from [https://www.npmjs.com/package/@denchhq/cli](https://www.npmjs.com/package/@denchhq/cli) on 2026-09-15, via npm
+
+Login or key hint seen on the page:
+
+export DENCH_API_KEY = ""
+
+Subcommands seen with the binary:
+
+apps, context, crm, memory, signin, status, tool
+
+Packages seen, with the version on 2026-09-15:
+
+- [npm: @dench.com/cli 3.0.3](https://www.npmjs.com/package/@dench.com/cli)
+- [npm: dench-cli 0.1.16](https://www.npmjs.com/package/dench-cli)
+- [npm: @denchhq/cli 0.1.1](https://www.npmjs.com/package/@denchhq/cli)
+
+Where it was documented:
+
+- [https://www.dench.com/docs](https://www.dench.com/docs) (the page that documented the CLI)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -78,7 +134,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to dench.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -112,6 +170,6 @@ API mentioned on https://www.dench.com/developers; pricing/gate not inferred fro
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -23,7 +23,7 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **MCP unknown**: 1
 - **No MCP found**: 13
 
-- **ship a CLI (official) as of 2026-09-12**: 3
+- **ship a CLI (official) as of 2026-09-15**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 6
@@ -42,7 +42,7 @@ Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · co
 
 - [Tavus](../tools/tavus.md) tavus.io Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases like greeting website visitors and booking meetings, not... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: tavus-cli (community)
 
-- [Wistia](../tools/wistia.md) wistia.com A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams use it for hosted demo and follow-up video with per-viewer... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: wistia
+- [Wistia](../tools/wistia.md) wistia.com A video hosting and marketing platform for business (player, channels, webinars, analytics, lead capture) with a REST API; sales and marketing teams use it for hosted demo and follow-up video with per-viewer... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [HeyGen](../tools/heygen.md) heygen.com AI avatar/video-generation platform with a documented sales-prospecting motion - batch-personalize one template into many prospect-specific versions (dynamic name/company/pain-point variables), with native... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI: heygen
 
@@ -68,7 +68,7 @@ Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · co
 
 - [ClearMix](../tools/clearmix.md) clearmix.com On-Demand, Fully-Remote Marketing and Sales Video Production Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: consensus-fix (community)
 
 - [Golpo](../tools/golpo.md) video.golpoai.com Make AI whiteboard animation videos free in 2 minutes. Turn a prompt, script, or document into a whiteboard explainer - no design skills needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -84,6 +84,6 @@ Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · co
 
 - [Quickpage](../tools/quickpage.md) quickpage.io Mobile-first video-messaging tool for closing deals faster - record from phone or webcam, send via email/SMS, track opens; strong vertical focus on automotive, real estate, insurance, home improvement, and... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: qp (community)
 
-- [Tolstoy](../tools/tolstoy.md) gotolstoy.com Tolstoy is the Shopify shoppable video and UGC app used by 5,000+ brands. Create AI video, publish on product pages, add virtual try-on. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Tolstoy](../tools/tolstoy.md) gotolstoy.com Tolstoy is the Shopify shoppable video and UGC app used by 5,000+ brands. Create AI video, publish on product pages, add virtual try-on. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: tolstoy
 
 - [Vidu](../tools/vidu.md) vidu.io Automatically generated, AI personalized videos for your sales team's outreach [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

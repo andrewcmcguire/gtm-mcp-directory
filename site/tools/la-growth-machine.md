@@ -61,7 +61,7 @@ https://github.com/LaGrowthMachine/gtm-system ; https://lagrowthmachine.com/mcp-
 
 - **Tools named**: 34
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-15
 - **Repo read**: LaGrowthMachine/gtm-system
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -136,11 +136,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **won-deal-icp-finder** Works on a HubSpot export you paste evidence: in a README table · calling it reads
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -225,6 +225,6 @@ API, Zapier, and CRM integrations are vendor-stated as available only on upper-t
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

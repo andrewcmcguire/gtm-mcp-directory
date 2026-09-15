@@ -1,6 +1,6 @@
 # Live Data Technologies: products, MCP servers and connect URLs, one vendor page
 
-> Live Data Technologies (livedatatechnologies.com): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-14.
+> Live Data Technologies (livedatatechnologies.com): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-15.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Live Data Technologies
 2 products in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-14
+Data baked 2026-09-15
 
 Vendor domain: [livedatatechnologies.com](https://livedatatechnologies.com) · vendor page id livedatatechnologies-com
 
@@ -38,9 +38,9 @@ Vendor domain: [livedatatechnologies.com](https://livedatatechnologies.com) · v
 
 - **Bench tested**: 0 of 2 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 0 of 2 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-15
 
-- **GitHub organisation**: [github.com/livedatatechnologies](https://github.com/livedatatechnologies), tied to the domain with evidence 2026-09-08
+- **GitHub organisation**: [github.com/livedatatechnologies](https://github.com/livedatatechnologies), tied to the domain with evidence 2026-09-08, 2026-09-15
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
@@ -96,7 +96,7 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -109,8 +109,10 @@ No CLI found for any product of this vendor by the 2026-09-12 harvest across ven
 
 Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
+No organisation could be tied with evidence to the entry for [LiveData](../tools/livedata.md) on 2026-09-08, 2026-09-15; the organisation above was tied through a sibling product.
+
 **What this page does not claim**
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-14 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-15 by build_directory.py (phase 1).

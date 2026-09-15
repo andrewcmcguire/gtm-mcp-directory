@@ -1,6 +1,6 @@
 # Proxy tool calls to SaaS apps: 9 GTM tools, 9 with an official MCP server
 
-> Stand between an agent and many SaaS APIs, handling auth and normalisation so the agent does not wire each vendor itself. 9 of the 9 entries tagged with this job carry an MCP server of some kind, 9 of them official. Counted 2026-09-14 from the directory data.
+> Stand between an agent and many SaaS APIs, handling auth and normalisation so the agent does not wire each vendor itself. 9 of the 9 entries tagged with this job carry an MCP server of some kind, 9 of them official. Counted 2026-09-15 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Stand between an agent and many SaaS APIs, handling auth and normalisation so th
 - **no MCP found**: 0
 - **solo reachable**: 8
 
-9 of the 9 entries tagged with this job carry an MCP server of some kind, 9 of them official. All 9 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-14 from directory.json.
+9 of the 9 entries tagged with this job carry an MCP server of some kind, 9 of them official. All 9 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-15 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -49,7 +49,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Composio](../tools/composio.md) composio.dev A hosted integration/auth platform that lets AI agents and MCP clients call actions across 1,000+ SaaS apps (HubSpot, Slack, Gmail, GitHub, Notion, Stripe, and others) through Composio-managed OAuth. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: composio
 
-- [n8n](../tools/n8n.md) n8n.io A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md)
+- [n8n](../tools/n8n.md) n8n.io A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: n8n-node
 
 - [Zapier](../tools/zapier.md) zapier.com A cloud automation platform connecting thousands of apps via trigger-action workflows (Zaps), plus a separate agent product. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [RevOps Infra](../categories/revops-infra.md) · CLI: zapier-platform
 

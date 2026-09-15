@@ -22,7 +22,7 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Community MCP**: 6
 - **No MCP found**: 26
 
-- **ship a CLI (official) as of 2026-09-12**: 2
+- **ship a CLI (official) as of 2026-09-15**: 4
 
 - **Free to start**: 3
 - **Paid, self-serve**: 9
@@ -97,13 +97,13 @@ Source file: 03-conversation-intel.md · content sha256 8e8051ddd4cd08bd... · c
 
 - [Bearworks](../tools/bearworks.md) bearworks.com Unlock your sales potential. Transform your team through Bearworks' AI-powered Sales Conversation Platform for unparalleled productivity, with a parallel dialer, live salesfloor, and personalized voicemails. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Caretta](../tools/caretta.md) caretta.so Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Caretta](../tools/caretta.md) caretta.so Realtime AI for sales calls that helps reps answer hard questions, handle objections, and stay sharp before, during, and after every meeting. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: caretta (community)
 
 - [Cedar](../tools/cedar.md) mail.cedarcopilot.com Cedar analyses your sales calls, email and CRM to map out a winning playbook - then drafts the context-aware follow-ups that keep every deal moving. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Clozd](../tools/clozd.md) clozd.com Turn buyer feedback into a strategic advantage. Clozd delivers rich insights on deals, churn, and customer decisions-so you can win more and retain better. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Cuckoo Labs](../tools/cuckoo-labs.md) cuckoo.so Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and languages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Cuckoo Labs](../tools/cuckoo-labs.md) cuckoo.so Meet Cuckoo, AI live translator for global sales, marketing, and support. Connect with your customers and teams effortlessly across regions and languages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: cuckoo
 
 - [Demodesk](../tools/demodesk.md) demodesk.com Record every sales call, update your CRM, coach reps, and draft follow-ups automatically. GDPR-native, built in Germany. Start free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -115,7 +115,7 @@ Source file: 03-conversation-intel.md · content sha256 8e8051ddd4cd08bd... · c
 
 - [Karumi](../tools/karumi.md) karumi.ai Karumi is an AI-powered product expert that joins your video calls to deliver live product demos, answer questions, and guide customers in real time. Transform sales, support, and internal training with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Modus](../tools/modus.md) himodus.com Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From predicting attrition to underperformance, Modus lets you act... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Modus](../tools/modus.md) himodus.com Modus is the early warning system for your salesforce - benchmarking signals to detect, inspect, and correct issues before revenue slips. From predicting attrition to underperformance, Modus lets you act... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: modus-wc (community)
 
 - [Nomi](../tools/nomi.md) nomi.so Nomi is the real-time AI sales copilot that guides reps during live calls. Get instant battle cards, objection handling, and coaching when you need it. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -125,7 +125,7 @@ Source file: 03-conversation-intel.md · content sha256 8e8051ddd4cd08bd... · c
 
 - [Peppr AI](../tools/peppr-ai.md) usepeppr.ai Peppr listens to your calls and surfaces the right answer before your customer finishes asking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Phonic](../tools/phonic.md) phonic.ai Build voice agents as natural as humans. 750ms latency, 50+ languages, audio-native AI. Trusted by teams shipping voice in production. Try free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Phonic](../tools/phonic.md) phonic.ai Build voice agents as natural as humans. 750ms latency, 50+ languages, audio-native AI. Trusted by teams shipping voice in production. Try free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: phonic
 
 - [Rafiki](../tools/rafiki.md) getrafiki.ai Rafiki AI is an AI-powered sales intelligence platform that analyzes every sales conversation, coaches reps, and surfaces deals that need attention. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

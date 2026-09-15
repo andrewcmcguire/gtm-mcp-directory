@@ -62,7 +62,7 @@ https://github.com/LeadMagic/leadmagic-mcp (hosted endpoint: https://mcp.leadmag
 
 - **Tools named**: 19
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-15
 - **Repo read**: LeadMagic/leadmagic-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -107,7 +107,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **validate_email** No description was recorded with the name. evidence: in the server source · calling it reads
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -116,7 +116,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: leadmagic
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-15
 
 Install, as the source shows it:
 
@@ -124,20 +124,20 @@ Install, as the source shows it:
 npm install -g leadmagic-agent-cli
 ```
 
-quoted from [https://www.npmjs.com/package/leadmagic-agent-cli](https://www.npmjs.com/package/leadmagic-agent-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/leadmagic-agent-cli](https://www.npmjs.com/package/leadmagic-agent-cli) on 2026-09-15, via npm, a third party source
 
 ```
 npm install -g leadmagic-cli
 ```
 
-quoted from [https://www.npmjs.com/package/leadmagic-cli](https://www.npmjs.com/package/leadmagic-cli) on 2026-09-12, via npm, a third party source
+quoted from [https://www.npmjs.com/package/leadmagic-cli](https://www.npmjs.com/package/leadmagic-cli) on 2026-09-15, via npm, a third party source
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-15:
 
 - [npm: leadmagic-agent-cli 1.0.3, third party](https://www.npmjs.com/package/leadmagic-agent-cli)
 - [npm: leadmagic-cli 0.1.0, third party](https://www.npmjs.com/package/leadmagic-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -227,6 +227,6 @@ Fully self-serve, credit-based, no seats/contracts: Basic $59.99/mo (2,500 credi
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

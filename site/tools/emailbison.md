@@ -18,6 +18,7 @@ EmailBison
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: bison (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,26 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-The CLI layer has not been measured on this build.
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: bison
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-15
+
+Install, as the source shows it:
+
+```
+npm install -g emailbison-cli
+```
+
+quoted from [https://www.npmjs.com/package/emailbison-cli](https://www.npmjs.com/package/emailbison-cli) on 2026-09-15, via npm, a third party source
+
+Packages seen, with the version on 2026-09-15:
+
+- [npm: emailbison-cli 0.1.2, third party](https://www.npmjs.com/package/emailbison-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -78,7 +98,9 @@ The refresh rail specced in SPEC section 7.2 has not been run. An unstamped star
 
 **On GitHub**
 
-The GitHub organisation layer has not been measured on this build.
+No GitHub organisation could be tied to emailbison.com with evidence on 2026-09-15.
+
+Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 **Jobs it can do**
 
@@ -111,6 +133,6 @@ API mentioned on https://emailbison.com/developers; pricing/gate not inferred fr
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

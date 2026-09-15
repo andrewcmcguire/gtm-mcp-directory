@@ -1,6 +1,6 @@
 # The lists: every published cut of the GTM MCP data
 
-> Every published cut of the directory: the 201 official MCP servers, the 78 free API tiers, the enterprise gated, by auth type, and by category. Counted 2026-09-14.
+> Every published cut of the directory: the 201 official MCP servers, the 78 free API tiers, the enterprise gated, by auth type, and by category. Counted 2026-09-15.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,10 +13,10 @@
 
 ## The same 1,252 entries, cut the ways people actually ask for them.
 
-Nothing on these pages is hand maintained and nothing is a separate dataset. Each one is a filter over directory.json with its own count, generated 2026-09-14 and reconciled against tools_recount.py. If the data changes, every page below changes with it on the next build.
+Nothing on these pages is hand maintained and nothing is a separate dataset. Each one is a filter over directory.json with its own count, generated 2026-09-15 and reconciled against tools_recount.py. If the data changes, every page below changes with it on the next build.
 
 - [The 201 GTM tools with an official MCP server](official-mcp-servers.md) - 201 entries. The full list of 201 go to market tools whose vendor ships and maintains its own MCP server, with the server URL, the...
-- [The 540 GTM tools with a community MCP server](community-mcp-servers.md) - 540 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-14...
+- [The 540 GTM tools with a community MCP server](community-mcp-servers.md) - 540 entries. Go to market tools where a working MCP server exists but somebody other than the vendor built it. Counted 2026-09-15...
 - [The 487 GTM tools with no MCP server found](no-mcp-server.md) - 487 entries. 487 of 1,252 go to market tools had no MCP server at the time of the check. What that means, and what it does not mean....
 - [The 78 GTM tools a solo operator can call for free](free-api-tiers.md) - 78 entries. 78 go to market tools where a solo operator can get API access without talking to anyone. 65 of them also have an MCP...
 - [The 168 GTM tools an agent can call and a solo operator can pay for](solo-reachable.md) - 168 entries. 168 of 1,252 go to market tools pass both tests at once: an MCP server exists, and API access is free to start or paid...

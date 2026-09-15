@@ -22,7 +22,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Community MCP**: 12
 - **No MCP found**: 45
 
-- **ship a CLI (official) as of 2026-09-12**: 6
+- **ship a CLI (official) as of 2026-09-15**: 11
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
@@ -74,9 +74,9 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [PropelAgent Studio](../tools/propelagent-studio.md) propelagent.studio AI agent platform: manage leads, conversations, bots, calendar and CRM via MCP. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Squad](../tools/squad.md) meetsquad.ai Squad AI is an AI-driven product discovery, strategy, and roadmapping tool for building user-centric products. Align your team and ship outcomes faster. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Squad](../tools/squad.md) meetsquad.ai Squad AI is an AI-driven product discovery, strategy, and roadmapping tool for building user-centric products. Align your team and ship outcomes faster. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: squad
 
-- [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Vruum](../tools/vruum.md) vruum.ai The AI SDR alternative: the revenue orchestration layer for marketing, research, managed outbound, partnerships, referrals, and winbacks. Run it yourself in your AI, or have a GTM engineer run it for you. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: vruum
 
 - [Landbase](../tools/landbase.md) landbase.com A GTM data platform that targets, qualifies, prioritizes, and enriches B2B accounts via AI agents using natural-language criteria, with continuous signal monitoring - it prepares audiences rather than... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md)
 
@@ -108,11 +108,11 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [Buzz](../tools/buzz.md) buzz.ai AI Employee for outbound - email, LinkedIn, call [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Cardinal](../tools/cardinal.md) trycardinal.com Revenue agents for high-growth companies [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Cardinal](../tools/cardinal.md) trycardinal.com Revenue agents for high-growth companies [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: cardinal (community)
 
-- [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Coldreach](../tools/coldreach.md) coldreach.ai AI SDR monitors your ICP, finds taliored buying signals from 5+ data sources, and scale personalization 24/7. Run targeted outbound experiments in one tool, from list building to sequencing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: coldreach (community)
 
-- [Dench](../tools/dench.md) dench.com Workspace for AI agents to find, reach, and close customers, replacing fragmented CRM/GTM tool stacks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Dench](../tools/dench.md) dench.com Workspace for AI agents to find, reach, and close customers, replacing fragmented CRM/GTM tool stacks. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: dench
 
 - [Echo](../tools/echo.md) echothat.ai Founder-led sales co-pilot for B2B startups. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -132,7 +132,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [Luru](../tools/luru.md) luru.app An AI SDR platform per its current site copy - lead discovery/enrichment with intent signals, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Nex](../tools/nex.md) nex.ai Nex automates complex, high-volume GTM plays like prospecting, outbound, CRM clean up, and revenue recovery, that general purpose agents struggle with. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Nex](../tools/nex.md) nex.ai Nex automates complex, high-volume GTM plays like prospecting, outbound, CRM clean up, and revenue recovery, that general purpose agents struggle with. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: nex
 
 - [Octolane AI](../tools/octolane-ai.md) octolane.com Octolane runs an AI agent on every account, trained on how your best revenue teams think and act. Human judgment, deployed at scale, and it's yours to keep. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -140,7 +140,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [Penguin AI](../tools/penguin-ai.md) penguinai.app AI Sales Rep for Website Intent Signals [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Revnu](../tools/revnu.md) revnu.com Revnu is an AI growth team for startups. Connect your product and agents start finding customers, testing ideas, and learning across channels. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: revnu-setup
 
 - [RocketSDR](../tools/rocketsdr.md) rocketsdr.ai Deploy AI agents that find perfect prospects, engage authentically, and book meetings while you focus on closing deals. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -150,7 +150,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [Sameday](../tools/sameday.md) gosameday.com Transform customer calls with our AI answering service. Maximize ROI, streamline operations, and schedule appointments with our superior AI phone agent. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Scribe](../tools/scribe.md) tryscribe.com Scribe is an AI based Sales Development Representative that you can… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Scribe](../tools/scribe.md) tryscribe.com Scribe is an AI based Sales Development Representative that you can… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: scribe (community)
 
 - [Simple AI](../tools/simple-ai.md) usesimple.ai Deploy enterprise-ready voice AI powered phone agents in days, not weeks. Handle thousands of calls simultaneously with human-like conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -162,7 +162,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [Trellus AI](../tools/trellus-ai.md) trellus.ai A hybrid AI calling platform: a parallel dialer embedded in Salesloft/Outreach/HubSpot with real-time AI coaching for live reps, plus separate fully-autonomous voice agents for inbound call handling,... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Truva](../tools/truva.md) truva.ai Sell more. Grind less with AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Truva](../tools/truva.md) truva.ai Sell more. Grind less with AI agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: truva (community)
 
 - [Verbiflow](../tools/verbiflow.md) verbiflow.com Meet Mochi, your AI coworker for GTM engineering and operations. Prepare for calls, follow up on deals, and build pipeline with your team in Slack. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

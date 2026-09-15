@@ -23,7 +23,7 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 - **MCP unknown**: 3
 - **No MCP found**: 52
 
-- **ship a CLI (official) as of 2026-09-12**: 1
+- **ship a CLI (official) as of 2026-09-15**: 2
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
@@ -60,9 +60,9 @@ Source file: 11-enablement-coaching.md · content sha256 5be068842eedb90d... · 
 
 - [Continu](../tools/continu.md) continu.com AI-powered enterprise learning platform for delivering, tracking, and measuring training content to employees, customers, and partners. [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Accord](../tools/accord.md) inaccord.com Transform sales best practices into unavoidable playbooks. Empower reps to win like top sellers with AI-powered revenue execution. Increase deal size by +40%. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Accord](../tools/accord.md) inaccord.com Transform sales best practices into unavoidable playbooks. Empower reps to win like top sellers with AI-powered revenue execution. Increase deal size by +40%. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: accord-cms (community)
 
-- [Aircover](../tools/aircover.md) aircover.ai Aircover gives your reps a virtual sales engineer, real-time coaching, and automatic CRM updates - on every call. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Aircover](../tools/aircover.md) aircover.ai Aircover gives your reps a virtual sales engineer, real-time coaching, and automatic CRM updates - on every call. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: aircover-pipeline
 
 - [Ambition](../tools/ambition.md) ambition.com Drive revenue predictability through structured coaching, AI-powered revenue insights, and operationalized productivity. Learn more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -78,9 +78,9 @@ Source file: 11-enablement-coaching.md · content sha256 5be068842eedb90d... · 
 
 - [Clok](../tools/clok.md) clok.com Sales enablement, interactive experiences and training tools for complex products. We help teams explain products more clearly, improve understanding and support better customer conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [COACH](../tools/coach.md) getcoach.com AI Coach gives every field sales rep personalized coaching after every meeting, helps managers prioritize coaching opportunities, and turns customer conversations into actionable sales intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [COACH](../tools/coach.md) getcoach.com AI Coach gives every field sales rep personalized coaching after every meeting, helps managers prioritize coaching opportunities, and turns customer conversations into actionable sales intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: rt-claude-coach (community)
 
-- [Coast](../tools/coast.md) trycoast.com The first AI-powered demo platform designed to sell, market and implement technical products with ease. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Coast](../tools/coast.md) trycoast.com The first AI-powered demo platform designed to sell, market and implement technical products with ease. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: coast-fire-calculator-cli (community)
 
 - [Corporate Visions](../tools/corporate-visions.md) corporatevisions.com Corporate Visions provides evidence-based sales training, messaging, and enablement solutions for B2B revenue teams. Use scientific research, buyer decision data, and precision skills assessments to improve... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -110,7 +110,7 @@ Source file: 11-enablement-coaching.md · content sha256 5be068842eedb90d... · 
 
 - [GTM Buddy](../tools/gtm-buddy.md) gtmbuddy.ai Activate reps who think, adapt, and close with autonomy. GTM Buddy turns enablement into a revenue activation engine with real-time deal guidance. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Hindsight](../tools/hindsight.md) usehindsight.com Hindsight builds a verified memory of every opportunity, finds what worked in comparable deals, and applies that experience across your team and GTM agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Hindsight](../tools/hindsight.md) usehindsight.com Hindsight builds a verified memory of every opportunity, finds what worked in comparable deals, and applies that experience across your team and GTM agents. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: hindsight-antigravity-hook (community)
 
 - [Hyperbound](../tools/hyperbound.md) hyperbound.ai AI sales roleplay and "revenue activation" platform that turns an ICP description into an interactive AI buyer in minutes, covering cold calls, discovery, demos, and post-sale conversations, with call scoring... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -126,7 +126,7 @@ Source file: 11-enablement-coaching.md · content sha256 5be068842eedb90d... · 
 
 - [MeetRecord](../tools/meetrecord.md) meetrecord.com Outdoo is the enterprise AI roleplay and training platform for customer-facing teams, connecting AI Tutor-led learning to roleplay practice and real conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Memoir](../tools/memoir.md) trymemoir.ai Software ships faster than teams can explain it. Memoir closes the gap. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Memoir](../tools/memoir.md) trymemoir.ai Software ships faster than teams can explain it. Memoir closes the gap. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: memoir (community)
 
 - [Navattic](../tools/navattic.md) navattic.com Speed up your buyer journey with no-code demo automation. Sales demo software to create interactive demos for B2B SaaS teams. Try Navattic free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

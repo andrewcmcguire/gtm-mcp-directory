@@ -22,7 +22,7 @@ Late-stage sales tooling - proposal/quote generation, e-signature, digital deal 
 - **Community MCP**: 5
 - **No MCP found**: 17
 
-- **ship a CLI (official) as of 2026-09-12**: 1
+- **ship a CLI (official) as of 2026-09-15**: 1
 
 - **Free to start**: 4
 - **Paid, self-serve**: 7
@@ -77,13 +77,13 @@ Source file: 13-proposals-deals.md · content sha256 190e373c95209b03... · coun
 
 - [DocSend](../tools/docsend.md) docsend.com Secure document sharing and analytics for sales collateral and deal documents (Dropbox DocSend). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Dropbox Sign](../tools/dropbox-sign.md) sign.dropbox.com Dropbox Sign (formerly HelloSign) is the easiest way to send, receive and manage legally binding electronic signatures. Try it free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Dropbox Sign](../tools/dropbox-sign.md) sign.dropbox.com Dropbox Sign (formerly HelloSign) is the easiest way to send, receive and manage legally binding electronic signatures. Try it free! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: pontx-dropbox-sign (community)
 
 - [Inventive AI](../tools/inventive-ai.md) inventive.ai Inventive AI helps sales teams respond to RFPs 90% faster, with 95% accuracy. Easy setup, one-click integrations. Start winning more deals from day one. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Journey](../tools/journey.md) journey.io Package your pitch deck, case studies, and follow-up docs into one branded page your buyer can forward to decision-makers. Track engagement and close faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Manatee](../tools/manatee.md) trymanatee.com DocSend for demos. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Manatee](../tools/manatee.md) trymanatee.com DocSend for demos. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: manatee (community)
 
 - [Mercura](../tools/mercura.md) mercura.ai Mercura automates sales request processes for distributors & manufacturers with AI, so you can save time and money and increase your sales success. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

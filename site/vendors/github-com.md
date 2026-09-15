@@ -1,6 +1,6 @@
 # Nuph: products, MCP servers and connect URLs, one vendor page
 
-> Nuph (github.com): 221 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 24 tools catalogued. Data baked 2026-09-14.
+> Nuph (github.com): 221 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 305 tools catalogued. Data baked 2026-09-15.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Nuph
 221 products in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-14
+Data baked 2026-09-15
 
 Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
@@ -34,13 +34,13 @@ Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
 - **Docs only**: 0 of 221: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 24 named across 1 measured server, harvested 2026-09-12
+- **Tools catalogued**: 305 named across 7 measured servers, harvested 2026-09-15
 
 - **Bench tested**: 0 of 221 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 0 of 221 official, 0 community only, 1 none found, harvested 2026-09-12
+- **Ships a CLI**: 0 of 221 official, 0 community only, 221 none found, harvested 2026-09-15
 
-- **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08
+- **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08, 2026-09-15
 
 A live handshake means the URL answered an MCP initialize as a server on the probe date. It is liveness and nothing more: nobody has run its tools. A tool being catalogued means a server names it, by answering tools/list, in its own source, or in the vendor's documentation. None of them has been called. A tool count of 0 means not measured, never zero tools.
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) (docs page)
 
-- **Tools catalogued**: 24 named, harvested 2026-09-12, catalogue fixed
+- **Tools catalogued**: 24 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-08-24
 
@@ -154,7 +154,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 9 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -170,7 +170,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 6 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -346,7 +346,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 20 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -362,7 +362,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 20 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -522,7 +522,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 3 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -538,7 +538,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 223 named, harvested 2026-09-15, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -3602,7 +3602,7 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -3625,8 +3625,10 @@ The five most recently pushed, on 2026-09-08:
 
 Kind is a heuristic guessed from the repository name, topics and description, not a fact the vendor stated. A repository count is activity, not a verdict. Read 2026-09-08.
 
+No organisation could be tied with evidence to the entry for [Accelo MCP by Selerity](../tools/accelo-mcp-by-selerity.md), [ActiveCampaign MCP by pipeworx](../tools/activecampaign-mcp-by-pipeworx.md), [amoCRM MCP by theYahia](../tools/amocrm-mcp-by-theyahia.md), [Apex MCP SDK by bfmvsa](../tools/apex-mcp-sdk-by-bfmvsa.md), [Apollo Agent CLI by bcharleson](../tools/apollo-agent-cli-by-bcharleson.md), [Apollo MCP by adelaidasofia](../tools/apollo-mcp-by-adelaidasofia.md), [Apollo MCP by AgenTeam](../tools/apollo-mcp-by-agenteam.md), [Apollo MCP by BlockchainRev](../tools/apollo-mcp-by-blockchainrev.md), [Apollo MCP by Eden-Anthony](../tools/apollo-mcp-by-eden-anthony.md), [Apollo MCP by fuzzylabs](../tools/apollo-mcp-by-fuzzylabs.md), [Apollo MCP by Inferensys](../tools/apollo-mcp-by-inferensys.md), [Apollo MCP by kingler](../tools/apollo-mcp-by-kingler.md), [Apollo MCP by louis030195](../tools/apollo-mcp-by-louis030195.md), [Apollo MCP by maxmulvey](../tools/apollo-mcp-by-maxmulvey.md), [Apollo MCP by mayanksingh09](../tools/apollo-mcp-by-mayanksingh09.md), [Apollo MCP by shariqriazz](../tools/apollo-mcp-by-shariqriazz.md), [Apollo MCP by wmarceau](../tools/apollo-mcp-by-wmarceau.md), [Apollo MCP Plugin (apolloio)](../tools/apollo-mcp-plugin.md), [Apollo MCP Plugin by apolloio](../tools/apollo-mcp-plugin-by-apolloio.md), [Apollo.io CLI by dipankar](../tools/apollo-io-cli-by-dipankar.md), [Artefact MCP](../tools/artefact-mcp.md), [Artefact Revenue Intelligence MCP](../tools/artefact-revenue-intelligence-mcp.md), [Attio MCP by Arkel-ai](../tools/attio-mcp-by-arkel-ai.md), [Attio MCP by hmk](../tools/attio-mcp-by-hmk.md), [AU BizIntel MCP](../tools/au-bizintel-mcp.md), [Autostackup Sales MCP](../tools/autostackup-sales-mcp.md), [B2B Enrichment MCP by Aleksey-Panf](../tools/b2b-enrichment-mcp-by-aleksey-panf.md), [BD Desk MCP by iaj6](../tools/bd-desk-mcp-by-iaj6.md), [Beacon MCP by enrichgateagent](../tools/beacon-mcp-by-enrichgateagent.md), [BigDataCorp MCP](../tools/bigdatacorp-mcp.md), [Bitrix24 MCP by john7ross](../tools/bitrix24-mcp-by-john7ross.md), [Bitrix24 MCP by theYahia](../tools/bitrix24-mcp-by-theyahia.md), [Blitz API Open Source](../tools/blitz-api-open-source.md), [BNI MCP by alexaltovate](../tools/bni-mcp-by-alexaltovate.md), [Brand Intel MCP](../tools/brand-intel-mcp.md), [Bytemine MCP](../tools/bytemine-mcp.md), [Capsule CRM MCP by MonadsAG](../tools/capsule-crm-mcp-by-monadsag.md), [Capsule CRM MCP by soil-dev](../tools/capsule-crm-mcp-by-soil-dev.md), [CiviCRM MCP by YogiAdhik](../tools/civicrm-mcp-by-yogiadhik.md), [Clay MCP by bpw-civic](../tools/clay-mcp-by-bpw-civic.md), [Clay MCP by shanefirek](../tools/clay-mcp-by-shanefirek.md), [Clay to Instantly/Smartlead MCP](../tools/clay-to-instantly-smartlead-mcp.md), [Clay-CXD by xprooket](../tools/clay-cxd-by-xprooket.md), [Clint CRM MCP by Franky-Neto](../tools/clint-crm-mcp-by-franky-neto.md), [Close CRM MCP by pipeworx](../tools/close-crm-mcp-by-pipeworx.md), [Codex Data MCP](../tools/codex-data-mcp.md), [Cognis Coldforge MCP](../tools/cognis-coldforge-mcp.md), [Cognis CRM Sync MCP](../tools/cognis-crm-sync-mcp.md), [Cognis Dealflow MCP](../tools/cognis-dealflow-mcp.md), [Cognis Leadforge MCP](../tools/cognis-leadforge-mcp.md), [Coldforge](../tools/coldforge.md), [Company Enrichment API by Br0ski777](../tools/company-enrichment-api-by-br0ski777.md), [Company Enrichment MCP by sercanmetalore](../tools/company-enrichment-mcp-by-sercanmetalore.md), [Craft GTM MCP](../tools/craft-gtm-mcp.md), [Curtis LinkedIn MCP](../tools/curtis-linkedin-mcp.md), [Customer Intelligence Hub](../tools/customer-intelligence-hub.md), [Decern CRM MCP](../tools/decern-crm-mcp.md), [Diffbot MCP by pipeworx](../tools/diffbot-mcp-by-pipeworx.md), [DingDawg Sales Agent MCP](../tools/dingdawg-sales-agent-mcp.md), [Dolibarr MCP by sachitha7](../tools/dolibarr-mcp-by-sachitha7.md), [Elizabeth AI Agent](../tools/elizabeth-ai-agent.md), [Everything Civi MCP](../tools/everything-civi-mcp.md), [Fluent MCP Servers](../tools/fluent-mcp-servers.md), [Follow Up Boss MCP](../tools/follow-up-boss-mcp.md), [FullEnrich Skills](../tools/fullenrich-skills.md), [Fundz Agent Examples](../tools/fundz-agent-examples.md), [GenPark Leads Enrichment Skill](../tools/genpark-leads-enrichment-skill.md), [GenPark Sales Agent MCP](../tools/genpark-sales-agent-mcp.md), [GlobalSearchData Enrich MCP](../tools/globalsearchdata-enrich-mcp.md), [Gmail Outreach MCP by brandononchain](../tools/gmail-outreach-mcp-by-brandononchain.md), [GoHighLevel MCP by NightSquawk](../tools/gohighlevel-mcp-by-nightsquawk.md), [GoHighLevel MCP by northrosetech](../tools/gohighlevel-mcp-by-northrosetech.md), [GoHighLevel MCP by rockurbusinesscs](../tools/gohighlevel-mcp-by-rockurbusinesscs.md), [Gong.io MCP by JustinBeckwith](../tools/gong-io-mcp-by-justinbeckwith.md), [Google Maps Email Extractor MCP](../tools/google-maps-email-extractor-mcp.md), [Google Maps Extractor MCP by dppalukuri](../tools/google-maps-extractor-mcp-by-dppalukuri.md), [GTM Alpha Consultant](../tools/gtm-alpha-consultant.md), [GTM Alpha MCP Server](../tools/gtm-alpha-mcp-server.md), [GTM Copilot by archanakrishnan](../tools/gtm-copilot-by-archanakrishnan.md), [GTM MCP by aleprieto790](../tools/gtm-mcp-by-aleprieto790.md), [HeyLead - Autonomous LinkedIn SDR](../tools/heylead-autonomous-linkedin-sdr.md), [HireSignal MCP](../tools/hiresignal-mcp.md), [Holded MCP](../tools/holded-mcp.md), [HubSpot MCP by amin-ale](../tools/hubspot-mcp-by-amin-ale.md), [HubSpot MCP by baryhuang](../tools/hubspot-mcp-by-baryhuang.md), [HubSpot MCP by Devart](../tools/hubspot-mcp-by-devart.md), [HubSpot MCP by djmoore-projects](../tools/hubspot-mcp-by-djmoore-projects.md), [HubSpot MCP by mindstone-engineering](../tools/hubspot-mcp-by-mindstone-engineering.md), [HubSpot MCP by pipeworx](../tools/hubspot-mcp-by-pipeworx.md), [IN2 Agent MCP](../tools/in2-agent-mcp.md), [Infosys AI CRM by ffred1962](../tools/infosys-ai-crm-by-ffred1962.md), [Insaight](../tools/insaight.md), [Intelagent Enrichment MCP](../tools/intelagent-enrichment-mcp.md), [Intent Engineering MCP by seanwinslow](../tools/intent-engineering-mcp-by-seanwinslow.md), [Investor Relations MCP by adelaidasofia](../tools/investor-relations-mcp-by-adelaidasofia.md), [JobDataLake MCP](../tools/jobdatalake-mcp.md), [Keepsake MCP by nicolascroce](../tools/keepsake-mcp-by-nicolascroce.md), [Keyword Research API by Br0ski777](../tools/keyword-research-api-by-br0ski777.md), [Kylas CRM MCP](../tools/kylas-crm-mcp.md), [Lead Enrich MCP by carsonlabs](../tools/lead-enrich-mcp-by-carsonlabs.md), [Lead Enrich MCP by carsonroell-debug](../tools/lead-enrich-mcp-by-carsonroell-debug.md), [LeadConnector MCP by pipeworx](../tools/leadconnector-mcp-by-pipeworx.md), [Leadcraft MCP](../tools/leadcraft-mcp.md), [Leadgen MCP by koolninad](../tools/leadgen-mcp-by-koolninad.md), [Leadpipe MCP](../tools/leadpipe-mcp.md), [Leadpipe MCP by enzoemir1](../tools/leadpipe-mcp-by-enzoemir1.md), [Leadzaar](../tools/leadzaar.md), [LinkedIn ICP Discovery MCP](../tools/linkedin-icp-discovery-mcp.md), [LinkedIn Job Change MCP by jpeslar1](../tools/linkedin-job-change-mcp-by-jpeslar1.md), [LinkedIn Marketing MCP by 1036007003-wq](../tools/linkedin-marketing-mcp-by-1036007003-wq.md), [LinkedIn Outreach MCP by hfarazul](../tools/linkedin-outreach-mcp-by-hfarazul.md), [Little Green Light MCP](../tools/little-green-light-mcp.md), [Livespace CRM MCP](../tools/livespace-crm-mcp.md), [Local MCP CRM](../tools/local-mcp-crm.md), [Lookaberry GTM MCP](../tools/lookaberry-gtm-mcp.md), [Mamba B2B Prospect Engine MCP](../tools/mamba-b2b-prospect-engine-mcp.md), [Mamba Clay to Instantly/Smartlead Push MCP](../tools/mamba-clay-to-instantly-smartlead-push-mcp.md), [Mamba Domain Deliverability MCP](../tools/mamba-domain-deliverability-mcp.md), [Mamba Firmographic Enricher MCP](../tools/mamba-firmographic-enricher-mcp.md), [Mamba GTM Hiring Signal MCP](../tools/mamba-gtm-hiring-signal-mcp.md), [Mamba GTM Signals Aggregator MCP](../tools/mamba-gtm-signals-aggregator-mcp.md), [Mamba GTM Suite MCP](../tools/mamba-gtm-suite-mcp.md), [Mamba Job Board Keyword Signal Scanner MCP](../tools/mamba-job-board-keyword-signal-scanner-mcp.md), [Mamba Public Company Reporting Window MCP](../tools/mamba-public-company-reporting-window-mcp.md), [Mamba Review Reputation Enricher MCP](../tools/mamba-review-reputation-enricher-mcp.md), [Mamba Tech Stack Signal MCP](../tools/mamba-tech-stack-signal-mcp.md), [ManyContacts WhatsApp Business CRM MCP](../tools/manycontacts-whatsapp-business-crm-mcp.md), [Marvenn MCP](../tools/marvenn-mcp.md), [MCP Force by RapidoCloud](../tools/mcp-force-by-rapidocloud.md), [MCP Lead Gen by FlipFactory](../tools/mcp-lead-gen-by-flipfactory.md), [MCP-Salesforce by smn2gnt](../tools/mcp-salesforce-by-smn2gnt.md), [Method CRM MCP](../tools/method-crm-mcp.md), [n47vc MCP Suite](../tools/n47vc-mcp-suite.md), [Nex MCP](../tools/nex-mcp.md), [NirmahGTM](../tools/nirmahgtm.md), [Nuph](../tools/nuph.md), [Odoo MCP by pipeworx](../tools/odoo-mcp-by-pipeworx.md), [Oisha OS](../tools/oisha-os.md), [Opafex MCP Suite](../tools/opafex-mcp-suite.md), [Open Sales Stack MCP by ekas](../tools/open-sales-stack-mcp-by-ekas.md), [OpenDirectories MCP](../tools/opendirectories-mcp.md), [Outbound Engine MCP by closermethod](../tools/outbound-engine-mcp-by-closermethod.md), [Outreach Deliverability MCP by closermethod](../tools/outreach-deliverability-mcp-by-closermethod.md), [Outreach MCP by CData](../tools/outreach-mcp-by-cdata.md), [Outreach MCP by mindstone-engineering](../tools/outreach-mcp-by-mindstone-engineering.md), [Outreacher](../tools/outreacher.md), [People Data Labs MCP by pipeworx](../tools/people-data-labs-mcp-by-pipeworx.md), [Person Enrichment from Email (x402)](../tools/person-enrichment-from-email.md), [Pipedrive MCP by comma-compliance](../tools/pipedrive-mcp-by-comma-compliance.md), [Pipedrive MCP by Teapot-Agency](../tools/pipedrive-mcp-by-teapot-agency.md), [Planhat MCP by da-troll](../tools/planhat-mcp-by-da-troll.md), [Ploomes MCP by victorbenazzi](../tools/ploomes-mcp-by-victorbenazzi.md), [Podcast Guest CRM](../tools/podcast-guest-crm.md), [Potarix Enricher](../tools/potarix-enricher.md), [Prospecting Agent by B-Kirb](../tools/prospecting-agent-by-b-kirb.md), [Prospector MCP by dremnik](../tools/prospector-mcp-by-dremnik.md), [Provar MCP](../tools/provar-mcp.md), [PulseAgent MCP](../tools/pulseagent-mcp.md), [RapidStart CRM MCP](../tools/rapidstart-crm-mcp.md), [RD Station CRM MCP](../tools/rd-station-crm-mcp.md), [RetailCRM MCP](../tools/retailcrm-mcp.md), [Sales Enablement Plugin by jbalbu01](../tools/sales-enablement-plugin-by-jbalbu01.md), [Sales Intelligence MCP by Aria Agentworks](../tools/sales-intelligence-mcp-by-aria-agentworks.md), [SalesEQ Plugins](../tools/saleseq-plugins.md), [Salesforce CLI MCP](../tools/salesforce-cli-mcp.md), [Salesforce Cloud MCP by aaronsb](../tools/salesforce-cloud-mcp-by-aaronsb.md), [Salesforce Commerce Cloud MCP by brinzl](../tools/salesforce-commerce-cloud-mcp-by-brinzl.md), [Salesforce Data Cloud MCP by rishiganesh25](../tools/salesforce-data-cloud-mcp-by-rishiganesh25.md), [Salesforce Docs MCP by Sanket](../tools/salesforce-docs-mcp-by-sanket.md), [Salesforce Hosted Custom MCP by Sanket](../tools/salesforce-hosted-custom-mcp-by-sanket.md), [Salesforce Intelligence MCP](../tools/salesforce-intelligence-mcp.md), [Salesforce Marketing Cloud MCP by Devart](../tools/salesforce-marketing-cloud-mcp-by-devart.md), [Salesforce Marketing Cloud MCP by Inefavel](../tools/salesforce-marketing-cloud-mcp-by-inefavel.md), [Salesforce Marketing Cloud MCP by salesforcebob](../tools/salesforce-marketing-cloud-mcp-by-salesforcebob.md), [Salesforce MCP by aaron-pienza](../tools/salesforce-mcp-by-aaron-pienza.md), [Salesforce MCP by advancedcommunities](../tools/salesforce-mcp-by-advancedcommunities.md), [Salesforce MCP by AiondaDotCom](../tools/salesforce-mcp-by-aiondadotcom.md), [Salesforce MCP by boejucci](../tools/salesforce-mcp-by-boejucci.md), [Salesforce MCP by Devart](../tools/salesforce-mcp-by-devart.md), [Salesforce MCP by imazhar101](../tools/salesforce-mcp-by-imazhar101.md), [Salesforce MCP by jaworjar95](../tools/salesforce-mcp-by-jaworjar95.md), [Salesforce MCP by kablewy](../tools/salesforce-mcp-by-kablewy.md), [Salesforce MCP by KirtiJha](../tools/salesforce-mcp-by-kirtijha.md), [Salesforce MCP by LokiMCPUniverse](../tools/salesforce-mcp-by-lokimcpuniverse.md), [Salesforce MCP by mindstone](../tools/salesforce-mcp-by-mindstone.md), [Salesforce MCP by pipeworx](../tools/salesforce-mcp-by-pipeworx.md), [Salesforce MCP by suraj20028](../tools/salesforce-mcp-by-suraj20028.md), [Salesforce MCP by SurajAdsul](../tools/salesforce-mcp-by-surajadsul.md), [Salesforce MCP by timescale](../tools/salesforce-mcp-by-timescale.md), [Salesforce MCP by tomnagengast](../tools/salesforce-mcp-by-tomnagengast.md), [Salesforce MCP by tsmztech](../tools/salesforce-mcp-by-tsmztech.md), [Salesforce MCP Security Toolkit](../tools/salesforce-mcp-security-toolkit.md), [Salesforce Metadata MCP by semwalajay83](../tools/salesforce-metadata-mcp-by-semwalajay83.md), [Salesforce Pardot MCP by DaniilMai](../tools/salesforce-pardot-mcp-by-daniilmai.md), [Salesforce Remote MCP by tsmztech](../tools/salesforce-remote-mcp-by-tsmztech.md), [Samarth GTM MCP](../tools/samarth-gtm-mcp.md), [Say Ur Intent MCP](../tools/say-ur-intent-mcp.md), [ScraperCity](../tools/scrapercity.md), [Sequenzy MCP](../tools/sequenzy-mcp.md), [SFCC Dev MCP by taurgis](../tools/sfcc-dev-mcp-by-taurgis.md), [Signal Found Reddit MCP](../tools/signal-found-reddit-mcp.md), [Snov.io MCP by narkov](../tools/snov-io-mcp-by-narkov.md), [Social Profile Enrichment API](../tools/social-profile-enrichment-api.md), [SpiderIQ Leads MCP](../tools/spideriq-leads-mcp.md), [Stacks AI](../tools/stacks-ai.md), [Synapse CRM MCP by NimbleBrain](../tools/synapse-crm-mcp-by-nimblebrain.md), [Technology Stack Detection API](../tools/technology-stack-detection-api.md), [Techtenstein LinkedIn MCP](../tools/techtenstein-linkedin-mcp.md), [Twenty CRM MCP](../tools/twenty-crm-mcp.md), [UGC VZ MCP](../tools/ugc-vz-mcp.md), [Wazion MCP Server](../tools/wazion-mcp-server.md), [xaffinity MCP](../tools/xaffinity-mcp.md), [Yandex Audience MCP](../tools/yandex-audience-mcp.md), [Zavora Sales Operations Skill](../tools/zavora-sales-operations-skill.md), [Zoho CRM MCP by Devart](../tools/zoho-crm-mcp-by-devart.md), [ZoomInfo MCP Plugin](../tools/zoominfo-mcp-plugin.md), [ApexGTM](../tools/apexgtm.md), [Clay Workbench](../tools/clay-workbench.md), [Sendoff](../tools/sendoff.md), [Signal Prospector](../tools/signal-prospector.md) on 2026-09-08, 2026-09-15; the organisation above was tied through a sibling product.
+
 **What this page does not claim**
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 221 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-14 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-15 by build_directory.py (phase 1).

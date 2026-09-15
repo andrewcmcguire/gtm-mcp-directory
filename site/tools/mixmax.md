@@ -40,11 +40,11 @@ Inbox-side sequencing and meeting-scheduling layer for AE and CS teams that live
 
 - **Parsed URLs**: 3 found in the mcp_url field
 
-- **Endpoint probe**: auth wall at every path, not proven a server
+- **Endpoint probe**: answered, asking for a key
 - **Endpoint URL**: [https://mcp.mixmax.com/mcp](https://mcp.mixmax.com/mcp)
 - **Probed**: 2026-09-04, HTTP 401
 
-The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an auth challenge, but so did a path on that host which cannot exist, so the challenge proves a wall rather than a running MCP server.
+The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official. The status was established by hand on 2026-08-25. On 2026-09-04 the recorded URL answered an MCP initialize as a server, which is liveness and nothing more: nobody has run its tools.
 
 mcp_status, verbatim from the file:
 
@@ -62,11 +62,11 @@ https://mcp.mixmax.com/mcp (docs: https://success.mixmax.com/en/articles/1429814
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -150,6 +150,6 @@ Added 2026-08-25 in the coverage sweep, closing a real structural gap: this file
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -22,7 +22,7 @@ B2B contact and company data providers - the databases, waterfall aggregators, a
 - **Community MCP**: 121
 - **No MCP found**: 72
 
-- **ship a CLI (official) as of 2026-09-12**: 8
+- **ship a CLI (official) as of 2026-09-15**: 25
 
 - **Free to start**: 21
 - **Paid, self-serve**: 21
@@ -41,9 +41,9 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Anymail Finder](../tools/anymail-finder.md) anymailfinder.com Takes a name plus a company, domain, or LinkedIn URL, verifies the resulting work email against the mail server in real time, and only charges when the email verifies. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
-- [Apify](../tools/apify.md) apify.com A cloud platform for running "Actors" (hosted scrapers and automation programs, thousands of them in a public store) that extract web data such as LinkedIn posts, Google Maps listings, company sites and social... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: actor
+- [Apify](../tools/apify.md) apify.com A cloud platform for running "Actors" (hosted scrapers and automation programs, thousands of them in a public store) that extract web data such as LinkedIn posts, Google Maps listings, company sites and social... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: apify-cli
 
-- [Browserbase](../tools/browserbase.md) browserbase.com A hosted headless-browser service (sessions, proxies, stealth, session recording) with Stagehand, its natural-language browser automation layer, so agents can navigate, act on and extract from web pages that... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: bb9
+- [Browserbase](../tools/browserbase.md) browserbase.com A hosted headless-browser service (sessions, proxies, stealth, session recording) with Stagehand, its natural-language browser automation layer, so agents can navigate, act on and extract from web pages that... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: browse
 
 - [Crustdata](../tools/crustdata.md) crustdata.com A real-time API for company and person firmographic/growth data (headcount trends, funding, tech stack, web traffic, social signals), positioned as infrastructure for time-sensitive GTM triggers and... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
@@ -63,7 +63,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Lusha](../tools/lusha.md) lusha.com A B2B contact and company database (300M+ profiles) accessed via a browser extension, web prospecting platform, and bulk CSV/API enrichment for finding direct dials, emails, and company data. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
-- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: prospeo (community)
+- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
 - [Tavily](../tools/tavily.md) tavily.com A web search and page-extraction API built for LLM agents that returns ranked, cleaned results and extracted page content rather than a list of links. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: tavily-cli
 
@@ -83,7 +83,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [CUFinder](../tools/cufinder.md) cufinder.io A credit-based B2B data lookup service where you feed in a company name, domain, LinkedIn URL, or person and get back an enriched company or contact record including verified emails, through a web app or... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Derrick](../tools/derrick.md) derrick-app.com A credit-metered B2B enrichment engine sold primarily as a Google Sheets add-on, plus a REST API and a hosted MCP server, covering email finding, mobile phone finding, LinkedIn profile lookup, company... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
+- [Derrick](../tools/derrick.md) derrick-app.com A credit-metered B2B enrichment engine sold primarily as a Google Sheets add-on, plus a REST API and a hosted MCP server, covering email finding, mobile phone finding, LinkedIn profile lookup, company... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · CLI: derrick (community)
 
 - [Dropcontact](../tools/dropcontact.md) dropcontact.com A France-based, GDPR-oriented contact enrichment and email-finding/verification service that takes a name plus company (name, domain, or LinkedIn URL) and returns a verified professional email plus cleaned... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 
@@ -127,9 +127,9 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [UpLead](../tools/uplead.md) uplead.com A B2B contact database and prospecting tool (vendor claims 160M+ contacts, 95% data accuracy) for building lead lists with verified emails, direct dials, and firmographic/technographic filters, with a browser... [Community MCP](../mcp/community.md) · [Paid, self-serve](../gates/paid.md)
 
-- [Acuris Geo MCP](../tools/acuris-geo-mcp.md) api.acuris-geo.com Address validation & geocoding for AI agents: 240+ countries, UK PAF, free US/CA enrichment [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Acuris Geo MCP](../tools/acuris-geo-mcp.md) api.acuris-geo.com Address validation & geocoding for AI agents: 240+ countries, UK PAF, free US/CA enrichment [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: acuris-geo
 
-- [Agent Utility API](../tools/agent-utility-api.md) agent-api-production-169b.up.railway.app x402 pay-per-call tools: company enrichment, PDF extraction, Amazon/KDP data, YouTube transcripts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Agent Utility API](../tools/agent-utility-api.md) agent-api-production-169b.up.railway.app x402 pay-per-call tools: company enrichment, PDF extraction, Amazon/KDP data, YouTube transcripts. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: railway
 
 - [AlphaAI](../tools/alphaai.md) alphai.io Financial news MCP server for ChatGPT, Claude, Gemini, Cursor, VS Code, Windsurf and any spec-compliant client. Relevance-scored feed, OAuth 2.1, 13 tools. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -147,7 +147,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Apollo MCP Plugin (apolloio)](../tools/apollo-mcp-plugin.md) github.com Connect Claude Code + Cowork to Apollo MCP via this plugin - apolloio/apollo-mcp-plugin [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [AstroFabric MCP](../tools/astrofabric-mcp.md) astrofabric.ai Build with AstroFabric's autonomous intelligence platform using REST, MCP and CLI across datasets, enrichment, signals, audiences and governed delivery. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [AstroFabric MCP](../tools/astrofabric-mcp.md) astrofabric.ai Build with AstroFabric's autonomous intelligence platform using REST, MCP and CLI across datasets, enrichment, signals, audiences and governed delivery. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: af
 
 - [AU BizIntel MCP](../tools/au-bizintel-mcp.md) github.com Australian Business Intelligence MCP Server - ABN lookup, business search, AI prospect intelligence for AI agents - ljdigital/au-bizintel-mcp [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -189,7 +189,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [DayOneLead](../tools/dayonelead.md) dayonelead.com DayOneLead documentation. What every filter and tool means: Today's Leads, All Leads, CRM, Email Outreach, and Export. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [DealMachine](../tools/dealmachine.md) mcp.dealmachine.com Search and enrich US property, owner, people, and company data for sales and lead generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [DealMachine](../tools/dealmachine.md) mcp.dealmachine.com Search and enrich US property, owner, people, and company data for sales and lead generation. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: dm
 
 - [Diffbot MCP by pipeworx](../tools/diffbot-mcp-by-pipeworx.md) github.com Diffbot MCP - Knowledge Graph company enrichment + web content extraction (diffbot.com) - pipeworx-io/mcp-diffbot [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -221,13 +221,13 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Google Maps Extractor MCP by dppalukuri](../tools/google-maps-extractor-mcp-by-dppalukuri.md) github.com MCP server for Google Maps lead generation - search businesses, enrich with emails/phones/socials, score leads, export CSV. Free, no API keys needed. - dppalukuri/mcp-google-maps-extractor [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Google Maps Lead MCP by NextGenData](../tools/google-maps-lead-mcp-by-nextgendata.md) apify.com MCP server for AI agents: search local businesses on Google Maps, generate leads and validate emails. For Claude and Cursor. Pay-per-event. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Google Maps Lead MCP by NextGenData](../tools/google-maps-lead-mcp-by-nextgendata.md) apify.com MCP server for AI agents: search local businesses on Google Maps, generate leads and validate emails. For Claude and Cursor. Pay-per-event. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: actor
 
 - [Hackford MCP](../tools/hackford-mcp.md) hackforddata.com Connect ChatGPT, Codex, Claude and other compatible AI agents to Hackford regulated-firm intelligence through the Hackford MCP beta. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Hunter MCP by scalably](../tools/hunter-mcp-by-scalably.md) scalably.io Hunter.io MCP: domain search, email finder and verifier, enrichment, discovery, leads. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Infona](../tools/infona.md) infona.ai A self-maintaining data layer. Infona holds one reconciled record of what is actually the case, re-verifies its own facts, de-dupes and enriches them, and carries the source for every claim. Open source,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Infona](../tools/infona.md) infona.ai A self-maintaining data layer. Infona holds one reconciled record of what is actually the case, re-verifies its own facts, de-dupes and enriches them, and carries the source for every claim. Open source,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: infona
 
 - [Intelagent Enrichment MCP](../tools/intelagent-enrichment-mcp.md) github.com Open-source MCP servers for entity enrichment, file processing, web research, and more - usable with Claude Code, Claude Desktop, Cursor, and any MCP-compatible client. - Opafex/opafex-mcps [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -301,13 +301,13 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [OpenRush](../tools/openrush.md) openrush.com Give your AI agents live access to SEO, GEO/AEO, Google Analytics, Search Console, and Ads data. Built on 8 billion keywords and 1.8 billion websites. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Outscraper MCP Server](../tools/outscraper-mcp-server.md) mcp.outscraper.com Outscraper MCP business discovery, Maps intelligence, enrichment, reviews, and contact data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Outscraper MCP Server](../tools/outscraper-mcp-server.md) mcp.outscraper.com Outscraper MCP business discovery, Maps intelligence, enrichment, reviews, and contact data. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: outscraper
 
 - [OutSend](../tools/outsend.md) outsend.xyz Lancez un vrai scrape Google Maps depuis la page d [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
 - [Parallel Tasks](../tools/parallel-tasks.md) parallel.ai Web infrastructure for AI to search, extract, monitor, and reason over the world's information. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Particle](../tools/particle.md) particle.pro Real-time news, company, and podcast intelligence APIs for developers - every story, every public company, and every episode, structured and ready to query. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Particle](../tools/particle.md) particle.pro Real-time news, company, and podcast intelligence APIs for developers - every story, every public company, and every episode, structured and ready to query. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: particle (community)
 
 - [People Data Labs MCP by pipeworx](../tools/people-data-labs-mcp-by-pipeworx.md) github.com People Data Labs MCP - wraps the PDL person/company enrichment API - pipeworx-io/mcp-peopledatalabs [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -331,7 +331,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [RChilli MCP Hub](../tools/rchilli-mcp-hub.md) mcp.rchilli.ai The RChilli MCP Hub exposes RChilli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Sales Intelligence MCP by NextGenData](../tools/sales-intelligence-mcp-by-nextgendata.md) apify.com MCP server with 10 B2B lead-gen tools for AI agents: emails, enrichment, lead discovery, hiring signals, tech stack, LinkedIn jobs. Claude Desktop, Curs... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Sales Intelligence MCP by NextGenData](../tools/sales-intelligence-mcp-by-nextgendata.md) apify.com MCP server with 10 B2B lead-gen tools for AI agents: emails, enrichment, lead discovery, hiring signals, tech stack, LinkedIn jobs. Claude Desktop, Curs... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: actor
 
 - [ScraperCity](../tools/scrapercity.md) github.com ScraperCity CLI & MCP Server - B2B lead generation for AI agents. 20+ scrapers accessible via CLI, MCP, or direct API. - scrapercity/scrapercity-cli [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -347,15 +347,15 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Theona Person Enrichment](../tools/theona-person-enrichment.md) api.theona.ai Identify a person from partial information and return a profile with a confidence score per field. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Tomba](../tools/tomba.md) tomba.io Find verified B2B email addresses from any company. 280M+ contacts, 81% coverage, 98% delivery rate. Trusted by 150,000+ sales teams. Start free today. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Tomba](../tools/tomba.md) tomba.io Find verified B2B email addresses from any company. 280M+ contacts, 81% coverage, 98% delivery rate. Trusted by 150,000+ sales teams. Start free today. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: tomba
 
 - [Vinkius Lead Gen Agents](../tools/vinkius-lead-gen-agents.md) vinkius.com Vinkius connects your AI to 8,239+ apps and real-world capabilities. One link works in ChatGPT, Claude, Gemini and more, with your connections managed in one place. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Vsyble](../tools/vsyble.md) vsyble.com Official Vsyble client, CLI, and MCP server for people search, company search, and enrichment. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Vsyble](../tools/vsyble.md) vsyble.com Official Vsyble client, CLI, and MCP server for people search, company search, and enrichment. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: vsyble
 
 - [Wokelo](../tools/wokelo.md) wokelo.ai Company and market intelligence, news, enrichment, and agentic workflows for dealmakers. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [xpay Lead Gen](../tools/xpay-lead-gen.md) lead-gen.mcp.xpay.sh 50+ lead gen tools. Apollo, Hunter, Nyne, Tomba, Sixtyfour, Fiber, Exa. Pay-per-use via x402. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [xpay Lead Gen](../tools/xpay-lead-gen.md) lead-gen.mcp.xpay.sh 50+ lead gen tools. Apollo, Hunter, Nyne, Tomba, Sixtyfour, Fiber, Exa. Pay-per-use via x402. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: xpay
 
 - [Xverum](../tools/xverum.md) ask.xverum.com Plain-English B2B data search across 1B+ records. Describe who or what you [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -371,7 +371,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Findymail](../tools/findymail.md) findymail.com An email finder and verifier that locates a person's work email from a name+domain, domain-only search, or LinkedIn profile URL, verifies deliverability, and can also retrieve a phone number from a LinkedIn... [No MCP found](../mcp/none-found.md) · [Free to start](../gates/free.md) · CLI: findymail (community)
 
-- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
+- [Clearbit (now HubSpot Breeze Intelligence)](../tools/clearbit.md) hubspot.com A firmographic/contact data lookup service that fills in company and contact fields (size, industry, revenue, location, social profiles, etc.) from a third-party data pool; formerly sold as a standalone API,... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md) · CLI: hs
 
 - [Cognism](../tools/cognism.md) cognism.com A B2B contact and company database and sales intelligence platform, positioned around GDPR/CCPA-compliant data for EMEA-focused selling, with a browser extension for LinkedIn/website prospecting and... [No MCP found](../mcp/none-found.md) · [Enterprise only](../gates/enterprise-only.md)
 
@@ -387,7 +387,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Canopy Labs](../tools/canopy-labs.md) canopylabs.com Canopy Labs automates customer analytics for small and medium-sized… [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Capix](../tools/capix.md) capix.ai Capix uses AI to instantly find and aggregate accurate, up-to-date private company data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Capix](../tools/capix.md) capix.ai Capix uses AI to instantly find and aggregate accurate, up-to-date private company data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: capix (community)
 
 - [Catch-all Verifier](../tools/catch-all-verifier.md) catchallverifier.com Catch All Verifier is real-time risky email verification platforms that can verify all your catch all (accept-all), even unknown emails as well. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -405,19 +405,19 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [CompanyEnrich](../tools/companyenrich.md) companyenrich.com CompanyEnrich is a B2B data API platform covering 33M+ verified companies and 193M+ professional profiles. Platforms, AI agents, and GTM teams use it for company enrichment, lookalike discovery, and people... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [ContactOut](../tools/contactout.md) contactout.com Most accurate email finder for personal and work email outreach. Email lookup, campaign tool, and AI writer. Get 10 credits free - no credit card required. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [ContactOut](../tools/contactout.md) contactout.com Most accurate email finder for personal and work email outreach. Email lookup, campaign tool, and AI writer. Get 10 credits free - no credit card required. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: contactout (community)
 
 - [Convex](../tools/convex.md) convex.com The only sales intelligence platform built for commercial services teams to reach decision-makers and win more deals across 5.9 M+ properties. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Data Legion](../tools/data-legion.md) datalegion.ai We build the data. You build the rest. Enterprise-grade B2B data for teams building AI agents, sales tools, recruiting platforms, and more. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: datalegion-cli
 
 - [Datanyze](../tools/datanyze.md) datanyze.com Find and connect with cold sales prospects within minutes using affordable, accurate contact information from Datanyze. We're revolutionizing B2B data! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Dealroom](../tools/dealroom.md) dealroom.co The global intelligence platform for startup ecosystems. Discover promising startups, track funding rounds, and map tech ecosystems globally. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: ax-dealroom (community)
 
 - [eCore](../tools/ecore.md) ecoreservice.com Validation-first GTM data quality. eCore validates, enriches, maintains, and operationalizes contact and account data so sales, marketing, RevOps, and AI systems can act with confidence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Enigma](../tools/enigma.md) enigma.com Millions of public, private, and proprietary data points on businesses and people linked with precision [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: enigma (community)
 
 - [Enrich-CRM](../tools/enrich-crm.md) enrich-crm.com Verified emails, direct phones, job changes & buying signals - real-time CRM enrichment, not a stale database. GDPR-native, EU servers. Free plan, from €29/month. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -439,7 +439,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Leadbay](../tools/leadbay.md) leadbay.ai Constant flow of skills, widgets, and qualified leads delivered into the apps your team and agents use daily - Claude, ChatGPT, and Copilot. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [LeadGenius](../tools/leadgenius.md) leadgenius.com LeadGenius delivers real-time, compliant B2B contact data and buyer intelligence worldwide. Find decision-makers, activate leads, and scale revenue with precision. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [LeadGenius](../tools/leadgenius.md) leadgenius.com LeadGenius delivers real-time, compliant B2B contact data and buyer intelligence worldwide. Find decision-makers, activate leads, and scale revenue with precision. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: lgp (community)
 
 - [Leadspace](../tools/leadspace.md) leadspace.com Replace static GTM data with real-time intelligence. Unify profiles, activate signals, and keep routing, scoring, and targeting accurate. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -461,11 +461,11 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Popl](../tools/popl.md) popl.co Capture leads, scan badges, enrich data, and sync it all to your CRM-at events, conferences, and beyond. Powered by AI and our proprietary data engine, Popl helps companies around the world turn in-person... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [PromptLoop](../tools/promptloop.md) promptloop.com AI platform for GTM & B2B Sales: Automate web scraping, Deep Research, and CRM data enrichment for accurate B2B insights. 10x faster B2B research. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [PromptLoop](../tools/promptloop.md) promptloop.com AI platform for GTM & B2B Sales: Automate web scraping, Deep Research, and CRM data enrichment for accurate B2B insights. 10x faster B2B research. Get started free. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: promptloop
 
 - [Prospect](../tools/prospect.md) tryprospect.com Find verified emails and mobile numbers for your buyers, right inside your browser. Neuron's contact data plugs into your CRM and outbound stack. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Reltio](../tools/reltio.md) reltio.com Unify siloed data into trusted 360 views with Reltio. Power AI, improve operations, and drive growth with real-time context intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Reltio](../tools/reltio.md) reltio.com Unify siloed data into trusted 360 views with Reltio. Power AI, improve operations, and drive growth with real-time context intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: app
 
 - [RevenueBase](../tools/revenuebase.md) revenuebase.ai RevenueBase is a B2B data infrastructure company that delivers production-ready data, cleans and enriches your existing records, and helps you discover what's missing. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -481,7 +481,7 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Signal Prospector](../tools/signal-prospector.md) github.com A signal-based B2B prospecting engine on free infra: 8 buying-signal detectors, an explainable ICP scorer, free MX-validated email enrichment and AI outreach - via CLI, Flask and an MCP server. -... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Signaliz](../tools/signaliz.md) signaliz.com Discover verified companies from any market signal, keep target accounts under watch, verify contacts, and turn dated evidence into outreach with Signaliz. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Signaliz](../tools/signaliz.md) signaliz.com Discover verified companies from any market signal, keep target accounts under watch, verify contacts, and turn dated evidence into outreach with Signaliz. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: signaliz
 
 - [SMARTe](../tools/smarte.md) smarte.pro Actionable Sales Intelligence built over 289M+ global B2B contacts. Access verified mobile numbers and business emails for prospecting, trusted by Sales Leaders. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -505,6 +505,6 @@ Source file: 01-data-enrichment.md · content sha256 bffd448e4f39598c... · coun
 
 - [Zeliq](../tools/zeliq.md) zeliq.com Zeliq centralizes prospecting, data enrichment, and multi-channel outreach. Find qualified leads, contact them, and manage your pipeline in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [ZenRows](../tools/zenrows.md) zenrows.com AI web data infrastructure for agents, applications, and data teams. Fetch, extract, batch, and operate the live web, including protected pages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [ZenRows](../tools/zenrows.md) zenrows.com AI web data infrastructure for agents, applications, and data teams. Fetch, extract, batch, and operate the live web, including protected pages. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: zenrows
 
 - [Zillabyte](../tools/zillabyte.md) zillabyte.com Sales-oriented data platform historically positioned as Palantir for sales people (staging one_liner; homepage thin). [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

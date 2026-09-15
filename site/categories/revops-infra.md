@@ -23,7 +23,7 @@ The systems of record, the pipes between them, and the low-code layer a GTM engi
 - **MCP unknown**: 1
 - **No MCP found**: 48
 
-- **ship a CLI (official) as of 2026-09-12**: 9
+- **ship a CLI (official) as of 2026-09-15**: 20
 
 - **Free to start**: 14
 - **Paid, self-serve**: 12
@@ -57,7 +57,7 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [monday.com (monday CRM)](../tools/monday-com.md) monday.com A work-management platform whose CRM product runs pipelines, contacts, accounts and deal activity as boards and items, with a first-party remote MCP server that lets an AI client read and update that data on... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: mapps
 
-- [n8n](../tools/n8n.md) n8n.io A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+- [n8n](../tools/n8n.md) n8n.io A node-based workflow-automation platform for connecting apps/APIs and orchestrating multi-step processes, usable self-hosted or as managed cloud. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: n8n-node
 
 - [Pipedrive](../tools/pipedrive.md) pipedrive.com A sales-pipeline-focused CRM built around deal-stage visualization and activity tracking for sales teams. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
@@ -99,11 +99,11 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [3Bids Contractor](../tools/3bids-contractor.md) 3bids.io CRM, communications, AI, closing, dispatch, and operating intelligence for contractors. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Agentled](../tools/agentled.md) agentled.app Discover how Agentled can revolutionize your business operations with AI-driven solutions that optimize sales, marketing, customer success, and more. Scale smarter and grow faster with our cutting-edge... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Agentled](../tools/agentled.md) agentled.app Discover how Agentled can revolutionize your business operations with AI-driven solutions that optimize sales, marketing, customer success, and more. Scale smarter and grow faster with our cutting-edge... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: agentled
 
 - [ATLASS OS](../tools/atlass-os.md) app.atlass-os.com 195 working MCP tools as of September 7, 2026 - CRM, scheduling, banking, payables, payroll and real double-entry books, driveable by your own AI through one audited surface with scoped, in-app-minted tokens. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Commercient Data Lake](../tools/commercient-data-lake.md) commercient.com Commercient Data Lake is a backend-as-a-service built on Microsoft SQL Server: your ERP, CRM, and database data in one governed database per customer, with instant REST and GraphQL APIs, row-level security,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Commercient Data Lake](../tools/commercient-data-lake.md) commercient.com Commercient Data Lake is a backend-as-a-service built on Microsoft SQL Server: your ERP, CRM, and database data in one governed database per customer, with instant REST and GraphQL APIs, row-level security,... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: dlake
 
 - [FounderStack CRM](../tools/founderstack-crm.md) crm-landing-three.vercel.app FounderStack keeps your sales conversations, follow-ups, and client context in one place-without pipelines, setup, or CRM overhead. Built for founders who sell via WhatsApp, email, and DMs. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -111,7 +111,7 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [Hecher CRM](../tools/hecher-crm.md) hecher.app Hecher by Grow Gelt is the donor management platform built for Chabad Shluchim. Part of the Grow Gelt Solutions family. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Helm AI](../tools/helm-ai.md) gethelm.ai Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your business do more with less. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Helm AI](../tools/helm-ai.md) gethelm.ai Put your business on autopilot. Run projects, manage customers, automate operations, and deploy AI workers from one platform built to help your business do more with less. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: helm-ai
 
 - [iri CRM](../tools/iri-crm.md) iricrm.com Designed for service businesses, agencies, clinics, and e-commerce. WhatsApp, Instagram, ads, and all your tools fully integrated with autonomous AI CRM. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -127,7 +127,7 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [Measure Tech PRO](../tools/measure-tech-pro.md) measuretechpro.com Measure Tech PRO is a full CRM for contractors - jobs, customers, estimates, proposals, native e-signatures, invoicing, Stripe payments, QuickBooks sync, recurring billing, dispatch, and timesheets in one app.... [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
-- [Morphed](../tools/morphed.md) morphed.io Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30 days. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
+- [Morphed](../tools/morphed.md) morphed.io Morphed defines what your CRM must do, audits the source against it, then builds, migrates and verifies it - and keeps the plan live for the first 30 days. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md) · CLI: agent-hook
 
 - [Noto CRM](../tools/noto-crm.md) no-to.fr Parle à ton agent IA: leads, relances et deals se mettent à jour automatiquement. Noto est un CRM minimaliste pour freelances et solopreneurs. Gratuit pour commencer. [Community MCP](../mcp/community.md) · [Gate unknown](../gates/unknown.md)
 
@@ -163,27 +163,27 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [Clarm](../tools/clarm.md) clarm.com Build AI coworkers for recurring operational work from building blocks pre-approved by IT and compliance. Start with one manual workflow and deploy inside clear rails. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [CloudFiles](../tools/cloudfiles.md) cloudfiles.io CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [CloudFiles](../tools/cloudfiles.md) cloudfiles.io CloudFiles is an enterprise-grade, Salesforce-native platform to manage, process, generate, and automate every document without leaving Salesforce. Keep files in external storage and cut storage costs, with... [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: cfmgr (community)
 
-- [Cotera](../tools/cotera.md) cotera.co Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain English, no flowcharts, no MCP kitchen-sink. Just reliable agents that take real action on real data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Cotera](../tools/cotera.md) cotera.co Build AI agents connected to your data warehouse, CRM, and 200+ tools. Plain English, no flowcharts, no MCP kitchen-sink. Just reliable agents that take real action on real data. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: cli
 
 - [crmCopilot](../tools/crmcopilot.md) crmcopilot.co Give Salesforce the AI upgrade it deserves [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Databox](../tools/databox.md) databox.com Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Databox](../tools/databox.md) databox.com Databox is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: databox
 
-- [Dex](../tools/dex.md) getdex.com Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Dex](../tools/dex.md) getdex.com Dex is a personal CRM that brings your relationships into one place with reminders, notes, timelines, and thoughtful follow-up workflows. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: dex
 
 - [Dooly](../tools/dooly.md) dooly.ai Dooly helps revenue teams win more deals by improving CRM hygiene, running a winning sales process, and eliminating low value work. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [DryMerge](../tools/drymerge.md) drymerge.com AI agents that constantly monitor your email, calendar, and calls to keep your CRM updated with every detail. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Dust](../tools/dust.md) dust.tt Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use different models for different tasks, with people in control. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Dust](../tools/dust.md) dust.tt Dust connects your company knowledge, tools, and teams so you can create, share, and run agents across real workflows. Use different models for different tasks, with people in control. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: dust
 
 - [Flowla](../tools/flowla.md) flowla.com Flowla is the execution layer your revenue stack feeds into. It turns your best rep's instincts into a system that reads every signal and runs the next move. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [Fluint](../tools/fluint.md) fluint.io Attribute every AI agent action to revenue. Private ML models deliver pre-enriched context via MCP. Cut token spend 30%, prove ROI, train on your outcomes. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Glean](../tools/glean.md) glean.com Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Glean](../tools/glean.md) glean.com Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you! [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: glean-auth
 
 - [GoLinks](../tools/golinks.md) golinks.io GoLinks® revolutionizes information access & sharing through secure, intuitive short links called go/links. It's knowledge discovery powered by generative AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -201,13 +201,13 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [LinkPoint Connect](../tools/linkpoint-connect.md) linkpoint360.com LinkPoint360 is a leading provider of email integration solutions for Salesforce & Microsoft Dynamics. Increase your productivity and CRM adoption today. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Minerva](../tools/minerva.md) minerva.io Minerva helps marketers create time to do the work they love, while delegating operational work to AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Minerva](../tools/minerva.md) minerva.io Minerva helps marketers create time to do the work they love, while delegating operational work to AI. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: minerva-cli (community)
 
 - [Partnered](../tools/partnered.md) partnered.com Discover how Crossbeam's Ecosystem Revenue Platform empowers sales, marketing, and partnerships to unlock new growth opportunities, close deals faster, and drive revenue with actionable ecosystem insights. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
 - [PartnerOS](../tools/partneros.md) partneros.ai Your AI Partner Operating System designed to grow partner sourced revenue, net retention, engagement and adoption. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [PartnerStack](../tools/partnerstack.md) partnerstack.com Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners - from affiliates to referral and reseller partners. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [PartnerStack](../tools/partnerstack.md) partnerstack.com Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners - from affiliates to referral and reseller partners. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: partnerstack (community)
 
 - [Power My Analytics](../tools/power-my-analytics.md) powermyanalytics.com Use data connectors to retrieve key metrics and integrate them with your favorite reporting, dashboard, and spreadsheet tools. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -223,11 +223,11 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [Stack Moxie](../tools/stack-moxie.md) stackmoxie.com The official website for Stack Moxie, and home of Revenue Observability. Automated testing and monitoring for RevOps and Marketing Ops teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Streak](../tools/streak.md) streak.com Manage sales and customer relationships directly inside Gmail. Streak is the CRM your team will actually use-integrated, smart, and loved by 750,000+ users. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Streak](../tools/streak.md) streak.com Manage sales and customer relationships directly inside Gmail. Streak is the CRM your team will actually use-integrated, smart, and loved by 750,000+ users. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: rollodeqc-gh-user-streak (community)
 
-- [Suger](../tools/suger.md) suger.io Suger automates cloud GTM for ISVs selling on AWS, GCP, and Azure Marketplace. Streamline co-sell, private offers, metering, and CRM sync in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Suger](../tools/suger.md) suger.io Suger automates cloud GTM for ISVs selling on AWS, GCP, and Azure Marketplace. Streamline co-sell, private offers, metering, and CRM sync in one platform. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: suger (community)
 
-- [Superglue](../tools/superglue.md) superglue.io Superglue lets you set up automations that guide your partner and sales teams through each step of the co-selling process. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Superglue](../tools/superglue.md) superglue.io Superglue lets you set up automations that guide your partner and sales teams through each step of the co-selling process. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: sg
 
 - [Torchlite](../tools/torchlite.md) torchlite.com Channel & Partner Management; Onboard, Track, & Pay referrals, deals, affiliates, and strategic partners. Drive revenue and grow. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
@@ -239,6 +239,6 @@ Source file: 06-revops-infra.md · content sha256 20f5941948b77436... · counts 
 
 - [Whalesync](../tools/whalesync.md) whalesync.com Sync Airtable, Notion, HubSpot, Webflow, and more with real-time two-way data sync. Edit in one app and watch changes appear everywhere, no code needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
+- [Windsor.ai](../tools/windsor-ai.md) windsor.ai Automate data integration from 350+ sources with our no-code connectors. Send your data to Looker Studio, ChatGPT, Claude, BigQuery, and more in 1 minute. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: windsor-ai (community)
 
 - [Workato](../tools/workato.md) workato.com Workato connects apps, data, workflows, and AI agents on one enterprise platform to securely orchestrate, automate, and govern work. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)

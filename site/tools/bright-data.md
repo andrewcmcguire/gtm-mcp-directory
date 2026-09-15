@@ -61,7 +61,7 @@ https://github.com/brightdata/brightdata-mcp
 
 - **Tools named**: 19
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-15
 - **Repo read**: brightdata/brightdata-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -106,14 +106,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **web_scraping_strategy** Decision tree for picking the right Bright Data tool. evidence: in the server source · calling it reads
 
-119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: bdata
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-12
+- **Harvested**: 2026-09-15
 
 Install, as the source shows it:
 
@@ -121,13 +121,13 @@ Install, as the source shows it:
 npm install -g @brightdata/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@brightdata/cli](https://www.npmjs.com/package/@brightdata/cli) on 2026-09-12, via npm
+quoted from [https://www.npmjs.com/package/@brightdata/cli](https://www.npmjs.com/package/@brightdata/cli) on 2026-09-15, via npm
 
-Packages seen, with the version on 2026-09-12:
+Packages seen, with the version on 2026-09-15:
 
 - [npm: @brightdata/cli 0.3.6](https://www.npmjs.com/package/@brightdata/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
 
 **Access gate**
 
@@ -209,6 +209,6 @@ Broader-scope than a purpose-built contact-enrichment vendor - it's web-data inf
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-14
+- **Data baked**: 2026-09-15
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

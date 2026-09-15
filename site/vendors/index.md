@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 978 vendors with their MCP servers
 
-> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-14.
+> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-15.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-14. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 26 products answering a live MCP handshake on 2026-09-04, and 2,324 tools catalogued across their servers, gateways excluded, harvested 2026-09-12. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-15. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,832 tools catalogued across their servers, gateways excluded, harvested 2026-09-15. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 1,252 entries in the whole directory are bench tested.
 
@@ -61,7 +61,7 @@ A
 | [Act-On](act-on-com.md) | act-on.com | 1 | 0 | 0 | 0 |
 | [ActiveCampaign](activecampaign-com.md) | activecampaign.com | 1 | 0 | 0 | 0 |
 | [Actively](actively-ai.md) | actively.ai | 1 | 1 | 0 | 0 |
-| [Acuris Geo MCP](api-acuris-geo-com.md) | api.acuris-geo.com | 1 | 0 | 0 | 0 |
+| [Acuris Geo MCP](api-acuris-geo-com.md) | api.acuris-geo.com | 1 | 0 | 0 | 8 |
 | [Ada](ada-cx.md) | ada.cx | 1 | 1 | 0 | 1 |
 | [Adrata](adrata-com.md) | adrata.com | 1 | 0 | 0 | 0 |
 | [Affinity](affinity-co.md) | affinity.co | 1 | 1 | 0 | 52 |
@@ -79,7 +79,7 @@ A
 | [Aligned (alignedup.com)](alignedup-com.md) | alignedup.com | 1 | 0 | 0 | 0 |
 | [Allego](allego-com.md) | allego.com | 1 | 0 | 0 | 0 |
 | [Allegrow](allegrow-co.md) | allegrow.co | 1 | 1 | 0 | 0 |
-| [AlphaAI](alphai-io.md) | alphai.io | 1 | 0 | 0 | 0 |
+| [AlphaAI](alphai-io.md) | alphai.io | 1 | 0 | 0 | 2 |
 | [Alyce](alyce-com.md) | alyce.com | 1 | 0 | 0 | 0 |
 | [Alysio](alysio-ai.md) | alysio.ai | 1 | 0 | 0 | 0 |
 | [Ambition](ambition-com.md) | ambition.com | 1 | 0 | 0 | 0 |
@@ -87,15 +87,15 @@ A
 | [Amplemarket](amplemarket-com.md) | amplemarket.com | 1 | 1 | 0 | 52 |
 | [AmpUp GTM Chat](chat-ampup-ai.md) | chat.ampup.ai | 1 | 0 | 0 | 0 |
 | [Anaplan (PlanIQ / Anaplan Forecaster)](anaplan-com.md) | anaplan.com | 1 | 1 | 0 | 70 |
-| [AnchoredIP](api-anchoredip-com.md) | api.anchoredip.com | 1 | 0 | 0 | 0 |
+| [AnchoredIP](api-anchoredip-com.md) | api.anchoredip.com | 1 | 0 | 0 | 8 |
 | [Andru Revenue Intelligence](andru-ai.md) | andru.ai | 1 | 0 | 0 | 0 |
 | [Anglera](anglera-com.md) | anglera.com | 1 | 0 | 0 | 0 |
 | [Anymail Finder](anymailfinder-com.md) | anymailfinder.com | 1 | 1 | 1 | 0 |
 | [Anyquery](anyquery-dev.md) | anyquery.dev | 1 | 0 | 0 | 0 |
-| [Apideck](apideck-com.md) | apideck.com | 1 | 1 | 0 | 22 |
-| [Apify](apify-com.md) | apify.com | 3 | 1 | 0 | 0 |
+| [Apideck](apideck-com.md) | apideck.com | 1 | 1 | 0 | 25 |
+| [Apify](apify-com.md) | apify.com | 3 | 1 | 0 | 23 |
 | [Apify Actors MCP](mcp-apify-com.md) | mcp.apify.com | 1 | 0 | 0 | 0 |
-| [Apollo-Salesforce Mapper MCP](cf-worker-selbyventurecap-workers-dev.md) | cf-worker.selbyventurecap.workers.dev | 1 | 0 | 0 | 0 |
+| [Apollo-Salesforce Mapper MCP](cf-worker-selbyventurecap-workers-dev.md) | cf-worker.selbyventurecap.workers.dev | 1 | 0 | 0 | 1 |
 | [Apollo.io](apollo-io.md) | apollo.io | 2 | 2 | 0 | 40 |
 | [Apsona](apsona-com.md) | apsona.com | 1 | 0 | 0 | 0 |
 | [Arphie](arphie-ai.md) | arphie.ai | 1 | 1 | 0 | 0 |
@@ -119,7 +119,7 @@ B
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
 | [B2B IQ](b2b-iq-com.md) | b2b-iq.com | 1 | 0 | 0 | 0 |
-| [B2B Lead Enrichment MCP](lead-enrichment-mcp-agent-infra-workers-dev.md) | lead-enrichment-mcp.agent-infra.workers.dev | 2 | 0 | 0 | 0 |
+| [B2B Lead Enrichment MCP](lead-enrichment-mcp-agent-infra-workers-dev.md) | lead-enrichment-mcp.agent-infra.workers.dev | 2 | 0 | 0 | 5 |
 | [Backengine MCP](mcp-backengine-ai.md) | mcp.backengine.ai | 1 | 0 | 0 | 0 |
 | [Banabo](banabo-io.md) | banabo.io | 1 | 0 | 0 | 0 |
 | [Bavlio](bavlio-com.md) | bavlio.com | 1 | 0 | 0 | 0 |
@@ -236,7 +236,7 @@ C
 | [Continu](continu-com.md) | continu.com | 1 | 0 | 0 | 0 |
 | [Conversica](conversica-com.md) | conversica.com | 1 | 0 | 0 | 0 |
 | [Convex](convex-com.md) | convex.com | 1 | 0 | 0 | 0 |
-| [Coordinalo](coordinalo-com.md) | coordinalo.com | 1 | 0 | 0 | 0 |
+| [Coordinalo](coordinalo-com.md) | coordinalo.com | 1 | 0 | 0 | 112 |
 | [Copy.ai (GTM AI Platform)](copy-ai.md) | copy.ai | 1 | 0 | 0 | 0 |
 | [Copyfactory](copyfactory-io.md) | copyfactory.io | 1 | 0 | 0 | 0 |
 | [Coresignal](coresignal-com.md) | coresignal.com | 1 | 1 | 0 | 6 |
@@ -269,7 +269,7 @@ D
 | [Datagma](datagma-com.md) | datagma.com | 1 | 0 | 0 | 0 |
 | [DataLayer.sh MCP](datalayer-sh.md) | datalayer.sh | 1 | 0 | 0 | 0 |
 | [DataMerge](datamerge-ai.md) | datamerge.ai | 1 | 0 | 0 | 0 |
-| [DataMerge MCP](mcp-datamerge-ai.md) | mcp.datamerge.ai | 1 | 0 | 0 | 0 |
+| [DataMerge MCP](mcp-datamerge-ai.md) | mcp.datamerge.ai | 1 | 0 | 0 | 23 |
 | [Datanyze](datanyze-com.md) | datanyze.com | 1 | 0 | 0 | 0 |
 | [DayOneLead](dayonelead-com.md) | dayonelead.com | 1 | 0 | 0 | 0 |
 | [dbt (dbt platform remote MCP)](getdbt-com.md) | getdbt.com | 1 | 1 | 0 | 0 |
@@ -299,7 +299,7 @@ D
 | [Drift](drift-com.md) | drift.com | 1 | 0 | 0 | 0 |
 | [Dropbox Sign](sign-dropbox-com.md) | sign.dropbox.com | 1 | 0 | 0 | 0 |
 | [Dropcontact](dropcontact-com.md) | dropcontact.com | 1 | 1 | 0 | 0 |
-| [Dropwatch Research Intel MCP](research-dropwatchhq-com.md) | research.dropwatchhq.com | 1 | 0 | 0 | 0 |
+| [Dropwatch Research Intel MCP](research-dropwatchhq-com.md) | research.dropwatchhq.com | 1 | 0 | 0 | 5 |
 | [DryMerge](drymerge-com.md) | drymerge.com | 1 | 0 | 0 | 0 |
 | [Dubb](dubb-com.md) | dubb.com | 1 | 0 | 0 | 0 |
 | [Dust](dust-tt.md) | dust.tt | 1 | 0 | 0 | 0 |
@@ -418,7 +418,7 @@ G
 | [GTM Alpha MCP](gtmalpha-netlify-app.md) | gtmalpha.netlify.app | 1 | 0 | 0 | 0 |
 | [GTM Buddy](gtmbuddy-ai.md) | gtmbuddy.ai | 1 | 0 | 0 | 0 |
 | [GTM Signals](andrewcmcguire-com.md) | andrewcmcguire.com | 1 | 1 | 0 | 0 |
-| [GTM Tools MCP](gcwmjfotygqnlsyfhiyq-supabase-co.md) | gcwmjfotygqnlsyfhiyq.supabase.co | 1 | 0 | 0 | 0 |
+| [GTM Tools MCP](gcwmjfotygqnlsyfhiyq-supabase-co.md) | gcwmjfotygqnlsyfhiyq.supabase.co | 1 | 0 | 0 | 4 |
 | [GTMos MCP by Kai8karma](kai8karma-github-io.md) | kai8karma.github.io | 1 | 0 | 0 | 0 |
 | [Guapu](guapu-io.md) | guapu.io | 1 | 0 | 0 | 0 |
 | [GummySearch](gummysearch-com.md) | gummysearch.com | 1 | 0 | 0 | 0 |
@@ -519,7 +519,7 @@ K
 | [Keyplay](keyplay-io.md) | keyplay.io | 1 | 1 | 0 | 6 |
 | [Kite](kite-video.md) | kite.video | 1 | 0 | 0 | 0 |
 | [Kixie](kixie-com.md) | kixie.com | 1 | 0 | 0 | 0 |
-| [Klarix Intelligence Engine](mcp-klarix-ai.md) | mcp.klarix.ai | 1 | 0 | 0 | 0 |
+| [Klarix Intelligence Engine](mcp-klarix-ai.md) | mcp.klarix.ai | 1 | 0 | 0 | 15 |
 | [Klavis AI](klavis-ai.md) | klavis.ai | 1 | 1 | 0 | 25 |
 | [Klenty](klenty-com.md) | klenty.com | 1 | 0 | 0 | 0 |
 | [Kluster](kluster-com.md) | kluster.com | 1 | 0 | 0 | 0 |
@@ -582,7 +582,7 @@ L
 | [LinkMCP](app-linkmcp-io.md) | app.linkmcp.io | 1 | 0 | 0 | 0 |
 | [LinkPoint Connect](linkpoint360-com.md) | linkpoint360.com | 1 | 0 | 0 | 0 |
 | [LinkupAPI LinkedIn Skills](linkupapi-com.md) | linkupapi.com | 1 | 0 | 0 | 0 |
-| [LION Trend Intent MCP](gleaming-cassata-d41682-netlify-app.md) | gleaming-cassata-d41682.netlify.app | 1 | 0 | 0 | 0 |
+| [LION Trend Intent MCP](gleaming-cassata-d41682-netlify-app.md) | gleaming-cassata-d41682.netlify.app | 1 | 0 | 0 | 5 |
 | [Listmint](listmint-io.md) | listmint.io | 1 | 0 | 0 | 0 |
 | [ListSignal MCP](listsignal-com.md) | listsignal.com | 1 | 0 | 0 | 0 |
 | [Live Data Technologies](livedatatechnologies-com.md) | livedatatechnologies.com | 2 | 0 | 0 | 0 |
@@ -661,7 +661,7 @@ M
 | [MiQ](wearemiq-com.md) | wearemiq.com | 1 | 0 | 0 | 0 |
 | [MisarMail MCP](misarmail-com.md) | misarmail.com | 1 | 0 | 0 | 0 |
 | [Misarreach](misarreach-com.md) | misarreach.com | 1 | 0 | 0 | 0 |
-| [Mixmax](mixmax-com.md) | mixmax.com | 1 | 1 | 0 | 0 |
+| [Mixmax](mixmax-com.md) | mixmax.com | 1 | 1 | 1 | 0 |
 | [Mixrank](mixrank-com.md) | mixrank.com | 1 | 0 | 0 | 0 |
 | [Modash](modash-io.md) | modash.io | 1 | 0 | 0 | 0 |
 | [Modus](himodus-com.md) | himodus.com | 1 | 0 | 0 | 0 |
@@ -700,7 +700,7 @@ N
 | [Nooks](nooks-ai.md) | nooks.ai | 1 | 1 | 1 | 0 |
 | [Noto CRM](no-to-fr.md) | no-to.fr | 1 | 0 | 0 | 0 |
 | [numbrU Client Compass](numbru-com.md) | numbru.com | 1 | 0 | 0 | 0 |
-| [Nuph](github-com.md) | github.com | 221 | 1 | 0 | 24 |
+| [Nuph](github-com.md) | github.com | 221 | 1 | 0 | 305 |
 | [Nutshell CRM](nutshell-com.md) | nutshell.com | 1 | 1 | 0 | 0 |
 | [Nynch MCP](nynch-com.md) | nynch.com | 1 | 0 | 0 | 0 |
 
@@ -723,7 +723,7 @@ O
 | [OnePageCRM](onepagecrm-com.md) | onepagecrm.com | 1 | 0 | 0 | 0 |
 | [OneSignal](onesignal-com.md) | onesignal.com | 1 | 0 | 0 | 0 |
 | [OneUp Sales](oneupsales-co-uk.md) | oneupsales.co.uk | 1 | 0 | 0 | 0 |
-| [Onsa](api-onsa-ai.md) | api.onsa.ai | 1 | 0 | 0 | 0 |
+| [Onsa](api-onsa-ai.md) | api.onsa.ai | 1 | 0 | 0 | 13 |
 | [Open for Agents](openforagents-com.md) | openforagents.com | 1 | 0 | 0 | 0 |
 | [OpenHelm Email Outreach MCP](mcp-openhelm-ai.md) | mcp.openhelm.ai | 1 | 0 | 0 | 0 |
 | [Openmart](openmart-com.md) | openmart.com | 1 | 0 | 0 | 0 |

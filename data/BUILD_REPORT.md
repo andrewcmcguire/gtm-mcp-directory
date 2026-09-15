@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-14 by `build_directory.py`. Zero network calls.
+Generated 2026-09-15 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 
@@ -69,9 +69,9 @@ last_checked: `{"2026-08-24": 71, "2026-08-25": 22, "2026-09-02": 121, "2026-09-
 ### Capability layer (what each server exposes, from merge_capabilities.py)
 
 null
-- servers with a recorded tool list: **119** of 741 that claim a server
-- tools recorded in total: **8507**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
-- by evidence: `{"live-list": 6098, "source": 1149, "docs": 983, "readme": 277}`
+- servers with a recorded tool list: **138** of 741 that claim a server
+- tools recorded in total: **9108**, of which **None** belong to gateway servers that re-expose other vendors. The number that describes what GTM tools themselves expose is **None**.
+- by evidence: `{"live-list": 6380, "source": 1394, "docs": 983, "readme": 351}`
 - repos read, first-party vs third-party: `{}`. A third-party server's tools are that author's, not the vendor's published surface.
 - a recorded tool is one the server NAMES. Nothing here was called; bench_tested is a separate claim.
 
@@ -90,8 +90,8 @@ null
 ### Endpoint liveness (measured by mcp_verify.py, read from ../verify_history.jsonl)
 
 - probe run used: `2026-09-04`
-- endpoint_status: `{"live": 1, "live-auth-gated": 26, "auth-wall": 8, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 560, "not-applicable": 511}`
-- official entries whose recorded URL answered as an MCP server (live or auth-gated): **27**
+- endpoint_status: `{"live": 1, "live-auth-gated": 27, "auth-wall": 7, "repo-local": 34, "docs-only": 97, "unreachable": 15, "not-probed": 560, "not-applicable": 511}`
+- official entries whose recorded URL answered as an MCP server (live or auth-gated): **28**
 - official entries whose recorded URL is a docs page, not an endpoint: **88**
 - docs-only is not wrong under SCHEMA law 1; it records where to read, not where to connect. Agents need the second.
 
@@ -282,7 +282,7 @@ None.
 
 ## Integrity
 
-- content sha256: `031944b7194b24feeb856475d0dc999e70d4703d056510beb279703dcc0d264b`
+- content sha256: `ee86b7a4c94fdfe4e69ec24da678c50ddd36c575655d3ab54540c6d3c8177693`
 - source sha256: `1954f40ab7c506697f46eb8c9b93b74ed98fb3502a36cc6304d37983589cc093`
 - jobs.yaml sha256: `bb07dcb51e730f83a7e7f2c8a59669b29197c141c7bd3fe497dccd7477615922`
 - tags.yaml sha256: `7039a400c1c4664347ef4617fb709a3beeec4d989742af51bd274691ffb3e3da`
