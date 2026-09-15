@@ -1,6 +1,6 @@
 # Toflow: products, MCP servers and connect URLs, one vendor page
 
-> Toflow (toflow.ai): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-12.
+> Toflow (toflow.ai): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-14.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Toflow
 1 product in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-12
+Data baked 2026-09-14
 
 Vendor domain: [toflow.ai](https://toflow.ai) · vendor page id toflow-ai
 
@@ -36,7 +36,7 @@ Vendor domain: [toflow.ai](https://toflow.ai) · vendor page id toflow-ai
 
 - **Tools catalogued**: not measured on any product of this vendor
 
-- **Bench tested**: 0 of 1 here, 1 of 1,251 across the directory
+- **Bench tested**: 0 of 1 here, 1 of 1,252 across the directory
 
 - **Ships a CLI**: not measured on this build
 
@@ -88,6 +88,6 @@ The GitHub organisation layer has not been measured on this build.
 
 **What this page does not claim**
 
-A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,251 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
+A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-12 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-14 by build_directory.py (phase 1).

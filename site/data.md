@@ -1,6 +1,6 @@
 # The data: directory.json, published in full
 
-> The whole GTM MCP Directory as JSON: 336 entries, 200 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-14.
+> The whole GTM MCP Directory as JSON: 1,252 entries, 201 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-14.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -23,12 +23,12 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 - [llms.txt](llms.txt)
 
-- **entries**: 336
-320
+- **entries**: 1,252
+1,236
 
 **unique products**
 
-200
+201
 
 **official MCP servers**
 
@@ -36,7 +36,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **job tags**
 
-1,468
+4,092
 
 **source URLs**
 
@@ -48,9 +48,9 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 | File | Bytes | What it is |
 |---|---|---|
-| [data/directory.json](data/directory.json) | 6,002,324 | Every entry with every field, the 15 category blocks, the closed 56 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
-| [data/build_report.json](data/build_report.json) | 57,627 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 49 entries the tagging pass flagged for human review. |
-| [search-index.json](search-index.json) | 383,492 | One compact record per unique product, which is what the on page search runs over. |
+| [data/directory.json](data/directory.json) | 9,422,580 | Every entry with every field, the 15 category blocks, the closed 56 job vocabulary with its per job counts, the duplicate groups, and the counts block the whole site renders from. |
+| [data/build_report.json](data/build_report.json) | 130,605 | The counting authority's report: per file reconciliation, field coverage, every place this build is thin, and the 49 entries the tagging pass flagged for human review. |
+| [search-index.json](search-index.json) | 1,143,689 | One compact record per unique product, which is what the on page search runs over. |
 | [llms.txt](llms.txt) | text | The map, for agents and crawlers. Every section of the site with a one line description. |
 
 **Every field on an entry**
@@ -74,7 +74,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **How to read it without getting it wrong**
 
-**Two counts exist and both are correct.** 336 entries, 320 unique products. The difference is 16 products deliberately listed in two categories. Filter on `canonical` for products, count everything for entries.
+**Two counts exist and both are correct.** 1,252 entries, 1,236 unique products. The difference is 16 products deliberately listed in two categories. Filter on `canonical` for products, count everything for entries.
 
 **Buckets are normalised, verbatim fields are not.** Every bucket has a matching raw field beside it. When they disagree, the raw field is the fact.
 
@@ -82,7 +82,7 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **A job tag is not a test.** A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-**Null means unmeasured, not zero.** Every github_* field and docs_digest is null on all 336 entries because the rail that would fill them has not run.
+**Null means unmeasured, not zero.** Every github_* field and docs_digest is null on all 1,252 entries because the rail that would fill them has not run.
 
 **Terms**
 
@@ -98,6 +98,6 @@ Facts about third party products are recorded from those vendors' own public sou
 
 - **Schema version**: 1.1
 
-- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: b62f66696e4607e90fa28de0...
+- **Reconciled against tools_recount.py Network calls during the build 0 Content sha256**: 031944b7194b24feeb856475...
 
 The canonical base URL used by the sitemap, the canonical tags and llms.txt is https://andrewcmcguire.com/gtm-directory, live at that address since 2026-08-27. See the [methodology page](methodology.md).

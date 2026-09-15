@@ -52,7 +52,7 @@ none-found
 
 **Command line**
 
-No CLI found by the 2026-09-14 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-12 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -64,13 +64,13 @@ api_gate, verbatim from the file:
 
 unknown
 
-33 of 336 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
+949 of 1252 entries carry an unknown gate. Unknown is a legal answer and it ships as unknown rather than as a guess.
 
 **API documentation**
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1252 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -92,7 +92,7 @@ No job tag on this entry.
 
 Reason recorded by the tagging pass: unclear. The entry could not verify current content. discover-mcp-servers is the obvious tag and there is no fetched evidence for it.
 
-65 of 336 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
+981 of 1,252 entries are untagged. An empty list here means nobody has tagged this, not that the tool does nothing. The vocabulary is closed, so a tool whose job is genuinely not in it stays blank rather than being forced into the nearest tag.
 
 **Sources**
 

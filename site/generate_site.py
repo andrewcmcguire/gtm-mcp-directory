@@ -8440,6 +8440,9 @@ def extensionless_links(out: Path) -> int:
 # checks
 # ----------------------------------------------------------------------------------
 
+RETIRED_BARE_DOMAIN = re.compile(r"(?<![a-z0-9.-])(?:www\.)?gtmsignals\.co(?![a-z0-9-])")
+
+
 def check(out: Path, d, expect_pages):
     problems = []
     files = sorted(p for p in out.rglob("*.html"))
@@ -8454,7 +8457,11 @@ def check(out: Path, d, expect_pages):
         # HANDOFF 2.7: the retired domain must not come back as a content pillar, banner or
         # CTA. The one appearance allowed since 2026-09-04 is the publisher provenance line, which
         # is attribution. Strip that exact URL, then anything left is a regression.
-        if ("gtm" + "signals") in t.lower().replace(PROVENANCE_HTML.lower(), ""):
+        # 2026-09-14 (Andrew): the test is the bare domain, not the word. GTM Signals is now a listed
+        # entry whose real MCP endpoint is mcp.gtmsignals.co and whose home is the apex path
+        # /gtmsignals/, so subdomains and the apex path are facts, not a pillar. Bare gtmsignals.co
+        # (with or without www or a scheme) is still a regression.
+        if RETIRED_BARE_DOMAIN.search(t.lower().replace(PROVENANCE_HTML.lower(), "")):
             problems.append(f"retired-domain reference in {rp}")
         for tag in ("<html", "</html>", "<title>", "</body>", "assets/site.css"):
             if tag not in t:

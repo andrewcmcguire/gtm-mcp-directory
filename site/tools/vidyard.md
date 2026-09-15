@@ -61,14 +61,14 @@ https://viasocket.com/mcp/vidyard (third-party viaSocket connector; no vendor-pu
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-14. The full roll up is on the [tools index](../tools-index.md).
+119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: vy-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-14
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -76,13 +76,13 @@ Install, as the source shows it:
 npm install -g @vidyard/vy-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@vidyard/vy-cli](https://www.npmjs.com/package/@vidyard/vy-cli) on 2026-09-14, via npm
+quoted from [https://www.npmjs.com/package/@vidyard/vy-cli](https://www.npmjs.com/package/@vidyard/vy-cli) on 2026-09-12, via npm
 
-Packages seen, with the version on 2026-09-14:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: @vidyard/vy-cli 1.1.0](https://www.npmjs.com/package/@vidyard/vy-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-14.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -98,7 +98,7 @@ paid, with conflicting detail. Vidyard's own docs say the Video Agent API is ava
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1252 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -133,7 +133,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,252 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

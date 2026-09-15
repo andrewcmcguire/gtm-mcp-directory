@@ -68,14 +68,14 @@ Recorded by the harvest: every tool is one of the customer's own connected Zaps
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-14. The full roll up is on the [tools index](../tools-index.md).
+119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: zapier-platform
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-14
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -83,25 +83,25 @@ Install, as the source shows it:
 npx zapier
 ```
 
-quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-14, via npx
+quoted from [https://zapier.com/sdk](https://zapier.com/sdk) on 2026-09-12, via npx
 
 ```
 npm install -g zapier-platform-cli
 ```
 
-quoted from [https://www.npmjs.com/package/zapier-platform-cli](https://www.npmjs.com/package/zapier-platform-cli) on 2026-09-14, via npm
+quoted from [https://www.npmjs.com/package/zapier-platform-cli](https://www.npmjs.com/package/zapier-platform-cli) on 2026-09-12, via npm
 
 ```
 npm install -g @zapier/zapier-sdk-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@zapier/zapier-sdk-cli](https://www.npmjs.com/package/@zapier/zapier-sdk-cli) on 2026-09-14, via npm
+quoted from [https://www.npmjs.com/package/@zapier/zapier-sdk-cli](https://www.npmjs.com/package/@zapier/zapier-sdk-cli) on 2026-09-12, via npm
 
 Login or key hint seen on the page:
 
 handles auth
 
-Packages seen, with the version on 2026-09-14:
+Packages seen, with the version on 2026-09-12:
 
 - [npm: zapier-platform-cli 19.1.0](https://www.npmjs.com/package/zapier-platform-cli)
 - [npm: @zapier/zapier-sdk-cli 0.83.1](https://www.npmjs.com/package/@zapier/zapier-sdk-cli)
@@ -110,7 +110,7 @@ Where it was documented:
 
 - [https://zapier.com/sdk](https://zapier.com/sdk) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-14.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -126,7 +126,7 @@ free - MCP/AI-product access is included on all plans including Free (100 tasks/
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1252 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -167,7 +167,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,252 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

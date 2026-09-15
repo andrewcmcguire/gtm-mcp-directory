@@ -60,18 +60,38 @@ https://github.com/exa-labs/exa-mcp-server (hosted endpoint https://mcp.exa.ai/m
 
 **What this server exposes**
 
-- **Tools named**: 2
+- **Tools named**: 11
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-14
+- **Harvested**: 2026-09-12
+- **Repo read**: exa-labs/exa-mcp-server
+- **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
+- **agent_run** Start or resume an Exa Agent run; runs may take several minutes. Retain the returned run ID and resume with runId when the tool reports the run is still running. An interrupted tool call is not an explicit cancellation request. evidence: in the server source · calling it writes
+
+- **company_research_exa** [Deprecated: Use web_search_advanced_exa instead] Research any company to get business information, news, and insights. Best for: Learning about a company evidence: in the server source · calling it reads
+
+- **deep_researcher_check** [Deprecated] Check status and get results from a deep research task. Best for: Getting the research report after calling deep_researcher_start. Returns: Research report when complete, or status update if still running. Important: Keep call evidence: in the server source · calling it reads
+
+- **deep_researcher_start** [Deprecated] Start an AI research agent that searches, reads, and writes a detailed report. Takes 15 seconds to 2 minutes. Best for: Complex research questions needing deep analysis and synthesis. Returns: Research ID - use deep_researcher evidence: in the server source · calling it writes
+
+- **deep_search_exa** [Deprecated: Use web_search_advanced_exa instead] Deep search with automatic query expansion for thorough research. Generates multiple search variations to find results from multiple angles, then synthesizes a short answer with citations. evidence: in the server source · calling it reads
+
+- **get_code_context_exa** Find code examples, documentation, and programming solutions. Best for: Any programming question - API usage, library examples, code snippets, debugging help. Returns: Relevant code and documentation. Query tips: describe what you evidence: in the server source · calling it reads
+
+- **linkedin_search_exa** ⚠️ DEPRECATED: This tool is deprecated. Please use evidence: in the server source · calling it reads
+
+- **people_search_exa** [Deprecated: Use web_search_advanced_exa instead] Find people and their professional profiles. Best for: Finding professionals, executives, or anyone with a public profile. Returns: Profile information and links. evidence: in the server source · calling it reads
+
 - **web_fetch_exa** Read a webpage's full content as clean markdown. Use after web_search_exa when highlights are insufficient or to read any URL. Best for: Extracting full content from known URLs. Batch multiple URLs in one call. Returns: Clean text content evidence: answered tools/list · calling it reads · required: urls
+
+- **web_search_advanced_exa** Advanced web search with full control over filters, domains, dates, and content options. Best for: When you need specific filters like date ranges, domain restrictions, or category filters. Not recommended for: Simple searches - use web_se evidence: in the server source · calling it reads
 
 - **web_search_exa** Search the web for any topic and get clean, ready-to-use content. Best for: Finding current information, news, facts, people, companies, or answering questions about any topic. Returns: Clean text content from top search result evidence: answered tools/list · calling it reads · required: query, objective
 
-122 of the 225 entries that record an official or community MCP server carry a harvested tool list. The other 103 are unmeasured, which is not the same as empty. Harvest last run 2026-09-14. Every name across every server is on the [tools index](../tools-index.md).
+119 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 622 are unmeasured, which is not the same as empty. Harvest last run 2026-09-12. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -80,7 +100,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: exa-cli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-14
+- **Harvested**: 2026-09-12
 
 Install, as the source shows it:
 
@@ -88,14 +108,14 @@ Install, as the source shows it:
 pip install exa-cli
 ```
 
-quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-14, via pypi, a third party source
+quoted from [https://pypi.org/project/exa-cli/](https://pypi.org/project/exa-cli/) on 2026-09-12, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-14:
+Packages seen, with the version on 2026-09-12:
 
 - [pypi: exa-cli 0.1.0, third party](https://pypi.org/project/exa-cli/)
 - [pypi: exa-cli 0.1.0, third party](https://pypi.org/project/exa-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-14.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-12.
 
 **Access gate**
 
@@ -111,7 +131,7 @@ free
 
 No documentation URL recorded.
 
-307 of 336 entries are in the same position. Blank is legal and it is published as blank.
+727 of 1252 entries are in the same position. Blank is legal and it is published as blank.
 
 **GitHub health**
 
@@ -151,7 +171,7 @@ Kind is a heuristic guessed from the repository name, topics and description, no
 
 A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
-Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 336 entries carry at least one tag; 849 tags are assigned in total.
+Tagged by machine-pass on 2026-08-25 against the closed 56 job vocabulary. 271 of 1,252 entries carry at least one tag; 849 tags are assigned in total.
 
 **Sources**
 

@@ -1,6 +1,6 @@
-# GTM MCP servers that use an API key: 53 tools, counted
+# GTM MCP servers that use an API key: 54 tools, counted
 
-> 53 of the 225 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-14.
+> 54 of the 741 GTM tools with an MCP server use an API key. The verbatim auth field for each one is printed beside it. Counted 2026-09-14.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -10,7 +10,7 @@
 [Directory](../index.md) /
 [The lists](index.md) / GTM MCP servers that use an API key
 
-**List · 53 of 336**
+**List · 54 of 1,252**
 
 ## GTM MCP servers that use an API key
 
@@ -102,6 +102,8 @@ hginsights.com | [Official MCP](../mcp/official.md) | [https://learn.microsoft.c
 madkudu.com | [Official MCP](../mcp/official.md) | [https://developers.madkudu.com/madkudu-mcp/install-i...](https://developers.madkudu.com/madkudu-mcp/install-in-ai-platforms-in-2min) +2 more | MadKudu API key embedded in the endpoint path; the portal states "Please contact HG Insights or your account manager if you're interested in the... | [Enterprise only](../gates/enterprise-only.md) |
 | [Surfe](../tools/surfe.md)
 surfe.com | [Official MCP](../mcp/official.md) | [https://mcp.eu.surfe.com/mcp](https://mcp.eu.surfe.com/mcp) +1 more | Surfe API key, with a browser sign-in flow that exchanges the key for a managed token so it is entered once, or the key passed directly per call.... | [Enterprise only](../gates/enterprise-only.md) |
+| [GTM Signals](../tools/gtm-signals.md)
+andrewcmcguire.com | [Official MCP](../mcp/official.md) | [https://mcp.gtmsignals.co/mcp](https://mcp.gtmsignals.co/mcp) | api key, sent as `Authorization: Bearer gtms_...`. Streamable HTTP, stateless, protocol version 2025-06-18. The descriptor at... | [Gate unknown](../gates/unknown.md) |
 | [RevenueHero](../tools/revenuehero.md)
 revenuehero.io | [Official MCP](../mcp/official.md) | [https://www.revenuehero.io/resources/tales-of-ops](https://www.revenuehero.io/resources/tales-of-ops) | Per-customer router token over an SSE endpoint, manually provisioned by RevenueHero - not a self-serve API-key flow. | [Gate unknown](../gates/unknown.md) |
 | [Loom](../tools/loom.md)
@@ -125,4 +127,4 @@ zoominfo.com | [Community MCP](../mcp/community.md) | [https://github.com/openso
 | [Copy.ai (GTM AI Platform)](../tools/copy-ai.md)
 copy.ai | [Community MCP](../mcp/community.md) | [https://github.com/anhuaxiang/copy-ai-mcp](https://github.com/anhuaxiang/copy-ai-mcp) | API key via COPY_AI_API_KEY environment variable | [Enterprise only](../gates/enterprise-only.md) |
 
-Counted 2026-09-14 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 336 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-14 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,252 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
