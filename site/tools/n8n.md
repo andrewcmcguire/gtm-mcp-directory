@@ -18,7 +18,6 @@ n8n
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: n8n-node
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -67,28 +66,11 @@ Recorded by the harvest: the MCP trigger exposes whatever workflow the customer 
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: n8n-node
-- **Status**: official CLI, first party
-- **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
-
-Install, as the source shows it:
-
-```
-npm install -g @n8n/node-cli
-```
-
-quoted from [https://www.npmjs.com/package/@n8n/node-cli](https://www.npmjs.com/package/@n8n/node-cli) on 2026-09-15, via npm
-
-Packages seen, with the version on 2026-09-15:
-
-- [npm: @n8n/node-cli 0.47.2](https://www.npmjs.com/package/@n8n/node-cli)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -173,6 +155,6 @@ n8n's MCP nodes are first-party/built-in, not a community add-on - distinguish f
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

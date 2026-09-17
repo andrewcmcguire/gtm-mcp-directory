@@ -1,6 +1,6 @@
 # Apify: products, MCP servers and connect URLs, one vendor page
 
-> Apify (apify.com): 3 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 23 tools catalogued. Data baked 2026-09-15.
+> Apify (apify.com): 3 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 23 tools catalogued. Data baked 2026-09-17.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Apify
 3 products in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-15
+Data baked 2026-09-17
 
 Vendor domain: [apify.com](https://apify.com) · vendor page id apify-com
 
@@ -34,11 +34,11 @@ Vendor domain: [apify.com](https://apify.com) · vendor page id apify-com
 
 - **Docs only**: 0 of 3: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 23 named across 1 measured server, harvested 2026-09-15
+- **Tools catalogued**: 23 named across 1 measured server, harvested 2026-09-17
 
 - **Bench tested**: 0 of 3 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 3 of 3 official, 0 community only, 0 none found, harvested 2026-09-15
+- **Ships a CLI**: 3 of 3 official, 0 community only, 0 none found, harvested 2026-09-17
 
 - **GitHub organisation**: [github.com/apify](https://github.com/apify), tied to the domain with evidence 2026-09-08, 2026-09-15
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 23 named, harvested 2026-09-15, catalogue fixed
+- **Tools catalogued**: 23 named, harvested 2026-09-17, catalogue fixed
 
 - **last_checked**: 2026-09-07
 
@@ -118,9 +118,9 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 brew install apify-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-15, via brew
+quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-17, via brew
 
-harvested 2026-09-15, all on the [tool page](../tools/apify.md).
+harvested 2026-09-17, all on the [tool page](../tools/apify.md).
 
 ### [Google Maps Lead MCP by NextGenData](../tools/google-maps-lead-mcp-by-nextgendata.md) actor official CLI
 
@@ -128,9 +128,9 @@ harvested 2026-09-15, all on the [tool page](../tools/apify.md).
 npm install -g apify-cli
 ```
 
-quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-15, via npm
+quoted from [https://www.npmjs.com/package/apify-cli](https://www.npmjs.com/package/apify-cli) on 2026-09-17, via npm
 
-1 more install command, harvested 2026-09-15, all on the [tool page](../tools/google-maps-lead-mcp-by-nextgendata.md).
+1 more install command, harvested 2026-09-17, all on the [tool page](../tools/google-maps-lead-mcp-by-nextgendata.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -161,4 +161,4 @@ No organisation could be tied with evidence to the entry for [Google Maps Lead M
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 3 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-15 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-17 by build_directory.py (phase 1).

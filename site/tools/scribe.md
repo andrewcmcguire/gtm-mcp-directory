@@ -56,7 +56,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: scribe
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
 
@@ -64,33 +64,33 @@ Install, as the source shows it:
 npm install -g @losthex/scribe
 ```
 
-quoted from [https://www.npmjs.com/package/@losthex/scribe](https://www.npmjs.com/package/@losthex/scribe) on 2026-09-15, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@losthex/scribe](https://www.npmjs.com/package/@losthex/scribe) on 2026-09-17, via npm, a third party source
 
 ```
 npm install -g @scribe-sdk/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@scribe-sdk/cli](https://www.npmjs.com/package/@scribe-sdk/cli) on 2026-09-15, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@scribe-sdk/cli](https://www.npmjs.com/package/@scribe-sdk/cli) on 2026-09-17, via npm, a third party source
 
 ```
 npm install -g @rambleventures/scribe
 ```
 
-quoted from [https://www.npmjs.com/package/@rambleventures/scribe](https://www.npmjs.com/package/@rambleventures/scribe) on 2026-09-15, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@rambleventures/scribe](https://www.npmjs.com/package/@rambleventures/scribe) on 2026-09-17, via npm, a third party source
 
 ```
 npm install -g kinelo-scribe-client
 ```
 
-quoted from [https://www.npmjs.com/package/kinelo-scribe-client](https://www.npmjs.com/package/kinelo-scribe-client) on 2026-09-15, via npm, a third party source
+quoted from [https://www.npmjs.com/package/kinelo-scribe-client](https://www.npmjs.com/package/kinelo-scribe-client) on 2026-09-17, via npm, a third party source
 
 ```
 pip install scribe-cli
 ```
 
-quoted from [https://pypi.org/project/scribe-cli/](https://pypi.org/project/scribe-cli/) on 2026-09-15, via pypi, a third party source
+quoted from [https://pypi.org/project/scribe-cli/](https://pypi.org/project/scribe-cli/) on 2026-09-17, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-15:
+Packages seen, with the version on 2026-09-17:
 
 - [npm: @losthex/scribe 0.2.0, third party](https://www.npmjs.com/package/@losthex/scribe)
 - [npm: @scribe-sdk/cli 0.1.0-alpha.10, third party](https://www.npmjs.com/package/@scribe-sdk/cli)
@@ -99,7 +99,7 @@ Packages seen, with the version on 2026-09-15:
 - [pypi: scribe-cli 1.2.0, third party](https://pypi.org/project/scribe-cli/)
 - [pypi: scribe-cli 1.2.0, third party](https://pypi.org/project/scribe-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -163,6 +163,6 @@ what_it_does used YC/source one_liner because homepage meta description was empt
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

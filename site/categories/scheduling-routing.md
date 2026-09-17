@@ -24,7 +24,7 @@ The last mile of a GTM motion: turning a qualified lead into a meeting on a rep'
 - **MCP not applicable**: 1
 - **No MCP found**: 7
 
-- **ship a CLI (official) as of 2026-09-15**: 0
+- **ship a CLI (official) as of 2026-09-17**: 0
 
 - **Free to start**: 2
 - **Paid, self-serve**: 4
@@ -42,7 +42,7 @@ Source file: 10-scheduling-routing.md · content sha256 839eddeddc20c270... · c
 
 - [Cal.com](../tools/cal-com.md) cal.com Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source product and as hosted SaaS. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
 
-- [Calendly](../tools/calendly.md) calendly.com Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md)
+- [Calendly](../tools/calendly.md) calendly.com Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · CLI: calendly-axi (community)
 
 - [Chili Piper](../tools/chili-piper.md) chilipiper.com Inbound lead-routing and instant meeting-booking platform ("Concierge") that qualifies web-form leads and books them directly onto the right rep's calendar in real time. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md)
 

@@ -18,7 +18,7 @@ Revnu
 [AI SDRs](../categories/ai-sdr-agents.md)
 RESEARCHED
 Checked 2026-09-12
-CLI: revnu-setup
+CLI: revnu
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -51,31 +51,31 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-- **Binary**: revnu-setup
+- **Binary**: revnu
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
-
-```
-npm install -g @revnu/setup
-```
-
-quoted from [https://www.npmjs.com/package/@revnu/setup](https://www.npmjs.com/package/@revnu/setup) on 2026-09-15, via npm
 
 ```
 npm install -g @revnu/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@revnu/cli](https://www.npmjs.com/package/@revnu/cli) on 2026-09-15, via npm
+quoted from [https://www.npmjs.com/package/@revnu/cli](https://www.npmjs.com/package/@revnu/cli) on 2026-09-17, via npm
 
-Packages seen, with the version on 2026-09-15:
+```
+npm install -g @revnu/setup
+```
 
-- [npm: @revnu/setup 0.3.0](https://www.npmjs.com/package/@revnu/setup)
+quoted from [https://www.npmjs.com/package/@revnu/setup](https://www.npmjs.com/package/@revnu/setup) on 2026-09-17, via npm
+
+Packages seen, with the version on 2026-09-17:
+
 - [npm: @revnu/cli 0.1.0](https://www.npmjs.com/package/@revnu/cli)
+- [npm: @revnu/setup 0.3.0](https://www.npmjs.com/package/@revnu/setup)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -138,6 +138,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

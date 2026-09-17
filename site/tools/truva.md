@@ -56,7 +56,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: truva
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 pip install truva
 ```
 
-quoted from [https://pypi.org/project/truva/](https://pypi.org/project/truva/) on 2026-09-15, via pypi, a third party source
+quoted from [https://pypi.org/project/truva/](https://pypi.org/project/truva/) on 2026-09-17, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-15:
+Packages seen, with the version on 2026-09-17:
 
 - [pypi: truva 0.2.0, third party](https://pypi.org/project/truva/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -131,6 +131,6 @@ Homepage fetch failed (URLError: <urlopen error [Errno 11001] getaddrinfo failed
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

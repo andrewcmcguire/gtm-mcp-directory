@@ -59,7 +59,7 @@ https://registry.smithery.ai/servers?q=enrich
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
@@ -68,7 +68,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: particle
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
 
@@ -76,13 +76,13 @@ Install, as the source shows it:
 npm install -g particle-cli
 ```
 
-quoted from [https://www.npmjs.com/package/particle-cli](https://www.npmjs.com/package/particle-cli) on 2026-09-15, via npm, a third party source
+quoted from [https://www.npmjs.com/package/particle-cli](https://www.npmjs.com/package/particle-cli) on 2026-09-17, via npm, a third party source
 
-Packages seen, with the version on 2026-09-15:
+Packages seen, with the version on 2026-09-17:
 
 - [npm: particle-cli 3.50.2, third party](https://www.npmjs.com/package/particle-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -145,6 +145,6 @@ API mentioned on https://particle.pro/llms.txt; pricing/gate not inferred from p
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

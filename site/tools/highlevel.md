@@ -18,6 +18,7 @@ HighLevel (GoHighLevel)
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-08-25
+CLI: ghl
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,11 +62,28 @@ https://services.leadconnectorhq.com/mcp/ (docs: https://marketplace.gohighlevel
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+- **Binary**: ghl
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-17
+
+Install, as the source shows it:
+
+```
+npm install -g @gohighlevel/marketplace-cli
+```
+
+quoted from [https://www.npmjs.com/package/@gohighlevel/marketplace-cli](https://www.npmjs.com/package/@gohighlevel/marketplace-cli) on 2026-09-17, via npm
+
+Packages seen, with the version on 2026-09-17:
+
+- [npm: @gohighlevel/marketplace-cli 0.1.1](https://www.npmjs.com/package/@gohighlevel/marketplace-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -147,6 +165,6 @@ Added 2026-08-25 in the coverage sweep. 36 native tools at time of check, across
 
 - **last_checked**: 2026-08-25
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

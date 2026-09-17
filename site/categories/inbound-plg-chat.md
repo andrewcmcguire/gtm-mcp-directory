@@ -24,7 +24,7 @@ Tools that sit on the receiving end of demand - website chat that qualifies and 
 - **MCP not applicable**: 1
 - **No MCP found**: 36
 
-- **ship a CLI (official) as of 2026-09-15**: 9
+- **ship a CLI (official) as of 2026-09-17**: 9
 
 - **Free to start**: 4
 - **Paid, self-serve**: 6
@@ -59,7 +59,7 @@ Source file: 14-inbound-plg-chat.md · content sha256 82d247bebb5d342a... · cou
 
 - [Ada](../tools/ada.md) ada.cx Enterprise AI customer-experience platform (voice, chat, email) that automates inbound support and sales conversations end-to-end. [Official MCP](../mcp/official.md) · [Enterprise only](../gates/enterprise-only.md)
 
-- [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
+- [Endgame](../tools/endgame.md) endgame.io A GTM "context graph" platform that ingests calls, deals, emails, and documents into a queryable knowledge base for AI agents and reps - positioned today as broader account/revenue-intelligence infrastructure,... [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md) · CLI: khub (community)
 
 - [Pylon](../tools/pylon.md) usepylon.com "Agentic" B2B customer support platform (Slack, Teams, email, chat, SMS, WhatsApp, phone) where AI agents and humans jointly investigate, resolve, and act on support signals. [Official MCP](../mcp/official.md) · [Gate unknown](../gates/unknown.md)
 

@@ -50,7 +50,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -114,6 +114,6 @@ Homepage had no meta description; what_it_does kept minimal and source-tied. mcp
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

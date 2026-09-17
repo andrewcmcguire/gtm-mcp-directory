@@ -18,7 +18,7 @@ COACH
 [Enablement & Coaching](../categories/enablement-coaching.md)
 RESEARCHED
 Checked 2026-09-12
-CLI: rt-claude-coach (community)
+CLI: coach-cli (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -53,32 +53,25 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
 
-- **Binary**: rt-claude-coach
+- **Binary**: coach-cli
 - **Status**: community CLI, third party
-- **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
+- **Strongest evidence**: pypi
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
-
-```
-npm install -g @robinthues/rt-claude-coach
-```
-
-quoted from [https://www.npmjs.com/package/@robinthues/rt-claude-coach](https://www.npmjs.com/package/@robinthues/rt-claude-coach) on 2026-09-15, via npm, a third party source
 
 ```
 pip install coach-cli
 ```
 
-quoted from [https://pypi.org/project/coach-cli/](https://pypi.org/project/coach-cli/) on 2026-09-15, via pypi, a third party source
+quoted from [https://pypi.org/project/coach-cli/](https://pypi.org/project/coach-cli/) on 2026-09-17, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-15:
+Packages seen, with the version on 2026-09-17:
 
-- [npm: @robinthues/rt-claude-coach 0.2.0, third party](https://www.npmjs.com/package/@robinthues/rt-claude-coach)
 - [pypi: coach-cli 1.2, third party](https://pypi.org/project/coach-cli/)
 - [pypi: coach-cli 1.2, third party](https://pypi.org/project/coach-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -140,6 +133,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

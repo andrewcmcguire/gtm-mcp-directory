@@ -65,14 +65,14 @@ Recorded by the harvest: a unified API gateway; its tools are the vendors it wra
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: stackone
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
 
@@ -80,13 +80,13 @@ Install, as the source shows it:
 npm install -g @stackone/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@stackone/cli](https://www.npmjs.com/package/@stackone/cli) on 2026-09-15, via npm
+quoted from [https://www.npmjs.com/package/@stackone/cli](https://www.npmjs.com/package/@stackone/cli) on 2026-09-17, via npm
 
-Packages seen, with the version on 2026-09-15:
+Packages seen, with the version on 2026-09-17:
 
 - [npm: @stackone/cli 1.47.3](https://www.npmjs.com/package/@stackone/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -169,6 +169,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://api.stackone.com/mcp r
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

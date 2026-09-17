@@ -23,7 +23,7 @@ Content-management-and-training platforms (Mindtickle, WorkRamp, Continu, Trainu
 - **MCP unknown**: 3
 - **No MCP found**: 52
 
-- **ship a CLI (official) as of 2026-09-15**: 2
+- **ship a CLI (official) as of 2026-09-17**: 2
 
 - **Paid, self-serve**: 1
 - **Enterprise only**: 6
@@ -78,7 +78,7 @@ Source file: 11-enablement-coaching.md · content sha256 5be068842eedb90d... · 
 
 - [Clok](../tools/clok.md) clok.com Sales enablement, interactive experiences and training tools for complex products. We help teams explain products more clearly, improve understanding and support better customer conversations. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [COACH](../tools/coach.md) getcoach.com AI Coach gives every field sales rep personalized coaching after every meeting, helps managers prioritize coaching opportunities, and turns customer conversations into actionable sales intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: rt-claude-coach (community)
+- [COACH](../tools/coach.md) getcoach.com AI Coach gives every field sales rep personalized coaching after every meeting, helps managers prioritize coaching opportunities, and turns customer conversations into actionable sales intelligence. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: coach-cli (community)
 
 - [Coast](../tools/coast.md) trycoast.com The first AI-powered demo platform designed to sell, market and implement technical products with ease. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: coast-fire-calculator-cli (community)
 

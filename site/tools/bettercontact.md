@@ -18,6 +18,7 @@ BetterContact
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-03
+CLI: bettercontact
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,24 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+- **Binary**: bettercontact
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-17
+
+Install, as the source shows it:
+
+```
+npm install -g bettercontact
+```
+
+quoted from [https://www.npmjs.com/package/bettercontact](https://www.npmjs.com/package/bettercontact) on 2026-09-17, via npm
+
+Packages seen, with the version on 2026-09-17:
+
+- [npm: bettercontact 0.2.1](https://www.npmjs.com/package/bettercontact)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -130,6 +148,6 @@ No genuine MCP server found despite checking bettercontact.rocks, kb.betterconta
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

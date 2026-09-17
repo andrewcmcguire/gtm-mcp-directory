@@ -18,6 +18,7 @@ Calendly
 [Scheduling & Routing](../categories/scheduling-routing.md)
 RESEARCHED
 Checked 2026-09-07
+CLI: calendly-axi (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -63,7 +64,7 @@ https://mcp.calendly.com ; https://developer.calendly.com/calendly-mcp-server (h
 
 - **Tools named**: 36
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -140,11 +141,37 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **users-get_user** Get a specific user by UUID evidence: in the vendor docs · calling it reads
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
+
+- **Binary**: calendly-axi
+- **Status**: community CLI, third party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-17
+
+Install, as the source shows it:
+
+```
+npm install -g calendly-axi
+```
+
+quoted from [https://www.npmjs.com/package/calendly-axi](https://www.npmjs.com/package/calendly-axi) on 2026-09-17, via npm, a third party source
+
+```
+npm install -g calendly-cli
+```
+
+quoted from [https://www.npmjs.com/package/calendly-cli](https://www.npmjs.com/package/calendly-cli) on 2026-09-17, via npm, a third party source
+
+Packages seen, with the version on 2026-09-17:
+
+- [npm: calendly-axi 1.2.0, third party](https://www.npmjs.com/package/calendly-axi)
+- [npm: calendly-cli 1.0.5, third party](https://www.npmjs.com/package/calendly-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -227,6 +254,6 @@ MCP server released March 11, 2026 (community announcement date). First release 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -1,61 +1,62 @@
 {
  "kind": "The GTM Engineer job board",
- "verified_on": "2026-08-27",
- "verify_source": "verify_2026-08-27.json",
- "law": "Every listing on this board was fetched live on 2026-08-27 and answered. Dead links are removed weekly, not left to rot.",
+ "verified_on": "2026-09-14",
+ "verify_source": "verify_2026-09-14.json",
+ "law": "Every listing on this board was fetched live on 2026-09-14 and answered. Dead links are removed weekly, not left to rot.",
  "counts": {
-  "live": 66,
-  "companies": 37,
-  "checked": 126,
-  "removed_this_pass": 60,
-  "dead": 57,
-  "unverified": 3,
-  "changed": 0,
-  "with_salary": 54,
+  "live": 129,
+  "companies": 49,
+  "checked": 158,
+  "removed_this_pass": 29,
+  "dead": 25,
+  "unverified": 4,
+  "changed": 4,
+  "with_salary": 95,
   "found_via_post": 0,
   "families": 7
  },
  "method": {
-  "what": "Every req in jobs.db, plus the hand-verified roles roundups and any post drops, fetched at the exact URL the board publishes.",
-  "fetch": "GET, real browser user agent, 10s timeout, 2 concurrent, 1 retry.",
+  "what": "Every GTM-engineering req found on the public ATS feeds of 152 watched employers, plus every req on the previous board, fetched at the exact URL the board publishes.",
+  "fetch": "GET, real browser user agent, 10s timeout, 4 concurrent, 1 retry.",
   "cross_check": "Where the employer runs a public Greenhouse, Lever or Ashby board feed, the req id is also checked against that feed. A req the employer's own feed has dropped is dead even if the page still loads.",
   "publishable": "Only status=live reaches the board. dead and unverified are published here and nowhere else.",
-  "changed": "changed=true is a live req whose title, location, remote flag, salary or posted date moved since it was recorded. The board publishes the new value.",
-  "cost": "$0. Free public HTTP only. No paid API, no LinkedIn, no scraping of anything behind a login."
+  "changed": "changed=true is a live req whose title, location, remote flag or salary moved since it was recorded. The board publishes the new value.",
+  "cost": "$0. Free public HTTP only. No paid API, no LinkedIn, no scraping of anything behind a login.",
+  "typography": "Titles are the employer's own, except that em and en dashes are printed as a plain hyphen so the site's build check passes."
  },
  "derivations": {
   "title_family": "Ordered substring match over the employer's own job title. First rule that matches wins. It is a filing decision, not a judgement about the work.",
   "seniority": "Ordered substring match over the title only. A title that says nothing about level is filed as not stated rather than guessed.",
   "region": "Substring match over the employer's own location string. A req naming several cities appears under each of them.",
-  "salary": "Printed only where the employer publishes it in the machine readable field of their own board feed. Never estimated, never inferred from a range seen elsewhere.",
+  "salary": "Printed only where the employer publishes it: the machine readable pay field of their own board feed first, else the first range printed in their own posting text. Never estimated, never inferred from a range seen elsewhere.",
   "days_tracked": "Days between the first time this lane saw the req and the verification date. It is not a posted date and it is not claimed to be."
  },
  "facets": {
   "family": [
    {
-    "slug": "gtm-engineer",
-    "label": "GTM Engineering",
-    "count": 31
-   },
-   {
     "slug": "revops",
     "label": "RevOps and GTM Operations",
-    "count": 10
+    "count": 50
    },
    {
-    "slug": "gtm-systems",
-    "label": "GTM Systems Engineering",
-    "count": 9
+    "slug": "gtm-engineer",
+    "label": "GTM Engineering",
+    "count": 38
    },
    {
     "slug": "other-gtm",
     "label": "Other GTM technical",
-    "count": 9
+    "count": 18
+   },
+   {
+    "slug": "gtm-systems",
+    "label": "GTM Systems Engineering",
+    "count": 14
    },
    {
     "slug": "growth-engineer",
     "label": "Growth Engineering",
-    "count": 4
+    "count": 6
    },
    {
     "slug": "ai-engineering",
@@ -72,86 +73,66 @@
    {
     "slug": "sf-bay",
     "label": "San Francisco Bay Area",
-    "count": 36
+    "count": 68
    },
    {
     "slug": "nyc",
     "label": "New York",
-    "count": 26
+    "count": 41
    },
    {
     "slug": "us-other",
     "label": "United States, elsewhere",
-    "count": 8
+    "count": 26
    },
    {
     "slug": "international",
     "label": "Outside the United States",
+    "count": 17
+   },
+   {
+    "slug": "seattle",
+    "label": "Seattle",
     "count": 5
    },
    {
     "slug": "austin",
     "label": "Austin",
-    "count": 4
-   },
-   {
-    "slug": "seattle",
-    "label": "Seattle",
     "count": 2
-   },
-   {
-    "slug": "boston",
-    "label": "Boston",
-    "count": 1
-   },
-   {
-    "slug": "unstated",
-    "label": "Location not stated",
-    "count": 1
-   },
-   {
-    "slug": "remote-unstated",
-    "label": "Remote, region not stated",
-    "count": 1
    }
   ],
   "remote": [
    {
     "slug": "onsite",
     "label": "On-site or hybrid",
-    "count": 37
+    "count": 72
    },
    {
     "slug": "remote",
     "label": "Remote",
-    "count": 29
+    "count": 57
    }
   ],
   "seniority": [
    {
     "slug": "unstated",
     "label": "Not stated in the title",
-    "count": 39
+    "count": 62
    },
    {
     "slug": "leadership",
     "label": "Leadership",
-    "count": 17
+    "count": 50
    },
    {
     "slug": "senior",
     "label": "Senior",
-    "count": 4
+    "count": 11
    },
    {
     "slug": "staff",
     "label": "Staff or Principal",
-    "count": 4
-   },
-   {
-    "slug": "early",
-    "label": "Early career",
-    "count": 1
+    "count": 5
    },
    {
     "slug": "founding",
@@ -161,6 +142,209 @@
   ]
  },
  "jobs": [
+  {
+   "id": "allego-4d235f34",
+   "company": "Allego",
+   "company_slug": "allego",
+   "title": "Senior Revenue Systems Manager",
+   "url": "https://job-boards.greenhouse.io/allego/jobs/4391592009",
+   "location": "Waltham, MA - Hybrid",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "gtm-systems",
+   "family_label": "GTM Systems Engineering",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$114,000 - $162,000",
+   "posted_date": "2026-09-01",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anaplan-f3340cb4",
+   "company": "Anaplan",
+   "company_slug": "anaplan",
+   "title": "Director, GTM Operations, Global Sales Plays",
+   "url": "https://job-boards.greenhouse.io/anaplan/jobs/8739341002",
+   "location": "Minneapolis, United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$144,000 - $207,000",
+   "posted_date": "2026-08-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anaplan-9409fa43",
+   "company": "Anaplan",
+   "company_slug": "anaplan",
+   "title": "Director, GTM Operations, Global Sales Plays",
+   "url": "https://job-boards.greenhouse.io/anaplan/jobs/8739350002",
+   "location": "New York City, United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$181,000 - $244,000",
+   "posted_date": "2026-08-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anaplan-726b390d",
+   "company": "Anaplan",
+   "company_slug": "anaplan",
+   "title": "Director, GTM Operations, Global Sales Plays",
+   "url": "https://job-boards.greenhouse.io/anaplan/jobs/8739388002",
+   "location": "San Francisco, United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$181,000 - $244,000",
+   "posted_date": "2026-08-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anaplan-86b5640a",
+   "company": "Anaplan",
+   "company_slug": "anaplan",
+   "title": "Director, GTM Operations, Global Sales Plays",
+   "url": "https://job-boards.greenhouse.io/anaplan/jobs/8662163002",
+   "location": "Miami, United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$163,000 - $220,000",
+   "posted_date": "2026-08-10",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anaplan-d34d57f0",
+   "company": "Anaplan",
+   "company_slug": "anaplan",
+   "title": "Sr. GTM Analytics Manager",
+   "url": "https://job-boards.greenhouse.io/anaplan/jobs/8742271002",
+   "location": "Minneapolis, Unites States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-08-24",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anaplan-b5a732f7",
+   "company": "Anaplan",
+   "company_slug": "anaplan",
+   "title": "Sr. GTM Analytics Manager",
+   "url": "https://job-boards.greenhouse.io/anaplan/jobs/8724594002",
+   "location": "London, United Kingdom",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-08-24",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
   {
    "id": "anrok-2978ec34",
    "company": "Anrok",
@@ -183,8 +367,41 @@
    "salary": "$175,000 - $205,000",
    "posted_date": "2026-05-02",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anrok-9342fa1c",
+   "company": "Anrok",
+   "company_slug": "anrok",
+   "title": "GTM Strategy and Operations Manager, Post Sales",
+   "url": "https://jobs.ashbyhq.com/anrok/072a3425-8e03-492c-8721-de41aa0a1a2e",
+   "location": "San Francisco; Salt Lake City; New York City",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$108,000 - $160,000",
+   "posted_date": "2026-08-06",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -201,12 +418,12 @@
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
    "family": "gtm-systems",
@@ -216,9 +433,42 @@
    "salary": "$108,000 - $160,000",
    "posted_date": "2026-08-06",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anthropic-254eeb7b",
+   "company": "Anthropic",
+   "company_slug": "anthropic",
+   "title": "Data Engineer, GTM",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418610008",
+   "location": "San Francisco, CA | New York City, NY",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$320,000 - $405,000",
+   "posted_date": "2026-09-08",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -245,8 +495,103 @@
    "salary": "$320,000 - $405,000",
    "posted_date": "2026-08-19",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anthropic-5a4c9933",
+   "company": "Anthropic",
+   "company_slug": "anthropic",
+   "title": "GTM Strategy & Operations - AMER Enterprise Tech",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390956008",
+   "location": "San Francisco, CA | New York City, NY",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$270,000 - $310,000",
+   "posted_date": "2026-09-08",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anthropic-c1335326",
+   "company": "Anthropic",
+   "company_slug": "anthropic",
+   "title": "GTM Strategy & Operations, Frontier",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390952008",
+   "location": "San Francisco, CA",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$190,000 - $270,000",
+   "posted_date": "2026-08-19",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "anthropic-014f3344",
+   "company": "Anthropic",
+   "company_slug": "anthropic",
+   "title": "Staff AI Engineer, GTM Claudification",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390966008",
+   "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "seattle",
+     "label": "Seattle"
+    }
+   ],
+   "family": "ai-engineering",
+   "family_label": "AI and Applied Engineering",
+   "seniority": "staff",
+   "seniority_label": "Staff or Principal",
+   "salary": "$320,000 - $405,000",
+   "posted_date": "2026-08-25",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -274,8 +619,8 @@
    "salary": "$320,000 - $405,000",
    "posted_date": "2026-07-23",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -292,12 +637,12 @@
    "remote_label": "On-site or hybrid",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
    "family": "gtm-systems",
@@ -307,37 +652,45 @@
    "salary": "$290,000 - $365,000",
    "posted_date": "2026-07-22",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "apollo-io-4d0f3336",
-   "company": "Apollo.io",
-   "company_slug": "apollo-io",
-   "title": "Go-To-Market Engineer I, SMB",
-   "url": "https://job-boards.greenhouse.io/apolloio/jobs/5778017004",
-   "location": "Remote, United States",
+   "id": "anthropic-3ac42292",
+   "company": "Anthropic",
+   "company_slug": "anthropic",
+   "title": "Technical Program Manager, Revenue Operations",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390964008",
+   "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "us-other",
-     "label": "United States, elsewhere"
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    },
+    {
+     "slug": "seattle",
+     "label": "Seattle"
     }
    ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$130,000 - $165,000",
-   "posted_date": "2026-01-21",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$365,000 - $435,000",
+   "posted_date": "2026-08-19",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -365,9 +718,71 @@
    "salary": "$150,000 - $175,000",
    "posted_date": "2026-04-16",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "apollo-io-c35ebabf",
+   "company": "Apollo.io",
+   "company_slug": "apollo-io",
+   "title": "Senior GTM Enablement Specialist ll",
+   "url": "https://job-boards.greenhouse.io/apolloio/jobs/6126952004",
+   "location": "Office, Philippines",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": null,
+   "posted_date": "2026-07-24",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "artisan-ai-17cf884c",
+   "company": "Artisan AI",
+   "company_slug": "artisan-ai",
+   "title": "Forward Deployed GTM Architect",
+   "url": "https://jobs.ashbyhq.com/artisan/77f1e47e-61d0-4245-bc99-02bb189ce392",
+   "location": "San Francisco; New York",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$130,000 - $180,000",
+   "posted_date": "2026-08-07",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -394,9 +809,42 @@
    "salary": "$185,000 - $210,000",
    "posted_date": "2026-08-21",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "attio-68173f26",
+   "company": "Attio",
+   "company_slug": "attio",
+   "title": "Forward Deployed GTM Engineer",
+   "url": "https://jobs.ashbyhq.com/attio/cef00929-63ab-4927-8a3c-1ea1d4224606",
+   "location": "New York; San Francisco",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$130,000 - $170,000",
+   "posted_date": "2026-05-29",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -412,12 +860,12 @@
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
    "family": "gtm-engineer",
@@ -427,8 +875,41 @@
    "salary": "$175,000 - $200,000",
    "posted_date": "2026-08-25",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "baseten-14750218",
+   "company": "Baseten",
+   "company_slug": "baseten",
+   "title": "GTM Systems Manager",
+   "url": "https://jobs.ashbyhq.com/baseten/7a999a4e-5e04-4432-a7fe-86ad1151e061",
+   "location": "San Francisco; New York",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-systems",
+   "family_label": "GTM Systems Engineering",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$160,000 - $200,000",
+   "posted_date": "2026-08-27",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -456,8 +937,8 @@
    "salary": "$130,000 - $160,000",
    "posted_date": "2026-07-23",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -485,8 +966,8 @@
    "salary": "$240,000 - $300,000",
    "posted_date": "2026-01-08",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -514,8 +995,8 @@
    "salary": "$240,000",
    "posted_date": "2026-01-08",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -543,8 +1024,8 @@
    "salary": "$240,000 - $300,000",
    "posted_date": "2025-12-12",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -572,37 +1053,8 @@
    "salary": "$240,000 - $300,000",
    "posted_date": "2026-01-08",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
-   "ats": "greenhouse",
-   "evidence": "url+api",
-   "found_via_post": false,
-   "changed_since_last_pass": false
-  },
-  {
-   "id": "brex-085e5d7d",
-   "company": "Brex",
-   "company_slug": "brex",
-   "title": "GTM AI Revenue Enablement, Senior Manager",
-   "url": "https://www.brex.com/careers/8654358002?gh_jid=8654358002",
-   "location": "New York, New York, United States",
-   "remote": "onsite",
-   "remote_label": "On-site or hybrid",
-   "regions": [
-    {
-     "slug": "nyc",
-     "label": "New York"
-    }
-   ],
-   "family": "revops",
-   "family_label": "RevOps and GTM Operations",
-   "seniority": "leadership",
-   "seniority_label": "Leadership",
-   "salary": "$174,472 - $218,090",
-   "posted_date": "2026-07-28",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -630,8 +1082,37 @@
    "salary": "$154,400 - $193,000",
    "posted_date": "2026-07-28",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "brex-085e5d7d",
+   "company": "Brex",
+   "company_slug": "brex",
+   "title": "GTM AI Revenue Enablement, Senior Manager",
+   "url": "https://www.brex.com/careers/8654358002?gh_jid=8654358002",
+   "location": "New York, New York, United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$174,472 - $218,090",
+   "posted_date": "2026-07-28",
+   "first_tracked": "2026-08-25",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -659,8 +1140,8 @@
    "salary": "$174,472 - $218,090",
    "posted_date": "2026-07-28",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -688,8 +1169,8 @@
    "salary": "$174,472 - $218,090",
    "posted_date": "2026-07-28",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -714,102 +1195,15 @@
    "family_label": "RevOps and GTM Operations",
    "seniority": "leadership",
    "seniority_label": "Leadership",
-   "salary": "$154,400",
+   "salary": "CA$154,400 - CA$193,000",
    "posted_date": "2026-07-28",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
-   "changed_since_last_pass": false
-  },
-  {
-   "id": "clay-418c626b",
-   "company": "Clay",
-   "company_slug": "clay",
-   "title": "GTM Engineer - CX",
-   "url": "https://jobs.ashbyhq.com/claylabs/e43101dd-4e98-4c60-bc1b-adbbb38c7b15",
-   "location": "New York",
-   "remote": "remote",
-   "remote_label": "Remote",
-   "regions": [
-    {
-     "slug": "nyc",
-     "label": "New York"
-    }
-   ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$140,000 - $200,000",
-   "posted_date": "2026-05-18",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
-   "ats": "ashby",
-   "evidence": "url+api",
-   "found_via_post": false,
-   "changed_since_last_pass": false
-  },
-  {
-   "id": "clay-40b749b0",
-   "company": "Clay",
-   "company_slug": "clay",
-   "title": "GTM Engineer - Partnerships",
-   "url": "https://jobs.ashbyhq.com/claylabs/242be863-2f62-44a7-909d-6c351dee81d1",
-   "location": "New York",
-   "remote": "remote",
-   "remote_label": "Remote",
-   "regions": [
-    {
-     "slug": "nyc",
-     "label": "New York"
-    }
-   ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$140,000 - $200,000",
-   "posted_date": "2026-05-18",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
-   "ats": "ashby",
-   "evidence": "url+api",
-   "found_via_post": false,
-   "changed_since_last_pass": false
-  },
-  {
-   "id": "clay-28b94ddb",
-   "company": "Clay",
-   "company_slug": "clay",
-   "title": "GTM Engineer - Seller Efficiency",
-   "url": "https://jobs.ashbyhq.com/claylabs/d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
-   "location": "New York",
-   "remote": "remote",
-   "remote_label": "Remote",
-   "regions": [
-    {
-     "slug": "nyc",
-     "label": "New York"
-    }
-   ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$140,000 - $180,000",
-   "posted_date": "2026-05-18",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
-   "ats": "ashby",
-   "evidence": "url+api",
-   "found_via_post": false,
-   "changed_since_last_pass": false
+   "changed_since_last_pass": true
   },
   {
    "id": "clay-c4225675",
@@ -833,37 +1227,37 @@
    "salary": "$140,000 - $200,000",
    "posted_date": "2026-06-09",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "clay-78867a98",
+   "id": "clay-f95f7da8",
    "company": "Clay",
    "company_slug": "clay",
-   "title": "GTM Ops Manager - EMEA",
-   "url": "https://jobs.ashbyhq.com/claylabs/2620226a-13b5-48be-a9a9-ff7769552a21",
-   "location": "London",
+   "title": "GTM Engineer Manager - Seller Efficiency",
+   "url": "https://jobs.ashbyhq.com/claylabs/546b27c1-8808-4808-bd98-5c6cad88d88c",
+   "location": "New York",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "international",
-     "label": "Outside the United States"
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
-   "family": "revops",
-   "family_label": "RevOps and GTM Operations",
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
    "seniority": "leadership",
    "seniority_label": "Leadership",
-   "salary": "",
-   "posted_date": "2026-05-19",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "salary": "$240,000 - $265,000",
+   "posted_date": "2026-08-31",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -891,8 +1285,37 @@
    "salary": "$140,000 - $170,000",
    "posted_date": "2026-05-22",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "clay-c8de1ac4",
+   "company": "Clay",
+   "company_slug": "clay",
+   "title": "GTM Strategy & Ops",
+   "url": "https://jobs.ashbyhq.com/claylabs/80dcacfb-0a59-42b0-a38d-49abaf51716c",
+   "location": "New York",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$200,000 - $250,000",
+   "posted_date": "2026-06-04",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -913,15 +1336,15 @@
      "label": "New York"
     }
    ],
-   "family": "other-gtm",
-   "family_label": "Other GTM technical",
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
    "salary": "$125,000 - $190,000",
    "posted_date": "2026-05-05",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -949,8 +1372,8 @@
    "salary": "$230,000 - $330,000",
    "posted_date": "2026-04-10",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -967,23 +1390,52 @@
    "remote_label": "On-site or hybrid",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
-   "family": "other-gtm",
-   "family_label": "Other GTM technical",
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
    "seniority": "leadership",
    "seniority_label": "Leadership",
    "salary": "$290,000 - $375,000",
    "posted_date": "2026-06-01",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "clay-753dde4a",
+   "company": "Clay",
+   "company_slug": "clay",
+   "title": "Strategic Sales Manager (GTME)",
+   "url": "https://jobs.ashbyhq.com/claylabs/f64feda8-7231-4c39-be5f-71a192efc6b9",
+   "location": "London",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-07-02",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1000,19 +1452,19 @@
    "remote_label": "On-site or hybrid",
    "regions": [
     {
-     "slug": "unstated",
-     "label": "Location not stated"
+     "slug": "international",
+     "label": "Outside the United States"
     }
    ],
-   "family": "other-gtm",
-   "family_label": "Other GTM technical",
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-07-14",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1040,8 +1492,8 @@
    "salary": "$160,000",
    "posted_date": "2026-08-04",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1069,9 +1521,241 @@
    "salary": "$150,000 - $230,000",
    "posted_date": "2026-02-17",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "cresta-fafe1cc3",
+   "company": "Cresta",
+   "company_slug": "cresta",
+   "title": "GTM Strategy & Operations Manager, EMEA",
+   "url": "https://job-boards.greenhouse.io/cresta/jobs/5417030008",
+   "location": "United Kingdom (Remote)",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-09-04",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "databricks-de173056",
+   "company": "Databricks",
+   "company_slug": "databricks",
+   "title": "Lead GTM Enablement & Scale Architect, Product Enablement",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8548502002",
+   "location": "United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$217,800 - $299,400",
+   "posted_date": "2026-05-26",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "databricks-757f200e",
+   "company": "Databricks",
+   "company_slug": "databricks",
+   "title": "Lead GTM Enablement & Scale Architect, Product Enablement",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8644006002",
+   "location": "United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$217,800 - $299,400",
+   "posted_date": "2026-08-03",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "databricks-06ba2e9a",
+   "company": "Databricks",
+   "company_slug": "databricks",
+   "title": "Leader of GTM Technical & Product Execution Excellence",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8486165002",
+   "location": "USCA",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-05-20",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "databricks-3886a7da",
+   "company": "Databricks",
+   "company_slug": "databricks",
+   "title": "Senior Go-To-Market (GTM) Analytics Engineer (AI & Pipelines)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638849002",
+   "location": "Belgrade, Serbia",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": null,
+   "posted_date": "2026-08-03",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "elevenlabs-6ea9ca54",
+   "company": "ElevenLabs",
+   "company_slug": "elevenlabs",
+   "title": "GTM Enablement - APAC",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/55b21715-6e89-456e-af07-0b17b1e455e8",
+   "location": "India; Singapore",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-07-08",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "elevenlabs-b03b4ca3",
+   "company": "ElevenLabs",
+   "company_slug": "elevenlabs",
+   "title": "GTM Enablement - Expansion",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/eee2abfb-bd2f-410d-a339-3923e9c95043",
+   "location": "United States",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-04-03",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "elevenlabs-0f8441bd",
+   "company": "ElevenLabs",
+   "company_slug": "elevenlabs",
+   "title": "Head of GTM Enablement - Global Lead",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/b70ef87c-ca51-44e0-8af2-9d874d6634cc",
+   "location": "United Kingdom; United States",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-08-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -1087,19 +1771,77 @@
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "international",
-     "label": "Outside the United States"
+     "slug": "us-other",
+     "label": "United States, elsewhere"
     }
    ],
    "family": "growth-engineer",
    "family_label": "Growth Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-07-30",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "firecrawl-b9dae5f8",
+   "company": "Firecrawl",
+   "company_slug": "firecrawl",
+   "title": "Growth Engineer - Product Growth",
+   "url": "https://jobs.ashbyhq.com/firecrawl/61f134a9-d91f-4b7b-a35d-14c60916454e",
+   "location": "San Francisco HQ; Toronto Hub",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "growth-engineer",
+   "family_label": "Growth Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$217,000 - $260,000",
+   "posted_date": "2026-07-13",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "firecrawl-30470b5e",
+   "company": "Firecrawl",
+   "company_slug": "firecrawl",
+   "title": "Senior Growth Engineer",
+   "url": "https://jobs.ashbyhq.com/firecrawl/fe6ab2c9-0528-4751-a6dd-67467e90fc0e",
+   "location": "San Francisco, CA",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "growth-engineer",
+   "family_label": "Growth Engineering",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "$225,000 - $290,000",
+   "posted_date": "2026-07-13",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1111,7 +1853,7 @@
    "company_slug": "fireworks-ai",
    "title": "GTM Engineer",
    "url": "https://jobs.ashbyhq.com/fireworks/01166f87-1b1f-4e2e-8b7d-be6708566434",
-   "location": "San Francisco Bay Area",
+   "location": "San Francisco",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
@@ -1127,8 +1869,66 @@
    "salary": "$180,000 - $210,000",
    "posted_date": "2026-08-06",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": true
+  },
+  {
+   "id": "fireworks-ai-fb36d30a",
+   "company": "Fireworks AI",
+   "company_slug": "fireworks-ai",
+   "title": "GTM Engineer, Marketing & SDR",
+   "url": "https://jobs.ashbyhq.com/fireworks/04e5e023-d9cc-4785-b410-7364d4f4fe15",
+   "location": "San Mateo",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$180,000 - $210,000",
+   "posted_date": "2026-08-07",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "fireworks-ai-bd2808c4",
+   "company": "Fireworks AI",
+   "company_slug": "fireworks-ai",
+   "title": "Head of GTM Engineering & Systems",
+   "url": "https://jobs.ashbyhq.com/fireworks/0628f651-a8f6-4ef9-beec-6f31c3268c85",
+   "location": "San Mateo",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$250,000 - $270,000",
+   "posted_date": "2026-07-16",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1145,101 +1945,56 @@
    "remote_label": "On-site or hybrid",
    "regions": [
     {
-     "slug": "austin",
-     "label": "Austin"
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
     },
     {
      "slug": "nyc",
      "label": "New York"
     },
     {
-     "slug": "sf-bay",
-     "label": "San Francisco Bay Area"
+     "slug": "austin",
+     "label": "Austin"
     }
    ],
    "family": "other-gtm",
    "family_label": "Other GTM technical",
-   "seniority": "staff",
-   "seniority_label": "Staff or Principal",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
    "salary": "$138,000 - $210,000",
    "posted_date": "2026-07-31",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "gong-ed2249ce",
+   "id": "gong-4bb93f8e",
    "company": "Gong",
    "company_slug": "gong",
-   "title": "GTM AI Engineer",
-   "url": "https://job-boards.greenhouse.io/gongio/jobs/4697977006",
-   "location": "Austin | Chicago | New York City | Salt Lake City | San Francisco",
+   "title": "Senior Manager, GTM Field Operations",
+   "url": "https://job-boards.greenhouse.io/gongio/jobs/4699486006",
+   "location": "Chicago | New York City | Salt Lake City",
    "remote": "onsite",
    "remote_label": "On-site or hybrid",
    "regions": [
     {
-     "slug": "austin",
-     "label": "Austin"
-    },
-    {
      "slug": "nyc",
      "label": "New York"
-    },
-    {
-     "slug": "sf-bay",
-     "label": "San Francisco Bay Area"
     }
    ],
-   "family": "ai-engineering",
-   "family_label": "AI and Applied Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$115,000 - $175,000",
-   "posted_date": "2026-07-31",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
-   "ats": "greenhouse",
-   "evidence": "url+api",
-   "found_via_post": false,
-   "changed_since_last_pass": false
-  },
-  {
-   "id": "gong-7e3c6529",
-   "company": "Gong",
-   "company_slug": "gong",
-   "title": "GTM Engineer (GTM Automations)",
-   "url": "https://job-boards.greenhouse.io/gongio/jobs/4693864006",
-   "location": "Austin | Chicago | New York City | Salt Lake City | San Francisco",
-   "remote": "onsite",
-   "remote_label": "On-site or hybrid",
-   "regions": [
-    {
-     "slug": "austin",
-     "label": "Austin"
-    },
-    {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
-     "slug": "sf-bay",
-     "label": "San Francisco Bay Area"
-    }
-   ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$100,000 - $145,000",
-   "posted_date": "2026-07-22",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$138,000 - $210,000",
+   "posted_date": "2026-07-29",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1249,7 +2004,7 @@
    "id": "harvey-b58a7f58",
    "company": "Harvey",
    "company_slug": "harvey",
-   "title": "GTM Systems Administrator",
+   "title": "GTM Systems Administrator, EMEA",
    "url": "https://jobs.ashbyhq.com/harvey/953b710f-3c48-4409-ad30-6416da8ed043",
    "location": "Dublin",
    "remote": "remote",
@@ -1264,74 +2019,132 @@
    "family_label": "GTM Systems Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-08-24",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
-   "changed_since_last_pass": false
+   "changed_since_last_pass": true
   },
   {
-   "id": "hebbia-ai-e83b7daa",
-   "company": "Hebbia AI",
-   "company_slug": "hebbia-ai",
-   "title": "GTM Engineer",
-   "url": "https://jobs.ashbyhq.com/hebbia-ai/4b1d51bc-2985-471b-b3b5-1ddf62e0a50a",
-   "location": "NYC",
-   "remote": "onsite",
-   "remote_label": "On-site or hybrid",
+   "id": "harvey-5d502468",
+   "company": "Harvey",
+   "company_slug": "harvey",
+   "title": "Head of GTM Strategy & Operations, AMER",
+   "url": "https://jobs.ashbyhq.com/harvey/b85907be-9937-4bf1-91a0-4474c35e4402",
+   "location": "New York",
+   "remote": "remote",
+   "remote_label": "Remote",
    "regions": [
     {
      "slug": "nyc",
      "label": "New York"
     }
    ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
-   "seniority": "unstated",
-   "seniority_label": "Not stated in the title",
-   "salary": "$140,000 - $190,000",
-   "posted_date": "2026-03-31",
-   "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$212,000 - $290,000",
+   "posted_date": "2026-08-06",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "hightouch-cf4baf9f",
-   "company": "Hightouch",
-   "company_slug": "hightouch",
-   "title": "Go-to-Market Engineer",
-   "url": "https://job-boards.greenhouse.io/hightouch/jobs/5823552004",
-   "location": "San Francisco, California / New York City, New York",
-   "remote": "onsite",
-   "remote_label": "On-site or hybrid",
+   "id": "harvey-16460e5d",
+   "company": "Harvey",
+   "company_slug": "harvey",
+   "title": "Head of GTM Strategy & Operations, AMER",
+   "url": "https://jobs.ashbyhq.com/harvey/24175721-f785-4f85-a9b7-e80973ecdfd4",
+   "location": "San Francisco",
+   "remote": "remote",
+   "remote_label": "Remote",
    "regions": [
-    {
-     "slug": "nyc",
-     "label": "New York"
-    },
     {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
     }
    ],
-   "family": "gtm-engineer",
-   "family_label": "GTM Engineering",
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$212,000 - $290,000",
+   "posted_date": "2026-08-06",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "hightouch-3057c025",
+   "company": "Hightouch",
+   "company_slug": "hightouch",
+   "title": "Senior GTM Systems Engineer",
+   "url": "https://job-boards.greenhouse.io/hightouch/jobs/6167699004",
+   "location": "San Francisco, California / New York City, New York/ Remote",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-systems",
+   "family_label": "GTM Systems Engineering",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "$190,000 - $240,000",
+   "posted_date": "2026-08-27",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "hyperbound-0766fb82",
+   "company": "Hyperbound",
+   "company_slug": "hyperbound",
+   "title": "Software Engineer, GTM",
+   "url": "https://jobs.ashbyhq.com/hyperbound/1d013dd8-4108-404a-8736-d15aa237bc73",
+   "location": "San Francisco",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "$160,000 - $220,000",
-   "posted_date": "2026-03-10",
-   "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
-   "ats": "greenhouse",
+   "salary": null,
+   "posted_date": "2026-08-29",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -1340,7 +2153,7 @@
    "id": "intercom-9a0a102c",
    "company": "Intercom",
    "company_slug": "intercom",
-   "title": "Senior GTM Data Analyst",
+   "title": "GTM Data Analyst",
    "url": "https://job-boards.greenhouse.io/intercom/jobs/7851785",
    "location": "Chicago, Illinois",
    "remote": "onsite",
@@ -1353,25 +2166,87 @@
    ],
    "family": "revops",
    "family_label": "RevOps and GTM Operations",
-   "seniority": "senior",
-   "seniority_label": "Senior",
-   "salary": "$168,100 - $200,810",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$137,700 - $164,500",
    "posted_date": "2026-04-29",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": true
+  },
+  {
+   "id": "intercom-98f80ff6",
+   "company": "Intercom",
+   "company_slug": "intercom",
+   "title": "Staff Data Engineer - GTM",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/8132076",
+   "location": "Dublin, Ireland; London, England",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "staff",
+   "seniority_label": "Staff or Principal",
+   "salary": null,
+   "posted_date": "2026-08-18",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "intercom-541f41f0",
-   "company": "Intercom",
-   "company_slug": "intercom",
-   "title": "Senior GTM Enablement Manager, Operations",
-   "url": "https://job-boards.greenhouse.io/intercom/jobs/7441053",
-   "location": "San Francisco, California",
+   "id": "ironclad-9da38ceb",
+   "company": "Ironclad",
+   "company_slug": "ironclad",
+   "title": "Director, GTM Engineering & Systems Architecture",
+   "url": "https://jobs.ashbyhq.com/ironcladhq/070ff029-9740-4898-a233-a4f0d4e659b3",
+   "location": "San Francisco; New York City",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$200,000 - $235,000",
+   "posted_date": "2026-08-31",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "langchain-0eb652b6",
+   "company": "LangChain",
+   "company_slug": "langchain",
+   "title": "Agent Reliability Engineer, GTM Engineering",
+   "url": "https://jobs.ashbyhq.com/langchain/eadd2a71-47fc-483b-948f-4b2384f7f93f",
+   "location": "San Francisco, CA",
    "remote": "onsite",
    "remote_label": "On-site or hybrid",
    "regions": [
@@ -1380,16 +2255,16 @@
      "label": "San Francisco Bay Area"
     }
    ],
-   "family": "revops",
-   "family_label": "RevOps and GTM Operations",
-   "seniority": "leadership",
-   "seniority_label": "Leadership",
-   "salary": "$150,000 - $188,000",
-   "posted_date": "2025-12-10",
-   "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
-   "ats": "greenhouse",
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$150,000 - $190,000",
+   "posted_date": "2026-09-06",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -1413,11 +2288,11 @@
    "family_label": "GTM Systems Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-08-20",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1442,11 +2317,11 @@
    "family_label": "GTM Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-02-15",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1463,27 +2338,27 @@
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "austin",
-     "label": "Austin"
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
     },
     {
      "slug": "nyc",
      "label": "New York"
     },
     {
-     "slug": "sf-bay",
-     "label": "San Francisco Bay Area"
+     "slug": "austin",
+     "label": "Austin"
     }
    ],
    "family": "gtm-engineer",
    "family_label": "GTM Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-04-29",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1500,8 +2375,8 @@
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "remote-unstated",
-     "label": "Remote, region not stated"
+     "slug": "us-other",
+     "label": "United States, elsewhere"
     }
    ],
    "family": "gtm-systems",
@@ -1511,8 +2386,95 @@
    "salary": "$120,000 - $250,000",
    "posted_date": "2026-06-23",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "make-5544455d",
+   "company": "Make",
+   "company_slug": "make",
+   "title": "GTM Engineer - Revenue Programs",
+   "url": "https://www.make.com/en/careers-detail?gh_jid=7778836003",
+   "location": "Raleigh, US, North Carolina",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-06-19",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "meesho-fb7c6f5d",
+   "company": "Meesho",
+   "company_slug": "meesho",
+   "title": "Manager - GTM & Sales Strategy, Meesho AI Services (MAS)",
+   "url": "https://jobs.lever.co/meesho/9401d014-8199-4861-8f65-42fda8160e0c",
+   "location": "Mumbai, Maharashtra, Delhi NCR, Bangalore, Karnataka",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-09-12",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "lever",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "n8n-97e26dd4",
+   "company": "n8n",
+   "company_slug": "n8n",
+   "title": "Sr Growth Engineer (Fullstack TS/Vue/NodeJS)",
+   "url": "https://jobs.ashbyhq.com/n8n/6a370ff8-e069-48ed-bffa-5716a3dbd9d5",
+   "location": "Berlin Office; Bosnia; Norway; Estonia; Latvia; Slovenia; Netherlands; Hungary; Moldova; Kosovo; Portugal; Poland; Germany; Austria; Finland; Montenegro; Albania; Lithuania; Slovakia; Ireland; Bulgaria; Denmark; Belgium; Czech Republic; United Kingdom; Croatia; Spain; Greece",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "growth-engineer",
+   "family_label": "Growth Engineering",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "€72,800 - €171,700",
+   "posted_date": "2026-05-20",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1537,11 +2499,11 @@
    "family_label": "GTM Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-03-09",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1558,12 +2520,12 @@
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
    "family": "ai-engineering",
@@ -1573,37 +2535,41 @@
    "salary": "$175,000 - $240,000",
    "posted_date": "2025-08-07",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "notion-50aed700",
-   "company": "Notion",
-   "company_slug": "notion",
-   "title": "Sales Recruiter",
-   "url": "https://jobs.ashbyhq.com/notion/f663839e-46ac-44ad-9720-da2b6aa28093",
-   "location": "San Francisco, California",
+   "id": "openai-6808f0c1",
+   "company": "OpenAI",
+   "company_slug": "openai",
+   "title": "Analytics Engineer, GTM",
+   "url": "https://jobs.ashbyhq.com/openai/bc0d4a9f-235f-4a4b-a854-c6cb0322ccaa",
+   "location": "San Francisco; New York City",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
     {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
    "family": "other-gtm",
    "family_label": "Other GTM technical",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "$136,000 - $170,000",
-   "posted_date": "2026-08-25",
-   "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "salary": "$220,000 - $335,000",
+   "posted_date": "2026-08-26",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1631,8 +2597,8 @@
    "salary": "$266,000 - $405,000",
    "posted_date": "2026-07-25",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1660,8 +2626,95 @@
    "salary": "$347,000 - $445,000",
    "posted_date": "2026-02-04",
    "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "days_tracked": 129,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "openai-f7cab0bb",
+   "company": "OpenAI",
+   "company_slug": "openai",
+   "title": "GTM Strategy & Operations",
+   "url": "https://jobs.ashbyhq.com/openai/cc613e44-9a09-49d2-b415-853cfcd62b32",
+   "location": "San Francisco",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$239,000 - $265,000",
+   "posted_date": "2026-09-14",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "openai-d22a7665",
+   "company": "OpenAI",
+   "company_slug": "openai",
+   "title": "GTM Strategy & Operations, Policy",
+   "url": "https://jobs.ashbyhq.com/openai/e5c39e03-6121-47be-8bd3-f6128557b38f",
+   "location": "San Francisco",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$347,000 - $405,000",
+   "posted_date": "2026-09-14",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "openai-faf9ebab",
+   "company": "OpenAI",
+   "company_slug": "openai",
+   "title": "GTM Strategy & Operations, Professional Services",
+   "url": "https://jobs.ashbyhq.com/openai/08e8d03a-df94-46af-8664-cd9aab1af445",
+   "location": "San Francisco",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$293,000 - $325,000",
+   "posted_date": "2026-07-30",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1689,20 +2742,20 @@
    "salary": "$266,000 - $405,000",
    "posted_date": "2026-07-25",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "outreach-4875cbf7",
-   "company": "Outreach",
-   "company_slug": "outreach",
-   "title": "Senior GTM AI Advisor",
-   "url": "https://jobs.lever.co/outreach/91b45521-0ad3-499f-8c05-514beb39c2e5",
-   "location": "United States",
+   "id": "pandadoc-b89a6d71",
+   "company": "PandaDoc",
+   "company_slug": "pandadoc",
+   "title": "Director of GTM Systems",
+   "url": "https://job-boards.greenhouse.io/pandadoc/jobs/8022184",
+   "location": "Remote (USA)",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
@@ -1711,59 +2764,220 @@
      "label": "United States, elsewhere"
     }
    ],
-   "family": "other-gtm",
-   "family_label": "Other GTM technical",
-   "seniority": "senior",
-   "seniority_label": "Senior",
-   "salary": "$145,000 - $175,000",
+   "family": "gtm-systems",
+   "family_label": "GTM Systems Engineering",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
    "posted_date": "2026-07-29",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "pigment-25409802",
+   "company": "Pigment",
+   "company_slug": "pigment",
+   "title": "GTM Engineer",
+   "url": "https://jobs.lever.co/pigment/9aae74f6-96df-4e17-a100-5ed76c1ce8d5",
+   "location": "New York",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-09-10",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "lever",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "ramp-7bf974ed",
+   "id": "ramp-0e3ae333",
    "company": "Ramp",
    "company_slug": "ramp",
-   "title": "GTM Systems Engineer, Salesforce",
-   "url": "https://jobs.ashbyhq.com/ramp/ffc09fc0-7785-48db-a203-a148f62534be",
-   "location": "New York, NY (HQ); San Francisco, CA",
+   "title": "GTM Business Systems Analyst - Post Sales",
+   "url": "https://jobs.ashbyhq.com/ramp/196e4e25-c452-430d-8b2f-36a40f88a2ae",
+   "location": "New York, NY (HQ); San Francisco, CA; Miami, FL",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
-   "family": "gtm-systems",
-   "family_label": "GTM Systems Engineering",
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "$122,200 - $183,400",
-   "posted_date": "2026-07-11",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "salary": "$145,800 - $182,200",
+   "posted_date": "2026-09-04",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "ramp-101e51aa",
+   "id": "ramp-6179b1c8",
    "company": "Ramp",
    "company_slug": "ramp",
-   "title": "Software Engineer, Frontend, Ramp Revenue",
-   "url": "https://jobs.ashbyhq.com/ramp/1540a41f-d88f-4c89-9b08-5b9fade1ee81",
+   "title": "GTM Business Systems Engineer - Post Sales",
+   "url": "https://jobs.ashbyhq.com/ramp/696bc715-794c-4a0c-967d-d7f8b637b392",
+   "location": "New York, NY (HQ); San Francisco, CA",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$122,200 - $183,400",
+   "posted_date": "2026-09-03",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "ramp-744ebea8",
+   "company": "Ramp",
+   "company_slug": "ramp",
+   "title": "GTM Business Systems Engineer, Quote-to-Cash",
+   "url": "https://jobs.ashbyhq.com/ramp/6310f1b3-1ae2-476c-b4ce-affe530ede26",
+   "location": "New York, NY (HQ); San Francisco, CA",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$122,200 - $183,400",
+   "posted_date": "2026-09-03",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "ramp-4d4aff34",
+   "company": "Ramp",
+   "company_slug": "ramp",
+   "title": "GTM Senior Business Systems Analyst - Channel Sales",
+   "url": "https://jobs.ashbyhq.com/ramp/2d2c336c-16e7-4f27-b0cd-5bb6055cdf21",
+   "location": "New York, NY (HQ); San Francisco, CA; Miami, FL",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "$145,800 - $182,200",
+   "posted_date": "2026-09-08",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "ramp-d3f7e478",
+   "company": "Ramp",
+   "company_slug": "ramp",
+   "title": "GTM Senior Business Systems Analyst, Pre-Sales",
+   "url": "https://jobs.ashbyhq.com/ramp/aa433e44-f095-484b-a46a-a330583d84b0",
+   "location": "New York, NY (HQ); San Francisco, CA; Miami, FL",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "$145,800 - $182,200",
+   "posted_date": "2026-09-08",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "ramp-2562ca30",
+   "company": "Ramp",
+   "company_slug": "ramp",
+   "title": "Product Operations | AI Revenue Systems",
+   "url": "https://jobs.ashbyhq.com/ramp/4e9886c1-134b-4cc7-9bcf-eb56bd0ca71f",
    "location": "New York, NY (HQ)",
    "remote": "remote",
    "remote_label": "Remote",
@@ -1773,15 +2987,15 @@
      "label": "New York"
     }
    ],
-   "family": "other-gtm",
-   "family_label": "Other GTM technical",
+   "family": "gtm-systems",
+   "family_label": "GTM Systems Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "$200,000 - $310,000",
-   "posted_date": "2026-02-26",
-   "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
+   "salary": "$128,000 - $180,000",
+   "posted_date": "2026-08-17",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1807,10 +3021,10 @@
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
    "salary": "$160,000 - $190,000",
-   "posted_date": "2026-04-23",
+   "posted_date": "2026-09-14",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1835,23 +3049,52 @@
    "family_label": "Agent Operator",
    "seniority": "founding",
    "seniority_label": "Founding",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-04-09",
    "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
+   "days_tracked": 21,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "sanity-b641761a",
+   "id": "rilla-6c6c27e5",
+   "company": "Rilla",
+   "company_slug": "rilla",
+   "title": "GTM Engineer",
+   "url": "https://jobs.ashbyhq.com/rilla/bad787f7-83ef-471b-9f9a-054799ba7476",
+   "location": "New York City",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "gtm-engineer",
+   "family_label": "GTM Engineering",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$120,000 - $200,000",
+   "posted_date": "2026-07-26",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "sanity-5b7a2fc4",
    "company": "Sanity",
    "company_slug": "sanity",
    "title": "Senior GTM Engineer, Systems Engineering",
-   "url": "https://www.sanity.io/careers/senior-gtm-engineer-systems-engineering",
-   "location": "Remote, United States",
+   "url": "https://jobs.ashbyhq.com/sanity/6cb743de-5d19-43d2-837e-c60cf4dc449b",
+   "location": "Remote in the United States",
    "remote": "remote",
    "remote_label": "Remote",
    "regions": [
@@ -1864,13 +3107,13 @@
    "family_label": "GTM Engineering",
    "seniority": "senior",
    "seniority_label": "Senior",
-   "salary": "",
-   "posted_date": "",
-   "first_tracked": "2026-08-24",
-   "days_tracked": 3,
-   "verified_on": "2026-08-27",
-   "ats": "manual",
-   "evidence": "url",
+   "salary": null,
+   "posted_date": "2026-07-14",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
@@ -1891,13 +3134,13 @@
    ],
    "family": "gtm-engineer",
    "family_label": "GTM Engineering",
-   "seniority": "staff",
-   "seniority_label": "Staff or Principal",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
    "salary": "$249,600 - $312,000",
    "posted_date": "2026-02-13",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1925,8 +3168,124 @@
    "salary": "$150,000 - $230,000",
    "posted_date": "2026-01-29",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "sierra-14c19311",
+   "company": "Sierra",
+   "company_slug": "sierra",
+   "title": "GTM Operations, Agent Development",
+   "url": "https://jobs.ashbyhq.com/sierra/85e1d0f9-e0d5-4a82-9b30-fa4372e32872",
+   "location": "San Francisco, CA",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$210,000 - $255,000",
+   "posted_date": "2026-07-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "sierra-745d5ac0",
+   "company": "Sierra",
+   "company_slug": "sierra",
+   "title": "GTM Operations, Agent Development (London)",
+   "url": "https://jobs.ashbyhq.com/sierra/d8baf20a-4c20-496d-9f0c-bc47a25fddb8",
+   "location": "London",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "£135,000 - £185,000",
+   "posted_date": "2026-09-02",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "sierra-382d84ea",
+   "company": "Sierra",
+   "company_slug": "sierra",
+   "title": "GTM Strategy and Operations, Industry Lead",
+   "url": "https://jobs.ashbyhq.com/sierra/6b5027e7-6498-45d6-8548-371eda8e5a81",
+   "location": "San Francisco, CA",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$210,000 - $255,000",
+   "posted_date": "2026-07-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "snowflake-fe3ab58a",
+   "company": "Snowflake",
+   "company_slug": "snowflake",
+   "title": "GTM & Enablement Program Manager",
+   "url": "https://jobs.ashbyhq.com/snowflake/b22cbd8d-7f30-4699-890e-b93eb90ef4e8",
+   "location": "US-CA-Menlo Park",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$133,000 - $174,300",
+   "posted_date": "2026-07-08",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -1954,19 +3313,259 @@
    "salary": "$96,000 - $126,000",
    "posted_date": "2026-05-18",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "stripe-e00baa25",
+   "id": "snowflake-8d67fadf",
+   "company": "Snowflake",
+   "company_slug": "snowflake",
+   "title": "Principal, GTM Enablement",
+   "url": "https://jobs.ashbyhq.com/snowflake/5fb9e0f1-f654-4551-9b1e-3d56435a5e4a",
+   "location": "US-CA-Menlo Park",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "staff",
+   "seniority_label": "Staff or Principal",
+   "salary": "$188,000 - $246,700",
+   "posted_date": "2026-08-28",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "snowflake-d0e7b182",
+   "company": "Snowflake",
+   "company_slug": "snowflake",
+   "title": "Senior Analyst, GTM Analytics",
+   "url": "https://jobs.ashbyhq.com/snowflake/bf452bd0-2959-4110-8cf5-c6dfe69e92fa",
+   "location": "US-CA-Menlo Park",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "$138,000 - $180,600",
+   "posted_date": "2026-09-11",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "snowflake-98344235",
+   "company": "Snowflake",
+   "company_slug": "snowflake",
+   "title": "Senior Marketing Systems Architect",
+   "url": "https://jobs.ashbyhq.com/snowflake/bd570db9-73d3-4aa9-a238-307407677cc5",
+   "location": "US-CA-Menlo Park; US-CA-Dublin",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "gtm-systems",
+   "family_label": "GTM Systems Engineering",
+   "seniority": "senior",
+   "seniority_label": "Senior",
+   "salary": "$158,000 - $206,800",
+   "posted_date": "2026-08-21",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "snowflake-58798629",
+   "company": "Snowflake",
+   "company_slug": "snowflake",
+   "title": "Sr. Director, GTM Process & Operations",
+   "url": "https://jobs.ashbyhq.com/snowflake/2ecf1bd5-93aa-4021-8876-df6454d59e94",
+   "location": "US-CA-Menlo Park",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$300,000 - $393,700",
+   "posted_date": "2026-08-17",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "snowflake-8cb6ef82",
+   "company": "Snowflake",
+   "company_slug": "snowflake",
+   "title": "Staff Analyst, GTM Analytics",
+   "url": "https://jobs.ashbyhq.com/snowflake/c6034a32-de0f-407f-b9cb-7e05b4d20c99",
+   "location": "US-CA-Menlo Park",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "staff",
+   "seniority_label": "Staff or Principal",
+   "salary": "$163,000 - $214,200",
+   "posted_date": "2026-08-13",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-c5cfad44",
    "company": "Stripe",
    "company_slug": "stripe",
-   "title": "Growth Engineer",
-   "url": "https://stripe.com/jobs/search?gh_jid=8008880",
+   "title": "GTM Operations Process Architect",
+   "url": "https://stripe.com/jobs/search?gh_jid=7993610",
+   "location": "US Remote National",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-06-18",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-5fa886b1",
+   "company": "Stripe",
+   "company_slug": "stripe",
+   "title": "GTM Strategy & Operations Analyst",
+   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
+   "location": "Dublin",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "international",
+     "label": "Outside the United States"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-09-14",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-adf54ef5",
+   "company": "Stripe",
+   "company_slug": "stripe",
+   "title": "GTM Strategy & Operations Analyst",
+   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
+   "location": "NYC, SF, Seattle, US",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    },
+    {
+     "slug": "seattle",
+     "label": "Seattle"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-09-14",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-db038c01",
+   "company": "Stripe",
+   "company_slug": "stripe",
+   "title": "GTM Strategy & Operations Analyst",
+   "url": "https://stripe.com/jobs/search?gh_jid=8145119",
    "location": "New York, NY",
    "remote": "onsite",
    "remote_label": "On-site or hybrid",
@@ -1976,15 +3575,131 @@
      "label": "New York"
     }
    ],
-   "family": "growth-engineer",
-   "family_label": "Growth Engineering",
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "$190,400 - $285,600",
-   "posted_date": "2026-06-15",
-   "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "salary": "$155,800",
+   "posted_date": "2026-08-20",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-c1565e5f",
+   "company": "Stripe",
+   "company_slug": "stripe",
+   "title": "Program Manager, GTM Planning",
+   "url": "https://stripe.com/jobs/search?gh_jid=8147961",
+   "location": "Chicago, Remote",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-08-31",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-2258ac7f",
+   "company": "Stripe",
+   "company_slug": "stripe",
+   "title": "Program Manager, GTM Strategic Programs",
+   "url": "https://stripe.com/jobs/search?gh_jid=8042309",
+   "location": "US-Remote, Chicago",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "other-gtm",
+   "family_label": "Other GTM technical",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-08-11",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "stripe-def419ab",
+   "company": "Stripe",
+   "company_slug": "stripe",
+   "title": "Program Manager, Risk Operations GTM Enablement",
+   "url": "https://stripe.com/jobs/search?gh_jid=8158082",
+   "location": "United States",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": null,
+   "posted_date": "2026-08-25",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "greenhouse",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "together-ai-7b48862e",
+   "company": "Together AI",
+   "company_slug": "together-ai",
+   "title": "GTM Data Analytics Engineer",
+   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5223190007",
+   "location": "San Francisco",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
+   "posted_date": "2026-08-28",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -2009,11 +3724,11 @@
    "family_label": "GTM Engineering",
    "seniority": "unstated",
    "seniority_label": "Not stated in the title",
-   "salary": "",
+   "salary": null,
    "posted_date": "2026-07-02",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "greenhouse",
    "evidence": "url+api",
    "found_via_post": false,
@@ -2036,13 +3751,129 @@
    ],
    "family": "gtm-engineer",
    "family_label": "GTM Engineering",
-   "seniority": "early",
-   "seniority_label": "Early career",
-   "salary": "",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": null,
    "posted_date": "2026-08-14",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "vanta-fd5b4f38",
+   "company": "Vanta",
+   "company_slug": "vanta",
+   "title": "GTM Strategy & Operations Analyst, Account Management",
+   "url": "https://jobs.ashbyhq.com/vanta/0e82974a-0023-49a2-b1ec-a0fa89636dd5",
+   "location": "Remote U.S.",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "unstated",
+   "seniority_label": "Not stated in the title",
+   "salary": "$114,000 - $134,000",
+   "posted_date": "2026-08-28",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "vanta-a72a139e",
+   "company": "Vanta",
+   "company_slug": "vanta",
+   "title": "Senior GTM Strategy & Operations Manager",
+   "url": "https://jobs.ashbyhq.com/vanta/b70e3e50-1294-4b6c-b17e-8441fb89bbfb",
+   "location": "Remote U.S.",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$161,000 - $189,000",
+   "posted_date": "2026-07-23",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "vanta-0e96583d",
+   "company": "Vanta",
+   "company_slug": "vanta",
+   "title": "Senior GTM Strategy & Operations Manager, Mid-Late Sales Funnel",
+   "url": "https://jobs.ashbyhq.com/vanta/c6090572-cbca-4b11-810e-127bf0183abf",
+   "location": "Remote U.S.",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$198,000 - $233,000",
+   "posted_date": "2026-08-26",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "vanta-6fcc1579",
+   "company": "Vanta",
+   "company_slug": "vanta",
+   "title": "Senior GTM Strategy & Operations Manager, Top of Funnel",
+   "url": "https://jobs.ashbyhq.com/vanta/ffdee1c4-c463-4e6f-a98a-ef8240e34868",
+   "location": "Remote U.S.",
+   "remote": "remote",
+   "remote_label": "Remote",
+   "regions": [
+    {
+     "slug": "us-other",
+     "label": "United States, elsewhere"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$161,000 - $189,000",
+   "posted_date": "2026-08-24",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -2070,8 +3901,41 @@
    "salary": "$195,000 - $229,000",
    "posted_date": "2026-07-10",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
+   "evidence": "url+api",
+   "found_via_post": false,
+   "changed_since_last_pass": false
+  },
+  {
+   "id": "watershed-cfc3eec4",
+   "company": "Watershed",
+   "company_slug": "watershed",
+   "title": "GTM enablement manager, revenue excellence",
+   "url": "https://jobs.ashbyhq.com/watershed/b9eda34a-75ec-4899-a8d6-16d99893c6c1",
+   "location": "San Francisco; New York City",
+   "remote": "onsite",
+   "remote_label": "On-site or hybrid",
+   "regions": [
+    {
+     "slug": "sf-bay",
+     "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
+    }
+   ],
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$147,600 - $183,300",
+   "posted_date": "2026-06-01",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
@@ -2088,12 +3952,12 @@
    "remote_label": "On-site or hybrid",
    "regions": [
     {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
      "slug": "sf-bay",
      "label": "San Francisco Bay Area"
+    },
+    {
+     "slug": "nyc",
+     "label": "New York"
     }
    ],
    "family": "gtm-engineer",
@@ -2103,46 +3967,38 @@
    "salary": "$147,600 - $164,000",
    "posted_date": "2026-08-17",
    "first_tracked": "2026-08-25",
-   "days_tracked": 2,
-   "verified_on": "2026-08-27",
+   "days_tracked": 20,
+   "verified_on": "2026-09-14",
    "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
   },
   {
-   "id": "workato-e8ff9055",
-   "company": "Workato",
-   "company_slug": "workato",
-   "title": "Staff Domain Expert, AI in GTM",
-   "url": "https://job-boards.greenhouse.io/workato/jobs/8474237002",
-   "location": "Boston, Massachusetts; Denver, Colorado; New York, New York; Palo Alto, California; San Francisco, California",
-   "remote": "onsite",
-   "remote_label": "On-site or hybrid",
+   "id": "zapier-3b38837c",
+   "company": "Zapier",
+   "company_slug": "zapier",
+   "title": "Manager, GTM Analytics",
+   "url": "https://jobs.ashbyhq.com/zapier/7dd68291-3696-4fd0-a5d0-24ab73d22fff",
+   "location": "NAMER",
+   "remote": "remote",
+   "remote_label": "Remote",
    "regions": [
     {
-     "slug": "boston",
-     "label": "Boston"
-    },
-    {
-     "slug": "nyc",
-     "label": "New York"
-    },
-    {
-     "slug": "sf-bay",
-     "label": "San Francisco Bay Area"
+     "slug": "us-other",
+     "label": "United States, elsewhere"
     }
    ],
-   "family": "other-gtm",
-   "family_label": "Other GTM technical",
-   "seniority": "staff",
-   "seniority_label": "Staff or Principal",
-   "salary": "$150,000 - $180,000",
-   "posted_date": "2026-04-01",
-   "first_tracked": "2026-05-08",
-   "days_tracked": 111,
-   "verified_on": "2026-08-27",
-   "ats": "greenhouse",
+   "family": "revops",
+   "family_label": "RevOps and GTM Operations",
+   "seniority": "leadership",
+   "seniority_label": "Leadership",
+   "salary": "$174,200 - $261,300",
+   "posted_date": "2026-08-26",
+   "first_tracked": "2026-09-14",
+   "days_tracked": 0,
+   "verified_on": "2026-09-14",
+   "ats": "ashby",
    "evidence": "url+api",
    "found_via_post": false,
    "changed_since_last_pass": false
@@ -2150,544 +4006,265 @@
  ],
  "removed": [
   {
-   "company": "Adobe",
-   "title": "Senior / AI Agent Engineer, Brand Concierge",
-   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/AI-Agent-Engineer_R158282",
-   "status": "unverified",
-   "reason": "200 but the page carries no trace of this req (js-only shell or wrong page)",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "company": "Aircall",
+   "title": "Director, Forward Deployed Engineering & AI GTM Lead",
+   "url": "https://jobs.lever.co/aircall/13df67eb-2f59-4819-9266-ee35be751769",
+   "status": "dead",
+   "reason": "http 404",
+   "http_status": 404,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Anthropic",
-   "title": "GTM Engineer",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5211222008",
+   "company": "Aircall",
+   "title": "Director, Forward Deployed Engineering & AI GTM Lead",
+   "url": "https://jobs.lever.co/aircall/1ee12092-9b19-46db-a4a4-c2bc4902396c",
    "status": "dead",
-   "reason": "redirected to https://job-boards.greenhouse.io/anthropic?error=true with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "reason": "http 404",
+   "http_status": 404,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Anthropic",
-   "title": "Program Manager, GTM Systems",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5363352008",
+   "company": "Aircall",
+   "title": "Director, Forward Deployed Engineering & AI GTM Lead",
+   "url": "https://jobs.lever.co/aircall/af40e77c-554a-436b-b6cb-bf1eca20c9d7",
    "status": "dead",
-   "reason": "redirected to https://job-boards.greenhouse.io/anthropic?error=true with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "reason": "http 404",
+   "http_status": 404,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Clay",
-   "title": "Account Executive (GTME - High Velocity)",
-   "url": "https://jobs.ashbyhq.com/claylabs/6a716895-54fb-41f7-9cd5-13ff6a4085a4",
+   "company": "Aircall",
+   "title": "GTM Enablement Intern",
+   "url": "https://jobs.lever.co/aircall/daecac18-ae6c-45ea-9e0c-d307d18f1a14",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "reason": "http 404",
+   "http_status": 404,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Clay",
-   "title": "Account Executive (GTME - New Business)",
-   "url": "https://jobs.ashbyhq.com/claylabs/84212160-462f-42a1-a9c2-b9b6428e945f",
+   "company": "Apollo.io",
+   "title": "Go-To-Market Engineer I, SMB",
+   "url": "https://job-boards.greenhouse.io/apolloio/jobs/5778017004",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
+   "reason": "redirected to https://job-boards.greenhouse.io/apolloio?error=true with no trace of this req",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Clay",
-   "title": "Account Executive (GTME) - SMB/High Velocity",
-   "url": "https://jobs.ashbyhq.com/claylabs/7bd35c48-c394-46c8-98a1-f809fed007d8",
+   "company": "Chorus",
+   "title": "GTM Data Solutions Architect",
+   "url": "https://www.zoominfo.com/careers?gh_jid=8641894002",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "reason": "http 403",
+   "http_status": 403,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Clay",
-   "title": "Forward Deployed GTME",
-   "url": "https://jobs.ashbyhq.com/claylabs/26c9a251-b616-49f7-a489-4d393a02ea5f",
+   "company": "Chorus",
+   "title": "GTM Integration Engineer III",
+   "url": "https://www.zoominfo.com/careers?gh_jid=8716257002",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "reason": "http 403",
+   "http_status": 403,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Clay",
-   "title": "Go-To-Market Engineering (GTME) Ecosystems - Cohorts",
-   "url": "https://jobs.ashbyhq.com/claylabs/f50ce265-afa3-4da7-9d1b-f0b02256282c",
+   "company": "Chorus",
+   "title": "Senior Program Manager, GTM",
+   "url": "https://www.zoominfo.com/careers?gh_jid=8654483002",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Clay",
-   "title": "GTM Enablement Program Manager, EMEA",
-   "url": "https://jobs.ashbyhq.com/claylabs/454725ed-81e8-4252-992d-e16ee48621b9",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "reason": "http 403",
+   "http_status": 403,
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Clay",
-   "title": "GTME (Sales) Enablement",
-   "url": "https://jobs.ashbyhq.com/claylabs/0944c931-d792-45f9-9d5f-eab2dacad4d8",
+   "title": "GTM Engineer - CX",
+   "url": "https://jobs.ashbyhq.com/claylabs/e43101dd-4e98-4c60-bc1b-adbbb38c7b15",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Clay",
-   "title": "GTME Ecosystem - Community Strategy & Ops",
-   "url": "https://jobs.ashbyhq.com/claylabs/b996c889-9985-4ff1-98c3-ebf6b60b8790",
+   "title": "GTM Engineer - Partnerships",
+   "url": "https://jobs.ashbyhq.com/claylabs/242be863-2f62-44a7-909d-6c351dee81d1",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Clay",
-   "title": "GTME Ecosystem - Create Your Own Role",
-   "url": "https://jobs.ashbyhq.com/claylabs/45fbd224-6a30-4b8e-8938-139ae0a0127f",
+   "title": "GTM Engineer - Seller Efficiency",
+   "url": "https://jobs.ashbyhq.com/claylabs/d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Clay",
-   "title": "GTME Ecosystem - Ecosystem Programs Lead",
-   "url": "https://jobs.ashbyhq.com/claylabs/05d88dd4-372c-40b5-85c1-8fb8a53fb133",
+   "title": "GTM Ops Manager - EMEA",
+   "url": "https://jobs.ashbyhq.com/claylabs/2620226a-13b5-48be-a9a9-ff7769552a21",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Clay",
-   "title": "GTME Ecosystem - GTME Talent Lead",
-   "url": "https://jobs.ashbyhq.com/claylabs/9c58e923-3034-4d25-b820-2102769a77e1",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Clay",
-   "title": "GTME Ecosystem - GTME University Lead",
-   "url": "https://jobs.ashbyhq.com/claylabs/0532ee84-60a2-4998-a461-eabc555ee4c8",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Clay",
-   "title": "GTME Ecosystem - Startup Programs Lead",
-   "url": "https://jobs.ashbyhq.com/claylabs/3115a0f7-0978-44ff-9ee7-b9bb82afacc2",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Clay",
-   "title": "Product Marketing (GTM)",
-   "url": "https://jobs.ashbyhq.com/claylabs/6579de6f-b5df-46df-bb73-e8d82955f293",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Clay",
-   "title": "Trainer, GTM Enablement",
-   "url": "https://jobs.ashbyhq.com/claylabs/a4cd530e-a99b-4c24-a2b7-f609ce3f59c1",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Cursor",
-   "title": "GTM Engineer, Growth Programs",
-   "url": "https://jobs.ashbyhq.com/cursor/044a003e-d6cc-43b6-806a-833d9399c3d4",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Cursor",
-   "title": "Senior Staff GTM Systems Engineer",
-   "url": "https://jobs.ashbyhq.com/cursor/47df1e88-54af-42e1-a813-444b523b1a4d",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Databricks",
-   "title": "Global GTM Strategy and Scale Architect",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8463173002",
-   "status": "dead",
-   "reason": "redirected to https://www.databricks.com/company/careers/open-positions with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Databricks",
-   "title": "Manager, GTM Commissions Design",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461584002",
-   "status": "dead",
-   "reason": "redirected to https://www.databricks.com/company/careers/open-positions with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Databricks",
-   "title": "Strategy & Execution Manager - GTM Planning",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8468678002",
-   "status": "dead",
-   "reason": "redirected to https://www.databricks.com/company/careers/open-positions with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Fundraise Up",
-   "title": "GTM Engineer",
-   "url": "https://job-boards.greenhouse.io/fundraiseup/jobs/4705061005",
-   "status": "dead",
-   "reason": "redirected to https://fundraiseup.com/careers/ with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Harvey",
-   "title": "GTM Enablement Manager, EMEA",
-   "url": "https://jobs.ashbyhq.com/harvey/430a45ad-f66d-48cc-aa75-da657aeb827f",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Harvey",
-   "title": "GTM Recruiter",
-   "url": "https://jobs.ashbyhq.com/harvey/cda9ac50-83bd-4965-8afa-feeca25bad4f",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Harvey",
-   "title": "GTM Systems Admin (Support)",
-   "url": "https://jobs.ashbyhq.com/harvey/22a3e192-e8ab-41f0-bfc3-1586587ab182",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Harvey",
-   "title": "GTM Systems Admin, Growth",
-   "url": "https://jobs.ashbyhq.com/harvey/beaeadde-22b3-4917-ba7c-d9c1a62f2d38",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Intercom",
-   "title": "Principal Engineer - Go-To-Market",
-   "url": "https://job-boards.greenhouse.io/intercom/jobs/7811880",
-   "status": "dead",
-   "reason": "redirected to https://job-boards.greenhouse.io/intercom?error=true with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Intercom",
-   "title": "Senior GTM Product Enablement Manager",
-   "url": "https://job-boards.greenhouse.io/intercom/jobs/7441074",
-   "status": "dead",
-   "reason": "redirected to https://job-boards.greenhouse.io/intercom?error=true with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Meesho (AI Services)",
-   "title": "GTM Engineer",
-   "url": "https://jobs.lever.co/meesho/c49e13f6-f027-42f3-98b5-745d83997cbf",
-   "status": "unverified",
-   "reason": "conflict: the page still renders this req but the employer's own board feed has dropped it",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Mistral AI",
-   "title": "Talent Acquisition (Engineering/Product/GTM/ Science) - EMEA",
-   "url": "https://jobs.ashbyhq.com/mistral/c0968784-8292-425a-b0a6-ac144decdf21",
+   "title": "GTM Applications Engineer",
+   "url": "https://jobs.ashbyhq.com/cursor/9d7c8f36-eeb7-4e9f-acbe-d959f6280e46",
    "status": "unverified",
    "reason": "200 but the page carries no trace of this req (js-only shell or wrong page)",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Cursor",
+   "title": "GTM Strategy & Ops Lead - APJ",
+   "url": "https://jobs.ashbyhq.com/cursor/7e1d8e07-c87b-4388-892a-6b138bebf665",
+   "status": "unverified",
+   "reason": "200 but the page carries no trace of this req (js-only shell or wrong page)",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Fivetran",
+   "title": "Senior Staff Systems Engineer, GTM",
+   "url": "https://www.fivetran.com/careers/job?gh_jid=7810381003",
+   "status": "unverified",
+   "reason": "200 but the page carries no trace of this req (js-only shell or wrong page)",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Fivetran",
+   "title": "Senior Staff Systems Engineer, GTM",
+   "url": "https://www.fivetran.com/careers/job?gh_jid=7826669003",
+   "status": "unverified",
+   "reason": "200 but the page carries no trace of this req (js-only shell or wrong page)",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Gong",
+   "title": "GTM AI Engineer",
+   "url": "https://job-boards.greenhouse.io/gongio/jobs/4697977006",
+   "status": "dead",
+   "reason": "redirected to https://job-boards.greenhouse.io/gongio?error=true with no trace of this req",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Gong",
+   "title": "GTM Engineer (GTM Automations)",
+   "url": "https://job-boards.greenhouse.io/gongio/jobs/4693864006",
+   "status": "dead",
+   "reason": "redirected to https://job-boards.greenhouse.io/gongio?error=true with no trace of this req",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Hebbia AI",
+   "title": "GTM Engineer",
+   "url": "https://jobs.ashbyhq.com/hebbia-ai/4b1d51bc-2985-471b-b3b5-1ddf62e0a50a",
+   "status": "dead",
+   "reason": "req id is gone from the employer board feed",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Hightouch",
+   "title": "Go-to-Market Engineer",
+   "url": "https://job-boards.greenhouse.io/hightouch/jobs/5823552004",
+   "status": "dead",
+   "reason": "redirected to https://job-boards.greenhouse.io/hightouch?error=true with no trace of this req",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Intercom",
+   "title": "Senior GTM Enablement Manager, Operations",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7441053",
+   "status": "dead",
+   "reason": "redirected to https://job-boards.greenhouse.io/intercom?error=true with no trace of this req",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
+  },
+  {
+   "company": "Make",
+   "title": "GTM Engineer - Revenue Programs",
+   "url": "https://www.make.com/en/careers-detail?gh_jid=7778897003",
+   "status": "dead",
+   "reason": "http 403",
+   "http_status": 403,
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Notion",
-   "title": "Data Engineer, Go-To-Market",
-   "url": "https://jobs.ashbyhq.com/notion/655b047b-5e58-4b0c-82f0-8c16b2c03318",
+   "title": "Sales Recruiter",
+   "url": "https://jobs.ashbyhq.com/notion/f663839e-46ac-44ad-9720-da2b6aa28093",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
+   "reason": "req id is gone from the employer board feed (page still renders it)",
    "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "Enterprise Product Marketing, GTM",
-   "url": "https://jobs.ashbyhq.com/notion/5f986e92-f668-4c9b-8b13-3de9cfe737e2",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "Forward Deployed Engineer, GTM - Korea",
-   "url": "https://jobs.ashbyhq.com/notion/1cd3f44f-aa30-44a6-a64b-c7bfc813eeb9",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "Forward Deployed Engineer, GTM, DACH",
-   "url": "https://jobs.ashbyhq.com/notion/b50c884e-1170-46d2-ae4c-3f559d2c98c4",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "Forward Deployed Engineer, GTM, France",
-   "url": "https://jobs.ashbyhq.com/notion/2ca618b4-2223-47ca-b1f0-84ac101fcd90",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "GTM AI + Innovation Manager",
-   "url": "https://jobs.ashbyhq.com/notion/3336e944-0970-48ef-9a97-4ebd6656d0c2",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "GTM Recruiter, Tokyo",
-   "url": "https://jobs.ashbyhq.com/notion/6b702ebf-0829-4b0a-b103-fe9271708881",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Notion",
-   "title": "People Partner, GTM",
-   "url": "https://jobs.ashbyhq.com/notion/2a1bd4d8-fd02-486e-a1ac-d98c59e57ae5",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "Full Stack Software Engineer, GTM Innovation",
-   "url": "https://jobs.ashbyhq.com/openai/a2c9f105-b41a-41db-afd8-e70a54b3f21c",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Business Operations & Strategy Lead, Codex",
-   "url": "https://jobs.ashbyhq.com/openai/ffbd26ce-25fe-44af-931f-8939cb8a731b",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Business Operations & Strategy Lead, Platform",
-   "url": "https://jobs.ashbyhq.com/openai/76d44b19-7586-446e-a21a-a073af1f0a00",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Enablement Manager",
-   "url": "https://jobs.ashbyhq.com/openai/f266cb79-dc62-42e9-a2f1-efc083c94457",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Partnerships Enablement Lead",
-   "url": "https://jobs.ashbyhq.com/openai/b75f6b5b-8a84-4796-9093-588cc9334c04",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Strategy & Operations Lead - BDR",
-   "url": "https://jobs.ashbyhq.com/openai/c3029025-9f6e-429c-98da-01efc387b621",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Strategy & Operations Lead, Enterprise",
-   "url": "https://jobs.ashbyhq.com/openai/d9b8a8fb-838f-4851-b61c-b80a89319a5f",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Strategy & Operations, Strategic Programs",
-   "url": "https://jobs.ashbyhq.com/openai/75f10cd2-22f4-4dae-8c67-3d51b9c2ec4a",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "GTM Strategy & Planning",
-   "url": "https://jobs.ashbyhq.com/openai/bd3a367f-aa91-4b6f-b74e-451fb7fc3151",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "Product Engineer, GTM Innovation",
-   "url": "https://jobs.ashbyhq.com/openai/3bb3c9f8-78d1-4df5-b47e-235f8ed5cbf9",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "OpenAI",
-   "title": "Strategic Finance, GTM",
-   "url": "https://jobs.ashbyhq.com/openai/4f1870f0-b0a8-44fb-b6fe-28638b45ae47",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Outreach",
-   "title": "Principal GTM Systems Manager",
-   "url": "https://jobs.lever.co/outreach/38ac7a54-e7d2-4a5d-bd56-ddee7b85bea4",
+   "title": "Senior GTM AI Advisor",
+   "url": "https://jobs.lever.co/outreach/91b45521-0ad3-499f-8c05-514beb39c2e5",
    "status": "dead",
-   "reason": "http 404",
-   "http_status": 404,
-   "checked_on": "2026-08-27"
+   "reason": "req id is gone from the employer board feed (page still renders it)",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Ramp",
-   "title": "Associate, GTM Finance & Operations",
-   "url": "https://jobs.ashbyhq.com/ramp/bd9e9159-6c35-4755-9a48-02cc96d5379d",
+   "title": "GTM Systems Engineer, Salesforce",
+   "url": "https://jobs.ashbyhq.com/ramp/ffc09fc0-7785-48db-a203-a148f62534be",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
    "company": "Ramp",
-   "title": "GTM Associate - Europe",
-   "url": "https://jobs.ashbyhq.com/ramp/20331539-c49c-4bf7-a719-a7e1b6e55537",
+   "title": "Software Engineer, Frontend, Ramp Revenue",
+   "url": "https://jobs.ashbyhq.com/ramp/1540a41f-d88f-4c89-9b08-5b9fade1ee81",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Spotify",
-   "title": "Senior Program Analyst - GTM Ops",
-   "url": "https://jobs.lever.co/spotify/1f0ccb2c-bf5f-49ee-936d-4a22e8725c2b",
+   "company": "Sanity",
+   "title": "Senior GTM Engineer, Systems Engineering",
+   "url": "https://www.sanity.io/careers/senior-gtm-engineer-systems-engineering",
    "status": "dead",
-   "reason": "http 404",
-   "http_status": 404,
-   "checked_on": "2026-08-27"
+   "reason": "req id is gone from the employer board feed (page still renders it)",
+   "http_status": 200,
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Vanta",
-   "title": "Senior Analyst, GTM Analytics",
-   "url": "https://jobs.ashbyhq.com/vanta/4d9672a3-3e60-44b2-b992-21dd06f0d172",
+   "company": "Stripe",
+   "title": "Growth Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8008880",
    "status": "dead",
    "reason": "req id is gone from the employer board feed",
    "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   },
   {
-   "company": "Vanta",
-   "title": "Senior Manager, Enablement GTM Programs",
-   "url": "https://jobs.ashbyhq.com/vanta/02750249-acde-4518-816c-1717f315f32e",
+   "company": "Workato",
+   "title": "Staff Domain Expert, AI in GTM",
+   "url": "https://job-boards.greenhouse.io/workato/jobs/8474237002",
    "status": "dead",
-   "reason": "req id is gone from the employer board feed",
+   "reason": "redirected to https://www.workato.com/careers#open-roles with no trace of this req",
    "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Verkada",
-   "title": "Full Stack Engineer, Go-to-Market Systems",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5101666007",
-   "status": "dead",
-   "reason": "redirected to https://job-boards.greenhouse.io/verkada?error=true with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "Watershed",
-   "title": "GTM operations, customer",
-   "url": "https://jobs.ashbyhq.com/watershed/ee822cb3-56c1-43aa-9150-4529f8053080",
-   "status": "dead",
-   "reason": "req id is gone from the employer board feed",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
-  },
-  {
-   "company": "xAI",
-   "title": "Head of GTM - Systems & Agents",
-   "url": "https://job-boards.greenhouse.io/xai/jobs/5005154007",
-   "status": "dead",
-   "reason": "redirected to https://job-boards.greenhouse.io/xai?error=true with no trace of this req",
-   "http_status": 200,
-   "checked_on": "2026-08-27"
+   "checked_on": "2026-09-14"
   }
  ]
 }

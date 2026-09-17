@@ -23,7 +23,7 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **MCP unknown**: 1
 - **No MCP found**: 13
 
-- **ship a CLI (official) as of 2026-09-15**: 3
+- **ship a CLI (official) as of 2026-09-17**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 6
@@ -68,7 +68,7 @@ Source file: 08-video-prospecting.md · content sha256 955e47e9f236966e... · co
 
 - [ClearMix](../tools/clearmix.md) clearmix.com On-Demand, Fully-Remote Marketing and Sales Video Production Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 
-- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: consensus-fix (community)
+- [Consensus](../tools/consensus.md) goconsensus.com Convert leads 4x faster and reduce sales cycles by 68%. Create, send, and track demos with our AI enabled Demo Automation and Product Experience Platform [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · CLI: consensus (community)
 
 - [Golpo](../tools/golpo.md) video.golpoai.com Make AI whiteboard animation videos free in 2 minutes. Turn a prompt, script, or document into a whiteboard explainer - no design skills needed. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md)
 

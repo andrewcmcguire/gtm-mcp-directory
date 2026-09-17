@@ -58,7 +58,7 @@ https://api.onsa.ai/api/mcp
 
 - **Tools named**: 13
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -89,11 +89,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **send_outreach** Queues one already-approved outreach draft for delivery to a real person on LinkedIn. It requires `confirmText`, the draft body character-for-character as stored, and `confirmName`, the recipient's name: drafts are often near-identical betw evidence: answered tools/list · calling it reads · required: leadId, confirmText, confirmName
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-15 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -154,6 +154,6 @@ Homepage fetch failed (HTTPError 401); what_it_does used staging desc. mcp_statu
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

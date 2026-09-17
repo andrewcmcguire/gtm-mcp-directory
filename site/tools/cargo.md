@@ -65,14 +65,14 @@ Recorded by the harvest: the customer's own Cargo workflows become the tools
 
 The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: cargo
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
 
@@ -80,24 +80,24 @@ Install, as the source shows it:
 npm install -g @cargo-ai/cli
 ```
 
-quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-15, via npm
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-17, via npm
 
 ```
 npx @cargo-ai/cli
 ```
 
-quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-15, via npx
+quoted from [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) on 2026-09-17, via npx
 
 Login or key hint seen on the page:
 
 cargo-ai login --token
-- [npm: @cargo-ai/cli 1.0.94](https://www.npmjs.com/package/@cargo-ai/cli)
+- [npm: @cargo-ai/cli 1.0.96](https://www.npmjs.com/package/@cargo-ai/cli)
 
 Where it was documented:
 
 - [https://docs.getcargo.ai/cli/overview](https://docs.getcargo.ai/cli/overview) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -187,6 +187,6 @@ DOMAIN CORRECTION - cargo.so does not resolve (DNS failure, confirmed by multipl
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

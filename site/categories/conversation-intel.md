@@ -22,7 +22,7 @@ Tools that ingest sales calls and turn them into deal risk, coaching, and CRM-wr
 - **Community MCP**: 6
 - **No MCP found**: 26
 
-- **ship a CLI (official) as of 2026-09-15**: 4
+- **ship a CLI (official) as of 2026-09-17**: 4
 
 - **Free to start**: 3
 - **Paid, self-serve**: 9

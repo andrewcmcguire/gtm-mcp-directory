@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-15",
+  "generated_on": "2026-09-17",
   "product": "The GTM MCP Directory",
   "phase": "1+2",
   "entries_parsed": 1252,
@@ -287,11 +287,11 @@
     },
     "official_with_live_endpoint": 28,
     "official_docs_only": 88,
-    "mcp_tool_count_total": 9108,
+    "mcp_tool_count_total": 9123,
     "servers_with_a_tool_list": 138,
     "servers_claiming_a_server": 741,
     "tools_by_evidence": {
-      "live-list": 6380,
+      "live-list": 6395,
       "source": 1394,
       "docs": 983,
       "readme": 351
@@ -4623,6 +4623,6 @@
   "parser_warnings": [],
   "index_notes": [],
   "file_fixes": [],
-  "content_sha256": "ee86b7a4c94fdfe4e69ec24da678c50ddd36c575655d3ab54540c6d3c8177693",
+  "content_sha256": "2bba505397c6b08dfdb6e0b1ca0b50ce1847b422e4f830e1832691efda02edd6",
   "source_sha256": "1954f40ab7c506697f46eb8c9b93b74ed98fb3502a36cc6304d37983589cc093"
 }

@@ -60,7 +60,7 @@ https://mcp.browserbase.com/mcp (docs: https://docs.browserbase.com/integrations
 
 - **Tools named**: 6
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -77,14 +77,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **start** Create or reuse a Browserbase session evidence: answered tools/list · calling it writes
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. Every name across every server is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: browse
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
 
@@ -92,7 +92,7 @@ Install, as the source shows it:
 npm install -g browse
 ```
 
-quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-15, via npm
+quoted from [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) on 2026-09-17, via npm
 
 Login or key hint seen on the page:
 
@@ -107,7 +107,7 @@ Where it was documented:
 
 - [https://docs.browserbase.com/integrations/skills/browse-cli](https://docs.browserbase.com/integrations/skills/browse-cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -188,6 +188,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.browserbase.com/mc
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -18,7 +18,7 @@ ServiceAgent
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-09-12
-CLI: serviceagent
+CLI: sa
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -59,35 +59,35 @@ https://serviceagent.ai
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-15. The full roll up is on the [tools index](../tools-index.md).
+138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: serviceagent
+- **Binary**: sa
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-15
+- **Harvested**: 2026-09-17
 
 Install, as the source shows it:
-
-```
-npm install -g @serviceagent/cli
-```
-
-quoted from [https://www.npmjs.com/package/@serviceagent/cli](https://www.npmjs.com/package/@serviceagent/cli) on 2026-09-15, via npm
 
 ```
 npm install -g @serviceagent/cli-dev
 ```
 
-quoted from [https://www.npmjs.com/package/@serviceagent/cli-dev](https://www.npmjs.com/package/@serviceagent/cli-dev) on 2026-09-15, via npm
+quoted from [https://www.npmjs.com/package/@serviceagent/cli-dev](https://www.npmjs.com/package/@serviceagent/cli-dev) on 2026-09-17, via npm
 
-Packages seen, with the version on 2026-09-15:
+```
+npm install -g @serviceagent/cli
+```
 
-- [npm: @serviceagent/cli 1.0.4](https://www.npmjs.com/package/@serviceagent/cli)
+quoted from [https://www.npmjs.com/package/@serviceagent/cli](https://www.npmjs.com/package/@serviceagent/cli) on 2026-09-17, via npm
+
+Packages seen, with the version on 2026-09-17:
+
 - [npm: @serviceagent/cli-dev 1.1.0](https://www.npmjs.com/package/@serviceagent/cli-dev)
+- [npm: @serviceagent/cli 1.0.4](https://www.npmjs.com/package/@serviceagent/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-15.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
 
 **Access gate**
 
@@ -150,6 +150,6 @@ mcp_status=community from official-mcp-registry listing; not an invented officia
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-15
+- **Data baked**: 2026-09-17
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

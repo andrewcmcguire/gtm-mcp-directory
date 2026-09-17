@@ -1,6 +1,6 @@
 # Signal and intent tools with MCP servers: 46 of 86, counted
 
-> 46 of the 86 signals & intent tools in this directory have an MCP server: 21 official and 25 community. The list with server URLs and access gates. Counted 2026-09-15.
+> 46 of the 86 signals & intent tools in this directory have an MCP server: 21 official and 25 community. The list with server URLs and access gates. Counted 2026-09-17.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -157,7 +157,7 @@ B2B marketing attribution software that uses AI to recommend ways to improve cam
 | [Enterprise only](../gates/enterprise-only.md) | 10 |
 | [Gate unknown](../gates/unknown.md) | 57 |
 
-Counted 2026-09-15. Source file 05-signals-intent-abm.md, content sha256 bddf3c7d40ffcc9e...
+Counted 2026-09-17. Source file 05-signals-intent-abm.md, content sha256 bddf3c7d40ffcc9e...
 
 ## Sources
 
@@ -165,7 +165,7 @@ Counted 2026-09-15. Source file 05-signals-intent-abm.md, content sha256 bddf3c7
 - [Signals & Intent tools with MCP servers](../lists/mcp-signals-intent-abm.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-15. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-17. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

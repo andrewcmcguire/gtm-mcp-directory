@@ -1,6 +1,6 @@
 # CRM and RevOps tools with MCP servers: 53 of 102, counted
 
-> 53 of the 102 revops infra tools in this directory have an MCP server: 29 official and 24 community. The list with server URLs and access gates. Counted 2026-09-15.
+> 53 of the 102 revops infra tools in this directory have an MCP server: 29 official and 24 community. The list with server URLs and access gates. Counted 2026-09-17.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -171,7 +171,7 @@ Give Salesforce the AI upgrade it deserves
 | [Enterprise only](../gates/enterprise-only.md) | 5 |
 | [Gate unknown](../gates/unknown.md) | 71 |
 
-Counted 2026-09-15. Source file 06-revops-infra.md, content sha256 20f5941948b77436...
+Counted 2026-09-17. Source file 06-revops-infra.md, content sha256 20f5941948b77436...
 
 ## Sources
 
@@ -179,7 +179,7 @@ Counted 2026-09-15. Source file 06-revops-infra.md, content sha256 20f5941948b77
 - [RevOps Infra tools with MCP servers](../lists/mcp-revops-infra.md) this site
 - [The GTM MCP Directory, methodology](../methodology.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-15. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-17. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 
