@@ -1,6 +1,6 @@
 # Ocean.io: products, MCP servers and connect URLs, one vendor page
 
-> Ocean.io (ocean.io): 2 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-17.
+> Ocean.io (ocean.io): 2 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-18.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Ocean.io
 2 products in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-17
+Data baked 2026-09-18
 
 Vendor domain: [ocean.io](https://ocean.io) · vendor page id ocean-io
 
@@ -38,7 +38,7 @@ Vendor domain: [ocean.io](https://ocean.io) · vendor page id ocean-io
 
 - **Bench tested**: 0 of 2 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-17
+- **Ships a CLI**: 0 of 2 official, 0 community only, 2 none found, harvested 2026-09-18
 
 - **GitHub organisation**: none tied to ocean.io with evidence on 2026-09-08, 2026-09-15
 
@@ -99,7 +99,7 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -113,4 +113,4 @@ Recorded by the harvest: github candidates were seen but none passed the evidenc
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-17 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-18 by build_directory.py (phase 1).

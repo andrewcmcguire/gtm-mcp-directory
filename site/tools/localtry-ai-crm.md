@@ -56,13 +56,48 @@ https://github.com/philly88r/localtry-mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 13
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-18
+- **Repo read**: philly88r/localtry-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **create_or_update_crm_record** Create or update a validated CRM record. evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **create_workflow_agent** Describe and save a tenant-owned AI agent for use in Flow Studio workflows. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_recent_activity** Review recent CRM, workflow, and customization activity. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_workspace_customization_status** Read the latest customization conversation, progress, questions, and result. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_workspace_overview** Inspect the connected business's pages, modules, fields, workflows, integrations, and customization history. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **list_workspace_versions** Review the workspace's customization history. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **request_workspace_customization** Submit the same tenant-scoped engineering request as the Customize Workspace prompt. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **restore_workspace_version** Restore an approved earlier version for the connected workspace. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **run_localtry_command** Use LocalTry Command for verified, multi-step CRM and business operations. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **run_social_research** Start one public social or web research search and save it in the connected workspace. evidence: in a README table · calling it writes · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **run_workflow** Run one of the business's saved workflows. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_crm** Search tenant-scoped CRM records without exposing raw SQL. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_localtry_features** Find the exact registered LocalTry page, action, agent, integration, or tenant addition before acting. evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -130,6 +165,6 @@ mcp_status=community from official-mcp-registry listing; not an invented officia
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

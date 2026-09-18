@@ -56,7 +56,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: caretta
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 pip install caretta
 ```
 
-quoted from [https://pypi.org/project/caretta/](https://pypi.org/project/caretta/) on 2026-09-17, via pypi, a third party source
+quoted from [https://pypi.org/project/caretta/](https://pypi.org/project/caretta/) on 2026-09-18, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-17:
+Packages seen, with the version on 2026-09-18:
 
 - [pypi: caretta 0.1.2, third party](https://pypi.org/project/caretta/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -134,6 +134,6 @@ API mentioned on https://www.caretta.so/llms.txt; pricing/gate not inferred from
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

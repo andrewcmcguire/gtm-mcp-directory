@@ -54,7 +54,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 - **Binary**: dotenv
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -62,13 +62,13 @@ Install, as the source shows it:
 npm install -g @octane11/dotenv-cli
 ```
 
-quoted from [https://www.npmjs.com/package/@octane11/dotenv-cli](https://www.npmjs.com/package/@octane11/dotenv-cli) on 2026-09-17, via npm
+quoted from [https://www.npmjs.com/package/@octane11/dotenv-cli](https://www.npmjs.com/package/@octane11/dotenv-cli) on 2026-09-18, via npm
 
-Packages seen, with the version on 2026-09-17:
+Packages seen, with the version on 2026-09-18:
 
 - [npm: @octane11/dotenv-cli 11.0.1](https://www.npmjs.com/package/@octane11/dotenv-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -131,6 +131,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

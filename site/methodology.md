@@ -41,7 +41,7 @@ The list is not the moat. Anyone can copy 1,252 rows. What is hard to copy is th
 
 tools_recount.py is the counter, not this site and not the build script. The build reconciles against it file by file and fails rather than publish a drifted number. This build: 1,252 against 1,252, 0 failures, 0 parser warnings. The site generator re-checks the same numbers before it writes a single file.
 
-Data baked 2026-09-17 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 2bba505397c6b08dfdb6e0b1...
+Data baked 2026-09-18 by build_directory.py (phase 1). Network calls made during the build: 0. Content sha256 ac528ab40b4b28e1840ce9bf...
 
 **The duplicates, and why two counts exist**
 

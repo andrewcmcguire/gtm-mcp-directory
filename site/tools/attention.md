@@ -59,9 +59,9 @@ https://docs.attention.com/mcp/overview (re-verified 200 on 2026-08-28; correcte
 
 **What this server exposes**
 
-- **Tools named**: 7
-- **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-17
+- **Tools named**: 24
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-18
 - **Repo read**: highgravitas/attention-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -70,25 +70,59 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
 
-- **ask_attention** Run Attention evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **chat_id** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **get_conversation** Get full details and transcript for a specific Attention conversation by ID. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **conversation_id** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **get_scorecards_summary** Get per-criterion averages for a scorecard over a date range. Feeds weekly manager rollup. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **conversation_ids** array evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **list_gi_history** List an org user evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **days_back** integer evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **list_recent_conversations** List recent Attention conversations from the past N days. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **deal_id** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **list_scorecards** List all scorecards configured for the organization (id, name, criteria). Call this first to pick a scorecard_id and criterion ids for create_scorecard_result. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **detailed_transcript** boolean evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-- **search_conversations** Search Attention for call recordings and transcripts. Use for sales calls, customer calls, and demos. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+- **from_date** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
+- **include_timestamps** boolean evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **items** array evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **limit** integer evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **offset** integer evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **owner_email** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **participant_email** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **prompt** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **query** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **scorecard_id** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **scorecard_item_ids** array evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **size** integer evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **summary** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **team_uuids** array evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **to_date** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **user_email** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **user_uuid** string evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **user_uuids** array evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -164,6 +198,6 @@ https://docs.attention.com/mcp/overview, https://docs.attention.com/mcp/authenti
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

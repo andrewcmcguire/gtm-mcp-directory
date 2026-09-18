@@ -54,7 +54,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 - **Binary**: agentmail
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -62,21 +62,22 @@ Install, as the source shows it:
 npm install -g agentmail-cli
 ```
 
-quoted from [https://www.npmjs.com/package/agentmail-cli](https://www.npmjs.com/package/agentmail-cli) on 2026-09-17, via npm
+quoted from [https://www.npmjs.com/package/agentmail-cli](https://www.npmjs.com/package/agentmail-cli) on 2026-09-18, via npm
 
 ```
 npm install -g @agentmail/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@agentmail/cli](https://www.npmjs.com/package/@agentmail/cli) on 2026-09-17, via npm
+quoted from [https://www.npmjs.com/package/@agentmail/cli](https://www.npmjs.com/package/@agentmail/cli) on 2026-09-18, via npm
 
-Packages seen, with the version on 2026-09-17:
+Packages seen, with the version on 2026-09-18:
 
 - [npm: agentmail-cli 1.5.0](https://www.npmjs.com/package/agentmail-cli)
-- [npm: agentmail-cli-fern 0.2.0, third party](https://www.npmjs.com/package/agentmail-cli-fern)
 - [npm: @agentmail/cli 0.4.2](https://www.npmjs.com/package/@agentmail/cli)
+- [npm: agentmail-cli-fern 0.2.0, third party](https://www.npmjs.com/package/agentmail-cli-fern)
+- [npm: @stepandel/agentmail-cli 1.0.0, third party](https://www.npmjs.com/package/@stepandel/agentmail-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -140,6 +141,6 @@ API mentioned on https://www.agentmail.to/llms.txt; pricing/gate not inferred fr
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

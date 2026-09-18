@@ -23,7 +23,7 @@ Personalized video for outbound - a rep records one clip, and the tool inserts t
 - **MCP unknown**: 1
 - **No MCP found**: 13
 
-- **ship a CLI (official) as of 2026-09-17**: 3
+- **ship a CLI (official) as of 2026-09-18**: 3
 
 - **Free to start**: 3
 - **Paid, self-serve**: 6

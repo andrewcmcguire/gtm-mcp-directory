@@ -54,7 +54,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 - **Binary**: loops
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -62,25 +62,25 @@ Install, as the source shows it:
 brew install loops-so/tap/loops
 ```
 
-quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-17, via brew
+quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-18, via brew
 
 ```
 curl -fsSL https://install.loops.so/cli | sh
 ```
 
-quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-17, via shell
+quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-18, via shell
 
 ```
 curl -fsSL https://install.loops.so/wizard | sh
 ```
 
-quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-17, via shell
+quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-18, via shell
 
 ```
 go install github.com/loops-so/cli/cmd/loops@latest
 ```
 
-quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-17, via go
+quoted from [https://loops.so/docs/cli](https://loops.so/docs/cli) on 2026-09-18, via go
 
 Login or key hint seen on the page:
 
@@ -94,7 +94,7 @@ Where it was documented:
 
 - [https://loops.so/docs/cli](https://loops.so/docs/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -157,6 +157,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

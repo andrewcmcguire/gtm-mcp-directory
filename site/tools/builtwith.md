@@ -18,6 +18,7 @@ BuiltWith
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: builtwith-tui
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,32 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+- **Binary**: builtwith-tui
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-18
+
+Install, as the source shows it:
+
+```
+npm install -g @builtwith/tui
+```
+
+quoted from [https://www.npmjs.com/package/@builtwith/tui](https://www.npmjs.com/package/@builtwith/tui) on 2026-09-18, via npm
+
+```
+npm install -g builtwith-official-cli
+```
+
+quoted from [https://www.npmjs.com/package/builtwith-official-cli](https://www.npmjs.com/package/builtwith-official-cli) on 2026-09-18, via npm
+
+Packages seen, with the version on 2026-09-18:
+
+- [npm: @builtwith/tui 0.7.0](https://www.npmjs.com/package/@builtwith/tui)
+- [npm: builtwith-official-cli 1.9.0](https://www.npmjs.com/package/builtwith-official-cli)
+- [npm: builtwith-cli 1.0.0, third party](https://www.npmjs.com/package/builtwith-cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -114,6 +140,6 @@ Homepage had no meta description; what_it_does kept minimal and source-tied. mcp
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

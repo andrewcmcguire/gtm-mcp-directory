@@ -59,14 +59,14 @@ https://github.com/julien040/anyquery
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: anyquery
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -74,32 +74,32 @@ Install, as the source shows it:
 brew install anyquery
 ```
 
-quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-17, via brew
+quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-18, via brew
 
 ```
 curl -fsSL https://anyquery.dev/install.sh | sh
 ```
 
-quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-17, via shell
+quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-18, via shell
 
 ```
 winget install JulienCagniart.anyquery
 ```
 
-quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-17, via winget
+quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-18, via winget
 
 ```
 scoop install anyquery
 ```
 
-quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-17, via scoop
+quoted from [https://anyquery.dev/docs](https://anyquery.dev/docs) on 2026-09-18, via scoop
 
 13 subcommands seen with the binary in the docs or README:
 expand to read them
 
 alias, completion, connection, gpt, install, mcp, plugins, profiles, query, registry, run, server, tool
 
-Packages seen, with the version on 2026-09-17:
+Packages seen, with the version on 2026-09-18:
 
 - [brew: anyquery 0.5.0](https://formulae.brew.sh/formula/anyquery)
 
@@ -107,7 +107,7 @@ Where it was documented:
 
 - [https://anyquery.dev/docs](https://anyquery.dev/docs) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -174,6 +174,6 @@ mcp_status=community from discovery source github-mcp-gtm-search; mcp_url is the
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

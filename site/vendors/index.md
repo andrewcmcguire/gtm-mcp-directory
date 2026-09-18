@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 978 vendors with their MCP servers
 
-> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-17.
+> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-18.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-17. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,832 tools catalogued across their servers, gateways excluded, harvested 2026-09-17. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-18. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,866 tools catalogued across their servers, gateways excluded, harvested 2026-09-18. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 1,252 entries in the whole directory are bench tested.
 
@@ -93,7 +93,7 @@ A
 | [Anymail Finder](anymailfinder-com.md) | anymailfinder.com | 1 | 1 | 1 | 0 |
 | [Anyquery](anyquery-dev.md) | anyquery.dev | 1 | 0 | 0 | 0 |
 | [Apideck](apideck-com.md) | apideck.com | 1 | 1 | 0 | 25 |
-| [Apify](apify-com.md) | apify.com | 3 | 1 | 0 | 23 |
+| [Apify](apify-com.md) | apify.com | 3 | 1 | 0 | 27 |
 | [Apify Actors MCP](mcp-apify-com.md) | mcp.apify.com | 1 | 0 | 0 | 0 |
 | [Apollo-Salesforce Mapper MCP](cf-worker-selbyventurecap-workers-dev.md) | cf-worker.selbyventurecap.workers.dev | 1 | 0 | 0 | 1 |
 | [Apollo.io](apollo-io.md) | apollo.io | 2 | 2 | 0 | 40 |
@@ -106,7 +106,7 @@ A
 | [AthenaHQ](athenahq-ai.md) | athenahq.ai | 1 | 0 | 0 | 0 |
 | [ATLASS OS](app-atlass-os-com.md) | app.atlass-os.com | 1 | 0 | 0 | 0 |
 | [Atlog](atlog-ai.md) | atlog.ai | 1 | 0 | 0 | 0 |
-| [Attention](attention-com.md) | attention.com | 1 | 1 | 0 | 7 |
+| [Attention](attention-com.md) | attention.com | 1 | 1 | 0 | 24 |
 | [Attio](attio-com.md) | attio.com | 1 | 1 | 0 | 41 |
 | [Autobound](autobound-ai.md) | autobound.ai | 1 | 1 | 0 | 7 |
 | [AviaryAI](helloaviary-ai.md) | helloaviary.ai | 1 | 0 | 0 | 0 |
@@ -144,7 +144,7 @@ B
 | [Breadcrumbs](breadcrumbs-io.md) | breadcrumbs.io | 1 | 0 | 0 | 0 |
 | [Breakcold](breakcold-com.md) | breakcold.com | 1 | 0 | 0 | 0 |
 | [Brevo](brevo-com.md) | brevo.com | 1 | 0 | 0 | 0 |
-| [Bright Data](brightdata-com.md) | brightdata.com | 1 | 1 | 0 | 19 |
+| [Bright Data](brightdata-com.md) | brightdata.com | 1 | 1 | 0 | 17 |
 | [Browserbase](browserbase-com.md) | browserbase.com | 1 | 1 | 0 | 6 |
 | [Buffer](buffer-com.md) | buffer.com | 1 | 1 | 0 | 0 |
 | [Buildforce Agentic Ops](buildforce-io.md) | buildforce.io | 1 | 0 | 0 | 0 |
@@ -588,7 +588,7 @@ L
 | [Live Data Technologies](livedatatechnologies-com.md) | livedatatechnologies.com | 2 | 0 | 0 | 0 |
 | [Lob](lob-com.md) | lob.com | 1 | 0 | 0 | 0 |
 | [Local SEO Data](localseodata-com.md) | localseodata.com | 1 | 0 | 0 | 0 |
-| [LocalTry AI CRM](localtry-com.md) | localtry.com | 1 | 0 | 0 | 0 |
+| [LocalTry AI CRM](localtry-com.md) | localtry.com | 1 | 0 | 0 | 13 |
 | [Locent](locent-com.md) | locent.com | 1 | 0 | 0 | 0 |
 | [Loom](loom-com.md) | loom.com | 1 | 0 | 0 | 60 |
 | [LoomaScale for Google Ads](ai-loomascale-com.md) | ai.loomascale.com | 1 | 0 | 0 | 0 |
@@ -700,7 +700,7 @@ N
 | [Nooks](nooks-ai.md) | nooks.ai | 1 | 1 | 1 | 0 |
 | [Noto CRM](no-to-fr.md) | no-to.fr | 1 | 0 | 0 | 0 |
 | [numbrU Client Compass](numbru-com.md) | numbru.com | 1 | 0 | 0 | 0 |
-| [Nuph](github-com.md) | github.com | 221 | 1 | 0 | 305 |
+| [Nuph](github-com.md) | github.com | 221 | 1 | 0 | 324 |
 | [Nutshell CRM](nutshell-com.md) | nutshell.com | 1 | 1 | 0 | 0 |
 | [Nynch MCP](nynch-com.md) | nynch.com | 1 | 0 | 0 | 0 |
 
@@ -751,11 +751,11 @@ P
 
 | Vendor | Domain | Products | Official servers | Live handshakes | Tools catalogued |
 |---|---|---|---|---|---|
-| [PaidSync MCP](paidsync-ai.md) | paidsync.ai | 1 | 0 | 0 | 0 |
+| [PaidSync MCP](paidsync-ai.md) | paidsync.ai | 1 | 0 | 0 | 8 |
 | [PaletteHQ](palettehq-com.md) | palettehq.com | 1 | 0 | 0 | 0 |
 | [PandaDoc](pandadoc-com.md) | pandadoc.com | 1 | 1 | 0 | 0 |
 | [Paperflite](paperflite-com.md) | paperflite.com | 1 | 0 | 0 | 0 |
-| [Paragon (ActionKit MCP)](useparagon-com.md) | useparagon.com | 1 | 1 | 0 | 1 |
+| [Paragon (ActionKit MCP)](useparagon-com.md) | useparagon.com | 1 | 1 | 0 | 0 |
 | [Parallel Tasks](parallel-ai.md) | parallel.ai | 1 | 0 | 0 | 0 |
 | [Parse Brand Visibility MCP](parse-gl.md) | parse.gl | 1 | 0 | 0 | 0 |
 | [Parsley](parsley-id.md) | parsley.id | 1 | 0 | 0 | 0 |
@@ -961,7 +961,7 @@ S
 | [SMS-Magic](sms-magic-com.md) | sms-magic.com | 1 | 0 | 0 | 0 |
 | [Snitcher](snitcher-com.md) | snitcher.com | 1 | 1 | 0 | 35 |
 | [Snov.io](snov-io.md) | snov.io | 1 | 1 | 1 | 0 |
-| [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](snowflake-com.md) | snowflake.com | 1 | 1 | 0 | 24 |
+| [Snowflake (Cortex AI, as GTM/RevOps warehouse layer)](snowflake-com.md) | snowflake.com | 1 | 1 | 0 | 0 |
 | [SocialDataX Skills](socialdatax-com.md) | socialdatax.com | 1 | 0 | 0 | 0 |
 | [Soff](soff-ai.md) | soff.ai | 1 | 0 | 0 | 0 |
 | [SoundGTM](soundgtm-com.md) | soundgtm.com | 1 | 0 | 0 | 0 |

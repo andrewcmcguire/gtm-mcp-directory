@@ -60,73 +60,20 @@ https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp ; de
 
 **What this server exposes**
 
-- **Tools named**: 24
-- **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-17
-- **Repo read**: Snowflake-Labs/mcp
-- **Whose repo**: first-party
-- **Catalogue shape**: the customer's own workspace, not a fixed catalogue
-
-A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+What this server exposes is the customer's own workspace, not a fixed catalogue the vendor publishes. No tool list is the correct answer here rather than a gap, and the harvest recorded it as one.
 
 Recorded by the harvest: Cortex names tool TYPES (CORTEX_AGENT_RUN, SYSTEM_EXECUTE_SQL) that a customer binds to their own tool names in YAML
 
-- **cortex_agent** No description was recorded with the name. evidence: in the server source · calling it reads
+The count below still carries this entry on the unmeasured side, because there is no list to record. That is a different thing from a server nobody has read, and both are published rather than blended.
 
-- **cortex_analyst** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **cortex_search** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **create_object** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **create_or_alter_object** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **describe_object** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **describe_semantic_view** Describe a semantic view. evidence: in the server source · calling it reads
-
-- **describe_semantic_view_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **drop_object** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **get_semantic_view_ddl** Get the DDL for a semantic view. evidence: in the server source · calling it reads
-
-- **get_semantic_view_ddl_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **list_objects** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **list_semantic_views** List all semantic views in the account, database, or schema. evidence: in the server source · calling it reads
-
-- **list_semantic_views_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **query_semantic_view** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **query_semantic_view_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **run_query_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **run_snowflake_query** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **show_semantic_dimensions** Show all semantic dimensions in the account, database, or schema. evidence: in the server source · calling it reads
-
-- **show_semantic_dimensions_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **show_semantic_metrics** Show all semantic metrics in the account, database, or schema. evidence: in the server source · calling it reads
-
-- **show_semantic_metrics_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **write_semantic_view_query_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-- **write_semantic_view_tool** No description was recorded with the name. evidence: in the server source · calling it reads
-
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: snowflake-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: brew
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -134,16 +81,16 @@ Install, as the source shows it:
 brew install snowflake-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/snowflake-cli](https://formulae.brew.sh/formula/snowflake-cli) on 2026-09-17, via brew
+quoted from [https://formulae.brew.sh/formula/snowflake-cli](https://formulae.brew.sh/formula/snowflake-cli) on 2026-09-18, via brew
 
-Packages seen, with the version on 2026-09-17:
+Packages seen, with the version on 2026-09-18:
 
 - [pypi: snowflake-cli 3.27.0, third party](https://pypi.org/project/snowflake-cli/)
 - [pypi: snowflakecli 0.4.4, third party](https://pypi.org/project/snowflakecli/)
 - [pypi: snowflake-cli 3.27.0, third party](https://pypi.org/project/snowflake-cli/)
 - [brew: snowflake-cli 3.27.0](https://formulae.brew.sh/formula/snowflake-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -226,6 +173,6 @@ The community github.com/Snowflake-Labs/mcp repo is explicitly deprecated - its 
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

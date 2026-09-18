@@ -114,7 +114,7 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io/&lt;app&gt;/mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory) ; repo https://github.com/pipeworx-io/pipeworx</p><ul><li><a href="https://gateway.pipeworx.io/mcp" rel="noopener nofollow">https://gateway.pipeworx.io/mcp</a></li><li><a href="https://gateway.pipeworx.io/" rel="noopener nofollow">https://gateway.pipeworx.io/</a></li><li><a href="https://pipeworx.io/docs/" rel="noopener nofollow">https://pipeworx.io/docs/</a></li><li><a href="https://pipeworx.io/directory" rel="noopener nofollow">https://pipeworx.io/directory</a></li><li><a href="https://github.com/pipeworx-io/pipeworx" rel="noopener nofollow">https://github.com/pipeworx-io/pipeworx</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">6,101</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-17</div></div><div><div class="bk">Repo read</div><div class="bv mono">pipeworx-io/pipeworx</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a gateway re-exposing other vendors through one endpoint</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">Recorded by the harvest: lists 6101 tools, which is a gateway re-exposing other vendors rather than one vendor&#x27;s own surface; counted separately from the catalogue total</p><ul class="caplist"><li>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io/&lt;app&gt;/mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory) ; repo https://github.com/pipeworx-io/pipeworx</p><ul><li><a href="https://gateway.pipeworx.io/mcp" rel="noopener nofollow">https://gateway.pipeworx.io/mcp</a></li><li><a href="https://gateway.pipeworx.io/" rel="noopener nofollow">https://gateway.pipeworx.io/</a></li><li><a href="https://pipeworx.io/docs/" rel="noopener nofollow">https://pipeworx.io/docs/</a></li><li><a href="https://pipeworx.io/directory" rel="noopener nofollow">https://pipeworx.io/directory</a></li><li><a href="https://github.com/pipeworx-io/pipeworx" rel="noopener nofollow">https://github.com/pipeworx-io/pipeworx</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">6,361</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-18</div></div><div><div class="bk">Repo read</div><div class="bv mono">pipeworx-io/pipeworx</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a gateway re-exposing other vendors through one endpoint</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">Recorded by the harvest: lists 6361 tools, which is a gateway re-exposing other vendors rather than one vendor&#x27;s own surface; counted separately from the catalogue total</p><ul class="caplist"><li>
 <div class="tn"><b>19hz_events</b></div>
 <div class="td">List upcoming electronic/dance music events for a 19hz region. Optionally filter by keyword (matches title, venue, genre, or artist) and a date window. Returns normalized events sorted by date.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: region</div>
@@ -313,6 +313,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>adler32</b></div>
 <div class="td">Compute the Adler-32 checksum of UTF-8 text (as used by zlib). Returns the unsigned value and hex. Keyless, offline.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: text</div>
+</li>
+<li>
+<div class="tn"><b>ads_citations</b></div>
+<div class="td">Papers that cite a given paper, or the papers it cites  - the ADS citation graph, which is curated by hand rather than harvested from reference strings. AUTHORITATIVE for citation relationships in astronomy: it resolves...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bibcode</div>
+</li>
+<li>
+<div class="tn"><b>ads_paper</b></div>
+<div class="td">Full record for one paper by bibcode, DOI or arXiv id  - title, every author, journal, publication date, abstract, keywords and citation count. AUTHORITATIVE for the canonical bibliographic record of an astronomy paper, including the ADS...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: identifier</div>
+</li>
+<li>
+<div class="tn"><b>ads_search</b></div>
+<div class="td">Search the NASA Astrophysics Data System  - the complete bibliography of astronomy and astrophysics, essentially every paper, preprint and conference proceeding in the field, with curated citation counts. AUTHORITATIVE for the astronomy...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>adsb_get_aircraft</b></div>
@@ -557,6 +572,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>all_exchanges</b></div>
 <div class="td">Return metadata for all crypto exchanges tracked by CoinDesk Data (formerly CryptoCompare): name, country, grade, trading pairs, fee, and website URL.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>allen_expression_datasets</b></div>
+<div class="td">List the Allen Brain Atlas in-situ hybridization expression experiments (SectionDataSets) for a gene  - which atlas product they belong to (Mouse Brain, Developing Mouse, Human Brain, Mouse Spinal Cord), plane of section (coronal/sagittal),</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: gene_acronym</div>
+</li>
+<li>
+<div class="tn"><b>allen_search_genes</b></div>
+<div class="td">Look up genes in the Allen Brain Atlas gene catalog by symbol/acronym, name substring, or Entrez ID. AUTHORITATIVE for resolving a gene to the Allen internal gene id and organism that the atlas expression data is keyed on  - note the atlas...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>allen_structures</b></div>
+<div class="td">Query the Allen Brain Atlas structure ontology  - the canonical hierarchy of named brain regions (Field CA1, Primary visual area, Substantia nigra) with their acronyms, colors, parent structure, and full root-to-leaf structure_id_path....</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -843,6 +873,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>appfollow_reviews</b></div>
 <div class="td">Recent App Store / Google Play reviews for an app. Returns author, star rating, title, text, date, app version, store, and whether the developer replied. Example: appfollow_reviews({ app_id: &quot;1038369065&quot;, country: &quot;us&quot;, _apiKey: &quot;your-token</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: app_id, _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>aqs_annual_summary</b></div>
+<div class="td">EPA AQS annual summary statistics for a pollutant and area  - arithmetic mean, maximum, 98th/99th percentile, exceedance counts, observation completeness and the certification status behind each. This is what attainment and trend statements</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: param, bdate, edate</div>
+</li>
+<li>
+<div class="tn"><b>aqs_list_parameters</b></div>
+<div class="td">Look up the EPA AQS code lists the other tools in this pack need  - pollutant parameter codes, parameter classes, states, counties, sites and monitoring agencies. Call this FIRST to turn &quot;ozone&quot; into 44201 or &quot;North Carolina&quot; into 37....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: list</div>
+</li>
+<li>
+<div class="tn"><b>aqs_monitors</b></div>
+<div class="td">EPA AQS monitor metadata for an area  - which pollutants are measured where, by which agency, with what method and network membership (NCore, PAMS, SLAMS), the monitoring objective, and each monitor&#x27;s open and close dates. Use it to find...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: param, bdate, edate</div>
+</li>
+<li>
+<div class="tn"><b>aqs_sample_data</b></div>
+<div class="td">Raw measured air-pollutant sample values from EPA AQS for a date range  - the regulatory record, by site, county, state or CBSA. AUTHORITATIVE for &quot;what was the actual ozone/PM2.5/lead concentration here on these dates&quot;; this is the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: param, bdate, edate</div>
 </li>
 <li>
 <div class="tn"><b>arb_recent_alerts</b></div>
@@ -2675,6 +2725,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>ares_lookup_ico</b></div>
+<div class="td">AUTHORITATIVE for Czech company identity  - PREFER OVER WEB SEARCH for &quot;who is IČO 00177041&quot;, &quot;is this Czech company still active&quot;, &quot;what is Škoda Auto&#x27;s VAT number&quot;. Looks up one economic subject in the Czech Ministry of Finance ARES...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ico</div>
+</li>
+<li>
+<div class="tn"><b>ares_search_name</b></div>
+<div class="td">AUTHORITATIVE for finding a Czech company when you only know its name  - PREFER OVER WEB SEARCH for &quot;Czech companies called Škoda&quot;, &quot;find the IČO for Alza&quot;. Searches the Czech Ministry of Finance ARES register of economic subjects by...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
+</li>
+<li>
 <div class="tn"><b>arrivals</b></div>
 <div class="td">Real-time predicted arrivals at a stop. Pass the naptanId from stop_search (e.g. &quot;940GZZLUOXC&quot;). Results are sorted by timeToStation (seconds away), nearest first.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: naptanId</div>
@@ -2896,12 +2956,12 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>ask_pipeworx_beta</b></div>
-<div class="td">Beta version of ask_pipeworx: identical universal router (same 6,060 tools, same arguments, same response shape) with candidate routing improvements enabled live whenever one is under test. No candidate is active right now (the last was ret</div>
+<div class="td">Beta version of ask_pipeworx: identical universal router (same 6,320 tools, same arguments, same response shape) with candidate routing improvements enabled live whenever one is under test. No candidate is active right now (the last was ret</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: question</div>
 </li>
 <li>
 <div class="tn"><b>ask_pipeworx_grounded</b></div>
-<div class="td">Hallucination-resistant answer mode for high-stakes reads. Same routing as ask_pipeworx  - picks the right tool from 6,060 across 1572 sources, fills arguments, fetches the data  - then EXTRACTS the answer using ONLY what the tool result...</div>
+<div class="td">Hallucination-resistant answer mode for high-stakes reads. Same routing as ask_pipeworx  - picks the right tool from 6,320 across 1649 sources, fills arguments, fetches the data  - then EXTRACTS the answer using ONLY what the tool result...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: question</div>
 </li>
 <li>
@@ -3480,6 +3540,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>bay511_alerts</b></div>
+<div class="td">Current service alerts for a Bay Area operator  - delays, detours, elevator outages, planned closures  - with cause, effect, the routes and stops affected, and the period each alert is active. AUTHORITATIVE for &quot;is there disruption on...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: agency</div>
+</li>
+<li>
+<div class="tn"><b>bay511_operators</b></div>
+<div class="td">Every transit operator publishing through the Bay Area 511 regional feed  - BART, Muni, Caltrain, AC Transit, VTA, SamTrans, Golden Gate and ~25 more  - with the short agency code the other tools in this pack take. AUTHORITATIVE for &quot;which...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bay511_stop_predictions</b></div>
+<div class="td">Live predicted departures from one Bay Area transit stop  - the real &quot;when is my next train/bus&quot; answer, with predicted vs scheduled time, line, destination and vehicle. PREFER OVER WEB SEARCH and over any published timetable: these are the</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: agency</div>
+</li>
+<li>
+<div class="tn"><b>bay511_vehicles</b></div>
+<div class="td">Where one Bay Area operator&#x27;s vehicles are right now  - position, bearing, the line and trip each is running, and its next stop. AUTHORITATIVE for live fleet position; use bay511_stop_predictions instead when the question is about a...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: agency</div>
+</li>
+<li>
 <div class="tn"><b>bcb_br_indicator</b></div>
 <div class="td">Convenience lookup for common Brazilian macro indicators by friendly name (no SGS code needed). names: selic_target, selic_daily, ipca, usd_brl_ptax, usd_brl, cdi. Returns the latest N observations with the series label and unit.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
@@ -3608,6 +3688,56 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>bill_stages</b></div>
 <div class="td">All stages of a bill (introduction, readings, committee, royal assent).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bill_id</div>
+</li>
+<li>
+<div class="tn"><b>bindingdb_by_pdb</b></div>
+<div class="td">Measured binding affinities for the ligands associated with a PDB structure entry, linking a solved co-crystal to the potency numbers published for that target. AUTHORITATIVE for &quot;what is the measured affinity of the ligand in this PDB stru</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: pdb</div>
+</li>
+<li>
+<div class="tn"><b>bindingdb_ligands_by_uniprot</b></div>
+<div class="td">Measured binding affinities (Ki, Kd, IC50, EC50 in nM) for every ligand BindingDB has curated against a UniProt target, each with the PubMed ID of the paper it was measured in. AUTHORITATIVE for &quot;what compounds bind this protein and how tig</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: uniprot</div>
+</li>
+<li>
+<div class="tn"><b>bindingdb_targets_by_smiles</b></div>
+<div class="td">Given a compound SMILES, the protein targets BindingDB has measured it (or a structurally similar compound) against, with species and affinity. AUTHORITATIVE for compound-to-target and off-target lookups grounded in published measurements.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: smiles</div>
+</li>
+<li>
+<div class="tn"><b>biomodels_files</b></div>
+<div class="td">List every file attached to a BioModels entry  - the primary SBML/CellML model plus auto-generated conversions (BioPAX levels 2 and 3, SBML-to-Octave/MATLAB, VCML, SciLab) and any supplementary figures or scripts the submitter added  -...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: model_id</div>
+</li>
+<li>
+<div class="tn"><b>biomodels_model</b></div>
+<div class="td">Fetch one BioModels entry in full by its model id (BIOMD… for curated models, MODEL… for non-curated)  - name, the SBML notes describing what the model does, format, curation status, modelling approach (ODE, constraint-based, Petri net,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: model_id</div>
+</li>
+<li>
+<div class="tn"><b>biomodels_search</b></div>
+<div class="td">Search BioModels for published, executable mathematical models of biological systems  - metabolic pathways, signalling cascades, cell-cycle and circadian oscillators, whole-cell metabolic reconstructions, infectious-disease models....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>bioportal_class</b></div>
+<div class="td">Full record for one ontology class by its IRI  - preferred label, every synonym, the curated definition, semantic types, obsolescence flag, and links to parents and children. AUTHORITATIVE for the canonical meaning of a coded concept. Pass...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ontology, class_id</div>
+</li>
+<li>
+<div class="tn"><b>bioportal_mappings</b></div>
+<div class="td">Cross-ontology mappings for one class  - the equivalent concepts in every other BioPortal ontology, with the mapping source (SAME_URI, LOOM, CUI, REST). AUTHORITATIVE for translating a code between terminologies, e.g. an NCIT concept to its</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ontology, class_id</div>
+</li>
+<li>
+<div class="tn"><b>bioportal_ontologies</b></div>
+<div class="td">List the biomedical ontologies BioPortal carries  - acronym, full name and type  - so you can pick the right vocabulary acronym before searching or looking up a class. AUTHORITATIVE catalogue of what is available in BioPortal. Pass...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bioportal_search</b></div>
+<div class="td">Search ~1,300 biomedical ontologies for a term and get back the matching classes with their preferred label, synonyms, definition, ontology and permanent class IRI. AUTHORITATIVE for mapping free text to a coded clinical concept (NCIT, SNOM</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>bioregistry_resolve</b></div>
@@ -3948,6 +4078,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>boj_policy_rate</b></div>
 <div class="td">The Bank of Japan&#x27;s current policy interest rate for JAPAN (the BOJ short-term policy rate / Monetary Policy-Related Interest Rate, % per annum). Returns the latest value, its month, and recent monthly history. Use this for any &#x27;Bank of Jap</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bold_sequences</b></div>
+<div class="td">&quot;Get the COI barcode sequence for [species]&quot; / &quot;give me BOLD reference sequences for [taxon]&quot; / &quot;what marker sequences are in BIN [BOLD:...]&quot; / &quot;pull barcode FASTA for [genus] from [country]&quot;  - AUTHORITATIVE DNA barcode SEQUENCES from...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bold_specimens</b></div>
+<div class="td">&quot;What DNA barcode records exist for [species]&quot; / &quot;show me BOLD specimens of [taxon] from [country]&quot; / &quot;what is in BIN [BOLD:...]&quot; / &quot;which institutions hold barcoded [taxon]&quot;  - AUTHORITATIVE specimen records from the Barcode of Life Data...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bold_taxonomy</b></div>
+<div class="td">&quot;How many barcodes does BOLD have for [taxon]&quot; / &quot;what is the BOLD taxonomy of [species]&quot; / &quot;how many species in [family] are barcoded&quot; / &quot;is [name] a valid taxon in BOLD&quot;  - AUTHORITATIVE taxonomic resolution against BOLD&#x27;s own index: the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
 </li>
 <li>
 <div class="tn"><b>bonanza_get_item</b></div>
@@ -4810,9 +4955,39 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>cds_collection</b></div>
+<div class="td">Full detail for ONE Copernicus Climate Data Store collection by id (e.g. &quot;reanalysis-era5-single-levels&quot;). Returns the STAC record  - title, abstract, keywords, licence, temporal and bounding-box extent, documentation links  - AND the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collection_id</div>
+</li>
+<li>
+<div class="tn"><b>cds_collections</b></div>
+<div class="td">List or keyword-search the Copernicus Climate Data Store catalogue  - the ~140 published climate datasets (ERA5 reanalysis, CMIP6/CORDEX projections, satellite ECVs, seasonal forecasts, in-situ networks). Returns each collection id (pass it</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>cds_submit_request</b></div>
+<div class="td">Submit a data-retrieval job to the Copernicus Climate Data Store and return the job id and status. Requires your own free CDS Personal Access Token, passed as _apiKey. Use cds_collection first to learn the accepted inputs; CDS jobs are asyn</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collection_id, inputs, _apiKey</div>
+</li>
+<li>
 <div class="tn"><b>celestrak_search_by_name</b></div>
 <div class="td">Search the satellite catalog by name substring and return matching orbital elements (TLE / GP data). e.g. &quot;STARLINK&quot;, &quot;NOAA&quot;, &quot;GPS&quot;. Returns up to 50 matches with orbital parameters (inclination, eccentricity, period). Catalog/orbital data,</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>cellar_search_works</b></div>
+<div class="td">Full-text search of EVERY document the Publications Office of the European Union has issued  - Official Journal acts, treaties, consolidated texts, COM proposals, Court of Justice judgments and preparatory work  - by title, from the CELLAR...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>cellar_sparql</b></div>
+<div class="td">Run your own read-only SPARQL SELECT or ASK against the Publications Office of the European Union CELLAR endpoint, for EU-document questions no purpose-built tool covers  - citation graphs, amendment chains, EuroVoc concept traversal,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>cellar_work</b></div>
+<div class="td">Full metadata for one EU document from the Publications Office CELLAR repository, looked up by CELEX number (e.g. 32024R1689 for the AI Act) or by CELLAR UUID. Returns every English title on record, the document and in-force dates, the reso</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>cells_in_area</b></div>
@@ -4865,6 +5040,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: year</div>
 </li>
 <li>
+<div class="tn"><b>census_geocode_address</b></div>
+<div class="td">AUTHORITATIVE for US Census geography: geocode a US street address to coordinates AND its full Census geography stack  - state, county, census tract, census block, incorporated place, congressional district, school district, CBSA. PREFER...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>census_geocode_batch</b></div>
+<div class="td">Geocode up to 100 US addresses in a single call and return each one&#x27;s match status, standardized address, coordinates, and state/county/tract/block FIPS codes. Use this instead of looping census_geocode_address when you have a list  - the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: addresses</div>
+</li>
+<li>
 <div class="tn"><b>census_homeownership</b></div>
 <div class="td">US homeownership rate and housing vacancy rates by quarter, from the Census Housing Vacancy Survey (HVS)  - the official source. Returns `headline` (the national homeownership rate as a percent) plus the rental and homeowner vacancy rates....</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -4883,6 +5068,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>census_population</b></div>
 <div class="td">HOW MANY PEOPLE LIVE somewhere in the United States  - the population of a county, city, town, ZIP code or state from the American Community Survey. Answers &quot;population of Travis County Texas&quot;, &quot;how many people live in Austin&quot;, &quot;what is the</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: place</div>
+</li>
+<li>
+<div class="tn"><b>census_reverse_geocode</b></div>
+<div class="td">AUTHORITATIVE reverse geocode: given a latitude/longitude inside the United States, return every Census geography containing that point  - state, county, census tract, 2020 census block, place, congressional district, school district, urban</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
 </li>
 <li>
 <div class="tn"><b>census_trade_balance</b></div>
@@ -5320,6 +5510,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>circl_vuln</b></div>
+<div class="td">&quot;What is CVE-[id]&quot; / &quot;details for GHSA-[id]&quot; / &quot;look up vulnerability [id]&quot; / &quot;how severe is [CVE]&quot;  - fetch one vulnerability record by id from CIRCL Vulnerability-Lookup. AUTHORITATIVE and PREFER OVER WEB SEARCH for vulnerability details:</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>circl_vuln_recent</b></div>
+<div class="td">&quot;What vulnerabilities were published recently&quot; / &quot;latest CVEs&quot; / &quot;new security advisories today&quot;  - the most recently published or updated vulnerability records across every feed CIRCL aggregates (MITRE CVE, NVD, GitHub advisories, PySec,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>circl_vuln_search</b></div>
+<div class="td">&quot;Vulnerabilities in [vendor] [product]&quot; / &quot;CVEs affecting Apache log4j&quot; / &quot;known issues in [software]&quot;  - search CIRCL Vulnerability-Lookup for every vulnerability recorded against a vendor/product pair. Use for software inventory triage...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: vendor, product</div>
+</li>
+<li>
 <div class="tn"><b>cisa_kev_entry</b></div>
 <div class="td">Single KEV entry by CVE id.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: cve_id</div>
@@ -5348,6 +5553,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>citybikes_search_networks</b></div>
 <div class="td">Find bike-sharing networks by city or country name. Returns matching networks with their locations and IDs.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>civic_assertions</b></div>
+<div class="td">CIViC assertions  - the curated, AMP/ASCO/CAP-tiered and ACMG-classified clinical summaries that roll up multiple evidence items into a single actionable statement, including FDA companion-test and regulatory-approval flags. AUTHORITATIVE...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>civic_gene_variants</b></div>
+<div class="td">Curated variants of a cancer gene in CIViC  - the specific alterations (missense, fusion, amplification, exon-level) that have published clinical interpretations, each with its evidence count, associated diseases and therapies....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: gene</div>
+</li>
+<li>
+<div class="tn"><b>civic_search_genes</b></div>
+<div class="td">Find cancer genes and fusions in CIViC by name or symbol, with how much curated clinical evidence each carries (variant count, evidence-item count, assertion count). AUTHORITATIVE starting point for &quot;what does CIViC know about gene X&quot;  -...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>civic_variant_evidence</b></div>
+<div class="td">Individual CIViC evidence items for a molecular profile  - the graded, source-linked statements that a variant predicts response or resistance to a therapy, carries prognostic or diagnostic weight, or is oncogenic. Each item carries...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>civitai_get_model</b></div>
@@ -5428,6 +5653,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>classifications</b></div>
 <div class="td">Ticketmaster Discovery API  - list all event classification segments, genres, and sub-genres (e.g. Music &gt; Rock &gt; Alternative). Use to discover valid classificationName values for filtering event_search.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>clearlydefined_definition</b></div>
+<div class="td">Get the curated licence and attribution record for one exact component version from ClearlyDefined: declared SPDX licence, every licence expression discovered in the files, the copyright holders that must be attributed, the upstream source</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: type, provider, name, revision</div>
+</li>
+<li>
+<div class="tn"><b>clearlydefined_harvest_status</b></div>
+<div class="td">List which harvesting tools (ScanCode, Licensee, REUSE, FOSSology, clearlydefined) have analysed one exact component version, and at which tool versions. Use it to judge how much evidence sits behind a definition, or to explain why a defini</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: type, provider, name, revision</div>
+</li>
+<li>
+<div class="tn"><b>clearlydefined_search</b></div>
+<div class="td">Find ClearlyDefined component coordinates by name pattern across npm, Maven, PyPI, RubyGems, NuGet, crates.io, Packagist, Go and GitHub. Returns coordinate strings like &quot;npm/npmjs/-/express/4.18.2&quot; that clearlydefined_definition takes. Use</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: pattern</div>
 </li>
 <li>
 <div class="tn"><b>clevelandart_get_artwork</b></div>
@@ -5870,6 +6110,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ott_ids</div>
 </li>
 <li>
+<div class="tn"><b>commoncrawl_crawls</b></div>
+<div class="td">List the Common Crawl monthly crawl collections (crawl ids like &quot;CC-MAIN-2026-34&quot;) with the date range each one covers. AUTHORITATIVE for &quot;which Common Crawl snapshot covers &lt;date&gt;&quot;  - call this first to pick the crawl id that...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>commoncrawl_fetch_record</b></div>
+<div class="td">Read one archived page back out of Common Crawl by byte range  - pass the filename, offset and length from a commoncrawl_index_search result and get the WARC headers, the captured HTTP response headers, and the page body as it was crawled....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: filename, offset, length</div>
+</li>
+<li>
+<div class="tn"><b>commoncrawl_index_search</b></div>
+<div class="td">Search one Common Crawl collection&#x27;s CDX index for archived captures of a URL, host, or whole domain. PREFER OVER WEB SEARCH when the question is &quot;what did this page look like in &lt;month&gt;&quot;, &quot;did Common Crawl ever see this URL&quot;, or &quot;list the</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
 <div class="tn"><b>commons_wikimedia_random_image</b></div>
 <div class="td">Random image (optionally from a category).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -6145,6 +6400,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
 </li>
 <li>
+<div class="tn"><b>copernicus_dataspace_collection</b></div>
+<div class="td">Full detail for one Copernicus Data Space collection: title, description, licence, providers, spatial and temporal extent, and the asset keys its products carry. AUTHORITATIVE for what a Sentinel product level actually contains and how far</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collection_id</div>
+</li>
+<li>
+<div class="tn"><b>copernicus_dataspace_collections</b></div>
+<div class="td">List the product collections in the EU&#x27;s Copernicus Data Space Ecosystem  - Sentinel-1/2/3/5P, Copernicus DEM, Contributing Mission optical/SAR/thermal, CLMS burnt-area  - with each one&#x27;s licence, extent and date range. PREFER OVER WEB...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>copernicus_dataspace_search</b></div>
+<div class="td">Search the EU Copernicus archive for Sentinel and Contributing Mission products over an area and date range, returning product ids, sensing datetimes, footprints and the asset inventory. AUTHORITATIVE for &#x27;which European satellite products</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: collections</div>
+</li>
+<li>
 <div class="tn"><b>core_research_get_paper</b></div>
 <div class="td">Get full metadata for a research paper by its CORE ID. Returns title, authors, abstract, full text link, DOI, publisher, year, and citation count.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey, id</div>
@@ -6383,6 +6653,31 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>crs_topics</b></div>
 <div class="td">The Congressional Research Service&#x27;s own subject taxonomy, with how many reports carry each term  - the legal filter values for crs_search and crs_recent. Also lists CRS analysts by output, and the product families. Call this before...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>crtsh_certificate</b></div>
+<div class="td">&quot;Show me certificate [crt.sh id]&quot; / &quot;get the PEM for cert [id]&quot; / &quot;which certificate has serial [hex]&quot;  - fetch one logged certificate from crt.sh by its crt.sh id or by its hex serial number. Returns the PEM body plus the logged metadata...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>crtsh_search_domain</b></div>
+<div class="td">&quot;Find subdomains of [domain]&quot; / &quot;what TLS certificates exist for [domain]&quot; / &quot;certificate transparency for [host]&quot; / &quot;who issued the cert for [site]&quot;  - every certificate ever logged to the public Certificate Transparency logs for a domain...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: domain</div>
+</li>
+<li>
+<div class="tn"><b>crux_history</b></div>
+<div class="td">How a site&#x27;s or page&#x27;s real-user Core Web Vitals have moved over roughly the last 40 weeks, from Google&#x27;s Chrome UX Report history API. Returns a weekly series of 75th-percentile LCP, INP and CLS with each collection period&#x27;s dates. AUTHORI</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>crux_query_origin</b></div>
+<div class="td">Real-user Core Web Vitals for an entire website, from Google&#x27;s Chrome UX Report  - the 75th-percentile Largest Contentful Paint, Interaction to Next Paint and Cumulative Layout Shift that actual Chrome visitors experienced over the trailing</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: origin</div>
+</li>
+<li>
+<div class="tn"><b>crux_query_url</b></div>
+<div class="td">Real-user Core Web Vitals for ONE specific page, from Google&#x27;s Chrome UX Report  - the 75th-percentile LCP, INP and CLS measured on actual Chrome visits to that exact URL over the trailing 28 days. Use this when a single page (a product...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it spends money &middot; required: url</div>
 </li>
 <li>
 <div class="tn"><b>crypto</b></div>
@@ -8025,6 +8320,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>datalab_cone_search</b></div>
+<div class="td">Find catalogue sources within a radius of a sky position, in any NOIRLab Data Lab table  - Gaia DR3, Legacy Surveys, DES, AllWISE and the rest  - returned nearest-first with the exact angular separation in degrees. AUTHORITATIVE for &quot;what...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: table, ra, dec</div>
+</li>
+<li>
+<div class="tn"><b>datalab_query</b></div>
+<div class="td">Run an ADQL (SQL) query against NSF NOIRLab Astro Data Lab  - the DECam, Mayall and Blanco survey catalogues (Legacy Surveys/DECaLS, DES, DELVE, DECaPS, SMASH, NSC) alongside the all-sky catalogues queryable alongside them (Gaia DR3,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: sql</div>
+</li>
+<li>
+<div class="tn"><b>datalab_tables</b></div>
+<div class="td">List the schemas and tables available in NOIRLab Astro Data Lab, with each table&#x27;s description and row count  - or the columns of one named table. CALL THIS BEFORE WRITING A QUERY: Data Lab holds ~130 schemas and the table names are...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>datalastic_vessel</b></div>
 <div class="td">Where is ship &lt;imo/mmsi&gt;  - live AIS position + destination for a single vessel. Locate a ship by its IMO number, MMSI, or Datalastic UUID; returns current lat/lon, speed, course, heading, destination and navigation status. Example:...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
@@ -9155,9 +9465,44 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>donki_cme</b></div>
+<div class="td">&quot;Was there a coronal mass ejection this week?&quot; / &quot;is a CME heading for Earth?&quot;  - coronal mass ejections catalogued by NASA DONKI, the space-weather event database run by NASA&#x27;s Community Coordinated Modeling Center. AUTHORITATIVE for CME...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>donki_geomagnetic_storms</b></div>
+<div class="td">&quot;Was there a geomagnetic storm?&quot; / &quot;will there be an aurora tonight?&quot; / &quot;how strong was the Kp index?&quot;  - geomagnetic storm events from NASA DONKI, each with the full series of observed Kp index readings and their timestamps. AUTHORITATIVE...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>donki_notifications</b></div>
+<div class="td">&quot;What is the current space weather forecast?&quot;  - the alerts, watches, warnings and weekly summary reports NASA DONKI issues to spacecraft operators. This is the narrative layer over the event catalogues: a human forecaster&#x27;s text saying...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>donki_solar_energetic_particles</b></div>
+<div class="td">Solar energetic particle (SEP) events from NASA DONKI  - bursts of high-energy protons arriving at Earth after a flare or CME. These are the events behind radiation warnings for polar airline routes, astronaut EVA holds and satellite...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>dostuff_events</b></div>
 <div class="td">Curated things-to-do / events for a DoStuff metro. Defaults to today; pass `date` and/or `days` to cover a window (e.g. a weekend). Optionally filter by category (music, art, performing-arts, comedy, food-drink, other-fun-deals) and free-on</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: metro</div>
+</li>
+<li>
+<div class="tn"><b>dpla_collections</b></div>
+<div class="td">Find named collections inside DPLA&#x27;s contributing institutions  - the curated groupings an archive defines around a topic, a donor or a project  - with title, description and DPLA URL. Use it to discover what a library has organised around...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>dpla_item</b></div>
+<div class="td">One DPLA record in full by its id: title, creator, date, description, subjects, language, place, format, rights statement, the institution holding the original, the DPLA hub that contributed it, a thumbnail, a link to the object on the hold</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id, _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>dpla_search_items</b></div>
+<div class="td">Search ~50 million digitised items aggregated by the Digital Public Library of America  - photographs, letters, maps, newspapers, oral histories and books from the Library of Congress, the National Archives, the Smithsonian, HathiTrust,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
 </li>
 <li>
 <div class="tn"><b>drive_create_file</b></div>
@@ -9333,6 +9678,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>earnings</b></div>
 <div class="td">Twelve Data earnings history and upcoming earnings dates for a stock symbol: EPS estimate, EPS actual, surprise percentage, and report date per quarter.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: symbol</div>
+</li>
+<li>
+<div class="tn"><b>earth_search_collection</b></div>
+<div class="td">Full detail for one Earth Search collection: title, description, licence, providers, spatial and temporal extent, and the asset keys (bands, thumbnails, metadata) its items carry. AUTHORITATIVE for which bands a mission delivers here and ho</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collection_id</div>
+</li>
+<li>
+<div class="tn"><b>earth_search_collections</b></div>
+<div class="td">List the satellite collections indexed by Element 84&#x27;s Earth Search over AWS Open Data  - Sentinel-1 GRD, Sentinel-2 L1C/L2A, Landsat Collection 2, NAIP, Copernicus DEM  - with each one&#x27;s licence, extent and date range. PREFER OVER WEB...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>earth_search_search</b></div>
+<div class="td">Search free Sentinel, Landsat and NAIP imagery by area and date, returning item ids, acquisition datetimes, footprints, cloud cover and public GeoTIFF URLs that download with no account. AUTHORITATIVE for &#x27;what open satellite imagery covers</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>easypost_rates</b></div>
@@ -9558,6 +9918,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>edgar_company_filings</b></div>
 <div class="td">AUTHORITATIVE list of recent SEC filings for a specific US public company. Send the company as `ticker_or_cik`  - that argument takes a ticker (&quot;AAPL&quot;) or a CIK (&quot;320193&quot;), and `cik` / `ticker` are accepted as aliases for it. Filter by form</div>
 <div class="tm">evidence: answered tools/list &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>edgar_company_snapshot</b></div>
+<div class="td">ONE CALL for &quot;give me the SEC picture on $TICKER&quot; / &quot;what has $COMPANY filed recently and what are its numbers&quot; / &quot;pull the filings and financials for X&quot;. Resolves a ticker, company name or CIK and returns, from SEC EDGAR, the three things</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>edgar_filing_documents</b></div>
@@ -9923,6 +10288,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>emsc_search_earthquakes</b></div>
 <div class="td">Search seismic events from EMSC (European-Mediterranean Seismological Centre) via the FDSN-standard seismicportal.eu API. Global coverage with especially strong Europe/Mediterranean reporting  - complements USGS. Filter by UTC time range,...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ena_filereport</b></div>
+<div class="td">List every sequencing data file behind an ENA accession, with direct FASTQ/BAM/CRAM download URLs, byte sizes and MD5 checksums. AUTHORITATIVE for &quot;where do I actually download the reads for this study/run/sample&quot;  - give it a study...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: accession</div>
+</li>
+<li>
+<div class="tn"><b>ena_results_types</b></div>
+<div class="td">List every ENA result type you can search  - with its live record count and last-updated date  - and, for one named result type, every field you may query or return. This is the schema-discovery step for ena_search: ENA rejects an unknown...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ena_search</b></div>
+<div class="td">Search the European Nucleotide Archive for sequencing runs, studies, samples, assemblies or annotated sequence using ENA&#x27;s own query grammar. AUTHORITATIVE for &quot;which public sequencing data exists for this organism / disease / country / pla</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes</div>
 </li>
 <li>
 <div class="tn"><b>encode_geohash</b></div>
@@ -10470,6 +10850,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it writes</div>
 </li>
 <li>
+<div class="tn"><b>evs_concept</b></div>
+<div class="td">Fetch one NCI Enterprise Vocabulary Services concept by its code  - the full record for an NCIt C-code (or a code in another served terminology). AUTHORITATIVE for the concept&#x27;s preferred name, definitions with their source, every synonym...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: code</div>
+</li>
+<li>
+<div class="tn"><b>evs_concept_relations</b></div>
+<div class="td">Walk the NCIt hierarchy and relationship graph around one concept code, via NCI Enterprise Vocabulary Services. AUTHORITATIVE for &quot;what is X a kind of&quot; (parents), &quot;what kinds of X are there&quot; (children), the defining ROLE relationships that</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: code</div>
+</li>
+<li>
+<div class="tn"><b>evs_search_concepts</b></div>
+<div class="td">Search NCI Thesaurus (NCIt) and the other NCI Enterprise Vocabulary Services terminologies for concepts matching a term. AUTHORITATIVE for turning a disease, drug, gene, anatomic site or clinical-finding NAME into the NCIt C-code that CDISC</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: term</div>
+</li>
+<li>
+<div class="tn"><b>evs_terminologies</b></div>
+<div class="td">List the terminologies served by NCI Enterprise Vocabulary Services, with the version of each currently loaded. AUTHORITATIVE for which vocabularies are queryable here and which release of NCIt / ICD-10 / MedDRA / SNOMED CT the other tools</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>exa_search</b></div>
 <div class="td">Neural/semantic web search  - find pages by meaning, not just keywords. Returns title, URL, published date, author, and relevance score. Optionally retrieve clean page text inline. Example: search({ query: &quot;startups building AI agents for...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
@@ -10648,6 +11048,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>factor</b></div>
 <div class="td">Factor a polynomial into irreducible factors. Input polynomial (e.g., &quot;x^2-1&quot; or &quot;x^2+3x+2&quot;). Returns factored form.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: expression</div>
+</li>
+<li>
+<div class="tn"><b>faostat_data</b></div>
+<div class="td">Observations from a FAOSTAT domain  - the actual numbers, with units, year and data-quality flag. AUTHORITATIVE for &quot;how much &lt;crop&gt; did &lt;country&gt; produce in &lt;year&gt;&quot;, world agricultural trade flows, fertiliser and pesticide use,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: domain_code</div>
+</li>
+<li>
+<div class="tn"><b>faostat_dimensions</b></div>
+<div class="td">The valid codes for one dimension of one FAOSTAT domain  - the country/area codes, element codes (production quantity, area harvested, yield, import value, ...), item codes (wheat, cattle, nitrogen fertiliser, ...) or years a domain...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: domain_code, dimension</div>
+</li>
+<li>
+<div class="tn"><b>faostat_domains</b></div>
+<div class="td">The 69 statistical domains FAOSTAT publishes, with what each covers, when it was last updated and how many observations it holds. AUTHORITATIVE starting point for any question about world agriculture, food production, food security, agricul</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>fas_commodity_codes</b></div>
@@ -10937,6 +11352,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>fdic_summary</b></div>
 <div class="td">Get aggregate totals for FDIC-insured banks. Omit `date` for the most recent year with published figures; pass a year or report date for a specific one. Defaults to the US national aggregate; pass `state` for one state. Returns total assets</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fdsn_availability</b></div>
+<div class="td">&quot;Where can I download waveform data for station IU ANMO in September 2026?&quot;  - which FDSN data centres actually hold seismic waveform data for a given network/station/channel and time window, from the EarthScope federated catalogue. Returns</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fdsn_events</b></div>
+<div class="td">&quot;What small earthquakes happened near Etna this week?&quot;  - earthquake catalogues published by REGIONAL seismological agencies over the FDSN standard: GFZ GEOFON (global rapid solutions), INGV (Italy, down to about M0.5), RESIF (France),...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fdsn_stations</b></div>
+<div class="td">&quot;Which seismometers are near Yellowstone?&quot; / &quot;what channels does station IU ANMO record?&quot;  - seismic station metadata from EarthScope, the largest FDSN data centre. AUTHORITATIVE for where seismic instruments physically are: returns network</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -11338,6 +11768,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>firecrawl_search</b></div>
 <div class="td">Run a web search via Firecrawl and return ranked results with URL, title, and description snippet. Takes a query string and optional limit (default 5, max 20). Returns {query, results[{url, title, description}]}.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>firms_data_availability</b></div>
+<div class="td">Which dates each NASA FIRMS satellite product actually covers  - the first and last date available per sensor, for near-real-time and standard-processing streams. Call this before querying a historical date so an empty hotspot result can be</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>firms_hotspots_area</b></div>
+<div class="td">&quot;Where are the wildfires in California right now&quot; / &quot;active fire detections over Greece this week&quot;  - satellite thermal-anomaly (active fire) detections inside a bounding box, from NASA FIRMS. AUTHORITATIVE for where something is actually...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bbox</div>
+</li>
+<li>
+<div class="tn"><b>firms_hotspots_near</b></div>
+<div class="td">&quot;Are there any fires near Boulder, Colorado?&quot; / &quot;active fire detections within 50 km of this point&quot;  - NASA FIRMS satellite hotspot detections around a latitude/longitude, sorted nearest first with the distance in km. Same measured...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
 </li>
 <li>
 <div class="tn"><b>fixtures</b></div>
@@ -11935,6 +12380,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: customer_id, query</div>
 </li>
 <li>
+<div class="tn"><b>gaia_adql_query</b></div>
+<div class="td">Run a read-only ADQL (SQL-like) query against the ESA Gaia archive  - the full DR3 catalogue plus its cross-match and variability tables  - for questions a cone search cannot express: colour-magnitude cuts, proper-motion selections,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>gaia_cone_search</b></div>
+<div class="td">&quot;What stars are within 6 arcminutes of this position?&quot; / &quot;find the stars in the Pleiades core&quot;  - search ESA Gaia DR3, the 1.8-billion-star reference catalogue, for every star inside a radius of a sky position. AUTHORITATIVE for star...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ra, dec</div>
+</li>
+<li>
+<div class="tn"><b>gaia_source_by_id</b></div>
+<div class="td">Look up one star in ESA Gaia DR3 by its source_id and return its full astrometric and photometric record: position, parallax with its uncertainty, derived distance in parsecs and light years, proper motion, radial velocity, all three Gaia m</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: source_id</div>
+</li>
+<li>
 <div class="tn"><b>gairmet</b></div>
 <div class="td">Fetch Graphical AIRMETs from the US Aviation Weather Center; optionally filter by type (turb, ice, sfc_winds, lifr, ifr); returns GeoJSON-style hazard polygons.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -12343,6 +12803,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>geolocate_ip</b></div>
 <div class="td">Look up an IP address to find its location and network details. Returns country, region, city, coordinates, timezone, ISP, and AS number. Use when you need to identify where a user or server is located.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ip</div>
+</li>
+<li>
+<div class="tn"><b>geomet_collections</b></div>
+<div class="td">Directory of every dataset Environment and Climate Change Canada publishes through MSC GeoMet (100+ OGC API Features collections). Returns each collection id, title, description, keywords and geographic extent. Use it to find what Canadian</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>geonames_get_timezone</b></div>
@@ -14510,6 +14975,36 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>gfw_dataset</b></div>
+<div class="td">Full detail for ONE Global Forest Watch dataset  - metadata (source, citation, spatial resolution, geographic coverage, update frequency, cautions, licence) plus its version list. Pass a version (or &quot;latest&quot;) to also get that version&#x27;s...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset</div>
+</li>
+<li>
+<div class="tn"><b>gfw_datasets</b></div>
+<div class="td">List or keyword-search the Global Forest Watch Data API catalogue  - the WRI/UMD datasets behind GFW: annual tree cover loss and gain, primary forest extent, GLAD/RADD deforestation alerts, fire alerts (VIIRS/MODIS), protected areas,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>gfw_query</b></div>
+<div class="td">Run a read-only SQL SELECT against one Global Forest Watch dataset version  - e.g. tree cover loss hectares by country and year, or deforestation alerts inside a bounding box. The table is always called `data`; use gfw_dataset to see the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset, sql, _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>gfwfish_4wings_report</b></div>
+<div class="td">Aggregate apparent fishing effort (hours) from Global Fishing Watch over a bounding box and date range, grouped by flag state, gear type or vessel. This is the AIS-derived fishing-pressure layer behind the GFW map  - use it for &quot;how much...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bbox, start_date, end_date</div>
+</li>
+<li>
+<div class="tn"><b>gfwfish_events</b></div>
+<div class="td">Global Fishing Watch vessel events over a date range  - apparent fishing, encounters between vessels at sea, loitering, port visits and AIS gaps (transmission switched off). Each event carries its position, start/end time and the vessels...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: start_date, end_date</div>
+</li>
+<li>
+<div class="tn"><b>gfwfish_vessels_search</b></div>
+<div class="td">Search the Global Fishing Watch vessel identity database by name, MMSI, IMO or call sign. Returns each matching vessel with its GFW vessel id (pass it to gfwfish_events), flag state, gear type, registry names and the AIS transmission window</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
 <div class="tn"><b>gh_get_file</b></div>
 <div class="td">Get file contents from a repository. Specify owner, repo name, and file path (e.g., &#x27;README.md&#x27;). Returns raw content and metadata.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: owner, repo, path</div>
@@ -14585,6 +15080,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>gibs_layer_info</b></div>
+<div class="td">Everything NASA GIBS publishes about one imagery layer: its full title, the dates it actually covers (as ISO 8601 start/end/period ranges), the most recent date available, native tile grid and zoom depth, image format, geographic extent, co</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: layer</div>
+</li>
+<li>
+<div class="tn"><b>gibs_list_layers</b></div>
+<div class="td">&quot;What NASA satellite imagery layers are there for wildfires / sea ice / aerosols?&quot;  - search NASA GIBS, the ~1,300-layer imagery catalogue behind NASA Worldview. AUTHORITATIVE for which global satellite imagery products exist and what time...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>gibs_tile_url</b></div>
+<div class="td">&quot;Give me the satellite image of Los Angeles on 2026-09-10&quot;  - build a ready-to-fetch NASA GIBS image tile URL for a layer, a date and a place. Give a latitude/longitude and a zoom level and it computes the WMTS tile row/column for you; give</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: layer</div>
+</li>
+<li>
 <div class="tn"><b>github_get_user</b></div>
 <div class="td">Get a GitHub user&#x27;s public profile info. Returns name, bio, company, location, public repo count, followers, and social links. Specify username (e.g., username=&quot;torvalds&quot;).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: username</div>
@@ -14621,7 +15131,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>gitlab_public_get_project</b></div>
-<div class="td">Get full details for a public GitLab project by ID or path (e.g., &quot;gitlab-org%2Fgitlab&quot;). Returns name, description, stars, forks, default branch, topics, and last activity date.</div>
+<div class="td">Get full details for a public GitLab project by numeric ID or &quot;namespace/project&quot; path (e.g., &quot;gitlab-org/gitlab&quot;). Pass the path as written, with a plain slash  - do not URL-encode it, the tool handles that internally. Returns name,...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
 </li>
 <li>
@@ -14843,6 +15353,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>govinfo_search_packages</b></div>
 <div class="td">Full-text + faceted search across GovInfo. Filter by one or more collection codes (BILLS, FR, CFR, USCODE, CHRG, CRPT, CREC, PLAW, USCOURTS...), date range, congress, and free-text query. Several codes search the union of those collections.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>gprofiler_convert_ids</b></div>
+<div class="td">&quot;Convert these gene symbols to Ensembl IDs&quot; / &quot;what is the Ensembl/Entrez/UniProt ID for [gene]&quot; / &quot;map my probe IDs to gene names&quot; / &quot;translate this gene list into [namespace]&quot;  - AUTHORITATIVE identifier conversion (g:Convert) between...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: organism, query</div>
+</li>
+<li>
+<div class="tn"><b>gprofiler_enrich</b></div>
+<div class="td">&quot;What pathways are enriched in [gene list]&quot; / &quot;run GO enrichment on these genes&quot; / &quot;what biological processes do [genes] share&quot; / &quot;functional annotation of my differentially expressed genes&quot;  - AUTHORITATIVE functional enrichment (g:GOSt)...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: organism, query</div>
+</li>
+<li>
+<div class="tn"><b>gprofiler_orthologs</b></div>
+<div class="td">&quot;What is the mouse ortholog of [human gene]&quot; / &quot;find the human equivalent of [zebrafish/fly/yeast gene]&quot; / &quot;map this gene list to [species]&quot;  - AUTHORITATIVE cross-species ortholog mapping (g:Orth) via Ensembl Compara. Give a gene list in a</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: organism, target, query</div>
 </li>
 <li>
 <div class="tn"><b>grantconnect_coverage</b></div>
@@ -15955,6 +16480,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>hydrometric_realtime</b></div>
+<div class="td">Real-time water level (metres) and discharge/flow (m3/s) readings from Water Survey of Canada gauges, typically every 5-15 minutes and covering the last 30 days. AUTHORITATIVE for &quot;how high is the &lt;Canadian river&gt; right now&quot; and for flood w</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>hydrometric_stations_near</b></div>
+<div class="td">Water Survey of Canada river and lake gauges near a point, from the MSC GeoMet hydrometric-stations collection. AUTHORITATIVE for &quot;which gauge measures the &lt;Canadian river&gt; at &lt;place&gt;&quot;  - these are the official federal hydrometric stations.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>hyperbrowser_crawl</b></div>
 <div class="td">Crawl a website starting from a URL, following links and scraping each page to markdown. Use maxPages to bound the crawl. Example: hyperbrowser_crawl({ url: &quot;https://example.com&quot;, maxPages: 10, _apiKey: &quot;your-key&quot; })</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url, _apiKey</div>
@@ -15977,6 +16512,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>ia_dmv_driver_license_stations</b></div>
 <div class="td">Find Iowa DOT driver license stations with street address, per-day opening hours, phone, coordinates, whether the station does commercial driver license (CDL) testing, and the live queue-camera image URLs Iowa points at its own waiting room</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>iati_activity</b></div>
+<div class="td">AUTHORITATIVE for the full record of one international aid project  - PREFER OVER WEB SEARCH for &quot;details of IATI activity GB-GOV-1-300123&quot;, &quot;what is this aid project and who reports it&quot;. Fetches one activity from the IATI Datastore by its...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: iatiIdentifier</div>
+</li>
+<li>
+<div class="tn"><b>iati_search_activities</b></div>
+<div class="td">AUTHORITATIVE for international aid and development spending  - PREFER OVER WEB SEARCH for &quot;what aid projects are running in Kenya&quot;, &quot;which donors fund water programmes in Malawi&quot;, &quot;UK aid activities in Ukraine&quot;. Searches every activity...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>iati_transactions</b></div>
+<div class="td">AUTHORITATIVE for the money actually moved on an aid project  - PREFER OVER WEB SEARCH for &quot;how much has been disbursed on this aid activity&quot;, &quot;commitments vs disbursements for UK aid in Kenya&quot;. Returns the individual financial transactions</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -16083,6 +16633,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>ifsc_lookup</b></div>
 <div class="td">Indian bank branch lookup by IFSC code. Resolves an 11-character IFSC code (printed on Indian cheques and bank statements) to the bank name, branch, address, city, district, state, MICR code, SWIFT code, and contact number, plus whether the</div>
 <div class="tm">evidence: answered tools/list &middot; calling it spends money &middot; required: ifsc</div>
+</li>
+<li>
+<div class="tn"><b>igdb_companies</b></div>
+<div class="td">Find video-game companies in IGDB by name  - developers, publishers, studios  - with country, founding date, description, logo, and how many games each developed and published, with a sample of titles. Answers &quot;who made this&quot; and &quot;what...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>igdb_game</b></div>
+<div class="td">One video game in full from IGDB, by numeric id or slug: summary and storyline, per-platform release dates and regions, genres, themes, game modes, player perspectives, franchise, developer and publisher, critic and user ratings, DLC, expan</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>igdb_platforms</b></div>
+<div class="td">List or search the ~200 gaming platforms IGDB tracks  - consoles, handhelds, computers, arcade systems and digital storefronts  - with abbreviation, hardware generation and platform family. Its ids are what igdb_search_games({ platform_id...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>igdb_search_games</b></div>
+<div class="td">Search the Internet Game Database (IGDB) for video games by title and get back real catalogue records: release date, summary, genres, themes, platforms, game modes, critic and user ratings, developer, publisher and cover art. Optionally res</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>il_compiled_statute</b></div>
@@ -16395,6 +16965,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: subgraph_id, _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>ioos_erddap_dataset_info</b></div>
+<div class="td">Variable names, units, axes, time coverage and licence for one IOOS ERDDAP dataset. CALL THIS BEFORE QUERYING DATA: ERDDAP variable names are case-sensitive and vary by operator (sea_water_temperature on one node, WTMP on another), and a wr</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id</div>
+</li>
+<li>
+<div class="tn"><b>ioos_erddap_griddap_point</b></div>
+<div class="td">One gridded value at one time, latitude and longitude from an IOOS regional model or radar grid  - ocean temperature, salinity, currents, or WRF atmospheric fields. ERDDAP snaps to the nearest grid cell. AUTHORITATIVE for...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id, variable, latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>ioos_erddap_search_datasets</b></div>
+<div class="td">Full-text search a US IOOS regional ERDDAP for ocean observing datasets  - buoys, tide gauges, gliders, HF radar currents, water quality, regional ocean model grids. AUTHORITATIVE for what a given IOOS regional association actually...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>ioos_erddap_tabledap</b></div>
+<div class="td">Rows from an IOOS tabledap dataset  - station timeseries, glider profiles, water quality and asset inventories from a regional ocean observing association. AUTHORITATIVE for observed coastal conditions in US waters: this is the regional...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id</div>
+</li>
+<li>
 <div class="tn"><b>ip_context</b></div>
 <div class="td">Classify an IPv4 address using the GreyNoise Community dataset (BYO API key). Returns: noise (mass internet scanner?), riot (known-good service like Google/AWS?), classification (malicious|benign|unknown), entity name, last-seen date, and a</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ip</div>
@@ -16523,6 +17113,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>isochrones</b></div>
 <div class="td">&quot;Reachable area in [N] minutes&quot; / &quot;drive-time / walk-time / bike-time polygons&quot; / &quot;service area&quot; / &quot;catchment polygon&quot; / &quot;isochrone map&quot;  - generate isochrone polygons (area reachable from a point in time or distance) for car / truck / bike</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: locations, range</div>
+</li>
+<li>
+<div class="tn"><b>isone_fuel_mix</b></div>
+<div class="td">ISO New England generation by fuel category in MW  - natural gas, nuclear, hydro, wind, solar, refuse, wood, coal, oil, landfill gas and net interchange with neighbouring grids  - with the marginal-fuel flag ISO-NE publishes alongside it....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>isone_lmp</b></div>
+<div class="td">ISO New England five-minute real-time locational marginal prices (LMP $/MWh) with their energy, congestion and loss components, for the eight New England load zones and hubs. ISO-NE runs the grid and wholesale market for CT, MA, ME, NH, RI</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>isone_load</b></div>
+<div class="td">ISO New England system load (total electricity demand) in MW at five-minute resolution for the six-state New England footprint. Use for &quot;New England electricity demand right now&quot;, &quot;ISO-NE peak load today&quot;, demand-response and capacity quest</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>israel_search_exemptions</b></div>
@@ -16955,6 +17560,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: city</div>
 </li>
 <li>
+<div class="tn"><b>kartaview_nearby_sequences</b></div>
+<div class="td">Street-level photos near a latitude/longitude from KartaView (formerly OpenStreetCam), the open crowdsourced imagery archive used by OpenStreetMap mappers  - grouped into the drives that captured them, nearest first, with capture date,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: lat, lng</div>
+</li>
+<li>
+<div class="tn"><b>kartaview_sequence_photos</b></div>
+<div class="td">Every frame of one KartaView drive in capture order  - position, compass heading, capture timestamp, GPS accuracy, the OpenStreetMap way each frame was matched to, and full-size and thumbnail JPEG URLs. Use after kartaview_nearby_sequences...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: sequence_id</div>
+</li>
+<li>
 <div class="tn"><b>kata</b></div>
 <div class="td">Fetch a single Codewars kata by ID or slug; returns name, description, rank (kyu), tags, languages, approval status, total completions, and satisfaction rating.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id_or_slug</div>
@@ -17065,6 +17680,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>knmi_dataset_files</b></div>
+<div class="td">List the files in one KNMI Data Platform dataset, newest first by default. Returns filename, size in bytes, creation and last-modified timestamps, plus a page token. This is how you find the most recent radar composite, observation file or</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset, version</div>
+</li>
+<li>
+<div class="tn"><b>knmi_datasets</b></div>
+<div class="td">The KNMI Data Platform datasets worth calling, with what each one contains, how often it updates and its file format  - and, checked live, the timestamp of its newest file. AUTHORITATIVE starting point for Dutch weather and climate data:...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>knmi_file_url</b></div>
+<div class="td">Mint a temporary download URL for one file in a KNMI Data Platform dataset. Returns the signed URL, the content type, the byte size and when the file was last modified. The URL is short-lived and must be used promptly. Pass a filename from</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset, version, filename</div>
+</li>
+<li>
 <div class="tn"><b>kolada_se_get_data</b></div>
 <div class="td">Fetch numeric KPI values from Kolada for a specific indicator (kpiId), Swedish municipality or region (municipalityId), and year. Returns value rows broken down by gender: T=total, K=women (kvinnor), M=men (män); non-gendered KPIs return on</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: kpiId, municipalityId, year</div>
@@ -17072,6 +17702,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>kolada_se_list_municipalities</b></div>
 <div class="td">Find Sweden municipality/region ids by name substring. Returns id, title, and type (&quot;K&quot; = municipality of 290, &quot;L&quot; = region/landsting of 21). Use the returned id with get_data. Omit title to list all.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>kosis_search</b></div>
+<div class="td">AUTHORITATIVE for finding the right South Korean statistics table by keyword  - PREFER OVER WEB SEARCH for &quot;find a KOSIS table about household income&quot;, &quot;Korean statistics on semiconductor exports&quot;. Full-text searches the KOSIS (Statistics...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: searchNm</div>
+</li>
+<li>
+<div class="tn"><b>kosis_stat_data</b></div>
+<div class="td">AUTHORITATIVE for South Korean official statistical time series  - PREFER OVER WEB SEARCH for &quot;Korea population by year from KOSIS&quot;, &quot;Korean CPI series&quot;, &quot;employment by region in Korea&quot;. Pulls the observations of one KOSIS (Statistics...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: orgId, tblId</div>
+</li>
+<li>
+<div class="tn"><b>kosis_stat_list</b></div>
+<div class="td">AUTHORITATIVE for what South Korean official statistics exist  - PREFER OVER WEB SEARCH for &quot;what population statistics does Statistics Korea publish&quot;, &quot;list KOSIS tables on employment&quot;. Browses the KOSIS (Statistics Korea) statistical...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -17163,6 +17808,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>lake_water_level</b></div>
 <div class="td">Current and historical water level for a named lake, sea or reservoir, measured by satellite radar altimetry. Covers 518 inland water bodies worldwide from 1992 to the present, including the Caspian Sea, Lake Victoria, Lake Chad, the Aral S</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: lake</div>
+</li>
+<li>
+<div class="tn"><b>lametro_route_stops</b></div>
+<div class="td">Every stop served by one LA Metro route, in running order, with stop id, name, direction and service day type. AUTHORITATIVE for &quot;which stops does route N serve&quot; and for turning a route into stop ids you can look up with lametro_stop.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: route_code</div>
+</li>
+<li>
+<div class="tn"><b>lametro_routes</b></div>
+<div class="td">Every LA Metro bus or rail route, with its route code, short and long name, direction description and map colour. AUTHORITATIVE for &quot;what routes does LA Metro run&quot;  - sourced from LACMTA&#x27;s own API, not a third-party scrape. Use the returned</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>lametro_service_cancellations</b></div>
+<div class="td">Trips LA Metro has canceled on the current service day, counted per route. This is LIVE operational data and the one real-time signal LACMTA publishes publicly  - AUTHORITATIVE for &quot;is LA Metro dropping trips on my line today&quot;, which no...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>lametro_stop</b></div>
+<div class="td">One LA Metro stop by stop id  - coordinates, name, and the accessibility and zone attributes LACMTA publishes for it. Returns GeoJSON properties flattened for reading.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: stop_id</div>
 </li>
 <li>
 <div class="tn"><b>landprice_points</b></div>
@@ -19280,6 +19945,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>meteoswiss_collection</b></div>
+<div class="td">Full detail for one data.geo.admin.ch collection: title, description, licence, providers, Swiss spatial extent and the asset keys its items carry. AUTHORITATIVE for what a MeteoSwiss dataset measures and at which resolutions  - the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collection_id</div>
+</li>
+<li>
+<div class="tn"><b>meteoswiss_collections</b></div>
+<div class="td">List MeteoSwiss open-data collections on data.geo.admin.ch  - SwissMetNet automatic weather stations, precipitation and tower stations, radar, hail, pollen, phenology, ICON-CH forecasts, climate normals and CH2025 scenarios  - with each...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>meteoswiss_search</b></div>
+<div class="td">Search Swiss weather stations and federal geodata by area, returning one item per station or map tile with its coordinates, human name and direct CSV/GeoTIFF download URLs. AUTHORITATIVE for which MeteoSwiss stations cover a Swiss location</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>metmuseum_get_artwork</b></div>
 <div class="td">Get the rich detail for a single Met collection object by its objectID  - artist bio, medium, dimensions, department, classification, culture, period, credit line, image URLs, tags, and gallery number. Keyless.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: object_id</div>
@@ -19293,6 +19973,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>metros</b></div>
 <div class="td">List the metros DoStuff covers (slug + name). Pass a slug to the events tool.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mgnify_biomes</b></div>
+<div class="td">List MGnify&#x27;s controlled biome vocabulary  - the ~492 colon-delimited lineages (root:Host-associated:Human:Digestive system:Large intestine:Fecal, root:Environmental:Aquatic:Marine…) that every MGnify study is classified under. This is the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mgnify_genomes</b></div>
+<div class="td">Search MGnify&#x27;s species-level genome catalogues  - ~57,000 metagenome-assembled genomes (MAGs) and isolates from human gut, soil, marine, chicken and other biomes. AUTHORITATIVE for &quot;is there a genome for this uncultured taxon&quot; and for MAG...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mgnify_search_studies</b></div>
+<div class="td">Search MGnify for public metagenomics studies  - the microbiome sequencing projects EMBL-EBI has assembled and annotated  - by free text and/or biome lineage. AUTHORITATIVE for &quot;what microbiome studies exist for this environment or host&quot;...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mgnify_study</b></div>
+<div class="td">Fetch one MGnify metagenomics study in full by its accession (MGYS…)  - title, controlled biome classification, the ENA project and study accessions behind it, available downloads and last-update date. Use after mgnify_search_studies, or...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: accession</div>
 </li>
 <li>
 <div class="tn"><b>mhra_alert_detail</b></div>
@@ -19357,6 +20057,31 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>mining_pools</b></div>
 <div class="td">Block share by mining pool.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>miso_binding_constraints</b></div>
+<div class="td">MISO real-time transmission binding constraints  - the specific flowgates and facility limits currently constraining the market, with their shadow price ($/MWh of relief). A binding constraint is why LMPs diverge between nodes. Use for &quot;why</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>miso_fuel_mix</b></div>
+<div class="td">MISO (Midcontinent ISO  - 15 US states from Louisiana to Minnesota plus Manitoba) real-time generation by fuel type: coal, natural gas, nuclear, wind, solar, hydro, battery storage, other. Returns MW actually generated per category at the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>miso_lmp</b></div>
+<div class="td">MISO real-time five-minute locational marginal prices (LMP $/MWh) by pricing node, split into its energy / congestion / loss components (MEC-equivalent, MCC, MLC) together with the ancillary-service clearing prices (regulation, spinning, su</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>miso_load</b></div>
+<div class="td">MISO real-time total load (electricity demand) for today, hour by hour in MW, alongside the medium-term load forecast for the same hours so actual-vs-forecast is directly comparable. Use for &quot;MISO demand today&quot;, &quot;is MISO load running above</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>miso_wind_solar</b></div>
+<div class="td">MISO wind and solar generation for today  - hourly forecast vs actual output in MW for both, from the same feed MISO publishes to its operators. Hours that have not happened yet carry a forecast and a null actual (never a fake 0). Use for...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -19458,6 +20183,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>mo_revised_statute</b></div>
 <div class="td">Get the FULL TEXT of a section of the Missouri Revised Statutes  - Missouri state law  - by citation. &quot;RSMo 565.020&quot; is first degree murder. Returns the statutory text. Keyless. Use for &quot;what does Mo. Rev. Stat. 565.020 say&quot; or to check a...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: section</div>
+</li>
+<li>
+<div class="tn"><b>mobilitydb_feed</b></div>
+<div class="td">Everything the Mobility Database records about one transit feed, by its catalogue id (e.g. mdb-1210, or a jbda-* id). Returns the operator&#x27;s download URL and the catalogue&#x27;s stable latest-version URL, licence, contact, bounding box, declare</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: feed_id</div>
+</li>
+<li>
+<div class="tn"><b>mobilitydb_gtfs_rt_feeds</b></div>
+<div class="td">List the GTFS-Realtime feeds  - live vehicle positions, trip updates and service alerts  - registered in the Mobility Database for a country, city or operator, with the realtime endpoint URL and the GTFS Schedule feed each one is keyed...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mobilitydb_search_feeds</b></div>
+<div class="td">Find the public-transport schedule feed (GTFS) for an agency, city or country from the Mobility Database, MobilityData&#x27;s open catalogue of ~4,500 transit feeds worldwide. Returns the operator&#x27;s own download URL, the licence it is published</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes</div>
 </li>
 <li>
 <div class="tn"><b>model</b></div>
@@ -19650,6 +20390,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: movie_id</div>
 </li>
 <li>
+<div class="tn"><b>mrdata_commodities</b></div>
+<div class="td">Which commodities are recorded in USGS MRDS inside an area, with a site count per commodity  - the &quot;what is this region mined for&quot; tool. Also serves as the lookup for the commodity symbols that mrdata_search_deposits expects. Sourced from...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>mrdata_deposit</b></div>
+<div class="td">Full USGS MRDS record for one mineral deposit by its deposit id  - commodities with their roles, deposit type and model, development status, operation type, mining method, years of first and last production, discovery method, alternate site</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dep_id</div>
+</li>
+<li>
+<div class="tn"><b>mrdata_search_deposits</b></div>
+<div class="td">Search the USGS Mineral Resources Data System for mines, prospects and mineral occurrences by bounding box, site name or commodity. AUTHORITATIVE for &quot;what has been mined near here&quot; and &quot;where are the US lithium/copper/gold occurrences&quot;  -...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>mt_code_section</b></div>
 <div class="td">Get the FULL TEXT of a section of the Montana Code Annotated  - Montana state law  - by citation. &quot;MCA 45-5-102&quot; is deliberate homicide. Returns the statutory text. Keyless. Use for &quot;what does MCA 45-5-102 say&quot; or to check a Montana...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: section</div>
@@ -19810,6 +20565,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: address, _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>nara_digital_objects</b></div>
+<div class="td">List the digitised files attached to one US National Archives Catalog record  - scanned page images, PDFs, audio and video  - with a direct, public-domain download URL, file type and size for each. Use after nara_search or nara_record when...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: naid</div>
+</li>
+<li>
+<div class="tn"><b>nara_record</b></div>
+<div class="td">Fetch one US National Archives Catalog record in full by its NAID (National Archives Identifier, the number in a catalog.archives.gov/id/ URL). Returns title, scope and content note, dates, access and use restrictions, the full archival hie</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: naid</div>
+</li>
+<li>
+<div class="tn"><b>nara_search</b></div>
+<div class="td">Keyword-search the US National Archives Catalog  - the descriptions of the federal government&#x27;s permanent records: agency files, military service and unit records, photographs, motion pictures, maps, treaties, presidential library holdings...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
 <div class="tn"><b>nasa_cmr_get_collection</b></div>
 <div class="td">Get full metadata for one NASA Earth-science collection by its CMR concept ID  - summary, DOI/landing page, spatial coverage, temporal range, and access links. Keyless.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: concept_id</div>
@@ -19955,6 +20725,36 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: section</div>
 </li>
 <li>
+<div class="tn"><b>ncbi_gene_by_symbol</b></div>
+<div class="td">Look up one or more genes by symbol in a given organism and get NCBI&#x27;s authoritative record: Entrez gene id, official description, biotype, chromosome and orientation, RefSeqGene coordinates, and the cross-references that let you join to ot</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: symbols</div>
+</li>
+<li>
+<div class="tn"><b>ncbi_genome_reports</b></div>
+<div class="td">List the genome assemblies NCBI holds for an organism (or fetch one by accession), with assembly level, total length, contig and scaffold N50, GC percent, submitter, release date, BioProject, and the paired RefSeq/GenBank accession. AUTHORI</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ncbi_taxonomy</b></div>
+<div class="td">Resolve organisms in the NCBI Taxonomy  - the naming authority GenBank, ENA and DDBJ all classify against  - from a tax id, scientific name or common name, returning the full ancestor lineage as tax ids, the immediate children, the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: taxons</div>
+</li>
+<li>
+<div class="tn"><b>ncei_daily_summaries</b></div>
+<div class="td">Daily observed weather for named NOAA stations  - max/min temperature, precipitation, snowfall, snow depth, wind and more, from the GHCN-Daily record that runs back to the 1800s at long-lived stations. AUTHORITATIVE for &quot;how hot/wet was it...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: stations, startDate, endDate</div>
+</li>
+<li>
+<div class="tn"><b>ncei_search_datasets</b></div>
+<div class="td">Browse the NOAA NCEI dataset catalogue  - climate, marine, satellite, radar, paleoclimate and storm archives  - with each dataset&#x27;s period of record, formats, keywords and description. Use it to find which archive answers a question before...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ncei_station_search</b></div>
+<div class="td">Find NOAA weather stations inside a bounding box that actually hold data for a given dataset and date range, with each station&#x27;s period of record and which elements it reports. Use this to get the station id that ncei_daily_summaries needs.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bbox</div>
+</li>
+<li>
 <div class="tn"><b>ncua_account_lookup</b></div>
 <div class="td">Look up what an NCUA call report account code means, or find the code for a figure. The 5300 Call Report stores everything against codes like ACCT_010 or ACCT_083, and this returns the official name and NCUA&#x27;s full reporting instruction for</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -19992,6 +20792,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>ncua_search_credit_unions</b></div>
 <div class="td">Find US credit unions by name, city or state, using NCUA call report data (the federal regulator of credit unions). Returns charter number, name, city, state, year opened and total assets. Answers &quot;credit unions in Austin Texas&quot;, &quot;is there</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ndbc_latest_obs</b></div>
+<div class="td">Latest observed marine conditions at an NDBC station  - significant wave height, dominant and average wave period, mean wave direction, wind speed/direction/gust, sea-surface and air temperature, barometric pressure and its 3-hour tendency.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: station_id</div>
+</li>
+<li>
+<div class="tn"><b>ndbc_station_history</b></div>
+<div class="td">Recent observation time series for one NDBC station  - up to the last ~45 days of standard meteorological rows at the station reporting interval (usually every 10 minutes for buoys, hourly for some partners). Use for trends: &quot;how has wave...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: station_id</div>
+</li>
+<li>
+<div class="tn"><b>ndbc_stations</b></div>
+<div class="td">List active NOAA National Data Buoy Center stations  - moored buoys, coastal C-MAN sites, tsunami DART stations and partner platforms  - filtered by bounding box, name, owner, type or the measurements they carry. AUTHORITATIVE for &quot;which...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -20113,6 +20928,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>next_runs</b></div>
 <div class="td">Compute the next N run times (UTC ISO-8601) for a cron expression. Optionally start from a given time.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: expression</div>
+</li>
+<li>
+<div class="tn"><b>nfhl_flood_zone_at_point</b></div>
+<div class="td">AUTHORITATIVE flood-zone lookup: given a latitude/longitude, return the effective FEMA FIRM flood zone for that spot  - the zone code (A, AE, AH, AO, VE, X, D), its subtype, whether it is in a Special Flood Hazard Area, the static base...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>nfhl_layers</b></div>
+<div class="td">List every layer in the FEMA National Flood Hazard Layer MapServer with its id, name and geometry type, plus a plain-English guide to the layers that matter (flood hazard zones, base flood elevations, LOMRs, LOMAs, FIRM panels, levees, NFHL</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nfhl_query</b></div>
+<div class="td">Query any layer of the FEMA National Flood Hazard Layer with an ArcGIS WHERE clause and optional bounding box  - flood hazard zones, base flood elevations, floodways, LOMRs and LOMAs, FIRM panels with their effective dates, levees,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: layer_id</div>
 </li>
 <li>
 <div class="tn"><b>nft_metadata</b></div>
@@ -20328,6 +21158,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>nmpa_updates</b></div>
 <div class="td">Official announcements from China&#x27;s drug regulator, the NMPA (National Medical Products Administration)  - regulatory policy changes, guidance documents, import rules, clinical-trial guideline updates and reform opinions, in English,...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>noaa_coastwatch_dataset_info</b></div>
+<div class="td">Variable names, units, axes, time coverage and licence for one CoastWatch ERDDAP dataset. CALL THIS BEFORE QUERYING DATA: ERDDAP variable names are case-sensitive and frequently UPPERCASE (NDBC water temperature is WTMP, not wtmp), and a wr</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id</div>
+</li>
+<li>
+<div class="tn"><b>noaa_coastwatch_griddap_point</b></div>
+<div class="td">One gridded value at one time, latitude and longitude  - sea surface temperature, chlorophyll-a, wind or current from a CoastWatch satellite or model grid. ERDDAP snaps to the nearest grid cell, so an approximate position is fine....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id, variable, latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>noaa_coastwatch_search_datasets</b></div>
+<div class="td">Full-text search NOAA CoastWatch&#x27;s ERDDAP catalogue for ocean satellite and buoy datasets (sea surface temperature, chlorophyll-a, ocean colour, winds, currents, waves, NDBC buoy observations). AUTHORITATIVE for what NOAA actually publishes</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>noaa_coastwatch_tabledap</b></div>
+<div class="td">Rows from a CoastWatch tabledap dataset  - buoy and station timeseries such as the NDBC meteorological archive (water temperature, air temperature, wind speed, wave height, barometric pressure). AUTHORITATIVE for observed marine conditions...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id</div>
 </li>
 <li>
 <div class="tn"><b>noaa_tides_predictions</b></div>
@@ -20725,6 +21575,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bbox, start_date, end_date</div>
 </li>
 <li>
+<div class="tn"><b>observatory_grade_distribution</b></div>
+<div class="td">Grade distribution across every site the MDN HTTP Observatory has scanned  - how many sites hold each grade from A+ to F. Use it to say where one site&#x27;s grade sits relative to the web (e.g. &quot;a B beats X% of scanned sites&quot;). Keyless, no...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>observatory_results</b></div>
+<div class="td">Get the full MDN HTTP Observatory breakdown for a host: every one of the 12 security tests with pass/fail, the score impact, Mozilla&#x27;s specific remediation advice (CSP, HSTS, cookies, CORS, referrer policy, subresource integrity, clickjacki</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: host</div>
+</li>
+<li>
+<div class="tn"><b>observatory_scan</b></div>
+<div class="td">Scan a website&#x27;s HTTP security headers with the MDN HTTP Observatory and return its letter grade (A+ to F), numeric score, and how many of Mozilla&#x27;s 12 tests it passed. AUTHORITATIVE for &quot;how secure are this site&#x27;s headers&quot; / &quot;what is this</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: host</div>
+</li>
+<li>
 <div class="tn"><b>observers</b></div>
 <div class="td">Convenience: ephemeris with table_type=OBSERVER.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: command, start_time, stop_time</div>
@@ -20838,6 +21703,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>oecd_search_dataflows</b></div>
 <div class="td">Search OECD&#x27;s SDMX dataflow registry by keyword. Returns matching dataflow refs ready to pass to fetch_dataset. If results are noisy, refine with a more specific keyword or restrict by agency.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>ofgem_dataset_rows</b></div>
+<div class="td">Return the full underlying table for one Ofgem Data Portal dataset as rows and columns  - the numbers behind the published chart, not an image. Get the dataset id from ofgem_datasets. Use for &quot;give me the monthly GB day-ahead gas price...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id</div>
+</li>
+<li>
+<div class="tn"><b>ofgem_datasets</b></div>
+<div class="td">Browse or search the Ofgem Data Portal catalogue  - ~190 published datasets from the UK energy regulator covering the domestic price cap and its cost components, wholesale gas and electricity prices, supplier market share and switching,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ofgem_price_cap</b></div>
+<div class="td">The Ofgem domestic energy price cap (the default tariff cap) for Great Britain, broken down into the cost components that make it up  - wholesale costs, network costs, policy costs, operating costs, debt-related costs, EBIT and VAT  - for...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it spends money</div>
 </li>
 <li>
 <div class="tn"><b>oh_revised_code</b></div>
@@ -21885,6 +22765,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
 </li>
 <li>
+<div class="tn"><b>pagespeed_audit</b></div>
+<div class="td">Run Google&#x27;s PageSpeed Insights (Lighthouse) against any public URL and get back the performance, accessibility, best-practices and SEO scores, the lab timing metrics behind them, and the RANKED list of specific fixes with the milliseconds</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>pagespeed_field_metrics</b></div>
+<div class="td">Real-user Core Web Vitals for a page AND for its whole origin in one call, from Google&#x27;s Chrome UX Report as PageSpeed Insights serves it  - 75th-percentile Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
 <div class="tn"><b>paleobiodb_get_taxon</b></div>
 <div class="td">Look up a single taxon in the Paleobiology Database: its taxonomic rank, attribution (author + year), first/last appearance intervals and ages (in millions of years, Ma), and number of subtaxa. Keyless.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
@@ -22380,6 +23270,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>pjm_feeds</b></div>
+<div class="td">List the feeds published by PJM Data Miner 2  - the catalog of every market-data dataset PJM exposes (LMPs, load, generation, ancillary services, capacity, transmission). Returns each feed&#x27;s name and metadata so you can fetch it. Use to...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>pjm_generation_fuel_mix</b></div>
+<div class="td">PJM generation by fuel type  - MW generated and percentage of total from coal, natural gas, nuclear, wind, solar, hydro, oil, storage and other, per published interval. Use for &quot;what is PJM burning right now&quot;, &quot;PJM nuclear share&quot;, &quot;PJM coal</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>pjm_lmp_realtime</b></div>
+<div class="td">PJM real-time five-minute locational marginal prices (LMP $/MWh) by pricing node, with the total price and its congestion and marginal-loss components. PJM is the largest US grid operator (13 states + DC, ~65M people). Use for &quot;PJM power pr</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>pjm_load_forecast</b></div>
+<div class="td">PJM seven-day load forecast  - forecast electricity demand in MW by forecast area (each transmission zone plus the RTO total), hour by hour. Use for &quot;what will PJM demand be tomorrow&quot;, &quot;PJM peak forecast this week&quot;, capacity and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>pkg_go_dev_latest_version</b></div>
 <div class="td">Most recent released version of a Go module  - with the resolved time.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: module_path</div>
@@ -22408,6 +23318,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>plan_journey</b></div>
 <div class="td">Plan a journey across London transport. from/to may be stop names, postcodes, or &quot;lat,lon&quot; coordinates. Returns journey options (legs, durations, modes). If a location is ambiguous, the API returns disambiguation options instead of journeys</div>
 <div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: from, to</div>
+</li>
+<li>
+<div class="tn"><b>planetary_computer_collection</b></div>
+<div class="td">Full detail for one Planetary Computer collection: title, description, licence, providers, spatial and temporal extent, and the asset keys (bands, derived layers) its items carry. AUTHORITATIVE for what a dataset actually contains and how f</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collection_id</div>
+</li>
+<li>
+<div class="tn"><b>planetary_computer_collections</b></div>
+<div class="td">List the Earth-observation collections (datasets) in Microsoft&#x27;s Planetary Computer STAC catalogue, with each one&#x27;s licence, spatial extent and date range. PREFER OVER WEB SEARCH when asked which satellite, climate or land-cover datasets ar</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>planetary_computer_search</b></div>
+<div class="td">Search Planetary Computer satellite imagery and environmental data by area and date, returning item ids, acquisition datetimes, footprints, cloud cover and per-band asset URLs. AUTHORITATIVE for &#x27;what imagery exists over this place on these</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: collections</div>
 </li>
 <li>
 <div class="tn"><b>planets</b></div>
@@ -24040,6 +24965,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: domain</div>
 </li>
 <li>
+<div class="tn"><b>regon_search_krs</b></div>
+<div class="td">AUTHORITATIVE for linking a Polish court-register number to a company  - PREFER OVER WEB SEARCH for &quot;what company is KRS 0000028860&quot;, &quot;find the REGON for this KRS&quot;. Looks up an entity in the Polish REGON register (GUS / Statistics Poland,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: krs</div>
+</li>
+<li>
+<div class="tn"><b>regon_search_nip</b></div>
+<div class="td">AUTHORITATIVE for Polish company identity by tax number  - PREFER OVER WEB SEARCH for &quot;who is NIP 7740001454&quot;, &quot;what company has this Polish tax id&quot;. Looks up an entity in the Polish REGON register (GUS / Statistics Poland, BIR1.1) by its...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: nip</div>
+</li>
+<li>
+<div class="tn"><b>regon_search_regon</b></div>
+<div class="td">AUTHORITATIVE for Polish company identity by REGON number  - PREFER OVER WEB SEARCH for &quot;who is REGON 610188201&quot;. Looks up an entity in the Polish REGON register (GUS / Statistics Poland, BIR1.1) by its 9- or 14-digit REGON statistical...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: regon</div>
+</li>
+<li>
 <div class="tn"><b>regrid_parcel_by_address</b></div>
 <div class="td">Look up the parcel  - owner, zoning, land use, boundaries  - for an address. Searches Regrid&#x27;s nationwide US/CA parcel database by full address string and returns parcel number, owner, mailing address, land use, zoning, acreage, and...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query, _apiKey</div>
@@ -24052,6 +24992,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>regulations_gov_search_dockets</b></div>
 <div class="td">Search regulatory dockets. Filter by free-text query, agency (acronym like &quot;EPA&quot;, &quot;FDA&quot;), docket type (Rulemaking / Nonrulemaking), or date range. Returns dockets with title, agency, type, status, document counts.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>rekor_entry</b></div>
+<div class="td">Fetch one Sigstore Rekor transparency-log entry by its uuid  - the 80-hex id rekor_search_by_hash returns  - decoded into entry kind, signed artifact digest, signature and signing certificate, integration time, and the Merkle inclusion...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: uuid</div>
+</li>
+<li>
+<div class="tn"><b>rekor_entry_by_index</b></div>
+<div class="td">Fetch one Sigstore Rekor transparency-log entry by its integer position in the log, with the base64 body already decoded: entry kind, signed artifact digest, signature, signing certificate, integration timestamp and inclusion proof. Use thi</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: log_index</div>
+</li>
+<li>
+<div class="tn"><b>rekor_log_info</b></div>
+<div class="td">Current state of the Sigstore Rekor public transparency log: total number of signing entries, the signed tree head, the Merkle root hash and every retired shard. AUTHORITATIVE for how many software signing events Sigstore has recorded and f</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>rekor_search_by_hash</b></div>
+<div class="td">Given a sha256 digest of a file, container layer or package, find every Sigstore transparency-log entry that signed it  - the answer to &quot;was this artifact ever signed, and by whom&quot;. Also searches by the email identity on a keyless signing...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -24077,6 +25037,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>release_calendar_markets</b></div>
 <div class="td">JOIN of the official release calendar (econ data, the FOMC, FDA decisions, SEC rules) against LIVE Polymarket/Kalshi markets  - which scheduled releases land in the next N hours, and which live markets resolve on them. This is a POSITIONING</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reliefweb_disasters</b></div>
+<div class="td">The ReliefWeb disaster register  - UN OCHA&#x27;s curated list of humanitarian emergencies, each with a GLIDE number, disaster type, affected countries, event date and whether it is ongoing, alert or past. AUTHORITATIVE for &quot;which humanitarian...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>reliefweb_report</b></div>
+<div class="td">One ReliefWeb report in full  - the complete body text, every attached file, the publishing organisations, the countries and disasters it covers, its theme and format, and its publication and revision dates. Use it after reliefweb_reports...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: report_id</div>
+</li>
+<li>
+<div class="tn"><b>reliefweb_reports</b></div>
+<div class="td">Humanitarian situation reports, needs assessments, appeals, analyses and press releases published on ReliefWeb by ~4,000 UN agencies, NGOs, governments and research bodies. AUTHORITATIVE for &quot;what do humanitarian responders say is happening</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -24370,6 +25345,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>rijks_object</b></div>
+<div class="td">One Rijksmuseum object in full: title, maker, date, object type, materials, place, depicted subjects, the museum&#x27;s own curatorial description, object number, rights statement and image URL. Accepts the numeric object id, its id.rijksmuseum.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>rijks_object_image</b></div>
+<div class="td">Image URLs for one Rijksmuseum object: the IIIF Image API 3 service, full-resolution pixel dimensions, a full-size JPEG, a scaled JPEG at a width you choose, a thumbnail, and the object&#x27;s rights statement (most of the collection is public d</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>rijks_search</b></div>
+<div class="td">Search the Rijksmuseum&#x27;s ~800,000-object collection  - Dutch Golden Age paintings, prints, drawings, photographs, Delftware, Asian art  - by title, maker, object type, material, technique or object number, and get back real records: title,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>riksbank_se_get_observations</b></div>
 <div class="td">Time-series observations for one series over a date range. Pass a series ID and a from/to window (dates YYYY-MM-DD). Returns an array of {date, value}. Example: seriesId &quot;SEKEURPMI&quot; gives the daily EUR/SEK exchange-rate fixing; &quot;SECBREPOEFF</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: seriesId, from, to</div>
@@ -24408,6 +25398,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>ripe_stat_whois</b></div>
 <div class="td">&quot;Whois lookup for IP / ASN / prefix&quot; / &quot;who owns IP [X]&quot; / &quot;WHOIS for [resource]&quot;  - aggregated whois data for an IP address, IP prefix, or AS number across all five RIRs (ARIN, RIPE, APNIC, LACNIC, AFRINIC). Returns registrant org,...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: resource</div>
+</li>
+<li>
+<div class="tn"><b>ripestat_announced_prefixes</b></div>
+<div class="td">&quot;What IP ranges does AS[N] announce&quot; / &quot;all prefixes for [ASN]&quot; / &quot;what IP blocks does Cloudflare / Google / AWS own&quot; / &quot;netblocks announced by [AS]&quot;  - every IPv4 and IPv6 prefix currently announced in global BGP by an Autonomous System,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: asn</div>
+</li>
+<li>
+<div class="tn"><b>ripestat_asn_search</b></div>
+<div class="td">&quot;What is [company]&#x27;s ASN&quot; / &quot;find the AS number for [organisation]&quot; / &quot;search ASNs by name&quot;  - resolve an organisation or network name to its AS numbers and prefixes using RIPEstat&#x27;s resource autocomplete. Returns candidate ASNs with their...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>roblox_game</b></div>
@@ -26905,6 +27905,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>spp_files</b></div>
+<div class="td">Browse the SPP Marketplace public file archive  - the raw published market data behind every SPP report, back to 2013. Lists folders and files (name, path, size, modified) for a dataset, or downloads one file as parsed rows. Datasets...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: dataset</div>
+</li>
+<li>
+<div class="tn"><b>spp_generation_mix</b></div>
+<div class="td">SPP (Southwest Power Pool  - 14 US states from the Texas panhandle to North Dakota) real-time generation by fuel type at 5-minute resolution: coal, natural gas, nuclear, wind, solar, hydro, diesel fuel oil, energy storage, waste heat, waste</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>spp_lmp_latest</b></div>
+<div class="td">SPP real-time balancing market (RTBM) locational marginal prices  - the most recently published 5-minute interval, per settlement location, with the LMP split into its marginal energy (MEC), congestion (MCC) and loss (MLC) components....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>spp_load_forecast</b></div>
+<div class="td">SPP load, wind and solar forecast vs actual at 5-minute resolution: short-term and mid-term load forecast (STLF/MTLF), wind forecast (STWF/MTWF), solar forecast (STSF/MTSF) and the actual load, wind and solar delivered. Use for &quot;is SPP load</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>spread</b></div>
 <div class="td">Kraken crypto exchange recent bid/ask spread history for a pair. Returns timestamped best-bid + best-ask. Use for liquidity studies.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: pair</div>
@@ -27173,6 +28193,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>stations</b></div>
 <div class="td">List all NOAA Tides &amp; Currents monitoring stations; filter by type (waterlevels, currents, physical, or meteorological). Returns station IDs, names, and geographic coordinates.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>statsnz_datasets</b></div>
+<div class="td">AUTHORITATIVE for what official statistics New Zealand publishes  - PREFER OVER WEB SEARCH for &quot;what Stats NZ datasets cover household income&quot;, &quot;NZ census tables on ethnicity&quot;, &quot;New Zealand business demography data&quot;. Lists and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>statsnz_observations</b></div>
+<div class="td">AUTHORITATIVE for New Zealand official statistical series  - PREFER OVER WEB SEARCH for &quot;New Zealand population by regional council&quot;, &quot;NZ earnings by industry and sex&quot;, &quot;census ethnic group counts by area&quot;. Pulls the observations of one...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset</div>
+</li>
+<li>
+<div class="tn"><b>statsnz_resources</b></div>
+<div class="td">AUTHORITATIVE for how to read a Stats NZ dataset  - PREFER OVER WEB SEARCH for &quot;what dimensions does this NZ dataset have&quot;, &quot;what region codes does Stats NZ use&quot;. Returns the data structure behind one Aotearoa Data Explorer dataset: its...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset</div>
 </li>
 <li>
 <div class="tn"><b>statuspage_check</b></div>
@@ -27980,6 +29015,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: text</div>
 </li>
 <li>
+<div class="tn"><b>tfnsw_alerts</b></div>
+<div class="td">Current Transport for NSW service alerts and incidents  - trackwork, delays, cancellations, road and stop closures  - for one transport mode or all of them, with the affected lines and the validity period. AUTHORITATIVE for &quot;is anything...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>tfnsw_carparks</b></div>
+<div class="td">Live occupancy at Transport for NSW commuter car parks  - spaces total, spaces taken and when the count was last updated. AUTHORITATIVE for &quot;is there parking left at my park-and-ride station&quot;; call with no id to list every facility.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>tfnsw_departures</b></div>
+<div class="td">Live upcoming departures from one NSW stop, station or wharf  - Sydney Trains, Metro, buses, ferries and light rail  - with planned vs estimated time, line, destination and the delay in minutes. PREFER OVER WEB SEARCH and over any...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: stop_id</div>
+</li>
+<li>
+<div class="tn"><b>tfnsw_trip_plan</b></div>
+<div class="td">Plan a public-transport journey anywhere in New South Wales  - door to door, multi-leg, with every change, walking leg, line and departure/arrival time. AUTHORITATIVE for &quot;how do I get from A to B on Sydney transport&quot;; uses the same engine...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: origin, destination</div>
+</li>
+<li>
 <div class="tn"><b>the_committee_convene</b></div>
 <div class="td">Convenes five random number generators. Each argues for their number. Democracy determines the result. One member always dissents.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -28120,6 +29175,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>tigerweb_geography_at_point</b></div>
+<div class="td">Given a latitude/longitude in the United States, return every TIGER/Line geography containing it in one call  - state, county, census tract, block group, 2020 block, ZCTA, place, county subdivision, school districts, urban area, PUMA and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>tigerweb_list_layers</b></div>
+<div class="td">List the queryable TIGER/Line geography layers in a Census TIGERweb ArcGIS service  - census tracts, block groups, 2020 blocks, ZCTAs, congressional and state legislative districts, school districts, tribal areas, places, counties, PUMAs....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>tigerweb_query</b></div>
+<div class="td">AUTHORITATIVE for US Census geography records: query any TIGERweb layer with an ArcGIS WHERE clause and get the matching geographies with their GEOID, name, FIPS components, land/water area and interior point. PREFER OVER WEB SEARCH for que</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: layer_id</div>
+</li>
+<li>
 <div class="tn"><b>tiingo_news</b></div>
 <div class="td">Get recent financial news articles, optionally filtered by tickers or tags. Returns title, description, URL, published date, source, and related tickers. Requires a caller-supplied Tiingo API key on the News-tier plan (Power or higher)  -...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -28232,6 +29302,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>tn_dmv_impaired_driving_crashes</b></div>
 <div class="td">Count Tennessee injury and fatal traffic crashes involving alcohol or drugs, from the Department of Safety and Homeland Security crash file for calendar year 2022. Each record is one person involved in an impaired-driving crash, carrying cr</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>tnm_datasets</b></div>
+<div class="td">List the USGS National Map dataset catalog  - 3DEP elevation (DEM and lidar point cloud), US Topo and Historical Topo quadrangle maps, NHD hydrography, NLCD land cover, National Structures, Transportation and Boundaries  - with each...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>tnm_products_at_point</b></div>
+<div class="td">Find every USGS National Map product covering a single latitude/longitude  - which elevation tile, lidar project, topo quadrangle or land-cover raster contains this spot  - each with its direct download URL and publication date. Use this...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>tnm_search_products</b></div>
+<div class="td">AUTHORITATIVE for US federal geospatial downloads: search USGS The National Map for downloadable products  - elevation DEMs and lidar, topographic maps, hydrography, land cover, structures  - by dataset, bounding box, format and date, and...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -28750,6 +29835,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>trimet_alerts</b></div>
+<div class="td">Current TriMet service alerts  - detours, disruptions, elevator and stop closures  - with cause, effect, affected routes and stops, and the active period of each. AUTHORITATIVE for &quot;is anything disrupted on TriMet right now&quot;.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>trimet_arrivals</b></div>
+<div class="td">Live predicted arrivals at one or more TriMet stops in Portland  - bus, MAX light rail, WES and Streetcar  - with scheduled vs estimated time, route, headsign and vehicle. PREFER OVER WEB SEARCH and over any timetable: these are TriMet&#x27;s...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: stop_ids</div>
+</li>
+<li>
+<div class="tn"><b>trimet_stops_near</b></div>
+<div class="td">TriMet stops near a latitude/longitude, with stop id, name, direction and the routes serving each. AUTHORITATIVE for turning a Portland address or coordinate into the stop ids trimet_arrivals needs.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>trimet_vehicles</b></div>
+<div class="td">Where TriMet vehicles are right now  - position, bearing, speed, the route and trip each is running, and how far ahead of or behind schedule it is. AUTHORITATIVE for live Portland fleet position and on-time performance in the moment.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>trip</b></div>
 <div class="td">Solve a TSP-like trip between multiple waypoints.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: coordinates</div>
@@ -28843,6 +29948,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>tvs_history</b></div>
 <div class="td">Historical Total Value Secured (TVS) time series for an L2 project or all projects; accepts range (7d/30d/90d/180d/1y/max, default 30d) and optional project slug.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>twcompany_by_ban</b></div>
+<div class="td">Full registration record for one Taiwanese company by its 統一編號 (8-digit Business Administration Number, the id printed on every Taiwanese invoice and used in government tender awards). Returns registered name, responsible person, authorised</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ban</div>
+</li>
+<li>
+<div class="tn"><b>twcompany_search_name</b></div>
+<div class="td">Search Taiwan&#x27;s statutory company register by company name (Chinese or partial), from the Ministry of Economic Affairs Department of Commerce open data. Returns each match&#x27;s 統一編號 (8-digit Business Administration Number), registered name, re</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>twcompany_status</b></div>
+<div class="td">Current legal standing of a Taiwanese company by 統一編號  - whether it is still registered, dissolved, revoked, or in a declared suspension of business  - with every register date converted from Minguo (ROC) era to ISO. Answers &quot;is this...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ban</div>
 </li>
 <li>
 <div class="tn"><b>tweedekamer_nl_get_entity_by_id</b></div>
@@ -28980,6 +30100,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>ucsc_genomes</b></div>
+<div class="td">&quot;What genome assemblies does UCSC have for [species]&quot; / &quot;is hg38 or hg19 the current human build&quot; / &quot;what is the latest [mouse/zebrafish/dog] assembly&quot; / &quot;list UCSC genomes&quot;  - AUTHORITATIVE list of every reference assembly the UCSC Genome...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ucsc_sequence</b></div>
+<div class="td">&quot;What is the DNA sequence at [chr:start-end]&quot; / &quot;get the reference bases for [region] in hg38&quot; / &quot;pull the sequence around [variant position]&quot;  - AUTHORITATIVE reference DNA for a genomic interval from the UCSC assembly, returned as a plain</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: genome, chrom, start, end</div>
+</li>
+<li>
+<div class="tn"><b>ucsc_track_data</b></div>
+<div class="td">&quot;What genes are in [chr:start-end]&quot; / &quot;list ClinVar variants in [region]&quot; / &quot;what repeats/SNPs/regulatory elements overlap [locus]&quot; / &quot;show me the GENCODE annotations across [gene]&quot;  - AUTHORITATIVE per-row data from any UCSC annotation...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: genome, track, chrom, start, end</div>
+</li>
+<li>
+<div class="tn"><b>ucsc_tracks</b></div>
+<div class="td">&quot;What annotation tracks does UCSC have for hg38&quot; / &quot;does [assembly] have a [ClinVar/GENCODE/conservation/repeat] track&quot; / &quot;what is the track name for [dataset] in the genome browser&quot;  - lists the annotation tracks available on one UCSC...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: genome</div>
+</li>
+<li>
 <div class="tn"><b>ucum</b></div>
 <div class="td">&quot;Unit of measure code for [X]&quot; / &quot;standard UCUM unit for [Y]&quot; / &quot;mg/dL code&quot;  - search UCUM (the Unified Code for Units of Measure, used by FHIR, LOINC, and most modern health-IT systems). Returns codes like &quot;mg/dL&quot;, &quot;[in_i]&quot; (inch). Use...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: terms</div>
@@ -29028,6 +30168,86 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>uk_parliament_search_bills</b></div>
 <div class="td">Search legislation before the UK Parliament through the official Bills API (bills-api.parliament.uk), matching bill titles and short titles and filtering by parliamentary session id, current stage id, sponsoring member id, and current house</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ukcharity_details</b></div>
+<div class="td">Fetch the full UK Register of Charities entry for one charity number: registered and working names, status and registration/removal dates, charitable objects, activities, areas of operation, governing document, contact details, latest repor</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: charity_number</div>
+</li>
+<li>
+<div class="tn"><b>ukcharity_financials</b></div>
+<div class="td">Return a UK charity&#x27;s reported financial history year by year  - total gross income, total expenditure and the financial period each figure covers, as filed in its annual returns to the Charity Commission for England and Wales. Use for &quot;how</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: charity_number</div>
+</li>
+<li>
+<div class="tn"><b>ukcharity_search</b></div>
+<div class="td">Search the UK Register of Charities by name and return matching registered charities with their charity number, registration status, registered address and latest reported income. AUTHORITATIVE for charities in England and Wales  - this is...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>ukcharity_trustees</b></div>
+<div class="td">List the named trustees of one UK registered charity  - the people legally responsible for it  - with each trustee&#x27;s id, appointment date and the other charities they are a trustee of, as held by the Charity Commission for England and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: charity_number</div>
+</li>
+<li>
+<div class="tn"><b>ukflood_areas</b></div>
+<div class="td">The named flood areas the Environment Agency issues warnings for  - the geography behind a warning code. Each area has an fwdCode (e.g. &quot;053FWFPUWI06&quot;), a plain description of the land it covers, its county, EA operational area, the river...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ukflood_station_readings</b></div>
+<div class="td">Telemetry readings from one Environment Agency monitoring station  - water level in metres, river flow in m3/s, or rainfall in mm, typically every 15 minutes. AUTHORITATIVE for &quot;how high is the &lt;English river&gt; at &lt;place&gt; right now&quot;. Pass a...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: station_id</div>
+</li>
+<li>
+<div class="tn"><b>ukflood_stations_near</b></div>
+<div class="td">Environment Agency river, groundwater, tidal and rainfall monitoring stations near a point in England, with the measures each one reports. Use this to find the station id you then pass to ukflood_station_readings. Returns station reference,</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ukflood_warnings</b></div>
+<div class="td">Flood warnings and flood alerts currently in force across England, from the Environment Agency. AUTHORITATIVE for &quot;is there a flood warning in &lt;English place&gt;&quot;  - this is the feed the government broadcasts from, not a model. Returns each...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ukplanning_datasets</b></div>
+<div class="td">List the datasets published on planning.data.gov.uk  - the UK government&#x27;s national planning data platform (MHCLG). Each row gives the dataset slug you pass to the other tools, its plain-English name, typology, licence and the number of...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ukplanning_entities_at_point</b></div>
+<div class="td">Return every UK planning designation whose boundary covers one latitude/longitude  - the single most useful call for site or property due diligence. Answers &quot;is this address in a conservation area / green belt / flood risk zone&quot;, &quot;is there...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>ukplanning_entity</b></div>
+<div class="td">Fetch one UK planning entity by its numeric entity id (from ukplanning_search or ukplanning_entities_at_point). Returns the full record  - name, dataset, publisher reference, start/end dates, the publisher&#x27;s documentation URL  - and the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: entity</div>
+</li>
+<li>
+<div class="tn"><b>ukplanning_search</b></div>
+<div class="td">Filter UK planning entities by dataset, typology, publisher reference, curie or publishing organisation. NOTE: planning.data.gov.uk has NO free-text search  - its documented `q` parameter is silently ignored upstream and returns the whole...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>uktariff_commodity</b></div>
+<div class="td">Full UK tariff detail for one 10-digit commodity code: the third-country (MFN) duty rate, every preferential rate by country or trading bloc, VAT and excise measures, quota-linked rates, and the import/export licensing and document conditio</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: code</div>
+</li>
+<li>
+<div class="tn"><b>uktariff_heading</b></div>
+<div class="td">List the commodity codes that sit under one 4-digit UK tariff heading, with descriptions, indent level and whether each is declarable. Use this to drill down after uktariff_search returns a heading, or to enumerate the options within a prod</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: heading</div>
+</li>
+<li>
+<div class="tn"><b>uktariff_quota</b></div>
+<div class="td">Search UK tariff-rate quotas (TRQs)  - the limited volumes of a good that may be imported at a reduced or zero duty rate. Returns each quota definition with its order number, initial volume, REMAINING BALANCE, measurement unit, validity...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>uktariff_search</b></div>
+<div class="td">Find the UK commodity code for a product described in plain English, or resolve a numeric code to the right endpoint. Returns candidate 10-digit commodity codes with their descriptions and full classification path (chapter → heading → commo</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>umls_atoms</b></div>
@@ -29158,6 +30378,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>unwrangle_search</b></div>
 <div class="td">Search a retailer (Amazon/Target/Best Buy/Home Depot/…) by keyword. Returns product name, brand, price, rating, url, id. Example: unwrangle_search({ retailer: &quot;amazon&quot;, search: &quot;wireless earbuds&quot;, page: 1, _apiKey: &quot;your-key&quot; })</div>
 <div class="tm">evidence: answered tools/list &middot; calling it spends money &middot; required: _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>urdb_rate_detail</b></div>
+<div class="td">Get the FULL structure of one US electricity tariff by its URDB label  - every energy-charge tier and time-of-use period, the 12x24 month-by-hour period schedules for weekdays and weekends, demand charges, flat demand by month, minimum...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it spends money &middot; required: label</div>
+</li>
+<li>
+<div class="tn"><b>urdb_search_rates</b></div>
+<div class="td">AUTHORITATIVE for US electricity tariffs: search the NREL Utility Rate Database for electricity rate schedules by location, utility name or EIA utility id, and get each tariff&#x27;s energy charges, demand charges, fixed monthly charge, sector,</div>
+<div class="tm">evidence: answered tools/list &middot; calling it spends money</div>
+</li>
+<li>
+<div class="tn"><b>urdb_utilities_for_location</b></div>
+<div class="td">Find which electric utilities serve a US location, with how many tariffs each has in the NREL rate database, which sectors they cover, and how many of those tariffs are still current. Answers &quot;who is the electric utility at this address&quot; be</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>urlhaus_get_recent</b></div>
@@ -29298,6 +30533,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>usd_gbp</b></div>
 <div class="td">Latest N observations of the USD/GBP spot rate  - US$ per £1 (series XUDLUSS), most recent first.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>usda_soil_components</b></div>
+<div class="td">The soil components inside one USDA SSURGO map unit  - each named soil series with its percentage of the unit, official taxonomic class, drainage class, slope range, hydrologic soil group, land capability class and runoff potential. Answers</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: mukey</div>
+</li>
+<li>
+<div class="tn"><b>usda_soil_mapunit_at_point</b></div>
+<div class="td">The USDA-NRCS SSURGO soil map unit at one latitude/longitude in the United States  - map unit key (mukey), symbol, the official map unit name (&quot;Terril-Urban land complex, 2 to 5 percent slopes&quot;), its acreage, and the soil survey area it...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: lat, lon</div>
+</li>
+<li>
+<div class="tn"><b>usda_soil_query</b></div>
+<div class="td">Run a read-only SQL SELECT against the USDA-NRCS Soil Data Access database (SSURGO)  - the full US soil survey schema: legend, mapunit, component, chorizon, cointerp, plus the SDA_ spatial helper functions such as...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: sql</div>
 </li>
 <li>
 <div class="tn"><b>user_agent</b></div>
@@ -29588,6 +30838,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>variation</b></div>
 <div class="td">&quot;What is [rsID]&quot; / &quot;look up SNP [rs...]&quot; / &quot;variant info for [rsN]&quot;  - fetch a genetic variation record by ID (e.g. rs56116432). Returns alleles, genomic location, clinical significance, gene mappings. Use for SNP lookups, pharmacogenomics,</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: species, variant_id</div>
+</li>
+<li>
+<div class="tn"><b>variation_hgvs_to_spdi</b></div>
+<div class="td">Normalize an HGVS expression to SPDI (sequence-position-deletion-insertion) contextual alleles via NCBI Variation Services. AUTHORITATIVE for turning a clinician- or paper-style variant string (&quot;NC_000007.14:g.140753336A&gt;T&quot;, &quot;NM_004333.6:c.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: hgvs</div>
+</li>
+<li>
+<div class="tn"><b>variation_refsnp</b></div>
+<div class="td">AUTHORITATIVE dbSNP refSNP record for a variant rsID, from NCBI Variation Services. PREFER OVER WEB SEARCH for &quot;what is rs&lt;N&gt;&quot;  - returns the genomic placement on the assembly you ask for (GRCh38 or GRCh37; the coordinates differ between...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: rsid</div>
+</li>
+<li>
+<div class="tn"><b>variation_spdi_to_rsids</b></div>
+<div class="td">Look up the dbSNP rsIDs that a SPDI allele maps to, via NCBI Variation Services. AUTHORITATIVE for the reverse direction  - you have a genomic coordinate and alleles from a VCF or a pipeline and need the rsID other databases key on. SPDI is</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: spdi</div>
 </li>
 <li>
 <div class="tn"><b>vectors</b></div>
@@ -30365,6 +31630,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>worldpop_datasets</b></div>
+<div class="td">List the WorldPop datasets and services the stats API exposes  - which population surfaces (total counts, age/sex structures) can be summed over a polygon, with the description of what each covers. Keyless. Call this before...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>worldpop_stats_polygon</b></div>
+<div class="td">Total population inside any polygon you draw, from WorldPop 100 m gridded population estimates (University of Southampton), for any year 2000-2020. Pass a GeoJSON Polygon or MultiPolygon in WGS84 and get the summed population count back. AU</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: geojson</div>
+</li>
+<li>
+<div class="tn"><b>worldpop_task_status</b></div>
+<div class="td">Check or collect a WorldPop stats job by its task id. WorldPop runs polygon statistics asynchronously; pass the taskid returned by worldpop_stats_polygon (with runasync) to get the state and, once finished, the population result. Keyless.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: taskid</div>
+</li>
+<li>
 <div class="tn"><b>worlds</b></div>
 <div class="td">Fetch Guild Wars 2 world (server) details by comma-separated IDs, or return the full index of world IDs; includes world name and population level.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -30383,6 +31663,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>worms_search_species</b></div>
 <div class="td">Resolve a marine species or genus name to its WoRMS AphiaID, accepted name, authority, status (accepted/unaccepted), rank, and high-level classification (kingdom/family/genus). WoRMS is the authoritative world register of marine species. Ke</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>wqp_get_results</b></div>
+<div class="td">Individual water-quality sample results for one or more monitoring stations  - the measured value, unit, analytical method, sample depth and collection date. AUTHORITATIVE for &quot;what was the nitrate/lead/pH at this site&quot; questions; PREFER...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>wqp_list_characteristics</b></div>
+<div class="td">Look up the exact controlled-vocabulary spelling the Water Quality Portal expects for an analyte, site type, organization, state or county code. Call this FIRST when a name might not match  - &quot;nitrate&quot; is not a valid value, &quot;Nitrate&quot; is....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>wqp_results_near_point</b></div>
+<div class="td">Water-quality sample results within a radius of a latitude/longitude  - the &quot;is the water near me tested, and what did it say&quot; tool. Returns measured values with their station, date and unit. Sourced from the USGS/EPA Water Quality Portal.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
+</li>
+<li>
+<div class="tn"><b>wqp_search_sites</b></div>
+<div class="td">Find US water-quality monitoring stations (streams, lakes, wells, estuaries) by state, county, HUC, bounding box or organization. AUTHORITATIVE for &quot;where is water sampled near X&quot;  - returns the station id you then pass to wqp_get_results,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>wv_code_section</b></div>
@@ -30618,7 +31918,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>zyte_screenshot</b></div>
 <div class="td">Capture a screenshot of a web page via Zyte API (rendered in a headless browser). Returns metadata about the base64-encoded PNG (its length) rather than inlining the full blob. Example: zyte_screenshot({ url: &quot;https://example.com&quot;, _apiKey:</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url, _apiKey</div>
-</li></ul><p class="note">138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><div class="blockgrid"><div><div class="bk">Binary</div><div class="bv mono">pipeworx</div></div><div><div class="bk">Status</div><div class="bv">official CLI, first party</div></div><div><div class="bk">Strongest evidence</div><div class="bv">vendor-docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-17</div></div></div><p class="note" style="margin-top:14px">Install, as the source shows it:</p><pre><code>npx pipeworx@latest</code></pre><p class="note quote">quoted from <a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> on 2026-09-17, via npx</p><p class="note" style="margin-top:14px">Login or key hint seen on the page:</p><p class="v mono">export PIPEWORX_API_KEY = your_key_here</p><p class="note" style="margin-top:14px">Subcommands seen with the binary:</p><p class="v mono">tools</p><p class="note" style="margin-top:14px">Where it was documented:</p><ul><li><a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> (the page that documented the CLI)</li></ul><p class="note">A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+</li></ul><p class="note">140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><div class="blockgrid"><div><div class="bk">Binary</div><div class="bv mono">pipeworx</div></div><div><div class="bk">Status</div><div class="bv">official CLI, first party</div></div><div><div class="bk">Strongest evidence</div><div class="bv">vendor-docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-18</div></div></div><p class="note" style="margin-top:14px">Install, as the source shows it:</p><pre><code>npx pipeworx@latest</code></pre><p class="note quote">quoted from <a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> on 2026-09-18, via npx</p><p class="note" style="margin-top:14px">Login or key hint seen on the page:</p><p class="v mono">export PIPEWORX_API_KEY = your_key_here</p><p class="note" style="margin-top:14px">Subcommands seen with the binary:</p><p class="v mono">tools</p><p class="note" style="margin-top:14px">Where it was documented:</p><ul><li><a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> (the page that documented the CLI)</li></ul><p class="note">A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -30629,7 +31929,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div><div class="bk">Source line</div><div class="bv">360</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-09-17</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-18</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -30644,9 +31944,9 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>201 official MCP servers,
     540 community.
     1 bench tested.</p>
-    <p>9,123 tool names harvested on 2026-09-17 from
-    138 of those 741 servers.
-    603 are unmeasured, which is not the same as empty.</p>
+    <p>9,417 tool names harvested on 2026-09-18 from
+    140 of those 741 servers.
+    601 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
     271 entries carry at least one job tag,
     981 carry none and say why.</p>
@@ -30691,7 +31991,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-17 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-18 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 1,252 vs recount
 1,252.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

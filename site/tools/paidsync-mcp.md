@@ -56,13 +56,36 @@ https://github.com/PaidSync/paidsync-mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 8
+- **Strongest evidence**: in a README table
+- **Harvested**: 2026-09-18
+- **Repo read**: PaidSync/paidsync-mcp
+- **Whose repo**: first-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+- **Enterprise** Quote evidence: in a README table · calling it reads
+
+- **Free** $0 evidence: in a README table · calling it reads
+
+- **Max** $199 evidence: in a README table · calling it reads
+
+- **Plan** Monthly evidence: in a README table · calling it reads
+
+- **Platform** Tools evidence: in a README table · calling it reads
+
+- **Plus** $49 evidence: in a README table · calling it reads
+
+- **Pro** $99 evidence: in a README table · calling it reads
+
+- **Team** Quote evidence: in a README table · calling it reads
+
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -130,6 +153,6 @@ mcp_status=community from discovery source github-mcp-server-topic; mcp_url is t
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

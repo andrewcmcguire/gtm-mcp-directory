@@ -59,14 +59,14 @@ https://heykairon.com/mcp
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. The full roll up is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: kairon
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -74,25 +74,19 @@ Install, as the source shows it:
 npm i -g @kairon/cli
 ```
 
-quoted from [https://heykairon.com/cli](https://heykairon.com/cli) on 2026-09-17, via npm
+quoted from [https://heykairon.com/cli](https://heykairon.com/cli) on 2026-09-18, via npm
 
 ```
 npx and
 ```
 
-quoted from [https://heykairon.com/cli](https://heykairon.com/cli) on 2026-09-17, via npx
+quoted from [https://heykairon.com/cli](https://heykairon.com/cli) on 2026-09-18, via npx
 
 ```
 npx @kairon/cli
 ```
 
-quoted from [https://heykairon.com/cli](https://heykairon.com/cli) on 2026-09-17, via npx
-
-```
-npm install -g @kairon/cli
-```
-
-quoted from [https://www.npmjs.com/package/@kairon/cli](https://www.npmjs.com/package/@kairon/cli) on 2026-09-17, via npm
+quoted from [https://heykairon.com/cli](https://heykairon.com/cli) on 2026-09-18, via npx
 
 Login or key hint seen on the page:
 
@@ -101,17 +95,13 @@ kairon login
 40 subcommands seen with the binary in the docs or README:
 expand to read them
 
-campaign, chat, checkpoint, company, config, doc, email, exclusion, feedback, filter, framework, group, icp, identity, impersonate, initiative, inmail, insights, invitations, invite, job, linkedin, list, login, logout, message, newsletter, owner, pipeline, post, profile, qualification, search, seat, signal, skill, source, tag, webdata, whoami
-
-Packages seen, with the version on 2026-09-17:
-
-- [npm: @kairon/cli 0.1.0](https://www.npmjs.com/package/@kairon/cli)
+allowance, campaign, chat, checkpoint, company, config, doc, email, exclusion, feedback, filter, framework, group, icp, identity, impersonate, initiative, inmail, insights, invitations, invite, job, linkedin, list, login, logout, message, newsletter, owner, pipeline, post, profile, qualification, recruiter, search, seat, signal, skill, source, tag
 
 Where it was documented:
 
 - [https://heykairon.com/cli](https://heykairon.com/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -173,6 +163,6 @@ mcp_status=community from official-mcp-registry listing; not an invented officia
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

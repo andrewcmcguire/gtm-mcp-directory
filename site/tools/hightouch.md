@@ -60,7 +60,7 @@ https://hightouch.com/docs/ai-integrations/mcp
 
 - **Tools named**: 2
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -69,11 +69,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search_docs** Full-text search across all public docs with per-heading granularity. Returns matching sections with title, URL, content snippet, and section hierarchy. evidence: in the vendor docs · calling it reads
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-17 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -153,6 +153,6 @@ The MCP capability itself is read-write and functionally broad (create audiences
 
 - **last_checked**: 2026-08-24
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

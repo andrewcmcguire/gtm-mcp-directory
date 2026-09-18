@@ -1,6 +1,6 @@
 # abm.dev: products, MCP servers and connect URLs, one vendor page
 
-> abm.dev (abm.dev): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-17.
+> abm.dev (abm.dev): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-18.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ abm.dev
 1 product in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-17
+Data baked 2026-09-18
 
 Vendor domain: [abm.dev](https://abm.dev) · vendor page id abm-dev
 
@@ -38,7 +38,7 @@ Vendor domain: [abm.dev](https://abm.dev) · vendor page id abm-dev
 
 - **Bench tested**: 0 of 1 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-17
+- **Ships a CLI**: 1 of 1 official, 0 community only, 0 none found, harvested 2026-09-18
 
 - **GitHub organisation**: none tied to abm.dev with evidence on 2026-09-15
 
@@ -86,11 +86,11 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 npm install -g @abmdev/cli
 ```
 
-quoted from [https://abm.dev/docs/cli](https://abm.dev/docs/cli) on 2026-09-17, via npm
+quoted from [https://abm.dev/docs/cli](https://abm.dev/docs/cli) on 2026-09-18, via npm
 
 Login or key hint: abm-dev auth
 
-5 subcommands seen, harvested 2026-09-17, all on the [tool page](../tools/abm-dev.md).
+5 subcommands seen, harvested 2026-09-18, all on the [tool page](../tools/abm-dev.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -104,4 +104,4 @@ Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-17 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-18 by build_directory.py (phase 1).

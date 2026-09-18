@@ -58,9 +58,9 @@ https://mcp.apify.com (docs: https://docs.apify.com/platform/integrations/mcp; r
 
 **What this server exposes**
 
-- **Tools named**: 23
+- **Tools named**: 27
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 - **Repo read**: apify/apify-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -73,15 +73,19 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **create-actor-task** tasks evidence: in a README table · calling it writes
 
+- **create-schedule** schedules evidence: in a README table · calling it writes
+
+- **delete-schedule** schedules evidence: in a README table · calling it writes
+
 - **fetch-actor-details** actors evidence: in a README table · calling it reads
 
 - **fetch-apify-docs** docs evidence: in a README table · calling it reads
 
-- **get-actor-log** runs evidence: in a README table · calling it reads
-
 - **get-actor-run** runs evidence: in a README table · calling it reads
 
 - **get-actor-run-list** runs evidence: in a README table · calling it reads
+
+- **get-actor-run-log** runs evidence: in a README table · calling it reads
 
 - **get-actor-task** tasks evidence: in a README table · calling it reads
 
@@ -101,6 +105,8 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **get-key-value-store-record** storage evidence: in a README table · calling it reads
 
+- **get-schedule** schedules evidence: in a README table · calling it writes
+
 - **publish-actor-task** tasks evidence: in a README table · calling it reads
 
 - **report-problem** dev evidence: in a README table · calling it reads
@@ -113,14 +119,16 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **update-actor-task** tasks evidence: in a README table · calling it writes
 
-138 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 603 are unmeasured, which is not the same as empty. Harvest last run 2026-09-17. Every name across every server is on the [tools index](../tools-index.md).
+- **update-schedule** schedules evidence: in a README table · calling it writes
+
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: apify-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: brew
-- **Harvested**: 2026-09-17
+- **Harvested**: 2026-09-18
 
 Install, as the source shows it:
 
@@ -128,13 +136,13 @@ Install, as the source shows it:
 brew install apify-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-17, via brew
+quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-18, via brew
 
-Packages seen, with the version on 2026-09-17:
+Packages seen, with the version on 2026-09-18:
 
 - [brew: apify-cli 1.10.0](https://formulae.brew.sh/formula/apify-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-17.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
 
 **Access gate**
 
@@ -215,6 +223,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.apify.com returned
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-17
+- **Data baked**: 2026-09-18
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).
