@@ -1,6 +1,6 @@
 # Learn: GTM tools, MCP servers and AI agents, answered
 
-> 53 questions about GTM tools, MCP servers and AI agents, answered from 1,252 counted directory entries rather than from opinion. Baked 2026-09-20.
+> 54 questions about GTM tools, MCP servers and AI agents, answered from 1,252 counted directory entries rather than from opinion. Baked 2026-09-21.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -11,7 +11,7 @@
 
 **Learn**
 
-## 53 questions, answered from counted data.
+## 54 questions, answered from counted data.
 
 Every answer here is the answer this directory can actually defend. Where a number appears it was generated at build time from the same 1,252 entries the rest of the site is built from, and it carries the date it was baked. Where the honest answer is that nobody has measured it, that is what it says. There are no tool versus tool verdicts anywhere on this site, because 1 tools have been bench tested and a verdict without a test is an opinion wearing a lab coat.
 
@@ -65,10 +65,11 @@ Questions only a counted directory can answer. Every number below is generated a
 - [Which GTM jobs can no tool do through an official MCP server?](which-gtm-jobs-have-no-official-mcp-server.md)Of the 56 jobs in this directory's closed vocabulary, 1 have no tool with an official MCP server at all. These are the holes an agent builder falls into: the capability exists in the...
 - [How many of these GTM tools have actually been tested?](how-many-gtm-tools-are-bench-tested.md)1. Every one of the 1,252 entries in this directory is RESEARCHED tier, meaning facts from public sources with URLs and no usage claims. Nobody here has run these tools. That number is...
 
-### How to actually do it 15 questions
+### How to actually do it 16 questions
 
 The wiring. What to connect, in what order, and where it usually goes wrong.
 
+- [How do I use the hosted GTM MCP Directory?](how-to-use-the-hosted-mcp.md)The hosted /api/mcp path is a tools and data MCP server. It has no backend LLM and no model selection. The model is always the MCP client's model: Cursor, Claude Desktop, Claude Code, LM...
 - [How do I connect Claude to my CRM?](how-do-i-connect-claude-to-my-crm.md)If your CRM ships an MCP server, you add it to your client's server configuration, authenticate, and the assistant can then read and write records as tools. If it does not, you either use a...
 - [How do I add an MCP server to my AI client?](how-do-i-add-an-mcp-server-to-claude-desktop.md)There are two shapes. A local server is a command the client launches as a subprocess, configured with a command, its arguments and any environment variables it needs. A remote server is a...
 - [How do I enrich a LinkedIn profile with an AI agent?](how-do-i-enrich-a-linkedin-profile-with-an-ai-agent.md)You give a tool the profile URL and it returns a structured record: name, title, employer, and often a work email. 12 entries here are tagged with that job and 8 ship an official MCP...

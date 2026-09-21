@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to use the hosted MCP: tools and data, no model on the backend</title>
+<meta name="description" content="The hosted /api/mcp path is a tools and data API. It has no backend LLM and no model selection. The model is always your MCP client&#x27;s model, including LM Studio. Baked 2026-09-21: 1,252 entries, 201 official MCP servers.">
+<meta name="robots" content="index,follow">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/learn/how-to-use-the-hosted-mcp">
+<link rel="alternate" type="text/markdown" href="how-to-use-the-hosted-mcp.md">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I use the hosted GTM MCP Directory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The hosted /api/mcp path is a tools and data MCP server. It has no backend LLM and no model selection. The model is always the MCP client's model: Cursor, Claude Desktop, Claude Code, LM Studio, or another MCP host. Request a free gtmd_ key, add the URL with a Bearer header or the per-key URL, then ask in natural language. A local install of the same server needs no key."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Directory",
+      "item": "https://andrewcmcguire.com/gtm-directory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Learn",
+      "item": "https://andrewcmcguire.com/gtm-directory/learn/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How do I use the hosted GTM MCP Directory?",
+      "item": "https://andrewcmcguire.com/gtm-directory/learn/how-to-use-the-hosted-mcp"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap wide">
+<a class="brandmark plain" href="../">The GTM MCP <span class="g">Directory</span></a>
+<nav class="navlinks">
+<a href="../tools/">Tools</a>
+<a href="../vendors/">Vendors</a>
+<a href="../companies/">Companies</a>
+<a href="../updates/">Updates</a>
+<a href="../categories/">Categories</a>
+<a href="../jobs/">Jobs</a>
+<a href="../jobs-board/">Hiring</a>
+<a href="../lists/">Lists</a>
+<a href="../learn/" aria-current="page">Learn</a>
+<a href="../mcp/">MCP status</a>
+<a href="../gates/">Gate</a>
+<a href="../methodology">Method</a>
+<a href="../data">Data</a>
+<a class="navlink" href="https://andrewcmcguire.com/gtm-directory/map/">Map</a>
+<button class="themetoggle" id="themetoggle" type="button">Dark</button>
+</nav>
+</div>
+</header>
+<div class="wrap">
+<div class="crumbs" style="padding-bottom:0"><a href="../">Directory</a> /
+<a href="./">Learn</a> / How to actually do it</div>
+<div class="qhead">
+<div class="eyebrow">How to actually do it</div>
+<h1>How do I use the hosted GTM MCP Directory?</h1>
+</div>
+<div class="answerbox"><div class="lab">The short answer</div><p>The hosted /api/mcp path is a tools and data MCP server. It has no backend LLM and no model selection. The model is always the MCP client&#x27;s model: Cursor, Claude Desktop, Claude Code, LM Studio, or another MCP host. Request a free gtmd_ key, add the URL with a Bearer header or the per-key URL, then ask in natural language. A local install of the same server needs no key.</p></div>
+<div class="prose">
+
+<div class="warn"><b>Who runs the model</b>The hosted <code>/api/mcp</code> path has no backend
+LLM and no model selection. The model is always the MCP client's model: Cursor, Claude Desktop,
+Claude Code, LM Studio, or another MCP host. Powerhouse and LM Studio factory jobs are an
+internal workstation path, not this runtime.</div>
+<h2>What this is, and what it is not</h2>
+<p>This is a <b>tools and directory data API</b>. The hosted copy at
+<code>/gtm-directory/api/mcp</code> exposes the same eleven read-only tools as the public
+Python package. It answers from a baked <code>directory.json</code> and it makes zero outbound
+requests. It is not a chat model, not an assistant, and not a hosted LLM.</p>
+<p>It has <b>no backend LLM</b> and <b>no model selection</b>. It does not host a model, does
+not pick a model, and does not switch models based on your query. The model is always the MCP
+client's model. When you type a question, that client model chooses a tool, fills the
+arguments, and reads the result. If the model invents a tool name or a count, that is the
+client's mistake, not a fact this server produced. Ask it to quote the honesty block and the
+bake date.</p>
+<h2>Where it runs</h2>
+<p>The public site and the JSON live on AWS: object storage behind CloudFront. The MCP API is the
+same read-only server, reached at the apex path
+<code>https://andrewcmcguire.com/gtm-directory/api/mcp</code>
+and at the CloudFront fallback
+<code>https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp</code>.
+Some clients hit a Cloudflare 403 on the apex host today. If yours does, swap the host and keep
+the rest of the URL and the key exactly as they are.</p>
+<p>The hosted copy needs a free key. A key looks like <code>gtmd_</code> followed by 32
+characters. Request one at <a href="../access/">/access/</a>. A work email address is
+approved automatically, usually within about ten minutes. The local install needs no key because
+the code and the data are public. The
+<a href="../data/directory.json">data endpoint</a> needs no key either.</p>
+<h2>How to connect</h2>
+<p>Any client that supports headers (Cursor, Claude Desktop, Claude Code) sends
+<code>Authorization: Bearer gtmd_...</code>. Replace the placeholder with your key.</p>
+<h3>Cursor and Claude Desktop</h3>
+<p>Paste this into the client's MCP settings. Cursor: Settings, MCP, add a server. Claude Desktop:
+edit <code>claude_desktop_config.json</code> and restart.</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp&quot;,
+      &quot;headers&quot;: {
+        &quot;Authorization&quot;: &quot;Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+      }
+    }
+  }
+}</code></pre>
+<h3>Claude Code</h3>
+<pre><code>claude mcp add --transport http gtm-directory https://andrewcmcguire.com/gtm-directory/api/mcp --header &quot;Authorization: Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;</code></pre>
+<h3>Clients that only take a URL</h3>
+<p>A claude.ai custom connector cannot send a header. Use the per-key URL, and treat that URL
+like the key it contains.</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+    }
+  }
+}</code></pre>
+<p class="note">Both forms also work on the fallback host. The hosted copy records, per key, the
+number of calls and the date last used, and nothing else: no query text, no tool arguments, no IP
+log kept. Revoke a key by replying to the email it arrived in.</p>
+<h2>LM Studio and other local models</h2>
+<p>LM Studio is a supported local client model path. You run a model in LM Studio. That model
+is the only model in the loop. Then you attach this directory as a remote MCP server. LM Studio
+uses the same <code>mcp.json</code> shape as Cursor (LM Studio 0.3.17 and later). The hosted
+<code>/api/mcp</code> path still has no backend LLM and no model selection.</p>
+<ol>
+<li>Load a model in LM Studio.</li>
+<li>Request a free <code>gtmd_</code> key at
+<a href="../access/">/access/</a>.</li>
+<li>Add the directory as a remote MCP server. Send the key as
+<code>Authorization: Bearer gtmd_...</code>, or use the per-key URL
+<code>/api/mcp/k/gtmd_...</code> if the client only takes a URL.</li>
+<li>If the apex host returns 403, use
+<code>https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp</code>
+and keep the path and the key the same.</li>
+<li>A local install of this server, attached from LM Studio over stdio, needs no key.</li>
+</ol>
+<p>Paste this into LM Studio's <code>mcp.json</code> (same shape as Cursor). Replace the
+placeholder with your key:</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp&quot;,
+      &quot;headers&quot;: {
+        &quot;Authorization&quot;: &quot;Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+      }
+    }
+  }
+}</code></pre>
+<p>If the apex host returns 403, use this CloudFront block instead. Path and key stay the
+same:</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp&quot;,
+      &quot;headers&quot;: {
+        &quot;Authorization&quot;: &quot;Bearer gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+      }
+    }
+  }
+}</code></pre>
+<p>If the client only takes a URL, use the per-key form:</p>
+<pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;gtm-directory&quot;: {
+      &quot;url&quot;: &quot;https://andrewcmcguire.com/gtm-directory/api/mcp/k/gtmd_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+    }
+  }
+}</code></pre>
+<p class="note">Powerhouse and any LM Studio factory jobs used internally to draft or harvest
+directory content are not the public product runtime. They do not run on
+<code>/api/mcp</code>, they do not select a model for visitors, and they are not required to
+query the hosted directory.</p>
+<h2>The eleven tools, named exactly</h2>
+<p>Do not invent a twelfth. The server package is the authority.</p>
+<div class="scroller"><table class="datatable"><thead><tr><th>Tool</th><th>Question it answers</th>
+</tr></thead><tbody>
+<tr><td><code>find_tools</code></td><td>Which tools claim a job, and by which interface (MCP, CLI)
+an agent can reach them</td></tr>
+<tr><td><code>get_tool</code></td><td>One directory entry, every field, every source URL</td></tr>
+<tr><td><code>list_categories</code></td><td>The 15 categories with counts and
+gates</td></tr>
+<tr><td><code>whats_mcpd</code></td><td>How much of GTM an agent can reach, in numbers</td></tr>
+<tr><td><code>find_by_gate</code></td><td>The access axis on its own: free, paid, enterprise,
+unknown</td></tr>
+<tr><td><code>get_docs_digest</code></td><td>Structured facts from vendor API docs, when
+crawled</td></tr>
+<tr><td><code>get_server_tools</code></td><td>What one MCP server actually exposes, with
+evidence</td></tr>
+<tr><td><code>get_install</code></td><td>Both routes into one tool: the MCP endpoint and the CLI
+install commands</td></tr>
+<tr><td><code>whats_building</code></td><td>What a vendor ships in public on GitHub, dated</td></tr>
+<tr><td><code>plan_stack</code></td><td>A step by step shortlist for a multi-step GTM job</td></tr>
+<tr><td><code>list_jobs</code></td><td>The closed capability vocabulary</td></tr>
+</tbody></table></div>
+<h2>What you can ask in natural language</h2>
+<p>Say the job in plain English. The client model maps that to a tool. These prompts are ones
+this directory can actually answer. Each line names the tool it should call. Two of them are
+site surfaces, not MCP tools, and the list says so.</p>
+<ol>
+<li><b>I have a model loaded in LM Studio. Using only the GTM Directory tools, which official
+MCP servers can find a work email?</b><br>
+Maps to <code>find_tools</code> with a find-work-email job and <code>mcp_status=official</code>.
+The model is the one loaded in LM Studio. The hosted <code>/api/mcp</code> path does not select
+or run a model.</li>
+<li><b>Show me free to start tools that have an MCP server a solo operator can actually reach.</b><br>
+Maps to <code>find_tools</code> with <code>mcp_status=official</code> (or community) and
+<code>gate=free</code> or <code>paid</code>. Solo reachable on this bake means an official or
+community server plus a free or paid self serve gate: 168 entries, counted
+2026-09-21.</li>
+<li><b>Look up HubSpot in the directory. What MCP status and access gate does it have?</b><br>
+Maps to <code>get_tool</code>. That is the directory entry, not the company page.</li>
+<li><b>What tools does HubSpot's MCP server actually expose, and what is the evidence?</b><br>
+Maps to <code>get_server_tools</code>. A listed tool has not been called.</li>
+<li><b>How do I install Clay's MCP and its CLI?</b><br>
+Maps to <code>get_install</code>. Every command is quoted from a source URL with a fetch
+date.</li>
+<li><b>How much of GTM is agent reachable right now?</b><br>
+Maps to <code>whats_mcpd</code>. Quote the bake date with the numbers.</li>
+<li><b>List the categories and how many official servers each has.</b><br>
+Maps to <code>list_categories</code>.</li>
+<li><b>What jobs can I ask this directory about?</b><br>
+Maps to <code>list_jobs</code>. The vocabulary is closed on purpose.</li>
+<li><b>Which tools need an enterprise contract just to get a key?</b><br>
+Maps to <code>find_by_gate</code> with <code>gate=enterprise-only</code>.</li>
+<li><b>What do Exa's API docs actually say, as this directory crawled them?</b><br>
+Maps to <code>get_docs_digest</code>. If the docs have not been crawled, the tool says so rather
+than guessing.</li>
+<li><b>What has Clay shipped in public on GitHub recently?</b><br>
+Maps to <code>whats_building</code>. Dated, or the field says it is unmeasured.</li>
+<li><b>Plan a stack: find a LinkedIn URL from a name and company, get the work email, verify
+it.</b><br>
+Maps to <code>plan_stack</code>. A job tag means the vendor says the product does this. It is a
+reading order, not a benchmark.</li>
+<li><b>Open HubSpot's company page in this directory.</b><br>
+Maps to a site page, not an MCP tool:
+<a href="../companies/hubspot/">/companies/hubspot/</a>. Company pages are a small
+pilot. The current bake has three: HubSpot, Clay and Exa. There is no
+<code>get_company</code> tool.</li>
+<li><b>What changed in the directory this week?</b><br>
+Maps to a site page, not an MCP tool:
+<a href="../updates/">/updates/</a>, or the machine copies
+<a href="../updates/feed.json">feed.json</a> and
+<a href="../updates/atom.xml">atom.xml</a>. There is no updates-feed tool on the server.</li>
+</ol>
+<h2>Honesty vocabulary</h2>
+<p>Use these words the way this directory uses them, or the answer is wrong even if it sounds
+confident.</p>
+<ul>
+<li><b>official</b> means the vendor ships and maintains the server itself. A wrapper from a
+third party integration platform is community, not official.</li>
+<li><b>community</b> means somebody else built it. It can work. The failure mode is different:
+it can be abandoned without the vendor noticing.</li>
+<li><b>none-found</b> is a statement about a search on a stated date, not a claim that no server
+exists. Every entry carries its own <code>last_checked</code> date.</li>
+<li><b>unknown</b> is a legal answer and is published as unknown rather than guessed.</li>
+<li><b>RESEARCHED</b> means facts from public sources with URLs. Nobody has run the tool. No
+usage claims.</li>
+<li><b>BENCH-TESTED</b> means Andrew personally ran it on a stated date. It cannot be bought.
+This bake has 1 bench tested entry.</li>
+<li><b>A job tag</b> means the vendor says the tool does this. It is not a test result.</li>
+</ul>
+<p><b>Never invent a count.</b> The live bake of 2026-09-21 has
+<b>1,252 entries</b> and <b>201 official</b> MCP servers
+(540 community, 487 none found,
+15 unknown, 9 not applicable). If a later bake
+disagrees, quote that bake's <code>directory.json</code> instead. An undated number is a bug.</p>
+<h2>Limits</h2>
+<ul>
+<li><b>Company pages are a small pilot.</b> Three account cards are live (HubSpot, Clay, Exa).
+They are Why Now cards, not a full account graph, and they are not MCP tools. Honesty badges
+and tool counts on those pages are copied from <code>directory.json</code>. A company page never
+invents official.</li>
+<li><b>Harvest staging is not live promote.</b> New harvests stay staged. Nothing writes into
+the live category files or <code>directory.json</code> until it is reviewed. A staged candidate
+is not a listing.</li>
+<li><b>No query text is logged.</b> Per the
+<a href="../access/">access page</a> policy, the hosted copy records, per key, the
+number of calls and the date last used, and nothing else: no query text, no tool arguments, no
+IP log kept.</li>
+<li><b>The server does not call vendors for you.</b> It will not enrich a person, send an email,
+or write a CRM record. It tells you which tools claim those jobs and whether an agent can reach
+them.</li>
+</ul>
+<h2>Sources</h2>
+<ul class="srcs"><li><a href="../access/">The GTM MCP Directory, request a key</a> <span class="dom">this site</span></li><li><a href="../methodology">The GTM MCP Directory, methodology</a> <span class="dom">this site</span></li><li><a href="../data">The GTM MCP Directory, the counted data</a> <span class="dom">this site</span></li><li><a href="../companies/">The GTM MCP Directory, company pages (pilot)</a> <span class="dom">this site</span></li><li><a href="../updates/">The GTM MCP Directory, updates feed</a> <span class="dom">this site</span></li><li><a href="https://modelcontextprotocol.io/quickstart/user" rel="noopener nofollow">Model Context Protocol, connect an MCP server to a client</a> <span class="dom">https://modelcontextprotocol.io/quickstart/user</span></li><li><a href="https://lmstudio.ai/docs/app/mcp" rel="noopener nofollow">LM Studio, Use MCP Servers</a> <span class="dom">https://lmstudio.ai/docs/app/mcp</span></li></ul>
+<p class="note">Every number on this page is generated from directory.json at build time and carries
+the date it was baked: 2026-09-21. Nothing is typed by hand, nothing is rounded, and nothing is
+estimated. The underlying data is <a href="../data">published in full</a>. Where the honest
+answer is a zero, the zero is printed.</p>
+<h2>Related questions</h2><ul class="srcs"><li><a href="how-do-i-add-an-mcp-server-to-claude-desktop">How do I add an MCP server to my AI client?</a></li><li><a href="what-is-an-mcp-server">What is an MCP server?</a></li><li><a href="official-vs-community-mcp-server">What is the difference between an official and a community MCP server?</a></li><li><a href="what-does-agent-ready-mean">What does agent ready mean for a GTM tool?</a></li></ul>
+<h2>In the directory</h2><div class="btnrow"><a class="btn ghost" href="../access/">Request a key</a><a class="btn ghost" href="../lists/official-mcp-servers">Official servers</a><a class="btn ghost" href="../companies/">Company pages, the pilot</a><a class="btn ghost" href="../updates/">Updates</a></div>
+</div>
+</div><footer class="foot">
+<div class="wrap wide">
+<div class="cols">
+  <div>
+    <div class="ft">The count</div>
+    <p>1,252 directory entries across 15 category files.
+    1,236 unique products, 16 of them cross listed
+    in a second category and counted once here.</p>
+    <p>201 official MCP servers,
+    540 community.
+    1 bench tested.</p>
+    <p>9,417 tool names harvested on 2026-09-18 from
+    140 of those 741 servers.
+    601 are unmeasured, which is not the same as empty.</p>
+    <p>56 jobs in 10 families.
+    271 entries carry at least one job tag,
+    981 carry none and say why.</p>
+  </div>
+  <div>
+    <div class="ft">Views</div>
+    <ul>
+      <li><a href="../tools/">Every tool, A to Z</a></li>
+      <li><a href="../tools-index">Every tool a server names</a></li>
+      <li><a href="../vendors/">Every vendor, one page each</a></li>
+      <li><a href="../companies/">Company pages</a></li>
+      <li><a href="../updates/">Daily and weekly updates</a></li>
+      <li><a href="../categories/">By category</a></li>
+      <li><a href="../mcp/">By MCP status</a></li>
+      <li><a href="../gates/">By access gate</a></li>
+      <li><a href="../jobs/">By job</a></li>
+      <li><a href="../jobs-board/">The GTM Engineer job board</a></li>
+      <li><a href="../github/">By GitHub health</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="ft">The rules</div>
+    <ul>
+      <li><a href="../methodology">How an entry is made</a></li>
+      <li><a href="../submit">Submit a tool, free</a></li>
+      <li><a href="../learn/">Learn: the questions, answered</a></li>
+      <li><a href="../lists/">The lists</a></li>
+      <li><a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">The repo</a></li>
+    </ul>
+    <p>Listing is free. Verification is mandatory. Placement is not for sale.</p>
+  </div>
+  <div>
+    <div class="ft">For agents</div>
+    <ul>
+      <li><a href="../llms.txt">llms.txt</a></li>
+      <li><a href="../learn/how-to-use-the-hosted-mcp">How to use the hosted MCP</a></li>
+      <li><a href="../access/">The hosted MCP endpoint: request a key, free</a></li>
+      <li><a href="../data">The public data endpoint</a></li>
+      <li><a href="../data/directory.json">directory.json</a></li>
+      <li><a href="../search-index.json">search-index.json</a></li>
+      <li><a href="../updates/feed.json">updates/feed.json</a></li>
+      <li><a href="../updates/atom.xml">updates/atom.xml</a></li>
+      <li><a href="../sitemap.xml">sitemap.xml</a></li>
+    </ul>
+    <p>Every page on this site has a markdown twin at the same path with a .md extension.
+    Same content, no chrome. <a href="how-to-use-the-hosted-mcp.md">This page as markdown</a>.</p>
+  </div>
+</div>
+<div class="legal">
+Generated 2026-09-21 by build_directory.py (phase 1) from tools_recount.py.
+Reconciled: build 1,252 vs recount
+1,252.<br>
+Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>
+The GTM MCP Directory is a product of Agent Operator. Built by Andrew McGuire.
+Brendan Short's The Signal defines and analyses the GTM Engineer role; this is a utility for people doing the job.<br>
+Maintained by <a href="https://andrewcmcguire.com" rel="noopener">Andrew McGuire</a>, same publisher as <a href="https://gtmsignals.co" rel="noopener">gtmsignals.co</a> and <a href="https://justsaid.ai" rel="noopener">justsaid.ai</a>.
+</div>
+</div>
+</footer>
+</body>
+</html>

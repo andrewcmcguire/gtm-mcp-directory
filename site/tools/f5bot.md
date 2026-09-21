@@ -111,6 +111,6 @@ Worth flagging as a finding in itself: F5Bot has historically been known purely 
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-20
+- **Data baked**: 2026-09-21
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

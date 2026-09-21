@@ -61,7 +61,11 @@ python -m gtm_mcp_directory        # stdio, blocks, speaks MCP
 
 Or skip the install: a hosted copy of this same read-only server has answered at
 `https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP) since 2026-09-08.
-It is rebuilt and restarted on every publish. **It needs a key.** Keys are free:
+It is rebuilt and restarted on every publish. **The hosted `/api/mcp` path has
+no backend LLM and no model selection.** The model is always the MCP client's
+model, including a local model in LM Studio. How to use it:
+https://andrewcmcguire.com/gtm-directory/learn/how-to-use-the-hosted-mcp/
+**It needs a key.** Keys are free:
 request one at https://andrewcmcguire.com/gtm-directory/access/. A request from a
 work email address is approved automatically, usually within about ten minutes, and
 the key arrives by email. Requests from free-mail addresses or without a clear use

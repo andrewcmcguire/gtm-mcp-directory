@@ -128,7 +128,14 @@ Or commit a `.mcp.json` at the root of a repo so the whole team gets it:
 
 Or skip the install: a hosted copy of this same read-only server has answered at
 `https://andrewcmcguire.com/gtm-directory/api/mcp` (streamable HTTP) since 2026-09-08.
-It is rebuilt and restarted on every publish. **It needs a key.** Keys are free:
+It is rebuilt and restarted on every publish. **The hosted `/api/mcp` path has
+no backend LLM and no model selection.** The endpoint is a tools and data MCP
+server on AWS. The model is always the MCP client's model, including a local
+model in LM Studio. Powerhouse and LM Studio factory jobs are an internal
+workstation path, not the public product runtime. The public how-to:
+https://andrewcmcguire.com/gtm-directory/learn/how-to-use-the-hosted-mcp/
+(GitHub copy: [`../HOW_TO_USE_HOSTED_MCP.md`](../HOW_TO_USE_HOSTED_MCP.md)).
+**It needs a key.** Keys are free:
 request one at https://andrewcmcguire.com/gtm-directory/access/. A request from a
 work email address is approved automatically, usually within about ten minutes, and
 the key arrives by email. Requests from free-mail addresses or without a clear use

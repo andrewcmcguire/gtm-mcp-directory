@@ -79,6 +79,10 @@ Treat that URL like the key it contains. Do not paste it into anything public.
 
 Both forms also work on `https://d1hkopq5aq852m.cloudfront.net/gtm-directory/api/mcp`. Some clients hit a Cloudflare 403 on the apex host today. If yours does, swap the host and keep the rest of the URL and the key exactly as they are.
 
+**How to use it, and what is not on the backend**
+
+The hosted `/api/mcp` path has no backend LLM and no model selection. The model is always your MCP client's model, including a local model in LM Studio. The guide has the connect snippets, the LM Studio steps, the natural language prompts, the honesty vocabulary, and the limits: [How to use the hosted MCP](../learn/how-to-use-the-hosted-mcp.md).
+
 **Or run it yourself, no key**
 
 The server is a public Python package in the [gtm-mcp-directory](https://github.com/andrewcmcguire/gtm-mcp-directory) repo and the data is [one JSON file](../data/directory.json). A local install loads that file once and answers from memory, makes zero outbound requests, and asks nobody for anything. The [install block is on the front page](../index.md#install).

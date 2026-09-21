@@ -36,7 +36,7 @@
     "@type": "Person",
     "name": "Andrew McGuire"
   },
-  "dateModified": "2026-09-20",
+  "dateModified": "2026-09-21",
   "isAccessibleForFree": true,
   "measurementTechnique": "Facts pulled by hand from public sources with URLs, reconciled at build time against tools_recount.py. RESEARCHED tier: nobody has run the tools. bench_tested is 1.",
   "variableMeasured": [
@@ -139,7 +139,7 @@
 <p class="stamp"><b>1,252 tools</b> counted &middot;
 <b>201 official MCP servers</b> &middot;
 <b>9,417 tools those servers name</b> &middot;
-generated <b>2026-09-20</b> by build_directory.py (phase 1) &middot;
+generated <b>2026-09-21</b> by build_directory.py (phase 1) &middot;
 reconciled against tools_recount.py</p>
 <div class="stats">
 <div class="stat is-gold"><div class="n">1,252</div><div class="k">tools counted</div></div>
@@ -280,6 +280,14 @@ needed, because the code and the data are public:</p>
 <p class="note">The package is not on PyPI yet, so this block is the shape the install will take
 rather than a working one-liner today. The server source is real and public: it lives in the
 <a href="https://github.com/andrewcmcguire/gtm-mcp-directory" rel="noopener">gtm-mcp-directory</a> repo and runs from a checkout right now.</p>
+<p class="note">The hosted <code>/api/mcp</code> path has no backend LLM and no model selection.
+The model is always your MCP client's model, including a local model in LM Studio.
+<a href="learn/how-to-use-the-hosted-mcp">How to use the hosted MCP</a> has the prompts, the
+LM Studio steps, the honesty vocabulary, and the limits.</p>
+<div class="btnrow">
+<a class="btn" href="access/">Request a key</a>
+<a class="btn ghost" href="learn/how-to-use-the-hosted-mcp">How to use the hosted MCP</a>
+</div>
 <div class="grid2">
 <div class="card">
 <div class="kicker">What it answers</div>
@@ -357,7 +365,8 @@ versus tool verdicts, because 1 tools here have been bench tested.</p>
 <a class="viewcard" href="learn/">
 <div class="vt">Learn</div><div class="vn">Definitions, data and how to</div>
 <div class="vd">What an MCP server is, what a GTM engineer is, which tools an agent can use for
-free, how to connect an assistant to a CRM.</div></a>
+free, how to connect an assistant to a CRM, and how to use the hosted MCP (no model on the
+backend).</div></a>
 <a class="viewcard" href="lists/">
 <div class="vt">The lists</div>
 <div class="vn">201 official servers, 78 free tiers</div>
@@ -445,6 +454,7 @@ methodology page rather than quietly padded.</p>
     <div class="ft">For agents</div>
     <ul>
       <li><a href="llms.txt">llms.txt</a></li>
+      <li><a href="learn/how-to-use-the-hosted-mcp">How to use the hosted MCP</a></li>
       <li><a href="access/">The hosted MCP endpoint: request a key, free</a></li>
       <li><a href="data">The public data endpoint</a></li>
       <li><a href="data/directory.json">directory.json</a></li>
@@ -458,7 +468,7 @@ methodology page rather than quietly padded.</p>
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-20 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-21 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 1,252 vs recount
 1,252.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

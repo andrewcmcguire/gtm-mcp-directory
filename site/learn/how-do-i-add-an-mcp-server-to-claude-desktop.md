@@ -60,14 +60,14 @@ Every tool page here prints the vendor's mcp_url and mcp_auth verbatim, exactly 
 - [Model Context Protocol, the specification](https://modelcontextprotocol.io/specification) https://modelcontextprotocol.io/specification
 - [modelcontextprotocol/servers, the reference server repository](https://github.com/modelcontextprotocol/servers) https://github.com/modelcontextprotocol/servers
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-20. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-21. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 
+- [How do I use the hosted GTM MCP Directory?](how-to-use-the-hosted-mcp.md)
 - [What is the difference between a local and a remote MCP server?](stdio-vs-remote-mcp-servers.md)
 - [What is an MCP client?](what-is-an-mcp-client.md)
 - [How do I connect Claude to my CRM?](how-do-i-connect-claude-to-my-crm.md)
-- [Which GTM MCP servers use OAuth instead of an API key?](which-gtm-mcp-servers-use-oauth.md)
 
 ## In the directory
 

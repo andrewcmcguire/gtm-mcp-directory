@@ -1,6 +1,6 @@
 # B2B Lead Enrichment MCP: products, MCP servers and connect URLs, one vendor page
 
-> B2B Lead Enrichment MCP (lead-enrichment-mcp.agent-infra.workers.dev): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 5 tools catalogued. Data baked 2026-09-20.
+> B2B Lead Enrichment MCP (lead-enrichment-mcp.agent-infra.workers.dev): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 5 tools catalogued. Data baked 2026-09-21.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ B2B Lead Enrichment MCP
 2 products in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-20
+Data baked 2026-09-21
 
 Vendor domain: [lead-enrichment-mcp.agent-infra.workers.dev](https://lead-enrichment-mcp.agent-infra.workers.dev) · vendor page id lead-enrichment-mcp-agent-infra-workers-dev
 
@@ -108,4 +108,4 @@ Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-20 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-21 by build_directory.py (phase 1).

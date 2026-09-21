@@ -14,7 +14,7 @@ Directory
 
 Every GTM tool your agent can use, and which one does the job.
 
-**1,252 tools** counted · **201 official MCP servers** · **9,417 tools those servers name** · generated **2026-09-20** by build_directory.py (phase 1) · reconciled against tools_recount.py
+**1,252 tools** counted · **201 official MCP servers** · **9,417 tools those servers name** · generated **2026-09-21** by build_directory.py (phase 1) · reconciled against tools_recount.py
 
 - **tools counted**: 1,252
 
@@ -152,6 +152,12 @@ Both forms also work on the fallback host `https://d1hkopq5aq852m.cloudfront.net
 
 The package is not on PyPI yet, so this block is the shape the install will take rather than a working one-liner today. The server source is real and public: it lives in the [gtm-mcp-directory](https://github.com/andrewcmcguire/gtm-mcp-directory) repo and runs from a checkout right now.
 
+The hosted `/api/mcp` path has no backend LLM and no model selection. The model is always your MCP client's model, including a local model in LM Studio. [How to use the hosted MCP](learn/how-to-use-the-hosted-mcp.md) has the prompts, the LM Studio steps, the honesty vocabulary, and the limits.
+
+- [Request a key](access/index.md)
+
+- [How to use the hosted MCP](learn/how-to-use-the-hosted-mcp.md)
+
 **What it answers**
 
 ### find_tools
@@ -202,7 +208,7 @@ The submission queue is a GitHub issue form on the public gtm-mcp-directory repo
 
 The questions people actually ask about GTM tools, MCP servers and agents, answered from this data with the numbers generated at build time and the date stamped on every one. No tool versus tool verdicts, because 1 tools here have been bench tested.
 
-- [Learn](learn/index.md) - Definitions, data and how to. What an MCP server is, what a GTM engineer is, which tools an agent can use for free, how to connect an assistant to a CRM.
+- [Learn](learn/index.md) - Definitions, data and how to. What an MCP server is, what a GTM engineer is, which tools an agent can use for free, how to connect an assistant to a CRM, and how to use the hosted MCP (no model on the backend).
 
 - [The lists](lists/index.md) - 201 official servers, 78 free tiers. The same entries cut the ways people ask for them: by MCP status, by gate, by auth type, by category.
 

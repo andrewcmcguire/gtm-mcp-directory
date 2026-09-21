@@ -32,4 +32,6 @@ The hosted copy records, per key, the number of calls and the date last used, an
 
 - [Back to the directory](../index.md)
 
+- [How to use the hosted MCP](../learn/how-to-use-the-hosted-mcp.md)
+
 - [Every tool, A to Z](../tools/index.md)
