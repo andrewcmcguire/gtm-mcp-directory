@@ -10,3 +10,7 @@ Sitemap: https://andrewcmcguire.com/gtm-directory/sitemap.xml
 # https://andrewcmcguire.com/gtm-directory/llms.txt
 # The whole dataset as JSON:
 # https://andrewcmcguire.com/gtm-directory/data/directory.json
+# Daily and weekly updates (files that exist, nothing invented):
+# https://andrewcmcguire.com/gtm-directory/updates/
+# https://andrewcmcguire.com/gtm-directory/updates/feed.json
+# https://andrewcmcguire.com/gtm-directory/updates/atom.xml

@@ -23,3 +23,17 @@
 
 /*/*.md
   Content-Type: text/markdown; charset=utf-8
+
+/*/*/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/*/*/*/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/updates/feed.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/updates/atom.xml
+  Content-Type: application/atom+xml; charset=utf-8
+  Access-Control-Allow-Origin: *

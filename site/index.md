@@ -180,7 +180,7 @@ The 15 category files with their counts, gates and source markdown, reconciled a
 
 ## Get the changelog by email.
 
-Once a week: new entries, dead endpoints, gate changes, and every tool that moved between MCP statuses. Assembled from the machine output, never written from thin air.
+Once a week: new entries, dead endpoints, gate changes, and every tool that moved between MCP statuses. Assembled from the machine output, never written from thin air. The same files are public at [/updates/](updates/index.md).
 
 PLACEHOLDER. The list runs on Kit and the form action is deliberately empty until that endpoint is set. No address is collected today and nothing is sent anywhere.
 
@@ -207,6 +207,8 @@ The questions people actually ask about GTM tools, MCP servers and agents, answe
 - [The lists](lists/index.md) - 201 official servers, 78 free tiers. The same entries cut the ways people ask for them: by MCP status, by gate, by auth type, by category.
 
 - [By job](jobs/index.md) - 56 jobs, 10 families. What an agent actually asks for, phrased from the agent's side, with the tools tagged against each one.
+
+- [Updates](updates/index.md) - Daily and weekly digests. What changed, as digest.py wrote it. A date with no file has no page. JSON and Atom feeds sit next to the HTML.
 
 - [The data](data.md) - directory.json, free, no key. The whole directory as one JSON file, plus llms.txt and a markdown twin of every page on this site.
 

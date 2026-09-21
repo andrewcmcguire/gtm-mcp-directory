@@ -41,7 +41,7 @@ DATA_DIR = SITE_DIR.parent / "data"
 # Directories generate_site.py owns and will wipe on every run. Anything else that lives
 # in site/ (this script, DEPLOY.md) is left alone.
 GENERATED_DIRS = ["assets", "tools", "vendors", "companies", "categories", "gates", "mcp", "jobs", "jobs-board",
-                  "github", "learn", "lists", "data", "access", "_dist"]
+                  "github", "learn", "lists", "data", "access", "updates", "_dist"]
 GENERATED_FILES = [
     "index.html",
     "tools-index.html",
@@ -85,6 +85,20 @@ HEADERS = """/*
 
 /*/*.md
   Content-Type: text/markdown; charset=utf-8
+
+/*/*/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/*/*/*/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/updates/feed.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/updates/atom.xml
+  Content-Type: application/atom+xml; charset=utf-8
+  Access-Control-Allow-Origin: *
 """
 
 REPO_URL = "https://github.com/andrewcmcguire/gtm-mcp-directory"  # live
@@ -637,6 +651,9 @@ code{font-family:var(--mono);font-size:13px;line-height:1.65;color:var(--fg-soft
 .prose ul.bare{list-style:none;padding-left:0}
 .prose ul.bare li::before{content:'\\2192  ';color:var(--accent)}
 .prose .note{max-width:78ch}
+.digest-body{max-width:82ch}
+.digest-body h2{margin-top:36px}
+.digest-body .datatable{margin-top:12px}
 .datatable{width:100%;border-collapse:collapse;margin-top:16px;font-size:14.5px}
 .datatable th,.datatable td{text-align:left;padding:8px 12px 8px 0;border-bottom:1px solid var(--rule-soft);
   vertical-align:top}
@@ -1092,9 +1109,11 @@ def crumb_ld(rel, trail):
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
 
 
-def itemlist_ld(name, desc, url_path, rows):
+def itemlist_ld(name, desc, url_path, rows, newest_first=False):
     """rows is [(name, path)] already site relative. ItemList is the honest type for every
     listing page here: a list of named things in a published order, with no rating attached."""
+    order = ("https://schema.org/ItemListOrderDescending" if newest_first
+             else "https://schema.org/ItemListOrderAscending")
     return {
         "@context": "https://schema.org",
         "@type": "ItemList",
@@ -1102,7 +1121,7 @@ def itemlist_ld(name, desc, url_path, rows):
         "description": detype(desc),
         "url": abs_url(url_path),
         "numberOfItems": len(rows),
-        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "itemListOrder": order,
         "itemListElement": [
             {"@type": "ListItem", "position": i, "name": detype(n),
              "url": abs_url(p)}
@@ -1122,6 +1141,7 @@ def masthead(rel, current=""):
 {link('tools/index.html','Tools','tools')}
 {link('vendors/index.html','Vendors','vendors')}
 {link('companies/index.html','Companies','companies')}
+{link('updates/index.html','Updates','updates')}
 {link('categories/index.html','Categories','categories')}
 {link('jobs/index.html','Jobs','jobs')}
 {link('jobs-board/index.html','Hiring','jobs-board')}
@@ -1167,6 +1187,7 @@ def footer(rel, d, r):
       <li><a href="{rel}tools-index.html">Every tool a server names</a></li>
       <li><a href="{rel}vendors/index.html">Every vendor, one page each</a></li>
       <li><a href="{rel}companies/index.html">Company pages</a></li>
+      <li><a href="{rel}updates/index.html">Daily and weekly updates</a></li>
       <li><a href="{rel}categories/index.html">By category</a></li>
       <li><a href="{rel}mcp/index.html">By MCP status</a></li>
       <li><a href="{rel}gates/index.html">By access gate</a></li>
@@ -1194,6 +1215,8 @@ def footer(rel, d, r):
       <li><a href="{rel}data.html">The public data endpoint</a></li>
       <li><a href="{rel}data/directory.json">directory.json</a></li>
       <li><a href="{rel}search-index.json">search-index.json</a></li>
+      <li><a href="{rel}updates/feed.json">updates/feed.json</a></li>
+      <li><a href="{rel}updates/atom.xml">updates/atom.xml</a></li>
       <li><a href="{rel}sitemap.xml">sitemap.xml</a></li>
     </ul>
     <p>Every page on this site has a markdown twin at the same path with a .md extension.
@@ -1556,7 +1579,8 @@ against {esc(r['reconciliation']['authority'])} at build time.</p>
 <div class="eyebrow">The weekly diff</div>
 <h2>Get the changelog by email.</h2>
 <p class="sub">Once a week: new entries, dead endpoints, gate changes, and every tool that moved
-between MCP statuses. Assembled from the machine output, never written from thin air.</p>
+between MCP statuses. Assembled from the machine output, never written from thin air.
+The same files are public at <a href="updates/index.html">/updates/</a>.</p>
 <!-- TODO: wire this form to Kit (kit.com). Set action to the Kit hosted form endpoint,
      method="post", and add the hidden Kit form id field. Until then the control is disabled
      so the page never posts anywhere and never makes an external request. -->
@@ -1605,6 +1629,10 @@ type, by category.</div></a>
 <div class="vt">By job</div><div class="vn">{c['jobs']} jobs, {c['job_families']} families</div>
 <div class="vd">What an agent actually asks for, phrased from the agent's side, with the tools
 tagged against each one.</div></a>
+<a class="viewcard" href="updates/index.html">
+<div class="vt">Updates</div><div class="vn">Daily and weekly digests</div>
+<div class="vd">What changed, as digest.py wrote it. A date with no file has no page. JSON and
+Atom feeds sit next to the HTML.</div></a>
 <a class="viewcard" href="data.html">
 <div class="vt">The data</div><div class="vn">directory.json, free, no key</div>
 <div class="vd">The whole directory as one JSON file, plus llms.txt and a markdown twin of every
@@ -7791,6 +7819,9 @@ def dataset_ld(d, r, path="data.html"):
             {"@type": "DataDownload", "encodingFormat": "application/json",
              "name": "search-index.json, one compact record per unique product",
              "contentUrl": base + "/search-index.json"},
+            {"@type": "DataDownload", "encodingFormat": "application/json",
+             "name": "updates.json, the digest feed (files that exist)",
+             "contentUrl": base + "/data/updates.json"},
         ],
     }
 
@@ -7809,6 +7840,8 @@ def build_data_page(d, r, out: Path):
         (out / "data" / name).write_bytes(blob)
         sizes[name] = len(blob)
     idx = (out / "search-index.json").stat().st_size if (out / "search-index.json").exists() else 0
+    updates_json = out / "data" / "updates.json"
+    sizes["updates.json"] = updates_json.stat().st_size if updates_json.exists() else 0
 
     fields = [
         ("id", "the entry id, stable across builds, prefixed with its category number"),
@@ -7850,6 +7883,7 @@ you are a person building something, this is the fastest path to it.</p>
 <a class="btn solid" href="data/directory.json">directory.json</a>
 <a class="btn" href="data/build_report.json">build_report.json</a>
 <a class="btn ghost" href="search-index.json">search-index.json</a>
+<a class="btn ghost" href="updates/feed.json">updates/feed.json</a>
 <a class="btn ghost" href="llms.txt">llms.txt</a>
 </div>
 <div class="stats" style="margin-top:30px">
@@ -7883,6 +7917,11 @@ review.</td></tr>
 <td>One compact record per unique product, which is what the on page search runs over.</td></tr>
 <tr><td><a href="llms.txt">llms.txt</a></td><td class="n">text</td>
 <td>The map, for agents and crawlers. Every section of the site with a one line description.</td></tr>
+<tr><td><a href="updates/feed.json">updates/feed.json</a></td>
+<td class="n">{num(sizes['updates.json']) if sizes['updates.json'] else "see file"}</td>
+<td>The public updates feed. One item per digest file on disk. Same bytes as
+<a href="data/updates.json">data/updates.json</a>. A date with no
+<code>DIGEST_*.md</code> is omitted, not invented.</td></tr>
 </tbody></table></div>
 </div></div>
 
@@ -7947,7 +7986,7 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 # ----------------------------------------------------------------------------------
 
 def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, vendors=None,
-                   companies=None):
+                   companies=None, updates=None):
     c = d["counts"]
     cov = r["coverage"]
     cap = d["capabilities"]
@@ -7986,6 +8025,9 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
       f"Links inside a twin point at other twins, so the whole site is crawlable in markdown. "
       f"Examples: `{b}/learn/what-is-an-mcp-server.md`, `{b}/tools/index.md`.")
     A(f"- [sitemap.xml]({b}/sitemap.xml): all {n_pages} pages.")
+    A(f"- [Updates feed]({b}/updates/): daily and weekly digest files from directory/digests/, "
+      f"as HTML. JSON at [{b}/updates/feed.json]({b}/updates/feed.json), Atom at "
+      f"[{b}/updates/atom.xml]({b}/updates/atom.xml). A date with no file has no page.")
     A("")
     if board:
         bc = board["counts"]
@@ -8128,6 +8170,14 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
           f"EX-21 proof. Public-company intel source of record is fin45 / GTM Signals Postgres, "
           f"not this repo. Schema: `{b}/companies/schema/company-page.schema.json`. Sidecar: "
           f"`{b}/companies/schema/company-enrichment.schema.json`.")
+    if updates is not None:
+        n_daily = sum(1 for u in updates if u.get("kind") == "daily")
+        n_weekly = sum(1 for u in updates if u.get("kind") == "weekly")
+        A(f"- [Updates]({b}/updates/): {n_daily} daily and {n_weekly} weekly digest pages, "
+          f"rendered from files already in directory/digests/. URL shape "
+          f"`{b}/updates/{{daily|weekly}}/YYYY-MM-DD/`. The generator does not invent a "
+          f"digest for a missing date. Machine copies: `{b}/updates/feed.json` and "
+          f"`{b}/updates/atom.xml`.")
     A(f"- [By category]({b}/categories/index.html): {c['categories']} categories with their "
       f"coverage.")
     A(f"- [By job]({b}/jobs/index.html): {c['jobs']} jobs phrased the way an agent asks for them.")
@@ -8199,7 +8249,11 @@ def build_sitemap(d, out: Path):
               f"# Machine readable map of the site, for agents:\n"
               f"# {b}/llms.txt\n"
               f"# The whole dataset as JSON:\n"
-              f"# {b}/data/directory.json\n")
+              f"# {b}/data/directory.json\n"
+              f"# Daily and weekly updates (files that exist, nothing invented):\n"
+              f"# {b}/updates/\n"
+              f"# {b}/updates/feed.json\n"
+              f"# {b}/updates/atom.xml\n")
     write(out / "robots.txt", robots)
     return len(paths)
 
@@ -8548,7 +8602,9 @@ def check(out: Path, d, expect_pages):
 
     # the machine surfaces
     for must in ("llms.txt", "sitemap.xml", "robots.txt", "search-index.json",
-                 "data/directory.json", "data/build_report.json", "_headers"):
+                 "data/directory.json", "data/build_report.json", "_headers",
+                 "updates/index.html", "updates/feed.json", "updates/atom.xml",
+                 "data/updates.json"):
         if not (out / must).exists():
             problems.append(f"missing {must}")
     smap = (out / "sitemap.xml").read_text(encoding="utf-8") if (out / "sitemap.xml").exists() else ""
@@ -8563,6 +8619,32 @@ def check(out: Path, d, expect_pages):
         problems.append("em dash in llms.txt")
     if str(d["counts"]["entries"]) not in llms:
         problems.append("llms.txt does not carry the entry count")
+    if "/updates/" not in llms:
+        problems.append("llms.txt does not mention the updates feed")
+
+    feed_path = out / "updates" / "feed.json"
+    if feed_path.exists():
+        try:
+            feed = json.loads(feed_path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            problems.append(f"updates/feed.json is not JSON: {exc}")
+            feed = None
+        if feed is not None:
+            if EM in json.dumps(feed):
+                problems.append("em dash in updates/feed.json")
+            items = feed.get("items") or []
+            for item in items:
+                page = (item.get("_gtm") or {}).get("page") or ""
+                # page is /updates/daily/YYYY-MM-DD/
+                rel_page = page.lstrip("/") + "index.html"
+                if page and not (out / rel_page).exists():
+                    problems.append(f"feed item has no page {page}")
+            meta = (feed.get("_gtm") or {}).get("directory_counts") or {}
+            if meta.get("entries") != d["counts"]["entries"]:
+                problems.append("updates/feed.json directory_counts.entries disagrees with directory.json")
+    atom = out / "updates" / "atom.xml"
+    if atom.exists() and EM in atom.read_text(encoding="utf-8"):
+        problems.append("em dash in updates/atom.xml")
 
     if problems:
         print("CHECK FAILED", file=sys.stderr)
@@ -8621,6 +8703,8 @@ def main():
     sys.path.insert(0, str(SITE_DIR.parent / "companies"))
     from build_company_pages import emit_company_pages  # noqa: E402
     n_companies, company_rows = emit_company_pages(d, r, out)
+    from build_updates_feed import emit_updates_feed  # noqa: E402
+    n_updates, update_rows = emit_updates_feed(d, r, out)
     build_categories(d, r, entries, byid, out)
     build_bucket_view(d, r, entries, byid, out, "mcp")
     build_bucket_view(d, r, entries, byid, out, "gates")
@@ -8638,13 +8722,13 @@ def main():
     n_cat = 1 + len(d["categories"])
     n_mcp = 1 + sum(1 for b in MCP_ORDER if d["counts"]["mcp_status"].get(b))
     n_gate = 1 + sum(1 for b in GATE_ORDER if d["counts"]["api_gate"].get(b))
-    total = (1 + len(canon) + 1 + 1 + n_vendors + n_companies + n_cat + n_mcp + n_gate + n_jobs + n_board
-             + n_lists + n_learn + 1 + 1 + 1 + 2 + 1 + 1)
+    total = (1 + len(canon) + 1 + 1 + n_vendors + n_companies + n_updates + n_cat + n_mcp + n_gate
+             + n_jobs + n_board + n_lists + n_learn + 1 + 1 + 1 + 2 + 1 + 1)
 
     # machine surfaces last: they describe the finished tree.
     n_sitemap = build_sitemap(d, out)
     build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board, vendor_rows,
-                   company_rows)
+                   company_rows, update_rows)
     n_md = build_markdown_twins(out)
     n_links = extensionless_links(out)
 
@@ -8654,6 +8738,7 @@ def main():
     print(f"tools index         1   ({n_caprows} tool names, {n_caprecords} harvest records)")
     print(f"vendor pages        {n_vendors}   (index + {n_vendors - 1} vendors)")
     print(f"company pages       {n_companies}   (index + {n_companies - 1} companies)")
+    print(f"updates feed        {n_updates}   (index + {n_updates - 1} digest files)")
     print(f"category pages      {n_cat}   (index + {len(d['categories'])})")
     print(f"mcp status pages    {n_mcp}   (index + buckets)")
     print(f"gate pages          {n_gate}   (index + buckets)")
