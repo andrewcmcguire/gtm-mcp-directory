@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://andrewcmcguire.com/gtm-directory/companies/schema/company-enrichment.schema.json",
+  "title": "GTM MCP Directory company enrichment sidecar (enrichment-v1)",
+  "description": "Receipt-gated sidecar beside company-v1. Does not invent SteadyBase synonyms (no name/website/people/firmographics/how_it_works/legal). Does not mint acc_ ids. Does not invent official MCP status or tool counts. directory.json remains the honesty authority. Empty arrays and nulls are abstains.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "slug",
+    "as_of",
+    "about",
+    "linkedin_company_url",
+    "executives",
+    "github",
+    "how_mcp_published",
+    "honesty"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "enrichment-v1"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Must match the company-v1 slug. Page is /gtm-directory/companies/{slug}/."
+    },
+    "as_of": {
+      "type": "string",
+      "description": "ISO date this sidecar was last written."
+    },
+    "about": {
+      "oneOf": [
+        { "$ref": "#/$defs/about" },
+        { "type": "null" }
+      ],
+      "description": "Cited public blurb. null if no verbatim public sentence with a receipt."
+    },
+    "linkedin_company_url": {
+      "oneOf": [
+        { "$ref": "#/$defs/linkedin" },
+        { "type": "null" }
+      ],
+      "description": "Public LinkedIn company or school page only. null if no first-party or resolvable company URL."
+    },
+    "executives": {
+      "type": "array",
+      "description": "Public roster sources only (vendor management/team page, SEC officer list, first-party IR). No email. No phone. Empty if no roster.",
+      "items": { "$ref": "#/$defs/executive" }
+    },
+    "github": { "$ref": "#/$defs/github" },
+    "how_mcp_published": { "$ref": "#/$defs/how_mcp_published" },
+    "honesty": { "$ref": "#/$defs/honesty" }
+  },
+  "$defs": {
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "as_of"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Public http(s) URL that supports the claim."
+        },
+        "as_of": {
+          "type": "string",
+          "description": "ISO date the URL was read."
+        },
+        "note": {
+          "type": "string",
+          "description": "Optional short note. Must not invent official status or tool counts."
+        }
+      }
+    },
+    "about": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["blurb", "receipt"],
+      "properties": {
+        "blurb": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Verbatim or tightly cited public sentence. Abstain rather than paraphrase a weak line."
+        },
+        "receipt": { "$ref": "#/$defs/receipt" }
+      }
+    },
+    "linkedin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "receipt"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "https LinkedIn /company/ or /school/ URL."
+        },
+        "receipt": { "$ref": "#/$defs/receipt" }
+      }
+    },
+    "executive": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "role", "receipt"],
+      "description": "No email. No phone. profile_url is a public bio page, not a contact.",
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "role": { "type": "string", "minLength": 1 },
+        "profile_url": {
+          "type": ["string", "null"],
+          "description": "Public bio or profile page. LinkedIn /in/ only when a first-party roster links it. Never harvested from a people-search scrape."
+        },
+        "source": {
+          "type": "string",
+          "description": "What kind of public roster this came from."
+        },
+        "receipt": { "$ref": "#/$defs/receipt" }
+      }
+    },
+    "github_org": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["login", "url", "receipt"],
+      "properties": {
+        "login": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "website": { "type": ["string", "null"] },
+        "receipt": { "$ref": "#/$defs/receipt" }
+      }
+    },
+    "github_repo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["full_name", "url", "party", "receipt"],
+      "properties": {
+        "full_name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "party": {
+          "type": "string",
+          "enum": ["first-party", "community"],
+          "description": "first-party only when the org is the vendor's resolved GitHub org. Community never becomes official."
+        },
+        "relevance": {
+          "type": "string",
+          "description": "Why this repo is MCP-relevant. Must not invent official status."
+        },
+        "receipt": { "$ref": "#/$defs/receipt" }
+      }
+    },
+    "github": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["org", "mcp_repos"],
+      "properties": {
+        "org": {
+          "oneOf": [
+            { "$ref": "#/$defs/github_org" },
+            { "type": "null" }
+          ]
+        },
+        "mcp_repos": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/github_repo" }
+        }
+      }
+    },
+    "mcp_surface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "url"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "vendor-docs",
+            "hosted-endpoint",
+            "first-party-repo",
+            "community-repo",
+            "directory-entry"
+          ]
+        },
+        "url": { "type": "string", "minLength": 1 },
+        "note": { "type": "string" }
+      }
+    },
+    "how_mcp_published": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["honesty_badge", "prose", "surfaces", "receipts"],
+      "description": "Prose tied to directory honesty. Never invent official. honesty_badge must match the company-v1 / directory-derived badge.",
+      "properties": {
+        "honesty_badge": {
+          "type": "string",
+          "enum": ["official", "community", "none-found", "unknown"]
+        },
+        "prose": {
+          "type": "string",
+          "minLength": 1,
+          "description": "How this company published MCP, in public facts only. Must cite the directory badge. Must not invent official."
+        },
+        "surfaces": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/mcp_surface" }
+        },
+        "receipts": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/receipt" }
+        }
+      }
+    },
+    "honesty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["notes"],
+      "properties": {
+        "empty_fields": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Sidecar fields left null or empty on purpose."
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why empties are honest. No em dashes. No Navan. No invented official."
+        }
+      }
+    }
+  }
+}

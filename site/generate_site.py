@@ -8121,9 +8121,13 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
           f"mcp_package_hint {{slug, page_url, listing_url, mcp_url, ticker?, domain?}}. Honesty "
           f"badges and tool counts are copied from directory.json. mcp_package_hint carries no "
           f"official status and no tool count. why_now abstains without a verbatim quote and "
-          f"receipt. executives stay empty without a filing roster. family stays empty without "
+          f"receipt. company-v1 executives stay empty without a filing roster. An enrichment "
+          f"sidecar (enrichment-v1) may add a cited about blurb, a LinkedIn company URL, "
+          f"public-roster executives, GitHub MCP repos, and how_mcp_published prose tied to the "
+          f"directory badge. It never invents official. family stays empty without "
           f"EX-21 proof. Public-company intel source of record is fin45 / GTM Signals Postgres, "
-          f"not this repo. Schema: `{b}/companies/schema/company-page.schema.json`.")
+          f"not this repo. Schema: `{b}/companies/schema/company-page.schema.json`. Sidecar: "
+          f"`{b}/companies/schema/company-enrichment.schema.json`.")
     A(f"- [By category]({b}/categories/index.html): {c['categories']} categories with their "
       f"coverage.")
     A(f"- [By job]({b}/jobs/index.html): {c['jobs']} jobs phrased the way an agent asks for them.")

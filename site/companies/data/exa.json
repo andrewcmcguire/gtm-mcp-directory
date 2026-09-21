@@ -6,7 +6,7 @@
   "ticker": null,
   "cik": null,
   "domain": "exa.ai",
-  "linkedin_company_url": null,
+  "linkedin_company_url": "https://www.linkedin.com/company/exa-ai",
   "family": {
     "parent_account_id": null,
     "subsidiaries": []
@@ -37,9 +37,9 @@
     "last_enriched": "2026-09-21",
     "source_of_record": "fin45 / GTM Signals Postgres for public-company intel; directory.json for MCP honesty",
     "enrichment_scope": "company-level",
-    "notes": "legal_name and domain from directory entry 01-exa. Private company: ticker and cik stay null. mcp_package_hint.mcp_url is the first URL on 01-exa. account_id, family, why_now, and executives are unissued or empty."
+    "notes": "legal_name and domain from directory entry 01-exa. Private company: ticker and cik stay null. linkedin_company_url is the public LinkedIn company page (receipt on the sidecar; about HTML had no sameAs). mcp_package_hint.mcp_url is the first URL on 01-exa. account_id, family, why_now, and company-v1 executives are unissued or empty."
   },
-  "notes": "why_now abstains. executives empty. Do not copy BENCH-TESTED from the Exa tool onto other companies.",
+  "notes": "why_now abstains. company-v1 executives empty (no filing roster). Sidecar executives are the two people the about page labels CEO and Co-founder. Do not copy BENCH-TESTED from the Exa tool onto other companies.",
   "url": "https://andrewcmcguire.com/gtm-directory/companies/exa/",
   "honesty_badge_derived": "official",
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
@@ -65,5 +65,121 @@
       "canonical": true
     }
   ],
-  "directory_generated_on": "2026-09-20"
+  "directory_generated_on": "2026-09-20",
+  "enrichment": {
+    "schema_version": "enrichment-v1",
+    "slug": "exa",
+    "as_of": "2026-09-21",
+    "about": {
+      "blurb": "Exa is an applied AI lab building a perfect search engine unlike the world has ever seen.",
+      "receipt": {
+        "url": "https://exa.ai/about",
+        "as_of": "2026-09-21",
+        "note": "Vendor about page opening sentence. Verbatim."
+      }
+    },
+    "linkedin_company_url": {
+      "url": "https://www.linkedin.com/company/exa-ai",
+      "receipt": {
+        "url": "https://www.linkedin.com/company/exa-ai",
+        "as_of": "2026-09-21",
+        "note": "Public LinkedIn company page for Exa (homepage exa.ai, alias Metaphor). First-party about page did not publish a sameAs link in the fetched HTML, so the receipt is the company page itself."
+      }
+    },
+    "executives": [
+      {
+        "name": "Will Bryk",
+        "role": "CEO",
+        "profile_url": null,
+        "source": "vendor about / team roster",
+        "receipt": {
+          "url": "https://exa.ai/about",
+          "as_of": "2026-09-21",
+          "note": "About page labels him CEO Will Bryk. No first-party profile URL on that roster."
+        }
+      },
+      {
+        "name": "Jeff Wang",
+        "role": "Co-founder",
+        "profile_url": null,
+        "source": "vendor about / team roster",
+        "receipt": {
+          "url": "https://exa.ai/about",
+          "as_of": "2026-09-21",
+          "note": "About page labels him Co-founder Jeff Wang. Staff bios on the same page are not harvested as executives."
+        }
+      }
+    ],
+    "github": {
+      "org": {
+        "login": "exa-labs",
+        "url": "https://github.com/exa-labs",
+        "website": "https://exa.ai",
+        "receipt": {
+          "url": "https://github.com/exa-labs/exa-mcp-server",
+          "as_of": "2026-09-08",
+          "note": "Resolved in github_orgs.json for 01-exa (rule 1, website exa.ai)."
+        }
+      },
+      "mcp_repos": [
+        {
+          "full_name": "exa-labs/exa-mcp-server",
+          "url": "https://github.com/exa-labs/exa-mcp-server",
+          "party": "first-party",
+          "relevance": "First-party MCP server named on the directory entry and on exa.ai/mcp. Hosted endpoint is a different surface (mcp.exa.ai/mcp).",
+          "receipt": {
+            "url": "https://github.com/exa-labs/exa-mcp-server",
+            "as_of": "2026-09-21"
+          }
+        }
+      ]
+    },
+    "how_mcp_published": {
+      "honesty_badge": "official",
+      "prose": "Directory honesty badge is official. That badge is copied from 01-exa (mcp_status official, last_checked 2026-09-03). Exa publishes a first-party open-source server at https://github.com/exa-labs/exa-mcp-server and documents a hosted endpoint at https://mcp.exa.ai/mcp on https://exa.ai/mcp. The directory entry is BENCH-TESTED on the tool row only. This company page does not copy that bench onto other companies and does not invent a tool count.",
+      "surfaces": [
+        {
+          "kind": "first-party-repo",
+          "url": "https://github.com/exa-labs/exa-mcp-server",
+          "note": "Primary directory mcp_url on 01-exa."
+        },
+        {
+          "kind": "hosted-endpoint",
+          "url": "https://mcp.exa.ai/mcp",
+          "note": "Named on exa.ai/mcp. The 2026-09-03 bench ran against this host. Snapshot, not a promise."
+        },
+        {
+          "kind": "vendor-docs",
+          "url": "https://exa.ai/mcp",
+          "note": "Vendor MCP landing page."
+        },
+        {
+          "kind": "directory-entry",
+          "url": "https://andrewcmcguire.com/gtm-directory/tools/exa",
+          "note": "Honesty, bench, and tool counts live on the directory entry."
+        }
+      ],
+      "receipts": [
+        {
+          "url": "https://exa.ai/mcp",
+          "as_of": "2026-09-21"
+        },
+        {
+          "url": "https://github.com/exa-labs/exa-mcp-server",
+          "as_of": "2026-09-21"
+        }
+      ]
+    },
+    "honesty": {
+      "empty_fields": [
+        "company-v1.executives",
+        "company-v1.why_now",
+        "company-v1.account_id",
+        "company-v1.ticker",
+        "company-v1.cik",
+        "company-v1.family"
+      ],
+      "notes": "Sidecar executives are the two people the about page labels CEO and Co-founder. Other staff bios on that page are not a C-suite roster and were left out. company-v1.executives stays empty because this is not a filing roster. why_now abstains. Private company: ticker and cik stay null. account_id unissued. family empty. LinkedIn company URL has no first-party sameAs on the fetched about HTML. The receipt is the public company page itself. No email. No phone. BENCH-TESTED stays on the Exa tool row only."
+    }
+  }
 }

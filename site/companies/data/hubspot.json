@@ -4,9 +4,9 @@
   "account_id": null,
   "legal_name": "HubSpot",
   "ticker": "HUBS",
-  "cik": null,
+  "cik": "0001404655",
   "domain": "hubspot.com",
-  "linkedin_company_url": null,
+  "linkedin_company_url": "https://www.linkedin.com/company/hubspot",
   "family": {
     "parent_account_id": null,
     "subsidiaries": []
@@ -45,9 +45,9 @@
     "last_enriched": "2026-09-21",
     "source_of_record": "fin45 / GTM Signals Postgres for public-company intel; directory.json for MCP honesty",
     "enrichment_scope": "company-level",
-    "notes": "legal_name and domain from directory entries 06-hubspot and 04-hubspot-breeze. ticker HUBS from the existing PUBLIC_COMPANIES map. mcp_package_hint.mcp_url copied from 06-hubspot. account_id, cik, linkedin_company_url, family, why_now, and executives are unissued or empty. No EX-21 nodes. No filing roster. No acc_ minted from slug."
+    "notes": "legal_name and domain from directory entries 06-hubspot and 04-hubspot-breeze. ticker HUBS from the existing PUBLIC_COMPANIES map. cik 0001404655 from SEC EDGAR. linkedin_company_url from HubSpot's own docs handle example company/hubspot. mcp_package_hint.mcp_url copied from 06-hubspot. account_id, family, why_now, and company-v1 executives are unissued or empty. Public-roster executives live in the enrichment sidecar. No EX-21 nodes. No acc_ minted from slug."
   },
-  "notes": "Why Now account card scaffold. Empty why_now is an abstain, not a missing scoop. Empty executives means no filing-roster harvest, not a claim the company has no officers.",
+  "notes": "Why Now account card plus enrichment sidecar. Empty why_now is an abstain, not a missing scoop. Empty company-v1 executives means no filing-roster harvest. Public management-roster names are on enrichment/hubspot.json.",
   "url": "https://andrewcmcguire.com/gtm-directory/companies/hubspot/",
   "honesty_badge_derived": "official",
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
@@ -93,5 +93,178 @@
       "canonical": true
     }
   ],
-  "directory_generated_on": "2026-09-20"
+  "directory_generated_on": "2026-09-20",
+  "enrichment": {
+    "schema_version": "enrichment-v1",
+    "slug": "hubspot",
+    "as_of": "2026-09-21",
+    "about": {
+      "blurb": "Helping Millions of Organizations Grow Better",
+      "receipt": {
+        "url": "https://www.hubspot.com/company",
+        "as_of": "2026-09-21",
+        "note": "Vendor about page, mission heading. Verbatim."
+      }
+    },
+    "linkedin_company_url": {
+      "url": "https://www.linkedin.com/company/hubspot",
+      "receipt": {
+        "url": "https://knowledge.hubspot.com/properties/hubspot-crm-default-company-properties",
+        "as_of": "2026-09-21",
+        "note": "HubSpot's own docs use company/hubspot as the LinkedIn handle example for a company page."
+      }
+    },
+    "executives": [
+      {
+        "name": "Yamini Rangan",
+        "role": "Chief Executive Officer",
+        "profile_url": "https://www.hubspot.com/company/management/yamini-rangan",
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Dharmesh Shah",
+        "role": "Co-Founder, CTO",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Duncan Lennox",
+        "role": "Chief Product & Technology Officer",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Kate Bueker",
+        "role": "Chief Financial Officer",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Erika Fisher",
+        "role": "Chief Legal Officer",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Helen Russell",
+        "role": "Chief People Officer",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Kipp Bodnar",
+        "role": "Chief Marketing Officer",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      },
+      {
+        "name": "Jon Dick",
+        "role": "Chief Customer Officer",
+        "profile_url": null,
+        "source": "vendor management roster",
+        "receipt": {
+          "url": "https://www.hubspot.com/company/management",
+          "as_of": "2026-09-21"
+        }
+      }
+    ],
+    "github": {
+      "org": {
+        "login": "HubSpot",
+        "url": "https://github.com/HubSpot",
+        "website": "http://product.hubspot.com/",
+        "receipt": {
+          "url": "https://github.com/HubSpot",
+          "as_of": "2026-09-08",
+          "note": "Resolved in github_orgs.json for 01-clearbit / hubspot.com (rule 3, website match)."
+        }
+      },
+      "mcp_repos": [
+        {
+          "full_name": "HubSpot/hubspot-mcp-plugins",
+          "url": "https://github.com/HubSpot/hubspot-mcp-plugins",
+          "party": "first-party",
+          "relevance": "First-party repo on the HubSpot org. Directory notes (2026-09-09) say it holds Claude Code client configuration for the HubSpot MCP server, not the server source.",
+          "receipt": {
+            "url": "https://github.com/HubSpot/hubspot-mcp-plugins",
+            "as_of": "2026-09-09"
+          }
+        }
+      ]
+    },
+    "how_mcp_published": {
+      "honesty_badge": "official",
+      "prose": "Directory honesty badge is official. That badge is copied from linked canonical entries (06-hubspot official, 04-hubspot-breeze none-found). HubSpot publishes two first-party MCP surfaces on its developer docs: a hosted Remote MCP server for CRM read/write, and a local Developer MCP server via the HubSpot CLI. The directory connect URL is https://developers.hubspot.com/ai-tools/mcp. The first-party GitHub repo HubSpot/hubspot-mcp-plugins is client configuration, not server source. HubSpot/mcp-server was an empty repository on 2026-09-09 and is not treated as a source. Community HubSpot MCP servers exist and are not this official surface. This sidecar does not invent a tool count.",
+      "surfaces": [
+        {
+          "kind": "vendor-docs",
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "note": "Primary directory mcp_url on 06-hubspot."
+        },
+        {
+          "kind": "hosted-endpoint",
+          "url": "https://mcp.hubspot.com",
+          "note": "Named on the vendor docs as the Remote MCP host. Not a status and not a count."
+        },
+        {
+          "kind": "first-party-repo",
+          "url": "https://github.com/HubSpot/hubspot-mcp-plugins",
+          "note": "Client configuration, not server source."
+        },
+        {
+          "kind": "directory-entry",
+          "url": "https://andrewcmcguire.com/gtm-directory/tools/hubspot",
+          "note": "Honesty and tool counts live on the directory entry."
+        }
+      ],
+      "receipts": [
+        {
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "as_of": "2026-09-21"
+        },
+        {
+          "url": "https://github.com/HubSpot/hubspot-mcp-plugins",
+          "as_of": "2026-09-09",
+          "note": "Recorded on directory entry 06-hubspot notes."
+        }
+      ]
+    },
+    "honesty": {
+      "empty_fields": [
+        "company-v1.executives",
+        "company-v1.why_now",
+        "company-v1.account_id",
+        "company-v1.family"
+      ],
+      "notes": "Sidecar executives come from the public vendor management roster, not a filing-roster harvest, so company-v1.executives stays empty. why_now abstains. account_id is unissued. family has no EX-21 nodes. cik 0001404655 is copied onto company-v1 from SEC EDGAR, not invented. HubSpot/mcp-server is omitted because the directory recorded it empty on 2026-09-09. HubSpot/java-sdk is a fork of the MCP Java SDK and is not HubSpot's product MCP server. No email. No phone. No official status beyond the directory badge."
+    }
+  }
 }

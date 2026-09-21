@@ -6,7 +6,7 @@
   "ticker": null,
   "cik": null,
   "domain": "clay.com",
-  "linkedin_company_url": null,
+  "linkedin_company_url": "https://www.linkedin.com/company/grow-with-clay/",
   "family": {
     "parent_account_id": null,
     "subsidiaries": []
@@ -39,9 +39,9 @@
     "last_enriched": "2026-09-21",
     "source_of_record": "fin45 / GTM Signals Postgres for public-company intel; directory.json for MCP honesty",
     "enrichment_scope": "company-level",
-    "notes": "legal_name and domain from directory entry 01-clay. Private company: ticker and cik stay null. mcp_package_hint.mcp_url is the first URL on 01-clay. account_id, family, why_now, and executives are unissued or empty. Clay Workbench is a different directory entry on github.com and is not linked."
+    "notes": "legal_name and domain from directory entry 01-clay. Private company: ticker and cik stay null. linkedin_company_url from the first-party about page sameAs. mcp_package_hint.mcp_url is the first URL on 01-clay. account_id, family, why_now, and executives are unissued or empty. Clay Workbench is a different directory entry on github.com and is not linked."
   },
-  "notes": "why_now abstains. executives empty until a filing roster or licensed source exists. Do not invent official tool counts.",
+  "notes": "why_now abstains. company-v1 executives empty (no filing roster). Sidecar executives also empty: the about page is not a named roster. Do not invent official tool counts.",
   "url": "https://andrewcmcguire.com/gtm-directory/companies/clay/",
   "honesty_badge_derived": "official",
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
@@ -67,5 +67,114 @@
       "canonical": true
     }
   ],
-  "directory_generated_on": "2026-09-20"
+  "directory_generated_on": "2026-09-20",
+  "enrichment": {
+    "schema_version": "enrichment-v1",
+    "slug": "clay",
+    "as_of": "2026-09-21",
+    "about": {
+      "blurb": "We help every company grow to its full potential. Just like LLMs predict the next word in a phrase, we predict the next best action to grow your business",
+      "receipt": {
+        "url": "https://www.clay.com/about",
+        "as_of": "2026-09-21",
+        "note": "Vendor about page Organization.description / hero line. Verbatim."
+      }
+    },
+    "linkedin_company_url": {
+      "url": "https://www.linkedin.com/company/grow-with-clay/",
+      "receipt": {
+        "url": "https://www.clay.com/about",
+        "as_of": "2026-09-21",
+        "note": "First-party schema.org sameAs on the about page, and the page footer Socials link."
+      }
+    },
+    "executives": [],
+    "github": {
+      "org": {
+        "login": "clay-run",
+        "url": "https://github.com/clay-run",
+        "website": "https://clay.com",
+        "receipt": {
+          "url": "https://github.com/clay-run",
+          "as_of": "2026-09-08",
+          "note": "Resolved in github_orgs.json for 01-clay (rule 3, website clay.com)."
+        }
+      },
+      "mcp_repos": [
+        {
+          "full_name": "clay-run/agent-plugins",
+          "url": "https://github.com/clay-run/agent-plugins",
+          "party": "first-party",
+          "relevance": "First-party repo on clay-run. Description names skills, MCP tools, and the clay CLI. This is not a substitute for the hosted Clay MCP page.",
+          "receipt": {
+            "url": "https://github.com/clay-run/agent-plugins",
+            "as_of": "2026-09-08"
+          }
+        },
+        {
+          "full_name": "shanefirek/clay-mcp-public",
+          "url": "https://github.com/shanefirek/clay-mcp-public",
+          "party": "community",
+          "relevance": "Third-party 73-tool community server recorded on directory entry 01-clay. Not official. Do not harvest its tool count as a first-party claim.",
+          "receipt": {
+            "url": "https://github.com/shanefirek/clay-mcp-public",
+            "as_of": "2026-09-12"
+          }
+        }
+      ]
+    },
+    "how_mcp_published": {
+      "honesty_badge": "official",
+      "prose": "Directory honesty badge is official. That badge is copied from 01-clay (mcp_status official, last_checked 2026-09-03). Clay publishes a first-party hosted MCP page at https://www.clay.com/mcp and workspace-admin docs at https://university.clay.com/docs/mcp-settings. The first-party GitHub org clay-run publishes agent-plugins, which mentions MCP tools and the Clay CLI. The community repo shanefirek/clay-mcp-public is third-party and is not an official Clay server. This sidecar does not invent a tool count and does not copy the community tool list onto the official badge.",
+      "surfaces": [
+        {
+          "kind": "vendor-docs",
+          "url": "https://www.clay.com/mcp",
+          "note": "Primary directory mcp_url on 01-clay."
+        },
+        {
+          "kind": "vendor-docs",
+          "url": "https://university.clay.com/docs/mcp-settings",
+          "note": "Admin docs for MCP users, credit limits, and Functions."
+        },
+        {
+          "kind": "first-party-repo",
+          "url": "https://github.com/clay-run/agent-plugins",
+          "note": "Mentions MCP tools. Not a claim that this repo is the hosted server."
+        },
+        {
+          "kind": "community-repo",
+          "url": "https://github.com/shanefirek/clay-mcp-public",
+          "note": "Community. Not official."
+        },
+        {
+          "kind": "directory-entry",
+          "url": "https://andrewcmcguire.com/gtm-directory/tools/clay",
+          "note": "Honesty and tool counts live on the directory entry."
+        }
+      ],
+      "receipts": [
+        {
+          "url": "https://www.clay.com/mcp",
+          "as_of": "2026-09-21"
+        },
+        {
+          "url": "https://university.clay.com/docs/mcp-settings",
+          "as_of": "2026-09-21"
+        }
+      ]
+    },
+    "honesty": {
+      "empty_fields": [
+        "executives",
+        "company-v1.executives",
+        "company-v1.why_now",
+        "company-v1.account_id",
+        "company-v1.ticker",
+        "company-v1.cik",
+        "company-v1.family"
+      ],
+      "notes": "Clay's about page names the company and publishes a LinkedIn company URL. It does not publish a named executive roster with roles. First-party blog posts name Kareem Amin as CEO. That is not a roster harvest, so executives stays empty. why_now abstains. Private company: ticker and cik stay null. account_id unissued. family empty. The community Clay MCP is labelled community and never official. No email. No phone."
+    }
+  }
 }
