@@ -825,7 +825,17 @@ if(document.readyState==='loading'){
 
 SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
    Runs entirely in the page over the baked index. No backend, no network call,
-   no query logging, works with the network cable pulled out. */
+   no query logging, works with the network cable pulled out.
+
+   Shareable query params on the homepage (same page, not distinct sitemap URLs):
+     q    search phrase (spaces as + or %20)
+     mcp  official | community | none-found | unknown | n-a
+     gate free | paid | enterprise-leaning | enterprise-only | unknown | n-a
+     cli  1  (keeps products with a measured official or community CLI)
+   Example: ?q=apollo&mcp=official
+   On load those params fill the box and press the chips. On change the URL is
+   updated with history.replaceState so a reload is never required. Unknown
+   mcp or gate values are ignored. They do not invent an official server. */
 (function(){
   var IDX = (window.GTMD_INDEX && window.GTMD_INDEX.tools) || [];
   var VIDX = (window.GTMD_INDEX && window.GTMD_INDEX.vendors) || [];
@@ -837,6 +847,56 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
   if(!q || !out) return;
 
   var filters = {mcp:null, gate:null, cli:null};
+  var MCP_OK = {official:1, community:1, 'none-found':1, unknown:1, 'n-a':1};
+  var GATE_OK = {free:1, paid:1, 'enterprise-leaning':1, 'enterprise-only':1, unknown:1, 'n-a':1};
+
+  function paramsOf(){
+    try { return new URLSearchParams(location.search); }
+    catch (e) { return null; }
+  }
+
+  function applyUrl(){
+    var params = paramsOf();
+    if (!params) return;
+    var qv = params.get('q');
+    if (qv !== null) q.value = qv;
+    var mcp = params.get('mcp');
+    if (mcp && MCP_OK[mcp]) filters.mcp = mcp;
+    var gate = params.get('gate');
+    if (gate && GATE_OK[gate]) filters.gate = gate;
+    var cli = params.get('cli');
+    if (cli === '1' || cli === 'any' || cli === 'true') filters.cli = 'any';
+    chips.forEach(function(c){
+      var kind = c.getAttribute('data-kind');
+      var val = c.getAttribute('data-val');
+      var on = (kind === 'cli') ? !!filters.cli : (filters[kind] === val);
+      c.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  function writeUrl(){
+    if (!history.replaceState) return;
+    var next;
+    try { next = new URLSearchParams(); }
+    catch (e) { return; }
+    var params = paramsOf();
+    var others = [];
+    if (params) {
+      params.forEach(function(v, k){
+        if (k !== 'q' && k !== 'mcp' && k !== 'gate' && k !== 'cli') others.push([k, v]);
+      });
+    }
+    var qv = (q.value || '').trim();
+    if (qv) next.set('q', qv);
+    if (filters.mcp) next.set('mcp', filters.mcp);
+    if (filters.gate) next.set('gate', filters.gate);
+    if (filters.cli) next.set('cli', '1');
+    for (var i = 0; i < others.length; i++) next.append(others[i][0], others[i][1]);
+    var qs = next.toString();
+    var href = location.pathname + (qs ? '?' + qs : '') + location.hash;
+    var cur = location.pathname + location.search + location.hash;
+    if (href !== cur) history.replaceState(null, '', href);
+  }
 
   function tokens(s){
     return (s||'').toLowerCase().replace(/[^a-z0-9+.# ]+/g,' ').split(/\s+/)
@@ -963,6 +1023,7 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
       cnt.textContent = LIMIT + ' of ' + total + ' shown. ' +
         (total - LIMIT) + ' trimmed by the display limit, not by ranking.';
     }
+    writeUrl();
   }
 
   q.addEventListener('input', run);
@@ -984,6 +1045,7 @@ SEARCH_JS = r"""/* The GTM MCP Directory - capability search.
     stamp.textContent = META.tools + ' unique products indexed, baked ' + META.generated_on +
       ' from ' + META.entries + ' directory entries.';
   }
+  applyUrl();
   run();
 })();"""
 
@@ -1482,7 +1544,10 @@ still {c['bench_tested']} across the whole directory.</p>
 <h2>Ask for the job, not the category.</h2>
 <p class="sub">An agent does not want a data enrichment tool. It wants a person's title from a
 LinkedIn URL. Type the thing you are trying to do. This runs in your browser over a baked index:
-no backend, no query logging, and it keeps working with the network cable pulled out.</p>
+no backend, no query logging, and it keeps working with the network cable pulled out. The box and
+the chips write <code>q</code>, <code>mcp</code>, <code>gate</code> and <code>cli</code> onto this
+page's URL so a link opens the same filter. Those query strings are not sitemap pages. The contract
+is on <a href="data.html">the data page</a> and in <a href="llms.txt">llms.txt</a>.</p>
 <div class="searchbox">
 <label class="sr" for="q" hidden>Search the directory</label>
 <input id="q" type="search" autocomplete="off" spellcheck="false"
@@ -8194,6 +8259,16 @@ when a human pulled that entry's facts. <code>generated_on</code> is only when t
 <p style="margin-top:10px"><b>Null means unmeasured, not zero.</b> Every github_* field and
 docs_digest is null on all {num(cov['unmeasured_spec_fields']['github_url'])} entries because the
 rail that would fill them has not run.</p>
+<p style="margin-top:10px"><b>Homepage search is the same page with or without a query string.</b>
+Agents and people can deep-link the capability search with these params. They are applied in the
+browser from the baked index. They are not in the sitemap, and they do not mint a new page per
+query.</p>
+<p style="margin-top:10px"><code>q</code> is the search phrase (spaces as <code>+</code> or
+<code>%20</code>). <code>mcp</code> is one of official, community, none-found, unknown, n-a.
+<code>gate</code> is one of free, paid, enterprise-leaning, enterprise-only, unknown, n-a.
+<code>cli=1</code> keeps products that ship a measured official or community CLI. Unknown
+<code>mcp</code> or <code>gate</code> values are ignored. They do not invent an official server.
+Example: <code>{SITE_BASE.rstrip("/")}/?q=apollo&amp;mcp=official</code>.</p>
 </div></div>
 
 <div class="field"><div class="k">Terms</div><div class="v">
@@ -8284,6 +8359,13 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
     A(f"- [Updates feed]({b}/updates/): daily and weekly digest files from directory/digests/, "
       f"as HTML. JSON at [{b}/updates/feed.json]({b}/updates/feed.json), Atom at "
       f"[{b}/updates/atom.xml]({b}/updates/atom.xml). A date with no file has no page.")
+    A(f"- Homepage capability search accepts shareable query params on the front page. They are "
+      f"client-side only: the same page, not distinct crawlable URLs, and they are not in the "
+      f"sitemap. `q` is the search phrase (spaces as `+` or `%20`). `mcp` is one of official, "
+      f"community, none-found, unknown, n-a. `gate` is one of free, paid, enterprise-leaning, "
+      f"enterprise-only, unknown, n-a. `cli=1` keeps products that ship a measured official or "
+      f"community CLI. Unknown `mcp` or `gate` values are ignored and do not invent an official "
+      f"server. Example: `{b}/?q=apollo&mcp=official`.")
     A("")
     if board:
         bc = board["counts"]
@@ -8499,6 +8581,8 @@ def build_sitemap(d, out: Path):
               f"# including machines. The site has no backend, so nothing about you is logged.\n"
               f"# The hosted MCP endpoint at /gtm-directory/api/mcp needs a free key and records,\n"
               f"# per key, the number of calls and the date last used, and nothing else.\n"
+              f"# Capability search query params (q, mcp, gate, cli) are client-side filters on\n"
+              f"# the homepage. They are not separate pages and are not in the sitemap.\n"
               f"User-agent: *\n"
               f"Allow: /\n\n"
               f"Sitemap: {b}/sitemap.xml\n"
@@ -8885,6 +8969,15 @@ def check(out: Path, d, expect_pages):
         problems.append("llms.txt does not say the hosted MCP has no model selection")
     if "LM Studio" not in llms:
         problems.append("llms.txt does not mention LM Studio as a client model path")
+    if "?q=apollo&mcp=official" not in llms:
+        problems.append("llms.txt is missing the capability search query param contract")
+    if re.search(r"<loc>[^<]*\?", smap):
+        problems.append("sitemap.xml lists query-param URLs")
+    sj = (out / "assets" / "search.js").read_text(encoding="utf-8") if (out / "assets" / "search.js").exists() else ""
+    if "history.replaceState" not in sj:
+        problems.append("search.js does not sync the URL")
+    if "params.get('q')" not in sj or "params.get('mcp')" not in sj:
+        problems.append("search.js does not read q/mcp query params")
 
     feed_path = out / "updates" / "feed.json"
     if feed_path.exists():

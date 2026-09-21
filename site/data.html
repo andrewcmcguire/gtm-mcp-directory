@@ -186,6 +186,16 @@ when a human pulled that entry's facts. <code>generated_on</code> is only when t
 <p style="margin-top:10px"><b>Null means unmeasured, not zero.</b> Every github_* field and
 docs_digest is null on all 1,252 entries because the
 rail that would fill them has not run.</p>
+<p style="margin-top:10px"><b>Homepage search is the same page with or without a query string.</b>
+Agents and people can deep-link the capability search with these params. They are applied in the
+browser from the baked index. They are not in the sitemap, and they do not mint a new page per
+query.</p>
+<p style="margin-top:10px"><code>q</code> is the search phrase (spaces as <code>+</code> or
+<code>%20</code>). <code>mcp</code> is one of official, community, none-found, unknown, n-a.
+<code>gate</code> is one of free, paid, enterprise-leaning, enterprise-only, unknown, n-a.
+<code>cli=1</code> keeps products that ship a measured official or community CLI. Unknown
+<code>mcp</code> or <code>gate</code> values are ignored. They do not invent an official server.
+Example: <code>https://andrewcmcguire.com/gtm-directory/?q=apollo&amp;mcp=official</code>.</p>
 </div></div>
 
 <div class="field"><div class="k">Terms</div><div class="v">

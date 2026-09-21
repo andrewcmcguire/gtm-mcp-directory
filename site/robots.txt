@@ -2,6 +2,8 @@
 # including machines. The site has no backend, so nothing about you is logged.
 # The hosted MCP endpoint at /gtm-directory/api/mcp needs a free key and records,
 # per key, the number of calls and the date last used, and nothing else.
+# Capability search query params (q, mcp, gate, cli) are client-side filters on
+# the homepage. They are not separate pages and are not in the sitemap.
 User-agent: *
 Allow: /
 

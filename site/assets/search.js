@@ -1,6 +1,16 @@
 /* The GTM MCP Directory - capability search.
    Runs entirely in the page over the baked index. No backend, no network call,
-   no query logging, works with the network cable pulled out. */
+   no query logging, works with the network cable pulled out.
+
+   Shareable query params on the homepage (same page, not distinct sitemap URLs):
+     q    search phrase (spaces as + or %20)
+     mcp  official | community | none-found | unknown | n-a
+     gate free | paid | enterprise-leaning | enterprise-only | unknown | n-a
+     cli  1  (keeps products with a measured official or community CLI)
+   Example: ?q=apollo&mcp=official
+   On load those params fill the box and press the chips. On change the URL is
+   updated with history.replaceState so a reload is never required. Unknown
+   mcp or gate values are ignored. They do not invent an official server. */
 (function(){
   var IDX = (window.GTMD_INDEX && window.GTMD_INDEX.tools) || [];
   var VIDX = (window.GTMD_INDEX && window.GTMD_INDEX.vendors) || [];
@@ -12,6 +22,56 @@
   if(!q || !out) return;
 
   var filters = {mcp:null, gate:null, cli:null};
+  var MCP_OK = {official:1, community:1, 'none-found':1, unknown:1, 'n-a':1};
+  var GATE_OK = {free:1, paid:1, 'enterprise-leaning':1, 'enterprise-only':1, unknown:1, 'n-a':1};
+
+  function paramsOf(){
+    try { return new URLSearchParams(location.search); }
+    catch (e) { return null; }
+  }
+
+  function applyUrl(){
+    var params = paramsOf();
+    if (!params) return;
+    var qv = params.get('q');
+    if (qv !== null) q.value = qv;
+    var mcp = params.get('mcp');
+    if (mcp && MCP_OK[mcp]) filters.mcp = mcp;
+    var gate = params.get('gate');
+    if (gate && GATE_OK[gate]) filters.gate = gate;
+    var cli = params.get('cli');
+    if (cli === '1' || cli === 'any' || cli === 'true') filters.cli = 'any';
+    chips.forEach(function(c){
+      var kind = c.getAttribute('data-kind');
+      var val = c.getAttribute('data-val');
+      var on = (kind === 'cli') ? !!filters.cli : (filters[kind] === val);
+      c.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  function writeUrl(){
+    if (!history.replaceState) return;
+    var next;
+    try { next = new URLSearchParams(); }
+    catch (e) { return; }
+    var params = paramsOf();
+    var others = [];
+    if (params) {
+      params.forEach(function(v, k){
+        if (k !== 'q' && k !== 'mcp' && k !== 'gate' && k !== 'cli') others.push([k, v]);
+      });
+    }
+    var qv = (q.value || '').trim();
+    if (qv) next.set('q', qv);
+    if (filters.mcp) next.set('mcp', filters.mcp);
+    if (filters.gate) next.set('gate', filters.gate);
+    if (filters.cli) next.set('cli', '1');
+    for (var i = 0; i < others.length; i++) next.append(others[i][0], others[i][1]);
+    var qs = next.toString();
+    var href = location.pathname + (qs ? '?' + qs : '') + location.hash;
+    var cur = location.pathname + location.search + location.hash;
+    if (href !== cur) history.replaceState(null, '', href);
+  }
 
   function tokens(s){
     return (s||'').toLowerCase().replace(/[^a-z0-9+.# ]+/g,' ').split(/\s+/)
@@ -138,6 +198,7 @@
       cnt.textContent = LIMIT + ' of ' + total + ' shown. ' +
         (total - LIMIT) + ' trimmed by the display limit, not by ranking.';
     }
+    writeUrl();
   }
 
   q.addEventListener('input', run);
@@ -159,5 +220,6 @@
     stamp.textContent = META.tools + ' unique products indexed, baked ' + META.generated_on +
       ' from ' + META.entries + ' directory entries.';
   }
+  applyUrl();
   run();
 })();

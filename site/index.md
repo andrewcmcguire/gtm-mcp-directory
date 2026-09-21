@@ -52,7 +52,7 @@ The command-line layer was harvested 2026-09-18 across vendor docs, npm, PyPI, H
 
 ## Ask for the job, not the category.
 
-An agent does not want a data enrichment tool. It wants a person's title from a LinkedIn URL. Type the thing you are trying to do. This runs in your browser over a baked index: no backend, no query logging, and it keeps working with the network cable pulled out.
+An agent does not want a data enrichment tool. It wants a person's title from a LinkedIn URL. Type the thing you are trying to do. This runs in your browser over a baked index: no backend, no query logging, and it keeps working with the network cable pulled out. The box and the chips write `q`, `mcp`, `gate` and `cli` onto this page's URL so a link opens the same filter. Those query strings are not sitemap pages. The contract is on [the data page](data.md) and in [llms.txt](llms.txt).
 
 Search the directory
 

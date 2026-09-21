@@ -87,6 +87,10 @@ No key, no signup, no rate limit, no tracking. The same file the site is generat
 
 **Null means unmeasured, not zero.** Every github_* field and docs_digest is null on all 1,252 entries because the rail that would fill them has not run.
 
+**Homepage search is the same page with or without a query string.** Agents and people can deep-link the capability search with these params. They are applied in the browser from the baked index. They are not in the sitemap, and they do not mint a new page per query.
+
+`q` is the search phrase (spaces as `+` or `%20`). `mcp` is one of official, community, none-found, unknown, n-a. `gate` is one of free, paid, enterprise-leaning, enterprise-only, unknown, n-a. `cli=1` keeps products that ship a measured official or community CLI. Unknown `mcp` or `gate` values are ignored. They do not invent an official server. Example: `https://andrewcmcguire.com/gtm-directory/?q=apollo&mcp=official`.
+
 **Terms**
 
 Use it. Attribution to The GTM MCP Directory with a link is the only ask, and it is an ask rather than a licence trap. The data is free because it is more useful when other operators correct it, and a correction is the most valuable thing anyone can send. There is no key to request, no quota, and nothing about you is logged by this site because there is no backend to log it. The one thing on this route that does need a key is the [hosted MCP endpoint](access/index.md), and the key is free; per key it records the number of calls and the date last used, and nothing else.
