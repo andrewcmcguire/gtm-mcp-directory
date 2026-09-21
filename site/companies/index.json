@@ -4,10 +4,13 @@
   "url_base": "/gtm-directory/companies/",
   "count": 3,
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
+  "source_of_record": "fin45 / GTM Signals Postgres",
   "companies": [
     {
       "slug": "clay",
-      "name": "Clay",
+      "legal_name": "Clay",
+      "domain": "clay.com",
+      "ticker": null,
       "url": "/gtm-directory/companies/clay/",
       "honesty_badge": "official",
       "tools": 1,
@@ -15,7 +18,9 @@
     },
     {
       "slug": "exa",
-      "name": "Exa",
+      "legal_name": "Exa",
+      "domain": "exa.ai",
+      "ticker": null,
       "url": "/gtm-directory/companies/exa/",
       "honesty_badge": "official",
       "tools": 1,
@@ -23,7 +28,9 @@
     },
     {
       "slug": "hubspot",
-      "name": "HubSpot",
+      "legal_name": "HubSpot",
+      "domain": "hubspot.com",
+      "ticker": "HUBS",
       "url": "/gtm-directory/companies/hubspot/",
       "honesty_badge": "official",
       "tools": 2,

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Company pages (scaffold)</title>
-<meta name="description" content="3 company pages in The GTM MCP Directory company-v1 scaffold. Honesty badges and tool counts come from directory.json. Data baked 2026-09-20.">
+<title>Company pages (Why Now account cards)</title>
+<meta name="description" content="3 Why Now account cards in The GTM MCP Directory company-v1 scaffold. Honesty badges and tool counts come from directory.json. Data baked 2026-09-20.">
 <meta name="robots" content="index,follow">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://andrewcmcguire.com/gtm-directory/companies/">
@@ -35,7 +35,7 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Company pages",
-  "description": "Scaffold company profiles linked to directory entries.",
+  "description": "Why Now account cards linked to directory entries.",
   "url": "https://andrewcmcguire.com/gtm-directory/companies/",
   "numberOfItems": 3,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
@@ -88,18 +88,20 @@
 <div class="crumbs" style="padding-bottom:0"><a href="../index.html">Directory</a> / Companies</div>
 <section style="padding-top:18px">
 <div class="eyebrow">Scaffold</div>
-<h2>Company pages.</h2>
-<p class="sub">3 company records in the company-v1 shape, emitted at
-<code>/gtm-directory/companies/{slug}/</code>. Each page links to existing directory
-tool entries. MCP honesty badges and tool counts are copied from directory.json. Firmographics
-and people that are not in the directory are marked EXAMPLE or left empty.</p>
+<h2>Why Now account cards.</h2>
+<p class="sub">3 company records in the SteadyBase company-v1 shape, emitted at
+<code>/gtm-directory/companies/{slug}/</code>. Each page is an account card (identity, family,
+why_now, executives, mcp_package_hint) plus a directory overlay. MCP honesty badges and tool
+counts are copied from directory.json. why_now abstains when there is no verbatim quote with a
+receipt. executives stay empty without a filing roster. family stays empty without EX-21 proof.</p>
 <p class="note">This is not the same surface as <a href="../vendors/index.html">Vendors</a>,
 which groups every product by vendor domain. It is also not
 <a href="https://andrewcmcguire.com/companies/">/companies/</a> on the apex, which is
-earnings-call briefs. Read <code>directory/product/companies/COMPANY_PAGES.md</code> before adding a record.</p>
+earnings-call briefs. Public-company intel source of record is fin45 / GTM Signals Postgres.
+Read <code>directory/product/companies/COMPANY_PAGES.md</code> before adding a record.</p>
 <div class="scroller"><table class="datatable">
-<thead><tr><th>Company</th><th>Website</th><th>Honesty badge</th><th>Linked tools</th><th>Last enriched</th></tr></thead>
-<tbody><tr><td><a href="clay/">Clay</a></td><td>clay.com</td><td>Official MCP</td><td class="n">1</td><td class="n">2026-09-21</td></tr><tr><td><a href="exa/">Exa</a></td><td>exa.ai</td><td>Official MCP</td><td class="n">1</td><td class="n">2026-09-21</td></tr><tr><td><a href="hubspot/">HubSpot</a></td><td>hubspot.com</td><td>Official MCP</td><td class="n">2</td><td class="n">2026-09-21</td></tr></tbody></table></div>
+<thead><tr><th>legal_name</th><th>domain</th><th>ticker</th><th>Honesty badge</th><th>Linked tools</th><th>Last enriched</th></tr></thead>
+<tbody><tr><td><a href="clay/">Clay</a></td><td>clay.com</td><td><span class="empty">null</span></td><td>Official MCP</td><td class="n">1</td><td class="n">2026-09-21</td></tr><tr><td><a href="exa/">Exa</a></td><td>exa.ai</td><td><span class="empty">null</span></td><td>Official MCP</td><td class="n">1</td><td class="n">2026-09-21</td></tr><tr><td><a href="hubspot/">HubSpot</a></td><td>hubspot.com</td><td>HUBS</td><td>Official MCP</td><td class="n">2</td><td class="n">2026-09-21</td></tr></tbody></table></div>
 </section>
 </div><footer class="foot">
 <div class="wrap wide">

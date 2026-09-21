@@ -1,17 +1,27 @@
 {
   "schema_version": "company-v1",
   "slug": "hubspot",
-  "name": "HubSpot",
-  "website": "hubspot.com",
-  "vendor_domain": "hubspot.com",
-  "category_tags": [
-    "revops-infra",
-    "ai-sdr-agents",
-    "read-crm-records",
-    "write-crm-records",
-    "run-email-sequence",
-    "draft-personalized-outreach"
-  ],
+  "account_id": null,
+  "legal_name": "HubSpot",
+  "ticker": "HUBS",
+  "cik": null,
+  "domain": "hubspot.com",
+  "linkedin_company_url": null,
+  "family": {
+    "parent_account_id": null,
+    "subsidiaries": []
+  },
+  "entry_point_account_id": null,
+  "why_now": [],
+  "executives": [],
+  "mcp_package_hint": {
+    "slug": "hubspot",
+    "page_url": "https://andrewcmcguire.com/gtm-directory/companies/hubspot/",
+    "listing_url": "https://andrewcmcguire.com/gtm-directory/tools/hubspot",
+    "mcp_url": "https://developers.hubspot.com/ai-tools/mcp",
+    "ticker": "HUBS",
+    "domain": "hubspot.com"
+  },
   "tools": [
     {
       "slug": "hubspot",
@@ -22,68 +32,22 @@
       "entry_id": "04-hubspot-breeze"
     }
   ],
-  "firmographics": {
-    "founded": {
-      "value": "EXAMPLE 2006",
-      "citations": [
-        {
-          "label": "EXAMPLE citation. Not harvested. Do not quote as a directory fact.",
-          "url": "https://example.com/EXAMPLE-hubspot-founded",
-          "placeholder": true
-        }
-      ],
-      "placeholder": true
-    },
-    "hq": {
-      "value": "EXAMPLE Cambridge, MA, USA",
-      "citations": [
-        {
-          "label": "EXAMPLE citation. Not harvested.",
-          "url": "https://example.com/EXAMPLE-hubspot-hq",
-          "placeholder": true
-        }
-      ],
-      "placeholder": true
-    },
-    "size_band": {
-      "value": "EXAMPLE 5001+",
-      "citations": [],
-      "placeholder": true
-    },
-    "funding": {
-      "value": "EXAMPLE public company; funding history not harvested",
-      "citations": [
-        {
-          "label": "EXAMPLE citation. Not harvested.",
-          "url": "https://example.com/EXAMPLE-hubspot-funding",
-          "placeholder": true
-        }
-      ],
-      "placeholder": true
-    }
-  },
-  "people": [
-    {
-      "name": "EXAMPLE founder name",
-      "role": "Co-founder (EXAMPLE)",
-      "kind": "founder",
-      "profile_url": "https://example.com/EXAMPLE-hubspot-founder",
-      "placeholder": true
-    },
-    {
-      "name": "EXAMPLE exec name",
-      "role": "Chief Executive Officer (EXAMPLE)",
-      "kind": "exec",
-      "profile_url": "https://example.com/EXAMPLE-hubspot-ceo",
-      "placeholder": true
-    }
+  "honesty_badge": "official",
+  "category_tags": [
+    "revops-infra",
+    "ai-sdr-agents",
+    "read-crm-records",
+    "write-crm-records",
+    "run-email-sequence",
+    "draft-personalized-outreach"
   ],
-  "mcp": {
-    "how_it_works": "The HubSpot product entry records an official MCP server on the vendor developer page. Auth is OAuth 2.0 on the hosted Remote MCP Server, with a separate local Developer MCP Server that authenticates through the HubSpot CLI. HubSpot Breeze is a second product on the same vendor domain; the directory records mcp_status none-found for that entry. Tool names and counts on this page are copied from directory.json at build time, not typed here.",
-    "honesty_badge": "official"
+  "provenance": {
+    "last_enriched": "2026-09-21",
+    "source_of_record": "fin45 / GTM Signals Postgres for public-company intel; directory.json for MCP honesty",
+    "enrichment_scope": "company-level",
+    "notes": "legal_name and domain from directory entries 06-hubspot and 04-hubspot-breeze. ticker HUBS from the existing PUBLIC_COMPANIES map. mcp_package_hint.mcp_url copied from 06-hubspot. account_id, cik, linkedin_company_url, family, why_now, and executives are unissued or empty. No EX-21 nodes. No filing roster. No acc_ minted from slug."
   },
-  "last_enriched": "2026-09-21",
-  "notes": "Scaffold mock. Firmographics and people are EXAMPLE placeholders. MCP status and tool counts must come from the linked directory entries.",
+  "notes": "Why Now account card scaffold. Empty why_now is an abstain, not a missing scoop. Empty executives means no filing-roster harvest, not a claim the company has no officers.",
   "url": "https://andrewcmcguire.com/gtm-directory/companies/hubspot/",
   "honesty_badge_derived": "official",
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",

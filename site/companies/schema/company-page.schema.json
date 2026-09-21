@@ -1,21 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://andrewcmcguire.com/gtm-directory/companies/schema/company-page.schema.json",
-  "title": "GTM MCP Directory company page (company-v1)",
-  "description": "Steadybase-compatible company record for The GTM MCP Directory. directory.json honesty fields beat this file for MCP status, tool counts, gates, and last_checked. Firmographics and people that are not in directory.json must set placeholder=true.",
+  "title": "GTM MCP Directory company page (SteadyBase public company-v1)",
+  "description": "Field lock from GTM Signals / SteadyBase. Use these names exactly. Do not invent synonyms. Public-company intel source of record is fin45 / GTM Signals Postgres, not this repo. This file is the personal-directory presentation layer plus an MCP explainer. directory.json beats this file for MCP honesty and tool counts.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "schema_version",
     "slug",
-    "name",
-    "website",
-    "category_tags",
+    "account_id",
+    "legal_name",
+    "domain",
+    "family",
+    "entry_point_account_id",
+    "why_now",
+    "executives",
+    "mcp_package_hint",
     "tools",
-    "firmographics",
-    "people",
-    "mcp",
-    "last_enriched"
+    "honesty_badge",
+    "provenance"
   ],
   "properties": {
     "schema_version": {
@@ -25,99 +28,178 @@
     "slug": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "description": "URL slug. Page lives at /gtm-directory/companies/{slug}/."
+      "description": "Presentation URL id only. Page lives at /gtm-directory/companies/{slug}/. Not a SteadyBase synonym for account_id or legal_name."
     },
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "website": {
-      "type": "string",
-      "description": "Vendor website as a URL or bare domain. Prefer the directory vendor_url of the primary tool."
-    },
-    "vendor_domain": {
+    "account_id": {
       "type": ["string", "null"],
-      "description": "Optional. When set, must match directory vendor_domain on every linked tool that has one."
+      "description": "Feed value only from fin45 / GTM Signals. null if missing. NEVER invent acc_ from slug."
     },
-    "category_tags": {
+    "legal_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Legal / display name. Not the synonym legal."
+    },
+    "ticker": {
+      "type": ["string", "null"],
+      "description": "Optional listed ticker. Only when a public filing or the existing PUBLIC_COMPANIES map already has it."
+    },
+    "cik": {
+      "type": ["string", "null"],
+      "description": "Optional SEC CIK. Only from a public filing. Do not invent."
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Registrable vendor domain. Must match directory vendor_domain on every linked tool that has one."
+    },
+    "linkedin_company_url": {
+      "type": ["string", "null"],
+      "description": "From identity.linkedin_url only when it is a LinkedIn company or school page. Do not invent."
+    },
+    "family": { "$ref": "#/$defs/family" },
+    "entry_point_account_id": {
+      "type": ["string", "null"],
+      "description": "Proved parent account_id if that parent already has an id, else this record's account_id, else abstain (null). Never a tenant go-after id."
+    },
+    "why_now": {
       "type": "array",
-      "description": "Category slugs and/or job slugs already present on linked directory entries.",
-      "items": { "type": "string", "minLength": 1 }
+      "description": "Verbatim quotes with a resolvable receipt. Abstain (empty array) if the quote is weak or unpublished.",
+      "items": { "$ref": "#/$defs/why_now_item" }
     },
+    "executives": {
+      "type": "array",
+      "description": "Filing-roster or licensed sources only. No email or phone on public pages.",
+      "items": { "$ref": "#/$defs/executive" }
+    },
+    "mcp_package_hint": { "$ref": "#/$defs/mcp_package_hint" },
     "tools": {
       "type": "array",
       "minItems": 1,
-      "description": "Links to existing directory entries. slugs and entry_ids must exist in directory.json.",
+      "description": "Directory overlay. Pointers at existing directory.json entries. Not a SteadyBase synonym.",
       "items": { "$ref": "#/$defs/tool_ref" }
     },
-    "firmographics": { "$ref": "#/$defs/firmographics" },
-    "people": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/person" }
-    },
-    "mcp": { "$ref": "#/$defs/mcp" },
-    "last_enriched": {
+    "honesty_badge": {
       "type": "string",
-      "description": "ISO date (YYYY-MM-DD) or datetime when this company record was last enriched. Not the same as an entry last_checked."
+      "enum": ["official", "community", "none-found", "unknown"],
+      "description": "Directory overlay. Must match the badge derived from linked directory entries. n-a is not a company badge."
     },
+    "category_tags": {
+      "type": "array",
+      "description": "Directory overlay. Category slugs and/or job slugs already on the linked entries.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "provenance": { "$ref": "#/$defs/provenance" },
     "notes": {
       "type": "string",
-      "description": "Optional editorial note. Must not invent MCP status or tool counts."
+      "description": "Optional editorial note. Must not invent MCP status, tool counts, quotes, executives, or family nodes."
     }
   },
   "$defs": {
-    "citation": {
+    "family": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["label"],
+      "required": ["parent_account_id", "subsidiaries"],
       "properties": {
-        "label": { "type": "string", "minLength": 1 },
-        "url": { "type": ["string", "null"] },
-        "placeholder": { "type": "boolean" }
-      }
-    },
-    "cited_value": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["value", "citations"],
-      "properties": {
-        "value": { "type": ["string", "integer", "null"] },
-        "citations": {
+        "parent_account_id": {
+          "type": ["string", "null"],
+          "description": "Only if a proved parent already has a feed account_id. Do not invent acc_ from a slug."
+        },
+        "subsidiaries": {
           "type": "array",
-          "items": { "$ref": "#/$defs/citation" }
+          "description": "Proved nodes only (EX-21 or equivalent). legal_name is enough; do not invent ids.",
+          "items": { "$ref": "#/$defs/family_node" }
+        }
+      }
+    },
+    "family_node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["legal_name"],
+      "properties": {
+        "account_id": {
+          "type": ["string", "null"],
+          "description": "Feed id when the proved node already has one. null if the name is proved and the id is not. Do not invent acc_ from a slug."
+        },
+        "legal_name": { "type": "string", "minLength": 1 },
+        "domain": { "type": ["string", "null"] },
+        "proof": {
+          "type": "string",
+          "description": "Why this node is proved (for example EX-21). Required when the node is not a placeholder."
         },
         "placeholder": { "type": "boolean" }
       }
     },
-    "firmographics": {
+    "why_now_item": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["founded", "hq", "size_band", "funding"],
+      "required": ["quote", "receipt_url", "as_of"],
       "properties": {
-        "founded": { "$ref": "#/$defs/cited_value" },
-        "hq": { "$ref": "#/$defs/cited_value" },
-        "size_band": {
-          "allOf": [
-            { "$ref": "#/$defs/cited_value" }
-          ],
-          "description": "Controlled bands: 1-10, 11-50, 51-200, 201-500, 501-1000, 1001-5000, 5001+, unknown, or null."
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Verbatim public quote. Abstain rather than paraphrase."
         },
-        "funding": { "$ref": "#/$defs/cited_value" }
+        "receipt_url": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Resolvable public URL for the quote."
+        },
+        "as_of": {
+          "type": "string",
+          "description": "ISO date the quote was current."
+        },
+        "window_start": { "type": ["string", "null"] },
+        "window_end": { "type": ["string", "null"] },
+        "placeholder": { "type": "boolean" }
       }
     },
-    "person": {
+    "executive": {
       "type": "object",
       "additionalProperties": false,
       "required": ["name", "role"],
       "properties": {
         "name": { "type": "string", "minLength": 1 },
         "role": { "type": "string", "minLength": 1 },
-        "kind": {
+        "source": {
           "type": "string",
-          "enum": ["founder", "exec", "other"]
+          "description": "Filing roster or licensed source. Required when placeholder is not true."
         },
-        "profile_url": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "as_of": { "type": ["string", "null"] },
         "placeholder": { "type": "boolean" }
+      },
+      "description": "No email. No phone. Public pages never carry those fields."
+    },
+    "mcp_package_hint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug", "page_url", "listing_url", "mcp_url"],
+      "description": "Locator an agent uses to pull the same package. No official status. No tool counts.",
+      "properties": {
+        "slug": {
+          "type": "string",
+          "description": "Company page slug. Must match the record slug."
+        },
+        "page_url": {
+          "type": "string",
+          "description": "HTML card: https://andrewcmcguire.com/gtm-directory/companies/{slug}/"
+        },
+        "listing_url": {
+          "type": "string",
+          "description": "Directory listing for the primary linked tool: https://andrewcmcguire.com/gtm-directory/tools/{tool-slug}"
+        },
+        "mcp_url": {
+          "type": ["string", "null"],
+          "description": "Connect URL copied from the primary linked directory entry. null if that entry has none. Not a status and not a count."
+        },
+        "ticker": {
+          "type": ["string", "null"],
+          "description": "Include when the company record has a ticker."
+        },
+        "domain": {
+          "type": "string",
+          "description": "Include when the company record has a domain."
+        }
       }
     },
     "tool_ref": {
@@ -135,20 +217,25 @@
         }
       }
     },
-    "mcp": {
+    "provenance": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["how_it_works", "honesty_badge"],
+      "required": ["last_enriched", "source_of_record", "enrichment_scope"],
       "properties": {
-        "how_it_works": {
+        "last_enriched": {
           "type": "string",
-          "description": "Prose assembled from directory fields. Must not contradict mcp_status_bucket or mcp_tool_count."
+          "description": "ISO date of the last company-record enrich on this presentation layer."
         },
-        "honesty_badge": {
+        "source_of_record": {
           "type": "string",
-          "enum": ["official", "community", "none-found", "unknown"],
-          "description": "Must match the badge the generator derives from linked directory entries. n-a is not a company badge."
-        }
+          "description": "Where public-company intel will come from. Default: fin45 / GTM Signals Postgres. This repo does not replace that."
+        },
+        "enrichment_scope": {
+          "type": "string",
+          "const": "company-level",
+          "description": "Company-level only for now. No contact, no tenant book, no ICP."
+        },
+        "notes": { "type": "string" }
       }
     }
   }

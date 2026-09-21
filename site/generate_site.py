@@ -8114,11 +8114,16 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
           f"more than one product: "
           + ", ".join(f"{v['name']} ({v['facts']['products']})" for v in multi) + ".")
     if companies:
-        A(f"- [Company pages]({b}/companies/): {len(companies)} company-v1 records at "
-          f"`{b}/companies/{{slug}}/`. These are company overlays (firmographics, people, an MCP "
-          f"honesty badge), not the vendor-domain rollup. Honesty badges and tool counts are "
-          f"copied from directory.json. Firmographics that are not in the directory are marked "
-          f"EXAMPLE or left empty. Schema: `{b}/companies/schema/company-page.schema.json`.")
+        A(f"- [Company pages]({b}/companies/): {len(companies)} Why Now account cards at "
+          f"`{b}/companies/{{slug}}/`. SteadyBase fields: account_id (feed only, never acc_ from "
+          f"slug), legal_name, ticker, cik, domain, linkedin_company_url, family, "
+          f"entry_point_account_id (proved parent, else self, else abstain), why_now, executives, "
+          f"mcp_package_hint {{slug, page_url, listing_url, mcp_url, ticker?, domain?}}. Honesty "
+          f"badges and tool counts are copied from directory.json. mcp_package_hint carries no "
+          f"official status and no tool count. why_now abstains without a verbatim quote and "
+          f"receipt. executives stay empty without a filing roster. family stays empty without "
+          f"EX-21 proof. Public-company intel source of record is fin45 / GTM Signals Postgres, "
+          f"not this repo. Schema: `{b}/companies/schema/company-page.schema.json`.")
     A(f"- [By category]({b}/categories/index.html): {c['categories']} categories with their "
       f"coverage.")
     A(f"- [By job]({b}/jobs/index.html): {c['jobs']} jobs phrased the way an agent asks for them.")

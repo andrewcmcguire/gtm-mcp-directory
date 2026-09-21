@@ -1,9 +1,33 @@
 {
   "schema_version": "company-v1",
   "slug": "clay",
-  "name": "Clay",
-  "website": "clay.com",
-  "vendor_domain": "clay.com",
+  "account_id": null,
+  "legal_name": "Clay",
+  "ticker": null,
+  "cik": null,
+  "domain": "clay.com",
+  "linkedin_company_url": null,
+  "family": {
+    "parent_account_id": null,
+    "subsidiaries": []
+  },
+  "entry_point_account_id": null,
+  "why_now": [],
+  "executives": [],
+  "mcp_package_hint": {
+    "slug": "clay",
+    "page_url": "https://andrewcmcguire.com/gtm-directory/companies/clay/",
+    "listing_url": "https://andrewcmcguire.com/gtm-directory/tools/clay",
+    "mcp_url": "https://www.clay.com/mcp",
+    "domain": "clay.com"
+  },
+  "tools": [
+    {
+      "slug": "clay",
+      "entry_id": "01-clay"
+    }
+  ],
+  "honesty_badge": "official",
   "category_tags": [
     "data-enrichment",
     "enrich-company-from-domain",
@@ -11,41 +35,13 @@
     "find-work-email",
     "write-crm-records"
   ],
-  "tools": [
-    {
-      "slug": "clay",
-      "entry_id": "01-clay"
-    }
-  ],
-  "firmographics": {
-    "founded": {
-      "value": null,
-      "citations": [],
-      "placeholder": true
-    },
-    "hq": {
-      "value": null,
-      "citations": [],
-      "placeholder": true
-    },
-    "size_band": {
-      "value": null,
-      "citations": [],
-      "placeholder": true
-    },
-    "funding": {
-      "value": null,
-      "citations": [],
-      "placeholder": true
-    }
+  "provenance": {
+    "last_enriched": "2026-09-21",
+    "source_of_record": "fin45 / GTM Signals Postgres for public-company intel; directory.json for MCP honesty",
+    "enrichment_scope": "company-level",
+    "notes": "legal_name and domain from directory entry 01-clay. Private company: ticker and cik stay null. mcp_package_hint.mcp_url is the first URL on 01-clay. account_id, family, why_now, and executives are unissued or empty. Clay Workbench is a different directory entry on github.com and is not linked."
   },
-  "people": [],
-  "mcp": {
-    "how_it_works": "The Clay product entry records an official MCP at clay.com/mcp, with docs at university.clay.com. Auth is a session cookie from app.clay.com, not a scoped API key. The 2026-09-04 probe recorded the URL as a docs page, not a live endpoint. The harvested tool list on that entry was read from a third-party repository (mcp_tools_repo_party is third-party). This page does not treat that catalogue as Clay's own published MCP surface. Tool names and counts are copied from directory.json at build time.",
-    "honesty_badge": "official"
-  },
-  "last_enriched": "2026-09-21",
-  "notes": "Scaffold mock. Firmographics and people are unenriched (null, placeholder=true). Clay Workbench is a different directory entry on github.com and is not linked here.",
+  "notes": "why_now abstains. executives empty until a filing roster or licensed source exists. Do not invent official tool counts.",
   "url": "https://andrewcmcguire.com/gtm-directory/companies/clay/",
   "honesty_badge_derived": "official",
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
