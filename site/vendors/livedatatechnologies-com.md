@@ -1,6 +1,6 @@
 # Live Data Technologies: products, MCP servers and connect URLs, one vendor page
 
-> Live Data Technologies (livedatatechnologies.com): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-18.
+> Live Data Technologies (livedatatechnologies.com): 2 products in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-20.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Live Data Technologies
 2 products in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-18
+Data baked 2026-09-20
 
 Vendor domain: [livedatatechnologies.com](https://livedatatechnologies.com) · vendor page id livedatatechnologies-com
 
@@ -115,4 +115,4 @@ No organisation could be tied with evidence to the entry for [LiveData](../tools
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 2 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-18 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-20 by build_directory.py (phase 1).

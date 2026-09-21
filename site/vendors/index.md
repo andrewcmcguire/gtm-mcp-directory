@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 978 vendors with their MCP servers
 
-> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-18.
+> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-20.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-18. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,866 tools catalogued across their servers, gateways excluded, harvested 2026-09-18. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-20. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,866 tools catalogued across their servers, gateways excluded, harvested 2026-09-18. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 1,252 entries in the whole directory are bench tested.
 

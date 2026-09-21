@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://andrewcmcguire.com/gtm-directory/companies/schema/company-page.schema.json",
+  "title": "GTM MCP Directory company page (company-v1)",
+  "description": "Steadybase-compatible company record for The GTM MCP Directory. directory.json honesty fields beat this file for MCP status, tool counts, gates, and last_checked. Firmographics and people that are not in directory.json must set placeholder=true.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "slug",
+    "name",
+    "website",
+    "category_tags",
+    "tools",
+    "firmographics",
+    "people",
+    "mcp",
+    "last_enriched"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "company-v1"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "URL slug. Page lives at /gtm-directory/companies/{slug}/."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "website": {
+      "type": "string",
+      "description": "Vendor website as a URL or bare domain. Prefer the directory vendor_url of the primary tool."
+    },
+    "vendor_domain": {
+      "type": ["string", "null"],
+      "description": "Optional. When set, must match directory vendor_domain on every linked tool that has one."
+    },
+    "category_tags": {
+      "type": "array",
+      "description": "Category slugs and/or job slugs already present on linked directory entries.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "tools": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Links to existing directory entries. slugs and entry_ids must exist in directory.json.",
+      "items": { "$ref": "#/$defs/tool_ref" }
+    },
+    "firmographics": { "$ref": "#/$defs/firmographics" },
+    "people": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/person" }
+    },
+    "mcp": { "$ref": "#/$defs/mcp" },
+    "last_enriched": {
+      "type": "string",
+      "description": "ISO date (YYYY-MM-DD) or datetime when this company record was last enriched. Not the same as an entry last_checked."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional editorial note. Must not invent MCP status or tool counts."
+    }
+  },
+  "$defs": {
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": ["string", "null"] },
+        "placeholder": { "type": "boolean" }
+      }
+    },
+    "cited_value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "citations"],
+      "properties": {
+        "value": { "type": ["string", "integer", "null"] },
+        "citations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/citation" }
+        },
+        "placeholder": { "type": "boolean" }
+      }
+    },
+    "firmographics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["founded", "hq", "size_band", "funding"],
+      "properties": {
+        "founded": { "$ref": "#/$defs/cited_value" },
+        "hq": { "$ref": "#/$defs/cited_value" },
+        "size_band": {
+          "allOf": [
+            { "$ref": "#/$defs/cited_value" }
+          ],
+          "description": "Controlled bands: 1-10, 11-50, 51-200, 201-500, 501-1000, 1001-5000, 5001+, unknown, or null."
+        },
+        "funding": { "$ref": "#/$defs/cited_value" }
+      }
+    },
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "role"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "role": { "type": "string", "minLength": 1 },
+        "kind": {
+          "type": "string",
+          "enum": ["founder", "exec", "other"]
+        },
+        "profile_url": { "type": ["string", "null"] },
+        "placeholder": { "type": "boolean" }
+      }
+    },
+    "tool_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug"],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "description": "directory.json entry slug (canonical product)."
+        },
+        "entry_id": {
+          "type": "string",
+          "description": "Optional directory.json entry id, e.g. 06-hubspot. When set, must match the resolved slug."
+        }
+      }
+    },
+    "mcp": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["how_it_works", "honesty_badge"],
+      "properties": {
+        "how_it_works": {
+          "type": "string",
+          "description": "Prose assembled from directory fields. Must not contradict mcp_status_bucket or mcp_tool_count."
+        },
+        "honesty_badge": {
+          "type": "string",
+          "enum": ["official", "community", "none-found", "unknown"],
+          "description": "Must match the badge the generator derives from linked directory entries. n-a is not a company badge."
+        }
+      }
+    }
+  }
+}

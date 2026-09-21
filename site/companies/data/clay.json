@@ -1,0 +1,75 @@
+{
+  "schema_version": "company-v1",
+  "slug": "clay",
+  "name": "Clay",
+  "website": "clay.com",
+  "vendor_domain": "clay.com",
+  "category_tags": [
+    "data-enrichment",
+    "enrich-company-from-domain",
+    "build-target-account-list",
+    "find-work-email",
+    "write-crm-records"
+  ],
+  "tools": [
+    {
+      "slug": "clay",
+      "entry_id": "01-clay"
+    }
+  ],
+  "firmographics": {
+    "founded": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    },
+    "hq": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    },
+    "size_band": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    },
+    "funding": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    }
+  },
+  "people": [],
+  "mcp": {
+    "how_it_works": "The Clay product entry records an official MCP at clay.com/mcp, with docs at university.clay.com. Auth is a session cookie from app.clay.com, not a scoped API key. The 2026-09-04 probe recorded the URL as a docs page, not a live endpoint. The harvested tool list on that entry was read from a third-party repository (mcp_tools_repo_party is third-party). This page does not treat that catalogue as Clay's own published MCP surface. Tool names and counts are copied from directory.json at build time.",
+    "honesty_badge": "official"
+  },
+  "last_enriched": "2026-09-21",
+  "notes": "Scaffold mock. Firmographics and people are unenriched (null, placeholder=true). Clay Workbench is a different directory entry on github.com and is not linked here.",
+  "url": "https://andrewcmcguire.com/gtm-directory/companies/clay/",
+  "honesty_badge_derived": "official",
+  "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
+  "tools_resolved": [
+    {
+      "slug": "clay",
+      "entry_id": "01-clay",
+      "name": "Clay",
+      "href": "/gtm-directory/tools/clay",
+      "vendor_page_href": "/gtm-directory/vendors/clay-com",
+      "category_slug": "data-enrichment",
+      "category_label": "Data & Enrichment",
+      "mcp_status_bucket": "official",
+      "mcp_status_raw": "official",
+      "mcp_tool_count": 89,
+      "mcp_tools_fetched_on": "2026-09-18",
+      "mcp_tools_evidence": "source",
+      "mcp_tools_repo_party": "third-party",
+      "endpoint_status": "docs-only",
+      "api_gate_bucket": "paid",
+      "tier": "RESEARCHED",
+      "last_checked": "2026-09-03",
+      "canonical": true
+    }
+  ],
+  "directory_generated_on": "2026-09-20"
+}

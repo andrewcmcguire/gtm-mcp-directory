@@ -1,6 +1,6 @@
 # The data: directory.json, published in full
 
-> The whole GTM MCP Directory as JSON: 1,252 entries, 201 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-18.
+> The whole GTM MCP Directory as JSON: 1,252 entries, 201 official MCP servers, 849 job tags, every source URL. Free, no key, no signup. Baked 2026-09-20.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](llms.txt). The whole dataset: [directory.json](data/directory.json).*
 
@@ -92,7 +92,7 @@ Facts about third party products are recorded from those vendors' own public sou
 
 **Provenance**
 
-- **Baked**: 2026-09-18
+- **Baked**: 2026-09-20
 
 - **By**: build_directory.py (phase 1)
 

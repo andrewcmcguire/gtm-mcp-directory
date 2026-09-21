@@ -1,6 +1,6 @@
 # The GTM MCP Directory - phase 1+2 build report
 
-Generated 2026-09-18 by `build_directory.py`. Zero network calls.
+Generated 2026-09-20 by `build_directory.py`. Zero network calls.
 
 ## Reconciliation against tools_recount.py
 

@@ -40,7 +40,7 @@ DATA_DIR = SITE_DIR.parent / "data"
 
 # Directories generate_site.py owns and will wipe on every run. Anything else that lives
 # in site/ (this script, DEPLOY.md) is left alone.
-GENERATED_DIRS = ["assets", "tools", "vendors", "categories", "gates", "mcp", "jobs", "jobs-board",
+GENERATED_DIRS = ["assets", "tools", "vendors", "companies", "categories", "gates", "mcp", "jobs", "jobs-board",
                   "github", "learn", "lists", "data", "access", "_dist"]
 GENERATED_FILES = [
     "index.html",
@@ -1121,6 +1121,7 @@ def masthead(rel, current=""):
 <nav class="navlinks">
 {link('tools/index.html','Tools','tools')}
 {link('vendors/index.html','Vendors','vendors')}
+{link('companies/index.html','Companies','companies')}
 {link('categories/index.html','Categories','categories')}
 {link('jobs/index.html','Jobs','jobs')}
 {link('jobs-board/index.html','Hiring','jobs-board')}
@@ -1165,6 +1166,7 @@ def footer(rel, d, r):
       <li><a href="{rel}tools/index.html">Every tool, A to Z</a></li>
       <li><a href="{rel}tools-index.html">Every tool a server names</a></li>
       <li><a href="{rel}vendors/index.html">Every vendor, one page each</a></li>
+      <li><a href="{rel}companies/index.html">Company pages</a></li>
       <li><a href="{rel}categories/index.html">By category</a></li>
       <li><a href="{rel}mcp/index.html">By MCP status</a></li>
       <li><a href="{rel}gates/index.html">By access gate</a></li>
@@ -7944,7 +7946,8 @@ wrong, <a href="submit.html">the correction path is the same one everybody else 
 # llms.txt, sitemap.xml, robots.txt
 # ----------------------------------------------------------------------------------
 
-def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, vendors=None):
+def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, vendors=None,
+                   companies=None):
     c = d["counts"]
     cov = r["coverage"]
     cap = d["capabilities"]
@@ -8110,6 +8113,12 @@ def build_llms_txt(d, r, out: Path, learn, lists, n_jobs, n_pages, board=None, v
           f"`{b}/vendors/cloud-google-com`. The markdown twin adds `.md`. {len(multi)} vendors have "
           f"more than one product: "
           + ", ".join(f"{v['name']} ({v['facts']['products']})" for v in multi) + ".")
+    if companies:
+        A(f"- [Company pages]({b}/companies/): {len(companies)} company-v1 records at "
+          f"`{b}/companies/{{slug}}/`. These are company overlays (firmographics, people, an MCP "
+          f"honesty badge), not the vendor-domain rollup. Honesty badges and tool counts are "
+          f"copied from directory.json. Firmographics that are not in the directory are marked "
+          f"EXAMPLE or left empty. Schema: `{b}/companies/schema/company-page.schema.json`.")
     A(f"- [By category]({b}/categories/index.html): {c['categories']} categories with their "
       f"coverage.")
     A(f"- [By job]({b}/jobs/index.html): {c['jobs']} jobs phrased the way an agent asks for them.")
@@ -8600,6 +8609,9 @@ def main():
     build_tools_index(d, r, entries, byid, out)
     n_caprows, n_caprecords = build_capability_index(d, r, entries, byid, out)
     n_vendors, vendor_rows = build_vendors(d, r, out)
+    sys.path.insert(0, str(SITE_DIR.parent / "companies"))
+    from build_company_pages import emit_company_pages  # noqa: E402
+    n_companies, company_rows = emit_company_pages(d, r, out)
     build_categories(d, r, entries, byid, out)
     build_bucket_view(d, r, entries, byid, out, "mcp")
     build_bucket_view(d, r, entries, byid, out, "gates")
@@ -8617,12 +8629,13 @@ def main():
     n_cat = 1 + len(d["categories"])
     n_mcp = 1 + sum(1 for b in MCP_ORDER if d["counts"]["mcp_status"].get(b))
     n_gate = 1 + sum(1 for b in GATE_ORDER if d["counts"]["api_gate"].get(b))
-    total = (1 + len(canon) + 1 + 1 + n_vendors + n_cat + n_mcp + n_gate + n_jobs + n_board
+    total = (1 + len(canon) + 1 + 1 + n_vendors + n_companies + n_cat + n_mcp + n_gate + n_jobs + n_board
              + n_lists + n_learn + 1 + 1 + 1 + 2 + 1 + 1)
 
     # machine surfaces last: they describe the finished tree.
     n_sitemap = build_sitemap(d, out)
-    build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board, vendor_rows)
+    build_llms_txt(d, r, out, learn_specs_out, list_rows, n_jobs, total, board, vendor_rows,
+                   company_rows)
     n_md = build_markdown_twins(out)
     n_links = extensionless_links(out)
 
@@ -8631,6 +8644,7 @@ def main():
     print(f"tools A to Z        1")
     print(f"tools index         1   ({n_caprows} tool names, {n_caprecords} harvest records)")
     print(f"vendor pages        {n_vendors}   (index + {n_vendors - 1} vendors)")
+    print(f"company pages       {n_companies}   (index + {n_companies - 1} companies)")
     print(f"category pages      {n_cat}   (index + {len(d['categories'])})")
     print(f"mcp status pages    {n_mcp}   (index + buckets)")
     print(f"gate pages          {n_gate}   (index + buckets)")

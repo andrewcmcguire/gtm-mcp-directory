@@ -1,0 +1,81 @@
+{
+  "schema_version": "company-v1",
+  "slug": "exa",
+  "name": "Exa",
+  "website": "exa.ai",
+  "vendor_domain": "exa.ai",
+  "category_tags": [
+    "data-enrichment",
+    "scrape-web-page-for-facts",
+    "research-account-for-call-prep"
+  ],
+  "tools": [
+    {
+      "slug": "exa",
+      "entry_id": "01-exa"
+    }
+  ],
+  "firmographics": {
+    "founded": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    },
+    "hq": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    },
+    "size_band": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    },
+    "funding": {
+      "value": null,
+      "citations": [],
+      "placeholder": true
+    }
+  },
+  "people": [
+    {
+      "name": "EXAMPLE founder name",
+      "role": "Co-founder (EXAMPLE)",
+      "kind": "founder",
+      "profile_url": "https://example.com/EXAMPLE-exa-founder",
+      "placeholder": true
+    }
+  ],
+  "mcp": {
+    "how_it_works": "The Exa product entry records an official first-party MCP server (exa-labs/exa-mcp-server) and a hosted endpoint at mcp.exa.ai/mcp. This is the directory's one BENCH-TESTED entry: a full MCP session on the hosted endpoint was run on 2026-09-03. Auth on the self-hosted server is an API key; the bench test recorded the hosted endpoint serving tools with no credential sent. Tool names and counts are copied from directory.json at build time.",
+    "honesty_badge": "official"
+  },
+  "last_enriched": "2026-09-21",
+  "notes": "Scaffold mock. Firmographics are unenriched. The one person row is an EXAMPLE placeholder. Bench-tested status and tool counts come from the linked directory entry, not from this file.",
+  "url": "https://andrewcmcguire.com/gtm-directory/companies/exa/",
+  "honesty_badge_derived": "official",
+  "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",
+  "tools_resolved": [
+    {
+      "slug": "exa",
+      "entry_id": "01-exa",
+      "name": "Exa",
+      "href": "/gtm-directory/tools/exa",
+      "vendor_page_href": "/gtm-directory/vendors/exa-ai",
+      "category_slug": "data-enrichment",
+      "category_label": "Data & Enrichment",
+      "mcp_status_bucket": "official",
+      "mcp_status_raw": "official",
+      "mcp_tool_count": 11,
+      "mcp_tools_fetched_on": "2026-09-18",
+      "mcp_tools_evidence": "live-list",
+      "mcp_tools_repo_party": "first-party",
+      "endpoint_status": "repo-local",
+      "api_gate_bucket": "free",
+      "tier": "BENCH-TESTED",
+      "last_checked": "2026-09-03",
+      "canonical": true
+    }
+  ],
+  "directory_generated_on": "2026-09-20"
+}

@@ -5,7 +5,7 @@
     "umbrella": "Agent Operator",
     "spec": "directory/product/SPEC.md"
   },
-  "generated_on": "2026-09-18",
+  "generated_on": "2026-09-20",
   "generated_by": "build_directory.py (phase 1)",
   "source": {
     "directory": "..",

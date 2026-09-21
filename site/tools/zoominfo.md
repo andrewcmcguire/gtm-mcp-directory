@@ -242,6 +242,6 @@ MATERIAL CHANGE FOUND 2026-08-25, and it contradicts this directory's own headli
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-18
+- **Data baked**: 2026-09-20
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

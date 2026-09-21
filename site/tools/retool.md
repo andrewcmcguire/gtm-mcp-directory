@@ -275,6 +275,6 @@ The MCP server manages apps/workflows/users (build/edit/deploy apps, run queries
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-18
+- **Data baked**: 2026-09-20
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

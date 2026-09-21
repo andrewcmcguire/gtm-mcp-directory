@@ -14,7 +14,7 @@ Directory
 
 Every GTM tool your agent can use, and which one does the job.
 
-**1,252 tools** counted · **201 official MCP servers** · **9,417 tools those servers name** · generated **2026-09-18** by build_directory.py (phase 1) · reconciled against tools_recount.py
+**1,252 tools** counted · **201 official MCP servers** · **9,417 tools those servers name** · generated **2026-09-20** by build_directory.py (phase 1) · reconciled against tools_recount.py
 
 - **tools counted**: 1,252
 
