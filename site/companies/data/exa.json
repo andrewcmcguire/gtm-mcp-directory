@@ -55,7 +55,7 @@
       "mcp_status_bucket": "official",
       "mcp_status_raw": "official",
       "mcp_tool_count": 11,
-      "mcp_tools_fetched_on": "2026-09-18",
+      "mcp_tools_fetched_on": "2026-09-26",
       "mcp_tools_evidence": "live-list",
       "mcp_tools_repo_party": "first-party",
       "endpoint_status": "repo-local",
@@ -65,7 +65,7 @@
       "canonical": true
     }
   ],
-  "directory_generated_on": "2026-09-21",
+  "directory_generated_on": "2026-09-26",
   "enrichment": {
     "schema_version": "enrichment-v1",
     "slug": "exa",

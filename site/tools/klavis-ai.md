@@ -62,7 +62,7 @@ https://www.klavis.ai/docs/concepts/strata.md (first-party docs for the hosted S
 
 - **Tools named**: 25
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: Klavis-AI/klavis
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -119,11 +119,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **shopify_update_product** Update an existing product evidence: in the server source · calling it writes
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -212,6 +212,6 @@ Included per the research brief's seed list, but the public-facing material foun
 
 - **last_checked**: 2026-09-02
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

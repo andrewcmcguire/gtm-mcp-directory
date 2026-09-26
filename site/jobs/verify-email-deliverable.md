@@ -1,6 +1,6 @@
 # Verify an email is deliverable: 15 GTM tools, 12 with an official MCP server
 
-> Check an address against the mail server or a verification pipeline before anything is sent to it. 14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. Counted 2026-09-21 from the directory data.
+> Check an address against the mail server or a verification pipeline before anything is sent to it. 14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Check an address against the mail server or a verification pipeline before anyth
 - **no MCP found**: 1
 - **solo reachable**: 14
 
-14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. All 15 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+14 of the 15 entries tagged with this job carry an MCP server of some kind, 12 of them official. All 15 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -52,9 +52,9 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Hunter.io](../tools/hunter-io.md) hunter.io An email-finding and verification tool - given a name, domain, or company, it locates likely professional email addresses (via domain pattern-matching and web-crawled data) and verifies deliverability; also... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [LeadMagic](../tools/leadmagic.md) leadmagic.io A B2B contact/company data API and CLI that finds and validates work emails, mobile numbers, and social-to-email matches, plus company/job/ad-intelligence lookups, billing only for successful (valid) results. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: leadmagic (community)
+- [LeadMagic](../tools/leadmagic.md) leadmagic.io A B2B contact/company data API and CLI that finds and validates work emails, mobile numbers, and social-to-email matches, plus company/job/ad-intelligence lookups, billing only for successful (valid) results. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: lm
 
-- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: prospeo (community)
+- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [Allegrow](../tools/allegrow.md) allegrow.co B2B email verification and deliverability platform - resolves catch-all/secure-email-gateway addresses that legacy verifiers mark "unknown," sends warm-up email to real B2B accounts, and runs hourly... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 

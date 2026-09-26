@@ -22,7 +22,7 @@ This is the hypest category in the directory - "AI SDR" gets stamped on everythi
 - **Community MCP**: 12
 - **No MCP found**: 45
 
-- **ship a CLI (official) as of 2026-09-18**: 11
+- **ship a CLI (official) as of 2026-09-26**: 10
 
 - **Free to start**: 2
 - **Paid, self-serve**: 8
@@ -44,7 +44,7 @@ Source file: 04-ai-sdr-agents.md · content sha256 c64c51121c2e0984... · counts
 
 - [Klenty](../tools/klenty.md) klenty.com A sales engagement platform whose AI layer ("Agentic Cadences") researches accounts across 150+ data sources, drafts tailored 1:1 emails and value propositions per account, and suggests next actions after... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
 
-- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound · CLI: reply
+- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Salesforge (Agent Frank)](../tools/salesforge.md) salesforge.ai An AI agent ("Agent Frank") that prospects, writes tailored outreach, sends across email and LinkedIn, manages follow-up sequences, and books meetings - positioned to either join a human team or fully replace... [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · Cross listed, canonical home is Engagement & Outbound · CLI: forge
 

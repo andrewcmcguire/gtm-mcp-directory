@@ -1,6 +1,6 @@
 # Provision sending infrastructure: 9 GTM tools, 6 with an official MCP server
 
-> Buy and configure domains, mailboxes, IPs and DNS authentication for outbound sending. 6 of the 9 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-21 from the directory data.
+> Buy and configure domains, mailboxes, IPs and DNS authentication for outbound sending. 6 of the 9 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Buy and configure domains, mailboxes, IPs and DNS authentication for outbound se
 - **no MCP found**: 3
 - **solo reachable**: 6
 
-6 of the 9 entries tagged with this job carry an MCP server of some kind, 6 of them official. All 9 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+6 of the 9 entries tagged with this job carry an MCP server of some kind, 6 of them official. All 9 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -61,7 +61,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Hypertide](../tools/hypertide.md) hypertide.io Automated cold-email infrastructure provider - high-deliverability Microsoft Entra/Google mailboxes with dedicated domains/IPs per order, pre-configured SPF/DKIM/DMARC, set up in 4-6 hours (vendor claims fully... [No MCP found](../mcp/none-found.md) · [Paid, self-serve](../gates/paid.md) · [Email Deliverability](../categories/email-deliverability.md)
 
-- [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md) · CLI: folderly (community)
+- [Folderly](../tools/folderly.md) folderly.com Email deliverability platform combining a spam/inbox-placement test, ongoing deliverability monitoring, technical DNS setup, and spam-trigger content review for B2B outbound teams. [No MCP found](../mcp/none-found.md) · [Gate unknown](../gates/unknown.md) · [Email Deliverability](../categories/email-deliverability.md)
 
 ### Next to this job
 

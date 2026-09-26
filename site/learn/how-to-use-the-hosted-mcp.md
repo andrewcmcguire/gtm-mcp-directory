@@ -1,6 +1,6 @@
 # How to use the hosted MCP: tools and data, no model on the backend
 
-> The hosted /api/mcp path is a tools and data API. It has no backend LLM and no model selection. The model is always your MCP client's model, including LM Studio. Baked 2026-09-21: 1,252 entries, 201 official MCP servers.
+> The hosted /api/mcp path is a tools and data API. It has no backend LLM and no model selection. The model is always your MCP client's model, including LM Studio. Baked 2026-09-26: 1,252 entries, 201 official MCP servers.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -159,7 +159,7 @@ Say the job in plain English. The client model maps that to a tool. These prompt
  Maps to `find_tools` with a find-work-email job and `mcp_status=official`. The model is the one loaded in LM Studio. The hosted `/api/mcp` path does not select or run a model.
 
 - **Show me free to start tools that have an MCP server a solo operator can actually reach.**
- Maps to `find_tools` with `mcp_status=official` (or community) and `gate=free` or `paid`. Solo reachable on this bake means an official or community server plus a free or paid self serve gate: 168 entries, counted 2026-09-21.
+ Maps to `find_tools` with `mcp_status=official` (or community) and `gate=free` or `paid`. Solo reachable on this bake means an official or community server plus a free or paid self serve gate: 168 entries, counted 2026-09-26.
 
 - **Look up HubSpot in the directory. What MCP status and access gate does it have?**
  Maps to `get_tool`. That is the directory entry, not the company page.
@@ -215,7 +215,7 @@ Use these words the way this directory uses them, or the answer is wrong even if
 
 - **A job tag** means the vendor says the tool does this. It is not a test result.
 
-**Never invent a count.** The live bake of 2026-09-21 has **1,252 entries** and **201 official** MCP servers (540 community, 487 none found, 15 unknown, 9 not applicable). If a later bake disagrees, quote that bake's `directory.json` instead. An undated number is a bug.
+**Never invent a count.** The live bake of 2026-09-26 has **1,252 entries** and **201 official** MCP servers (540 community, 487 none found, 15 unknown, 9 not applicable). If a later bake disagrees, quote that bake's `directory.json` instead. An undated number is a bug.
 
 ## Limits
 
@@ -237,7 +237,7 @@ Use these words the way this directory uses them, or the answer is wrong even if
 - [Model Context Protocol, connect an MCP server to a client](https://modelcontextprotocol.io/quickstart/user) https://modelcontextprotocol.io/quickstart/user
 - [LM Studio, Use MCP Servers](https://lmstudio.ai/docs/app/mcp) https://lmstudio.ai/docs/app/mcp
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-21. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-26. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

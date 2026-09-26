@@ -18,7 +18,7 @@ Minerva
 [RevOps Infra](../categories/revops-infra.md)
 RESEARCHED
 Checked 2026-09-12
-CLI: minerva-cli (community)
+CLI: minerva-rubric-feedback (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -53,25 +53,32 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
 
-- **Binary**: minerva-cli
+- **Binary**: minerva-rubric-feedback
 - **Status**: community CLI, third party
-- **Strongest evidence**: pypi
-- **Harvested**: 2026-09-18
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
+
+```
+npm install -g minerva-rubric-feedback
+```
+
+quoted from [https://www.npmjs.com/package/minerva-rubric-feedback](https://www.npmjs.com/package/minerva-rubric-feedback) on 2026-09-26, via npm, a third party source
 
 ```
 pip install minerva-cli
 ```
 
-quoted from [https://pypi.org/project/minerva-cli/](https://pypi.org/project/minerva-cli/) on 2026-09-18, via pypi, a third party source
+quoted from [https://pypi.org/project/minerva-cli/](https://pypi.org/project/minerva-cli/) on 2026-09-26, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
+- [npm: minerva-rubric-feedback 2.0.1, third party](https://www.npmjs.com/package/minerva-rubric-feedback)
 - [pypi: minerva-cli 0.0.3, third party](https://pypi.org/project/minerva-cli/)
 - [pypi: minerva-cli 0.0.3, third party](https://pypi.org/project/minerva-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -134,6 +141,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

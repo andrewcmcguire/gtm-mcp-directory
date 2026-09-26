@@ -63,7 +63,7 @@ https://mcp.firecrawl.dev/v2/mcp (docs: https://docs.firecrawl.dev/mcp-server; r
 
 - **Tools named**: 13
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: firecrawl/firecrawl-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -78,9 +78,9 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **firecrawl_parse** Parse one supported document into markdown, HTML, links, summary, targeted answers, or JSON matching a schema. Supported inputs include common HTML, PDF, Word, RTF, OpenDocument, and spreadsheet files; PDF parsing can be bounded with `pdfO evidence: answered tools/list · calling it reads
 
-- **firecrawl_scrape** Retrieve and extract content from one supplied URL through Firecrawl. Use this when the request identifies a page and needs its content or defined fields. It can return markdown, HTML, links, screenshots, branding data, a targeted answer, evidence: answered tools/list · calling it reads · required: url
+- **firecrawl_scrape** Scrape one URL and return its content: markdown by default, or HTML, links, screenshots, branding data, a targeted answer, or JSON matching a supplied schema. Use it when the request identifies a page and needs its content or defined field evidence: answered tools/list · calling it reads
 
-- **firecrawl_search** Search web, news, or image sources and return ranked results. Operators include quoted phrases, `-term`, `site:host`, `inurl:term`, `intitle:term`, and `related:host`; the set is non-exhaustive. `includeDomains` and `excludeDomains` are mu evidence: answered tools/list · calling it reads · required: query
+- **firecrawl_search** Search web, news, or image sources and return ranked results with query-relevant highlights. Each web result is a title, URL, and description; use `firecrawl_scrape` on a result URL when the excerpt is not enough. Authenticated search als evidence: answered tools/list · calling it reads · required: query
 
 - **interact** Interact with a URL or scraped page evidence: in a README table · calling it reads
 
@@ -96,14 +96,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search** Web search for info evidence: in a README table · calling it reads
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: firecrawl
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -111,13 +111,13 @@ Install, as the source shows it:
 npm install -g firecrawl-cli
 ```
 
-quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-18, via npm
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-26, via npm
 
 ```
 npx -y firecrawl-cli@latest
 ```
 
-quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-18, via npx
+quoted from [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) on 2026-09-26, via npx
 
 Login or key hint seen on the page:
 
@@ -128,15 +128,15 @@ expand to read them
 
 agent, browser, config, crawl, credit-usage, developer, init, interact, login, logout, map, monitor, scrape, search, version, view-config
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
-- [npm: firecrawl-cli 1.23.3](https://www.npmjs.com/package/firecrawl-cli)
+- [npm: firecrawl-cli 1.24.6](https://www.npmjs.com/package/firecrawl-cli)
 
 Where it was documented:
 
 - [https://docs.firecrawl.dev/sdks/cli](https://docs.firecrawl.dev/sdks/cli) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -217,6 +217,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.firecrawl.dev/v2/m
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

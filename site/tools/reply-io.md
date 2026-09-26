@@ -18,7 +18,6 @@ Reply.io
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-09-07
-CLI: reply
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,7 +60,7 @@ https://reply.io/mcp/ ; repo https://github.com/reply-team/reply-mcp
 
 - **Tools named**: 71
 - **Strongest evidence**: in the vendor docs
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: reply-team/reply-mcp
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -210,42 +209,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **reply_update_reply_handler** Patch a reply handler evidence: in the vendor docs · calling it reads
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: reply
-- **Status**: official CLI, first party
-- **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
-
-Install, as the source shows it:
-
-```
-npm install -g reply-cli
-```
-
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-18, via npm
-
-```
-npx -y reply-cli
-```
-
-quoted from [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) on 2026-09-18, via npx
-
-Login or key hint seen on the page:
-
-reply auth
-
-Subcommands seen with the binary:
-
-api, auth, profile, skills, team
-
-Where it was documented:
-
-- [https://docs.reply.io/cli/overview](https://docs.reply.io/cli/overview) (the page that documented the CLI)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -352,6 +320,6 @@ Vendor states API/webhook access is included across all pricing tiers starting a
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

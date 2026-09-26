@@ -116,7 +116,7 @@ cannot be bought at any price. Across the whole directory that count is 1.</div>
 <p class="note" style="margin-top:14px">The vendor ships and maintains the server itself. A wrapper built by Zapier, Composio or a similar third party does not count as official.
 The status was established on 2026-09-07 and the MCP URL has not been probed live yet.</p>
 <p class="note" style="margin-top:14px">mcp_status, verbatim from the file:</p>
-<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io/&lt;app&gt;/mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory) ; repo https://github.com/pipeworx-io/pipeworx</p><ul><li><a href="https://gateway.pipeworx.io/mcp" rel="noopener nofollow">https://gateway.pipeworx.io/mcp</a></li><li><a href="https://gateway.pipeworx.io/" rel="noopener nofollow">https://gateway.pipeworx.io/</a></li><li><a href="https://pipeworx.io/docs/" rel="noopener nofollow">https://pipeworx.io/docs/</a></li><li><a href="https://pipeworx.io/directory" rel="noopener nofollow">https://pipeworx.io/directory</a></li><li><a href="https://github.com/pipeworx-io/pipeworx" rel="noopener nofollow">https://github.com/pipeworx-io/pipeworx</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">6,361</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-18</div></div><div><div class="bk">Repo read</div><div class="bv mono">pipeworx-io/pipeworx</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a gateway re-exposing other vendors through one endpoint</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">Recorded by the harvest: lists 6361 tools, which is a gateway re-exposing other vendors rather than one vendor&#x27;s own surface; counted separately from the catalogue total</p><ul class="caplist"><li>
+<p class="v mono">official</p><p class="note" style="margin-top:14px">mcp_url, verbatim from the file:</p><p class="v mono">https://gateway.pipeworx.io/mcp for the whole gateway, with per-application paths of the form https://gateway.pipeworx.io/&lt;app&gt;/mcp (docs: https://pipeworx.io/docs/; directory: https://pipeworx.io/directory) ; repo https://github.com/pipeworx-io/pipeworx</p><ul><li><a href="https://gateway.pipeworx.io/mcp" rel="noopener nofollow">https://gateway.pipeworx.io/mcp</a></li><li><a href="https://gateway.pipeworx.io/" rel="noopener nofollow">https://gateway.pipeworx.io/</a></li><li><a href="https://pipeworx.io/docs/" rel="noopener nofollow">https://pipeworx.io/docs/</a></li><li><a href="https://pipeworx.io/directory" rel="noopener nofollow">https://pipeworx.io/directory</a></li><li><a href="https://github.com/pipeworx-io/pipeworx" rel="noopener nofollow">https://github.com/pipeworx-io/pipeworx</a></li></ul></div></div><div class="field"><div class="k">What this server exposes</div><div class="v "><div class="blockgrid"><div><div class="bk">Tools named</div><div class="bv">6,467</div></div><div><div class="bk">Strongest evidence</div><div class="bv">answered tools/list</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-26</div></div><div><div class="bk">Repo read</div><div class="bv mono">pipeworx-io/pipeworx</div></div><div><div class="bk">Whose repo</div><div class="bv">first-party</div></div><div><div class="bk">Catalogue shape</div><div class="bv">a gateway re-exposing other vendors through one endpoint</div></div></div><p class="note" style="margin-top:14px">A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.</p><p class="note">Recorded by the harvest: lists 6467 tools, which is a gateway re-exposing other vendors rather than one vendor&#x27;s own surface; counted separately from the catalogue total</p><ul class="caplist"><li>
 <div class="tn"><b>19hz_events</b></div>
 <div class="td">List upcoming electronic/dance music events for a 19hz region. Optionally filter by keyword (matches title, venue, genre, or artist) and a date window. Returns normalized events sorted by date.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: region</div>
@@ -403,7 +403,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>ai_briefing_get_recent</b></div>
-<div class="td">Retrieve AI developments from the last N days (default 7), filterable by category (e.g., model_release, paper, mcp), source (e.g., arxiv, github), and importance (low/normal/high/breaking).</div>
+<div class="td">Retrieve AI developments from the last N days (default 7), filterable by category (e.g., model_release, paper, mcp), source (e.g., arxiv, github), and importance (low/normal/high/breaking). The category is a keyword label derived from the h</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -665,6 +665,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>amazon_search</b></div>
 <div class="td">Search Amazon products by keyword  - returns position, title, ASIN, price, rating, and ratings total. Uses your Rainforest API key. Example: amazon_search({ search_term: &quot;wireless earbuds&quot;, amazon_domain: &quot;amazon.com&quot;, _apiKey:...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: search_term, _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>amf_get_filing</b></div>
+<div class="td">Fetch a single French AMF-regulated disclosure by its Info-financière record id (uin_idt_uin, e.g. &quot;008731_20260923&quot;) from amf_search_filings results. Returns the full shaped record  - title, issuer, ISIN/LEI, publication timestamp, and the</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>amf_search_filings</b></div>
+<div class="td">Search French AMF-regulated company disclosures (résultats, franchissements de seuils, information privilégiée, rachats d&#x27;actions, and similar) from Info-financière, the French Officially Appointed Mechanism. PREFER OVER esef_filing_search</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>amp_get_active_users</b></div>
@@ -2752,6 +2762,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>artg_entry</b></div>
+<div class="td">Full Australian Register of Therapeutic Goods (ARTG) record for one entry, by ARTG ID (LicenceId, from artg_search). Returns sponsor, every active/excipient ingredient with strength, dosage form, route of administration, standard/specific i</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>artg_list</b></div>
+<div class="td">Walk the ENTIRE Australian Register of Therapeutic Goods (ARTG), in ARTG ID order, 100 entries per page  - for bulk ingestion or counting, not for answering a question about one drug (use artg_search for that). Optionally restrict to one...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>artg_recent</b></div>
+<div class="td">New entries added to the Australian Register of Therapeutic Goods (ARTG) since a date  - newly registered or listed medicines, biologicals and devices approved for supply in Australia. Covers NEW entries only: cancellations and variations...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: since</div>
+</li>
+<li>
+<div class="tn"><b>artg_search</b></div>
+<div class="td">Search the Australian Register of Therapeutic Goods (ARTG)  - every medicine, biological and medical device approved for supply in Australia  - by product name, active ingredient, sponsor, or manufacturer. Returns each entry&#x27;s ARTG ID,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>artic_get_artist</b></div>
 <div class="td">Get an artist&#x27;s biography and their artworks by ID. Returns name, birth/death dates, bio text, and linked artwork IDs.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
@@ -2922,6 +2952,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>ashares_technical_indicators</b></div>
+<div class="td">Technical indicators for Chinese A-share stocks and ETFs (均线/布林/MACD/KDJ)  - MA (moving averages, any windows, default MA5/MA10/MA20/MA60), BOLL (Bollinger Bands, default 20-period ×2 std dev), MACD (DIF/DEA/柱, default 12/26/9), and KDJ...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: codes, start</div>
+</li>
+<li>
 <div class="tn"><b>ashares_turnover_ranking</b></div>
 <div class="td">Market-wide ranking of Chinese A-share stocks by turnover / 成交额排名, 成交额前30名, 成交量排名, or 涨跌幅排名  - the whole board (not specific codes), sorted server-side and returned as a ranked list. Answers &#x27;A股成交额前30名&#x27;, &#x27;top 30 A-shares by turnover today&#x27;,</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -2958,12 +2993,12 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>ask_pipeworx_beta</b></div>
-<div class="td">Beta version of ask_pipeworx: identical universal router (same 6,320 tools, same arguments, same response shape) with candidate routing improvements enabled live whenever one is under test. No candidate is active right now (the last was ret</div>
+<div class="td">Beta version of ask_pipeworx: identical universal router (same 6,426 tools, same arguments, same response shape) with candidate routing improvements enabled live whenever one is under test. No candidate is active right now (the last was ret</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: question</div>
 </li>
 <li>
 <div class="tn"><b>ask_pipeworx_grounded</b></div>
-<div class="td">Hallucination-resistant answer mode for high-stakes reads. Same routing as ask_pipeworx  - picks the right tool from 6,320 across 1649 sources, fills arguments, fetches the data  - then EXTRACTS the answer using ONLY what the tool result...</div>
+<div class="td">Hallucination-resistant answer mode for high-stakes reads. Same routing as ask_pipeworx  - picks the right tool from 6,426 across 1679 sources, fills arguments, fetches the data  - then EXTRACTS the answer using ONLY what the tool result...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: question</div>
 </li>
 <li>
@@ -4052,6 +4087,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>bodacc_company_events</b></div>
+<div class="td">Full BODACC event history for one French company: every dated notice published for it  - creations, insolvency proceedings (redressement/liquidation judiciaire), business sales/transfers, deregistrations, modifications, account filings,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>bodacc_get_notice</b></div>
+<div class="td">Fetch a single BODACC notice by its id (e.g. &quot;A202601824309&quot;, visible in bodacc_search / bodacc_company_events / bodacc_insolvency_feed results). Returns the full shaped notice including the parsed judgment/act/deregistration/persons detail</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>bodacc_insolvency_feed</b></div>
+<div class="td">Recent French insolvency-proceeding notices (familleavis=&quot;collective&quot;: redressement judiciaire, liquidation judiciaire, sauvegarde and their related deposit/judgment notices) published since a given date, newest first. Built for monitoring</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: since</div>
+</li>
+<li>
+<div class="tn"><b>bodacc_search</b></div>
+<div class="td">Search all BODACC notices across every French company by free text (searched across the whole notice  - company name, activity, judgment/act text, addresses  - not just the name), event family, département, and/or publication date range....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>boe_uk_get_series</b></div>
 <div class="td">Fetch one or more Bank of England IADB series by code over a date range. Requires BoE series codes (e.g. IUDBEDR = Bank Rate, IUDSOIA = SONIA, XUDLUSS = USD/GBP, XUDLERS = EUR/GBP). Use list_known_series or the convenience tools (bank_rate,</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: series_codes, from</div>
@@ -4495,6 +4550,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>business_feeds_read_feed</b></div>
 <div class="td">Read a curated business &amp; industry feed by its id (from list_feeds). Returns normalized items (title, link, published, summary). Optionally filter items by keyword.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: feed</div>
+</li>
+<li>
+<div class="tn"><b>businesswire_get_release</b></div>
+<div class="td">Fetch one specific Business Wire release by its URL or release id (source: businesswire.com), as returned by businesswire_latest_releases or businesswire_search_releases. Re-fetches the live channel each call  - a release older than the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>businesswire_latest_releases</b></div>
+<div class="td">Latest press releases from Business Wire&#x27;s all-news RSS channel (source: businesswire.com). Returns headline, dateline, language, published time, excerpt and release id for each release, newest first. The channel holds roughly the last 7 da</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>businesswire_search_releases</b></div>
+<div class="td">Keyword/company search over Business Wire&#x27;s current all-news channel (source: businesswire.com). Matches against headline, dateline and excerpt across roughly the last 7 days of the wire (~3,500 releases, all languages unless language is se</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>buzzword_density_analyze</b></div>
@@ -5213,7 +5283,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>chart_data</b></div>
-<div class="td">&quot;Chart data for [ticker]&quot; / &quot;sparkline data for [stock]&quot;  - price sparkline data for a ticker from StockTwits. Use for embedded thumbnail charts; prefer dedicated finance packs (yahoo-finance, alphavantage) for serious price analysis.</div>
+<div class="td">&quot;Chart data for [ticker]&quot; / &quot;sparkline data for [stock]&quot; / &quot;price history for [ticker] this week&quot;  - OHLCV price bars for a ticker from the StockTwits chart feed: 5-minute bars for one trading day (1D), ~30-minute bars for a week (1W),...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: symbol</div>
 </li>
 <li>
@@ -5475,6 +5545,31 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>cidr_info</b></div>
 <div class="td">Parse an IPv4 CIDR block (e.g. &quot;192.168.1.0/24&quot;) and compute the network address, broadcast, netmask, wildcard, usable host range and host count. Keyless, offline.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: cidr</div>
+</li>
+<li>
+<div class="tn"><b>cima_changes_since</b></div>
+<div class="td">Which Spanish medicine records AEMPS has changed on or after a given date  - new authorisations, label revisions, material-informativo updates, etc.  - from CIMA&#x27;s registroCambios feed. Returns nregistro, name, holder, the change date, and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: since</div>
+</li>
+<li>
+<div class="tn"><b>cima_medicine_detail</b></div>
+<div class="td">Full AEMPS CIMA record for one Spanish-authorised medicine, by nregistro (the Spanish national registration number, from cima_search_medicines). Returns active ingredients with exact strength, excipients, ATC codes, pharmaceutical form, rou</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: nregistro</div>
+</li>
+<li>
+<div class="tn"><b>cima_medicine_document_sections</b></div>
+<div class="td">The STRUCTURED text of a Spanish medicine&#x27;s ficha técnica (Summary of Product Characteristics) or prospecto (patient information leaflet), section by section, from AEMPS&#x27;s own segmented-document endpoint  - not a PDF link. Ficha técnica...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: nregistro</div>
+</li>
+<li>
+<div class="tn"><b>cima_search_medicines</b></div>
+<div class="td">Search AEMPS CIMA  - the register of every medicine authorised for sale in SPAIN  - by brand/product name, active ingredient (INN/DCI), ATC code, or marketing-authorisation holder (laboratorio). Returns each medicine&#x27;s nregistro (Spanish...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>cima_supply_problems</b></div>
+<div class="td">Current and recent medicine-supply shortages in Spain (problemas de suministro) from AEMPS  - the Spanish counterpart of the FDA/EMA shortage databases. Returns the affected product, national code (CN), AEMPS shortage-type code, start date,</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>cincinnati_datasets</b></div>
@@ -5830,6 +5925,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>cninfo_disclosure_search</b></div>
 <div class="td">Full-text search over CNINFO (cninfo.com.cn), the official disclosure feed for BOTH Chinese A-share exchanges  - Shenzhen (SZSE) and Shanghai (SSE), STAR Market (科创板) included. Covers A-share-listed companies with zero HK or US nexus  -...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>cnmv_annual_reports</b></div>
+<div class="td">List a Spanish issuer&#x27;s annual financial reports (Informes financieros anuales) from the CNMV official register: financial-year end, CNMV publication date, auditor, audit opinion, and links to the individual and consolidated reports and to</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>cnmv_find_issuer</b></div>
+<div class="td">Resolve a Spanish-market issuer name or ISIN to the NIF the CNMV registers use, via the CNMV entity search and ISIN register. Returns the matching entities (name + NIF) and the CNMV entity page URL. Use the NIF with cnmv_search_filings or c</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>cnmv_search_filings</b></div>
+<div class="td">Search Spanish listed-company regulated disclosures filed with the CNMV (Comisión Nacional del Mercado de Valores), the Spanish securities regulator: &quot;Otra información relevante&quot; (results, annual and half-year financial report notices, buyb</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>cnpj_lookup</b></div>
@@ -6440,6 +6550,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>corporate_apology_generate</b></div>
 <div class="td">Generate a corporate apology statement for a specific offense. Specify sincerity level (&#x27;performative&#x27;, &#x27;genuine&#x27;, or &#x27;defensive&#x27;) to control tone. Returns ready-to-use apology text.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: offense</div>
+</li>
+<li>
+<div class="tn"><b>corporate_satire_generate</b></div>
+<div class="td">Satirical generator, a joke tool for entertainment: turns any announcement into a FABRICATED parody corporate statement written in corporate jargon, in the shape of a company news bulletin. Invents the title line, body, fake spokesperson qu</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: announcement</div>
 </li>
 <li>
 <div class="tn"><b>could_have_been_email_analyze</b></div>
@@ -9052,6 +9167,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: chain, token_address</div>
 </li>
 <li>
+<div class="tn"><b>dexscreener_screener</b></div>
+<div class="td">A filterable screen for new/trending tokens on one chain (default solana), by liquidity, volume and market cap  - composes DEX Screener&#x27;s promoted-token lists (latest_token_profiles + latest_boosted_tokens, which is what DEX Screener itself</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>dictionary_get_synonyms</b></div>
 <div class="td">Find synonyms and antonyms for any word. Returns similar words and opposites, useful for writing and paraphrasing.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: word</div>
@@ -9493,18 +9613,18 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>dpla_collections</b></div>
-<div class="td">Find named collections inside DPLA&#x27;s contributing institutions  - the curated groupings an archive defines around a topic, a donor or a project  - with title, description and DPLA URL. Use it to discover what a library has organised around...</div>
-<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: _apiKey</div>
+<div class="td">Which named collections inside DPLA&#x27;s contributing institutions hold material on a topic  - the curated groupings an archive defines around a subject, a donor or a project  - each with how many matching items it holds. Backed by the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>dpla_item</b></div>
 <div class="td">One DPLA record in full by its id: title, creator, date, description, subjects, language, place, format, rights statement, the institution holding the original, the DPLA hub that contributed it, a thumbnail, a link to the object on the hold</div>
-<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id, _apiKey</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
 </li>
 <li>
 <div class="tn"><b>dpla_search_items</b></div>
 <div class="td">Search ~50 million digitised items aggregated by the Digital Public Library of America  - photographs, letters, maps, newspapers, oral histories and books from the Library of Congress, the National Archives, the Smithsonian, HathiTrust,...</div>
-<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>drive_create_file</b></div>
@@ -9615,6 +9735,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>dst_dk_table_info</b></div>
 <div class="td">Metadata for a table: title, unit, last updated, and the full list of variables with their codes and valid value ids. READ THIS BEFORE get_data to learn the exact variable codes (e.g. &quot;OMRÅDE&quot;, &quot;Tid&quot;) and value ids you must pass.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: tableId</div>
+</li>
+<li>
+<div class="tn"><b>dtcc_swaps_dissemination_files</b></div>
+<div class="td">Index of DTCC&#x27;s public swap dissemination data files for a regulator/asset-class: either 5-minute intraday &#x27;slice&#x27; files (rolling, current trading activity) or end-of-day &#x27;cumulative&#x27; files (one per prior day), each with a row count and a p</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: regulator, asset_class</div>
+</li>
+<li>
+<div class="tn"><b>dtcc_swaps_recent</b></div>
+<div class="td">Most-recently disseminated swap transactions from DTCC&#x27;s public, CFTC-Part-43-mandated real-time price dissemination feed (pddata.dtcc.com), live. Covers CFTC-regulated swaps (commodity CO, credit CR, equity EQ, FX, interest-rate IR), SEC-r</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: regulator, asset_class</div>
 </li>
 <li>
 <div class="tn"><b>duffel_flight_search</b></div>
@@ -10102,6 +10232,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>einpresswire_get_release</b></div>
+<div class="td">Fetch one specific EIN Presswire release by its URL (source: einpresswire.com), as returned by einpresswire_latest_releases or einpresswire_search_releases. Re-fetches the live sitemap each call  - a release older than roughly 48 hours will</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>einpresswire_latest_releases</b></div>
+<div class="td">Latest press releases from EIN Presswire&#x27;s public news sitemap (source: einpresswire.com). Returns headline, published time, keyword tags and geo location for each release, newest first. Covers roughly the trailing 48 hours across every cat</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>einpresswire_search_releases</b></div>
+<div class="td">Keyword/company search over EIN Presswire&#x27;s current news sitemap (source: einpresswire.com). Matches against headline, keyword tags and geo location  - there is no body excerpt in this source. Searches only the trailing ~48-hour window each</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
 <div class="tn"><b>elangdell_book</b></div>
 <div class="td">One CALI eLangdell title in full: authors, description, topics, the PDF / EPUB / Word download links on cali.org, and the exact Creative Commons licence and suggested attribution read from the book&#x27;s own front matter. Takes the slug from el</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: slug</div>
@@ -10180,6 +10325,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>elink</b></div>
 <div class="td">Links across databases.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dbfrom, dbto, ids</div>
+</li>
+<li>
+<div class="tn"><b>ema_article57_dataset_info</b></div>
+<div class="td">Dataset metadata: the authoritative EMA bulk-download URL, current row count, this pack&#x27;s snapshot dates on record, and the full list of distinct authorisation-country values used by the country filter. Use this before ema_article57_search</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ema_article57_product</b></div>
+<div class="td">The full Article 57 record(s) for one product by name  - every EEA country it is authorised in, with the marketing-authorisation holder and pharmacovigilance system location per country. Article 57 carries no indication text and no...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>ema_article57_recent_changes</b></div>
+<div class="td">Products added to or removed from the Article 57 register since a given date, computed by diffing our dated snapshots of the EMA export (the source itself carries no change-date column, so there is no other way to answer &quot;what changed&quot;). Re</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: since</div>
+</li>
+<li>
+<div class="tn"><b>ema_article57_search</b></div>
+<div class="td">Search the EMA Article 57 database  - every medicine with a valid marketing authorisation anywhere in the EEA (centrally, mutually-recognised, decentralised AND purely nationally authorised), one row per product x authorisation-country....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>ema_chmp_opinions</b></div>
@@ -10270,6 +10435,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>emailable_verify</b></div>
 <div class="td">Verify whether an email address is deliverable (`jane@stripe.com`)  - deliverability state, quality score, disposable/role/free flags, and typo suggestions. Uses Emailable&#x27;s SMTP-level check (state is one of...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: email, _apiKey</div>
+</li>
+<li>
+<div class="tn"><b>emarket_get_disclosure</b></div>
+<div class="td">Fetch a single eMarket Storage disclosure by its Teleborsa protocollo id and publication date, as returned by emarket_search_disclosures. This source has no by-id lookup endpoint, only by-day listings, so both id and date are required. Retu</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id, date</div>
+</li>
+<li>
+<div class="tn"><b>emarket_search_disclosures</b></div>
+<div class="td">Search Italian regulated company disclosures from eMarket Storage (Teleborsa), one of Italy&#x27;s two EU Transparency Directive Officially Appointed Mechanisms. PREFER OVER esef_filing_search FOR ITALIAN ISSUERS COVERED HERE  - this source is...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>emoji_lookup</b></div>
@@ -10502,6 +10677,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>eqr_contracts_search</b></div>
+<div class="td">Search FERC EQR wholesale power contracts by seller, counterparty and/or product. Returns contract-level records: seller, customer, product (e.g. ENERGY, CAPACITY), quantity, rate, rate units, delivery/receipt points, and the contract execu</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>eqr_counterparty_sellers</b></div>
+<div class="td">Who sells wholesale power TO a given counterparty  - the reverse of eqr_contracts_search. Aggregates FERC EQR contracts by seller for a counterparty name match, returning each seller&#x27;s contract count, the quarter range they appear in, and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: counterparty</div>
+</li>
+<li>
+<div class="tn"><b>eqr_coverage</b></div>
+<div class="td">What FERC EQR data is currently available and how fresh it is: row counts for the filer-identity, index-publisher and contracts tables, the quarter range covered, and when it was last refreshed. Use before relying on a result to confirm cov</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>eqr_seller_lookup</b></div>
+<div class="td">Find a FERC Electric Quarterly Report filer (seller/power marketer/utility) by name or FERC company id (e.g. &quot;C000740&quot;). Returns their per-quarter filing records  - company name(s) as filed and whether they reported transactions to an index</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
 <div class="tn"><b>equipped_loadout</b></div>
 <div class="td">Equipped loadout (components=205).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: membership_type, destiny_membership_id, character_id</div>
@@ -10559,6 +10754,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>esef_search_filings</b></div>
 <div class="td">Search the XBRL International filings index (filings.xbrl.org) for published company annual reports. Answers &quot;which European companies have filed an annual report for 2023&quot;, &quot;does Nokia have an ESEF filing&quot;, &quot;list Finnish filings with valid</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>esma_check_firm_authorisation</b></div>
+<div class="td">Look up a firm in ESMA&#x27;s Union Register of investment firms (the EU-wide MiFID II authorisation register) by entity name (matches if every word appears anywhere in the name, order-independent) or LEI (exact match). Returns each matching ent</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -10705,11 +10905,6 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>eur_lex_get_metadata</b></div>
 <div class="td">Fetch title, document date, legal type, in-force status hint, and EUR-Lex citation URL for one EU act by CELEX id (e.g. &quot;32016R0679&quot;) or alias (e.g. &quot;GDPR&quot;); does not download full text.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: celex</div>
-</li>
-<li>
-<div class="tn"><b>eur_lex_search_legislation</b></div>
-<div class="td">Full-text search of EU legislation titles via the EUR-Lex SPARQL endpoint. Returns CELEX id, English title and document date. Use when the act is not in compliance_index, or to find related/amending acts.</div>
-<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>eur_usd</b></div>
@@ -11117,6 +11312,41 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: state_abbr</div>
 </li>
 <li>
+<div class="tn"><b>fca_firm_details</b></div>
+<div class="td">Look up an FCA-regulated firm by its Firm Reference Number (FRN): returns regulatory status, business type, and registered address. Example: fca_firm_details({ frn: &quot;122702&quot; })</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: frn</div>
+</li>
+<li>
+<div class="tn"><b>fca_firm_representatives</b></div>
+<div class="td">List a firm&#x27;s appointed representatives (principal/AR relationships) by Firm Reference Number (FRN). Returns an empty list for a firm with no appointed representatives -- that is a real answer, not a failure. Example: fca_firm_representativ</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: frn</div>
+</li>
+<li>
+<div class="tn"><b>fca_firm_search</b></div>
+<div class="td">Search the FCA Financial Services Register by firm (or individual/fund) name and return ranked matches with FRN/IRN and a status summary. Example: fca_firm_search({ q: &quot;Barclays Bank&quot;, type: &quot;firm&quot; })</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: q</div>
+</li>
+<li>
+<div class="tn"><b>fca_individual_lookup</b></div>
+<div class="td">Look up an individual&#x27;s own public Financial Services Register record by Individual Reference Number (IRN): name and current approved-function status only -- the register&#x27;s own published single-lookup fields, nothing more. This tool does no</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: irn</div>
+</li>
+<li>
+<div class="tn"><b>fca_largest_shorts</b></div>
+<div class="td">The N issuers with the largest currently FCA-disclosed net short positions market-wide, sorted descending by aggregated position %. Reads the same daily &quot;aggregated-current-net-short-positions&quot; file as fca_short_positions -- aggregated per</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fca_short_changes</b></div>
+<div class="td">Per-issuer short-position deltas: compares each issuer&#x27;s latest CURRENT disclosed position against the most recent prior value shown for that ISIN in the HISTORIC disclosures file, i.e. what moved and by how much since the previous reported</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>fca_short_positions</b></div>
+<div class="td">Current FCA-disclosed net short position(s) for an issuer, from the daily &quot;aggregated-current-net-short-positions&quot; file (fca.org.uk). Data is AGGREGATED AND ANONYMISED PER ISSUER under the UK Short Selling Regulations 2025 -- one row per is</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>fcc_regulation</b></div>
 <div class="td">Get the full text of one FCC regulation  - a US Federal Communications Commission rule codified in 47 CFR  - by its citation. Returns the exact regulatory wording currently in force. Answers &quot;what does 47 CFR 15 require&quot;, &quot;what is the FCC...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: citation</div>
@@ -11183,7 +11413,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>fda_device_510k_search</b></div>
-<div class="td">Search FDA 510(k) premarket notifications by device, applicant, product code, K number, review panel, clearance type, decision, applicant location, or third-party review status. Clearance means FDA found substantial equivalence; it is not a</div>
+<div class="td">Search FDA 510(k) premarket notifications by device, applicant, product code, K number, review panel, clearance type, decision, applicant location, third-party review status, or device-category text (via `indication`). Covers IN VITRO DIAGN</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -11218,7 +11448,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>fda_device_pma_search</b></div>
-<div class="td">Search FDA Premarket Approval (PMA) decisions and supplements by trade/generic name, applicant, product code, or PMA number. Supplements may represent manufacturing or labeling changes rather than new devices.</div>
+<div class="td">Search FDA Premarket Approval (PMA) decisions and supplements by trade/generic name, applicant, product code, PMA number, or CLINICAL INDICATION/condition text (via `indication`). Which diagnostic tests are FDA-approved: covers high-risk IN</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -11652,6 +11882,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: scientificname</div>
 </li>
 <li>
+<div class="tn"><b>find_podcast_contacts</b></div>
+<div class="td">Find ACTIVE podcasts whose recent episodes cover a topic, each with the best published contact route for booking a guest or buying sponsorship. Searches episode titles and show notes across ~740k podcasts that published in the last year (fr</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: topic, purpose</div>
+</li>
+<li>
 <div class="tn"><b>find_postal_codes</b></div>
 <div class="td">Look up postal/ZIP codes and places by each other. Pass &quot;postal_code&quot; (+ country) to find the place(s) a code maps to (&quot;what city is ZIP 90210&quot;); or pass &quot;place&quot; (+ country) to find the postal codes for a place name (&quot;postal codes for Paris</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey</div>
@@ -11759,6 +11994,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <li>
 <div class="tn"><b>fintech_market_snapshot</b></div>
 <div class="td">Check current financial market conditions. Returns complaint trends, banking sector summary, fed funds rate, Treasury yields, yield curve, credit spreads, and VIX volatility.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>firds_lookup</b></div>
+<div class="td">Resolve one ISIN via ESMA&#x27;s FIRDS (Financial Instruments Reference Data System, EU-wide, all MiFID II instruments) to its full name, short name, CFI code, issuer LEI, notional currency, bond fields (maturity, nominal value, fixed rate) or d</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: isin</div>
+</li>
+<li>
+<div class="tn"><b>firds_search_by_issuer</b></div>
+<div class="td">Search ESMA&#x27;s FIRDS for every instrument reported for one issuer, by issuer LEI (exact match, preferred) or issuer/instrument name (matches if every word appears anywhere in the name, order-independent). Returns each matching (ISIN, venue)</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -13587,6 +13832,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: accession</div>
 </li>
 <li>
+<div class="tn"><b>get_explanatory_notes</b></div>
+<div class="td">Read the Explanatory Notes for a UK Act  - plain-language commentary written by the government department responsible, explaining what a section is meant to do and why. NOT part of the law and not endorsed by Parliament  - use for context...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: type, year, number</div>
+</li>
+<li>
 <div class="tn"><b>get_fact</b></div>
 <div class="td">Get a random cat fact. Returns the fact text and character length. Use get_facts to retrieve multiple facts at once.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -13912,6 +14162,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: law_id</div>
 </li>
 <li>
+<div class="tn"><b>get_law_commission_publication</b></div>
+<div class="td">Fetch one Law Commission of England &amp; Wales publication (a consultation paper, report, summary or terms-of-reference) by its id (from search_law_commission_publications) or its lawcom.gov.uk link. Returns the law-reform project it belongs t</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>get_leaderboard</b></div>
 <div class="td">Fetch the world-record / top-N leaderboard for a specific game category. Returns ranked runs with finish times (ISO-8601 duration plus seconds), run date, players, and weblink. Get game_id from search_games and category_id from get_categori</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: game_id, category_id</div>
@@ -14043,7 +14298,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>get_model_landscape</b></div>
-<div class="td">List AI model releases from the last N days (default 30). Returns model names, provider companies, release dates, feature summaries, and source URLs grouped by importance.</div>
+<div class="td">List AI model releases from the last N days (default 30). Returns model names, provider companies, release dates, feature summaries, and source URLs grouped by importance. Membership comes from the same heuristic headline label as get_recen</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -14120,6 +14375,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>get_nft</b></div>
 <div class="td">Single NFT by chain + contract address + token ID.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: chain, contract_address, token_id</div>
+</li>
+<li>
+<div class="tn"><b>get_ni_decision</b></div>
+<div class="td">Get one Northern Ireland judicial decision by its judiciaryni.uk slug (e.g. &quot;2026-nica-36&quot;, from search_ni_decisions or a judiciaryni.uk URL). Returns title, neutral citation, court, delivered date, judge, and pdf_url  - the decision&#x27;s full</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: slug</div>
 </li>
 <li>
 <div class="tn"><b>get_note</b></div>
@@ -14258,7 +14518,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>get_place</b></div>
-<div class="td">Full place details by fsq_place_id. Returns name, categories, address, lat/lon, social media, website, hours, rating, price, popularity.</div>
+<div class="td">Full place details by fsq_place_id. Returns name, categories, address, lat/lon, social media, website, tel. hours/rating/price/popularity are Foursquare Premium fields  - present only where enabled (see `rating_included` / `rating_note` in...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: fsq_place_id</div>
 </li>
 <li>
@@ -14285,6 +14545,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>get_podcast_by_url</b></div>
 <div class="td">Resolve an RSS feed URL to its fyyd id.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: feed_url</div>
+</li>
+<li>
+<div class="tn"><b>get_podcast_profile</b></div>
+<div class="td">One podcast in full: identity (title, feed URL, website, podcast:guid, Apple id), activity status and feed health, the latest episodes, and EVERY published contact route with holder_type (person / role / hosting_account_owner), purpose, sou</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
+</li>
+<li>
+<div class="tn"><b>get_podcast_topic_changes</b></div>
+<div class="td">Signed-in accounts: for your topic watches (or one, by watch_id), the podcasts that match now and did not at the last check, with their best contact route. Each call moves the baseline forward, so a show is reported once.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_poem_lines</b></div>
@@ -14550,6 +14820,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>get_scoreboard</b></div>
 <div class="td">Live sports scores: NFL/NBA/MLB/NHL/soccer/college scores for today&#x27;s games and results. Returns each game with teams, scores, status (live/final), clock, and period. Common sport/league pairs: football/nfl, football/college-football, baske</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: sport, league</div>
+</li>
+<li>
+<div class="tn"><b>get_scottish_judgment</b></div>
+<div class="td">Resolve a Scottish Courts judgment PDF and confirm it is actually reachable. Pass document_link exactly as returned by search_scottish_judgments (a relative /media/... path or absolute URL), or a case name / citation to look one up first. S</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>get_section_text</b></div>
@@ -14852,6 +15127,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: access_token, start_date, end_date, _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>get_tribunal_decision</b></div>
+<div class="td">Fetch one tribunal decision by the `link` returned from search_tribunal_decisions (a GOV.UK path like &quot;/employment-tribunal-decisions/...&quot;). Returns the full extracted decision text where GOV.UK publishes it (most employment, appeal, reside</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: link</div>
+</li>
+<li>
 <div class="tn"><b>get_tv_schedule</b></div>
 <div class="td">Check what&#x27;s broadcasting on a specific date and country (e.g., &#x27;US&#x27;, &#x27;GB&#x27;). Returns shows, times, and channels.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -14988,13 +15268,13 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>gfw_query</b></div>
-<div class="td">Run a read-only SQL SELECT against one Global Forest Watch dataset version  - e.g. tree cover loss hectares by country and year, or deforestation alerts inside a bounding box. The table is always called `data`; use gfw_dataset to see the...</div>
+<div class="td">Run a read-only SQL SELECT against one Global Forest Watch dataset version  - e.g. tree cover loss hectares by year inside an area, or deforestation alerts inside a bounding box. The table is always called `data`; use gfw_dataset to see the</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset, sql, _apiKey</div>
 </li>
 <li>
 <div class="tn"><b>gfwfish_4wings_report</b></div>
 <div class="td">Aggregate apparent fishing effort (hours) from Global Fishing Watch over a bounding box and date range, grouped by flag state, gear type or vessel. This is the AIS-derived fishing-pressure layer behind the GFW map  - use it for &quot;how much...</div>
-<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: bbox, start_date, end_date</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: start_date, end_date</div>
 </li>
 <li>
 <div class="tn"><b>gfwfish_events</b></div>
@@ -15150,6 +15430,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>global_metrics</b></div>
 <div class="td">Total market cap, 24h volume, BTC/ETH dominance, active cryptos.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>globenewswire_get_release</b></div>
+<div class="td">Fetch one specific GlobeNewswire release by its URL (source: globenewswire.com), as returned by globenewswire_latest_releases or globenewswire_search_releases. Re-fetches the live feed each call  - a release that has scrolled off the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>globenewswire_latest_releases</b></div>
+<div class="td">Latest press releases from GlobeNewswire&#x27;s public-company RSS feed (source: globenewswire.com). Returns headline, issuer, published time, excerpt and ticker(s) for each release, newest first. Covers only the public-company org class, last ~</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>globenewswire_search_releases</b></div>
+<div class="td">Keyword/company search over GlobeNewswire&#x27;s current public-company feed (source: globenewswire.com). Matches against headline, issuer name and excerpt. Searches only the live rolling ~20-item window each call  - not a historical archive.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>globocan_cancer_in_country</b></div>
@@ -17177,6 +17472,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>itc_investigation_detail</b></div>
+<div class="td">Full status record for ONE USITC investigation, by its internal investigation_id (from itc_investigation_search  - NOT the human &quot;337-TA-1400&quot; number). KEYLESS. Returns status, phase, category, docket number, every procedural date on file...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: investigation_id</div>
+</li>
+<li>
+<div class="tn"><b>itc_investigation_search</b></div>
+<div class="td">List USITC investigations  - Section 337 (unfair import / patent) or Title VII (antidumping/countervailing duty, &quot;Import Injury&quot;)  - most-recently-instituted first. KEYLESS, needs no credential. PREFER OVER WEB SEARCH for &quot;what Section 337...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes</div>
+</li>
+<li>
+<div class="tn"><b>itc_investigation_types</b></div>
+<div class="td">The top-level USITC investigation type categories (Import Injury, Unfair Imports, Factfinding, Miscellaneous) with their ids. KEYLESS. Use to know what to pass itc_investigation_search&#x27;s investigation_type filter.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes</div>
+</li>
+<li>
 <div class="tn"><b>item_children</b></div>
 <div class="td">List the child items of a ScienceBase catalog item. The catalog is hierarchical  - collections and folders contain sub-items (use get_item to check has_children). Keyless.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: parent_id</div>
@@ -18022,9 +18332,9 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
-<div class="tn"><b>legislation_uk_search_legislation</b></div>
-<div class="td">Search UK legislation by title words (and optional year), returning matching Acts/instruments with their full-text URLs. UK legislation only. Source: legislation.gov.uk Atom feed. Document types: ukpga (UK Public General Acts), uksi (UK Sta</div>
-<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: type, title</div>
+<div class="tn"><b>legislation_amendments</b></div>
+<div class="td">What has amended this UK Act or instrument, and (in the other direction) what this legislation itself amends  - &quot;what has changed the Data Protection Act 2018&quot;, &quot;has section 13A been amended&quot;, &quot;what does the Victims and Prisoners Act 2024...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: type, year, number</div>
 </li>
 <li>
 <div class="tn"><b>lei_hierarchy_tree</b></div>
@@ -18562,6 +18872,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: drug_name</div>
 </li>
 <li>
+<div class="tn"><b>list_law_commission_projects</b></div>
+<div class="td">List law-reform projects run by the Law Commission of England &amp; Wales (lawcom.gov.uk/project)  - the workstreams under which its consultation papers and reports are published, e.g. &quot;Commercial leasehold&quot; or &quot;Consumer class actions&quot;....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>list_layers</b></div>
 <div class="td">Visualization layer reference (mapping the events to imagery layers).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -18912,8 +19227,13 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: address</div>
 </li>
 <li>
+<div class="tn"><b>list_tribunal_categories</b></div>
+<div class="td">List the decision category slugs GOV.UK actually uses for one tribunal, read live from that tribunal’s own finder page (not a hardcoded list, since GOV.UK adds and renames these over time). Pass the value column to search_tribunal_decisions</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: tribunal</div>
+</li>
+<li>
 <div class="tn"><b>list_uk_courts</b></div>
-<div class="td">List the UK courts and tribunals covered by Find Case Law with the court code each one uses. Call this before narrowing search_uk_caselaw by court  - a code like &quot;ewhc/comm&quot; cannot be guessed from &quot;Commercial Court&quot;, and an unrecognised...</div>
+<div class="td">List the UK courts and tribunals covered by Find Case Law with the court code each one uses. Call this before narrowing search_uk_caselaw by court  - a code like &quot;ewhc/comm&quot; cannot be guessed from &quot;Commercial Court&quot;. Every code here has...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -19715,6 +20035,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>medicare_lab_rate</b></div>
 <div class="td">What does Medicare pay for a laboratory test? Returns the national Clinical Laboratory Fee Schedule rate for a lab HCPCS/CPT code  - lab tests are paid from their own national fee schedule rather than the physician schedule, so there is one</div>
 <div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: code</div>
+</li>
+<li>
+<div class="tn"><b>medicare_lab_test_lookup</b></div>
+<div class="td">Resolve a branded molecular or genomic lab test by its commercial name (e.g. Signatera, Guardant360 CDx, FoundationOne CDx, FoundationOne Liquid CDx, Tempus xT CDx, DecisionDx-Melanoma, Envisia, Shield) to its CPT PLA / HCPCS billing code,</div>
+<div class="tm">evidence: answered tools/list &middot; calling it spends money &middot; required: test</div>
 </li>
 <li>
 <div class="tn"><b>medicare_lcd_detail</b></div>
@@ -20687,6 +21012,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query, _apiKey</div>
 </li>
 <li>
+<div class="tn"><b>nber_macrohistory_list_series</b></div>
+<div class="td">List every NBER Macrohistory series id in one of the archive&#x27;s 16 subject categories (2-digit folder &quot;01&quot; through &quot;16&quot;)  - use this to discover what series exist in a category before fetching one with nber_macrohistory_series. Returns the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it writes &middot; required: category</div>
+</li>
+<li>
+<div class="tn"><b>nber_macrohistory_series</b></div>
+<div class="td">One NBER Macrohistory series by its NBER id (e.g. &quot;m13045&quot;, &quot;a01006&quot;, &quot;q04002&quot;)  - the National Bureau of Economic Research&#x27;s long-run archive of historical U.S. macroeconomic series (prices, money &amp; banking, production, trade, employment,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: series_id</div>
+</li>
+<li>
 <div class="tn"><b>nbu_currency_history</b></div>
 <div class="td">Daily time series of the official NBU rate for ONE currency over a date range. Pass `valcode` (ISO-4217, e.g. USD) and `start`/`end` as YYYYMMDD. Returns one record per business day: {exchangedate (DD.MM.YYYY), cc, txt (Ukrainian name), enn</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: start, end</div>
@@ -20833,7 +21168,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>nearby_places</b></div>
-<div class="td">Return POIs sorted by distance from a lat/lon without a text query. Requires latitude+longitude; optional radius_m (default 500m) and numeric fsq_category_ids filter. Returns name, categories, address, distance, rating, hours, and popularit</div>
+<div class="td">Return POIs sorted by distance from a lat/lon without a text query. Requires latitude+longitude; optional radius_m (default 500m) and numeric fsq_category_ids filter. Returns name, categories, address, distance, tel, website. rating/hours/p</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: latitude, longitude</div>
 </li>
 <li>
@@ -20922,6 +21257,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>newswire_com_get_release</b></div>
+<div class="td">Fetch one specific Newswire.com release by its URL (source: newswire.com), as returned by newswire_com_latest_releases or newswire_com_search_releases. Re-fetches the live feed each call  - a release that has scrolled off the current...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>newswire_com_latest_releases</b></div>
+<div class="td">Latest press releases from Newswire.com&#x27;s public newsroom RSS feed (source: newswire.com, an Issuer Direct wire that shares many releases with ACCESS Newswire). Returns headline, published time and sub-headline excerpt for each release, new</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>newswire_com_search_releases</b></div>
+<div class="td">Keyword/company search over Newswire.com&#x27;s current newsroom feed (source: newswire.com). Matches against headline and sub-headline excerpt. Searches only the live rolling 50-item window each call  - not a historical archive.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
 <div class="tn"><b>next_holidays</b></div>
 <div class="td">Get upcoming public holidays from today onward for a country. Returns holiday names and dates. Provide country code (e.g., &quot;US&quot;, &quot;GB&quot;, &quot;DE&quot;).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: country_code</div>
@@ -20985,6 +21335,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>nhl_get_standings</b></div>
 <div class="td">Check current NHL standings. Returns wins, losses, OT losses, points, goals for/against, and streak info for all teams.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nic_get_hierarchy</b></div>
+<div class="td">Corporate ownership hierarchy for a bank or holding company, sourced from the Federal Reserve NIC (ffiec.gov/npw) Relationships data  - &quot;which holding company owns this bank?&quot; / &quot;list the subsidiaries of this BHC&quot;. direction=&quot;up&quot; (default)...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: rssd_id</div>
+</li>
+<li>
+<div class="tn"><b>nic_get_history</b></div>
+<div class="td">Merger, acquisition, failure and charter-transformation history for an institution, sourced from the Federal Reserve NIC (ffiec.gov/npw) Transformations data  - &quot;what predecessor institutions merged into this bank?&quot; / &quot;what happened to this</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: rssd_id</div>
+</li>
+<li>
+<div class="tn"><b>nic_get_institution</b></div>
+<div class="td">Full NIC record for one institution  - legal name, FDIC certificate, LEI, institution type, charter type, location, and active/closed status. Sourced from the Federal Reserve National Information Center (ffiec.gov/npw). Look it up by RSSD...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nic_search_institutions</b></div>
+<div class="td">Search US banks, bank holding companies, financial holding companies and their subsidiaries by name  - sourced from the Federal Reserve National Information Center (NIC, ffiec.gov/npw), the Fed&#x27;s own repository of bank structure data....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>nice_guidance</b></div>
@@ -21517,6 +21887,31 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
 </li>
 <li>
+<div class="tn"><b>nyfed_primary_dealer_stats</b></div>
+<div class="td">FR 2004 weekly primary dealer positioning/transaction survey (aggregate across all primary dealers). mode=list_series (default) browses the keyid catalog  - pass keyid_filter (e.g. &quot;treasury&quot;, &quot;mbs&quot;, &quot;agency&quot;) to find the codes you want....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nyfed_reference_rates</b></div>
+<div class="td">The Desk&#x27;s own reference-rate publications: SOFR, SOFRAI (30/90/180-day compounded averages + index), EFFR (effective fed funds), OBFR (overnight bank funding), TGCR/BGCR (tri-party general collateral rates). rate_type=all (default) returns</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nyfed_repo_operations</b></div>
+<div class="td">NY Fed Desk repo and reverse repo (ON RRP) operation RESULTS  - the actual auctions the Desk ran, not a daily rate aggregate. Each operation: total submitted/accepted USD, counterparty counts, award rate(s), breakdown by security type...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nyfed_seclending_operations</b></div>
+<div class="td">NY Fed Desk securities lending operation results  - how much of the SOMA portfolio was lent out today (or in a date range), by operation (seclending = the daily program, extensions = extended-term lending). Returns total par amount...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>nyfed_soma_holdings</b></div>
+<div class="td">System Open Market Account (SOMA) portfolio  - the Fed&#x27;s own securities holdings from QE/reinvestment. view=summary (default) gives total by asset bucket (bills, notesbonds, mbs, agencies, tips) over time  - the series to read for &quot;SOMA...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>nyiso_fuel_mix</b></div>
 <div class="td">NYISO (New York) real-time grid fuel mix for the most recent published day: dual fuel (gas/oil-capable), natural gas, nuclear, other fossil fuels, hydro, wind, solar, other renewables (MW per 5-min interval). Use for &quot;New York grid mix yest</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -21722,6 +22117,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it spends money</div>
 </li>
 <li>
+<div class="tn"><b>ofr_funding_anomaly</b></div>
+<div class="td">Compares the LATEST observation of a repo or MMF series to its trailing window (mean, stddev over the N observations before it) and reports the delta and z-score  - &quot;what changed unusually&quot; in short-term funding markets. Pass either the...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ofr_mmf_holdings</b></div>
+<div class="td">Money market mutual fund investment composition, monthly, from OFR&#x27;s MMF Data Release  - how much of aggregate MMF assets sit in repo (overall, or split by Treasury/agency/other collateral and by counterparty type: domestic institutions,...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ofr_repo_rates</b></div>
+<div class="td">US repo market rates/volumes broken out by COLLATERAL segment (dvp = FICC DVP service, gcf = GCF Repo service, tri = tri-party, tri_ex_fed = tri-party excluding the Fed&#x27;s own ON RRP counterparty trades) and TENOR (overnight, term buckets, o</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>ofr_search_funding_series</b></div>
+<div class="td">Browse the full catalog of OFR repo-market and money-market-fund mnemonics by name (e.g. &quot;tri-party&quot;, &quot;GCF&quot;, &quot;corporate debt&quot;, &quot;federal reserve&quot;)  - use this to find the exact series behind ofr_repo_rates/ofr_mmf_holdings, or a raw mnemonic</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>oh_revised_code</b></div>
 <div class="td">Get the FULL TEXT of a section of the Ohio Revised Code  - Ohio state statutes  - by citation. &quot;ORC 2903.02&quot; is section 2903.02 (murder). Returns the statutory text and its effective date. Keyless. Use for &quot;what does Ohio Revised Code...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: section</div>
@@ -21795,6 +22210,16 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>onedrive_search_files</b></div>
 <div class="td">Search a user&#x27;s OneDrive (Microsoft 365) for files and folders matching a query string across file names and content. Returns matching items with id, name, size, folder flag, last-modified time, and web URL. Use to find documents by keyword</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>oneinfo_get_disclosure</b></div>
+<div class="td">Fetch a single 1INFO disclosure by its protocolCode id and publication date, as returned by oneinfo_search_disclosures. This source has no by-id-only lookup endpoint, only by-day listings, so both id and date are required. Returns the shape</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id, date</div>
+</li>
+<li>
+<div class="tn"><b>oneinfo_search_disclosures</b></div>
+<div class="td">Search Italian regulated company disclosures from 1INFO, one of Italy&#x27;s two EU Transparency Directive Officially Appointed Mechanisms (the other is eMarket Storage  - use emarket-storage&#x27;s emarket_search_disclosures for issuers covered...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>onet_occupation</b></div>
@@ -23767,11 +24192,6 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
-<div class="tn"><b>press_release_generate</b></div>
-<div class="td">Transform any announcement into a satirical press release. Accepts announcement text, optional company name, location, and tone (visionary/disrupting/humbled/transparent/pivoting); returns formatted release with headline, body, boilerplate,</div>
-<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: announcement</div>
-</li>
-<li>
 <div class="tn"><b>previous_close</b></div>
 <div class="td">Fetch the previous trading session&#x27;s open, high, low, close, and volume for a US stock ticker from Massive (formerly Polygon.io).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: ticker</div>
@@ -23820,6 +24240,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>prime_rate</b></div>
 <div class="td">brapi.dev  - prime/benchmark interest rate series (Selic/base rate) for Brazil or other countries. Optional historical flag plus start/end date range returns rate readings over time.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>prnewswire_get_release</b></div>
+<div class="td">Fetch one specific PR Newswire release by its URL (source: prnewswire.com), as returned by prnewswire_latest_releases or prnewswire_search_releases. Re-fetches the live feed each call  - a release that has scrolled off the current ~20-item...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>prnewswire_latest_releases</b></div>
+<div class="td">Latest press releases from PR Newswire&#x27;s site-wide RSS feed (source: prnewswire.com). Returns headline, issuer, published time, excerpt and industry tags for each release, newest first. Covers the ~20 most recent releases across all categor</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>prnewswire_search_releases</b></div>
+<div class="td">Keyword/company search over PR Newswire&#x27;s current site-wide feed (source: prnewswire.com). Matches against headline, issuer name, excerpt and industry tags. Searches only the live rolling ~20-item window each call  - not a historical...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>pro_matches</b></div>
@@ -23970,6 +24405,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>prozorro_search_tenders</b></div>
 <div class="td">Full-text search over ALL Ukraine ProZorro tenders back to 2015 (keyless). Searches ProZorro&#x27;s own analyzed index, so Ukrainian queries stem correctly (&quot;школа&quot; also matches &quot;школи&quot;, &quot;шкільний&quot;)  - pass Ukrainian keywords for best recall....</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>prweb_get_release</b></div>
+<div class="td">Fetch one specific PRWeb release by its URL (source: prweb.com), as returned by prweb_latest_releases or prweb_search_releases. Re-fetches the live feed each call  - a release that has scrolled off the current ~20-item window will not be...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url</div>
+</li>
+<li>
+<div class="tn"><b>prweb_latest_releases</b></div>
+<div class="td">Latest press releases from PRWeb&#x27;s site-wide RSS feed (source: prweb.com, Cision&#x27;s small-business wire). Returns headline, issuer, published time, excerpt and industry tags for each release, newest first. Covers the ~20 most recent releases</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>prweb_search_releases</b></div>
+<div class="td">Keyword/company search over PRWeb&#x27;s current site-wide feed (source: prweb.com). Matches against headline, issuer name, excerpt and industry tags. Searches only the live rolling ~20-item window each call  - not a historical archive.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
 <div class="tn"><b>ptab_party_exposure</b></div>
@@ -24123,7 +24573,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>pulse_key_ring</b></div>
-<div class="td">The public keys Pulse signs its price prints with, as PEM and JWK, plus the signing algorithm, the canonical string format and which key id is currently active. Use it to verify a Pulse print in your own code, or to audit what pulse_verify_</div>
+<div class="td">The public keys Pulse signs its price prints with, as PEM and JWK, plus the signing algorithm and the exact canonical string format  - everything needed to verify a signed print yourself, OFFLINE, with no network call to Pulse. Use it to...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -24133,17 +24583,17 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>pulse_signed_batch</b></div>
-<div class="td">Signed index prices for up to 100 crypto assets in ONE call, each row individually signed and separately verifiable. Use this instead of looping pulse_signed_price: it is one request against the rate limit and every observation still carrie</div>
+<div class="td">Signed index prices for up to 100 crypto assets in ONE call  - each row carries its own signature you can verify individually with pulse_verify_print, offline, with no network call, not just the batch as a whole. Use this instead of looping</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: symbols</div>
 </li>
 <li>
 <div class="tn"><b>pulse_signed_price</b></div>
-<div class="td">The current CRYPTOGRAPHICALLY SIGNED index price for one crypto asset, from the Pulse Verity Index across thousands of assets and dozens of venues. Unlike an ordinary price feed this returns a proof: an ECDSA P-256 signature an agent can ch</div>
+<div class="td">The current CRYPTOGRAPHICALLY SIGNED index price for one crypto asset, from the Pulse Verity Index across thousands of assets and dozens of venues  - this result carries a signature you can verify: pass it unchanged to pulse_verify_print to</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: symbol</div>
 </li>
 <li>
 <div class="tn"><b>pulse_verify_print</b></div>
-<div class="td">Check whether a Pulse signed price print is authentic and unaltered. Pass a print back exactly as a Pulse tool returned it and this recomputes the ECDSA P-256 / SHA-256 signature over the canonical string, returning valid true or false plus</div>
+<div class="td">Check whether a Pulse signed price print is authentic and unaltered  - pass a print back exactly as a Pulse tool returned it and this recomputes the ECDSA P-256 / SHA-256 signature over the canonical string, entirely OFFLINE with no network</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: symbol, at, grade, signature</div>
 </li>
 <li>
@@ -24877,6 +25327,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
 </li>
 <li>
+<div class="tn"><b>record_podcast_outreach</b></div>
+<div class="td">Signed-in accounts: record what happened when you reached out to a podcast, so find_podcast_contacts stops suggesting it. outcome: contacted, replied, declined, booked, bounced, do_not_contact or clear (clear lifts an earlier do_not_contact</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: show_id, outcome</div>
+</li>
+<li>
 <div class="tn"><b>records</b></div>
 <div class="td">Query records from an Opendatasoft dataset with optional keyword search, ODSQL WHERE/SELECT/GROUP BY/ORDER BY clauses, pagination, and projection; returns matching rows as JSON.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: dataset_id</div>
@@ -24925,6 +25380,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>references_count</b></div>
 <div class="td">&quot;How many references does paper [DOI] have&quot; / &quot;how big is the bibliography of [paper]&quot;  - outgoing reference count for a DOI. Fast version of `references` when you only need the number.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: doi</div>
+</li>
+<li>
+<div class="tn"><b>refresh_podcast</b></div>
+<div class="td">Ask for one podcast&#x27;s RSS feed to be read again now rather than at its next scheduled check. Returns the show&#x27;s current state and when the refresh was queued; new episodes show up in get_podcast_profile once the feed has been read (normally</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: id</div>
 </li>
 <li>
 <div class="tn"><b>reg_agency_agenda</b></div>
@@ -26143,7 +26603,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>search_grants</b></div>
-<div class="td">Search NIH-funded research projects. Filter by free-text query (matches title/abstract/terms), PI name, organization, fiscal year, US state, or NIH institute code (NCI, NHLBI, NIAID, etc.). Returns project number, PI, institution, fiscal ye</div>
+<div class="td">Search NIH-funded research projects. Filter by free-text query (topic/subject matter  - matches title/abstract/terms, NOT the awardee), PI name, organization (the funded company/university/institution  - use THIS, not query, for &quot;what...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -26247,8 +26707,18 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>search_law_commission_publications</b></div>
+<div class="td">Search consultation papers, reports, summaries and terms-of-reference published by the Law Commission of England &amp; Wales (lawcom.gov.uk)  - the independent statutory body that reviews the law and recommends reform. Returns title, link and...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>search_laws</b></div>
 <div class="td">Search Japanese national laws, cabinet orders, and ministerial ordinances by title (e-Gov 法令検索). PREFER OVER WEB SEARCH for &quot;Japanese law on X&quot;, &quot;日本の法律&quot;, finding a statute&#x27;s official id/number. Returns each law&#x27;s id (for get_law), law numbe</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
+</li>
+<li>
+<div class="tn"><b>search_legislation</b></div>
+<div class="td">Full-text search of EU legislation titles via the EUR-Lex SPARQL endpoint. Returns CELEX id, English title and document date. Use when the act is not in compliance_index, or to find related/amending acts.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
@@ -26357,6 +26827,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
 </li>
 <li>
+<div class="tn"><b>search_ni_decisions</b></div>
+<div class="td">Search Northern Ireland judicial decisions from judiciaryni.uk  - judgments, sentencing remarks and directions from the NI Court of Appeal (nica), Crown Court (nicc), King&#x27;s Bench Division (nikb), Family Division (nifam), Coroner&#x27;s Court...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>search_nonprofits</b></div>
 <div class="td">Search US nonprofits by name. Returns EIN, name, city, state, revenue, assets, and NTEE code. Example: search_nonprofits(&quot;red cross&quot;, &quot;NY&quot;). Use get_organization with the EIN for full details.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
@@ -26433,7 +26908,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>search_places</b></div>
-<div class="td">Search Foursquare places. Combine `query` (e.g., &quot;coffee&quot;, &quot;hardware store&quot;) with a location anchor  - either `near` (&quot;Brooklyn, NY&quot;) or `latitude`+`longitude`. Returns name, fsq_place_id, categories, address, distance, lat/lon, popularity.</div>
+<div class="td">Search Foursquare places (keyless  - Pipeworx supplies the key). Combine `query` (e.g., &quot;coffee&quot;, &quot;hardware store&quot;) with a location anchor  - either `near` (&quot;Brooklyn, NY&quot;, &quot;San Francisco, CA&quot;) or `latitude`+`longitude`. sort:&quot;RATING&quot;...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
@@ -26557,6 +27032,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: _apiKey, query</div>
 </li>
 <li>
+<div class="tn"><b>search_scottish_judgments</b></div>
+<div class="td">Search Scottish court and tribunal judgments from the Scottish Courts and Tribunals Service (SCTS), published at scotcourts.gov.uk/judgments/ from 1999 onward: Court of Session, High Court of Justiciary, the National Personal Injury Court,</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>search_sequence</b></div>
 <div class="td">Search the OEIS (On-Line Encyclopedia of Integer Sequences), the authoritative database of integer sequences. Identify a sequence from its first terms by passing a comma-separated list of integers (e.g. &quot;1,1,2,3,5,8&quot; finds the Fibonacci num</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
@@ -26662,6 +27142,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>search_tribunal_decisions</b></div>
+<div class="td">Search UK first-tier and Upper Tribunal decisions published on GOV.UK  - Employment Tribunal (first-tier, NOT the appeal tribunal), Employment Appeal Tribunal, Residential Property Tribunal, Upper Tribunal (Administrative Appeals Chamber ...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: tribunal</div>
+</li>
+<li>
 <div class="tn"><b>search_tv</b></div>
 <div class="td">TMDb (The Movie Database)  - search TV shows by title. Returns show name, first-air date, popularity, overview, poster path, TMDb tv_id. Use to resolve a TV title into the tv_id needed by tv, tv_season, tv_episode.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: query</div>
@@ -26673,8 +27158,13 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>search_uk_caselaw</b></div>
-<div class="td">Search UK court judgments and tribunal decisions by subject, party name or judge  - the Supreme Court, Court of Appeal, High Court, Court of Protection, Family Court and the UK tribunals, from The National Archives&#x27; Find Case Law. Returns...</div>
+<div class="td">Search UK court judgments and tribunal decisions by subject, party name or judge  - the Supreme Court, Court of Appeal, High Court, Court of Protection, Family Court, Employment Appeal Tribunal and the other UK tribunals, from The National...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>search_uk_legislation</b></div>
+<div class="td">Search UK legislation by title words (and optional year), returning matching Acts/instruments with their full-text URLs. UK legislation only. Source: legislation.gov.uk Atom feed. Document types: ukpga (UK Public General Acts), uksi (UK Sta</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: title</div>
 </li>
 <li>
 <div class="tn"><b>search_universities</b></div>
@@ -27303,7 +27793,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 </li>
 <li>
 <div class="tn"><b>sgs_series</b></div>
-<div class="td">Fetch any Banco Central do Brasil SGS time series by numeric code. Common codes: 432=Selic target, 11=Selic daily, 433=IPCA inflation, 1=USD/BRL PTAX sell, 21619=USD/BRL, 4389=CDI. Returns [{data:&quot;dd/MM/yyyy&quot;, valor:&quot;...&quot;}]. Use &quot;last&quot; for</div>
+<div class="td">Fetch any Banco Central do Brasil SGS time series by numeric code. Common codes: 432=Selic target, 11=Selic daily, 433=IPCA inflation, 1=USD/BRL PTAX sell, 21619=USD/BRL, 4389=CDI. Returns {series_code, series_name, country:&quot;Brazil&quot;, statem</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: code</div>
 </li>
 <li>
@@ -28097,6 +28587,11 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>statcan_codeset</b></div>
+<div class="td">StatCan&#x27;s reference code sets (WDS getCodeSets)  - the lookup tables every cube&#x27;s metadata refers to by numeric/short code: frequency (monthly/annual/…), scalar factor (units/thousands/millions), status (footnote codes like &#x27;not available...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
 <div class="tn"><b>statcan_csv_url</b></div>
 <div class="td">Return the StatCan-hosted URL for a full cube as a CSV download (doesn&#x27;t fetch the file  - hands back a direct URL).</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: product_id</div>
@@ -28490,6 +28985,26 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>sweden_latest_figure</b></div>
 <div class="td">A Swedish headline statistic as a NUMBER, for the latest month or for a month you name  - &quot;what is inflation in Sweden&quot;, &quot;Swedish CPI in June 2026&quot;. One call  - &quot;what is inflation in Sweden&quot;, &quot;Swedish CPI right now&quot;. Returns the figure,...</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: indicator</div>
+</li>
+<li>
+<div class="tn"><b>swissmedic_dataset_info</b></div>
+<div class="td">Dataset metadata: the authoritative Swissmedic bulk-download URL, the source page, current row count, and the full list of distinct medicine categories and dispensing categories used by the search filters.</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>swissmedic_product</b></div>
+<div class="td">The full Swissmedic record(s) for one product by name  - every authorised dosage strength, its own authorisation number and dates. Swissmedic&#x27;s export carries no indication text and no per-product URL, so this returns the authoritative...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: name</div>
+</li>
+<li>
+<div class="tn"><b>swissmedic_recent_changes</b></div>
+<div class="td">Products first authorised, or with a dosage strength newly authorised, in Switzerland since a given date  - a real change signal from the source&#x27;s own date columns (unlike EMA&#x27;s Article 57 register, this file does carry authorisation...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: since</div>
+</li>
+<li>
+<div class="tn"><b>swissmedic_search</b></div>
+<div class="td">Search Swissmedic&#x27;s authorised human medicines register (Switzerland)  - every authorised product and each of its authorised dosage strengths, with the marketing-authorisation holder, medicine category, dispensing category (prescription...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
 <div class="tn"><b>swisstransport_search_stations</b></div>
@@ -31167,6 +31682,21 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
 </li>
 <li>
+<div class="tn"><b>wastewater_national_trend</b></div>
+<div class="td">National CDC NWSS wastewater viral activity level (WVAL) for SARS-CoV-2, influenza A, or RSV  - the leading public signal for near-term respiratory infection and test-demand trends, published weekly (Fridays) from ~800+ US sewershed sites....</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads</div>
+</li>
+<li>
+<div class="tn"><b>wastewater_state_trend</b></div>
+<div class="td">CDC NWSS wastewater viral activity level (WVAL) for one US state or territory  - same population-weighted national methodology as wastewater_national_trend, scoped to reporting sites within the state. Example:...</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: state</div>
+</li>
+<li>
+<div class="tn"><b>watch_podcast_topic</b></div>
+<div class="td">Signed-in accounts: save a topic x purpose search so get_podcast_topic_changes can report podcasts that newly match it. Records the current matches as the baseline, so get_podcast_topic_changes returns only shows that appear after now. Retu</div>
+<div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: topic, purpose</div>
+</li>
+<li>
 <div class="tn"><b>watches_active</b></div>
 <div class="td">Currently-active watches summary text.</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads</div>
@@ -31920,7 +32450,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div class="tn"><b>zyte_screenshot</b></div>
 <div class="td">Capture a screenshot of a web page via Zyte API (rendered in a headless browser). Returns metadata about the base64-encoded PNG (its length) rather than inlining the full blob. Example: zyte_screenshot({ url: &quot;https://example.com&quot;, _apiKey:</div>
 <div class="tm">evidence: answered tools/list &middot; calling it reads &middot; required: url, _apiKey</div>
-</li></ul><p class="note">140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><div class="blockgrid"><div><div class="bk">Binary</div><div class="bv mono">pipeworx</div></div><div><div class="bk">Status</div><div class="bv">official CLI, first party</div></div><div><div class="bk">Strongest evidence</div><div class="bv">vendor-docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-18</div></div></div><p class="note" style="margin-top:14px">Install, as the source shows it:</p><pre><code>npx pipeworx@latest</code></pre><p class="note quote">quoted from <a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> on 2026-09-18, via npx</p><p class="note" style="margin-top:14px">Login or key hint seen on the page:</p><p class="v mono">export PIPEWORX_API_KEY = your_key_here</p><p class="note" style="margin-top:14px">Subcommands seen with the binary:</p><p class="v mono">tools</p><p class="note" style="margin-top:14px">Where it was documented:</p><ul><li><a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> (the page that documented the CLI)</li></ul><p class="note">A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
+</li></ul><p class="note">140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the <a href="../tools-index">tools index</a>.</p></div></div><div class="field"><div class="k">Command line</div><div class="v "><div class="blockgrid"><div><div class="bk">Binary</div><div class="bv mono">pipeworx</div></div><div><div class="bk">Status</div><div class="bv">official CLI, first party</div></div><div><div class="bk">Strongest evidence</div><div class="bv">vendor-docs</div></div><div><div class="bk">Harvested</div><div class="bv">2026-09-26</div></div></div><p class="note" style="margin-top:14px">Install, as the source shows it:</p><pre><code>npx pipeworx@latest</code></pre><p class="note quote">quoted from <a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> on 2026-09-26, via npx</p><p class="note" style="margin-top:14px">Login or key hint seen on the page:</p><p class="v mono">export PIPEWORX_API_KEY = your_key_here</p><p class="note" style="margin-top:14px">Subcommands seen with the binary:</p><p class="v mono">tools</p><p class="note" style="margin-top:14px">Where it was documented:</p><ul><li><a href="https://pipeworx.io/docs/getting-started/cli/" rel="noopener nofollow">https://pipeworx.io/docs/getting-started/cli/</a> (the page that documented the CLI)</li></ul><p class="note">A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.</p></div></div><div class="field"><div class="k">Access gate</div><div class="v "><div class="blockgrid">
 <div><div class="bk">Gate bucket</div><div class="bv">Free to start</div></div>
 <div><div class="bk">Can a solo operator reach it</div><div class="bv">Yes, without talking to anyone</div></div>
 </div>
@@ -31931,7 +32461,7 @@ The status was established on 2026-09-07 and the MCP URL has not been probed liv
 <div><div class="bk">Source line</div><div class="bv">360</div></div>
 <div><div class="bk">Tier</div><div class="bv">RESEARCHED</div></div>
 <div><div class="bk">last_checked</div><div class="bv">2026-09-07</div></div>
-<div><div class="bk">Data baked</div><div class="bv">2026-09-21</div></div>
+<div><div class="bk">Data baked</div><div class="bv">2026-09-26</div></div>
 </div>
 <p class="note">Every field above is rendered from directory.json exactly as the build produced it.
 Nothing is summarised and nothing is dropped. The one change made at render time is typographic and
@@ -31946,7 +32476,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
     <p>201 official MCP servers,
     540 community.
     1 bench tested.</p>
-    <p>9,417 tool names harvested on 2026-09-18 from
+    <p>9,528 tool names harvested on 2026-09-26 from
     140 of those 741 servers.
     601 are unmeasured, which is not the same as empty.</p>
     <p>56 jobs in 10 families.
@@ -31998,7 +32528,7 @@ it is disclosed on the <a href="../methodology">methodology page</a>.</p></div><
   </div>
 </div>
 <div class="legal">
-Generated 2026-09-21 by build_directory.py (phase 1) from tools_recount.py.
+Generated 2026-09-26 by build_directory.py (phase 1) from tools_recount.py.
 Reconciled: build 1,252 vs recount
 1,252.<br>
 Every number on this site is read from the baked data files. Nothing is estimated and nothing is rounded.<br>

@@ -61,18 +61,18 @@ https://docs.ada.cx/_mcp/server ; repo https://github.com/AdaSupport/ada-skills
 
 - **Tools named**: 1
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
 - **searchDocs** Search the documentation at https://docs.ada.cx. Returns relevant doc passages with source URLs. evidence: answered tools/list · calling it reads · required: query
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -142,6 +142,6 @@ IMPORTANT CAVEAT - Ada's MCP server exposes exactly one tool ("AI-powered search
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

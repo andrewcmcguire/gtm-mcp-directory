@@ -1,6 +1,6 @@
 # Detect a company's tech stack: 14 GTM tools, 11 with an official MCP server
 
-> Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset. 13 of the 14 entries tagged with this job carry an MCP server of some kind, 11 of them official. Counted 2026-09-21 from the directory data.
+> Return what software a company runs, from fingerprinting, job posts or a licensed technographic dataset. 13 of the 14 entries tagged with this job carry an MCP server of some kind, 11 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Return what software a company runs, from fingerprinting, job posts or a license
 - **no MCP found**: 1
 - **solo reachable**: 11
 
-13 of the 14 entries tagged with this job carry an MCP server of some kind, 11 of them official. 12 of the 14 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+13 of the 14 entries tagged with this job carry an MCP server of some kind, 11 of them official. 12 of the 14 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -51,7 +51,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [PredictLeads](../tools/predictleads.md) predictleads.com Aggregates five signal categories (job openings, technology detections, news events, business connections, firmographics) across 129M companies in 195 countries by scraping public web sources - company sites,... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Signals & Intent](../categories/signals-intent-abm.md)
 
-- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: prospeo (community)
+- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [TheirStack](../tools/theirstack.md) theirstack.com A job-postings and technographic-data API that tracks live job listings and the tech stack/hiring signals behind them across 195 countries (claims 223M+ jobs, 352K+ sources), queryable for GTM timing/intent... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · Cross listed, canonical home is Signals & Intent
 

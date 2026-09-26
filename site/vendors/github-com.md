@@ -1,6 +1,6 @@
 # Nuph: products, MCP servers and connect URLs, one vendor page
 
-> Nuph (github.com): 221 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 324 tools catalogued. Data baked 2026-09-21.
+> Nuph (github.com): 221 products in The GTM MCP Directory, 1 with an official MCP server, 0 answering a live handshake, 326 tools catalogued. Data baked 2026-09-26.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Nuph
 221 products in the directory
 1 official MCP server
 0 live handshakes
-Data baked 2026-09-21
+Data baked 2026-09-26
 
 Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
@@ -34,11 +34,11 @@ Vendor domain: [github.com](https://github.com) · vendor page id github-com
 
 - **Docs only**: 0 of 221: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 324 named across 9 measured servers, harvested 2026-09-18
+- **Tools catalogued**: 326 named across 9 measured servers, harvested 2026-09-26
 
 - **Bench tested**: 0 of 221 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 0 of 221 official, 0 community only, 221 none found, harvested 2026-09-18
+- **Ships a CLI**: 0 of 221 official, 0 community only, 221 none found, harvested 2026-09-26
 
 - **GitHub organisation**: [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol), tied to the domain with evidence 2026-09-08, 2026-09-15
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) (docs page)
 
-- **Tools catalogued**: 24 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 24 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-08-24
 
@@ -154,7 +154,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 9 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 9 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -170,7 +170,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 6 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 6 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -346,7 +346,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 20 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 20 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -362,7 +362,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 20 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 20 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -458,7 +458,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: not measured
+- **Tools catalogued**: 6 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -522,7 +522,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 3 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 3 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -538,7 +538,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 223 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 223 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -618,7 +618,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 4 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: not measured
 
 - **last_checked**: 2026-09-12
 
@@ -2394,7 +2394,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 15 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 15 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -3602,7 +3602,7 @@ An endpoint is where an agent connects. A docs page is where a person reads abou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -3631,4 +3631,4 @@ No organisation could be tied with evidence to the entry for [Accelo MCP by Sele
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 221 products are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-21 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-26 by build_directory.py (phase 1).

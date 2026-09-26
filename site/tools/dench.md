@@ -54,7 +54,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 - **Binary**: dench
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -62,31 +62,31 @@ Install, as the source shows it:
 npx -y -p @dench.com/cli
 ```
 
-quoted from [https://www.dench.com/docs](https://www.dench.com/docs) on 2026-09-18, via npx
+quoted from [https://www.dench.com/docs](https://www.dench.com/docs) on 2026-09-26, via npx
 
 ```
 npx because
 ```
 
-quoted from [https://www.dench.com/docs/cli/overview](https://www.dench.com/docs/cli/overview) on 2026-09-18, via npx
+quoted from [https://www.dench.com/docs/cli/overview](https://www.dench.com/docs/cli/overview) on 2026-09-26, via npx
 
 ```
 npm install -g @dench.com/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@dench.com/cli](https://www.npmjs.com/package/@dench.com/cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/@dench.com/cli](https://www.npmjs.com/package/@dench.com/cli) on 2026-09-26, via npm
 
 ```
 npm install -g dench-cli
 ```
 
-quoted from [https://www.npmjs.com/package/dench-cli](https://www.npmjs.com/package/dench-cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/dench-cli](https://www.npmjs.com/package/dench-cli) on 2026-09-26, via npm
 
 ```
 npm install -g @denchhq/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@denchhq/cli](https://www.npmjs.com/package/@denchhq/cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/@denchhq/cli](https://www.npmjs.com/package/@denchhq/cli) on 2026-09-26, via npm
 
 Login or key hint seen on the page:
 
@@ -96,7 +96,7 @@ Subcommands seen with the binary:
 
 apps, context, crm, memory, signin, status, tool
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [npm: @dench.com/cli 3.2.4](https://www.npmjs.com/package/@dench.com/cli)
 - [npm: dench-cli 0.1.16](https://www.npmjs.com/package/dench-cli)
@@ -106,7 +106,7 @@ Where it was documented:
 
 - [https://www.dench.com/docs](https://www.dench.com/docs) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -170,6 +170,6 @@ API mentioned on https://www.dench.com/developers; pricing/gate not inferred fro
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

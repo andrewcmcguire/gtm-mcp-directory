@@ -63,7 +63,7 @@
       "mcp_status_bucket": "official",
       "mcp_status_raw": "official",
       "mcp_tool_count": 25,
-      "mcp_tools_fetched_on": "2026-09-18",
+      "mcp_tools_fetched_on": "2026-09-26",
       "mcp_tools_evidence": "docs",
       "mcp_tools_repo_party": null,
       "endpoint_status": "unreachable",
@@ -93,7 +93,7 @@
       "canonical": true
     }
   ],
-  "directory_generated_on": "2026-09-21",
+  "directory_generated_on": "2026-09-26",
   "enrichment": {
     "schema_version": "enrichment-v1",
     "slug": "hubspot",

@@ -18,7 +18,6 @@ Studiomeyer CRM
 [MCP Layer](../categories/mcp-infrastructure.md)
 RESEARCHED
 Checked 2026-09-12
-CLI: agent-fleet
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -59,28 +58,11 @@ https://github.com/studiomeyer-io/studiomeyer-crm
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-- **Binary**: agent-fleet
-- **Status**: official CLI, first party
-- **Strongest evidence**: npm
-- **Harvested**: 2026-09-18
-
-Install, as the source shows it:
-
-```
-npm install -g @studiomeyer-io/agent-fleet
-```
-
-quoted from [https://www.npmjs.com/package/@studiomeyer-io/agent-fleet](https://www.npmjs.com/package/@studiomeyer-io/agent-fleet) on 2026-09-18, via npm
-
-Packages seen, with the version on 2026-09-18:
-
-- [npm: @studiomeyer-io/agent-fleet 0.3.0](https://www.npmjs.com/package/@studiomeyer-io/agent-fleet)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -148,6 +130,6 @@ mcp_status=community from discovery source github-mcp-server-topic; mcp_url is t
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

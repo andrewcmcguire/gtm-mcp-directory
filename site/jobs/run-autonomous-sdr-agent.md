@@ -1,6 +1,6 @@
 # Run an autonomous SDR agent: 16 GTM tools, 6 with an official MCP server
 
-> A packaged agent that claims to prospect, write, send and follow up with limited human input. Almost always vendor-stated and never bench-tested here. 6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-21 from the directory data.
+> A packaged agent that claims to prospect, write, send and follow up with limited human input. Almost always vendor-stated and never bench-tested here. 6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ A packaged agent that claims to prospect, write, send and follow up with limited
 - **no MCP found**: 10
 - **solo reachable**: 4
 
-6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. 12 of the 16 tagged entries are distinct products; the other 4 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+6 of the 16 entries tagged with this job carry an MCP server of some kind, 6 of them official. 12 of the 16 tagged entries are distinct products; the other 4 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -46,9 +46,9 @@ A packaged agent that claims to prospect, write, send and follow up with limited
 
 Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
 
-- [Reply.io](../tools/reply-io.md) reply.io Multichannel sales engagement platform for email, LinkedIn, call, and SMS outreach with an AI SDR product layered on top. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: reply
+- [Reply.io](../tools/reply-io.md) reply.io Multichannel sales engagement platform for email, LinkedIn, call, and SMS outreach with an AI SDR product layered on top. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md)
 
-- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound · CLI: reply
+- [Reply.io (Jason AI)](../tools/reply-io.md) reply.io A multichannel sales engagement platform whose AI layer ("Jason AI," per widely reported branding) generates outreach emails/follow-ups and automates sequencing across email, calls, and tasks. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [AI SDRs](../categories/ai-sdr-agents.md) · Cross listed, canonical home is Engagement & Outbound
 
 - [Salesforge](../tools/salesforge.md) salesforge.ai Multi-channel cold outreach platform (email + LinkedIn) with an AI SDR product ("Agent Frank") layered on top of standard sequencing. [Official MCP](../mcp/official.md) · [Paid, self-serve](../gates/paid.md) · [Engagement & Outbound](../categories/engagement-outbound.md) · CLI: forge
 

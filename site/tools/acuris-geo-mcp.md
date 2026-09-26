@@ -59,7 +59,7 @@ https://github.com/Acuris-GmbH/acuris-mcp
 
 - **Tools named**: 8
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: Acuris-GmbH/acuris-mcp
 - **Whose repo**: third-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -84,14 +84,14 @@ This list came from a repo the vendor does not own. Those are that author's tool
 
 - **validate_addresses_batch** No description was recorded with the name. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: acuris-geo
 - **Status**: official CLI, first party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -99,13 +99,13 @@ Install, as the source shows it:
 pip install acuris-geo
 ```
 
-quoted from [https://pypi.org/project/acuris-geo/](https://pypi.org/project/acuris-geo/) on 2026-09-18, via pypi
+quoted from [https://pypi.org/project/acuris-geo/](https://pypi.org/project/acuris-geo/) on 2026-09-26, via pypi
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [pypi: acuris-geo 0.1.0](https://pypi.org/project/acuris-geo/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -171,6 +171,6 @@ Homepage fetch failed (HTTPError 406); what_it_does used staging desc. API menti
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

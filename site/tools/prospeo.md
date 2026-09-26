@@ -18,7 +18,6 @@ Prospeo
 [Data & Enrichment](../categories/data-enrichment.md)
 RESEARCHED
 Checked 2026-09-03
-CLI: prospeo (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -61,7 +60,7 @@ https://github.com/prospeo-v2/prospeo-mcp-server
 
 - **Tools named**: 8
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: prospeo-v2/prospeo-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -84,30 +83,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **search_suggestions** Resolve canonical filter values BEFORE building a search. Free - no credit cost. evidence: in the server source · calling it reads
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
-
-- **Binary**: prospeo
-- **Status**: community CLI, third party
-- **Strongest evidence**: npm
-- **Harvested**: 2026-09-18
-
-Install, as the source shows it:
-
-```
-npm install -g prospeo-cli
-```
-
-quoted from [https://www.npmjs.com/package/prospeo-cli](https://www.npmjs.com/package/prospeo-cli) on 2026-09-18, via npm, a third party source
-
-Packages seen, with the version on 2026-09-18:
-
-- [npm: prospeo-cli 0.2.0, third party](https://www.npmjs.com/package/prospeo-cli)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -203,6 +183,6 @@ Confirmed as a Clay "data provider" (native waterfall integration), a separate i
 
 - **last_checked**: 2026-09-03
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

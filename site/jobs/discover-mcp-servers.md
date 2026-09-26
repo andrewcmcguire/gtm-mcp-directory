@@ -1,6 +1,6 @@
 # Discover MCP servers: 5 GTM tools, 1 with an official MCP server
 
-> Search or browse a registry of MCP servers. The meta-job this whole directory also performs. 1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. Counted 2026-09-21 from the directory data.
+> Search or browse a registry of MCP servers. The meta-job this whole directory also performs. 1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Search or browse a registry of MCP servers. The meta-job this whole directory al
 - **no MCP found**: 0
 - **solo reachable**: 0
 
-1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. All 5 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+1 of the 5 entries tagged with this job carry an MCP server of some kind, 1 of them official. All 5 tagged entries are distinct products. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -51,7 +51,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Smithery](../tools/smithery.md) smithery.ai A registry and distribution marketplace for MCP servers - "publish once, install anywhere" - that indexes and distributes third-party servers rather than hosting them itself, plus an integrated... [MCP not applicable](../mcp/n-a.md) · [Free to start](../gates/free.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: smithery
 
-- [Glama (MCP directory)](../tools/glama.md) glama.ai A large searchable registry/catalog of open-source MCP servers (77,000+ listed as of this check), filterable by language, hosting type (remote/local/hybrid), capability, and category; also offers separate... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Glama (MCP directory)](../tools/glama.md) glama.ai A large searchable registry/catalog of open-source MCP servers (77,000+ listed as of this check), filterable by language, hosting type (remote/local/hybrid), capability, and category; also offers separate... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: glama-submit (community)
 
 ### Next to this job
 

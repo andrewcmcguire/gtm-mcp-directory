@@ -1,6 +1,6 @@
 # Which GTM categories are most agent reachable? The 15 layers, ranked by coverage
 
-> MCP Layer leads at 98% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-21.
+> MCP Layer leads at 98% MCP coverage. Enablement & Coaching is last. The full ranking across 15 categories, counted 2026-09-26.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -38,7 +38,7 @@ MCP Layer is the most agent reachable category at 261 of 266 entries with a serv
 | 14 | [AI SDRs](../categories/ai-sdr-agents.md) | 31% | 8 | 12 | 65 |
 | 15 | [Enablement & Coaching](../categories/enablement-coaching.md) | 11% | 2 | 5 | 62 |
 
-Counted 2026-09-21 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
+Counted 2026-09-26 from the category blocks in directory.json. Reachable means an official or community MCP server was found on the date the entry was checked.
 
 ## The inversion
 
@@ -59,7 +59,7 @@ Build the agent driven parts of a stack from the top of that table, and expect t
 - [The GTM MCP Directory, by category](../categories/index.md) this site
 - [The GTM MCP Directory, the counted data](../data.md) this site
 
-Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-21. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
+Every number on this page is generated from directory.json at build time and carries the date it was baked: 2026-09-26. Nothing is typed by hand, nothing is rounded, and nothing is estimated. The underlying data is [published in full](../data.md). Where the honest answer is a zero, the zero is printed.
 
 ## Related questions
 

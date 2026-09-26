@@ -56,13 +56,34 @@ https://github.com/ljdigital/au-bizintel-mcp
 
 **What this server exposes**
 
-Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
+- **Tools named**: 6
+- **Strongest evidence**: in the server source
+- **Harvested**: 2026-09-26
+- **Repo read**: ljdigital/au-bizintel-mcp
+- **Whose repo**: third-party
+- **Catalogue shape**: a fixed catalogue the vendor publishes
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
+A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
+
+This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
+
+- **abn_lookup** Look up an Australian business by ABN. Returns entity name, type, GST status, trading names, and location. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **acn_lookup** Look up an Australian company by ACN (Australian Company Number). evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **check_gst_status** Check if an Australian business is registered for GST. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **get_entity_details** Get full entity profile for an Australian business as structured JSON. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **research_prospect** AI-powered prospect intelligence. Given a business name or ABN, returns a full profile including business history, location, GST status, and an AI-generated opportunity assessment with specific AI use cases for that business type. Use this evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+- **search_business** Search for Australian businesses by name. Returns matching entities with ABN, type, and location. evidence: in the server source · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
+
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -131,6 +152,6 @@ mcp_status=community from official-mcp-registry listing; not an invented officia
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -53,8 +53,8 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 - **Binary**: dust
 - **Status**: official CLI, first party
-- **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -62,25 +62,13 @@ Install, as the source shows it:
 npm install -g @dust-tt/dust-cli
 ```
 
-quoted from [https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli](https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/@dust-tt/dust-cli](https://www.npmjs.com/package/@dust-tt/dust-cli) on 2026-09-26, via npm
 
-Login or key hint seen on the page:
-
-dust login
-
-Subcommands seen with the binary:
-
-cache:clear, chat, help, login, logout, skill:init, status
-
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [npm: @dust-tt/dust-cli 0.4.6](https://www.npmjs.com/package/@dust-tt/dust-cli)
 
-Where it was documented:
-
-- [https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli](https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli) (the page that documented the CLI)
-
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -142,6 +130,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

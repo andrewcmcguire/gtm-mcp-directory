@@ -18,6 +18,7 @@ Phonic
 [Conversation Intel](../categories/conversation-intel.md)
 RESEARCHED
 Checked 2026-09-12
+CLI: phonic
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -50,7 +51,24 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+- **Binary**: phonic
+- **Status**: official CLI, first party
+- **Strongest evidence**: npm
+- **Harvested**: 2026-09-26
+
+Install, as the source shows it:
+
+```
+npm install -g @phonic-ai/cli
+```
+
+quoted from [https://www.npmjs.com/package/@phonic-ai/cli](https://www.npmjs.com/package/@phonic-ai/cli) on 2026-09-26, via npm
+
+Packages seen, with the version on 2026-09-26:
+
+- [npm: @phonic-ai/cli 0.0.7](https://www.npmjs.com/package/@phonic-ai/cli)
+
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -113,6 +131,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

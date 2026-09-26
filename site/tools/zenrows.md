@@ -54,7 +54,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 - **Binary**: zenrows
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -62,13 +62,13 @@ Install, as the source shows it:
 npx -y @zenrows/cli
 ```
 
-quoted from [https://docs.zenrows.com/cli/introduction](https://docs.zenrows.com/cli/introduction) on 2026-09-18, via npx
+quoted from [https://docs.zenrows.com/cli/introduction](https://docs.zenrows.com/cli/introduction) on 2026-09-26, via npx
 
 ```
 npm install -g @zenrows/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@zenrows/cli](https://www.npmjs.com/package/@zenrows/cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/@zenrows/cli](https://www.npmjs.com/package/@zenrows/cli) on 2026-09-26, via npm
 
 Login or key hint seen on the page:
 
@@ -79,7 +79,7 @@ Where it was documented:
 
 - [https://docs.zenrows.com/cli/introduction](https://docs.zenrows.com/cli/introduction) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -143,6 +143,6 @@ API mentioned on https://www.zenrows.com/docs; pricing/gate not inferred from pr
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

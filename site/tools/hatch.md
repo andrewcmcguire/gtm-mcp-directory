@@ -18,7 +18,7 @@ Hatch
 [Engagement & Outbound](../categories/engagement-outbound.md)
 RESEARCHED
 Checked 2026-09-12
-CLI: hatch-cli (community)
+CLI: hatchcli (community)
 
 > **RESEARCHED** Facts from public sources with URLs. No usage claims. Nobody has run this tool. The other tier is BENCH-TESTED, which means Andrew personally ran the tool on a stated date and cannot be bought at any price. Across the whole directory that count is 1.
 
@@ -53,39 +53,39 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 
 This is a third party's CLI. It was published by somebody other than the vendor, so it is that author's surface for the vendor's API and not the vendor's published surface. The two must not be read as the same thing.
 
-- **Binary**: hatch-cli
+- **Binary**: hatchcli
 - **Status**: community CLI, third party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
-
-```
-npm install -g hatch-cli
-```
-
-quoted from [https://www.npmjs.com/package/hatch-cli](https://www.npmjs.com/package/hatch-cli) on 2026-09-18, via npm, a third party source
 
 ```
 npm install -g @ai-wise/hatchcli
 ```
 
-quoted from [https://www.npmjs.com/package/@ai-wise/hatchcli](https://www.npmjs.com/package/@ai-wise/hatchcli) on 2026-09-18, via npm, a third party source
+quoted from [https://www.npmjs.com/package/@ai-wise/hatchcli](https://www.npmjs.com/package/@ai-wise/hatchcli) on 2026-09-26, via npm, a third party source
+
+```
+npm install -g hatch-cli
+```
+
+quoted from [https://www.npmjs.com/package/hatch-cli](https://www.npmjs.com/package/hatch-cli) on 2026-09-26, via npm, a third party source
 
 ```
 pip install hatch-cli
 ```
 
-quoted from [https://pypi.org/project/hatch-cli/](https://pypi.org/project/hatch-cli/) on 2026-09-18, via pypi, a third party source
+quoted from [https://pypi.org/project/hatch-cli/](https://pypi.org/project/hatch-cli/) on 2026-09-26, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
-- [npm: hatch-cli 1.1.5, third party](https://www.npmjs.com/package/hatch-cli)
 - [npm: @ai-wise/hatchcli 0.5.1, third party](https://www.npmjs.com/package/@ai-wise/hatchcli)
+- [npm: hatch-cli 1.1.5, third party](https://www.npmjs.com/package/hatch-cli)
 - [pypi: hatch-cli 1.0.2, third party](https://pypi.org/project/hatch-cli/)
 - [pypi: hatch-cli 1.0.2, third party](https://pypi.org/project/hatch-cli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -148,6 +148,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -59,14 +59,14 @@ https://registry.smithery.ai/servers?page=1&pageSize=100&q=crm
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: ora
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -74,19 +74,25 @@ Install, as the source shows it:
 npx fetches
 ```
 
-quoted from [https://ora.ai/docs](https://ora.ai/docs) on 2026-09-18, via npx
+quoted from [https://ora.ai/docs](https://ora.ai/docs) on 2026-09-26, via npx
 
 ```
 npx ax
 ```
 
-quoted from [https://ora.ai/docs](https://ora.ai/docs) on 2026-09-18, via npx
+quoted from [https://ora.ai/docs](https://ora.ai/docs) on 2026-09-26, via npx
 
 ```
 npm install -g @ora-ai/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@ora-ai/cli](https://www.npmjs.com/package/@ora-ai/cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/@ora-ai/cli](https://www.npmjs.com/package/@ora-ai/cli) on 2026-09-26, via npm
+
+```
+npm install -g @ora-ai/ax
+```
+
+quoted from [https://www.npmjs.com/package/@ora-ai/ax](https://www.npmjs.com/package/@ora-ai/ax) on 2026-09-26, via npm
 
 Login or key hint seen on the page:
 
@@ -96,15 +102,16 @@ Subcommands seen with the binary:
 
 api
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [npm: @ora-ai/cli 0.7.4](https://www.npmjs.com/package/@ora-ai/cli)
+- [npm: @ora-ai/ax 0.5.3](https://www.npmjs.com/package/@ora-ai/ax)
 
 Where it was documented:
 
 - [https://ora.ai/docs](https://ora.ai/docs) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -167,6 +174,6 @@ API mentioned on https://ora.ai/docs; pricing/gate not inferred from presence al
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

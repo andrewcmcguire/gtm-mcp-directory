@@ -56,7 +56,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: suger
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 pip install suger
 ```
 
-quoted from [https://pypi.org/project/suger/](https://pypi.org/project/suger/) on 2026-09-18, via pypi, a third party source
+quoted from [https://pypi.org/project/suger/](https://pypi.org/project/suger/) on 2026-09-26, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [pypi: suger 0.2.2, third party](https://pypi.org/project/suger/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -134,6 +134,6 @@ API mentioned on https://www.suger.io/llms.txt; pricing/gate not inferred from p
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

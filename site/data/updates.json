@@ -12,14 +12,14 @@
   ],
   "language": "en",
   "_gtm": {
-    "generated_on": "2026-09-21",
+    "generated_on": "2026-09-26",
     "source_of_record_for_counts": "directory.json",
     "source_of_record_for_digests": "directory/digests/",
     "directory_counts": {
       "entries": 1252,
       "official_servers": 201,
       "community_servers": 540,
-      "as_of": "2026-09-21"
+      "as_of": "2026-09-26"
     },
     "files_on_disk": {
       "daily": 9,

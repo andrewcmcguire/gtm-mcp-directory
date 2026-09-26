@@ -1,6 +1,6 @@
 # Every GTM vendor, A to Z: 978 vendors with their MCP servers
 
-> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-21.
+> All 978 vendors in The GTM MCP Directory, one page each, with product count, official MCP servers, live handshakes and tools catalogued. Data baked 2026-09-26.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -13,7 +13,7 @@
 
 ## Every vendor in the directory.
 
-978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-21. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,866 tools catalogued across their servers, gateways excluded, harvested 2026-09-18. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
+978 vendors behind 1,236 unique products, grouped by vendor domain, data baked 2026-09-26. Between them: 190 products with an official MCP server as recorded by hand (the directory's entry count is 201 of 1,252, because a cross listed product carries its status in two categories and is counted once here), 27 products answering a live MCP handshake on 2026-09-04, and 2,871 tools catalogued across their servers, gateways excluded, harvested 2026-09-26. A vendor page URL is the domain with its dots turned to hyphens: hubspot.com is at vendors/hubspot-com.
 
 Official servers, live handshakes and tools are counts of products, not verdicts. A live handshake is liveness on the probe date and nothing more. A catalogued tool has been named by a server, not called. 1 of 1,252 entries in the whole directory are bench tested.
 
@@ -93,7 +93,7 @@ A
 | [Anymail Finder](anymailfinder-com.md) | anymailfinder.com | 1 | 1 | 1 | 0 |
 | [Anyquery](anyquery-dev.md) | anyquery.dev | 1 | 0 | 0 | 0 |
 | [Apideck](apideck-com.md) | apideck.com | 1 | 1 | 0 | 25 |
-| [Apify](apify-com.md) | apify.com | 3 | 1 | 0 | 27 |
+| [Apify](apify-com.md) | apify.com | 3 | 1 | 0 | 30 |
 | [Apify Actors MCP](mcp-apify-com.md) | mcp.apify.com | 1 | 0 | 0 | 0 |
 | [Apollo-Salesforce Mapper MCP](cf-worker-selbyventurecap-workers-dev.md) | cf-worker.selbyventurecap.workers.dev | 1 | 0 | 0 | 1 |
 | [Apollo.io](apollo-io.md) | apollo.io | 2 | 2 | 0 | 40 |
@@ -700,7 +700,7 @@ N
 | [Nooks](nooks-ai.md) | nooks.ai | 1 | 1 | 1 | 0 |
 | [Noto CRM](no-to-fr.md) | no-to.fr | 1 | 0 | 0 | 0 |
 | [numbrU Client Compass](numbru-com.md) | numbru.com | 1 | 0 | 0 | 0 |
-| [Nuph](github-com.md) | github.com | 221 | 1 | 0 | 324 |
+| [Nuph](github-com.md) | github.com | 221 | 1 | 0 | 326 |
 | [Nutshell CRM](nutshell-com.md) | nutshell.com | 1 | 1 | 0 | 0 |
 | [Nynch MCP](nynch-com.md) | nynch.com | 1 | 0 | 0 | 0 |
 

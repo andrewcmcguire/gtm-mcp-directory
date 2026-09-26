@@ -58,7 +58,7 @@ https://api.onsa.ai/api/mcp
 
 - **Tools named**: 13
 - **Strongest evidence**: answered tools/list
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Catalogue shape**: a fixed catalogue the vendor publishes
 
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
@@ -79,7 +79,7 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **list_campaigns** Lists the campaigns (past lead searches) in this workspace that the user takes part in, newest first. Returns the newest `limit` of them, default 50; `returned` against `total` shows whether older campaigns were omitted. Each entry has id, evidence: answered tools/list · calling it reads
 
-- **list_next_steps** Returns what this campaign still needs from a human, as a ranked to-do list: people who replied, people who accepted an invite but were never messaged, drafts waiting for approval, leads found but never contacted, and setup that is missing. evidence: answered tools/list · calling it reads · required: campaignId
+- **list_next_steps** Returns read-only guidance for what to do next. Without campaignId, it returns the first-search question, active search progress, or campaign names and statuses to choose from. A single accessible campaign is resolved automatically. With ca evidence: answered tools/list · calling it reads
 
 - **list_pending_outreach** Lists outreach messages the agent has drafted that are waiting for a human to approve - the 'a message for X is ready' queue. Each entry carries the draft text, the lead it is for, and why that lead scored as it did. Omitting campaignId cov evidence: answered tools/list · calling it reads
 
@@ -89,11 +89,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **send_outreach** Queues one already-approved outreach draft for delivery to a real person on LinkedIn. It requires `confirmText`, the draft body character-for-character as stored, and `confirmName`, the recipient's name: drafts are often near-identical betw evidence: answered tools/list · calling it reads · required: leadId, confirmText, confirmName
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -154,6 +154,6 @@ Homepage fetch failed (HTTPError 401); what_it_does used staging desc. mcp_statu
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

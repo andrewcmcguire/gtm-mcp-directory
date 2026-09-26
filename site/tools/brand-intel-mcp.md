@@ -56,30 +56,13 @@ https://github.com/FoundryNet/brand-intel-mcp
 
 **What this server exposes**
 
-- **Tools named**: 4
-- **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-18
-- **Repo read**: FoundryNet/brand-intel-mcp
-- **Whose repo**: third-party
-- **Catalogue shape**: a fixed catalogue the vendor publishes
+Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
-
-This list came from a repo the vendor does not own. Those are that author's tools for the vendor's API, not the vendor's own published surface, and the two must not be read as the same thing.
-
-- **batch_enrich** $0.01/domain (min $0.05) evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **domain_age** **free** evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **domain_profile** $0.02 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-- **tech_stack** $0.01 evidence: in a README table · calling it reads · from a third party repo, so these are that author's tools, not the vendor's published surface
-
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -148,6 +131,6 @@ mcp_status=community from discovery source github-mcp-server-topic; mcp_url is t
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

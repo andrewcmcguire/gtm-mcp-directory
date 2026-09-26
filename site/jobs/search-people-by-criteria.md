@@ -1,6 +1,6 @@
 # Search people by criteria: 24 GTM tools, 17 with an official MCP server
 
-> Query a person database by title, seniority, function, geo or company filters and get a list back. 20 of the 24 entries tagged with this job carry an MCP server of some kind, 17 of them official. Counted 2026-09-21 from the directory data.
+> Query a person database by title, seniority, function, geo or company filters and get a list back. 20 of the 24 entries tagged with this job carry an MCP server of some kind, 17 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Query a person database by title, seniority, function, geo or company filters an
 - **no MCP found**: 4
 - **solo reachable**: 17
 
-20 of the 24 entries tagged with this job carry an MCP server of some kind, 17 of them official. 22 of the 24 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+20 of the 24 entries tagged with this job carry an MCP server of some kind, 17 of them official. 22 of the 24 tagged entries are distinct products; the other 2 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -53,7 +53,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Lusha](../tools/lusha.md) lusha.com A B2B contact and company database (300M+ profiles) accessed via a browser extension, web prospecting platform, and bulk CSV/API enrichment for finding direct dials, emails, and company data. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
-- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: prospeo (community)
+- [Prospeo](../tools/prospeo.md) prospeo.io A B2B contact database/lookup tool that finds verified work emails and mobile phone numbers for a given person or domain and returns basic firmographic data (headcount, industry, tech stack) for companies;... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md)
 
 - [ZoomInfo](../tools/zoominfo.md) zoominfo.com A B2B contact/company database and go-to-market platform (500M+ contacts, 100M+ companies) built from web crawling, public filings, and human researchers, used for prospecting, account research, and lead... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Data & Enrichment](../categories/data-enrichment.md) · CLI: gtm
 

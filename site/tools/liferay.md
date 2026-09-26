@@ -54,7 +54,7 @@ The mcp_url field is empty on this entry. 417 of 1252 entries are.
 - **Binary**: liferay-npm-bundler
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -62,13 +62,13 @@ Install, as the source shows it:
 npm install -g liferay-npm-bundler
 ```
 
-quoted from [https://www.npmjs.com/package/liferay-npm-bundler](https://www.npmjs.com/package/liferay-npm-bundler) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/liferay-npm-bundler](https://www.npmjs.com/package/liferay-npm-bundler) on 2026-09-26, via npm
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [npm: liferay-npm-bundler 2.32.2](https://www.npmjs.com/package/liferay-npm-bundler)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -131,6 +131,6 @@ API mentioned on https://www.liferay.com/developers; pricing/gate not inferred f
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

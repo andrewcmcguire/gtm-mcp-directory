@@ -59,14 +59,14 @@ https://github.com/tomba-io/tomba-mcp-server
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: tomba
 - **Status**: official CLI, first party
 - **Strongest evidence**: vendor-docs
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -74,25 +74,25 @@ Install, as the source shows it:
 npm install tomba
 ```
 
-quoted from [https://tomba.io/api](https://tomba.io/api) on 2026-09-18, via npm
+quoted from [https://tomba.io/api](https://tomba.io/api) on 2026-09-26, via npm
 
 ```
 pip install tomba
 ```
 
-quoted from [https://tomba.io/api](https://tomba.io/api) on 2026-09-18, via pypi
+quoted from [https://tomba.io/api](https://tomba.io/api) on 2026-09-26, via pypi
 
 ```
 gem install tomba
 ```
 
-quoted from [https://tomba.io/api](https://tomba.io/api) on 2026-09-18, via gem
+quoted from [https://tomba.io/api](https://tomba.io/api) on 2026-09-26, via gem
 
 ```
 curl -sSL https://releases.tomba.io/install.sh | sh
 ```
 
-quoted from [https://tomba.io/cli](https://tomba.io/cli) on 2026-09-18, via shell
+quoted from [https://tomba.io/cli](https://tomba.io/cli) on 2026-09-26, via shell
 
 Login or key hint seen on the page:
 
@@ -107,7 +107,7 @@ Where it was documented:
 
 - [https://tomba.io/api](https://tomba.io/api) (the page that documented the CLI)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -175,6 +175,6 @@ API mentioned on https://tomba.io/api; pricing/gate not inferred from presence a
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

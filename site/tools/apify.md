@@ -58,9 +58,9 @@ https://mcp.apify.com (docs: https://docs.apify.com/platform/integrations/mcp; r
 
 **What this server exposes**
 
-- **Tools named**: 27
+- **Tools named**: 30
 - **Strongest evidence**: in a README table
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: apify/apify-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -68,6 +68,8 @@ https://mcp.apify.com (docs: https://docs.apify.com/platform/integrations/mcp; r
 A tool below is one the server NAMES. Nobody has called it. That is the same two tier honesty rule the rest of the directory runs on: a named tool is research, and BENCH-TESTED stays the only claim that anybody ran anything.
 
 - **abort-actor-run** runs evidence: in a README table · calling it reads
+
+- **build-actor** builds evidence: in a README table · calling it reads
 
 - **call-actor** actors evidence: in a README table · calling it reads
 
@@ -80,6 +82,10 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 - **fetch-actor-details** actors evidence: in a README table · calling it reads
 
 - **fetch-apify-docs** docs evidence: in a README table · calling it reads
+
+- **get-actor-build** builds evidence: in a README table · calling it reads
+
+- **get-actor-build-log** builds evidence: in a README table · calling it reads
 
 - **get-actor-run** runs evidence: in a README table · calling it reads
 
@@ -121,14 +127,14 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **update-schedule** schedules evidence: in a README table · calling it writes
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: apify-cli
 - **Status**: official CLI, first party
 - **Strongest evidence**: brew
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -136,13 +142,13 @@ Install, as the source shows it:
 brew install apify-cli
 ```
 
-quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-18, via brew
+quoted from [https://formulae.brew.sh/formula/apify-cli](https://formulae.brew.sh/formula/apify-cli) on 2026-09-26, via brew
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [brew: apify-cli 1.10.0](https://formulae.brew.sh/formula/apify-cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -223,6 +229,6 @@ Verified 2026-09-07: POST of an MCP initialize to https://mcp.apify.com returned
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

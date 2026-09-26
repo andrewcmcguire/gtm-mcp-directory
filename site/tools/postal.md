@@ -56,7 +56,7 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 - **Binary**: postalcli
 - **Status**: community CLI, third party
 - **Strongest evidence**: pypi
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -64,13 +64,13 @@ Install, as the source shows it:
 pip install postalcli
 ```
 
-quoted from [https://pypi.org/project/postalcli/](https://pypi.org/project/postalcli/) on 2026-09-18, via pypi, a third party source
+quoted from [https://pypi.org/project/postalcli/](https://pypi.org/project/postalcli/) on 2026-09-26, via pypi, a third party source
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [pypi: postalcli 0.0.35, third party](https://pypi.org/project/postalcli/)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -132,6 +132,6 @@ mcp_status none-found with dated probe 2026-09-12; no first-party MCP URL confir
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

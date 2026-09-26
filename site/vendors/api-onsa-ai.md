@@ -1,6 +1,6 @@
 # Onsa: products, MCP servers and connect URLs, one vendor page
 
-> Onsa (api.onsa.ai): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 13 tools catalogued. Data baked 2026-09-21.
+> Onsa (api.onsa.ai): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 13 tools catalogued. Data baked 2026-09-26.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Onsa
 1 product in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-21
+Data baked 2026-09-26
 
 Vendor domain: [api.onsa.ai](https://api.onsa.ai) · vendor page id api-onsa-ai
 
@@ -34,11 +34,11 @@ Vendor domain: [api.onsa.ai](https://api.onsa.ai) · vendor page id api-onsa-ai
 
 - **Docs only**: 0 of 1: the recorded URL is a page about the server, not the server
 
-- **Tools catalogued**: 13 named across 1 measured server, harvested 2026-09-18
+- **Tools catalogued**: 13 named across 1 measured server, harvested 2026-09-26
 
 - **Bench tested**: 0 of 1 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-18
+- **Ships a CLI**: 0 of 1 official, 0 community only, 1 none found, harvested 2026-09-26
 
 - **GitHub organisation**: none tied to api.onsa.ai with evidence on 2026-09-15
 
@@ -58,7 +58,7 @@ RESEARCHED
 
 - **Connect URL**: no connect URL recorded
 
-- **Tools catalogued**: 13 named, harvested 2026-09-18, catalogue fixed
+- **Tools catalogued**: 13 named, harvested 2026-09-26, catalogue fixed
 
 - **last_checked**: 2026-09-12
 
@@ -80,7 +80,7 @@ No product of this vendor records an MCP endpoint or docs URL that the probe cou
 
 **Command line**
 
-No CLI found for any product of this vendor by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found for any product of this vendor by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **On GitHub**
 
@@ -92,4 +92,4 @@ Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-21 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-26 by build_directory.py (phase 1).

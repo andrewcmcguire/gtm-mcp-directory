@@ -1,6 +1,6 @@
 # Enablement & Coaching tools with MCP servers: 7 of 62, counted
 
-> 7 of the 62 enablement & coaching tools in The GTM MCP Directory have an MCP server: 2 official and 5 community. The server URL, auth model and access gate for each. Counted 2026-09-21.
+> 7 of the 62 enablement & coaching tools in The GTM MCP Directory have an MCP server: 2 official and 5 community. The server URL, auth model and access gate for each. Counted 2026-09-26.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -166,4 +166,4 @@ The jobs most often tagged on the 11 tagged entries in this category.
 - [Retrieve sales content](../jobs/retrieve-sales-content.md)
 - [Draft personalized outreach](../jobs/draft-personalized-outreach.md)
 
-Counted 2026-09-21 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,252 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.
+Counted 2026-09-26 from directory.json and reconciled against tools_recount.py. Nothing on this page is hand maintained: it is a filter over the same 1,252 entries the rest of the site is built from. Ordered by the published rule: official MCP first, then community, then unknown, then n/a, then none-found; within each band gate order is free, paid, enterprise-leaning, enterprise-only, unknown; then alphabetical by name. Computed, never curated, never purchasable.

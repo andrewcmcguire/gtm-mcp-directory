@@ -1,6 +1,6 @@
 # Book a meeting: 26 GTM tools, 10 with an official MCP server
 
-> Actually put a meeting on a calendar, whether by link, invite or negotiated time. 12 of the 26 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-09-21 from the directory data.
+> Actually put a meeting on a calendar, whether by link, invite or negotiated time. 12 of the 26 entries tagged with this job carry an MCP server of some kind, 10 of them official. Counted 2026-09-26 from the directory data.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -24,7 +24,7 @@ Actually put a meeting on a calendar, whether by link, invite or negotiated time
 - **no MCP found**: 11
 - **solo reachable**: 10
 
-12 of the 26 entries tagged with this job carry an MCP server of some kind, 10 of them official. 23 of the 26 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-21 from directory.json.
+12 of the 26 entries tagged with this job carry an MCP server of some kind, 10 of them official. 23 of the 26 tagged entries are distinct products; the other 3 are the same product cross listed in a second category. 0 have been bench tested. Counted 2026-09-26 from directory.json.
 
 > **What a tag means**: A job tag means the vendor says the tool does this. It is not a test result, not proof the capability is reachable through the tool's MCP server, and not proof it is available on the gate this entry records.
 
@@ -51,7 +51,7 @@ Ordered by the published rule: official MCP first, then community, then unknown,
 
 - [Cal.com](../tools/cal-com.md) cal.com Open-source scheduling infrastructure - booking pages, event types, and a scheduling API/platform - offered both as a free, self-hostable open-source product and as hosted SaaS. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Scheduling & Routing](../categories/scheduling-routing.md)
 
-- [Calendly](../tools/calendly.md) calendly.com Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · CLI: calendly-axi (community)
+- [Calendly](../tools/calendly.md) calendly.com Prospect-facing scheduling links and booking pages that let invitees book meetings directly onto a rep's calendar based on defined availability rules. [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Scheduling & Routing](../categories/scheduling-routing.md) · CLI: calendly (community)
 
 - [Tavus](../tools/tavus.md) tavus.io Developer platform for building real-time, two-way conversational AI video agents ("Conversational Video Interface") - positioned for GTM use cases like greeting website visitors and booking meetings, not... [Official MCP](../mcp/official.md) · [Free to start](../gates/free.md) · [Video Prospecting](../categories/video-prospecting.md) · CLI: tavus-cli (community)
 

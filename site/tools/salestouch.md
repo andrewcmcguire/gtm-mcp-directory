@@ -59,14 +59,14 @@ https://registry.smithery.ai/servers?page=1&pageSize=100&q=sales
 
 Not harvested yet. Unmeasured, not empty: nobody has read this server's tool list, so this page says nothing about what it exposes.
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. The full roll up is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. The full roll up is on the [tools index](../tools-index.md).
 
 **Command line**
 
 - **Binary**: salestouch
 - **Status**: official CLI, first party
 - **Strongest evidence**: npm
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 
 Install, as the source shows it:
 
@@ -74,13 +74,13 @@ Install, as the source shows it:
 npm install -g @salestouch/cli
 ```
 
-quoted from [https://www.npmjs.com/package/@salestouch/cli](https://www.npmjs.com/package/@salestouch/cli) on 2026-09-18, via npm
+quoted from [https://www.npmjs.com/package/@salestouch/cli](https://www.npmjs.com/package/@salestouch/cli) on 2026-09-26, via npm
 
-Packages seen, with the version on 2026-09-18:
+Packages seen, with the version on 2026-09-26:
 
 - [npm: @salestouch/cli 0.1.7](https://www.npmjs.com/package/@salestouch/cli)
 
-A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-18.
+A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it. Harvest date 2026-09-26.
 
 **Access gate**
 
@@ -143,6 +143,6 @@ API mentioned on https://www.salestouch.io/docs; pricing/gate not inferred from 
 
 - **last_checked**: 2026-09-12
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

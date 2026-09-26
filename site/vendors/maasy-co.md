@@ -1,6 +1,6 @@
 # Maasy: products, MCP servers and connect URLs, one vendor page
 
-> Maasy (maasy.co): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-21.
+> Maasy (maasy.co): 1 product in The GTM MCP Directory, 0 with an official MCP server, 0 answering a live handshake, 0 tools catalogued. Data baked 2026-09-26.
 
 *Markdown twin of the HTML page at the same path. Same content, no navigation, no styling, no scripts. Links below point at other twins. Site map for machines: [llms.txt](../llms.txt). The whole dataset: [directory.json](../data/directory.json).*
 
@@ -16,7 +16,7 @@ Maasy
 1 product in the directory
 0 official MCP servers
 0 live handshakes
-Data baked 2026-09-21
+Data baked 2026-09-26
 
 Vendor domain: [maasy.co](https://maasy.co) · vendor page id maasy-co
 
@@ -38,7 +38,7 @@ Vendor domain: [maasy.co](https://maasy.co) · vendor page id maasy-co
 
 - **Bench tested**: 0 of 1 here, 1 of 1,252 across the directory
 
-- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-18
+- **Ships a CLI**: 0 of 1 official, 1 community only, 0 none found, harvested 2026-09-26
 
 - **GitHub organisation**: none tied to maasy.co with evidence on 2026-09-15
 
@@ -88,9 +88,9 @@ This is a third party's CLI. It was published by somebody other than the vendor,
 npm install -g maasy-cli
 ```
 
-quoted from [https://www.npmjs.com/package/maasy-cli](https://www.npmjs.com/package/maasy-cli) on 2026-09-18, via npm, a third party source
+quoted from [https://www.npmjs.com/package/maasy-cli](https://www.npmjs.com/package/maasy-cli) on 2026-09-26, via npm, a third party source
 
-harvested 2026-09-18, all on the [tool page](../tools/maasy.md).
+harvested 2026-09-26, all on the [tool page](../tools/maasy.md).
 
 A CLI being listed means the harvest found an install command or a package on a stated date. Nobody has run it. Every command is quoted verbatim from the URL beneath it.
 
@@ -104,4 +104,4 @@ Recorded by the harvest: not checked: gh CLI missing or not logged in.
 
 A job tag is a vendor claim: it means the vendor says the product does this, and it is not a test result. A listed tool has not been run: the catalogue says what an agent could try, not what works. 1 of 1,252 directory entries are bench tested, meaning somebody personally ran the tool on a stated date, and 0 of this vendor's 1 product are among them. There is no verdict here on whether this vendor is better than another.
 
-Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-21 by build_directory.py (phase 1).
+Vendor pages group the directory's canonical product entries by vendor_domain. The vendor name is the product display name that matches the domain when several products share it; nothing on this page is typed by hand. Data baked 2026-09-26 by build_directory.py (phase 1).

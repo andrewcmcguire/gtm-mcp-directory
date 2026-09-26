@@ -1,6 +1,6 @@
 {
   "schema_version": "company-v1",
-  "generated_on": "2026-09-21",
+  "generated_on": "2026-09-26",
   "url_base": "/gtm-directory/companies/",
   "count": 3,
   "honesty_badge_rule": "Company honesty_badge is the strongest mcp_status_bucket among linked canonical directory entries, in order official, community, unknown, none-found. n-a is ignored. Mixed products stay visible on the page; the badge does not hide a none-found sibling.",

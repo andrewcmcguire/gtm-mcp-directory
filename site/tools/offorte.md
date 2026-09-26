@@ -60,7 +60,7 @@ https://github.com/offorte/offorte-mcp-server (vendor pages: https://www.offorte
 
 - **Tools named**: 15
 - **Strongest evidence**: in the server source
-- **Harvested**: 2026-09-18
+- **Harvested**: 2026-09-26
 - **Repo read**: offorte/offorte-mcp-server
 - **Whose repo**: first-party
 - **Catalogue shape**: a fixed catalogue the vendor publishes
@@ -97,11 +97,11 @@ A tool below is one the server NAMES. Nobody has called it. That is the same two
 
 - **send_proposal** Send a proposal to its assigned contacts evidence: in the server source · calling it writes
 
-140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-18. Every name across every server is on the [tools index](../tools-index.md).
+140 of the 741 entries that record an official or community MCP server carry a harvested tool list. The other 601 are unmeasured, which is not the same as empty. Harvest last run 2026-09-26. Every name across every server is on the [tools index](../tools-index.md).
 
 **Command line**
 
-No CLI found by the 2026-09-18 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
+No CLI found by the 2026-09-26 harvest across vendor docs, npm, PyPI, Homebrew and GitHub. That is a probe result, not proof of absence.
 
 **Access gate**
 
@@ -179,6 +179,6 @@ This is a repo-local server: there is no vendor-hosted MCP endpoint to probe, so
 
 - **last_checked**: 2026-09-07
 
-- **Data baked**: 2026-09-21
+- **Data baked**: 2026-09-26
 
 Every field above is rendered from directory.json exactly as the build produced it. Nothing is summarised and nothing is dropped. The one change made at render time is typographic and it is disclosed on the [methodology page](../methodology.md).

@@ -30,7 +30,7 @@ An MCP server is not a meaningful question for this entry.
 
 - [Commsor](../tools/commsor.md) commsor.com Was a community-led-growth platform for converting professional-network relationships and referral/warm-intro paths into pipeline, directly overlapping with Common Room's positioning. [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
-- [Glama (MCP directory)](../tools/glama.md) glama.ai A large searchable registry/catalog of open-source MCP servers (77,000+ listed as of this check), filterable by language, hosting type (remote/local/hybrid), capability, and category; also offers separate... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md)
+- [Glama (MCP directory)](../tools/glama.md) glama.ai A large searchable registry/catalog of open-source MCP servers (77,000+ listed as of this check), filterable by language, hosting type (remote/local/hybrid), capability, and category; also offers separate... [MCP not applicable](../mcp/n-a.md) · [Gate unknown](../gates/unknown.md) · [MCP Layer](../categories/mcp-infrastructure.md) · CLI: glama-submit (community)
 
 - [GummySearch](../tools/gummysearch.md) gummysearch.com Was a Reddit audience-research tool that surfaced subreddit demographics, pain points, and content ideas, plus AI-generated pattern analysis over Reddit threads for customer-development research. [MCP not applicable](../mcp/n-a.md) · [Gate not applicable](../gates/n-a.md) · [Community & Dark Social](../categories/community-dark-social.md)
 
